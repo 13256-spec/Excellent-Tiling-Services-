@@ -1,0 +1,84 @@
+<section class="ets-retail-section"><div class="ets-container"><div class="ets-page-heading"><p class="ets-overline">Product supply & professional tiling</p><h1>Let's talk about your project.</h1><p>Tell us what you need, where it is going and when. We will help you work through the next step.</p></div><div class="ets-contact-layout"><aside class="ets-contact-details"><h2>A useful starting point.</h2><ol class="ets-project-steps"><li><strong>Your project</strong><p>Room, suburb, approximate area and timing.</p></li><li><strong>Your selection</strong><p>Products, quantities, dimensions or finishes you have in mind.</p></li><li><strong>Your plans</strong><p>Email photos or drawings after submitting, including your name.</p></li></ol><a class="ets-contact-number" href="tel:+61450960543">0450 960 543</a><a href="mailto:contactus@excellenttilingservice.com.au">contactus@excellenttilingservice.com.au</a></aside><div class="ets-form-panel"><p class="ets-overline">Project enquiry</p><h2>Tell us what you need.</h2><div class="ets-quote-form">{% if section.blocks.size > 0 %}
+          {% for block in section.blocks %}
+            {% render block %}
+          {% endfor %}
+        {% else %}
+          {% form 'contact', class: 'ets-quote-page__native-form' %}
+            <input type="hidden" name="contact[Enquiry type]" value="Project quote request">
+
+            {% if form.posted_successfully? %}
+              <div class="ets-quote-page__success" role="status">
+                <strong>Thanks — your project enquiry has been sent.</strong>
+                <span>ETS will review the details and contact you using the information provided.</span>
+              </div>
+            {% endif %}
+
+            {% if form.errors %}
+              <div class="ets-quote-page__errors" role="alert">{{ form.errors | default_errors }}</div>
+            {% endif %}
+
+            <div class="ets-quote-page__native-grid">
+              <label>
+                <span>Name *</span>
+                <input type="text" name="contact[name]" autocomplete="name" required>
+              </label>
+              <label>
+                <span>Email *</span>
+                <input type="email" name="contact[email]" autocomplete="email" autocapitalize="off" spellcheck="false" required>
+              </label>
+              <label>
+                <span>Phone</span>
+                <input type="tel" name="contact[phone]" autocomplete="tel">
+              </label>
+              <label>
+                <span>Suburb / postcode</span>
+                <input type="text" name="contact[Suburb / postcode]" autocomplete="postal-code">
+              </label>
+              <label>
+                <span>Project type *</span>
+                <select name="contact[Project type]" required>
+                  <option value="" selected disabled>Select project type</option>
+                  <option>Bathroom renovation</option>
+                  <option>New build</option>
+                  <option>Tiling only</option>
+                  <option>Bathroom accessories / hardware / tile supply</option>
+                  <option>Other</option>
+                </select>
+              </label>
+              <label>
+                <span>Approximate area</span>
+                <input type="text" name="contact[Approximate area]" placeholder="e.g. 25 m² or one bathroom">
+              </label>
+              <label class="ets-quote-page__native-wide">
+                <span>Preferred timing</span>
+                <input type="text" name="contact[Preferred timing]" placeholder="e.g. October, within 3 months, flexible">
+              </label>
+              <label class="ets-quote-page__native-wide">
+                <span>Project details *</span>
+                <textarea name="contact[body]" rows="7" required placeholder="Tell us what you need supplied or installed, the existing condition, finishes you like and anything else that may help us understand the job."></textarea>
+              </label>
+            </div>
+
+            <div class="ets-quote-page__native-footer">
+              <p>Have plans or photos? Email them after submitting and include your name so we can match them to this enquiry.</p>
+              <button type="submit">Send project enquiry</button>
+            </div>
+          {% endform %}
+        {% endif %}
+</div></div></div></div></section>
+{% schema %}
+{
+  "name": "ETS project enquiry",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ETS project enquiry"
+    }
+  ]
+}
+{% endschema %}

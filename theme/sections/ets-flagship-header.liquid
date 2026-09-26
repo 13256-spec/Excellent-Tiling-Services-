@@ -1,0 +1,47 @@
+{{ 'ets-brand.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'ets-flagship.js' | asset_url }}" defer></script>
+<header class="ets-store-header" data-ets-store-header>
+  {% if section.settings.topbar_text != blank %}<div class="ets-announcement"><div class="ets-container"><span>{{ section.settings.topbar_text | escape }}</span>{% if section.settings.show_phone %}<a href="tel:+61450960543">Speak to our team · 0450 960 543</a>{% endif %}</div></div>{% endif %}
+  <div class="ets-container ets-header-main">
+    <a class="ets-wordmark" href="{{ routes.root_url }}" aria-label="Excellent Tiling Services home"><img src="https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823" width="44" height="36" alt=""><span><strong>EXCELLENT</strong><small>TILING SERVICES</small></span></a>
+    <form class="ets-store-search" action="{{ routes.search_url }}" method="get" role="search"><label class="visually-hidden" for="ets-search-{{ section.id }}">Search the store</label><input id="ets-search-{{ section.id }}" type="search" name="q" placeholder="Search bathroom accessories, hardware & tiles" value="{{ search.terms | escape }}"><input type="hidden" name="type" value="product"><button type="submit" aria-label="Search">{% render 'ets-store-icon', name: 'search' %}</button></form>
+    <div class="ets-header-tools"><a class="ets-showroom-link" href="{{ pages['book-appointment'].url | default: pages['contact'].url }}">{% render 'ets-store-icon', name: 'pin' %}<span>Showroom by appointment<br><strong>Book a visit</strong></span></a>{% if shop.customer_accounts_enabled %}<a class="ets-tool" href="{{ routes.account_url }}" aria-label="Your account">{% render 'ets-store-icon', name: 'person' %}</a>{% endif %}<a class="ets-tool" href="{{ routes.cart_url }}" aria-label="Cart, {{ cart.item_count }} {{ cart.item_count | pluralize: 'item', 'items' }}">{% render 'ets-store-icon', name: 'bag' %}{% if cart.item_count > 0 %}<span class="ets-cart-number">{{ cart.item_count }}</span>{% endif %}</a></div>
+  </div>
+  <div class="ets-header-navigation"><div class="ets-container">
+    <nav class="ets-primary-nav" aria-label="Main navigation">
+      <details class="ets-mega"><summary>Bathroom & accessories <span aria-hidden="true">⌄</span></summary><div class="ets-mega-panel"><div class="ets-container ets-mega-grid"><div><p class="ets-overline">Explore the bathroom</p><div class="ets-mega-links">{% render 'ets-store-category-links' %}</div></div><a class="ets-mega-feature" href="{{ collections['accessories'].url }}">{% if collections['accessories'].image %}{{ collections['accessories'].image | image_url: width: 500 | image_tag: loading: 'lazy', widths: '250, 500', sizes: '250px', alt: '' }}{% endif %}<span>Finishing touches, all in one place. {% render 'ets-store-icon', name: 'arrow' %}</span></a></div></div></details>
+      <a href="{{ collections['hardware'].url }}"{% if collection.handle == 'hardware' %} aria-current="page"{% endif %}>Hardware</a><a href="{{ collections['tiles'].url }}"{% if collection.handle == 'tiles' %} aria-current="page"{% endif %}>Tiles</a><a href="{{ routes.collections_url }}">Shop all departments</a><a href="{{ pages['tiling-services'].url }}">Tiling services</a>
+    </nav>
+    <a class="ets-nav-enquiry" href="{{ pages['request-a-quote'].url }}">Request a quote {% render 'ets-store-icon', name: 'arrow' %}</a>
+    <details class="ets-mobile-nav"><summary>{% render 'ets-store-icon', name: 'menu' %}<span>Shop departments</span><span class="ets-mobile-nav-close" aria-hidden="true">×</span></summary><nav aria-label="Mobile navigation"><details><summary>Bathroom & accessories <span aria-hidden="true">+</span></summary><div>{% render 'ets-store-category-links' %}</div></details><a href="{{ collections['hardware'].url }}">Hardware {% render 'ets-store-icon', name: 'arrow' %}</a><a href="{{ collections['tiles'].url }}">Tiles {% render 'ets-store-icon', name: 'arrow' %}</a><a href="{{ routes.collections_url }}">All departments</a><a href="{{ pages['tiling-services'].url }}">Tiling services</a><a href="{{ pages['book-appointment'].url | default: pages['contact'].url }}">Book a showroom visit</a><a href="{{ pages['contact'].url }}">Contact</a><a href="{{ pages['request-a-quote'].url }}">Request a quote</a></nav></details>
+  </div></div>
+</header>
+{% schema %}
+{
+  "name": "ETS store header",
+  "settings": [
+    {
+      "type": "text",
+      "id": "topbar_text",
+      "label": "Announcement",
+      "default": "Showroom open by appointment only · 17A Olga Road, Maddington WA"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_phone",
+      "label": "Show phone number",
+      "default": true
+    },
+    {
+      "type": "link_list",
+      "id": "menu",
+      "label": "Additional saved menu"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ETS store header"
+    }
+  ]
+}
+{% endschema %}

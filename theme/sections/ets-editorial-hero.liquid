@@ -1,0 +1,25 @@
+{% liquid
+  assign hero_image = section.settings.image
+  assign primary_url = section.settings.primary_url | default: routes.all_products_collection_url
+%}
+<section class="ets-editorial-hero" aria-labelledby="ets-hero-{{ section.id }}">
+  <div class="ets-editorial-hero__copy">
+    <p class="ets-kicker">{{ section.settings.eyebrow | escape }}</p>
+    <h1 id="ets-hero-{{ section.id }}">{{ section.settings.heading | escape | newline_to_br }}</h1>
+    <p class="ets-editorial-hero__intro">{{ section.settings.description | escape }}</p>
+    <div class="ets-editorial-actions">
+      <a class="ets-button ets-button--primary" href="{{ primary_url }}">{{ section.settings.primary_label | escape }} <span aria-hidden="true">↗</span></a>
+      {% if section.settings.secondary_url != blank %}<a class="ets-editorial-link" href="{{ section.settings.secondary_url }}">{{ section.settings.secondary_label | escape }} <span aria-hidden="true">→</span></a>{% endif %}
+    </div>
+    <p class="ets-editorial-hero__location">{{ section.settings.location | escape }}</p>
+  </div>
+  {% if hero_image != blank %}
+    <figure class="ets-editorial-hero__media ets-editorial-hero__media--{{ section.settings.image_fit }}">
+      {{ hero_image | image_url: width: 2000 | image_tag: widths: '480, 750, 1000, 1400, 2000', sizes: '(min-width: 990px) 55vw, 100vw', loading: 'eager', fetchpriority: 'high' }}
+      {% if section.settings.caption != blank %}<figcaption>{{ section.settings.caption | escape }}</figcaption>{% endif %}
+    </figure>
+  {% endif %}
+</section>
+{% schema %}
+{"name":"ETS editorial hero","settings":[{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Considered spaces. Everyday living."},{"type":"textarea","id":"heading","label":"Heading","default":"A better bathroom.\nBegins here."},{"type":"textarea","id":"description","label":"Description","default":"Bathroomware, tiles and professional tiling. Bring your ideas together with Excellent Tiling Services in Maddington."},{"type":"image_picker","id":"image","label":"Genuine product or showroom image"},{"type":"select","id":"image_fit","label":"Image presentation","options":[{"value":"contain","label":"Complete product"},{"value":"cover","label":"Editorial crop"}],"default":"contain"},{"type":"text","id":"caption","label":"Image caption"},{"type":"text","id":"primary_label","label":"Primary link label","default":"Explore the collection"},{"type":"url","id":"primary_url","label":"Primary link"},{"type":"text","id":"secondary_label","label":"Secondary link label","default":"Visit our showroom"},{"type":"url","id":"secondary_url","label":"Secondary link"},{"type":"text","id":"location","label":"Location line","default":"Maddington, Western Australia"}],"presets":[{"name":"ETS editorial hero"}]}
+{% endschema %}

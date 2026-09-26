@@ -1,0 +1,195 @@
+{%- comment -%} ETS home. Flow: promise → trust → departments (only when stocked) → bathroomware categories → install → visit. {%- endcomment -%}
+{%- liquid
+  assign c_tiles = collections['tiles']
+  assign c_acc = collections['accessories']
+  assign c_hw = collections['hardware']
+  assign dept_count = 1
+  if c_tiles.products_count > 0
+    assign dept_count = dept_count | plus: 1
+  endif
+  if c_acc.products_count > 0
+    assign dept_count = dept_count | plus: 1
+  endif
+  if c_hw.products_count > 0
+    assign dept_count = dept_count | plus: 1
+  endif
+  assign hide_empty = false
+  if collections.all.products_count > 0
+    assign hide_empty = true
+  endif
+  assign quote_url = pages['request-a-quote'].url | default: '/pages/request-a-quote'
+-%}
+<section class="ets-home-hero">
+  <div class="ets-shell ets-home-hero__grid">
+    <div class="ets-home-hero__copy">
+      {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+      <h1>{{ section.settings.heading | escape }}</h1>
+      {%- if section.settings.lead != blank -%}<p class="ets-lead">{{ section.settings.lead | escape }}</p>{%- endif -%}
+      <div class="ets-actions">
+        <a class="ets-button ets-button--primary" href="#bathroomware">{{ section.settings.primary_label | escape }}</a>
+        <a class="ets-button ets-button--secondary" href="{{ quote_url }}">{{ section.settings.secondary_label | escape }}</a>
+      </div>
+    </div>
+    <div class="ets-home-hero__media">
+      {%- if section.settings.hero_image != blank -%}
+        {{ section.settings.hero_image | image_url: width: 1800 | image_tag: widths: '600, 900, 1200, 1500, 1800', sizes: '(min-width: 990px) 55vw, 100vw', fetchpriority: 'high', loading: 'eager', alt: section.settings.hero_image.alt | default: 'Bathroom with stone-look tiles and a timber vanity' }}
+      {%- else -%}
+        <img src="{{ 'ets-flagship-hero.jpg' | file_url }}" alt="Bathroom with stone-look tiles and a timber vanity" width="1400" height="1050" fetchpriority="high">
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+<section class="ets-trust" aria-label="Why buy from ETS">
+  <div class="ets-shell">
+    <ul class="ets-grout ets-trust__row" role="list">
+      <li class="ets-trust__item"><strong>Perth showroom</strong><p>See products in person at 17A Olga Road, Maddington, by appointment.</p></li>
+      <li class="ets-trust__item"><strong>Delivery within Australia</strong><p>Sent from Maddington. Pickup by arrangement.</p></li>
+      <li class="ets-trust__item"><strong>30-day change-of-mind returns</strong><p>Conditions and a restocking fee apply. <a class="ets-text-link" href="{{ shop.refund_policy.url | default: '/policies/refund-policy' }}">Details</a></p></li>
+      <li class="ets-trust__item"><strong>We install it too</strong><p>Professional tiling for bathrooms, floors and walls.</p></li>
+    </ul>
+  </div>
+</section>
+
+{%- if dept_count >= 3 -%}
+<section class="ets-departments" id="shop">
+  <div class="ets-shell">
+    <div class="ets-section-heading">
+      <div><h2>What are you shopping for?</h2></div>
+    </div>
+    <div class="ets-grout ets-dept-grid">
+      <a class="ets-dept" href="#bathroomware">
+        <span class="ets-dept__media"><img src="{{ 'ets-flagship-stone-vanity.jpg' | file_url }}" alt="" width="900" height="1100" loading="lazy"></span>
+        <span class="ets-dept__body"><strong>Bathroomware</strong><span>Vanities, tapware, basins, baths, toilets, mirrors and screens</span></span>
+      </a>
+      {%- if c_tiles.products_count > 0 -%}
+        <a class="ets-dept" href="{{ c_tiles.url }}">
+          <span class="ets-dept__media"><img src="{{ 'ets-flagship-tile-samples.jpg' | file_url }}" alt="" width="900" height="1100" loading="lazy"></span>
+          <span class="ets-dept__body"><strong>Tiles</strong><span>Floor and wall tiles, with an m² calculator on every tile</span></span>
+        </a>
+      {%- endif -%}
+      {%- if c_acc.products_count > 0 -%}
+        <a class="ets-dept" href="{{ c_acc.url }}">
+          <span class="ets-dept__media ets-dept__media--product">{% if c_acc.image %}{{ c_acc.image | image_url: width: 700 | image_tag: widths: '350, 500, 700', sizes: '(min-width: 990px) 22vw, 45vw', loading: 'lazy', alt: '' }}{% endif %}</span>
+          <span class="ets-dept__body"><strong>Bathroom Accessories</strong><span>Towel rails, holders, hooks and wastes</span></span>
+        </a>
+      {%- endif -%}
+      {%- if c_hw.products_count > 0 -%}
+        <a class="ets-dept" href="{{ c_hw.url }}">
+          <span class="ets-dept__media ets-dept__media--product">{% if c_hw.image %}{{ c_hw.image | image_url: width: 700 | image_tag: widths: '350, 500, 700', sizes: '(min-width: 990px) 22vw, 45vw', loading: 'lazy', alt: '' }}{% else %}<span class="ets-dept__mark" aria-hidden="true"></span>{% endif %}</span>
+          <span class="ets-dept__body"><strong>Hardware</strong><span>Hardware for your renovation</span></span>
+        </a>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+{%- assign cat_handles = 'bathroom-vanities,tapware,basins,baths,toilets,mirrors,shower-screens,accessories,kitchen-laundry' | split: ',' -%}
+{%- assign cat_names = 'Vanities,Tapware,Basins,Baths,Toilets,Mirrors & Cabinets,Shower Screens,Accessories,Kitchen & Laundry' | split: ',' -%}
+<section class="ets-home-categories" id="bathroomware">
+  <div class="ets-shell">
+    <div class="ets-section-heading">
+      <div><h2>Everything for the bathroom</h2></div>
+      <a class="ets-text-link" href="{{ routes.all_products_collection_url }}">View all products</a>
+    </div>
+    <div class="ets-grout ets-category-grid">
+      {%- assign shown = 0 -%}
+      {%- for h in cat_handles -%}
+        {%- assign c = collections[h] -%}
+        {%- if c == blank -%}{%- continue -%}{%- endif -%}
+        {%- if hide_empty and c.products_count == 0 -%}{%- continue -%}{%- endif -%}
+        {%- if dept_count >= 3 and h == 'accessories' -%}{%- continue -%}{%- endif -%}
+        {%- if shown >= 8 -%}{%- break -%}{%- endif -%}
+        {%- assign shown = shown | plus: 1 -%}
+        <a class="ets-category-card" href="{{ c.url }}">
+          <div class="ets-category-card__image{% if c.image %} ets-category-card__image--product{% endif %}">
+            {%- if c.image -%}
+              {{ c.image | image_url: width: 700 | image_tag: widths: '350, 500, 700', sizes: '(min-width: 990px) 22vw, 45vw', loading: 'lazy', alt: cat_names[forloop.index0] | append: ' at Excellent Tiling Services' }}
+            {%- else -%}
+              <img src="{{ 'ets-flagship-bathroom.jpg' | file_url }}" alt="{{ cat_names[forloop.index0] }} at Excellent Tiling Services" width="900" height="675" loading="lazy">
+            {%- endif -%}
+          </div>
+          <span class="ets-category-card__label">{{ cat_names[forloop.index0] }}</span>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="ets-home-service">
+  <div class="ets-shell ets-home-service__grid">
+    <div class="ets-home-service__media"><img src="{{ 'ets-flagship-walkin-shower.jpg' | file_url }}" alt="Walk-in shower tiled by Excellent Tiling Services" width="1200" height="900" loading="lazy"></div>
+    <div class="ets-home-service__copy">
+      <h2>Pick the products. We'll lay the tiles.</h2>
+      <p>Bathrooms, wet areas, floors, walls and splashbacks across Perth. Choose your products here, then let the same team handle the install.</p>
+      <div class="ets-actions ets-actions--flush">
+        <a class="ets-button ets-button--primary" href="{{ quote_url }}">Request a quote</a>
+        <a class="ets-button ets-button--secondary" href="{{ pages['tiling-services'].url | default: '/pages/tiling-services' }}">Our tiling work</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="ets-home-showroom">
+  <div class="ets-shell ets-home-showroom__inner">
+    <div><h2>Come and see it in person</h2></div>
+    <div class="ets-home-showroom__details">
+      <p>17A Olga Road, Maddington WA 6109</p>
+      <p><a href="tel:+61450960543">0450 960 543</a> &nbsp;<a href="mailto:contactus@excellenttilingservice.com.au">Email us</a></p>
+    </div>
+    <a class="ets-button ets-button--secondary" href="https://www.google.com/maps/search/?api=1&query=17A+Olga+Road+Maddington+WA+6109" target="_blank" rel="noopener">Get directions<span class="visually-hidden"> (opens in a new tab)</span></a>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "ETS flagship home",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Hero"
+    },
+    {
+      "type": "image_picker",
+      "id": "hero_image",
+      "label": "Image",
+      "info": "Use a real ETS or supplier bathroom photograph. Leave empty to keep the current image."
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow (optional)"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Bathroomware for Perth renovations"
+    },
+    {
+      "type": "textarea",
+      "id": "lead",
+      "label": "Intro",
+      "default": "Vanities, tapware, basins, baths, mirrors and accessories from our Maddington showroom. Need it installed too? Our own tilers handle that across Perth."
+    },
+    {
+      "type": "text",
+      "id": "primary_label",
+      "label": "Primary button label",
+      "default": "Shop bathroomware"
+    },
+    {
+      "type": "text",
+      "id": "secondary_label",
+      "label": "Secondary button label",
+      "default": "Request a quote"
+    }
+  ],
+  "presets": [
+    {
+      "name": "ETS flagship home"
+    }
+  ]
+}
+{% endschema %}

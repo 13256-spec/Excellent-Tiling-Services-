@@ -1,0 +1,37 @@
+{%- liquid
+  assign crumb_parent = collection
+  if crumb_parent == blank
+    for c in product.collections
+      if c.handle != 'all' and c.products_count > 0
+        assign crumb_parent = c
+        break
+      endif
+    endfor
+  endif
+-%}
+
+<div class="ets-shell ets-product-crumbs">
+  {% render 'ets-breadcrumbs', parent: crumb_parent, current_title: product.title, current_url: product.url %}
+</div>
+
+{% stylesheet %}
+  .ets-product-crumbs{padding-top:20px}
+  .ets-product-crumbs .ets-crumbs{margin:0}
+  @media (max-width:749px){.ets-product-crumbs{padding-top:14px}}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS breadcrumbs",
+  "tag": "div",
+  "settings": [],
+  "enabled_on": {
+    "templates": ["product"]
+  },
+  "presets": [
+    {
+      "name": "ETS breadcrumbs"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,110 @@
+<section class="ets-retail-section ets-departments-section"><div class="ets-container"><div class="ets-section-head"><div><p class="ets-overline">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape }}</h2></div><p>{{ section.settings.description | escape }}</p></div><div class="ets-department-features">
+{% for block in section.blocks %}{% assign department = block.settings.collection %}{% if department != blank %}<article class="ets-department-feature ets-department-feature--{{ block.settings.tone }}" {{ block.shopify_attributes }}><div class="ets-department-feature-top"><span class="ets-overline">{{ block.settings.eyebrow | escape }}</span>{% render 'ets-store-icon', name: block.settings.icon %}</div>{% if block.settings.image != blank %}<div class="ets-department-feature-image">{{ block.settings.image | image_url: width: 1000 | image_tag: widths: '480, 750, 1000', sizes: '(min-width: 750px) 45vw, 100vw', loading: 'lazy' }}</div>{% endif %}<h3>{{ block.settings.title | default: department.title | escape }}</h3><p>{{ block.settings.description | escape }}</p><div class="ets-department-feature-bottom"><a class="ets-link" href="{{ department.url }}">{{ block.settings.label | escape }} {% render 'ets-store-icon', name: 'arrow' %}</a><span>{{ block.settings.note | escape }}</span></div></article>{% endif %}{% endfor %}
+</div></div></section>
+{% schema %}
+{
+  "name": "ETS hardware and tiles",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Build the whole picture"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "More than the finishing touches."
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "From the surface you choose to the hardware behind it, give every part of your project the attention it deserves."
+    }
+  ],
+  "max_blocks": 3,
+  "blocks": [
+    {
+      "type": "department",
+      "name": "Department",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "text",
+          "id": "eyebrow",
+          "label": "Eyebrow"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Link label",
+          "default": "Explore the department"
+        },
+        {
+          "type": "text",
+          "id": "note",
+          "label": "Supporting note"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Genuine department image"
+        },
+        {
+          "type": "select",
+          "id": "tone",
+          "label": "Colour",
+          "options": [
+            {
+              "value": "ink",
+              "label": "Ink"
+            },
+            {
+              "value": "stone",
+              "label": "Stone"
+            }
+          ],
+          "default": "stone"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "label": "Icon",
+          "options": [
+            {
+              "value": "tiles",
+              "label": "Tiles"
+            },
+            {
+              "value": "hardware",
+              "label": "Hardware"
+            }
+          ],
+          "default": "tiles"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ETS hardware and tiles"
+    }
+  ]
+}
+{% endschema %}

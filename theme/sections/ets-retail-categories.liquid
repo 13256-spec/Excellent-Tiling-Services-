@@ -1,0 +1,67 @@
+<section class="ets-retail-section"><div class="ets-container"><div class="ets-section-head"><div><p class="ets-overline">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape }}</h2></div>{% if section.settings.link != blank %}<a class="ets-link" href="{{ section.settings.link }}">{{ section.settings.link_label | escape }} {% render 'ets-store-icon', name: 'arrow' %}</a>{% endif %}</div><div class="ets-category-tiles">
+{% for block in section.blocks %}{% assign item = block.settings.collection %}{% assign item_image = block.settings.image | default: item.image | default: item.products.first.featured_image %}{% if item != blank %}<a class="ets-category-tile" href="{{ item.url }}" {{ block.shopify_attributes }}>{% if item_image != blank %}<span class="ets-category-tile-image">{{ item_image | image_url: width: 600 | image_tag: widths: '240, 400, 600', sizes: '(min-width: 990px) 16vw, (min-width: 600px) 30vw, 45vw', loading: 'lazy', alt: '' }}</span>{% endif %}<span class="ets-category-tile-title">{{ block.settings.title | default: item.title | escape }} {% render 'ets-store-icon', name: 'arrow' %}</span></a>{% endif %}{% endfor %}
+</div>{% if section.settings.note != blank %}<p class="ets-section-note">{{ section.settings.note | escape }}</p>{% endif %}</div></section>
+{% schema %}
+{
+  "name": "ETS shop categories",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Find what you need"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Small details. A complete bathroom."
+    },
+    {
+      "type": "text",
+      "id": "link_label",
+      "label": "Link label",
+      "default": "All bathroom accessories"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    },
+    {
+      "type": "textarea",
+      "id": "note",
+      "label": "Optional supporting note"
+    }
+  ],
+  "max_blocks": 12,
+  "blocks": [
+    {
+      "type": "category",
+      "name": "Category",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Display title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image override"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ETS shop categories"
+    }
+  ]
+}
+{% endschema %}

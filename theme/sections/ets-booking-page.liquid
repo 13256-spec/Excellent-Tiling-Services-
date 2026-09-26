@@ -1,0 +1,281 @@
+{%- comment -%}
+  ETS showroom booking page. The showroom at 17A Olga Road is open by appointment only.
+  If a bookings app block (e.g. a Shopify appointment booking app) is added to this section
+  in the theme editor, it replaces the built-in request form. Otherwise the native Shopify
+  contact form is used, and each request is emailed to the store's sender email.
+{%- endcomment -%}
+{%- liquid
+  assign open_days = ''
+  if section.settings.day_sun
+    assign open_days = open_days | append: '0,'
+  endif
+  if section.settings.day_mon
+    assign open_days = open_days | append: '1,'
+  endif
+  if section.settings.day_tue
+    assign open_days = open_days | append: '2,'
+  endif
+  if section.settings.day_wed
+    assign open_days = open_days | append: '3,'
+  endif
+  if section.settings.day_thu
+    assign open_days = open_days | append: '4,'
+  endif
+  if section.settings.day_fri
+    assign open_days = open_days | append: '5,'
+  endif
+  if section.settings.day_sat
+    assign open_days = open_days | append: '6,'
+  endif
+  assign time_slots = section.settings.time_slots | split: ','
+-%}
+<section class="ets-book" aria-labelledby="ets-book-title-{{ section.id }}">
+  <div class="ets-book__wrap">
+    <header class="ets-book__head">
+      <p class="ets-overline">{{ section.settings.eyebrow | escape }}</p>
+      <h1 id="ets-book-title-{{ section.id }}">{{ section.settings.heading | escape }}</h1>
+      <p>{{ section.settings.intro | escape }}</p>
+    </header>
+
+    <div class="ets-book__grid">
+      <aside class="ets-book__info">
+        <div class="ets-book__card">
+          <p class="ets-book__badge">By appointment only</p>
+          <dl class="ets-book__list">
+            <div><dt>Showroom</dt><dd><address>17A Olga Road<br>Maddington WA 6109</address></dd></div>
+            <div><dt>Phone</dt><dd><a href="tel:+61450960543">0450 960 543</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:contactus@excellenttilingservice.com.au">contactus@excellenttilingservice.com.au</a></dd></div>
+          </dl>
+          <p class="ets-book__note">{{ section.settings.info_note | escape }}</p>
+          <h2 class="ets-book__subhead">Bring with you</h2>
+          <ul class="ets-book__bring">
+            <li>Room measurements or plans</li>
+            <li>Photos of the space</li>
+            <li>Any products or finishes you've shortlisted</li>
+            <li>Your order number, if you're collecting</li>
+          </ul>
+          <a class="ets-book__btn ets-book__btn--ghost" href="https://www.google.com/maps/search/?api=1&query=17A+Olga+Road+Maddington+WA+6109" target="_blank" rel="noopener">Get directions</a>
+        </div>
+      </aside>
+
+      <div class="ets-book__form">
+        {%- if section.blocks.size > 0 -%}
+          {%- for block in section.blocks -%}
+            {% render block %}
+          {%- endfor -%}
+        {%- else -%}
+          <h2>{{ section.settings.form_heading | escape }}</h2>
+          <p class="ets-book__form-intro">{{ section.settings.form_text | escape }}</p>
+          {%- form 'contact', id: 'EtsBookingForm', class: 'ets-book__native', data-ets-booking: '', data-open-days: open_days -%}
+            {%- if form.posted_successfully? -%}
+              <div class="ets-book__success" role="status" tabindex="-1" data-ets-booking-success>
+                <strong>Thanks, we've received your booking request.</strong>
+                <p>We'll contact you by phone or email to confirm your appointment. Your time isn't locked in until we confirm it. If it's urgent, call <a href="tel:+61450960543">0450 960 543</a>.</p>
+              </div>
+            {%- endif -%}
+            {%- if form.errors -%}
+              <div class="ets-book__error" role="alert">{{ form.errors | default_errors }}</div>
+            {%- endif -%}
+
+            <input type="hidden" name="contact[Enquiry]" value="Showroom appointment request">
+
+            <fieldset class="ets-book__types">
+              <legend>What's the appointment for?</legend>
+              {%- assign types = 'Showroom visit,Tile & bathroom selection,Tiling quote or project chat,Collect an online order' | split: ',' -%}
+              {%- assign type_notes = 'Browse vanities, tapware, tiles and accessories.|Pick products and finishes for a renovation or new build.|Talk through your tiling job, plans and timing.|Pick up an order we have told you is ready.' | split: '|' -%}
+              {%- for type in types -%}
+                <label class="ets-book__type">
+                  <input type="radio" name="contact[Appointment type]" value="{{ type }}" required{% if forloop.first %} checked{% endif %}>
+                  <span><strong>{{ type }}</strong><small>{{ type_notes[forloop.index0] }}</small></span>
+                </label>
+              {%- endfor -%}
+            </fieldset>
+
+            <div class="ets-book__fields">
+              <label>Preferred date
+                <input type="date" name="contact[Preferred date]" required data-ets-booking-date aria-describedby="EtsBookingDateHint">
+                <small id="EtsBookingDateHint" class="ets-book__hint" data-ets-booking-date-hint>{{ section.settings.days_hint | escape }}</small>
+              </label>
+              <label>Preferred time
+                <select name="contact[Preferred time]" required>
+                  <option value="">Choose a time</option>
+                  {%- for slot in time_slots -%}
+                    {%- assign slot_label = slot | strip -%}
+                    {%- if slot_label != blank -%}<option value="{{ slot_label | escape }}">{{ slot_label | escape }}</option>{%- endif -%}
+                  {%- endfor -%}
+                </select>
+              </label>
+              <label class="ets-book__full">Another date or time that suits (optional)
+                <input type="text" name="contact[Alternative time]" placeholder="e.g. Any weekday morning">
+              </label>
+              <label>Full name
+                <input name="contact[name]" autocomplete="name" value="{{ form.name | escape }}" required>
+              </label>
+              <label>Phone
+                <input type="tel" name="contact[phone]" autocomplete="tel" value="{{ form.phone | escape }}" required>
+              </label>
+              <label>Email
+                <input type="email" name="contact[email]" autocomplete="email" autocapitalize="off" spellcheck="false" value="{{ form.email | escape }}" required>
+              </label>
+              <label>Suburb
+                <input name="contact[Suburb]" autocomplete="address-level2" placeholder="e.g. Gosnells">
+              </label>
+              <label class="ets-book__full">Order number (if collecting)
+                <input name="contact[Order number]" placeholder="e.g. #1024">
+              </label>
+              <label class="ets-book__full">Anything we should know?
+                <textarea name="contact[body]" rows="4" placeholder="Products you'd like to see, the room you're working on, how many people are coming…">{{ form.body | escape }}</textarea>
+              </label>
+            </div>
+
+            <p class="ets-book__consent">We only use these details to arrange your visit. See our {% if shop.privacy_policy != blank %}<a href="{{ shop.privacy_policy.url }}">privacy policy</a>{% else %}privacy policy{% endif %}.</p>
+            <button class="ets-book__btn" type="submit">Request appointment</button>
+          {%- endform -%}
+        {%- endif -%}
+      </div>
+    </div>
+
+    <ol class="ets-book__steps" role="list">
+      <li><span>1</span><strong>Request a time</strong><p>Pick the day and time that suits you best.</p></li>
+      <li><span>2</span><strong>We confirm</strong><p>We'll call or email to confirm, or suggest another time if that one's taken.</p></li>
+      <li><span>3</span><strong>Visit us</strong><p>Come to 17A Olga Road, Maddington. Someone will be there to meet you.</p></li>
+    </ol>
+
+    {%- if section.settings.show_map -%}
+      <div class="ets-book__map">
+        <iframe src="https://www.google.com/maps?q=17A+Olga+Road,+Maddington+WA+6109&output=embed" title="Map of the ETS showroom at 17A Olga Road, Maddington" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% javascript %}
+(function () {
+  var DAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+  function iso(d) {
+    var m = String(d.getMonth() + 1).padStart(2, '0');
+    var day = String(d.getDate()).padStart(2, '0');
+    return d.getFullYear() + '-' + m + '-' + day;
+  }
+  function init(form) {
+    var input = form.querySelector('[data-ets-booking-date]');
+    if (!input || input.dataset.etsReady) return;
+    input.dataset.etsReady = 'true';
+    var open = (form.dataset.openDays || '').split(',').filter(Boolean).map(Number);
+    var start = new Date();
+    start.setDate(start.getDate() + 1);
+    var end = new Date();
+    end.setDate(end.getDate() + 90);
+    input.min = iso(start);
+    input.max = iso(end);
+    function check() {
+      input.setCustomValidity('');
+      if (!input.value || !open.length) return;
+      var parts = input.value.split('-').map(Number);
+      var picked = new Date(parts[0], parts[1] - 1, parts[2]);
+      if (open.indexOf(picked.getDay()) === -1) {
+        input.setCustomValidity('We are not taking appointments on ' + DAY_NAMES[picked.getDay()] + 's. Please choose another day.');
+      }
+    }
+    input.addEventListener('change', function () { check(); input.reportValidity(); });
+    form.addEventListener('submit', check);
+    var success = form.querySelector('[data-ets-booking-success]');
+    if (success) success.focus();
+  }
+  function run() { document.querySelectorAll('[data-ets-booking]').forEach(init); }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', run); else run();
+  document.addEventListener('shopify:section:load', run);
+})();
+{% endjavascript %}
+
+{% stylesheet %}
+.ets-book { padding: 56px 0 72px; color: #1F3153; }
+.ets-book *, .ets-book *::before, .ets-book *::after { box-sizing: border-box; }
+.ets-book__wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
+.ets-book__head { max-width: 680px; margin-bottom: 40px; }
+.ets-book__head h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.08; margin: 8px 0 14px; color: #1F3153; }
+.ets-book__head p:last-child { margin: 0; color: #56606B; font-size: 17px; line-height: 1.6; }
+.ets-book__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 28px; align-items: start; }
+.ets-book__card, .ets-book__form { background: #FFFFFF; border: 1px solid #DDD8CE; border-radius: 20px; padding: 32px; }
+.ets-book__badge { display: inline-block; margin: 0 0 20px; padding: 6px 14px; border-radius: 100px; background: #1F3153; color: #F5F3EE; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; }
+.ets-book__list { margin: 0; display: grid; gap: 18px; }
+.ets-book__list > div { display: grid; grid-template-columns: 84px 1fr; gap: 12px; }
+.ets-book__list dt { font-size: 14px; color: #56606B; }
+.ets-book__list dd { margin: 0; font-weight: 500; overflow-wrap: anywhere; }
+.ets-book__list address { font-style: normal; line-height: 1.5; }
+.ets-book a { color: #1F3153; }
+.ets-book a:focus-visible, .ets-book button:focus-visible, .ets-book input:focus-visible, .ets-book select:focus-visible, .ets-book textarea:focus-visible { outline: 2px solid #1F3153; outline-offset: 2px; }
+.ets-book__note { margin: 22px 0; padding-top: 18px; border-top: 1px solid #DDD8CE; font-size: 14px; line-height: 1.55; color: #56606B; }
+.ets-book__subhead { font-size: 16px; margin: 0 0 8px; color: #1F3153; }
+.ets-book__bring { margin: 0 0 24px; padding-left: 18px; color: #56606B; font-size: 14px; line-height: 1.7; }
+.ets-book__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; border: 1px solid #1F3153; border-radius: 100px; background: #1F3153; color: #FFFFFF !important; font: inherit; font-size: 15px; font-weight: 600; padding: 12px 24px; text-decoration: none; cursor: pointer; }
+.ets-book__btn:hover { background: #2B4270; }
+.ets-book__btn--ghost { background: transparent; color: #1F3153 !important; }
+.ets-book__btn--ghost:hover { background: #F5F3EE; }
+.ets-book__form h2 { font-size: clamp(24px, 3vw, 32px); line-height: 1.15; margin: 0 0 8px; color: #1F3153; }
+.ets-book__form-intro { margin: 0 0 24px; color: #56606B; }
+.ets-book__types { border: 0; margin: 0 0 24px; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.ets-book__types legend { font-size: 14px; font-weight: 600; margin-bottom: 10px; padding: 0; }
+.ets-book__type { position: relative; display: flex; gap: 10px; align-items: flex-start; padding: 14px; border: 1px solid #DDD8CE; border-radius: 14px; cursor: pointer; }
+.ets-book__type:has(input:checked) { border-color: #1F3153; background: #F5F3EE; box-shadow: inset 0 0 0 1px #1F3153; }
+.ets-book__type input { margin-top: 3px; accent-color: #1F3153; }
+.ets-book__type strong { display: block; font-size: 15px; }
+.ets-book__type small { display: block; margin-top: 2px; color: #56606B; font-size: 13px; line-height: 1.4; }
+.ets-book__fields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
+.ets-book__fields label { display: grid; gap: 6px; font-size: 14px; font-weight: 500; align-content: start; }
+.ets-book__fields input, .ets-book__fields select, .ets-book__fields textarea { width: 100%; min-height: 46px; padding: 12px 14px; border: 1px solid #DDD8CE; border-radius: 12px; background: #FFFFFF; font: inherit; font-size: 16px; color: #1F3153; }
+.ets-book__hint { font-weight: 400; color: #56606B; font-size: 13px; }
+.ets-book__full { grid-column: 1 / -1; }
+.ets-book__consent { margin: 0 0 18px; font-size: 13px; color: #56606B; }
+.ets-book__success { margin-bottom: 20px; padding: 16px 18px; border-radius: 12px; background: #EAF3EC; color: #1E5A31; }
+.ets-book__success p { margin: 6px 0 0; }
+.ets-book__success a { color: inherit; }
+.ets-book__error { margin-bottom: 20px; padding: 12px 16px; border-radius: 12px; background: #FBEAEA; color: #8A1F1F; }
+.ets-book__steps { list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+.ets-book__steps li { padding: 24px; border-radius: 20px; background: #F5F3EE; }
+.ets-book__steps span { display: inline-flex; width: 30px; height: 30px; align-items: center; justify-content: center; border-radius: 50%; background: #1F3153; color: #F5F3EE; font-size: 14px; font-weight: 600; margin-bottom: 12px; }
+.ets-book__steps strong { display: block; font-size: 16px; }
+.ets-book__steps p { margin: 6px 0 0; color: #56606B; font-size: 14px; line-height: 1.5; }
+.ets-book__map { margin-top: 28px; border-radius: 20px; overflow: hidden; border: 1px solid #DDD8CE; aspect-ratio: 16 / 7; background: #E9E5DC; }
+.ets-book__map iframe { display: block; width: 100%; height: 100%; border: 0; }
+@media (max-width: 900px) {
+  .ets-book__grid, .ets-book__steps { grid-template-columns: 1fr; }
+  .ets-book__form { order: -1; }
+  .ets-book__map { aspect-ratio: 4 / 3; }
+}
+@media (max-width: 600px) {
+  .ets-book { padding: 36px 0 48px; }
+  .ets-book__wrap { padding: 0 16px; }
+  .ets-book__card, .ets-book__form { padding: 22px; }
+  .ets-book__types, .ets-book__fields { grid-template-columns: 1fr; }
+}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS showroom booking",
+  "tag": "div",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Showroom by appointment only" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Book a showroom visit" },
+    { "type": "textarea", "id": "intro", "label": "Intro", "default": "Our Maddington showroom is open by appointment only, so there's always someone there to walk you through tiles, vanities, tapware and accessories. Request a time below and we'll confirm it with you." },
+    { "type": "textarea", "id": "info_note", "label": "Visit note", "default": "Please book before you travel. We don't take walk-ins, because the showroom isn't staffed all day." },
+    { "type": "text", "id": "form_heading", "label": "Form heading", "default": "Request an appointment" },
+    { "type": "textarea", "id": "form_text", "label": "Form text", "default": "Choose a day and time. We'll confirm by phone or email." },
+    { "type": "header", "content": "Availability" },
+    { "type": "paragraph", "content": "Customers can only request days ticked here. These requests are confirmed manually, so they never double-book you." },
+    { "type": "checkbox", "id": "day_mon", "label": "Monday", "default": true },
+    { "type": "checkbox", "id": "day_tue", "label": "Tuesday", "default": true },
+    { "type": "checkbox", "id": "day_wed", "label": "Wednesday", "default": true },
+    { "type": "checkbox", "id": "day_thu", "label": "Thursday", "default": true },
+    { "type": "checkbox", "id": "day_fri", "label": "Friday", "default": true },
+    { "type": "checkbox", "id": "day_sat", "label": "Saturday", "default": true },
+    { "type": "checkbox", "id": "day_sun", "label": "Sunday", "default": false },
+    { "type": "text", "id": "days_hint", "label": "Days hint", "default": "Appointments Monday to Saturday." },
+    { "type": "textarea", "id": "time_slots", "label": "Time slots (comma separated)", "default": "9:00 am, 10:00 am, 11:00 am, 12:00 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm" },
+    { "type": "checkbox", "id": "show_map", "label": "Show map", "default": true }
+  ],
+  "blocks": [{ "type": "@app" }],
+  "presets": [{ "name": "ETS showroom booking" }]
+}
+{% endschema %}

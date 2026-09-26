@@ -1,0 +1,6 @@
+<section class="ets-editorial-showroom">
+  <div class="ets-shell"><p class="ets-kicker">{{ section.settings.eyebrow | escape }}</p><div class="ets-editorial-showroom__grid"><h2>{{ section.settings.heading | escape }}</h2><div><p>{{ section.settings.description | escape }}</p><address>{{ section.settings.address | escape | newline_to_br }}</address>{% if section.settings.url != blank %}<a class="ets-button ets-button--secondary" href="{{ section.settings.url }}">{{ section.settings.label | escape }} <span aria-hidden="true">↗</span></a>{% endif %}</div></div></div>
+</section>
+{% schema %}
+{"name":"ETS showroom invitation","settings":[{"type":"text","id":"eyebrow","label":"Eyebrow","default":"Your local showroom"},{"type":"text","id":"heading","label":"Heading","default":"Let's make room for your ideas."},{"type":"textarea","id":"description","label":"Description","default":"Bring your plans, your questions or a little inspiration. Start a conversation with our Maddington team."},{"type":"textarea","id":"address","label":"Address","default":"17A Olga Road\nMaddington WA 6109"},{"type":"text","id":"label","label":"Link label","default":"Plan your visit"},{"type":"url","id":"url","label":"Link"}],"presets":[{"name":"ETS showroom invitation"}]}
+{% endschema %}

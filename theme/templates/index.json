@@ -1,0 +1,221 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "ets-retail-hero",
+      "settings": {
+        "image": "shopify://shop_images/mela-brittany-1200-oak-fluted-curved-wall-hung-vanity.jpg"
+      }
+    },
+    "accessories": {
+      "type": "ets-retail-categories",
+      "settings": {
+        "link": "shopify://collections/accessories",
+        "note": "Explore the range online. For availability and product advice, contact our showroom."
+      },
+      "blocks": {
+        "0": {
+          "type": "category",
+          "settings": {
+            "collection": "towel-rails",
+            "title": "Towel rails"
+          }
+        },
+        "1": {
+          "type": "category",
+          "settings": {
+            "collection": "bathroom-hooks",
+            "title": "Robe hooks"
+          }
+        },
+        "2": {
+          "type": "category",
+          "settings": {
+            "collection": "toilet-roll-holders",
+            "title": "Toilet roll holders"
+          }
+        },
+        "3": {
+          "type": "category",
+          "settings": {
+            "collection": "soap-shelf-holders",
+            "title": "Shelves & holders"
+          }
+        },
+        "4": {
+          "type": "category",
+          "settings": {
+            "collection": "tapware",
+            "title": "Tapware"
+          }
+        },
+        "5": {
+          "type": "category",
+          "settings": {
+            "collection": "accessories",
+            "title": "All accessories"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "departments": {
+      "type": "ets-retail-departments",
+      "settings": {},
+      "blocks": {
+        "0": {
+          "type": "department",
+          "settings": {
+            "collection": "hardware",
+            "title": "Hardware",
+            "eyebrow": "For the work behind the finish",
+            "description": "Trims, fixings and renovation hardware. Tell us what the job needs and talk through your requirements with our team.",
+            "label": "Explore hardware",
+            "note": "Product enquiries welcome",
+            "tone": "ink",
+            "icon": "hardware"
+          }
+        },
+        "1": {
+          "type": "department",
+          "settings": {
+            "collection": "tiles",
+            "title": "Tiles",
+            "eyebrow": "Set the foundation",
+            "description": "Floor and wall tiles for bathrooms, kitchens and living spaces. Discuss your room, measurements and preferred finish at the showroom.",
+            "label": "Explore tiles",
+            "note": "Selection & project advice",
+            "tone": "stone",
+            "icon": "tiles"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1"
+      ]
+    },
+    "bathroom": {
+      "type": "ets-retail-categories",
+      "settings": {
+        "eyebrow": "Complete your bathroom",
+        "heading": "From the vanity to the final detail.",
+        "link": "shopify://collections/bathroom-vanities",
+        "link_label": "Explore vanities"
+      },
+      "blocks": {
+        "0": {
+          "type": "category",
+          "settings": {
+            "collection": "bathroom-vanities",
+            "title": "Vanities"
+          }
+        },
+        "1": {
+          "type": "category",
+          "settings": {
+            "collection": "basins",
+            "title": "Basins"
+          }
+        },
+        "2": {
+          "type": "category",
+          "settings": {
+            "collection": "baths",
+            "title": "Baths"
+          }
+        },
+        "3": {
+          "type": "category",
+          "settings": {
+            "collection": "mirrors",
+            "title": "Mirrors"
+          }
+        },
+        "4": {
+          "type": "category",
+          "settings": {
+            "collection": "shower-screens",
+            "title": "Shower screens"
+          }
+        },
+        "5": {
+          "type": "category",
+          "settings": {
+            "collection": "toilets",
+            "title": "Toilets"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ]
+    },
+    "products": {
+      "type": "ets-retail-products",
+      "settings": {
+        "collection": "accessories"
+      }
+    },
+    "help": {
+      "type": "ets-retail-support",
+      "settings": {},
+      "blocks": {
+        "0": {
+          "type": "question",
+          "settings": {
+            "question": "Can I visit the showroom?",
+            "answer": "<p>Yes, by appointment only. Our showroom is at 17A Olga Road, Maddington WA 6109. <a href=\"/pages/book-appointment\">Book a showroom visit</a> online or call 0450 960 543, and tell us which products you would like to see.</p>"
+          }
+        },
+        "1": {
+          "type": "question",
+          "settings": {
+            "question": "Can you help with tiling as well as products?",
+            "answer": "<p>Yes. ETS provides professional tiling. Send your suburb, room details, approximate area and timing through our project enquiry form so we can discuss the scope.</p>"
+          }
+        },
+        "2": {
+          "type": "question",
+          "settings": {
+            "question": "How do I check product availability or delivery?",
+            "answer": "<p>Contact us with the product name, finish and quantity you need and we will confirm availability. We deliver within Australia, and you can pick up from Maddington by appointment. See <a href=\"/pages/delivery-pickup\">Delivery &amp; pickup</a> and our <a href=\"/policies/shipping-policy\">shipping policy</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "accessories",
+    "departments",
+    "bathroom",
+    "products",
+    "help"
+  ]
+}
