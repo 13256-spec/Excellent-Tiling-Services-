@@ -1,22 +1,13 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
     "logo": "shopify://shop_images/excellent-tiling-services-logo.jpg",
     "logo_height": 36,
     "logo_height_mobile": 28,
     "page_text_color": "{{ settings.color_palette.foreground }}",
-    "type_body_font": "inter_n4",
-    "type_subheading_font": "inter_n5",
-    "type_heading_font": "inter_n7",
-    "type_accent_font": "inter_n7",
+    "type_body_font": "dm_sans_n4",
+    "type_subheading_font": "dm_sans_n5",
+    "type_heading_font": "fraunces_n5",
+    "type_accent_font": "dm_sans_n6",
     "type_size_paragraph": "16",
     "type_line_height_paragraph": "body-loose",
     "type_font_h1": "heading",
