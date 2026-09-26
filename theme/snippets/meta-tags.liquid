@@ -143,8 +143,14 @@
     "postalCode": "6109",
     "addressCountry": "AU"
   },
-  "description": "Perth tiling contractor and bathroomware showroom in Maddington WA. Showroom visits by appointment only.",
+  "description": "Perth tiling contractor and bathroomware showroom in Maddington WA. Showroom visits by appointment, Monday to Saturday 4:30 pm to 9 pm.",
   "areaServed": "Perth, Western Australia",
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+    "opens": "16:30",
+    "closes": "21:00"
+  }],
   {%- if pages['book-appointment'] != blank %}
   "potentialAction": {
     "@type": "ReserveAction",

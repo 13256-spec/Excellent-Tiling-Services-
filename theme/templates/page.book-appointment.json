@@ -2,7 +2,11 @@
   "sections": {
     "main": {
       "type": "ets-booking-page",
-      "settings": {}
+      "settings": {
+        "days_hint": "Appointments Monday to Saturday, 4:30 pm to 9 pm.",
+        "time_slots": "4:30 pm, 5:00 pm, 5:30 pm, 6:00 pm, 6:30 pm, 7:00 pm, 7:30 pm, 8:00 pm, 8:30 pm",
+        "day_sun": false
+      }
     }
   },
   "order": [

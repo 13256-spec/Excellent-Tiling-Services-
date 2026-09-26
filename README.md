@@ -8,7 +8,7 @@ Horizon-based "ETS Premium" theme. Stock Horizon files are not duplicated here.
 
 ## Showroom bookings
 
-The showroom is open **by appointment only**.
+The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm (closed Sunday).
 
 - Page: `/pages/book-appointment` (template `page.book-appointment` → section `ets-booking-page`).
 - Out of the box the section uses Shopify's native contact form. Each request is emailed to
@@ -37,3 +37,7 @@ Shopify admin → Settings → Policies (the API connector used here can't write
 - `seo/collection-seo.json` holds the titles/descriptions added to 27 collections that had none.
 - Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
   end in "| ETS Perth", so titles stay inside Google's display limit.
+
+## Booking form (Shopify Forms)
+
+See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.

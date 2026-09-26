@@ -1,8 +1,8 @@
 {%- comment -%}
   ETS showroom booking page. The showroom at 17A Olga Road is open by appointment only.
-  If a bookings app block (e.g. a Shopify appointment booking app) is added to this section
-  in the theme editor, it replaces the built-in request form. Otherwise the native Shopify
-  contact form is used, and each request is emailed to the store's sender email.
+  Add the Shopify Forms "Form" app block to this section in the theme editor and it replaces
+  the built-in request form (submissions then land in Shopify admin under Customers and in the
+  Forms app). Without a block, the native contact form emails each request to the store.
 {%- endcomment -%}
 {%- liquid
   assign open_days = ''
@@ -40,8 +40,9 @@
     <div class="ets-book__grid">
       <aside class="ets-book__info">
         <div class="ets-book__card">
-          <p class="ets-book__badge">By appointment only</p>
+          <p class="ets-book__badge">By appointment only · Mon–Sat 4:30–9 pm</p>
           <dl class="ets-book__list">
+            <div><dt>Hours</dt><dd>Monday to Saturday, 4:30 pm to 9 pm<br>Closed Sunday</dd></div>
             <div><dt>Showroom</dt><dd><address>17A Olga Road<br>Maddington WA 6109</address></dd></div>
             <div><dt>Phone</dt><dd><a href="tel:+61450960543">0450 960 543</a></dd></div>
             <div><dt>Email</dt><dd><a href="mailto:contactus@excellenttilingservice.com.au">contactus@excellenttilingservice.com.au</a></dd></div>
@@ -106,7 +107,7 @@
                 </select>
               </label>
               <label class="ets-book__full">Another date or time that suits (optional)
-                <input type="text" name="contact[Alternative time]" placeholder="e.g. Any weekday morning">
+                <input type="text" name="contact[Alternative time]" placeholder="e.g. Any weekday after 6 pm">
               </label>
               <label>Full name
                 <input name="contact[name]" autocomplete="name" value="{{ form.name | escape }}" required>
@@ -259,7 +260,7 @@
     { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Showroom by appointment only" },
     { "type": "text", "id": "heading", "label": "Heading", "default": "Book a showroom visit" },
     { "type": "textarea", "id": "intro", "label": "Intro", "default": "Our Maddington showroom is open by appointment only, so there's always someone there to walk you through tiles, vanities, tapware and accessories. Request a time below and we'll confirm it with you." },
-    { "type": "textarea", "id": "info_note", "label": "Visit note", "default": "Please book before you travel. We don't take walk-ins, because the showroom isn't staffed all day." },
+    { "type": "textarea", "id": "info_note", "label": "Visit note", "default": "Please book before you travel. Appointments run in the evenings, Monday to Saturday from 4:30 pm to 9 pm. We don't take walk-ins." },
     { "type": "text", "id": "form_heading", "label": "Form heading", "default": "Request an appointment" },
     { "type": "textarea", "id": "form_text", "label": "Form text", "default": "Choose a day and time. We'll confirm by phone or email." },
     { "type": "header", "content": "Availability" },
@@ -271,8 +272,8 @@
     { "type": "checkbox", "id": "day_fri", "label": "Friday", "default": true },
     { "type": "checkbox", "id": "day_sat", "label": "Saturday", "default": true },
     { "type": "checkbox", "id": "day_sun", "label": "Sunday", "default": false },
-    { "type": "text", "id": "days_hint", "label": "Days hint", "default": "Appointments Monday to Saturday." },
-    { "type": "textarea", "id": "time_slots", "label": "Time slots (comma separated)", "default": "9:00 am, 10:00 am, 11:00 am, 12:00 pm, 1:00 pm, 2:00 pm, 3:00 pm, 4:00 pm" },
+    { "type": "text", "id": "days_hint", "label": "Days hint", "default": "Appointments Monday to Saturday, 4:30 pm to 9 pm." },
+    { "type": "textarea", "id": "time_slots", "label": "Time slots (comma separated)", "default": "4:30 pm, 5:00 pm, 5:30 pm, 6:00 pm, 6:30 pm, 7:00 pm, 7:30 pm, 8:00 pm, 8:30 pm" },
     { "type": "checkbox", "id": "show_map", "label": "Show map", "default": true }
   ],
   "blocks": [{ "type": "@app" }],
