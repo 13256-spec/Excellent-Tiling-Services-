@@ -107,7 +107,8 @@
   {{ page_title }}
   {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
   {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-  {%- unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless -%}
+  {%- comment -%} Custom SEO titles already end in "| ETS Perth" or similar; don't push them past 60 chars. {%- endcomment -%}
+  {%- unless page_title contains shop.name or page_title contains '| ETS' or page_title contains 'Perth' %} &ndash; {{ shop.name }}{% endunless -%}
 </title>
 
 <link
@@ -129,6 +130,9 @@
   "@id": {{ shop.url | append: '#business' | json }},
   "name": "Excellent Tiling Services Pty Ltd",
   "url": {{ shop.url | json }},
+  "logo": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823",
+  "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823",
+  "hasMap": "https://www.google.com/maps/search/?api=1&query=17A+Olga+Road+Maddington+WA+6109",
   "telephone": "+61 450 960 543",
   "email": "contactus@excellenttilingservice.com.au",
   "address": {

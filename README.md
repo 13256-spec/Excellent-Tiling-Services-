@@ -28,3 +28,12 @@ Shopify admin → Online Store → Themes.
 `store-content/policies/` holds the current policy text. `shipping-policy.html` and
 `contact-information.html` carry the by-appointment pickup wording and must be pasted into
 Shopify admin → Settings → Policies (the API connector used here can't write legal policies).
+
+## SEO
+
+- `seo/generate_product_seo.py` builds every product's search title (≤60 chars) and meta
+  description (≤155 chars, always mentions Perth) from the product's own specs.
+  `seo/product-seo.json` is the exact set written to Shopify on 26 Sep 2026 (224 products).
+- `seo/collection-seo.json` holds the titles/descriptions added to 27 collections that had none.
+- Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
+  end in "| ETS Perth", so titles stay inside Google's display limit.
