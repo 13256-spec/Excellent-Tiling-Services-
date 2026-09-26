@@ -1,20 +1,12 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "main": {
-      "type": "ets-404",
-      "settings": {}
+    "hero": { "type": "ets-page-hero", "settings": { "eyebrow": "Page not found", "heading": "This page has <em>moved</em>.", "text": "Search the store or jump into a department below.", "btn_1_label": "Shop all departments", "btn_1_link": "shopify://collections", "show_crumbs": false, "show_chips": true } },
+    "products": {
+      "type": "ets-product-tabs",
+      "settings": { "eyebrow": "Popular right now", "heading": "Shop <em>best</em> sellers", "limit": 8, "bg": "white" },
+      "blocks": { "0": { "type": "tab", "settings": { "collection": "tiles", "label": "Tiles" } }, "1": { "type": "tab", "settings": { "collection": "bathroom-vanities", "label": "Vanities" } } },
+      "block_order": ["0", "1"]
     }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["hero", "products"]
 }

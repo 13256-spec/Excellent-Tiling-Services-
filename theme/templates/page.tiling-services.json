@@ -1,20 +1,208 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "main": {
-      "type": "ets-services-page",
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "eyebrow": "Renovations & tiling · Perth",
+        "heading": "Renovations, done <em>properly</em>.",
+        "text": "Bathrooms, ensuites, laundries and kitchens — stripped out, waterproofed, tiled and fitted off by one licensed and insured Perth team, using products from our own range.",
+        "image": "shopify://shop_images/DSA66SS06_2.jpg",
+        "btn_1_label": "Request a quote",
+        "btn_1_link": "shopify://pages/request-a-quote",
+        "btn_2_label": "Book a showroom visit",
+        "btn_2_link": "shopify://pages/book-appointment",
+        "show_crumbs": true
+      }
+    },
+    "trust": {
+      "type": "ets-trust",
       "settings": {}
+    },
+    "services": {
+      "type": "ets-services",
+      "settings": {
+        "eyebrow": "What we do",
+        "heading": "Four services, <em>one</em> team.",
+        "link_label": "",
+        "bg": "white"
+      },
+      "blocks": {
+        "0": {
+          "type": "service",
+          "settings": {
+            "icon": "bath",
+            "title": "Bathroom renovations",
+            "text": "Complete bathroom, ensuite and powder room renovations, managed from first measure to final clean.",
+            "bullets": "Strip-out & disposal\nWaterproofing & screeding\nFloor & wall tiling\nVanity, toilet, tapware & screen fit-off",
+            "link_label": "Request a quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        },
+        "1": {
+          "type": "service",
+          "settings": {
+            "icon": "kitchen",
+            "title": "Kitchen & laundry",
+            "text": "Give the busiest rooms in the house a hard-wearing, easy-clean finish.",
+            "bullets": "Splashbacks & feature walls\nLaundry floor & wall tiling\nSinks, mixers & tapware supplied\nMatching tiles across rooms",
+            "link_label": "Request a quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        },
+        "2": {
+          "type": "service",
+          "settings": {
+            "icon": "tile",
+            "title": "Tiling",
+            "text": "Floor and wall tiling for any room, including large-format porcelain.",
+            "bullets": "Living areas & hallways\nAlfresco & outdoor areas\nLarge-format & feature layouts\nHerringbone, brick bond & more",
+            "link_label": "Request a quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        },
+        "3": {
+          "type": "service",
+          "settings": {
+            "icon": "drop",
+            "title": "Waterproofing & repairs",
+            "text": "Find and fix the cause of leaks before they become expensive.",
+            "bullets": "Leaking shower repairs\nRe-grouting & re-sealing\nRegrading & new membranes\nTile replacement & patching",
+            "link_label": "Request a quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "why": {
+      "type": "ets-split",
+      "settings": {
+        "image": "shopify://shop_images/DSAYFR600331_2.jpg",
+        "flip": true,
+        "bg": "none",
+        "eyebrow": "Supply + install",
+        "heading": "Products and people <em>under one roof</em>.",
+        "text": "<p>Because we supply the tiles, vanities and tapware ourselves, you choose from our range in the Maddington showroom and our team installs exactly what you picked — one point of contact from quote to handover.</p>",
+        "checks": "Licensed & insured Perth team\nChoose products in our Maddington showroom\nOne quote covering supply and labour\nClear communication and a clean, tidy site",
+        "btn_1_label": "Request a quote",
+        "btn_1_link": "shopify://pages/request-a-quote"
+      }
+    },
+    "steps": {
+      "type": "ets-steps",
+      "settings": {
+        "eyebrow": "How it works",
+        "heading": "Simple, from first call to <em>handover</em>.",
+        "bg": "sand"
+      },
+      "blocks": {
+        "0": {
+          "type": "step",
+          "settings": {
+            "title": "Tell us about the job",
+            "text": "Send the room, suburb, rough size and timing through our quote form, or call the team."
+          }
+        },
+        "1": {
+          "type": "step",
+          "settings": {
+            "title": "Site visit & quote",
+            "text": "We inspect the space, talk through options and send a clear written quote."
+          }
+        },
+        "2": {
+          "type": "step",
+          "settings": {
+            "title": "Choose your products",
+            "text": "Visit the Maddington showroom by appointment to pick tiles, vanity and tapware."
+          }
+        },
+        "3": {
+          "type": "step",
+          "settings": {
+            "title": "Build & handover",
+            "text": "Our team completes the work and walks you through the finished room."
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "faq": {
+      "type": "ets-faq",
+      "settings": {
+        "eyebrow": "Renovation FAQs",
+        "heading": "Good to <em>know</em>.",
+        "text": "Anything else? Call the team.",
+        "open_first": true,
+        "bg": "none"
+      },
+      "blocks": {
+        "0": {
+          "type": "question",
+          "settings": {
+            "question": "Which areas do you cover?",
+            "answer": "<p>We work across the Perth metro area. Send your suburb with your enquiry and we'll confirm.</p>"
+          }
+        },
+        "1": {
+          "type": "question",
+          "settings": {
+            "question": "Do you supply the products as well?",
+            "answer": "<p>Yes. Tiles, vanities, basins, tapware, toilets, mirrors and accessories can all come from our range, and you can see them in our Maddington showroom before you decide.</p>"
+          }
+        },
+        "2": {
+          "type": "question",
+          "settings": {
+            "question": "Can you fix a leaking shower without a full renovation?",
+            "answer": "<p>Often, yes. Depending on the cause, a leak can sometimes be fixed by re-grouting and re-sealing, regrading, or replacing the membrane in the affected area. We'll inspect it and explain the options.</p>"
+          }
+        },
+        "3": {
+          "type": "question",
+          "settings": {
+            "question": "How do I get a quote?",
+            "answer": "<p><a href=\"/pages/request-a-quote\">Fill in the quote form</a> with your suburb, the room, approximate size and timing. Photos help — you can email them after submitting.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "cta": {
+      "type": "ets-cta",
+      "settings": {
+        "eyebrow": "Talk to our team",
+        "heading": "Let's plan your <em>renovation</em>.",
+        "text": "Tell us about the room and your timing — we'll take it from there.",
+        "btn_1_label": "Request a quote",
+        "btn_1_link": "shopify://pages/request-a-quote",
+        "btn_2_label": "Contact us",
+        "btn_2_link": "shopify://pages/contact"
+      }
     }
   },
   "order": [
-    "main"
+    "hero",
+    "trust",
+    "services",
+    "why",
+    "steps",
+    "faq",
+    "cta"
   ]
 }

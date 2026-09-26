@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "cart-section": {
@@ -63,13 +54,18 @@
         "padding-block-end": 56
       }
     },
-    "order_help": {
-      "type": "ets-cart-service",
-      "settings": {}
+    "trade": {
+      "type": "ets-trade-band",
+      "settings": {
+        "eyebrow": "For builders & trades",
+        "heading": "Buying for a job? Get <em>trade prices</em>.",
+        "text": "Approved trade accounts save on every order. Apply in two minutes, then log in and your prices apply automatically.",
+        "checks": ""
+      }
     }
   },
   "order": [
     "cart-section",
-    "order_help"
+    "trade"
   ]
 }

@@ -1,25 +1,25 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "type": "footer",
   "name": "Footer",
   "sections": {
-    "ets_flagship_footer": {
-      "type": "ets-flagship-footer",
+    "ets_footer": {
+      "type": "ets-footer",
       "settings": {
-        "facebook_url": "https://www.facebook.com/share/1943ueL61k/?mibextid=wwXIfr",
-        "description": "Tiles, vanities, tapware and bathroom accessories, with professional tiling and a local Maddington team to help bring it together."
+        "cta_eyebrow": "Perth renovations & supply",
+        "cta_heading": "Planning a bathroom, kitchen or <em>tiling</em> job?",
+        "cta_label_1": "Request a quote",
+        "cta_link_1": "shopify://pages/request-a-quote",
+        "cta_label_2": "Open a trade account",
+        "cta_link_2": "shopify://pages/trade-account",
+        "menu_1": "main-menu",
+        "menu_1_title": "Shop",
+        "menu_2": "footer",
+        "menu_2_title": "Help & services",
+        "abn": "63 150 082 054"
       }
     }
   },
   "order": [
-    "ets_flagship_footer"
+    "ets_footer"
   ]
 }

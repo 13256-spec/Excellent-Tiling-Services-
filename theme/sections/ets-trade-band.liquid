@@ -1,0 +1,54 @@
+{%- liquid
+  assign trade_tag = settings.ets_trade_tag | default: 'trade'
+  assign is_trade = false
+  if customer and customer.tags contains trade_tag
+    assign is_trade = true
+  endif
+  assign trade_page = settings.ets_trade_page
+  assign lines = section.settings.checks | newline_to_br | split: '<br />'
+-%}
+<section class="ets ets-sec ets-sec--ink ets-trade-band" aria-labelledby="EtsTrade-{{ section.id }}">
+  <div class="ets-wrap ets-trade-band__grid">
+    <div data-reveal>
+      <p class="ets-eyebrow">{% if is_trade %}Your trade account{% else %}{{ section.settings.eyebrow | escape }}{% endif %}</p>
+      <h2 class="ets-h2" id="EtsTrade-{{ section.id }}">{% if is_trade %}Welcome back, {{ customer.first_name | default: 'trade partner' | escape }}.{% else %}{{ section.settings.heading }}{% endif %}</h2>
+      <p class="ets-lede" style="margin-top:20px">{% if is_trade %}Trade prices are showing across the store and apply automatically at checkout when you're logged in.{% else %}{{ section.settings.text | escape }}{% endif %}</p>
+      {%- unless is_trade -%}
+        {%- if section.settings.checks != blank -%}
+          <ul class="ets-checks" role="list">
+            {%- for line in lines -%}{%- assign l = line | strip -%}{%- if l != blank -%}<li>{% render 'ets-icon', name: 'check' %}<span>{{ l | escape }}</span></li>{%- endif -%}{%- endfor -%}
+          </ul>
+        {%- endif -%}
+      {%- endunless -%}
+      <div class="ets-btns" style="margin-top:32px">
+        {%- if is_trade -%}
+          <a class="ets-btn ets-btn--light" href="{{ routes.all_products_collection_url }}">Shop at trade prices<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+          <a class="ets-btn ets-btn--ghost" href="{{ routes.account_url }}">Your orders<span class="ets-btn__dot">{% render 'ets-icon', name: 'user' %}</span></a>
+        {%- else -%}
+          <a class="ets-btn ets-btn--brass" href="{{ trade_page.url | default: '/pages/trade-account' }}">Apply for a trade account<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+          {%- if shop.customer_accounts_enabled and customer == nil -%}
+            <a class="ets-btn ets-btn--ghost" href="{{ routes.account_login_url }}">Trade log in<span class="ets-btn__dot">{% render 'ets-icon', name: 'user' %}</span></a>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    </div>
+    <div class="ets-rates" data-reveal style="--d:.1s">
+      <div class="ets-rate"><div><span>Tiles</span><small>Porcelain floor &amp; wall tiles, every size and finish</small></div><strong>{{ settings.ets_trade_tiles_pct }}%</strong></div>
+      <div class="ets-rate"><div><span>Large items</span><small>Vanities, baths, toilets, basins, screens, mirrors &amp; sinks</small></div><strong>{{ settings.ets_trade_large_pct }}%</strong></div>
+      <div class="ets-rate"><div><span>Tapware &amp; accessories</span><small>Mixers, showers, rails, hooks, wastes &amp; fittings</small></div><strong>{{ settings.ets_trade_small_pct }}%</strong></div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS trade band",
+  "settings": [
+    { "type": "paragraph", "content": "Discount percentages come from Theme settings → ETS trade pricing." },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "For builders & trades" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Trade pricing on <em>every</em> order." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Tilers, builders, plumbers and renovators get trade prices across the whole range. Apply once — when approved, just log in and your prices show automatically." },
+    { "type": "textarea", "id": "checks", "label": "Checklist (one per line)", "default": "Trade prices shown on every product once you log in\nDiscount applied automatically at checkout\nPerth metro delivery to site or pickup from Maddington\nProject quantities and bulk tile orders welcome" }
+  ],
+  "presets": [{ "name": "ETS trade band" }]
+}
+{% endschema %}

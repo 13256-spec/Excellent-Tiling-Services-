@@ -1,9 +1,0 @@
-<section class="ets-editorial-section ets-editorial-feature{% if section.settings.image == blank %} ets-editorial-feature--text{% endif %}">
-  <div class="ets-shell ets-editorial-feature__grid">
-    {% if section.settings.image != blank %}<figure class="ets-editorial-feature__image">{{ section.settings.image | image_url: width: 1400 | image_tag: widths: '480, 750, 1000, 1400', sizes: '(min-width: 990px) 50vw, 100vw', loading: 'lazy' }}{% if section.settings.caption != blank %}<figcaption>{{ section.settings.caption | escape }}</figcaption>{% endif %}</figure>{% endif %}
-    <div class="ets-editorial-feature__copy"><p class="ets-kicker">{{ section.settings.eyebrow | escape }}</p><h2>{{ section.settings.heading | escape }}</h2><div class="rte">{{ section.settings.body }}</div>{% if section.settings.url != blank %}<a class="ets-editorial-link" href="{{ section.settings.url }}">{{ section.settings.label | escape }} <span aria-hidden="true">↗</span></a>{% endif %}</div>
-  </div>
-</section>
-{% schema %}
-{"name":"ETS editorial story","settings":[{"type":"image_picker","id":"image","label":"Genuine project or supplier image"},{"type":"text","id":"caption","label":"Image caption"},{"type":"text","id":"eyebrow","label":"Eyebrow","default":"From selection to installation"},{"type":"text","id":"heading","label":"Heading","default":"Good spaces start with the details."},{"type":"richtext","id":"body","label":"Body","default":"<p>Find the right products for your space, then talk to us about professional tiling. From bathroom walls to the floor beneath your feet, we help bring the whole project together.</p>"},{"type":"text","id":"label","label":"Link label","default":"Discuss your project"},{"type":"url","id":"url","label":"Link"}],"presets":[{"name":"ETS editorial story"}]}
-{% endschema %}

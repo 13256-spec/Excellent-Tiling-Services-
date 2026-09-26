@@ -1,0 +1,53 @@
+{%- assign lines = section.settings.checks | newline_to_br | split: '<br />' -%}
+<section class="ets ets-sec{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% when 'ink' %} ets-sec--ink{% endcase %}" aria-labelledby="EtsSplit-{{ section.id }}">
+  <div class="ets-wrap ets-split{% if section.settings.flip %} ets-split--flip{% endif %}">
+    <div class="ets-split__media" data-reveal>
+      <div class="ets-shell">
+        <div class="ets-core">
+          {%- if section.settings.image != blank -%}
+            {{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '600, 900, 1200, 1400', sizes: '(min-width: 990px) 50vw, 100vw', alt: section.settings.image.alt | default: '' }}
+          {%- else -%}
+            {{ 'lifestyle-2' | placeholder_svg_tag }}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+    <div class="ets-split__copy" data-reveal style="--d:.08s">
+      {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+      <h2 class="ets-h2" id="EtsSplit-{{ section.id }}">{{ section.settings.heading }}</h2>
+      {%- if section.settings.text != blank -%}<div class="ets-lede">{{ section.settings.text }}</div>{%- endif -%}
+      {%- if section.settings.checks != blank -%}
+        <ul class="ets-checks" role="list">
+          {%- for line in lines -%}{%- assign l = line | strip -%}{%- if l != blank -%}<li>{% render 'ets-icon', name: 'check' %}<span>{{ l | escape }}</span></li>{%- endif -%}{%- endfor -%}
+        </ul>
+      {%- endif -%}
+      <div class="ets-btns">
+        {%- if section.settings.btn_1_label != blank -%}
+          <a class="ets-btn{% if section.settings.bg == 'ink' %} ets-btn--light{% endif %}" href="{{ section.settings.btn_1_link | default: '#' }}">{{ section.settings.btn_1_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+        {%- endif -%}
+        {%- if section.settings.btn_2_label != blank -%}
+          <a class="ets-btn ets-btn--ghost" href="{{ section.settings.btn_2_link | default: '#' }}">{{ section.settings.btn_2_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow-up-right' %}</span></a>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS image with text",
+  "settings": [
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "checkbox", "id": "flip", "label": "Image on the right", "default": false },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }, { "value": "ink", "label": "Dark" }] },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Renovations" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Your renovation, handled end to end." },
+    { "type": "richtext", "id": "text", "label": "Text" },
+    { "type": "textarea", "id": "checks", "label": "Checklist (one per line)" },
+    { "type": "text", "id": "btn_1_label", "label": "Button 1 label" },
+    { "type": "url", "id": "btn_1_link", "label": "Button 1 link" },
+    { "type": "text", "id": "btn_2_label", "label": "Button 2 label" },
+    { "type": "url", "id": "btn_2_link", "label": "Button 2 link" }
+  ],
+  "presets": [{ "name": "ETS image with text" }]
+}
+{% endschema %}

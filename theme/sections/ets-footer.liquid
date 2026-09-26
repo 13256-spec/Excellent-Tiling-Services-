@@ -1,0 +1,92 @@
+{%- liquid
+  assign phone = settings.ets_phone | default: '0450 960 543'
+  assign phone_link = settings.ets_phone_link | default: '+61450960543'
+  assign menu_1 = linklists[section.settings.menu_1]
+  assign menu_2 = linklists[section.settings.menu_2]
+-%}
+<footer class="ets ets-ftr ets-sec--ink">
+  <div class="ets-wrap">
+    {%- if section.settings.cta_heading != blank -%}
+      <div class="ets-ftr__cta">
+        <div>
+          <p class="ets-eyebrow">{{ section.settings.cta_eyebrow | escape }}</p>
+          <h2 class="ets-h2">{{ section.settings.cta_heading }}</h2>
+        </div>
+        <div class="ets-btns">
+          <a class="ets-btn ets-btn--light" href="{{ section.settings.cta_link_1 | default: '/pages/request-a-quote' }}">{{ section.settings.cta_label_1 | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+          {%- if section.settings.cta_label_2 != blank -%}
+            <a class="ets-btn ets-btn--ghost" href="{{ section.settings.cta_link_2 | default: '/pages/trade-account' }}">{{ section.settings.cta_label_2 | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'briefcase' %}</span></a>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+
+    <div class="ets-ftr__grid">
+      <div class="ets-ftr__brand">
+        <a class="ets-logo" href="{{ routes.root_url }}">
+          <img src="https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823&width=96" width="40" height="33" alt="" loading="lazy">
+          <span class="ets-logo__text"><strong>EXCELLENT</strong><small>TILING SERVICES</small></span>
+        </a>
+        {%- if section.settings.about != blank -%}<p>{{ section.settings.about | escape }}</p>{%- endif -%}
+        <div class="ets-ftr__contact">
+          <a href="tel:{{ phone_link }}"><strong>{{ phone }}</strong></a>
+          <a href="mailto:{{ settings.ets_email }}">{{ settings.ets_email }}</a>
+        </div>
+        <div class="ets-ftr__social">
+          {%- if settings.ets_facebook != blank -%}<a href="{{ settings.ets_facebook }}" target="_blank" rel="noopener" aria-label="Facebook">{% render 'ets-icon', name: 'facebook' %}</a>{%- endif -%}
+          {%- if settings.ets_instagram != blank -%}<a href="{{ settings.ets_instagram }}" target="_blank" rel="noopener" aria-label="Instagram">{% render 'ets-icon', name: 'instagram' %}</a>{%- endif -%}
+        </div>
+      </div>
+
+      {%- if menu_1.links.size > 0 -%}
+        <nav aria-label="{{ menu_1.title | escape }}">
+          <h3>{{ section.settings.menu_1_title | default: menu_1.title | escape }}</h3>
+          <ul role="list">{%- for link in menu_1.links -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
+        </nav>
+      {%- endif -%}
+      {%- if menu_2.links.size > 0 -%}
+        <nav aria-label="{{ menu_2.title | escape }}">
+          <h3>{{ section.settings.menu_2_title | default: menu_2.title | escape }}</h3>
+          <ul role="list">{%- for link in menu_2.links -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
+        </nav>
+      {%- endif -%}
+
+      <div>
+        <h3>Showroom</h3>
+        <ul role="list">
+          <li>{{ settings.ets_address | escape }}</li>
+          <li>{{ settings.ets_hours | escape }}</li>
+          <li><a href="https://www.google.com/maps/search/?api=1&query={{ settings.ets_address | url_encode }}" target="_blank" rel="noopener">Get directions →</a></li>
+          {%- if pages['book-appointment'] != blank -%}<li><a href="{{ pages['book-appointment'].url }}">Book a visit →</a></li>{%- endif -%}
+        </ul>
+      </div>
+    </div>
+
+    <div class="ets-ftr__base">
+      <span>© {{ 'now' | date: '%Y' }} {{ shop.name | escape }} Pty Ltd{% if section.settings.abn != blank %} · ABN {{ section.settings.abn | escape }}{% endif %}</span>
+      <ul role="list">
+        {%- for policy in shop.policies -%}<li><a href="{{ policy.url }}">{{ policy.title | escape }}</a></li>{%- endfor -%}
+      </ul>
+    </div>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "ETS footer",
+  "settings": [
+    { "type": "text", "id": "cta_eyebrow", "label": "CTA eyebrow", "default": "Perth renovations & supply" },
+    { "type": "inline_richtext", "id": "cta_heading", "label": "CTA heading", "default": "Planning a bathroom, kitchen or <em>tiling</em> job?" },
+    { "type": "text", "id": "cta_label_1", "label": "Button 1 label", "default": "Request a quote" },
+    { "type": "url", "id": "cta_link_1", "label": "Button 1 link" },
+    { "type": "text", "id": "cta_label_2", "label": "Button 2 label", "default": "Open a trade account" },
+    { "type": "url", "id": "cta_link_2", "label": "Button 2 link" },
+    { "type": "textarea", "id": "about", "label": "About text", "default": "Tiles, bathroomware and complete renovations for Perth homes and trades. Shop online, visit our Maddington showroom, or let our team handle the whole job." },
+    { "type": "link_list", "id": "menu_1", "label": "Menu 1", "default": "main-menu" },
+    { "type": "text", "id": "menu_1_title", "label": "Menu 1 heading", "default": "Shop" },
+    { "type": "link_list", "id": "menu_2", "label": "Menu 2", "default": "footer" },
+    { "type": "text", "id": "menu_2_title", "label": "Menu 2 heading", "default": "Help & services" },
+    { "type": "text", "id": "abn", "label": "ABN" }
+  ]
+}
+{% endschema %}

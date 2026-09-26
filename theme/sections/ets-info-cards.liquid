@@ -1,0 +1,48 @@
+<section class="ets ets-sec{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% endcase %}" aria-labelledby="EtsInfo-{{ section.id }}">
+  <div class="ets-wrap">
+    {%- if section.settings.heading != blank -%}
+      <div class="ets-head">
+        <div data-reveal>
+          {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+          <h2 class="ets-h2" id="EtsInfo-{{ section.id }}">{{ section.settings.heading }}</h2>
+        </div>
+      </div>
+    {%- endif -%}
+    <div class="ets-info">
+      {%- for block in section.blocks -%}
+        <div class="ets-shell" {{ block.shopify_attributes }} data-reveal style="--d:{{ forloop.index0 | times: 0.06 }}s">
+          <div class="ets-core">
+            <span class="ets-info__icon">{% render 'ets-icon', name: block.settings.icon %}</span>
+            <h3>{{ block.settings.title | escape }}</h3>
+            {%- if block.settings.text != blank -%}<div class="ets-rte" style="font-size:15px;line-height:1.6">{{ block.settings.text }}</div>{%- endif -%}
+            {%- if block.settings.link_label != blank -%}<a class="ets-link" href="{{ block.settings.link | default: '#' }}">{{ block.settings.link_label | escape }} {% render 'ets-icon', name: 'arrow' %}</a>{%- endif -%}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS info cards",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Delivery & showroom" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Getting your order, sorted." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        { "type": "select", "id": "icon", "label": "Icon", "default": "truck", "options": [{ "value": "truck", "label": "Delivery" }, { "value": "store", "label": "Showroom" }, { "value": "box", "label": "Box" }, { "value": "calendar", "label": "Calendar" }, { "value": "pin", "label": "Location" }, { "value": "phone", "label": "Phone" }, { "value": "return", "label": "Returns" }, { "value": "shield", "label": "Shield" }, { "value": "briefcase", "label": "Trade" }, { "value": "tile", "label": "Tiles" }] },
+        { "type": "text", "id": "title", "label": "Title", "default": "Card title" },
+        { "type": "richtext", "id": "text", "label": "Text" },
+        { "type": "text", "id": "link_label", "label": "Link label" },
+        { "type": "url", "id": "link", "label": "Link" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "ETS info cards", "blocks": [{ "type": "card" }, { "type": "card" }, { "type": "card" }] }]
+}
+{% endschema %}

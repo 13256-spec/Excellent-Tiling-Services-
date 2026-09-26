@@ -1,0 +1,184 @@
+{%- comment -%}
+  Trade account application. Submits through Shopify's native contact form, so every
+  application is emailed to the store's sender email with all fields.
+
+  Approving an applicant (Shopify admin):
+    1. Customers → find the applicant by email (or Add customer with that email).
+    2. Add the tag set in Theme settings → ETS trade pricing (default "trade") and save.
+    3. The customer logs in with that email; trade prices show and apply at checkout.
+{%- endcomment -%}
+{%- liquid
+  assign trade_tag = settings.ets_trade_tag | default: 'trade'
+  assign is_trade = false
+  if customer and customer.tags contains trade_tag
+    assign is_trade = true
+  endif
+-%}
+<section class="ets">
+  <div class="ets-phero">
+    <div class="ets-wrap ets-phero__grid">
+      <div>
+        <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">Trade account</li></ol>
+        <p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>
+        <h1 class="ets-display">{{ section.settings.heading }}</h1>
+        <p class="ets-lede">{{ section.settings.intro | escape }}</p>
+      </div>
+      <div>
+        <div class="ets-shell"><div class="ets-core ets-sec--ink" style="padding:8px">
+          <div class="ets-rates">
+            <div class="ets-rate"><div><span>Tiles</span><small>All porcelain floor &amp; wall tiles</small></div><strong>{{ settings.ets_trade_tiles_pct }}%</strong></div>
+            <div class="ets-rate"><div><span>Large items</span><small>Vanities, baths, toilets, basins, screens, mirrors, sinks</small></div><strong>{{ settings.ets_trade_large_pct }}%</strong></div>
+            <div class="ets-rate"><div><span>Tapware &amp; accessories</span><small>Mixers, showers, rails, wastes &amp; fittings</small></div><strong>{{ settings.ets_trade_small_pct }}%</strong></div>
+          </div>
+        </div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ets-sec--tight" style="padding-top:0">
+    <div class="ets-wrap ets-form-layout">
+      <aside class="ets-form-layout__aside">
+        <div class="ets-aside-card ets-shell"><div class="ets-core">
+          <h2>How it works</h2>
+          <ol class="ets-steps" role="list" style="--cols:1;gap:10px">
+            <li style="padding:18px"><strong>Apply</strong><p>Send your business details below. It takes about two minutes.</p></li>
+            <li style="padding:18px"><strong>We verify</strong><p>We check your ABN and trade details, usually within one business day.</p></li>
+            <li style="padding:18px"><strong>Log in &amp; save</strong><p>Log in with the same email. Trade prices show on every product and apply automatically at checkout.</p></li>
+          </ol>
+        </div></div>
+        <div class="ets-aside-card ets-shell"><div class="ets-core">
+          <h3>Questions?</h3>
+          <dl class="ets-dl">
+            <div><dt>Phone</dt><dd><a href="tel:{{ settings.ets_phone_link }}">{{ settings.ets_phone }}</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:{{ settings.ets_email }}">{{ settings.ets_email }}</a></dd></div>
+            <div><dt>Trade pickup</dt><dd>{{ settings.ets_address | escape }}</dd></div>
+          </dl>
+        </div></div>
+      </aside>
+
+      <div class="ets-form-layout__main ets-shell" id="apply">
+        <div class="ets-core">
+          {%- if is_trade -%}
+            <div class="ets-alert ets-alert--ok">
+              <strong>Your trade account is active.</strong>
+              Trade prices are showing across the store. <a href="{{ routes.all_products_collection_url }}">Start shopping →</a>
+            </div>
+          {%- else -%}
+            {%- form 'contact', id: 'EtsTradeForm', class: 'ets-form' -%}
+              {%- if form.posted_successfully? -%}
+                <div class="ets-alert ets-alert--ok" role="status" tabindex="-1" autofocus>
+                  <strong>Thanks — your trade application has been sent.</strong>
+                  We'll check your details and email you once your account is approved (usually within one business day). Then just log in with the same email address.
+                </div>
+              {%- endif -%}
+              {%- if form.errors -%}
+                <div class="ets-alert ets-alert--err" role="alert">{{ form.errors | default_errors }}</div>
+              {%- endif -%}
+
+              <input type="hidden" name="contact[Enquiry]" value="TRADE ACCOUNT APPLICATION">
+
+              <fieldset class="ets-fieldset">
+                <legend><span>1</span>Your business</legend>
+                <label class="ets-field">Business name *
+                  <input name="contact[Business name]" autocomplete="organization" required>
+                </label>
+                <label class="ets-field">ABN *
+                  <input name="contact[ABN]" inputmode="numeric" pattern="[0-9 ]{11,14}" title="11-digit ABN" placeholder="11 digits" required>
+                </label>
+                <label class="ets-field">Trade type *
+                  <select name="contact[Trade type]" required>
+                    <option value="" disabled selected>Choose one</option>
+                    <option>Tiler</option>
+                    <option>Builder</option>
+                    <option>Plumber</option>
+                    <option>Renovator / handyman</option>
+                    <option>Waterproofer</option>
+                    <option>Carpenter / cabinet maker</option>
+                    <option>Interior designer</option>
+                    <option>Property developer / investor</option>
+                    <option>Other trade</option>
+                  </select>
+                </label>
+                <label class="ets-field">Licence number
+                  <input name="contact[Licence number]" placeholder="e.g. BC12345 / PL1234">
+                  <small>Builder's, plumbing or other trade licence, if you hold one.</small>
+                </label>
+              </fieldset>
+
+              <fieldset class="ets-fieldset">
+                <legend><span>2</span>Contact person</legend>
+                <label class="ets-field">Full name *
+                  <input name="contact[name]" autocomplete="name" required value="{{ customer.name | escape }}">
+                </label>
+                <label class="ets-field">Mobile *
+                  <input type="tel" name="contact[phone]" autocomplete="tel" required>
+                </label>
+                <label class="ets-field ets-field--full">Email *
+                  <input type="email" name="contact[email]" autocomplete="email" autocapitalize="off" spellcheck="false" required value="{{ customer.email | escape }}">
+                  <small>Use the email you'll log in with — your trade prices are linked to it.</small>
+                </label>
+              </fieldset>
+
+              <fieldset class="ets-fieldset">
+                <legend><span>3</span>Your account</legend>
+                <div class="ets-field ets-field--full">Estimated monthly spend *
+                  <div class="ets-options" role="radiogroup">
+                    <label class="ets-option"><input type="radio" name="contact[Est. monthly spend]" value="Under $1,000" required><span>Under $1,000</span></label>
+                    <label class="ets-option"><input type="radio" name="contact[Est. monthly spend]" value="$1,000 – $5,000"><span>$1,000 – $5,000</span></label>
+                    <label class="ets-option"><input type="radio" name="contact[Est. monthly spend]" value="$5,000 – $15,000"><span>$5,000 – $15,000</span></label>
+                    <label class="ets-option"><input type="radio" name="contact[Est. monthly spend]" value="Over $15,000"><span>Over $15,000</span></label>
+                  </div>
+                </div>
+                <div class="ets-field ets-field--full">Mostly buying
+                  <div class="ets-options">
+                    <label class="ets-option"><input type="checkbox" name="contact[Buys tiles]" value="Yes"><span>Tiles</span></label>
+                    <label class="ets-option"><input type="checkbox" name="contact[Buys vanities & large items]" value="Yes"><span>Vanities &amp; large items</span></label>
+                    <label class="ets-option"><input type="checkbox" name="contact[Buys tapware & accessories]" value="Yes"><span>Tapware &amp; accessories</span></label>
+                  </div>
+                </div>
+                <label class="ets-field ets-field--full">Delivery address
+                  <input name="contact[Delivery address]" autocomplete="street-address" placeholder="Business or usual site address">
+                </label>
+                <label class="ets-field">Accounts email
+                  <input type="email" name="contact[Accounts email]" placeholder="For invoices, if different">
+                </label>
+                <label class="ets-field">Preferred payment
+                  <select name="contact[Preferred payment]">
+                    <option>Card online at checkout</option>
+                    <option>Bank transfer (EFT)</option>
+                    <option>30-day account (subject to approval)</option>
+                  </select>
+                </label>
+                <label class="ets-field ets-field--full">Anything else?
+                  <textarea name="contact[body]" rows="4" placeholder="Current projects, typical order sizes, brands you use…"></textarea>
+                </label>
+              </fieldset>
+
+              <label class="ets-consent">
+                <input type="checkbox" name="contact[Agreed to trade terms]" value="Yes" required>
+                <span>I confirm these details are correct and I'm applying on behalf of a registered business. Trade pricing is for business purchases and may be reviewed at any time.</span>
+              </label>
+
+              <div class="ets-btns">
+                <button class="ets-btn" type="submit">Submit application<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></button>
+                <span class="ets-small">Already approved? <a href="{{ routes.account_login_url }}">Log in</a></span>
+              </div>
+            {%- endform -%}
+          {%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "ETS trade application",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Trade accounts" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Trade prices for <em>trades</em>." },
+    { "type": "textarea", "id": "intro", "label": "Intro", "default": "Builders, tilers, plumbers and renovators save on every order — tiles, bathroomware, tapware and accessories. Apply once, log in, and your prices show automatically." }
+  ],
+  "presets": [{ "name": "ETS trade application" }]
+}
+{% endschema %}

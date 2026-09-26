@@ -24,8 +24,8 @@
   endfor
 -%}
 
-<section class="ets-specs" aria-labelledby="EtsSpecs-{{ section.id }}">
-  <div class="ets-shell ets-specs__grid">
+<section class="ets ets-specs" aria-labelledby="EtsSpecs-{{ section.id }}">
+  <div class="ets-wrap ets-specs__grid">
     <div class="ets-specs__intro">
       <h2 id="EtsSpecs-{{ section.id }}">{{ section.settings.heading | escape }}</h2>
       {%- if section.settings.show_help -%}
@@ -132,7 +132,7 @@
 </section>
 
 {% stylesheet %}
-  .ets-specs{padding:clamp(48px,7vw,96px) 0;background:var(--ets-white,#fff);border-top:1px solid var(--ets-line,#ddd8ce)}
+  .ets-specs{padding:clamp(48px,7vw,96px) 0;background:var(--ets-white,#fff);border-top:1px solid var(--ets-line,rgba(21,33,58,.16))}
   .ets-specs__grid{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.4fr);gap:clamp(32px,6vw,96px);align-items:start}
   .ets-specs__intro{position:sticky;top:calc(var(--ets-header-h,72px) + 56px)}
   .ets-specs__intro h2{margin:0;color:var(--ets-navy);font-size:clamp(28px,3vw,40px);line-height:1.08;letter-spacing:-.03em}

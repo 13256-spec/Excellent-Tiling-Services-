@@ -1,20 +1,7 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
-    "main": {
-      "type": "ets-collection-directory",
-      "settings": {}
-    }
+    "hero": { "type": "ets-page-hero", "settings": { "eyebrow": "Shop", "heading": "All <em>departments</em>", "text": "Tiles, vanities, basins, tapware, baths, toilets, mirrors and accessories — everything for the bathroom, kitchen and laundry.", "show_crumbs": true, "show_chips": false } },
+    "directory": { "type": "ets-directory", "settings": { "menu": "main-menu" } }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["hero", "directory"]
 }
