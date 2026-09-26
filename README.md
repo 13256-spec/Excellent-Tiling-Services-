@@ -22,3 +22,9 @@ The showroom is open **by appointment only**.
 
 Edits are made on an unpublished copy of the live theme, previewed, then published from
 Shopify admin → Online Store → Themes.
+
+## Store content
+
+`store-content/policies/` holds the current policy text. `shipping-policy.html` and
+`contact-information.html` carry the by-appointment pickup wording and must be pasted into
+Shopify admin → Settings → Policies (the API connector used here can't write legal policies).

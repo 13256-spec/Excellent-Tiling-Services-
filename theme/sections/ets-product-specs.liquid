@@ -118,9 +118,9 @@
         <summary>Delivery, pickup &amp; returns</summary>
         <ul class="ets-specs__points" role="list">
           {%- if mf.lead_time != blank -%}<li>Lead time: {{ mf.lead_time.value | escape }}</li>{%- endif -%}
-          <li>Delivered within Australia from our Maddington, WA fulfilment location. Delivery options and costs are shown at checkout.</li>
+          <li>We deliver within Australia from Maddington, WA. Delivery options for your address are shown at checkout, or contact us for a delivery quote.</li>
           <li>Free pickup from 17A Olga Road, Maddington, by appointment once we confirm your order is ready.</li>
-          <li>Change-of-mind returns within 30 days of delivery for unused products in original packaging. A restocking fee applies.</li>
+          <li>Change-of-mind returns within 30 days of receiving your order, for unused products in original packaging. A restocking fee applies.</li>
         </ul>
         <p class="ets-specs__note">
           <a href="{{ pages['delivery-pickup'].url | default: shop.shipping_policy.url }}">Delivery &amp; pickup</a>
