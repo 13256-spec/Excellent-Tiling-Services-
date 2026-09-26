@@ -21,6 +21,16 @@
       </div>
     {%- endif -%}
 
+    {%- if section.settings.news_heading != blank -%}
+      <div class="ets-ftr__news">
+        <div>
+          <h2 class="ets-ftr__news-title">{{ section.settings.news_heading }}</h2>
+          {%- if section.settings.news_text != blank -%}<p>{{ section.settings.news_text | escape }}</p>{%- endif -%}
+        </div>
+        {% render 'ets-newsletter-form', form_id: 'EtsFooterNewsForm', source: 'footer' %}
+      </div>
+    {%- endif -%}
+
     <div class="ets-ftr__grid">
       <div class="ets-ftr__brand">
         <a class="ets-logo" href="{{ routes.root_url }}">
@@ -81,6 +91,8 @@
     { "type": "url", "id": "cta_link_1", "label": "Button 1 link" },
     { "type": "text", "id": "cta_label_2", "label": "Button 2 label", "default": "Open a trade account" },
     { "type": "url", "id": "cta_link_2", "label": "Button 2 link" },
+    { "type": "inline_richtext", "id": "news_heading", "label": "Email sign-up heading", "default": "Get new ranges &amp; <em>deals</em> by email.", "info": "Leave blank to hide the sign-up." },
+    { "type": "text", "id": "news_text", "label": "Email sign-up text", "default": "New arrivals, clearance stock and renovation ideas from our Maddington showroom." },
     { "type": "textarea", "id": "about", "label": "About text", "default": "Tiles, bathroomware and complete renovations for Perth homes and trades. Shop online, visit our Maddington showroom, or let our team handle the whole job." },
     { "type": "link_list", "id": "menu_1", "label": "Menu 1", "default": "main-menu" },
     { "type": "text", "id": "menu_1_title", "label": "Menu 1 heading", "default": "Shop" },

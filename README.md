@@ -75,6 +75,19 @@ The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm
 See [store-content/shopify-forms-setup.md](store-content/shopify-forms-setup.md)
 for setting up all four forms (trade, quote, booking, contact) in Shopify Forms.
 
+## Email sign-ups
+
+- **Pop-up:** `sections/ets-newsletter-popup.liquid` (in the footer group, so it's on every page).
+  It opens once after 12 seconds, or when a desktop visitor moves to leave. After it's closed it
+  stays hidden for 30 days, and it never shows again once someone subscribes. It's skipped on
+  the cart, password and account pages, and for logged-in customers who already get emails.
+  Edit the text, image, timing, and an optional offer and discount code in the theme editor
+  (Footer → ETS email sign-up pop-up).
+- **Footer strip:** the same form in `sections/ets-footer.liquid` (Email sign-up heading/text).
+- Both use Shopify's customer form (`snippets/ets-newsletter-form.liquid`). Every sign-up is
+  saved in **Customers** as subscribed to email marketing, tagged `newsletter` plus
+  `newsletter-popup` or `newsletter-footer`. Send campaigns with the Shopify Email app.
+
 ## Catalogue clean-up (26 Sep 2026)
 
 - 134 draft products checked (images, collections, description, price) and published. 195 of

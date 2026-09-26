@@ -173,6 +173,59 @@
     if (submit) submit.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
 
+  /* ---------- Email sign-up pop-up ---------- */
+  const POP_KEY = 'ets-news-popup';
+  const store = {
+    get() { try { return parseInt(localStorage.getItem(POP_KEY), 10) || 0; } catch (e) { return 0; } },
+    set(v) { try { localStorage.setItem(POP_KEY, String(v)); } catch (e) { /* storage blocked */ } }
+  };
+  const FOREVER = 4102444800000; // 2100-01-01: never show again after subscribing
+
+  function initPopup() {
+    const pop = $('[data-ets-pop]');
+    if (!pop || pop.dataset.ready || typeof pop.showModal !== 'function') return;
+    pop.dataset.ready = '1';
+    const formId = pop.dataset.form;
+    const hash = location.hash.slice(1);
+    const open = () => {
+      if (pop.open || $('dialog[open]')) return;
+      pop.showModal();
+      const title = $('h2', pop);
+      if (title) title.focus({ preventScroll: true });
+    };
+
+    // Shopify returns to #FormId after a sign-up. Only the form that was sent keeps its message.
+    $$('[data-ets-news]').forEach((f) => {
+      const msg = $('[data-ets-news-msg]', f);
+      if (msg && f.id !== hash) msg.remove();
+      else if (msg && msg.classList.contains('ets-alert--ok')) store.set(FOREVER);
+    });
+
+    pop.addEventListener('click', (e) => {
+      if (e.target === pop || e.target.closest('[data-ets-pop-close]')) pop.close();
+    });
+    pop.addEventListener('close', () => {
+      if (store.get() < Date.now()) store.set(Date.now() + (parseInt(pop.dataset.days, 10) || 30) * 864e5);
+    });
+
+    if (window.Shopify && Shopify.designMode) {
+      document.addEventListener('shopify:section:select', (e) => { if (e.detail.sectionId === pop.dataset.section) open(); });
+      document.addEventListener('shopify:section:deselect', (e) => { if (e.detail.sectionId === pop.dataset.section && pop.open) pop.close(); });
+      return;
+    }
+    if (hash === formId) { open(); return; }
+    if (store.get() > Date.now()) return;
+
+    const delay = (parseInt(pop.dataset.delay, 10) || 12) * 1000;
+    let armed = false;
+    const fire = () => { cleanup(); open(); };
+    const timer = setTimeout(fire, delay);
+    const exit = (e) => { if (armed && !e.relatedTarget && e.clientY <= 0) fire(); };
+    const armTimer = setTimeout(() => { armed = true; }, 4000);
+    const cleanup = () => { clearTimeout(timer); clearTimeout(armTimer); document.removeEventListener('mouseout', exit); };
+    if (mq.matches) document.addEventListener('mouseout', exit);
+  }
+
   function init(root = document) {
     const header = $('[data-ets-header]', root) || (root.matches && root.matches('[data-ets-header]') ? root : null);
     if (header && !header.dataset.ready) { header.dataset.ready = '1'; initMega(header); initDrawer(header); }
@@ -180,7 +233,7 @@
     initRails(root);
   }
 
-  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => init());
-  else init();
-  document.addEventListener('shopify:section:load', (e) => init(e.target));
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => { init(); initPopup(); });
+  else { init(); initPopup(); }
+  document.addEventListener('shopify:section:load', (e) => { init(e.target); initPopup(); });
 })();
