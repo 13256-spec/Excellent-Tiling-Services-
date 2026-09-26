@@ -72,8 +72,8 @@ The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm
 - To use a bookings app instead, add its app block to the "ETS showroom booking" section in
   the theme editor. When an app block is present it replaces the built-in form.
 
-See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md)
-for the Shopify Forms field setup.
+See [store-content/shopify-forms-setup.md](store-content/shopify-forms-setup.md)
+for setting up all four forms (trade, quote, booking, contact) in Shopify Forms.
 
 ## Catalogue clean-up (26 Sep 2026)
 

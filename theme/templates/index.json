@@ -5,11 +5,11 @@
       "settings": {
         "eyebrow": "Tiles · Bathroomware · Renovations — Perth",
         "heading": "Beautiful bathrooms, <em>built</em> and supplied.",
-        "text": "Shop porcelain tiles, vanities, tapware and bathroomware online — or let our licensed team handle the whole renovation, from waterproofing to the final tile.",
+        "text": "Shop porcelain tiles, vanities, tapware and bathroomware online, or let our licensed, family-run team handle the whole renovation, from waterproofing to the final tile.",
         "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
         "btn_1_label": "Shop the range",
         "btn_1_link": "shopify://collections/all",
-        "btn_2_label": "Get a renovation quote",
+        "btn_2_label": "Free measure & quote",
         "btn_2_link": "shopify://pages/request-a-quote",
         "meta_1": "Perth delivery & Australia-wide shipping",
         "meta_2": "Maddington showroom",
@@ -184,9 +184,9 @@
         "bg": "none",
         "eyebrow": "Renovation services",
         "heading": "Your renovation, handled <em>end to end</em>.",
-        "text": "<p>One local team for the whole job — design choices, strip-out, waterproofing, tiling and fit-off — using products from our own range, so there are no surprises and no finger-pointing between trades.</p>",
+        "text": "<p>One local, family-run team for the whole job: design choices, strip-out, waterproofing, tiling and fit-off, using products from our own range. It starts with a free measure and quote.</p>",
         "checks": "Full bathroom, ensuite & laundry renovations\nKitchen splashbacks & laundry upgrades\nWaterproofing & leaking shower repairs\nFloor & wall tiling, indoors and out",
-        "btn_1_label": "Get a renovation quote",
+        "btn_1_label": "Book a free measure & quote",
         "btn_1_link": "shopify://pages/request-a-quote",
         "btn_2_label": "See our services",
         "btn_2_link": "shopify://pages/tiling-services"
@@ -197,7 +197,7 @@
       "settings": {
         "eyebrow": "What we do",
         "heading": "From strip-out to the <em>final grout line</em>.",
-        "link_label": "Request a quote",
+        "link_label": "Free measure & quote",
         "link": "shopify://pages/request-a-quote",
         "bg": "sand"
       },
@@ -209,7 +209,7 @@
             "title": "Bathroom renovations",
             "text": "Complete bathroom and ensuite makeovers, managed from start to finish.",
             "bullets": "Strip-out & rebuild\nWaterproofing & screed\nTiling, fit-off & silicone",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         },
@@ -220,7 +220,7 @@
             "title": "Kitchen & laundry",
             "text": "Refresh the hardest-working rooms in the house.",
             "bullets": "Splashbacks & feature walls\nLaundry tiling & fit-out\nSinks & tapware supplied",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         },
@@ -231,7 +231,7 @@
             "title": "Tiling",
             "text": "Precise floor and wall tiling for any room, indoors or out.",
             "bullets": "Large-format porcelain\nFloors, walls & alfresco\nFeature & herringbone layouts",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         },
@@ -242,7 +242,7 @@
             "title": "Waterproofing & repairs",
             "text": "Stop leaks at the source and protect your home.",
             "bullets": "Leaking shower repairs\nRe-grouting & re-sealing\nRegrading & membrane",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         }
@@ -276,7 +276,7 @@
           "settings": {
             "icon": "truck",
             "title": "Perth metro delivery",
-            "text": "<p>Tiles, vanities, baths and other large items are delivered across the Perth metro area. Ask us for a delivery quote, or pick up free from Maddington.</p>",
+            "text": "<p>Local delivery for tiles, vanities, baths and other large items across the Perth metro area. Delivery options show at checkout, or pick up free from Maddington.</p>",
             "link_label": "Delivery & pickup",
             "link": "shopify://pages/delivery-pickup"
           }
@@ -343,7 +343,7 @@
           "type": "question",
           "settings": {
             "question": "Do you do the renovation as well as supply?",
-            "answer": "<p>Yes. We handle full bathroom renovations, kitchen and laundry work, tiling and waterproofing repairs across Perth. <a href=\"/pages/request-a-quote\">Request a quote</a> with your suburb, the room and your timing.</p>"
+            "answer": "<p>Yes. Our family-run team handles full bathroom renovations, kitchen and laundry work, tiling and waterproofing repairs across Perth, starting with a free measure and quote. <a href=\"/pages/request-a-quote\">Book yours</a> with your suburb, the room and your timing.</p>"
           }
         },
         "4": {

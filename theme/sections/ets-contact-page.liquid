@@ -47,7 +47,7 @@
               <label>Full name<input name="contact[name]" autocomplete="name" value="{{ form.name | escape }}" required></label>
               <label>Email<input type="email" name="contact[email]" autocomplete="email" value="{{ form.email | escape }}" required></label>
               <label>Phone<input type="tel" name="contact[phone]" autocomplete="tel" value="{{ form.phone | escape }}"></label>
-              <label>I need help with<select name="contact[Department]"><option>Bathroom accessories</option>{% if collections['hardware'].products_count > 0 %}<option>Hardware</option>{% endif %}<option>Tiles</option><option>Professional tiling</option><option>Existing order</option><option>Other</option></select></label>
+              <label>I need help with<select name="contact[Department]"><option>Tiles</option><option>Vanities, basins &amp; baths</option><option>Tapware, showers &amp; accessories</option><option>Renovation or tiling job</option><option>Trade account</option><option>Existing order</option><option>Other</option></select></label>
               <label class="ets-visit__full">Your message<textarea name="contact[body]" rows="6" required>{{ form.body | escape }}</textarea></label>
             </div>
             <button class="ets-visit__btn" type="submit">Send message</button>

@@ -2,6 +2,9 @@
   Trade account application. Submits through Shopify's native contact form, so every
   application is emailed to the store's sender email with all fields.
 
+  Add a Shopify Forms block to this section in the theme editor and it replaces the built-in
+  form, so every application is saved as a customer (tag: trade-applicant) and in Forms.
+
   Approving an applicant (Shopify admin):
     1. Customers → find the applicant by email (or Add customer with that email).
     2. Add the tag set in Theme settings → ETS trade pricing (default "trade") and save.
@@ -63,6 +66,8 @@
               <strong>Your trade account is active.</strong>
               Trade prices are showing across the store. <a href="{{ routes.all_products_collection_url }}">Start shopping →</a>
             </div>
+          {%- elsif section.blocks.size > 0 -%}
+            {%- for block in section.blocks -%}{% render block %}{%- endfor -%}
           {%- else -%}
             {%- form 'contact', id: 'EtsTradeForm', class: 'ets-form' -%}
               {%- if form.posted_successfully? -%}
@@ -179,6 +184,7 @@
     { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Trade prices for <em>trades</em>." },
     { "type": "textarea", "id": "intro", "label": "Intro", "default": "Builders, tilers, plumbers and renovators save on every order — tiles, bathroomware, tapware and accessories. Apply once, log in, and your prices show automatically." }
   ],
+  "blocks": [{ "type": "@app" }],
   "presets": [{ "name": "ETS trade application" }]
 }
 {% endschema %}

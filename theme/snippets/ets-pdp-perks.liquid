@@ -27,8 +27,8 @@
     {% render 'ets-icon', name: 'truck' %}
     <span>
       {%- case band -%}
-        {%- when 'tiles' -%}<strong>Perth metro delivery</strong><small>Tiles deliver within the Perth metro area only. <a href="/pages/contact">Ask for a delivery quote</a>, or choose free pickup from Maddington at checkout.</small>
-        {%- when 'large' -%}<strong>Perth metro delivery</strong><small><a href="/pages/contact">Ask for a delivery quote</a>, or choose free pickup from Maddington at checkout.</small>
+        {%- when 'tiles' -%}<strong>Perth metro delivery</strong><small>Local delivery across the Perth metro area (tiles aren't shipped outside Perth). Options show at checkout, or choose free pickup from Maddington.</small>
+        {%- when 'large' -%}<strong>Perth metro delivery</strong><small>Local delivery options show at checkout, or choose free pickup from Maddington. Outside Perth? <a href="/pages/contact">Ask for a freight quote.</a></small>
         {%- else -%}<strong>Free shipping Australia-wide</strong><small>Or pick up from our Maddington showroom.</small>
       {%- endcase -%}
       {%- if lead != blank -%}<small>Lead time: {{ lead | escape }}</small>{%- endif -%}

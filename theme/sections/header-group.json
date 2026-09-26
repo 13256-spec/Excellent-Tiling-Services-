@@ -7,7 +7,7 @@
       "settings": {
         "menu": "main-menu",
         "search_placeholder": "Search tiles, vanities, tapware…",
-        "cta_label": "Get a renovation quote",
+        "cta_label": "Free measure & quote",
         "cta_link": "shopify://pages/request-a-quote",
         "show_topbar": true,
         "msg_1": "Free shipping Australia-wide on tapware & accessories",
@@ -16,5 +16,7 @@
       }
     }
   },
-  "order": ["ets_header"]
+  "order": [
+    "ets_header"
+  ]
 }

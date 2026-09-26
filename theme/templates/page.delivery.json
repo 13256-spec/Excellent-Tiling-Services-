@@ -29,10 +29,8 @@
           "type": "card",
           "settings": {
             "icon": "truck",
-            "title": "Perth metro delivery",
-            "text": "<p>Tiles, vanities, baths, toilets, basins, sinks, mirrors and shower screens are delivered within the Perth metro area. Contact us before ordering for a delivery quote, or choose free pickup at checkout. Tiles are not shipped outside Perth.</p>",
-            "link_label": "Ask for a delivery quote",
-            "link": "shopify://pages/contact"
+            "title": "Perth local delivery",
+            "text": "<p>Tiles, vanities, baths, toilets, basins, sinks, mirrors and shower screens are delivered locally across the Perth metro area. Delivery options and costs show at checkout. Tiles are not shipped outside Perth.</p>"
           }
         },
         "2": {
@@ -71,7 +69,7 @@
           "type": "step",
           "settings": {
             "title": "Choose delivery or pickup",
-            "text": "Small items ship free. For tiles and large items choose free pickup at checkout, or contact us for a Perth delivery quote."
+            "text": "Local delivery, free shipping on small items, or free pickup: the options for your address show at checkout."
           }
         },
         "2": {

@@ -5,9 +5,9 @@
       "settings": {
         "eyebrow": "Renovations & tiling · Perth",
         "heading": "Renovations, done <em>properly</em>.",
-        "text": "Bathrooms, ensuites, laundries and kitchens — stripped out, waterproofed, tiled and fitted off by one licensed and insured Perth team, using products from our own range.",
+        "text": "Bathrooms, ensuites, laundries and kitchens: stripped out, waterproofed, tiled and fitted off by one licensed, insured and family-run Perth team, using products from our own range.",
         "image": "shopify://shop_images/DSA66SS06_2.jpg",
-        "btn_1_label": "Request a quote",
+        "btn_1_label": "Book a free measure & quote",
         "btn_1_link": "shopify://pages/request-a-quote",
         "btn_2_label": "Book a showroom visit",
         "btn_2_link": "shopify://pages/book-appointment",
@@ -34,7 +34,7 @@
             "title": "Bathroom renovations",
             "text": "Complete bathroom, ensuite and powder room renovations, managed from first measure to final clean.",
             "bullets": "Strip-out & disposal\nWaterproofing & screeding\nFloor & wall tiling\nVanity, toilet, tapware & screen fit-off",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         },
@@ -45,7 +45,7 @@
             "title": "Kitchen & laundry",
             "text": "Give the busiest rooms in the house a hard-wearing, easy-clean finish.",
             "bullets": "Splashbacks & feature walls\nLaundry floor & wall tiling\nSinks, mixers & tapware supplied\nMatching tiles across rooms",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         },
@@ -56,7 +56,7 @@
             "title": "Tiling",
             "text": "Floor and wall tiling for any room, including large-format porcelain.",
             "bullets": "Living areas & hallways\nAlfresco & outdoor areas\nLarge-format & feature layouts\nHerringbone, brick bond & more",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         },
@@ -67,7 +67,7 @@
             "title": "Waterproofing & repairs",
             "text": "Find and fix the cause of leaks before they become expensive.",
             "bullets": "Leaking shower repairs\nRe-grouting & re-sealing\nRegrading & new membranes\nTile replacement & patching",
-            "link_label": "Request a quote",
+            "link_label": "Get a free quote",
             "link": "shopify://pages/request-a-quote"
           }
         }
@@ -88,8 +88,8 @@
         "eyebrow": "Supply + install",
         "heading": "Products and people <em>under one roof</em>.",
         "text": "<p>Because we supply the tiles, vanities and tapware ourselves, you choose from our range in the Maddington showroom and our team installs exactly what you picked — one point of contact from quote to handover.</p>",
-        "checks": "Licensed & insured Perth team\nChoose products in our Maddington showroom\nOne quote covering supply and labour\nClear communication and a clean, tidy site",
-        "btn_1_label": "Request a quote",
+        "checks": "Licensed, insured and family-run\nFree measure and quote\nChoose products in our Maddington showroom\nOne quote covering supply and labour",
+        "btn_1_label": "Book a free measure & quote",
         "btn_1_link": "shopify://pages/request-a-quote"
       }
     },
@@ -111,8 +111,8 @@
         "1": {
           "type": "step",
           "settings": {
-            "title": "Site visit & quote",
-            "text": "We inspect the space, talk through options and send a clear written quote."
+            "title": "Free measure & quote",
+            "text": "We visit, measure up, talk through options and send a clear written quote, free."
           }
         },
         "2": {
@@ -186,10 +186,10 @@
     "cta": {
       "type": "ets-cta",
       "settings": {
-        "eyebrow": "Talk to our team",
+        "eyebrow": "Free measure & quote",
         "heading": "Let's plan your <em>renovation</em>.",
         "text": "Tell us about the room and your timing — we'll take it from there.",
-        "btn_1_label": "Request a quote",
+        "btn_1_label": "Book a free measure & quote",
         "btn_1_link": "shopify://pages/request-a-quote",
         "btn_2_label": "Contact us",
         "btn_2_link": "shopify://pages/contact"
