@@ -19,6 +19,9 @@
 >
 
 {%- liquid
+  if request.page_type == 'index' and page_title == shop.name
+    assign page_title = 'Tiles & Tiling Perth | Bathroomware Showroom | ETS'
+  endif
   assign og_title = page_title | default: shop.name
   assign og_url = canonical_url | default: request.origin
   assign og_type = 'website'
