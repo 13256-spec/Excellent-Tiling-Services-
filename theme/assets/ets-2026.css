@@ -265,7 +265,7 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 .ets-drawer__contact { margin-top: 24px; padding: 18px; border-radius: var(--ets-r); background: var(--ets-bg-2); font-size: 14px; line-height: 1.6; }
 .ets-drawer__contact a { font-weight: 700; }
 
-@media (max-width: 1360px) {
+@media (max-width: 1540px) {
   .ets-topbar__msg span:nth-child(3) { display: none; }
 }
 @media (max-width: 1100px) {
@@ -423,7 +423,7 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 .ets-badge--trade { background: var(--ets-trade); }
 .ets-card__body { padding: 16px 4px 0; display: grid; gap: 6px; }
 .ets-card__vendor { font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ets-muted); }
-.ets-card__title { font-size: 15.5px; font-weight: 600; line-height: 1.35; margin: 0; }
+.ets-card__title { font-family: var(--ets-sans); letter-spacing: -.005em; font-size: 15.5px; font-weight: 600; line-height: 1.35; margin: 0; }
 .ets-card__price { font-size: 15px; font-weight: 700; }
 .ets-card__opts { font-size: 12.5px; color: var(--ets-muted); }
 
