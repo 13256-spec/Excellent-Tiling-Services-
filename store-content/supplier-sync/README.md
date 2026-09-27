@@ -57,3 +57,17 @@ Trade customers (customer tag `trade`, segment "Trade customers") get an automat
 | `trade-15` | Trade – 15% | 15% | 0 |
 
 Only products with a unit cost in Shopify and at least 35% margin are on `trade-10` (MELA FLOVA/PALCO/RONDO tapware and accessories, Roberts pocket knife). Everything else has no cost entered, so it stays on `trade-5` until a cost is added. Products with no trade tag get no trade discount. Trade discounts don't combine with other product or order discounts.
+
+## Roberts Designs import (27 Sep 2026)
+264 Roberts Designs products (935 variants) added to Shopify as **drafts**, vendor "Roberts Designs", tags `supplier-import` and `needs-cost`. Nothing is visible to customers until a product is set to Active.
+
+- Source: public product feed on robertsdesigns.com.au (names, options, SKUs, photos, specs). Carton quantities and "min buy" notes were removed from descriptions.
+- Skipped: Pocket Folding Knife box of 6 and Turbo Diamond Blades (already in the store as drafts), plus 10 spare parts and 64 option combinations that Roberts lists without a price.
+- Price = 3% below the lowest market price found, rounded to .95:
+  - `web:` 12 flagship items checked by hand online (Sigma cutters, Kera Cut, Kera Lift, Baron E120). Market is 52–72% of the Roberts list price for these.
+  - `match:` 140 variants matched to Tile Mart, Port Kembla Tiles, Western Distributors or Builders Centre listings.
+  - `roberts-list`: everything else is priced 3% under the public Roberts price. Tile Mart sells at about Roberts +4%, so this is at or below common retail but may be above discount shops.
+- `price-check` tag: items where the Roberts data or market looked unreliable (Baron F200/F300 and parts, Sigma parts and workbench, one linear drain, tile wedges, cylinder gun).
+- Shipping: 77 bulky products (3m trims, tile cutters, Kera/Sigma tables, Baron mixers, linear drains, niche boxes, grout 5kg+, pallet wrap, floor protection roll) moved to "Local delivery or pickup - large items". The rest stay in the General profile ($20 under $100, free over $100).
+- No trade tag yet, so trade customers get no discount on these until a tier is chosen.
+- Costs are unknown (need the logged-in Roberts price list). Fill `our_cost` in `roberts-designs-pricing.csv` or send the price list, then check margin before activating anything.
