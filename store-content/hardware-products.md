@@ -51,6 +51,6 @@ the manufacturer or Australian stockist sites listed below. Products marked "non
 | 13 | BAT Razor Mesh Diamond Blade | BAT Tools | Diamond Blades | stonex.com.au |
 | 14 | BAT Tools Pro Diamond Mesh Blade | BAT Tools | Diamond Blades | stonex.com.au |
 | 15 | BAT Pro PVA Abrasive Wheel 36 Grit | BAT Tools | Abrasives | none (only a 120 grit pack shot found) |
-| 16 | BAT Eco SynSafe Acid (Size: 1 L / 5 L / 20 L) | BAT Eco | Cleaners & Sealers | adheseal.com.au + 3 before/after shots from BAT's TDS; 1 L $35.00 in stock, 5 L (`ETS-HW-016-5L`) and 20 L (`ETS-HW-016-20L`) to order, prices pending |
+| 16 | BAT Eco SynSafe Acid (Size: 1 L / 5 L / 20 L) | BAT Eco | Cleaners & Sealers | adheseal.com.au + 3 before/after shots from BAT's TDS; 1 L $35.00 in stock, 5 L $145.00 (`ETS-HW-016-5L`) and 20 L $485.00 (`ETS-HW-016-20L`) to order, priced ~8% under Adheseal incl. GST |
 | 17 | RLA Quick Set Liquid Additive – Cement Accelerator 5 L | RLA | Adhesives & Additives | tilersdirect.com.au (green label, matches stock); $47.00, needs barcode |
 | 18 | Click Heavy Duty Powerblock – 4 Outlet with RCBO Protection | Click | Site Power | supplied by ETS (2 photos); $75.00, ready to publish |
