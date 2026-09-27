@@ -4,6 +4,14 @@ Collection: **Hardware** (`/collections/hardware`, smart collection, rule: tag =
 Any product tagged `Hardware` joins it automatically. The theme shows the Hardware menu link,
 homepage card and directory tile once the collection has at least one active product.
 
+## Navigation
+
+The live theme is "Copy of Copy of ETS Rebuild 2026", not the `theme/` files in this repo. Its header
+menu comes from Shopify admin → Content → Menus → **Main menu**, where "Hardware" (with All hardware,
+Trowels & tiling tools, Diamond blades & abrasives, Silicone, additives & cleaners) sits after
+"Mirrors & accessories". Add "Tile Spacers & Wedges" to that drop-down once a spacer product is live.
+The homepage "Shop by department" grid is set in the theme editor and needs a Hardware block added there.
+
 ## Categories
 
 Four smart sub-collections, filled from each product's sub-tag. They show as tabs on every
