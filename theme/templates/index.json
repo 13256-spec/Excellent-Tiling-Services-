@@ -195,7 +195,7 @@
           "type": "question",
           "settings": {
             "question": "How do I check product availability or delivery?",
-            "answer": "<p>Contact us with the product name, finish and quantity you need and we will confirm availability. Tapware, shower sets, towel rails and other small bathroom items ship free Australia-wide, and you can pick up from Maddington by appointment. See <a href=\"/pages/delivery-pickup\">Delivery &amp; pickup</a> and our <a href=\"/policies/shipping-policy\">shipping policy</a>.</p>"
+            "answer": "<p>Contact us with the product name, finish and quantity you need and we will confirm availability. Tapware, shower sets, towel rails and other small bathroom items ship free Australia-wide on orders over $100 (flat $20 under $100), and you can pick up from Maddington by appointment. See <a href=\"/pages/delivery-pickup\">Delivery &amp; pickup</a> and our <a href=\"/policies/shipping-policy\">shipping policy</a>.</p>"
           }
         }
       },
