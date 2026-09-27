@@ -49,4 +49,4 @@ the manufacturer or Australian stockist sites listed below. Products marked "non
 | 15 | BAT Pro PVA Abrasive Wheel 36 Grit | BAT Tools | Abrasives | none (only a 120 grit pack shot found) |
 | 16 | BATSeal SynSafe Acid | BATSeal | Cleaners & Sealers | adheseal.com.au |
 | 17 | RLA Quick Set Liquid Additive 5 L | RLA | Adhesives & Additives | kimstilingsupplies.com.au (current label; stock has older green label) |
-| 18 | Click Heavy Duty Powerblock 4 Outlet with RCBO Protection | Click | Site Power | none |
+| 18 | Click Heavy Duty Powerblock – 4 Outlet with RCBO Protection | Click | Site Power | supplied by ETS (2 photos); $75.00, ready to publish |
