@@ -24,6 +24,10 @@ Every product is tracked (SKU `ETS-HW-###`, matching the numbers below) with
 "Continue selling when out of stock" on, because stock can be reordered from suppliers.
 Counts start at 0; enter the on-hand quantities in Shopify admin → Products → Inventory.
 
+When a product comes in more sizes than we keep on the shelf, list every size as a variant: sizes we
+don't hold start at 0 and can still be ordered. A new size is set to "Stop selling when out of stock"
+until it has its own price, so it can't sell at a copied price.
+
 Products added 27 Sep 2026 from the showroom tool wall photo. All were created as **Draft**
 at $0.00. Set a price, then change the status to Active.
 
@@ -47,6 +51,6 @@ the manufacturer or Australian stockist sites listed below. Products marked "non
 | 13 | BAT Razor Mesh Diamond Blade | BAT Tools | Diamond Blades | stonex.com.au |
 | 14 | BAT Tools Pro Diamond Mesh Blade | BAT Tools | Diamond Blades | stonex.com.au |
 | 15 | BAT Pro PVA Abrasive Wheel 36 Grit | BAT Tools | Abrasives | none (only a 120 grit pack shot found) |
-| 16 | BAT Eco SynSafe Acid 1 L | BAT Eco | Cleaners & Sealers | adheseal.com.au + 3 before/after shots from BAT's TDS; $35.00, ready to publish |
+| 16 | BAT Eco SynSafe Acid (Size: 1 L / 5 L / 20 L) | BAT Eco | Cleaners & Sealers | adheseal.com.au + 3 before/after shots from BAT's TDS; 1 L $35.00 in stock, 5 L (`ETS-HW-016-5L`) and 20 L (`ETS-HW-016-20L`) to order, prices pending |
 | 17 | RLA Quick Set Liquid Additive – Cement Accelerator 5 L | RLA | Adhesives & Additives | tilersdirect.com.au (green label, matches stock); $47.00, needs barcode |
 | 18 | Click Heavy Duty Powerblock – 4 Outlet with RCBO Protection | Click | Site Power | supplied by ETS (2 photos); $75.00, ready to publish |
