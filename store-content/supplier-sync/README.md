@@ -46,3 +46,14 @@ Small items now sit in the General profile (gid://shopify/DeliveryProfile/943475
 - "Free shipping (orders $100+)": $0 when the order subtotal is $100.00 or more
 - "Standard shipping": $20 flat when the order subtotal is $0.00 to $99.99
 Large items are in "Local delivery or pickup - large items" (pickup or quote).
+
+## Trade pricing tiers (27 Sep 2026)
+Trade customers (customer tag `trade`, segment "Trade customers") get an automatic discount set by a product tag:
+
+| Product tag | Collection | Discount | Products |
+| --- | --- | --- | --- |
+| `trade-5` | Trade – 5% | 5% | 230 |
+| `trade-10` | Trade – 10% | 10% | 11 |
+| `trade-15` | Trade – 15% | 15% | 0 |
+
+Only products with a unit cost in Shopify and at least 35% margin are on `trade-10` (MELA FLOVA/PALCO/RONDO tapware and accessories, Roberts pocket knife). Everything else has no cost entered, so it stays on `trade-5` until a cost is added. Products with no trade tag get no trade discount. Trade discounts don't combine with other product or order discounts.
