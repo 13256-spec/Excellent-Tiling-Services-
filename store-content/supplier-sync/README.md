@@ -71,3 +71,21 @@ Only products with a unit cost in Shopify and at least 35% margin are on `trade-
 - Shipping: 77 bulky products (3m trims, tile cutters, Kera/Sigma tables, Baron mixers, linear drains, niche boxes, grout 5kg+, pallet wrap, floor protection roll) moved to "Local delivery or pickup - large items". The rest stay in the General profile ($20 under $100, free over $100).
 - No trade tag yet, so trade customers get no discount on these until a tier is chosen.
 - Costs are unknown (need the logged-in Roberts price list). Fill `our_cost` in `roberts-designs-pricing.csv` or send the price list, then check margin before activating anything.
+
+### Collections for the Roberts Designs products
+
+The existing Hardware smart collections now also match on **product type**, so Roberts products (and future imports that use the same types) sort themselves automatically:
+
+| Collection | Matches | Products |
+|---|---|---|
+| Hardware | tag `Hardware` + every Roberts tool, blade, spacer, sealant, cutter and trim type | 253 |
+| Trowels & Tiling Tools | existing tags + Tiling Tools, Mixers, Sponges and Grouting Systems, Brushes and Rollers, Packaging, protection mats | 85 |
+| Diamond Blades & Drill Bits | existing tags + Drill Bits, Diamond Blades, Grinding Wheels and Polishing Pads | 15 |
+| Tile Spacers & Wedges | tag + Tile Spacers, Tile Leveling Systems | 24 |
+| Silicone, Additives & Cleaners | existing tags + Silicone Sealants/Accessories, Hybrid Sealants, Adhesives, Grout | 30 |
+| **Tile Trims & Edging** (new, `tile-trims-edging`) | the 15 trim product types | 33 |
+| **Tile Cutters & Accessories** (new, `tile-cutters-accessories`) | type Tile Cutters | 67 |
+
+The bathroom items were added by hand to the manual collections: Bathroom Wastes (floor wastes, linear drains and flanges, +15), Soap & Shelf Holders (+7), and Accessories (niche boxes and a vent, +4).
+
+The two new collections are **not yet published** to the Online Store. Publish them and add them to the menu once the Roberts products go live.
