@@ -177,7 +177,7 @@ def estimate(p, v):
         return r(1.3, (65, 16, 16))
 
     if typ == 'Tile Cutters' or 'sigma' in tl or 'kera' in tl:
-        if any(k in tl for k in (' nut ', 'bolt', 'wheel', 'rubber foot')) or tl.endswith(' nut'):
+        if (any(k in tl for k in (' nut ', 'bolt', 'wheel', 'rubber foot')) or tl.endswith(' nut')) and 'kit' not in tl:
             return r(0.1, (12, 10, 4), 'type estimate', 'small spare part')
         if 'suction cup' in tl:
             return r(1.5, (25, 25, 15))
@@ -274,6 +274,8 @@ def estimate(p, v):
 
     if typ in ('Tile Spacers', 'Tile Leveling Systems', 'Tile Wedges') or 'spacer' in tl or 'wedges' in tl:
         count = num(r'([\d,]+)\s*(?:bag|bucket|pack)', vl or tl, None, lambda s: int(s.replace(',', '')))
+        if not count and 'bulk' in vl:
+            count = 5000
         if not count:
             count = num(r'([\d,]+)\s*pack', tl, 100, lambda s: int(s.replace(',', '')))
         each = 0.0004 if ('spacer' in tl and 'plate' not in tl) else (0.003 if 'wedge' in tl else (0.004 if 'plate' in tl else 0.008))
@@ -362,6 +364,7 @@ def main(src, out):
                 'note': note,
                 'variant_id': v['id'],
                 'inventory_item_id': v['inventoryItem']['id'],
+                'in_shopify': 'yes',
             })
     with open(out, 'w', newline='') as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]), lineterminator='\n')

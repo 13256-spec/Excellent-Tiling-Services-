@@ -12,7 +12,7 @@ Check a few against real parcels. The ones most worth weighing are vanities, bat
 - `box_cm`: packed box, longest side first.
 - `cubic_kg`: Australia Post cubic weight (L×W×H ÷ 4000). Couriers charge the higher of this and the real weight.
 - `ship_by`: `auspost` if it fits a MyPost Business parcel (22 kg, 105 cm longest side, 0.25 m³), otherwise `freight`. Tiles are always freight.
-- `in_shopify`: whether the weight has been entered on the Shopify variant yet.
+- `in_shopify`: whether the weight has been entered on the Shopify variant.
 
 ## Summary (live variants)
 | Ship by | Variants | What |
@@ -25,4 +25,4 @@ Check a few against real parcels. The ones most worth weighing are vanities, bat
 3 m trims are light (under 4 kg) but too long for Australia Post, so they need a courier that takes long parcels. Until then they are Perth delivery or pickup.
 
 ## Status
-Weights have been entered in Shopify for 550 variants (141 products). The other 1,141 are still to be entered. Weights do not change what customers pay until calculated shipping rates are turned on.
+Weights are entered in Shopify for all 1,691 variants (checked against a fresh Shopify export on 28 Sep 2026: all match). They don't change what customers pay until calculated shipping rates are turned on.
