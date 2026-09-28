@@ -440,6 +440,103 @@
         "3",
         "4"
       ]
+    },
+    "tile_ranges": {
+      "type": "ss-collection-16",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our tile ranges",
+            "heading_color": "#15213A"
+          }
+        },
+        "range_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
+            "source": "uploaded",
+            "title": "Morgan",
+            "text": "<p>Morgan porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Colours and sizes shown on each tile",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Morgan",
+            "button_url": "shopify://collections/morgan-tiles"
+          }
+        },
+        "range_2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSAYFR600331_2.jpg",
+            "source": "uploaded",
+            "title": "Time Stone",
+            "text": "<p>Time Stone porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Matt or Lappato finishes",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Time Stone",
+            "button_url": "shopify://collections/time-stone-tiles"
+          }
+        },
+        "range_3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSA36MQ02_3.jpg",
+            "source": "uploaded",
+            "title": "Cement",
+            "text": "<p>Cement porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Colours, sizes and finishes on each tile",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Cement",
+            "button_url": "shopify://collections/cement-tiles"
+          }
+        },
+        "range_4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSAFG607311.jpg",
+            "source": "uploaded",
+            "title": "Lava",
+            "text": "<p>Lava porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Matt or Gloss finishes",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Lava",
+            "button_url": "shopify://collections/lava-tiles"
+          }
+        },
+        "range_5": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSA66SS06_2.jpg",
+            "source": "uploaded",
+            "title": "Particle",
+            "text": "<p>Particle porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Colours, sizes and specs on each tile",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Particle",
+            "button_url": "shopify://collections/particle-tiles"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "range_1",
+        "range_2",
+        "range_3",
+        "range_4",
+        "range_5"
+      ],
+      "settings": {
+        "background_color": "#F6F4EF",
+        "width": "page",
+        "arrow_color": "#15213A",
+        "arrow_border_color": "#15213A",
+        "scrollbar_drag_color": "#15213A"
+      }
     }
   },
   "order": [
@@ -447,6 +544,7 @@
     "trust",
     "departments",
     "products",
+    "tile_ranges",
     "renovations",
     "services",
     "trade",

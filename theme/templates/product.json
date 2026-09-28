@@ -395,12 +395,172 @@
         "padding-block-start": 48,
         "padding-block-end": 72
       }
+    },
+    "selling_points": {
+      "type": "ss-scrolling-features",
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "text": "Free shipping Australia-wide on tapware & accessories",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "icon": "truck_2",
+            "text": "Perth metro delivery on tiles & large items",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "text": "Free pickup from Maddington",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "icon": "price",
+            "text": "Trade pricing for builders & tilers",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_5": {
+          "type": "item",
+          "settings": {
+            "icon": "shop",
+            "text": "Showroom by appointment · Mon–Sat 4:30–9 pm",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_6": {
+          "type": "item",
+          "settings": {
+            "icon": "phone",
+            "text": "Advice from our team · 0450 960 543",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "item_6"
+      ],
+      "settings": {
+        "background-color": "#EEEAE2",
+        "border_color": "#DCD9D2",
+        "border_top": false,
+        "border_bottom": false,
+        "scroll_pause": true,
+        "scroll_on_desktop": true
+      }
+    },
+    "why_ets": {
+      "type": "ss-feature-54",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why buy from <em>ETS</em></p>",
+            "heading_color": "#15213A"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A local, family-run Perth business that supplies and installs what it sells.</p>",
+            "text_color": "#3A4556"
+          }
+        },
+        "feature_1": {
+          "type": "feature",
+          "settings": {
+            "icon": "tags",
+            "title": "Trade pricing",
+            "text": "<p>Builders, tilers and renovators see trade prices on every product once their trade account is approved.</p>"
+          }
+        },
+        "feature_2": {
+          "type": "feature",
+          "settings": {
+            "icon": "box",
+            "title": "Free shipping on small items",
+            "text": "<p>Tapware, shower sets, towel rails and accessories ship free anywhere in Australia.</p>"
+          }
+        },
+        "feature_3": {
+          "type": "feature",
+          "settings": {
+            "icon": "shop",
+            "title": "See it before you buy",
+            "text": "<p>Compare tiles and bathroomware in person at our Maddington showroom, by appointment Mon–Sat 4:30–9 pm.</p>"
+          }
+        },
+        "feature_4": {
+          "type": "feature",
+          "settings": {
+            "icon": "headset",
+            "title": "Advice from a tiling team",
+            "text": "<p>Not sure about quantities, layouts or what goes together? Call our licensed team on 0450 960 543.</p>"
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button": "Get a free measure & quote",
+            "url": "shopify://pages/request-a-quote",
+            "button_bg_color": "#15213A",
+            "button_bg_hover_color": "#9C7744",
+            "button_border_color": "#15213A",
+            "button_border_hover_color": "#9C7744"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "feature_1",
+        "feature_2",
+        "feature_3",
+        "feature_4",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/DSA66SS06_2.jpg",
+        "image_ratio": "portrait",
+        "layout": "image_content",
+        "background_color": "#F6F4EF",
+        "features_bg_color": "#FFFFFF",
+        "features_border_color": "#DCD9D2",
+        "feature_icon_color": "#9C7744",
+        "feature_title_color": "#15213A",
+        "feature_text_color": "#3A4556",
+        "width": "page"
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main",
+    "selling_points",
     "specs",
+    "why_ets",
     "recommendations"
   ]
 }

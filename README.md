@@ -29,6 +29,19 @@ Desktop behaviour lives in `assets/ets-2026.js` (`initMega`) and `assets/ets-men
 - Panels are sized to fit the screen below the sticky header. On laptop-height screens
   (≤ 900 px tall) the moving product strip is hidden so the whole panel fits without scrolling.
 
+## Section Store sections
+
+Five sections from the Section Store app live in `sections/ss-*.liquid` (installed by the app;
+don't hand-edit them, update them from the app instead). They're placed with ETS content and colours:
+
+| Section | Template | Content |
+|---|---|---|
+| `ss-scrolling-features` | `product.json`, `collection.json` | Delivery, pickup, trade and showroom selling points |
+| `ss-feature-54` | `product.json` | "Why buy from ETS" |
+| `ss-collection-16` | `index.json` | Tile ranges (Morgan, Time Stone, Cement, Lava, Particle) |
+| `ss-faq-17` | `page.faqs.json` | Tabbed FAQs (assign the FAQs page to the `faqs` template) |
+| `ss-testimonial-8` | not placed | Needs real customer reviews first |
+
 ## Deploying
 
 Edits are made on an unpublished copy of the live theme, previewed, then published from
