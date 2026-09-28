@@ -169,7 +169,8 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 .ets-topbar { height: 38px; overflow: hidden; }
 #header-group { position: sticky; top: 0; z-index: 40; }
 #header-group:has(.ets-topbar) { top: -38px; }
-.ets-hdr { position: relative; background: rgba(246, 244, 239, .86); -webkit-backdrop-filter: saturate(1.4) blur(18px); backdrop-filter: saturate(1.4) blur(18px); border-bottom: 1px solid var(--ets-line); }
+/* z-index keeps the header and its open mega panel above the page scrim (z 30). */
+.ets-hdr { position: relative; z-index: 35; background: rgba(246, 244, 239, .86); -webkit-backdrop-filter: saturate(1.4) blur(18px); backdrop-filter: saturate(1.4) blur(18px); border-bottom: 1px solid var(--ets-line); }
 .ets-hdr__bar { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; align-items: center; gap: clamp(16px, 3vw, 40px); min-height: 76px; }
 .ets-logo { display: inline-flex; align-items: center; gap: 12px; text-decoration: none; color: var(--ets-ink); }
 .ets-logo img { width: 40px; height: auto; }
@@ -202,14 +203,16 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 
 .ets-nav { border-top: 1px solid var(--ets-line); }
 .ets-nav .ets-wrap { display: flex; align-items: center; justify-content: space-between; gap: 24px; }
-.ets-nav__list { display: flex; align-items: stretch; gap: 2px; margin: 0; padding: 0; list-style: none; }
+/* Items never wrap; if the row is too long it scrolls sideways instead of overlapping the button. */
+.ets-nav__list { display: flex; flex-wrap: nowrap; align-items: stretch; gap: 2px; min-width: 0; flex: 0 1 auto; overflow-x: auto; scrollbar-width: none; margin: 0; padding: 0; list-style: none; }
+.ets-nav__list::-webkit-scrollbar { display: none; }
 .ets-nav__item { position: static; }
-.ets-nav__link { display: inline-flex; align-items: center; gap: 6px; height: 52px; padding: 0 14px; border: 0; background: none; color: var(--ets-ink); font: 600 14.5px var(--ets-sans); text-decoration: none; cursor: pointer; position: relative; }
+.ets-nav__link { display: inline-flex; align-items: center; gap: 6px; height: 52px; padding: 0 14px; border: 0; background: none; color: var(--ets-ink); font: 600 14.5px var(--ets-sans); text-decoration: none; cursor: pointer; position: relative; white-space: nowrap; }
 .ets-nav__link::after { content: ''; position: absolute; left: 14px; right: 14px; bottom: 10px; height: 1.5px; background: currentColor; transform: scaleX(0); transform-origin: left; transition: transform .5s var(--ets-ease); }
 .ets-nav__link:hover::after, .ets-nav__link[aria-expanded='true']::after, .ets-nav__link[aria-current='page']::after { transform: scaleX(1); }
 .ets-nav__link svg { width: 12px; height: 12px; transition: transform .4s var(--ets-ease); }
 .ets-nav__link[aria-expanded='true'] svg { transform: rotate(180deg); }
-.ets-nav__cta { display: flex; align-items: center; gap: 18px; font-size: 14px; font-weight: 700; }
+.ets-nav__cta { flex-shrink: 0; white-space: nowrap; display: flex; align-items: center; gap: 18px; font-size: 14px; font-weight: 700; }
 .ets-nav__cta a { text-decoration: none; color: var(--ets-ink); display: inline-flex; gap: 8px; align-items: center; }
 .ets-nav__cta svg { width: 16px; height: 16px; }
 
@@ -271,9 +274,18 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 @media (max-width: 1540px) {
   .ets-topbar__msg span:nth-child(3) { display: none; }
 }
+@media (max-width: 1360px) {
+  .ets-nav__link { padding: 0 10px; font-size: 14px; }
+  .ets-nav__link::after { left: 10px; right: 10px; }
+}
+/* The quote button returns on wide screens; below that the category links get the room. */
+@media (max-width: 1480px) {
+  .ets-nav__cta { display: none; }
+}
 @media (max-width: 1100px) {
   .ets-tool__label { display: none; }
-  .ets-nav__link { padding: 0 10px; font-size: 14px; }
+  .ets-nav__link { padding: 0 7px; font-size: 13px; gap: 4px; }
+  .ets-nav__link::after { left: 7px; right: 7px; }
 }
 @media (max-width: 989px) {
   .ets-topbar__msg span:not(:first-child) { display: none; }

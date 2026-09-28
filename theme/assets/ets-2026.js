@@ -14,6 +14,7 @@
     const items = $$('[data-ets-mega-item]', root).filter((i) => $('[data-ets-mega-trigger]', i));
     const scrim = $('[data-ets-scrim]', root);
     let closeTimer;
+    let hoverOpenedAt = 0;
     const close = (item) => {
       item.classList.remove('is-open');
       const t = $('[data-ets-mega-trigger]', item);
@@ -28,8 +29,15 @@
     };
     items.forEach((item) => {
       const trigger = $('[data-ets-mega-trigger]', item);
-      trigger.addEventListener('click', () => (item.classList.contains('is-open') ? close(item) : open(item)));
-      item.addEventListener('mouseenter', () => { if (!mq.matches) return; clearTimeout(closeTimer); open(item); });
+      trigger.addEventListener('click', () => {
+        // A mouse click right after hovering open should not immediately close the panel again.
+        if (item.classList.contains('is-open') && Date.now() - hoverOpenedAt > 600) close(item); else open(item);
+      });
+      item.addEventListener('mouseenter', () => {
+        if (!mq.matches) return;
+        clearTimeout(closeTimer);
+        if (!item.classList.contains('is-open')) { hoverOpenedAt = Date.now(); open(item); }
+      });
       item.addEventListener('mouseleave', () => { if (!mq.matches) return; closeTimer = setTimeout(() => close(item), 160); });
       item.addEventListener('focusout', (e) => { if (!item.contains(e.relatedTarget)) close(item); });
     });
