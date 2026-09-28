@@ -18,6 +18,17 @@ The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm
 - To use a bookings app instead, add its app block to the "ETS showroom booking" section in
   the theme editor. When an app block is present it replaces the built-in form.
 
+## Header menu
+
+The live header is `sections/ets-header.liquid` (menu: Online Store → Navigation → Main menu).
+Desktop behaviour lives in `assets/ets-2026.js` (`initMega`) and `assets/ets-menu.css`:
+
+- Top-level labels are links to their collection; the chevron next to each opens its panel
+  (keyboard and touch). With a mouse, resting on an item opens its panel after a short delay,
+  so sweeping across the bar doesn't flash panels open.
+- Panels are sized to fit the screen below the sticky header. On laptop-height screens
+  (≤ 900 px tall) the moving product strip is hidden so the whole panel fits without scrolling.
+
 ## Deploying
 
 Edits are made on an unpublished copy of the live theme, previewed, then published from

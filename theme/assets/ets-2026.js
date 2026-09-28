@@ -10,43 +10,82 @@
   const mq = window.matchMedia('(min-width: 990px)');
 
   /* ---------- Mega menu ---------- */
+  // Desktop behaviour: the label is a link, the chevron toggles. With a mouse the panel opens once
+  // the pointer rests on an item (so sweeping across the bar doesn't flash panels), stays open while
+  // the pointer is anywhere over the item or its panel, and closes shortly after it leaves.
+  const OPEN_DELAY = 140;   // first panel
+  const SWITCH_DELAY = 90;  // moving between items while a panel is already open
+  const CLOSE_DELAY = 280;
   function initMega(root) {
     const items = $$('[data-ets-mega-item]', root).filter((i) => $('[data-ets-mega-trigger]', i));
+    if (!items.length) return;
+    const hdr = $('[data-ets-hdr]', root);
     const scrim = $('[data-ets-scrim]', root);
+    let openTimer;
     let closeTimer;
     let hoverOpenedAt = 0;
-    const close = (item) => {
-      item.classList.remove('is-open');
-      const t = $('[data-ets-mega-trigger]', item);
-      if (t) t.setAttribute('aria-expanded', 'false');
-      if (!items.some((i) => i.classList.contains('is-open')) && scrim) scrim.classList.remove('is-on');
+    const current = () => items.find((i) => i.classList.contains('is-open'));
+    const trigger = (item) => $('[data-ets-mega-trigger]', item);
+    const fit = (item) => {
+      // Keep the whole panel on screen below the (sticky) header; anything taller scrolls inside it.
+      const bottom = hdr ? hdr.getBoundingClientRect().bottom : 0;
+      item.style.setProperty('--ets-mega-max', `${Math.max(240, window.innerHeight - bottom - 48)}px`);
     };
+    const close = (item) => {
+      if (!item || !item.classList.contains('is-open')) return;
+      item.classList.remove('is-open');
+      trigger(item).setAttribute('aria-expanded', 'false');
+      if (!current() && scrim) scrim.classList.remove('is-on');
+    };
+    const closeAll = () => { clearTimeout(openTimer); clearTimeout(closeTimer); items.forEach(close); };
     const open = (item) => {
+      clearTimeout(openTimer);
+      clearTimeout(closeTimer);
       items.forEach((i) => i !== item && close(i));
+      if (item.classList.contains('is-open')) return;
+      fit(item);
       item.classList.add('is-open');
-      $('[data-ets-mega-trigger]', item).setAttribute('aria-expanded', 'true');
+      trigger(item).setAttribute('aria-expanded', 'true');
       if (scrim) scrim.classList.add('is-on');
     };
+    const isMouse = (e) => e.pointerType === 'mouse' && mq.matches;
+
     items.forEach((item) => {
-      const trigger = $('[data-ets-mega-trigger]', item);
-      trigger.addEventListener('click', () => {
-        // A mouse click right after hovering open should not immediately close the panel again.
-        if (item.classList.contains('is-open') && Date.now() - hoverOpenedAt > 600) close(item); else open(item);
+      trigger(item).addEventListener('click', () => {
+        // A click just after the hover opened it means "open", not "close again".
+        if (item.classList.contains('is-open') && Date.now() - hoverOpenedAt > 500) close(item); else open(item);
       });
-      item.addEventListener('mouseenter', () => {
-        if (!mq.matches) return;
+      item.addEventListener('pointerenter', (e) => {
+        if (!isMouse(e)) return;
         clearTimeout(closeTimer);
-        if (!item.classList.contains('is-open')) { hoverOpenedAt = Date.now(); open(item); }
+        if (item.classList.contains('is-open')) return;
+        clearTimeout(openTimer);
+        openTimer = setTimeout(() => { hoverOpenedAt = Date.now(); open(item); }, current() ? SWITCH_DELAY : OPEN_DELAY);
       });
-      item.addEventListener('mouseleave', () => { if (!mq.matches) return; closeTimer = setTimeout(() => close(item), 160); });
+      item.addEventListener('pointerleave', (e) => {
+        if (!isMouse(e)) return;
+        clearTimeout(openTimer);
+        if (item.classList.contains('is-open')) closeTimer = setTimeout(() => close(item), CLOSE_DELAY);
+      });
       item.addEventListener('focusout', (e) => { if (!item.contains(e.relatedTarget)) close(item); });
     });
-    if (scrim) scrim.addEventListener('click', () => items.forEach(close));
+    // Non-panel items (e.g. Renovations): hovering them closes an open panel promptly.
+    $$('[data-ets-mega-item]', root).filter((i) => !items.includes(i)).forEach((i) => {
+      i.addEventListener('pointerenter', (e) => {
+        if (!isMouse(e) || !current()) return;
+        clearTimeout(closeTimer);
+        closeTimer = setTimeout(closeAll, SWITCH_DELAY);
+      });
+    });
+    if (scrim) scrim.addEventListener('click', closeAll);
+    document.addEventListener('click', (e) => { if (current() && !current().contains(e.target)) closeAll(); });
     document.addEventListener('keydown', (e) => {
       if (e.key !== 'Escape') return;
-      const openItem = items.find((i) => i.classList.contains('is-open'));
-      if (openItem) { close(openItem); $('[data-ets-mega-trigger]', openItem).focus(); }
+      const openItem = current();
+      if (openItem) { close(openItem); trigger(openItem).focus(); }
     });
+    window.addEventListener('resize', () => { const o = current(); if (o) fit(o); });
+    mq.addEventListener('change', closeAll);
   }
 
   /* ---------- Mobile drawer ---------- */

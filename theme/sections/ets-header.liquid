@@ -14,6 +14,7 @@
   endif
   assign trade_page = settings.ets_trade_page
 -%}
+{{ 'ets-menu.css' | asset_url | stylesheet_tag }}
 <div class="ets" data-ets-header>
   {%- if section.settings.show_topbar -%}
     <div class="ets-topbar">
@@ -79,10 +80,16 @@
       <div class="ets-wrap">
         <ul class="ets-nav__list" role="list">
           {%- for link in menu.links -%}
-            <li class="ets-nav__item" data-ets-mega-item>
+            <li class="ets-nav__item{% if link.links.size > 0 %} has-mega{% endif %}" data-ets-mega-item>
               {%- if link.links.size > 0 -%}
-                <button class="ets-nav__link" type="button" aria-expanded="false" aria-controls="EtsMega-{{ forloop.index }}" data-ets-mega-trigger{% if link.child_active or link.active %} aria-current="page"{% endif %}>
-                  {{ link.title | escape }} {% render 'ets-icon', name: 'chevron' %}
+                {%- comment -%}
+                  The label is a real link (click goes to the collection); the chevron button opens
+                  the panel for keyboard and touch. With a mouse, resting on the item opens it.
+                {%- endcomment -%}
+                <a class="ets-nav__link" href="{{ link.url }}"{% if link.child_active or link.active %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+                <button class="ets-nav__toggle" type="button" aria-expanded="false" aria-controls="EtsMega-{{ forloop.index }}" data-ets-mega-trigger>
+                  <span class="ets-visually-hidden">{{ link.title | escape }} menu</span>
+                  {%- render 'ets-icon', name: 'chevron' -%}
                 </button>
                 <div class="ets-mega" id="EtsMega-{{ forloop.index }}">
                   <div class="ets-mega__inner ets-shell">
