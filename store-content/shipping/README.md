@@ -47,4 +47,6 @@ Parcel Post and Express Post were switched on for this rate on 28 Sep 2026 (the 
 
 Australia Post returns no rates for any item in the profile, even a 0.35 kg primer, so the cause is the account setup, not the weights. The likely causes are no default package in Shopify, or a MyPost Business connection that isn't finished. Until that's fixed, these items still sell as pickup or Perth delivery only, the same as before the move.
 
-Still to do by the owner in Shopify admin: $100 local delivery minimum (the $17.40 test still shows $130), a default package size, and checking the Australia Post connection.
+Update, same day: the owner set a $100 minimum on both local delivery zones (30 km $130, 50 km $180) and made "Tile box 60x45x30" (0.5 kg) the default package. They also connected their own MyPost Business account, which Shopify added as a new carrier service ("Australia Post MyPost Business (own account)"). The profile's rate was moved to that service, with Parcel Post and Express Post on.
+
+Retest: the $17.40 cart now shows only Standard $20. Australia Post still returns no rates for any item in the profile. Check that rate calculation is turned on for the Australia Post carrier account in Shopify admin (Carrier accounts → Australia Post → Calculate rates).
