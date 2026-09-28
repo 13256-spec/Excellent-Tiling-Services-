@@ -1,0 +1,73 @@
+{%- comment -%}
+  Email sign-up pop-up. Opens once after a short delay (or when a desktop visitor heads for
+  the browser bar), then stays hidden for the set number of days after it's closed, and for
+  good once someone subscribes. Not shown on the cart, password or account pages, or to
+  logged-in customers who already get marketing emails.
+  Sign-ups are saved in Customers (subscribed, tags: newsletter, newsletter-popup).
+{%- endcomment -%}
+{%- liquid
+  assign show = section.settings.enabled
+  if template.name == 'cart' or template.name == 'password' or template.name == 'gift_card' or template.directory == 'customers'
+    assign show = false
+  endif
+  if customer and customer.accepts_marketing
+    assign show = false
+  endif
+  if request.design_mode
+    assign show = true
+  endif
+-%}
+{%- if show -%}
+  <dialog
+    class="ets ets-pop"
+    id="EtsNewsPopup"
+    aria-labelledby="EtsNewsPopup-title"
+    data-ets-pop
+    data-delay="{{ section.settings.delay }}"
+    data-days="{{ section.settings.days }}"
+    data-form="EtsNewsPopupForm"
+    data-section="{{ section.id }}"
+  >
+    <div class="ets-pop__card{% if section.settings.image == blank %} ets-pop__card--solo{% endif %}">
+      <button class="ets-pop__close" type="button" data-ets-pop-close aria-label="Close">{% render 'ets-icon', name: 'close' %}</button>
+      {%- if section.settings.image != blank -%}
+        <div class="ets-pop__media">
+          {{ section.settings.image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '400, 600, 900', sizes: '(min-width: 641px) 380px, 100vw', alt: '' }}
+        </div>
+      {%- endif -%}
+      <div class="ets-pop__body">
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 id="EtsNewsPopup-title" tabindex="-1">{{ section.settings.heading }}</h2>
+        {%- if section.settings.text != blank -%}<p class="ets-pop__text">{{ section.settings.text | escape }}</p>{%- endif -%}
+        {%- if section.settings.offer_label != blank -%}<p class="ets-pop__offer">{% render 'ets-icon', name: 'tag' %}<span>{{ section.settings.offer_label | escape }}</span></p>{%- endif -%}
+        {% render 'ets-newsletter-form',
+          form_id: 'EtsNewsPopupForm',
+          source: 'popup',
+          button: section.settings.button,
+          success: section.settings.success,
+          offer_code: section.settings.offer_code
+        %}
+        <button class="ets-pop__skip" type="button" data-ets-pop-close>No thanks</button>
+      </div>
+    </div>
+  </dialog>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "ETS email sign-up pop-up",
+  "settings": [
+    { "type": "checkbox", "id": "enabled", "label": "Show the pop-up", "default": true },
+    { "type": "range", "id": "delay", "label": "Open after (seconds)", "min": 3, "max": 60, "step": 1, "unit": "s", "default": 12 },
+    { "type": "range", "id": "days", "label": "After it's closed, hide it for (days)", "min": 1, "max": 90, "step": 1, "default": 30 },
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "The ETS list" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "New ranges &amp; <em>deals</em>, first." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Join our email list for new tile and bathroomware arrivals, clearance deals and renovation ideas from our Maddington showroom." },
+    { "type": "text", "id": "offer_label", "label": "Offer line", "info": "Optional, e.g. \"10% off your first order\". Leave blank if there's no offer." },
+    { "type": "text", "id": "offer_code", "label": "Discount code shown after sign-up", "info": "Create the code in Discounts first. Leave blank if there's no offer." },
+    { "type": "text", "id": "button", "label": "Button label", "default": "Subscribe" },
+    { "type": "text", "id": "success", "label": "Thank-you message", "default": "You're on the list. Watch your inbox for new ranges and deals." }
+  ]
+}
+{% endschema %}

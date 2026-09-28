@@ -11,12 +11,21 @@
   "type": "header",
   "name": "Header",
   "sections": {
-    "ets_flagship_header": {
-      "type": "ets-flagship-header",
-      "settings": {}
+    "ets_header": {
+      "type": "ets-header",
+      "settings": {
+        "menu": "main-menu",
+        "search_placeholder": "Search tiles, vanities, tapware…",
+        "cta_label": "Free measure & quote",
+        "cta_link": "shopify://pages/request-a-quote",
+        "show_topbar": true,
+        "msg_1": "Free shipping Australia-wide on tapware & accessories",
+        "msg_2": "Maddington showroom by appointment · Mon–Sat 4:30–9 pm",
+        "msg_3": "Perth metro delivery on tiles & large items"
+      }
     }
   },
   "order": [
-    "ets_flagship_header"
+    "ets_header"
   ]
 }

@@ -1,18 +1,75 @@
-{% liquid
- assign collection_image = collection.image | default: collection.products.first.featured_image
- assign department = 'Bathroom & accessories'
- if collection.handle == 'hardware'
-  assign department = 'Renovation essentials'
- elsif collection.handle == 'tiles'
-  assign department = 'Surfaces & materials'
- endif
-%}
-<section class="ets-collection-banner"><div class="ets-container"><nav class="ets-breadcrumb" aria-label="Breadcrumb"><a href="{{ routes.root_url }}">Home</a><span aria-hidden="true">/</span><a href="{{ routes.collections_url }}">Departments</a><span aria-hidden="true">/</span><span aria-current="page">{{ collection.title | escape }}</span></nav><div class="ets-collection-banner-grid"><div><p class="ets-overline">{{ department }}</p><h1>{{ collection.title | escape }}</h1>{% if collection.description != blank %}<div class="ets-collection-description rte">{{ collection.description }}</div>{% endif %}{% if collection.products_count > 0 %}<p class="ets-section-note">{{ collection.products_count }} {{ collection.products_count | pluralize: 'product', 'products' }}</p>{% else %}<p class="ets-collection-advice">Looking for something specific? Talk to our Maddington team about the range, availability and your project.</p><div class="ets-button-row"><a class="ets-btn" href="{{ pages['request-a-quote'].url }}?department={{ collection.title | url_encode }}">Enquire about {{ collection.title | downcase | escape }} {% render 'ets-store-icon', name: 'arrow' %}</a><a class="ets-link" href="tel:+61450960543">0450 960 543</a></div>{% endif %}</div>{% if collection_image != blank %}<div class="ets-collection-banner-image">{{ collection_image | image_url: width: 800 | image_tag: widths: '400, 600, 800', sizes: '(min-width: 990px) 30vw, 60vw', loading: 'eager' }}</div>{% endif %}</div>
-{% if collection.handle == 'accessories' or collection.handle == 'tapware' or collection.handle == 'bathroom-vanities' %}<nav class="ets-category-tabs" aria-label="Related categories">{% if collection.handle == 'accessories' %}{% assign handles = 'accessories,towel-rails,bathroom-hooks,toilet-roll-holders,soap-shelf-holders' | split: ',' %}{% elsif collection.handle == 'tapware' %}{% assign handles = 'tapware,basin-mixers,wall-mixers,shower-tapware,kitchen-tapware' | split: ',' %}{% else %}{% assign handles = 'bathroom-vanities,single-vanities,double-vanities,wall-hung-vanities' | split: ',' %}{% endif %}{% for handle in handles %}{% assign item = collections[handle] %}{% if item != blank %}<a href="{{ item.url }}"{% if item.handle == collection.handle %} aria-current="page"{% endif %}>{{ item.title | escape }}</a>{% endif %}{% endfor %}</nav>{% endif %}
-</div></section>
+{%- comment -%}
+  Collection header. Sibling "chips" come from the main menu: if this collection is a
+  top-level menu item (or one of its children), the chips list that item's child links.
+{%- endcomment -%}
+{%- liquid
+  assign menu = linklists[section.settings.menu]
+  assign group = blank
+  for link in menu.links
+    if link.url == collection.url
+      assign group = link
+    endif
+    for child in link.links
+      if child.url == collection.url
+        assign group = link
+      endif
+    endfor
+  endfor
+  assign hero_img = collection.image
+  assign contain = true
+  if hero_img == blank
+    assign hero_img = collection.products.first.featured_image
+  endif
+  if collection.products.first.type == 'Tile'
+    assign contain = false
+  endif
+-%}
+<section class="ets ets-phero" aria-labelledby="EtsColl-{{ section.id }}">
+  <div class="ets-wrap">
+    <ol class="ets-crumbs" role="list">
+      <li><a href="{{ routes.root_url }}">Home</a></li>
+      {%- if group != blank and group.url != collection.url -%}<li><a href="{{ group.url }}">{{ group.title | escape }}</a></li>{%- endif -%}
+      <li aria-current="page">{{ collection.title | escape }}</li>
+    </ol>
+    <div class="ets-phero__grid">
+      <div>
+        <h1 class="ets-display" id="EtsColl-{{ section.id }}">{{ collection.title | escape }}</h1>
+        {%- if collection.description != blank -%}
+          <div class="ets-lede">{{ collection.description | strip_html | truncatewords: 45 }}</div>
+        {%- endif -%}
+        <p class="ets-small" style="margin:16px 0 0">
+          {{ collection.products_count }} {{ collection.products_count | pluralize: 'product', 'products' }}
+          {%- if collection.products.first.type == 'Tile' %} · priced per m² · Perth metro delivery or Maddington pickup{% endif -%}
+        </p>
+      </div>
+      {%- if hero_img != blank and section.settings.show_image -%}
+        <div class="ets-phero__media{% if contain %} ets-phero__media--contain{% endif %}" style="max-width:520px;justify-self:end;width:100%">
+          <div class="ets-shell"><div class="ets-core" style="aspect-ratio:16/10">
+            {{ hero_img | image_url: width: 1000 | image_tag: loading: 'eager', widths: '400, 700, 1000', sizes: '(min-width: 990px) 36vw, 100vw', alt: '' }}
+          </div></div>
+        </div>
+      {%- endif -%}
+    </div>
+    {%- if group != blank and group.links.size > 0 -%}
+      <nav class="ets-chips" aria-label="{{ group.title | escape }} categories">
+        <a class="ets-chip" href="{{ group.url }}"{% if group.url == collection.url %} aria-current="page"{% endif %}>All {{ group.title | downcase | escape }}</a>
+        {%- for child in group.links -%}
+          <a class="ets-chip" href="{{ child.url }}"{% if child.url == collection.url %} aria-current="page"{% endif %}>{{ child.title | escape }}{% if child.type == 'collection_link' %}<small>{{ child.object.products_count }}</small>{% endif %}</a>
+        {%- endfor -%}
+      </nav>
+    {%- endif -%}
+    {%- unless section.settings.hide_marquee -%}
+      {% render 'ets-product-marquee', collection: collection, limit: 24 %}
+    {%- endunless -%}
+  </div>
+</section>
 {% schema %}
 {
-  "name": "ETS collection intro",
-  "settings": []
+  "name": "ETS collection header",
+  "settings": [
+    { "type": "link_list", "id": "menu", "label": "Menu for category chips", "default": "main-menu" },
+    { "type": "checkbox", "id": "show_image", "label": "Show image", "default": true },
+    { "type": "checkbox", "id": "hide_marquee", "label": "Hide moving product strip", "default": false }
+  ]
 }
 {% endschema %}

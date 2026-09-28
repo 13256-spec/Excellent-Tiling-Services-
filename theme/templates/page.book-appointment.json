@@ -1,11 +1,55 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "ets-booking-page",
+      "blocks": {
+        "forms_inline_7DtUAT": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "1172090",
+            "text_color": "#15213A",
+            "button_background_color": "#15213A",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#9C7744",
+            "errors_color": "#9B2C2C",
+            "text_alignment": "left",
+            "form_alignment": "flex-start",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_7DtUAT"
+      ],
       "settings": {
+        "eyebrow": "Showroom by appointment only",
+        "heading": "Book a showroom visit",
+        "intro": "Our Maddington showroom is open by appointment only, so there's always someone there to walk you through tiles, vanities, tapware and accessories. Request a time below and we'll confirm it with you.",
+        "info_note": "Please book before you travel. Appointments run in the evenings, Monday to Saturday from 4:30 pm to 9 pm. We don't take walk-ins.",
+        "form_heading": "Request an appointment",
+        "form_text": "Choose a day and time. We'll confirm by phone or email.",
+        "day_mon": true,
+        "day_tue": true,
+        "day_wed": true,
+        "day_thu": true,
+        "day_fri": true,
+        "day_sat": true,
+        "day_sun": false,
         "days_hint": "Appointments Monday to Saturday, 4:30 pm to 9 pm.",
         "time_slots": "4:30 pm, 5:00 pm, 5:30 pm, 6:00 pm, 6:30 pm, 7:00 pm, 7:30 pm, 8:00 pm, 8:30 pm",
-        "day_sun": false
+        "show_map": true
       }
     }
   },

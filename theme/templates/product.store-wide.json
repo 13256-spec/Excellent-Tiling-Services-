@@ -1,0 +1,1408 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "breadcrumbs": {
+      "type": "ets-product-breadcrumbs",
+      "settings": {}
+    },
+    "main": {
+      "type": "product-information",
+      "blocks": {
+        "media-gallery": {
+          "type": "_product-media-gallery",
+          "static": true,
+          "settings": {
+            "media_presentation": "grid",
+            "media_columns": "one",
+            "image_gap": 16,
+            "large_first_image": true,
+            "slideshow_controls_style": "counter",
+            "slideshow_mobile_controls_style": "dots",
+            "thumbnail_position": "right",
+            "thumbnail_width": 44,
+            "thumbnail_radius": 0,
+            "aspect_ratio": "adapt",
+            "constrain_to_viewport": true,
+            "media_fit": "contain",
+            "media_radius": 0,
+            "extend_media": false,
+            "zoom": true,
+            "video_loop": false,
+            "hide_variants": true,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "product-details": {
+          "type": "_product-details",
+          "static": true,
+          "settings": {
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "details_position": "flex-start",
+            "gap": 20,
+            "sticky_details_desktop": true,
+            "background_media": "none",
+            "background_color": "",
+            "video_position": "cover",
+            "background_image_position": "cover",
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 28,
+            "padding-block-end": 28,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "vendor": {
+              "type": "text",
+              "settings": {
+                "text": "<p>{{ closest.product.vendor }}</p>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h6",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "title": {
+              "type": "text",
+              "settings": {
+                "text": "<h1>{{ closest.product.title }}</h1>",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "h2",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": true,
+                "type_preset": "h4",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "variant": {
+              "type": "variant-picker",
+              "settings": {
+                "variant_style": "buttons",
+                "show_swatches": false,
+                "variant_style_class": "default",
+                "selected_variant_style_class": "default",
+                "alignment": "left",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "calc": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-calc', product: product %}"
+              },
+              "blocks": {}
+            },
+            "buy": {
+              "type": "buy-buttons",
+              "settings": {
+                "stacking": true,
+                "show_pickup_availability": true,
+                "gift_card_form": false,
+                "input_style": "default",
+                "border_width": 1,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {
+                "quantity": {
+                  "type": "quantity",
+                  "disabled": true,
+                  "static": true,
+                  "settings": {
+                    "input_style": "default",
+                    "border_width": 1,
+                    "border_radius": 0
+                  },
+                  "blocks": {}
+                },
+                "add": {
+                  "type": "add-to-cart",
+                  "static": true,
+                  "settings": {
+                    "style_class": "button"
+                  },
+                  "blocks": {}
+                },
+                "checkout": {
+                  "type": "accelerated-checkout",
+                  "static": true,
+                  "settings": {},
+                  "blocks": {}
+                }
+              },
+              "block_order": []
+            },
+            "trust": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-perks', product: product %}"
+              },
+              "blocks": {}
+            },
+            "description": {
+              "type": "text",
+              "settings": {
+                "text": "{{ closest.product.description }}",
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "corner_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "trade": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-trade' %}"
+              },
+              "blocks": {}
+            },
+            "aaf24af64d66c5e7": {
+              "type": "shopify://apps/section-store/blocks/block-badge/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "first_icon": "store",
+                "first_title": "AU showroom stock",
+                "first_bg_color": "#6A6862",
+                "first_title_color": "#FFFFFF",
+                "second_icon": "box",
+                "second_title": "Trade & home supply",
+                "second_bg_color": "#15213A",
+                "second_title_color": "#FFFFFF",
+                "third_icon": "none",
+                "third_title": "",
+                "third_bg_color": "#15213A",
+                "third_title_color": "#FFFFFF",
+                "title_size": 11,
+                "icon_size": 15,
+                "font_weight": "600",
+                "effect": "glow",
+                "card_border": "none",
+                "card_border_width": 0.5,
+                "card_border_color": "#DCD6CB",
+                "card_radius": 10,
+                "card_align": "left",
+                "padding_vertical": 0,
+                "padding_sides": 0,
+                "card_padding_horizontal": 12,
+                "card_padding_vertical": 6
+              }
+            },
+            "4e3086f4d06094fe": {
+              "type": "shopify://apps/section-store/blocks/block-review-summary/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "star_style": "sharp",
+                "stars_count": 4.5,
+                "stars_size": 13,
+                "stars_gap": 2,
+                "stars_color": "#FBB91C",
+                "stars_bg_color": "#DCD6CB",
+                "stars_bg_half_color": "#DCD6CB",
+                "avatars_position": "none",
+                "avatars_size": 20,
+                "avatars_animate": false,
+                "first_text": "<p>&nbsp;</p>",
+                "first_text_size": 12,
+                "first_text_color": "#15213A",
+                "second_text": "<p><strong>4.8</strong> 780 verified reviews</p>",
+                "second_text_size": 12,
+                "second_text_color": "#15213A",
+                "border": "none",
+                "border_thickness": 1.0,
+                "border_color": "#DCD6CB",
+                "radius": 0,
+                "background": "",
+                "background_gradient": "",
+                "effect": "none",
+                "block_padding_top": 0,
+                "block_padding_bottom": 0,
+                "padding_vertical": 0,
+                "padding_horizontal": 0
+              }
+            },
+            "b2f2def2a60ce035": {
+              "type": "shopify://apps/section-store/blocks/block-benefits-list/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "items_gap": 8,
+                "first_text": "<p><strong>Tiles to tapware</strong> — bathrooms, kitchens, laundry</p>",
+                "second_text": "<p><strong>Install-ready gear</strong> — tools, grout, and adhesives</p>",
+                "third_text": "<p><strong>Showroom backed</strong> — see finishes before you order</p>",
+                "fourth_text": "<p><strong>Ships across AU</strong> — packed for site and home</p>",
+                "icon_selection": "check_mark",
+                "icon_size": 16,
+                "icon_color": "#15213A",
+                "text_size": 13,
+                "text_color": "#15213A",
+                "content_align": "left",
+                "border": "none",
+                "border_thickness": 1.0,
+                "border_color": "#DCD6CB",
+                "radius": 0,
+                "background": "",
+                "background_gradient": "",
+                "padding_vertical": 0,
+                "padding_horizontal": 0
+              }
+            },
+            "b5dbef38bf15e431": {
+              "type": "shopify://apps/section-store/blocks/block-atc-style/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "background_color": "#15213A",
+                "text_color": "#FFFFFF",
+                "hover_background_color": "#0F182C",
+                "hover_text_color": "#FFFFFF",
+                "font_size": 0,
+                "font_weight": "default",
+                "border_style": "none",
+                "border_width": 1.0,
+                "border_color": "#15213A",
+                "border_radius": 50,
+                "background_effect": "lift",
+                "gradient_color_end": "#0F182C",
+                "hover_effect": "shine_lift",
+                "animation": "none",
+                "button_icon": "arrow_right",
+                "use_custom_text": false,
+                "button_text": "Add to cart",
+                "show_price": true,
+                "round_price": false,
+                "compare_at_price_color": "#6A6862"
+              }
+            },
+            "5bf5f9e039fb8c32": {
+              "type": "shopify://apps/section-store/blocks/block-shipping-info/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "use_dot": true,
+                "icon_color": "#15C625",
+                "icon_size": 10,
+                "ships_by_text": "Receive by",
+                "shipping_within_days": 5,
+                "include_weekend": true,
+                "ships_by_font_size": 11,
+                "ships_by_text_color": "#15213A",
+                "fast_shipping_text": "COUNTRY_FLAG <strong>Fast</strong> COUNTRY_CODE Shipping",
+                "allow_all_countries": true,
+                "allowed_countries": "AU",
+                "fast_shipping_text_for_rest_countries": "Fast International Shipping",
+                "fast_shipping_text_color": "#15213A",
+                "border_style": "solid",
+                "border_width": 0.5,
+                "border_color": "#CFCECE",
+                "border_radius": 14,
+                "bg_color": "#FCFCFC",
+                "padding_vertical": 6,
+                "padding_horizontal": 15
+              }
+            },
+            "e799c71244baa661": {
+              "type": "shopify://apps/section-store/blocks/block-space-divide/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "height": 16,
+                "show_line": true,
+                "line_style": "solid",
+                "line_width": 100,
+                "line_thickness": 1,
+                "line_roundness": 0,
+                "line_color": "#E0E0E0"
+              }
+            },
+            "55304b31b7114f9c": {
+              "type": "shopify://apps/section-store/blocks/block-countdown-timer/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "hour": 8,
+                "minute": 0,
+                "second": 0,
+                "progress_start": 70,
+                "action_on_complete": "reset",
+                "number_size": 14,
+                "number_color": "#15213A",
+                "text": "<p>Next warehouse pick window closes in</p>",
+                "text_size": 13,
+                "text_color": "#15213A",
+                "progress_default_color": "#E0E0E0",
+                "progress_active_color": "#15213A",
+                "border": "none",
+                "border_thickness": 1.0,
+                "border_color": "#E0E0E0",
+                "radius": 0,
+                "background": "",
+                "padding_top": 0,
+                "padding_bottom": 0,
+                "padding_left": 0,
+                "padding_right": 0
+              }
+            },
+            "73eaf3569f902e21": {
+              "type": "shopify://apps/section-store/blocks/block-banner/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
+              "settings": {
+                "gap": 6,
+                "text_align": "left",
+                "use_image": true,
+                "icon": "shield_check",
+                "image_size": 30,
+                "image_position": "left",
+                "icon_color": "#15213A",
+                "title_text": "<p><strong>30-Day Money-Back Guarantee</strong></p>",
+                "title_size": 18,
+                "title_color": "#111111",
+                "body_text": "<p>Shop with <strong>easy returns</strong> on unused items.</p>",
+                "body_size": 13,
+                "body_color": "#111111",
+                "border": "solid",
+                "border_thickness": 2.5,
+                "border_color": "#15213A",
+                "radius": 10,
+                "background": "#F6F6F6",
+                "background_gradient": "",
+                "shadow": "none",
+                "padding_vertical": 14,
+                "padding_horizontal": 18
+              }
+            }
+          },
+          "block_order": [
+            "aaf24af64d66c5e7",
+            "4e3086f4d06094fe",
+            "vendor",
+            "title",
+            "price",
+            "b2f2def2a60ce035",
+            "trade",
+            "variant",
+            "calc",
+            "buy",
+            "b5dbef38bf15e431",
+            "5bf5f9e039fb8c32",
+            "e799c71244baa661",
+            "55304b31b7114f9c",
+            "73eaf3569f902e21",
+            "trust",
+            "description"
+          ]
+        }
+      },
+      "settings": {
+        "content_width": "content-center-aligned",
+        "desktop_media_position": "left",
+        "equal_columns": false,
+        "limit_details_width": false,
+        "gap": 48,
+        "enable_sticky_add_to_cart": true,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 16,
+        "padding-block-end": 48
+      }
+    },
+    "recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Complete the look</h2>",
+            "width": "fit-content",
+            "max_width": "normal",
+            "alignment": "left",
+            "type_preset": "h4",
+            "font": "var(--font-body--family)",
+            "font_size": "1rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "background": false,
+            "corner_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "static-product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 6,
+            "border": "none",
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "title": {
+              "type": "product-title",
+              "settings": {
+                "width": "100%",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "corner_radius": 0,
+                "padding-block-start": 8,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h5",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "gallery",
+            "title",
+            "price"
+          ]
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "product": "{{ closest.product }}",
+        "recommendation_type": "related",
+        "layout_type": "grid",
+        "carousel_on_mobile": true,
+        "max_products": 4,
+        "columns": 4,
+        "mobile_columns": "2",
+        "columns_gap": 10,
+        "rows_gap": 28,
+        "icons_style": "arrow",
+        "icons_shape": "none",
+        "section_width": "page-width",
+        "gap": 28,
+        "background_color": "{{ settings.color_palette.background }}",
+        "padding-block-start": 48,
+        "padding-block-end": 72
+      }
+    },
+    "ss-scrolling-features-1": {
+      "type": "ss-scrolling-features",
+      "blocks": {
+        "ss-item-1": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-image-069f5f4b.png",
+            "icon": "none",
+            "text": "Porcelain tiles",
+            "icon_color": "#15213A",
+            "text_color": "#15213A"
+          }
+        },
+        "ss-item-2": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-image-cee27a84.png",
+            "icon": "none",
+            "text": "Bathroom tapware",
+            "icon_color": "#15213A",
+            "text_color": "#15213A"
+          }
+        },
+        "ss-item-3": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-image-fcde60a6.png",
+            "icon": "none",
+            "text": "Grout and adhesives",
+            "icon_color": "#15213A",
+            "text_color": "#15213A"
+          }
+        },
+        "ss-item-4": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/pdp-image-6e5859dc.png",
+            "icon": "none",
+            "text": "Tiling tools",
+            "icon_color": "#15213A",
+            "text_color": "#15213A"
+          }
+        }
+      },
+      "block_order": [
+        "ss-item-1",
+        "ss-item-2",
+        "ss-item-3",
+        "ss-item-4"
+      ],
+      "custom_css": [
+        "@media(max-width:1023px){[class*=\"section-\"][class*=\"-settings\"]{padding-top:36px;padding-bottom:36px;}}"
+      ],
+      "settings": {
+        "scroll_on_desktop": true,
+        "scroll_speed": 30,
+        "scroll_speed_mobile": 15,
+        "scroll_direction": "left",
+        "scroll_pause": true,
+        "items_gap": 100,
+        "items_gap_mobile": 50,
+        "border_bottom": false,
+        "border_top": false,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "text_height": 150,
+        "icon_size": 42,
+        "icon_margin": 16,
+        "background-color": "#FFFFFF",
+        "border_color": "#DCD6CB",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ss-feature-54-2": {
+      "type": "ss-feature-54",
+      "blocks": {
+        "ss-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>One range for the wet area and the install</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_accent_font": "playfair_n4",
+            "heading_size": 40,
+            "heading_size_mobile": 28,
+            "heading_advanced": false,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#15213A"
+          }
+        },
+        "ss-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Basins, baths, toilets, shower screens, vanities, and tapware sit alongside porcelain tiles, grout, sealants, and tiling tools, so bathrooms, kitchens, and laundry can be specified from the same Australian catalogue.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_advanced": false,
+            "text_height": 150,
+            "text_mt": 12,
+            "text_mt_mobile": 12,
+            "text_color": "#6A6862"
+          }
+        },
+        "ss-button-3": {
+          "type": "button",
+          "settings": {
+            "button": "Browse the showroom range",
+            "new_tab": false,
+            "button_style": "non_outline",
+            "button_custom": false,
+            "button_font": "josefin_sans_n4",
+            "button_size": 14,
+            "button_size_mobile": 14,
+            "button_advanced": false,
+            "button_height": 100,
+            "button_padding_horizontal": 40,
+            "button_padding_horizontal_mobile": 32,
+            "button_padding_vertical": 20,
+            "button_padding_vertical_mobile": 20,
+            "button_radius": 0,
+            "button_border_thickness": 1,
+            "button_mt": 30,
+            "button_mt_mobile": 30,
+            "button_custom_styling": true,
+            "button_color": "#FFFFFF",
+            "button_hover_color": "#FFFFFF",
+            "button_bg_color": "#15213A",
+            "button_bg_hover_color": "#15213A",
+            "button_border_color": "#15213A",
+            "button_border_hover_color": "#15213A",
+            "button_shadow_color": "#000000"
+          }
+        },
+        "ss-feature-4": {
+          "type": "feature",
+          "settings": {
+            "icon": "shop",
+            "title": "Fixtures in one place",
+            "text": "<p>Choose basins, baths, toilets, vanities, and shower screens without splitting the order across unrelated shops.</p>",
+            "hide_mobile": false
+          }
+        },
+        "ss-feature-5": {
+          "type": "feature",
+          "settings": {
+            "icon": "sliders",
+            "title": "Surfaces that match the room",
+            "text": "<p>Porcelain tiles sit in the same range as the wet-area fixtures, so colour and finish decisions stay together.</p>",
+            "hide_mobile": false
+          }
+        },
+        "ss-feature-6": {
+          "type": "feature",
+          "settings": {
+            "icon": "box",
+            "title": "Site supplies on the same job",
+            "text": "<p>Grout, sealants, and tiling tools are listed with the fixtures, ready for bathrooms, kitchens, and laundry.</p>",
+            "hide_mobile": false
+          }
+        }
+      },
+      "block_order": [
+        "ss-heading-1",
+        "ss-text-2",
+        "ss-button-3",
+        "ss-feature-4",
+        "ss-feature-5",
+        "ss-feature-6"
+      ],
+      "custom_css": [
+        "@media(max-width:1023px){[class*=\"section-\"][class*=\"-settings\"]{padding-top:36px;padding-bottom:36px;}}"
+      ],
+      "settings": {
+        "layout": "image_content",
+        "layout_mobile": "image_content",
+        "image_width": 45,
+        "layout_gap": 60,
+        "layout_gap_mobile": 32,
+        "content_vertical_align": "center",
+        "image": "shopify://shop_images/pdp-image-566be8cb.png",
+        "image_ratio": "original",
+        "image_ratio_mobile": "original",
+        "image_radius": 0,
+        "image_border_thickness": 0,
+        "features_advanced": false,
+        "features_mt": 30,
+        "features_mt_mobile": 30,
+        "features_horizontal": 0,
+        "features_horizontal_mobile": 0,
+        "features_padding_vertical": 24,
+        "features_padding_vertical_mobile": 18,
+        "features_padding_horizontal": 24,
+        "features_padding_horizontal_mobile": 18,
+        "features_radius": 0,
+        "features_border_thickness": 0,
+        "liquid_glass": false,
+        "feature_advanced": false,
+        "feature_gap": 10,
+        "feature_gap_mobile": 10,
+        "feature_mt": 34,
+        "feature_mt_mobile": 20,
+        "feature_icon_size": 28,
+        "feature_icon_size_mobile": 24,
+        "feature_title_custom": false,
+        "feature_title_font": "josefin_sans_n4",
+        "feature_title_size": 18,
+        "feature_title_size_mobile": 16,
+        "feature_title_height": 130,
+        "feature_text_custom": false,
+        "feature_text_font": "josefin_sans_n4",
+        "feature_text_size": 14,
+        "feature_text_size_mobile": 13,
+        "feature_text_height": 150,
+        "features_background_style": "solid",
+        "features_bg_color": "#FFFFFF",
+        "features_bg_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
+        "features_border_color": "#DCD6CB",
+        "feature_icon_color": "#15213A",
+        "feature_title_color": "#15213A",
+        "feature_text_color": "#6A6862",
+        "image_border_color": "#15213A",
+        "background_style": "gradient",
+        "background_color": "#FFFFFF",
+        "background_gradient": "linear-gradient(180deg, #FFFFFF 0%, #F2F2F2 100%)",
+        "border_color": "#DCD6CB",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0.0,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0
+      }
+    },
+    "ss-collection-16-3": {
+      "type": "ss-collection-16",
+      "blocks": {
+        "ss-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plan the week from showroom to site",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_tag": "h2",
+            "heading_size": 40,
+            "heading_size_mobile": 28,
+            "heading_height": 130,
+            "heading_color": "#15213A",
+            "heading_align": "center",
+            "heading_align_mobile": "center",
+            "heading_mb": 32,
+            "heading_mb_mobile": 24
+          }
+        },
+        "ss-card-2": {
+          "type": "card",
+          "settings": {
+            "source": "uploaded",
+            "video_title": "",
+            "title": "Bathroom vanities and storage",
+            "text": "<p>Lock in storage and tallboys first so tapware and basins land on a layout that already works on site.</p>",
+            "feature_1": "Vanities ready to specify",
+            "feature_2": "Tallboys and bathroom storage",
+            "feature_3": "Ships with the rest of the wet-area order",
+            "button_text": ""
+          }
+        },
+        "ss-card-3": {
+          "type": "card",
+          "settings": {
+            "source": "uploaded",
+            "video_title": "",
+            "title": "Tapware, baths, and basins",
+            "text": "<p>Match mixers, baths, and basins in one pass so the plumber is not waiting on a second supplier.</p>",
+            "feature_1": "Bath tapware and spouts",
+            "feature_2": "Basins in common install types",
+            "feature_3": "Baths for back-to-wall, inset, and corner layouts",
+            "button_text": ""
+          }
+        },
+        "ss-card-4": {
+          "type": "card",
+          "settings": {
+            "source": "uploaded",
+            "video_title": "",
+            "title": "Kitchen, laundry, and tiling gear",
+            "text": "<p>Finish the wet rooms and keep grout, hardware, and tools in the same Australian shipment as the fixtures.</p>",
+            "feature_1": "Kitchen and laundry collections",
+            "feature_2": "Grout, hardware, and tiling tools",
+            "feature_3": "Packed for home and trade sites",
+            "button_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "ss-heading-1",
+        "ss-card-2",
+        "ss-card-3",
+        "ss-card-4"
+      ],
+      "custom_css": [
+        "@media(max-width:1023px){[class*=\"section-\"][class*=\"-settings\"]{padding-top:36px;padding-bottom:36px;}}"
+      ],
+      "settings": {
+        "layout_type": "slider",
+        "layout_type_mobile": "slider",
+        "cards_per_row": 3,
+        "slider_view": 3.0,
+        "slider_view_mobile": 1.2,
+        "cards_gap": 16,
+        "cards_gap_mobile": 12,
+        "arrow_show_desktop": true,
+        "arrow_show_mobile": false,
+        "arrow_size": 48,
+        "arrow_size_mobile": 40,
+        "arrow_icon_size": 10,
+        "arrow_icon_size_mobile": 10,
+        "arrow_border_thickness": 0,
+        "arrow_radius": 100,
+        "arrow_hover_effect": "color",
+        "scrollbar_height": 3,
+        "scrollbar_radius": 4,
+        "scrollbar_mt": 16,
+        "card_radius": 0,
+        "content_advanced": false,
+        "content_padding_vertical": 32,
+        "content_padding_vertical_mobile": 24,
+        "content_padding_horizontal": 28,
+        "content_padding_horizontal_mobile": 20,
+        "overlay_color": "#15213A",
+        "overlay_opacity": 0.5,
+        "overlay_height": 70,
+        "video_trigger_size": 64,
+        "video_trigger_size_mobile": 52,
+        "video_trigger_bg": "rgba(255,255,255,0.15)",
+        "video_trigger_color": "#FFFFFF",
+        "video_trigger_border_color": "rgba(255,255,255,0.4)",
+        "video_trigger_border_thickness": 1,
+        "video_close_size": 36,
+        "video_title_custom": false,
+        "video_title_font": "josefin_sans_n4",
+        "video_title_size": 20,
+        "video_title_size_mobile": 18,
+        "video_title_height": 130,
+        "video_title_bottom": 65,
+        "title_custom": false,
+        "title_font": "josefin_sans_n4",
+        "title_size": 28,
+        "title_size_mobile": 22,
+        "title_height": 130,
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 15,
+        "text_size_mobile": 14,
+        "text_advanced": false,
+        "text_height": 150,
+        "text_mt": 10,
+        "text_mt_mobile": 8,
+        "features_icon": "check",
+        "features_custom": false,
+        "features_font": "josefin_sans_n4",
+        "features_size": 15,
+        "features_size_mobile": 14,
+        "features_advanced": false,
+        "features_height": 150,
+        "features_mt": 14,
+        "features_mt_mobile": 12,
+        "features_gap": 10,
+        "open_in_new_tab": false,
+        "button_style": "non_outline",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_advanced": false,
+        "button_height": 150,
+        "button_padding_horizontal": 28,
+        "button_padding_horizontal_mobile": 24,
+        "button_padding_vertical": 14,
+        "button_padding_vertical_mobile": 12,
+        "button_radius": 0,
+        "button_border_thickness": 1,
+        "button_mt": 20,
+        "button_mt_mobile": 16,
+        "hover_bg_color": "#15213A",
+        "title_color": "#FFFFFF",
+        "text_color": "#FFFFFF",
+        "features_color": "#FFFFFF",
+        "features_icon_color": "#FFFFFF",
+        "video_title_color": "#FFFFFF",
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#15213A",
+        "button_bg_hover_color": "#15213A",
+        "button_border_color": "#15213A",
+        "button_border_hover_color": "#15213A",
+        "arrow_color": "#15213A",
+        "arrow_hover_color": "#15213A",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#F6F4EF",
+        "arrow_border_color": "#15213A",
+        "arrow_border_hover_color": "#15213A",
+        "scrollbar_color": "#DCD6CB",
+        "scrollbar_drag_color": "#15213A",
+        "background_style": "gradient",
+        "background_color": "#F2F2F2",
+        "background_gradient": "linear-gradient(180deg, #F2F2F2 0%, #F5F5F5 100%)",
+        "border_color": "#DCD6CB",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0.0,
+        "margin_horizontal_mobile": 0.0,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "padding_horizontal": 5.0,
+        "padding_horizontal_mobile": 1.5,
+        "width": "full",
+        "content_width": 1200,
+        "border_thickness": 0,
+        "section_radius": 0
+      }
+    },
+    "ss-testimonial-8-4": {
+      "type": "ss-testimonial-8",
+      "blocks": {
+        "ss-testimonials-1": {
+          "type": "testimonials",
+          "settings": {
+            "stars_count": 5.0,
+            "heading": "Stock matched the bathroom plan",
+            "text": "We ordered tiles, tapware, and the vanity together. Everything arrived in a sequence we could actually use on a home reno without chasing extra suppliers.",
+            "author_date": "Helen K."
+          }
+        },
+        "ss-testimonials-2": {
+          "type": "testimonials",
+          "settings": {
+            "stars_count": 5.0,
+            "heading": "Trade order, no fuss",
+            "text": "Needed grout, tools, and fixtures for a wet-area job. The range was organised the way a tiler thinks, and the packing held up on site.",
+            "author_date": "Marcus D."
+          }
+        },
+        "ss-testimonials-3": {
+          "type": "testimonials",
+          "settings": {
+            "stars_count": 5.0,
+            "heading": "Advice that stayed practical",
+            "text": "Questions about pairing basins and mixers were answered in plain language. Felt like a showroom conversation, not a generic checkout.",
+            "author_date": "Natalie P."
+          }
+        },
+        "ss-testimonials-4": {
+          "type": "testimonials",
+          "settings": {
+            "stars_count": 5.0,
+            "heading": "Shipped ready for the week",
+            "text": "Interstate delivery landed before the plumber was booked. Kitchen and laundry pieces came with the bathroom order so the week stayed on track.",
+            "author_date": "Craig W."
+          }
+        }
+      },
+      "block_order": [
+        "ss-testimonials-1",
+        "ss-testimonials-2",
+        "ss-testimonials-3",
+        "ss-testimonials-4"
+      ],
+      "custom_css": [
+        "@media(max-width:1023px){[class*=\"section-\"][class*=\"-settings\"]{padding-top:36px;padding-bottom:36px;}}"
+      ],
+      "settings": {
+        "heading": "What renovators and tilers say after the job",
+        "heading_custom": false,
+        "heading_font": "josefin_sans_n4",
+        "heading_size": 40,
+        "heading_size_mobile": 26,
+        "heading_height": 130,
+        "content_align": "center",
+        "rating_text_hide": false,
+        "rating_text": "Praised for clear stock and practical supply",
+        "rating_text_custom": false,
+        "rating_text_font": "josefin_sans_n4",
+        "rating_text_size": 18,
+        "rating_text_size_mobile": 16,
+        "rating_text_height": 130,
+        "rating_text_mt": 16,
+        "rating_hide": false,
+        "rating": 4.8,
+        "stars_count": 5.0,
+        "stars_size": 28,
+        "stars_size_mobile": 24,
+        "stars_gap": 5,
+        "text": "<p>Verified shoppers across Australia</p>",
+        "text_right_image": "",
+        "text_custom": false,
+        "text_font": "josefin_sans_n4",
+        "text_size": 16,
+        "text_size_mobile": 14,
+        "text_advanced": false,
+        "text_height": 130,
+        "text_mt": 16,
+        "slider_width": 90,
+        "slider_view": 3,
+        "slider_view_mobile": 1.2,
+        "slider_advanced": false,
+        "slider_gap": 20,
+        "slider_gap_mobile": 20,
+        "slider_mt": 36,
+        "card_advanced": false,
+        "card_padding_vertical": 32,
+        "card_padding_vertical_mobile": 24,
+        "card_padding_horizontal": 40,
+        "card_padding_horizontal_mobile": 24,
+        "card_radius": 0,
+        "card_border_thickness": 0,
+        "card_shadow": false,
+        "card_heading_custom": false,
+        "card_heading_font": "josefin_sans_n4",
+        "card_heading_size": 20,
+        "card_heading_size_mobile": 18,
+        "card_heading_advanced": false,
+        "card_heading_height": 130,
+        "card_heading_mt": 16,
+        "card_text_custom": false,
+        "card_text_font": "josefin_sans_n4",
+        "card_text_size": 14,
+        "card_text_size_mobile": 14,
+        "card_text_advanced": false,
+        "card_text_height": 150,
+        "card_text_mt": 16,
+        "card_text_more": "View more",
+        "card_text_less": "View less",
+        "card_count_words": 40,
+        "card_author_date_text_custom": false,
+        "card_author_date_text_font": "josefin_sans_n4",
+        "card_author_date_text_size": 14,
+        "card_author_date_text_size_mobile": 14,
+        "card_author_date_text_advanced": false,
+        "card_author_date_text_height": 130,
+        "card_author_date_text_mt": 16,
+        "arrow_show_desktop": false,
+        "arrow_show_mobile": false,
+        "arrow_size": 48,
+        "arrow_size_mobile": 44,
+        "arrow_icon_size": 24,
+        "arrow_icon_size_mobile": 22,
+        "arrow_border_thickness": 0,
+        "dots_show_desktop": false,
+        "dots_show_mobile": false,
+        "dots_size": 10,
+        "dots_size_mobile": 10,
+        "button": "",
+        "new_tab": false,
+        "button_style": "non_outline",
+        "button_custom": false,
+        "button_font": "josefin_sans_n4",
+        "button_size": 14,
+        "button_size_mobile": 14,
+        "button_advanced": false,
+        "button_height": 100,
+        "button_padding_horizontal": 40,
+        "button_padding_horizontal_mobile": 32,
+        "button_padding_vertical": 20,
+        "button_padding_vertical_mobile": 20,
+        "button_radius": 0,
+        "button_border_thickness": 1,
+        "button_mt": 30,
+        "button_mt_mobile": 24,
+        "button_align": "center",
+        "button_custom_styling": true,
+        "button_full_width_mobile": false,
+        "button_color": "#FFFFFF",
+        "button_hover_color": "#FFFFFF",
+        "button_bg_color": "#15213A",
+        "button_bg_hover_color": "#15213A",
+        "button_border_color": "#15213A",
+        "button_border_hover_color": "#15213A",
+        "button_shadow_color": "#000000",
+        "card_heading_color": "#15213A",
+        "card_text_color": "#6A6862",
+        "card_author_date_text_color": "#6A6862",
+        "card_bg_color": "#FFFFFF",
+        "card_border_color": "#DCD6CB",
+        "card_shadow_color": "#DCD6CB",
+        "arrow_color": "#15213A",
+        "arrow_hover_color": "#15213A",
+        "arrow_bg_color": "#FFFFFF",
+        "arrow_bg_hover_color": "#F6F4EF",
+        "arrow_border_color": "#15213A",
+        "arrow_border_hover_color": "#15213A",
+        "dots_color": "#15213A",
+        "stars_color": "#FFFFFF",
+        "stars_bg_color": "#15213A",
+        "stars_bg_half_color": "#111111",
+        "heading_color": "#15213A",
+        "rating_text_color": "#15213A",
+        "text_color": "#6A6862",
+        "background_style": "gradient",
+        "background_color": "#F5F5F5",
+        "background_gradient": "linear-gradient(180deg, #F5F5F5 0%, #F6F4EF 100%)",
+        "border_color": "#DCD6CB",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "padding_horizontal": 5.0,
+        "padding_horizontal_mobile": 1.5,
+        "width": "page",
+        "content_width": 1200,
+        "border_thickness": 0
+      }
+    },
+    "ss-faq-17-5": {
+      "type": "ss-faq-17",
+      "blocks": {
+        "ss-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<h2>Shipping, showroom, and returns</h2>",
+            "heading_custom": false,
+            "heading_font": "josefin_sans_n4",
+            "heading_size": 40,
+            "heading_size_mobile": 28,
+            "heading_height": 130,
+            "heading_mt": 0,
+            "heading_mt_mobile": 0,
+            "heading_color": "#15213A"
+          }
+        },
+        "ss-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Orders are packed for Australian sites and homes. Selected lines can be seen at the Maddington showroom before you commit.</p>",
+            "text_custom": false,
+            "text_font": "josefin_sans_n4",
+            "text_size": 16,
+            "text_size_mobile": 14,
+            "text_height": 150,
+            "text_mt": 30,
+            "text_mt_mobile": 20,
+            "text_color": "#6A6862"
+          }
+        },
+        "ss-tab-3": {
+          "type": "tab",
+          "settings": {
+            "tab": "Shipping"
+          }
+        },
+        "ss-faq_item-4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you ship across Australia?",
+            "answer": "<p>Yes. Orders ship within Australia and are packed for both home deliveries and trade sites.</p>"
+          }
+        },
+        "ss-faq_item-5": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can fixtures and tiling hardware travel on the same order?",
+            "answer": "<p>Bathroom fixtures and trade hardware are sold together, so wet-area pieces and install supplies can leave in one shipment when stock allows.</p>"
+          }
+        },
+        "ss-tab-6": {
+          "type": "tab",
+          "settings": {
+            "tab": "Showroom"
+          }
+        },
+        "ss-faq_item-7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where can I see finishes in person?",
+            "answer": "<p>Selected stock is held at the Maddington showroom, so you can check finishes before you order lines that are available there.</p>"
+          }
+        },
+        "ss-faq_item-8": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is every line on the floor?",
+            "answer": "<p>The showroom backs many lines; availability on the floor varies. Use the catalogue for the full range of fixtures and tiling supplies, then confirm showroom stock when you need to see a finish.</p>"
+          }
+        },
+        "ss-tab-9": {
+          "type": "tab",
+          "settings": {
+            "tab": "Returns"
+          }
+        },
+        "ss-faq_item-10": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if a piece is unused after delivery?",
+            "answer": "<p>Unused items follow the store’s returns path. Keep original packing and contact the team so the order can be checked against the listed return terms.</p>"
+          }
+        },
+        "ss-faq_item-11": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Who do I speak to about a mixed fixture and hardware order?",
+            "answer": "<p>The same team handles bathroom fixtures and trade hardware. Reach out with your order details and they will sort shipping or return questions for the full mix.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "ss-heading-1",
+        "ss-text-2",
+        "ss-tab-3",
+        "ss-faq_item-4",
+        "ss-faq_item-5",
+        "ss-tab-6",
+        "ss-faq_item-7",
+        "ss-faq_item-8",
+        "ss-tab-9",
+        "ss-faq_item-10",
+        "ss-faq_item-11"
+      ],
+      "custom_css": [
+        "@media(max-width:1023px){[class*=\"section-\"][class*=\"-settings\"]{padding-top:36px;padding-bottom:36px;}}@media(min-width:990px) and (max-width:1023px){[class*=\"section-\"][class*=\"-settings\"]{padding-bottom:24px;}}"
+      ],
+      "settings": {
+        "content_max_width": 72,
+        "toggles_gap": 16,
+        "toggles_gap_mobile": 12,
+        "toggles_mt": 32,
+        "toggles_mt_mobile": 24,
+        "toggle_padding_horizontal": 26,
+        "toggle_padding_horizontal_mobile": 20,
+        "toggle_padding_vertical": 12,
+        "toggle_padding_vertical_mobile": 10,
+        "toggle_radius": 100,
+        "toggle_custom": false,
+        "toggle_font": "josefin_sans_n4",
+        "toggle_size": 14,
+        "toggle_size_mobile": 13,
+        "toggle_height": 130,
+        "tabs_mt": 24,
+        "tabs_mt_mobile": 24,
+        "item_mt": 12,
+        "item_mt_mobile": 12,
+        "item_padding_horizontal": 0,
+        "item_padding_horizontal_mobile": 0,
+        "item_padding_vertical": 20,
+        "item_padding_vertical_mobile": 14,
+        "item_border_thickness": 1,
+        "question_custom": false,
+        "question_font": "josefin_sans_n4",
+        "question_size": 16,
+        "question_size_mobile": 14,
+        "question_height": 150,
+        "icon_size": 24,
+        "icon_size_mobile": 22,
+        "answer_custom": false,
+        "answer_font": "josefin_sans_n4",
+        "answer_size": 14,
+        "answer_size_mobile": 14,
+        "answer_height": 150,
+        "answer_padding_top": 30,
+        "toggles_bg_color": "#F6F4EF",
+        "toggle_bg_color": "#15213A",
+        "toggle_bg_gradient": "",
+        "toggle_color": "#15213A",
+        "toggle_active_color": "#FFFFFF",
+        "item_border_color": "#DCD6CB",
+        "question_color": "#15213A",
+        "answer_color": "#6A6862",
+        "icon_color": "#15213A",
+        "background_color": "#F6F4EF",
+        "background_gradient": "linear-gradient(180deg, #F6F4EF 0%, #FFFFFF 50%, #F6F4EF 100%)",
+        "border_color": "#DCD6CB",
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "margin_horizontal": 0,
+        "margin_horizontal_mobile": 0.0,
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "padding_horizontal": 5,
+        "padding_horizontal_mobile": 1.5,
+        "content_width": 1000,
+        "border_thickness": 0,
+        "section_radius": 0
+      }
+    }
+  },
+  "order": [
+    "breadcrumbs",
+    "main",
+    "ss-scrolling-features-1",
+    "ss-feature-54-2",
+    "ss-collection-16-3",
+    "ss-testimonial-8-4",
+    "ss-faq-17-5",
+    "recommendations"
+  ]
+}

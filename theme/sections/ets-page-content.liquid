@@ -1,0 +1,26 @@
+<section class="ets ets-sec--tight" style="padding-top:0">
+  <div class="ets-wrap ets-form-layout" style="grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr)">
+    <div class="ets-rte">{{ page.content }}</div>
+    {%- if section.settings.show_help -%}
+      <aside class="ets-form-layout__aside">
+        <div class="ets-aside-card ets-shell"><div class="ets-core">
+          <h2>Need a hand?</h2>
+          <p>Talk to our Maddington team about products, quantities, delivery or your project.</p>
+          <dl class="ets-dl" style="margin-top:18px">
+            <div><dt>Phone</dt><dd><a href="tel:{{ settings.ets_phone_link }}">{{ settings.ets_phone }}</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:{{ settings.ets_email }}">{{ settings.ets_email }}</a></dd></div>
+            <div><dt>Showroom</dt><dd>{{ settings.ets_address | escape }}<br><span class="ets-small">{{ settings.ets_hours | escape }}</span></dd></div>
+          </dl>
+          <div class="ets-btns" style="margin-top:22px"><a class="ets-btn ets-btn--block" href="/pages/request-a-quote">Request a quote<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a></div>
+        </div></div>
+      </aside>
+    {%- endif -%}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS page content",
+  "settings": [{ "type": "checkbox", "id": "show_help", "label": "Show help card", "default": true }],
+  "presets": [{ "name": "ETS page content" }]
+}
+{% endschema %}

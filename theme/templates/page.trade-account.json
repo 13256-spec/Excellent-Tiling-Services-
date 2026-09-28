@@ -1,0 +1,93 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "ets-trade-apply",
+      "blocks": {
+        "forms_inline_GxmbqG": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "1172088",
+            "text_color": "#15213A",
+            "button_background_color": "#15213A",
+            "button_label_color": "#ffffff",
+            "links_color": "#9C7744",
+            "errors_color": "#9B2C2C",
+            "text_alignment": "left",
+            "form_alignment": "flex-start",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_GxmbqG"
+      ],
+      "settings": {
+        "eyebrow": "Trade accounts",
+        "heading": "Trade prices for <em>trades</em>.",
+        "intro": "Builders, tilers, plumbers and renovators save on every order — tiles, bathroomware, tapware and accessories. Apply once, log in, and your prices show automatically."
+      }
+    },
+    "faq": {
+      "type": "ets-faq",
+      "blocks": {
+        "0": {
+          "type": "question",
+          "settings": {
+            "question": "Who can apply?",
+            "answer": "<p>Any business with an active ABN buying for work — tilers, builders, plumbers, renovators, designers and property developers.</p>"
+          }
+        },
+        "1": {
+          "type": "question",
+          "settings": {
+            "question": "How do I see my trade prices?",
+            "answer": "<p>Once approved, log in using the email address on your application. Every product then shows your trade price, and the discount applies automatically in the cart and at checkout.</p>"
+          }
+        },
+        "2": {
+          "type": "question",
+          "settings": {
+            "question": "Can I combine trade pricing with other offers?",
+            "answer": "<p>Trade pricing is our best price, so it doesn't stack with other discount codes. Free shipping on small items still applies.</p>"
+          }
+        },
+        "3": {
+          "type": "question",
+          "settings": {
+            "question": "Can you deliver to site?",
+            "answer": "<p>Yes — within the Perth metro area for tiles and large items. Small items ship Australia-wide. You can also collect from Maddington by appointment.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "settings": {
+        "eyebrow": "Trade FAQs",
+        "heading": "Before you <em>apply</em>.",
+        "text": "Anything else? Call or email the team.",
+        "open_first": false,
+        "bg": "white"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "faq"
+  ]
+}

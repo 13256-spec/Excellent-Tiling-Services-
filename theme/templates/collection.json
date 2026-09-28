@@ -11,7 +11,10 @@
   "sections": {
     "hero": {
       "type": "ets-collection-hero",
-      "settings": {}
+      "settings": {
+        "menu": "main-menu",
+        "show_image": true
+      }
     },
     "main": {
       "type": "main-collection",
@@ -132,15 +135,10 @@
         "padding-block-start": 16,
         "padding-block-end": 64
       }
-    },
-    "support": {
-      "type": "ets-collection-support",
-      "settings": {}
     }
   },
   "order": [
     "hero",
-    "main",
-    "support"
+    "main"
   ]
 }

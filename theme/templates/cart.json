@@ -63,13 +63,18 @@
         "padding-block-end": 56
       }
     },
-    "order_help": {
-      "type": "ets-cart-service",
-      "settings": {}
+    "trade": {
+      "type": "ets-trade-band",
+      "settings": {
+        "eyebrow": "For builders & trades",
+        "heading": "Buying for a job? Get <em>trade prices</em>.",
+        "text": "Approved trade accounts save on every order. Apply in two minutes, then log in and your prices apply automatically.",
+        "checks": ""
+      }
     }
   },
   "order": [
     "cart-section",
-    "order_help"
+    "trade"
   ]
 }

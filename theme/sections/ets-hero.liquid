@@ -1,0 +1,108 @@
+{%- liquid
+  assign since = settings.ets_since | default: '2011'
+  assign years = 'now' | date: '%Y' | minus: since
+-%}
+<section class="ets ets-hero" aria-labelledby="EtsHero-{{ section.id }}">
+  <div class="ets-wrap ets-hero__grid">
+    <div class="ets-hero__copy">
+      {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow" data-reveal>{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+      <h1 class="ets-display" id="EtsHero-{{ section.id }}" data-reveal style="--d:.05s">{{ section.settings.heading }}</h1>
+      {%- if section.settings.text != blank -%}<p class="ets-lede" data-reveal style="--d:.12s">{{ section.settings.text | escape }}</p>{%- endif -%}
+      <div class="ets-btns" data-reveal style="--d:.18s">
+        {%- if section.settings.btn_1_label != blank -%}
+          <a class="ets-btn" href="{{ section.settings.btn_1_link | default: routes.all_products_collection_url }}">{{ section.settings.btn_1_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+        {%- endif -%}
+        {%- if section.settings.btn_2_label != blank -%}
+          <a class="ets-btn ets-btn--ghost" href="{{ section.settings.btn_2_link | default: '/pages/request-a-quote' }}">{{ section.settings.btn_2_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow-up-right' %}</span></a>
+        {%- endif -%}
+      </div>
+      <ul class="ets-hero__meta" role="list" data-reveal style="--d:.24s">
+        {%- if section.settings.meta_1 != blank -%}<li>{% render 'ets-icon', name: 'truck' %}{{ section.settings.meta_1 | escape }}</li>{%- endif -%}
+        {%- if section.settings.meta_2 != blank -%}<li>{% render 'ets-icon', name: 'store' %}{{ section.settings.meta_2 | escape }}</li>{%- endif -%}
+        {%- if section.settings.meta_3 != blank -%}<li>{% render 'ets-icon', name: 'briefcase' %}{{ section.settings.meta_3 | escape }}</li>{%- endif -%}
+      </ul>
+    </div>
+    <div class="ets-hero__media" data-reveal style="--d:.1s">
+      <div class="ets-shell">
+        <div class="ets-core ets-hero__frame">
+          {%- if section.blocks.size > 0 -%}
+            <div class="ets-hero__slides" data-ets-slides data-interval="{{ section.settings.interval }}">
+              {%- for block in section.blocks -%}
+                <div class="ets-hero__slide{% if forloop.first %} is-active{% endif %}" data-slide {{ block.shopify_attributes }}{% unless forloop.first %} aria-hidden="true"{% endunless %}>
+                  {%- if block.settings.image != blank -%}
+                    {%- if forloop.first -%}
+                      {{ block.settings.image | image_url: width: 1600 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '600, 900, 1200, 1600', sizes: '(min-width: 990px) 48vw, 100vw', alt: block.settings.image.alt | default: '' }}
+                    {%- else -%}
+                      {{ block.settings.image | image_url: width: 1600 | image_tag: loading: 'lazy', widths: '600, 900, 1200, 1600', sizes: '(min-width: 990px) 48vw, 100vw', alt: block.settings.image.alt | default: '' }}
+                    {%- endif -%}
+                  {%- else -%}
+                    {{ 'lifestyle-1' | placeholder_svg_tag }}
+                  {%- endif -%}
+                  {%- if block.settings.label != blank -%}
+                    <a class="ets-hero__tag" href="{{ block.settings.link | default: routes.all_products_collection_url }}"{% unless forloop.first %} tabindex="-1"{% endunless %}>{{ block.settings.label | escape }} →</a>
+                  {%- endif -%}
+                </div>
+              {%- endfor -%}
+              {%- if section.blocks.size > 1 -%}
+                <div class="ets-hero__dots">
+                  {%- for block in section.blocks -%}
+                    <button type="button" data-dot="{{ forloop.index0 }}" aria-label="Show image {{ forloop.index }} of {{ forloop.length }}"{% if forloop.first %} aria-current="true"{% endif %}></button>
+                  {%- endfor -%}
+                </div>
+              {%- endif -%}
+            </div>
+          {%- elsif section.settings.image != blank -%}
+            {{ section.settings.image | image_url: width: 1600 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '600, 900, 1200, 1600', sizes: '(min-width: 990px) 48vw, 100vw', alt: section.settings.image.alt | default: '' }}
+            {%- if section.settings.tag_label != blank -%}<a class="ets-hero__tag" href="{{ section.settings.tag_link | default: '#' }}">{{ section.settings.tag_label | escape }} →</a>{%- endif -%}
+          {%- else -%}
+            {{ 'lifestyle-1' | placeholder_svg_tag }}
+          {%- endif -%}
+        </div>
+      </div>
+      {%- if years > 0 -%}
+        <div class="ets-hero__float ets-shell">
+          <div class="ets-core">
+            <strong>{{ years }}+ years</strong>
+            <span>{{ section.settings.float_text | escape }}</span>
+          </div>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "ETS hero",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Tiles · Bathroomware · Renovations — Perth" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Beautiful bathrooms, <em>built</em> and supplied." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Shop porcelain tiles, vanities, tapware and bathroomware online — or let our licensed team handle the whole renovation, from waterproofing to the final tile." },
+    { "type": "image_picker", "id": "image", "label": "Image", "info": "Used when there are no image slides. Add Image slide blocks to rotate several images." },
+    { "type": "text", "id": "btn_1_label", "label": "Button 1 label", "default": "Shop the range" },
+    { "type": "url", "id": "btn_1_link", "label": "Button 1 link" },
+    { "type": "text", "id": "btn_2_label", "label": "Button 2 label", "default": "Get a renovation quote" },
+    { "type": "url", "id": "btn_2_link", "label": "Button 2 link" },
+    { "type": "text", "id": "meta_1", "label": "Point 1", "default": "Perth delivery & Australia-wide shipping" },
+    { "type": "text", "id": "meta_2", "label": "Point 2", "default": "Maddington showroom" },
+    { "type": "text", "id": "meta_3", "label": "Point 3", "default": "Trade pricing for builders" },
+    { "type": "text", "id": "tag_label", "label": "Image tag label", "default": "Shop this tile" },
+    { "type": "url", "id": "tag_link", "label": "Image tag link" },
+    { "type": "range", "id": "interval", "label": "Change image every", "min": 3, "max": 15, "step": 1, "unit": "s", "default": 6 },
+    { "type": "text", "id": "float_text", "label": "Years card text", "info": "Years are calculated from 'In business since' in Theme settings → ETS business details.", "default": "Tiling and renovating Perth homes, with a showroom in Maddington." }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Image slide",
+      "limit": 8,
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "text", "id": "label", "label": "Tag label", "default": "Shop this tile" },
+        { "type": "url", "id": "link", "label": "Tag link" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "ETS hero" }]
+}
+{% endschema %}
