@@ -70,7 +70,7 @@ Only products with a unit cost in Shopify and at least 35% margin are on `trade-
 - `price-check` tag: items where the Roberts data or market looked unreliable (Baron F200/F300 and parts, Sigma parts and workbench, one linear drain, tile wedges, cylinder gun).
 - Shipping: 77 bulky products (3m trims, tile cutters, Kera/Sigma tables, Baron mixers, linear drains, niche boxes, grout 5kg+, pallet wrap, floor protection roll) moved to "Local delivery or pickup - large items". The rest stay in the General profile ($20 under $100, free over $100).
 - No trade tag yet, so trade customers get no discount on these until a tier is chosen.
-- Costs are unknown (need the logged-in Roberts price list). Fill `our_cost` in `roberts-designs-pricing.csv` or send the price list, then check margin before activating anything.
+- Costs were added on 28 Sep 2026 (see below).
 
 ### Collections for the Roberts Designs products
 
@@ -88,4 +88,34 @@ The existing Hardware smart collections now also match on **product type**, so R
 
 The bathroom items were added by hand to the manual collections: Bathroom Wastes (floor wastes, linear drains and flanges, +15), Soap & Shelf Holders (+7), and Accessories (niche boxes and a vent, +4).
 
-The two new collections are **not yet published** to the Online Store. Publish them and add them to the menu once the Roberts products go live.
+Both collections were published on 28 Sep 2026 (see below).
+
+## Roberts Designs costs and go-live (28 Sep 2026)
+
+Cost prices were taken from our logged-in trade account on robertsdesigns.com.au, which shows prices **ex GST** (a $9.00 item adds $0.90 GST in the cart). All 935 variants matched by SKU.
+
+- `our_cost` = Roberts trade price ex GST. This is also the unit cost on every Shopify variant.
+- `margin_pct` = (our price ÷ 1.1 − cost) ÷ (our price ÷ 1.1). Shopify prices include GST, so GST is taken off the sale price first. Shopify's own margin figure ignores GST and will show about 9 points higher.
+- Median margin is 41.9%.
+- `needs-cost` tag removed from all 264 products.
+- Baron E120 (RDXM50030): the sheet showed $6,371.95, but Shopify had $4,557.95 (3% under CeramicsWest). The sheet now shows the Shopify price.
+
+### Under 20% margin
+37 variants were under 20%. The target price was cost ÷ 0.8 + GST, rounded up to .95. It was only raised where that stayed at or under `market_price_used`:
+
+| SKU | Product | Old | New |
+| --- | --- | --- | --- |
+| RDXA3519 | Sigma 24M10X Handle | $309.95 | $314.95 |
+| RDXA3539 | Sigma 24M20X Handle | $309.95 | $314.95 |
+
+For the other 35 the new price would be above market, so these **36 products stay as drafts** (listed with the current margin):
+
+- **Cost equals the Roberts list price (no trade discount):** Baron F200 and F300 mixers and their heads, paddles, switches and rubber wheel (−13 to −14%), E120 power cable (−13.9%), Sigma 90D3/90DG/90LD/90LE measurement bars, 19B3 square, 14C scoring wheel and 108362 nut (−13 to −15%), and Tile Insert Linear Drain 76mm (the 1500mm Gold variant is at −13.6%, so the whole product stays in draft). Worth asking Roberts whether these should carry a trade discount.
+- **Sigma cutters priced to the online market:** ART 2G, 2B3, 7F, 4BU, 4CU, 4DU, 4EN, 4FN, NEX 4BN/4CN/4DN, Kera Cut kit 8AE2 and Kera Lift 1A6 (−18% to 12.6%). Discount sellers are close to our cost.
+- **Small items:** Maxisil Sausage Caulking Gun 600ml (10.4%), Splash Trowel (14.8%), Waterproofing Kit (13.1%), White Rubber Mallet (−14.9%), and Stainless Square Notched Maxi Grip Trowel – Large (the 12mm variant is at −0.3%).
+
+### Status
+- **228 products Active** and published to Online Store, Point of Sale, Shop, Google & YouTube and Facebook & Instagram. Every variant on these is at 20% margin or more.
+- `price-check` items: 30 went live because their cost is below the Roberts list and margin is 20% or more. 10 stay as drafts (all in the lists above).
+- Tile Trims & Edging and Tile Cutters & Accessories are published to all channels and added under **Hardware** in the main menu.
+- Roberts pocket knife (ETS-HW-005) was not in this sheet and was left as it was.
