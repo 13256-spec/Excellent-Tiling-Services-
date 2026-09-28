@@ -34,4 +34,17 @@ New delivery profile **"Australia Post parcels - bulky items"** (gid://shopify/D
 
 Small items stay in the General profile ($20 under $100, free from $100). A mixed cart pays both: the small-item rate plus the Australia Post price for the bulky item.
 
-Still to do by the owner in Shopify admin: $100 local delivery minimum, a default package size, and test checkouts (see the steps in the chat of 28 Sep 2026).
+Parcel Post and Express Post were switched on for this rate on 28 Sep 2026 (the rate had no services selected).
+
+### Storefront test (28 Sep 2026, cart shipping-rate lookup)
+| Cart | Address | Rates returned |
+| --- | --- | --- |
+| Silicone $17.40 | Maddington 6109 | Standard $20, Local Delivery $130 |
+| Basin mixer $259 | Sydney 2000 | Free shipping |
+| Basin $315 | Sydney 2000 / Darwin 0800 | none |
+| Basin $315 | Maddington 6109 | Local Delivery $130 |
+| Silicone + basin | Melbourne 3000 | none |
+
+Australia Post returns no rates for any item in the profile, even a 0.35 kg primer, so the cause is the account setup, not the weights. The likely causes are no default package in Shopify, or a MyPost Business connection that isn't finished. Until that's fixed, these items still sell as pickup or Perth delivery only, the same as before the move.
+
+Still to do by the owner in Shopify admin: $100 local delivery minimum (the $17.40 test still shows $130), a default package size, and checking the Australia Post connection.
