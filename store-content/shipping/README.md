@@ -50,3 +50,30 @@ Australia Post returns no rates for any item in the profile, even a 0.35 kg prim
 Update, same day: the owner set a $100 minimum on both local delivery zones (30 km $130, 50 km $180) and made "Tile box 60x45x30" (0.5 kg) the default package. They also connected their own MyPost Business account, which Shopify added as a new carrier service ("Australia Post MyPost Business (own account)"). The profile's rate was moved to that service, with Parcel Post and Express Post on.
 
 Retest: the $17.40 cart now shows only Standard $20. Australia Post still returns no rates for any item in the profile. Check that rate calculation is turned on for the Australia Post carrier account in Shopify admin (Carrier accounts → Australia Post → Calculate rates).
+
+## Backup Australia Post prices (28 Sep 2026)
+Australia Post live rates still return nothing, so the "Australia Post parcels - bulky items" profile now also has fixed prices by cart weight (bulky items only, Australia-wide):
+
+| Weight of bulky items in cart | Price |
+| --- | --- |
+| up to 2.99 kg | $25 |
+| 3 to 4.99 kg | $39 |
+| 5 to 9.99 kg | $79 |
+| 10 to 22 kg | $99 |
+| 22.01 to 44 kg (2-3 boxes) | $179 |
+
+These items are light but bulky: a basin weighs about 8 kg, but its box is charged by Australia Post as 15 to 26 kg (cubic weight). So the prices are set to cover the cubic charge to far zones such as Darwin. Over 44 kg there is no rate, and the customer has to contact the shop.
+
+When Australia Post live rates start working, customers will see both. Then delete these five fixed rates, or keep them and remove the live rate.
+
+Retest after adding them (cart shipping-rate lookup):
+| Cart | Address | Rates |
+| --- | --- | --- |
+| Silicone $17.40 | Maddington 6109 | Standard $20 |
+| Basin mixer $259 | Sydney 2000 | Free |
+| Basin 8.3 kg | Sydney 2000 / Darwin 0800 | Australia Post $79 |
+| Basin 8.3 kg | Maddington 6109 | Australia Post $79, Local Delivery $130 |
+| Silicone + basin | Melbourne 3000 | $79 |
+| Primer 0.35 kg | Sydney 2000 | Australia Post $25 |
+| 3 basins | Brisbane 4000 | Australia Post $179 |
+| Vanity (freight item) | Sydney 2000 | none (pickup / Perth delivery only) |
