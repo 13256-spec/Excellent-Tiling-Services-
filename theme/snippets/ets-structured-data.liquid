@@ -31,7 +31,7 @@
         "@type": "SearchAction",
         "target": {
           "@type": "EntryPoint",
-          "urlTemplate": {{ shop.url | append: routes.search_url | append: '?q={search_term_string}' | json }}
+          "urlTemplate": "{{ shop.url }}{{ routes.search_url }}?q={search_term_string}"
         },
         "query-input": "required name=search_term_string"
       }
@@ -46,7 +46,7 @@
       "name": {{ collection.title | json }},
       "url": {{ shop.url | append: collection.url | json }},
       {%- if collection.description != blank %}
-      "description": {{ collection.description | strip_html | strip_newlines | truncate: 300 | json }},
+      "description": {{ collection.description | replace: '<', ' <' | strip_html | replace: '&nbsp;', ' ' | replace: '&amp;', '&' | split: ' ' | join: ' ' | truncate: 300 | json }},
       {%- endif %}
       "isPartOf": { "@id": {{ website_id | json }} },
       "provider": { "@id": {{ business_id | json }} },
@@ -118,7 +118,7 @@
       "image": {{ article.image | image_url: width: 1200 | prepend: 'https:' | json }},
       {%- endif %}
       {%- if article.excerpt_or_content != blank %}
-      "description": {{ article.excerpt_or_content | strip_html | strip_newlines | truncate: 300 | json }},
+      "description": {{ article.excerpt_or_content | replace: '<', ' <' | strip_html | replace: '&nbsp;', ' ' | replace: '&amp;', '&' | split: ' ' | join: ' ' | truncate: 300 | json }},
       {%- endif %}
       "author": { "@type": "Organization", "name": {{ shop.name | json }}, "url": {{ shop.url | json }} },
       "publisher": { "@id": {{ business_id | json }} },

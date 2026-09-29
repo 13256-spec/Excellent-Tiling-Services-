@@ -46,8 +46,9 @@ See [store-content/booking-form-shopify-forms.md](store-content/booking-form-sho
 
 - `snippets/meta-tags.liquid`: sitewide LocalBusiness (address, hours, contact, product range,
   30-day return policy with 15% restocking fee). Update the return policy block if the refund policy changes.
-- `snippets/ets-structured-data.liquid`: WebSite + site search (home), CollectionPage/ItemList
-  (collections), Service (tiling services page), BlogPosting (articles).
+- `snippets/ets-structured-data.liquid` (rendered at the end of `meta-tags.liquid`): WebSite +
+  site search (home), CollectionPage/ItemList (collections), Service (tiling services page),
+  BlogPosting (articles).
 - `snippets/ets-breadcrumbs.liquid`: BreadcrumbList.
 - `snippets/ets-product-schema.liquid`: Product/ProductGroup for every product (images, brand,
   specs and dimensions from the `ets` metafields, price, stock, seller, return policy per offer).
@@ -64,3 +65,5 @@ See [store-content/booking-form-shopify-forms.md](store-content/booking-form-sho
 
   are replaced with `{% render 'ets-product-schema', product: closest.product %}` so each
   product page carries one product schema, not two. Redo this after a Horizon update.
+- Uploaded 29 Sep 2026 to the unpublished theme "ETS 2026 – Schema for AI + search (preview)"
+  (a duplicate of the live theme); publish it from Shopify admin → Online Store → Themes.

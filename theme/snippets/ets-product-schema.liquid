@@ -22,7 +22,7 @@
   assign product_url = shop.url | append: product.url
   assign currency = cart.currency.iso_code | default: shop.currency
 
-  assign description = product.description | strip_html | strip_newlines | strip | truncate: 5000
+  assign description = product.description | replace: '<', ' <' | strip_html | replace: '&nbsp;', ' ' | replace: '&amp;', '&' | split: ' ' | join: ' ' | truncate: 5000
   if description == blank
     assign description = product.title
   endif
