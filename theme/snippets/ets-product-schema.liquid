@@ -117,8 +117,9 @@
         assign barcode = variant.barcode | strip
         assign barcode_rest = barcode | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9'
         assign valid_gtin = false
+        assign barcode_length = barcode | size
         if barcode != blank and barcode_rest == blank
-          if barcode.size == 8 or barcode.size == 12 or barcode.size == 13 or barcode.size == 14
+          if barcode_length == 8 or barcode_length == 12 or barcode_length == 13 or barcode_length == 14
             assign valid_gtin = true
           endif
         endif
