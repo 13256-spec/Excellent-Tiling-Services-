@@ -48,4 +48,19 @@ See [store-content/booking-form-shopify-forms.md](store-content/booking-form-sho
   30-day return policy with 15% restocking fee). Update the return policy block if the refund policy changes.
 - `snippets/ets-structured-data.liquid`: WebSite + site search (home), CollectionPage/ItemList
   (collections), Service (tiling services page), BlogPosting (articles).
-- `snippets/ets-breadcrumbs.liquid`: BreadcrumbList. Products use Shopify's built-in ProductGroup data.
+- `snippets/ets-breadcrumbs.liquid`: BreadcrumbList.
+- `snippets/ets-product-schema.liquid`: Product/ProductGroup for every product (images, brand,
+  specs and dimensions from the `ets` metafields, price, stock, seller, return policy per offer).
+  Barcodes are only output as a GTIN when they are 8/12/13/14 digits, so supplier codes in the
+  barcode field no longer produce invalid GTINs.
+  **Stock Horizon edit:** in `sections/product-information.liquid` (not stored here), the first
+  lines
+
+  ```liquid
+  <script type="application/ld+json">
+    {{ closest.product | structured_data }}
+  </script>
+  ```
+
+  are replaced with `{% render 'ets-product-schema', product: closest.product %}` so each
+  product page carries one product schema, not two. Redo this after a Horizon update.
