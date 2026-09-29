@@ -4,9 +4,16 @@
   @param {string} sku - the product code, used when there is no barcode number
   @param {string} label - what the code is for (variant or product title)
 {%- enddoc -%}
-{%- assign value = code | default: sku | strip -%}
+{%- liquid
+  assign value = code | default: sku | strip
+  # The pop-up already shows the product name; only show the label when it names an option.
+  assign shown_label = label
+  if label == product.title
+    assign shown_label = ''
+  endif
+-%}
 {%- if value != blank -%}
-  <button type="button" class="ets-bc-btn" data-ets-barcode-open data-code="{{ value | escape }}" data-label="{{ label | escape }}" aria-haspopup="dialog">
+  <button type="button" class="ets-bc-btn" data-ets-barcode-open data-code="{{ value | escape }}" data-label="{{ shown_label | escape }}" aria-haspopup="dialog">
     <svg viewBox="0 0 16 16" aria-hidden="true" fill="currentColor"><path d="M1 3h1.5v10H1zM3.5 3h.8v10h-.8zM5.5 3H7v10H5.5zM8 3h.8v10H8zM10 3h1.5v10H10zM12.5 3h.8v10h-.8zM14.3 3h.7v10h-.7z"/></svg>
     <span>View barcode<span class="ets-visually-hidden"> for {{ label | escape }}</span></span>
   </button>
