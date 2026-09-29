@@ -31,16 +31,23 @@ Desktop behaviour lives in `assets/ets-2026.js` (`initMega`) and `assets/ets-men
 
 ## Section Store sections
 
-Five sections from the Section Store app live in `sections/ss-*.liquid` (installed by the app;
-don't hand-edit them, update them from the app instead). They're placed with ETS content and colours:
+Sections from the Section Store app live in `sections/ss-*.liquid` (installed by the app;
+don't hand-edit them, update them from the app instead). Its buy-box features are app blocks
+(`shopify://apps/section-store/blocks/...`) and need no theme files.
 
-| Section | Template | Content |
+| Feature | Template | Content |
 |---|---|---|
+| Badges, benefits list, styled Add to cart, banner (app blocks) | `product.json` | Trade pricing, specs, local team, supply & install |
 | `ss-scrolling-features` | `product.json`, `collection.json` | Delivery, pickup, trade and showroom selling points |
 | `ss-feature-54` | `product.json` | "Why buy from ETS" |
+| `ss-faq-17` | `product.json`, `page.faqs.json` | Real FAQs (assign the FAQs page to the `faqs` template) |
+| `ss-guarantee` | `product.json` | Returns & warranty, matching the refund policy |
 | `ss-collection-16` | `index.json` | Tile ranges (Morgan, Time Stone, Cement, Lava, Particle) |
-| `ss-faq-17` | `page.faqs.json` | Tabbed FAQs (assign the FAQs page to the `faqs` template) |
-| `ss-testimonial-8` | not placed | Needs real customer reviews first |
+| `ss-testimonial-8`, `ss-testimonials-42` | not placed | Need real customer reviews first |
+
+The app's "AI Product Pages" generator wrote `product.store-wide.json` with invented reviews,
+a money-back guarantee, delivery-date estimates and a disabled quantity box. Here it's kept
+identical to `product.json`; review anything the generator produces before assigning products.
 
 ## Deploying
 
