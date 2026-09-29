@@ -7,19 +7,17 @@
   dir="{{ request.locale.direction | default: 'ltr' }}"
 >
   <head>
-    {%- if settings.favicon != blank -%}
-      <link
-        rel="icon"
-        type="image/png"
-        href="{{ settings.favicon | image_url: width: 32, height: 32 }}"
-      >
-    {%- else -%}
-      <link rel="icon" type="image/png" href="https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823&width=32">
-    {%- endif -%}
-
     {%- render 'view-transition-opt-in' -%}
 
     {%- render 'meta-tags' -%}
+    {%- if settings.favicon != blank -%}
+      <link rel="icon" type="image/png" sizes="32x32" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
+      <link rel="icon" type="image/png" sizes="192x192" href="{{ settings.favicon | image_url: width: 192, height: 192 }}">
+      <link rel="apple-touch-icon" sizes="180x180" href="{{ settings.favicon | image_url: width: 180, height: 180 }}">
+    {%- else -%}
+      <link rel="icon" type="image/png" sizes="32x32" href="https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823&width=32">
+      <link rel="apple-touch-icon" sizes="180x180" href="https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823&width=180">
+    {%- endif -%}
     {%- render 'stylesheets' -%}
     {%- render 'card-hover-effect-styles' -%}
     {%- render 'fonts' -%}

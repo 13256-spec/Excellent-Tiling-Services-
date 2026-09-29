@@ -35,8 +35,17 @@ Shopify admin → Settings → Policies (the API connector used here can't write
   description (≤155 chars, always mentions Perth) from the product's own specs.
   `seo/product-seo.json` is the exact set written to Shopify on 26 Sep 2026 (224 products).
 - `seo/collection-seo.json` holds the titles/descriptions added to 27 collections that had none.
-- Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
-  end in "| ETS Perth", so titles stay inside Google's display limit.
+- Theme: `snippets/meta-tags.liquid` gives every template its own title (≤60 chars, shop name
+  only when it fits) and meta description (≤160 chars, cut at a word), fills in the pages
+  Shopify leaves blank (all products, departments, blog, search, cart, 404), and outputs
+  LocalBusiness + WebSite JSON-LD and HTTPS Open Graph images.
+- Breadcrumbs: `snippets/ets-breadcrumbs.liquid` renders the visible trail and matching
+  BreadcrumbList JSON-LD on pages, collections, articles, contact, booking, quote and trade pages
+  (products use `sections/ets-product-breadcrumbs.liquid`).
+- Shopify serves `sitemap.xml`, `robots.txt` and `llms.txt` itself on the custom domain; they are
+  not theme files.
+- The homepage tile ranges use `sections/ets-ranges.liquid` (native scroll-snap) instead of the
+  Section Store slider, which pulled in the 155 KB Swiper bundle from jsDelivr.
 
 ## Booking form (Shopify Forms)
 

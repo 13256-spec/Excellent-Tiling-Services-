@@ -1,0 +1,162 @@
+{%- comment -%}
+  Horizontal row of tile-range cards. Native CSS scroll-snap with two small arrow buttons,
+  so the homepage doesn't need a slider library.
+{%- endcomment -%}
+<section class="ets ets-sec ets-ranges{% if section.settings.bg == 'sand' %} ets-sec--sand{% elsif section.settings.bg == 'white' %} ets-sec--white{% endif %}" aria-labelledby="EtsRanges-{{ section.id }}" data-ets-ranges>
+  <div class="ets-wrap">
+    <div class="ets-head">
+      <div data-reveal>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="ets-h2" id="EtsRanges-{{ section.id }}">{{ section.settings.heading }}</h2>
+      </div>
+      <div class="ets-ranges__nav" data-ranges-nav hidden>
+        <button type="button" class="ets-ranges__arrow" data-ranges-prev aria-controls="EtsRangesTrack-{{ section.id }}" aria-label="Previous ranges">{% render 'ets-icon', name: 'arrow' %}</button>
+        <button type="button" class="ets-ranges__arrow" data-ranges-next aria-controls="EtsRangesTrack-{{ section.id }}" aria-label="Next ranges">{% render 'ets-icon', name: 'arrow' %}</button>
+      </div>
+    </div>
+    <ul class="ets-ranges__track" id="EtsRangesTrack-{{ section.id }}" role="list" data-ranges-track>
+      {%- for block in section.blocks -%}
+        {%- assign range_image = block.settings.image -%}
+        <li class="ets-range" {{ block.shopify_attributes }}>
+          <a class="ets-range__card" href="{{ block.settings.link | default: routes.collections_url }}">
+            {%- if range_image != blank -%}
+              {{ range_image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '360, 540, 720, 900', sizes: '(min-width: 990px) 30vw, (min-width: 600px) 45vw, 82vw', alt: range_image.alt, class: 'ets-range__img' }}
+            {%- endif -%}
+            <div class="ets-range__body">
+              <h3 class="ets-range__title">{{ block.settings.title | escape }}</h3>
+              {%- if block.settings.text != blank -%}<div class="ets-range__text">{{ block.settings.text }}</div>{%- endif -%}
+              {%- if block.settings.feature_1 != blank or block.settings.feature_2 != blank or block.settings.feature_3 != blank -%}
+                <ul class="ets-range__features" role="list">
+                  {%- if block.settings.feature_1 != blank -%}<li>{{ block.settings.feature_1 | escape }}</li>{%- endif -%}
+                  {%- if block.settings.feature_2 != blank -%}<li>{{ block.settings.feature_2 | escape }}</li>{%- endif -%}
+                  {%- if block.settings.feature_3 != blank -%}<li>{{ block.settings.feature_3 | escape }}</li>{%- endif -%}
+                </ul>
+              {%- endif -%}
+              {%- if block.settings.button_text != blank -%}
+                <span class="ets-range__cta">{{ block.settings.button_text | escape }} {% render 'ets-icon', name: 'arrow' %}</span>
+              {%- endif -%}
+            </div>
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+
+<style>
+  .ets-ranges__nav { display: flex; gap: 10px; }
+  .ets-ranges__nav[hidden] { display: none; }
+  .ets-ranges__arrow {
+    display: inline-grid; place-items: center; width: 48px; height: 48px; padding: 0; border: 0; border-radius: var(--ets-pill);
+    background: var(--ets-surface); color: var(--ets-ink); box-shadow: inset 0 0 0 1px var(--ets-line-strong); cursor: pointer;
+    transition: opacity .3s var(--ets-ease), transform .3s var(--ets-ease);
+  }
+  .ets-ranges__arrow svg { width: 18px; height: 18px; }
+  .ets-ranges__arrow[data-ranges-prev] svg { transform: rotate(180deg); }
+  .ets-ranges__arrow:hover:not(:disabled) { transform: scale(1.05); }
+  .ets-ranges__arrow:disabled { opacity: .35; cursor: default; }
+  .ets-ranges__arrow:focus-visible { outline: 2px solid var(--ets-ink); outline-offset: 3px; }
+
+  .ets-ranges__track {
+    display: grid; grid-auto-flow: column; grid-auto-columns: 82%; gap: 14px;
+    margin: 0; padding: 0 0 14px; list-style: none;
+    overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: thin;
+    scrollbar-color: var(--ets-ink) var(--ets-line);
+  }
+  @media (min-width: 600px) { .ets-ranges__track { grid-auto-columns: calc((100% - 14px) / 2); } }
+  @media (min-width: 990px) { .ets-ranges__track { grid-auto-columns: calc((100% - 28px) / 3); scrollbar-width: none; } .ets-ranges__track::-webkit-scrollbar { display: none; } }
+
+  .ets-range { scroll-snap-align: start; }
+  .ets-range__card {
+    position: relative; display: flex; flex-direction: column; justify-content: flex-end; aspect-ratio: 2 / 3; height: 100%;
+    overflow: hidden; border-radius: var(--ets-r); background: var(--ets-dark); color: #FFFFFF; text-decoration: none; isolation: isolate;
+  }
+  .ets-range__card:focus-visible { outline: 2px solid var(--ets-ink); outline-offset: 3px; }
+  .ets-range__img { position: absolute; inset: 0; z-index: -2; width: 100%; height: 100%; object-fit: cover; transition: transform 1.4s var(--ets-ease); }
+  .ets-range__card::after {
+    content: ''; position: absolute; inset: 0; z-index: -1;
+    background: linear-gradient(to top, rgba(15, 26, 44, .88) 0%, rgba(15, 26, 44, .45) 42%, rgba(15, 26, 44, 0) 68%);
+  }
+  .ets-range__card:hover .ets-range__img { transform: scale(1.045); }
+  .ets-range__body { padding: clamp(20px, 2.2vw, 28px); }
+  .ets-range__title { margin: 0; font: 400 clamp(32px, 3vw, 44px)/1 var(--ets-serif); letter-spacing: -.01em; color: #FFFFFF; }
+  .ets-range__text { margin-top: 10px; font-size: 15px; line-height: 1.5; color: rgba(255, 255, 255, .88); }
+  .ets-range__text p { margin: 0; }
+  .ets-range__features { display: grid; gap: 4px; margin: 14px 0 0; padding: 14px 0 0; list-style: none; border-top: 1px solid rgba(255, 255, 255, .22); font-size: 13px; color: rgba(255, 255, 255, .8); }
+  .ets-range__features li { position: relative; padding-left: 14px; }
+  .ets-range__features li::before { content: ''; position: absolute; left: 0; top: .6em; width: 5px; height: 5px; border-radius: 50%; background: var(--ets-brass-soft); }
+  .ets-range__cta {
+    display: inline-flex; align-items: center; gap: 8px; margin-top: 18px; padding: 11px 18px; border-radius: var(--ets-pill);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .6); font-size: 14px; font-weight: 600;
+    transition: background-color .3s var(--ets-ease), color .3s var(--ets-ease);
+  }
+  .ets-range__cta svg { width: 16px; height: 16px; }
+  .ets-range__card:hover .ets-range__cta { background: #FFFFFF; color: var(--ets-ink); }
+  @media (prefers-reduced-motion: reduce) { .ets-range__img, .ets-range__cta, .ets-ranges__arrow { transition: none; } .ets-range__card:hover .ets-range__img { transform: none; } }
+</style>
+
+<script>
+  (() => {
+    const init = (root) => {
+      const track = root.querySelector('[data-ranges-track]');
+      const nav = root.querySelector('[data-ranges-nav]');
+      const prev = root.querySelector('[data-ranges-prev]');
+      const next = root.querySelector('[data-ranges-next]');
+      if (!track || !nav || !prev || !next || track.dataset.ready) return;
+      track.dataset.ready = '1';
+
+      const behavior = window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth';
+      const step = () => {
+        const item = track.querySelector('.ets-range');
+        const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+        return item ? item.getBoundingClientRect().width + gap : track.clientWidth;
+      };
+      const update = () => {
+        const max = track.scrollWidth - track.clientWidth - 2;
+        nav.hidden = max <= 0;
+        prev.disabled = track.scrollLeft <= 2;
+        next.disabled = track.scrollLeft >= max;
+      };
+
+      prev.addEventListener('click', () => track.scrollBy({ left: -step(), behavior }));
+      next.addEventListener('click', () => track.scrollBy({ left: step(), behavior }));
+      track.addEventListener('scroll', update, { passive: true });
+      if ('ResizeObserver' in window) new ResizeObserver(update).observe(track);
+      update();
+    };
+
+    document.querySelectorAll('[data-ets-ranges]').forEach(init);
+    document.addEventListener('shopify:section:load', (event) => {
+      const root = event.target.querySelector('[data-ets-ranges]');
+      if (root) init(root);
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "ETS tile ranges",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Explore our tile ranges" },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "blocks": [
+    {
+      "type": "range",
+      "name": "Range",
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image" },
+        { "type": "text", "id": "title", "label": "Title" },
+        { "type": "richtext", "id": "text", "label": "Text" },
+        { "type": "text", "id": "feature_1", "label": "Feature 1" },
+        { "type": "text", "id": "feature_2", "label": "Feature 2" },
+        { "type": "text", "id": "feature_3", "label": "Feature 3" },
+        { "type": "text", "id": "button_text", "label": "Button label", "default": "Shop the range" },
+        { "type": "url", "id": "link", "label": "Link" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "ETS tile ranges" }]
+}
+{% endschema %}

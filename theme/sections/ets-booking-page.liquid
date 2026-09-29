@@ -32,6 +32,7 @@
 <section class="ets-book" aria-labelledby="ets-book-title-{{ section.id }}">
   <div class="ets-book__wrap">
     <header class="ets-book__head">
+      {%- render 'ets-breadcrumbs', current_title: page.title, current_url: request.path -%}
       <p class="ets-overline">{{ section.settings.eyebrow | escape }}</p>
       <h1 id="ets-book-title-{{ section.id }}">{{ section.settings.heading | escape }}</h1>
       <p>{{ section.settings.intro | escape }}</p>

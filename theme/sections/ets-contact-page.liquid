@@ -2,6 +2,7 @@
 <section class="ets-visit">
   <div class="ets-visit__wrap">
     <header class="ets-visit__head">
+      {%- render 'ets-breadcrumbs', current_title: page.title, current_url: request.path -%}
       <p class="ets-overline">Maddington, Western Australia</p>
       <h1>{{ section.settings.heading | escape }}</h1>
       <p>{{ section.settings.intro | escape }}</p>

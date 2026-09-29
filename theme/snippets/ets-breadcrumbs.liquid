@@ -1,22 +1,44 @@
 {% doc %}
   Renders a visible breadcrumb trail and matching BreadcrumbList structured data.
   Home is always first; the current page is the last item and is not linked.
+  Titles may be passed raw or already HTML-escaped; they are normalised before output.
 
-  @param {collection} [parent] - Optional parent collection shown between Home and the current page
   @param {string} current_title - Title of the current page
-  @param {string} current_url - Relative URL of the current page
+  @param {string} [current_url] - URL of the current page (defaults to the canonical URL)
+  @param {string} [parent_title] - Optional parent shown between Home and the current page
+  @param {string} [parent_url] - URL of the optional parent
+  @param {string} [style] - Inline style for the nav wrapper
 
   @example
-  {% render 'ets-breadcrumbs', parent: collection, current_title: product.title, current_url: product.url %}
+  {% render 'ets-breadcrumbs', parent_title: blog.title, parent_url: blog.url, current_title: article.title, current_url: article.url %}
 {% enddoc %}
 
-<nav class="ets-crumbs" aria-label="Breadcrumb">
-  <ol role="list">
+{%- liquid
+  assign crumb_current = current_title | strip_html | replace: '&amp;', '&' | replace: '&#39;', "'" | replace: '&quot;', '"' | replace: '&lt;', '<' | replace: '&gt;', '>' | strip
+  assign crumb_parent = parent_title | strip_html | replace: '&amp;', '&' | replace: '&#39;', "'" | replace: '&quot;', '"' | replace: '&lt;', '<' | replace: '&gt;', '>' | strip
+
+  assign crumb_current_url = current_url | default: canonical_url
+  unless crumb_current_url contains '://'
+    assign crumb_current_url = request.origin | append: crumb_current_url
+  endunless
+
+  assign crumb_has_parent = false
+  if crumb_parent != blank and parent_url != blank
+    assign crumb_has_parent = true
+    assign crumb_parent_url = parent_url
+    unless crumb_parent_url contains '://'
+      assign crumb_parent_url = request.origin | append: crumb_parent_url
+    endunless
+  endif
+-%}
+
+<nav aria-label="Breadcrumb"{% if style != blank %} style="{{ style }}"{% endif %}>
+  <ol class="ets-crumbs" role="list">
     <li><a href="{{ routes.root_url }}">Home</a></li>
-    {%- if parent != blank -%}
-      <li><a href="{{ parent.url }}">{{ parent.title | escape }}</a></li>
+    {%- if crumb_has_parent -%}
+      <li><a href="{{ parent_url }}">{{ crumb_parent | escape }}</a></li>
     {%- endif -%}
-    <li><span aria-current="page">{{ current_title | escape }}</span></li>
+    <li aria-current="page">{{ crumb_current | escape }}</li>
   </ol>
 </nav>
 
@@ -31,19 +53,19 @@
         "name": "Home",
         "item": {{ request.origin | append: routes.root_url | json }}
       },
-      {%- if parent != blank -%}
+      {%- if crumb_has_parent -%}
         {
           "@type": "ListItem",
           "position": 2,
-          "name": {{ parent.title | json }},
-          "item": {{ request.origin | append: parent.url | json }}
+          "name": {{ crumb_parent | json }},
+          "item": {{ crumb_parent_url | json }}
         },
       {%- endif -%}
       {
         "@type": "ListItem",
-        "position": {% if parent != blank %}3{% else %}2{% endif %},
-        "name": {{ current_title | json }},
-        "item": {{ request.origin | append: current_url | json }}
+        "position": {% if crumb_has_parent %}3{% else %}2{% endif %},
+        "name": {{ crumb_current | json }},
+        "item": {{ crumb_current_url | json }}
       }
     ]
   }

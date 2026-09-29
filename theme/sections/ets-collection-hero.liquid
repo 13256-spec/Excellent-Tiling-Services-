@@ -20,17 +20,22 @@
   if hero_img == blank
     assign hero_img = collection.products.first.featured_image
   endif
+  assign hero_alt = hero_img.alt | default: collection.title
   if collection.products.first.type == 'Tile'
     assign contain = false
   endif
 -%}
 <section class="ets ets-phero" aria-labelledby="EtsColl-{{ section.id }}">
   <div class="ets-wrap">
-    <ol class="ets-crumbs" role="list">
-      <li><a href="{{ routes.root_url }}">Home</a></li>
-      {%- if group != blank and group.url != collection.url -%}<li><a href="{{ group.url }}">{{ group.title | escape }}</a></li>{%- endif -%}
-      <li aria-current="page">{{ collection.title | escape }}</li>
-    </ol>
+    {%- liquid
+      assign crumb_parent_title = ''
+      assign crumb_parent_url = ''
+      if group != blank and group.url != collection.url
+        assign crumb_parent_title = group.title
+        assign crumb_parent_url = group.url
+      endif
+      render 'ets-breadcrumbs', parent_title: crumb_parent_title, parent_url: crumb_parent_url, current_title: collection.title, current_url: collection.url
+    -%}
     <div class="ets-phero__grid">
       <div>
         <h1 class="ets-display" id="EtsColl-{{ section.id }}">{{ collection.title | escape }}</h1>
@@ -45,7 +50,7 @@
       {%- if hero_img != blank and section.settings.show_image -%}
         <div class="ets-phero__media ets-coll-media{% if contain %} ets-phero__media--contain{% endif %}" style="max-width:520px;justify-self:end;width:100%">
           <div class="ets-shell"><div class="ets-core" style="aspect-ratio:16/10">
-            {{ hero_img | image_url: width: 1000 | image_tag: loading: 'eager', widths: '400, 700, 1000', sizes: '(min-width: 990px) 36vw, 100vw', alt: '' }}
+            {{ hero_img | image_url: width: 1000 | image_tag: loading: 'eager', widths: '400, 700, 1000', sizes: '(min-width: 990px) 36vw, 100vw', alt: hero_alt }}
           </div></div>
         </div>
       {%- endif -%}

@@ -1,7 +1,7 @@
 <article class="ets">
   <header class="ets-phero">
     <div class="ets-wrap" style="max-width:980px">
-      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li><a href="{{ blog.url }}">{{ blog.title | escape }}</a></li></ol>
+      {%- render 'ets-breadcrumbs', parent_title: blog.title, parent_url: blog.url, current_title: article.title, current_url: article.url -%}
       <h1 class="ets-display" style="font-size:clamp(40px,5.4vw,76px)">{{ article.title | escape }}</h1>
       <p class="ets-small" style="margin-top:16px"><time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%d %B %Y' }}</time></p>
     </div>
@@ -11,4 +11,5 @@
   {%- endif -%}
   <div class="ets-wrap ets-sec--tight" style="max-width:980px"><div class="ets-rte">{{ article.content }}</div></div>
 </article>
+<script type="application/ld+json">{{ article | structured_data }}</script>
 {% schema %}{"name":"ETS article","settings":[],"presets":[{"name":"ETS article"}]}{% endschema %}

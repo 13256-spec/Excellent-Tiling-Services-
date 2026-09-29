@@ -18,7 +18,7 @@
 <section class="ets ets-phero{% if section.settings.bg == 'sand' %} ets-sec--sand{% endif %}" aria-labelledby="EtsPh-{{ section.id }}">
   <div class="ets-wrap">
     {%- if section.settings.show_crumbs -%}
-      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">{{ heading | strip_html }}</li></ol>
+      {%- render 'ets-breadcrumbs', current_title: heading, current_url: request.path -%}
     {%- endif -%}
     <div class="ets-phero__grid"{% if section.settings.image == blank %} style="grid-template-columns:minmax(0,1fr)"{% endif %}>
       <div>
@@ -48,7 +48,7 @@
       {%- if section.settings.image != blank -%}
         <div class="ets-phero__media">
           <div class="ets-shell"><div class="ets-core">
-            {{ section.settings.image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '500, 800, 1200', sizes: '(min-width: 990px) 40vw, 100vw', alt: '' }}
+            {{ section.settings.image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '500, 800, 1200', sizes: '(min-width: 990px) 40vw, 100vw', alt: section.settings.image.alt }}
           </div></div>
         </div>
       {%- endif -%}

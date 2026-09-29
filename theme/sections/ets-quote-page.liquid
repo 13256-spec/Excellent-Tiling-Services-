@@ -5,7 +5,7 @@
 <section class="ets">
   <div class="ets-phero">
     <div class="ets-wrap">
-      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">Request a quote</li></ol>
+      {%- render 'ets-breadcrumbs', current_title: 'Request a quote', current_url: request.path -%}
       <p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>
       <h1 class="ets-display">{{ section.settings.heading }}</h1>
       <p class="ets-lede">{{ section.settings.intro | escape }}</p>

@@ -15,17 +15,107 @@
 >
 <meta
   name="theme-color"
-  content="#F4F8FB"
+  content="#F6F4EF"
 >
 
 {%- liquid
-  if request.page_type == 'index' and page_title == shop.name
-    assign page_title = 'Tiles & Tiling Perth | Bathroomware Showroom | ETS'
+  # ---- Title: a unique, descriptive title for every template, kept inside Google's ~60 character display limit.
+  assign seo_title = page_title | default: shop.name
+  case request.page_type
+    when 'index'
+      if seo_title == shop.name or seo_title.size > 60
+        assign seo_title = 'Tiles, Vanities & Tapware Perth | Excellent Tiling Services'
+      endif
+    when 'list-collections'
+      if seo_title == 'Collections'
+        assign seo_title = 'Shop Tiles & Bathroomware by Department'
+      endif
+    when 'collection'
+      if collection.handle == 'all' and seo_title == 'Products'
+        assign seo_title = 'All Tiles, Vanities, Tapware & Bathroomware'
+      endif
+    when 'blog'
+      if blog.handle == 'news' and seo_title == blog.title
+        assign seo_title = 'Tiling News & Buying Guides'
+      endif
+    when 'cart'
+      assign seo_title = 'Your Cart'
+    when '404'
+      assign seo_title = 'Page Not Found'
+  endcase
+
+  # Custom SEO titles already end in "| ETS Perth" or similar. Otherwise add the full shop name when it fits,
+  # the short "| ETS" when only that fits, and nothing when the title alone is already long.
+  assign title_suffix = ''
+  unless seo_title contains shop.name or seo_title contains '| ETS' or seo_title contains 'Perth'
+    assign title_room = 57 | minus: shop.name.size
+    if seo_title.size <= title_room
+      assign title_suffix = ' &ndash; ' | append: shop.name
+    elsif seo_title.size <= 54
+      assign title_suffix = ' | ETS'
+    endif
+  endunless
+
+  # ---- Description: every template gets its own; generic shop copy is never repeated across pages.
+  assign seo_description = page_description | strip_html | strip_newlines | strip
+  if request.page_type != 'index' and seo_description == shop.description
+    assign seo_description = ''
   endif
-  assign og_title = page_title | default: shop.name
+  if request.page_type == 'index' and seo_description.size > 160
+    assign seo_description = 'Porcelain tiles, vanities, tapware and bathroomware from our Maddington showroom, plus professional tiling across Perth. Free AU shipping on tapware.'
+  endif
+
+  if seo_description == blank
+    case request.page_type
+      when 'collection'
+        if collection.handle == 'all'
+          assign seo_description = 'Browse every tile, vanity, basin, tap, toilet, bath and accessory from Excellent Tiling Services, Maddington. Prices online, Perth delivery or pickup.'
+        else
+          assign seo_description = collection.title | append: ' from Excellent Tiling Services in Maddington, Perth. Browse ' | append: collection.products_count | append: ' products with prices online, delivery or pickup.'
+        endif
+      when 'list-collections'
+        assign seo_description = 'Shop tiles, vanities, basins, tapware, sinks, baths, toilets, mirrors and accessories by department at Excellent Tiling Services in Maddington, Perth.'
+      when 'blog'
+        assign seo_description = 'Tiling tips and buying guides from Excellent Tiling Services in Perth: how much tile to order, slip ratings, tapware finishes and more.'
+      when 'article'
+        assign seo_description = article.excerpt_or_content | strip_html | strip_newlines | strip
+      when 'page'
+        assign seo_description = page.content | strip_html | strip_newlines | strip
+      when 'search'
+        assign seo_description = 'Search tiles, vanities, tapware, baths, toilets and bathroom accessories at Excellent Tiling Services in Maddington, Perth.'
+      when 'cart'
+        assign seo_description = 'Review your cart at Excellent Tiling Services before checkout. Perth delivery, free Australia-wide shipping on tapware, or pickup in Maddington.'
+      when '404'
+        assign seo_description = 'This page could not be found. Browse tiles, vanities, tapware and bathroomware, or search the Excellent Tiling Services store in Perth.'
+    endcase
+  endif
+  if seo_description == blank
+    assign seo_description = shop.description | strip_html | strip_newlines | strip
+  endif
+
+  # Cut long descriptions at a word boundary so search results never show a mid-word break.
+  if seo_description.size > 160
+    assign description_words = seo_description | split: ' '
+    assign short_description = ''
+    for word in description_words
+      assign candidate = short_description | append: ' ' | append: word | strip
+      if candidate.size > 157
+        break
+      endif
+      assign short_description = candidate
+    endfor
+    assign last_char = short_description | slice: -1
+    if last_char == ',' or last_char == ';' or last_char == ':' or last_char == '.'
+      assign short_length = short_description.size | minus: 1
+      assign short_description = short_description | slice: 0, short_length
+    endif
+    assign seo_description = short_description | append: '…'
+  endif
+
+  assign og_title = seo_title
   assign og_url = canonical_url | default: request.origin
   assign og_type = 'website'
-  assign og_description = page_description | default: shop.description | default: shop.name
+  assign og_description = seo_description | default: shop.name
 
   if request.page_type == 'product'
     assign og_type = 'product'
@@ -36,6 +126,10 @@
   endif
 %}
 
+<meta
+  property="og:locale"
+  content="en_AU"
+>
 <meta
   property="og:site_name"
   content="{{ shop.name }}"
@@ -60,7 +154,7 @@
 {%- if page_image -%}
   <meta
     property="og:image"
-    content="http:{{ page_image | image_url }}"
+    content="https:{{ page_image | image_url }}"
   >
   <meta
     property="og:image:secure_url"
@@ -73,6 +167,10 @@
   <meta
     property="og:image:height"
     content="{{ page_image.height }}"
+  >
+  <meta
+    property="og:image:alt"
+    content="{{ page_image.alt | default: og_title | escape }}"
   >
 {%- endif -%}
 
@@ -107,11 +205,10 @@
 >
 
 <title>
-  {{ page_title }}
+  {{ seo_title }}
   {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
   {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-  {%- comment -%} Custom SEO titles already end in "| ETS Perth" or similar; don't push them past 60 chars. {%- endcomment -%}
-  {%- unless page_title contains shop.name or page_title contains '| ETS' or page_title contains 'Perth' %} &ndash; {{ shop.name }}{% endunless -%}
+  {{- title_suffix -}}
 </title>
 
 <link
@@ -119,12 +216,26 @@
   href="{{ canonical_url }}"
 >
 
-{% if page_description %}
+{% if seo_description != blank %}
   <meta
     name="description"
-    content="{{ page_description | escape }}"
+    content="{{ seo_description | escape }}"
   >
 {% endif %}
+
+{%- if request.page_type == 'index' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": {{ request.origin | append: '/#website' | json }},
+      "name": {{ shop.name | json }},
+      "alternateName": "ETS",
+      "url": {{ request.origin | append: routes.root_url | json }},
+      "publisher": { "@id": {{ shop.url | append: '#business' | json }} }
+    }
+  </script>
+{%- endif -%}
 
 <script type="application/ld+json">
 {
