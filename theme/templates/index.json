@@ -1,160 +1,199 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
-      "type": "ets-retail-hero",
+      "type": "ets-hero",
       "settings": {
-        "image": "shopify://shop_images/mela-brittany-1200-oak-fluted-curved-wall-hung-vanity.jpg",
-        "eyebrow": "Excellent Tiling Services · Maddington, Perth",
-        "heading": "Tiles, bathroomware\nand tiling in Perth.",
-        "description": "Porcelain tiles, vanities, tapware and bathroom accessories, plus professional tiling from a local team since 2011. Shop online or book a visit to our Maddington showroom."
-      }
-    },
-    "accessories": {
-      "type": "ets-retail-categories",
-      "settings": {
-        "link": "shopify://collections/accessories",
-        "note": "Explore the range online. For availability and product advice, contact our showroom."
+        "eyebrow": "Tiles · Bathroomware · Renovations — Perth",
+        "heading": "Beautiful bathrooms, <em>built</em> and supplied.",
+        "text": "Shop porcelain tiles, vanities, tapware and bathroomware online, or let our licensed team handle the whole renovation, from waterproofing to the final tile.",
+        "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
+        "btn_1_label": "Shop the range",
+        "btn_1_link": "shopify://collections/all",
+        "btn_2_label": "Free measure & quote",
+        "btn_2_link": "shopify://pages/request-a-quote",
+        "meta_1": "Perth delivery & Australia-wide shipping",
+        "meta_2": "Maddington showroom",
+        "meta_3": "Trade pricing for builders",
+        "tag_label": "Shop Morgan tiles",
+        "tag_link": "shopify://collections/morgan-tiles",
+        "float_text": "Tiling and renovating Perth homes, with a showroom in Maddington.",
+        "interval": 6
       },
       "blocks": {
-        "0": {
-          "type": "category",
+        "slide_1": {
+          "type": "slide",
           "settings": {
-            "collection": "towel-rails",
-            "title": "Towel rails"
+            "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
+            "label": "Shop Morgan tiles",
+            "link": "shopify://collections/morgan-tiles"
           }
         },
-        "1": {
-          "type": "category",
+        "slide_2": {
+          "type": "slide",
           "settings": {
-            "collection": "bathroom-hooks",
-            "title": "Robe hooks"
+            "image": "shopify://shop_images/DSA66AK661_2.jpg",
+            "label": "Shop Morgan Hail",
+            "link": "shopify://products/morgan-hail-porcelain-tile"
           }
         },
-        "2": {
-          "type": "category",
+        "slide_3": {
+          "type": "slide",
           "settings": {
-            "collection": "toilet-roll-holders",
-            "title": "Toilet roll holders"
+            "image": "shopify://shop_images/DSA66SS06_2.jpg",
+            "label": "Shop Particle tiles",
+            "link": "shopify://collections/particle-tiles"
           }
         },
-        "3": {
-          "type": "category",
+        "slide_4": {
+          "type": "slide",
           "settings": {
-            "collection": "soap-shelf-holders",
-            "title": "Shelves & holders"
+            "image": "shopify://shop_images/DSA36MQ02_3.jpg",
+            "label": "Shop Cement tiles",
+            "link": "shopify://collections/cement-tiles"
           }
         },
-        "4": {
-          "type": "category",
+        "slide_5": {
+          "type": "slide",
           "settings": {
-            "collection": "tapware",
-            "title": "Tapware"
+            "image": "shopify://shop_images/DSAYFR600331_2.jpg",
+            "label": "Shop Time Stone tiles",
+            "link": "shopify://collections/time-stone-tiles"
           }
         },
-        "5": {
-          "type": "category",
+        "slide_6": {
+          "type": "slide",
           "settings": {
-            "collection": "accessories",
-            "title": "All accessories"
+            "image": "shopify://shop_images/DSAFG607311.jpg",
+            "label": "Shop Lava tiles",
+            "link": "shopify://collections/lava-tiles"
           }
         }
       },
       "block_order": [
-        "0",
-        "1",
-        "2",
-        "3",
-        "4",
-        "5"
+        "slide_1",
+        "slide_2",
+        "slide_3",
+        "slide_4",
+        "slide_5",
+        "slide_6"
       ]
     },
+    "trust": {
+      "type": "ets-trust",
+      "settings": {}
+    },
     "departments": {
-      "type": "ets-retail-departments",
+      "type": "ets-categories",
       "settings": {
-        "description": "From the tiles underfoot to the tapware on the wall, give every part of your project the attention it deserves."
+        "eyebrow": "Shop by department",
+        "heading": "Everything for the <em>bathroom</em>, in one place.",
+        "link_label": "All departments",
+        "link": "shopify://collections",
+        "bg": "none"
       },
       "blocks": {
         "0": {
-          "type": "department",
-          "settings": {
-            "collection": "hardware",
-            "title": "Hardware",
-            "eyebrow": "For the work behind the finish",
-            "description": "Trims, fixings and renovation hardware. Tell us what the job needs and talk through your requirements with our team.",
-            "label": "Explore hardware",
-            "note": "Product enquiries welcome",
-            "tone": "ink",
-            "icon": "hardware"
-          }
-        },
-        "1": {
-          "type": "department",
+          "type": "category",
           "settings": {
             "collection": "tiles",
             "title": "Tiles",
-            "eyebrow": "Set the foundation",
-            "description": "Floor and wall tiles for bathrooms, kitchens and living spaces. Discuss your room, measurements and preferred finish at the showroom.",
-            "label": "Explore tiles",
-            "note": "Selection & project advice",
-            "tone": "stone",
-            "icon": "tiles"
-          }
-        }
-      },
-      "block_order": [
-        "0",
-        "1"
-      ]
-    },
-    "bathroom": {
-      "type": "ets-retail-categories",
-      "settings": {
-        "eyebrow": "Complete your bathroom",
-        "heading": "From the vanity to the final detail.",
-        "link": "shopify://collections/bathroom-vanities",
-        "link_label": "Explore vanities"
-      },
-      "blocks": {
-        "0": {
-          "type": "category",
-          "settings": {
-            "collection": "bathroom-vanities",
-            "title": "Vanities"
+            "size": "lg",
+            "fit": "cover",
+            "subtitle": "Porcelain floor & wall tiles, priced per m²",
+            "image": "shopify://shop_images/DSAYFR600331_2.jpg"
           }
         },
         "1": {
           "type": "category",
           "settings": {
-            "collection": "basins",
-            "title": "Basins"
+            "collection": "bathroom-vanities",
+            "title": "Vanities",
+            "size": "md",
+            "fit": "auto",
+            "subtitle": "Wall-hung, single & double"
           }
         },
         "2": {
           "type": "category",
           "settings": {
-            "collection": "baths",
-            "title": "Baths"
+            "collection": "tapware",
+            "title": "Tapware & showers",
+            "size": "md",
+            "fit": "auto",
+            "subtitle": "Mixers, spouts, shower sets"
+          }
+        },
+        "hardware": {
+          "type": "category",
+          "settings": {
+            "collection": "hardware",
+            "title": "Hardware",
+            "size": "md",
+            "fit": "contain",
+            "subtitle": "Trowels, blades, silicone & site power"
+          }
+        },
+        "8": {
+          "type": "category",
+          "settings": {
+            "collection": "kitchen-laundry",
+            "title": "Kitchen & laundry",
+            "size": "md",
+            "fit": "auto"
           }
         },
         "3": {
           "type": "category",
           "settings": {
-            "collection": "mirrors",
-            "title": "Mirrors"
+            "collection": "basins",
+            "title": "Basins",
+            "size": "md",
+            "fit": "auto"
           }
         },
         "4": {
           "type": "category",
           "settings": {
-            "collection": "shower-screens",
-            "title": "Shower screens"
+            "collection": "baths",
+            "title": "Baths",
+            "size": "md",
+            "fit": "auto"
           }
         },
         "5": {
           "type": "category",
           "settings": {
             "collection": "toilets",
-            "title": "Toilets"
+            "title": "Toilets",
+            "size": "sm",
+            "fit": "auto"
+          }
+        },
+        "6": {
+          "type": "category",
+          "settings": {
+            "collection": "mirrors",
+            "title": "Mirrors & cabinets",
+            "size": "sm",
+            "fit": "auto"
+          }
+        },
+        "7": {
+          "type": "category",
+          "settings": {
+            "collection": "shower-screens",
+            "title": "Shower screens",
+            "size": "sm",
+            "fit": "auto"
           }
         }
       },
@@ -162,40 +201,183 @@
         "0",
         "1",
         "2",
+        "hardware",
+        "8",
         "3",
         "4",
-        "5"
+        "5",
+        "6",
+        "7"
       ]
     },
     "products": {
-      "type": "ets-retail-products",
+      "type": "ets-product-tabs",
       "settings": {
-        "collection": "accessories"
-      }
-    },
-    "help": {
-      "type": "ets-retail-support",
-      "settings": {},
+        "eyebrow": "Popular right now",
+        "heading": "Shop <em>best</em> sellers",
+        "limit": 10,
+        "bg": "white"
+      },
       "blocks": {
         "0": {
-          "type": "question",
+          "type": "tab",
           "settings": {
-            "question": "Can I visit the showroom?",
-            "answer": "<p>Yes, by appointment only, Monday to Saturday from 4:30 pm to 9 pm. Our showroom is at 17A Olga Road, Maddington WA 6109. <a href=\"/pages/book-appointment\">Book a showroom visit</a> online or call 0450 960 543, and tell us which products you would like to see.</p>"
+            "collection": "tiles",
+            "label": "Tiles"
           }
         },
         "1": {
-          "type": "question",
+          "type": "tab",
           "settings": {
-            "question": "Can you help with tiling as well as products?",
-            "answer": "<p>Yes. ETS provides professional tiling. Send your suburb, room details, approximate area and timing through our project enquiry form so we can discuss the scope.</p>"
+            "collection": "bathroom-vanities",
+            "label": "Vanities"
           }
         },
         "2": {
-          "type": "question",
+          "type": "tab",
           "settings": {
-            "question": "How do I check product availability or delivery?",
-            "answer": "<p>Contact us with the product name, finish and quantity you need and we will confirm availability. Tapware, shower sets, towel rails and other small bathroom items ship free Australia-wide, and you can pick up from Maddington by appointment. See <a href=\"/pages/delivery-pickup\">Delivery &amp; pickup</a> and our <a href=\"/policies/shipping-policy\">shipping policy</a>.</p>"
+            "collection": "tapware",
+            "label": "Tapware"
+          }
+        },
+        "3": {
+          "type": "tab",
+          "settings": {
+            "collection": "mirrors",
+            "label": "Mirrors"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "renovations": {
+      "type": "ets-split",
+      "settings": {
+        "image": "shopify://shop_images/DSA66SS06_2.jpg",
+        "flip": false,
+        "bg": "none",
+        "eyebrow": "Renovation services",
+        "heading": "Your renovation, handled <em>end to end</em>.",
+        "text": "<p>One local team for the whole job: design choices, strip-out, waterproofing, tiling and fit-off, using products from our own range. It starts with a free measure and quote.</p>",
+        "checks": "Full bathroom, ensuite & laundry renovations\nKitchen splashbacks & laundry upgrades\nWaterproofing & leaking shower repairs\nFloor & wall tiling, indoors and out",
+        "btn_1_label": "Book a free measure & quote",
+        "btn_1_link": "shopify://pages/request-a-quote",
+        "btn_2_label": "See our services",
+        "btn_2_link": "shopify://pages/tiling-services"
+      }
+    },
+    "services": {
+      "type": "ets-services",
+      "settings": {
+        "eyebrow": "What we do",
+        "heading": "From strip-out to the <em>final grout line</em>.",
+        "link_label": "Free measure & quote",
+        "link": "shopify://pages/request-a-quote",
+        "bg": "sand"
+      },
+      "blocks": {
+        "0": {
+          "type": "service",
+          "settings": {
+            "icon": "bath",
+            "title": "Bathroom renovations",
+            "text": "Complete bathroom and ensuite makeovers, managed from start to finish.",
+            "bullets": "Strip-out & rebuild\nWaterproofing & screed\nTiling, fit-off & silicone",
+            "link_label": "Get a free quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        },
+        "1": {
+          "type": "service",
+          "settings": {
+            "icon": "kitchen",
+            "title": "Kitchen & laundry",
+            "text": "Refresh the hardest-working rooms in the house.",
+            "bullets": "Splashbacks & feature walls\nLaundry tiling & fit-out\nSinks & tapware supplied",
+            "link_label": "Get a free quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        },
+        "2": {
+          "type": "service",
+          "settings": {
+            "icon": "tile",
+            "title": "Tiling",
+            "text": "Precise floor and wall tiling for any room, indoors or out.",
+            "bullets": "Large-format porcelain\nFloors, walls & alfresco\nFeature & herringbone layouts",
+            "link_label": "Get a free quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        },
+        "3": {
+          "type": "service",
+          "settings": {
+            "icon": "drop",
+            "title": "Waterproofing & repairs",
+            "text": "Stop leaks at the source and protect your home.",
+            "bullets": "Leaking shower repairs\nRe-grouting & re-sealing\nRegrading & membrane",
+            "link_label": "Get a free quote",
+            "link": "shopify://pages/request-a-quote"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "trade": {
+      "type": "ets-trade-band",
+      "settings": {
+        "eyebrow": "For builders & trades",
+        "heading": "Trade pricing on <em>every</em> order.",
+        "text": "Tilers, builders, plumbers and renovators get trade prices across the whole range. Apply once — when approved, just log in and your prices show automatically.",
+        "checks": "Trade prices shown on every product once you log in\nDiscount applied automatically at checkout\nPerth metro delivery to site or pickup from Maddington\nProject quantities and bulk tile orders welcome"
+      }
+    },
+    "delivery": {
+      "type": "ets-info-cards",
+      "settings": {
+        "eyebrow": "Delivery & showroom",
+        "heading": "Getting your order, <em>sorted</em>.",
+        "bg": "none"
+      },
+      "blocks": {
+        "0": {
+          "type": "card",
+          "settings": {
+            "icon": "truck",
+            "title": "Perth metro delivery",
+            "text": "<p>Local delivery for tiles, vanities, baths and other large items across the Perth metro area. Delivery options show at checkout, or pick up free from Maddington.</p>",
+            "link_label": "Delivery & pickup",
+            "link": "shopify://pages/delivery-pickup"
+          }
+        },
+        "1": {
+          "type": "card",
+          "settings": {
+            "icon": "box",
+            "title": "Free shipping on small items",
+            "text": "<p>Tapware, shower sets, towel rails and accessories ship free anywhere in Australia. Tiles are Perth metro only.</p>",
+            "link_label": "Shipping policy",
+            "link": "/policies/shipping-policy"
+          }
+        },
+        "2": {
+          "type": "card",
+          "settings": {
+            "icon": "store",
+            "title": "Maddington showroom",
+            "text": "<p>See tiles and bathroomware in person at <a href=\"/pages/book-appointment\">17A Olga Road, Maddington</a> — by appointment, Monday to Saturday 4:30–9 pm.</p>",
+            "link_label": "Book a visit",
+            "link": "shopify://pages/book-appointment"
           }
         }
       },
@@ -204,14 +386,169 @@
         "1",
         "2"
       ]
+    },
+    "faq": {
+      "type": "ets-faq",
+      "settings": {
+        "eyebrow": "Questions",
+        "heading": "Good to <em>know</em>.",
+        "text": "Can't find what you need? Our team is happy to help with products, quantities and project advice.",
+        "open_first": true,
+        "bg": "white"
+      },
+      "blocks": {
+        "0": {
+          "type": "question",
+          "settings": {
+            "question": "Do you deliver tiles outside Perth?",
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Small bathroom items like tapware and accessories ship free Australia-wide.</p>"
+          }
+        },
+        "1": {
+          "type": "question",
+          "settings": {
+            "question": "How do I get trade pricing?",
+            "answer": "<p><a href=\"/pages/trade-account\">Apply for a trade account</a> with your ABN and trade details. Once approved, log in with the same email and trade prices show on every product and apply automatically at checkout.</p>"
+          }
+        },
+        "2": {
+          "type": "question",
+          "settings": {
+            "question": "How much tile should I order?",
+            "answer": "<p>Measure the area in square metres and add 10% for cuts and breakages (15–20% for herringbone or diagonal layouts). Every tile page has a calculator that sets the quantity for you.</p>"
+          }
+        },
+        "3": {
+          "type": "question",
+          "settings": {
+            "question": "Do you do the renovation as well as supply?",
+            "answer": "<p>Yes. Our team handles full bathroom renovations, kitchen and laundry work, tiling and waterproofing repairs across Perth, starting with a free measure and quote. <a href=\"/pages/request-a-quote\">Book yours</a> with your suburb, the room and your timing.</p>"
+          }
+        },
+        "4": {
+          "type": "question",
+          "settings": {
+            "question": "Can I visit the showroom?",
+            "answer": "<p>Yes, by appointment, Monday to Saturday from 4:30 pm to 9 pm at <a href=\"/pages/book-appointment\">17A Olga Road, Maddington WA 6109</a>. <a href=\"/pages/book-appointment\">Book a visit</a> or call 0450 960 543.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3",
+        "4"
+      ]
+    },
+    "tile_ranges": {
+      "type": "ss-collection-16",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Explore our tile ranges",
+            "heading_color": "#15213A"
+          }
+        },
+        "range_1": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
+            "source": "uploaded",
+            "title": "Morgan",
+            "text": "<p>Morgan porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Colours and sizes shown on each tile",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Morgan",
+            "button_url": "shopify://collections/morgan-tiles"
+          }
+        },
+        "range_2": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSAYFR600331_2.jpg",
+            "source": "uploaded",
+            "title": "Time Stone",
+            "text": "<p>Time Stone porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Matt or Lappato finishes",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Time Stone",
+            "button_url": "shopify://collections/time-stone-tiles"
+          }
+        },
+        "range_3": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSA36MQ02_3.jpg",
+            "source": "uploaded",
+            "title": "Cement",
+            "text": "<p>Cement porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Colours, sizes and finishes on each tile",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Cement",
+            "button_url": "shopify://collections/cement-tiles"
+          }
+        },
+        "range_4": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSAFG607311.jpg",
+            "source": "uploaded",
+            "title": "Lava",
+            "text": "<p>Lava porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Matt or Gloss finishes",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Lava",
+            "button_url": "shopify://collections/lava-tiles"
+          }
+        },
+        "range_5": {
+          "type": "card",
+          "settings": {
+            "image": "shopify://shop_images/DSA66SS06_2.jpg",
+            "source": "uploaded",
+            "title": "Particle",
+            "text": "<p>Particle porcelain tiles from Eternity Tiles.</p>",
+            "feature_1": "Porcelain, priced per m²",
+            "feature_2": "Colours, sizes and specs on each tile",
+            "feature_3": "Quantity calculator on every tile",
+            "button_text": "Shop Particle",
+            "button_url": "shopify://collections/particle-tiles"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "range_1",
+        "range_2",
+        "range_3",
+        "range_4",
+        "range_5"
+      ],
+      "settings": {
+        "background_color": "#F6F4EF",
+        "width": "page",
+        "arrow_color": "#15213A",
+        "arrow_border_color": "#15213A",
+        "scrollbar_drag_color": "#15213A"
+      }
     }
   },
   "order": [
     "hero",
-    "accessories",
+    "trust",
     "departments",
-    "bathroom",
     "products",
-    "help"
+    "tile_ranges",
+    "renovations",
+    "services",
+    "trade",
+    "delivery",
+    "faq"
   ]
 }

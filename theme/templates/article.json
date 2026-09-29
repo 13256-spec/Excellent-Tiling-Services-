@@ -12,9 +12,22 @@
     "main": {
       "type": "ets-article-page",
       "settings": {}
+    },
+    "cta": {
+      "type": "ets-cta",
+      "settings": {
+        "eyebrow": "Talk to our team",
+        "heading": "Planning a <em>renovation</em>?",
+        "text": "Tell us about the room and your timing.",
+        "btn_1_label": "Request a quote",
+        "btn_1_link": "shopify://pages/request-a-quote",
+        "btn_2_label": "Contact us",
+        "btn_2_link": "shopify://pages/contact"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "cta"
   ]
 }

@@ -12,6 +12,23 @@
     "main": {
       "type": "ets-contact-page",
       "blocks": {
+        "forms_inline_UeMQpz": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "1166934",
+            "text_color": "#15213A",
+            "button_background_color": "#15213A",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#9C7744",
+            "errors_color": "#9B2C2C",
+            "text_alignment": "left",
+            "form_alignment": "flex-start",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        },
         "forms_inline_ets_contact": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
@@ -20,7 +37,7 @@
             "button_background_color": "#1f3153",
             "button_label_color": "#ffffff",
             "links_color": "#1f3153",
-            "errors_color": "#E02229",
+            "errors_color": "#e02229",
             "text_alignment": "left",
             "form_alignment": "flex-start",
             "padding_top": 0,
@@ -30,9 +47,21 @@
           }
         }
       },
-      "block_order": ["forms_inline_ets_contact"],
-      "settings": {}
+      "block_order": [
+        "forms_inline_UeMQpz",
+        "forms_inline_ets_contact"
+      ],
+      "settings": {
+        "heading": "Visit our Maddington showroom",
+        "intro": "See tiles, tapware, vanities and accessories in person by appointment, or send us a question and our local team will get back to you.",
+        "visit_note": "The showroom is open by appointment only, Monday to Saturday from 4:30 pm to 9 pm. Book a time online or call us, and let us know which products you want to see so we can have them ready.",
+        "show_map": true,
+        "form_heading": "Send us an enquiry",
+        "form_text": "Tell us what you're after and we'll reply by email or phone."
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }

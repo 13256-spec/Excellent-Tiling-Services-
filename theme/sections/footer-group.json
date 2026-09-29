@@ -11,15 +11,43 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
-    "ets_flagship_footer": {
-      "type": "ets-flagship-footer",
+    "ets_footer": {
+      "type": "ets-footer",
       "settings": {
-        "facebook_url": "https://www.facebook.com/share/1943ueL61k/?mibextid=wwXIfr",
-        "description": "Tiles, vanities, tapware and bathroom accessories, with professional tiling and a local Maddington team to help bring it together."
+        "cta_eyebrow": "Perth renovations & supply",
+        "cta_heading": "Planning a bathroom, kitchen or <em>tiling</em> job?",
+        "cta_label_1": "Get a free quote",
+        "cta_link_1": "shopify://pages/request-a-quote",
+        "cta_label_2": "Open a trade account",
+        "cta_link_2": "shopify://pages/trade-account",
+        "menu_1": "main-menu",
+        "menu_1_title": "Shop",
+        "menu_2": "footer",
+        "menu_2_title": "Help & services",
+        "abn": "63 150 082 054",
+        "news_heading": "Get new ranges &amp; <em>deals</em> by email.",
+        "news_text": "New arrivals, clearance stock and renovation ideas from our Maddington showroom."
+      }
+    },
+    "ets_news_popup": {
+      "type": "ets-newsletter-popup",
+      "settings": {
+        "enabled": true,
+        "delay": 12,
+        "days": 30,
+        "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
+        "eyebrow": "The ETS list",
+        "heading": "New ranges &amp; <em>deals</em>, first.",
+        "text": "Join our email list for new tile and bathroomware arrivals, clearance deals and renovation ideas from our Maddington showroom.",
+        "offer_label": "",
+        "offer_code": "",
+        "button": "Subscribe",
+        "success": "You're on the list. Watch your inbox for new ranges and deals."
       }
     }
   },
   "order": [
-    "ets_flagship_footer"
+    "ets_footer",
+    "ets_news_popup"
   ]
 }

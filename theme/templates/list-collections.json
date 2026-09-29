@@ -9,12 +9,8 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "ets-collection-directory",
-      "settings": {}
-    }
+    "hero": { "type": "ets-page-hero", "settings": { "eyebrow": "Shop", "heading": "All <em>departments</em>", "text": "Tiles, vanities, basins, tapware, baths, toilets, mirrors and accessories — everything for the bathroom, kitchen and laundry.", "show_crumbs": true, "show_chips": false } },
+    "directory": { "type": "ets-directory", "settings": { "menu": "main-menu" } }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["hero", "directory"]
 }

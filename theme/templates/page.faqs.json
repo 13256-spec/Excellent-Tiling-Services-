@@ -1,0 +1,212 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "show_crumbs": true
+      }
+    },
+    "faq": {
+      "type": "ss-faq-17",
+      "blocks": {
+        "intro": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Can't find your answer? Call <a href=\"tel:+61450960543\">0450 960 543</a> or <a href=\"/pages/contact\">send us a message</a>.</p>",
+            "text_color": "#3A4556"
+          }
+        },
+        "tab_1": {
+          "type": "tab",
+          "settings": {
+            "tab": "Showroom & pickup"
+          }
+        },
+        "q_1": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where are you?",
+            "answer": "<p><a href=\"/pages/book-appointment\">17A Olga Road, Maddington WA 6109</a>.</p>"
+          }
+        },
+        "q_2": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What are your hours?",
+            "answer": "<p>Appointments are Monday to Saturday, 4:30 pm to 9 pm. We're closed on Sunday.</p>"
+          }
+        },
+        "q_3": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I just drop in to the showroom?",
+            "answer": "<p>No, the showroom is open by appointment only. <a href=\"/pages/book-appointment\">Book a showroom visit</a> online or call <a href=\"tel:+61450960543\">0450 960 543</a>. Tell us what you'd like to see so we can have it ready.</p>"
+          }
+        },
+        "q_4": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I pick up my order?",
+            "answer": "<p>Yes. Choose pickup at checkout. Wait until we tell you your order is ready, then <a href=\"/pages/book-appointment\">book a pickup time</a> and bring your order number.</p>"
+          }
+        },
+        "tab_2": {
+          "type": "tab",
+          "settings": {
+            "tab": "Delivery"
+          }
+        },
+        "q_5": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you offer free shipping?",
+            "answer": "<p>Yes, on small bathroom items like tapware, shower heads and sets, towel rails and accessories, anywhere in Australia. Toilets, baths, vanities, basins, sinks, mirrors, shower screens and tiles aren't included. For those, choose pickup or contact us for a delivery quote.</p>"
+          }
+        },
+        "q_6": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you deliver?",
+            "answer": "<p>Yes, within Australia. Delivery options for your address are shown at checkout. If you can't see one, contact us for a delivery quote. We don't ship internationally. See <a href=\"/pages/delivery-pickup\">Delivery &amp; Pickup</a> and our <a href=\"/policies/shipping-policy\">Shipping Policy</a>.</p>"
+          }
+        },
+        "q_7": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you deliver tiles outside Perth?",
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Small bathroom items like tapware and accessories ship free Australia-wide.</p>"
+          }
+        },
+        "tab_3": {
+          "type": "tab",
+          "settings": {
+            "tab": "Products & tiles"
+          }
+        },
+        "q_8": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Is everything in stock?",
+            "answer": "<p>Not always. Some products are ordered in from the supplier. If you need something by a certain date, call us to check before you order.</p>"
+          }
+        },
+        "q_9": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How much tile should I order?",
+            "answer": "<p>Measure the area in square metres and add 10% for cuts and breakages (15–20% for herringbone or diagonal layouts). Every tile page has a calculator that sets the quantity for you.</p>"
+          }
+        },
+        "q_10": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Where do I find sizes and specs?",
+            "answer": "<p>On each product page, under Specifications. If something you need isn't listed, call us and we'll check with the supplier.</p>"
+          }
+        },
+        "q_11": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What warranty do products come with?",
+            "answer": "<p>Products come with the manufacturer's warranty, plus your rights under the Australian Consumer Law. See <a href=\"/pages/product-care\">Care &amp; Warranty</a>.</p>"
+          }
+        },
+        "tab_4": {
+          "type": "tab",
+          "settings": {
+            "tab": "Quotes & trade"
+          }
+        },
+        "q_12": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I get a tiling quote?",
+            "answer": "<p>Fill in the <a href=\"/pages/request-a-quote\">quote form</a> with your suburb, the type of work, rough size and when you want it done. Or just call us.</p>"
+          }
+        },
+        "q_13": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Do you do the renovation as well as supply?",
+            "answer": "<p>Yes. Our team handles full bathroom renovations, kitchen and laundry work, tiling and waterproofing repairs across Perth, starting with a free measure and quote. <a href=\"/pages/tiling-services\">See our services</a>.</p>"
+          }
+        },
+        "q_14": {
+          "type": "faq_item",
+          "settings": {
+            "question": "How do I get trade pricing?",
+            "answer": "<p><a href=\"/pages/trade-account\">Apply for a trade account</a> with your ABN and trade details. Once approved, log in with the same email and trade prices show on every product.</p>"
+          }
+        },
+        "tab_5": {
+          "type": "tab",
+          "settings": {
+            "tab": "Returns"
+          }
+        },
+        "q_15": {
+          "type": "faq_item",
+          "settings": {
+            "question": "Can I return something?",
+            "answer": "<p>Change-of-mind returns are accepted within 30 days of receiving your order for unused products in original packaging. A restocking fee applies. See our <a href=\"/policies/refund-policy\">Refund Policy</a> for the full details.</p>"
+          }
+        },
+        "q_16": {
+          "type": "faq_item",
+          "settings": {
+            "question": "What if something arrives damaged or faulty?",
+            "answer": "<p>Contact us with your order number and photos as soon as possible. Faulty, damaged or incorrect products are covered under the Australian Consumer Law, and restocking fees never apply to them. See our <a href=\"/policies/refund-policy\">Refund Policy</a>.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "intro",
+        "tab_1",
+        "q_1",
+        "q_2",
+        "q_3",
+        "q_4",
+        "tab_2",
+        "q_5",
+        "q_6",
+        "q_7",
+        "tab_3",
+        "q_8",
+        "q_9",
+        "q_10",
+        "q_11",
+        "tab_4",
+        "q_12",
+        "q_13",
+        "q_14",
+        "tab_5",
+        "q_15",
+        "q_16"
+      ],
+      "settings": {
+        "background_color": "#F6F4EF",
+        "toggles_bg_color": "#EEEAE2",
+        "toggle_bg_color": "#15213A",
+        "toggle_color": "#15213A",
+        "toggle_active_color": "#FFFFFF",
+        "item_border_color": "#DCD9D2",
+        "question_color": "#15213A",
+        "answer_color": "#3A4556",
+        "icon_color": "#9C7744"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "faq"
+  ]
+}

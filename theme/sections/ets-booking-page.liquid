@@ -190,54 +190,54 @@
 {% endjavascript %}
 
 {% stylesheet %}
-.ets-book { padding: 56px 0 72px; color: #1F3153; }
+.ets-book { padding: 56px 0 72px; color: var(--ets-ink); }
 .ets-book *, .ets-book *::before, .ets-book *::after { box-sizing: border-box; }
 .ets-book__wrap { max-width: 1200px; margin: 0 auto; padding: 0 24px; }
 .ets-book__head { max-width: 680px; margin-bottom: 40px; }
-.ets-book__head h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.08; margin: 8px 0 14px; color: #1F3153; }
-.ets-book__head p:last-child { margin: 0; color: #56606B; font-size: 17px; line-height: 1.6; }
+.ets-book__head h1 { font-size: clamp(34px, 5vw, 52px); line-height: 1.08; margin: 8px 0 14px; color: var(--ets-ink); }
+.ets-book__head p:last-child { margin: 0; color: var(--ets-muted); font-size: 17px; line-height: 1.6; }
 .ets-book__grid { display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 28px; align-items: start; }
-.ets-book__card, .ets-book__form { background: #FFFFFF; border: 1px solid #DDD8CE; border-radius: 20px; padding: 32px; }
-.ets-book__badge { display: inline-block; margin: 0 0 20px; padding: 6px 14px; border-radius: 100px; background: #1F3153; color: #F5F3EE; font-size: 13px; font-weight: 600; letter-spacing: 0.02em; }
+.ets-book__card, .ets-book__form { background: #FFFFFF; border: 1px solid rgba(21,33,58,.16); border-radius: 20px; padding: 32px; }
+.ets-book__badge { display: inline-block; margin: 0 0 20px; padding: 6px 14px; border-radius: 100px; background: var(--ets-ink); color: var(--ets-bg); font-size: 13px; font-weight: 600; letter-spacing: 0.02em; }
 .ets-book__list { margin: 0; display: grid; gap: 18px; }
 .ets-book__list > div { display: grid; gap: 2px; }
-.ets-book__list dt { font-size: 14px; color: #56606B; }
+.ets-book__list dt { font-size: 14px; color: var(--ets-muted); }
 .ets-book__list dd { margin: 0; font-weight: 500; overflow-wrap: break-word; }
 .ets-book__list address { font-style: normal; line-height: 1.5; }
-.ets-book a { color: #1F3153; }
-.ets-book a:focus-visible, .ets-book button:focus-visible, .ets-book input:focus-visible, .ets-book select:focus-visible, .ets-book textarea:focus-visible { outline: 2px solid #1F3153; outline-offset: 2px; }
-.ets-book__note { margin: 22px 0; padding-top: 18px; border-top: 1px solid #DDD8CE; font-size: 14px; line-height: 1.55; color: #56606B; }
-.ets-book__subhead { font-size: 16px; margin: 0 0 8px; color: #1F3153; }
-.ets-book__bring { margin: 0 0 24px; padding-left: 18px; color: #56606B; font-size: 14px; line-height: 1.7; }
-.ets-book__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; border: 1px solid #1F3153; border-radius: 100px; background: #1F3153; color: #FFFFFF !important; font: inherit; font-size: 15px; font-weight: 600; padding: 12px 24px; text-decoration: none; cursor: pointer; }
-.ets-book__btn:hover { background: #2B4270; }
-.ets-book__btn--ghost { background: transparent; color: #1F3153 !important; }
-.ets-book__btn--ghost:hover { background: #F5F3EE; }
-.ets-book__form h2 { font-size: clamp(24px, 3vw, 32px); line-height: 1.15; margin: 0 0 8px; color: #1F3153; }
-.ets-book__form-intro { margin: 0 0 24px; color: #56606B; }
+.ets-book a { color: var(--ets-ink); }
+.ets-book a:focus-visible, .ets-book button:focus-visible, .ets-book input:focus-visible, .ets-book select:focus-visible, .ets-book textarea:focus-visible { outline: 2px solid var(--ets-ink); outline-offset: 2px; }
+.ets-book__note { margin: 22px 0; padding-top: 18px; border-top: 1px solid rgba(21,33,58,.16); font-size: 14px; line-height: 1.55; color: var(--ets-muted); }
+.ets-book__subhead { font-size: 16px; margin: 0 0 8px; color: var(--ets-ink); }
+.ets-book__bring { margin: 0 0 24px; padding-left: 18px; color: var(--ets-muted); font-size: 14px; line-height: 1.7; }
+.ets-book__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 48px; border: 1px solid var(--ets-ink); border-radius: 100px; background: var(--ets-ink); color: #FFFFFF !important; font: inherit; font-size: 15px; font-weight: 600; padding: 12px 24px; text-decoration: none; cursor: pointer; }
+.ets-book__btn:hover { background: #24324D; }
+.ets-book__btn--ghost { background: transparent; color: var(--ets-ink) !important; }
+.ets-book__btn--ghost:hover { background: var(--ets-bg); }
+.ets-book__form h2 { font-size: clamp(24px, 3vw, 32px); line-height: 1.15; margin: 0 0 8px; color: var(--ets-ink); }
+.ets-book__form-intro { margin: 0 0 24px; color: var(--ets-muted); }
 .ets-book__types { border: 0; margin: 0 0 24px; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .ets-book__types legend { font-size: 14px; font-weight: 600; margin-bottom: 10px; padding: 0; }
-.ets-book__type { position: relative; display: flex; gap: 10px; align-items: flex-start; padding: 14px; border: 1px solid #DDD8CE; border-radius: 14px; cursor: pointer; }
-.ets-book__type:has(input:checked) { border-color: #1F3153; background: #F5F3EE; box-shadow: inset 0 0 0 1px #1F3153; }
-.ets-book__type input { margin-top: 3px; accent-color: #1F3153; }
+.ets-book__type { position: relative; display: flex; gap: 10px; align-items: flex-start; padding: 14px; border: 1px solid rgba(21,33,58,.16); border-radius: 14px; cursor: pointer; }
+.ets-book__type:has(input:checked) { border-color: var(--ets-ink); background: var(--ets-bg); box-shadow: inset 0 0 0 1px var(--ets-ink); }
+.ets-book__type input { margin-top: 3px; accent-color: var(--ets-ink); }
 .ets-book__type strong { display: block; font-size: 15px; }
-.ets-book__type small { display: block; margin-top: 2px; color: #56606B; font-size: 13px; line-height: 1.4; }
+.ets-book__type small { display: block; margin-top: 2px; color: var(--ets-muted); font-size: 13px; line-height: 1.4; }
 .ets-book__fields { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-bottom: 16px; }
 .ets-book__fields label { display: grid; gap: 6px; font-size: 14px; font-weight: 500; align-content: start; }
-.ets-book__fields input, .ets-book__fields select, .ets-book__fields textarea { width: 100%; min-height: 46px; padding: 12px 14px; border: 1px solid #DDD8CE; border-radius: 12px; background: #FFFFFF; font: inherit; font-size: 16px; color: #1F3153; }
-.ets-book__hint { font-weight: 400; color: #56606B; font-size: 13px; }
+.ets-book__fields input, .ets-book__fields select, .ets-book__fields textarea { width: 100%; min-height: 46px; padding: 12px 14px; border: 1px solid rgba(21,33,58,.16); border-radius: 12px; background: #FFFFFF; font: inherit; font-size: 16px; color: var(--ets-ink); }
+.ets-book__hint { font-weight: 400; color: var(--ets-muted); font-size: 13px; }
 .ets-book__full { grid-column: 1 / -1; }
-.ets-book__consent { margin: 0 0 18px; font-size: 13px; color: #56606B; }
+.ets-book__consent { margin: 0 0 18px; font-size: 13px; color: var(--ets-muted); }
 .ets-book__success { margin-bottom: 20px; padding: 16px 18px; border-radius: 12px; background: #EAF3EC; color: #1E5A31; }
 .ets-book__success p { margin: 6px 0 0; }
 .ets-book__success a { color: inherit; }
 .ets-book__error { margin-bottom: 20px; padding: 12px 16px; border-radius: 12px; background: #FBEAEA; color: #8A1F1F; }
 .ets-book__steps { list-style: none; margin: 28px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-.ets-book__steps li { padding: 24px; border-radius: 20px; background: #F5F3EE; }
-.ets-book__steps span { display: inline-flex; width: 30px; height: 30px; align-items: center; justify-content: center; border-radius: 50%; background: #1F3153; color: #F5F3EE; font-size: 14px; font-weight: 600; margin-bottom: 12px; }
+.ets-book__steps li { padding: 24px; border-radius: 20px; background: var(--ets-bg); }
+.ets-book__steps span { display: inline-flex; width: 30px; height: 30px; align-items: center; justify-content: center; border-radius: 50%; background: var(--ets-ink); color: var(--ets-bg); font-size: 14px; font-weight: 600; margin-bottom: 12px; }
 .ets-book__steps strong { display: block; font-size: 16px; }
-.ets-book__steps p { margin: 6px 0 0; color: #56606B; font-size: 14px; line-height: 1.5; }
-.ets-book__map { margin-top: 28px; border-radius: 20px; overflow: hidden; border: 1px solid #DDD8CE; aspect-ratio: 16 / 7; background: #E9E5DC; }
+.ets-book__steps p { margin: 6px 0 0; color: var(--ets-muted); font-size: 14px; line-height: 1.5; }
+.ets-book__map { margin-top: 28px; border-radius: 20px; overflow: hidden; border: 1px solid rgba(21,33,58,.16); aspect-ratio: 16 / 7; background: #E9E5DC; }
 .ets-book__map iframe { display: block; width: 100%; height: 100%; border: 0; }
 @media (max-width: 900px) {
   .ets-book__grid, .ets-book__steps { grid-template-columns: 1fr; }

@@ -1,0 +1,237 @@
+{%- comment -%}
+  ETS 2026 header. Navigation comes from the menu chosen in the section settings
+  (Online Store → Navigation). Top-level items with child links open a mega panel on
+  desktop and an accordion in the mobile drawer.
+{%- endcomment -%}
+{%- liquid
+  assign menu = linklists[section.settings.menu]
+  assign phone = settings.ets_phone | default: '0450 960 543'
+  assign phone_link = settings.ets_phone_link | default: '+61450960543'
+  assign trade_tag = settings.ets_trade_tag | default: 'trade'
+  assign is_trade = false
+  if customer and customer.tags contains trade_tag
+    assign is_trade = true
+  endif
+  assign trade_page = settings.ets_trade_page
+-%}
+{{ 'ets-menu.css' | asset_url | stylesheet_tag }}
+<div class="ets" data-ets-header>
+  {%- if section.settings.show_topbar -%}
+    <div class="ets-topbar">
+      <div class="ets-wrap">
+        <p class="ets-topbar__msg" style="margin:0">
+          {%- if section.settings.msg_1 != blank -%}<span>{{ section.settings.msg_1 | escape }}</span>{%- endif -%}
+          {%- if section.settings.msg_2 != blank -%}<span>{{ section.settings.msg_2 | escape }}</span>{%- endif -%}
+          {%- if section.settings.msg_3 != blank -%}<span>{{ section.settings.msg_3 | escape }}</span>{%- endif -%}
+        </p>
+        <div class="ets-topbar__right">
+          {%- if trade_page != blank and is_trade == false -%}<a class="ets-topbar__trade" href="{{ trade_page.url }}">Trade account →</a>{%- endif -%}
+          <a class="ets-topbar__phone" href="tel:{{ phone_link }}">{{ phone }}</a>
+        </div>
+      </div>
+    </div>
+  {%- endif -%}
+
+  <header class="ets-hdr" data-ets-hdr>
+    <div class="ets-wrap ets-hdr__bar">
+      <div style="display:flex;align-items:center;gap:6px">
+        <button class="ets-tool ets-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="EtsDrawer" data-ets-drawer-open>
+          <span class="ets-burger__lines" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+        <a class="ets-logo{% if section.settings.logo != blank %} ets-logo__custom{% endif %}" href="{{ routes.root_url }}" aria-label="{{ shop.name | escape }} home">
+          {%- if section.settings.logo != blank -%}
+            {{ section.settings.logo | image_url: width: 400 | image_tag: alt: shop.name, loading: 'eager', widths: '200, 400' }}
+          {%- else -%}
+            <img src="https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823&width=96" width="40" height="33" alt="" loading="eager">
+            <span class="ets-logo__text"><strong>EXCELLENT</strong><small>TILING SERVICES</small></span>
+          {%- endif -%}
+        </a>
+      </div>
+
+      <form class="ets-search" action="{{ routes.search_url }}" method="get" role="search">
+        <label class="ets-visually-hidden" for="EtsSearch-{{ section.id }}">Search products</label>
+        <input id="EtsSearch-{{ section.id }}" type="search" name="q" value="{{ search.terms | escape }}" placeholder="{{ section.settings.search_placeholder | escape }}" autocomplete="off" enterkeyhint="search">
+        <input type="hidden" name="options[prefix]" value="last">
+        <button type="submit" aria-label="Search">{% render 'ets-icon', name: 'search' %}</button>
+      </form>
+
+      <div class="ets-tools">
+        <a class="ets-tool ets-tool--hide-sm" href="tel:{{ phone_link }}" aria-label="Call {{ phone }}">
+          {% render 'ets-icon', name: 'phone' %}<span class="ets-tool__label"><small>Call the team</small>{{ phone }}</span>
+        </a>
+        {%- if shop.customer_accounts_enabled -%}
+          <a class="ets-tool" href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" aria-label="{% if customer %}Your account{% else %}Log in{% endif %}">
+            {% render 'ets-icon', name: 'user' %}
+            <span class="ets-tool__label">
+              {%- if is_trade -%}<small><span class="ets-trade-chip">Trade</span></small>{{ customer.first_name | default: 'Account' | escape }}
+              {%- elsif customer -%}<small>Hello</small>{{ customer.first_name | default: 'Account' | escape }}
+              {%- else -%}<small>Trade &amp; retail</small>Log in{%- endif -%}
+            </span>
+          </a>
+        {%- endif -%}
+        <a class="ets-tool" href="{{ routes.cart_url }}" data-ets-cart aria-label="Cart">
+          {% render 'ets-icon', name: 'bag' %}
+          <span class="ets-tool__count" data-ets-cart-count{% if cart.item_count == 0 %} hidden{% endif %}>{{ cart.item_count }}</span>
+        </a>
+      </div>
+    </div>
+
+    <nav class="ets-nav" aria-label="Main">
+      <div class="ets-wrap">
+        <ul class="ets-nav__list" role="list">
+          {%- for link in menu.links -%}
+            <li class="ets-nav__item{% if link.links.size > 0 %} has-mega{% endif %}" data-ets-mega-item>
+              {%- if link.links.size > 0 -%}
+                {%- comment -%}
+                  The label is a real link (click goes to the collection); the chevron button opens
+                  the panel for keyboard and touch. With a mouse, resting on the item opens it.
+                {%- endcomment -%}
+                <a class="ets-nav__link" href="{{ link.url }}"{% if link.child_active or link.active %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+                <button class="ets-nav__toggle" type="button" aria-expanded="false" aria-controls="EtsMega-{{ forloop.index }}" data-ets-mega-trigger>
+                  <span class="ets-visually-hidden">{{ link.title | escape }} menu</span>
+                  {%- render 'ets-icon', name: 'chevron' -%}
+                </button>
+                <div class="ets-mega" id="EtsMega-{{ forloop.index }}">
+                  <div class="ets-mega__inner ets-shell">
+                    <div class="ets-core">
+                      <div class="ets-mega__links">
+                        {%- for child in link.links -%}
+                          <a href="{{ child.url }}">
+                            <span>{{ child.title | escape }}</span>
+                            {%- if child.type == 'collection_link' and child.object.products_count > 0 -%}<small>{{ child.object.products_count }}</small>{%- endif -%}
+                          </a>
+                        {%- endfor -%}
+                        <div class="ets-mega__all">
+                          <a class="ets-link" href="{{ link.url }}" style="border:0;padding-bottom:3px">Shop all {{ link.title | downcase | escape }} {% render 'ets-icon', name: 'arrow' %}</a>
+                        </div>
+                      </div>
+                      {%- liquid
+                        assign feature_img = blank
+                        if link.type == 'collection_link'
+                          assign feature_img = link.object.image | default: link.object.products.first.featured_image
+                        endif
+                        if feature_img == blank
+                          for child in link.links
+                            if child.type == 'collection_link' and feature_img == blank
+                              assign feature_img = child.object.image | default: child.object.products.first.featured_image
+                            endif
+                          endfor
+                        endif
+                      -%}
+                      <a class="ets-mega__feature" href="{{ link.url }}">
+                        {%- if feature_img != blank -%}
+                          {{ feature_img | image_url: width: 700 | image_tag: loading: 'lazy', widths: '350, 700', sizes: '340px', alt: '' }}
+                        {%- endif -%}
+                        <span>Explore {{ link.title | escape }} {% render 'ets-icon', name: 'arrow' %}</span>
+                      </a>
+                      {%- unless section.settings.hide_menu_products -%}
+                        {%- if link.type == 'collection_link' and link.object.products.size >= 3 -%}
+                          <div class="ets-mega__strip">
+                            <p class="ets-mega__strip-label">Shop {{ link.title | escape }}</p>
+                            {% render 'ets-product-marquee', collection: link.object, size: 'sm', limit: 16, defer: true %}
+                          </div>
+                        {%- endif -%}
+                      {%- endunless -%}
+                    </div>
+                  </div>
+                </div>
+              {%- else -%}
+                <a class="ets-nav__link" href="{{ link.url }}"{% if link.active %} aria-current="page"{% endif %}>{{ link.title | escape }}</a>
+              {%- endif -%}
+            </li>
+          {%- endfor -%}
+        </ul>
+        <div class="ets-nav__cta">
+          {%- if section.settings.cta_label != blank -%}
+            <a href="{{ section.settings.cta_link | default: '/pages/request-a-quote' }}">{{ section.settings.cta_label | escape }} {% render 'ets-icon', name: 'arrow' %}</a>
+          {%- endif -%}
+        </div>
+      </div>
+    </nav>
+  </header>
+  {%- unless section.settings.hide_menu_products -%}
+    <script>
+      (function () {
+        function load(item) {
+          item.querySelectorAll('img[data-pmq-src]').forEach(function (img) {
+            img.src = img.getAttribute('data-pmq-src');
+            img.removeAttribute('data-pmq-src');
+          });
+        }
+        document.querySelectorAll('[data-ets-mega-item]').forEach(function (item) {
+          ['mouseenter', 'focusin', 'click'].forEach(function (type) {
+            item.addEventListener(type, function () { load(item); }, { once: true });
+          });
+        });
+      })();
+    </script>
+  {%- endunless -%}
+  <div class="ets-scrim" data-ets-scrim></div>
+
+  <div class="ets-drawer" id="EtsDrawer" data-ets-drawer aria-hidden="true">
+    <div class="ets-drawer__bg" data-ets-drawer-close></div>
+    <div class="ets-drawer__panel" role="dialog" aria-modal="true" aria-label="Menu">
+      <div class="ets-drawer__top">
+        <a class="ets-logo" href="{{ routes.root_url }}">
+          <img src="https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823&width=96" width="34" height="28" alt="">
+          <span class="ets-logo__text"><strong>EXCELLENT</strong><small>TILING SERVICES</small></span>
+        </a>
+        <button class="ets-tool ets-burger" type="button" aria-label="Close menu" aria-expanded="true" data-ets-drawer-close>
+          <span class="ets-burger__lines" aria-hidden="true"><i></i><i></i><i></i></span>
+        </button>
+      </div>
+      <div class="ets-drawer__body">
+        <ul class="ets-dnav" role="list">
+          {%- for link in menu.links -%}
+            <li>
+              {%- if link.links.size > 0 -%}
+                <details>
+                  <summary>{{ link.title | escape }} {% render 'ets-icon', name: 'plus' %}</summary>
+                  <div class="ets-dnav__sub">
+                    {%- for child in link.links -%}<a href="{{ child.url }}">{{ child.title | escape }}</a>{%- endfor -%}
+                    <a class="is-all" href="{{ link.url }}">Shop all {{ link.title | downcase | escape }} →</a>
+                  </div>
+                </details>
+              {%- else -%}
+                <a href="{{ link.url }}">{{ link.title | escape }} {% render 'ets-icon', name: 'arrow' %}</a>
+              {%- endif -%}
+            </li>
+          {%- endfor -%}
+        </ul>
+        <div class="ets-drawer__foot">
+          {%- if section.settings.cta_label != blank -%}
+            <a class="ets-btn ets-btn--block" href="{{ section.settings.cta_link | default: '/pages/request-a-quote' }}">{{ section.settings.cta_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+          {%- endif -%}
+          {%- if trade_page != blank and is_trade == false -%}
+            <a class="ets-btn ets-btn--ghost ets-btn--block" href="{{ trade_page.url }}">Apply for a trade account<span class="ets-btn__dot">{% render 'ets-icon', name: 'briefcase' %}</span></a>
+          {%- endif -%}
+        </div>
+        <div class="ets-drawer__contact">
+          <a href="tel:{{ phone_link }}">{{ phone }}</a><br>
+          {% render 'ets-address-link' %}<br>
+          <span class="ets-small">{{ settings.ets_hours | escape }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "ETS header",
+  "class": "ets-header-section",
+  "settings": [
+    { "type": "image_picker", "id": "logo", "label": "Logo image", "info": "Leave empty to use the ETS tile mark and wordmark." },
+    { "type": "link_list", "id": "menu", "label": "Menu", "default": "main-menu" },
+    { "type": "text", "id": "search_placeholder", "label": "Search placeholder", "default": "Search tiles, vanities, tapware…" },
+    { "type": "text", "id": "cta_label", "label": "Menu button label", "default": "Get a renovation quote" },
+    { "type": "url", "id": "cta_link", "label": "Menu button link" },
+    { "type": "checkbox", "id": "hide_menu_products", "label": "Hide moving product strip in menu panels", "default": false },
+    { "type": "header", "content": "Top bar" },
+    { "type": "checkbox", "id": "show_topbar", "label": "Show top bar", "default": true },
+    { "type": "text", "id": "msg_1", "label": "Message 1", "default": "Free shipping Australia-wide on tapware & accessories" },
+    { "type": "text", "id": "msg_2", "label": "Message 2", "default": "Maddington showroom by appointment · Mon–Sat 4:30–9 pm" },
+    { "type": "text", "id": "msg_3", "label": "Message 3", "default": "Perth metro delivery on tiles & large items" }
+  ]
+}
+{% endschema %}

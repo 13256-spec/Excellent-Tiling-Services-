@@ -1,0 +1,32 @@
+<section class="ets ets-sec ets-cta" aria-labelledby="EtsCta-{{ section.id }}">
+  <div class="ets-wrap">
+    <div class="ets-shell" data-reveal>
+      <div class="ets-core ets-sec--ink">
+        <div>
+          {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+          <h2 class="ets-h2" id="EtsCta-{{ section.id }}">{{ section.settings.heading }}</h2>
+          {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>{%- endif -%}
+        </div>
+        <div class="ets-btns">
+          {%- if section.settings.btn_1_label != blank -%}<a class="ets-btn ets-btn--light" href="{{ section.settings.btn_1_link | default: '/pages/request-a-quote' }}">{{ section.settings.btn_1_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>{%- endif -%}
+          {%- if section.settings.btn_2_label != blank -%}<a class="ets-btn ets-btn--ghost" href="{{ section.settings.btn_2_link | default: '/pages/contact' }}">{{ section.settings.btn_2_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'phone' %}</span></a>{%- endif -%}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS call to action",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Free measure & quote" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Ready when you are." },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "text", "id": "btn_1_label", "label": "Button 1 label", "default": "Request a quote" },
+    { "type": "url", "id": "btn_1_link", "label": "Button 1 link" },
+    { "type": "text", "id": "btn_2_label", "label": "Button 2 label", "default": "Contact us" },
+    { "type": "url", "id": "btn_2_link", "label": "Button 2 link" }
+  ],
+  "presets": [{ "name": "ETS call to action" }]
+}
+{% endschema %}
