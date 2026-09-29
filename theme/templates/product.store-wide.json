@@ -242,7 +242,7 @@
               "type": "shopify://apps/section-store/blocks/block-badge/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
               "settings": {
                 "first_icon": "box",
-                "first_title": "Perth family business",
+                "first_title": "Local Perth business",
                 "first_bg_color": "#EEEAE2",
                 "first_title_color": "#15213A",
                 "second_icon": "shield_check",
@@ -274,7 +274,7 @@
                 "items_gap": 8,
                 "first_text": "<p><strong>Trade pricing</strong> — for approved trade accounts</p>",
                 "second_text": "<p><strong>Full specs</strong> — sizes, finishes and details below</p>",
-                "third_text": "<p><strong>Local team</strong> — family-run, Perth-based tilers</p>",
+                "third_text": "<p><strong>Local team</strong> — licensed, Perth-based tilers</p>",
                 "fourth_text": "<p><strong>Supply &amp; install</strong> — free measure &amp; quote available</p>",
                 "icon_selection": "check_mark",
                 "icon_size": 16,
@@ -342,7 +342,7 @@
                 "title_text": "<p><strong>Need it installed?</strong></p>",
                 "title_size": 18,
                 "title_color": "#15213A",
-                "body_text": "<p>Our licensed, family-run team can supply and install it. <a href=\"/pages/request-a-quote\">Get a free measure &amp; quote</a>.</p>",
+                "body_text": "<p>Our licensed team can supply and install it. <a href=\"/pages/request-a-quote\">Get a free measure &amp; quote</a>.</p>",
                 "body_size": 13,
                 "body_color": "#3A4556",
                 "border": "solid",
@@ -578,7 +578,7 @@
         "ss-text-2": {
           "type": "text",
           "settings": {
-            "text": "<p>A local, family-run Perth business that supplies and installs what it sells, with a showroom in Maddington.</p>",
+            "text": "<p>A local Perth business that supplies and installs what it sells, with a showroom in Maddington.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
