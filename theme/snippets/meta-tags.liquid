@@ -148,6 +148,21 @@
   },
   "description": "Perth tiling contractor and bathroomware showroom in Maddington WA. Showroom visits by appointment, Monday to Saturday 4:30 pm to 9 pm.",
   "areaServed": "Perth, Western Australia",
+  "priceRange": "$$",
+  "currenciesAccepted": "AUD",
+  "knowsAbout": ["Tiling", "Porcelain tiles", "Floor tiles", "Wall tiles", "Bathroom renovation", "Bathroomware", "Vanities", "Tapware", "Toilets", "Mirrors", "Heated towel rails", "Shower screens"],
+  {%- if shop.refund_policy %}
+  "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "applicableCountry": "AU",
+    "returnPolicyCountry": "AU",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "merchantReturnDays": 30,
+    "returnFees": "https://schema.org/RestockingFees",
+    "restockingFee": 15,
+    "merchantReturnLink": {{ shop.url | append: shop.refund_policy.url | json }}
+  },
+  {%- endif %}
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],

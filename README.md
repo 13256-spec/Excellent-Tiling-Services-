@@ -41,3 +41,11 @@ Shopify admin → Settings → Policies (the API connector used here can't write
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.
+
+## Structured data (schema.org)
+
+- `snippets/meta-tags.liquid`: sitewide LocalBusiness (address, hours, contact, product range,
+  30-day return policy with 15% restocking fee). Update the return policy block if the refund policy changes.
+- `snippets/ets-structured-data.liquid`: WebSite + site search (home), CollectionPage/ItemList
+  (collections), Service (tiling services page), BlogPosting (articles).
+- `snippets/ets-breadcrumbs.liquid`: BreadcrumbList. Products use Shopify's built-in ProductGroup data.
