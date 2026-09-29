@@ -28,3 +28,22 @@
 @media (max-width: 1100px) {
   .ets-nav__toggle { width: 20px; margin-right: 0; }
 }
+
+/* ---------- Speed: page headers show straight away ----------
+   The fade-in kept the first headline invisible until scripts ran, delaying the moment Google
+   measures as "loaded" (LCP). Sections further down still fade in. */
+.ets-js .ets-hero [data-reveal], .ets-js .ets-phero [data-reveal] { opacity: 1; transform: none; transition: none; }
+
+/* ---------- Phones: comfortable tap targets (Google and Apple ask for ~44px) ---------- */
+@media (max-width: 749px) {
+  /* Footer menus: 21px-tall links sat 10px apart, easy to mis-tap. */
+  .ets-ftr ul { gap: 0; }
+  .ets-ftr ul a { display: inline-flex; align-items: center; min-height: 40px; }
+  .ets-ftr__base ul { gap: 0 20px; }
+  .ets-ftr__contact a { display: inline-flex; align-items: center; min-height: 40px; }
+  /* Home slideshow dots: keep the small look, grow the touch area. */
+  .ets-hero__dots button { width: 32px; height: 32px; }
+  /* "All departments", "Shop all tiles", breadcrumbs: invisible larger tap area, same look. */
+  .ets-link, .ets-crumbs a { position: relative; }
+  .ets-link::before, .ets-crumbs a::before { content: ''; position: absolute; inset: -8px -6px; }
+}

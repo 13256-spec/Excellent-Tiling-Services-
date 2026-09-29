@@ -20,7 +20,7 @@
     {%- if section.settings.show_crumbs -%}
       <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">{{ heading | strip_html }}</li></ol>
     {%- endif -%}
-    <div class="ets-phero__grid"{% if section.settings.image == blank %} style="grid-template-columns:1fr"{% endif %}>
+    <div class="ets-phero__grid"{% if section.settings.image == blank %} style="grid-template-columns:minmax(0,1fr)"{% endif %}>
       <div>
         {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
         <h1 class="ets-display" id="EtsPh-{{ section.id }}">{{ heading }}</h1>
