@@ -1,5 +1,5 @@
 {% doc %}
-  Renders existing bathroom collection links.
+  Renders existing bathroom collection links, prioritising high-intent and higher-value categories.
 {% enddoc %}
-{% assign category_handles = 'accessories,towel-rails,bathroom-hooks,toilet-roll-holders,soap-shelf-holders,tapware,bathroom-vanities,basins,baths,mirrors,shower-screens,toilets' | split: ',' %}
+{% assign category_handles = 'bathroom-vanities,tapware,basins,baths,toilets,shower-screens,mirrors,accessories,towel-rails,bathroom-hooks,toilet-roll-holders,soap-shelf-holders' | split: ',' %}
 {% for handle in category_handles %}{% assign item = collections[handle] %}{% if item != blank %}<a href="{{ item.url }}">{% if handle == 'accessories' %}All bathroom accessories{% else %}{{ item.title | escape }}{% endif %}</a>{% endif %}{% endfor %}
