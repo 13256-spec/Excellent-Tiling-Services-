@@ -47,3 +47,7 @@
   .ets-link, .ets-crumbs a { position: relative; }
   .ets-link::before, .ets-crumbs a::before { content: ''; position: absolute; inset: -8px -6px; }
 }
+
+/* Showroom address everywhere links to the booking page (visits are by appointment). */
+.ets-address-link { color: inherit; text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.ets-address-link:hover { color: var(--ets-brass); }

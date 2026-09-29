@@ -375,7 +375,7 @@
           "settings": {
             "icon": "store",
             "title": "Maddington showroom",
-            "text": "<p>See tiles and bathroomware in person at 17A Olga Road, Maddington — by appointment, Monday to Saturday 4:30–9 pm.</p>",
+            "text": "<p>See tiles and bathroomware in person at <a href=\"/pages/book-appointment\">17A Olga Road, Maddington</a> — by appointment, Monday to Saturday 4:30–9 pm.</p>",
             "link_label": "Book a visit",
             "link": "shopify://pages/book-appointment"
           }
@@ -429,7 +429,7 @@
           "type": "question",
           "settings": {
             "question": "Can I visit the showroom?",
-            "answer": "<p>Yes, by appointment, Monday to Saturday from 4:30 pm to 9 pm at 17A Olga Road, Maddington WA 6109. <a href=\"/pages/book-appointment\">Book a visit</a> or call 0450 960 543.</p>"
+            "answer": "<p>Yes, by appointment, Monday to Saturday from 4:30 pm to 9 pm at <a href=\"/pages/book-appointment\">17A Olga Road, Maddington WA 6109</a>. <a href=\"/pages/book-appointment\">Book a visit</a> or call 0450 960 543.</p>"
           }
         }
       },

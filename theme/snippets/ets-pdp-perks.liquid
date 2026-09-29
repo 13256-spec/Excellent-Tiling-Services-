@@ -36,7 +36,7 @@
   </li>
   <li>
     {% render 'ets-icon', name: 'store' %}
-    <span><strong>See it in the showroom</strong><small>{{ settings.ets_address | escape }} · by appointment · <a href="/pages/book-appointment">Book a visit</a></small></span>
+    <span><strong>See it in the showroom</strong><small>{% render 'ets-address-link' %} · by appointment · <a href="/pages/book-appointment">Book a visit</a></small></span>
   </li>
   <li>
     {% render 'ets-icon', name: 'return' %}

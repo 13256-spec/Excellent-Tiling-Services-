@@ -64,7 +64,7 @@
       <div>
         <h3>Showroom</h3>
         <ul role="list">
-          <li>{{ settings.ets_address | escape }}</li>
+          <li>{% render 'ets-address-link' %}</li>
           <li>{{ settings.ets_hours | escape }}</li>
           <li><a href="https://www.google.com/maps/search/?api=1&query={{ settings.ets_address | url_encode }}" target="_blank" rel="noopener">Get directions →</a></li>
           {%- if pages['book-appointment'] != blank -%}<li><a href="{{ pages['book-appointment'].url }}">Book a visit →</a></li>{%- endif -%}

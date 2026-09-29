@@ -119,7 +119,7 @@
         <ul class="ets-specs__points" role="list">
           {%- if mf.lead_time != blank -%}<li>Lead time: {{ mf.lead_time.value | escape }}</li>{%- endif -%}
           <li>We deliver within Australia from Maddington, WA. Delivery options for your address are shown at checkout, or contact us for a delivery quote.</li>
-          <li>Free pickup from 17A Olga Road, Maddington, by appointment once we confirm your order is ready.</li>
+          <li>Free pickup from {% render 'ets-address-link', text: '17A Olga Road, Maddington' %}, by appointment once we confirm your order is ready.</li>
           <li>Change-of-mind returns within 30 days of receiving your order, for unused products in original packaging. A restocking fee applies.</li>
         </ul>
         <p class="ets-specs__note">

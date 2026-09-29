@@ -208,7 +208,7 @@
         </div>
         <div class="ets-drawer__contact">
           <a href="tel:{{ phone_link }}">{{ phone }}</a><br>
-          {{ settings.ets_address | escape }}<br>
+          {% render 'ets-address-link' %}<br>
           <span class="ets-small">{{ settings.ets_hours | escape }}</span>
         </div>
       </div>

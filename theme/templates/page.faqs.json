@@ -35,7 +35,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Where are you?",
-            "answer": "<p>17A Olga Road, Maddington WA 6109.</p>"
+            "answer": "<p><a href=\"/pages/book-appointment\">17A Olga Road, Maddington WA 6109</a>.</p>"
           }
         },
         "q_2": {

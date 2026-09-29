@@ -54,7 +54,7 @@
           <dl class="ets-dl">
             <div><dt>Phone</dt><dd><a href="tel:{{ settings.ets_phone_link }}">{{ settings.ets_phone }}</a></dd></div>
             <div><dt>Email</dt><dd><a href="mailto:{{ settings.ets_email }}">{{ settings.ets_email }}</a></dd></div>
-            <div><dt>Trade pickup</dt><dd>{{ settings.ets_address | escape }}</dd></div>
+            <div><dt>Trade pickup</dt><dd>{% render 'ets-address-link' %}</dd></div>
           </dl>
         </div></div>
       </aside>
