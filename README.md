@@ -54,6 +54,22 @@ Settings → Policies (the API connector used here can't write legal policies).
   description (≤155 chars, always mentions Perth) from the product's own specs.
   `seo/product-seo.json` is the exact set written to Shopify on 26 Sep 2026 (224 products).
 - `seo/collection-seo.json` holds the titles/descriptions added to 27 collections that had none.
+- Search-term pass (1 Oct 2026), applied live in Shopify:
+  - `seo/search-keyword-collections.json`: 21 collections retitled around what people search
+    ("bathroom vanities for sale", "double vanities", "bathroom taps", "basin taps",
+    "shower mixer", "shower heads", "bath taps", "kitchen mixer taps"...), with new search
+    titles/descriptions and a keyword-rich first paragraph. Visible collection names changed
+    for tapware → "Bathroom Taps & Tapware", basin-mixers → "Basin Mixers & Basin Taps",
+    wall-mixers → "Shower Mixers & Wall Mixers", shower-tapware → "Shower Heads & Shower Sets",
+    bath-tapware → "Bath Taps & Spouts", kitchen-tapware → "Kitchen Mixer Taps",
+    double-vanities → "Double Vanities", single-vanities → "Single Vanities". Handles/URLs unchanged.
+  - `seo/keyword_product_titles.py` → `seo/keyword-product-titles.json`: search titles for the
+    178 active MELA products that add the everyday term for each type ("Basin Mixer Tap",
+    "Shower Mixer", "Wall Hung Vanity", "Bathtub", "Bathroom Mirror"...). Descriptions are the
+    Perth versions from `product-seo.json` (live ones had been reset to "Shop online at
+    Excellent Tiling Services" with no SEO title, so something overwrote the 26 Sep set).
+  - Shopify's API clears the meta description if a product's SEO title is sent alone, so
+    always send both.
 - Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
   end in "| ETS Perth", so titles stay inside Google's display limit.
 
