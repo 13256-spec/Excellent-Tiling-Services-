@@ -1,0 +1,63 @@
+{%- liquid
+  assign since = settings.ets_since
+  assign count = 0
+-%}
+<section class="ets ets-trust" aria-label="Why choose ETS">
+  <div class="ets-wrap">
+    <ul class="ets-trust__list" role="list">
+      {%- if settings.ets_google_rating != blank -%}
+        {%- assign count = count | plus: 1 -%}
+        <li>
+          <span class="ets-trust__icon">{% render 'ets-icon', name: 'star' %}</span>
+          <div>
+            <strong>{{ settings.ets_google_rating | escape }} on Google</strong>
+            <span>{% if settings.ets_google_url != blank %}<a href="{{ settings.ets_google_url }}" target="_blank" rel="noopener">{% endif %}{% if settings.ets_google_count != blank %}{{ settings.ets_google_count | escape }} reviews{% else %}Read our reviews{% endif %}{% if settings.ets_google_url != blank %}</a>{% endif %}</span>
+          </div>
+        </li>
+      {%- endif -%}
+      {%- if settings.ets_insured -%}
+        {%- assign count = count | plus: 1 -%}
+        <li>
+          <span class="ets-trust__icon">{% render 'ets-icon', name: 'shield' %}</span>
+          <div><strong>Licensed &amp; insured</strong><span>{% if settings.ets_licence != blank %}Licence {{ settings.ets_licence | escape }}{% else %}Fully insured Perth team{% endif %}</span></div>
+        </li>
+      {%- endif -%}
+      {%- if settings.ets_warranty != blank -%}
+        {%- assign count = count | plus: 1 -%}
+        <li>
+          <span class="ets-trust__icon">{% render 'ets-icon', name: 'medal' %}</span>
+          <div><strong>{{ settings.ets_warranty | escape }}</strong><span>On our renovation work</span></div>
+        </li>
+      {%- endif -%}
+      {%- if since != blank -%}
+        {%- assign count = count | plus: 1 -%}
+        <li>
+          <span class="ets-trust__icon">{% render 'ets-icon', name: 'tile' %}</span>
+          <div><strong>Tiling Perth since {{ since | escape }}</strong><span>Local Perth team</span></div>
+        </li>
+      {%- endif -%}
+      {%- if count < 4 -%}
+        {%- assign count = count | plus: 1 -%}
+        <li>
+          <span class="ets-trust__icon">{% render 'ets-icon', name: 'truck' %}</span>
+          <div><strong>Free shipping over $100</strong><span>Tapware &amp; accessories, Australia-wide</span></div>
+        </li>
+      {%- endif -%}
+      {%- if count < 4 -%}
+        <li>
+          <span class="ets-trust__icon">{% render 'ets-icon', name: 'briefcase' %}</span>
+          <div><strong>Trade accounts</strong><span>Up to {{ settings.ets_trade_tiles_pct }}% off for approved trades</span></div>
+        </li>
+      {%- endif -%}
+    </ul>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS trust strip",
+  "settings": [
+    { "type": "paragraph", "content": "Shows up to four trust points from Theme settings → ETS business details (Google rating, licence, warranty, years). Empty fields are hidden." }
+  ],
+  "presets": [{ "name": "ETS trust strip" }]
+}
+{% endschema %}

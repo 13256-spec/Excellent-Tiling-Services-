@@ -11,7 +11,10 @@
   "sections": {
     "hero": {
       "type": "ets-collection-hero",
-      "settings": {}
+      "settings": {
+        "menu": "main-menu-2026",
+        "show_image": true
+      }
     },
     "main": {
       "type": "main-collection",
@@ -133,14 +136,85 @@
         "padding-block-end": 64
       }
     },
-    "support": {
-      "type": "ets-collection-support",
-      "settings": {}
+    "selling_points": {
+      "type": "ss-scrolling-features",
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "text": "Free shipping over $100 on tapware & accessories",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "icon": "truck_2",
+            "text": "Perth metro delivery on tiles & large items",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "text": "Free pickup from Maddington",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "icon": "price",
+            "text": "Trade pricing for builders & tilers",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_5": {
+          "type": "item",
+          "settings": {
+            "icon": "shop",
+            "text": "Showroom by appointment · Mon–Sat 4:30–9 pm",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_6": {
+          "type": "item",
+          "settings": {
+            "icon": "phone",
+            "text": "Advice from our team · 0450 960 543",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "item_6"
+      ],
+      "settings": {
+        "background-color": "#EEEAE2",
+        "border_color": "#DCD9D2",
+        "border_top": false,
+        "border_bottom": false,
+        "scroll_pause": true,
+        "scroll_on_desktop": true
+      }
     }
   },
   "order": [
     "hero",
-    "main",
-    "support"
+    "selling_points",
+    "main"
   ]
 }

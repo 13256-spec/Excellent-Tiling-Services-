@@ -23,11 +23,30 @@ The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm
 Edits are made on an unpublished copy of the live theme, previewed, then published from
 Shopify admin → Online Store → Themes.
 
+## Navigation (draft theme, 1 Oct 2026)
+
+The live header (`sections/ets-header.liquid`) builds its dropdowns from a Shopify menu. In the old
+`main-menu`, the combined items linked to only half their range ("Baths & toilets" opened
+`/collections/baths`, so no toilets showed). Fix, staged without touching the live theme:
+
+- Four smart collections (by product type, published, manual order that alternates the two halves):
+  `baths-toilets`, `vanities-basins`, `tapware-sinks`, `mirrors-accessories`.
+- New menu `main-menu-2026` (copy of `main-menu` whose combined items point at those collections,
+  plus "All baths", "All vanities", "All tapware" and "All accessories" links).
+- Unpublished theme **"ETS 2026 – Menu fix: baths & toilets (draft)"** (duplicate of the live theme)
+  uses `main-menu-2026` in the header, footer "Shop" column, collection hero chips, All departments
+  page and page-hero chips. It also replaces "free shipping on small items" wording with "free
+  shipping over $100" to match the current shipping rates.
+- New products are picked up automatically by product type; to keep the dropdown mix, drag new items
+  into place under Products → Collections (sort is manual).
+
+After publishing the draft, `main-menu` can be retired or replaced by `main-menu-2026`.
+
 ## Store content
 
-`store-content/policies/` holds the current policy text. `shipping-policy.html` and
-`contact-information.html` carry the by-appointment pickup wording and must be pasted into
-Shopify admin → Settings → Policies (the API connector used here can't write legal policies).
+`store-content/policies/` holds the policy text (updated 1 Oct 2026: shipping matches the live rates,
+Australian privacy policy, trade-account and quote terms). Paste each file into Shopify admin →
+Settings → Policies (the API connector used here can't write legal policies).
 
 ## SEO
 

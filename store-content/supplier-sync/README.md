@@ -35,7 +35,9 @@ Sources: eternitytiles.com.au (tiles) and bathroom-city.com.au (MELA), read from
 | Morgan Cloud Porcelain Tile | Morgan Cloud / 300x600x9.5 / Matt | ET36AK662 | $44.00 |
 | Cement White Porcelain Tile | Cement White / 300x600x9.5 / Matt | ET36MQ01 | $44.00 |
 
-## Shipping profile: free shipping on small items (26 Sep 2026)
+## Shipping profile: free shipping on small items (26 Sep 2026, superseded)
+
+> **Superseded.** As of 1 Oct 2026 this profile no longer exists. Shipping is now: General profile (small items) $20 flat, free on orders $100+; "Australia Post parcels - bulky items" by weight; "Local delivery or pickup - large items" for tiles, baths, toilets, vanities and screens. See `store-content/policies/shipping-policy.html`.
 
 Delivery profile "Free shipping - small bathroom items" (gid://shopify/DeliveryProfile/94502682687): Australia-wide, $0, 384 variants from Maddington.
 Included product types: tapware (basin/wall/sink mixers, spouts), shower heads, arms, sets, hoses, towel rails, hooks, holders, shelves, wastes, shower screen fittings (except the 2000 mm U channel).

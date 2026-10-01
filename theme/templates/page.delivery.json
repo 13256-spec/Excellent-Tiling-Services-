@@ -1,0 +1,151 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "eyebrow": "Delivery & pickup",
+        "heading": "Getting your order <em>to you</em>.",
+        "text": "How your order is delivered depends on what you're buying and where it's going. Here's how it works.",
+        "show_crumbs": true
+      }
+    },
+    "options": {
+      "type": "ets-info-cards",
+      "settings": {
+        "eyebrow": "",
+        "heading": "",
+        "bg": "none"
+      },
+      "blocks": {
+        "0": {
+          "type": "card",
+          "settings": {
+            "icon": "box",
+            "title": "Free shipping over $100 on small items",
+            "text": "<p>Tapware, shower sets, towel rails, hooks, holders and other small boxed items ship anywhere in Australia: free on orders over $100, or a $20 flat rate under $100. Basins, mirrors, sinks and niche boxes go by tracked Australia Post parcel, priced by weight at checkout.</p>"
+          }
+        },
+        "1": {
+          "type": "card",
+          "settings": {
+            "icon": "truck",
+            "title": "Perth local delivery",
+            "text": "<p>Tiles, vanities, baths, toilets and shower screens are delivered locally across the Perth metro area. Delivery options and costs show at checkout. Tiles are not shipped outside Perth.</p>"
+          }
+        },
+        "2": {
+          "type": "card",
+          "settings": {
+            "icon": "store",
+            "title": "Free pickup from Maddington",
+            "text": "<p>Choose local pickup at checkout. Wait for our email saying your order is ready, then book a pickup time — Monday to Saturday, 4:30–9 pm.</p>",
+            "link_label": "Book a pickup time",
+            "link": "shopify://pages/book-appointment"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2"
+      ]
+    },
+    "steps": {
+      "type": "ets-steps",
+      "settings": {
+        "eyebrow": "How it works",
+        "heading": "Simple at <em>checkout</em>.",
+        "bg": "sand"
+      },
+      "blocks": {
+        "0": {
+          "type": "step",
+          "settings": {
+            "title": "Build your order",
+            "text": "Add what you need to the cart. Use the tile calculator to get quantities right."
+          }
+        },
+        "1": {
+          "type": "step",
+          "settings": {
+            "title": "Choose delivery or pickup",
+            "text": "Perth local delivery, Australia-wide shipping (free over $100 on small items), or free pickup: the options for your address show at checkout."
+          }
+        },
+        "2": {
+          "type": "step",
+          "settings": {
+            "title": "We confirm",
+            "text": "For large, heavy or regional orders we may contact you to confirm the delivery details."
+          }
+        },
+        "3": {
+          "type": "step",
+          "settings": {
+            "title": "Receive or collect",
+            "text": "Check everything on arrival and let us know straight away if anything's damaged."
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    "faq": {
+      "type": "ets-faq",
+      "settings": {
+        "eyebrow": "Delivery FAQs",
+        "heading": "Good to <em>know</em>.",
+        "text": "Need a delivery quote before ordering? Call or email the team.",
+        "open_first": false,
+        "bg": "white"
+      },
+      "blocks": {
+        "0": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship internationally?",
+            "answer": "<p>No — we deliver within Australia only.</p>"
+          }
+        },
+        "1": {
+          "type": "question",
+          "settings": {
+            "question": "Can I get tiles delivered outside Perth?",
+            "answer": "<p>Tiles are delivered within the Perth metro area only. For regional WA, contact us and we'll let you know your options.</p>"
+          }
+        },
+        "2": {
+          "type": "question",
+          "settings": {
+            "question": "How long will delivery take?",
+            "answer": "<p>Timing depends on stock, the carrier and your location. Any timeframe we give is an estimate — see our <a href=\"/policies/shipping-policy\">shipping policy</a> for details.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "0",
+        "1",
+        "2"
+      ]
+    }
+  },
+  "order": [
+    "hero",
+    "options",
+    "steps",
+    "faq"
+  ]
+}
