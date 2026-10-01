@@ -54,7 +54,8 @@ Settings → Policies (the API connector used here can't write legal policies).
   description (≤155 chars, always mentions Perth) from the product's own specs.
   `seo/product-seo.json` is the exact set written to Shopify on 26 Sep 2026 (224 products).
 - `seo/collection-seo.json` holds the titles/descriptions added to 27 collections that had none.
-- Search-term pass (1 Oct 2026), applied live in Shopify:
+- Search-term pass (1 Oct 2026), applied live in Shopify, aimed at shoppers Australia-wide
+  (no city in titles; delivery wording follows the shipping policy):
   - `seo/search-keyword-collections.json`: 21 collections retitled around what people search
     ("bathroom vanities for sale", "double vanities", "bathroom taps", "basin taps",
     "shower mixer", "shower heads", "bath taps", "kitchen mixer taps"...), with new search
@@ -63,13 +64,19 @@ Settings → Policies (the API connector used here can't write legal policies).
     wall-mixers → "Shower Mixers & Wall Mixers", shower-tapware → "Shower Heads & Shower Sets",
     bath-tapware → "Bath Taps & Spouts", kitchen-tapware → "Kitchen Mixer Taps",
     double-vanities → "Double Vanities", single-vanities → "Single Vanities". Handles/URLs unchanged.
+    Tiles stay Perth-focused because tiles aren't shipped outside Perth metro.
   - `seo/keyword_product_titles.py` → `seo/keyword-product-titles.json`: search titles for the
     178 active MELA products that add the everyday term for each type ("Basin Mixer Tap",
-    "Shower Mixer", "Wall Hung Vanity", "Bathtub", "Bathroom Mirror"...). Descriptions are the
-    Perth versions from `product-seo.json` (live ones had been reset to "Shop online at
-    Excellent Tiling Services" with no SEO title, so something overwrote the 26 Sep set).
+    "Shower Mixer", "Wall Hung Vanity", "Bathtub", "Bathroom Mirror"...). Descriptions keep the
+    product facts from `product-seo.json` and end with that type's delivery: free shipping
+    Australia-wide over $100 (tapware, showers, accessories), Australia Post (basins, mirrors,
+    sinks, freestanding bath taps) or Perth delivery with freight quoted Australia-wide (vanities,
+    baths, toilets, shower screens). Live ones had been reset to "Shop online at Excellent Tiling
+    Services" with no SEO title, so something overwrote the 26 Sep set.
   - Shopify's API clears the meta description if a product's SEO title is sent alone, so
     always send both.
+  - Theme (not yet uploaded): `meta-tags.liquid` business schema now serves Australia, not just
+    Perth, and the " – Excellent Tiling Services" suffix is skipped for any title containing " | ".
 - Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
   end in "| ETS Perth", so titles stay inside Google's display limit.
 
