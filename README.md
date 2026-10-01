@@ -75,7 +75,8 @@ Settings → Policies (the API connector used here can't write legal policies).
     Services" with no SEO title, so something overwrote the 26 Sep set.
   - Shopify's API clears the meta description if a product's SEO title is sent alone, so
     always send both.
-  - Theme (not yet uploaded): `meta-tags.liquid` business schema now serves Australia, not just
+  - Theme: uploaded 1 Oct 2026 to the unpublished "ETS 2026 – Menu fix: baths & toilets (draft)"
+    alongside the menu fix (publish that theme to make both live). `meta-tags.liquid` business schema now serves Australia, not just
     Perth, and the " – Excellent Tiling Services" suffix is skipped for any title containing " | ".
 - Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
   end in "| ETS Perth", so titles stay inside Google's display limit.
