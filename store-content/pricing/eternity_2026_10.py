@@ -3,10 +3,10 @@
 Cost recorded in Shopify = Eternity "non pallet" price ex GST (what we pay per m2 on a normal
 order). Pallet and mixed 3+ pallet prices are kept here for quoting bigger jobs.
 
-Public price = 10% under Eternity's RRP (incl. GST), rounded down to 10c, so we sit below
-Eternity's own shop and WA stockists that sell at RRP. Every price must stay at least 25%
-above cost incl. GST. Prices are never raised: a variant already below target keeps its price
-as long as it clears that minimum.
+Public price = 15% under Eternity's RRP (incl. GST), rounded down to 10c, so we sit below
+Eternity's own shop and WA stockists that sell at RRP. Trade accounts then get a further
+discount (15% off public keeps trade about 24-27% above cost). Every public price must stay
+at least 25% above cost incl. GST. Approved by the owner on 2 Oct 2026 ("option B").
 
 Usage: eternity_2026_10.py current.json out.csv
   current.json: [{variant_id, product, variant, sku, price}] from Shopify
@@ -54,7 +54,7 @@ RENAME = {f"ET{c}": f"DSA{c}" for c in ["36CP01N", "66CP01N", "36AK661", "66AK66
           "126MQ02", "36MQ04", "66MQ04"]}
 BY_VARIANT = {("Lava Kraka Porcelain Tile", "600x1200mm / Gloss"): "YW277315"}
 
-UNDER_RRP, MIN_MARKUP = 0.10, 1.25
+UNDER_RRP, MIN_MARKUP, TRADE_OFF = 0.15, 1.25, 0.15
 
 
 def plan(cur):
@@ -62,7 +62,8 @@ def plan(cur):
     for v in cur:
         sku = RENAME.get(v["sku"] or "", v["sku"]) or BY_VARIANT.get((v["product"], v["variant"]))
         row = {**v, "new_sku": sku or "", "rrp": "", "cost_ex": "", "pallet_ex": "", "mixed3_ex": "",
-               "pallet_qty": "", "new_price": v["price"], "margin_pct": "", "note": ""}
+               "pallet_qty": "", "new_price": v["price"], "margin_pct": "", "trade_price": "",
+               "trade_margin_pct": "", "note": ""}
         if sku not in LIST:
             row["note"] = "Not on the 5 Oct list - price kept, no cost recorded. Check with Eternity."
             rows.append(row); continue
@@ -71,13 +72,14 @@ def plan(cur):
         floor_price = math.ceil(cost * 1.1 * MIN_MARKUP * 10) / 10
         if price < floor_price:
             price, row["note"] = floor_price, "Raised to the 25% minimum margin."
-        elif float(v["price"]) < price and float(v["price"]) >= floor_price:
-            price, row["note"] = float(v["price"]), "Already below target; price kept."
         if qty == "TBC":
             row["note"] = (row["note"] + " Pallet qty TBC on the list.").strip()
         row.update(rrp=rrp, cost_ex=cost, pallet_ex=pallet, mixed3_ex=mixed, pallet_qty=qty,
                    new_price=f"{price:.2f}",
-                   margin_pct=round((price / 1.1 - cost) / (price / 1.1) * 100, 1))
+                   margin_pct=round((price / 1.1 - cost) / (price / 1.1) * 100, 1),
+                   trade_price=f"{price * (1 - TRADE_OFF):.2f}",
+                   trade_margin_pct=round((price * (1 - TRADE_OFF) / 1.1 - cost)
+                                          / (price * (1 - TRADE_OFF) / 1.1) * 100, 1))
         rows.append(row)
     return rows
 
