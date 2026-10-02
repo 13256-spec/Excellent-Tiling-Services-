@@ -35,3 +35,20 @@ Rules:
 - Not on the new list (price kept, no cost): Lava Etna Gloss 300x600 and 600x600, Lava Kraka
   600x1200 Matt, Cement White and Cement Grey 300x300. The list prints Time Stone Moon matt as
   YSR...; Eternity's site and our SKUs use YFR..., treated as the same tile.
+
+## Range update to match the 5 Oct 2026 list (2 Oct 2026)
+
+- Removed sizes not on the list: Lava Etna Gloss 300x600 and 600x600, Lava Kraka Matt 600x1200,
+  Cement White and Cement Grey 300x300 (tags and descriptions updated to match).
+- Added missing sizes: Morgan Hail 600x1200 (DSA126AK661), Morgan Cloud 300x300 (DSA33AK662) and
+  300x600 (DSA36AK662), Cement White 300x600 (DSA36MQ01).
+- Created 31 products (43 variants) with `eternity_new_products_2026_10.py` -> `eternity-new-products-2026-10.json`:
+  Lava Vesuv, Fumosa, Astra White/Greige, Sand White/Beige/Grey, Bianco Greco, Caliza, E-Time Calcare/Chiaro,
+  Oak Aube, Subway and Subwave ceramics, White/Eternal Marble/Eternal Carrara/Element Grey/Whisper Grey
+  ceramic wall tiles, and 8 natural stone mosaics (sold per sheet). Same pricing rule (15% under RRP),
+  cost recorded, published to all channels, added to `tiles`, delivery profile "Local delivery or pickup -
+  large items".
+- Photos: Eternity's own product photos for the ceramic ranges; swatches cut from the price list PDF
+  (`eternity-swatches/`, about 200px, alt text says "indicative swatch") for ranges Eternity's shop doesn't
+  list yet. Replace with proper photos when Eternity publishes them.
+- New smart collections: `ceramic-wall-tiles` (tag Ceramic + type Tile) and `mosaic-tiles` (tag Mosaic).
