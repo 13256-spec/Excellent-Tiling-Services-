@@ -42,6 +42,10 @@ The live header (`sections/ets-header.liquid`) builds its dropdowns from a Shopi
 
 After publishing the draft, `main-menu` can be retired or replaced by `main-menu-2026`.
 
+2 Oct 2026: "Ceramic & wall tiles" (`/collections/ceramic-wall-tiles`) and "Mosaic tiles"
+(`/collections/mosaic-tiles`) added under Tiles, after "300 x 300 mm", in both `main-menu` and
+`main-menu-2026`.
+
 ## Store content
 
 `store-content/policies/` holds the policy text (updated 1 Oct 2026: shipping matches the live rates,
