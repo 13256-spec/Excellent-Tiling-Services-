@@ -40,7 +40,8 @@ The live header (`sections/ets-header.liquid`) builds its dropdowns from a Shopi
 - New products are picked up automatically by product type; to keep the dropdown mix, drag new items
   into place under Products → Collections (sort is manual).
 
-After publishing the draft, `main-menu` can be retired or replaced by `main-menu-2026`.
+This theme is now the live (published) theme, confirmed 2 Oct 2026, so `main-menu-2026` is the live
+menu and `main-menu` is no longer used by the header.
 
 2 Oct 2026: "Ceramic & wall tiles" (`/collections/ceramic-wall-tiles`) and "Mosaic tiles"
 (`/collections/mosaic-tiles`) added under Tiles, after "300 x 300 mm", in both `main-menu` and
@@ -80,7 +81,7 @@ Settings → Policies (the API connector used here can't write legal policies).
   - Shopify's API clears the meta description if a product's SEO title is sent alone, so
     always send both.
   - Theme: uploaded 1 Oct 2026 to the unpublished "ETS 2026 – Menu fix: baths & toilets (draft)"
-    alongside the menu fix (publish that theme to make both live). `meta-tags.liquid` business schema now serves Australia, not just
+    alongside the menu fix; that theme is now live. `meta-tags.liquid` business schema now serves Australia, not just
     Perth, and the " – Excellent Tiling Services" suffix is skipped for any title containing " | ".
 - Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
   end in "| ETS Perth", so titles stay inside Google's display limit.
