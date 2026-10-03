@@ -76,3 +76,5 @@ was compared with, and any flag. Rules are in the script's docstring. In short:
   the competitor because it sells below our profit floor; ~30 `BELOW PROFIT FLOOR` items left for the owner.
 - PDFs: `price_list_pdf.py` -> `price-lists/ETS-price-list-2026-10.pdf` (retail) and
   `price-lists/ETS-trade-price-list-2026-10.pdf` (retail + trade).
+- Supplier delivery (SILVER sheet: $80 metro, $120 at 30-50 km) isn't added to costs: the owner confirmed
+  (3 Oct) that delivery for bulky items is charged to the customer at checkout.
