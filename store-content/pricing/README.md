@@ -52,3 +52,21 @@ Rules:
   (`eternity-swatches/`, about 200px, alt text says "indicative swatch") for ranges Eternity's shop doesn't
   list yet. Replace with proper photos when Eternity publishes them.
 - New smart collections: `ceramic-wall-tiles` (tag Ceramic + type Tile) and `mosaic-tiles` (tag Mosaic).
+
+# Store-wide public and trade pricing (plan, 3 Oct 2026, awaiting owner approval)
+
+`reprice_2026_10.py` → `store-pricing-2026-10-03.csv`: one row per active variant with the old price
+(backup), new public price, trade band and trade price, cost (ex GST), margins, the competitor price it
+was compared with, and any flag. Rules are in the script's docstring. In short:
+
+- Competitors: Bathroom City for MELA (5% under, to the dollar); B&B Hardware, Maddington, for the ~50
+  hardware items it also sells (5% under, to 5c). Terweys Total Hardware has no online prices. Other
+  hardware: 10% under our old (supplier RRP) price. Tiles keep the 2 Oct prices.
+- Profit floor: public ≥ cost inc GST × 1.25, trade ≥ cost inc GST × 1.15. Prices below the floor rise
+  at most 10% and stay under the competitor; bigger gaps are flagged `BELOW PROFIT FLOOR` and left.
+- MELA costs are estimates (Bathroom City list × (1 − SLIVER trade discount)); the sheet's discount is off
+  the GST-inclusive list, so they're stored ex GST (÷ 1.1).
+- Trade: per-product bands of 5/10/15/20/25% (tiles max 15%), each the deepest that keeps every
+  variant above the trade floor. Applied by tag `trade-N` + collection + automatic discount for customers
+  tagged `trade` (Shopify Basic has no B2B price lists). The trade price is also stored per variant in the
+  `custom.trade_price` metafield.
