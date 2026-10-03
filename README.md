@@ -131,3 +131,12 @@ template look:
 - Trade discounts now match the per-item bands (`snippets/ets-trade-rates.liquid`, used by
   `ets-trade-band` and `ets-trade-apply`; trust strip says "up to 25%"). The live theme still shows the
   old 20% / 15% / 10% table until this draft is published.
+
+## Landing page boost (draft theme, 3 Oct 2026)
+
+The design refresh above is now live. Unpublished theme **"ETS 2026 – Landing page boost (draft)"**
+(id 143765635135, duplicate of the live theme) adds:
+- Hero stats on phones as a tidy three-column row (tile styles · products · trade discount).
+- Trust strip on phones as one slim swipeable row instead of a tall 2×2 block (`sections/ets-trust.liquid`).
+- Sticky phone bar ("Call 0450 960 543" + gold "Free quote") that slides up once the hero is scrolled past
+  (in `sections/ets-hero-full.liquid`, hidden on desktop).

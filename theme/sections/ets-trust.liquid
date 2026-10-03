@@ -52,6 +52,20 @@
     </ul>
   </div>
 </section>
+{% stylesheet %}
+  /* Trust strip: one slim swipeable row on phones instead of a tall 2x2 grid */
+@media (max-width: 989px) {
+  .ets-trust__list { display: flex; overflow-x: auto; scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .ets-trust__list::-webkit-scrollbar { display: none; }
+  .ets-trust__list li { flex: 0 0 auto; flex-direction: row; align-items: center; gap: 10px; padding: 14px 18px; border-top: 0; border-left: 1px solid var(--ets-line); scroll-snap-align: start; }
+  .ets-trust__list li:first-child { border-left: 0; padding-left: 0; }
+  .ets-trust__icon { width: 22px; height: 22px; }
+  .ets-trust__icon svg { width: 20px; height: 20px; }
+  .ets-trust__list strong { font-size: 14px; white-space: nowrap; }
+  .ets-trust__list span { font-size: 12px; white-space: nowrap; margin-top: 1px; }
+}
+{% endstylesheet %}
+
 {% schema %}
 {
   "name": "ETS trust strip",
