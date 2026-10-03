@@ -53,7 +53,7 @@ Rules:
   list yet. Replace with proper photos when Eternity publishes them.
 - New smart collections: `ceramic-wall-tiles` (tag Ceramic + type Tile) and `mosaic-tiles` (tag Mosaic).
 
-# Store-wide public and trade pricing (plan, 3 Oct 2026, awaiting owner approval)
+# Store-wide public and trade pricing (applied 3 Oct 2026, approved by the owner)
 
 `reprice_2026_10.py` → `store-pricing-2026-10-03.csv`: one row per active variant with the old price
 (backup), new public price, trade band and trade price, cost (ex GST), margins, the competitor price it
@@ -67,6 +67,12 @@ was compared with, and any flag. Rules are in the script's docstring. In short:
 - MELA costs are estimates (Bathroom City list × (1 − SLIVER trade discount)); the sheet's discount is off
   the GST-inclusive list, so they're stored ex GST (÷ 1.1).
 - Trade: per-product bands of 5/10/15/20/25% (tiles max 15%), each the deepest that keeps every
-  variant above the trade floor. Applied by tag `trade-N` + collection + automatic discount for customers
-  tagged `trade` (Shopify Basic has no B2B price lists). The trade price is also stored per variant in the
-  `custom.trade_price` metafield.
+  variant above the trade floor. Shopify Basic has no B2B price lists, so each band is a manual (unpublished)
+  collection `trade-list-5` ... `trade-list-25` with an automatic discount "Trade price – N%" for the
+  "Trade customers" segment (customer tag `trade`). To change one item's trade discount, move it to another
+  `trade-list-N` collection in Shopify admin. The old tag-based `trade-band-*` collections are no longer used.
+  (A `custom.trade_price` variant metafield definition exists but isn't filled.)
+- Applied: 1,388 prices, 599 MELA costs (ex GST), 5 trade discounts. 4 B&B items and 64 MELA items stay above
+  the competitor because it sells below our profit floor; ~30 `BELOW PROFIT FLOOR` items left for the owner.
+- PDFs: `price_list_pdf.py` -> `price-lists/ETS-price-list-2026-10.pdf` (retail) and
+  `price-lists/ETS-trade-price-list-2026-10.pdf` (retail + trade).
