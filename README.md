@@ -115,3 +115,16 @@ See [store-content/booking-form-shopify-forms.md](store-content/booking-form-sho
   product page carries one product schema, not two. Redo this after a Horizon update.
 - Uploaded 29 Sep 2026 to the unpublished theme "ETS 2026 – Schema for AI + search (preview)"
   (a duplicate of the live theme); publish it from Shopify admin → Online Store → Themes.
+
+## Design refresh (draft theme, 3 Oct 2026)
+
+Unpublished theme **"ETS 2026 – Design refresh (draft)"** (duplicate of the live theme) tones down the
+template look:
+- `assets/ets-refine.css` (loaded after `ets-2026.css`): one typeface (Manrope), no italic accent words in
+  headings, smaller headings, plain section labels instead of pill "eyebrows", simple rectangular buttons
+  without the arrow bubble, flat cards, no fade-in on scroll, vendor label hidden on product cards.
+- `templates/index.json`: plain headings, removed the duplicate "What we do" services block, real tile-range
+  descriptions (colours, finishes, sizes), best-seller tiles from the 600×600 collection.
+- Trade discounts now match the per-item bands (`snippets/ets-trade-rates.liquid`, used by
+  `ets-trade-band` and `ets-trade-apply`; trust strip says "up to 25%"). The live theme still shows the
+  old 20% / 15% / 10% table until this draft is published.

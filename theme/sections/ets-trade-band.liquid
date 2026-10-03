@@ -1,0 +1,52 @@
+{%- liquid
+  assign trade_tag = settings.ets_trade_tag | default: 'trade'
+  assign is_trade = false
+  if customer and customer.tags contains trade_tag
+    assign is_trade = true
+  endif
+  assign trade_page = settings.ets_trade_page
+  assign lines = section.settings.checks | newline_to_br | split: '<br />'
+-%}
+<section class="ets ets-sec ets-sec--ink ets-trade-band" aria-labelledby="EtsTrade-{{ section.id }}">
+  <div class="ets-wrap ets-trade-band__grid">
+    <div data-reveal>
+      <p class="ets-eyebrow">{% if is_trade %}Your trade account{% else %}{{ section.settings.eyebrow | escape }}{% endif %}</p>
+      <h2 class="ets-h2" id="EtsTrade-{{ section.id }}">{% if is_trade %}Welcome back, {{ customer.first_name | default: 'trade partner' | escape }}.{% else %}{{ section.settings.heading }}{% endif %}</h2>
+      <p class="ets-lede" style="margin-top:20px">{% if is_trade %}Your trade discount comes off automatically in the cart while you're logged in.{% else %}{{ section.settings.text | escape }}{% endif %}</p>
+      {%- unless is_trade -%}
+        {%- if section.settings.checks != blank -%}
+          <ul class="ets-checks" role="list">
+            {%- for line in lines -%}{%- assign l = line | strip -%}{%- if l != blank -%}<li>{% render 'ets-icon', name: 'check' %}<span>{{ l | escape }}</span></li>{%- endif -%}{%- endfor -%}
+          </ul>
+        {%- endif -%}
+      {%- endunless -%}
+      <div class="ets-btns" style="margin-top:32px">
+        {%- if is_trade -%}
+          <a class="ets-btn ets-btn--light" href="{{ routes.all_products_collection_url }}">Shop at trade prices</a>
+          <a class="ets-btn ets-btn--ghost" href="{{ routes.account_url }}">Your orders</a>
+        {%- else -%}
+          <a class="ets-btn ets-btn--brass" href="{{ trade_page.url | default: '/pages/trade-account' }}">Apply for a trade account</a>
+          {%- if shop.customer_accounts_enabled and customer == nil -%}
+            <a class="ets-btn ets-btn--ghost" href="{{ routes.account_login_url }}">Trade log in</a>
+          {%- endif -%}
+        {%- endif -%}
+      </div>
+    </div>
+    <div data-reveal>
+      {% render 'ets-trade-rates' %}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS trade band",
+  "settings": [
+    { "type": "paragraph", "content": "The discount table comes from snippets/ets-trade-rates.liquid (per-item trade bands)." },
+    { "type": "text", "id": "eyebrow", "label": "Label", "default": "For builders and trades" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Trade accounts for tilers, builders and plumbers." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Approved trade accounts get a further 5–25% off, set item by item. Apply once with your ABN; after approval just log in." },
+    { "type": "textarea", "id": "checks", "label": "Checklist (one per line)", "default": "Discount comes off automatically in the cart\nPerth metro delivery to site, or pick up from Maddington\nBulk tile and project quantities quoted on request" }
+  ],
+  "presets": [{ "name": "ETS trade band" }]
+}
+{% endschema %}
