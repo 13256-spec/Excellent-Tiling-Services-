@@ -1,0 +1,189 @@
+{%- comment -%}
+  Full-bleed homepage hero: rotating room photos behind the headline, with a slow zoom,
+  a dark gradient for legibility, two buttons and a row of live shop numbers.
+  Slides are driven by the small inline script below (uses its own [data-ets-hf] hook so it
+  doesn't clash with the old hero's slider in ets-2026.js).
+{%- endcomment -%}
+{%- liquid
+  assign tiles_count = collections['tiles'].products_count
+  assign all_count = collections.all.products_count
+-%}
+<section class="ets ets-hf" aria-labelledby="EtsHf-{{ section.id }}">
+  <div class="ets-hf__media" data-ets-hf data-interval="{{ section.settings.interval }}">
+    {%- for block in section.blocks -%}
+      <figure class="ets-hf__slide{% if forloop.first %} is-active{% endif %}" data-slide {{ block.shopify_attributes }}{% unless forloop.first %} aria-hidden="true"{% endunless %}>
+        {%- if block.settings.image != blank -%}
+          {%- if forloop.first -%}
+            {{ block.settings.image | image_url: width: 2400 | image_tag: loading: 'eager', fetchpriority: 'high', widths: '750, 1100, 1500, 1920, 2400', sizes: '100vw', alt: block.settings.image.alt | default: block.settings.label }}
+          {%- else -%}
+            {{ block.settings.image | image_url: width: 2400 | image_tag: loading: 'lazy', widths: '750, 1100, 1500, 1920, 2400', sizes: '100vw', alt: block.settings.image.alt | default: block.settings.label }}
+          {%- endif -%}
+        {%- else -%}
+          {{ 'lifestyle-1' | placeholder_svg_tag }}
+        {%- endif -%}
+        {%- if block.settings.label != blank -%}
+          <figcaption><a href="{{ block.settings.link | default: routes.all_products_collection_url }}"{% unless forloop.first %} tabindex="-1"{% endunless %}><span>Pictured</span>{{ block.settings.label | escape }}</a></figcaption>
+        {%- endif -%}
+      </figure>
+    {%- endfor -%}
+    <div class="ets-hf__shade" aria-hidden="true"></div>
+    {%- if section.blocks.size > 1 -%}
+      <div class="ets-hf__dots">
+        {%- for block in section.blocks -%}
+          <button type="button" data-dot="{{ forloop.index0 }}" aria-label="Show image {{ forloop.index }} of {{ forloop.length }}"{% if forloop.first %} aria-current="true"{% endif %}><i></i></button>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+  </div>
+
+  <div class="ets-wrap ets-hf__inner">
+    <div class="ets-hf__copy">
+      {%- if section.settings.eyebrow != blank -%}<p class="ets-hf__kicker">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+      <h1 class="ets-hf__title" id="EtsHf-{{ section.id }}">{{ section.settings.heading }}</h1>
+      {%- if section.settings.text != blank -%}<p class="ets-hf__text">{{ section.settings.text | escape }}</p>{%- endif -%}
+      <div class="ets-hf__btns">
+        {%- if section.settings.btn_1_label != blank -%}
+          <a class="ets-hf__btn ets-hf__btn--solid" href="{{ section.settings.btn_1_link | default: routes.all_products_collection_url }}">{{ section.settings.btn_1_label | escape }}</a>
+        {%- endif -%}
+        {%- if section.settings.btn_2_label != blank -%}
+          <a class="ets-hf__btn ets-hf__btn--line" href="{{ section.settings.btn_2_link | default: '/pages/request-a-quote' }}">{{ section.settings.btn_2_label | escape }}</a>
+        {%- endif -%}
+      </div>
+    </div>
+    <ul class="ets-hf__stats" role="list">
+      {%- if tiles_count > 0 -%}<li><strong>{{ tiles_count }}</strong><span>tile styles</span></li>{%- endif -%}
+      {%- if all_count > 0 -%}<li><strong>{{ all_count | divided_by: 50 | times: 50 }}+</strong><span>bathroom &amp; tiling products</span></li>{%- endif -%}
+      <li><strong>{{ section.settings.stat_3_value | escape }}</strong><span>{{ section.settings.stat_3_label | escape }}</span></li>
+    </ul>
+  </div>
+</section>
+
+<script>
+  (function () {
+    var root = document.currentScript.previousElementSibling.querySelector("[data-ets-hf]");
+    if (!root || root.dataset.etsHfInit) return;
+    root.dataset.etsHfInit = '1';
+    var slides = root.querySelectorAll('[data-slide]');
+    var dots = root.querySelectorAll('[data-dot]');
+    if (slides.length < 2) return;
+    var i = 0, ms = (parseInt(root.dataset.interval, 10) || 6) * 1000, t;
+    function show(n) {
+      i = (n + slides.length) % slides.length;
+      slides.forEach(function (s, k) {
+        var on = k === i;
+        s.classList.toggle('is-active', on);
+        if (on) { s.removeAttribute('aria-hidden'); } else { s.setAttribute('aria-hidden', 'true'); }
+        var a = s.querySelector('a');
+        if (a) { if (on) { a.removeAttribute('tabindex'); } else { a.setAttribute('tabindex', '-1'); } }
+      });
+      dots.forEach(function (d, k) { if (k === i) { d.setAttribute('aria-current', 'true'); } else { d.removeAttribute('aria-current'); } });
+    }
+    function play() { clearInterval(t); if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) t = setInterval(function () { show(i + 1); }, ms); }
+    dots.forEach(function (d) { d.addEventListener('click', function () { show(+d.dataset.dot); play(); }); });
+    root.style.setProperty('--ets-hf-ms', ms + 'ms');
+    play();
+  })();
+</script>
+
+{% stylesheet %}
+  .ets-hf { position: relative; isolation: isolate; color: #fff; background: #0f1a2c; overflow: hidden;
+    min-height: min(80svh, 760px); display: flex; align-items: flex-end; }
+  .ets-hf__media { position: absolute; inset: 0; z-index: -1; }
+  .ets-hf__slide { position: absolute; inset: 0; margin: 0; opacity: 0; transition: opacity 1.2s ease; }
+  .ets-hf__slide.is-active { opacity: 1; }
+  .ets-hf__slide img, .ets-hf__slide svg { width: 100%; height: 100%; object-fit: cover; display: block;
+    transform: scale(1.08); transition: transform 9s linear; }
+  .ets-hf__slide.is-active img { transform: scale(1); }
+  .ets-hf__shade { position: absolute; inset: 0; pointer-events: none;
+    background:
+      linear-gradient(90deg, rgba(10, 18, 32, .82) 0%, rgba(10, 18, 32, .55) 42%, rgba(10, 18, 32, .05) 75%),
+      linear-gradient(0deg, rgba(10, 18, 32, .75) 0%, rgba(10, 18, 32, 0) 45%); }
+  .ets-hf__slide figcaption { position: absolute; right: clamp(16px, 4vw, 48px); bottom: clamp(88px, 12vw, 120px); z-index: 2; }
+  .ets-hf__slide figcaption a { display: inline-flex; flex-direction: column; gap: 2px; padding: 10px 14px;
+    border-left: 2px solid #c9a46c; background: rgba(10, 18, 32, .55); color: #fff; text-decoration: none;
+    font: 600 14px/1.2 var(--ets-sans); }
+  .ets-hf__slide figcaption span { font-size: 11px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: #d9c29a; }
+  .ets-hf__slide figcaption a:hover { background: rgba(10, 18, 32, .75); }
+
+  .ets-hf__inner { position: relative; width: 100%; padding-block: clamp(56px, 9vh, 110px) clamp(24px, 3.5vw, 40px); }
+  .ets-hf__copy { max-width: 760px; }
+  .ets-hf__kicker { display: inline-flex; align-items: center; gap: 10px; margin: 0 0 18px;
+    font: 600 13px/1 var(--ets-sans); letter-spacing: .1em; text-transform: uppercase; color: #e2cfa9; }
+  .ets-hf__kicker::before { content: ""; width: 28px; height: 2px; background: #c9a46c; }
+  .ets-hf__title { margin: 0; font: 800 clamp(36px, 4.8vw, 66px)/1.03 var(--ets-sans); letter-spacing: -.035em;
+    color: #fff; text-wrap: balance; text-shadow: 0 2px 24px rgba(0, 0, 0, .25); }
+  .ets-hf__title em { font-style: normal; color: #e2cfa9; }
+  .ets-hf__text { margin: 20px 0 0; max-width: 52ch; font: 400 clamp(16px, 1.3vw, 19px)/1.6 var(--ets-sans); color: rgba(255, 255, 255, .86); }
+  .ets-hf__btns { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
+  .ets-hf__btn { display: inline-flex; align-items: center; justify-content: center; min-height: 54px; padding: 0 28px;
+    border-radius: 6px; font: 700 16px/1 var(--ets-sans); text-decoration: none; transition: background-color .2s, color .2s, transform .1s; }
+  .ets-hf__btn:active { transform: translateY(1px); }
+  .ets-hf a.ets-hf__btn--solid { background: #fff; color: #15213a; }
+  .ets-hf a.ets-hf__btn--solid:hover { background: #e2cfa9; color: #15213a; }
+  .ets-hf a.ets-hf__btn--line { color: #fff; box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, .7); }
+  .ets-hf__btn--line:hover { background: rgba(255, 255, 255, .12); }
+  .ets-hf__btn:focus-visible, .ets-hf__dots button:focus-visible, .ets-hf__slide a:focus-visible { outline: 2px solid #e2cfa9; outline-offset: 3px; }
+
+  .ets-hf__stats { display: flex; flex-wrap: wrap; gap: 12px 40px; margin: clamp(28px, 5vh, 56px) 0 0; padding: 20px 0 0;
+    list-style: none; border-top: 1px solid rgba(255, 255, 255, .22); }
+  .ets-hf__stats li { display: flex; align-items: baseline; gap: 10px; }
+  .ets-hf__stats strong { font: 800 clamp(22px, 2.2vw, 30px)/1 var(--ets-sans); letter-spacing: -.02em; }
+  .ets-hf__stats span { font-size: 14px; color: rgba(255, 255, 255, .78); }
+
+  .ets-hf__dots { position: absolute; left: 50%; bottom: 18px; transform: translateX(-50%); display: none; gap: 8px; z-index: 3; }
+  .ets-hf__dots button { width: 36px; height: 20px; padding: 0; border: 0; background: none; cursor: pointer; display: grid; place-items: center; }
+  .ets-hf__dots i { display: block; width: 100%; height: 3px; border-radius: 2px; background: rgba(255, 255, 255, .35); overflow: hidden; position: relative; }
+  .ets-hf__dots button[aria-current="true"] i::after { content: ""; position: absolute; inset: 0; background: #fff;
+    transform-origin: left; animation: ets-hf-bar var(--ets-hf-ms, 6s) linear forwards; }
+  @keyframes ets-hf-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+
+  @media (min-width: 990px) {
+    .ets-hf__dots { display: flex; left: auto; right: clamp(16px, 4vw, 48px); transform: none; bottom: clamp(36px, 5vw, 52px); }
+    .ets-hf__slide figcaption { bottom: clamp(84px, 9vw, 110px); }
+  }
+  @media (max-width: 989px) {
+    .ets-hf { min-height: 0; }
+    .ets-hf__inner { padding-top: 36vh; }
+    .ets-hf__shade { background: linear-gradient(0deg, rgba(10, 18, 32, .92) 0%, rgba(10, 18, 32, .78) 45%, rgba(10, 18, 32, .15) 80%); }
+    .ets-hf__slide figcaption { top: 16px; bottom: auto; right: 16px; }
+    .ets-hf__btns { flex-direction: column; }
+    .ets-hf__btn { width: 100%; }
+    .ets-hf__stats { gap: 14px 24px; }
+    .ets-hf__stats li { flex-direction: column; gap: 4px; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .ets-hf__slide, .ets-hf__slide img { transition: none; transform: none; }
+    .ets-hf__dots i::after { animation: none; transform: none; }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS hero (full width)",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Small line above heading", "default": "Maddington showroom · Perth delivery" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Your bathroom, from the first tile to the last tap." },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "text", "id": "btn_1_label", "label": "Button 1 label", "default": "Shop the range" },
+    { "type": "url", "id": "btn_1_link", "label": "Button 1 link" },
+    { "type": "text", "id": "btn_2_label", "label": "Button 2 label", "default": "Get a renovation quote" },
+    { "type": "url", "id": "btn_2_link", "label": "Button 2 link" },
+    { "type": "text", "id": "stat_3_value", "label": "Third number", "default": "5–25%" },
+    { "type": "text", "id": "stat_3_label", "label": "Third number label", "default": "off for trade accounts" },
+    { "type": "range", "id": "interval", "label": "Change image every", "min": 4, "max": 15, "step": 1, "unit": "s", "default": 7 }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Image slide",
+      "limit": 8,
+      "settings": [
+        { "type": "image_picker", "id": "image", "label": "Image (landscape works best)" },
+        { "type": "text", "id": "label", "label": "Pictured product", "default": "Morgan porcelain tiles" },
+        { "type": "url", "id": "link", "label": "Product or collection link" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "ETS hero (full width)" }]
+}
+{% endschema %}

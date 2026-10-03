@@ -125,6 +125,9 @@ template look:
   without the arrow bubble, flat cards, no fade-in on scroll, vendor label hidden on product cards.
 - `templates/index.json`: plain headings, removed the duplicate "What we do" services block, real tile-range
   descriptions (colours, finishes, sizes), best-seller tiles from the 600×600 collection.
+- Homepage hero is the new `sections/ets-hero-full.liquid`: full-width rotating room photos with a slow
+  zoom, dark gradient, white headline, two buttons, a "Pictured" product link per photo and live counts
+  (tile styles, products, trade discount). Own slider script; the old `ets-hero` section is unused.
 - Trade discounts now match the per-item bands (`snippets/ets-trade-rates.liquid`, used by
   `ets-trade-band` and `ets-trade-apply`; trust strip says "up to 25%"). The live theme still shows the
   old 20% / 15% / 10% table until this draft is published.

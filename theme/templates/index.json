@@ -1,30 +1,25 @@
 {
   "sections": {
     "hero": {
-      "type": "ets-hero",
+      "type": "ets-hero-full",
       "settings": {
-        "eyebrow": "Tile and bathroom supplier · Maddington, WA",
-        "heading": "Tiles and bathroomware, supplied and installed.",
-        "text": "Porcelain tiles, vanities, tapware and tiling tools. Buy online, visit the showroom, or have our licensed team do the whole job.",
-        "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
+        "eyebrow": "Maddington showroom · Perth delivery",
+        "heading": "Your bathroom, from the first tile to the last tap.",
+        "text": "Porcelain tiles, vanities, tapware and tiling tools. Shop online, visit our showroom, or let our licensed team handle the whole job.",
         "btn_1_label": "Shop the range",
         "btn_1_link": "shopify://collections/all",
         "btn_2_label": "Get a renovation quote",
         "btn_2_link": "shopify://pages/request-a-quote",
-        "meta_1": "Perth delivery, Australia-wide shipping",
-        "meta_2": "Showroom in Maddington",
-        "meta_3": "Trade accounts",
-        "tag_label": "Shop Morgan tiles",
-        "tag_link": "shopify://collections/morgan-tiles",
-        "float_text": "Tiling and renovating Perth homes, with a showroom in Maddington.",
-        "interval": 6
+        "stat_3_value": "5–25%",
+        "stat_3_label": "off for trade accounts",
+        "interval": 7
       },
       "blocks": {
         "slide_1": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
-            "label": "Shop Morgan tiles",
+            "label": "Morgan porcelain tiles",
             "link": "shopify://collections/morgan-tiles"
           }
         },
@@ -32,7 +27,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSA66AK661_2.jpg",
-            "label": "Shop Morgan Hail",
+            "label": "Morgan Hail porcelain tile",
             "link": "shopify://products/morgan-hail-porcelain-tile"
           }
         },
@@ -40,7 +35,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSA66SS06_2.jpg",
-            "label": "Shop Particle tiles",
+            "label": "Particle porcelain tiles",
             "link": "shopify://collections/particle-tiles"
           }
         },
@@ -48,7 +43,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSA36MQ02_3.jpg",
-            "label": "Shop Cement tiles",
+            "label": "Cement porcelain tiles",
             "link": "shopify://collections/cement-tiles"
           }
         },
@@ -56,7 +51,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSAYFR600331_2.jpg",
-            "label": "Shop Time Stone tiles",
+            "label": "Time Stone porcelain tiles",
             "link": "shopify://collections/time-stone-tiles"
           }
         },
@@ -64,7 +59,7 @@
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/DSAFG607311.jpg",
-            "label": "Shop Lava tiles",
+            "label": "Lava porcelain tiles",
             "link": "shopify://collections/lava-tiles"
           }
         }
