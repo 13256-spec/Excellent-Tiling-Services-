@@ -16,8 +16,67 @@
         "meta_3": "Trade pricing for builders",
         "tag_label": "Shop Morgan tiles",
         "tag_link": "shopify://collections/morgan-tiles",
-        "float_text": "Tiling and renovating Perth homes, with a showroom in Maddington."
-      }
+        "float_text": "Tiling and renovating Perth homes, with a showroom in Maddington.",
+        "interval": 6
+      },
+      "blocks": {
+        "slide_1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
+            "label": "Shop Morgan tiles",
+            "link": "shopify://collections/morgan-tiles"
+          }
+        },
+        "slide_2": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSA66AK661_2.jpg",
+            "label": "Shop Morgan Hail",
+            "link": "shopify://products/morgan-hail-porcelain-tile"
+          }
+        },
+        "slide_3": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSA66SS06_2.jpg",
+            "label": "Shop Particle tiles",
+            "link": "shopify://collections/particle-tiles"
+          }
+        },
+        "slide_4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSA36MQ02_3.jpg",
+            "label": "Shop Cement tiles",
+            "link": "shopify://collections/cement-tiles"
+          }
+        },
+        "slide_5": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSAYFR600331_2.jpg",
+            "label": "Shop Time Stone tiles",
+            "link": "shopify://collections/time-stone-tiles"
+          }
+        },
+        "slide_6": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DSAFG607311.jpg",
+            "label": "Shop Lava tiles",
+            "link": "shopify://collections/lava-tiles"
+          }
+        }
+      },
+      "block_order": [
+        "slide_1",
+        "slide_2",
+        "slide_3",
+        "slide_4",
+        "slide_5",
+        "slide_6"
+      ]
     },
     "trust": {
       "type": "ets-trust",

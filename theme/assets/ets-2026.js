@@ -173,6 +173,64 @@
     if (submit) submit.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
 
+  /* ---------- Hero image slideshow ---------- */
+  function initSlides(root) {
+    $$('[data-ets-slides]', root).forEach((wrap) => {
+      if (wrap.dataset.ready) return;
+      wrap.dataset.ready = '1';
+      const slides = $$('[data-slide]', wrap);
+      const dots = $$('[data-dot]', wrap);
+      if (slides.length < 2) return;
+      const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const interval = (parseInt(wrap.dataset.interval, 10) || 6) * 1000;
+      let index = 0;
+      let timer;
+      let paused = false;
+      let visible = true;
+
+      const show = (n) => {
+        index = (n + slides.length) % slides.length;
+        slides.forEach((s, i) => {
+          const on = i === index;
+          s.classList.toggle('is-active', on);
+          if (on) s.removeAttribute('aria-hidden'); else s.setAttribute('aria-hidden', 'true');
+          $$('a', s).forEach((a) => { if (on) a.removeAttribute('tabindex'); else a.setAttribute('tabindex', '-1'); });
+        });
+        dots.forEach((d, i) => { if (i === index) d.setAttribute('aria-current', 'true'); else d.removeAttribute('aria-current'); });
+        preload(index + 1);
+      };
+      // Load the next image ahead of time so it's ready when it fades in.
+      const preload = (n) => {
+        const img = $('img', slides[(n + slides.length) % slides.length]);
+        if (img && img.loading === 'lazy') img.loading = 'eager';
+      };
+      const stop = () => { clearInterval(timer); timer = null; };
+      const start = () => {
+        stop();
+        if (reduced || paused || !visible || document.hidden) return;
+        timer = setInterval(() => show(index + 1), interval);
+      };
+
+      dots.forEach((d) => d.addEventListener('click', () => { show(parseInt(d.dataset.dot, 10)); start(); }));
+      wrap.addEventListener('mouseenter', () => { paused = true; stop(); });
+      wrap.addEventListener('mouseleave', () => { paused = false; start(); });
+      wrap.addEventListener('focusin', () => { paused = true; stop(); });
+      wrap.addEventListener('focusout', () => { paused = false; start(); });
+      document.addEventListener('visibilitychange', start);
+      if ('IntersectionObserver' in window) {
+        new IntersectionObserver(([e]) => { visible = e.isIntersecting; start(); }).observe(wrap);
+      }
+      document.addEventListener('shopify:block:select', (e) => {
+        const i = slides.indexOf(e.target);
+        if (i > -1) { show(i); paused = true; stop(); }
+      });
+      document.addEventListener('shopify:block:deselect', () => { paused = false; start(); });
+      if (document.readyState === 'complete') preload(index + 1);
+      else window.addEventListener('load', () => preload(index + 1), { once: true });
+      start();
+    });
+  }
+
   /* ---------- Email sign-up pop-up ---------- */
   const POP_KEY = 'ets-news-popup';
   const store = {
@@ -231,6 +289,7 @@
     if (header && !header.dataset.ready) { header.dataset.ready = '1'; initMega(header); initDrawer(header); }
     initReveal(root);
     initRails(root);
+    initSlides(root);
   }
 
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', () => { init(); initPopup(); });
