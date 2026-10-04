@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "shadcn-ui": {
+      "command": "npx",
+      "args": ["-y", "@jpisnice/shadcn-ui-mcp-server"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "${GITHUB_PERSONAL_ACCESS_TOKEN:-}"
+      }
+    },
+    "21st-magic": {
+      "type": "http",
+      "url": "https://21st.dev/api/mcp",
+      "headers": {
+        "x-api-key": "${API_KEY_21ST:-}"
+      }
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@latest", "--no-usage-statistics"]
+    }
+  }
+}
