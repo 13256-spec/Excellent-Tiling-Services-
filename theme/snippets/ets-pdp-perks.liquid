@@ -1,0 +1,49 @@
+{%- doc -%}
+  Delivery / pickup / returns summary for the product page, based on product type.
+  @param {product} product
+{%- enddoc -%}
+{%- liquid
+  assign band = 'small'
+  assign tile_types = settings.ets_trade_tile_types | default: 'Tile' | split: ','
+  assign large_types = settings.ets_trade_large_types | split: ','
+  for t in tile_types
+    assign tt = t | strip
+    if tt == product.type
+      assign band = 'tiles'
+    endif
+  endfor
+  if band == 'small'
+    for t in large_types
+      assign tt = t | strip
+      if tt == product.type
+        assign band = 'large'
+      endif
+    endfor
+  endif
+  assign lead = product.metafields.ets.lead_time.value
+-%}
+<ul class="ets ets-perks" role="list">
+  <li>
+    {% render 'ets-icon', name: 'truck' %}
+    <span>
+      {%- case band -%}
+        {%- when 'tiles' -%}<strong>Perth metro delivery</strong><small>Local delivery across the Perth metro area (tiles aren't shipped outside Perth). Options show at checkout, or choose free pickup from Maddington.</small>
+        {%- when 'large' -%}<strong>Perth metro delivery</strong><small>Local delivery options show at checkout, or choose free pickup from Maddington. Outside Perth? <a href="/pages/contact">Ask for a freight quote.</a></small>
+        {%- else -%}<strong>Australia-wide shipping</strong><small>Free on tapware &amp; accessory orders over $100, $20 flat rate under. Options show at checkout, or pick up free from Maddington.</small>
+      {%- endcase -%}
+      {%- if lead != blank -%}<small>Lead time: {{ lead | escape }}</small>{%- endif -%}
+    </span>
+  </li>
+  <li>
+    {% render 'ets-icon', name: 'store' %}
+    <span><strong>See it in the showroom</strong><small>{% render 'ets-address-link' %} · by appointment · <a href="/pages/book-appointment">Book a visit</a></small></span>
+  </li>
+  <li>
+    {% render 'ets-icon', name: 'return' %}
+    <span><strong>30-day change-of-mind returns</strong><small>Unused, uninstalled and in original packaging. <a href="/policies/refund-policy">Returns policy</a></small></span>
+  </li>
+  <li>
+    {% render 'ets-icon', name: 'phone' %}
+    <span><strong>Questions about fit or finish?</strong><small>Call <a href="tel:{{ settings.ets_phone_link }}">{{ settings.ets_phone }}</a> or <a href="/pages/contact">send us a message</a>.</small></span>
+  </li>
+</ul>

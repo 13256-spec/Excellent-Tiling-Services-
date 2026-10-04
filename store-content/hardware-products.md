@@ -6,14 +6,16 @@ homepage card and directory tile once the collection has at least one active pro
 
 ## Navigation
 
-The live theme is "Copy of Copy of ETS Rebuild 2026", not the `theme/` files in this repo. Its header
-menu comes from Shopify admin → Content → Menus → **Main menu**, where "Hardware" (with All hardware,
-Trowels & tiling tools, Diamond blades & abrasives, Silicone, additives & cleaners) sits after
-"Mirrors & accessories". Add "Tile Spacers & Wedges" to that drop-down once a spacer product is live.
-The homepage "Shop by department" grid gets a Hardware tile in the theme copy "ETS Rebuild 2026 – Hardware"
-(created 27 Sep 2026, unpublished until reviewed): `templates/index.json` adds a `hardware` block and
-re-sizes the lower rows (Hardware + Kitchen & laundry, Basins + Baths as medium, then three small) so the
-12-column grid has no gaps; `sections/ets-categories.liquid` stretches a leftover last tile on mobile.
+The live theme is "ETS 2026 – Landing page boost (draft)", not the `theme/` files in this repo. Its header
+and collection chips use the menu Shopify admin → Content → Menus → **Main menu 2026**, where "Hardware"
+(Trowels & tiling tools, Diamond blades & abrasives, Silicone, additives & cleaners, Tile trims & edging,
+Tile cutters & accessories) sits after "Mirrors & accessories". There is no "All hardware" child: the
+collection header already adds an "All hardware" chip and the menu panel a "Shop all hardware" link.
+Add "Tile Spacers & Wedges" to that drop-down once a spacer product is live.
+The homepage "Shop by department" grid has a "Tiling tools & hardware" tile (`hardware` block in
+`templates/index.json`). Collection headers and each menu panel show a slowly scrolling strip of the
+collection's live products (`snippets/ets-product-marquee.liquid`; hide it with "Hide moving product
+strip" in the collection header or header section settings).
 
 ## Categories
 

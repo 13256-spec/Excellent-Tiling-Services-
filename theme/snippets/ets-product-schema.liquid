@@ -1,0 +1,177 @@
+{% doc %}
+  schema.org JSON-LD for one product, replacing Shopify's `structured_data` filter in
+  sections/product-information.liquid.
+
+  Adds what the built-in output lacks: product-level images, the seller (the sitewide
+  LocalBusiness), condition, the return policy on every offer, specs and dimensions from
+  the `ets` metafields, and variant options. Barcodes are only sent as a GTIN when they are
+  a real 8/12/13/14-digit GTIN; supplier codes stay in `sku`/`mpn`.
+
+  Products with a single variant are a Product; the rest are a ProductGroup with one
+  Product per variant.
+
+  @param {product} product - The product to describe
+
+  @example
+  {% render 'ets-product-schema', product: closest.product %}
+{% enddoc %}
+
+{%- liquid
+  assign mf = product.metafields.ets
+  assign business_id = shop.url | append: '#business'
+  assign product_url = shop.url | append: product.url
+  assign currency = cart.currency.iso_code | default: shop.currency
+
+  assign description = product.description | replace: '<', ' <' | strip_html | replace: '&nbsp;', ' ' | replace: '&amp;', '&' | split: ' ' | join: ' ' | truncate: 5000
+  if description == blank
+    assign description = product.title
+  endif
+
+  assign varies_by = ''
+  for option in product.options
+    assign option_name = option | downcase
+    if option_name contains 'size'
+      assign varies_by = varies_by | append: '|https://schema.org/size'
+    elsif option_name contains 'colour' or option_name contains 'color'
+      assign varies_by = varies_by | append: '|https://schema.org/color'
+    elsif option_name contains 'material'
+      assign varies_by = varies_by | append: '|https://schema.org/material'
+    elsif option_name contains 'pattern'
+      assign varies_by = varies_by | append: '|https://schema.org/pattern'
+    endif
+  endfor
+  assign varies_by = varies_by | remove_first: '|' | split: '|'
+-%}
+
+{%- capture return_policy -%}
+  {%- if shop.refund_policy -%}
+    ,"hasMerchantReturnPolicy": {
+      "@type": "MerchantReturnPolicy",
+      "applicableCountry": "AU",
+      "returnPolicyCountry": "AU",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 30,
+      "returnFees": "https://schema.org/RestockingFees",
+      "restockingFee": 15,
+      "merchantReturnLink": {{ shop.url | append: shop.refund_policy.url | json }}
+    }
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- capture shared_properties -%}
+  "brand": { "@type": "Brand", "name": {{ product.vendor | default: shop.name | json }} },
+  {%- if product.type != blank %}
+  "category": {{ product.type | json }},
+  {%- endif %}
+  {%- if mf.material != blank %}
+  "material": {{ mf.material.value | json }},
+  {%- endif %}
+  {%- if mf.width_mm != blank %}
+  "width": { "@type": "QuantitativeValue", "value": {{ mf.width_mm.value | json }}, "unitCode": "MMT" },
+  {%- endif %}
+  {%- if mf.height_mm != blank %}
+  "height": { "@type": "QuantitativeValue", "value": {{ mf.height_mm.value | json }}, "unitCode": "MMT" },
+  {%- endif %}
+  {%- if mf.depth_mm != blank %}
+  "depth": { "@type": "QuantitativeValue", "value": {{ mf.depth_mm.value | json }}, "unitCode": "MMT" },
+  {%- endif %}
+  "additionalProperty": [
+    {%- assign sep = '' -%}
+    {%- if mf.range != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Range", "value": {{ mf.range.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.installation != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Installation", "value": {{ mf.installation.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.cartridge != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Cartridge", "value": {{ mf.cartridge.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.wels_rating != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "WELS rating", "value": {{ mf.wels_rating.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.flow_rate != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Flow rate", "value": {{ mf.flow_rate.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.wels_registration != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "WELS registration", "value": {{ mf.wels_registration.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.diameter_mm != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Diameter", "value": {{ mf.diameter_mm.value | json }}, "unitCode": "MMT" }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.warranty != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Manufacturer warranty", "value": {{ mf.warranty.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.lead_time != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Lead time", "value": {{ mf.lead_time.value | json }} }{%- endif -%}
+  ]
+{%- endcapture -%}
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": {% if product.has_only_default_variant %}"Product"{% else %}"ProductGroup"{% endif %},
+    "@id": {{ product_url | append: '#product' | json }},
+    "name": {{ product.title | json }},
+    "url": {{ product_url | json }},
+    "description": {{ description | json }},
+    {%- if product.images.size > 0 %}
+    "image": [
+      {%- for image in product.images limit: 6 -%}
+        {{ image | image_url: width: 1200 | prepend: 'https:' | json }}{% unless forloop.last %},{% endunless %}
+      {%- endfor -%}
+    ],
+    {%- endif %}
+    {{ shared_properties }},
+    {%- unless product.has_only_default_variant %}
+    "productGroupID": {{ product.id | append: '' | json }},
+    {%- if varies_by.size > 0 %}
+    "variesBy": {{ varies_by | json }},
+    {%- endif %}
+    "hasVariant": [
+    {%- endunless %}
+    {%- for variant in product.variants %}
+      {%- liquid
+        assign barcode = variant.barcode | strip
+        assign barcode_rest = barcode | remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9'
+        assign valid_gtin = false
+        assign barcode_length = barcode | size
+        if barcode != blank and barcode_rest == blank
+          if barcode_length == 8 or barcode_length == 12 or barcode_length == 13 or barcode_length == 14
+            assign valid_gtin = true
+          endif
+        endif
+        assign variant_url = product_url | append: '?variant=' | append: variant.id
+        assign variant_image = variant.featured_image | default: product.featured_image
+      -%}
+      {%- unless product.has_only_default_variant %}
+      {
+        "@type": "Product",
+        "@id": {{ variant_url | append: '#variant' | json }},
+        "name": {{ product.title | append: ' - ' | append: variant.title | json }},
+        "url": {{ variant_url | json }},
+        "description": {{ description | json }},
+        {%- if variant_image %}
+        "image": {{ variant_image | image_url: width: 1200 | prepend: 'https:' | json }},
+        {%- endif %}
+        {{ shared_properties }},
+        {%- for value in variant.options %}
+          {%- assign option_name = product.options[forloop.index0] | downcase -%}
+          {%- if option_name contains 'size' %}
+        "size": {{ value | json }},
+          {%- elsif option_name contains 'colour' or option_name contains 'color' %}
+        "color": {{ value | json }},
+          {%- elsif option_name contains 'pattern' %}
+        "pattern": {{ value | json }},
+          {%- endif %}
+        {%- endfor %}
+      {%- endunless %}
+        {%- if variant.sku != blank %}
+        "sku": {{ variant.sku | json }},
+        "mpn": {{ variant.sku | json }},
+        {%- endif %}
+        {%- if valid_gtin %}
+        "gtin": {{ barcode | json }},
+        {%- endif %}
+        "offers": {
+          "@type": "Offer",
+          "@id": {{ variant_url | append: '#offer' | json }},
+          "url": {{ variant_url | json }},
+          "price": {{ variant.price | divided_by: 100.0 | json }},
+          "priceCurrency": {{ currency | json }},
+          "availability": {% if variant.available %}"https://schema.org/InStock"{% else %}"https://schema.org/OutOfStock"{% endif %},
+          "itemCondition": "https://schema.org/NewCondition",
+          "seller": { "@type": "Organization", "@id": {{ business_id | json }}, "name": {{ shop.name | json }} }
+          {{- return_policy }}
+        }
+      {%- unless product.has_only_default_variant %}
+      }{% unless forloop.last %},{% endunless %}
+      {%- endunless %}
+    {%- endfor %}
+    {%- unless product.has_only_default_variant %}
+    ]
+    {%- endunless %}
+  }
+</script>

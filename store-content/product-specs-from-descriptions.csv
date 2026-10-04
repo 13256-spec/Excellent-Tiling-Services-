@@ -1,0 +1,334 @@
+handle,metafield,value
+mela-flova-medium-basin-mixer,ets.wels_rating,6 Star
+mela-flova-medium-basin-mixer,ets.wels_registration,T32092
+mela-flova-medium-basin-mixer,ets.flow_rate,4.5L/min
+mela-flova-medium-basin-mixer,ets.cartridge,35mm
+mela-flova-palco-wall-spout,ets.wels_rating,4 Star
+mela-flova-palco-wall-spout,ets.wels_registration,T38403
+mela-flova-palco-wall-spout,ets.flow_rate,7.5L/min
+mela-flova-palco-swivel-bath-spout,ets.material,Brass
+mela-flova-free-standing-bath-spout,ets.cartridge,35mm
+mela-flova-shower-arm,ets.material,Brass
+mela-flova-shower-arm,ets.width_mm,402
+mela-flova-shower-arm,ets.height_mm,323
+mela-flova-shower-head,ets.wels_rating,3 Star
+mela-flova-shower-head,ets.wels_registration,S14293
+mela-flova-shower-head,ets.flow_rate,9L/min
+mela-flova-hand-shower-set-without-rail,ets.wels_rating,3 Star
+mela-flova-hand-shower-set-without-rail,ets.wels_registration,S14289
+mela-flova-hand-shower-set-without-rail,ets.flow_rate,9L/min
+mela-flova-hand-shower-set-with-rail,ets.wels_rating,3 Star
+mela-flova-hand-shower-set-with-rail,ets.wels_registration,S15179
+mela-flova-hand-shower-set-with-rail,ets.flow_rate,9L/min
+mela-flova-combination-shower-set-without-rail,ets.wels_rating,3 Star
+mela-flova-combination-shower-set-without-rail,ets.wels_registration,S14972
+mela-flova-combination-shower-set-without-rail,ets.flow_rate,9L/min
+mela-flova-combination-shower-set-with-rail,ets.wels_rating,3 Star
+mela-flova-combination-shower-set-with-rail,ets.wels_registration,S15182
+mela-flova-combination-shower-set-with-rail,ets.flow_rate,9L/min
+mela-palco-rondo-shower-arm,ets.material,Brass
+mela-palco-rondo-straight-shower-arm,ets.material,Brass
+mela-palco-rondo-ceiling-shower-arm,ets.material,Brass
+mela-palco-rondo-shower-head,ets.material,Brass
+mela-palco-rondo-shower-head,ets.wels_rating,4 Star
+mela-palco-rondo-shower-head,ets.wels_registration,S18583
+mela-palco-rondo-shower-head,ets.flow_rate,7.5L/min
+mela-palco-rondo-hand-shower-set-without-rail,ets.material,Brass
+mela-palco-rondo-hand-shower-set-without-rail,ets.wels_rating,3 Star
+mela-palco-rondo-hand-shower-set-without-rail,ets.wels_registration,S14290
+mela-palco-rondo-hand-shower-set-without-rail,ets.flow_rate,9L/min
+mela-palco-rondo-hand-shower-set-with-rail,ets.material,Brass
+mela-palco-rondo-hand-shower-set-with-rail,ets.wels_rating,4 Star
+mela-palco-rondo-hand-shower-set-with-rail,ets.wels_registration,S17450
+mela-palco-rondo-hand-shower-set-with-rail,ets.flow_rate,7.5L/min
+mela-palco-rondo-combination-shower-set-without-rail,ets.material,Brass
+mela-palco-rondo-combination-shower-set-without-rail,ets.wels_rating,3 Star
+mela-palco-rondo-combination-shower-set-without-rail,ets.wels_registration,S14973
+mela-palco-rondo-combination-shower-set-without-rail,ets.flow_rate,9L/min
+mela-palco-rondo-combination-shower-set-with-rail,ets.material,Brass
+mela-palco-rondo-combination-shower-set-with-rail,ets.wels_rating,3 Star
+mela-palco-rondo-combination-shower-set-with-rail,ets.wels_registration,S14916
+mela-palco-rondo-combination-shower-set-with-rail,ets.flow_rate,9L/min
+mela-palco-basin-mixer,ets.wels_rating,4 Star
+mela-palco-basin-mixer,ets.wels_registration,T26386
+mela-palco-basin-mixer,ets.flow_rate,7.5L/min
+mela-palco-basin-mixer,ets.cartridge,35mm
+mela-palco-medium-basin-mixer,ets.wels_rating,4 Star
+mela-palco-medium-basin-mixer,ets.wels_registration,T26387
+mela-palco-medium-basin-mixer,ets.flow_rate,7.5L/min
+mela-palco-medium-basin-mixer,ets.cartridge,35mm
+mela-palco-tall-basin-mixer,ets.wels_rating,4 Star
+mela-palco-tall-basin-mixer,ets.flow_rate,7.5L/min
+mela-palco-tall-basin-mixer,ets.cartridge,35mm
+mela-palco-wall-mixer,ets.cartridge,35mm
+mela-palco-wall-mixer-with-diverter,ets.cartridge,35mm
+mela-palco-rondo-free-standing-bath-spout,ets.cartridge,35mm
+mela-palco-rondo-free-standing-bath-mixer,ets.cartridge,35mm
+mela-palco-gooseneck-kitchen-mixer,ets.wels_rating,4 Star
+mela-palco-gooseneck-kitchen-mixer,ets.wels_registration,T25409
+mela-palco-gooseneck-kitchen-mixer,ets.flow_rate,7.5L/min
+mela-palco-gooseneck-kitchen-mixer,ets.cartridge,35mm
+mela-rondo-basin-mixer,ets.wels_rating,4 Star
+mela-rondo-basin-mixer,ets.wels_registration,T42517
+mela-rondo-basin-mixer,ets.flow_rate,7.5L/min
+mela-rondo-basin-mixer,ets.cartridge,35mm
+mela-rondo-tall-basin-mixer,ets.wels_rating,4 Star
+mela-rondo-tall-basin-mixer,ets.wels_registration,T42518
+mela-rondo-tall-basin-mixer,ets.flow_rate,7.5L/min
+mela-rondo-tall-basin-mixer,ets.cartridge,35mm
+mela-rondo-wall-mixer,ets.cartridge,35mm
+mela-rondo-wall-mixer-with-diverter,ets.cartridge,35mm
+mela-rondo-wall-spout,ets.wels_rating,6 Star
+mela-rondo-wall-spout,ets.wels_registration,T37074
+mela-rondo-wall-spout,ets.flow_rate,4.5L/min
+mela-rondo-wall-spout,ets.cartridge,35mm
+mela-rondo-gooseneck-sink-mixer,ets.wels_rating,6 Star
+mela-rondo-gooseneck-sink-mixer,ets.wels_registration,T42521
+mela-rondo-gooseneck-sink-mixer,ets.flow_rate,5L/min
+mela-rondo-gooseneck-sink-mixer,ets.cartridge,35mm
+mela-rondo-square-gooseneck-sink-mixer,ets.wels_rating,4 Star
+mela-rondo-square-gooseneck-sink-mixer,ets.wels_registration,T42516
+mela-rondo-square-gooseneck-sink-mixer,ets.flow_rate,7.5L/min
+mela-rondo-square-gooseneck-sink-mixer,ets.cartridge,35mm
+mela-bruno-basin-mixer,ets.flow_rate,5L/min
+mela-bruno-tall-basin-mixer,ets.wels_rating,6 Star
+mela-bruno-tall-basin-mixer,ets.wels_registration,T44807
+mela-bruno-tall-basin-mixer,ets.flow_rate,5L/min
+mela-bruno-tall-basin-mixer,ets.cartridge,35mm
+mela-bruno-wall-mixer,ets.material,Brass
+mela-bruno-wall-mixer,ets.cartridge,35mm
+mela-bruno-wall-mixer-with-diverter,ets.cartridge,35mm
+mela-flova-gooseneck-kitchen-mixer,ets.wels_registration,T34771
+mela-flova-gooseneck-kitchen-mixer,ets.flow_rate,7.5L/min
+mela-cassa-pull-out-sink-mixer-black-hose,ets.wels_rating,5 Star
+mela-cassa-pull-out-sink-mixer-black-hose,ets.wels_registration,T24590
+mela-cassa-pull-out-sink-mixer-black-hose,ets.flow_rate,6L/min
+mela-cassa-pull-out-sink-mixer-black-hose,ets.cartridge,35mm
+mela-rondo-square-pull-out-sink-mixer,ets.wels_rating,5 Star
+mela-rondo-square-pull-out-sink-mixer,ets.wels_registration,T33641
+mela-rondo-square-pull-out-sink-mixer,ets.flow_rate,6L/min
+mela-rondo-square-pull-out-sink-mixer,ets.cartridge,35mm
+mela-flova-bath-towel-shelf,ets.material,Brass
+mela-flova-bath-towel-shelf,ets.width_mm,600
+mela-flova-bath-towel-shelf,ets.height_mm,120
+mela-flova-bath-towel-shelf,ets.depth_mm,206
+mela-flova-paper-holder,ets.material,Brass
+mela-flova-paper-holder,ets.width_mm,142
+mela-flova-paper-holder,ets.height_mm,25
+mela-calla-free-standing-bath,ets.material,Acrylic
+mela-felli-free-standing-bath,ets.material,Acrylic
+mela-maya-free-standing-bath,ets.material,Acrylic
+mela-taylor-free-standing-bath,ets.material,Acrylic
+mela-kori-back-to-wall-bath,ets.material,Acrylic
+mela-mizo-back-to-wall-bath,ets.material,Acrylic
+mela-nook-corner-bath-right,ets.material,Acrylic
+mela-nook-corner-bath-left,ets.material,Acrylic
+mela-kasten-inset-bath,ets.material,Acrylic
+mela-triton-380-single-sink,ets.material,Stainless steel
+mela-calla-rimless-toilet-suite,ets.material,Vitreous china
+mela-calla-rimless-toilet-suite,ets.wels_rating,4 Star
+mela-calla-rimless-toilet-suite,ets.width_mm,355
+mela-calla-rimless-toilet-suite,ets.height_mm,815
+mela-calla-rimless-toilet-suite,ets.depth_mm,610
+mela-passa-rimless-toilet-suite-extra-height,ets.material,Virteous China
+mela-passa-rimless-toilet-suite-extra-height,ets.wels_rating,4 Star
+mela-passa-rimless-toilet-suite-extra-height,ets.width_mm,385
+mela-passa-rimless-toilet-suite-extra-height,ets.height_mm,855
+mela-passa-rimless-toilet-suite-extra-height,ets.depth_mm,620
+mela-ellis-whirlpool-toilet-suite,ets.material,Vitreous china
+mela-ellis-whirlpool-toilet-suite,ets.wels_rating,4 Star
+mela-ellis-whirlpool-toilet-suite,ets.wels_registration,L04710
+mela-ellis-whirlpool-toilet-suite,ets.width_mm,370
+mela-ellis-whirlpool-toilet-suite,ets.height_mm,835
+mela-ellis-whirlpool-toilet-suite,ets.depth_mm,610
+mela-felli-whirlpool-toilet-suite,ets.material,Vitreous china
+mela-felli-whirlpool-toilet-suite,ets.wels_rating,4 Star
+mela-felli-whirlpool-toilet-suite,ets.wels_registration,L04710
+mela-felli-whirlpool-toilet-suite,ets.width_mm,370
+mela-felli-whirlpool-toilet-suite,ets.height_mm,835
+mela-felli-whirlpool-toilet-suite,ets.depth_mm,610
+mela-elvas-whirlpool-toilet-suite-extra-height,ets.material,Virteous China
+mela-elvas-whirlpool-toilet-suite-extra-height,ets.wels_rating,4 Star
+mela-elvas-whirlpool-toilet-suite-extra-height,ets.width_mm,370
+mela-elvas-whirlpool-toilet-suite-extra-height,ets.height_mm,855
+mela-elvas-whirlpool-toilet-suite-extra-height,ets.depth_mm,660
+mela-ellis-rimless-wall-face-cistern-toilet,ets.material,Vitreous china
+mela-ellis-rimless-wall-face-cistern-toilet,ets.wels_rating,4 Star
+mela-ellis-rimless-wall-face-cistern-toilet,ets.wels_registration,L07982
+mela-ellis-rimless-wall-face-cistern-toilet,ets.width_mm,360
+mela-ellis-rimless-wall-face-cistern-toilet,ets.height_mm,420
+mela-ellis-rimless-wall-face-cistern-toilet,ets.depth_mm,560
+mela-felli-rimless-wall-face-cistern-toilet,ets.material,Vitreous china
+mela-felli-rimless-wall-face-cistern-toilet,ets.wels_rating,4 Star
+mela-felli-rimless-wall-face-cistern-toilet,ets.wels_registration,L07983
+mela-felli-rimless-wall-face-cistern-toilet,ets.width_mm,365
+mela-felli-rimless-wall-face-cistern-toilet,ets.height_mm,400
+mela-felli-rimless-wall-face-cistern-toilet,ets.depth_mm,580
+mela-flova-abs-shower-head,ets.wels_registration,S15179
+mela-flova-abs-shower-head,ets.flow_rate,9L/min
+mela-flova-brass-shower-head,ets.wels_registration,S14289
+mela-flova-brass-shower-head,ets.flow_rate,9L/min
+mela-palco-rondo-abs-shower-head,ets.wels_rating,4 Star
+mela-palco-rondo-abs-shower-head,ets.wels_registration,S17450
+mela-palco-rondo-abs-shower-head,ets.flow_rate,7.5L/min
+mela-palco-rondo-brass-shower-head,ets.wels_rating,3 Star
+mela-palco-rondo-brass-shower-head,ets.wels_registration,S14290
+mela-palco-rondo-brass-shower-head,ets.flow_rate,9L/min
+mela-mia-450-oval-mirror-cabinet,ets.width_mm,450
+mela-mia-450-oval-mirror-cabinet,ets.height_mm,900
+mela-cento-above-counter-basin,ets.material,Ceramic
+mela-cento-above-counter-basin,ets.width_mm,615
+mela-cento-above-counter-basin,ets.depth_mm,360
+mela-costa-above-counter-basin,ets.material,Ceramic
+mela-costa-above-counter-basin,ets.width_mm,394
+mela-costa-above-counter-basin,ets.height_mm,115
+mela-costa-above-counter-basin,ets.depth_mm,394
+mela-daisy-above-counter-basin,ets.material,Ceramic
+mela-daisy-above-counter-basin,ets.width_mm,390
+mela-daisy-above-counter-basin,ets.height_mm,120
+mela-daisy-above-counter-basin,ets.depth_mm,390
+mela-davisson-above-counter-basin,ets.material,Ceramic
+mela-davisson-above-counter-basin,ets.width_mm,385
+mela-davisson-above-counter-basin,ets.height_mm,120
+mela-davisson-above-counter-basin,ets.depth_mm,385
+mela-faro-above-counter-basin,ets.material,Ceramic
+mela-faro-above-counter-basin,ets.width_mm,415
+mela-faro-above-counter-basin,ets.height_mm,145
+mela-faro-above-counter-basin,ets.depth_mm,415
+mela-kiva-above-counter-basin,ets.material,Ceramic
+mela-kiva-above-counter-basin,ets.width_mm,500
+mela-kiva-above-counter-basin,ets.height_mm,130
+mela-kiva-above-counter-basin,ets.depth_mm,390
+mela-marcie-440-above-counter-basin,ets.material,Ceramic
+mela-marcie-440-above-counter-basin,ets.width_mm,440
+mela-marcie-440-above-counter-basin,ets.height_mm,100
+mela-marcie-440-above-counter-basin,ets.depth_mm,440
+mela-paula-above-counter-basin,ets.material,Ceramic
+mela-paula-above-counter-basin,ets.width_mm,525
+mela-paula-above-counter-basin,ets.height_mm,115
+mela-paula-above-counter-basin,ets.depth_mm,300
+mela-petal-above-counter-basin,ets.material,Ceramic
+mela-petal-above-counter-basin,ets.width_mm,540
+mela-petal-above-counter-basin,ets.height_mm,137
+mela-petal-above-counter-basin,ets.depth_mm,425
+mela-rory-above-counter-basin,ets.material,Ceramic
+mela-rory-above-counter-basin,ets.width_mm,360
+mela-rory-above-counter-basin,ets.height_mm,115
+mela-rory-above-counter-basin,ets.depth_mm,360
+mela-viva-above-counter-basin,ets.material,Ceramic
+mela-viva-above-counter-basin,ets.width_mm,385
+mela-viva-above-counter-basin,ets.height_mm,135
+mela-viva-above-counter-basin,ets.depth_mm,385
+mela-nuie-above-counter-basin,ets.material,Ceramic
+mela-ovali-above-counter-basin,ets.material,Ceramic
+mela-ovali-above-counter-basin,ets.width_mm,580
+mela-ovali-above-counter-basin,ets.height_mm,100
+mela-ovali-above-counter-basin,ets.depth_mm,360
+mela-debba-half-inset-basin,ets.material,Ceramic
+mela-debba-half-inset-basin,ets.width_mm,515
+mela-debba-half-inset-basin,ets.height_mm,155
+mela-debba-half-inset-basin,ets.depth_mm,340
+mela-melva-half-inset-basin,ets.material,Ceramic
+mela-melva-half-inset-basin,ets.width_mm,355
+mela-melva-half-inset-basin,ets.height_mm,120
+mela-melva-half-inset-basin,ets.depth_mm,355
+mela-selva-half-inset-basin,ets.material,Ceramic
+mela-selva-half-inset-basin,ets.width_mm,400
+mela-selva-half-inset-basin,ets.height_mm,110
+mela-selva-half-inset-basin,ets.depth_mm,400
+mela-zone-semi-basin,ets.material,Ceramic
+mela-zone-semi-basin,ets.width_mm,410
+mela-zone-semi-basin,ets.height_mm,140
+mela-zone-semi-basin,ets.depth_mm,410
+mela-myra-inset-basin,ets.material,Ceramic
+mela-myra-inset-basin,ets.width_mm,415
+mela-myra-inset-basin,ets.height_mm,170
+mela-myra-inset-basin,ets.depth_mm,415
+mela-brittany-600-wall-hung-vanity,ets.material,Medium Density Fibreboard (MDF) with 15mm backing board
+mela-brittany-1200-single-wall-hung-vanity,ets.material,Medium Density Fibreboard (MDF) with 15mm backing board
+time-stone-moon-porcelain-tile,ets.material,Porcelain
+time-stone-cinder-porcelain-tile,ets.material,Porcelain
+time-stone-charcoal-porcelain-tile,ets.material,Porcelain
+lava-etna-porcelain-tile,ets.material,Porcelain
+lava-ash-porcelain-tile,ets.material,Porcelain
+lava-kraka-porcelain-tile,ets.material,Porcelain
+terrazzo-lumina-porcelain-tile,ets.material,Porcelain
+terrazzo-white-porcelain-tile,ets.material,Porcelain
+particle-grey-porcelain-tile,ets.material,Porcelain
+particle-warm-porcelain-tile,ets.material,Porcelain
+morgan-dusk-porcelain-tile,ets.material,Porcelain
+morgan-storm-porcelain-tile,ets.material,Porcelain
+morgan-cloud-porcelain-tile,ets.material,Porcelain
+morgan-hail-porcelain-tile,ets.material,Porcelain
+cement-dark-grey-porcelain-tile,ets.material,Porcelain
+cement-white-porcelain-tile,ets.material,Porcelain
+cement-grey-porcelain-tile,ets.material,Porcelain
+bat-cross-tile-spacers-1-5mm-500-pack,ets.material,Polypropylene
+external-retro-cove-corner,ets.material,Aluminium
+t-shaped-trim-3m-lengths,ets.material,Aluminium
+square-notched-plastic-adhesive-spreader,ets.material,Plastic
+maxisil-sausage-caulking-gun-600ml,ets.material,Alloy Construction
+heavy-duty-floor-scraper,ets.material,"Spring steel blade, Metal body"
+stainless-steel-v-notch-maxi-grip-trowel,ets.material,Stainless steel
+tile-insert-floor-waste-100mm-outlet,ets.material,Solid brass
+tile-insert-floor-waste-80mm-outlet,ets.material,Solid brass
+tile-insert-floor-waste-50mm-outlet,ets.material,Solid brass
+square-grate-floor-waste-100mm-outlet,ets.material,Solid brass
+square-grate-floor-waste-80mm-outlet-long-collar,ets.material,Solid brass
+square-grate-floor-waste-80mm-outlet,ets.material,Solid brass
+square-grate-floor-waste-50mm-outlet,ets.material,Solid brass
+square-punched-linear-drain-50mm-outlet,ets.material,Fully welded Stainless Steel (Marine Grade)
+strip-punched-linear-drain-76mm-outlet,ets.material,Fully welded Stainless Steel (Marine Grade)
+strip-punched-linear-drain-50mm-outlet,ets.material,Fully welded Stainless Steel (Marine Grade)
+tile-insert-linear-drain-76mm-outlet,ets.material,Fully welded Stainless Steel (Marine Grade)
+tile-insert-linear-drain-50mm-outlet,ets.material,Fully welded Stainless Steel (Marine Grade)
+niche-box-632-x-332,ets.material,High density foam with a cementitious waterproof coating
+niche-box-424-x-364,ets.material,High density foam with a cementitious waterproof coating
+niche-box-372-x-332,ets.material,High density foam with a cementitious waterproof coating
+diamond-hand-pads,ets.material,"Electroplated Diamond Abrasive, Foam block backing"
+external-cove-aluminium-corner,ets.material,Aluminium
+internal-cove-corner,ets.material,Aluminium
+retro-cove-aluminium-trim-3m-lengths,ets.material,Aluminium
+internal-retro-cove-corner,ets.material,Aluminium
+cove-aluminium-trim-3m-lengths,ets.material,Aluminium
+expansion-aluminium-trim-3m-lengths,ets.material,Aluminium
+ramp-aluminium-trim-3m-lengths,ets.material,Aluminium
+retro-fit-aluminium-trim-3m-lengths,ets.material,Aluminium
+stainless-steel-304-squedge-trim-3m-lengths,ets.material,Stainless steel
+square-edge-aluminium-trim-3m-lengths,ets.material,Aluminium
+round-edge-trim-3m-lengths,ets.material,Aluminium
+balcony-trim-3m-lengths,ets.material,Aluminium
+diminishing-trim-3m-lengths,ets.material,Aluminium
+l-shape-brass-trim-3m-lengths,ets.material,Brass
+l-shape-s-steel-316-trim-3m-lengths,ets.material,Stainless steel
+l-shape-s-steel-304-trim-3m-lengths,ets.material,Stainless steel
+waterstop-standard-pvc-trim-2-5m-lengths,ets.material,PVC
+waterstop-standard-aluminium-trim-3m-lengths,ets.material,Aluminium
+waterstop-l-shape-aluminium-trim-3m-lengths,ets.material,Aluminium
+l-shape-notched-aluminium-trim-3m-lengths,ets.material,Aluminium
+uv-resistant-l-shape-aluminium-trim-3m-lengths,ets.material,Aluminium with UV resistant coating
+l-shape-aluminium-trim-1m-lengths,ets.material,Aluminium
+l-shape-aluminium-trim-3m-lengths,ets.material,Aluminium
+disposable-gloves,ets.material,Black Nitrile Gloves
+bright-steel-square-notched-adhesive-trowel,ets.material,Bright Steel
+waterproofing-kit,ets.material,Plastic tray
+stainless-steel-square-notched-maxi-grip-trowel-large,ets.material,Stainless steel
+aluminium-stair-trim-with-solid-black-carborundum-insert-matte-silver-58mm-x-24mm-x-2-5m,ets.material,Aluminium and Carborundum
+aluminium-stair-trim-with-4-black-carborundum-strip-inserts-mill-finish-75mm-x-10mm-x-2-5m,ets.material,Aluminium and Carborundum
+aluminium-stair-trim-with-grooves-matte-silver-50mm-x-10mm-x-2-5m,ets.material,Aluminium
+economy-grout-float,ets.material,Lightweight plastic construction
+pro-japanese-style-grout-float-timber-handle,ets.material,"Timber handle, Premium rubber float"
+sausage-caulking-gun,ets.material,Alloy Construction
+paint-brush,ets.material,Synthetic precious bristles
+siri-yellow-sponge-with-cuts-fits-rdxt609-handle,ets.material,Hydro sponge
+siri-yellow-sponge-no-cuts-fits-rdxt609-handle,ets.material,Hydro sponge
+grout-haze-square-edge-sponge,ets.material,Hydra Sponge
+siri-white-velcro-base-plate-fits-rdxt609,ets.material,"Plastic base plate, Coarse velcro strips"
+aluminium-single-suction-cup-35kg-lifting-capacity,ets.material,"Heavy duty aluminium, Rubber base"
+cylinder-gun-h37,ets.material,Lightweight impact resistant plastic
+paint-roller-and-tray,ets.material,Plastic tray
+tape-measure,ets.material,Nylon coated blade
+notched-paint-scraper,ets.material,Bright Steel
+paint-scraper,ets.material,Bright Steel
+stainless-steel-square-notched-maxi-grip-trowel,ets.material,Stainless steel
+stainless-steel-flat-maxi-grip-trowel,ets.material,Stainless steel
