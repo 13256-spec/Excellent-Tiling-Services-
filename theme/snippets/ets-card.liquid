@@ -1,0 +1,40 @@
+{%- doc -%}
+  ETS product card used by homepage rails and custom grids.
+  @param {product} product
+  @param {string} [sizes] - image sizes attribute
+{%- enddoc -%}
+{%- liquid
+  assign sizes = sizes | default: '(min-width: 990px) 25vw, (min-width: 560px) 44vw, 72vw'
+  assign img = product.featured_media.preview_image
+  assign img2 = product.media[1].preview_image
+  assign img_class = ''
+  if product.type == 'Tile'
+    assign img_class = 'is-cover'
+  endif
+  assign opt_count = 0
+  for option in product.options_with_values
+    if option.values.size > 1
+      assign opt_count = opt_count | plus: option.values.size
+    endif
+  endfor
+-%}
+<a class="ets-card" href="{{ product.url }}">
+  <div class="ets-card__media">
+    <div class="ets-card__badges">
+      {%- if product.compare_at_price > product.price -%}<span class="ets-badge">Sale</span>{%- endif -%}
+      {%- unless product.available -%}<span class="ets-badge ets-badge--light">Enquire</span>{%- endunless -%}
+    </div>
+    {%- if img != blank -%}
+      {{ img | image_url: width: 800 | image_tag: loading: 'lazy', widths: '300, 450, 600, 800', sizes: sizes, alt: product.title, class: img_class }}
+      {%- if img2 != blank -%}{{ img2 | image_url: width: 800 | image_tag: loading: 'lazy', widths: '300, 450, 600, 800', sizes: sizes, alt: '', class: img_class }}{%- endif -%}
+    {%- else -%}
+      {{ 'product-1' | placeholder_svg_tag }}
+    {%- endif -%}
+  </div>
+  <div class="ets-card__body">
+    {%- if product.vendor != blank -%}<span class="ets-card__vendor">{{ product.vendor | escape }}</span>{%- endif -%}
+    <h3 class="ets-card__title">{{ product.title | escape }}</h3>
+    <div class="ets-card__price">{% render 'price', product_resource: product %}</div>
+    {%- if opt_count > 1 -%}<span class="ets-card__opts">{{ opt_count }} options available</span>{%- endif -%}
+  </div>
+</a>

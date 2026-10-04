@@ -1,2 +1,24 @@
-<section class="ets-retail-section"><div class="ets-container"><div class="ets-page-heading"><p class="ets-overline">ETS Journal</p><h1>{{ blog.title | escape }}</h1><p>Ideas, materials and project notes for bathrooms, tiles and considered renovations.</p></div>{% paginate blog.articles by 12 %}<div class="ets-journal-grid">{% for article in blog.articles %}<article>{% if article.image %}<a href="{{ article.url }}">{{ article.image | image_url: width: 1000 | image_tag: widths: '400, 700, 1000', sizes: '(min-width: 990px) 30vw, 100vw', loading: 'lazy', alt: article.title }}</a>{% endif %}<time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%d %B %Y' }}</time><h2><a href="{{ article.url }}">{{ article.title | escape }}</a></h2><p>{{ article.excerpt_or_content | strip_html | truncatewords: 24 }}</p><a class="ets-link" href="{{ article.url }}">Read article {% render 'ets-store-icon', name: 'arrow' %}</a></article>{% else %}<div class="ets-page-heading"><h2>Planning a bathroom or tiling project?</h2><p>Speak to our team about materials, product selections and your plans.</p><a class="ets-btn" href="{{ pages['contact'].url }}">Contact ETS</a></div>{% endfor %}</div>{% if paginate.pages > 1 %}<nav aria-label="Blog pagination">{{ paginate | default_pagination }}</nav>{% endif %}{% endpaginate %}</div></section>
-{% schema %}{"name":"ETS blog page","settings":[],"presets":[{"name":"ETS blog page"}]}{% endschema %}
+<section class="ets ets-sec--tight" style="padding-top:0">
+  <div class="ets-wrap">
+    {%- paginate blog.articles by 12 -%}
+      <div class="ets-info" style="grid-template-columns:repeat(auto-fill,minmax(300px,1fr))">
+        {%- for article in blog.articles -%}
+          <a class="ets-shell" href="{{ article.url }}" style="text-decoration:none;color:inherit">
+            <div class="ets-core" style="padding:0">
+              {%- if article.image -%}<div style="aspect-ratio:4/3;overflow:hidden">{{ article.image | image_url: width: 900 | image_tag: loading: 'lazy', widths: '400, 700, 900', sizes: '(min-width: 990px) 33vw, 100vw', alt: article.title, style: 'width:100%;height:100%;object-fit:cover' }}</div>{%- endif -%}
+              <div style="padding:24px;display:grid;gap:10px">
+                <span class="ets-small">{{ article.published_at | date: '%d %B %Y' }}</span>
+                <h2 style="font:400 28px/1.1 var(--ets-serif);margin:0">{{ article.title | escape }}</h2>
+                <p style="margin:0;color:var(--ets-ink-soft)">{{ article.excerpt_or_content | strip_html | truncatewords: 26 }}</p>
+              </div>
+            </div>
+          </a>
+        {%- else -%}
+          <p class="ets-lede">No articles yet — check back soon.</p>
+        {%- endfor -%}
+      </div>
+      {%- if paginate.pages > 1 -%}<nav style="margin-top:40px" class="ets-btns">{{ paginate | default_pagination }}</nav>{%- endif -%}
+    {%- endpaginate -%}
+  </div>
+</section>
+{% schema %}{"name":"ETS blog list","settings":[],"presets":[{"name":"ETS blog list"}]}{% endschema %}

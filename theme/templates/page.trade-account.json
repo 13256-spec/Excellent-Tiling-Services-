@@ -35,8 +35,8 @@
       ],
       "settings": {
         "eyebrow": "Trade accounts",
-        "heading": "Trade prices for <em>trades</em>.",
-        "intro": "Builders, tilers, plumbers and renovators save on every order — tiles, bathroomware, tapware and accessories. Apply once, log in, and your prices show automatically."
+        "heading": "Trade pricing for builders and trades.",
+        "intro": "Builders, tilers, plumbers and renovators get a further 5–25% off tiles, tools and bathroomware, set item by item. Apply once, log in, and the discount comes off in your cart."
       }
     },
     "faq": {
@@ -46,14 +46,14 @@
           "type": "question",
           "settings": {
             "question": "Who can apply?",
-            "answer": "<p>Any business with an active ABN buying for work — tilers, builders, plumbers, renovators, designers and property developers.</p>"
+            "answer": "<p>Any business with an active ABN buying for work: tilers, builders, plumbers, renovators, designers and property developers.</p>"
           }
         },
         "1": {
           "type": "question",
           "settings": {
-            "question": "How do I see my trade prices?",
-            "answer": "<p>Once approved, log in using the email address on your application. Every product then shows your trade price, and the discount applies automatically in the cart and at checkout.</p>"
+            "question": "How much will I save?",
+            "answer": "<p>Tiles are 15% off. Tools, trims and bathroomware are 5–25% off, depending on the item. Once approved, log in with the email on your application and the discount comes off automatically in the cart and at checkout.</p>"
           }
         },
         "2": {
@@ -67,7 +67,7 @@
           "type": "question",
           "settings": {
             "question": "Can you deliver to site?",
-            "answer": "<p>Yes — within the Perth metro area for tiles and large items. Small items ship Australia-wide. You can also collect from Maddington by appointment.</p>"
+            "answer": "<p>Yes, within the Perth metro area for tiles and large items. Small items ship Australia-wide. You can also collect from Maddington by appointment.</p>"
           }
         }
       },
@@ -78,8 +78,8 @@
         "3"
       ],
       "settings": {
-        "eyebrow": "Trade FAQs",
-        "heading": "Before you <em>apply</em>.",
+        "eyebrow": "",
+        "heading": "Before you apply",
         "text": "Anything else? Call or email the team.",
         "open_first": false,
         "bg": "white"

@@ -10,8 +10,12 @@
 {
   "sections": {
     "hero": {
-      "type": "ets-search-hero",
-      "settings": {}
+      "type": "ets-page-hero",
+      "settings": {
+        "eyebrow": "Search",
+        "show_crumbs": false,
+        "show_chips": true
+      }
     },
     "main": {
       "type": "search-results",

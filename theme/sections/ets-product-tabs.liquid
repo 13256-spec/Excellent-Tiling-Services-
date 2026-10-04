@@ -1,0 +1,64 @@
+{%- liquid
+  assign limit = section.settings.limit
+-%}
+<section class="ets ets-sec{% if section.settings.bg == 'sand' %} ets-sec--sand{% elsif section.settings.bg == 'white' %} ets-sec--white{% endif %}" aria-labelledby="EtsTabs-{{ section.id }}" data-ets-rail-scope>
+  <div class="ets-wrap">
+    <div class="ets-head">
+      <div data-reveal>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="ets-h2" id="EtsTabs-{{ section.id }}">{{ section.settings.heading }}</h2>
+      </div>
+      <div class="ets-rail__nav" data-ets-rail-nav>
+        <button class="is-prev" type="button" aria-label="Previous products">{% render 'ets-icon', name: 'arrow' %}</button>
+        <button class="is-next" type="button" aria-label="Next products">{% render 'ets-icon', name: 'arrow' %}</button>
+      </div>
+    </div>
+    {%- if section.blocks.size > 1 -%}
+      <div class="ets-tabs" role="tablist" aria-label="{{ section.settings.heading | strip_html | escape }}" data-ets-tabs>
+        {%- for block in section.blocks -%}
+          <button type="button" role="tab" id="EtsTab-{{ block.id }}" aria-controls="EtsPanel-{{ block.id }}" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" tabindex="{% if forloop.first %}0{% else %}-1{% endif %}" {{ block.shopify_attributes }}>{{ block.settings.label | default: block.settings.collection.title | escape }}</button>
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+    {%- for block in section.blocks -%}
+      {%- assign c = block.settings.collection -%}
+      <div id="EtsPanel-{{ block.id }}"{% if section.blocks.size > 1 %} role="tabpanel" aria-labelledby="EtsTab-{{ block.id }}"{% endif %} {% unless forloop.first %}hidden{% endunless %} data-ets-rail-panel>
+        <div class="ets-rail" data-ets-rail>
+          {%- for product in c.products limit: limit -%}
+            {% render 'ets-card', product: product %}
+          {%- else -%}
+            {%- for i in (1..4) -%}
+              <div class="ets-card"><div class="ets-card__media">{{ 'product-1' | placeholder_svg_tag }}</div><div class="ets-card__body"><h3 class="ets-card__title">Choose a collection</h3></div></div>
+            {%- endfor -%}
+          {%- endfor -%}
+        </div>
+        {%- if c != blank -%}
+          <p style="margin:28px 0 0"><a class="ets-link" href="{{ c.url }}">Shop all {{ block.settings.label | default: c.title | downcase | escape }} ({{ c.products_count }}) {% render 'ets-icon', name: 'arrow' %}</a></p>
+        {%- endif -%}
+      </div>
+    {%- endfor -%}
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS product tabs",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Popular right now" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Shop best sellers" },
+    { "type": "range", "id": "limit", "label": "Products per tab", "min": 4, "max": 16, "step": 1, "default": 10 },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "blocks": [
+    {
+      "type": "tab",
+      "name": "Tab",
+      "limit": 6,
+      "settings": [
+        { "type": "collection", "id": "collection", "label": "Collection" },
+        { "type": "text", "id": "label", "label": "Tab label" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "ETS product tabs", "blocks": [{ "type": "tab" }, { "type": "tab" }] }]
+}
+{% endschema %}

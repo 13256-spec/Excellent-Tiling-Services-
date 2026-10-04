@@ -1,8 +1,18 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "logo": "shopify://shop_images/excellent-tiling-services-logo.jpg",
     "logo_height": 36,
     "logo_height_mobile": 28,
+    "favicon": "shopify://shop_images/ets-favicon-192.png",
     "page_text_color": "{{ settings.color_palette.foreground }}",
     "type_body_font": "dm_sans_n4",
     "type_subheading_font": "dm_sans_n5",
@@ -16,7 +26,7 @@
     "type_letter_spacing_h1": "heading-normal",
     "type_case_h1": "none",
     "type_font_h2": "heading",
-    "type_size_h2": "44",
+    "type_size_h2": "48",
     "type_line_height_h2": "display-tight",
     "type_letter_spacing_h2": "heading-normal",
     "type_case_h2": "none",
@@ -35,7 +45,7 @@
     "type_size_h6": "14",
     "type_line_height_h6": "display-loose",
     "page_background_color": "{{ settings.color_palette.background }}",
-    "page_width": "narrow",
+    "page_width": "wide",
     "page_transition_enabled": false,
     "transition_to_main_product": false,
     "card_hover_effect": "none",
@@ -43,7 +53,7 @@
     "badge_corner_radius": 100,
     "badge_sale_background_color": "{{ settings.color_palette.foreground }}",
     "badge_sale_text_color": "#FFFFFF",
-    "badge_sold_out_background_color": "#E7E2D8",
+    "badge_sold_out_background_color": "#EEEAE2",
     "badge_sold_out_text_color": "{{ settings.color_palette.foreground }}",
     "badge_text_transform": "none",
     "palette_primary_button_background": "{{ settings.color_palette.foreground }}",
@@ -68,7 +78,7 @@
     "palette_input_text": "{{ settings.color_palette.foreground }}",
     "palette_input_border": "{{ settings.color_palette.color2 }}",
     "input_border_width": 1,
-    "inputs_border_radius": 12,
+    "inputs_border_radius": 14,
     "popover_background_color": "#FFFFFF",
     "popover_text_color": "{{ settings.color_palette.foreground }}",
     "popover_border_radius": 14,
@@ -79,7 +89,7 @@
     "currency_code_enabled_cart_items": false,
     "quick_add_background": "#FFFFFF",
     "quick_add_text": "{{ settings.color_palette.foreground }}",
-    "product_corner_radius": 18,
+    "product_corner_radius": 20,
     "card_corner_radius": 16,
     "show_variant_image": false,
     "variant_swatch_width": 34,
@@ -92,14 +102,24 @@
     "palette_selected_variant_text": "#FFFFFF",
     "palette_selected_variant_border": "{{ settings.color_palette.foreground }}",
     "variant_button_border_width": 1,
-    "variant_button_radius": 14,
+    "variant_button_radius": 12,
     "variant_button_width": "equal-width-buttons",
+    "ets_trade_enabled": true,
+    "ets_trade_tag": "trade",
+    "ets_trade_tiles_pct": 20,
+    "ets_trade_large_pct": 15,
+    "ets_trade_small_pct": 10,
+    "ets_trade_tile_types": "Tile",
+    "ets_trade_large_types": "Wall Hung Vanity, Double Wall Hung Vanity, Bathroom Tallboy, Back to Wall Bath, Corner Bath, Freestanding Bath, Inset Bath, Toilet Suite, In Wall Cistern Toilet, Corner Shower Screen, Frameless Shower Panel, Above Counter Basin, Inset Basin, Half Inset Basin, Semi Basin, Undermount Basin, Kitchen Sink, LED Mirror, Mirror, Mirror Cabinet",
+    "ets_trade_page": "trade-account",
+    "ets_facebook": "https://www.facebook.com/share/1943ueL61k/?mibextid=wwXIfr",
+    "ets_instagram": "https://www.instagram.com/excellent_tiling_services/",
     "content_for_index": [],
     "color_palette": {
-      "background": "#F5F3EE",
-      "foreground": "#1F3153",
-      "color1": "#56606B",
-      "color2": "#DDD8CE"
+      "background": "#F6F4EF",
+      "foreground": "#15213A",
+      "color1": "#6A6862",
+      "color2": "#DCD6CB"
     }
   }
 }
