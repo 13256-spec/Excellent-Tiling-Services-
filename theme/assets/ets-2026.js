@@ -170,19 +170,6 @@
     });
   }
 
-  /* ---------- Product marquee pause (delegated so menu panels and section reloads work) ---------- */
-  document.addEventListener('click', (e) => {
-    const btn = e.target.closest('[data-ets-pmq-toggle]');
-    if (!btn) return;
-    const strip = btn.previousElementSibling;
-    if (!strip || !strip.classList.contains('ets-pmq')) return;
-    const paused = !strip.classList.contains('is-paused');
-    strip.classList.toggle('is-paused', paused);
-    btn.toggleAttribute('data-paused', paused);
-    const label = $('span', btn);
-    if (label) label.textContent = paused ? 'Resume scrolling' : 'Pause scrolling';
-  });
-
   /* ---------- Tile calculator (product page, delegated so re-renders keep working) ---------- */
   function calcState(calc) {
     const len = $('[data-len]', calc), wid = $('[data-wid]', calc), area = $('[data-area]', calc);

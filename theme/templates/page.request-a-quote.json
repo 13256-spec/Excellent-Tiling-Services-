@@ -12,28 +12,32 @@
     "main": {
       "type": "ets-quote-page",
       "blocks": {
-        "forms_inline_ets_quote": {
+        "forms_inline_AhQe6C": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
             "form_id": "1160065",
-            "text_color": "#11110f",
-            "button_background_color": "#11110f",
-            "button_label_color": "#ffffff",
-            "links_color": "#11110f",
-            "errors_color": "#E02229",
+            "text_color": "#15213A",
+            "button_background_color": "#15213A",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#9C7744",
+            "errors_color": "#9B2C2C",
             "text_alignment": "left",
             "form_alignment": "flex-start",
             "padding_top": 0,
-            "padding_bottom": 0,
+            "padding_bottom": 24,
             "padding_right": 0,
             "padding_left": 0
           }
         }
       },
       "block_order": [
-        "forms_inline_ets_quote"
+        "forms_inline_AhQe6C"
       ],
-      "settings": {}
+      "settings": {
+        "eyebrow": "Free measure & quote",
+        "heading": "Tell us about your <em>project</em>.",
+        "intro": "Renovations, tiling, waterproofing or product supply. Send a few details and our team will arrange a free measure and quote."
+      }
     }
   },
   "order": [

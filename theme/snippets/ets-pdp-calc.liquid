@@ -1,0 +1,38 @@
+{%- doc -%}
+  Tile quantity calculator for tile products. Sets the product form quantity (sold per m²).
+  @param {product} product
+{%- enddoc -%}
+{%- liquid
+  assign is_tile = false
+  assign tile_types = settings.ets_trade_tile_types | default: 'Tile' | split: ','
+  for t in tile_types
+    assign tt = t | strip
+    if tt == product.type
+      assign is_tile = true
+    endif
+  endfor
+-%}
+{%- if is_tile -%}
+  <div class="ets ets-calc" data-ets-calc>
+    <p class="ets-calc__head" style="margin:0 0 12px">{% render 'ets-icon', name: 'ruler' %}How much do I need?</p>
+    <div class="ets-calc__row">
+      <label>Area (m²)<input type="number" inputmode="decimal" min="0" step="0.01" placeholder="e.g. 12.5" data-area></label>
+      <label>or length (m)<input type="number" inputmode="decimal" min="0" step="0.01" placeholder="4.2" data-len></label>
+      <label>× width (m)<input type="number" inputmode="decimal" min="0" step="0.01" placeholder="3.0" data-wid></label>
+    </div>
+    <div class="ets-calc__row" style="grid-template-columns:1fr;margin-top:10px">
+      <label>Allowance for cuts
+        <select data-waste>
+          <option value="10">10% — straight lay, simple room</option>
+          <option value="15">15% — brick bond or lots of cuts</option>
+          <option value="20">20% — herringbone or diagonal</option>
+        </select>
+      </label>
+    </div>
+    <div class="ets-calc__out" aria-live="polite">
+      <span>Order <strong data-out>—</strong></span>
+      <button class="ets-calc__apply" type="button" data-apply disabled>Set quantity</button>
+    </div>
+    <p class="ets-calc__note">Tiles are priced and sold per m². Rounded up to the next whole m². Keep a few spare for future repairs.</p>
+  </div>
+{%- endif -%}

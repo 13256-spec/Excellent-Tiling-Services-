@@ -1,0 +1,56 @@
+<section class="ets ets-sec ets-faq{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% endcase %}" aria-labelledby="EtsFaq-{{ section.id }}">
+  <div class="ets-wrap ets-faq__grid">
+    <div data-reveal>
+      {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+      <h2 class="ets-h2" id="EtsFaq-{{ section.id }}">{{ section.settings.heading }}</h2>
+      {%- if section.settings.text != blank -%}<p class="ets-lede" style="margin-top:18px">{{ section.settings.text | escape }}</p>{%- endif -%}
+      <div class="ets-btns" style="margin-top:28px">
+        <a class="ets-btn ets-btn--ghost" href="tel:{{ settings.ets_phone_link }}">Call {{ settings.ets_phone }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'phone' %}</span></a>
+      </div>
+    </div>
+    <div class="ets-faq__list" data-reveal style="--d:.08s">
+      {%- for block in section.blocks -%}
+        <details {{ block.shopify_attributes }}{% if forloop.first and section.settings.open_first %} open{% endif %}>
+          <summary>{{ block.settings.question | escape }}<span>{% render 'ets-icon', name: 'plus' %}</span></summary>
+          <div class="ets-faq__a">{{ block.settings.answer }}</div>
+        </details>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- if section.blocks.size > 0 -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for block in section.blocks -%}
+      { "@type": "Question", "name": {{ block.settings.question | json }}, "acceptedAnswer": { "@type": "Answer", "text": {{ block.settings.answer | strip_html | json }} } }{% unless forloop.last %},{% endunless %}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}
+{% schema %}
+{
+  "name": "ETS FAQ",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Questions" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Good to know." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Can't find what you need? Our team is happy to help." },
+    { "type": "checkbox", "id": "open_first", "label": "Open first question", "default": true },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "blocks": [
+    {
+      "type": "question",
+      "name": "Question",
+      "settings": [
+        { "type": "text", "id": "question", "label": "Question", "default": "Question" },
+        { "type": "richtext", "id": "answer", "label": "Answer", "default": "<p>Answer</p>" }
+      ]
+    }
+  ],
+  "presets": [{ "name": "ETS FAQ", "blocks": [{ "type": "question" }, { "type": "question" }] }]
+}
+{% endschema %}

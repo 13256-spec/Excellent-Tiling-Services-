@@ -1,0 +1,12 @@
+{%- doc -%}
+  The showroom address, linked to the booking page (the showroom is open by appointment only).
+  @param {string} [text] - HTML to show; defaults to the address theme setting
+{%- enddoc -%}
+{%- liquid
+  assign label = text
+  if label == blank
+    assign label = settings.ets_address | escape
+  endif
+  assign book_url = pages['book-appointment'].url | default: '/pages/book-appointment'
+-%}
+{%- if label != blank -%}<a class="ets-address-link" href="{{ book_url }}">{{ label }}</a>{%- endif -%}

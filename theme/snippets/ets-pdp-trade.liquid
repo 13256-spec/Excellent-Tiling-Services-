@@ -1,0 +1,25 @@
+{%- doc -%}
+  Trade account prompt / confirmation under the product price.
+{%- enddoc -%}
+{%- liquid
+  assign trade_tag = settings.ets_trade_tag | default: 'trade'
+  assign is_trade = false
+  if customer and customer.tags contains trade_tag
+    assign is_trade = true
+  endif
+-%}
+{%- if settings.ets_trade_enabled -%}
+  {%- if is_trade -%}
+    <p class="ets ets-trade-note ets-trade-note--on" style="margin:0">
+      <span>✓ Trade price applied — the discount comes off automatically at checkout.</span>
+    </p>
+  {%- else -%}
+    <p class="ets ets-trade-note" style="margin:0">
+      <span>Builder or tradie? Get up to {{ settings.ets_trade_tiles_pct }}% off.</span>
+      <span>
+        <a href="{{ settings.ets_trade_page.url | default: '/pages/trade-account' }}">Apply</a>
+        {%- if customer == nil %} · <a href="{{ routes.account_login_url }}">Log in</a>{% endif -%}
+      </span>
+    </p>
+  {%- endif -%}
+{%- endif -%}

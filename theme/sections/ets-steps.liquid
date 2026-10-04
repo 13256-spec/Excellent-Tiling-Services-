@@ -1,0 +1,32 @@
+<section class="ets ets-sec{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% when 'ink' %} ets-sec--ink{% endcase %}" aria-labelledby="EtsSteps-{{ section.id }}">
+  <div class="ets-wrap">
+    <div class="ets-head">
+      <div data-reveal>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="ets-h2" id="EtsSteps-{{ section.id }}">{{ section.settings.heading }}</h2>
+      </div>
+    </div>
+    <ol class="ets-steps" role="list" style="--cols: {{ section.blocks.size | at_most: 4 | at_least: 1 }}">
+      {%- for block in section.blocks -%}
+        <li {{ block.shopify_attributes }} data-reveal style="--d:{{ forloop.index0 | times: 0.06 }}s"><strong>{{ block.settings.title | escape }}</strong><p>{{ block.settings.text | escape }}</p></li>
+      {%- endfor -%}
+    </ol>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS steps",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "How it works" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Simple, from first call to handover." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }, { "value": "ink", "label": "Dark" }] }
+  ],
+  "blocks": [
+    { "type": "step", "name": "Step", "settings": [
+      { "type": "text", "id": "title", "label": "Title", "default": "Step" },
+      { "type": "textarea", "id": "text", "label": "Text" }
+    ] }
+  ],
+  "presets": [{ "name": "ETS steps", "blocks": [{ "type": "step" }, { "type": "step" }, { "type": "step" }] }]
+}
+{% endschema %}

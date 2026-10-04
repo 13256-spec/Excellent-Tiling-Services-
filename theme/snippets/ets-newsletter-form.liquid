@@ -1,0 +1,46 @@
+{%- doc -%}
+  Email sign-up form. Uses Shopify's customer form, so each sign-up is saved in
+  Customers as subscribed to email marketing, with the given tags.
+  @param {string} form_id - unique form id (Shopify returns to #form_id after submitting)
+  @param {string} [source] - extra customer tag, e.g. popup or footer
+  @param {string} [button] - button label
+  @param {string} [success] - message shown after subscribing
+  @param {string} [offer_code] - discount code shown after subscribing
+{%- enddoc -%}
+{%- liquid
+  assign button = button | default: 'Subscribe'
+  assign success = success | default: "You're on the list. Watch your inbox for new ranges and deals."
+  assign tags = 'newsletter'
+  if source != blank
+    assign tags = tags | append: ', newsletter-' | append: source
+  endif
+-%}
+{%- form 'customer', id: form_id, class: 'ets-news', data-ets-news: form_id -%}
+  <input type="hidden" name="contact[tags]" value="{{ tags }}">
+  {%- if form.posted_successfully? -%}
+    <div class="ets-alert ets-alert--ok" role="status" data-ets-news-msg>
+      <strong>Thanks for subscribing.</strong>
+      {{ success | escape }}
+      {%- if offer_code != blank -%}
+        <span class="ets-news__code">Your code: <b>{{ offer_code | escape }}</b></span>
+      {%- endif -%}
+    </div>
+  {%- elsif form.errors -%}
+    <div class="ets-alert ets-alert--err" role="alert" data-ets-news-msg>{{ form.errors | default_errors }}</div>
+  {%- endif -%}
+  <div class="ets-news__row">
+    <label class="ets-visually-hidden" for="{{ form_id }}-email">Email address</label>
+    <input
+      id="{{ form_id }}-email"
+      type="email"
+      name="contact[email]"
+      autocomplete="email"
+      autocapitalize="off"
+      spellcheck="false"
+      placeholder="Your email address"
+      required
+    >
+    <button class="ets-btn" type="submit">{{ button | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></button>
+  </div>
+  <p class="ets-news__fine">No spam. Unsubscribe at any time.</p>
+{%- endform -%}

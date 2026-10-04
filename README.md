@@ -6,6 +6,13 @@ Theme source for [excellenttilingservice.com.au](https://excellenttilingservice.
 `theme/` holds the custom ETS files (sections, snippets, templates, CSS/JS) from the
 Horizon-based "ETS Premium" theme. Stock Horizon files are not duplicated here.
 
+Last synced from the live theme ("ETS 2026 – Landing page boost (draft)", the published theme) on
+4 Oct 2026: every `ets-*` asset, section and snippet, plus `layout/theme.liquid`, `meta-tags`,
+`config/settings_data.json`, the header/footer groups and the templates already tracked here.
+Third-party Section Store `ss-*` sections and the app-generated `product.store-wide.json` are
+left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
+the theme in Shopify.
+
 ## Showroom bookings
 
 The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm (closed Sunday).

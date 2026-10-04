@@ -1,2 +1,14 @@
-<article class="ets-retail-section"><div class="ets-container"><header class="ets-page-heading"><a class="ets-link" href="{{ blog.url }}">{{ blog.title | escape }}</a><h1>{{ article.title | escape }}</h1><time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%d %B %Y' }}</time></header>{% if article.image %}<div class="ets-article-image">{{ article.image | image_url: width: 1800 | image_tag: widths: '600, 1000, 1400, 1800', sizes: '90vw', loading: 'eager', alt: article.title }}</div>{% endif %}<div class="ets-article-body rte">{{ article.content }}</div><div class="ets-service-strip"><div><p class="ets-overline">Your next project</p><h2>Talk through the details.</h2><p>Visit the Maddington showroom or send ETS your plans and product requirements.</p></div><a class="ets-btn ets-btn-outline" href="{{ pages['request-a-quote'].url }}">Request a quote</a></div></div></article>
-{% schema %}{"name":"ETS article page","settings":[],"presets":[{"name":"ETS article page"}]}{% endschema %}
+<article class="ets">
+  <header class="ets-phero">
+    <div class="ets-wrap" style="max-width:980px">
+      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li><a href="{{ blog.url }}">{{ blog.title | escape }}</a></li></ol>
+      <h1 class="ets-display" style="font-size:clamp(40px,5.4vw,76px)">{{ article.title | escape }}</h1>
+      <p class="ets-small" style="margin-top:16px"><time datetime="{{ article.published_at | date: '%Y-%m-%d' }}">{{ article.published_at | date: '%d %B %Y' }}</time></p>
+    </div>
+  </header>
+  {%- if article.image -%}
+    <div class="ets-wrap"><div class="ets-shell"><div class="ets-core" style="aspect-ratio:16/8">{{ article.image | image_url: width: 1800 | image_tag: widths: '600, 1000, 1400, 1800', sizes: '94vw', loading: 'eager', alt: article.title, style: 'width:100%;height:100%;object-fit:cover' }}</div></div></div>
+  {%- endif -%}
+  <div class="ets-wrap ets-sec--tight" style="max-width:980px"><div class="ets-rte">{{ article.content }}</div></div>
+</article>
+{% schema %}{"name":"ETS article","settings":[],"presets":[{"name":"ETS article"}]}{% endschema %}
