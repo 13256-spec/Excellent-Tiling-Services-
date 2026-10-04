@@ -36,5 +36,8 @@ is busy and not technical: answer in short, plain sentences with dollar figures,
 - Never price below the public floor (cost × 1.1 × 1.25) or give a trade price below cost × 1.1 × 1.15.
 - Never invent a cost. If an item has no cost, say so and ask for the supplier price.
 - Competitor clearance prices below our cost are reported, not matched.
+- Never show the tile supplier's name (Eternity) anywhere customers can see it: product or collection
+  text, vendor, tags, SEO, image alt text, price lists, social posts. Keep it in internal files and the
+  `custom.supplier` metafield only. Tile vendor stays "Excellent Tiling Services".
 - After any approved change: update the master CSV, regenerate the PDFs, commit with a clear message, and
   report what changed in a few plain lines.

@@ -47,6 +47,16 @@ menu and `main-menu` is no longer used by the header.
 (`/collections/mosaic-tiles`) added under Tiles, after "300 x 300 mm", in both `main-menu` and
 `main-menu-2026`.
 
+## Supplier names (owner rule, 4 Oct 2026)
+
+Never show the tile supplier's name (Eternity) anywhere on the site or in marketing: product and
+collection text, vendor, tags, SEO titles/descriptions, image alt text, customer price lists, social
+posts. Tiles use vendor "Excellent Tiling Services"; the supplier lives only in the internal
+`custom.supplier` metafield and in `store-content/pricing/`. On 4 Oct 2026 "supplied by Eternity Tiles"
+was removed from 7 tile collections (porcelain, cement, lava, morgan, particle, terrazzo, time-stone);
+before/after text is in `seo/collection-supplier-name-removal.json`. A full export of all 506 products
+found no other mentions, and none in menus, blog posts or the live theme's templates.
+
 ## Store content
 
 `store-content/policies/` holds the policy text (updated 1 Oct 2026: shipping matches the live rates,

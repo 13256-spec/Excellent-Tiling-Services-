@@ -1,0 +1,86 @@
+[
+ {
+  "id": "gid://shopify/Collection/301567279167",
+  "handle": "porcelain-tiles",
+  "before": {
+   "descriptionHtml": "<p>Shop porcelain floor and wall tiles in Perth, supplied by Eternity Tiles. Choose from 300x300, 300x600, 600x600 and 600x1200mm sizes in matt, lappato and gloss finishes, across stone-look, cement-look and terrazzo-style ranges.</p><p>Porcelain is dense, hard-wearing and suits bathrooms, kitchens, living areas and outdoor spaces. Tiles are sold per square metre to the nearest full box, and our team can help with quantities, grout colour and professional installation.</p><p>Visit Excellent Tiling Services at 17A Olga Road, Maddington to see the range in person, or call 0450 960 543. We deliver across Perth metro and can supply and install as part of your bathroom renovation.</p>",
+   "seoDescription": "Porcelain floor and wall tiles in 600x600 and 300x600 mm, in matt, lappato and gloss finishes, sold per m². Shop online today."
+  },
+  "after": {
+   "descriptionHtml": "<p>Shop porcelain floor and wall tiles in Perth. Choose from 300x300, 300x600, 600x600 and 600x1200mm sizes in matt, lappato and gloss finishes, across stone-look, cement-look and terrazzo-style ranges.</p><p>Porcelain is dense, hard-wearing and suits bathrooms, kitchens, living areas and outdoor spaces. Tiles are sold per square metre to the nearest full box, and our team can help with quantities, grout colour and professional installation.</p><p>Visit Excellent Tiling Services at 17A Olga Road, Maddington to see the range in person, or call 0450 960 543. We deliver across Perth metro and can supply and install as part of your bathroom renovation.</p>",
+   "seoDescription": "Porcelain floor and wall tiles in 600x600 and 300x600 mm, in matt, lappato and gloss finishes, sold per m². Shop online today."
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/301567574079",
+  "handle": "cement-tiles",
+  "before": {
+   "descriptionHtml": "<p>Explore the Cement porcelain tile range supplied by Eternity Tiles, with available colours, sizes and finishes shown on each product.</p>",
+   "seoDescription": "The Cement porcelain tile range by Eternity Tiles, in multiple colours and sizes, sold per m². Shop online today."
+  },
+  "after": {
+   "descriptionHtml": "<p>Explore the Cement porcelain tile range, with available colours, sizes and finishes shown on each product.</p>",
+   "seoDescription": "The Cement porcelain tile range, in multiple colours and sizes, sold per m². Shop online today."
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/301567606847",
+  "handle": "lava-tiles",
+  "before": {
+   "descriptionHtml": "<p>Explore the Lava porcelain tile range supplied by Eternity Tiles, with available colours, sizes and Matt or Gloss finishes shown on each product.</p>",
+   "seoDescription": "The Lava porcelain tile range by Eternity Tiles, in matt and gloss finishes, sold per m². Shop online today."
+  },
+  "after": {
+   "descriptionHtml": "<p>Explore the Lava porcelain tile range, with available colours, sizes and Matt or Gloss finishes shown on each product.</p>",
+   "seoDescription": "The Lava porcelain tile range, in matt and gloss finishes, sold per m². Shop online today."
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/301567639615",
+  "handle": "morgan-tiles",
+  "before": {
+   "descriptionHtml": "<p>Explore the Morgan porcelain tile range supplied by Eternity Tiles, with available colours and sizes shown on each product.</p>",
+   "seoDescription": "The Morgan porcelain tile range by Eternity Tiles, in a selection of colours and sizes, sold per m². Shop online today."
+  },
+  "after": {
+   "descriptionHtml": "<p>Explore the Morgan porcelain tile range, with available colours and sizes shown on each product.</p>",
+   "seoDescription": "The Morgan porcelain tile range, in a selection of colours and sizes, sold per m². Shop online today."
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/301567672383",
+  "handle": "particle-tiles",
+  "before": {
+   "descriptionHtml": "<p>Explore the Particle porcelain tile range supplied by Eternity Tiles, with available colours, sizes and specifications shown on each product.</p>",
+   "seoDescription": "The Particle porcelain tile range by Eternity Tiles, sold per m². Shop online today."
+  },
+  "after": {
+   "descriptionHtml": "<p>Explore the Particle porcelain tile range, with available colours, sizes and specifications shown on each product.</p>",
+   "seoDescription": "The Particle porcelain tile range, sold per m². Shop online today."
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/301567705151",
+  "handle": "terrazzo-tiles",
+  "before": {
+   "descriptionHtml": "<p>Explore the Terrazzo porcelain tile range supplied by Eternity Tiles, with available colours and sizes shown on each product.</p>",
+   "seoDescription": "The Terrazzo porcelain tile range by Eternity Tiles, in multiple colours and sizes, sold per m². Shop online today."
+  },
+  "after": {
+   "descriptionHtml": "<p>Explore the Terrazzo porcelain tile range, with available colours and sizes shown on each product.</p>",
+   "seoDescription": "The Terrazzo porcelain tile range, in multiple colours and sizes, sold per m². Shop online today."
+  }
+ },
+ {
+  "id": "gid://shopify/Collection/301567737919",
+  "handle": "time-stone-tiles",
+  "before": {
+   "descriptionHtml": "<p>Explore the Time Stone porcelain tile range supplied by Eternity Tiles, with available colours, sizes and Matt or Lappato finishes shown on each product.</p>",
+   "seoDescription": "The Time Stone porcelain tile range by Eternity Tiles, in matt and lappato finishes, sold per m². Shop online today."
+  },
+  "after": {
+   "descriptionHtml": "<p>Explore the Time Stone porcelain tile range, with available colours, sizes and Matt or Lappato finishes shown on each product.</p>",
+   "seoDescription": "The Time Stone porcelain tile range, in matt and lappato finishes, sold per m². Shop online today."
+  }
+ }
+]
