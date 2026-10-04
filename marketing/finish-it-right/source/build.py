@@ -53,7 +53,7 @@ posts={
  f'<div class="t" {a("1/4","5/6")}><h2 style="font-size:52px">Porcelain tiles from $37.40/m²</h2><p class="small" style="margin-top:14px">Perth delivery or free pickup. Sold by the full box.</p></div>'+
  f'<div class="t blue" {a("4/5","5/6")}></div>',
 'A2-5-code':
- f'<div class="t deep" {a("1/5","1/4")}><p>Use code</p><div class="code" style="margin-top:30px">FINISH10</div><p class="bot" style="font-size:40px">10% off your first order over $150</p></div>'+
+ f'<div class="t deep" {a("1/5","1/4")}><p>Use code</p><div class="code" style="margin-top:30px">YAMEN10</div><p class="bot" style="font-size:40px">10% off your first order over $150</p></div>'+
  f'<div class="t" {a("1/4","4/6")}><h2>Ends Sunday 8&nbsp;November</h2><p class="bot">{URL}</p></div>'+
  f'<div class="t blue" {a("4/5","4/5")}></div>'+LOGO('4/5','5/6'),
 'C3-showroom':
@@ -63,7 +63,7 @@ posts={
  f'<div class="t" {a("3/4","5/6")}><p class="small">17A Olga Road, Maddington<br><br>0450 960 543</p></div>'+LOGO('4/5','5/6'),
 'D3-last-call':
  img('hail-room.jpg','1/5','1/3')+
- f'<div class="t deep" {a("1/5","3/5")}><p>Last call</p><div class="code" style="margin-top:24px">FINISH10</div><h2 class="bot" style="font-size:58px">Ends Sunday 8 November</h2></div>'+
+ f'<div class="t deep" {a("1/5","3/5")}><p>Last call</p><div class="code" style="margin-top:24px">YAMEN10</div><h2 class="bot" style="font-size:58px">Ends Sunday 8 November</h2></div>'+
  f'<div class="t" {a("1/4","5/6")}><p>10% off your first order over $150, tiles to tapware.</p><p class="small" style="margin-top:12px">{URL}</p></div>'+LOGO('4/5','5/6'),
 }
 
@@ -74,7 +74,7 @@ posts.update({
  img('handshower.jpg','3/4','3/5','fit','Hand shower $151','dark')+
  img('towelrail.png','4/5','3/4','fit','Towel rail $94','dark')+
  img('paper.png','4/5','4/5','fit','Roll holder $46','dark')+
- f'<div class="t" {a("1/4","5/6")}><p>All MELA FLOVA. Add code FINISH10 for another 10% off orders over $150.</p></div>'+LOGO('4/5','5/6'),
+ f'<div class="t" {a("1/4","5/6")}><p>All MELA FLOVA. Add code YAMEN10 for another 10% off orders over $150.</p></div>'+LOGO('4/5','5/6'),
 'B3-prices':
  f'<div class="t" {a("1/5","1/3")}><h1 style="font-size:112px">Every price is on the website</h1></div>'+
  f'<div class="t navy" {a("1/3","3/5")}><h2>No “call for price”</h2><p class="bot">Tiles, tapware, vanities and tools, all priced online, all buyable tonight.</p></div>'+
@@ -110,7 +110,7 @@ posts.update({
  f'<div class="t navy" {a("1/5","4/6")}><h1 style="font-size:116px">Chrome or matt black?</h1><p class="bot" style="font-size:38px">Same mixer, $189 or $217. Vote below.</p></div>'+
  f'<div class="t" {a("1/5","6/8")}><p style="font-size:34px;color:#8a919a">Poll sticker goes here</p></div>',
 'S-countdown':
- f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Last day tomorrow</p><div class="code" style="margin-top:40px">FINISH10</div><p class="bot" style="font-size:44px">10% off your first order over $150</p></div>'+
+ f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Last day tomorrow</p><div class="code" style="margin-top:40px">YAMEN10</div><p class="bot" style="font-size:44px">10% off your first order over $150</p></div>'+
  f'<div class="t" {a("1/5","5/7")}><p style="font-size:34px;color:#8a919a">Countdown sticker goes here</p></div>'+
  f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Tap the link to shop</h2></div>'+LOGO('4/5','7/8'),
 'S-showroom':

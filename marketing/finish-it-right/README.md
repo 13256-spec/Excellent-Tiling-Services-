@@ -5,14 +5,14 @@ Ready-to-post graphics. Feed posts are 1080×1350 (Instagram/Facebook portrait);
 
 | File | Use |
 | --- | --- |
-| A2-1 … A2-5 | FINISH10 launch carousel (post in order) |
+| A2-1 … A2-5 | YAMEN10 launch carousel (post in order) |
 | A3-idea | Bathroom idea: BRITTANY oak vanity |
 | B2-refresh | $480 FLOVA bathroom refresh |
 | B3-prices | Every price is online |
 | C2-tile-looks | Four porcelain floors |
 | C3-showroom | Evening showroom hours |
 | D2-trade | Trade accounts |
-| D3-last-call | FINISH10 last call |
+| D3-last-call | YAMEN10 last call |
 | R-B1 / R-C1 / R-D1 | Reel covers: unboxing, vanity install, tiling mistakes |
 | S-poll / S-countdown / S-showroom / S-trade | Story frames (add the poll/countdown sticker in Instagram) |
 
