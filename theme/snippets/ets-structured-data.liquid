@@ -1,0 +1,128 @@
+{% doc %}
+  Page-specific schema.org JSON-LD that Shopify and Horizon don't output on their own.
+  Search engines and AI assistants read it to understand what the store sells and does.
+
+  - Home: WebSite with a site search action.
+  - Collections: CollectionPage with an ItemList of the products shown.
+  - Tiling services page: Service with the areas of work ETS quotes on.
+  - Blog articles: BlogPosting.
+
+  The sitewide LocalBusiness lives in meta-tags.liquid; every block here points back to it
+  by its @id. Products are described by ets-product-schema.liquid.
+{% enddoc %}
+
+{%- liquid
+  assign business_id = shop.url | append: '#business'
+  assign website_id = shop.url | append: '#website'
+-%}
+
+{%- if request.page_type == 'index' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": {{ website_id | json }},
+      "url": {{ shop.url | append: routes.root_url | json }},
+      "name": {{ shop.name | json }},
+      "alternateName": "ETS",
+      "inLanguage": "en-AU",
+      "publisher": { "@id": {{ business_id | json }} },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "{{ shop.url }}{{ routes.search_url }}?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+
+{%- elsif request.page_type == 'collection' and collection.products_count > 0 -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": {{ collection.title | json }},
+      "url": {{ shop.url | append: collection.url | json }},
+      {%- if collection.description != blank %}
+      "description": {{ collection.description | replace: '<', ' <' | strip_html | replace: '&nbsp;', ' ' | replace: '&amp;', '&' | split: ' ' | join: ' ' | truncate: 300 | json }},
+      {%- endif %}
+      "isPartOf": { "@id": {{ website_id | json }} },
+      "provider": { "@id": {{ business_id | json }} },
+      "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ collection.products_count }},
+        "itemListElement": [
+          {%- for item in collection.products limit: 24 %}
+          {
+            "@type": "ListItem",
+            "position": {{ forloop.index }},
+            "url": {{ shop.url | append: item.url | json }},
+            "name": {{ item.title | json }}
+            {%- if item.featured_image %},
+            "image": {{ item.featured_image | image_url: width: 800 | prepend: 'https:' | json }}
+            {%- endif %}
+          }{% unless forloop.last %},{% endunless %}
+          {%- endfor %}
+        ]
+      }
+    }
+  </script>
+
+{%- elsif request.page_type == 'page' and page.template_suffix == 'tiling-services' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "Tiling services in Perth",
+      "serviceType": "Tiling",
+      "url": {{ shop.url | append: page.url | json }},
+      "description": "Professional tiling for bathrooms, wet areas, floors, walls, kitchens and splashbacks across the Perth metro area, with tiles and bathroomware supplied from the ETS showroom in Maddington.",
+      "provider": { "@id": {{ business_id | json }} },
+      "areaServed": {
+        "@type": "City",
+        "name": "Perth",
+        "containedInPlace": { "@type": "State", "name": "Western Australia" }
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Tiling services",
+        "itemListElement": [
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Bathroom and wet area tiling", "description": "Tiling for bathrooms, ensuites and laundries." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Floor and wall tiling", "description": "Tiling for residential floors, walls and connected renovation spaces." } },
+          { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Kitchen splashback tiling", "description": "Tiling for single splashbacks or wider kitchen renovations." } }
+        ]
+      }
+      {%- if pages['request-a-quote'] != blank %},
+      "potentialAction": {
+        "@type": "QuoteAction",
+        "name": "Request a tiling quote",
+        "target": {{ shop.url | append: pages['request-a-quote'].url | json }}
+      }
+      {%- endif %}
+    }
+  </script>
+
+{%- elsif request.page_type == 'article' -%}
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BlogPosting",
+      "headline": {{ article.title | truncate: 110 | json }},
+      "url": {{ shop.url | append: article.url | json }},
+      "mainEntityOfPage": {{ shop.url | append: article.url | json }},
+      "datePublished": {{ article.published_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+      "dateModified": {{ article.updated_at | date: '%Y-%m-%dT%H:%M:%S%:z' | json }},
+      {%- if article.image %}
+      "image": {{ article.image | image_url: width: 1200 | prepend: 'https:' | json }},
+      {%- endif %}
+      {%- if article.excerpt_or_content != blank %}
+      "description": {{ article.excerpt_or_content | replace: '<', ' <' | strip_html | replace: '&nbsp;', ' ' | replace: '&amp;', '&' | split: ' ' | join: ' ' | truncate: 300 | json }},
+      {%- endif %}
+      "author": { "@type": "Organization", "name": {{ shop.name | json }}, "url": {{ shop.url | json }} },
+      "publisher": { "@id": {{ business_id | json }} },
+      "isPartOf": { "@type": "Blog", "name": {{ blog.title | json }}, "url": {{ shop.url | append: blog.url | json }} }
+    }
+  </script>
+{%- endif -%}

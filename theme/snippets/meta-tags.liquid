@@ -20,7 +20,7 @@
 
 {%- liquid
   if request.page_type == 'index' and page_title == shop.name
-    assign page_title = 'Tiles & Tiling Perth | Bathroomware Showroom | ETS'
+    assign page_title = 'Tiles, Vanities & Tapware Online Australia | ETS'
   endif
   assign og_title = page_title | default: shop.name
   assign og_url = canonical_url | default: request.origin
@@ -110,8 +110,8 @@
   {{ page_title }}
   {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
   {%- if current_page != 1 %} &ndash; Page {{ current_page }}{% endif -%}
-  {%- comment -%} Custom SEO titles already end in "| ETS Perth" or similar; don't push them past 60 chars. {%- endcomment -%}
-  {%- unless page_title contains shop.name or page_title contains '| ETS' or page_title contains 'Perth' %} &ndash; {{ shop.name }}{% endunless -%}
+  {%- comment -%} Custom SEO titles already carry a " | " keyword or brand part; don't push them past 60 chars. {%- endcomment -%}
+  {%- unless page_title contains shop.name or page_title contains ' | ' %} &ndash; {{ shop.name }}{% endunless -%}
 </title>
 
 <link
@@ -146,8 +146,23 @@
     "postalCode": "6109",
     "addressCountry": "AU"
   },
-  "description": "Perth tiling contractor and bathroomware showroom in Maddington WA. Showroom visits by appointment, Monday to Saturday 4:30 pm to 9 pm.",
-  "areaServed": "Perth, Western Australia",
+  "description": "Tiles, vanities, tapware and bathroomware sold online across Australia, with a tiling team and by-appointment showroom in Maddington, Perth WA (Monday to Saturday 4:30 pm to 9 pm).",
+  "areaServed": { "@type": "Country", "name": "Australia" },
+  "priceRange": "$$",
+  "currenciesAccepted": "AUD",
+  "knowsAbout": ["Tiling", "Porcelain tiles", "Floor tiles", "Wall tiles", "Bathroom renovation", "Bathroomware", "Vanities", "Tapware", "Toilets", "Mirrors", "Heated towel rails", "Shower screens"],
+  {%- if shop.refund_policy %}
+  "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "applicableCountry": "AU",
+    "returnPolicyCountry": "AU",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+    "merchantReturnDays": 30,
+    "returnFees": "https://schema.org/RestockingFees",
+    "restockingFee": 15,
+    "merchantReturnLink": {{ shop.url | append: shop.refund_policy.url | json }}
+  },
+  {%- endif %}
   "openingHoursSpecification": [{
     "@type": "OpeningHoursSpecification",
     "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
@@ -167,3 +182,5 @@
   ]
 }
 </script>
+
+{%- render 'ets-structured-data' -%}

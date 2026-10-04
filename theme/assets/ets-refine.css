@@ -1,0 +1,105 @@
+/*
+  ETS refine (Oct 2026): tones down the template look of ets-2026.css so the store reads as a
+  practical tile and bathroom supplier. Loaded after ets-2026.css; overrides only.
+  - One typeface (Manrope) for headings and body; no italic accent words.
+  - Smaller, firmer headings; plain section labels instead of pill "eyebrows".
+  - Square-ish corners, flat cards, simple buttons without the arrow bubble.
+  - Content shows immediately (no fade-in on scroll).
+*/
+:root {
+  --ets-serif: var(--ets-sans);
+  --font-heading--family: var(--ets-sans);
+  --font-heading--weight: 700;
+  --ets-r-sm: 4px;
+  --ets-r: 8px;
+  --ets-r-lg: 10px;
+  --ets-shadow: 0 1px 2px rgba(21, 33, 58, .06);
+  --ets-shadow-lg: 0 4px 16px rgba(21, 33, 58, .10);
+  --ets-sec: clamp(48px, 6vw, 88px);
+}
+
+/* Type */
+body h1, body h2, body .h1, body .h2,
+.ets-display, .ets-h2 {
+  font-family: var(--ets-sans);
+  font-weight: 700;
+  letter-spacing: -.02em;
+}
+.ets-display { font-size: clamp(32px, 3.6vw, 50px); line-height: 1.08; max-width: 18ch; }
+.ets-h2 { font-size: clamp(26px, 2.8vw, 38px); line-height: 1.12; }
+.ets-display em, .ets-h2 em, .ets-pop h2 em, h1 em, h2 em {
+  font-style: normal;
+  color: inherit;
+}
+.ets-lede { font-size: clamp(16px, 1.2vw, 18px); }
+
+/* Section labels: plain text, no pill or dot */
+.ets-eyebrow {
+  padding: 0;
+  background: none;
+  box-shadow: none;
+  border-radius: 0;
+  margin-bottom: 10px;
+  font: 600 13px/1.2 var(--ets-sans);
+  letter-spacing: .02em;
+  text-transform: none;
+  color: var(--ets-brass);
+}
+.ets-eyebrow:before { display: none; }
+.ets-sec--ink .ets-eyebrow { background: none; box-shadow: none; color: #d6c3a1; }
+
+/* Buttons: simple rectangles, no arrow bubble */
+.ets-btn {
+  gap: 8px;
+  min-height: 48px;
+  padding: 0 22px;
+  border-radius: 6px;
+  font-weight: 600;
+  transition: background-color .2s ease, box-shadow .2s ease, transform .1s ease;
+}
+.ets-btn__dot { display: none; }
+.ets-btn:hover { box-shadow: none; filter: brightness(1.08); }
+.ets-btn--ghost:hover { background: rgba(21, 33, 58, .05); filter: none; }
+.ets-btn:active { transform: translateY(1px); }
+
+/* Cards: one flat surface instead of the double "shell + core" frame */
+.ets-shell { padding: 0; background: none; box-shadow: none; border-radius: var(--ets-r-lg); }
+.ets-core {
+  border-radius: var(--ets-r-lg);
+  box-shadow: 0 0 0 1px var(--ets-line);
+}
+.ets-sec--ink .ets-shell { background: none; box-shadow: none; }
+.ets-sec--ink .ets-core { box-shadow: 0 0 0 1px rgba(255, 255, 255, .1); }
+
+/* Department tiles: solid label bar instead of frosted glass */
+.ets-cat__body {
+  margin: 0;
+  border-radius: 0;
+  background: var(--ets-surface);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border-top: 1px solid var(--ets-line);
+}
+.ets-cat__body strong { font: 700 17px/1.2 var(--ets-sans); letter-spacing: -.01em; }
+.ets-cat:hover .ets-cat__img img { transform: scale(1.02); }
+
+/* Hero: drop the floating badge and glass tag */
+.ets-hero__float, .ets-hero__tag { display: none; }
+
+/* Trust strip: plain icons */
+.ets-trust__icon { width: 32px; height: 32px; background: none; border-radius: 0; }
+
+/* Trade rates panel */
+.ets-rate strong { font-family: var(--ets-sans); font-weight: 700; }
+.ets-rates__note { margin: 12px 4px 0; font-size: 13px; line-height: 1.5; color: #c9c3b6; }
+
+/* Show content straight away */
+.ets-js [data-reveal] { opacity: 1; transform: none; transition: none; }
+.ets-eyebrow:empty { display: none; }
+
+/* Product cards: brand is already in the product name */
+.ets-card__vendor { display: none; }
+
+/* Card and panel titles: same weight as the rest of the headings */
+.ets h3 { font-family: var(--ets-sans); font-weight: 700; letter-spacing: -.01em; }
+.ets-rate strong { font-size: clamp(24px, 2.4vw, 34px); line-height: 1; white-space: nowrap; }

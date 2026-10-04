@@ -1,0 +1,76 @@
+{%- liquid
+  assign heading = section.settings.heading
+  if heading == blank
+    if template.name == 'search'
+      if search.performed
+        assign safe_terms = search.terms | escape
+        assign heading = 'Results for “' | append: safe_terms | append: '”'
+      else
+        assign heading = 'Search the store'
+      endif
+    elsif template.name == 'blog'
+      assign heading = blog.title | escape
+    else
+      assign heading = page.title | default: shop.name | escape
+    endif
+  endif
+-%}
+<section class="ets ets-phero{% if section.settings.bg == 'sand' %} ets-sec--sand{% endif %}" aria-labelledby="EtsPh-{{ section.id }}">
+  <div class="ets-wrap">
+    {%- if section.settings.show_crumbs -%}
+      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">{{ heading | strip_html }}</li></ol>
+    {%- endif -%}
+    <div class="ets-phero__grid"{% if section.settings.image == blank %} style="grid-template-columns:minmax(0,1fr)"{% endif %}>
+      <div>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h1 class="ets-display" id="EtsPh-{{ section.id }}">{{ heading }}</h1>
+        {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>{%- endif -%}
+        {%- if template.name == 'search' -%}
+          <form class="ets-search" action="{{ routes.search_url }}" method="get" role="search" style="margin:28px 0 0;justify-self:start">
+            <label class="ets-visually-hidden" for="EtsSearchPage">Search</label>
+            <input id="EtsSearchPage" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Try “600x600 matt”, “brushed brass mixer”…">
+            <input type="hidden" name="options[prefix]" value="last">
+            <button type="submit" aria-label="Search">{% render 'ets-icon', name: 'search' %}</button>
+          </form>
+        {%- endif -%}
+        {%- if section.settings.btn_1_label != blank or section.settings.btn_2_label != blank -%}
+          <div class="ets-btns" style="margin-top:32px">
+            {%- if section.settings.btn_1_label != blank -%}<a class="ets-btn" href="{{ section.settings.btn_1_link | default: '/pages/request-a-quote' }}">{{ section.settings.btn_1_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>{%- endif -%}
+            {%- if section.settings.btn_2_label != blank -%}<a class="ets-btn ets-btn--ghost" href="{{ section.settings.btn_2_link | default: '/pages/contact' }}">{{ section.settings.btn_2_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow-up-right' %}</span></a>{%- endif -%}
+          </div>
+        {%- endif -%}
+        {%- if section.settings.show_chips -%}
+          <nav class="ets-chips" aria-label="Departments">
+            {%- for link in linklists['main-menu-2026'].links -%}<a class="ets-chip" href="{{ link.url }}">{{ link.title | escape }}</a>{%- endfor -%}
+          </nav>
+        {%- endif -%}
+      </div>
+      {%- if section.settings.image != blank -%}
+        <div class="ets-phero__media">
+          <div class="ets-shell"><div class="ets-core">
+            {{ section.settings.image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '500, 800, 1200', sizes: '(min-width: 990px) 40vw, 100vw', alt: '' }}
+          </div></div>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "ETS page header",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "info": "Leave empty to use the page title." },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "image_picker", "id": "image", "label": "Image" },
+    { "type": "text", "id": "btn_1_label", "label": "Button 1 label" },
+    { "type": "url", "id": "btn_1_link", "label": "Button 1 link" },
+    { "type": "text", "id": "btn_2_label", "label": "Button 2 label" },
+    { "type": "url", "id": "btn_2_link", "label": "Button 2 link" },
+    { "type": "checkbox", "id": "show_crumbs", "label": "Show breadcrumbs", "default": true },
+    { "type": "checkbox", "id": "show_chips", "label": "Show department links", "default": false },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }] }
+  ],
+  "presets": [{ "name": "ETS page header" }]
+}
+{% endschema %}

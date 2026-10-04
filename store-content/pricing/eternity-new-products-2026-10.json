@@ -1,0 +1,2761 @@
+[
+ {
+  "title": "Lava Vesuv Porcelain Tile",
+  "descriptionHtml": "<p>Lava Vesuv porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm, 600x600mm and 600x1200mm</li>\n<li>Matt or Gloss finish</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P3 (matt)</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "600x1200",
+   "600x600",
+   "Gloss",
+   "Lava",
+   "Matt",
+   "P3",
+   "Porcelain",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     },
+     {
+      "name": "600x600mm"
+     },
+     {
+      "name": "600x1200mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     },
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/fbac6622-5a41-45f1-8eac-b4937531e70d/lava-vesuv-tile.png",
+    "alt": "Lava Vesuv Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "HW637314",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "YW607314",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "50.10",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "FG637314",
+     "cost": "28.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "50.10",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "FG607314",
+     "cost": "28.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x1200mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "63.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "YW277314",
+     "cost": "36.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Fumosa Porcelain Tile",
+  "descriptionHtml": "<p>Fumosa porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 600x600mm and 600x1200mm</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P3</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "600x1200",
+   "600x600",
+   "Fumosa",
+   "Matt",
+   "P3",
+   "Porcelain",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "600x600mm"
+     },
+     {
+      "name": "600x1200mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/88e0d2e6-805d-493e-b741-014fb69155e6/fumosa-tile.png",
+    "alt": "Fumosa Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "37.40",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETSN6631",
+     "cost": "22",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x1200mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "50.10",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETSN126631",
+     "cost": "29.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Astra White Porcelain Tile",
+  "descriptionHtml": "<p>Astra White porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm and 600x600mm</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "600x600",
+   "Anti-Slip",
+   "Astra",
+   "Matt",
+   "P4",
+   "Porcelain",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     },
+     {
+      "name": "600x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/4268f2bf-7d32-440e-ab1b-545c0a0f4fa9/astra-white-tile.png",
+    "alt": "Astra White Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36AW",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA66AW",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Astra Greige Porcelain Tile",
+  "descriptionHtml": "<p>Astra Greige porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm and 600x600mm</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "600x600",
+   "Anti-Slip",
+   "Astra",
+   "Matt",
+   "P4",
+   "Porcelain",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     },
+     {
+      "name": "600x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/b9132208-9bde-4679-84f0-b3ac9e31cb31/astra-greige-tile.png",
+    "alt": "Astra Greige Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36AG",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA66AG",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Sand White Porcelain Tile",
+  "descriptionHtml": "<p>Sand White porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm and 600x600mm</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "600x600",
+   "Anti-Slip",
+   "Matt",
+   "P4",
+   "Porcelain",
+   "Sand",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     },
+     {
+      "name": "600x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/701062b6-aa5d-4d9f-9712-d87f752c287d/sand-white-tile.png",
+    "alt": "Sand White Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36SW",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA66SW",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Sand Beige Porcelain Tile",
+  "descriptionHtml": "<p>Sand Beige porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm and 600x600mm</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "600x600",
+   "Anti-Slip",
+   "Matt",
+   "P4",
+   "Porcelain",
+   "Sand",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     },
+     {
+      "name": "600x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/c092fee9-69e4-4ea0-a71e-ede998c9e507/sand-beige-tile.png",
+    "alt": "Sand Beige Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36SB",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA66SB",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Sand Grey Porcelain Tile",
+  "descriptionHtml": "<p>Sand Grey porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm and 600x600mm</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "600x600",
+   "Anti-Slip",
+   "Matt",
+   "P4",
+   "Porcelain",
+   "Sand",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     },
+     {
+      "name": "600x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/b3cd7a2e-59e3-4ad0-9d85-f0559e2b8357/sand-grey-tile.png",
+    "alt": "Sand Grey Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36SG",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA66SG",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Bianco Greco Porcelain Tile",
+  "descriptionHtml": "<p>Bianco Greco porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm and 600x600mm</li>\n<li>Material: Porcelain</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "600x600",
+   "Anti-Slip",
+   "Bianco",
+   "Matt",
+   "P4",
+   "Porcelain",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     },
+     {
+      "name": "600x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/d8564207-4915-478a-b047-0bfe2d44094a/bianco-greco-tile.png",
+    "alt": "Bianco Greco Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36BG",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA66BG",
+     "cost": "26.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Caliza Porcelain Tile",
+  "descriptionHtml": "<p>Caliza porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Material: Porcelain</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Caliza",
+   "Matt",
+   "Porcelain",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/8c6e5b93-1a4e-497c-901e-96c8b3f62827/caliza-tile.png",
+    "alt": "Caliza Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "50.10",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "YF637300",
+     "cost": "28.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "E-Time Calcare Porcelain Tile",
+  "descriptionHtml": "<p>E-Time Calcare porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Material: Porcelain</li>\n<li>Structured surface</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Anti-Slip",
+   "E-Time",
+   "P4",
+   "Porcelain",
+   "Structured",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Structured"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/851f05de-25b6-4565-8219-eb0da541afb2/e-time-calcare-tile.png",
+    "alt": "E-Time Calcare Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Structured"
+     }
+    ],
+    "price": "55.20",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "YW633164",
+     "cost": "31.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "E-Time Chiaro Porcelain Tile",
+  "descriptionHtml": "<p>E-Time Chiaro porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Material: Porcelain</li>\n<li>Structured surface</li>\n<li>Slip rating: P4</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Anti-Slip",
+   "E-Time",
+   "P4",
+   "Porcelain",
+   "Structured",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Structured"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/5864d2e5-ece1-4045-ad05-7682105acc61/e-time-chiaro-tile.png",
+    "alt": "E-Time Chiaro Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Structured"
+     }
+    ],
+    "price": "55.20",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "YW633165",
+     "cost": "31.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Oak Aube Timber Look Porcelain Tile",
+  "descriptionHtml": "<p>Oak Aube Timber Look porcelain tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 200x1200mm</li>\n<li>Material: Porcelain</li>\n<li>Timber-look plank, 196 x 1200 x 9mm</li>\n<li>Slip rating: P3</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "200x1200",
+   "Matt",
+   "P3",
+   "Porcelain",
+   "Tile",
+   "Timber Look",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "200x1200mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/e8c6529f-edc8-4691-af85-bb0580a1cf61/oak-aube-tile.png",
+    "alt": "Oak Aube Timber Look Porcelain Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "200x1200mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "63.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "HSA223111",
+     "cost": "36.5",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 22,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Subway Gloss White Ceramic Tile",
+  "descriptionHtml": "<p>Subway Gloss White ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 100x300mm</li>\n<li>Material: Ceramic</li>\n<li>8mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "100x300",
+   "Ceramic",
+   "Gloss",
+   "Subway",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "100x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSATC36001_67acf4be-192a-41ef-890d-8ef717bc6481.png?v=1782724584",
+    "alt": "Subway Gloss White Ceramic Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "100x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "37.40",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA31001G",
+     "cost": "22",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Subway Matt White Ceramic Tile",
+  "descriptionHtml": "<p>Subway Matt White ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 100x300mm</li>\n<li>Material: Ceramic</li>\n<li>8mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "100x300",
+   "Ceramic",
+   "Matt",
+   "Subway",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "100x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Satin"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSATC36001_8fdb2094-19c9-4087-92a4-0707332bcd24.png?v=1782724544",
+    "alt": "Subway Matt White Ceramic Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "100x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Satin"
+     }
+    ],
+    "price": "37.40",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA31002M",
+     "cost": "22",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Subwave Gloss White Ceramic Tile",
+  "descriptionHtml": "<p>Subwave Gloss White ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 75x300mm</li>\n<li>Material: Ceramic</li>\n<li>Wave-profile wall tile, 8mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "75x300",
+   "Ceramic",
+   "Gloss",
+   "Subwave",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "75x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSA730WAW1M_b63b5937-474a-4ee2-861d-faa6889eee54.jpg?v=1782724369",
+    "alt": "Subwave Gloss White Ceramic Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "75x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA730WAW1",
+     "cost": "25",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Subwave Matt White Ceramic Tile",
+  "descriptionHtml": "<p>Subwave Matt White ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 75x300mm</li>\n<li>Material: Ceramic</li>\n<li>Wave-profile wall tile, 8mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "75x300",
+   "Ceramic",
+   "Matt",
+   "Subwave",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "75x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Satin"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSA730WAW1M.jpg?v=1782724305",
+    "alt": "Subwave Matt White Ceramic Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "75x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Satin"
+     }
+    ],
+    "price": "46.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA730WAW1M",
+     "cost": "25",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Subwave Nude Ceramic Tile",
+  "descriptionHtml": "<p>Subwave Nude ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 75x300mm</li>\n<li>Material: Ceramic</li>\n<li>Wave-profile wall tile, 8mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "75x300",
+   "Ceramic",
+   "Gloss",
+   "Subwave",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "75x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSA730WBC7_2.jpg?v=1782724234",
+    "alt": "Subwave Nude Ceramic Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "75x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "51.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA730WBC7",
+     "cost": "29",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Subwave Grey Ceramic Tile",
+  "descriptionHtml": "<p>Subwave Grey ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 75x300mm</li>\n<li>Material: Ceramic</li>\n<li>Wave-profile wall tile, 8mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "75x300",
+   "Ceramic",
+   "Gloss",
+   "Subwave",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "75x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSA730WBC6_4.png?v=1786006818",
+    "alt": "Subwave Grey Ceramic Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "75x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "51.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA730WBC6",
+     "cost": "29",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "White Ceramic Wall Tile",
+  "descriptionHtml": "<p>White ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Gloss or Matt finish</li>\n<li>Material: Ceramic</li>\n<li>9.5mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Ceramic",
+   "Gloss",
+   "Matt",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     },
+     {
+      "name": "Matt"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSATC36001.png?v=1782724036",
+    "alt": "White Ceramic Wall Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "34.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36001",
+     "cost": "13.8",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Matt"
+     }
+    ],
+    "price": "34.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA36002M",
+     "cost": "15.8",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Eternal Marble Ceramic Wall Tile",
+  "descriptionHtml": "<p>Eternal Marble ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Material: Ceramic</li>\n<li>9.5mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Ceramic",
+   "Gloss",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSAA60822.jpg?v=1782723877",
+    "alt": "Eternal Marble Ceramic Wall Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "34.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA60822",
+     "cost": "20",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Eternal Carrara Ceramic Wall Tile",
+  "descriptionHtml": "<p>Eternal Carrara ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Material: Ceramic</li>\n<li>9.5mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Ceramic",
+   "Gloss",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSAA60602_2.jpg?v=1782723629",
+    "alt": "Eternal Carrara Ceramic Wall Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "34.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA60602",
+     "cost": "20",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Element Grey Ceramic Wall Tile",
+  "descriptionHtml": "<p>Element Grey ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Material: Ceramic</li>\n<li>9.5mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Ceramic",
+   "Gloss",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSAA6049.jpg?v=1782723099",
+    "alt": "Element Grey Ceramic Wall Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "34.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA6049",
+     "cost": "20",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Whisper Grey Ceramic Wall Tile",
+  "descriptionHtml": "<p>Whisper Grey ceramic tile, sold per sqm to the nearest full box.</p><ul>\n<li>Available in 300x600mm</li>\n<li>Material: Ceramic</li>\n<li>9.5mm thick</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x600",
+   "Ceramic",
+   "Gloss",
+   "Tile",
+   "Wall Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x600mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Gloss"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSATC60871.jpg?v=1782722999",
+    "alt": "Whisper Grey Ceramic Wall Tile",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x600mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Gloss"
+     }
+    ],
+    "price": "34.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "DSA60871",
+     "cost": "20",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 15,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Hex Crystal White Mosaic Tile",
+  "descriptionHtml": "<p>Hex Crystal White natural stone mosaic, sold per sheet.</p><ul>\n<li>Available in 305x330mm</li>\n<li>Material: Natural stone</li>\n<li>304 stainless steel inlay</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "305x330",
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "305x330mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/da6937f9-98a9-4e19-846a-820caa6b89cd/hex-crystal-white-mosaic.png",
+    "alt": "Hex Crystal White Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "305x330mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "28.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAY754",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Hex Black and White Roots Mosaic Tile",
+  "descriptionHtml": "<p>Hex Black and White Roots natural stone mosaic, sold per sheet.</p><ul>\n<li>Available in 305x330mm</li>\n<li>Material: Natural stone</li>\n<li>304 stainless steel inlay</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "305x330",
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "305x330mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/a6a7b883-b363-4c57-8492-43dfc8998774/hex-black-white-roots-mosaic.png",
+    "alt": "Hex Black and White Roots Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "305x330mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "28.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAY754-D",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Arrow Crystal White Mosaic Tile",
+  "descriptionHtml": "<p>Arrow Crystal White natural stone mosaic, sold per sheet.</p><ul>\n<li>Available in 300x260mm</li>\n<li>Material: Natural stone</li>\n<li>Aluminium inlay</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "300x260",
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "300x260mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/2a5da636-d993-431b-bc96-db5918d4bdbd/arrow-crystal-white-mosaic.png",
+    "alt": "Arrow Crystal White Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "300x260mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "28.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAY752",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Crystal White Black Jade Mosaic Tile",
+  "descriptionHtml": "<p>Crystal White Black Jade natural stone mosaic, sold per sheet.</p><ul>\n<li>Available in 170x295mm</li>\n<li>Material: Natural stone</li>\n<li>Stainless steel inlay</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "170x295",
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "170x295mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/80b1387f-d050-4737-a94c-0a8e095766d1/crystal-white-black-jade-mosaic.png",
+    "alt": "Crystal White Black Jade Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "170x295mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "28.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAY893",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Crystal White Indian Green Mosaic Tile",
+  "descriptionHtml": "<p>Crystal White Indian Green natural stone mosaic, sold per sheet.</p><ul>\n<li>Available in 285x235mm</li>\n<li>Material: Natural stone</li>\n<li>Stainless steel inlay</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "285x235",
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "285x235mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/ef3ee951-ba67-4c05-9725-a49e1533cb96/crystal-white-indian-green-mosaic.png",
+    "alt": "Crystal White Indian Green Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "285x235mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "28.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAY761-B",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Herringbone Snow Plum Mosaic Tile",
+  "descriptionHtml": "<p>Herringbone Snow Plum natural stone mosaic, sold per sheet.</p><ul>\n<li>Material: Natural stone</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "Sheet"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/76bc0499-af40-48ec-abbb-b44dfdf4cc0f/herringbone-snow-plum-mosaic.png",
+    "alt": "Herringbone Snow Plum Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "Sheet"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "28.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAP625-J",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Pools Red Norwegian Mosaic Tile",
+  "descriptionHtml": "<p>Pools Red Norwegian natural stone mosaic, sold per sheet.</p><ul>\n<li>Available in 295x300mm</li>\n<li>Material: Natural stone</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "295x300",
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "295x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/a8f10e5b-a6ba-4e14-8973-6801e8ac729d/pools-red-norwegian-mosaic.png",
+    "alt": "Pools Red Norwegian Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "295x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "32.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAY795-F",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ },
+ {
+  "title": "Pools Snow Plum Mosaic Tile",
+  "descriptionHtml": "<p>Pools Snow Plum natural stone mosaic, sold per sheet.</p><ul>\n<li>Available in 295x300mm</li>\n<li>Material: Natural stone</li>\n</ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Tile",
+  "status": "ACTIVE",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-5",
+  "tags": [
+   "295x300",
+   "Mosaic",
+   "Natural Stone",
+   "Tile",
+   "trade-5"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "295x300mm"
+     }
+    ]
+   },
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Polished"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://shopify-staged-uploads.storage.googleapis.com/tmp/68302929983/files/cfdad6fb-ffff-4e52-9d62-fe02f395be5e/pools-snow-plum-mosaic.png",
+    "alt": "Pools Snow Plum Mosaic Tile (indicative swatch)",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "295x300mm"
+     },
+     {
+      "optionName": "Finish",
+      "name": "Polished"
+     }
+    ],
+    "price": "32.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "LAY795-D",
+     "cost": "11",
+     "tracked": false,
+     "measurement": {
+      "weight": {
+       "value": 2,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ]
+ }
+]
