@@ -78,3 +78,11 @@ was compared with, and any flag. Rules are in the script's docstring. In short:
   `price-lists/ETS-trade-price-list-2026-10.pdf` (retail + trade).
 - Supplier delivery (SILVER sheet: $80 metro, $120 at 30-50 km) isn't added to costs: the owner confirmed
   (3 Oct) that delivery for bulky items is charged to the customer at checkout.
+
+## On hold: MELA DAVISSON basin, White (4 Oct 2026)
+
+Set to sold out (inventory tracked, 0 stock, "continue selling when out of stock" off) so it can't be
+ordered at $199. Its recorded cost ($225.91 ex GST) was copied from the Matt White, because Bathroom City
+doesn't list a plain White, so the "below cost" flag may be wrong. Owner to confirm whether MELA supplies
+it and at what SILVER cost. To bring it back: set the variant's inventory policy to CONTINUE (or untrack
+inventory) and re-price against the real cost. Matt Black and Matt White ($337) are unaffected.
