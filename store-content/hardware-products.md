@@ -1,0 +1,69 @@
+# Hardware department
+
+Collection: **Hardware** (`/collections/hardware`, smart collection, rule: tag = `Hardware`).
+Any product tagged `Hardware` joins it automatically. The theme shows the Hardware menu link,
+homepage card and directory tile once the collection has at least one active product.
+
+## Navigation
+
+The live theme is "ETS 2026 – Landing page boost (draft)", not the `theme/` files in this repo. Its header
+and collection chips use the menu Shopify admin → Content → Menus → **Main menu 2026**, where "Hardware"
+(Trowels & tiling tools, Diamond blades & abrasives, Silicone, additives & cleaners, Tile trims & edging,
+Tile cutters & accessories) sits after "Mirrors & accessories". There is no "All hardware" child: the
+collection header already adds an "All hardware" chip and the menu panel a "Shop all hardware" link.
+Add "Tile Spacers & Wedges" to that drop-down once a spacer product is live.
+The homepage "Shop by department" grid has a "Tiling tools & hardware" tile (`hardware` block in
+`templates/index.json`). Collection headers and each menu panel show a slowly scrolling strip of the
+collection's live products (`snippets/ets-product-marquee.liquid`; hide it with "Hide moving product
+strip" in the collection header or header section settings).
+
+## Categories
+
+Four smart sub-collections, filled from each product's sub-tag. They show as tabs on every
+Hardware collection page (`sections/ets-collection-hero.liquid`); empty ones are hidden.
+
+| Collection | Handle | Tags |
+|------------|--------|------|
+| Trowels & Tiling Tools | `trowels-tiling-tools` | Trowels, Hand Tools, Sealant Tools, Site Power |
+| Diamond Blades & Drill Bits | `diamond-blades-drill-bits` | Diamond Blades, Drill Bits, Abrasives |
+| Tile Spacers & Wedges | `tile-spacers-wedges` | Tile Spacers |
+| Silicone, Additives & Cleaners | `silicone-additives-cleaners` | Silicone & Sealants, Adhesives & Additives, Cleaners & Sealers |
+
+A new hardware product needs the `Hardware` tag plus one of the tags above.
+
+## Inventory
+
+Every product is tracked (SKU `ETS-HW-###`, matching the numbers below) with
+"Continue selling when out of stock" on, because stock can be reordered from suppliers.
+Counts start at 0; enter the on-hand quantities in Shopify admin → Products → Inventory.
+
+When a product comes in more sizes than we keep on the shelf, list every size as a variant: sizes we
+don't hold start at 0 and can still be ordered. A new size is set to "Stop selling when out of stock"
+until it has its own price, so it can't sell at a copied price.
+
+Products added 27 Sep 2026 from the showroom tool wall photo. All were created as **Draft**
+at $0.00. Set a price, then change the status to Active.
+
+Photos (added 27 Sep 2026) are the brands' own product shots, copied into Shopify files from
+the manufacturer or Australian stockist sites listed below. Products marked "none" still need a photo.
+
+| # | Product | Vendor | Sub-tag | Photo source |
+|---|---------|--------|---------|--------------|
+| 1 | Heavy Duty Caulking Gun | Excellent Tiling Services (brand unknown) | Sealant Tools | none (brand unknown) |
+| 2 | BAT Pro 12 mm Square Notch Trowel | BAT Tools | Trowels | adheseal.com.au (pack shows 15 mm, same range) |
+| 3 | Panther Stainless Steel Square Notch Trowel 280 x 120 mm | Panther | Trowels | adheseal.com.au, kimstilingsupplies.com.au |
+| 4 | BAT Premium Stainless Steel Notch Trowel | BAT Tools | Trowels | none |
+| 5 | Roberts Pocket Folding Knife with Screwdriver | Roberts | Hand Tools | robertsdesigns.com.au |
+| 6 | BAT Pro Dry Diamond Drill Bit | BAT Tools | Drill Bits | tradiecart.com.au |
+| 7 | Tile Spacers – 500 Tile Crosses | BAT Tools | Tile Spacers | adheseal.com.au, stonex.com.au |
+| 8 | Tile Spacers – 500 Wedges | BAT Tools | Tile Spacers | adheseal.com.au, stonex.com.au |
+| 9 | BAT Tile Spacers 1.5 mm – 1000 Pack | BAT Tools | Tile Spacers | stonex.com.au |
+| 10 | Maxisil 100% Pure Silicone | Maxisil | Silicone & Sealants | robertsdesigns.com.au |
+| 11 | Roberts High Performance Turbo Diamond Blade | Roberts | Diamond Blades | none (discontinued online) |
+| 12 | Panther Diamond Blade | Panther | Diamond Blades | adheseal.com.au |
+| 13 | BAT Razor Mesh Diamond Blade | BAT Tools | Diamond Blades | stonex.com.au |
+| 14 | BAT Tools Pro Diamond Mesh Blade | BAT Tools | Diamond Blades | stonex.com.au |
+| 15 | BAT Pro PVA Abrasive Wheels 100 mm – 10 Pack (Grit: 36 / 120) | BAT Tools | Abrasives | box photo supplied by ETS, 36 grit close-up tradiecart.com.au, 120 grit tsptrims.com.au; $55.00 each grit (market $55–57.50), 120 grit `ETS-HW-015-120` to order |
+| 16 | BAT Eco SynSafe Acid (Size: 1 L / 5 L / 20 L) | BAT Eco | Cleaners & Sealers | 1 L adheseal.com.au, 5 L and 20 L photos supplied by ETS (each linked to its size), + 3 before/after shots from BAT's TDS; 1 L $35.00 in stock, 5 L $145.00 (`ETS-HW-016-5L`) and 20 L $485.00 (`ETS-HW-016-20L`) to order, priced ~8% under Adheseal incl. GST |
+| 17 | RLA Quick Set Liquid Additive – Cement Accelerator 5 L | RLA | Adhesives & Additives | tilersdirect.com.au (green label, matches stock); $47.00, needs barcode |
+| 18 | Click Heavy Duty Powerblock – 4 Outlet with RCBO Protection | Click | Site Power | supplied by ETS (2 photos); $75.00, ready to publish |
