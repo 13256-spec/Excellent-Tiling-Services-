@@ -16,6 +16,15 @@ Ready-to-post graphics. Feed posts are 1080×1350 (Instagram/Facebook portrait);
 | R-B1 / R-C1 / R-D1 | Reel covers: unboxing, vanity install, tiling mistakes |
 | S-poll / S-countdown / S-showroom / S-trade | Story frames (add the poll/countdown sticker in Instagram) |
 
+## Discount code YAMEN10
+
+Shopify code (scheduled): 10% off, $150 minimum, one use per customer, 12 Oct 00:00 to 8 Nov 23:59 Perth.
+It only applies to the hidden, unpublished collection `yamen10-eligible`: the 292 products whose every
+variant stays at or above the 20% profit floor after 10% off (from `store-pricing-2026-10-03.csv`). That
+is all tiles and most tools/tapware; no vanities, basins, mirrors or baths. Products added later are
+not in it, so add them by hand if they qualify. Every post that mentions the code carries
+"Excludes vanities, basins, mirrors and baths."
+
 The posting schedule and captions are in the owner's Google Calendar. Prices are as of 4 Oct 2026;
 re-check before reposting after a price change. Never name the tile supplier.
 

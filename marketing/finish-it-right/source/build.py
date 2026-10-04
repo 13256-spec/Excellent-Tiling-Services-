@@ -34,7 +34,7 @@ posts={
 'A2-1-cover':
  img('brittany2.jpg','1/5','1/4')+
  f'<div class="t" {a("1/4","4/6")}><h1>Our online store is open</h1><p class="bot">Tiles, tapware and vanities from a Perth tiling business, at the prices we pay to fit them out.</p></div>'+
- f'<div class="t navy" {a("4/5","4/5")}><h2 style="font-size:86px">10%</h2><p class="small bot">off your first order over $150</p></div>'+
+ f'<div class="t navy" {a("4/5","4/5")}><h2 style="font-size:86px">10%</h2><p class="small bot">off selected items, first order over $150</p></div>'+
  LOGO('4/5','5/6'),
 'A2-2-flova':
  img('flova.png','1/5','1/4','fit')+
@@ -53,8 +53,8 @@ posts={
  f'<div class="t" {a("1/4","5/6")}><h2 style="font-size:52px">Porcelain tiles from $37.40/m²</h2><p class="small" style="margin-top:14px">Perth delivery or free pickup. Sold by the full box.</p></div>'+
  f'<div class="t blue" {a("4/5","5/6")}></div>',
 'A2-5-code':
- f'<div class="t deep" {a("1/5","1/4")}><p>Use code</p><div class="code" style="margin-top:30px">YAMEN10</div><p class="bot" style="font-size:40px">10% off your first order over $150</p></div>'+
- f'<div class="t" {a("1/4","4/6")}><h2>Ends Sunday 8&nbsp;November</h2><p class="bot">{URL}</p></div>'+
+ f'<div class="t deep" {a("1/5","1/4")}><p>Use code</p><div class="code" style="margin-top:30px">YAMEN10</div><p class="bot" style="font-size:40px">10% off selected items, first order over $150</p></div>'+
+ f'<div class="t" {a("1/4","4/6")}><h2>Ends Sunday 8&nbsp;November</h2><p class="small" style="margin-top:18px">Excludes vanities, basins, mirrors and baths.</p><p class="bot">{URL}</p></div>'+
  f'<div class="t blue" {a("4/5","4/5")}></div>'+LOGO('4/5','5/6'),
 'C3-showroom':
  f'<div class="t navy" {a("1/5","1/4")}><h1 style="font-size:132px">Work all day?<br>So do we.</h1><p class="bot" style="font-size:38px">Our Maddington showroom opens in the evening, by appointment.</p></div>'+
@@ -64,7 +64,7 @@ posts={
 'D3-last-call':
  img('hail-room.jpg','1/5','1/3')+
  f'<div class="t deep" {a("1/5","3/5")}><p>Last call</p><div class="code" style="margin-top:24px">YAMEN10</div><h2 class="bot" style="font-size:58px">Ends Sunday 8 November</h2></div>'+
- f'<div class="t" {a("1/4","5/6")}><p>10% off your first order over $150, tiles to tapware.</p><p class="small" style="margin-top:12px">{URL}</p></div>'+LOGO('4/5','5/6'),
+ f'<div class="t" {a("1/4","5/6")}><p>10% off selected items on your first order over $150.</p><p class="small" style="margin-top:12px">Excludes vanities, basins, mirrors and baths. {URL}</p></div>'+LOGO('4/5','5/6'),
 }
 
 posts.update({
@@ -110,8 +110,8 @@ posts.update({
  f'<div class="t navy" {a("1/5","4/6")}><h1 style="font-size:116px">Chrome or matt black?</h1><p class="bot" style="font-size:38px">Same mixer, $189 or $217. Vote below.</p></div>'+
  f'<div class="t" {a("1/5","6/8")}><p style="font-size:34px;color:#8a919a">Poll sticker goes here</p></div>',
 'S-countdown':
- f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Last day tomorrow</p><div class="code" style="margin-top:40px">YAMEN10</div><p class="bot" style="font-size:44px">10% off your first order over $150</p></div>'+
- f'<div class="t" {a("1/5","5/7")}><p style="font-size:34px;color:#8a919a">Countdown sticker goes here</p></div>'+
+ f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Last day tomorrow</p><div class="code" style="margin-top:40px">YAMEN10</div><p class="bot" style="font-size:44px">10% off selected items, first order over $150</p></div>'+
+ f'<div class="t" {a("1/5","5/7")}><p style="font-size:34px;color:#8a919a">Countdown sticker goes here</p><p class="small bot">Excludes vanities, basins, mirrors and baths.</p></div>'+
  f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Tap the link to shop</h2></div>'+LOGO('4/5','7/8'),
 'S-showroom':
  f'<div class="t navy" {a("1/5","1/4")}><h1 style="font-size:132px">Open tonight, 4:30 to 9</h1></div>'+
