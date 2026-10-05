@@ -40,12 +40,13 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
 
 ## Rules
 
+- Only schedule posts that `ets-copy-review` has passed (record its verdict next to the post).
+
 - Only schedule what the owner asked for or approved (the plan he approved counts; new ideas don't).
 - Before a post goes out, prices must match the live store. Each Monday, re-check that week's queued
   prices against Shopify; if one changed, update the post text with `updateScheduledPost` and say so.
 - Never name the tile supplier (Eternity) in text, alt text, file names or images. MELA can be named.
-- Shipping wording: "Free shipping in WA on orders over $100" (tapware/accessories/tools), "shipped
-  Australia-wide by Australia Post" (basins, mirrors), "Perth delivery or free pickup from Maddington"
-  (tiles, vanities). Never "free shipping Australia-wide". No discount codes (none running).
+- Shipping (re-check the live Delivery page and shipping policy before quoting; it changed several times in Oct 2026). As of 5 Oct night: tapware and accessories ship Australia-wide, priced by weight at checkout; basins and mirrors go by Australia Post from $25; free shipping only on orders of $1,000+ (not Perth local delivery); tiles, vanities, baths and toilets are Perth metro delivery or free pickup in Maddington. Never write "free shipping over $100" or "free shipping" without the $1,000 condition.
+
 - Never pay for boosts or ads. Never delete scheduled posts without the owner naming them.
 - After changes, report one line per post: date, time, what, networks.

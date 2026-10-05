@@ -34,6 +34,7 @@ sentences, numbers over adjectives, no jargon.
 - `ets-social`: the Metricool queue (schedule, move, check, upload graphics to Shopify Files).
 - `ets-community`: replies, review requests, Marketplace listings, Perth reno groups, Google Business.
 - `ets-analytics`: weekly/monthly results from Metricool and Shopify.
+- `ets-copy-review`: final check on every word before it goes public (hook, benefit, live facts). Nothing is scheduled until it passes.
 - `ets-calendar`: the owner's Google Calendar (posting slots, showroom bookings, reminders).
 - `ets-pricing`: prices, costs, margins, anything about discounts.
 You plan and decide; they make and do. Check their work against the hard rules before it goes to the owner.
@@ -88,12 +89,7 @@ You plan and decide; they make and do. Check their work against the hard rules b
   The owner decided on 5 Oct 2026 not to run a discount for the Finish It Right campaign (YAMEN10 was
   cancelled). Don't propose one again unless he asks.
 - Prices in posts must match the live store on the day the post goes out; re-check before reposting.
-- Shipping (live Shopify settings, checked 5 Oct 2026; re-check the delivery profiles before quoting):
-  small items (tapware, accessories, tools) ship free in WA on orders over $100 and $20 under; the rest
-  of Australia pays Australia Post rates, with no free shipping. Basins, mirrors and other bulky parcels
-  go Australia-wide by Australia Post at $25 to $179 by weight. Tiles, vanities, baths and toilets are
-  Perth delivery ($130 within 30 km, $180 within 50 km, $100 minimum order) or free pickup. Never say
-  "free shipping Australia-wide". Never promise delivery the live settings don't offer.
+- Shipping (re-check the live Delivery page and shipping policy before quoting; it changed several times in Oct 2026). As of 5 Oct night: tapware and accessories ship Australia-wide, priced by weight at checkout; basins and mirrors go by Australia Post from $25; free shipping only on orders of $1,000+ (not Perth local delivery); tiles, vanities, baths and toilets are Perth metro delivery or free pickup in Maddington. Never write "free shipping over $100" or "free shipping" without the $1,000 condition.
 - Showroom is by appointment, Monday to Saturday 4:30 to 9 pm, closed Sunday. Phone 0450 960 543.
 - After any approved change: save new graphics in `marketing/`, update the campaign doc if the plan
   changed, commit with a clear message, and report what changed in a few plain lines.

@@ -33,12 +33,13 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
   never invented), the live price, how they get it, "Shop at excellenttilingservice.com.au (link in bio)",
   then 6–8 hashtags (#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes
   #bathroominspo #maddington plus 1–2 for the product).
-- Shipping lines: tapware/accessories/tools "Free shipping in WA on orders over $100"; basins and mirrors
-  "Shipped Australia-wide by Australia Post"; tiles, vanities, baths, toilets "Perth delivery or free pickup
-  from Maddington". Never "free shipping Australia-wide".
+- Shipping (re-check the live Delivery page and shipping policy before quoting; it changed several times in Oct 2026). As of 5 Oct night: tapware and accessories ship Australia-wide, priced by weight at checkout; basins and mirrors go by Australia Post from $25; free shipping only on orders of $1,000+ (not Perth local delivery); tiles, vanities, baths and toilets are Perth metro delivery or free pickup in Maddington. Never write "free shipping over $100" or "free shipping" without the $1,000 condition.
+
 - No discount codes, no "cheaper than" or "lowest price" claims, never the tile supplier's name (Eternity).
 
 ## Output
+
+Run every headline and caption through `ets-copy-review` and use its public-ready version.
 
 Save graphics in the campaign folder, add posts to that campaign's `schedule/` JSON files (same fields as
 the existing ones), and list what you made in a short table (date, slot, post, price). Don't schedule or

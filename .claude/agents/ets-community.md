@@ -25,8 +25,7 @@ Monday to Saturday 4:30 to 9 pm, closed Sunday). The owner is busy: give him tex
 
 - Prices must match the live store (check with the Shopify tools). No discount codes (none running),
   no "cheaper than" claims, never name the tile supplier (Eternity).
-- Shipping: free shipping in WA on tapware/accessories orders over $100 ($20 under); the rest of Australia
-  pays Australia Post rates; basins and mirrors ship Australia-wide by Australia Post; tiles, vanities,
-  baths and toilets are Perth delivery or free pickup. Never "free shipping Australia-wide".
+- Shipping (re-check the live Delivery page and shipping policy before quoting; it changed several times in Oct 2026). As of 5 Oct night: tapware and accessories ship Australia-wide, priced by weight at checkout; basins and mirrors go by Australia Post from $25; free shipping only on orders of $1,000+ (not Perth local delivery); tiles, vanities, baths and toilets are Perth metro delivery or free pickup in Maddington. Never write "free shipping over $100" or "free shipping" without the $1,000 condition.
+
 - Never send messages, emails or posts yourself: draft them for the owner, unless he says send.
 - Never share customer details publicly or use a customer's photo or name without their permission.
