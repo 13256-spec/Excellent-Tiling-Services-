@@ -1,0 +1,212 @@
+[
+  {
+    "id": "2026-10-30-lunch",
+    "metricoolId": 388628904,
+    "uuid": "7121266094129891724",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-10-30-main",
+    "metricoolId": 388629066,
+    "uuid": "-1062151774870158674",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-10-30-story",
+    "metricoolId": 388629110,
+    "uuid": "7975706225991173427",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-10-31-lunch",
+    "metricoolId": 388629202,
+    "uuid": "7071398152414776933",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-10-31-main",
+    "metricoolId": 388629295,
+    "uuid": "5357780051715639311",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-10-31-story",
+    "metricoolId": 388629378,
+    "uuid": "-2508807565814773797",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-01-lunch",
+    "metricoolId": 388629543,
+    "uuid": "8857249822077438097",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-01-main",
+    "metricoolId": 388629606,
+    "uuid": "8262557100724734757",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-01-story",
+    "metricoolId": 388629671,
+    "uuid": "-8851743457640955470",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-02-lunch",
+    "metricoolId": 388629767,
+    "uuid": "-9205490360485786021",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-02-main",
+    "metricoolId": 388629860,
+    "uuid": "-6995172068820760201",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-02-story",
+    "metricoolId": 388629918,
+    "uuid": "6152765990491934106",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-03-lunch",
+    "metricoolId": 388630058,
+    "uuid": "-3444322281190373876",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-03-main",
+    "metricoolId": 388630203,
+    "uuid": "-2443182334445532852",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-03-story",
+    "metricoolId": 388630259,
+    "uuid": "1685483806138911825",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-04-lunch",
+    "metricoolId": 388630427,
+    "uuid": "-7697554157829927053",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-04-main",
+    "metricoolId": 388630510,
+    "uuid": "-8009204157821466851",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-04-story",
+    "metricoolId": 388630588,
+    "uuid": "2226604929851150053",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-05-lunch",
+    "metricoolId": 388630926,
+    "uuid": "5337691022473445400",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-05-main",
+    "metricoolId": 388630984,
+    "uuid": "-2266723356205823759",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-05-story",
+    "metricoolId": 388631165,
+    "uuid": "2788436380808136317",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-06-lunch",
+    "metricoolId": 388631346,
+    "uuid": "-8085031427484136185",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-06-main",
+    "metricoolId": 388631660,
+    "uuid": "4111626649410488701",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-06-story",
+    "metricoolId": 388632071,
+    "uuid": "-5369226862779939268",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-07-lunch",
+    "metricoolId": 388632255,
+    "uuid": "596890291466158770",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-07-main",
+    "metricoolId": 388632383,
+    "uuid": "-5414918744156582989",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-07-story",
+    "metricoolId": 388632521,
+    "uuid": "8509513511915505892",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-08-lunch",
+    "metricoolId": 388633117,
+    "uuid": "6292509032102645298",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-08-main",
+    "metricoolId": 388633196,
+    "uuid": "1017391291423933864",
+    "status": "ok",
+    "error": null
+  },
+  {
+    "id": "2026-11-08-story",
+    "metricoolId": 388633283,
+    "uuid": "-4436651938707912238",
+    "status": "ok",
+    "error": null
+  }
+]
