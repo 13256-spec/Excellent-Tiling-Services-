@@ -83,3 +83,28 @@ Retest after adding them (cart shipping-rate lookup):
 - **Use the right box.** The first label for order #1001 (6 small items, 4.65 kg, Perth → Brisbane) quoted Parcel Post at $102.05 and Express Post at $368.95. That was because it used the default "Tile box 60x45x30", which Australia Post charges as 20.25 kg cubic weight. The owner added and saved a **30x25x20 small box** (0.1 kg empty, 3.75 kg cubic) for small orders. Next step: make it the default package (Settings → Shipping and delivery → Saved packages), so labels don't start from the tile box.
 - **Checkout still shows the fixed backup prices only.** Retest (cart shipping-rate lookup): MELA ARCH basin to Sydney 2000 and to Brisbane 4069 both returned only "Australia Post tracked parcel $79". Live Australia Post prices work for labels but not at checkout. On the Basic plan, carrier-calculated rates at checkout usually need a paid add-on or a higher plan. Keep the fixed weight prices until then.
 - Order #1001's $0 shipping is correct: it's over $100, so it got the General profile's free-shipping rate.
+
+## Fix 5 Oct 2026 (afternoon): interstate checkout had no shipping option
+Earlier today free shipping over $100 was made WA-only. That left the General profile's "Rest of Australia" zone (ACT, NSW, NT, QLD, SA, TAS, VIC) with only the Australia Post live rate, which returns nothing at checkout on the Basic plan. So **any cart with a small item going outside WA could not check out.**
+
+Owner's rule from today: **free delivery only on orders of $1,000 or more**, everywhere. Small-item delivery should stay reasonable.
+
+General profile (small items) now:
+
+| Zone | Rate | Condition |
+| --- | --- | --- |
+| Western Australia | Standard shipping $20 | order $0 to $999.99 |
+| Western Australia | Free shipping (orders $1000+) | order $1,000+ |
+| Rest of Australia | Australia Post tracked parcel $20 | up to 2.99 kg |
+| Rest of Australia | Australia Post tracked parcel $30 | 3 to 4.99 kg |
+| Rest of Australia | Australia Post tracked parcel $45 | 5 to 9.99 kg |
+| Rest of Australia | Australia Post tracked parcel $69 | 10 to 22 kg |
+| Rest of Australia | Australia Post tracked parcels (2 boxes) $119 | 22.01 to 44 kg |
+| Rest of Australia | Australia Post tracked parcels (3-4 boxes) $199 | 44.01 to 100 kg |
+| Rest of Australia | Free shipping (orders $1000+) | order $1,000+ |
+
+The Australia Post live rate (+$3 fee) is still on in Rest of Australia. It shows nothing on the Basic plan, but it will appear next to the fixed prices if live checkout rates are ever enabled.
+
+Unchanged: the bulky-items profile (Australia Post $25 to $179 by weight, no free shipping), and large items (pickup or Perth local delivery only). A mixed cart pays the small-item rate plus the bulky-item rate.
+
+**Still to do:** the theme and SEO text says "free shipping over $100" in about 20 places (header bar, homepage, FAQs, product perks, delivery page, collection SEO text, shipping policy, "Finish it right" campaign graphics). It needs changing to the $1,000 rule.
