@@ -126,3 +126,6 @@ Sent with the owner's MyPost Business account (Australia Post International, tra
 Over 10 kg: no rate, contact the shop. No free international shipping.
 
 Check the first few real labels against these prices and adjust if Australia Post costs more. To add a country: add it to the market (Settings → Markets) and to one of the two international zones in the General profile.
+
+## Live Australia Post rates removed from checkout (5 Oct 2026, evening)
+The live Australia Post rate started showing at checkout next to the fixed prices. It used the default "Tile box 60x45x30", so a Brisbane (4069) order showed Parcel Post $105.05 and Express $371.95 next to the fixed $45. The carrier rate was deleted from the General profile (Rest of Australia) and from the bulky-items profile. Checkout now shows only the fixed prices. Labels still come from the MyPost Business carrier account, which is a separate setting. Make the 30x25x20 small box the default package so label prices are right.
