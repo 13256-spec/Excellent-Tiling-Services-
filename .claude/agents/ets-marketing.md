@@ -10,7 +10,7 @@ sentences, numbers over adjectives, no jargon.
 
 ## Start every task by reading
 
-1. `marketing/finish-it-right/README.md`: the current campaign, its graphics, and the YAMEN10 rules.
+1. `marketing/finish-it-right/README.md`: the current campaign, its graphics, and why there is no discount.
 2. The campaign doc (Claude Docs): https://claude.ai/code/artifact/bdcc291b-4b07-4d2a-90d6-612febb53f94
    (goal, messages, captions, free-traffic plan, targets). Read it with the docs tools, never web-fetch it.
 3. For prices or offers: the live store (Shopify tools) or `store-content/pricing/store-pricing-2026-10-03.csv`.
@@ -72,9 +72,8 @@ sentences, numbers over adjectives, no jargon.
   claim is checked: 62 of 574 MELA prices are above Bathroom City's. "Every price is on the website" is fine.
 - Discounts: before proposing one, check how many products would drop below the 20% profit floor
   (cost × 1.1 × 1.25) and whether any would sell below cost; scope the code to products that stay above it.
-  YAMEN10 (12 Oct to 8 Nov 2026) is 10% off eligible items, $150 minimum, one use per customer, and
-  excludes vanities, basins, mirrors and baths. Every mention says "selected items" and carries that
-  exclusion, and it is never paired with a vanity, basin, mirror or bath.
+  The owner decided on 5 Oct 2026 not to run a discount for the Finish It Right campaign (YAMEN10 was
+  cancelled). Don't propose one again unless he asks.
 - Prices in posts must match the live store on the day the post goes out; re-check before reposting.
 - Tiles ship only within Perth metro; tapware and small items ship Australia-wide (free over $100);
   basins and mirrors go by Australia Post; vanities, baths and tiles are Perth delivery or free pickup.

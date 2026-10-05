@@ -33,8 +33,8 @@ URL='excellenttilingservice.com.au'
 posts={
 'A2-1-cover':
  img('brittany2.jpg','1/5','1/4')+
- f'<div class="t" {a("1/4","4/6")}><h1>Our online store is open</h1><p class="bot">Tiles, tapware and vanities from a Perth tiling business, at the prices we pay to fit them out.</p></div>'+
- f'<div class="t navy" {a("4/5","4/5")}><h2 style="font-size:86px">10%</h2><p class="small bot">off selected items, first order over $150</p></div>'+
+ f'<div class="t" {a("1/4","4/6")}><h1>Our online store is open</h1><p class="bot">Tiles, tapware and vanities from a Perth tiling business. Every price is online.</p></div>'+
+ f'<div class="t navy" {a("4/5","4/5")}><h2 style="font-size:40px">Free<br>shipping</h2><p class="small bot">on tapware and accessories over $100</p></div>'+
  LOGO('4/5','5/6'),
 'A2-2-flova':
  img('flova.png','1/5','1/4','fit')+
@@ -52,21 +52,12 @@ posts={
  img('moon-room2.jpg','3/5','3/5','','Time Stone Moon, laid','dark')+
  f'<div class="t" {a("1/4","5/6")}><h2 style="font-size:52px">Porcelain tiles from $37.40/m²</h2><p class="small" style="margin-top:14px">Perth delivery or free pickup. Sold by the full box.</p></div>'+
  f'<div class="t blue" {a("4/5","5/6")}></div>',
-'A2-5-code':
- f'<div class="t deep" {a("1/5","1/4")}><p>Use code</p><div class="code" style="margin-top:30px">YAMEN10</div><p class="bot" style="font-size:40px">10% off selected items, first order over $150</p></div>'+
- f'<div class="t" {a("1/4","4/6")}><h2>Ends Sunday 8&nbsp;November</h2><p class="small" style="margin-top:18px">Excludes vanities, basins, mirrors and baths.</p><p class="bot">{URL}</p></div>'+
- f'<div class="t blue" {a("4/5","4/5")}></div>'+LOGO('4/5','5/6'),
 'C3-showroom':
  f'<div class="t navy" {a("1/5","1/4")}><h1 style="font-size:132px">Work all day?<br>So do we.</h1><p class="bot" style="font-size:38px">Our Maddington showroom opens in the evening, by appointment.</p></div>'+
  f'<div class="t" {a("1/3","4/6")}><table><tr><td>Mon to Sat</td><td>4:30–9 pm</td></tr><tr><td>Sunday</td><td>Closed</td></tr></table><p class="small bot">Bring your plans and measurements. We\'ll help you work out quantities.</p></div>'+
  f'<div class="t blue" {a("3/5","4/5")}><h2 style="font-size:52px">Book a time online</h2></div>'+
  f'<div class="t" {a("3/4","5/6")}><p class="small">17A Olga Road, Maddington<br><br>0450 960 543</p></div>'+LOGO('4/5','5/6'),
-'D3-last-call':
- img('hail-room.jpg','1/5','1/3')+
- f'<div class="t deep" {a("1/5","3/5")}><p>Last call</p><div class="code" style="margin-top:24px">YAMEN10</div><h2 class="bot" style="font-size:58px">Ends Sunday 8 November</h2></div>'+
- f'<div class="t" {a("1/4","5/6")}><p>10% off selected items on your first order over $150.</p><p class="small" style="margin-top:12px">Excludes vanities, basins, mirrors and baths. {URL}</p></div>'+LOGO('4/5','5/6'),
 }
-
 posts.update({
 'B2-refresh':
  f'<div class="t navy" {a("1/5","1/3")}><h1 style="font-size:104px">Bathroom refresh for $480</h1><p class="bot">Four swaps, one matching chrome finish, delivered free anywhere in Australia.</p></div>'+
@@ -74,7 +65,7 @@ posts.update({
  img('handshower.jpg','3/4','3/5','fit','Hand shower $151','dark')+
  img('towelrail.png','4/5','3/4','fit','Towel rail $94','dark')+
  img('paper.png','4/5','4/5','fit','Roll holder $46','dark')+
- f'<div class="t" {a("1/4","5/6")}><p>All MELA FLOVA. Add code YAMEN10 for another 10% off orders over $150.</p></div>'+LOGO('4/5','5/6'),
+ f'<div class="t" {a("1/4","5/6")}><p>All MELA FLOVA. Also available in matt black and brushed nickel.</p></div>'+LOGO('4/5','5/6'),
 'B3-prices':
  f'<div class="t" {a("1/5","1/3")}><h1 style="font-size:112px">Every price is on the website</h1></div>'+
  f'<div class="t navy" {a("1/3","3/5")}><h2>No “call for price”</h2><p class="bot">Tiles, tapware, vanities and tools, all priced online, all buyable tonight.</p></div>'+
@@ -109,10 +100,6 @@ posts.update({
  img('flova.png','1/3','1/4','fit')+img('flova-black.png','3/5','1/4','fit')+
  f'<div class="t navy" {a("1/5","4/6")}><h1 style="font-size:116px">Chrome or matt black?</h1><p class="bot" style="font-size:38px">Same mixer, $189 or $217. Vote below.</p></div>'+
  f'<div class="t" {a("1/5","6/8")}><p style="font-size:34px;color:#8a919a">Poll sticker goes here</p></div>',
-'S-countdown':
- f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Last day tomorrow</p><div class="code" style="margin-top:40px">YAMEN10</div><p class="bot" style="font-size:44px">10% off selected items, first order over $150</p></div>'+
- f'<div class="t" {a("1/5","5/7")}><p style="font-size:34px;color:#8a919a">Countdown sticker goes here</p><p class="small bot">Excludes vanities, basins, mirrors and baths.</p></div>'+
- f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Tap the link to shop</h2></div>'+LOGO('4/5','7/8'),
 'S-showroom':
  f'<div class="t navy" {a("1/5","1/4")}><h1 style="font-size:132px">Open tonight, 4:30 to 9</h1></div>'+
  img('brittany2.jpg','1/5','4/6')+
@@ -123,6 +110,22 @@ posts.update({
  f'<div class="t" {a("1/3","4/6")}><div class="big" style="color:var(--blue)">15%</div><p class="bot">off tiles</p></div>'+
  f'<div class="t" {a("3/5","4/6")}><div class="big" style="font-size:120px;color:var(--blue)">5–25%</div><p class="bot">off everything else</p></div>'+
  f'<div class="t blue" {a("1/4","6/8")}><h2 style="font-size:60px">Free account. Apply on the website.</h2></div>'+LOGO('4/5','6/8'),
+})
+
+posts.update({
+'A2-5-delivery':
+ f'<div class="t deep" {a("1/5","1/3")}><h1 style="font-size:112px">Three ways to get it home</h1></div>'+
+ f'<div class="t" {a("1/3","3/5")}><h2 style="font-size:58px">Free shipping</h2><p class="bot">Tapware and accessories over $100, anywhere in Australia.</p></div>'+
+ f'<div class="t" {a("3/5","3/5")}><h2 style="font-size:58px">Perth delivery</h2><p class="bot">Tiles, vanities and baths, priced at checkout.</p></div>'+
+ f'<div class="t blue" {a("1/4","5/6")}><h2 style="font-size:54px">Free pickup in Maddington</h2></div>'+LOGO('4/5','5/6'),
+'D3-pickup':
+ img('hail-room.jpg','1/5','1/3')+
+ f'<div class="t deep" {a("1/5","3/5")}><p>Order online</p><h1 style="font-size:150px;margin-top:24px">Pick up free</h1><h2 class="bot" style="font-size:58px">17A Olga Road, Maddington</h2></div>'+
+ f'<div class="t" {a("1/4","5/6")}><p>We message you when it\'s ready. Book a pickup time, Monday to Saturday, 4:30 to 9 pm.</p></div>'+LOGO('4/5','5/6'),
+'S-shipping':
+ f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Tapware and accessories</p><h1 style="font-size:150px;margin-top:40px">Free shipping over $100</h1><p class="bot" style="font-size:44px">Anywhere in Australia</p></div>'+
+ img('flova.png','1/5','5/7','fit')+
+ f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Tap the link to shop</h2></div>'+LOGO('4/5','7/8'),
 })
 
 os.makedirs(f'{S}/out',exist_ok=True)

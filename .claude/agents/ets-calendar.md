@@ -79,7 +79,6 @@ morning Story `f6qv9tq9br0b9efdiqc24q6f00`, Marketplace `avm03n0evgrdiijngds0ha6
 - Captions: prices and offers must match the live store (check with the Shopify tools or the master
   price list `store-content/pricing/store-pricing-2026-10-03.csv`), never claim "cheaper than" anyone,
   and never name the tile supplier (Eternity).
-- Discount YAMEN10 runs 12 Oct to 8 Nov 2026, 10% off eligible items with a $150 minimum, and excludes
-  vanities, basins, mirrors and baths. Any caption that mentions it must say "selected items" and carry
-  that exclusion, and never pair it with a vanity, basin, mirror or bath.
+- No discount code is running (YAMEN10 was cancelled on 5 Oct 2026). Don't put a code in any caption
+  unless the owner sets one up.
 - After changes, report what changed in a few plain lines (what, when). Don't paste raw event data.
