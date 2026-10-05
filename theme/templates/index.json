@@ -394,8 +394,8 @@
           "type": "card",
           "settings": {
             "icon": "box",
-            "title": "Free shipping over $100",
-            "text": "<p>Tapware, shower sets, towel rails and accessories ship anywhere in Australia, free on orders over $100. Tiles are Perth metro only.</p>",
+            "title": "Australia-wide shipping",
+            "text": "<p>Tapware, shower sets, towel rails and accessories ship anywhere in Australia from $20, free on orders over $1,000. Tiles are Perth metro only.</p>",
             "link_label": "Shipping policy",
             "link": "/policies/shipping-policy"
           }
@@ -431,7 +431,7 @@
           "type": "question",
           "settings": {
             "question": "Do you deliver tiles outside Perth?",
-            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tapware and accessories ship Australia-wide, free on orders over $100.</p>"
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tapware and accessories ship Australia-wide from $20, free on orders over $1,000. Small items also ship to New Zealand, the US, the UK and the UAE.</p>"
           }
         },
         "1": {

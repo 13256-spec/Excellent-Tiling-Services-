@@ -129,3 +129,11 @@ Check the first few real labels against these prices and adjust if Australia Pos
 
 ## Live Australia Post rates removed from checkout (5 Oct 2026, evening)
 The live Australia Post rate started showing at checkout next to the fixed prices. It used the default "Tile box 60x45x30", so a Brisbane (4069) order showed Parcel Post $105.05 and Express $371.95 next to the fixed $45. The carrier rate was deleted from the General profile (Rest of Australia) and from the bulky-items profile. Checkout now shows only the fixed prices. Labels still come from the MyPost Business carrier account, which is a separate setting. Make the 30x25x20 small box the default package so label prices are right.
+
+## Same rates for WA, free over $1,000 everywhere, wording updated (5 Oct 2026, night)
+- **WA zone** now uses the same weight prices as the rest of Australia ($20 / $30 / $45 / $69 / $119 / $199), free from $1,000. The old $20 flat rate is gone.
+- **Bulky items profile** also got "Free shipping (orders $1000+)", so "free over $1,000" is true for basins and mirrors too. Shopify checks the price condition on the items in each profile, so a mixed cart only gets free shipping on a profile whose items alone total $1,000+.
+- **Theme wording** ("free over $100" → "from $20, free over $1,000", "no international" → NZ/US/UK/UAE small items) was uploaded to the unpublished theme "ETS 2026 – Restored (5 Oct)" (header bar, trust strip, homepage cards and FAQ, delivery page, FAQs page, trade FAQ, product perks, product page FAQ, collection ticker). It goes live when the owner publishes that theme.
+- **Live store data updated directly:** SEO descriptions of 66 products and 9 collections, the descriptions of 5 tapware collections, and the Delivery & Pickup and FAQs page bodies.
+- **Shipping policy:** the app has no `write_legal_policies` access, so the new text is in `store-content/policies/shipping-policy.html`. Paste it in at Settings → Policies → Shipping policy.
+- Not changed: the "Finish it right" campaign graphics still say "free shipping over $100 (WA)". They need redoing before they're posted.

@@ -30,8 +30,8 @@
           "type": "card",
           "settings": {
             "icon": "box",
-            "title": "Free shipping over $100 on small items",
-            "text": "<p>Tapware, shower sets, towel rails, hooks, holders and other small boxed items ship anywhere in Australia: free on orders over $100, or a $20 flat rate under $100. Basins, mirrors, sinks and niche boxes go by tracked Australia Post parcel, priced by weight at checkout.</p>"
+            "title": "Australia-wide shipping, free over $1,000",
+            "text": "<p>Tapware, shower sets, towel rails, hooks, holders and other small boxed items ship anywhere in Australia by tracked Australia Post, from $20 depending on weight. Basins, mirrors, sinks and niche boxes go as tracked parcels from $25. Orders of $1,000 or more ship free. Exact prices show at checkout.</p>"
           }
         },
         "1": {
@@ -78,7 +78,7 @@
           "type": "step",
           "settings": {
             "title": "Choose delivery or pickup",
-            "text": "Perth local delivery, Australia-wide shipping (free over $100 on small items), or free pickup: the options for your address show at checkout."
+            "text": "Perth local delivery, Australia-wide shipping (free on orders over $1,000), or free pickup: the options for your address show at checkout."
           }
         },
         "2": {
@@ -117,7 +117,7 @@
           "type": "question",
           "settings": {
             "question": "Do you ship internationally?",
-            "answer": "<p>No — we deliver within Australia only.</p>"
+            "answer": "<p>Yes, for small items. Tapware, accessories and other small boxed items ship to New Zealand, the United States, the United Kingdom and the UAE by tracked Australia Post, from $35. Prices are in AUD, and any import duties or taxes are paid on delivery. Tiles and large items are delivered within Australia only.</p>"
           }
         },
         "1": {

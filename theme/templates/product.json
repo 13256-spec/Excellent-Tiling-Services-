@@ -421,7 +421,7 @@
             "icon": "truck",
             "icon_color": "#F6F4EF",
             "text_color": "#F6F4EF",
-            "text": "Free shipping over $100 on tapware & accessories"
+            "text": "Australia-wide shipping · Free on orders over $1,000"
           }
         },
         "item_2": {
@@ -765,7 +765,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Do you deliver?",
-            "answer": "<p>Tiles and large items are delivered within the Perth metro area, or you can pick up free from Maddington. Small bathroom items like tapware and accessories ship anywhere in Australia, free on orders over $100. Delivery options for your address show at checkout.</p>"
+            "answer": "<p>Tiles and large items are delivered within the Perth metro area, or you can pick up free from Maddington. Small bathroom items like tapware and accessories ship anywhere in Australia from $20, free on orders over $1,000. Delivery options for your address show at checkout.</p>"
           }
         },
         "faq_3": {

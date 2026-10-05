@@ -60,7 +60,7 @@
           "type": "question",
           "settings": {
             "question": "Can I combine trade pricing with other offers?",
-            "answer": "<p>Trade pricing is our best price, so it doesn't stack with other discount codes. Free shipping on small-item orders over $100 still applies.</p>"
+            "answer": "<p>Trade pricing is our best price, so it doesn't stack with other discount codes. Free shipping on orders of $1,000 or more still applies.</p>"
           }
         },
         "3": {
