@@ -11,11 +11,11 @@
 {%- if settings.ets_trade_enabled -%}
   {%- if is_trade -%}
     <p class="ets ets-trade-note ets-trade-note--on" style="margin:0">
-      <span>✓ Trade price applied — the discount comes off automatically at checkout.</span>
+      <span>✓ Trade price applied — your discount comes off automatically in the cart.</span>
     </p>
   {%- else -%}
     <p class="ets ets-trade-note" style="margin:0">
-      <span>Builder or tradie? Get up to {{ settings.ets_trade_tiles_pct }}% off.</span>
+      <span>Builder or tradie? Trade accounts get 5–25% off, set item by item.</span>
       <span>
         <a href="{{ settings.ets_trade_page.url | default: '/pages/trade-account' }}">Apply</a>
         {%- if customer == nil %} · <a href="{{ routes.account_login_url }}">Log in</a>{% endif -%}
