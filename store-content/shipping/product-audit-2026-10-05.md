@@ -38,3 +38,8 @@ ETS: $15 (under 1 kg) / $20 (1–3 kg) for small items anywhere in Australia, WA
 - Weights are still estimates. Weighing a few best sellers (a pull-out sink mixer, an 800 mm towel rail, a 10 kg grout bag) would make checkout prices exact.
 - Product prices vs competitors weren't part of this check. Use the pricing playbook / pricing agent for that.
 - Theme and page text says small items ship "from $20". It's now from $15, so customers pay less than the site says. Update on the next theme edit. The policy text in `store-content/policies/shipping-policy.html` already has the new prices.
+
+## Supplier weight check (5 Oct 2026, later)
+- **Bathroom City (MELA):** the public product feed (1,721 products, 936 MELA) has no weights (7 of 258 variants on the first page had any) and no carton sizes in the descriptions. Real MELA weights need the PDF Bathroom City sent the owner. It wasn't in the repo or Drive, and Gmail needed signing in again.
+- **Roberts Designs:** the public WooCommerce feed (276 products) has a weight field, but it's 0 or empty for every product and variation, and dimensions are blank. The only weights stated are in the text for the Baron mixers: E120 90 kg, F200 180 kg, F300 180 kg. E120 (was 85) and F300 (was 200) were corrected in Shopify and in `product-weights.csv`. Both are drafts and freight-only, so checkout isn't affected.
+- Every other Roberts and MELA weight stays an estimate from the product's size and material.
