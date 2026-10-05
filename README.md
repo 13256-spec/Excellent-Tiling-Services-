@@ -172,3 +172,17 @@ once. Saved here as `theme/templates/product.store-wide.json`. Publish the draft
 to make it live.
 
 Also in the draft: the product-page trade note now says "Trade accounts get 5–25% off, set item by item" (it said "up to 20%", from the tiles setting), and the scrolling ticker on collection pages is turned off. The owner confirmed the licensed team, supply & install and free measure & quote claims (5 Oct 2026).
+
+## Theme recovery (5 Oct 2026)
+
+The owner accidentally published the old "ETS 2026 – Menu fix: baths & toilets (draft)" theme and deleted the
+theme that should have gone live. Shopify can't restore a deleted theme, so it was rebuilt from this repo:
+
+- `themeDuplicate` of the (now live) Menu fix theme → unpublished **"ETS 2026 – Restored (5 Oct)"**
+  (gid://shopify/OnlineStoreTheme/143796174911), which has all the stock Horizon and Section Store files.
+- The 29 files that differed were uploaded from `theme/`: `ets-refine.css`, `ets-hero-full`, the trade sections and
+  snippets, `ets-trust`, `layout/theme.liquid` and every template, including the cleaned `product.store-wide.json`.
+  Liquid and CSS checksums match the repo exactly. All 37 sections the templates use exist in the theme.
+- So the restored theme = the 4 Oct live sync + the 5 Oct product page cleanup. Anything changed only in the
+  Shopify theme editor after those dates isn't in the repo and had to be redone by hand.
+- Publish it from Online Store → Themes after a preview. Then delete the old Menu fix theme, or keep it as a backup.
