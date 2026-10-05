@@ -157,3 +157,18 @@ The design refresh above is now live. Unpublished theme **"ETS 2026 – Landing 
 - Trust strip on phones as one slim swipeable row instead of a tall 2×2 block (`sections/ets-trust.liquid`).
 - Sticky phone bar ("Call 0450 960 543" + gold "Free quote") that slides up once the hero is scrolled past
   (in `sections/ets-hero-full.liquid`, hidden on desktop).
+
+## Product page cleanup (draft theme, 5 Oct 2026)
+
+All 506 products use `templates/product.store-wide.json`, which the Section Store app had generated
+with invented content: a "4.8 ★ 218 verified reviews" badge, made-up testimonials (Mark T., Helen K.,
+James R., Natalie P.), a "30-Day Money-Back Guarantee", a "Receive by" date, a "warehouse pick window"
+countdown, and generic AU-wide shipping filler. Fake reviews are a problem under the Australian Consumer Law.
+
+In the unpublished theme **"ETS 2026 – Product page cleanup (draft)"** (gid://shopify/OnlineStoreTheme/143794143295),
+`product.store-wide.json` now holds the clean ETS product page (the content of `product.json`) with the
+scrolling ticker removed, fonts matched to the theme (DM Sans / Fraunces), and the phone number shown
+once. Saved here as `theme/templates/product.store-wide.json`. Publish the draft from Online Store → Themes
+to make it live.
+
+Still to confirm with the owner: the "licensed" team, "supply & install" and "free measure & quote" claims on the page.
