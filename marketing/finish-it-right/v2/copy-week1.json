@@ -1,0 +1,313 @@
+{
+ "main": [
+  {
+   "date": "2026-10-06",
+   "photo_product": "MELA BRITTANY 1200 oak fluted vanity (room shot)",
+   "layout": "statement",
+   "kicker": "",
+   "name": "",
+   "price": "",
+   "pre": "",
+   "headline": "Perth tilers. We sell what we install.",
+   "sub": "Tiles, vanities and tapware picked by the Maddington crew that lays them. Real prices, order online.",
+   "caption": "We're Excellent Tiling Services, a Perth tiling crew based in Maddington.\nNow you can buy the same tiles, MELA vanities and tapware we put into our customers' bathrooms.\nEvery product shows its price and specs, so you can price up a reno tonight instead of waiting on three quotes.\nThat's the BRITTANY 1200 in fluted oak: $1,994 with stone top and basin.\nFollow for room ideas, real prices and tips from people who tile for a living.\nHave a look via the link in bio.\n\n#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes #maddington #excellenttilingservices",
+   "verdict": "FIX: old launch post led with \"our online store is open\" and \"every price on the website\" (kill list), plus wrong vanity price ($1,139) and wrong shipping (free WA over $100). Rewritten as a who-we-are intro with a reason to follow.",
+   "facts": [
+    "Price: Default $1,994 (live /products/mela-brittany-1200-single-wall-hung-vanity.json, 5 Oct)",
+    "Services: \"full bathroom renovations, kitchen and laundry work, tiling and waterproofing repairs across Perth, starting with a free measure and quote\" (live /pages/faqs, 5 Oct)",
+    "Tile supplier not named anywhere in graphic or caption"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "photo_product": "MELA BRITTANY 600 matt white fluted vanity (room shot)",
+   "layout": "statement",
+   "kicker": "",
+   "name": "",
+   "price": "",
+   "pre": "",
+   "headline": "Small bathroom? Get the vanity off the floor.",
+   "sub": "Wall-hung shows more floor, so the room looks bigger, and you can mop right underneath.",
+   "caption": "Small bathroom? Get the vanity off the floor.\nA wall-hung vanity leaves floor showing underneath, so the room looks bigger and cleaning is one pass of the mop.\nThis is the MELA BRITTANY 600: fluted matt white, two drawers, 590 mm wide. $1,149.99 with stone top and basin.\nOur wall-hung vanities start at $703. Perth metro delivery, or free pickup in Maddington.\nShop vanities via the link in bio.\n\n#wallhungvanity #bathroomvanity #perthbathrooms #bathroomrenovation #smallbathroom #perthrenovation #excellenttilingservices",
+   "verdict": "NEW angle (old 7 Oct was a plain pickup notice): benefit-led small-bathroom post, prices checked.",
+   "facts": [
+    "Price: Default $1,149.99 (live /products/mela-brittany-600-wall-hung-vanity.json, 5 Oct)",
+    "Price: Default $703 (live /products/mela-clark-600-wall-hung-vanity-with-doors.json, 5 Oct)",
+    "Vanity range: 28 wall-hung vanities live, 600 to 1800 mm, lowest $703 (CLARK 600 with doors); every one lists a stone top and ceramic basin; tapware, waste and stone cutting not included (live /products.json, 5 Oct)",
+    "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "photo_product": "Morgan Dusk porcelain tile (living room shot)",
+   "layout": "statement",
+   "kicker": "",
+   "name": "",
+   "price": "",
+   "pre": "",
+   "headline": "No trailer? We'll bring the tiles.",
+   "sub": "Perth metro delivery for tiles and vanities, or free pickup in Maddington, Mon–Sat 4:30–9 pm by appointment.",
+   "caption": "No trailer? We'll bring the tiles.\nTwenty boxes of porcelain won't fit in a hatchback. Choose Perth metro delivery at checkout and you'll see the cost before you pay.\nGot a ute? Pick up free from 17A Olga Road, Maddington. We email when it's ready, then you book an evening slot, Mon–Sat 4:30–9 pm.\nTapware and small items ship Australia-wide from $20, free on orders of $1,000+.\nFloor shown: Morgan Dusk, from $37.40/m².\nPlan your order via the link in bio.\n\n#perthrenovation #perthbathrooms #perthhomes #maddington #bathroomrenovation #perthtiler #excellenttilingservices",
+   "verdict": "FIX: old copy said \"free shipping on tapware and accessories over $100 anywhere in WA\" (wrong since the $1,000 rule). Rewritten around the real problem (getting heavy tiles home).",
+   "facts": [
+    "Price: 300x300mm / Matt $42.50, 300x600mm / Matt $37.40, 600x600mm / Matt $37.40 (live /products/morgan-dusk-porcelain-tile.json, 5 Oct)",
+    "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)",
+    "Pickup: choose pickup at checkout, wait for the ready email, book a time Mon to Sat 4:30 to 9 pm, bring order number; tell us if you need loading help (live /pages/delivery-pickup and /policies/shipping-policy)",
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "photo_product": "Time Stone Charcoal porcelain tile (room shot)",
+   "layout": "statement",
+   "kicker": "",
+   "name": "",
+   "price": "",
+   "pre": "",
+   "headline": "Tradies: 15% off tiles, no haggling.",
+   "sub": "Trade accounts get 15% off tiles and 5–25% off tools and bathroomware. ABN required.",
+   "caption": "Tiler, builder or plumber? Stop ringing around for trade prices.\nAn ETS trade account takes 15% off tiles and 5–25% off tools, trims and bathroomware, depending on the item.\nApply once with your ABN. Once we approve it, log in and the discount comes off in the cart. No codes.\nSite delivery across Perth for tiles and large items, or pick up in Maddington by appointment.\nApply on our Trade account page (link in bio).\n\n#perthtradies #perthtiler #perthbuilders #tiling #tilingtools #perthconstruction #maddington #excellenttilingservices",
+   "verdict": "FIX: old copy called the account \"free\" (not stated on the site) and had two calls to action. Tightened to one.",
+   "facts": [
+    "Trade: 15% off tiles, 5 to 25% off tools, trims and bathroomware; active ABN; discount applies automatically in cart when logged in; no discount codes (live /pages/trade-account, 5 Oct). Site does not say the account is \"free\", so that word was dropped",
+    "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "photo_product": "Morgan Storm porcelain tile (loft shot)",
+   "layout": "statement",
+   "kicker": "",
+   "name": "",
+   "price": "",
+   "pre": "",
+   "headline": "Order 10% extra. Here's why.",
+   "sub": "Cuts and breakages eat tiles. Add 10%, or 15–20% for herringbone. Every tile page has a calculator.",
+   "caption": "Tiler's tip: never order the exact square metres.\nCuts around walls, pipes and doorways eat tiles, and the odd one cracks. Add 10% to your area, or 15–20% for herringbone or diagonal layouts.\nRunning short mid-job hurts: a later batch can come up a slightly different shade.\nEvery tile page on our site has a calculator that works out the boxes for you. Floor shown: Morgan Storm, $37.40/m².\nSave this for when you measure up.\n\n#perthtiles #porcelaintiles #bathroomtiles #floortiles #perthrenovation #bathroomrenovation #excellenttilingservices",
+   "verdict": "NEW angle (old 10 Oct \"four quiet floors\" had no reason to care): a practical tip people save and share.",
+   "facts": [
+    "Price: 300x600mm / Matt $37.40, 600x600mm / Matt $37.40 (live /products/morgan-storm-porcelain-tile.json, 5 Oct)",
+    "Tile quantity: \"add 10% for cuts and breakages (15-20% for herringbone or diagonal)\" and \"every tile page has a calculator\" (live /pages/faqs, 5 Oct)",
+    "Tile supplier not named anywhere in graphic or caption"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "photo_product": "Lava Etna porcelain tile (room shot)",
+   "layout": "statement",
+   "kicker": "",
+   "name": "",
+   "price": "",
+   "pre": "",
+   "headline": "Dark marble look. None of the upkeep.",
+   "sub": "Lava Etna porcelain: deep veined stone look in matt, $46.70/m². No sealing, no etching.",
+   "caption": "Love dark marble but not the sealing and stains? Go porcelain.\nLava Etna has the deep veining of stone in a matt porcelain tile, 300x600 or 600x600.\n$46.70/m², sold to the nearest full box. Perth metro delivery, or free pickup in Maddington.\nWant to see it in person? Book an evening showroom visit, Mon–Sat 4:30–9 pm (link in bio).\n\n#perthrenovation #perthbathrooms #porcelaintiles #marblelook #bathroomrenovation #perthtiler #maddington",
+   "verdict": "PASS",
+   "facts": [
+    "Lava Etna $46.70/m² both sizes, matt (products/lava-etna-porcelain-tile.json, 5 Oct)",
+    "Perth delivery/pickup for tiles (shipping policy)",
+    "Showroom hours (site header)"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "photo_product": "MELA PADDY 750 wall-hung vanity (grey concrete room shot)",
+   "layout": "product",
+   "kicker": "MELA · Wall-hung vanity",
+   "name": "PADDY 750, stone top and basin included",
+   "price": "$949",
+   "pre": "",
+   "headline": "",
+   "sub": "",
+   "caption": "The price on our vanities is the price with the top on.\nMELA PADDY 750: a cupboard and two drawers, 20 mm Pearl White stone top and ceramic basin, $949. Gloss white, snafell, walnut or sorrento oak.\nEvery vanity we sell comes with a stone top and basin. Tapware and waste are separate.\nWall-hung vanities from $703. Perth metro delivery, or free pickup in Maddington.\nShop vanities via the link in bio.\n\n#wallhungvanity #bathroomvanity #perthbathrooms #bathroomrenovation #smallbathroom #perthrenovation #excellenttilingservices",
+   "verdict": "FIX: old copy said vanities start at $1,139; live lowest is $703 (CLARK 600 with doors). New angle: what is included in the price.",
+   "facts": [
+    "Price: Gloss White $949, Snafell $949, Walnut $949, Sorrento Oak $949 (live /products/mela-paddy-750-wall-hung-vanity.json, 5 Oct)",
+    "Price: Default $703 (live /products/mela-clark-600-wall-hung-vanity-with-doors.json, 5 Oct)",
+    "Vanity range: 28 wall-hung vanities live, 600 to 1800 mm, lowest $703 (CLARK 600 with doors); every one lists a stone top and ceramic basin; tapware, waste and stone cutting not included (live /products.json, 5 Oct)",
+    "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)"
+   ]
+  }
+ ],
+ "lunch": [
+  {
+   "date": "2026-10-06",
+   "title": "MELA FLOVA Basin Mixer",
+   "url": "https://excellenttilingservice.com.au/products/mela-flova-basin-mixer",
+   "images": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-flova-basin-mixer-chrome.png?v=1790169266",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-flova-basin-mixer-chrome-3687342.png?v=1790304710"
+   ],
+   "kicker": "MELA FLOVA · Basin mixer",
+   "name": "FLOVA basin mixer",
+   "price": "$189",
+   "pre": "from",
+   "caption": "A new basin mixer for $189. The bathroom looks years younger.\nMELA FLOVA: 5-star WELS, 6 L/min, 35 mm cartridge.\nChrome $189, matt black $217, brushed nickel $246.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "facts": [
+    "Price: Chrome $189, Matt Black $217, Brushed Nickel $246 (live /products/mela-flova-basin-mixer.json, 5 Oct)",
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "title": "MELA CLARK 600 Wall Hung Vanity with Doors",
+   "url": "https://excellenttilingservice.com.au/products/mela-clark-600-wall-hung-vanity-with-doors",
+   "images": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-clark-600-gloss-white-wall-hung-vanity-with-2-doorsvanitiesmela-bathroom-city-perth-5145215.png?v=1790304503",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-clark-600-gloss-white-wall-hung-vanity-with-2-doorsvanitiesmela-bathroom-city-perth-9875760.webp?v=1790304504"
+   ],
+   "kicker": "MELA · Wall-hung vanity",
+   "name": "CLARK 600 with doors",
+   "price": "$703",
+   "pre": "",
+   "caption": "Our lowest-priced vanity: $703, top and basin included.\nMELA CLARK 600 in gloss white: two doors, 20 mm Pearl White stone top and a ceramic basin.\n595 mm wide, so it suits an ensuite or powder room. Tapware and waste are separate.\nPerth metro delivery, or free pickup in Maddington.\nLink in bio, or excellenttilingservice.com.au/products/mela-clark-600-wall-hung-vanity-with-doors\n\n#wallhungvanity #bathroomvanity #perthbathrooms #bathroomrenovation #smallbathroom #perthrenovation #excellenttilingservices",
+   "verdict": "FIX: price ($703) was right; hook sharpened to say it is the lowest-priced vanity in the range (checked against all 28 live vanities).",
+   "facts": [
+    "Price: Default $703 (live /products/mela-clark-600-wall-hung-vanity-with-doors.json, 5 Oct)",
+    "Specs: gloss white only, 595 W x 455 D x 650 H mm (live)",
+    "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "title": "MELA BRUNO 600 Single Towel Rail",
+   "url": "https://excellenttilingservice.com.au/products/mela-bruno-600-single-towel-rail",
+   "images": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-bruno-600-S-0.png?v=1790230178",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-bruno-600-S-2.png?v=1790230182",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-bruno-600-S-3.png?v=1790230189"
+   ],
+   "kicker": "MELA BRUNO · Towel rail",
+   "name": "BRUNO 600 single towel rail",
+   "price": "$132",
+   "pre": "from",
+   "caption": "Brushed tapware? Your towel rail should match.\nMELA BRUNO 600 single towel rail in brushed nickel, gun metal, brushed brass or brushed copper.\nFrom $132 in brushed nickel.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-bruno-600-single-towel-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "facts": [
+    "Price: Brushed Nickel $132, Gun Metal $160, Brushed Brass $160, Brushed Copper $170 (live /products/mela-bruno-600-single-towel-rail.json, 5 Oct)",
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "title": "Time Stone Moon Porcelain Tile",
+   "url": "https://excellenttilingservice.com.au/products/time-stone-moon-porcelain-tile",
+   "images": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/DSAYFR600331_4.jpg?v=1790332958",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/DSAYFR600331.jpg?v=1790334486",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/DSAYFR600331_2.jpg?v=1790334487"
+   ],
+   "kicker": "Porcelain tile · P4/R11",
+   "name": "Time Stone Moon",
+   "price": "$50.10/m²",
+   "pre": "from",
+   "caption": "Soft stone look, rated for wet areas.\nTime Stone Moon porcelain: P4/R11 slip rating, 300x600 or 600x600, matt or lappato.\nMatt $50.10/m², lappato $55.20/m². 1.44 m² a box.\nPerth metro delivery, or free pickup in Maddington.\nLink in bio, or excellenttilingservice.com.au/products/time-stone-moon-porcelain-tile\n\n#perthtiles #porcelaintiles #bathroomtiles #floortiles #perthrenovation #bathroomrenovation #excellenttilingservices",
+   "verdict": "FIX: facts were right; added the box size and lappato price, sharper hook.",
+   "facts": [
+    "Price: 300x600mm / Matt $50.10, 600x600mm / Matt $50.10, 300x600mm / Lappato $55.20, 600x600mm / Lappato $55.20 (live /products/time-stone-moon-porcelain-tile.json, 5 Oct)",
+    "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "title": "MELA PALCO / RONDO Combination Shower Set with Rail",
+   "url": "https://excellenttilingservice.com.au/products/mela-palco-rondo-combination-shower-set-with-rail",
+   "images": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-palco-rondo-combination-shower-with-rail.jpg?v=1790214615"
+   ],
+   "kicker": "MELA PALCO / RONDO · Shower set",
+   "name": "Combination shower set with rail",
+   "price": "$412",
+   "pre": "from",
+   "caption": "Overhead shower and hand shower, one set.\nMELA PALCO / RONDO combination set with rail: brass, 3-star WELS at 9 L/min.\nSix finishes, from $412 in chrome.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-palco-rondo-combination-shower-set-with-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "facts": [
+    "Price: Chrome $412, Matt Black $450, Brushed Nickel $664, Gun Metal $759, Brushed Brass $759, Brushed Copper $806 (live /products/mela-palco-rondo-combination-shower-set-with-rail.json, 5 Oct)",
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-11",
+   "title": "MELA MIA 450 LED Oval Mirror",
+   "url": "https://excellenttilingservice.com.au/products/mela-mia-450-led-oval-mirror",
+   "images": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-mia-450-led-oval-mirror.jpg?v=1790214629",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-mia-450-led-oval-mirror-3176264.jpg?v=1790304855"
+   ],
+   "kicker": "MELA · LED oval mirror",
+   "name": "MIA 450 LED",
+   "price": "$379",
+   "pre": "",
+   "caption": "Backlit, dimmable, and it won't fog up.\nMELA MIA 450 LED oval mirror: anti-fog, IP44, cool white light. Plug in or hardwire.\n$379.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-mia-450-led-oval-mirror\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "verdict": "FIX: shipping line now says tracked parcel from $25 and the $1,000 free-shipping rule; hook rewritten.",
+   "facts": [
+    "Price: Default $379 (live /products/mela-mia-450-led-oval-mirror.json, 5 Oct)",
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "title": "MELA RONDO Wall Mixer",
+   "url": "https://excellenttilingservice.com.au/products/mela-rondo-wall-mixer",
+   "images": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-rondo-showerbath-wall-mixer-chrome-3678342.png?v=1790316073",
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-rondo-showerbath-wall-mixer-chrome-2270695.png?v=1790316073"
+   ],
+   "kicker": "MELA RONDO · Wall mixer",
+   "name": "RONDO wall mixer",
+   "price": "$141",
+   "pre": "from",
+   "caption": "Shower mixer looking tired? From $141.\nMELA RONDO wall mixer for shower or bath, 35 mm cartridge.\nChrome $141, matt black $189, brushed nickel $217, brushed brass $246.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-rondo-wall-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "facts": [
+    "Price: Chrome $141, Matt Black $189, Brushed Nickel $217, Brushed Brass $246 (live /products/mela-rondo-wall-mixer.json, 5 Oct)",
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+   ]
+  }
+ ],
+ "stories": [
+  {
+   "date": "2026-10-06",
+   "photo_product": "MELA PADDY 750 wall-hung vanity (grey concrete room shot)",
+   "headline": "Stone top and basin, always included",
+   "sub": "Every MELA vanity we sell comes with both. From $703, link in bio."
+  },
+  {
+   "date": "2026-10-07",
+   "photo_product": "Morgan Dusk porcelain tile (bathroom shot)",
+   "headline": "How much tile do you need?",
+   "sub": "Add 10% for cuts, or use the calculator on every tile page. Link in bio."
+  },
+  {
+   "date": "2026-10-08",
+   "photo_product": "Lava Ash porcelain tile (living room shot)",
+   "headline": "Free shipping over $1,000",
+   "sub": "Tapware ships Australia-wide from $20. Tiles and vanities: Perth delivery or free pickup."
+  },
+  {
+   "date": "2026-10-09",
+   "photo_product": "Cement Grey porcelain tile (room shot)",
+   "headline": "Tradies: 15% off tiles",
+   "sub": "Apply with your ABN and the discount comes off when you log in. Link in bio."
+  },
+  {
+   "date": "2026-10-10",
+   "photo_product": "Time Stone Cinder porcelain tile (room shot)",
+   "headline": "Evening showroom, by appointment",
+   "sub": "Mon–Sat 4:30 to 9 pm, 17A Olga Road, Maddington. Book via the link in bio."
+  },
+  {
+   "date": "2026-10-11",
+   "photo_product": "MELA FLOVA basin mixer (cut-out on white)",
+   "headline": "Chrome or matt black?",
+   "sub": "Reply with your pick. FLOVA basin mixer: $189 chrome, $217 matt black."
+  },
+  {
+   "date": "2026-10-12",
+   "photo_product": "MELA PADDY 750 wall-hung vanity (grey concrete room shot)",
+   "headline": "Stone top and basin, always included",
+   "sub": "Every MELA vanity we sell comes with both. From $703, link in bio."
+  }
+ ]
+}

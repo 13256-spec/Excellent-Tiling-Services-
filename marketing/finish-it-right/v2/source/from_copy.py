@@ -5,11 +5,11 @@ S=os.path.dirname(os.path.abspath(__file__))
 spec=importlib.util.spec_from_file_location('b',os.path.join(S,'build2.py')); b=importlib.util.module_from_spec(spec)
 sys.argv_saved=sys.argv; sys.argv=[sys.argv[0],'__none__']; spec.loader.exec_module(b); sys.argv=sys.argv_saved
 CAT=json.load(open(os.path.join(S,'catalogue.json')))
-LIFE=[('brittany 1200','brittany1200.jpg','center 55%'),('brittany 600','brittany600.jpg','center 60%'),
+LIFE=[('morgan dusk porcelain tile (living','dusk1.jpg','center 60%'),('brittany 1200','brittany1200.jpg','center 55%'),('brittany 600','brittany600.jpg','center 60%'),
 ('mia 450 oval mirror cabinet','miacab.jpg','center 40%'),('morgan dusk','dusk2.jpg','center 70%'),('time stone cinder','cinder.jpg','center'),
 ('time stone moon','moon.jpg','center'),('particle warm','particle.jpg','center'),('lava ash','ash.jpg','center'),
 ('porter','porter.jpg','center'),('mia 450 frameless','miaoval.jpg','center'),('morgan storm','storm.jpg','center'),
-('paddy 750','paddy750.jpg','center'),('vera','vera.jpg','center')]
+('paddy 750','paddy750.jpg','center'),('vera','vera.jpg','center'),('time stone charcoal','charcoal.jpg','center'),('cement grey','cementgrey.jpg','center'),('lava etna','etna.jpg','center'),('dusk porcelain tile (living','dusk1.jpg','center 60%')]
 def photo(name):
     n=(name or '').lower()
     for k,f,pos in LIFE:
@@ -41,7 +41,8 @@ for e in d.get('main',[]):
     n=f"{e['date']}-main"; render(n,W,H,body); made.append(n)
 for e in d.get('stories',[]):
     img,pos=photo(e.get('photo_product'))
-    W,H,body=b.statement(img,e.get('headline',''),e.get('sub',''),pos=pos,H=1920,strip=560,foot='Link in bio')
+    W,H,body=b.statement(img,e.get('headline',''),e.get('sub',''),pos=pos,H=1920,strip=600,foot='Link in bio')
+    body=body.replace('class=h>','class=h style="font-size:86px">').replace('class=s>','class=s style="font-size:40px;max-width:940px">').replace('class=u ','class=u style="font-size:30px" ',0)
     n=f"{e['date']}-story"; render(n,W,H,body); made.append(n)
 print('\n'.join(made))
 for e in d.get('lunch',[]):
@@ -52,7 +53,11 @@ for e in d.get('lunch',[]):
     name=re.sub(r'^MELA\s+','',p['title']); name=re.sub(r'\s+(Porcelain )?Tile$','',name) if p['product_type']=='Tile' else name
     pt=p['product_type'] if p['product_type']!='Tile' else 'Porcelain tile'; pt=pt[:1]+pt[1:].lower().replace('led','LED')
     kicker=('MELA · ' if p['vendor']=='MELA' else '')+pt
-    fn=f"p/{h}.jpg" if os.path.exists(os.path.join(S,'img',f"p/{h}.jpg")) else f"p/{h}.png"
+    OVR={'mela-clark-600-wall-hung-vanity-with-doors':'p/clark600-alt.jpg'}
+    fn=OVR.get(h) or (f"p/{h}.jpg" if os.path.exists(os.path.join(S,'img',f"p/{h}.jpg")) else f"p/{h}.png")
+    if p['product_type']=='Tile':
+        lf,lpos=photo(p['title'])
+        if not lf.startswith('p/'): fn=lf
     long=len(name)>30
     W,H,body=b.product(fn,kicker,name,price,pre='from' if len(pr)>1 else '',pos='center',strip=300 if long else 250)
     if long: body=body.replace('class=n>','class=n style="font-size:36px">')
