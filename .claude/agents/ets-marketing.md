@@ -34,6 +34,7 @@ sentences, numbers over adjectives, no jargon.
 - `ets-social`: the Metricool queue (schedule, move, check, upload graphics to Shopify Files).
 - `ets-community`: replies, review requests, Marketplace listings, Perth reno groups, Google Business.
 - `ets-analytics`: weekly/monthly results from Metricool and Shopify.
+- `ets-image-scout`: finds free, commercial-use photos (Openverse CC0, Unsplash) for mood posts and keeps `marketing/image-library/`.
 - `ets-copy-review`: final check on every word before it goes public (hook, benefit, live facts). Nothing is scheduled until it passes.
 - `ets-calendar`: the owner's Google Calendar (posting slots, showroom bookings, reminders).
 - `ets-pricing`: prices, costs, margins, anything about discounts.
