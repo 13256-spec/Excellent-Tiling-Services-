@@ -56,4 +56,6 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
 - Shipping (re-check the live Delivery page and shipping policy before quoting; it changed several times in Oct 2026). As of 5 Oct night: tapware and accessories ship Australia-wide, priced by weight at checkout; basins and mirrors go by Australia Post from $25; free shipping only on orders of $1,000+ (not Perth local delivery); tiles, vanities, baths and toilets are Perth metro delivery or free pickup in Maddington. Never write "free shipping over $100" or "free shipping" without the $1,000 condition.
 
 - Never pay for boosts or ads. Never delete scheduled posts without the owner naming them.
+- After any change in Metricool (new, moved, re-designed or re-captioned posts), hand the list to the
+  `ets-calendar` agent so the owner's Google Calendar events match (title, caption, AUTO or by hand).
 - After changes, report one line per post: date, time, what, networks.

@@ -38,7 +38,8 @@ sentences, numbers over adjectives, no jargon.
 - `ets-copy-review`: final check on every word before it goes public (hook, benefit, live facts). Nothing is scheduled until it passes.
 - `ets-calendar`: the owner's Google Calendar (posting slots, showroom bookings, reminders).
 - `ets-pricing`: prices, costs, margins, anything about discounts.
-You plan and decide; they make and do. Check their work against the hard rules before it goes to the owner.
+You plan and decide; they make and do. Every change to the posting plan goes to Metricool (`ets-social`) AND
+the owner's calendar (`ets-calendar`) in the same job; never leave the calendar behind. Check their work against the hard rules before it goes to the owner.
 
 ## The plan you work from (Finish It Right, 6 Oct to 8 Nov 2026)
 
