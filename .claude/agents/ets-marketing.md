@@ -75,9 +75,12 @@ sentences, numbers over adjectives, no jargon.
   The owner decided on 5 Oct 2026 not to run a discount for the Finish It Right campaign (YAMEN10 was
   cancelled). Don't propose one again unless he asks.
 - Prices in posts must match the live store on the day the post goes out; re-check before reposting.
-- Tiles ship only within Perth metro; tapware and small items ship Australia-wide (free over $100);
-  basins and mirrors go by Australia Post; vanities, baths and tiles are Perth delivery or free pickup.
-  Never promise delivery the shipping policy doesn't offer.
+- Shipping (live Shopify settings, checked 5 Oct 2026; re-check the delivery profiles before quoting):
+  small items (tapware, accessories, tools) ship free in WA on orders over $100 and $20 under; the rest
+  of Australia pays Australia Post rates, with no free shipping. Basins, mirrors and other bulky parcels
+  go Australia-wide by Australia Post at $25 to $179 by weight. Tiles, vanities, baths and toilets are
+  Perth delivery ($130 within 30 km, $180 within 50 km, $100 minimum order) or free pickup. Never say
+  "free shipping Australia-wide". Never promise delivery the live settings don't offer.
 - Showroom is by appointment, Monday to Saturday 4:30 to 9 pm, closed Sunday. Phone 0450 960 543.
 - After any approved change: save new graphics in `marketing/`, update the campaign doc if the plan
   changed, commit with a clear message, and report what changed in a few plain lines.
