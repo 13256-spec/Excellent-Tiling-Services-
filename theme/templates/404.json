@@ -9,10 +9,10 @@
  */
 {
   "sections": {
-    "hero": { "type": "ets-page-hero", "settings": { "eyebrow": "Page not found", "heading": "This page has <em>moved</em>.", "text": "Search the store or jump into a department below.", "btn_1_label": "Shop all departments", "btn_1_link": "shopify://collections", "show_crumbs": false, "show_chips": true } },
+    "hero": { "type": "ets-page-hero", "settings": { "eyebrow": "Page not found", "heading": "We can't find that <em>page</em>.", "text": "The link may be old or mistyped. Search the store or browse a department below.", "btn_1_label": "Shop all departments", "btn_1_link": "shopify://collections", "show_crumbs": false, "show_chips": true } },
     "products": {
       "type": "ets-product-tabs",
-      "settings": { "eyebrow": "Popular right now", "heading": "Shop <em>best</em> sellers", "limit": 8, "bg": "white" },
+      "settings": { "eyebrow": "Keep shopping", "heading": "Tiles and <em>vanities</em>", "limit": 8, "bg": "white" },
       "blocks": { "0": { "type": "tab", "settings": { "collection": "tiles", "label": "Tiles" } }, "1": { "type": "tab", "settings": { "collection": "bathroom-vanities", "label": "Vanities" } } },
       "block_order": ["0", "1"]
     }

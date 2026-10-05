@@ -172,3 +172,48 @@ once. Saved here as `theme/templates/product.store-wide.json`. Publish the draft
 to make it live.
 
 Also in the draft: the product-page trade note now says "Trade accounts get 5–25% off, set item by item" (it said "up to 20%", from the tiles setting), and the scrolling ticker on collection pages is turned off. The owner confirmed the licensed team, supply & install and free measure & quote claims (5 Oct 2026).
+
+## Theme recovery (5 Oct 2026)
+
+The owner accidentally published the old "ETS 2026 – Menu fix: baths & toilets (draft)" theme and deleted the
+theme that should have gone live. Shopify can't restore a deleted theme, so it was rebuilt from this repo:
+
+- `themeDuplicate` of the (now live) Menu fix theme → unpublished **"ETS 2026 – Restored (5 Oct)"**
+  (gid://shopify/OnlineStoreTheme/143796174911), which has all the stock Horizon and Section Store files.
+- The 29 files that differed were uploaded from `theme/`: `ets-refine.css`, `ets-hero-full`, the trade sections and
+  snippets, `ets-trust`, `layout/theme.liquid` and every template, including the cleaned `product.store-wide.json`.
+  Liquid and CSS checksums match the repo exactly. All 37 sections the templates use exist in the theme.
+- So the restored theme = the 4 Oct live sync + the 5 Oct product page cleanup. Anything changed only in the
+  Shopify theme editor after those dates isn't in the repo and had to be redone by hand.
+- Publish it from Online Store → Themes after a preview. Then delete the old Menu fix theme, or keep it as a backup.
+
+## Mobile header fix (draft theme, 5 Oct 2026)
+
+Unpublished theme **"ETS 2026 – Mobile header fix (draft)"** (gid://shopify/OnlineStoreTheme/143802990655), a
+duplicate of the live "ETS 2026 – Shipping text fix (draft)" theme, with `sections/ets-header.liquid` and
+`assets/ets-menu.css` from this repo (checksums match). Phones and tablets only; desktop is unchanged:
+- Top bar (phones): the messages take turns full width (every 4.5 s), so "Australia-wide shipping from $20 · Free on
+  orders over $1,000" is no longer cut off at "Fre". A long message wraps to two lines on small phones.
+- The phone number moves from the top bar into the header as a call icon (next to account and cart).
+- The header slides away while scrolling down and comes back on any scroll up, so it no longer covers about
+  a seventh of the screen. It stays put while the menu is open or the search box is in use. Solid background on phones.
+- Phones narrower than 375 px: smaller logo, and the account icon moves into the menu drawer ("Log in (trade & retail)").
+- Publish it from Online Store → Themes after a preview on a phone.
+
+## Wording cleanup (draft theme, 5 Oct 2026)
+
+Unpublished theme **"ETS 2026 – Wording cleanup (draft)"** (gid://shopify/OnlineStoreTheme/143805218879), a
+duplicate of the live "Mobile header fix" theme with 20 files from this repo (Liquid checksums match). Plainer,
+customer-facing wording with no unverifiable claims:
+- Trade: "set item by item", "a further 5–25%", "trade prices on every product", "our best price" and
+  "usually within one business day" are gone. Now "5–25% off, depending on the item" and "the discount comes off in the cart".
+- Product page: "Why buy from ETS" → "Why shop with us"; "Trade pricing" → "Trade accounts"; "Advice from a tiling
+  team" → "Ask a tiler"; "Buy with confidence" → "Warranty and returns"; ticker says small items (not tiles) ship Australia-wide;
+  the Delivery tab no longer says "We deliver within Australia" (tiles are Perth metro only).
+- Home "Best sellers" → "Shop the range" (the tabs aren't sorted by sales). 404 no longer says the page "has moved".
+- Services page: template slogans ("Renovations, done properly", "Four services, one team", "under one roof",
+  "Good to know", "Let's plan your renovation") replaced with plain headings. Same for the delivery page.
+- FAQ "Do you deliver?" now says tiles and large items are Perth metro. "1 products" → "1 product" on All departments.
+- Not changed (store content, not theme): the Care & Warranty page names "AUS Home Collection Group Pty Ltd (trading as
+  Bathroom City)" as the MELA warrantor, and tile descriptions say "sold per sqm to the nearest full box" while the
+  calculator rounds to whole m².

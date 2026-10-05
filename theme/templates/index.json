@@ -209,7 +209,7 @@
       "type": "ets-product-tabs",
       "settings": {
         "eyebrow": "",
-        "heading": "Best sellers",
+        "heading": "Shop the range",
         "limit": 10,
         "bg": "white"
       },
@@ -368,7 +368,7 @@
       "settings": {
         "eyebrow": "For builders and trades",
         "heading": "Trade accounts for tilers, builders and plumbers.",
-        "text": "Approved trade accounts get a further 5–25% off, set item by item. Apply once with your ABN; after approval just log in.",
+        "text": "Approved trade accounts get 5–25% off, depending on the item. Apply once with your ABN, then log in to shop at your trade price.",
         "checks": "Discount comes off automatically in the cart\nPerth metro delivery to site, or pick up from Maddington\nBulk tile and project quantities quoted on request"
       }
     },
@@ -394,8 +394,8 @@
           "type": "card",
           "settings": {
             "icon": "box",
-            "title": "Free shipping over $100",
-            "text": "<p>Tapware, shower sets, towel rails and accessories ship anywhere in Australia, free on orders over $100. Tiles are Perth metro only.</p>",
+            "title": "Australia-wide shipping",
+            "text": "<p>Tapware, shower sets, towel rails and accessories ship anywhere in Australia from $20, free on orders over $1,000. Tiles are Perth metro only.</p>",
             "link_label": "Shipping policy",
             "link": "/policies/shipping-policy"
           }
@@ -431,7 +431,7 @@
           "type": "question",
           "settings": {
             "question": "Do you deliver tiles outside Perth?",
-            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tapware and accessories ship Australia-wide, free on orders over $100.</p>"
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tapware and accessories ship Australia-wide from $20, free on orders over $1,000. Small items also ship to New Zealand, the US, the UK and the UAE.</p>"
           }
         },
         "1": {

@@ -69,21 +69,21 @@
           "type": "faq_item",
           "settings": {
             "question": "Do you offer free shipping?",
-            "answer": "<p>Yes, on orders over $100 of small bathroom items like tapware, shower heads and sets, towel rails and accessories, anywhere in Australia. Under $100 it's a $20 flat rate. Basins, mirrors and sinks ship by Australia Post at a weight-based rate shown at checkout. Toilets, baths, vanities, shower screens and tiles are Perth metro delivery or pickup only; outside Perth, contact us for a freight quote.</p>"
+            "answer": "<p>Yes, on orders of $1,000 or more within Australia. Under that, small items like tapware, shower heads and sets, towel rails and accessories ship anywhere in Australia by tracked Australia Post from $20, depending on weight. Basins, mirrors and sinks ship as tracked parcels from $25. Toilets, baths, vanities, shower screens and tiles are Perth metro delivery or pickup only; outside Perth, contact us for a freight quote.</p>"
           }
         },
         "q_6": {
           "type": "faq_item",
           "settings": {
             "question": "Do you deliver?",
-            "answer": "<p>Yes, within Australia. Delivery options for your address are shown at checkout. If you can't see one, contact us for a delivery quote. We don't ship internationally. See <a href=\"/pages/delivery-pickup\">Delivery &amp; Pickup</a> and our <a href=\"/policies/shipping-policy\">Shipping Policy</a>.</p>"
+            "answer": "<p>Yes. Tiles and large items are delivered across the Perth metro area, and small items ship anywhere in Australia. Delivery options for your address show at checkout. If you can't see one, contact us for a freight quote. We also ship small items to New Zealand, the US, the UK and the UAE. See <a href=\"/pages/delivery-pickup\">Delivery &amp; Pickup</a> and our <a href=\"/policies/shipping-policy\">Shipping Policy</a>.</p>"
           }
         },
         "q_7": {
           "type": "faq_item",
           "settings": {
             "question": "Do you deliver tiles outside Perth?",
-            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Small bathroom items like tapware and accessories ship Australia-wide, free on orders over $100.</p>"
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Small bathroom items like tapware and accessories ship Australia-wide from $20, free on orders over $1,000.</p>"
           }
         },
         "tab_3": {
@@ -144,7 +144,7 @@
           "type": "faq_item",
           "settings": {
             "question": "How do I get trade pricing?",
-            "answer": "<p><a href=\"/pages/trade-account\">Apply for a trade account</a> with your ABN and trade details. Once approved, log in with the same email and trade prices show on every product.</p>"
+            "answer": "<p><a href=\"/pages/trade-account\">Apply for a trade account</a> with your ABN and trade details. Once approved, log in with the same email and your trade discount comes off in the cart.</p>"
           }
         },
         "tab_5": {

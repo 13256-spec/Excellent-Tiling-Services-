@@ -19,7 +19,7 @@
         {%- assign count = count | plus: 1 -%}
         <li>
           <span class="ets-trust__icon">{% render 'ets-icon', name: 'shield' %}</span>
-          <div><strong>Licensed &amp; insured</strong><span>{% if settings.ets_licence != blank %}Licence {{ settings.ets_licence | escape }}{% else %}Fully insured Perth team{% endif %}</span></div>
+          <div><strong>Licensed &amp; insured</strong><span>{% if settings.ets_licence != blank %}Licence {{ settings.ets_licence | escape }}{% else %}Bathroom and tiling work{% endif %}</span></div>
         </li>
       {%- endif -%}
       {%- if settings.ets_warranty != blank -%}
@@ -33,14 +33,14 @@
         {%- assign count = count | plus: 1 -%}
         <li>
           <span class="ets-trust__icon">{% render 'ets-icon', name: 'tile' %}</span>
-          <div><strong>Tiling Perth since {{ since | escape }}</strong><span>Local Perth team</span></div>
+          <div><strong>Tiling Perth since {{ since | escape }}</strong><span>Based in Maddington</span></div>
         </li>
       {%- endif -%}
       {%- if count < 4 -%}
         {%- assign count = count | plus: 1 -%}
         <li>
           <span class="ets-trust__icon">{% render 'ets-icon', name: 'truck' %}</span>
-          <div><strong>Free shipping over $100</strong><span>Tapware &amp; accessories, Australia-wide</span></div>
+          <div><strong>Australia-wide shipping</strong><span>From $20, free over $1,000</span></div>
         </li>
       {%- endif -%}
       {%- if count < 4 -%}
