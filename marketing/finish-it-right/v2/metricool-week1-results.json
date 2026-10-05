@@ -4,209 +4,230 @@
     "time": "12:15",
     "slot": "lunch",
     "uuid": "5322922904113597646",
-    "newId": 388668568,
+    "newId": 388974401,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-06-lunch.png"
   },
   {
     "date": "2026-10-06",
     "time": "18:30",
     "slot": "main",
     "uuid": "-82764338345324569",
-    "newId": 388668929,
+    "newId": 388979167,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-06-main.png"
   },
   {
     "date": "2026-10-06",
     "time": "19:30",
     "slot": "story",
     "uuid": "8394839378923897532",
-    "newId": 388669089,
+    "newId": 388974425,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-06-story.png"
   },
   {
     "date": "2026-10-07",
     "time": "12:15",
     "slot": "lunch",
     "uuid": "6670849562625001156",
-    "newId": 388669340,
+    "newId": 388978118,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-07-lunch.png"
   },
   {
     "date": "2026-10-07",
     "time": "18:30",
     "slot": "main",
     "uuid": "-2650838767400170315",
-    "newId": 388669562,
+    "newId": 388978251,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-07-main.png"
   },
   {
     "date": "2026-10-07",
     "time": "19:30",
     "slot": "story",
     "uuid": "114160800585958773",
-    "newId": 388669819,
+    "newId": 388978290,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-07-story.png"
   },
   {
     "date": "2026-10-08",
     "time": "12:15",
     "slot": "lunch",
     "uuid": "-2947675655970471903",
-    "newId": 388669899,
+    "newId": 388978332,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-08-lunch.png"
   },
   {
     "date": "2026-10-08",
     "time": "18:30",
     "slot": "main",
     "uuid": "-1024546065279729226",
-    "newId": 388669957,
+    "newId": 388979191,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-08-main.png"
   },
   {
     "date": "2026-10-08",
     "time": "19:30",
     "slot": "story",
     "uuid": "7527614376438943182",
-    "newId": 388670038,
+    "newId": 388978388,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-08-story.png"
   },
   {
     "date": "2026-10-09",
     "time": "12:15",
     "slot": "lunch",
     "uuid": "703485230349699311",
-    "newId": 388670118,
+    "newId": 388979181,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-09-lunch.png"
   },
   {
     "date": "2026-10-09",
     "time": "18:30",
     "slot": "main",
     "uuid": "6986877502745888054",
-    "newId": 388670524,
+    "newId": 388979208,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-09-main.png"
   },
   {
     "date": "2026-10-09",
     "time": "19:30",
     "slot": "story",
     "uuid": "2595617595723304477",
-    "newId": 388671452,
+    "newId": 388979242,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-09-story.png"
   },
   {
     "date": "2026-10-10",
     "time": "12:15",
     "slot": "lunch",
     "uuid": "9127826652765177806",
-    "newId": 388671508,
+    "newId": 388979268,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-10-lunch.png"
   },
   {
     "date": "2026-10-10",
     "time": "18:30",
     "slot": "main",
     "uuid": "6802827279299464345",
-    "newId": 388671558,
+    "newId": 388984346,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-10-main.png"
   },
   {
     "date": "2026-10-10",
     "time": "19:30",
     "slot": "story",
     "uuid": "1047003809545733728",
-    "newId": 388671615,
+    "newId": 388979445,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-10-story.png"
   },
   {
     "date": "2026-10-11",
     "time": "12:15",
     "slot": "lunch",
     "uuid": "6752569168942352162",
-    "newId": 388671768,
+    "newId": 388983205,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-11-lunch.png"
   },
   {
     "date": "2026-10-11",
     "time": "18:30",
     "slot": "main",
     "uuid": "-8348281262057502895",
-    "newId": 388671944,
+    "newId": 388983236,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-11-main.png"
   },
   {
     "date": "2026-10-11",
     "time": "19:30",
     "slot": "story",
     "uuid": "-3475093532215324749",
-    "newId": 388672043,
+    "newId": 388983264,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-11-story.png"
   },
   {
     "date": "2026-10-12",
     "time": "12:15",
     "slot": "lunch",
     "uuid": "3983612483844261993",
-    "newId": 388672113,
+    "newId": 388983290,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-12-lunch.png"
   },
   {
     "date": "2026-10-12",
     "time": "18:30",
     "slot": "main",
     "uuid": "6146784666052412652",
-    "newId": 388672170,
+    "newId": 388984104,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-12-main.png"
   },
   {
     "date": "2026-10-12",
     "time": "19:30",
     "slot": "story",
     "uuid": "-160212597746939643",
-    "newId": 388672213,
+    "newId": 388984174,
     "draft": false,
     "status": "ok",
-    "error": null
+    "error": null,
+    "media": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v3-2026-10-12-story.png"
   }
 ]
