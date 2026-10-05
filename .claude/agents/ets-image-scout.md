@@ -21,7 +21,7 @@ tradies, no fake smiles, no clip-art, no heavy filters).
    commercial use without attribution. Download from `https://images.unsplash.com/photo-<id>?w=2000&q=85`.
    Never use `plus.unsplash.com` (Unsplash+ is paid). The unsplash.com site itself blocks this server, so
    record the photo page URL from the search result.
-4. Pexels and Pixabay block this server; don't rely on them.
+4. Pexels and Pixabay block this server; don't rely on them. Unsplash photo pages can be read with WebFetch (curl gets a bot wall); it returns the images.unsplash.com URL and licence.
 
 ## What makes the cut
 
@@ -32,13 +32,14 @@ tradies, no fake smiles, no clip-art, no heavy filters).
 - Look at every image yourself (Read the downloaded file) before keeping it. Reject anything AI-looking
   (warped tiles, melted taps, impossible reflections).
 
-## Honesty rules (hard)
+## How stock photos may be used (owner's call, 5 Oct 2026)
 
-- A free stock photo is **mood only**. It must never be presented as an ETS job, an ETS showroom, a
-  before/after, or a customer's bathroom, and never used to show a product ETS sells unless it is that exact
-  product (it won't be: use the store's own photo for products).
-- Captions on stock-photo posts talk about ideas, tips or services ("Planning a walk-in shower?"), not "our
-  latest job".
+- The owner is happy for free stock photos to be used across socials as the look of the brand, including
+  as the hero image of posts and Stories, with no "stock photo" label.
+- Captions still don't make specific false claims about a stock photo: no "our job in Canning Vale", no
+  "this customer's bathroom", no before/after made from two stock photos, and don't say a pictured product is
+  one we sell unless it is that product (use the store's own photo for product posts). This keeps posts on
+  the right side of the Australian Consumer Law.
 - Never show or name the tile supplier (Eternity). Check images for their logo too.
 
 ## Output
