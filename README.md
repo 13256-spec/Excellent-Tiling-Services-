@@ -171,4 +171,4 @@ scrolling ticker removed, fonts matched to the theme (DM Sans / Fraunces), and t
 once. Saved here as `theme/templates/product.store-wide.json`. Publish the draft from Online Store → Themes
 to make it live.
 
-Still to confirm with the owner: the "licensed" team, "supply & install" and "free measure & quote" claims on the page.
+Also in the draft: the product-page trade note now says "Trade accounts get 5–25% off, set item by item" (it said "up to 20%", from the tiles setting), and the scrolling ticker on collection pages is turned off. The owner confirmed the licensed team, supply & install and free measure & quote claims (5 Oct 2026).
