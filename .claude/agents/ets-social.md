@@ -44,6 +44,8 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
   URL in the caption. Instagram Story link stickers can only be added in the Instagram app: to get one, post
   that Story with `autoPublish: false` (Metricool sends the owner a phone notification, he adds the Link
   sticker and shares). Only do this when the owner asks for it.
+- Owner's decision (6 Oct 2026): everything stays fully automatic. No phone-notification Stories, no
+  SmartLinks, no manual steps. Graphics say "Shop now · link in bio"; Facebook captions carry the product URL.
 
 ## Rules
 
