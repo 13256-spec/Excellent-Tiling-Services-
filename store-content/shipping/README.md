@@ -137,3 +137,21 @@ The live Australia Post rate started showing at checkout next to the fixed price
 - **Live store data updated directly:** SEO descriptions of 66 products and 9 collections, the descriptions of 5 tapware collections, and the Delivery & Pickup and FAQs page bodies.
 - **Shipping policy:** the app has no `write_legal_policies` access, so the new text is in `store-content/policies/shipping-policy.html`. Paste it in at Settings → Policies → Shipping policy.
 - Not changed: the "Finish it right" campaign graphics still say "free shipping over $100 (WA)". They need redoing before they're posted.
+
+## International prices lowered (5 Oct 2026, late)
+A UK test cart (2 pull-out sink mixers, 3 kg each = 6 kg) was charged A$279 (£150) by the old 5–10 kg band. The international bands were too padded and too coarse, so they now go up in smaller steps:
+
+| Packed weight | New Zealand | US, UK, UAE |
+| --- | --- | --- |
+| up to 0.99 kg | $29 | $45 |
+| 1 to 1.99 kg | $39 | $65 |
+| 2 to 2.99 kg | $49 | $85 |
+| 3 to 4.99 kg | $65 | $119 |
+| 5 to 6.99 kg | $85 | $149 |
+| 7 to 10 kg | $109 | $189 |
+
+The same 6 kg UK cart now pays A$149 (~£75). Check the first real international labels against these prices.
+
+Shipping weights for tapware are estimates (kitchen mixers 2.4–3 kg). Weighing a packed pull-out mixer would let checkout use the real weight.
+
+The theme (now published as "ETS 2026 – Restored (5 Oct)") still says "from $35" for international in two places: the delivery page "Where we deliver" panel (`sections/ets-standard-page.liquid`) and the delivery FAQ (`templates/page.delivery.json`). The repo copies say "from $29", but theme writes to the live theme are blocked. Fix in the theme editor (Delivery page FAQ) or through a draft copy of the theme. The Delivery & Pickup page body and the shipping policy text already say $29.
