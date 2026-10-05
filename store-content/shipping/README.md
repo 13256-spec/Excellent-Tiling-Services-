@@ -77,3 +77,9 @@ Retest after adding them (cart shipping-rate lookup):
 | Primer 0.35 kg | Sydney 2000 | Australia Post $25 |
 | 3 basins | Brisbane 4000 | Australia Post $179 |
 | Vanity (freight item) | Sydney 2000 | none (pickup / Perth delivery only) |
+
+## Update 5 Oct 2026
+- **Labels work.** The owner's MyPost Business account is connected in Shopify (Carrier accounts → Australia Post). From an order, **Create shipping label** shows live Parcel Post and Express Post prices from that account. Postage is billed to MyPost Business, and tracking is emailed to the customer automatically.
+- **Use the right box.** The first label for order #1001 (6 small items, 4.65 kg, Perth → Brisbane) quoted Parcel Post at $102.05 and Express Post at $368.95. That was because it used the default "Tile box 60x45x30", which Australia Post charges as 20.25 kg cubic weight. The owner added and saved a **30x25x20 small box** (0.1 kg empty, 3.75 kg cubic) for small orders. Next step: make it the default package (Settings → Shipping and delivery → Saved packages), so labels don't start from the tile box.
+- **Checkout still shows the fixed backup prices only.** Retest (cart shipping-rate lookup): MELA ARCH basin to Sydney 2000 and to Brisbane 4069 both returned only "Australia Post tracked parcel $79". Live Australia Post prices work for labels but not at checkout. On the Basic plan, carrier-calculated rates at checkout usually need a paid add-on or a higher plan. Keep the fixed weight prices until then.
+- Order #1001's $0 shipping is correct: it's over $100, so it got the General profile's free-shipping rate.

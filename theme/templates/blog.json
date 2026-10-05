@@ -9,12 +9,21 @@
  */
 {
   "sections": {
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "eyebrow": "Journal",
+        "text": "Ideas, product guides and renovation tips from the ETS team.",
+        "show_crumbs": true
+      }
+    },
     "main": {
       "type": "ets-blog-page",
       "settings": {}
     }
   },
   "order": [
+    "hero",
     "main"
   ]
 }

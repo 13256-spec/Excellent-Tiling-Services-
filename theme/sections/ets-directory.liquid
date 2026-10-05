@@ -1,0 +1,48 @@
+{%- assign menu = linklists[section.settings.menu] -%}
+<section class="ets ets-sec--tight" style="padding-top:0">
+  <div class="ets-wrap" style="display:grid;gap:clamp(48px,6vw,88px)">
+    {%- for link in menu.links -%}
+      {%- if link.links.size > 0 -%}
+        <div>
+          <div class="ets-head" style="margin-bottom:24px">
+            <h2 class="ets-h2" style="font-size:clamp(30px,3.4vw,46px)">{{ link.title | escape }}</h2>
+            <a class="ets-link" href="{{ link.url }}">Shop all {% render 'ets-icon', name: 'arrow' %}</a>
+          </div>
+          <div class="ets-cats" style="grid-auto-rows:minmax(200px,auto)">
+            {%- for child in link.links -%}
+              {%- liquid
+                assign img = blank
+                assign contain = true
+                if child.type == 'collection_link'
+                  assign img = child.object.image | default: child.object.products.first.featured_image
+                  if child.object.products.first.type == 'Tile'
+                    assign contain = false
+                  endif
+                endif
+              -%}
+              <a class="ets-cat ets-shell" href="{{ child.url }}" style="grid-column:span 3">
+                <div class="ets-core">
+                  <div class="ets-cat__img{% if contain %} ets-cat__img--contain{% endif %}">{%- if img != blank -%}{{ img | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300, 600', sizes: '(min-width: 990px) 25vw, 50vw', alt: '' }}{%- endif -%}</div>
+                  <div class="ets-cat__body">
+                    <div><strong style="font-size:21px">{{ child.title | escape }}</strong>{%- if child.type == 'collection_link' -%}<small>{{ child.object.products_count }} products</small>{%- endif -%}</div>
+                    <span class="ets-cat__go">{% render 'ets-icon', name: 'arrow-up-right' %}</span>
+                  </div>
+                </div>
+              </a>
+            {%- endfor -%}
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
+{% stylesheet %}
+  @media (max-width: 989px) { .ets-cats > .ets-cat[style] { grid-column: span 1 !important; } }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "ETS department directory",
+  "settings": [{ "type": "link_list", "id": "menu", "label": "Menu", "default": "main-menu" }],
+  "presets": [{ "name": "ETS department directory" }]
+}
+{% endschema %}

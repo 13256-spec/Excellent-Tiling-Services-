@@ -47,6 +47,7 @@ body h1, body h2, body .h1, body .h2,
 }
 .ets-eyebrow:before { display: none; }
 .ets-sec--ink .ets-eyebrow { background: none; box-shadow: none; color: #d6c3a1; }
+.ets-eyebrow:empty { display: none; }
 
 /* Buttons: simple rectangles, no arrow bubble */
 .ets-btn {
@@ -95,7 +96,6 @@ body h1, body h2, body .h1, body .h2,
 
 /* Show content straight away */
 .ets-js [data-reveal] { opacity: 1; transform: none; transition: none; }
-.ets-eyebrow:empty { display: none; }
 
 /* Product cards: brand is already in the product name */
 .ets-card__vendor { display: none; }
