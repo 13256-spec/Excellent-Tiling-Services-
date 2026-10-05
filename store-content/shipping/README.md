@@ -108,3 +108,21 @@ The Australia Post live rate (+$3 fee) is still on in Rest of Australia. It show
 Unchanged: the bulky-items profile (Australia Post $25 to $179 by weight, no free shipping), and large items (pickup or Perth local delivery only). A mixed cart pays the small-item rate plus the bulky-item rate.
 
 **Still to do:** the theme and SEO text says "free shipping over $100" in about 20 places (header bar, homepage, FAQs, product perks, delivery page, collection SEO text, shipping policy, "Finish it right" campaign graphics). It needs changing to the $1,000 rule.
+
+## International shipping live (5 Oct 2026)
+The draft market **"International – Phase 1"** (NZ, US, UK, UAE) was switched to **Active**. Prices are in AUD. Australian GST is taken off at checkout (exports are GST-free), and the customer pays any import duties or taxes on delivery.
+
+**Small items only** (General profile). Bulky items (basins, mirrors) and large items (tiles, vanities, baths) have no international rate, so overseas customers can't check out with them. They need to contact the shop for a quote.
+
+Sent with the owner's MyPost Business account (Australia Post International, tracked). Create the label from the order as for domestic orders, and fill in the customs description and value on the label.
+
+| Packed weight | New Zealand | US, UK, UAE |
+| --- | --- | --- |
+| up to 0.99 kg | $35 | $55 |
+| 1 to 1.99 kg | $49 | $85 |
+| 2 to 4.99 kg | $85 | $159 |
+| 5 to 10 kg | $149 | $279 |
+
+Over 10 kg: no rate, contact the shop. No free international shipping.
+
+Check the first few real labels against these prices and adjust if Australia Post costs more. To add a country: add it to the market (Settings → Markets) and to one of the two international zones in the General profile.
