@@ -1,0 +1,898 @@
+[
+ {
+  "date": "2026-10-06",
+  "time": "12:15",
+  "slot": "lunch",
+  "existing": {
+   "id": "388634196",
+   "uuid": "5322922904113597646"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-06T12:15:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-06-lunch.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "A new basin mixer for $189. The bathroom looks years younger.\nMELA FLOVA: 5-star WELS, 6 L/min, 35 mm cartridge.\nChrome $189, matt black $217, brushed nickel $246.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-06",
+  "time": "18:30",
+  "slot": "main",
+  "existing": {
+   "id": "388634328",
+   "uuid": "-82764338345324569"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-06T18:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-06-main.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "We're Excellent Tiling Services, a Perth tiling crew based in Maddington.\nNow you can buy the same tiles, MELA vanities and tapware we put into our customers' bathrooms.\nEvery product shows its price and specs, so you can price up a reno tonight instead of waiting on three quotes.\nThat's the BRITTANY 1200 in fluted oak: $1,994 with stone top and basin.\nFollow for room ideas, real prices and tips from people who tile for a living.\nHave a look via the link in bio.\n\n#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes #maddington #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-06",
+  "time": "19:30",
+  "slot": "story",
+  "existing": {
+   "id": "388634378",
+   "uuid": "8394839378923897532"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-06T19:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-06-story.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "STORY"
+   },
+   "facebookData": {
+    "type": "STORY"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false
+  }
+ },
+ {
+  "date": "2026-10-07",
+  "time": "12:15",
+  "slot": "lunch",
+  "existing": {
+   "id": "388634469",
+   "uuid": "6670849562625001156"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-07T12:15:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-07-lunch.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Our lowest-priced vanity: $703, top and basin included.\nMELA CLARK 600 in gloss white: two doors, 20 mm Pearl White stone top and a ceramic basin.\n595 mm wide, so it suits an ensuite or powder room. Tapware and waste are separate.\nPerth metro delivery, or free pickup in Maddington.\nLink in bio, or excellenttilingservice.com.au/products/mela-clark-600-wall-hung-vanity-with-doors\n\n#wallhungvanity #bathroomvanity #perthbathrooms #bathroomrenovation #smallbathroom #perthrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-07",
+  "time": "18:30",
+  "slot": "main",
+  "existing": {
+   "id": "388634515",
+   "uuid": "-2650838767400170315"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-07T18:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-07-main.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Small bathroom? Get the vanity off the floor.\nA wall-hung vanity leaves floor showing underneath, so the room looks bigger and cleaning is one pass of the mop.\nThis is the MELA BRITTANY 600: fluted matt white, two drawers, 590 mm wide. $1,149.99 with stone top and basin.\nOur wall-hung vanities start at $703. Perth metro delivery, or free pickup in Maddington.\nShop vanities via the link in bio.\n\n#wallhungvanity #bathroomvanity #perthbathrooms #bathroomrenovation #smallbathroom #perthrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-07",
+  "time": "19:30",
+  "slot": "story",
+  "existing": {
+   "id": "388634545",
+   "uuid": "114160800585958773"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-07T19:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-07-story.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "STORY"
+   },
+   "facebookData": {
+    "type": "STORY"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "time": "12:15",
+  "slot": "lunch",
+  "existing": {
+   "id": "388634596",
+   "uuid": "-2947675655970471903"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-08T12:15:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-08-lunch.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Brushed tapware? Your towel rail should match.\nMELA BRUNO 600 single towel rail in brushed nickel, gun metal, brushed brass or brushed copper.\nFrom $132 in brushed nickel.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-bruno-600-single-towel-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "time": "18:30",
+  "slot": "main",
+  "existing": {
+   "id": "388634632",
+   "uuid": "-1024546065279729226"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-08T18:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-08-main.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "No trailer? We'll bring the tiles.\nTwenty boxes of porcelain won't fit in a hatchback. Choose Perth metro delivery at checkout and you'll see the cost before you pay.\nGot a ute? Pick up free from 17A Olga Road, Maddington. We email when it's ready, then you book an evening slot, Mon–Sat 4:30–9 pm.\nFloor shown: Morgan Dusk, from $37.40/m².\nPlan your order via the link in bio.\n\n#perthrenovation #perthbathrooms #perthhomes #maddington #bathroomrenovation #perthtiler #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-08",
+  "time": "19:30",
+  "slot": "story",
+  "existing": {
+   "id": "388634676",
+   "uuid": "7527614376438943182"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-08T19:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-08-story.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "STORY"
+   },
+   "facebookData": {
+    "type": "STORY"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false
+  }
+ },
+ {
+  "date": "2026-10-09",
+  "time": "12:15",
+  "slot": "lunch",
+  "existing": {
+   "id": "388634989",
+   "uuid": "703485230349699311"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-09T12:15:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-09-lunch.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Soft stone look, rated for wet areas.\nTime Stone Moon porcelain: P4/R11 slip rating, 300x600 or 600x600, matt or lappato.\nMatt $50.10/m², lappato $55.20/m². 1.44 m² a box.\nPerth metro delivery, or free pickup in Maddington.\nLink in bio, or excellenttilingservice.com.au/products/time-stone-moon-porcelain-tile\n\n#perthtiles #porcelaintiles #bathroomtiles #floortiles #perthrenovation #bathroomrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-09",
+  "time": "18:30",
+  "slot": "main",
+  "existing": {
+   "id": "388635029",
+   "uuid": "6986877502745888054"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-09T18:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-09-main.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Tiler, builder or plumber? Stop ringing around for trade prices.\nAn ETS trade account takes 15% off tiles and 5–25% off tools, trims and bathroomware, depending on the item.\nApply once with your ABN. Once we approve it, log in and the discount comes off in the cart. No codes.\nSite delivery across Perth for tiles and large items, or pick up in Maddington by appointment.\nApply on our Trade account page (link in bio).\n\n#perthtradies #perthtiler #perthbuilders #tiling #tilingtools #perthconstruction #maddington #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-09",
+  "time": "19:30",
+  "slot": "story",
+  "existing": {
+   "id": "388635060",
+   "uuid": "2595617595723304477"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-09T19:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-09-story.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "STORY"
+   },
+   "facebookData": {
+    "type": "STORY"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false
+  }
+ },
+ {
+  "date": "2026-10-10",
+  "time": "12:15",
+  "slot": "lunch",
+  "existing": {
+   "id": "388635119",
+   "uuid": "9127826652765177806"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-10T12:15:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-10-lunch.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Overhead shower and hand shower, one set.\nMELA PALCO / RONDO combination set with rail: brass, 3-star WELS at 9 L/min.\nSix finishes, from $412 in chrome.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-palco-rondo-combination-shower-set-with-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-10",
+  "time": "18:30",
+  "slot": "main",
+  "existing": {
+   "id": "388635163",
+   "uuid": "6802827279299464345"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-10T18:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-10-main.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Tiler's tip: never order the exact square metres.\nCuts around walls, pipes and doorways eat tiles, and the odd one cracks. Add 10% to your area, or 15–20% for herringbone or diagonal layouts.\nRunning short mid-job hurts: a later batch can come up a slightly different shade.\nEvery tile page on our site has a calculator that works out the boxes for you. Floor shown: Morgan Storm, $37.40/m².\nSave this for when you measure up.\n\n#perthtiles #porcelaintiles #bathroomtiles #floortiles #perthrenovation #bathroomrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-10",
+  "time": "19:30",
+  "slot": "story",
+  "existing": {
+   "id": "388635226",
+   "uuid": "1047003809545733728"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-10T19:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-10-story.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "STORY"
+   },
+   "facebookData": {
+    "type": "STORY"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false
+  }
+ },
+ {
+  "date": "2026-10-11",
+  "time": "12:15",
+  "slot": "lunch",
+  "existing": {
+   "id": "388635294",
+   "uuid": "6752569168942352162"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-11T12:15:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-11-lunch.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Backlit, dimmable, and it won't fog up.\nMELA MIA 450 LED oval mirror: anti-fog, IP44, cool white light. Plug in or hardwire.\n$379.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-mia-450-led-oval-mirror\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-11",
+  "time": "18:30",
+  "slot": "main",
+  "existing": {
+   "id": "388635331",
+   "uuid": "-8348281262057502895"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-11T18:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-11-main.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Love dark marble but not the sealing and stains? Go porcelain.\nLava Etna has the deep veining of stone in a matt porcelain tile, 300x600 or 600x600.\n$46.70/m², sold to the nearest full box. Perth metro delivery, or free pickup in Maddington.\nWant to see it in person? Book an evening showroom visit, Mon–Sat 4:30–9 pm (link in bio).\n\n#perthrenovation #perthbathrooms #porcelaintiles #marblelook #bathroomrenovation #perthtiler #maddington"
+  }
+ },
+ {
+  "date": "2026-10-11",
+  "time": "19:30",
+  "slot": "story",
+  "existing": {
+   "id": "388635361",
+   "uuid": "-3475093532215324749"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-11T19:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-11-story.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "STORY"
+   },
+   "facebookData": {
+    "type": "STORY"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false
+  }
+ },
+ {
+  "date": "2026-10-12",
+  "time": "12:15",
+  "slot": "lunch",
+  "existing": {
+   "id": "388635418",
+   "uuid": "3983612483844261993"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-12T12:15:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-12-lunch.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "Shower mixer looking tired? From $141.\nMELA RONDO wall mixer for shower or bath, 35 mm cartridge.\nChrome $141, matt black $189, brushed nickel $217, brushed brass $246.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-rondo-wall-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-12",
+  "time": "18:30",
+  "slot": "main",
+  "existing": {
+   "id": "388635448",
+   "uuid": "6146784666052412652"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-12T18:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-12-main.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "POST"
+   },
+   "facebookData": {
+    "type": "POST"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false,
+   "text": "The price on our vanities is the price with the top on.\nMELA PADDY 750: a cupboard and two drawers, 20 mm Pearl White stone top and ceramic basin, $949. Gloss white, snafell, walnut or sorrento oak.\nEvery vanity we sell comes with a stone top and basin. Tapware and waste are separate.\nWall-hung vanities from $703. Perth metro delivery, or free pickup in Maddington.\nShop vanities via the link in bio.\n\n#wallhungvanity #bathroomvanity #perthbathrooms #bathroomrenovation #smallbathroom #perthrenovation #excellenttilingservices"
+  }
+ },
+ {
+  "date": "2026-10-12",
+  "time": "19:30",
+  "slot": "story",
+  "existing": {
+   "id": "388635489",
+   "uuid": "-160212597746939643"
+  },
+  "info": {
+   "autoPublish": true,
+   "draft": false,
+   "providers": [
+    {
+     "network": "instagram"
+    },
+    {
+     "network": "facebook"
+    }
+   ],
+   "publicationDate": {
+    "dateTime": "2026-10-12T19:30:00",
+    "timezone": "Australia/Perth"
+   },
+   "media": [
+    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-v2-2026-10-12-story.png"
+   ],
+   "mediaAltText": [],
+   "instagramData": {
+    "type": "STORY"
+   },
+   "facebookData": {
+    "type": "STORY"
+   },
+   "firstCommentText": "",
+   "shortener": false,
+   "smartLinkData": {
+    "ids": []
+   },
+   "descendants": [],
+   "hasNotReadNotes": false
+  }
+ }
+]

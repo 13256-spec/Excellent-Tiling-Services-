@@ -155,3 +155,21 @@ The same 6 kg UK cart now pays A$149 (~£75). Check the first real international
 Shipping weights for tapware are estimates (kitchen mixers 2.4–3 kg). Weighing a packed pull-out mixer would let checkout use the real weight.
 
 The theme (now published as "ETS 2026 – Restored (5 Oct)") still says "from $35" for international in two places: the delivery page "Where we deliver" panel (`sections/ets-standard-page.liquid`) and the delivery FAQ (`templates/page.delivery.json`). The repo copies say "from $29", but theme writes to the live theme are blocked. Fix in the theme editor (Delivery page FAQ) or through a draft copy of the theme. The Delivery & Pickup page body and the shipping policy text already say $29.
+
+## Checkout test (5 Oct 2026, 11:25 pm Perth) — from the marketing session
+Live Shopify settings at the time: only the **General profile** exists, and its only rates are two carrier
+services: "Australia Post MyPost Business (own account)" and "Shipx - Shipping Rates & Rules (via app)". The
+fixed weight prices, the bulky-items profile and the large-items profile are no longer there.
+
+Storefront cart rate lookup (`/cart/shipping_rates.json`, postcode + state only):
+
+| Cart | Maddington 6109 | Joondalup 6027 | Broome 6725 | Sydney 2000 | Darwin 0800 |
+| --- | --- | --- | --- | --- | --- |
+| Paper holder $46, nipper $30.55, FLOVA mixer $189, SURI mirror $189 | none | none | none | none | none |
+| Shower set x3 $1,236, ARCH basin $299, tiles 10 m², PADDY 750, BRITTANY 1200 | Local Delivery $54 | Local Delivery $128 | none | none | none |
+
+So right now small items (tapware, accessories, tools, mirrors) have **no delivery option at all** (pickup only),
+nothing ships interstate, and Perth local delivery shows $54 / $128 (the policy says $130 within 30 km and $180
+within 50 km). Carrier rates may need a full street address; the site's bot check then blocked further tests,
+so re-test a real checkout with a full address once Shipx rules are set. Until rates show, social posts only
+promise free pickup in Maddington and "delivery options at checkout".
