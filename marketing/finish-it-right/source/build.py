@@ -125,7 +125,24 @@ posts.update({
 'S-shipping':
  f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Tapware and accessories</p><h1 style="font-size:150px;margin-top:40px">Free shipping over $100</h1><p class="bot" style="font-size:44px">Anywhere in Western Australia</p></div>'+
  img('flova.png','1/5','5/7','fit')+
- f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Tap the link to shop</h2></div>'+LOGO('4/5','7/8'),
+ f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Shop via the link in our bio</h2></div>'+LOGO('4/5','7/8'),
+})
+
+posts.update({
+'S-reply':
+ img('flova.png','1/3','1/4','fit')+img('flova-black.png','3/5','1/4','fit')+
+ f'<div class="t navy" {a("1/5","4/7")}><h1 style="font-size:116px">Chrome or matt black?</h1><p class="bot" style="font-size:40px">Same MELA FLOVA mixer, $189 or $217. Reply with your pick.</p></div>'+
+ f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Shop via the link in our bio</h2></div>'+LOGO('4/5','7/8'),
+'S-tiles':
+ img('moon-room.jpg','1/5','1/4')+
+ f'<div class="t navy" {a("1/5","4/6")}><p style="font-size:40px">Porcelain tiles</p><h1 style="font-size:150px;margin-top:30px">From $37.40/m²</h1></div>'+
+ f'<div class="t" {a("1/5","6/7")}><p style="font-size:38px">Perth delivery or free pickup from Maddington. Every price online.</p></div>'+
+ f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Shop via the link in our bio</h2></div>'+LOGO('4/5','7/8'),
+'S-vanity':
+ img('clark-walnut.webp','1/5','1/4')+
+ f'<div class="t navy" {a("1/5","4/6")}><p style="font-size:40px">Wall-hung vanities</p><h1 style="font-size:150px;margin-top:30px">From $1,139</h1></div>'+
+ f'<div class="t" {a("1/5","6/7")}><p style="font-size:38px">Stone top and basin included. Delivered across Perth or free pickup.</p></div>'+
+ f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Shop via the link in our bio</h2></div>'+LOGO('4/5','7/8'),
 })
 
 os.makedirs(f'{S}/out',exist_ok=True)
