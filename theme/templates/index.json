@@ -209,7 +209,7 @@
       "type": "ets-product-tabs",
       "settings": {
         "eyebrow": "",
-        "heading": "Best sellers",
+        "heading": "Shop the range",
         "limit": 10,
         "bg": "white"
       },
@@ -368,7 +368,7 @@
       "settings": {
         "eyebrow": "For builders and trades",
         "heading": "Trade accounts for tilers, builders and plumbers.",
-        "text": "Approved trade accounts get a further 5–25% off, set item by item. Apply once with your ABN; after approval just log in.",
+        "text": "Approved trade accounts get 5–25% off, depending on the item. Apply once with your ABN, then log in to shop at your trade price.",
         "checks": "Discount comes off automatically in the cart\nPerth metro delivery to site, or pick up from Maddington\nBulk tile and project quantities quoted on request"
       }
     },

@@ -41,7 +41,7 @@
           <h2>How it works</h2>
           <ol class="ets-steps" role="list" style="--cols:1;gap:10px">
             <li style="padding:18px"><strong>Apply</strong><p>Send your business details below. It takes about two minutes.</p></li>
-            <li style="padding:18px"><strong>We verify</strong><p>We check your ABN and trade details, usually within one business day.</p></li>
+            <li style="padding:18px"><strong>We verify</strong><p>We check your ABN and trade details, then email you once your account is approved.</p></li>
             <li style="padding:18px"><strong>Log in and save</strong><p>Log in with the same email. Your trade discount comes off automatically in the cart.</p></li>
           </ol>
         </div></div>
@@ -69,7 +69,7 @@
               {%- if form.posted_successfully? -%}
                 <div class="ets-alert ets-alert--ok" role="status" tabindex="-1" autofocus>
                   <strong>Thanks, your trade application has been sent.</strong>
-                  We'll check your details and email you once your account is approved (usually within one business day). Then log in with the same email address.
+                  We'll check your details and email you once your account is approved. Then log in with the same email address.
                 </div>
               {%- endif -%}
               {%- if form.errors -%}
@@ -178,8 +178,8 @@
   "name": "ETS trade application",
   "settings": [
     { "type": "text", "id": "eyebrow", "label": "Label", "default": "Trade accounts" },
-    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Trade pricing for builders and trades." },
-    { "type": "textarea", "id": "intro", "label": "Intro", "default": "Builders, tilers, plumbers and renovators get a further 5–25% off tiles, tools and bathroomware, set item by item. Apply once, log in, and the discount comes off in your cart." }
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Trade accounts for builders and tradies." },
+    { "type": "textarea", "id": "intro", "label": "Intro", "default": "Tilers, builders, plumbers and renovators buying for work get 5–25% off tiles, tools and bathroomware, depending on the item. Apply once, then log in and the discount comes off in your cart." }
   ],
   "blocks": [{ "type": "@app" }],
   "presets": [{ "name": "ETS trade application" }]

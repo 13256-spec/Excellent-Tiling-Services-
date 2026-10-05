@@ -246,7 +246,7 @@
                 "first_bg_color": "#EEEAE2",
                 "first_title_color": "#15213A",
                 "second_icon": "shield_check",
-                "second_title": "Trade pricing",
+                "second_title": "Trade accounts",
                 "second_bg_color": "#15213A",
                 "second_title_color": "#FFFFFF",
                 "third_icon": "none",
@@ -272,7 +272,7 @@
               "type": "shopify://apps/section-store/blocks/block-benefits-list/d7a2e423-ea88-4344-b866-6d0fb487c3dd",
               "settings": {
                 "items_gap": 8,
-                "first_text": "<p><strong>Trade pricing</strong> — for approved trade accounts</p>",
+                "first_text": "<p><strong>Trade accounts</strong> — discounts for builders and tilers</p>",
                 "second_text": "<p><strong>Full specs</strong> — sizes, finishes and details below</p>",
                 "third_text": "<p><strong>Local team</strong> — licensed, Perth-based tilers</p>",
                 "fourth_text": "<p><strong>Supply &amp; install</strong> — free measure &amp; quote available</p>",
@@ -421,7 +421,7 @@
             "icon": "truck",
             "icon_color": "#F6F4EF",
             "text_color": "#F6F4EF",
-            "text": "Australia-wide shipping · Free on orders over $1,000"
+            "text": "Small items ship Australia-wide · Free over $1,000"
           }
         },
         "item_2": {
@@ -448,7 +448,7 @@
             "icon": "price",
             "icon_color": "#F6F4EF",
             "text_color": "#F6F4EF",
-            "text": "Trade pricing for builders & tilers"
+            "text": "Trade accounts for builders & tilers"
           }
         },
         "item_5": {
@@ -562,7 +562,7 @@
         "ss-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Why buy from ETS</h2>",
+            "heading": "<h2>Why shop with us</h2>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_accent_font": "playfair_n4",
@@ -578,7 +578,7 @@
         "ss-text-2": {
           "type": "text",
           "settings": {
-            "text": "<p>A local Perth business that supplies and installs what it sells, with a showroom in Maddington.</p>",
+            "text": "<p>We're a Perth tiling business with a showroom in Maddington. We sell the products, and our own team can install them.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 16,
@@ -625,8 +625,8 @@
           "type": "feature",
           "settings": {
             "icon": "tags",
-            "title": "Trade pricing",
-            "text": "<p>Builders, tilers and renovators see trade prices on every product once their trade account is approved.</p>",
+            "title": "Trade accounts",
+            "text": "<p>Tilers, builders and plumbers can apply for a trade account. Once it's approved, your trade discount comes off in the cart.</p>",
             "hide_mobile": false
           }
         },
@@ -643,8 +643,8 @@
           "type": "feature",
           "settings": {
             "icon": "headset",
-            "title": "Advice from a tiling team",
-            "text": "<p>Not sure about quantities, layouts or what goes together? Call our licensed team on 0450 960 543.</p>",
+            "title": "Ask a tiler",
+            "text": "<p>Not sure how much to order, which layout to use or what goes together? Call us on 0450 960 543.</p>",
             "hide_mobile": false
           }
         }
@@ -874,7 +874,7 @@
         "ss-heading-2": {
           "type": "heading",
           "settings": {
-            "heading": "<h2>Buy with confidence</h2>",
+            "heading": "<h2>Warranty and returns</h2>",
             "heading_custom": false,
             "heading_font": "josefin_sans_n4",
             "heading_size": 32,
@@ -892,7 +892,7 @@
         "ss-text-3": {
           "type": "text",
           "settings": {
-            "text": "<p>Every product comes with the manufacturer's warranty and your rights under the Australian Consumer Law.</p>",
+            "text": "<p>Products come with the manufacturer's warranty, on top of your rights under the Australian Consumer Law.</p>",
             "text_custom": false,
             "text_font": "josefin_sans_n4",
             "text_size": 15,

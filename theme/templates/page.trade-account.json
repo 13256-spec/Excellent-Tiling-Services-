@@ -35,8 +35,8 @@
       ],
       "settings": {
         "eyebrow": "Trade accounts",
-        "heading": "Trade pricing for builders and trades.",
-        "intro": "Builders, tilers, plumbers and renovators get a further 5–25% off tiles, tools and bathroomware, set item by item. Apply once, log in, and the discount comes off in your cart."
+        "heading": "Trade accounts for builders and tradies.",
+        "intro": "Tilers, builders, plumbers and renovators buying for work get 5–25% off tiles, tools and bathroomware, depending on the item. Apply once, then log in and the discount comes off in your cart."
       }
     },
     "faq": {
@@ -60,7 +60,7 @@
           "type": "question",
           "settings": {
             "question": "Can I combine trade pricing with other offers?",
-            "answer": "<p>Trade pricing is our best price, so it doesn't stack with other discount codes. Free shipping on orders of $1,000 or more still applies.</p>"
+            "answer": "<p>Trade discounts can't be combined with other discount codes. Free shipping on orders of $1,000 or more still applies.</p>"
           }
         },
         "3": {

@@ -15,7 +15,7 @@
     </p>
   {%- else -%}
     <p class="ets ets-trade-note" style="margin:0">
-      <span>Builder or tradie? Trade accounts get 5–25% off, set item by item.</span>
+      <span>Builder or tradie? Trade accounts get 5–25% off, depending on the item.</span>
       <span>
         <a href="{{ settings.ets_trade_page.url | default: '/pages/trade-account' }}">Apply</a>
         {%- if customer == nil %} · <a href="{{ routes.account_login_url }}">Log in</a>{% endif -%}

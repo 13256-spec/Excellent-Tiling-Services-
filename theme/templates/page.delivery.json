@@ -63,7 +63,7 @@
       "type": "ets-steps",
       "settings": {
         "eyebrow": "How it works",
-        "heading": "Simple at <em>checkout</em>.",
+        "heading": "Choosing delivery or <em>pickup</em>.",
         "bg": "sand"
       },
       "blocks": {
@@ -107,7 +107,7 @@
       "type": "ets-faq",
       "settings": {
         "eyebrow": "Delivery FAQs",
-        "heading": "Good to <em>know</em>.",
+        "heading": "Common <em>questions</em>.",
         "text": "Need a delivery quote before ordering? Call or email the team.",
         "open_first": false,
         "bg": "white"

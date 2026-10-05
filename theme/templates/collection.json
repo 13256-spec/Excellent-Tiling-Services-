@@ -170,7 +170,7 @@
           "type": "item",
           "settings": {
             "icon": "price",
-            "text": "Trade pricing for builders & tilers",
+            "text": "Trade accounts for builders & tilers",
             "icon_color": "#9C7744",
             "text_color": "#15213A"
           }
