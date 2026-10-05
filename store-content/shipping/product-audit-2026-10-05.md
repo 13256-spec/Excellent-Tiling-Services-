@@ -43,3 +43,10 @@ ETS: $15 (under 1 kg) / $20 (1–3 kg) for small items anywhere in Australia, WA
 - **Bathroom City (MELA):** the public product feed (1,721 products, 936 MELA) has no weights (7 of 258 variants on the first page had any) and no carton sizes in the descriptions. Real MELA weights need the PDF Bathroom City sent the owner. It wasn't in the repo or Drive, and Gmail needed signing in again.
 - **Roberts Designs:** the public WooCommerce feed (276 products) has a weight field, but it's 0 or empty for every product and variation, and dimensions are blank. The only weights stated are in the text for the Baron mixers: E120 90 kg, F200 180 kg, F300 180 kg. E120 (was 85) and F300 (was 200) were corrected in Shopify and in `product-weights.csv`. Both are drafts and freight-only, so checkout isn't affected.
 - Every other Roberts and MELA weight stays an estimate from the product's size and material.
+
+## Bathroom City documents from the owner (5 Oct 2026, evening)
+Checked: `2025 MELA CATALOGUE (FINAL)`, `2026 NEW SILVER TRADE PRICE`, `Product Care and Warranty Procedure`, `Trade Returns Policy`, `MELA Care Guide`. **None has product weights or carton sizes.** The catalogue's text is font-obfuscated (each character shifted by 31) and decodes to names, codes, finishes and RRPs only. Product dimensions are drawings (images). MELA weights stay estimates. Ask the Bathroom City rep for a "product data sheet / logistics sheet" with carton dimensions and gross weights (most suppliers have one for freight).
+
+### MELA prices vs Bathroom City online (live feed, matched by SKU)
+- 330 active MELA variants matched. **279 are 5% cheaper than Bathroom City** (the playbook rule).
+- **51 are dearer.** Every one is on sale at Bathroom City (compare-at price set): gun-metal accessories, pull-out sink mixers, bath towel shelves, combination shower sets, NOOK/KORI/MIZO/CALLA baths, CALLA/PASSA toilets, MIA/ZOE gun-metal mirrors, MARCIE basin. All 51 are already at the public floor (cost × 1.1 × 1.25), and most of Bathroom City's sale prices are below our cost. Matching them would mean selling at a loss, so prices were not changed. Re-check when their sale ends.
