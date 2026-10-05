@@ -10,22 +10,22 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
 
 - `.claude/agents/ets-marketing.md` (brand, voice, hard rules) and `marketing/finish-it-right/README.md`.
 
-## Making graphics
+## Making graphics (v3 look, approved 6 Oct 2026)
 
-- Main tool: `marketing/finish-it-right/source/build.py`. Add an entry to the `posts` dict using the
-  helpers `a(col,row)`, `img(file,col,row,cls,caption,capcls)` and `LOGO(col,row)`, put photos in
-  `source/img/`, run `python3 build.py <name-prefix>`, look at `out/<name>.png`, then copy it next to the
-  other graphics. Feed 1080×1350 (4-column tile grid, 6 px grout). Names starting `S-` or `R-` render
-  1080×1920 for Stories and Reel covers.
-- Look: navy `#1F3153`, deep navy `#16243E`, tile blue `#4C8ED9`, porcelain `#F4F5F3`, grout `#C3C8CC`,
-  Archivo font, sentence case. No gradients, no all-caps labels, no ghost text, no decorative line art.
-  The owner rejected generic "AI template" designs, so keep it plain and disciplined.
-- Stories that auto-publish can't carry stickers: never write "vote below" or "tap the link" on them; use
-  "Reply with your pick" and "Shop via the link in our bio". Sticker Stories are for the owner to post by hand.
-- Product posts: use the product's own Shopify photos (carousel of 1–4), no graphic needed.
-- Canva: the free plan's AI generations are used up; copy and edit existing designs only. Check every
-  Canva export for typos in the web address and for any supplier name before using it.
-- Stock photos are fine for mood but never as ETS's own work (no fake before/afters or "our job" claims).
+- Tool: `marketing/finish-it-right/v2/source/build3.py <config.json> [name-prefix]` renders to `out3/`. Config is a
+  list of posts like `week1-v3.json`: `img` (file in `img/`), `pos` (object-position), `box` (where the text
+  sits: left/top/bottom/width in px), `head`, `sub`, `kicker`, optional `price`/`pre`, `card: true` (frosted
+  panel behind text for busy photos), `story: true` (1080×1920), `cutout: true` + `cutstyle` (product cut-outs on
+  warm #EFECE7, make the product big: 1000+ px), `pill` (button text, default "Shop now · link in bio").
+- The look: a full-bleed photo that fills the frame, text placed on the quiet part of the photo (plain wall,
+  ceiling, floor) in navy `#1F3153`, or on a frosted card when there's no quiet area; one navy pill button.
+  Archivo font, sentence case, no gradients, no boxes-and-grids layouts, no clutter. Stories keep text below
+  y=250 (Instagram's profile bar) and above y=1700.
+- Photos: the store's own photos for any post that names a product (price, model). For idea posts (tips,
+  showroom, delivery, trade, intro) use striking free photos from `marketing/image-library/` (ask
+  `ets-image-scout` for more). Free photos are fine across socials; just don't caption them as a specific job.
+- Look at every render before handing it over; fix text over busy areas, tiny products, cut-off words.
+- Old styles (`source/build.py` tile grid, `v2/source/build2.py` bottom strip) are retired.
 
 ## Captions
 

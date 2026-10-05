@@ -38,6 +38,13 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
    Stories: no `text`. Feed posts: Instagram needs at least one image; carousels up to 10.
 3. Record the returned id/uuid in a results file and commit it.
 
+## Links (what's possible)
+
+- Instagram feed posts can't have clickable links (platform rule); Facebook captions can, so keep the product
+  URL in the caption. Instagram Story link stickers can only be added in the Instagram app: to get one, post
+  that Story with `autoPublish: false` (Metricool sends the owner a phone notification, he adds the Link
+  sticker and shares). Only do this when the owner asks for it.
+
 ## Rules
 
 - Only schedule posts that `ets-copy-review` has passed (record its verdict next to the post).
