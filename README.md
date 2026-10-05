@@ -186,3 +186,16 @@ theme that should have gone live. Shopify can't restore a deleted theme, so it w
 - So the restored theme = the 4 Oct live sync + the 5 Oct product page cleanup. Anything changed only in the
   Shopify theme editor after those dates isn't in the repo and had to be redone by hand.
 - Publish it from Online Store → Themes after a preview. Then delete the old Menu fix theme, or keep it as a backup.
+
+## Mobile header fix (draft theme, 5 Oct 2026)
+
+Unpublished theme **"ETS 2026 – Mobile header fix (draft)"** (gid://shopify/OnlineStoreTheme/143802990655), a
+duplicate of the live "ETS 2026 – Shipping text fix (draft)" theme, with `sections/ets-header.liquid` and
+`assets/ets-menu.css` from this repo (checksums match). Phones and tablets only; desktop is unchanged:
+- Top bar (phones): the messages take turns full width (every 4.5 s), so "Australia-wide shipping from $20 · Free on
+  orders over $1,000" is no longer cut off at "Fre". A long message wraps to two lines on small phones.
+- The phone number moves from the top bar into the header as a call icon (next to account and cart).
+- The header slides away while scrolling down and comes back on any scroll up, so it no longer covers about
+  a seventh of the screen. It stays put while the menu is open or the search box is in use. Solid background on phones.
+- Phones narrower than 375 px: smaller logo, and the account icon moves into the menu drawer ("Log in (trade & retail)").
+- Publish it from Online Store → Themes after a preview on a phone.

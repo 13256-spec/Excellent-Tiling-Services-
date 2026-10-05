@@ -19,10 +19,12 @@
   {%- if section.settings.show_topbar -%}
     <div class="ets-topbar">
       <div class="ets-wrap">
-        <p class="ets-topbar__msg" style="margin:0">
-          {%- if section.settings.msg_1 != blank -%}<span>{{ section.settings.msg_1 | escape }}</span>{%- endif -%}
-          {%- if section.settings.msg_2 != blank -%}<span>{{ section.settings.msg_2 | escape }}</span>{%- endif -%}
-          {%- if section.settings.msg_3 != blank -%}<span>{{ section.settings.msg_3 | escape }}</span>{%- endif -%}
+        {%- comment -%} On phones the messages take turns (script below); the first one shows until then. {%- endcomment -%}
+        <p class="ets-topbar__msg" style="margin:0" data-ets-topbar-msg>
+          {%- assign msg_on = ' class="is-on"' -%}
+          {%- if section.settings.msg_1 != blank -%}<span{{ msg_on }}>{{ section.settings.msg_1 | escape }}</span>{%- assign msg_on = '' -%}{%- endif -%}
+          {%- if section.settings.msg_2 != blank -%}<span{{ msg_on }}>{{ section.settings.msg_2 | escape }}</span>{%- assign msg_on = '' -%}{%- endif -%}
+          {%- if section.settings.msg_3 != blank -%}<span{{ msg_on }}>{{ section.settings.msg_3 | escape }}</span>{%- endif -%}
         </p>
         <div class="ets-topbar__right">
           {%- if trade_page != blank and is_trade == false -%}<a class="ets-topbar__trade" href="{{ trade_page.url }}">Trade account →</a>{%- endif -%}
@@ -34,7 +36,7 @@
 
   <header class="ets-hdr" data-ets-hdr>
     <div class="ets-wrap ets-hdr__bar">
-      <div style="display:flex;align-items:center;gap:6px">
+      <div class="ets-hdr__brand">
         <button class="ets-tool ets-burger" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="EtsDrawer" data-ets-drawer-open>
           <span class="ets-burger__lines" aria-hidden="true"><i></i><i></i><i></i></span>
         </button>
@@ -56,11 +58,11 @@
       </form>
 
       <div class="ets-tools">
-        <a class="ets-tool ets-tool--hide-sm" href="tel:{{ phone_link }}" aria-label="Call {{ phone }}">
+        <a class="ets-tool ets-tool--hide-sm ets-tool--call" href="tel:{{ phone_link }}" aria-label="Call {{ phone }}">
           {% render 'ets-icon', name: 'phone' %}<span class="ets-tool__label"><small>Call the team</small>{{ phone }}</span>
         </a>
         {%- if shop.customer_accounts_enabled -%}
-          <a class="ets-tool" href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" aria-label="{% if customer %}Your account{% else %}Log in{% endif %}">
+          <a class="ets-tool ets-tool--account" href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" aria-label="{% if customer %}Your account{% else %}Log in{% endif %}">
             {% render 'ets-icon', name: 'user' %}
             <span class="ets-tool__label">
               {%- if is_trade -%}<small><span class="ets-trade-chip">Trade</span></small>{{ customer.first_name | default: 'Account' | escape }}
@@ -166,6 +168,48 @@
       })();
     </script>
   {%- endunless -%}
+  <script>
+    /* Phones: the top bar shows one message at a time, and the header slides away while
+       scrolling down the page and comes back as soon as the shopper scrolls up. */
+    (function () {
+      var root = document.currentScript.closest('[data-ets-header]');
+      var group = document.getElementById('header-group');
+      var phone = window.matchMedia('(max-width: 600px)');
+      var small = window.matchMedia('(max-width: 989px)');
+      var still = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+      var msgs = root.querySelectorAll('[data-ets-topbar-msg] > span');
+      if (msgs.length > 1 && !still.matches) {
+        var i = 0;
+        setInterval(function () {
+          if (!phone.matches || document.hidden) return;
+          msgs[i].classList.remove('is-on');
+          i = (i + 1) % msgs.length;
+          msgs[i].classList.add('is-on');
+        }, 4500);
+      }
+
+      if (!group || !group.contains(root)) return;
+      var lastY = window.scrollY;
+      var queued = false;
+      function busy() {
+        var a = document.activeElement;
+        return root.querySelector('.ets-drawer.is-open') || (a && root.contains(a) && a.tagName === 'INPUT');
+      }
+      function update() {
+        queued = false;
+        var y = Math.max(0, window.scrollY);
+        var dy = y - lastY;
+        if (y > group.offsetHeight + 120 && Math.abs(dy) < 8) return;
+        group.classList.toggle('ets-hdr-away', small.matches && dy > 0 && y > group.offsetHeight + 120 && !busy());
+        lastY = y;
+      }
+      window.addEventListener('scroll', function () {
+        if (!queued) { queued = true; window.requestAnimationFrame(update); }
+      }, { passive: true });
+      small.addEventListener('change', update);
+    })();
+  </script>
   <div class="ets-scrim" data-ets-scrim></div>
 
   <div class="ets-drawer" id="EtsDrawer" data-ets-drawer aria-hidden="true">
@@ -210,6 +254,9 @@
           <a href="tel:{{ phone_link }}">{{ phone }}</a><br>
           {% render 'ets-address-link' %}<br>
           <span class="ets-small">{{ settings.ets_hours | escape }}</span>
+          {%- if shop.customer_accounts_enabled -%}
+            <br><a href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}">{% if customer %}Your account{% else %}Log in (trade &amp; retail){% endif %}</a>
+          {%- endif -%}
         </div>
       </div>
     </div>
