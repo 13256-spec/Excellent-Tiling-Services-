@@ -39,8 +39,7 @@ Its rules can only be changed inside the app (Shopify admin → Apps → Shipx).
   SKUs and let 800 / 900 mm use the Australia Post rule:
   RDXD1075 RDXD1052 RDXD1076 RDXD1053 RDXD1071 RDXD1057 RDXD1072 RDXD1058 RDXD1091 RDXD1087 RDXD1092 RDXD1088
   RDXD1095 RDXD1067 RDXD1063 RDXD1068 RDXD1064 RDXD1098 RDXD1083 RDXD1079 RDXD1099 RDXD1084 RDXD1080
-- Overseas: FedEx International can take the `ship-fedex` parcels if you want to offer it; `ship-fedex-freight`
-  items stay Australia only.
+- Overseas: see rule 5 (FedEx International for everything that can go overseas).
 
 **2. (removed — long and freight items are both covered by the FedEx rule above)**
 
@@ -65,7 +64,11 @@ If Shipx can use live Australia Post prices with product dimensions, use those i
 `shipping.box_size` metafield. Otherwise add a surcharge for `ship-bulky` (about +$15), because Australia Post charges these
 by box size (the 20 L bucket is charged as about 12 kg and the SIRI Eco Roller bucket as about 26 kg).
 
-**5. Parcels overseas** — condition: product tag is `ship-parcel` and NOT `ship-dangerous-goods`, by cart weight, up to 10 kg
+**5. Overseas (NZ, US, UK, UAE): FedEx International only** (owner, 6 Oct 2026)
+- Condition: country is not Australia. Hide **all** Australia Post rates (Parcel Post, Express, MyPost International).
+- Only FedEx International. Best: live FedEx rates from your FedEx account, using item weight and the
+  `shipping.box_size` metafield. If Shipx can't do live FedEx, use this fixed table (your 5 Oct overseas prices) and
+  check it against your first real FedEx invoices:
 
 | Cart weight | New Zealand | US, UK, UAE |
 | --- | --- | --- |
@@ -76,12 +79,15 @@ by box size (the 20 L bucket is charged as about 12 kg and the SIRI Eco Roller b
 | 5 to 6.99 kg | $85 | $149 |
 | 7 to 10 kg | $109 | $189 |
 
-Over 10 kg: no rate (contact the shop).
+- Over 10 kg: live FedEx rate, or "contact us for a quote".
+- No overseas rate for `ship-dangerous-goods` (primers can't fly) or `ship-fedex-freight` (3 m trims, Baron mixers,
+  Sigma tables, Kera Cut / Lift).
+- Customs: FedEx needs a commercial invoice (item description, value, HS code) on every overseas shipment.
 
 ## After saving the rules — test these carts (Sydney 2000, Darwin 0800, Perth 6109, Auckland)
 | Cart | Should show |
 | --- | --- |
-| Smoothtex A 250 ml (0.35 kg) | AU $15; NZ $29; US/UK/UAE $45 |
+| Smoothtex A 250 ml (0.35 kg) | AU $15 (Australia Post); NZ and US/UK/UAE: FedEx only, no Australia Post option |
 | Maxisil grout 10 kg | AU $59 (WA too); no overseas rate |
 | Sigma measuring bar (1.5 kg) | AU $20 |
 | L Shape Aluminium Trim 3 m | FedEx freight (or quote), Perth delivery, pickup — no Australia Post |

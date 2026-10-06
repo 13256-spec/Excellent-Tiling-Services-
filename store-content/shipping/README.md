@@ -212,3 +212,8 @@ Every item over Australia Post's limits (105 cm or 22 kg) now goes by FedEx. Fed
 FedEx freight, not a FedEx parcel. `roberts-shipping-2026-10-06.csv` has a `carrier` column: Australia Post 545 variants,
 FedEx parcel 39, FedEx freight 341 (mostly 3 m trim colours/sizes). Products are tagged `ship-fedex` (44) and
 `ship-fedex-freight` (26); `SHIPX-SETUP.md` rule 1 covers them.
+
+### Overseas = FedEx International only (owner, 6 Oct 2026)
+NZ, US, UK and UAE orders go by FedEx International, not Australia Post. The 5 Oct overseas price table stays as the
+fixed fallback in Shipx (rule 5 in `SHIPX-SETUP.md`); live FedEx rates are better if Shipx can connect the FedEx account.
+Australia Post stays for domestic parcels. Dangerous goods and FedEx-freight items have no overseas rate.

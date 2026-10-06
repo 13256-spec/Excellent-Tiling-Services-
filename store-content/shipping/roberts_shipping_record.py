@@ -19,7 +19,8 @@ Shipping columns:
     or FedEx freight (bigger: 3 m trims, Baron mixers, Sigma tables, Kera Cut / Lift).
 - est_ship_au: the owner's Australia-wide small-item prices (5 Oct 2026) applied to
   chargeable_kg, for one item on its own.
-- international: small parcels only (chargeable up to 10 kg), not dangerous goods.
+- international: by FedEx International only (owner, 6 Oct 2026). Yes if it fits a FedEx parcel
+  and isn't dangerous goods; the fixed price table covers up to 10 kg, heavier is a FedEx quote.
 """
 import csv
 import os
@@ -232,7 +233,7 @@ def main():
             'cubic_kg': f'{cubic:.1f}', 'chargeable_kg': f'{charge:.1f}', 'ship_method': method,
             'carrier': carrier,
             'est_ship_au': f'${price}' if price else f'{carrier} rate (or Perth delivery / pickup)',
-            'international': 'yes' if method == 'parcel' and charge <= 10 and not dg else 'no',
+            'international': 'no' if dg or carrier == 'FedEx freight' else ('FedEx' if charge <= 10 else 'FedEx quote'),
             'dangerous_goods': 'yes (road only, no air or overseas)' if dg else '',
             'basis': r['basis'], 'note': r['note'], 'variant_id': r['variant_id'],
             'inventory_item_id': r['inventory_item_id'],
