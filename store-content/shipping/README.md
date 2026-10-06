@@ -205,3 +205,10 @@ test confirms the Shipx rates.
 Shipx returns the same price to every state, nothing for grout 5–10 kg (even in Perth), and only Perth delivery for
 some light parcels. Its rules are set inside the Shipx app (not reachable through the Shopify API). Testing stopped
 when the site's bot check kicked in.
+
+### FedEx for anything Australia Post can't take (owner, 6 Oct 2026)
+Every item over Australia Post's limits (105 cm or 22 kg) now goes by FedEx. FedEx's own parcel limit is 68 kg,
+274 cm long and 330 cm length + girth (FedEx AU service guide), so the 3 m trims (305 cm box) and the big machines need
+FedEx freight, not a FedEx parcel. `roberts-shipping-2026-10-06.csv` has a `carrier` column: Australia Post 545 variants,
+FedEx parcel 39, FedEx freight 341 (mostly 3 m trim colours/sizes). Products are tagged `ship-fedex` (44) and
+`ship-fedex-freight` (26); `SHIPX-SETUP.md` rule 1 covers them.
