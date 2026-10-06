@@ -55,7 +55,7 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
 - Before a post goes out, prices must match the live store. Each Monday, re-check that week's queued
   prices against Shopify; if one changed, update the post text with `updateScheduledPost` and say so.
 - Never name the tile supplier (Eternity) in text, alt text, file names or images. MELA can be named.
-- Shipping (re-check the live Delivery page and shipping policy before quoting; it changed several times in Oct 2026). As of 5 Oct night: tapware and accessories ship Australia-wide, priced by weight at checkout; basins and mirrors go by Australia Post from $25; free shipping only on orders of $1,000+ (not Perth local delivery); tiles, vanities, baths and toilets are Perth metro delivery or free pickup in Maddington. Never write "free shipping over $100" or "free shipping" without the $1,000 condition.
+- Shipping (owner, 6 Oct 2026: "we do global now, no more restriction to Perth only"). Checkout uses one Shipx setup covering Australia, New Zealand, the US, the UK and the UAE for all products. Don't write "Perth only" or "Perth metro delivery" as a limit. Until a real checkout test confirms prices, say "We deliver, or pick up free in Maddington. Shipping options show at checkout." and don't quote shipping prices or free-shipping thresholds. Tiling installation and the free measure and quote are still Perth metro services. Re-check the live Delivery page and checkout before quoting anything more specific.
 
 - Never pay for boosts or ads. Never delete scheduled posts without the owner naming them.
 - After any change in Metricool (new, moved, re-designed or re-captioned posts), hand the list to the

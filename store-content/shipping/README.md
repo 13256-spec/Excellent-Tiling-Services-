@@ -173,3 +173,10 @@ nothing ships interstate, and Perth local delivery shows $54 / $128 (the policy 
 within 50 km). Carrier rates may need a full street address; the site's bot check then blocked further tests,
 so re-test a real checkout with a full address once Shipx rules are set. Until rates show, social posts only
 promise free pickup in Maddington and "delivery options at checkout".
+
+## Owner: "we do global now" (6 Oct 2026)
+Live delivery settings now: one General profile, zone "Global" (AU, NZ, US, GB, AE), only rate = Shipx app, for all
+products including tiles. Still out of date on the live site: header bar and FAQs ("Tiles are Perth metro only"),
+Delivery & Pickup page ("Tiles are not shipped outside Perth"), shipping policy ("We do not ship internationally",
+"free over $100"). Social posts now avoid Perth-only wording and quote no shipping prices until a real checkout
+test confirms the Shipx rates.
