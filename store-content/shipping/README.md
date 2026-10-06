@@ -274,3 +274,28 @@ acid Melbourne $20 road, 5.8 kg Darwin $39, $1,257 cart free (+ $20 option), Auc
 3 m trim and acid-to-NZ get no shipping rate (pickup / local delivery only). Local delivery ($130 / $180 zones) is a
 Shopify location setting the API can't read; the owner should confirm it's on.
 The ShipX carrier rate was removed from the General profile.
+
+## New overseas prices and freight quotes (6 Oct 2026)
+Overseas rates were below Australia Post's retail cost (1 Sep 2026 guide; UAE is Zone 5 "Rest of World").
+New rates = retail Standard International + about $5 packaging, up to 20 kg, one zone per country:
+
+| Up to | NZ | US | UK | UAE |
+| --- | --- | --- | --- | --- |
+| 1 kg | 34 | 49 | 54 | 69 |
+| 2 kg | 49 | 79 | 84 | 104 |
+| 3 kg | 59 | 94 | 104 | 129 |
+| 5 kg | 79 | 124 | 139 | 179 |
+| 7 kg | 99 | 159 | 174 | 229 |
+| 10 kg | 129 | 204 | 229 | 299 |
+| 15 kg | 184 | 284 | 319 | 419 |
+| 20 kg | 234 | 364 | 409 | 539 |
+
+"Freight quote - we'll email you the delivery price" ($0) added for: Australia over 100 kg, overseas over 20 kg, and
+the whole Perth-only profile (Australia zone, "outside Perth metro"). Dangerous goods and Perth-only items still
+can't go overseas. Tested: UK 1 mixer $84, 10 mixers $319, 15 mixers quote; NZ $49; US $79; UAE $104; tile to
+Sydney quote; tile + spacers to Sydney one combined "Shipping $15".
+
+### Charging a freight quote (owner)
+1. Order comes in with "Freight quote". Book/price the freight.
+2. Orders → open the order → Edit → Add custom item "Freight" with the price → Update order → Send invoice.
+3. Dispatch once the invoice is paid. If the customer declines: More actions → Cancel order → refund in full.
