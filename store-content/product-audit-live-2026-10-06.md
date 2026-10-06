@@ -360,3 +360,5 @@ No problems found: $0 prices, compare-at prices, duplicate titles, duplicate SKU
 - 201 products with any issue set to DRAFT for owner review: `drafted-for-review-2026-10-06.txt`.
 - 164 fixed products set back to ACTIVE (6 Oct). 37 stay draft: 23 no cost only, 13 no image + no cost, DAVISSON (0 stock).
 - Estimated costs for 79 MELA variants not on Bathroom City's site: price × (1 − Silver discount) ÷ 1.1, tag cost-estimated. List: pricing/mela-estimated-costs-2026-10-06.csv
+- Deleted 13 MELA drafts with no photo (none on Bathroom City or the web): BRUNO Wall Mixer with Diverter, Bath Pop Up Waste, Corrugated and PVC shower hoses, FLOVA and PALCO/RONDO ABS and Brass shower heads, MELVA and RORY basins, MORRIS door handle, TRITON 310 sink, VINA LED mirror. Full backup (descriptions, SKUs, prices, costs, weights): deleted-no-photo-2026-10-06.json
+- Every live product has at least one photo. 17 older drafts (Roberts turbo blade, Baron spare parts, Sigma parts) still have none.

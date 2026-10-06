@@ -1,0 +1,1811 @@
+[
+ {
+  "id": "gid://shopify/Product/8382638161983",
+  "title": "MELA BRUNO Wall Mixer with Diverter",
+  "handle": "mela-bruno-wall-mixer-with-diverter",
+  "vendor": "MELA",
+  "productType": "Wall Mixer with Diverter",
+  "tags": [
+   "BRUNO",
+   "cost-estimated",
+   "Diverter",
+   "MELA",
+   "ship-parcel",
+   "Tapware",
+   "trade-5",
+   "Wall Mixer"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA BRUNO Wall Mixer with Diverter.</p><ul><li>Cartridge: 35mm</li></ul><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Brushed Nickel",
+     "Gun Metal",
+     "Brushed Brass",
+     "Brushed Copper"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Brushed Nickel",
+     "sku": "BRU.WMD.001.BN",
+     "price": "319.00",
+     "compareAtPrice": null,
+     "barcode": "BRU.WMD.001.BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "174.0"
+      },
+      "measurement": {
+       "weight": {
+        "value": 1.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    },
+    {
+     "title": "Gun Metal",
+     "sku": "BRU.WMD.001.GM",
+     "price": "349.00",
+     "compareAtPrice": null,
+     "barcode": "BRU.WMD.001.GM",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "190.36"
+      },
+      "measurement": {
+       "weight": {
+        "value": 1.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Gun Metal"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Brass",
+     "sku": "BRU.WMD.001.BB",
+     "price": "379.00",
+     "compareAtPrice": null,
+     "barcode": "BRU.WMD.001.BB",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "206.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 1.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Brass"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Copper",
+     "sku": "BRU.WMD.001.BC",
+     "price": "379.00",
+     "compareAtPrice": null,
+     "barcode": "BRU.WMD.001.BC",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "206.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 1.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Copper"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382639898687",
+  "title": "MELA Bath Pop Up Waste Universal",
+  "handle": "mela-bath-pop-up-waste-universal",
+  "vendor": "MELA",
+  "productType": "Bath Waste",
+  "tags": [
+   "Accessories",
+   "Bath Waste",
+   "Bathroom Waste",
+   "cost-estimated",
+   "MELA",
+   "Pop Up Waste",
+   "ship-parcel",
+   "trade-5"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA Bath Pop Up Waste Universal.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel",
+     "Gun Metal",
+     "Brushed Brass",
+     "Brushed Copper"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "Bath Waste Pop Up CH",
+     "price": "45.00",
+     "compareAtPrice": null,
+     "barcode": "Bath Waste Pop Up CH",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "24.55"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "Bath Waste Pop Up BK",
+     "price": "60.00",
+     "compareAtPrice": null,
+     "barcode": "Bath Waste Pop Up BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "Bath Waste Pop Up BN",
+     "price": "70.00",
+     "compareAtPrice": null,
+     "barcode": "Bath Waste Pop Up BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "38.18"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    },
+    {
+     "title": "Gun Metal",
+     "sku": "Bath Waste Pop Up GM",
+     "price": "75.00",
+     "compareAtPrice": null,
+     "barcode": "Bath Waste Pop Up GM",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "40.91"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Gun Metal"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Brass",
+     "sku": "Bath Waste Pop Up BB",
+     "price": "75.00",
+     "compareAtPrice": null,
+     "barcode": "Bath Waste Pop Up BB",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "40.91"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Brass"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Copper",
+     "sku": "Bath Waste Pop Up BG",
+     "price": "75.00",
+     "compareAtPrice": null,
+     "barcode": "Bath Waste Pop Up BG",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "40.91"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Copper"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382641799231",
+  "title": "MELA Corrugated Flexible Shower Hose",
+  "handle": "mela-corrugated-flexible-shower-hose",
+  "vendor": "MELA",
+  "productType": "Shower Hose",
+  "tags": [
+   "cost-estimated",
+   "Flexible Hose",
+   "MELA",
+   "ship-parcel",
+   "Shower Hose",
+   "Shower Tapware",
+   "Tapware",
+   "trade-5"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA corrugated flexible shower hose.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel",
+     "Gun Metal",
+     "Brushed Brass",
+     "Brushed Copper"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "FLEXIBLE HOSE",
+     "price": "25.00",
+     "compareAtPrice": null,
+     "barcode": "FLEXIBLE HOSE",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "13.64"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "FLEXIBLE HOSE.BK",
+     "price": "50.00",
+     "compareAtPrice": null,
+     "barcode": "FLEXIBLE HOSE.BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "27.27"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "FLEXIBLE HOSE.BN",
+     "price": "50.00",
+     "compareAtPrice": null,
+     "barcode": "FLEXIBLE HOSE.BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "27.27"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    },
+    {
+     "title": "Gun Metal",
+     "sku": "FLEXIBLE HOSE.GM",
+     "price": "60.00",
+     "compareAtPrice": null,
+     "barcode": "FLEXIBLE HOSE.GM",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Gun Metal"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Brass",
+     "sku": "FLEXIBLE HOSE.BB",
+     "price": "60.00",
+     "compareAtPrice": null,
+     "barcode": "FLEXIBLE HOSE.BB",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Brass"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Copper",
+     "sku": "FLEXIBLE HOSE.BC",
+     "price": "60.00",
+     "compareAtPrice": null,
+     "barcode": "FLEXIBLE HOSE.BC",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Copper"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382641602623",
+  "title": "MELA FLOVA ABS Shower Head",
+  "handle": "mela-flova-abs-shower-head",
+  "vendor": "MELA",
+  "productType": "Hand Shower",
+  "tags": [
+   "ABS Shower Head",
+   "cost-estimated",
+   "FLOVA",
+   "Hand Shower",
+   "MELA",
+   "ship-parcel",
+   "Shower Tapware",
+   "Tapware",
+   "trade-5",
+   "WELS 3 Star"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA FLOVA ABS Shower Head.</p><ul>\n<li>WELS 3 Star</li>\n<li>Flow rate: 9 L/min</li>\n<li>WELS registration: S15179</li>\n<li>Available in Chrome, Matt Black and Brushed Nickel</li>\n</ul>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "FLO.HS.ABS.001",
+     "price": "49.00",
+     "compareAtPrice": null,
+     "barcode": "FLO.HS.ABS.001",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "26.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "FLO.HS.ABS.001.BK",
+     "price": "59.00",
+     "compareAtPrice": null,
+     "barcode": "FLO.HS.ABS.001.BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.18"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "FLO.HS.ABS.001.BN",
+     "price": "69.00",
+     "compareAtPrice": null,
+     "barcode": "FLO.HS.ABS.001.BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "37.64"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382641635391",
+  "title": "MELA FLOVA Brass Shower Head",
+  "handle": "mela-flova-brass-shower-head",
+  "vendor": "MELA",
+  "productType": "Hand Shower",
+  "tags": [
+   "Brass Shower Head",
+   "cost-estimated",
+   "FLOVA",
+   "Hand Shower",
+   "MELA",
+   "ship-parcel",
+   "Shower Tapware",
+   "Tapware",
+   "trade-5",
+   "WELS 3 Star"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA FLOVA Brass Shower Head.</p><ul>\n<li>WELS 3 Star</li>\n<li>Flow rate: 9 L/min</li>\n<li>WELS registration: S14289</li>\n<li>Available in Chrome, Matt Black and Brushed Nickel</li>\n</ul>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "FLO.HS.BH.001",
+     "price": "49.00",
+     "compareAtPrice": null,
+     "barcode": "FLO.HS.BH.001",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "26.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "FLO.HS.BH.001.BK",
+     "price": "59.00",
+     "compareAtPrice": null,
+     "barcode": "FLO.HS.BH.001.BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.18"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "FLO.HS.BH.001.BN",
+     "price": "69.00",
+     "compareAtPrice": null,
+     "barcode": "FLO.HS.BH.001.BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "37.64"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382664605759",
+  "title": "MELA MELVA Half Inset Basin",
+  "handle": "mela-melva-half-inset-basin",
+  "vendor": "MELA",
+  "productType": "Half Inset Basin",
+  "tags": [
+   "Basin",
+   "Ceramic",
+   "cost-estimated",
+   "Half Inset Basin",
+   "MELA",
+   "MELVA",
+   "ship-bulky",
+   "ship-parcel",
+   "trade-5",
+   "White"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA MELVA half inset basin.</p><ul>\n<li>Model: MELVA.HALF</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 355(W) x 355(D) x 120(H) mm</li>\n</ul>",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Default",
+     "sku": "MELVA.HALF",
+     "price": "199.00",
+     "compareAtPrice": null,
+     "barcode": "MELVA.HALF",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "126.64"
+      },
+      "measurement": {
+       "weight": {
+        "value": 6.93,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Title",
+       "value": "Default"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382641897535",
+  "title": "MELA MORRIS Shower Door Handle",
+  "handle": "mela-morris-shower-door-handle",
+  "vendor": "MELA",
+  "productType": "Shower Screen Fitting",
+  "tags": [
+   "Accessories",
+   "cost-estimated",
+   "Fittings",
+   "MELA",
+   "MORRIS",
+   "ship-parcel",
+   "Shower Door Handle",
+   "Shower Screen",
+   "trade-5"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA MORRIS Shower Door Handle.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel",
+     "Gun Metal",
+     "Brushed Brass",
+     "Brushed Copper"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "MORRIS.HANDLE.001CH",
+     "price": "30.00",
+     "compareAtPrice": null,
+     "barcode": "MORRIS.HANDLE.001CH",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "16.36"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.6,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "MORRIS.HANDLE.001BK",
+     "price": "45.00",
+     "compareAtPrice": null,
+     "barcode": "MORRIS.HANDLE.001BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "24.55"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.6,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "MORRIS.HANDLE.001BN",
+     "price": "55.00",
+     "compareAtPrice": null,
+     "barcode": "MORRIS.HANDLE.001BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "30.0"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.6,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    },
+    {
+     "title": "Gun Metal",
+     "sku": "MORRIS.HANDLE.001GM",
+     "price": "65.00",
+     "compareAtPrice": null,
+     "barcode": "MORRIS.HANDLE.001GM",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "35.45"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.6,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Gun Metal"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Brass",
+     "sku": "MORRIS.HANDLE.001BB",
+     "price": "65.00",
+     "compareAtPrice": null,
+     "barcode": "MORRIS.HANDLE.001BB",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "35.45"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.6,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Brass"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Copper",
+     "sku": "MORRIS.HANDLE.001BC",
+     "price": "65.00",
+     "compareAtPrice": null,
+     "barcode": "MORRIS.HANDLE.001BC",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "35.45"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.6,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Copper"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382641668159",
+  "title": "MELA PALCO / RONDO ABS Shower Head",
+  "handle": "mela-palco-rondo-abs-shower-head",
+  "vendor": "MELA",
+  "productType": "Hand Shower",
+  "tags": [
+   "ABS Shower Head",
+   "cost-estimated",
+   "Hand Shower",
+   "MELA",
+   "PALCO",
+   "RONDO",
+   "ship-parcel",
+   "Shower Tapware",
+   "Tapware",
+   "trade-5",
+   "WELS 4 Star"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA PALCO / RONDO ABS Shower Head.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>WELS registration: S17450</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel",
+     "Gun Metal",
+     "Brushed Brass",
+     "Brushed Copper"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "PAL.HS.ABS.001",
+     "price": "49.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.ABS.001",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "26.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "PAL.HS.ABS.001.BK",
+     "price": "59.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.ABS.001.BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.18"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "PAL.HS.ABS.001.BN",
+     "price": "69.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.ABS.001.BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "37.64"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    },
+    {
+     "title": "Gun Metal",
+     "sku": "PAL.HS.ABS.001.GM",
+     "price": "79.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.ABS.001.GM",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "43.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Gun Metal"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Brass",
+     "sku": "PAL.HS.ABS.001.BB",
+     "price": "79.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.ABS.001.BB",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "43.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Brass"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Copper",
+     "sku": "PAL.HS.ABS.001.BC",
+     "price": "79.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.ABS.001.BC",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "43.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Copper"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382641700927",
+  "title": "MELA PALCO / RONDO Brass Shower Head",
+  "handle": "mela-palco-rondo-brass-shower-head",
+  "vendor": "MELA",
+  "productType": "Hand Shower",
+  "tags": [
+   "Brass Shower Head",
+   "cost-estimated",
+   "Hand Shower",
+   "MELA",
+   "PALCO",
+   "RONDO",
+   "ship-parcel",
+   "Shower Tapware",
+   "Tapware",
+   "trade-5",
+   "WELS 3 Star"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA PALCO / RONDO Brass Shower Head.</p><ul>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S14290</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel",
+     "Gun Metal",
+     "Brushed Brass",
+     "Brushed Copper"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "PAL.HS.BH.001",
+     "price": "49.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.BH.001",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "26.73"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "PAL.HS.BH.001.BK",
+     "price": "59.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.BH.001.BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "32.18"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "PAL.HS.BH.001.BN",
+     "price": "69.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.BH.001.BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "37.64"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    },
+    {
+     "title": "Gun Metal",
+     "sku": "PAL.HS.BH.001.GM",
+     "price": "79.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.BH.001.GM",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "43.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Gun Metal"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Brass",
+     "sku": "PAL.HS.BH.001.BB",
+     "price": "79.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.BH.001.BB",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "43.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Brass"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Copper",
+     "sku": "PAL.HS.BH.001.BC",
+     "price": "79.00",
+     "compareAtPrice": null,
+     "barcode": "PAL.HS.BH.001.BC",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "43.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.5,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Copper"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382641831999",
+  "title": "MELA PVC Shower Hose",
+  "handle": "mela-pvc-shower-hose",
+  "vendor": "MELA",
+  "productType": "Shower Hose",
+  "tags": [
+   "cost-estimated",
+   "MELA",
+   "PVC Hose",
+   "ship-parcel",
+   "Shower Hose",
+   "Shower Tapware",
+   "Tapware",
+   "trade-5"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA PVC shower hose.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "options": [
+   {
+    "name": "Colour",
+    "values": [
+     "Chrome",
+     "Matt Black",
+     "Brushed Nickel",
+     "Gun Metal",
+     "Brushed Brass",
+     "Brushed Copper"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Chrome",
+     "sku": "PVC SHOWER HOSE",
+     "price": "35.00",
+     "compareAtPrice": null,
+     "barcode": "PVC SHOWER HOSE",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "19.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Chrome"
+      }
+     ]
+    },
+    {
+     "title": "Matt Black",
+     "sku": "PVC SHOWER HOSE.BK",
+     "price": "50.00",
+     "compareAtPrice": null,
+     "barcode": "PVC SHOWER HOSE.BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "27.27"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Matt Black"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Nickel",
+     "sku": "PVC SHOWER HOSE.BN",
+     "price": "50.00",
+     "compareAtPrice": null,
+     "barcode": "PVC SHOWER HOSE.BN",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "27.27"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Nickel"
+      }
+     ]
+    },
+    {
+     "title": "Gun Metal",
+     "sku": "PVC SHOWER HOSE.GM",
+     "price": "65.00",
+     "compareAtPrice": null,
+     "barcode": "PVC SHOWER HOSE.GM",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "35.45"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Gun Metal"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Brass",
+     "sku": "PVC SHOWER HOSE.BB",
+     "price": "65.00",
+     "compareAtPrice": null,
+     "barcode": "PVC SHOWER HOSE.BB",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "35.45"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Brass"
+      }
+     ]
+    },
+    {
+     "title": "Brushed Copper",
+     "sku": "PVC SHOWER HOSE.BC",
+     "price": "65.00",
+     "compareAtPrice": null,
+     "barcode": "PVC SHOWER HOSE.BC",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "35.45"
+      },
+      "measurement": {
+       "weight": {
+        "value": 0.4,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Colour",
+       "value": "Brushed Copper"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382664409151",
+  "title": "MELA RORY Above Counter Basin",
+  "handle": "mela-rory-above-counter-basin",
+  "vendor": "MELA",
+  "productType": "Above Counter Basin",
+  "tags": [
+   "Above Counter Basin",
+   "Basin",
+   "Ceramic",
+   "cost-estimated",
+   "MELA",
+   "RORY",
+   "ship-bulky",
+   "ship-parcel",
+   "trade-5",
+   "White"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA RORY above counter basin.</p><ul>\n<li>Model: RORY.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 360(W) x 360(D) x 115(H) mm</li>\n</ul>",
+  "options": [
+   {
+    "name": "Title",
+    "values": [
+     "Default"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Default",
+     "sku": "RORY.ABOVE",
+     "price": "299.00",
+     "compareAtPrice": null,
+     "barcode": "RORY.ABOVE",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "190.27"
+      },
+      "measurement": {
+       "weight": {
+        "value": 7.13,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Title",
+       "value": "Default"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382640717887",
+  "title": "MELA TRITON 310 Single Sink",
+  "handle": "mela-triton-310-single-sink",
+  "vendor": "MELA",
+  "productType": "Kitchen Sink",
+  "tags": [
+   "cost-estimated",
+   "Handmade",
+   "Kitchen Sink",
+   "MELA",
+   "ship-bulky",
+   "ship-parcel",
+   "Single Bowl",
+   "Sink",
+   "Stainless Steel",
+   "trade-5",
+   "TRITON"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>The MELA TRITON 310 is a handmade single-bowl stainless steel kitchen sink, suited to kitchen renovations and new builds.</p><ul>\n<li>\n<strong>Range:</strong> MELA TRITON</li>\n<li>\n<strong>Bowl:</strong> Single</li>\n<li>\n<strong>Material:</strong> Stainless steel</li>\n<li>\n<strong>Construction:</strong> Handmade</li>\n<li>\n<strong>Finishes available:</strong> Stainless Steel, Black</li>\n</ul>",
+  "options": [
+   {
+    "name": "Finish",
+    "values": [
+     "Stainless Steel",
+     "Black"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "Stainless Steel",
+     "sku": "TRITON.310S",
+     "price": "299.00",
+     "compareAtPrice": null,
+     "barcode": "TRITON.310S",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "163.09"
+      },
+      "measurement": {
+       "weight": {
+        "value": 6.79,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Finish",
+       "value": "Stainless Steel"
+      }
+     ]
+    },
+    {
+     "title": "Black",
+     "sku": "TRITON.310S.BK",
+     "price": "399.00",
+     "compareAtPrice": null,
+     "barcode": "TRITON.310S.BK",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "217.64"
+      },
+      "measurement": {
+       "weight": {
+        "value": 6.79,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Finish",
+       "value": "Black"
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8382645895231",
+  "title": "MELA VINA LED Plain Mirror",
+  "handle": "mela-vina-led-plain-mirror",
+  "vendor": "MELA",
+  "productType": "LED Mirror",
+  "tags": [
+   "cost-estimated",
+   "LED Mirror",
+   "MELA",
+   "Mirror",
+   "Plain Mirror",
+   "ship-bulky",
+   "ship-parcel",
+   "trade-5",
+   "VINA"
+  ],
+  "status": "DRAFT",
+  "descriptionHtml": "<p>MELA VINA LED plain mirror range for bathrooms and ensuites, with built-in LED lighting and a plain mirror face.</p><ul>\n<li>Range: MELA VINA</li>\n<li>\n<strong>Type:</strong> LED plain mirror</li>\n<li>\n<strong>Widths available:</strong> 600mm, 750mm, 900mm, 1200mm, 1500mm and 1800mm</li>\n<li>\n<strong>Codes:</strong> VIN.600P.LED, VIN.750P.LED, VIN.900P.LED, VIN.1200P.LED, VIN.1500P.LED, VIN.1800P.LED</li>\n</ul><p>Six widths make it easy to size the mirror to a single or double vanity.</p>",
+  "options": [
+   {
+    "name": "Size",
+    "values": [
+     "600mm",
+     "750mm",
+     "900mm",
+     "1200mm",
+     "1500mm",
+     "1800mm"
+    ]
+   }
+  ],
+  "variants": {
+   "nodes": [
+    {
+     "title": "600mm",
+     "sku": "VIN.600P.LED",
+     "price": "399.00",
+     "compareAtPrice": null,
+     "barcode": "VIN.600P.LED",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "272.05"
+      },
+      "measurement": {
+       "weight": {
+        "value": 10.24,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Size",
+       "value": "600mm"
+      }
+     ]
+    },
+    {
+     "title": "750mm",
+     "sku": "VIN.750P.LED",
+     "price": "449.00",
+     "compareAtPrice": null,
+     "barcode": "VIN.750P.LED",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "306.14"
+      },
+      "measurement": {
+       "weight": {
+        "value": 11.8,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Size",
+       "value": "750mm"
+      }
+     ]
+    },
+    {
+     "title": "900mm",
+     "sku": "VIN.900P.LED",
+     "price": "499.00",
+     "compareAtPrice": null,
+     "barcode": "VIN.900P.LED",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "340.23"
+      },
+      "measurement": {
+       "weight": {
+        "value": 13.36,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Size",
+       "value": "900mm"
+      }
+     ]
+    },
+    {
+     "title": "1200mm",
+     "sku": "VIN.1200P.LED",
+     "price": "599.00",
+     "compareAtPrice": null,
+     "barcode": "VIN.1200P.LED",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "408.41"
+      },
+      "measurement": {
+       "weight": {
+        "value": 16.48,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Size",
+       "value": "1200mm"
+      }
+     ]
+    },
+    {
+     "title": "1500mm",
+     "sku": "VIN.1500P.LED",
+     "price": "699.00",
+     "compareAtPrice": null,
+     "barcode": "VIN.1500P.LED",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "476.59"
+      },
+      "measurement": {
+       "weight": {
+        "value": 19.6,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Size",
+       "value": "1500mm"
+      }
+     ]
+    },
+    {
+     "title": "1800mm",
+     "sku": "VIN.1800P.LED",
+     "price": "799.00",
+     "compareAtPrice": null,
+     "barcode": "VIN.1800P.LED",
+     "inventoryItem": {
+      "unitCost": {
+       "amount": "544.77"
+      },
+      "measurement": {
+       "weight": {
+        "value": 22.72,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "selectedOptions": [
+      {
+       "name": "Size",
+       "value": "1800mm"
+      }
+     ]
+    }
+   ]
+  }
+ }
+]
