@@ -1,3 +1,5 @@
+> **Out of date (6 Oct 2026):** ShipX was replaced by Shopify's built-in shipping profiles. See README "Moved off ShipX".
+
 # Shipx setup — Australia Post only (6 Oct 2026)
 
 Owner's decision: **Australia Post only for now** (no FedEx). Parcels go Australia Post anywhere in Australia and

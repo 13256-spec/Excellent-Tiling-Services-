@@ -1,3 +1,5 @@
+> **Out of date (6 Oct 2026):** ShipX was replaced by Shopify's built-in shipping profiles. See README "Moved off ShipX".
+
 # ShipX — click by click (Australia Post only)
 
 **Use the "Scenarios" box → Create.** You make 5 scenarios, one at a time.
