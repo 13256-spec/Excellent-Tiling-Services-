@@ -180,3 +180,82 @@ products including tiles. Still out of date on the live site: header bar and FAQ
 Delivery & Pickup page ("Tiles are not shipped outside Perth"), shipping policy ("We do not ship internationally",
 "free over $100"). Social posts now avoid Perth-only wording and quote no shipping prices until a real checkout
 test confirms the Shipx rates.
+
+### Second pass: every product checked, box sizes in Shopify (6 Oct 2026)
+- All 254 Roberts products were checked one by one against their robertsdesigns.com.au page. Where Roberts gives a size
+  (sponges, pads, shelves, suction cups, stair trims, niche boxes, linear drains, mixers) the box follows it. Spacer and
+  wedge bags/buckets now have a box per pack size instead of one size for all.
+- 118 rows revised; 57 weights changed in Shopify (Sigma handles 0.9 → 0.6 kg, measuring bars 2 → 1.5 kg, sponges and
+  Siri pads 0.25 → 0.1–0.2 kg, suction cups, brass trims 18.5/22.5 mm, switches, chalk, tape measure, splash trowel).
+- **Box size is now stored on every live Roberts variant in Shopify**: metafield `shipping.box_size` ("Box size
+  (packed)", e.g. "35 x 15 x 8 cm"), shown under each variant in admin. 925 variants.
+- 12 variants in the old CSV no longer exist in Shopify (Flange 50mm Socket Weld, Recessed Flange Adapter, Retro Cove
+  Joiner, Sigma 90NE bar and 8 Sigma spare parts). They were dropped from both CSVs.
+
+### Live checkout test (Shipx app, 6 Oct 2026, cart rate lookup)
+| Item (weight) | Perth 6109 | Sydney 2000 | Darwin 0800 |
+| --- | --- | --- | --- |
+| Smoothtex 250ml (0.35 kg) | | Parcel Post $11.70, Express $15.20 | |
+| Smoothtex 1L, Siri epoxy kit, Sigma laser, 20L bucket, 2kg grout (1.2–2.3 kg) | $24.45 / $32.95 | $24.45 / $32.95 | $24.45 / $32.95 |
+| Maxisil grout 5 kg and 10 kg | none | none | none |
+| Sigma support arm (1.8 kg) | none | | |
+| Sigma measuring bar (2 kg) | Local Delivery $75 | none | none |
+| Baron E120 (90 kg), Sigma table (60 kg) | Local Delivery $75 | none | none |
+
+Shipx returns the same price to every state, nothing for grout 5–10 kg (even in Perth), and only Perth delivery for
+some light parcels. Its rules are set inside the Shipx app (not reachable through the Shopify API). Testing stopped
+when the site's bot check kicked in.
+
+### FedEx for anything Australia Post can't take (owner, 6 Oct 2026)
+Every item over Australia Post's limits (105 cm or 22 kg) now goes by FedEx. FedEx's own parcel limit is 68 kg,
+274 cm long and 330 cm length + girth (FedEx AU service guide), so the 3 m trims (305 cm box) and the big machines need
+FedEx freight, not a FedEx parcel. `roberts-shipping-2026-10-06.csv` has a `carrier` column: Australia Post 545 variants,
+FedEx parcel 39, FedEx freight 341 (mostly 3 m trim colours/sizes). Products are tagged `ship-fedex` (44) and
+`ship-fedex-freight` (26); `SHIPX-SETUP.md` rule 1 covers them.
+
+### Overseas = FedEx International only (owner, 6 Oct 2026)
+NZ, US, UK and UAE orders go by FedEx International, not Australia Post. The 5 Oct overseas price table stays as the
+fixed fallback in Shipx (rule 5 in `SHIPX-SETUP.md`); live FedEx rates are better if Shipx can connect the FedEx account.
+Australia Post stays for domestic parcels. Dangerous goods and FedEx-freight items have no overseas rate.
+
+### Change of plan: Australia Post only (owner, 6 Oct 2026, later)
+No FedEx for now (the FedEx account number couldn't be found). Parcels: Australia Post in Australia and Australia Post
+International overseas. Anything Australia Post can't take is Perth delivery / pickup only. The `ship-fedex` and
+`ship-fedex-freight` tags were removed; 39 products got `ship-local-only` (every `ship-long` / `ship-freight` product
+except the 5 linear drains, which also have parcel sizes). The record's `carrier` column and the shipping policy are
+back to Australia Post. `SHIPX-SETUP.md` was rewritten for this.
+
+## Every other product — weights, box sizes and tags (6 Oct 2026)
+Owner asked for every product, Bathroom City (MELA) included, to be set up the same way as Roberts before the Shipx
+rules go in. `other_products_shipping.py` reads a full catalogue export and covers the 252 products that had no
+`ship-` tag (191 MELA, 48 tiles, 13 BAT / Panther / RLA / Click), 760 variants:
+
+- Weight: every variant already had one; Shopify's weight is kept and the estimate is only used for the box.
+- Box: `shipping.box_size` metafield set on all 760 variants (from the size in the title / variant / description).
+- Tags: 152 `ship-parcel`, 100 `ship-local-only` (all tiles, vanities, baths, toilets, screens, sinks, tallboy,
+  big mirror cabinets), 58 `ship-bulky`, 1 `ship-dangerous-goods` (BAT SynSafe Acid).
+- Mixed products (small sizes fit Australia Post, big ones don't) are not tagged local-only; their big SKUs are in
+  SHIPX-SETUP.md step 3 (VERA / VINA 1200+ mirrors, PORTER cabinets, SynSafe Acid 20 L).
+- Record: `other-products-shipping-2026-10-06.csv` (per variant) and `other-products-shipping-tags.csv`.
+
+Store totals now: 506 products, 367 `ship-parcel`, 139 `ship-local-only`, 73 `ship-bulky`, 5 `ship-dangerous-goods`.
+Nothing was published; MELA products stay draft.
+
+## ShipX set up and products published (6 Oct 2026)
+Owner entered 5 ShipX scenarios (SHIPX-CLICK-BY-CLICK.md). Storefront rate checks:
+
+| Cart | Result |
+| --- | --- |
+| Spacers 0.25 kg → Sydney | Australia Post Standard $15 |
+| SynSafe Acid 1.4 kg → Melbourne | Australia Post Parcel Post (road) $20 |
+| RLA additive 5.8 kg → Darwin | Australia Post Standard $39 |
+| Tile → Perth 6000 | Perth Local Delivery $130 |
+| Tile → Sydney | no rate (pickup only) |
+| 4 handles $1,257 → Melbourne | Australia Post Standard $0 |
+| Spacers → Auckland | Australia Post International (shown as USD 21 in the NZ market currency) |
+| Spacers → New York / London | Australia POst International $45 (typo in rate name) |
+| Acid → Auckland | no rate |
+
+Published 329 products (`published-2026-10-06.txt`): the 138 Roberts products and all 191 MELA products.
+40 drafts left untouched: $0 prices (BAT/Panther trowels, caulking gun, Panther and Roberts turbo blades), Baron
+parts all priced $372.95 (looks copied), and older Sigma/Baron/Roberts drafts that may duplicate live products.
