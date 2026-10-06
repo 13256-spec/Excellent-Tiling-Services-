@@ -29,12 +29,13 @@ ship-from address is Maddington WA 6109. Turn off any FedEx/UPS/other carriers.
 
 ## Step 2 — Rule: Perth only (top of the list)
 - Condition: cart contains a product tagged `ship-local-only`.
-- Rates shown: **Perth local delivery** (your local delivery price) and **Pickup from Maddington** only.
+- Rate shown: **Perth local delivery** (your local delivery price) only. Pickup still shows on its own (Shopify Local pickup).
 - Hide all Australia Post and international rates.
 
-Pickup: owner may add a pickup app (e.g. Pick Easy) alongside ShipX later. Until then, step 2's "Pickup from
-Maddington" rate in ShipX covers it. If a pickup app is added, keep pickup available for every cart and make sure
-`ship-local-only` carts still show it.
+Pickup (every product): Shopify's own **Local pickup** is already on for the Maddington location (Settings →
+Shipping and delivery → Local pickup). It is separate from ShipX, so every cart gets a "Pick up" choice at checkout
+whatever the ShipX rules say. Don't add a pickup rate inside ShipX. A pickup app (e.g. Pick Easy) can be added later
+for booking times; it isn't needed for pickup to work.
 
 ## Step 3 — Rule: big sizes of mixed products (if ShipX can use SKUs)
 - Condition: cart contains any of these SKUs.
