@@ -32,6 +32,10 @@ ship-from address is Maddington WA 6109. Turn off any FedEx/UPS/other carriers.
 - Rates shown: **Perth local delivery** (your local delivery price) and **Pickup from Maddington** only.
 - Hide all Australia Post and international rates.
 
+Pickup: owner may add a pickup app (e.g. Pick Easy) alongside ShipX later. Until then, step 2's "Pickup from
+Maddington" rate in ShipX covers it. If a pickup app is added, keep pickup available for every cart and make sure
+`ship-local-only` carts still show it.
+
 ## Step 3 — Rule: big sizes of mixed products (if ShipX can use SKUs)
 - Condition: cart contains any of these SKUs.
 - Linear drains 1200 / 1500 mm:
