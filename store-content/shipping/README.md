@@ -217,3 +217,10 @@ FedEx parcel 39, FedEx freight 341 (mostly 3 m trim colours/sizes). Products are
 NZ, US, UK and UAE orders go by FedEx International, not Australia Post. The 5 Oct overseas price table stays as the
 fixed fallback in Shipx (rule 5 in `SHIPX-SETUP.md`); live FedEx rates are better if Shipx can connect the FedEx account.
 Australia Post stays for domestic parcels. Dangerous goods and FedEx-freight items have no overseas rate.
+
+### Change of plan: Australia Post only (owner, 6 Oct 2026, later)
+No FedEx for now (the FedEx account number couldn't be found). Parcels: Australia Post in Australia and Australia Post
+International overseas. Anything Australia Post can't take is Perth delivery / pickup only. The `ship-fedex` and
+`ship-fedex-freight` tags were removed; 39 products got `ship-local-only` (every `ship-long` / `ship-freight` product
+except the 5 linear drains, which also have parcel sizes). The record's `carrier` column and the shipping policy are
+back to Australia Post. `SHIPX-SETUP.md` was rewritten for this.

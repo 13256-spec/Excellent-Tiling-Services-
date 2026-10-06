@@ -12,15 +12,13 @@ Shipping columns:
   (L x W x H / 4000). This is what a carrier bills.
 - ship_method:
     parcel  - fits Australia Post (22 kg, 105 cm longest side, 0.25 m3)
-    long    - light but over 105 cm (3 m trims, long cutters): goes by FedEx
-    freight - too heavy or big for a parcel: FedEx freight
-- carrier (owner, 6 Oct 2026: "anything Australia Post can't take goes by FedEx"):
-    Australia Post, FedEx parcel (up to 68 kg, 274 cm long, length + girth 330 cm),
-    or FedEx freight (bigger: 3 m trims, Baron mixers, Sigma tables, Kera Cut / Lift).
+    long    - light but over 105 cm (3 m trims, long cutters): Australia Post won't take it
+    freight - too heavy or big for a parcel
+- carrier (owner, 6 Oct 2026: Australia Post only for now): Australia Post for parcels;
+    long and freight items are Perth delivery / pickup only.
 - est_ship_au: the owner's Australia-wide small-item prices (5 Oct 2026) applied to
   chargeable_kg, for one item on its own.
-- international: by FedEx International only (owner, 6 Oct 2026). Yes if it fits a FedEx parcel
-  and isn't dangerous goods; the fixed price table covers up to 10 kg, heavier is a FedEx quote.
+- international: Australia Post International, parcels up to 10 kg, not dangerous goods.
 """
 import csv
 import os
@@ -145,10 +143,6 @@ DELETED = {
 
 DANGEROUS = ('Primer 1215', 'Primer 1216', 'Primer 1217', 'Primer 1218')
 
-# FedEx (Australia) per-package limits, FedEx AU service guide.
-FEDEX_MAX_CM = 274
-FEDEX_MAX_GIRTH_CM = 330
-
 AU_BANDS = [(1, 15), (3, 20), (5, 29), (10, 39), (22, 59), (44, 109), (100, 179)]
 
 
@@ -220,20 +214,15 @@ def main():
             method = 'freight'
         dg = any(d in r['product'] for d in DANGEROUS)
         price = au_price(charge) if method == 'parcel' else None
-        girth = dims[0] + 2 * (dims[1] + dims[2])
-        if method == 'parcel':
-            carrier = 'Australia Post'
-        elif kg <= 68 and dims[0] <= FEDEX_MAX_CM and girth <= FEDEX_MAX_GIRTH_CM:
-            carrier = 'FedEx parcel'
-        else:
-            carrier = 'FedEx freight'
+        # Owner, 6 Oct 2026 (later): Australia Post only for now, no FedEx.
+        carrier = 'Australia Post' if method == 'parcel' else 'Perth delivery / pickup only'
         out.append({
             'product': r['product'], 'variant': r['variant'], 'sku': r['sku'], 'type': r['type'],
             'price': r['price'], 'weight_kg': f'{kg:.2f}', 'box_cm': 'x'.join(map(str, dims)),
             'cubic_kg': f'{cubic:.1f}', 'chargeable_kg': f'{charge:.1f}', 'ship_method': method,
             'carrier': carrier,
-            'est_ship_au': f'${price}' if price else f'{carrier} rate (or Perth delivery / pickup)',
-            'international': 'no' if dg or carrier == 'FedEx freight' else ('FedEx' if charge <= 10 else 'FedEx quote'),
+            'est_ship_au': f'${price}' if price else 'Perth delivery / pickup only',
+            'international': 'Australia Post International' if method == 'parcel' and charge <= 10 and not dg else 'no',
             'dangerous_goods': 'yes (road only, no air or overseas)' if dg else '',
             'basis': r['basis'], 'note': r['note'], 'variant_id': r['variant_id'],
             'inventory_item_id': r['inventory_item_id'],

@@ -1,7 +1,7 @@
 product_id,product,tags
 8403247890495,Maxisil Maxigrab Adhesive,ship-parcel
 8403243958335,Balcony Trim Joiner – fits all sizes – 8mm,ship-parcel
-8403249365055,Balcony Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403249365055,Balcony Trim – 3m Lengths,ship-long ship-local-only
 8403249299519,External Balcony Corner,ship-parcel
 8403249332287,Internal Balcony Corner,ship-parcel
 8403247300671,Niche Box – 372 x 332,ship-parcel
@@ -9,7 +9,7 @@ product_id,product,tags
 8403247235135,Niche Box – 632 x 332,ship-parcel ship-bulky
 8403245891647,3 piece Spare Roller – 75mm for RDXT308,ship-parcel
 8403255001151,3 x Spare Rollers for RDXT232,ship-parcel
-8403252445247,Extension Pole for Paint Roller,ship-long ship-fedex
+8403252445247,Extension Pole for Paint Roller,ship-long ship-local-only
 8403253067839,Paint Brush,ship-parcel
 8403251822655,Paint Roller Handle – 230mm,ship-parcel
 8403245858879,Paint Roller Handle – 75mm,ship-parcel
@@ -23,7 +23,7 @@ product_id,product,tags
 8403247333439,Standard Soapholder (Square),ship-parcel
 8403243401279,Ultimate Shelf white,ship-parcel
 8403243368511,Vents,ship-parcel
-8403248742463,Cove Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403248742463,Cove Aluminium Trim – 3m Lengths,ship-long ship-local-only
 8403248447551,External Cove Aluminium Corner,ship-parcel
 8403248480319,Internal Cove Corner,ship-parcel
 8403252052031,Puddle Flange – Recessed,ship-parcel
@@ -31,25 +31,25 @@ product_id,product,tags
 8403246383167,Square Grate Floor Waste – 50mm Outlet,ship-parcel
 8403246350399,Square Grate Floor Waste – 80mm Outlet,ship-parcel
 8403246317631,Square Grate Floor Waste – 80mm Outlet (long collar),ship-parcel
-8403246415935,Square Punched Linear Drain – 50mm Outlet,ship-long ship-parcel ship-fedex
-8403246481471,Strip Punched Linear Drain – 50mm Outlet,ship-long ship-parcel ship-fedex
-8403246448703,Strip Punched Linear Drain – 76mm Outlet,ship-long ship-parcel ship-fedex
+8403246415935,Square Punched Linear Drain – 50mm Outlet,ship-long ship-parcel
+8403246481471,Strip Punched Linear Drain – 50mm Outlet,ship-long ship-parcel
+8403246448703,Strip Punched Linear Drain – 76mm Outlet,ship-long ship-parcel
 8403245924415,Tile Insert Floor Waste – 100mm Outlet,ship-parcel
 8403246252095,Tile Insert Floor Waste – 50mm Outlet,ship-parcel
 8403246219327,Tile Insert Floor Waste – 80mm Outlet,ship-parcel
-8403247202367,Tile Insert Linear Drain – 50mm Outlet,ship-long ship-parcel ship-fedex
-8403247136831,Tile Insert Linear Drain – 76mm Outlet,ship-long ship-parcel ship-fedex
+8403247202367,Tile Insert Linear Drain – 50mm Outlet,ship-long ship-parcel
+8403247136831,Tile Insert Linear Drain – 76mm Outlet,ship-long ship-parcel
 8403248382015,Continuous Rim Diamond Blades – Green,ship-parcel
 8403248316479,Mesh Rim Diamond Blades – Red,ship-parcel
 8403248283711,Segmented Diamond Blades – Orange,ship-parcel
-8403249397823,Diminishing Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403249397823,Diminishing Trim – 3m Lengths,ship-long ship-local-only
 8403241533503,Electroplated Diamond Core Drill,ship-parcel
 8403241566271,Electroplated Diamond Pin Drill,ship-parcel
 8403251986495,Hex Shank Adapter for Vacuum Brazed Drill Bit,ship-parcel
 8403252478015,M14 Adapter for Vacuum Brazed Drill Bit,ship-parcel
 8403241599039,Premium Diamond Sintered Pin Drill,ship-parcel
 8403248414783,Vacuum Brazed Diamond Drill Bits,ship-parcel
-8403248775231,Expansion Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403248775231,Expansion Aluminium Trim – 3m Lengths,ship-long ship-local-only
 8403248250943,Abrasive PVA Wheels,ship-parcel
 8403248218175,Diamond Hand Pads,ship-parcel
 8403247923263,Maxisil Grout – 10kg,ship-parcel
@@ -58,42 +58,42 @@ product_id,product,tags
 8402654363711,Roberts High Performance Turbo Diamond Blade,ship-parcel
 8403251560511,Trade Grade Hybrid Sealant – Hybrid Polyurethane,ship-parcel
 8403250217023,L Shape Aluminium Trim – 1m Lengths,ship-parcel
-8403250511935,L Shape Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403249430591,L Shape Brass Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403249823807,L Shape S/Steel 304 Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403249791039,L Shape S/Steel 316 Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403250184255,UV Resistant L Shape Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403249954879,Waterstop L Shape Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403250511935,L Shape Aluminium Trim – 3m Lengths,ship-long ship-local-only
+8403249430591,L Shape Brass Trim – 3m Lengths,ship-long ship-local-only
+8403249823807,L Shape S/Steel 304 Trim – 3m Lengths,ship-long ship-local-only
+8403249791039,L Shape S/Steel 316 Trim – 3m Lengths,ship-long ship-local-only
+8403250184255,UV Resistant L Shape Aluminium Trim – 3m Lengths,ship-long ship-local-only
+8403249954879,Waterstop L Shape Aluminium Trim – 3m Lengths,ship-long ship-local-only
 8403244122175,Adhesive Mixer 100mm x 10mm Shaft (downward push),ship-parcel ship-bulky
 8403244089407,Adhesive Mixer 140mm x 10mm Shaft (downward push),ship-parcel ship-bulky
-8403251953727,Baron E120 Forced Action Mixer,ship-freight ship-fedex ship-fedex-freight
-8403241336895,Baron F200 Forced Action Mixer,ship-freight ship-fedex ship-fedex-freight
-8403241369663,Baron F300 Forced Action Mixer,ship-freight ship-fedex ship-fedex-freight
+8403251953727,Baron E120 Forced Action Mixer,ship-freight ship-local-only
+8403241336895,Baron F200 Forced Action Mixer,ship-freight ship-local-only
+8403241369663,Baron F300 Forced Action Mixer,ship-freight ship-local-only
 8403241304127,E120 Replacement power cable (2m length) + plug,ship-parcel
 8403254607935,Electric Glue Mixer 1400W,ship-parcel ship-bulky
-8403241173055,F200 Mixer head (not including a paddles),ship-freight ship-fedex
-8403241140287,F300 Mixer head (not including paddles),ship-freight ship-fedex
+8403241173055,F200 Mixer head (not including a paddles),ship-freight ship-local-only
+8403241140287,F300 Mixer head (not including paddles),ship-freight ship-local-only
 8403241107519,F300 Mixer paddles set (3),ship-parcel
 8403241041983,Leveling Compound Mixer x 10mm Shaft,ship-parcel ship-bulky
 8403241238591,Main switch (For F200),ship-parcel
 8403241205823,Main switch (For F300),ship-parcel
-8403251920959,Mixer Head for Baron E120 Mixer (no shovels),ship-freight ship-fedex
+8403251920959,Mixer Head for Baron E120 Mixer (no shovels),ship-freight ship-local-only
 8403251855423,Mixing Paddles Set (3) for Baron E120 Mixer,ship-parcel
 8403254575167,Replacement Spiral Head for RDXT108,ship-parcel ship-bulky
 8403241271359,"Rubber wheel (for all mixers, except F300)",ship-parcel
-8403249987647,L Shape Notched Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403249856575,Waterstop Standard PVC Trim – 2.5m Lengths,ship-long ship-fedex
+8403249987647,L Shape Notched Aluminium Trim – 3m Lengths,ship-long ship-local-only
+8403249856575,Waterstop Standard PVC Trim – 2.5m Lengths,ship-long ship-local-only
 8403253887039,Clear Packaging Tape,ship-parcel
 8403252772927,Masking Tape,ship-parcel
 8403253919807,Pallet Wrap Dispenser,ship-parcel ship-bulky
 8403253952575,Pallet Wrap Roll,ship-parcel
-8403248807999,Ramp Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403248807999,Ramp Aluminium Trim – 3m Lengths,ship-long ship-local-only
 8403005374527,External Retro Cove Corner,ship-parcel
 8403248545855,Internal Retro Cove Corner,ship-parcel
-8403248513087,Retro Cove Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403248873535,Retro Fit Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403248513087,Retro Cove Aluminium Trim – 3m Lengths,ship-long ship-local-only
+8403248873535,Retro Fit Aluminium Trim – 3m Lengths,ship-long ship-local-only
 8403251331135,Guardia Surface Protection,ship-parcel
-8403249266751,Round Edge Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403249266751,Round Edge Trim – 3m Lengths,ship-long ship-local-only
 8403245006911,20 Litre Maxisil Bucket,ship-parcel ship-bulky
 8403243237439,Backer Rod – Round Closed Cell – 10mm,ship-parcel ship-bulky
 8403243270207,Backer Rod – Round Closed Cell – 6mm,ship-parcel ship-bulky
@@ -137,16 +137,16 @@ product_id,product,tags
 8403254378559,Siri Yellow Sponge No Cuts – Fits RDXT609 Handle,ship-parcel
 8403254345791,Siri Yellow Sponge With Cuts – Fits RDXT609 Handle,ship-parcel
 8403248906303,Square Edge Aluminium Corner,ship-parcel
-8403249233983,Square Edge Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403249201215,Stainless Steel 304 Squedge Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
-8403252314175,Aluminium Stair Trim with 4 Black Carborundum Strip Inserts (Mill Finish) – 75mm x 10mm x 2.5m,ship-long ship-fedex
-8403252346943,Aluminium Stair Trim with Grooves (Matte Silver) – 50mm x 10mm x 2.5m,ship-long ship-fedex
-8403252084799,Aluminium Stair Trim with Solid Black Carborundum Insert (Matte Silver) – 58mm x 24mm x 2.5m,ship-long ship-fedex
-8403240910911,T Shaped Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403249233983,Square Edge Aluminium Trim – 3m Lengths,ship-long ship-local-only
+8403249201215,Stainless Steel 304 Squedge Trim – 3m Lengths,ship-long ship-local-only
+8403252314175,Aluminium Stair Trim with 4 Black Carborundum Strip Inserts (Mill Finish) – 75mm x 10mm x 2.5m,ship-long ship-local-only
+8403252346943,Aluminium Stair Trim with Grooves (Matte Silver) – 50mm x 10mm x 2.5m,ship-long ship-local-only
+8403252084799,Aluminium Stair Trim with Solid Black Carborundum Insert (Matte Silver) – 58mm x 24mm x 2.5m,ship-long ship-local-only
+8403240910911,T Shaped Trim – 3m Lengths,ship-long ship-local-only
 8403245662271,ART 4BN Sigma NEX Tile Cutter 62CM (Push Scoring),ship-parcel
 8403245629503,ART 4CN Sigma NEX Tile Cutter 76CM (Push Scoring),ship-parcel
-8403245596735,ART 4DN Sigma NEX Tile Cutter 95CM (Push Scoring),ship-long ship-fedex
-8403245695039,"ART 63G Sigma Table with legs, hooks for Kera cut and clamps",ship-freight ship-fedex ship-fedex-freight
+8403245596735,ART 4DN Sigma NEX Tile Cutter 95CM (Push Scoring),ship-long ship-local-only
+8403245695039,"ART 63G Sigma Table with legs, hooks for Kera cut and clamps",ship-freight ship-local-only
 8403243204671,Sigma 108362 M8 Nut for Locking Bolt,ship-parcel
 8403243171903,Sigma 108362 M8 Square Nut for Locking Bolt,ship-parcel
 8403243139135,Sigma 108616 Locking Bolt M8x25 for Swivel Measurement Bar,ship-parcel
@@ -168,16 +168,16 @@ product_id,product,tags
 8403241828415,Sigma 90LD Sigma Swivel Measurement Bar,ship-parcel
 8403241795647,Sigma 90LE Sigma Swivel Measurement Bar,ship-parcel
 8403243663423,"Sigma ART108621 Locking Bolt M8 x 40 for Series 3B,3C,3D models",ship-parcel
-8403252543551,Sigma Aluminium Workbench ART 63E – 180 x 100,ship-freight ship-fedex ship-fedex-freight
+8403252543551,Sigma Aluminium Workbench ART 63E – 180 x 100,ship-freight ship-local-only
 8403252576319,Sigma Cutting Wheel ART14K suits Kera Cut – 19mm dia,ship-parcel
 8403253428287,Sigma Cutting Wheel ART14MX suits ART 3FM/3EK – 19mm,ship-parcel
 8403245236287,Sigma Handle ART 24N for ART 4 Push series,ship-parcel
 8403245432895,Sigma Handle ART 24U for ART 4 Up series,ship-parcel
 8403252674623,Sigma Jolly Edge ART37A3D with 115mm Blade (ART 75B),ship-parcel ship-bulky
-8403252707391,Sigma Kera Cut Kit ART 8AE2 – 332cm,ship-freight ship-fedex ship-fedex-freight
+8403252707391,Sigma Kera Cut Kit ART 8AE2 – 332cm,ship-freight ship-local-only
 8403252609087,"Sigma Kera Flex Aluminium Suction Cup ART51C, suits Kera Cut, 120mm dia, 40kg capacity",ship-parcel
 8403245531199,"Sigma Kera Flex Aluminium Suction Cup ART51P4, suits Kera Cut, 150mm dia, 90kg capacity",ship-parcel
-8403245727807,Sigma Kera Lift ART1A6 – 340 x 160cm Complete Kit,ship-freight ship-fedex ship-fedex-freight
+8403245727807,Sigma Kera Lift ART1A6 – 340 x 160cm Complete Kit,ship-freight ship-local-only
 8403245760575,Sigma Laser for 4 series ART022,ship-parcel
 8403245498431,Sigma Pro Grip Suction Cup ART51M3 mm for straight bar of Kera Lift 1A6 – 1D3 160mm dia,ship-parcel
 8403245465663,Sigma Pro Grip Suction Cup ART51M4 mm for cross bar of Kera Lift 160mm dia,ship-parcel
@@ -191,9 +191,9 @@ product_id,product,tags
 8403243892799,Sigma Tile Cutter ART 2G – 37cm,ship-parcel
 8403243860031,Sigma Tile Cutter ART 4BU – 70cm,ship-parcel
 8403243827263,Sigma Tile Cutter ART 4CU – 84cm,ship-parcel
-8403243794495,Sigma Tile Cutter ART 4DU – 103cm,ship-long ship-fedex
-8403243761727,Sigma Tile Cutter ART 4EN – 125cm,ship-long ship-fedex
-8403243728959,Sigma Tile Cutter ART 4FN – 155cm,ship-freight ship-fedex
+8403243794495,Sigma Tile Cutter ART 4DU – 103cm,ship-long ship-local-only
+8403243761727,Sigma Tile Cutter ART 4EN – 125cm,ship-long ship-local-only
+8403243728959,Sigma Tile Cutter ART 4FN – 155cm,ship-freight ship-local-only
 8403243696191,Sigma Tile Cutter ART 7F – 37cm,ship-parcel
 8403251593279,Sigma Titanium Wheel with axle ART14NT – 16mm dia,ship-parcel
 8403253461055,Sigma Titanium Wheel with axle ART14T – 12mm,ship-parcel
@@ -222,7 +222,7 @@ product_id,product,tags
 8403251200063,X Spacer – 2mm,ship-parcel
 8403251167295,X Spacer – 3mm,ship-parcel
 8403251134527,X Spacer – 5mm,ship-parcel
-8403249922111,Waterstop Standard Aluminium Trim – 3m Lengths,ship-long ship-fedex ship-fedex-freight
+8403249922111,Waterstop Standard Aluminium Trim – 3m Lengths,ship-long ship-local-only
 8403254706239,Aluminium Single Suction Cup (35kg lifting capacity),ship-parcel
 8403254018111,Barwalt KN-1 Replacement Liners (pair),ship-parcel
 8403254050879,Barwalt KN-1 Ultralight Knee Pad,ship-parcel
@@ -233,7 +233,7 @@ product_id,product,tags
 8403251265599,Disposable Gloves,ship-parcel
 8403252379711,Economy Grout Float,ship-parcel
 8403253985343,Handyman Knee Pad,ship-parcel
-8403244810303,Heavy Duty Floor Scraper,ship-long ship-fedex
+8403244810303,Heavy Duty Floor Scraper,ship-long ship-local-only
 8403241664575,Maxisil Sausage Caulking Gun 600ml,ship-parcel
 8403252805695,Pro Japanese Style Grout Float Timber Handle,ship-parcel
 8403241697343,Pro Tile “GT” Nipper,ship-parcel
