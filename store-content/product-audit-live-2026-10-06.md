@@ -1,0 +1,354 @@
+# Live product check (6 Oct 2026)
+
+466 live products, 1,628 variants. Every variant has a weight, box size and shipping group.
+
+## price (ex GST) below cost (1)
+- MELA DAVISSON Above Counter Basin / White (DAVISSON.ABOVE) price 199.0 cost 225.91
+
+## tracked, 0 stock, cannot be bought (1)
+- MELA DAVISSON Above Counter Basin / White (DAVISSON.ABOVE)
+
+## no image (13)
+- MELA BRUNO Wall Mixer with Diverter
+- MELA Bath Pop Up Waste Universal
+- MELA TRITON 310 Single Sink
+- MELA FLOVA ABS Shower Head
+- MELA FLOVA Brass Shower Head
+- MELA PALCO / RONDO ABS Shower Head
+- MELA PALCO / RONDO Brass Shower Head
+- MELA Corrugated Flexible Shower Hose
+- MELA PVC Shower Hose
+- MELA MORRIS Shower Door Handle
+- MELA VINA LED Plain Mirror
+- MELA RORY Above Counter Basin
+- MELA MELVA Half Inset Basin
+
+## no SKU (89)
+- MELA CLARK 600 Wall Hung Vanity with Doors / Default (None)
+- MELA CLARK 750 Wall Hung Vanity with Doors / Gloss White (None)
+- MELA CLARK 750 Wall Hung Vanity with Doors / Snafell (None)
+- MELA CLARK 750 Wall Hung Vanity with Doors / Walnut (None)
+- MELA CLARK 750 Wall Hung Vanity with Doors / Sorrento Oak (None)
+- MELA CLARK 750 Wall Hung Vanity with 2 Drawers / Gloss White (None)
+- MELA CLARK 750 Wall Hung Vanity with 2 Drawers / Snafell (None)
+- MELA CLARK 750 Wall Hung Vanity with 2 Drawers / Walnut (None)
+- MELA CLARK 750 Wall Hung Vanity with 2 Drawers / Sorrento Oak (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers / Gloss White (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers / Snafell (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers / Walnut (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers / Sorrento Oak (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Side Shelves / Gloss White (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Side Shelves / Snafell (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Side Shelves / Walnut (None)
+- MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Side Shelves / Sorrento Oak (None)
+- MELA CLARK 1050 Wall Hung Vanity with 2 Drawers & Side Shelves / Gloss White (None)
+- MELA CLARK 1050 Wall Hung Vanity with 2 Drawers & Side Shelves / Snafell (None)
+- MELA CLARK 1050 Wall Hung Vanity with 2 Drawers & Side Shelves / Walnut (None)
+- MELA CLARK 1050 Wall Hung Vanity with 2 Drawers & Side Shelves / Sorrento Oak (None)
+- MELA CLARK 1200 Wall Hung Vanity with Drawers / Gloss White (None)
+- MELA CLARK 1200 Wall Hung Vanity with Drawers / Snafell (None)
+- MELA CLARK 1200 Wall Hung Vanity with Drawers / Walnut (None)
+- MELA CLARK 1200 Wall Hung Vanity with Drawers / Sorrento Oak (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Single Side Shelves / Gloss White (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Single Side Shelves / Snafell (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Single Side Shelves / Walnut (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Single Side Shelves / Sorrento Oak (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Gloss White (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Snafell (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Walnut (None)
+- MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Sorrento Oak (None)
+- MELA CLARK 1500 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Gloss White (None)
+- MELA CLARK 1500 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Snafell (None)
+- MELA CLARK 1500 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Walnut (None)
+- MELA CLARK 1500 Wall Hung Vanity with 2 Drawers & Dual Side Shelves / Sorrento Oak (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors / Gloss White (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors / Snafell (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors / Walnut (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors / Sorrento Oak (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors & Drawers / Gloss White (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors & Drawers / Snafell (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors & Drawers / Walnut (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Doors & Drawers / Sorrento Oak (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Drawers / Gloss White (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Drawers / Snafell (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Drawers / Walnut (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with Drawers / Sorrento Oak (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Gloss White (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Snafell (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Walnut (None)
+- MELA CLARK 1500 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Sorrento Oak (None)
+- MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Gloss White (None)
+- MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Snafell (None)
+- MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Walnut (None)
+- MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers & Centre Shelves / Sorrento Oak (None)
+- MELA PADDY 750 Wall Hung Vanity / Gloss White (None)
+- MELA PADDY 750 Wall Hung Vanity / Snafell (None)
+- MELA PADDY 750 Wall Hung Vanity / Walnut (None)
+- MELA PADDY 750 Wall Hung Vanity / Sorrento Oak (None)
+- MELA PADDY 900 Wall Hung Vanity / Gloss White (None)
+- MELA PADDY 900 Wall Hung Vanity / Snafell (None)
+- MELA PADDY 900 Wall Hung Vanity / Walnut (None)
+- MELA PADDY 900 Wall Hung Vanity / Sorrento Oak (None)
+- MELA PADDY 1200 Wall Hung Vanity / Gloss White (None)
+- MELA PADDY 1200 Wall Hung Vanity / Snafell (None)
+- MELA PADDY 1200 Wall Hung Vanity / Walnut (None)
+- MELA PADDY 1200 Wall Hung Vanity / Sorrento Oak (None)
+- MELA PADDY 1500 Double Wall Hung Vanity / Gloss White (None)
+- MELA PADDY 1500 Double Wall Hung Vanity / Snafell (None)
+- MELA PADDY 1500 Double Wall Hung Vanity / Walnut (None)
+- MELA PADDY 1500 Double Wall Hung Vanity / Sorrento Oak (None)
+- MELA PADDY 1800 Double Wall Hung Vanity / Gloss White (None)
+- MELA PADDY 1800 Double Wall Hung Vanity / Snafell (None)
+- MELA PADDY 1800 Double Wall Hung Vanity / Walnut (None)
+- MELA PADDY 1800 Double Wall Hung Vanity / Sorrento Oak (None)
+- MELA CLASSIC 600 Matt White Wall Hung Vanity with 2 Drawers / Hampton (None)
+- MELA CLASSIC 600 Matt White Wall Hung Vanity with 2 Drawers / Pastel (None)
+- MELA CLASSIC 600 Matt White Wall Hung Vanity with 2 Drawers / Shaker (None)
+- MELA CLASSIC 750 Matt White Wall Hung Vanity with 2 Drawers / Hampton (None)
+- MELA CLASSIC 750 Matt White Wall Hung Vanity with 2 Drawers / Pastel (None)
+- MELA CLASSIC 750 Matt White Wall Hung Vanity with 2 Drawers / Shaker (None)
+- MELA CLASSIC 900 Matt White Wall Hung Vanity with 2 Drawers / Hampton (None)
+- MELA CLASSIC 900 Matt White Wall Hung Vanity with 2 Drawers / Pastel (None)
+- MELA CLASSIC 900 Matt White Wall Hung Vanity with 2 Drawers / Shaker (None)
+- MELA CLASSIC 1200 Matt White Wall Hung Vanity with 2 Drawers / Hampton (None)
+- MELA CLASSIC 1200 Matt White Wall Hung Vanity with 2 Drawers / Pastel (None)
+- MELA CLASSIC 1200 Matt White Wall Hung Vanity with 2 Drawers / Shaker (None)
+
+## no cost price (90)
+- MELA FLOVA Free Standing Bath Spout / Chrome (FLO.BS.001)
+- MELA FLOVA Free Standing Bath Spout / Matt Black (FLO.BS.001BK)
+- MELA FLOVA Free Standing Bath Spout / Brushed Nickel (FLO.BS.001BN)
+- MELA RONDO Gooseneck Sink Mixer / Chrome (RON.SM.001)
+- MELA RONDO Gooseneck Sink Mixer / Brushed Nickel (RON.SM.001BN)
+- MELA RONDO Gooseneck Sink Mixer / Brushed Brass (RON.SM.001BB)
+- MELA BRUNO Wall Mixer with Diverter / Brushed Nickel (BRU.WMD.001.BN)
+- MELA BRUNO Wall Mixer with Diverter / Gun Metal (BRU.WMD.001.GM)
+- MELA BRUNO Wall Mixer with Diverter / Brushed Brass (BRU.WMD.001.BB)
+- MELA BRUNO Wall Mixer with Diverter / Brushed Copper (BRU.WMD.001.BC)
+- MELA FLOVA 800 Single Towel Rail / Gun Metal (FLO.TR.800S.GM)
+- MELA FLOVA 800 Single Towel Rail / Brushed Brass (FLO.TR.800S.BB)
+- MELA FLOVA 800 Double Towel Rail / Gun Metal (FLO.TR.800D.GM)
+- MELA FLOVA 800 Double Towel Rail / Brushed Brass (FLO.TR.800D.BB)
+- MELA BRUNO Corner Glass Shelf Holder / Brushed Copper (ACC.CGS.001.BC)
+- MELA Pop Up Waste Universal / Brushed Copper (POP-UP Waste Universal.BC)
+- MELA Bath Pop Up Waste Universal / Chrome (Bath Waste Pop Up CH)
+- MELA Bath Pop Up Waste Universal / Matt Black (Bath Waste Pop Up BK)
+- MELA Bath Pop Up Waste Universal / Brushed Nickel (Bath Waste Pop Up BN)
+- MELA Bath Pop Up Waste Universal / Gun Metal (Bath Waste Pop Up GM)
+- MELA Bath Pop Up Waste Universal / Brushed Brass (Bath Waste Pop Up BB)
+- MELA Bath Pop Up Waste Universal / Brushed Copper (Bath Waste Pop Up BG)
+- MELA MORRIS Frameless Shower Panel / 1095 x 2000mm (MORRIS.1095*2000)
+- MELA MORRIS Frameless Corner Shower Screen / 1200 x 1200mm (KIT MORRIS.1200*1200)
+- MELA TRITON 310 Single Sink / Stainless Steel (TRITON.310S)
+- MELA TRITON 310 Single Sink / Black (TRITON.310S.BK)
+- MELA TRITON 550 Single Sink / Black (TRITON.550S.BK)
+- MELA FLOVA ABS Shower Head / Chrome (FLO.HS.ABS.001)
+- MELA FLOVA ABS Shower Head / Matt Black (FLO.HS.ABS.001.BK)
+- MELA FLOVA ABS Shower Head / Brushed Nickel (FLO.HS.ABS.001.BN)
+- MELA FLOVA Brass Shower Head / Chrome (FLO.HS.BH.001)
+- MELA FLOVA Brass Shower Head / Matt Black (FLO.HS.BH.001.BK)
+- MELA FLOVA Brass Shower Head / Brushed Nickel (FLO.HS.BH.001.BN)
+- MELA PALCO / RONDO ABS Shower Head / Chrome (PAL.HS.ABS.001)
+- MELA PALCO / RONDO ABS Shower Head / Matt Black (PAL.HS.ABS.001.BK)
+- MELA PALCO / RONDO ABS Shower Head / Brushed Nickel (PAL.HS.ABS.001.BN)
+- MELA PALCO / RONDO ABS Shower Head / Gun Metal (PAL.HS.ABS.001.GM)
+- MELA PALCO / RONDO ABS Shower Head / Brushed Brass (PAL.HS.ABS.001.BB)
+- MELA PALCO / RONDO ABS Shower Head / Brushed Copper (PAL.HS.ABS.001.BC)
+- MELA PALCO / RONDO Brass Shower Head / Chrome (PAL.HS.BH.001)
+- MELA PALCO / RONDO Brass Shower Head / Matt Black (PAL.HS.BH.001.BK)
+- MELA PALCO / RONDO Brass Shower Head / Brushed Nickel (PAL.HS.BH.001.BN)
+- MELA PALCO / RONDO Brass Shower Head / Gun Metal (PAL.HS.BH.001.GM)
+- MELA PALCO / RONDO Brass Shower Head / Brushed Brass (PAL.HS.BH.001.BB)
+- MELA PALCO / RONDO Brass Shower Head / Brushed Copper (PAL.HS.BH.001.BC)
+- MELA Corrugated Flexible Shower Hose / Chrome (FLEXIBLE HOSE)
+- MELA Corrugated Flexible Shower Hose / Matt Black (FLEXIBLE HOSE.BK)
+- MELA Corrugated Flexible Shower Hose / Brushed Nickel (FLEXIBLE HOSE.BN)
+- MELA Corrugated Flexible Shower Hose / Gun Metal (FLEXIBLE HOSE.GM)
+- MELA Corrugated Flexible Shower Hose / Brushed Brass (FLEXIBLE HOSE.BB)
+- MELA Corrugated Flexible Shower Hose / Brushed Copper (FLEXIBLE HOSE.BC)
+- MELA PVC Shower Hose / Chrome (PVC SHOWER HOSE)
+- MELA PVC Shower Hose / Matt Black (PVC SHOWER HOSE.BK)
+- MELA PVC Shower Hose / Brushed Nickel (PVC SHOWER HOSE.BN)
+- MELA PVC Shower Hose / Gun Metal (PVC SHOWER HOSE.GM)
+- MELA PVC Shower Hose / Brushed Brass (PVC SHOWER HOSE.BB)
+- MELA PVC Shower Hose / Brushed Copper (PVC SHOWER HOSE.BC)
+- MELA MORRIS Shower Door Handle / Chrome (MORRIS.HANDLE.001CH)
+- MELA MORRIS Shower Door Handle / Matt Black (MORRIS.HANDLE.001BK)
+- MELA MORRIS Shower Door Handle / Brushed Nickel (MORRIS.HANDLE.001BN)
+- MELA MORRIS Shower Door Handle / Gun Metal (MORRIS.HANDLE.001GM)
+- MELA MORRIS Shower Door Handle / Brushed Brass (MORRIS.HANDLE.001BB)
+- MELA MORRIS Shower Door Handle / Brushed Copper (MORRIS.HANDLE.001BC)
+- MELA MORRIS Shower Screen U Bracket / Brushed Copper (U Bracket.BC)
+- MELA MORRIS Shower Screen L Bracket / Brushed Copper (L Bracket.BC)
+- MELA MORRIS Shower Screen Hinge / Brushed Copper (Hinge.FS.001-BC)
+- MELA SURI LED Round Mirror / 600mm (SURI.600.LED)
+- MELA VINA Plain Mirror / 600mm (VIN.600P)
+- MELA VINA Plain Mirror / 750mm (VIN.750P)
+- MELA VINA Plain Mirror / 900mm (VIN.900P)
+- MELA VINA LED Plain Mirror / 600mm (VIN.600P.LED)
+- MELA VINA LED Plain Mirror / 750mm (VIN.750P.LED)
+- MELA VINA LED Plain Mirror / 900mm (VIN.900P.LED)
+- MELA VINA LED Plain Mirror / 1200mm (VIN.1200P.LED)
+- MELA VINA LED Plain Mirror / 1500mm (VIN.1500P.LED)
+- MELA VINA LED Plain Mirror / 1800mm (VIN.1800P.LED)
+- MELA RORY Above Counter Basin / Default (RORY.ABOVE)
+- MELA MELVA Half Inset Basin / Default (MELVA.HALF)
+- MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers / Sorrento Oak (CLA.1800DW.SO)
+- BAT Cross Tile Spacers 1.5mm – 500 Pack / Default Title (X1.5x500)
+- BAT Tile Wedges Blue – 500 Pack / Default Title (W-500)
+- BAT Cross Tile Spacers 1.5mm – 1000 Pack / Default Title (X1.5x1000)
+- BAT Pro Razor Mesh Diamond Blade 125mm / Default Title (BD-MTR-125-R)
+- BAT Pro PVA Abrasive Wheels 100 mm – 10 Pack / 36 grit (coarse) (BP-PVA036/10)
+- BAT Pro PVA Abrasive Wheels 100 mm – 10 Pack / 120 grit (fine) (BP-PVA120/10)
+- BAT Eco SynSafe Acid / 1 L (SYNSAFE/1)
+- BAT Eco SynSafe Acid / 5 L (ETS-HW-016-5L)
+- BAT Eco SynSafe Acid / 20 L (ETS-HW-016-20L)
+- RLA Quick Set Liquid Additive – Cement Accelerator 5 L / Default Title (RL7610-5)
+- Click Heavy Duty Powerblock – 4 Outlet with RCBO Protection / Default Title (ETS-HW-018)
+
+## short description (<80 chars) (143)
+- MELA PALCO / RONDO Shower Arm
+- MELA FLOVA Hook
+- MELA FLOVA Hand Towel Rail
+- MELA FLOVA Soap Holder
+- MELA FLOVA Shelf Holder
+- MELA TRITON 310 Single Sink
+- MELA TRITON 450 Single Sink
+- MELA TRITON 550 Single Sink
+- MELA TRITON 770 Double Sink
+- MELA TRITON 35L Sink
+- MELA TRITON 45L Sink
+- MELA TRITON 765 Single Sink
+- MELA TRITON 1080 Double Sink
+- MELA TRITON 1200 Double Sink
+- MELA VERA Oval Mirror Cabinet
+- MELA VINA LED Plain Mirror
+- MELA ZOE 600 LED Arch Mirror
+- External Retro Cove Corner
+- Leveling Compound Mixer x 10mm Shaft
+- X Spacer – 10mm
+- Electroplated Diamond Core Drill
+- Electroplated Diamond Pin Drill
+- Premium Diamond Sintered Pin Drill
+- Siri Epoxy Grouting Kit
+- Sigma 90LC Sigma Swivel Measurement Bar
+- Sigma 90LB Sigma Swivel Measurement Bar
+- Sigma 24M20X Handle
+- Sigma 24M15X Handle
+- Sigma 24M10X Handle
+- Sigma 24E Handle
+- Sigma 24C Handle
+- Sigma 24AE Handle
+- Sigma 19N Square 260mm
+- Sigma 19D Square
+- Sigma 19C Square
+- Sigma 108362 M8 Nut for Locking Bolt
+- Backer Rod – Round Closed Cell – 10mm
+- Backer Rod – Round Closed Cell – 6mm
+- Caulking Sticks – Bag of 250
+- Vents
+- Sigma ART108621 Locking Bolt M8 x 40 for Series 3B,3C,3D models
+- Balcony Trim Joiner – fits all sizes – 8mm
+- Hydra Tilers Round Edge Sponge
+- Hydra Tilers Square Edge Sponge
+- Hydra Tilers Slater Sponge
+- Adhesive Mixer 140mm x 10mm Shaft (downward push)
+- Adhesive Mixer 100mm x 10mm Shaft (downward push)
+- Siri Yellow Epoxy Grouting Pad
+- Siri Black Epoxy Grouting Pad for Mosaic Tiles
+- Siri Blue Epoxy Grouting Pad
+- Swan Neck Gauging Trowel
+- Backer Rod – Square Open Cell – 20mm
+- 20 Litre Maxisil Bucket
+- Sigma complete right Support Arm ART484 for series 4
+- Sigma complete left Support Arm ART483 for series 4
+- Sigma Swivel Measurement Bar for 4DU ART90ND
+- Sigma Swivel Measurement Bar for 4CU ART90NC
+- Sigma Swivel Measurement Bar for 4BU ART90NB
+- Sigma Handle ART 24N for ART 4 Push series
+- Sigma Handle ART 24U for ART 4 Up series
+- Sigma Pro Grip Suction Cup ART51M4 mm for cross bar of Kera Lift 160mm dia
+- Sigma Pro Grip Suction Cup ART51M3 mm for straight bar of Kera Lift 1A6 – 1D3 160mm dia
+- Sigma Kera Flex Aluminium Suction Cup ART51P4, suits Kera Cut, 150mm dia, 90kg capacity
+- Sigma Laser for 4 series ART022
+- Replacement Clip for Eco Roller – Fits RDXT630
+- Paint Roller Handle – 75mm
+- 3 piece Spare Roller – 75mm for RDXT308
+- Segmented Diamond Blades – Orange
+- Mesh Rim Diamond Blades – Red
+- Continuous Rim Diamond Blades – Green
+- External Cove Aluminium Corner
+- Internal Cove Corner
+- Internal Retro Cove Corner
+- Square Edge Aluminium Corner
+- External Balcony Corner
+- Internal Balcony Corner
+- Pre Assembled Spindles
+- Deep T Spacer – 2mm
+- Deep T Spacer – 1.5mm
+- T Spacer – 3mm
+- T Spacer – 2mm
+- T Spacer – 1.5mm
+- Deep X Spacer – 2mm
+- Deep X Spacer – 1.5mm
+- X Spacer – 5mm
+- X Spacer – 3mm
+- X Spacer – 2mm
+- X Spacer – 1.5mm
+- Guardia Surface Protection
+- Sigma Titanium Wheel with axle ART14NT – 16mm dia
+- Sigma Spare Wheel with axle ART14N – 16mm dia
+- Sigma Titanium Wheel with axle ART14UT – 12mm dia
+- Sigma Spare Wheel with axle ART14U – 12mm dia
+- Maxisil Corner Nozzles 3 Pack
+- Paint Roller Handle – 230mm
+- Mixing Paddles Set (3) for Baron E120 Mixer
+- Hex Shank Adapter for Vacuum Brazed Drill Bit
+- Puddle Flange – Recessed
+- Economy Grout Float
+- M14 Adapter for Vacuum Brazed Drill Bit
+- Maxisil Spray Bottle – 500ml
+- Sigma Aluminium Workbench ART 63E – 180 x 100
+- Sigma Cutting Wheel ART14K suits Kera Cut – 19mm dia
+- Sigma Kera Flex Aluminium Suction Cup ART51C, suits Kera Cut, 120mm dia, 40kg capacity
+- Sigma Workbench Clamps (pair) ART 400
+- Sigma Jolly Edge ART37A3D with 115mm Blade (ART 75B)
+- Socket Bits (2) fits red spindle
+- Masking Tape
+- Pro Japanese Style Grout Float Timber Handle
+- SIRI Suction Cup (50kg lifting capacity)
+- Maxisil Silicone Nozzle Unblocker
+- Maxisil Applicator
+- Maxisil Extension Nozzles 6 Pk
+- Sigma Cutting Wheel ART14MX suits ART 3FM/3EK – 19mm
+- Sigma Titanium Wheel with axle ART14T – 12mm
+- Sigma Spare Wheel with axle ART14A – 12mm dia
+- Orange T Universal Spacing Plate – 100 pack
+- Orange Edge Universal Spacing Plate – 100 pack
+- Orange Cross Universal Spacing Plate – 100 pack
+- Blue T Universal Spacing Plate – 100 pack
+- Blue Edge Universal Spacing Plate – 100 pack
+- Blue Cross Universal Spacing Plate – 100 pack
+- Tile Wedges
+- Clear Packaging Tape
+- Pallet Wrap Dispenser
+- Pallet Wrap Roll
+- Handyman Knee Pad
+- Barwalt KN-1 Replacement Liners (pair)
+- Siri Green Clean Up Pad
+- Siri White Rinse Pad
+- Siri Brown Sponge – Fits RDXT609 Handle
+- Siri Yellow Sponge With Cuts – Fits RDXT609 Handle
+- Siri Yellow Sponge No Cuts – Fits RDXT609 Handle
+- Replacement Plastic Grid for Eco Roller – Fits RDXT630
+- SIRI Eco Roller Wash Up Bucket
+- Replacement Spiral Head for RDXT108
+- Caulking Gun 310ml
+- Blue Chalk Refill Bottle
+- Chalk Line Reel
+- Paint Roller and Tray
+- Tape Measure
+- White Rubber Mallet
+- Paint Scraper
+
+No problems found: $0 prices, compare-at prices, duplicate titles, duplicate SKUs, products missing from the Online Store or from collections.
