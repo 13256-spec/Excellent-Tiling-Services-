@@ -299,3 +299,6 @@ Sydney quote; tile + spacers to Sydney one combined "Shipping $15".
 1. Order comes in with "Freight quote". Book/price the freight.
 2. Orders → open the order → Edit → Add custom item "Freight" with the price → Update order → Send invoice.
 3. Dispatch once the invoice is paid. If the customer declines: More actions → Cancel order → refund in full.
+Later the same day: freight quote also added overseas (NZ, US, UK, UAE) for the Perth-only profile (tiles, large
+items) and the Dangerous goods profile (acids, primers; needs a DG-licensed forwarder), plus DG Australia over 100 kg.
+Tested: tile to UK / NZ and acid to NZ / US show the quote option; acid to Melbourne still $20 road.
