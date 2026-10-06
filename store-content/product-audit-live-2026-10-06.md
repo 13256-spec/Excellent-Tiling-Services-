@@ -366,3 +366,5 @@ No problems found: $0 prices, compare-at prices, duplicate titles, duplicate SKU
 - Photos added to 10 photo-less drafts: Sigma 90LE, 90LD, 90D3, 19B3, 14C (Ceramed, Sigma dealer); Baron F200/F300 mixer heads, F200/F300 main switches, rubber wheel (Baron's own image store). They stay drafts (other issues: price below cost).
 - Deleted 5 drafts with no photo anywhere: F300 paddles set, E120 power cable, Sigma 90DG bar, Sigma M8 square nut, Roberts Turbo Diamond Blade. Backup: deleted-no-photo-2-2026-10-06.json
 - Now every product in the store (live and draft) has at least one photo.
+- The 10 parts with new photos were "below cost" only because Roberts' list price had been entered as the cost. Every other Roberts item costs about 51% of list (median of 916 items), so cost set to list × 0.51 and tagged cost-estimated. Prices unchanged (about 96% of Roberts list, same as the live Roberts range): about 42% margin. Descriptions rewritten. All 10 published.
+- Same data error still on drafts: Baron F200 and F300 Forced Action Mixers, Tile Insert Linear Drain 76mm.
