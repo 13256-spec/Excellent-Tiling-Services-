@@ -240,3 +240,22 @@ rules go in. `other_products_shipping.py` reads a full catalogue export and cove
 
 Store totals now: 506 products, 367 `ship-parcel`, 139 `ship-local-only`, 73 `ship-bulky`, 5 `ship-dangerous-goods`.
 Nothing was published; MELA products stay draft.
+
+## ShipX set up and products published (6 Oct 2026)
+Owner entered 5 ShipX scenarios (SHIPX-CLICK-BY-CLICK.md). Storefront rate checks:
+
+| Cart | Result |
+| --- | --- |
+| Spacers 0.25 kg → Sydney | Australia Post Standard $15 |
+| SynSafe Acid 1.4 kg → Melbourne | Australia Post Parcel Post (road) $20 |
+| RLA additive 5.8 kg → Darwin | Australia Post Standard $39 |
+| Tile → Perth 6000 | Perth Local Delivery $130 |
+| Tile → Sydney | no rate (pickup only) |
+| 4 handles $1,257 → Melbourne | Australia Post Standard $0 |
+| Spacers → Auckland | Australia Post International (shown as USD 21 in the NZ market currency) |
+| Spacers → New York / London | Australia POst International $45 (typo in rate name) |
+| Acid → Auckland | no rate |
+
+Published 329 products (`published-2026-10-06.txt`): the 138 Roberts products and all 191 MELA products.
+40 drafts left untouched: $0 prices (BAT/Panther trowels, caulking gun, Panther and Roberts turbo blades), Baron
+parts all priced $372.95 (looks copied), and older Sigma/Baron/Roberts drafts that may duplicate live products.
