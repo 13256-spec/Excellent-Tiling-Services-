@@ -32,11 +32,15 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
    "Content-Type: image/png" --upload-file <file> "<url>"` (expect 200; copy the signed URL exactly, via a
    heredoc file, never retype it) → `fileCreate` with originalSource = the URL without its query string →
    query `files(query:"created_at:>...")` for the `cdn.shopify.com` URL once READY. Validate GraphQL first.
-2. `createScheduledPost` with blogId `7234377`, date `YYYY-MM-DDTHH:MM:SS+08:00`, and info containing
+   Videos (mp4): same flow with resource FILE, mimeType video/mp4, then fileCreate contentType FILE; the
+   READY GenericFile url is the cdn.shopify.com link.
+2. Main posts with a video go out as Reels: instagramData {type REEL, showReelOnFeed true}, facebookData
+   {type REEL}, videoCoverMilliseconds 1000. Story videos: type STORY, no text.
+3. `createScheduledPost` with blogId `7234377`, date `YYYY-MM-DDTHH:MM:SS+08:00`, and info containing
    `providers` [instagram, facebook], `publicationDate` {dateTime, timezone "Australia/Perth"}, `media`,
    `instagramData` {type POST|STORY}, `facebookData` {type POST|STORY}, `autoPublish` true.
    Stories: no `text`. Feed posts: Instagram needs at least one image; carousels up to 10.
-3. Record the returned id/uuid in a results file and commit it.
+4. Record the returned id/uuid in a results file and commit it.
 
 ## Links (what's possible)
 

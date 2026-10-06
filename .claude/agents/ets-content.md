@@ -25,6 +25,11 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
   showroom, delivery, trade, intro) use striking free photos from `marketing/image-library/` (ask
   `ets-image-scout` for more). Free photos are fine across socials; just don't caption them as a specific job.
 - Look at every render before handing it over; fix text over busy areas, tiny products, cut-off words.
+- Video with music (owner, 6 Oct 2026): after rendering, run `v2/source/make_video.py <dates>` to turn each
+  7:30 pm Story (10 s, 1080x1920) and 6:30 pm main post (12 s, 1080x1350, posted as a Reel) into a video with
+  a slow zoom and background music. 12:15 pm product posts stay as still images. Music must be CC0 only
+  (`v2/source/music/credits.json`; find more via the Openverse audio API with `license=cc0`). Never use
+  copyrighted songs. Instagram's own music library can't be added automatically, so don't promise it.
 - Old styles (`source/build.py` tile grid, `v2/source/build2.py` bottom strip) are retired.
 
 ## Captions

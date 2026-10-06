@@ -3,3 +3,4 @@ node_modules/
 __pycache__/
 marketing/finish-it-right/v2/source/out/
 marketing/finish-it-right/v2/source/_*.html
+marketing/finish-it-right/v2/source/outvid/*.mp4

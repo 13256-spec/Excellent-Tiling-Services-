@@ -1,0 +1,15 @@
+{"note": "6 Oct 2026: owner approved music. 7:30 pm Stories and 6:30 pm main posts for 7-12 Oct switched to videos with CC0 music (source/make_video.py). Main posts are now Instagram + Facebook Reels. 12:15 pm product posts stay as images.",
+ "posts": [
+  {"date":"2026-10-07","slot":"main","type":"REEL","id":389390054,"uuid":"-2650838767400170315","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-07-main.mp4"},
+  {"date":"2026-10-07","slot":"story","type":"STORY","id":389391092,"uuid":"114160800585958773","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-07-story.mp4"},
+  {"date":"2026-10-08","slot":"main","type":"REEL","id":389397094,"uuid":"-1024546065279729226","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-08-main.mp4"},
+  {"date":"2026-10-08","slot":"story","type":"STORY","id":389391134,"uuid":"7527614376438943182","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-08-story.mp4"},
+  {"date":"2026-10-09","slot":"main","type":"REEL","id":389397145,"uuid":"6986877502745888054","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-09-main.mp4"},
+  {"date":"2026-10-09","slot":"story","type":"STORY","id":389391452,"uuid":"2595617595723304477","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-09-story.mp4"},
+  {"date":"2026-10-10","slot":"main","type":"REEL","id":389397186,"uuid":"6802827279299464345","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-10-main.mp4"},
+  {"date":"2026-10-10","slot":"story","type":"STORY","id":389392397,"uuid":"1047003809545733728","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-10-story.mp4"},
+  {"date":"2026-10-11","slot":"main","type":"REEL","id":389397244,"uuid":"-8348281262057502895","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-11-main.mp4"},
+  {"date":"2026-10-11","slot":"story","type":"STORY","id":389396920,"uuid":"-3475093532215324749","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-11-story.mp4"},
+  {"date":"2026-10-12","slot":"main","type":"REEL","id":389397311,"uuid":"6146784666052412652","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-12-main.mp4"},
+  {"date":"2026-10-12","slot":"story","type":"STORY","id":389397049,"uuid":"-160212597746939643","media":"https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-vid-2026-10-12-story.mp4"}
+ ]}
