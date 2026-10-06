@@ -8,15 +8,19 @@ inside the app. The products are ready for it:
 
 | On the product | Meaning |
 | --- | --- |
-| Weight (every variant) | Packed weight (estimated) |
-| Metafield `shipping.box_size` (every Roberts variant) | Packed box, e.g. "35 x 15 x 8 cm" |
-| Tag `ship-parcel` (215 Roberts products) | Fits Australia Post (up to 22 kg, 105 cm longest side) |
-| Tag `ship-local-only` (39 products) | Australia Post can't take it: 3 m and 2.5 m trims, Sigma cutters 95 cm+, Baron mixers and heads, Sigma tables, Kera Cut / Lift, extension pole, floor scraper |
-| Tag `ship-dangerous-goods` (4) | Maxisil Primers 1215–1218: road only, no Express, nothing overseas |
-| Tag `ship-bulky` (15) | Big box for its weight (buckets, niche boxes, mixers, rollers, backer rod) |
+| Weight (every variant, all 506 products) | Packed weight (estimated) |
+| Metafield `shipping.box_size` (every variant, all 506 products) | Packed box, e.g. "35 x 15 x 8 cm" |
+| Tag `ship-parcel` (367 products) | Fits Australia Post (up to 22 kg, 105 cm longest side) |
+| Tag `ship-local-only` (139 products) | Australia Post can't take it. Roberts: 3 m and 2.5 m trims, Sigma cutters 95 cm+, Baron mixers and heads, Sigma tables, Kera Cut / Lift, extension pole, floor scraper. Bathroom City (MELA): vanities, baths, toilet suites, in-wall cisterns, shower screens and panels, kitchen sinks, tallboy, big mirror cabinets. All 48 tiles. |
+| Tag `ship-dangerous-goods` (5) | Maxisil Primers 1215–1218 and BAT SynSafe Acid: road only, no Express, nothing overseas |
+| Tag `ship-bulky` (73) | Big box for its weight: Roberts buckets, niche boxes, mixers, rollers, backer rod; MELA basins, sinks, mirrors, shower sets |
 
-Linear drains (5 products) come in parcel sizes (800 / 900 mm) and long sizes (1200 / 1500 mm), so they are **not**
-tagged local-only. The long SKUs are listed in step 3.
+Every product in the store now has a weight, a box size and a shipping tag (Roberts and Bathroom City drafts included),
+so they are ready when you publish them.
+
+Some products have small sizes that fit Australia Post and big sizes that don't, so they are **not** tagged local-only:
+Roberts linear drains, MELA VERA / VINA mirrors, MELA PORTER mirror cabinets and the 20 L SynSafe Acid. Their big SKUs
+are listed in step 3.
 
 ## Step 1 — Check Australia Post is connected in ShipX
 ShipX already shows "AUS PARCEL REGULAR – Parcel Post" and "AUS PARCEL EXPRESS – Express Post" at checkout, so an
@@ -28,10 +32,17 @@ ship-from address is Maddington WA 6109. Turn off any FedEx/UPS/other carriers.
 - Rates shown: **Perth local delivery** (your local delivery price) and **Pickup from Maddington** only.
 - Hide all Australia Post and international rates.
 
-## Step 3 — Rule: long linear drains (if ShipX can use SKUs)
-- Condition: cart contains any of these SKUs (1200 / 1500 mm drains):
+## Step 3 — Rule: big sizes of mixed products (if ShipX can use SKUs)
+- Condition: cart contains any of these SKUs.
+- Linear drains 1200 / 1500 mm:
   RDXD1075 RDXD1052 RDXD1076 RDXD1053 RDXD1071 RDXD1057 RDXD1072 RDXD1058 RDXD1091 RDXD1087 RDXD1092 RDXD1088
   RDXD1095 RDXD1067 RDXD1063 RDXD1068 RDXD1064 RDXD1098 RDXD1083 RDXD1079 RDXD1099 RDXD1084 RDXD1080
+- MELA mirrors 1200 mm and up:
+  VERA.1200 VERA.1200.LED VIN.1200P VIN.1500P VIN.1800P VIN.1200P.LED VIN.1500P.LED VIN.1800P.LED
+- MELA PORTER mirror cabinets 750 / 900 / 1200:
+  POR.750.SF POR.750.SO POR.750.WN POR.750.GW POR.900.SF POR.900.SO POR.900.WN POR.900.GW
+  POR.1200.SF POR.1200.SO POR.1200.WN POR.1200.GW
+- SynSafe Acid 20 L: ETS-HW-016-20L
 - Same as step 2: Perth delivery / pickup only.
 
 ## Step 4 — Rule: dangerous goods
@@ -86,8 +97,6 @@ Once saved, tell me. I'll test these carts and then publish the 138 Roberts prod
 | Baron E120 mixer | Perth delivery / pickup only |
 | Maxisil Primer 1218 to Melbourne | Parcel Post only; nothing to Auckland |
 | Any cart $1,000+ in Australia | Free |
-
-## Not covered yet
-The other live products (about 48 tiles and 8 BAT / RLA / Click items) have weights but no tags or box sizes. Under
-step 5 they'd get the weight price; tiles (about 22 kg per m²) should probably be `ship-local-only`. Ask Claude to
-tag them before switching the rules on.
+| Any tile | Perth delivery / pickup only |
+| MELA basin (about 8 kg, big box) to Brisbane | $59 (+$15 bulky if using the table) |
+| MELA vanity | Perth delivery / pickup only |

@@ -224,3 +224,19 @@ International overseas. Anything Australia Post can't take is Perth delivery / p
 `ship-fedex-freight` tags were removed; 39 products got `ship-local-only` (every `ship-long` / `ship-freight` product
 except the 5 linear drains, which also have parcel sizes). The record's `carrier` column and the shipping policy are
 back to Australia Post. `SHIPX-SETUP.md` was rewritten for this.
+
+## Every other product — weights, box sizes and tags (6 Oct 2026)
+Owner asked for every product, Bathroom City (MELA) included, to be set up the same way as Roberts before the Shipx
+rules go in. `other_products_shipping.py` reads a full catalogue export and covers the 252 products that had no
+`ship-` tag (191 MELA, 48 tiles, 13 BAT / Panther / RLA / Click), 760 variants:
+
+- Weight: every variant already had one; Shopify's weight is kept and the estimate is only used for the box.
+- Box: `shipping.box_size` metafield set on all 760 variants (from the size in the title / variant / description).
+- Tags: 152 `ship-parcel`, 100 `ship-local-only` (all tiles, vanities, baths, toilets, screens, sinks, tallboy,
+  big mirror cabinets), 58 `ship-bulky`, 1 `ship-dangerous-goods` (BAT SynSafe Acid).
+- Mixed products (small sizes fit Australia Post, big ones don't) are not tagged local-only; their big SKUs are in
+  SHIPX-SETUP.md step 3 (VERA / VINA 1200+ mirrors, PORTER cabinets, SynSafe Acid 20 L).
+- Record: `other-products-shipping-2026-10-06.csv` (per variant) and `other-products-shipping-tags.csv`.
+
+Store totals now: 506 products, 367 `ship-parcel`, 139 `ship-local-only`, 73 `ship-bulky`, 5 `ship-dangerous-goods`.
+Nothing was published; MELA products stay draft.
