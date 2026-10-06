@@ -180,3 +180,28 @@ products including tiles. Still out of date on the live site: header bar and FAQ
 Delivery & Pickup page ("Tiles are not shipped outside Perth"), shipping policy ("We do not ship internationally",
 "free over $100"). Social posts now avoid Perth-only wording and quote no shipping prices until a real checkout
 test confirms the Shipx rates.
+
+### Second pass: every product checked, box sizes in Shopify (6 Oct 2026)
+- All 254 Roberts products were checked one by one against their robertsdesigns.com.au page. Where Roberts gives a size
+  (sponges, pads, shelves, suction cups, stair trims, niche boxes, linear drains, mixers) the box follows it. Spacer and
+  wedge bags/buckets now have a box per pack size instead of one size for all.
+- 118 rows revised; 57 weights changed in Shopify (Sigma handles 0.9 → 0.6 kg, measuring bars 2 → 1.5 kg, sponges and
+  Siri pads 0.25 → 0.1–0.2 kg, suction cups, brass trims 18.5/22.5 mm, switches, chalk, tape measure, splash trowel).
+- **Box size is now stored on every live Roberts variant in Shopify**: metafield `shipping.box_size` ("Box size
+  (packed)", e.g. "35 x 15 x 8 cm"), shown under each variant in admin. 925 variants.
+- 12 variants in the old CSV no longer exist in Shopify (Flange 50mm Socket Weld, Recessed Flange Adapter, Retro Cove
+  Joiner, Sigma 90NE bar and 8 Sigma spare parts). They were dropped from both CSVs.
+
+### Live checkout test (Shipx app, 6 Oct 2026, cart rate lookup)
+| Item (weight) | Perth 6109 | Sydney 2000 | Darwin 0800 |
+| --- | --- | --- | --- |
+| Smoothtex 250ml (0.35 kg) | | Parcel Post $11.70, Express $15.20 | |
+| Smoothtex 1L, Siri epoxy kit, Sigma laser, 20L bucket, 2kg grout (1.2–2.3 kg) | $24.45 / $32.95 | $24.45 / $32.95 | $24.45 / $32.95 |
+| Maxisil grout 5 kg and 10 kg | none | none | none |
+| Sigma support arm (1.8 kg) | none | | |
+| Sigma measuring bar (2 kg) | Local Delivery $75 | none | none |
+| Baron E120 (90 kg), Sigma table (60 kg) | Local Delivery $75 | none | none |
+
+Shipx returns the same price to every state, nothing for grout 5–10 kg (even in Perth), and only Perth delivery for
+some light parcels. Its rules are set inside the Shipx app (not reachable through the Shopify API). Testing stopped
+when the site's bot check kicked in.
