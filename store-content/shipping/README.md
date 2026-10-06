@@ -259,3 +259,18 @@ Owner entered 5 ShipX scenarios (SHIPX-CLICK-BY-CLICK.md). Storefront rate check
 Published 329 products (`published-2026-10-06.txt`): the 138 Roberts products and all 191 MELA products.
 40 drafts left untouched: $0 prices (BAT/Panther trowels, caulking gun, Panther and Roberts turbo blades), Baron
 parts all priced $372.95 (looks copied), and older Sigma/Baron/Roberts drafts that may duplicate live products.
+
+## Moved off ShipX to Shopify's built-in shipping (6 Oct 2026)
+Owner is cancelling ShipX (~$30/month). The same rules are now in Shopify shipping profiles:
+
+| Profile | Variants | Rates |
+| --- | --- | --- |
+| General profile | everything else | Australia: Australia Post Standard by weight $15/$20/$29/$39/$59/$109/$179 (to 100 kg) + "Free shipping (orders $1,000+)". New Zealand: $29–$109 to 10 kg. US, UK, UAE: $45–$189 to 10 kg |
+| Dangerous goods (road only) | 7 (Maxisil primers, SynSafe 1 L / 5 L) | Australia only: Parcel Post (road) by weight + free over $1,000 |
+| Perth only (local delivery / pickup) | 645 (every non-parcel variant: tiles, vanities, baths, 3 m trims, big Sigma/Baron, long drains, big mirrors/cabinets, 20 L acid) | no shipping zones, so only Shopify Local delivery / Local pickup |
+
+Variant lists: `shopify-profile-variants-2026-10-06.json`. Checkout tests after the switch: spacers Sydney $15,
+acid Melbourne $20 road, 5.8 kg Darwin $39, $1,257 cart free (+ $20 option), Auckland $29, New York $45; tile,
+3 m trim and acid-to-NZ get no shipping rate (pickup / local delivery only). Local delivery ($130 / $180 zones) is a
+Shopify location setting the API can't read; the owner should confirm it's on.
+The ShipX carrier rate was removed from the General profile.
