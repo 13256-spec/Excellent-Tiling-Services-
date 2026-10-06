@@ -352,3 +352,9 @@
 - Paint Scraper
 
 No problems found: $0 prices, compare-at prices, duplicate titles, duplicate SKUs, products missing from the Online Store or from collections.
+
+## Fixes (6 Oct 2026)
+- MELA DAVISSON White: price $199 → $337 (same as the other colours; 5% under Bathroom City $355). Still 0 stock.
+- 89 vanity SKUs created (CLARK `CLA.<size><style>.<colour>`, PADDY `PAD.<size>.<colour>`, CLASSIC `CLS.<size>.<style>`),
+  list in `vanity-skus-2026-10-06.csv`. These are ETS codes, not MELA's own codes.
+- 201 products with any issue set to DRAFT for owner review: `drafted-for-review-2026-10-06.txt`.
