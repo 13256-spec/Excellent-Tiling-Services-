@@ -113,6 +113,15 @@ covered. `assets/ets-2026.js` holds back the email sign-up pop-up while a chat i
 position (left/right), greeting and AI settings are set in Shopify admin → Inbox → Chat settings;
 those admin colours are overridden by the theme CSS.
 
+## Laptop sizing
+
+The desktop layout was sized for large monitors, so on laptops (990-1600px wide) the site felt
+zoomed in. `assets/ets-refine.css` (bottom of the file) trims it for that range only: slimmer sticky
+header (about 107px instead of 130px once scrolled), smaller headings, department tiles four across
+instead of two, a shorter collection banner and smaller product titles. Phones and wider screens are
+unchanged. Two rules use `!important` to beat an inline banner shape and an earlier `!important`
+product-title size. Product breadcrumbs also show on one line instead of as a numbered list.
+
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.
