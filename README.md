@@ -138,6 +138,16 @@ injects its own styles later in the page, so the rules lead with `#shopify-pc__b
 under 900px the chat button hides while the banner is open. The banner text and whether it shows
 are set in Shopify admin > Settings > Customer privacy.
 
+## Recently viewed
+
+`sections/ets-recently-viewed.liquid`, placed first in the footer group so it shows above the
+footer on every page. It remembers the last 12 products a visitor opened (in their own browser's
+localStorage, key `ets-recently-viewed`; nothing is sent anywhere) and shows up to 6 of them:
+"Recently viewed" on product pages (leaving out the current product), "Pick up where you left off"
+on the home page. Hidden for first-time visitors. Products are loaded from `/products/<handle>.js`,
+whose prices are already in the visitor's currency. Headings, the Clear link and the number shown
+are editable in the theme editor (Footer group).
+
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.
