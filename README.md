@@ -129,6 +129,15 @@ rounded square with a real border, the photo inset inside it (product photos hav
 backgrounds, so without this the edges vanished and the grid looked patchy), bolder two-line names,
 bold prices and a small lift on hover. The collection grid shows five per row from 1200px wide.
 
+## Cookie banner
+
+Shopify's customer privacy banner is restyled in `assets/ets-refine.css` ("Cookie banner"): a
+compact card bottom-left on desktop and a bottom sheet on phones, Manrope type, brass top edge,
+equal-size Accept (navy) and Decline (outline) buttons, "Manage preferences" as a text link. Shopify
+injects its own styles later in the page, so the rules lead with `#shopify-pc__banner`. On screens
+under 900px the chat button hides while the banner is open. The banner text and whether it shows
+are set in Shopify admin > Settings > Customer privacy.
+
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.

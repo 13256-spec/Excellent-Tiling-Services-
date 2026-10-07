@@ -213,3 +213,46 @@ product-card product-price { font-weight: 700; color: var(--ets-ink); }
 @media (min-width: 1200px) {
   .product-grid.product-grid--grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
 }
+
+/* Cookie banner (Shopify's customer privacy banner). Shopify injects its own <style> later in the
+   page, so every rule here leads with the banner's id to win. Accept and Decline stay the same
+   size so declining is as easy as accepting. */
+#shopify-pc__banner.shopify-pc__banner__dialog {
+  left: 24px; right: auto; bottom: 24px; width: 400px; min-width: 0; max-width: calc(100vw - 48px);
+  padding: 22px 22px 18px;
+  background: var(--ets-surface);
+  border: 1px solid var(--ets-line);
+  border-top: 3px solid #c9a46c;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px -16px rgba(15, 26, 44, .35);
+  font-family: var(--ets-sans);
+}
+#shopify-pc__banner .shopify-pc__banner__wrapper { align-items: stretch; }
+#shopify-pc__banner .shopify-pc__banner__body { margin-bottom: 4px; }
+#shopify-pc__banner h2 { font: 700 16px/1.25 var(--ets-sans); color: var(--ets-ink); margin: 0 0 6px; }
+#shopify-pc__banner p { font-size: 13.5px; line-height: 1.5; color: var(--ets-ink-soft); }
+#shopify-pc__banner p a { color: var(--ets-ink); text-underline-offset: 2px; }
+#shopify-pc__banner .shopify-pc__banner__btns { flex-direction: row; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+#shopify-pc__banner button {
+  margin: 0; height: 44px; padding: 0 16px; border-radius: 999px;
+  font: 700 14px/1 var(--ets-sans); transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+#shopify-pc__banner button.shopify-pc__banner__btn-accept,
+#shopify-pc__banner button.shopify-pc__banner__btn-decline { flex: 1 1 0; border: 1.5px solid var(--ets-ink); }
+#shopify-pc__banner button.shopify-pc__banner__btn-accept { order: 1; background: var(--ets-ink); color: #fff; }
+#shopify-pc__banner button.shopify-pc__banner__btn-accept:hover { background: var(--ets-dark); }
+#shopify-pc__banner button.shopify-pc__banner__btn-decline { order: 2; background: transparent; color: var(--ets-ink); }
+#shopify-pc__banner button.shopify-pc__banner__btn-decline:hover { background: rgba(21, 33, 58, .06); }
+#shopify-pc__banner button.shopify-pc__banner__btn-manage-prefs {
+  order: 3; flex: 1 0 100%; height: auto; padding: 4px 0 0; text-align: center;
+  font-weight: 600; font-size: 13px; color: var(--ets-ink-soft); background: transparent; border: 0;
+}
+#shopify-pc__banner button:focus-visible { box-shadow: 0 0 0 3px rgba(201, 164, 108, .6); }
+@media (max-width: 600px) {
+  #shopify-pc__banner.shopify-pc__banner__dialog { left: 12px; right: 12px; bottom: 12px; width: auto; max-width: none; padding: 18px 18px 14px; }
+}
+/* On small screens the chat button would sit on the banner's buttons; it comes back once the
+   visitor chooses (Shopify hides the banner with an inline display: none). */
+@media (max-width: 899px) {
+  body:has(#shopify-pc__banner:not([style*='none'])) shopify-chat { visibility: hidden; }
+}
