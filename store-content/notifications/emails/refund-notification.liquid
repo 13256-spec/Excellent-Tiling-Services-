@@ -1,0 +1,8 @@
+{% comment %} ETS block for: Refund notification {% endcomment %}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0;background:#F6F4EF;border-left:4px solid #9C7744;border-radius:8px;">
+  <tr><td style="padding:18px 20px;font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:15px;line-height:1.55;">
+    <p style="margin:0 0 10px;font-size:17px;font-weight:bold;">Your refund is on its way{% if customer.first_name %}, {{ customer.first_name }}{% endif %}.</p>
+    <p style="margin:0 0 10px;">We've processed the refund shown below. It goes back to your original payment method, and your bank may take a few business days to show it.</p>
+    <p style="margin:0 0 10px;">Questions? Call or text <a href="tel:0450960543" style="color:#9C7744;font-weight:bold;">0450 960 543</a>, or reply to this email.</p>
+  </td></tr>
+</table>

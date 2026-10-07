@@ -1,0 +1,15 @@
+{% comment %} ETS block for: Order confirmation {% endcomment %}
+<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0;background:#F6F4EF;border-left:4px solid #9C7744;border-radius:8px;">
+  <tr><td style="padding:18px 20px;font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:15px;line-height:1.55;">
+    <p style="margin:0 0 10px;font-size:17px;font-weight:bold;">Thanks for your order{% if customer.first_name %}, {{ customer.first_name }}{% endif %}.</p>
+    <p style="margin:0 0 10px;">We've got order {{ order_name }} and we're getting it ready.</p>
+{% if delivery_method == 'pick-up' %}
+<p style="margin:0 0 10px;"><strong>Pickup:</strong> we'll email you when it's ready. Collect from 17A Olga Road, Maddington WA 6109, by appointment, Monday to Saturday, 4:30 pm to 9 pm. Bring your order number.</p>
+{% elsif delivery_method == 'local' %}
+<p style="margin:0 0 10px;"><strong>Perth delivery:</strong> we'll call or text to book a delivery time. Let us know about stairs or tight access for large items.</p>
+{% else %}
+<p style="margin:0 0 10px;"><strong>Delivery:</strong> some items come straight from our suppliers, so dispatch times vary. You'll get a tracking link as soon as it's on its way.</p>
+{% endif %}
+    <p style="margin:0 0 10px;">Questions? Call or text <a href="tel:0450960543" style="color:#9C7744;font-weight:bold;">0450 960 543</a>, or reply to this email.</p>
+  </td></tr>
+</table>
