@@ -217,3 +217,14 @@ customer-facing wording with no unverifiable claims:
 - Not changed (store content, not theme): the Care & Warranty page names "AUS Home Collection Group Pty Ltd (trading as
   Bathroom City)" as the MELA warrantor, and tile descriptions say "sold per sqm to the nearest full box" while the
   calculator rounds to whole m².
+
+## Chat button fix (draft theme, 7 Oct 2026)
+
+Shopify Inbox chat is live. On phones the homepage's sticky "Call / Free quote" bar (`ets-hero-full`) covered the
+Chat button, because Horizon puts `<shopify-chat>` in a z-index 8 dialog and the bar is z-index 40. Unpublished theme
+**"ETS – Chat button fix (draft)"** (gid://shopify/OnlineStoreTheme/143864528959), a duplicate of the live
+"ETS SEO + Schema Patch 2" theme, with `sections/ets-hero-full.liquid` from this repo (checksum matches). Phones and
+tablets only; desktop is unchanged:
+- While the bar shows, the Chat button sits just above it instead of underneath.
+- While the chat window is open, the bar slides away so it can't cover the "Ask anything" box; it comes back on close.
+- Publish it from Online Store → Themes after a preview on a phone.
