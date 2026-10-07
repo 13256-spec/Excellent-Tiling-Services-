@@ -122,6 +122,13 @@ instead of two, a shorter collection banner and smaller product titles. Phones a
 unchanged. Two rules use `!important` to beat an inline banner shape and an earlier `!important`
 product-title size. Product breadcrumbs also show on one line instead of as a numbered list.
 
+## Product cards
+
+Collection, search and carousel product cards (`assets/ets-refine.css`, "Product cards"): a white
+rounded square with a real border, the photo inset inside it (product photos have their own white
+backgrounds, so without this the edges vanished and the grid looked patchy), bolder two-line names,
+bold prices and a small lift on hover. The collection grid shows five per row from 1200px wide.
+
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.
