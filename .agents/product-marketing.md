@@ -1,10 +1,11 @@
 # Product Marketing Context
 
-**Document version:** v1
+**Document version:** v2
 **Last updated:** 2026-10-07
 
-*Drafted from this repo (README, `.claude/agents/`, `marketing/finish-it-right/`, `store-content/`, theme
-templates). Lines marked **[OWNER TO CONFIRM]** are gaps: fill them in rather than guessing.*
+*Sources: this repo (README, `.claude/agents/`, `marketing/finish-it-right/`, `store-content/`, theme), the live
+Tiling Services page, public Oneflare reviews, and Shopify analytics (7 Oct 2026). Items marked *(inferred)* are
+reasoned from those sources, not stated by the owner.*
 
 ## Product Overview
 **One-liner:** A Perth tiling business that sells the tiles, vanities and tapware it installs, with every price online.
@@ -70,7 +71,8 @@ installation jobs quoted after a free measure.
 - Free pickup in Maddington; delivery options shown at checkout.
 **How we do it differently:** Product range and installation in one business, priced in the open.
 **Why that's better:** One point of contact, products the installer trusts, no surprise prices.
-**Why customers choose us:** **[OWNER TO CONFIRM]** (ask recent customers why they picked ETS)
+**Why customers choose us:** From public reviews: they turn up on time, quote quickly, give good value, do
+quality work "with no fuss", and supply the tiles from their own shop. Repeat customers come back for more jobs.
 
 ## Objections
 | Objection | Response |
@@ -80,17 +82,24 @@ installation jobs quoted after a free measure.
 | "Will it look right / am I buying the right amount?" | DM a photo of the room or call 0450 960 543; tile calculator on each tile page. |
 | "Do you deliver to me?" | "We deliver, or pick up free in Maddington. Shipping options show at checkout." Installation and the free measure and quote are Perth metro only. |
 
-**Anti-persona:** Shoppers who only want the lowest possible price on a single MELA item; installation customers outside Perth metro.
+**Anti-persona** *(inferred)*: Shoppers who only want the lowest possible price on a single MELA item (Bathroom City is sometimes cheaper, and we don't follow prices below the profit floor); installation customers outside Perth metro.
 
 ## Switching Dynamics
 **Push:** Showroom hours that clash with work, "call for price", juggling a supplier and a tiler separately.
 **Pull:** Prices online, evening showroom, one team for products and install, free measure and quote.
 **Habit:** "I always go to Bunnings / my builder sorts it."
-**Anxiety:** A newer online store they haven't heard of; whether the install will be done well. **[OWNER TO CONFIRM]** what proof answers this (reviews, job photos, licence numbers).
+**Anxiety:** A newer online store they haven't heard of; whether the install will be done well. Answer with: licensed & insured, tiling Perth since 2011 (both on the live Services page), real reviews, and real job photos.
 
 ## Customer Language
-**How they describe the problem:** **[OWNER TO CONFIRM]** (copy real words from DMs, quote requests and reviews; don't invent them)
-**How they describe us:** **[OWNER TO CONFIRM]**
+**How they describe the problem** *(inferred from what reviewers praise)*: wanting someone who shows up, quotes
+promptly, gives a fair price and does the job properly.
+**How they describe us** (public Oneflare reviews, found via search on 7 Oct 2026; re-check the wording on the live listing before quoting it publicly):
+- "extremely pleased with the porcelain 600 X 600 tile that he supplied from his shop and the overall quality of the job"
+- "showed up on time and completed the job very well with no fuss"
+- "Great service, quick, impressive work"
+- "very prompt in coming to quote our job and gave us the best value quote for money"
+*Their words to reuse:* on time, no fuss, prompt quote, quality of the job, supplied from his shop, value for money.
+Still worth collecting: wording from DMs and quote requests (Gmail and Instagram).
 **Words to use:** bathroom, laundry, reno, vanity, basin, tapware, shower mixer, porcelain tiles, floating vanity, pick up free in Maddington, free measure and quote, trade account, real price, Perth.
 **Words to avoid:** elevate, transform, stunning, seamless, curated, timeless elegance, discover, unlock, game-changer, "cheaper than", "best price in Perth", "Perth only", "small items", SKU codes, the tile supplier's name. No more than one exclamation mark and two emojis per post.
 **Glossary:**
@@ -108,9 +117,14 @@ installation jobs quoted after a free measure.
 **Visual:** Navy #1F3153, deep navy #16243E, tile blue #4C8ED9, porcelain white #F4F5F3, grout grey #C3C8CC; Archivo typeface; 4-column tile grid with 6 px grout lines; sentence case; no gradients or template-looking graphics.
 
 ## Proof Points
-**Metrics:** ~430–500 live products, 5–25% trade discount. **[OWNER TO CONFIRM]** jobs completed, years in business.
-**Customers:** **[OWNER TO CONFIRM]**
-**Testimonials:** None on file. Only use real, approved Google reviews (fake reviews breach the Australian Consumer Law).
+**Metrics:** Tiling Perth since 2011; licensed & insured (both stated on the live Tiling Services page, ABN 63 150 082 054);
+~430–500 live products; 5–25% trade discount. *Copy rule: the copy-review agent still wants the owner's OK before
+"since 2011" goes into a post.*
+**Customers:** Perth homeowners and repeat residential customers (reviews). No named clients or logos.
+**Testimonials** (public Oneflare reviews; only real reviews, never invented ones — fake reviews breach the Australian Consumer Law):
+> "extremely pleased with the porcelain 600 X 600 tile that he supplied from his shop and the overall quality of the job" — Oneflare review
+> "showed up on time and completed the job very well with no fuss" — Oneflare review
+Few reviews so far: collecting Google reviews from past customers (`ets-community`) is a priority.
 **Value themes:**
 | Theme | Proof |
 |-------|-------|
@@ -118,12 +132,19 @@ installation jobs quoted after a free measure.
 | Fits around work | Showroom Mon–Sat 4:30–9 pm by appointment |
 | One team | Licensed team does strip-out, waterproofing, tiling and fit-off with products from the range (confirmed by owner, 5 Oct 2026) |
 | Convenience | Free pickup at 17A Olga Road, Maddington |
+| Reliability | Reviews: "showed up on time", "very prompt in coming to quote" |
 
 ## Goals
 **Business goal:** Grow online sales and installation jobs from free channels (Instagram, Facebook, Marketplace, Perth reno groups, Google Business) without discounting below the 20% profit floor.
 **Conversion action:** Buy online; also book a showroom visit, request a free measure and quote, or apply for a trade account.
-**Current metrics:** **[OWNER TO CONFIRM]** (weekly results come from the `ets-analytics` agent; targets are in the Finish It Right campaign doc)
+**Current metrics** (Shopify, as of 7 Oct 2026; the online store is new, with sessions recorded from Sep 2026):
+- Sep 2026: 719 sessions, 0 orders. 1–7 Oct: 338 sessions, 2 orders, $125.63 net sales (silicone, sealant, a tile cutter: DIY/trade consumables).
+- Traffic sources (last 40 days): direct 935, Google 65, Instagram 30, Facebook 14, Bing 3.
+- About 70% of sessions show as United States, most likely bots or crawlers; about 265 are from Australia. Judge conversion on Australian sessions.
+- Weekly results come from the `ets-analytics` agent; targets are in the Finish It Right campaign doc.
+**Implication:** The near-term job is getting real Australian visitors (social, Google, Marketplace, reno groups) and turning them into first orders and quote requests, while installation jobs carry the revenue.
 
 ## Changelog
 *Newest first. One line per revision: what changed and why.*
+- v2 (2026-10-07) — Filled gaps from real sources: live Services page (since 2011, licensed & insured), Oneflare review quotes for customer language and proof, Shopify traffic and sales; marked inferred items.
 - v1 (2026-10-07) — Initial context, drafted from the repo; customer quotes, reviews and metrics left for the owner.
