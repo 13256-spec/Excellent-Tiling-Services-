@@ -7,7 +7,12 @@ Owner: "only spend our money on the tapwares and items that can be delivered and
 The one asset group ("Performance Max-1") **excludes** these product types (freight quote only):
 Tile, Wall Hung Vanity, Double Wall Hung Vanity, Bathroom Tallboy, Freestanding Bath, Corner Bath,
 Back to Wall Bath, Inset Bath, Toilet Suite, In Wall Cistern Toilet, Corner Shower Screen,
-Frameless Shower Panel, Shower Screen Fitting. Everything else is advertised: MELA tapware, basins,
+Frameless Shower Panel, Shower Screen Fitting, and the trim types that only come in 3 m / 2.5 m lengths
+(Diminishing trim, Expansion Trim, Notched Trim, PVC trim, Ramp Trim, Retro Fit Angle, Round edge, Stair Trim,
+T Shaped Trim, Tile Trims + Edging Profiles, L Shaped Trim — this also drops the three 1 m L-shape trims).
+Still advertised although Perth delivery/pickup only: 3 m balcony, cove, retro cove and square edge trims,
+linear drains 1200 mm+, the Sigma table/workbench, Baron mixer head, extension pole and floor scraper
+(their product types also contain postable items). Everything else is advertised: MELA tapware, basins,
 sinks, mirrors and accessories, and the whole Roberts Designs range (Roberts Designs, Sigma, Maxisil,
 Siri, Baron, BAT, Barwalt, Panther, Click, RLA). Images: MELA BRUNO basin mixer and Sigma tile cutter.
 Sitelinks: Tapware & Showers, Tiling Tools & Hardware, Bathroom Basins, Mirrors & Accessories.
