@@ -47,7 +47,8 @@ Send 7 days after the order is fulfilled.
 - **Preview text:** One minute, and it helps a local business a lot.
 - **Heading:** Thanks for your order
 - **Body:** We hope everything arrived in good shape. If anything isn't right, reply to this email and we'll sort it out. If you're happy, a quick Google review helps other Perth renovators find us.
-- **Button:** Leave a Google review → link: **[Google review link]**. Get it from Google Business Profile → "Ask for reviews" → copy link, and paste it here before turning this on.
+- **Button:** Leave a Google review → link: https://search.google.com/local/writereview?placeid=ChIJJ1zzJya-MioR2YywWzXHAJo
+  (Google Business Profile "Excellent Tiling Services PTY LTD"; it asks the customer to sign in to Google first.)
 
 ### 4. Win-back (template: "Win back customers")
 Send 90 days after the last order.

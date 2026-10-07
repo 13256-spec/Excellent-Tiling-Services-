@@ -1,6 +1,6 @@
 # Product Marketing Context
 
-**Document version:** v2
+**Document version:** v3
 **Last updated:** 2026-10-07
 
 *Sources: this repo (README, `.claude/agents/`, `marketing/finish-it-right/`, `store-content/`, theme), the live
@@ -124,7 +124,9 @@ Still worth collecting: wording from DMs and quote requests (Gmail and Instagram
 **Testimonials** (public Oneflare reviews; only real reviews, never invented ones — fake reviews breach the Australian Consumer Law):
 > "extremely pleased with the porcelain 600 X 600 tile that he supplied from his shop and the overall quality of the job" — Oneflare review
 > "showed up on time and completed the job very well with no fuss" — Oneflare review
-Few reviews so far: collecting Google reviews from past customers (`ets-community`) is a priority.
+Google: 4.6 stars from 10 reviews (Google Business Profile, checked 8 Oct 2026). Review link:
+https://search.google.com/local/writereview?placeid=ChIJJ1zzJya-MioR2YywWzXHAJo
+More Google reviews from past customers (`ets-community`) is still a priority. Re-check the rating before quoting it publicly.
 **Value themes:**
 | Theme | Proof |
 |-------|-------|
@@ -146,5 +148,6 @@ Few reviews so far: collecting Google reviews from past customers (`ets-communit
 
 ## Changelog
 *Newest first. One line per revision: what changed and why.*
+- v3 (2026-10-08) — Added Google rating (4.6 from 10 reviews) and the Google review link to Proof Points.
 - v2 (2026-10-07) — Filled gaps from real sources: live Services page (since 2011, licensed & insured), Oneflare review quotes for customer language and proof, Shopify traffic and sales; marked inferred items.
 - v1 (2026-10-07) — Initial context, drafted from the repo; customer quotes, reviews and metrics left for the owner.

@@ -15,6 +15,8 @@ HI = "{% if customer.first_name %}, {{ customer.first_name }}{% endif %}"
 ADDRESS = "17A Olga Road, Maddington WA 6109"
 HOURS = "by appointment, Monday to Saturday, 4:30 pm to 9 pm"
 SITE = "https://excellenttilingservice.com.au"
+REVIEW = "https://search.google.com/local/writereview?placeid=ChIJJ1zzJya-MioR2YywWzXHAJo"
+REVIEW_ASK = "Happy with your order? A quick Google review helps other Perth renovators find us."
 
 
 def button(label, url):
@@ -84,7 +86,9 @@ BLOCKS = {
         f"Your order has been delivered{HI}.",
         "Please check everything before you install it. Something damaged, missing or wrong? Send us your order number and a few photos and we'll fix it.",
         f"Need a hand with the job? Our licensed team does tiling and bathroom work across Perth, starting with a free measure and quote.",
-        button("Get a free quote", f"{SITE}/pages/request-a-quote"))),
+        button("Get a free quote", f"{SITE}/pages/request-a-quote"),
+        REVIEW_ASK,
+        button("Leave a Google review", REVIEW))),
     # Local pickup
     "ready-for-local-pickup": ("Ready for local pickup", block(
         f"Your order is ready to collect{HI}.",
@@ -94,7 +98,8 @@ BLOCKS = {
     "picked-up-by-customer": ("Picked up by customer", block(
         f"Thanks for picking up your order{HI}.",
         "If anything isn't right once you open it, send us your order number and a few photos and we'll sort it out.",
-        HELP)),
+        REVIEW_ASK,
+        button("Leave a Google review", REVIEW))),
     # Local delivery
     "local-delivery-out-for-delivery": ("Local delivery: out for delivery", block(
         f"We're on our way{HI}.",
@@ -103,7 +108,8 @@ BLOCKS = {
     "local-delivery-delivered": ("Local delivery: delivered", block(
         f"Your order has been delivered{HI}.",
         "Please check everything before you install it. If something is damaged or missing, send us your order number and a few photos.",
-        HELP)),
+        REVIEW_ASK,
+        button("Leave a Google review", REVIEW))),
     "local-delivery-missed": ("Local delivery: missed", block(
         f"Sorry we missed you{HI}.",
         f"We tried to deliver your order today but couldn't drop it off. Call or text {PHONE} and we'll book a new time.")),

@@ -13,6 +13,8 @@ Monday to Saturday 4:30 to 9 pm, closed Sunday). The owner is busy: give him tex
   give the price and the product link, and offer a showroom time or a call. Never argue.
 - **Reviews**: draft the Google review request message (SMS/email) for recent customers (Shopify orders,
   with the owner's OK); draft replies to Google reviews, thanking by first name, fixing bad ones politely.
+  Review link (Google Business Profile "Excellent Tiling Services PTY LTD", place ID ChIJJ1zzJya-MioR2YywWzXHAJo):
+  https://search.google.com/local/writereview?placeid=ChIJJ1zzJya-MioR2YywWzXHAJo
 - **Facebook Marketplace**: 2 listings a day (8:30 am slot). Title with product name and price, 3–5 lines
   of description, pickup in Maddington or delivery, link to the product. Use the store's own photos.
 - **Perth renovation groups** (3:30 pm slot): answer people's tiling and bathroom questions properly
