@@ -1,5 +1,20 @@
 # Google Ads: product asset groups (8 Oct 2026)
 
+## Current setup (owner decision, 8 Oct 2026)
+
+Campaign renamed **ETS | AU + NZ | Shopping**: Australia and New Zealand only, $10/day, runs to 30 Nov 2026.
+Owner: "only spend our money on the tapwares and items that can be delivered and Roberts Design, so no tiles for now".
+The one asset group ("Performance Max-1") **excludes** these product types (freight quote only):
+Tile, Wall Hung Vanity, Double Wall Hung Vanity, Bathroom Tallboy, Freestanding Bath, Corner Bath,
+Back to Wall Bath, Inset Bath, Toilet Suite, In Wall Cistern Toilet, Corner Shower Screen,
+Frameless Shower Panel, Shower Screen Fitting. Everything else is advertised: MELA tapware, basins,
+sinks, mirrors and accessories, and the whole Roberts Designs range (Roberts Designs, Sigma, Maxisil,
+Siri, Baron, BAT, Barwalt, Panther, Click, RLA). Images: MELA BRUNO basin mixer and Sigma tile cutter.
+Sitelinks: Tapware & Showers, Tiling Tools & Hardware, Bathroom Basins, Mirrors & Accessories.
+To bring tiles or bulky items back, remove their types from the exclusion.
+
+The groups below are optional, for when the budget grows. Skip the tiles step while tiles are paused.
+
 Campaign **ETS | 5 Markets | Shopping Test** (Performance Max, account 6204790591, $10/day).
 The existing asset group "Performance Max-1" covers every product. Add the two groups below in
 Google Ads → Campaigns → this campaign → Asset groups → **+ New asset group**. They were checked
