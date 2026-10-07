@@ -148,6 +148,17 @@ on the home page. Hidden for first-time visitors. Products are loaded from `/pro
 whose prices are already in the visitor's currency. Headings, the Clear link and the number shown
 are editable in the theme editor (Footer group).
 
+## Page numbers and Load more
+
+Collection and search pages show 20 products per page (4 rows of 5 on laptops) instead of
+scrolling endlessly: "Automatically load products" is off and "Products per page" is 20 in
+`templates/collection.json` and `templates/search.json`. Below the products sit "Page X of Y",
+a "Load more products" button and the theme's page numbers. The button
+(`sections/ets-load-more.liquid`, first in the footer group) adds the next page under the
+current products and updates the page numbers and address; the numbers still jump to any page.
+It reappears after filtering or sorting, and falls back to opening the next page if the request
+fails. Its wording is editable in the theme editor (Footer group).
+
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.

@@ -11,6 +11,14 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "ets_load_more": {
+      "type": "ets-load-more",
+      "settings": {
+        "button_label": "Load more products",
+        "loading_label": "Loading…",
+        "page_of": "Page [page] of [pages]"
+      }
+    },
     "ets_recently_viewed": {
       "type": "ets-recently-viewed",
       "settings": {
@@ -56,6 +64,7 @@
     }
   },
   "order": [
+    "ets_load_more",
     "ets_recently_viewed",
     "ets_footer",
     "ets_news_popup"

@@ -133,7 +133,9 @@
         "padding-inline-end": 0,
         "background_color": "#FFFFFF",
         "padding-block-start": 16,
-        "padding-block-end": 64
+        "padding-block-end": 64,
+        "enable_infinite_scroll": false,
+        "products_per_page": 20
       }
     },
     "selling_points": {
