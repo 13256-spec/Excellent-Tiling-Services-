@@ -103,6 +103,16 @@ Settings → Policies (the API connector used here can't write legal policies).
 - Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
   end in "| ETS Perth", so titles stay inside Google's display limit.
 
+## Shopify Inbox chat
+
+The Inbox chat button and window are styled from the theme in `assets/ets-refine.css` (bottom of
+the file) through the variables and `::part(activator)` hook Shopify exposes: navy button with a
+brass edge, Manrope font, white chat window. On phones the button sits above the sticky
+"Call / Free quote" bar, and the bar slides away while the chat is open so the message box isn't
+covered. `assets/ets-2026.js` holds back the email sign-up pop-up while a chat is open. Button text,
+position (left/right), greeting and AI settings are set in Shopify admin → Inbox → Chat settings;
+those admin colours are overridden by the theme CSS.
+
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.

@@ -323,7 +323,8 @@
 
     const delay = (parseInt(pop.dataset.delay, 10) || 12) * 1000;
     let armed = false;
-    const fire = () => { cleanup(); open(); };
+    // Don't cover a Shopify Inbox chat the visitor has open.
+    const fire = () => { cleanup(); if (!$('shopify-chat[open]')) open(); };
     const timer = setTimeout(fire, delay);
     const exit = (e) => { if (armed && !e.relatedTarget && e.clientY <= 0) fire(); };
     const armTimer = setTimeout(() => { armed = true; }, 4000);

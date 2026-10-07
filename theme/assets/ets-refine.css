@@ -103,3 +103,25 @@ body h1, body h2, body .h1, body .h2,
 /* Card and panel titles: same weight as the rest of the headings */
 .ets h3 { font-family: var(--ets-sans); font-weight: 700; letter-spacing: -.01em; }
 .ets-rate strong { font-size: clamp(24px, 2.4vw, 34px); line-height: 1; white-space: nowrap; }
+
+/* Shopify Inbox chat: brand colours, and lifted clear of the mobile call / free-quote bar.
+   The widget lives in a shadow root; Shopify exposes these variables and the "activator" part. */
+shopify-chat {
+  --shopify-chat-text-color: var(--ets-ink);
+  --shopify-chat-bg-color: var(--ets-surface);
+  --shopify-chat-accent-bg-color: var(--ets-ink);
+  --shopify-chat-border-radius: 14px;
+  --shopify-chat-body-font-family: var(--ets-sans);
+}
+shopify-chat::part(activator) {
+  background-color: var(--ets-ink);
+  color: var(--ets-white);
+  font-weight: 700;
+  box-shadow: inset 0 0 0 1.5px #c9a46c, 0 8px 24px rgba(15, 26, 44, .28);
+}
+shopify-chat::part(activator):hover { background-color: var(--ets-dark); }
+@media (max-width: 989px) {
+  body:has(.ets-hf-bar.is-on) shopify-chat { --shopify-chat-activator-offset: calc(80px + env(safe-area-inset-bottom)); }
+  /* The open chat window needs the whole screen, so the bar steps aside while it's open. */
+  body:has(shopify-chat[open]) .ets-hf-bar { transform: translateY(110%); }
+}
