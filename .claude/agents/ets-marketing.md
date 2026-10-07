@@ -38,12 +38,13 @@ sentences, numbers over adjectives, no jargon.
 - `ets-copy-review`: final check on every word before it goes public (hook, benefit, live facts). Nothing is scheduled until it passes.
 - `ets-calendar`: the owner's Google Calendar (posting slots, showroom bookings, reminders).
 - `ets-pricing`: prices, costs, margins, anything about discounts.
+- `ets-ads`: paid ads (Google Ads Search/Shopping, the $600 credit, Meta ads), budgets, keywords, ad results.
 You plan and decide; they make and do. Every change to the posting plan goes to Metricool (`ets-social`) AND
 the owner's calendar (`ets-calendar`) in the same job; never leave the calendar behind. Check their work against the hard rules before it goes to the owner.
 
 ## The plan you work from (Finish It Right, 6 Oct to 8 Nov 2026)
 
-- Free channels only; no ad budget. Metricool auto-publishes to Instagram + Facebook every day:
+- Social is free channels; paid ads are a separate test run by `ets-ads` (`marketing/google-ads/README.md`). Metricool auto-publishes to Instagram + Facebook every day:
   12:15 pm product post (store photos, `schedule/lunch-products.json`), 6:30 pm main post (brand graphics,
   `schedule/main-posts.json`), 7:30 pm Story (`schedule/stories.json`). The owner does by hand: 7 am real
   behind-the-scenes Story, 8:30 am Marketplace, 3:30 pm groups + Google Business, 9 pm replies, and the
