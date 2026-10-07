@@ -105,21 +105,44 @@ body h1, body h2, body .h1, body .h2,
 .ets-rate strong { font-size: clamp(24px, 2.4vw, 34px); line-height: 1; white-space: nowrap; }
 
 /* Shopify Inbox chat: brand colours, and lifted clear of the mobile call / free-quote bar.
-   The widget lives in a shadow root; Shopify exposes these variables and the "activator" part. */
+   The widget lives in a shadow root; Shopify exposes these variables and the "activator" and
+   "dialog" parts. The messages themselves sit in an iframe that only takes the variables. */
 shopify-chat {
   --shopify-chat-text-color: var(--ets-ink);
-  --shopify-chat-bg-color: var(--ets-surface);
+  --shopify-chat-bg-color: var(--ets-bg);
   --shopify-chat-accent-bg-color: var(--ets-ink);
-  --shopify-chat-border-radius: 14px;
+  --shopify-chat-accent-text-color: var(--ets-white);
+  --shopify-chat-border-radius: 18px;
   --shopify-chat-body-font-family: var(--ets-sans);
+  --shopify-chat-heading-font-family: var(--ets-sans);
+  --shopify-chat-activator-font-size: 15px;
 }
 shopify-chat::part(activator) {
   background-color: var(--ets-ink);
   color: var(--ets-white);
   font-weight: 700;
-  box-shadow: inset 0 0 0 1.5px #c9a46c, 0 8px 24px rgba(15, 26, 44, .28);
+  letter-spacing: .01em;
+  padding-inline: 20px 22px;
+  border-radius: 999px;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: inset 0 0 0 1.5px #c9a46c, 0 10px 28px -6px rgba(15, 26, 44, .45);
+  transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease;
 }
-shopify-chat::part(activator):hover { background-color: var(--ets-dark); }
+shopify-chat::part(activator):hover {
+  background-color: var(--ets-dark);
+  transform: translateY(-2px);
+  box-shadow: inset 0 0 0 1.5px #c9a46c, 0 14px 32px -6px rgba(15, 26, 44, .5);
+}
+/* Solid window (Shopify's default is see-through) with a brass top edge */
+shopify-chat::part(dialog) {
+  background-color: var(--ets-bg);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid var(--ets-line);
+  border-top: 3px solid #c9a46c;
+  box-shadow: 0 24px 60px -12px rgba(15, 26, 44, .35);
+}
 @media (max-width: 989px) {
   body:has(.ets-hf-bar.is-on) shopify-chat { --shopify-chat-activator-offset: calc(80px + env(safe-area-inset-bottom)); }
   /* The open chat window needs the whole screen, so the bar steps aside while it's open. */

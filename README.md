@@ -106,8 +106,8 @@ Settings → Policies (the API connector used here can't write legal policies).
 ## Shopify Inbox chat
 
 The Inbox chat button and window are styled from the theme in `assets/ets-refine.css` (bottom of
-the file) through the variables and `::part(activator)` hook Shopify exposes: navy button with a
-brass edge, Manrope font, white chat window. On phones the button sits above the sticky
+the file) through the variables and `::part(activator)` / `::part(dialog)` hooks Shopify exposes:
+navy pill button with a brass ring, Manrope font, solid cream chat window with a brass top edge. On phones the button sits above the sticky
 "Call / Free quote" bar, and the bar slides away while the chat is open so the message box isn't
 covered. `assets/ets-2026.js` holds back the email sign-up pop-up while a chat is open. Button text,
 position (left/right), greeting and AI settings are set in Shopify admin → Inbox → Chat settings;
