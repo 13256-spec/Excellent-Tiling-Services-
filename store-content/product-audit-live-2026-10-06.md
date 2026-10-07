@@ -369,3 +369,8 @@ No problems found: $0 prices, compare-at prices, duplicate titles, duplicate SKU
 - The 10 parts with new photos were "below cost" only because Roberts' list price had been entered as the cost. Every other Roberts item costs about 51% of list (median of 916 items), so cost set to list × 0.51 and tagged cost-estimated. Prices unchanged (about 96% of Roberts list, same as the live Roberts range): about 42% margin. Descriptions rewritten. All 10 published.
 - Same data error still on drafts: Baron F200 and F300 Forced Action Mixers, Tile Insert Linear Drain 76mm.
 - 7 Oct: same cost fix on Baron F200 (cost 3,280.40) and F300 (4,392.40) mixers (list × 0.556, Baron E120 ratio) and Tile Insert Linear Drain 76mm 1500mm Gold (275.40, list × 0.51). Tagged cost-estimated, prices unchanged (F200 $5,722.95 vs UK ~£4,450 inc VAT). Mixer descriptions given an intro; F300 "180kg" weight removed (copied from F200). All 3 published.
+- 7 Oct: last 31 drafts published (0 drafts left, 488 live).
+  - Sigma cutters, Kera Cut, maxi grip trowel, sausage gun, splash trowel: new descriptions (specs from Sigma/Ceramed). Kera Lift raised $3,239.95 → $3,424.95 (cost × 1.1 × 1.25 floor; still 23% under Roberts list).
+  - $0 items priced ~8% under Adheseal inc GST: BAT Pro 12mm trowel $29.50, Panther trowel $11.75, Panther blade (105mm, renamed) $30.00. Heavy Duty Caulking Gun (brand unknown) $29.95 — owner to confirm.
+  - DAVISSON White was matched to Bathroom City's Matt White: now $189 (5% under BC White $199), cost 126.64, untracked/continue selling like the other colours.
+  - 13 BAT/RLA/Click/Panther items have no cost: tagged cost-needed (all in showroom stock, so kept).
