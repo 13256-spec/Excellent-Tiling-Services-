@@ -17,6 +17,7 @@ safely. Written for the owner and for the `ets-pricing` agent (`.claude/agents/e
 | MELA bathroomware | via Bathroom City | Bathroom City list price × (1 − SILVER trade discount) ÷ 1.1 | ex GST |
 | Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify | ex GST |
 | BAT, RLA, Click (a few items) | – | **no cost recorded**, prices left alone | – |
+| BAT Trims 2023-24 catalogue (40 draft products, `../bat-trims/`) | BAT Trims (Adam) | trade price list requested, fill `cost_ex_gst` in `bat-trims/bat-variants.csv` | ex GST |
 
 SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off the GST-inclusive list price:
 vanity package & handles 25%, basins 30%, tapware 40%, accessories 35%, mirrors & PORTER cabinets 25%,
