@@ -272,7 +272,7 @@
     },
     "sku": "AA-12-3-UP",
     "cost": 7.2,
-    "price": 15.85,
+    "price": 15.65,
     "weight": 0.48,
     "box": "305 x 8 x 6 cm"
    },
@@ -338,7 +338,7 @@
     },
     "sku": "AA-15-3-UP",
     "cost": 8.6,
-    "price": 18.95,
+    "price": 16.9,
     "weight": 0.5,
     "box": "305 x 8 x 6 cm"
    },
@@ -661,7 +661,7 @@
     },
     "sku": "AA-121216-3-MG",
     "cost": 7.4,
-    "price": 16.3,
+    "price": 15.85,
     "weight": 0.44,
     "box": "305 x 8 x 8 cm"
    },
@@ -672,7 +672,7 @@
     },
     "sku": "AA-121216-3-MW",
     "cost": 7.4,
-    "price": 16.3,
+    "price": 15.85,
     "weight": 0.44,
     "box": "305 x 8 x 8 cm"
    },
@@ -705,7 +705,7 @@
     },
     "sku": "AA-161616-3-MBK",
     "cost": 7.85,
-    "price": 17.3,
+    "price": 16.3,
     "weight": 0.54,
     "box": "305 x 8 x 8 cm"
    },
@@ -716,7 +716,7 @@
     },
     "sku": "AA-161616-3-MG",
     "cost": 7.85,
-    "price": 17.3,
+    "price": 16.3,
     "weight": 0.54,
     "box": "305 x 8 x 8 cm"
    },
@@ -727,7 +727,7 @@
     },
     "sku": "AA-161616-3-MW",
     "cost": 7.85,
-    "price": 17.3,
+    "price": 16.3,
     "weight": 0.54,
     "box": "305 x 8 x 8 cm"
    },
@@ -738,7 +738,7 @@
     },
     "sku": "AA-202016-3-MG",
     "cost": 9.55,
-    "price": 21.95,
+    "price": 17.4,
     "weight": 0.65,
     "box": "305 x 8 x 8 cm"
    },
@@ -749,7 +749,7 @@
     },
     "sku": "AA-202016-3-MW",
     "cost": 9.55,
-    "price": 21.95,
+    "price": 17.4,
     "weight": 0.65,
     "box": "305 x 8 x 8 cm"
    },
@@ -1061,7 +1061,7 @@
     },
     "sku": "BCP-1010-LMG",
     "cost": 9.4,
-    "price": 20.95,
+    "price": 17.3,
     "weight": 0.31,
     "box": "305 x 8 x 8 cm"
    },
@@ -2450,7 +2450,7 @@
      },
      "sku": "CTJ-6",
      "cost": 8.7,
-     "price": 19.15,
+     "price": 16.95,
      "weight": 0.05,
      "box": "12 x 8 x 3 cm"
     },
@@ -2460,7 +2460,7 @@
      },
      "sku": "APC60J-6",
      "cost": 8.0,
-     "price": 17.6,
+     "price": 16.45,
      "weight": 0.05,
      "box": "12 x 8 x 3 cm"
     },

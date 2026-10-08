@@ -1,0 +1,1142 @@
+[
+ {
+  "handle": "bat-project-aluminium-tiling-angle-3m",
+  "title": "BAT Project Aluminium Tiling Angle – 3m Lengths (Budget Range)",
+  "productType": "L Shaped Trim",
+  "tags": [
+   "BAT Trims",
+   "BAT",
+   "Hardware",
+   "Tile Trims + Edging Profiles",
+   "supplier-bat",
+   "bat-project-trims",
+   "bat-price-list-2026-05",
+   "ship-local-only",
+   "ship-long"
+  ],
+  "files": [
+   "aa",
+   "aa-diagram"
+  ],
+  "seo": {
+   "title": "BAT Project Aluminium Tile Angle 3m | Budget Trim | ETS Perth",
+   "description": "BAT Project aluminium tile edge angle from $7.30. 8mm to 12.5mm, 3m lengths, 16 colours incl. matt gold, gunmetal and matt black. Perth."
+  },
+  "descriptionHtml": "<p>BAT's Project range is a lighter-gauge aluminium L angle made for volume jobs: apartments, builds and rentals where you need a lot of metres of trim at a sharp price. Same perforated fixing leg and colour range as the standard angle, in the most popular tile thicknesses.</p><ul>\n<li>Material: aluminium (project gauge), perforated fixing leg</li>\n<li>Length: 3m</li>\n<li>Sizes (tile thickness): 8, 9, 10, 11 and 12.5mm</li>\n<li>Finishes: Mill Finish, Bright Silver, Matt Silver, Linished Silver, Black, Matt Black, Matt White, Pearl White, Surfmist, Bronze Ash, Matt Gold, Linished Matt Gold, Gunmetal, Linished Gunmetal, Linished Iron, Linished Satin Nickel, Monument Matt</li>\n<li>Coloured finishes come with protective film</li>\n<li>Need a heavier gauge or other sizes? See the standard BAT Aluminium Tiling Angle</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+  "options": [
+   "Size",
+   "Colour"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "PA-8-3",
+    "cost": 3.3,
+    "price": 7.3,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PA-8-3-BAP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Black"
+    },
+    "sku": "PA-8-3-BKP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PA-8-3-BSP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "PA-8-3-GMP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Linished Gunmetal"
+    },
+    "sku": "PA-8-3-LGMP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Linished Iron"
+    },
+    "sku": "PA-8-3-LIP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "PA-8-3-LMP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Linished Satin Nickel"
+    },
+    "sku": "PA-8-3-LSNP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Linished Silver"
+    },
+    "sku": "PA-8-3-LSP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PA-8-3-MBP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "PA-8-3-MGP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Monument Matt"
+    },
+    "sku": "PA-8-3-MMP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PA-8-3-MSP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PA-8-3-MWP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "PA-8-3-SMP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Pearl White"
+    },
+    "sku": "PA-8-3-WHP",
+    "cost": 6.9,
+    "price": 15.2,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "PA-9-3",
+    "cost": 3.5,
+    "price": 7.75,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PA-9-3-BAP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Black"
+    },
+    "sku": "PA-9-3-BKP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PA-9-3-BSP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "PA-9-3-GMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Linished Iron"
+    },
+    "sku": "PA-9-3-LIP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "PA-9-3-LMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Linished Silver"
+    },
+    "sku": "PA-9-3-LSP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PA-9-3-MBP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "PA-9-3-MGP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Monument Matt"
+    },
+    "sku": "PA-9-3-MMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PA-9-3-MSP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PA-9-3-MWP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "PA-9-3-SMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Pearl White"
+    },
+    "sku": "PA-9-3-WHP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "PA-10-3",
+    "cost": 3.7,
+    "price": 8.15,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PA-10-3-BAP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Black"
+    },
+    "sku": "PA-10-3-BKP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PA-10-3-BSP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "PA-10-3-GMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Linished Gunmetal"
+    },
+    "sku": "PA-10-3-LGMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Linished Iron"
+    },
+    "sku": "PA-10-3-LIP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "PA-10-3-LMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Linished Satin Nickel"
+    },
+    "sku": "PA-10-3-LSNP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Linished Silver"
+    },
+    "sku": "PA-10-3-LSP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PA-10-3-MBP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "PA-10-3-MGP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Monument Matt"
+    },
+    "sku": "PA-10-3-MMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PA-10-3-MSP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PA-10-3-MWP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "PA-10-3-SMP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Pearl White"
+    },
+    "sku": "PA-10-3-WHP",
+    "cost": 6.95,
+    "price": 15.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "PA-11-3",
+    "cost": 3.8,
+    "price": 8.4,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PA-11-3-BAP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Black"
+    },
+    "sku": "PA-11-3-BKP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PA-11-3-BSP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "PA-11-3-GMP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Linished Gunmetal"
+    },
+    "sku": "PA-11-3-LGMP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Linished Iron"
+    },
+    "sku": "PA-11-3-LIP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "PA-11-3-LMP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Linished Satin Nickel"
+    },
+    "sku": "PA-11-3-LSNP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Linished Silver"
+    },
+    "sku": "PA-11-3-LSP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PA-11-3-MBP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "PA-11-3-MGP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Monument Matt"
+    },
+    "sku": "PA-11-3-MMP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PA-11-3-MSP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PA-11-3-MWP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "PA-11-3-SMP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Pearl White"
+    },
+    "sku": "PA-11-3-WHP",
+    "cost": 7.1,
+    "price": 15.55,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "PA-12-3",
+    "cost": 3.85,
+    "price": 8.5,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PA-12-3-BAP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Black"
+    },
+    "sku": "PA-12-3-BKP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PA-12-3-BSP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "PA-12-3-GMP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Gunmetal"
+    },
+    "sku": "PA-12-3-LGMP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Iron"
+    },
+    "sku": "PA-12-3-LIP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "PA-12-3-LMP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Satin Nickel"
+    },
+    "sku": "PA-12-3-LSNP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Silver"
+    },
+    "sku": "PA-12-3-LSP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PA-12-3-MBP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "PA-12-3-MGP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Monument Matt"
+    },
+    "sku": "PA-12-3-MMP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PA-12-3-MSP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PA-12-3-MWP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "PA-12-3-SMP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Pearl White"
+    },
+    "sku": "PA-12-3-WHP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   }
+  ]
+ },
+ {
+  "handle": "bat-project-mosaic-corner-angle-3m",
+  "title": "BAT Project Mosaic Corner Angle – 3m Lengths (Budget Range)",
+  "productType": "Square edge",
+  "tags": [
+   "BAT Trims",
+   "BAT",
+   "Hardware",
+   "Tile Trims + Edging Profiles",
+   "supplier-bat",
+   "bat-project-trims",
+   "bat-price-list-2026-05",
+   "ship-local-only",
+   "ship-long"
+  ],
+  "files": [
+   "pmca",
+   "mca-drawing"
+  ],
+  "seo": {
+   "title": "BAT Project Mosaic Corner Angle 3m | Budget Square Edge | ETS",
+   "description": "BAT Project mosaic corner angle, square-edge tile trim from $17.45. 8.5, 10.5 and 12.5mm, 3m lengths, 5 colours. Order in Perth."
+  },
+  "descriptionHtml": "<p>A budget version of BAT's mosaic corner angle: a square-edge aluminium trim that gives external corners and tile edges a crisp, modern finish. Made for volume jobs where the look matters but the budget is tight.</p><ul>\n<li>Material: aluminium (project gauge), perforated fixing leg</li>\n<li>Length: 3m</li>\n<li>Sizes (tile thickness): 8.5, 10.5 and 12.5mm</li>\n<li>Finishes: Bright Silver, Matt Silver, Matt Black, Matt White, Bronze Ash (with protective film)</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+  "options": [
+   "Size",
+   "Colour"
+  ],
+  "variants": [
+   {
+    "options": {
+     "Size": "8.5mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PMCA-8-3-BAP",
+    "cost": 9.75,
+    "price": 17.45,
+    "weight": 0.68,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "8.5mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PMCA-8-3-BSP",
+    "cost": 9.75,
+    "price": 17.45,
+    "weight": 0.68,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "8.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PMCA-8-3-MBP",
+    "cost": 9.75,
+    "price": 17.45,
+    "weight": 0.68,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "8.5mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PMCA-8-3-MSP",
+    "cost": 9.75,
+    "price": 17.45,
+    "weight": 0.68,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "8.5mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PMCA-8-3-MWP",
+    "cost": 9.75,
+    "price": 17.45,
+    "weight": 0.68,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10.5mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PMCA-10-3-BAP",
+    "cost": 10.8,
+    "price": 18.95,
+    "weight": 0.71,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10.5mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PMCA-10-3-BSP",
+    "cost": 10.8,
+    "price": 18.95,
+    "weight": 0.71,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PMCA-10-3-MBP",
+    "cost": 10.8,
+    "price": 18.95,
+    "weight": 0.71,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10.5mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PMCA-10-3-MSP",
+    "cost": 10.8,
+    "price": 18.95,
+    "weight": 0.71,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10.5mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PMCA-10-3-MWP",
+    "cost": 10.8,
+    "price": 18.95,
+    "weight": 0.71,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Bronze Ash"
+    },
+    "sku": "PMCA-12-3-BAP",
+    "cost": 12.95,
+    "price": 22.95,
+    "weight": 0.74,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "PMCA-12-3-BSP",
+    "cost": 12.95,
+    "price": 22.95,
+    "weight": 0.74,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "PMCA-12-3-MBP",
+    "cost": 12.95,
+    "price": 22.95,
+    "weight": 0.74,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "PMCA-12-3-MSP",
+    "cost": 12.95,
+    "price": 22.95,
+    "weight": 0.74,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt White"
+    },
+    "sku": "PMCA-12-3-MWP",
+    "cost": 12.95,
+    "price": 22.95,
+    "weight": 0.74,
+    "box": "305 x 8 x 8 cm"
+   }
+  ]
+ }
+]

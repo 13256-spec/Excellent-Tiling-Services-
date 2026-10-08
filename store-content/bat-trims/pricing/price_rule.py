@@ -1,7 +1,9 @@
 import math
 def retail(cost):
     """inc-GST shelf price from BAT ex-GST cost; mirrors the store's Roberts trim markups"""
-    m = 2.2 if cost < 10 else 1.75 if cost < 30 else 1.62 if cost < 100 else 1.5
+    m = 2.2 if cost < 7 else 1.75 if cost < 30 else 1.62 if cost < 100 else 1.5
+    if 7 <= cost < 10:  # taper 2.2x -> 1.75x so prices keep rising with cost
+        m = 2.2 - 0.15 * (cost - 7)
     p = cost * m
     # keep prices rising with cost across tier boundaries
     if cost >= 100: p = max(p, 161.95)
