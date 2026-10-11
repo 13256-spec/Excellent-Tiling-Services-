@@ -39,9 +39,8 @@ To take trade pricing away, remove the `trade` tag.
 
 ## Theme status
 
-The trade price display lives in the unpublished theme **"ETS 2026 – Trade prices on site (draft 11 Oct)"**
-(gid://shopify/OnlineStoreTheme/143975940159), a duplicate of the live theme plus the five files in this
-repo under `theme/snippets/ets-trade-rate.liquid`, `ets-pdp-trade.liquid`, `ets-trade-rates.liquid`,
-`theme/sections/ets-trade-apply.liquid` and `ets-trade-band.liquid`. Publish it from Online Store → Themes.
-Until then the live theme shows trade customers a guessed price (the old 10/15/20% by product type), so
-publishing is the last step that makes the page match the cart.
+**Live since 11 Oct 2026.** The theme "ETS 2026 – Trade prices on site (draft 11 Oct)"
+(gid://shopify/OnlineStoreTheme/143975940159) was published by the owner that day. It carries the five files in
+this repo under `theme/snippets/ets-trade-rate.liquid`, `ets-pdp-trade.liquid`, `ets-trade-rates.liquid`,
+`theme/sections/ets-trade-apply.liquid` and `ets-trade-band.liquid`, plus the ETS-modified `snippets/price.liquid`.
+A logged-in trade customer now sees the same price on the page that comes off in the cart.

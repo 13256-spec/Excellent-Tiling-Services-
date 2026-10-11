@@ -230,5 +230,7 @@ customer-facing wording with no unverifiable claims:
   duplicate of the live theme with `snippets/ets-trade-rate.liquid` (reads the metafield instead of the old
   10/15/20%-by-type settings), `ets-pdp-trade.liquid`, `ets-trade-rates.liquid`, `sections/ets-trade-apply.liquid`,
   `ets-trade-band.liquid`. `theme/snippets/price.liquid` is the ETS-modified Horizon price snippet as it is live
-  (trade/retail display); it is unchanged by this work. **Publish the draft from Online Store → Themes.**
+  (trade/retail display); it is unchanged by this work. **Published by the owner on 11 Oct 2026** (it is now
+  the live theme; the previous live theme "Copy of ETS – $180 shipping wording only" is no longer in the theme list).
+  First trade customer approved the same day (tag `trade`).
 - New segment "Trade applicants (waiting for approval)" in Customers → Segments.
