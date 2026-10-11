@@ -1,7 +1,7 @@
 """Shared helpers: Python values -> Shopify GraphQL input literals, split into <16k documents."""
 import json
 
-ENUMS = {"DENY", "KILOGRAMS", "ACTIVE", "DRAFT", "DEFAULT"}
+ENUMS = {"DENY", "KILOGRAMS", "ACTIVE", "DRAFT", "DEFAULT", "IMAGE"}
 LIMIT = 15500
 CATEGORY = "gid://shopify/TaxonomyCategory/ha-2-11"  # Hardware > Building Materials > Molding
 
