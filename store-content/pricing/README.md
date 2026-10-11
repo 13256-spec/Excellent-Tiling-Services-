@@ -106,3 +106,13 @@ the 3 Oct one) and `reports/reprice-2026-10-11.md` (what changed, owner-review t
   between the `trade-list-N` collections (now 25%: 264, 20%: 185, 15%: 173, 10%: 19, 5%: 137, none: 2).
 - New B&B matches for BAT and Raimondi items in `BB_MATCH`. `monitor_competitors.py` now reads this plan.
 - PDFs regenerated in `price-lists/`.
+
+## Second Raimondi batch, 11 Oct 2026 (evening)
+
+144 Raimondi products imported during the day were priced with the same rules (22 variants cut to the 40% cap, the rest kept),
+given trade bands (25%: 54, 15%: 53, 20%: 37) and added to the `trade-list-N` collections. Four BAT/Panther items that got a
+cost during the day were capped too and ten moved out of the 5% "no cost" band. Report:
+`reports/reprice-2026-10-11-raimondi-batch2.md`. The master CSV and PDFs include them.
+
+Any product imported later needs the same three steps (price check, `ets.trade_band`, `trade-list-N`); the `ets-pricing` agent
+does them from a fresh bulk export.

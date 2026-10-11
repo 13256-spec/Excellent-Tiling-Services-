@@ -326,3 +326,19 @@ customers were asked $15–$59 postage at checkout. Changes made through the Adm
 - The live theme (top bar, product page perks, FAQs, Delivery & Pickup page at `/pages/delivery-pickup`, trade page)
   already said "free standard over $180"; the copies of those templates in `theme/` are older and still say $1,000.
   The live site is the reference.
+
+## Checkout test and local delivery, 11 Oct 2026 (evening)
+
+Headless-browser checkouts (`scratchpad/scripts/checkout_test.js`, Playwright) and `draftOrderCalculate` confirmed the rates:
+a $331 tap gets "Free standard shipping (orders $180+)" plus the paid Australia Post option; a $7 knife gets Australia Post $15;
+tiles to NSW or VIC get freight quote only; primers over $180 get the free road rate. For a Perth address Shopify's own
+**Local delivery** (Settings → Shipping and delivery → Local delivery, Maddington location) already shows "$95, we deliver via
+our company vehicle" for addresses within about 30 km (Fremantle and Rockingham yes, Mandurah no). The "Perth metro delivery"
+rates added to the Perth-only profile earlier in the day duplicated it for Perth and wrongly showed for Mandurah and regional WA,
+so they were deleted. The Western Australia zone of the Perth-only profile now holds only the freight-quote rate, renamed
+"Freight quote (outside our Perth delivery area)" with a note telling Perth customers to pick Local delivery or Pickup.
+
+Known limits: the $0 freight-quote option is listed first (Shopify sorts by price) so a Perth customer can still pick it; a
+mixed cart (tap + tiles) shows one merged "Shipping FREE" line (free postage + freight quote) next to Local delivery $95. The
+free-over-$2,000 local delivery promised in the policy depends on the Local delivery settings in Shopify admin (not readable
+from the API); the owner should check that a free-over-$2,000 condition is set there.

@@ -244,3 +244,12 @@ header group. Retail customers and visitors see nothing. `theme/layout/theme.liq
 theme first (it carries a Metricool tracking script the repo copy lacked; checksum verified) and then the one
 render line added. Uploaded to the unpublished theme **"ETS 2026 – Trade bar under header (draft 11 Oct)"**
 (gid://shopify/OnlineStoreTheme/144004087871), a duplicate of the live theme; publish it from Online Store → Themes.
+
+## Site audit and fixes (11 Oct 2026, evening)
+
+Full crawl and catalogue audit after the day's pricing and shipping work: `store-content/reports/site-audit-2026-10-11.md`.
+Every URL and internal link works; breadcrumbs and structured data are in place. Fixed: 336 products that no storefront
+collection matched (smart-collection rules extended), 144 new Raimondi products priced and banded, supplier name and stale
+"$1,000" wording removed, missing meta descriptions and image alt text added, duplicate Perth delivery rate removed in favour
+of Shopify's own Local delivery. Open items (photos for 54 products, local-delivery settings, Search Console access) are in
+the report.
