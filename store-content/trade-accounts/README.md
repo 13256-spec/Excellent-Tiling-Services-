@@ -14,7 +14,7 @@ same discount comes off in the cart and at checkout. Nothing changes for retail 
 | Trade band per product | Product → Metafields → **Trade discount band (%)** (`ets.trade_band`: 0, 5, 10, 15, 20 or 25) | What the website shows a logged-in trade customer. |
 | Collections `trade-list-5` … `trade-list-25` | Products → Collections (unpublished, manual) | Which products each "Trade price – N%" automatic discount applies to. A product is in exactly one. |
 | Automatic discounts "Trade price – 5/10/15/20/25%" | Discounts | Take the percentage off in the cart for the Trade customers segment. They don't combine with codes. |
-| Theme | `snippets/ets-trade-rate.liquid` reads `ets.trade_band`; `snippets/price.liquid` shows "Trade $X" with "Retail $Y" struck through | Product pages, collection grids, search and recommendations. |
+| Theme | `snippets/ets-trade-rate.liquid` reads `ets.trade_band`; `snippets/price.liquid` shows "Trade $X" with "Retail $Y" struck through; `snippets/ets-trade-bar.liquid` adds a green "Trade account · Logged in as <name>" bar under the header on every page | Product pages, collection grids, search, recommendations, and the sitewide bar. |
 
 The metafield and the collection must agree. The pricing scripts set both from the master price list; if you
 change one by hand, change the other.

@@ -40,6 +40,20 @@
     {% endif %}
 
     {{ content_for_header }}
+<script>
+function loadScript(a){
+  var b=document.getElementsByTagName("head")[0],
+      c=document.createElement("script");
+  c.type="text/javascript",
+  c.src="https://tracker.metricool.com/resources/be.js",
+  c.onreadystatechange=a,
+  c.onload=a,
+  b.appendChild(c)
+}
+loadScript(function(){
+  beTracker.t({hash:"1f17d8617ac7d82050a3f5dc0ba8729b"})
+});
+</script>
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
@@ -51,6 +65,7 @@
       <div id="header-group">
         {% sections 'header-group' %}
       </div>
+      {% render 'ets-trade-bar' %}
 
       <script>
         /**

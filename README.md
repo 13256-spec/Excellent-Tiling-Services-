@@ -234,3 +234,13 @@ customer-facing wording with no unverifiable claims:
   the live theme; the previous live theme "Copy of ETS – $180 shipping wording only" is no longer in the theme list).
   First trade customer approved the same day (tag `trade`).
 - New segment "Trade applicants (waiting for approval)" in Customers → Segments.
+
+## Sitewide trade bar (draft theme, 11 Oct 2026)
+
+Logged-in trade customers now get a green bar under the header on every page: "✓ Trade account · Logged in as
+<name>. You're seeing your trade prices. Retail prices are crossed out and the discount comes off in the cart ·
+Your account · Log out". `snippets/ets-trade-bar.liquid`, rendered from `layout/theme.liquid` right after the
+header group. Retail customers and visitors see nothing. `theme/layout/theme.liquid` was re-synced from the live
+theme first (it carries a Metricool tracking script the repo copy lacked; checksum verified) and then the one
+render line added. Uploaded to the unpublished theme **"ETS 2026 – Trade bar under header (draft 11 Oct)"**
+(gid://shopify/OnlineStoreTheme/144004087871), a duplicate of the live theme; publish it from Online Store → Themes.
