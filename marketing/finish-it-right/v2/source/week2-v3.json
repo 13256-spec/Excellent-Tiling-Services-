@@ -1,0 +1,346 @@
+[
+ {
+  "name": "2026-10-13-lunch",
+  "img": "p/mela-flova-paper-holder.png",
+  "cutout": true,
+  "cutstyle": "left:40px;top:300px;width:1250px;height:1100px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "MELA · Paper holder",
+  "head": "The $46 detail that finishes a bathroom.",
+  "sub": "FLOVA paper holder. Chrome, matt black or brushed nickel.",
+  "price": "$46",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-14-lunch",
+  "img": "p/bat-razor-mesh-diamond-blade.png",
+  "cutout": true,
+  "cutstyle": "left:140px;top:330px;width:1000px;height:1000px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "BAT Pro Razor · 125 mm",
+  "head": "Chipping porcelain on every cut?",
+  "sub": "Thin 1.2 mm mesh rim. Wet or dry, straight cuts.",
+  "price": "$49.95"
+ },
+ {
+  "name": "2026-10-15-lunch",
+  "img": "p/morgan-hail-porcelain-tile.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 560
+  },
+  "hs": 60,
+  "kicker": "Porcelain tile · Matt",
+  "head": "Morgan Hail",
+  "sub": "300x600, 600x600 or big 600x1200.",
+  "price": "$37.40/m²",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-16-lunch",
+  "img": "p/mela-bruno-basin-mixer.png",
+  "cutout": true,
+  "cutstyle": "left:140px;top:330px;width:1100px;height:1100px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "MELA · 6-star WELS",
+  "head": "BRUNO basin mixer",
+  "sub": "Brushed nickel, gun metal, brushed brass or copper.",
+  "price": "$246",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-17-lunch",
+  "img": "p/classic600-shaker-crop.png",
+  "cutout": true,
+  "cutstyle": "left:240px;top:390px;width:740px;height:720px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "MELA CLASSIC · Matt white",
+  "head": "Hampton, pastel or shaker.",
+  "sub": "CLASSIC 600, two drawers, stone top and basin included.",
+  "price": "$1,125"
+ },
+ {
+  "name": "2026-10-18-lunch",
+  "img": "p/mela-arch-above-counter-basin.png",
+  "cutout": true,
+  "cutstyle": "left:120px;top:380px;width:1100px;height:900px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "MELA · Above-counter basin",
+  "head": "A fluted basin does the styling.",
+  "sub": "ARCH basin, white ceramic, 415 x 365 mm.",
+  "price": "$299"
+ },
+ {
+  "name": "2026-10-19-lunch",
+  "img": "p/mela-clark-900-wall-hung-vanity-with-2-drawers-side-shelves.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 560
+  },
+  "hs": 60,
+  "kicker": "MELA · Wall-hung vanity",
+  "head": "Drawers plus a towel shelf.",
+  "sub": "CLARK 900, stone top and basin included.",
+  "price": "$1,299.99"
+ },
+ {
+  "name": "2026-10-13-main",
+  "img": "u-warm-bath.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 600
+  },
+  "hs": 64,
+  "kicker": "Showroom · Maddington",
+  "head": "Work all day? So do we.",
+  "sub": "Open by appointment Mon–Sat, 4:30 to 9 pm."
+ },
+ {
+  "name": "2026-10-14-main",
+  "img": "p/mela-flova-basin-mixer.png",
+  "cutout": true,
+  "cutstyle": "left:100px;top:300px;width:1150px;height:1150px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 72,
+  "kicker": "MELA FLOVA · Chrome",
+  "head": "New tapware, same bathroom: $480.",
+  "sub": "Basin mixer, hand shower, 600 towel rail and paper holder."
+ },
+ {
+  "name": "2026-10-15-main",
+  "img": "brittany1200.jpg",
+  "pos": "35% center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 560
+  },
+  "hs": 60,
+  "kicker": "MELA · Fluted oak",
+  "head": "Build the room around it.",
+  "sub": "BRITTANY 1200, stone top and basin included.",
+  "price": "$1,994"
+ },
+ {
+  "name": "2026-10-16-main",
+  "img": "cementgrey.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 580
+  },
+  "hs": 60,
+  "kicker": "Porcelain tile · Matt",
+  "head": "The concrete look, without the concrete.",
+  "sub": "Cement Grey in 300x600, 600x600 or 600x1200.",
+  "price": "$37.40/m²",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-17-main",
+  "img": "moon.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 580
+  },
+  "hs": 60,
+  "kicker": "Porcelain tile · P4/R11",
+  "head": "Wet floor? Check the P rating first.",
+  "sub": "Time Stone Moon is rated for wet areas.",
+  "price": "$50.10/m²",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-18-main",
+  "img": "miaoval.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 540
+  },
+  "hs": 60,
+  "kicker": "MELA · Frameless oval mirror",
+  "head": "Tired bathroom? Start with the mirror.",
+  "sub": "MIA 450 oval, frameless.",
+  "price": "$189"
+ },
+ {
+  "name": "2026-10-19-main",
+  "img": "ash.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 580
+  },
+  "hs": 60,
+  "kicker": "Porcelain tile · Lava Ash",
+  "head": "Matt or gloss? Same tile, both ways.",
+  "sub": "Matt hides marks. Gloss bounces light.",
+  "price": "$46.70/m²",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-13-story",
+  "story": true,
+  "img": "storm.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 260,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "Porcelain tile · Matt",
+  "head": "Morgan Storm, $37.40/m².",
+  "sub": "300x600 or 600x600. Shop via the link in bio."
+ },
+ {
+  "name": "2026-10-14-story",
+  "story": true,
+  "img": "p/mela-flova-basin-mixer.png",
+  "pos": "center",
+  "card": false,
+  "box": {
+   "left": 56,
+   "top": 260,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "MELA FLOVA · Chrome",
+  "head": "New tapware, same tiles.",
+  "sub": "Basin mixer, hand shower, towel rail and paper holder: $480.",
+  "cutout": true,
+  "cutstyle": "left:60px;top:620px;width:1000px;height:1000px"
+ },
+ {
+  "name": "2026-10-15-story",
+  "story": true,
+  "img": "u-lit-niche.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 260,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "Tiling tools",
+  "head": "Tiling it yourself?",
+  "sub": "Diamond blades, nippers, levelling spindles and grout floats, online."
+ },
+ {
+  "name": "2026-10-16-story",
+  "story": true,
+  "img": "p/mela-bruno-basin-mixer.png",
+  "pos": "center",
+  "card": false,
+  "box": {
+   "left": 56,
+   "top": 260,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "MELA BRUNO",
+  "head": "Brass or copper?",
+  "sub": "Four brushed finishes, from $246. Reply with your pick.",
+  "cutout": true,
+  "cutstyle": "left:140px;top:560px;width:1000px;height:1200px"
+ },
+ {
+  "name": "2026-10-17-story",
+  "story": true,
+  "img": "moon.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 260,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "Wet-area floors",
+  "head": "P4/R11 means wet-area ready.",
+  "sub": "Time Stone Moon, matt $50.10/m²."
+ },
+ {
+  "name": "2026-10-18-story",
+  "story": true,
+  "img": "p/mela-brittany-1200-single-wall-hung-vanity.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 260,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "MELA",
+  "head": "Fluted is in.",
+  "sub": "BRITTANY vanities and the ARCH basin. Link in bio."
+ },
+ {
+  "name": "2026-10-19-story",
+  "story": true,
+  "img": "dusk1.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 260,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "Tiler's tip",
+  "head": "Buy by the box, not by guesswork.",
+  "sub": "Every tile page works out the boxes for you."
+ }
+]
