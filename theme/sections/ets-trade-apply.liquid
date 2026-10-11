@@ -42,7 +42,7 @@
           <ol class="ets-steps" role="list" style="--cols:1;gap:10px">
             <li style="padding:18px"><strong>Apply</strong><p>Send your business details below. It takes about two minutes.</p></li>
             <li style="padding:18px"><strong>We verify</strong><p>We check your ABN and trade details, then email you once your account is approved.</p></li>
-            <li style="padding:18px"><strong>Log in and save</strong><p>Log in with the same email. Your trade discount comes off automatically in the cart.</p></li>
+            <li style="padding:18px"><strong>Log in and save</strong><p>Log in with the same email. Every product then shows your trade price next to the crossed-out retail price, and the discount comes off in the cart.</p></li>
           </ol>
         </div></div>
         <div class="ets-aside-card ets-shell"><div class="ets-core">
@@ -60,7 +60,7 @@
           {%- if is_trade -%}
             <div class="ets-alert ets-alert--ok">
               <strong>Your trade account is active.</strong>
-              Your trade discount comes off in the cart while you're logged in. <a href="{{ routes.all_products_collection_url }}">Start shopping →</a>
+              While you're logged in, every product shows your trade price next to the crossed-out retail price, and the discount comes off in the cart. <a href="{{ routes.all_products_collection_url }}">Start shopping →</a>
             </div>
           {%- elsif section.blocks.size > 0 -%}
             {%- for block in section.blocks -%}{% render block %}{%- endfor -%}

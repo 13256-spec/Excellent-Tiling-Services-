@@ -217,3 +217,18 @@ customer-facing wording with no unverifiable claims:
 - Not changed (store content, not theme): the Care & Warranty page names "AUS Home Collection Group Pty Ltd (trading as
   Bathroom City)" as the MELA warrantor, and tile descriptions say "sold per sqm to the nearest full box" while the
   calculator rounds to whole m².
+
+## Trade prices on the site + store-wide repricing (11 Oct 2026)
+
+- Prices: every active product repriced to the owner's 11 Oct rule (cheaper than every competitor, 40%
+  margin cap on high-margin items, profit floor kept). `store-content/pricing/reports/reprice-2026-10-11.md`
+  has the numbers; `store-content/pricing/PRICING-PLAYBOOK.md` the rules.
+- Trade accounts: approved customers (tag `trade`) now see their trade price on every product with the
+  retail price crossed out, matching the automatic discount in the cart. Per-product band in the
+  `ets.trade_band` metafield + `trade-list-N` collections. Guide: `store-content/trade-accounts/README.md`.
+- Theme: unpublished **"ETS 2026 – Trade prices on site (draft 11 Oct)"** (gid://shopify/OnlineStoreTheme/143975940159),
+  duplicate of the live theme with `snippets/ets-trade-rate.liquid` (reads the metafield instead of the old
+  10/15/20%-by-type settings), `ets-pdp-trade.liquid`, `ets-trade-rates.liquid`, `sections/ets-trade-apply.liquid`,
+  `ets-trade-band.liquid`. `theme/snippets/price.liquid` is the ETS-modified Horizon price snippet as it is live
+  (trade/retail display); it is unchanged by this work. **Publish the draft from Online Store → Themes.**
+- New segment "Trade applicants (waiting for approval)" in Customers → Segments.

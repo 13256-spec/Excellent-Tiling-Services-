@@ -40,33 +40,50 @@ customer at checkout (owner, 3 Oct 2026).
 Competitor sale prices can be below our cost (e.g. Bathroom City clearance on gun-metal finishes, NOOK/KORI
 baths). Those are reported as "can't beat profitably", never matched.
 
-## The rules (all prices inc GST, costs ex GST)
+## The rules (all prices inc GST, costs ex GST) – from 11 Oct 2026
+
+Owner's instruction, 11 Oct 2026: cheaper than every competitor on every item, cheaper again on
+high-margin items, trade accounts cheaper still, always profitable. `reprice_2026_10_11.py` applies:
 
 - **Public floor** = cost × 1.1 × 1.25 (at least 20% of the selling price is profit).
 - **Trade floor** = cost × 1.1 × 1.15.
-- **MELA** = 5% under Bathroom City's current price, rounded down to the dollar.
-- **Hardware B&B also sells** = 5% under B&B, rounded down to 5c.
-- **Other hardware** = 10% under the supplier RRP (our old price), rounded down to 5c.
-- **Tiles** = 15% under Eternity RRP, rounded down to 10c (`eternity_2026_10.py`).
-- Never undercut below the public floor. Prices below the floor are raised only with the owner's OK.
+- **Margin cap 40%**: an item earning more than 40% is cut to 40% (price = cost × 1.1 ÷ 0.6). This is
+  the "high-margin items get cheaper" rule and it applies to every range, tiles included.
+- **Competitor**: 5% under the competitor's current price (Bathroom City for MELA, B&B Hardware for the
+  hardware it also sells, matched by hand in `BB_MATCH`); 10% under when we'd still make 40%+ at 5% under.
+- **New products / no competitor**: the current price stands unless the margin cap or the floor moves it.
+  (Earlier rules: tiles 15% under Eternity RRP, other hardware 10% under the supplier RRP; those prices
+  are the starting point the cap works from.)
+- **Rounding**: MELA down to the dollar, tiles down to 10c, everything else down to 5c. Floors round up.
+- **Never below the floor.** If the competitor is below our floor we sit at the floor and the item is
+  flagged "competitor is below our floor; not undercut". A price is raised only when it is below the
+  floor, and never to or above the competitor (those are flagged BELOW PROFIT FLOOR for the owner).
+- **Cost sanity check**: a product whose sizes all share one cost while their prices differ by 25%+ has a
+  copied cost; price kept, flagged COST CHECK, trade band 5% until the supplier confirms the cost.
 - **Trade bands** (per product, not per variant): the deepest of 25 / 20 / 15 / 10 / 5% that keeps every
-  variant above the trade floor. Tiles max 15%.
+  variant above the trade floor. Tiles max 15%. Products with a variant that has no cost get 5%.
 
 ## Where things are in Shopify
 
 - Prices and unit costs: on each variant.
 - Trade discounts: manual collections `trade-list-5`, `-10`, `-15`, `-20`, `-25`, each with an automatic
   discount "Trade price – N%" limited to the customer segment "Trade customers" (customer tag `trade`).
-  Shopify Basic has no B2B price lists, so this is how per-item trade pricing works. To change an item's
-  trade discount, move it between those collections. A product must be in only one of them.
+  Shopify Basic has no B2B price lists, so this is how per-item trade pricing works. A product must be in
+  only one of them.
+- **Product metafield `ets.trade_band`** ("Trade discount band (%)", 0/5/10/15/20/25) mirrors the
+  collection and is what the theme reads to show a logged-in trade customer their price with the retail
+  price crossed out. To change an item's trade discount, set the metafield AND move it between the
+  collections; the scripts do both. Full guide: `store-content/trade-accounts/README.md`.
 - Old `trade-band-*` collections and `trade-N` product tags are no longer used.
 
 ## Files
 
 | File | What it is |
 |---|---|
-| `store-pricing-2026-10-03.csv` | **Master price list**: every active variant with old price, new price, cost, margins, trade band, trade price, competitor price, flags. Update it whenever prices change. |
-| `reprice_2026_10.py` | Builds the master list from a Shopify export + competitor feeds. Holds `BB_MATCH`. |
+| `store-pricing-2026-10-11.csv` | **Master price list**: every active variant with old price, new price, the rule that set it, cost, margins, trade band (and the band it had before), trade price, competitor price, flags. Update it whenever prices change. |
+| `reprice_2026_10_11.py` | Builds the master list from a Shopify bulk export (`products` with variants + unit cost) + competitor feeds + the current `trade-list-N` membership. Holds `BB_MATCH`. |
+| `reports/reprice-2026-10-11.md` | What the 11 Oct run changed, with the owner-review tables. |
+| `store-pricing-2026-10-03.csv`, `reprice_2026_10.py` | The 3 Oct plan, kept for history. |
 | `monitor_competitors.py` | Weekly check (public feeds only, changes nothing) → `reports/price-check-YYYY-MM-DD.md`. |
 | `price_list_pdf.py` | PDFs in `price-lists/`: retail, trade, and **owner-only** cost & price list (never send to customers). |
 | `eternity_2026_10.py`, `eternity_new_products_2026_10.py` | Eternity tile pricing and new tile products. |
@@ -76,12 +93,15 @@ baths). Those are reported as "can't beat profitably", never matched.
 
 1. Run `monitor_competitors.py`; read the report.
 2. Propose changes in a table (item, old, new, competitor, cost, profit %, trade band). **Get the owner's
-   explicit approval before any price write.**
-3. Apply with `productVariantsBulkUpdate`, many products per request using GraphQL aliases. Keep each
-   request under 16,384 characters. `bulkOperationRunMutation` is blocked in this setup.
-4. If a trade band changes, move the product between `trade-list-N` collections
-   (`collectionRemoveProducts` / `collectionAddProducts`).
-5. Update `store-pricing-2026-10-03.csv`, rerun `price_list_pdf.py`, commit, and tell the owner in plain
-   words what changed.
+   explicit approval before any price write** (a standing instruction like the one on 11 Oct 2026 counts;
+   say what you are about to do and report what changed).
+3. Export the catalogue with `bulkOperationRunQuery` (allowed; `bulkOperationRunMutation` is blocked),
+   download the JSONL, run `reprice_2026_10_11.py`, read the summary and the flagged rows.
+4. Apply with `productVariantsBulkUpdate`, many products per request using GraphQL aliases. Keep each
+   request under 16,384 characters.
+5. Set `ets.trade_band` with `productUpdate` (metafields) and move the product between `trade-list-N`
+   collections (`collectionRemoveProducts` / `collectionAddProducts`). Both, always.
+6. Update the master CSV, rerun `price_list_pdf.py`, write `reports/reprice-YYYY-MM-DD.md`, commit, and
+   tell the owner in plain words what changed.
 
 Shopify quirk: when changing a product's SEO title, always send the meta description too, or it is wiped.

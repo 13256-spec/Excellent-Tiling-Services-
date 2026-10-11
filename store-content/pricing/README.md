@@ -86,3 +86,23 @@ ordered at $199. Its recorded cost ($225.91 ex GST) was copied from the Matt Whi
 doesn't list a plain White, so the "below cost" flag may be wrong. Owner to confirm whether MELA supplies
 it and at what SILVER cost. To bring it back: set the variant's inventory policy to CONTINUE (or untrack
 inventory) and re-price against the real cost. Matt Black and Matt White ($337) are unaffected.
+
+# Store-wide repricing, 11 Oct 2026 (owner's instruction, applied the same day)
+
+The owner asked for prices cheaper than every competitor, cheaper again on high-margin items, and trade
+accounts cheaper still. `reprice_2026_10_11.py` → `store-pricing-2026-10-11.csv` (master list, replaces
+the 3 Oct one) and `reports/reprice-2026-10-11.md` (what changed, owner-review tables).
+
+- The store had grown to 780 active products / 3,562 variants: ~1,950 BAT, BAT Trims, Raimondi, Panther,
+  Washboy, NICLIS, Atika and ADA variants were added after 4 Oct with costs but no competitor check or
+  trade band. All are now in the plan.
+- New rule on top of the playbook: **margin cap 40%**. 563 variants above 40% were cut to 40% (Roberts
+  trims, BAT trims and tools, some tiles and mosaics). Competitor rule unchanged (5% under; 10% under when
+  still at 40%+). 67 variants that were under the 20% floor went up to the floor (CLASSIC/BRITTANY/CLARK
+  vanities, Baron F300 and parts, Maxisil wet-area silicone). 9 stay below the floor because the
+  competitor is lower (NOOK/KORI/MIZO baths, Sigma 4CU, Baron E120); 28 Expansion-trim variants are
+  flagged COST CHECK (same $23.99 cost on every size).
+- Applied: 646 prices (579 down, 67 up), `ets.trade_band` metafield on all 780 products, 361 products moved
+  between the `trade-list-N` collections (now 25%: 264, 20%: 185, 15%: 173, 10%: 19, 5%: 137, none: 2).
+- New B&B matches for BAT and Raimondi items in `BB_MATCH`. `monitor_competitors.py` now reads this plan.
+- PDFs regenerated in `price-lists/`.
