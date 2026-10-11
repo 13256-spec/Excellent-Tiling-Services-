@@ -73,6 +73,8 @@ morning Story `f6qv9tq9br0b9efdiqc24q6f00`, Marketplace `avm03n0evgrdiijngds0ha6
 
 ## Hard rules
 
+- Owner (11 Oct 2026): keep the calendar clean. No daily reminder series and no per-post events. Only the
+  weekly Saturday "Check next week's posts" and Monday results events. Add others only if he asks.
 - Only label a slot "AUTO" with a post title once that post is booked in Metricool and not a draft
   (check with getScheduledPosts). Weeks not yet approved show "not booked yet (approve on Saturday)".
   The caption in the event must match the Metricool text exactly. Never invent future post titles.
