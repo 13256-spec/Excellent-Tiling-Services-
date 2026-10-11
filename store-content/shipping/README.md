@@ -302,3 +302,27 @@ Sydney quote; tile + spacers to Sydney one combined "Shipping $15".
 Later the same day: freight quote also added overseas (NZ, US, UK, UAE) for the Perth-only profile (tiles, large
 items) and the Dangerous goods profile (acids, primers; needs a DG-licensed forwarder), plus DG Australia over 100 kg.
 Tested: tile to UK / NZ and acid to NZ / US show the quote option; acid to Melbourne still $20 road.
+
+## Checkout fixes, 11 Oct 2026
+
+Why: in the 30 days to 11 Oct, 52 sessions reached checkout and 7 paid. The site promised free standard shipping over
+$180 (top bar, product pages, FAQ, delivery page) but no free rate was switched on in Settings → Shipping, so
+customers were asked $15–$59 postage at checkout. Changes made through the Admin API:
+
+- **General profile** and **Dangerous goods (road only)**, Australia zone: new active rate "Free standard shipping
+  (orders $180+)" / "Free Parcel Post road shipping (orders $180+)" (order price ≥ $180). The inactive "Free shipping
+  (orders $1,000+)" rates were deleted. Shopify can't combine a price condition with a weight limit on one rate, so
+  the weight-based paid rates stay listed next to the free one; customers pick the free one.
+- **Perth only (local delivery / pickup)**: Western Australia is now its own zone with "Perth metro delivery (within
+  30 km of Maddington)" $95 (orders $150–$1,999.99, the policy's $150 minimum), "Perth metro delivery, free on orders
+  $2,000+" and the existing "Freight quote (outside Perth metro)". The other states keep freight quote only. Shopify
+  zones can't tell Perth from regional WA, so a regional WA customer could pick the $95 rate; check the suburb before
+  dispatch and quote the difference, or refund and re-quote. Orders under $150 of large items still have pickup and
+  freight quote.
+- `store-content/policies/shipping-policy.html` updated to match ($180 free threshold, Perth rates at checkout).
+  The connector can't write legal policies (`shopPolicyUpdate` needs the `write_legal_policies` scope), so the live
+  text in Settings → Policies → Shipping policy still says $1,000 until the owner edits it: change "$1,000 or more"
+  to "$180 or more" in the heading and the sentence under it, or paste this file through the editor's HTML view.
+- The live theme (top bar, product page perks, FAQs, Delivery & Pickup page at `/pages/delivery-pickup`, trade page)
+  already said "free standard over $180"; the copies of those templates in `theme/` are older and still say $1,000.
+  The live site is the reference.
