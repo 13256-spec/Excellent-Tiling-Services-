@@ -342,3 +342,16 @@ Known limits: the $0 freight-quote option is listed first (Shopify sorts by pric
 mixed cart (tap + tiles) shows one merged "Shipping FREE" line (free postage + freight quote) next to Local delivery $95. The
 free-over-$2,000 local delivery promised in the policy depends on the Local delivery settings in Shopify admin (not readable
 from the API); the owner should check that a free-over-$2,000 condition is set there.
+
+## WA free standard post over $100 (11 Oct 2026, night)
+
+The social captions (Finish It Right campaign) promise "free shipping in WA over $100", but checkout only had the $180
+Australia-wide free rate. Both parcel profiles now have a Western Australia zone of their own:
+
+- General profile, WA zone: the Australia Post weight rates plus "Free standard shipping (WA orders $100+)".
+- Dangerous goods (road only), WA zone: the road rates plus "Free Parcel Post road shipping (WA orders $100+)".
+- The old Australia zones were renamed "Australia (outside WA)" and keep the $180 free rates and weight rates.
+
+Checked with `draftOrderCalculate`: $109.50 of tapware to Perth → free; the same to Sydney → $20; a $7.30 item to Perth → $15;
+a $113.35 primer to Perth → free road. The shipping policy and the Delivery & pickup page still describe only the $180 rule;
+WA over $100 is extra, not a replacement. Owner to-do: add "WA orders of $100 or more ship free" to the delivery page.

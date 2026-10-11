@@ -63,6 +63,33 @@ high-margin items, trade accounts cheaper still, always profitable. `reprice_202
 - **Trade bands** (per product, not per variant): the deepest of 25 / 20 / 15 / 10 / 5% that keeps every
   variant above the trade floor. Tiles max 15%. Products with a variant that has no cost get 5%.
 
+## Discount codes (from 11 Oct 2026)
+
+A code is only safe where the trade band already proves the margin. Every product in `trade-list-20` or
+`trade-list-25` keeps all its variants above the trade floor at 20–25% off, so a 10% public code on those
+products leaves at least 22.7% of the selling price as profit (price × 0.9 ≥ cost × 1.1 × 1.29). Tiles (band
+max 15), vanities, baths, toilets and everything in bands 5, 10 and 15 are outside every percentage code.
+The codes are scoped to the collections, so when a product changes band the codes follow automatically.
+
+| Code | What it does | Where it works | Limits | Shopify ID |
+|---|---|---|---|---|
+| `WELCOME10` | 10% off | products in `trade-list-20` + `trade-list-25` (547 products, 2,625 variants on 11 Oct) | once per customer; combines with shipping discounts only, never with the automatic trade discounts | DiscountCodeNode/1385793290303 |
+| `COMEBACK10` | 10% off | same collections | once per customer; same combining rules | DiscountCodeNode/1385793323071 |
+| `FREEPOST` | free standard shipping (shipping line up to $30) | Australian addresses, order subtotal $60 or more | once per customer; combines with product discounts | DiscountCodeNode/1385793355839 |
+
+Where each code is used: WELCOME10 in the welcome email series and on the site's sign-up pop-up, COMEBACK10 in
+the win-back email, FREEPOST in the second abandoned-checkout email (`store-content/email/README.md`).
+
+Rules for any new code or sale:
+- 10% off: bands 20 and 25 only. 15% off: band 25 only (margin stays ≥ 23%). 5% off: bands 15 and up.
+- Never on tiles, vanities, baths or toilets, never on band 5 or 10 products, never below the public floor.
+- Keep the automatic "Trade price – N%" discounts at `combinesWith.productDiscounts = false` so a trade
+  customer can't stack a code on top of trade pricing. Shipping codes may combine with both.
+- Check before launch: for every variant in scope, `price × (1 − discount)` must be ≥ `cost × 1.1 × 1.25`
+  (the columns are in the master CSV).
+- `ETSWELCOME10` ($10 off $200 of tapware/accessories) was created in Shopify on 11 Oct outside this plan; it
+  is not referenced anywhere. The owner decides whether to keep it; the playbook does not use it.
+
 ## Where things are in Shopify
 
 - Prices and unit costs: on each variant.

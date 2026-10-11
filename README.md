@@ -253,3 +253,20 @@ collection matched (smart-collection rules extended), 144 new Raimondi products 
 "$1,000" wording removed, missing meta descriptions and image alt text added, duplicate Perth delivery rate removed in favour
 of Shopify's own Local delivery. Open items (photos for 54 products, local-delivery settings, Search Console access) are in
 the report.
+
+## Discount codes, email automations and rollout plan (11 Oct 2026, night)
+
+- Shopify discount codes: `WELCOME10` and `COMEBACK10` (10% off, scoped to the `trade-list-20` and `trade-list-25`
+  collections so profit stays above 22%, once per customer, never with trade pricing) and `FREEPOST` (free standard
+  post up to $30 on orders of $60 or more). Rules: `store-content/pricing/PRICING-PLAYBOOK.md` → "Discount codes".
+- Klaviyo: 11 branded email templates and 7 live flows (welcome ×3, abandoned checkout ×2, abandoned cart,
+  post-purchase ×2, win-back, trade application received, trade approved). IDs, timing and how to edit:
+  `store-content/email/README.md`; sources in `store-content/email/templates/`, generator `make_emails.py`.
+- Checkout: free standard post for WA orders of $100 or more on both parcel profiles
+  (`store-content/shipping/README.md`).
+- Theme: a draft copy of the live theme, "ETS 2026 – 10% sign-up offer (draft 11 Oct)", has the footer sign-up
+  and pop-up promising 10% off a first order and showing `WELCOME10` after sign-up (settings in
+  `sections/footer-group.json` only, no code change). The connector can't write to the live theme; the owner
+  publishes the draft from Online Store → Themes.
+- Plan: `marketing/rollout-2026-10-11.md` (week-by-week posts, owner to-dos, Black Friday proposal date).
+- `.claude/agents/ets-copy-review.md`: shipping and discount-code facts updated.

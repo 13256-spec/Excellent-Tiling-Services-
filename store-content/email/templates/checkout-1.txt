@@ -1,0 +1,4 @@
+You started an order with us and didn't finish. Your items are saved here: {{ event.extra.checkout_url }}  Questions about delivery? Reply to this email or call 0450 960 543.
+
+Excellent Tiling Services, 17A Olga Road, Maddington WA 6109. 0450 960 543.
+Unsubscribe: {% unsubscribe_link %}

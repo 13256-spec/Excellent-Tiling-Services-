@@ -1,0 +1,4 @@
+Still thinking it over? Use FREEPOST at checkout and standard Australia Post shipping on your saved order is free (Australian addresses, orders $60+). Finish here: {{ event.extra.checkout_url }}
+
+Excellent Tiling Services, 17A Olga Road, Maddington WA 6109. 0450 960 543.
+Unsubscribe: {% unsubscribe_link %}
