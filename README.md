@@ -270,3 +270,6 @@ the report.
   publishes the draft from Online Store → Themes.
 - Plan: `marketing/rollout-2026-10-11.md` (week-by-week posts, owner to-dos, Black Friday proposal date).
 - `.claude/agents/ets-copy-review.md`: shipping and discount-code facts updated.
+- Photos: 24 of the 54 `photo-needed` products (all Raimondi) now have manufacturer photos, loaded from raimondispa.com and
+  BAT Trims; 30 remain without any photo online (`store-content/reports/photos-sourced-2026-10-11.csv`, and the note in
+  the audit report).

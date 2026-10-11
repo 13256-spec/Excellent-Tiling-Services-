@@ -40,8 +40,14 @@ catalogue export via `bulkOperationRunQuery`; checkout tests with Playwright and
 
 ## Still open (owner or later work)
 
-- **54 products have no photo** (all tagged `photo-needed`: BAT buckets, BAT seal sealers, Raimondi blades, Raizor rails,
-  Bulldog machines, NICLIS grates). They work, but look bare and Google Shopping won't list them. Supplier photos are needed.
+- **Photos (updated 11 Oct, night)**: of the 54 products tagged `photo-needed`, 24 Raimondi products now have a manufacturer
+  photo (from raimondispa.com or BAT Trims, the official Australian distributor) and the tag was removed. 30 still have none:
+  all 15 BAT items (trowels, scrapers, knives, buckets, the BAT Luxe drain), 2 Panther buckets, 2 NICLIS items (grate,
+  bandage), 6 BATSEAL sealers and cleaners, and 7 Raimondi spares (Rai-Cut blade, Lupetto plate, transformer, Ipertitina
+  skirt and connectors, Clipdozer) that have no photo anywhere online. Four found photos were deliberately not used (a 6-cup
+  photo for the 4-cup Easymove set, the Power Raizor unit shown with a grinder that isn't included, the premium disc photo for
+  the economy 250 mm blade, a 407 px Lupetto crop). Full list with sources: `photos-sourced-2026-10-11.csv`. The 30 need
+  photos from BAT Trims (info@battrims.com) or a phone photo in the showroom.
 - **Raimondi Bulldog Profiling Machine** is a draft (hidden); **BAT Bright Steel Long Blade Trowel** is sold out; two archived
   BAT trims have a $0 price (archived, not visible).
 - **Local delivery settings** (Shopify admin, not readable by the API): check "free over $2,000" and the minimum order match the
