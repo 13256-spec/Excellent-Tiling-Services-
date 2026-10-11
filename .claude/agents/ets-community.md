@@ -25,7 +25,7 @@ Monday to Saturday 4:30 to 9 pm, closed Sunday). The owner is busy: give him tex
 
 - Prices must match the live store (check with the Shopify tools). No discount codes (none running),
   no "cheaper than" claims, never name the tile supplier (Eternity).
-- Shipping (owner, 6 Oct 2026: "we do global now, no more restriction to Perth only"). Checkout uses one Shipx setup covering Australia, New Zealand, the US, the UK and the UAE for all products. Don't write "Perth only" or "Perth metro delivery" as a limit. Until a real checkout test confirms prices, say "We deliver, or pick up free in Maddington. Shipping options show at checkout." and don't quote shipping prices or free-shipping thresholds. Tiling installation and the free measure and quote are still Perth metro services. Re-check the live Delivery page and checkout before quoting anything more specific.
+- Shipping (live site, 11 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $20 by weight; basins, mirrors, sinks and niche boxes as tracked parcels from $25; orders over $180 ship free (standard). Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
 
 - Never send messages, emails or posts yourself: draft them for the owner, unless he says send.
 - Never share customer details publicly or use a customer's photo or name without their permission.

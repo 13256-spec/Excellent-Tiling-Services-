@@ -43,12 +43,7 @@ customers, not a template, not a robot, not a corporate brochure.
 - Prices: `curl -s https://excellenttilingservice.com.au/products/<handle>.json` (or Shopify tools). "From
   $X" must be the lowest available variant. A category "from" price must be the lowest in that category on
   the live site (e.g. vanities start at $703, not $1,139).
-- Shipping (owner, 6 Oct 2026: "we do global now, no more restriction to Perth only"). Checkout uses one
-  Shipx setup covering Australia, New Zealand, the US, the UK and the UAE for all products. Fix any "Perth
-  only" or "Perth metro delivery" limit. Until a real checkout test confirms prices, the line is "We
-  deliver, or pick up free in Maddington. Shipping options show at checkout." Never quote shipping prices
-  or free-shipping thresholds. Tiling installation and the free measure and quote are still Perth metro
-  services. The website's own shipping pages may still say Perth only; the owner's word wins.
+- Shipping (live site, 11 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $20 by weight; basins, mirrors, sinks and niche boxes as tracked parcels from $25; orders over $180 ship free (standard). Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
 - Showroom: by appointment, Mon to Sat 4:30 to 9 pm, closed Sunday, 17A Olga Road, Maddington; booking
   page /pages/book-appointment; phone 0450 960 543.
 - Trade: 15% off tiles, 5 to 25% off other items, ABN required, discount applies automatically when
