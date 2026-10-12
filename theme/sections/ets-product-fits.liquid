@@ -1,0 +1,99 @@
+{%- comment -%}
+  ETS "What fits" section. Reads the product metafield ets.fits_with (list of products) and
+  ets.fits_models (plain text). On a machine it lists the accessories, blades and spare parts that fit it;
+  on an accessory, blade or part it lists the machines it fits. Nothing renders when the list is empty.
+{%- endcomment -%}
+{%- liquid
+  assign fits = product.metafields.ets.fits_with.value
+  assign fits_text = product.metafields.ets.fits_models.value
+  assign machine_types = 'Tile Saws,Tiling Machines,Tile Cutters,Large Format Tile Handling' | split: ','
+  assign is_machine = false
+  if machine_types contains product.type
+    assign is_machine = true
+  endif
+  assign shown = 0
+  for item in fits
+    if item.title != blank
+      assign shown = shown | plus: 1
+    endif
+  endfor
+-%}
+{%- if shown > 0 -%}
+  {%- liquid
+    if is_machine
+      assign eyebrow = section.settings.eyebrow_machine
+      assign heading = section.settings.heading_machine
+    else
+      assign eyebrow = section.settings.eyebrow_item
+      assign heading = section.settings.heading_item
+    endif
+    assign link_collection = section.settings.link_collection
+    assign range_collection = blank
+    for c in product.collections
+      if c.handle contains 'raimondi-'
+        assign range_collection = c
+        break
+      endif
+    endfor
+    if range_collection == blank and link_collection != blank and product.collections contains link_collection
+      assign range_collection = link_collection
+    endif
+    assign link_text = 'See the whole range'
+    if range_collection != blank and range_collection.handle == link_collection.handle and section.settings.link_text != blank
+      assign link_text = section.settings.link_text
+    endif
+  -%}
+  <section class="ets ets-fits" id="ets-fits" aria-labelledby="EtsFits-{{ section.id }}">
+    <div class="ets-wrap">
+      <div class="ets-fits__head">
+        <div>
+          {%- if eyebrow != blank -%}<p class="ets-overline">{{ eyebrow | escape }}</p>{%- endif -%}
+          <h2 id="EtsFits-{{ section.id }}">{{ heading | escape }}</h2>
+          {%- if fits_text != blank -%}<p class="ets-fits__note">{{ fits_text | escape }}</p>{%- endif -%}
+          {%- if is_machine -%}
+            <p class="ets-fits__note">Each item below lists every machine it fits. Not sure? Call the showroom on <a href="tel:+61450960543">0450&nbsp;960&nbsp;543</a>.</p>
+          {%- endif -%}
+        </div>
+        {%- if range_collection != blank -%}
+          <a class="ets-link" href="{{ range_collection.url }}">{{ link_text | escape }} {% render 'ets-store-icon', name: 'arrow' %}</a>
+        {%- endif -%}
+      </div>
+      <ul class="ets-fits__grid" role="list">
+        {%- for item in fits -%}
+          {%- if item.title != blank -%}
+            <li>{% render 'ets-card', product: item, sizes: '(min-width: 990px) 22vw, (min-width: 560px) 30vw, 46vw' %}</li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+    </div>
+  </section>
+{%- endif -%}
+
+{% stylesheet %}
+  .ets-fits{padding:clamp(40px,6vw,80px) 0;background:var(--ets-bg,#F3F2EE);border-top:1px solid var(--ets-line,#D9D6CF)}
+  .ets-fits__head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:28px}
+  .ets-fits__head h2{margin:0;color:var(--ets-ink,#15213A);font-size:clamp(24px,2.6vw,34px);line-height:1.1;letter-spacing:-.02em}
+  .ets-fits__note{margin:12px 0 0;max-width:62ch;color:var(--ets-muted,#6B6E74);font-size:15px;line-height:1.55}
+  .ets-fits__note a{color:inherit;text-underline-offset:3px}
+  .ets-fits__head .ets-link{flex:0 0 auto;white-space:nowrap}
+  .ets-fits__grid{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px 16px}
+  .ets-fits__grid .ets-card__media{background:#fff}
+  @media (max-width:989px){.ets-fits__grid{grid-template-columns:repeat(3,minmax(0,1fr))}.ets-fits__head{flex-direction:column;align-items:flex-start;gap:12px}}
+  @media (max-width:560px){.ets-fits__grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 12px}}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS what fits",
+  "settings": [
+    { "type": "paragraph", "content": "Shows the products in the metafield ets.fits_with. Machines get the first pair of headings, accessories and parts the second." },
+    { "type": "text", "id": "eyebrow_machine", "label": "Eyebrow on machines", "default": "What fits" },
+    { "type": "text", "id": "heading_machine", "label": "Heading on machines", "default": "Accessories, blades and parts for this machine" },
+    { "type": "text", "id": "eyebrow_item", "label": "Eyebrow on accessories and parts", "default": "Compatible with" },
+    { "type": "text", "id": "heading_item", "label": "Heading on accessories and parts", "default": "Fits these machines" },
+    { "type": "collection", "id": "link_collection", "label": "Collection whose link text below applies (other Raimondi machine collections get \"See the whole range\")" },
+    { "type": "text", "id": "link_text", "label": "Link text", "default": "See the whole range" }
+  ],
+  "presets": [ { "name": "ETS what fits" } ]
+}
+{% endschema %}

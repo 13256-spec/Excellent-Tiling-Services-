@@ -316,6 +316,24 @@ the report.
 - Owner to-dos with click paths (Google Ads location fix, publish the sign-up theme, Search Console, eBay postage,
   reviews app) and two pricing decisions (small-item postage tier, pickup lead time) are in the report.
 
+## Raimondi "what fits what" (12 Oct 2026)
+
+Order #1009 (a Zoe 85A with its extension table, side square and spacers) showed the Raimondi range did not
+say which accessories fit which machine. Fixed in three layers, see `store-content/raimondi/README.md` and
+`store-content/reports/raimondi-fit-2026-10-12.md`:
+
+- **Data (live):** product metafields `ets.fits_with` (list of products) and `ets.fits_models` (text) on all
+  131 Raimondi machines, accessories, blades and parts; seven manual "shop by machine" collections
+  (`raimondi-wet-saw-accessories`, `-bulldog-wheels-parts`, `-raizor-spares`, `-grout-clean-up-spares`,
+  `-floor-machine-parts`, `-mixer-vibrator-parts`, `-easymove-bigfoot-accessories`) linked from the
+  Raimondi collection; 31 wet-saw family products and the Double spacer rewritten from Raimondi's catalogue
+  (titles say what they suit, descriptions open with "Fits:"). No links in descriptions (eBay copies them).
+- **Theme (draft 144026435647 only):** `sections/ets-product-fits.liquid` (card grid of what fits) and
+  `snippets/ets-pdp-fits.liquid` (the "Fits:" line under the title), wired into `templates/product.json`
+  and `templates/product.store-wide.json`.
+- **Rule for new Raimondi products:** set both metafields, put "suits …" in the title, add the item to its
+  `raimondi-*` collection and to the machines' `fits_with` lists, add a row to `fitmap.py`.
+
 ## New look (12 Oct 2026, draft for the owner to publish)
 
 - The owner asked for the site's look to be redone. `store-content/reports/redesign-2026-10-12.md` has the audit (blurry

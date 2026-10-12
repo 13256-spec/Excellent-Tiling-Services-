@@ -228,11 +228,19 @@
                 "custom_liquid": "{% render 'ets-pdp-trade' %}"
               },
               "blocks": {}
+            },
+            "fits": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-fits', product: product %}"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "vendor",
             "title",
+            "fits",
             "price",
             "variant",
             "calc",
@@ -899,11 +907,23 @@
         "padding-block-start": 48,
         "padding-block-end": 72
       }
+    },
+    "fits": {
+      "type": "ets-product-fits",
+      "settings": {
+        "eyebrow_machine": "What fits",
+        "heading_machine": "Accessories, blades and parts for this machine",
+        "eyebrow_item": "Compatible with",
+        "heading_item": "Fits these machines",
+        "link_collection": "raimondi-wet-saw-accessories",
+        "link_text": "See the whole wet saw range"
+      }
     }
   },
   "order": [
     "breadcrumbs",
     "main",
+    "fits",
     "specs",
     "why_ets",
     "faq",

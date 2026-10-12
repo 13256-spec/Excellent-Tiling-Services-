@@ -1,0 +1,23 @@
+{%- comment -%}
+  "Fits:" line under the product title, from the metafield ets.fits_models.
+  Machines (saws, machines, cutters, handling gear) get the text as-is; accessories, blades and parts get a "Fits:" label.
+  @param {product} product
+{%- endcomment -%}
+{%- liquid
+  assign fm = product.metafields.ets.fits_models.value
+  assign has_list = false
+  for item in product.metafields.ets.fits_with.value
+    if item.title != blank
+      assign has_list = true
+      break
+    endif
+  endfor
+  assign machine_types = 'Tile Saws,Tiling Machines,Tile Cutters,Large Format Tile Handling' | split: ','
+-%}
+{%- if fm != blank -%}
+  <p class="ets-pdp-fits">
+    {%- unless machine_types contains product.type -%}<strong>Fits:</strong> {% endunless -%}
+    {{- fm | escape -}}
+    {%- if has_list %} <a href="#ets-fits">See what fits</a>{% endif -%}
+  </p>
+{%- endif -%}
