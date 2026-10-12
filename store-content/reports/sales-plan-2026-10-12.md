@@ -90,3 +90,47 @@ Two decisions that need a yes or no (not done, they change what customers pay):
   don't expect orders from it this month.
 - The 121 Merchant Center rejections: they are the UAE feed only (image error on the BAT 316 stainless angle, one
   price mismatch on a linear drain); the Australian listings for the same products are approved.
+
+## Postage: what we charge vs what it costs (added later on 12 Oct)
+
+The owner asked "shipping is a problem, what's the solution". Checked against the orders and Australia Post's MyPost
+Business Rates and Savings Guide, July 2026 (flat-rate satchels, Parcel Post, GST inclusive;
+`scratchpad/auspost-dl/rates.pdf` while the session lasts; source
+https://auspost.com.au/content/dam/auspost_corp/media/documents/mypost-business-postage-rates-guide.pdf).
+
+What real buyers paid: #1002 Sigma bolt $19.75 + $15 post (NSW); #1006 five bags of caulking sticks $36.75 + $20 (SA);
+#1007 four tubes of Maxisil $63.96 + $20 (NSW); #1003 $275 of abrasive wheels + $20 (VIC, before the $180 free rate
+existed); #1004 and #1005 free pickup (WA); #1001 $118 free (QLD, under the old $100 rule); #1008 eBay $7.95 posted free.
+
+| Parcel | Shop charges | Costs the shop, Band 0 | Band 1 (Zone 2, Perth to an east-coast city) | Band 2 |
+|---|---|---|---|---|
+| up to 250 g | $15 | $10.20 | $9.69 | $8.98 |
+| up to 500 g | $15 | $11.70 | $11.12 | $10.30 |
+| 500 g to 1 kg | $15 | $16.00 | $15.20 | $14.08 |
+| 1 to 3 kg | $20 | $20.25 | $19.24 | $17.82 |
+| 3 to 5 kg | $29 | $24.45 | $23.23 | $21.52 |
+
+Bands: Band 0 under $50 of MyPost Business spend in the window (or under $500 in 12 months), Band 1 $50–$249 (or
+$500–$2,499 in 12 months), Band 2 $250–$499 (or $2,500–$4,999). Band 0 has one price for all zones; from Band 1 the
+price depends on the zone (Zone 1 same city, Zone 2 any capital or major area, Zone 3 rural). Over 5 kg is priced per
+kg by distance; the $39/$59/$109/$179 tiers stay as they are.
+
+So the current rates are already at cost for 500 g to 3 kg, and nothing can be cut there. The proposal, waiting on the
+owner's yes:
+
+1. Two lighter tiers at cost and a cheaper 3–5 kg tier, on both parcel profiles and both zones (WA and outside WA):
+   up to 250 g $9.95, 250 g to 500 g $11.95, 500 g to 1 kg $15 (unchanged), 1 to 3 kg $20 (unchanged), 3 to 5 kg $24.95
+   (from $29). Of the 944 active postable variants, 164 weigh up to 250 g and 165 up to 500 g: spacers, bolts, blades,
+   drill bits, cleaner, caulking sticks, a single tube of silicone. Done with `deliveryProfileUpdate` (create the two
+   new rates per zone, move the existing first tier's lower bound to 0.501 kg, reprice the 3–5 kg tier).
+2. Show the postage before checkout: a line on every product page ("Post from $9.95, free over $100 in WA and $180
+   Australia-wide, free pickup in Maddington") and a free-postage progress bar in the cart drawer. Draft theme, owner
+   publishes. The live product page says "Shipping calculated at checkout".
+3. Keep the free thresholds (WA $100, elsewhere $180); optionally lower the Australia-wide one to $150 (owner's call,
+   about $20 of postage absorbed on each order between $150 and $180).
+4. Pickup lead time to "usually ready in 24 hours" if orders can be packed by the next evening (owner's call).
+5. Put every parcel, eBay included, through MyPost Business so the account climbs to Band 1 and 2, then lower the
+   tiers again. eBay postage policies per `store-content/marketplaces/ebay-postage-and-pricing-2026-10-12.md`.
+
+Housekeeping noticed: an empty delivery profile "Small parcels - $249 free shipping (setup pending)" (0 variants,
+inactive free rate) is left over from an earlier attempt and can be deleted.
