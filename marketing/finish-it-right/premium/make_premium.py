@@ -68,6 +68,10 @@ def build(p, W, H):
     band_h = 340 if H == 1350 else 380
     bg = hexrgb(p.get('bg', '#F4F5F3'))
     im = load(p['image'])
+    z = p.get('zoom')  # keep only the central fraction of the photo before cropping
+    if z:
+        cw, ch = int(im.width * z), int(im.height * z)
+        im = im.crop(((im.width - cw) // 2, (im.height - ch) // 2, (im.width + cw) // 2, (im.height + ch) // 2))
     photo_h = H - band_h
     photo = cover(im, W, photo_h) if p.get('fit', 'cover') == 'cover' else studio(im, W, photo_h, bg)
     out = Image.new('RGB', (W, H), NAVY); out.paste(photo, (0, 0))

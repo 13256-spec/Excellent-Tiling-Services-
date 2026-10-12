@@ -29,11 +29,12 @@
  "thu-waste": {
   "type": "main",
   "image": "src/waste-0.jpg",
-  "fit": "studio",
+  "fit": "cover",
   "title": "Square grate floor waste",
   "line": "50 mm outlet. Six finishes, so it matches your tapware.",
   "price": "$16.05",
-  "price_note": "each"
+  "price_note": "each",
+  "zoom": 0.5
  },
  "fri-scraper": {
   "type": "main",
@@ -86,10 +87,11 @@
  "story-waste": {
   "type": "story",
   "image": "src/waste-2.jpg",
-  "fit": "studio",
+  "fit": "cover",
   "title": "Square grate floor waste",
   "line": "Six finishes to match your taps.",
   "price": "$16.05",
-  "price_note": "each"
+  "price_note": "each",
+  "zoom": 0.5
  }
 }
