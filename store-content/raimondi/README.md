@@ -4,6 +4,10 @@ Set up 12 Oct 2026 after order #1009 (a Zoe 85A with the folding extension table
 spacers): the customer had trouble working out which accessories fit the saw. Every Raimondi machine,
 accessory, blade, consumable and spare part now carries two product metafields, and the site uses them.
 
+**Superseded the same evening** by the store-wide map in `store-content/catalogue/` (`fitmap_all.py`,
+`compatibility-all.csv`), which covers every Raimondi product plus BAT, Washboy, Panther, Siri, Sigma and the
+rest, and adds `ets.fits_role`. This folder is kept for the Raimondi sources and the wet-saw rewrite.
+
 ## The data
 
 | Metafield | Type | On a machine | On an accessory, blade or part |
@@ -52,12 +56,13 @@ Maxititina, grout clean-up, Rai-Fix).
   "Shop by machine" line: `raimondi-wet-saw-accessories`, `raimondi-bulldog-wheels-parts`,
   `raimondi-raizor-spares`, `raimondi-grout-clean-up-spares`, `raimondi-floor-machine-parts`,
   `raimondi-mixer-vibrator-parts`, `raimondi-easymove-bigfoot-accessories`.
-- Draft theme "Copy of ETS 2026 – Postage shown before checkout" (gid://shopify/OnlineStoreTheme/144029417535,
-  the owner's own copy of the live theme, made 12 Oct) only, until the owner publishes it: `sections/ets-product-fits.liquid` renders the `fits_with` products as a card grid
-  ("Accessories, blades and parts for this machine" on machines, "Fits these machines" on everything else,
-  with a link to the product's Raimondi machine collection), and `snippets/ets-pdp-fits.liquid` puts the
-  `fits_models` text under the product title with a "See what fits" jump link. Both product templates carry
-  the `fits` block and section.
+- Draft theme "ETS 2026 – what fits what (draft, not published)" (gid://shopify/OnlineStoreTheme/144033579071,
+  a duplicate of the live theme made 12 Oct, after the owner deleted his own copy 144029417535) only, until the
+  owner publishes it: `sections/ets-product-fits.liquid` renders the `fits_with` products as a card grid
+  ("What fits this one" on machines, "What this fits" on everything else, with a "See the whole range" link
+  to the product's system or machine collection), and `snippets/ets-pdp-fits.liquid` puts the `fits_models`
+  text under the product title with a "See what fits" jump link. Both product templates carry the `fits`
+  block and section.
 
 ## Adding a new Raimondi product
 

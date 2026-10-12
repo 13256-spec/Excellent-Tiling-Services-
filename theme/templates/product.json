@@ -1020,11 +1020,12 @@
     "fits": {
       "type": "ets-product-fits",
       "settings": {
-        "eyebrow_machine": "What fits",
-        "heading_machine": "Accessories, blades and parts for this machine",
-        "eyebrow_item": "Compatible with",
-        "heading_item": "Fits these machines",
+        "eyebrow_machine": "Accessories, blades and spare parts",
+        "heading_machine": "What fits this one",
+        "eyebrow_item": "Compatible machines and tools",
+        "heading_item": "What this fits",
         "link_collection": "raimondi-wet-saw-accessories",
+        "system_handles": "raimondi-,grout-clean-up,mixers-,sigma-cutter,tile-drilling,knee-pads,scrapers-,silicone-tools",
         "link_text": "See the whole wet saw range"
       }
     }

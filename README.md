@@ -328,11 +328,34 @@ say which accessories fit which machine. Fixed in three layers, see `store-conte
   `-floor-machine-parts`, `-mixer-vibrator-parts`, `-easymove-bigfoot-accessories`) linked from the
   Raimondi collection; 31 wet-saw family products and the Double spacer rewritten from Raimondi's catalogue
   (titles say what they suit, descriptions open with "Fits:"). No links in descriptions (eBay copies them).
-- **Theme (the owner's copy of the live theme, 144029417535, until he publishes it):** `sections/ets-product-fits.liquid` (card grid of what fits) and
+- **Theme (draft "ETS 2026 – what fits what (draft, not published)", 144033579071, until the owner publishes it; his earlier copy 144029417535 was deleted):** `sections/ets-product-fits.liquid` (card grid of what fits) and
   `snippets/ets-pdp-fits.liquid` (the "Fits:" line under the title), wired into `templates/product.json`
   and `templates/product.store-wide.json`.
 - **Rule for new Raimondi products:** set both metafields, put "suits …" in the title, add the item to its
   `raimondi-*` collection and to the machines' `fits_with` lists, add a row to `fitmap.py`.
+
+## Catalogue check and "what fits what" for the whole range (12 Oct 2026)
+
+Customer feedback: hard to tell which items work with which. The owner photographed the BAT Trims Tools
+Catalogue (106 pages); it is transcribed in `store-content/catalogue/bat-tools-catalogue.csv` (774 rows) and
+every tool product was checked against it. See `store-content/catalogue/README.md` and
+`store-content/reports/catalogue-check-2026-10-12.md`.
+
+- **Data (live):** 370 products across BAT, Raimondi, Washboy, Panther, Siri, Sigma, Baron, Atika, Maxisil and
+  Barwalt carry `ets.fits_with`, `ets.fits_models` and the new `ets.fits_role` (`parent` or `item`); 71 titles
+  say what they suit, 55 product types corrected, 186 descriptions open with "Fits:" or carry "What fits:";
+  the catalogue corrected a dozen facts (Bi-Bulldog wheels, Bulldog feed kit, Washboy sizes, trowel sizes,
+  Sigma wheel fitment and more). Map as code: `store-content/catalogue/fitmap_all.py`; as data:
+  `compatibility-all.csv`.
+- **Collections (live):** eight "shop by system" collections, all brands together, linked from the Raimondi,
+  BAT, Sigma and Panther pages: `grout-clean-up-systems`, `mixers-paddles-buckets`, `sigma-cutter-spares`,
+  `scrapers-knives-blades`, `silicone-tools`, `knee-pads-spares`, `tile-drilling`, `washboy`.
+- **Theme (draft 144033579071 only, until the owner publishes it):** the what-fits section now keys off
+  `ets.fits_role` and links to any system collection (`system_handles` setting); headings "What fits this
+  one" and "What this fits". The owner deleted his copy of the live theme, so a fresh API duplicate of the live
+  theme carries the section; the live theme is never written to.
+- **Owner decisions:** Bi-Bulldog wheel included or not, BAT 1050 W mixer chuck vs M14 paddle, stocking the
+  Washboy WB-9002L handle, whether the system collections go in the Hardware menu.
 
 ## New look (12 Oct 2026, declined by the owner)
 

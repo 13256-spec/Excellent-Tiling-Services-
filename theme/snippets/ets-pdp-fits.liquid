@@ -13,10 +13,17 @@
     endif
   endfor
   assign machine_types = 'Tile Saws,Tiling Machines,Tile Cutters,Large Format Tile Handling' | split: ','
+  assign role = product.metafields.ets.fits_role.value
+  assign is_parent = false
+  if role == 'parent'
+    assign is_parent = true
+  elsif role == blank and machine_types contains product.type
+    assign is_parent = true
+  endif
 -%}
 {%- if fm != blank -%}
   <p class="ets-pdp-fits">
-    {%- unless machine_types contains product.type -%}<strong>Fits:</strong> {% endunless -%}
+    {%- unless is_parent -%}<strong>Fits:</strong> {% endunless -%}
     {{- fm | escape -}}
     {%- if has_list %} <a href="#ets-fits">See what fits</a>{% endif -%}
   </p>
