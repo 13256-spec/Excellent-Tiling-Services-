@@ -328,7 +328,7 @@ say which accessories fit which machine. Fixed in three layers, see `store-conte
   `-floor-machine-parts`, `-mixer-vibrator-parts`, `-easymove-bigfoot-accessories`) linked from the
   Raimondi collection; 31 wet-saw family products and the Double spacer rewritten from Raimondi's catalogue
   (titles say what they suit, descriptions open with "Fits:"). No links in descriptions (eBay copies them).
-- **Theme (draft 144026435647 only):** `sections/ets-product-fits.liquid` (card grid of what fits) and
+- **Theme (draft 144029483071 only):** `sections/ets-product-fits.liquid` (card grid of what fits) and
   `snippets/ets-pdp-fits.liquid` (the "Fits:" line under the title), wired into `templates/product.json`
   and `templates/product.store-wide.json`.
 - **Rule for new Raimondi products:** set both metafields, put "suits …" in the title, add the item to its

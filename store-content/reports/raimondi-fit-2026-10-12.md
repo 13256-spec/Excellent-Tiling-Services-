@@ -30,11 +30,17 @@ fit it, the extension table was titled "suit Pikus", and nothing linked the saw 
 
 ## What shows once the new look is published
 
-The draft theme (ETS 2026 – New look) has a new "what fits" section on every product page and a "Fits:" line
-under the title. The live theme does not have it, so until the owner publishes the draft the compatibility
-shows as text in the descriptions and through the collections.
+The draft theme has a new "what fits" section on every product page and a "Fits:" line under the title. The
+live theme does not have it, so until the owner publishes the draft the compatibility shows as text in the
+descriptions and through the collections.
 
-Preview: https://excellenttilingservice.com.au/products/raimondi-zoe-electric-wet-saw-3hp?preview_theme_id=144026435647
+Note: the first new-look draft (144026435647) disappeared from the store at 18:43 Perth time on 12 Oct, a
+minute after a "Copy of ETS 2026 – Postage shown before checkout" backup appeared, so someone was in the
+Themes screen. It was rebuilt from the live theme as "ETS 2026 – New look (draft 12 Oct, rebuilt)"
+(gid://shopify/OnlineStoreTheme/144029483071) with the 12 new-look files and the 4 fits files; the backup
+copy was left untouched.
+
+Preview: https://excellenttilingservice.com.au/products/raimondi-zoe-electric-wet-saw-3hp?preview_theme_id=144029483071
 
 ![Zoe page: fits line under the title](img/raimondi-zoe-desktop-0.jpg)
 ![Zoe page: accessories, blades and parts grid](img/raimondi-zoe-desktop-fits.jpg)
