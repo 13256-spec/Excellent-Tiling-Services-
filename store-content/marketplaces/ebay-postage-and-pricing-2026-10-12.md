@@ -83,6 +83,11 @@ baths, toilets → select all → set to not listed → **Save**. These are Pert
 
 ## Notes
 
+- 12 Oct 2026, later: the website now charges $9.95 up to 250 g and $11.95 up to 500 g (and $24.95 for 3–5 kg). The eBay policies
+  above keep $15 as the minimum on purpose: eBay's final value fee (about 13% of item + postage) eats the difference, and the
+  `ebay-post-15` tag already covers every product under 1 kg. Add an "ETS Post A0 – up to 500 g – $11.95" policy later only if light
+  items sell on eBay in volume.
+
 - eBay says business policies become a Pro-plan feature from 1 December 2026; revisit before then.
 - Shopify/eBay settings can't be changed through the Claude connector (Marketplace Connect has no API).
 - Sources: eBay help "Business policies" (id 4212) and "Postage discounts" (id 4168); Shopify Help Center,
