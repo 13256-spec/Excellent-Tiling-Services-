@@ -13,6 +13,20 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Marketing automation and holiday rollouts (12 Oct 2026)
+
+- Customer email runs in Klaviyo: nine automated flows (welcome, browse abandonment, abandoned cart and
+  checkout, post-purchase and review ask, repeat purchase at day 21, win-back, trade), three email-only codes
+  (WELCOME10, COMEBACK10, FREEPOST). Map, ids and the owner's switch-on list: `marketing/email/README.md`.
+  Agent: `.claude/agents/ets-email.md`.
+- Black Friday 2026 is staged, not live: a 222-product collection, an automatic 15% discount parked as
+  expired, and a draft theme, to be bundled in a Shopify **Rollout** (Markets → Rollouts) that the owner
+  schedules. Plan, numbers and the click-by-click: `marketing/holiday-2026/ROLLOUT-PLAN.md`.
+- The `ets-*` agents share one shipping rule (post from $9.95, free on WA orders over $100 and
+  Australia-wide over $150; tiles and large items Perth metro only) taken from the live header bar and
+  `/pages/delivery-pickup`. `theme/sections/header-group.json` and `footer-group.json` were re-synced to the
+  live theme the same day (the live pop-up offers WELCOME10 after a 45 s delay).
+
 ## Showroom bookings
 
 The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm (closed Sunday).

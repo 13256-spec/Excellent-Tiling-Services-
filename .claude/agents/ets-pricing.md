@@ -28,6 +28,12 @@ is busy and not technical: answer in short, plain sentences with dollar figures,
   competitor − 5%, trade band) for that item.
 - **Price lists**: rerun `python3 store-content/pricing/price_list_pdf.py store-content/pricing/store-pricing-2026-10-03.csv store-content/pricing/price-lists`.
   The owner-only cost list must never be sent to customers.
+- **Campaign discount check** (before any code or sale, for `ets-marketing` / `ets-email`): for the proposed
+  % off, list every variant whose sale price would fall below the public floor (cost × 1.1 × 1.25) or below
+  cost, and the products where every variant passes. Scope the offer to the passing products only. The
+  worked example is `marketing/holiday-2026/black-friday-2026-eligible-15pct.csv` (222 products pass at
+  15%; 349 of 1,572 variants fail at 10% sitewide, 579 at 15%). Email codes WELCOME10 and COMEBACK10 are
+  scoped to the `trade-list-20` and `trade-list-25` collections for the same reason.
 
 ## Hard rules
 

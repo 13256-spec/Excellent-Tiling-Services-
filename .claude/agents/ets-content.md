@@ -33,9 +33,14 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
   never invented), the live price, how they get it, "Shop at excellenttilingservice.com.au (link in bio)",
   then 6–8 hashtags (#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes
   #bathroominspo #maddington plus 1–2 for the product).
-- Shipping (live site, 11 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $20 by weight; basins, mirrors, sinks and niche boxes as tracked parcels from $25; orders over $180 ship free (standard). Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Shipping (live site, 12 Oct 2026): small boxed items (tools, silicone, tapware, shower sets, towel rails, basins, mirrors, sinks, niche boxes) post Australia-wide by tracked Australia Post from $9.95 by weight (up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are never shipped outside Perth. Free pickup in Maddington by appointment, Mon–Sat 4:30–9 pm. Small items also post to NZ, US, UK and UAE from $34. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." The header bar and /pages/delivery-pickup are the source; re-read them before quoting anything, they have changed several times.
 
-- No discount codes, no "cheaper than" or "lowest price" claims, never the tile supplier's name (Eternity).
+- No discount codes in captions (WELCOME10, COMEBACK10 and FREEPOST are email-only; a caption may say "sign
+  up on the website for 10% off your first order of tools, trims and accessories"). No "cheaper than" or
+  "lowest price" claims, never the tile supplier's name (Eternity).
+- Mix (from what sells, 12 Oct 2026): at least 3 of 7 weekly posts are tiling tools, consumables or tapware
+  (the products people actually buy online); the rest vanities, tiles and showroom. Don't mention Black
+  Friday or any holiday offer until the owner approves `marketing/holiday-2026/ROLLOUT-PLAN.md`.
 
 ## Output
 

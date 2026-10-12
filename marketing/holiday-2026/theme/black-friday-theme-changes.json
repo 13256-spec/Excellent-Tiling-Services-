@@ -1,0 +1,17 @@
+{
+  "hero_settings": {
+    "eyebrow": "Black Friday · Fri 27 to Mon 30 Nov",
+    "heading": "15% off tools, tiles, tapware and trims. Four days only.",
+    "text": "No code needed. The discount comes off in the cart on 220+ products. Perth delivery or free pickup from Maddington; small items post Australia-wide.",
+    "btn_1_label": "Shop the Black Friday range",
+    "btn_1_link": "shopify://collections/black-friday-2026",
+    "btn_2_label": "Get a renovation quote",
+    "btn_2_link": "shopify://pages/request-a-quote",
+    "stat_3_value": "5–25%",
+    "stat_3_label": "off for trade accounts",
+    "interval": 7
+  },
+  "theme_id": "gid://shopify/OnlineStoreTheme/144032366655",
+  "header_msg_1": "Black Friday · 15% off 220+ tools, tiles, tapware & trims · Fri 27 to Mon 30 Nov",
+  "collection": "gid://shopify/Collection/302463156287 (handle black-friday-2026, unpublished)"
+}
