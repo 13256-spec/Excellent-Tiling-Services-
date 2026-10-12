@@ -3,7 +3,7 @@
 Set up 11 Oct 2026 through the Klaviyo API. Account WNnVDh, sender "Excellent Tiling Services"
 <contactus@excellenttilingservice.com.au>, send times in the customer's timezone (Perth when unknown).
 
-## The seven flows (all live)
+## The nine flows (all live)
 
 | Flow | Klaviyo ID | Starts when | What is sent |
 |---|---|---|---|
@@ -13,18 +13,27 @@ Set up 11 Oct 2026 through the Klaviyo API. Account WNnVDh, sender "Excellent Ti
 | ETS \| Post-purchase (what happens next + review) | R7P79n | Shopify "Placed Order" (UG3gMA) | 2 days after the order at 9:30 am: "Thanks for your order, here's what happens next" (posting, Perth delivery, pickup, care notes, finishing supplies); 12 days later at 9:30 am: "How did it go?" with the Google review button. At most once every 30 days per customer. |
 | ETS \| Win-back (COMEBACK10) | VUFXf5 | joining segment "ETS \| Lapsed customers (no order in 60 days)" (Rrg8ud: ordered before, nothing in the last 60 days, can receive email) | next morning at 9:30 am: "It's been a while. Here's 10% off" with COMEBACK10. Trade customers skipped. Once per person, ever. |
 | ETS \| Trade application received | Uxqmty | joining segment "ETS \| Trade applicants (waiting for approval)" (SWneSS: Shopify tag `trade-applicant` and not `trade`) | straight away: "We've got your trade application". Once per person. |
+| ETS \| Browse abandonment (viewed, no cart) | TkVVC9 | onsite "Viewed Product" (TgJERy, from the Klaviyo app embed; made 12 Oct) | 2 h later "Still thinking it over?" with the product viewed (name, photo, price, link), only if they have not added to cart, started checkout or ordered in the last 24 h. Can run again after 7 days. |
+| ETS \| Repeat purchase (day 21, finishing the job) | S9w6zL | Shopify "Placed Order" (made 12 Oct) | 21 days after the order at 9:30 am: "Finishing the job?" (silicone and grout, trims, taps), skipped if they have ordered since. At most once every 30 days. |
 | ETS \| Trade account approved | TK8Na9 | joining segment "ETS \| Trade customers (Shopify tag: trade)" (TE2xQT) | straight away: "Your trade account is live" (log in, prices show automatically). Once per person. |
 
 Who gets them: abandoned checkout, abandoned cart, post-purchase and win-back go to anyone Klaviyo can email who
 has not unsubscribed (Klaviyo's "can receive email marketing"); the welcome series only to subscribed profiles.
 The two trade emails go to everyone who joins the segment (the account is not enabled for Klaviyo
 "transactional" emails, so they are ordinary emails with an unsubscribe link). Smart sending (skip anyone
-emailed in the last 16 hours) is on for everything except the first welcome email and the two trade emails.
+emailed in the last 16 hours) is on for everything except the first welcome email, the two trade emails and,
+since 13 Oct, the two abandoned-checkout emails and the cart email (a checkout reminder must not be skipped
+because a cart reminder or a campaign went out a few hours earlier).
 
 Segment-triggered flows only fire for people who join the segment after the flow went live, so nobody who
 was already a subscriber, trade customer or lapsed customer on 11 Oct gets a surprise email.
 
-The old draft flow "ETS | Checkout Recovery – 3 Hour Reminder" (VkSjQc, 8 Oct) is unused and can be deleted.
+The old draft flow "ETS | Checkout Recovery – 3 Hour Reminder" (VkSjQc, 8 Oct) was deleted on 12 Oct.
+
+**Shopify's own abandoned-checkout email is also on** ("Abandoned checkout emails by Shopify", Shopify admin
+→ Apps → Messaging → Automations): a plain reminder about 10 hours after the checkout, to email subscribers
+only. It duplicates the Klaviyo flow for subscribers and cannot be changed through the API; the owner turns it
+off once the Klaviyo sending domain below is active. See `store-content/reports/checkout-recovery-2026-10-13.md`.
 
 ## The emails
 
@@ -47,6 +56,10 @@ hours and Klaviyo's unsubscribe link. Dynamic bits use Klaviyo's Shopify event d
 | winback-1 | It's been a while. Here's 10% off | RT9as3 | COMEBACK10 |
 | trade-applied | We've got your trade application | VR8d3s | |
 | trade-approved | Your trade account is live | YpNDGP | |
+| browse-1 | Still thinking it over? | UGrMgA | the product viewed (`event.Name`, `event.ImageURL`, `event.URL`, `event.Price`); source saved from Klaviyo, not built by `make_emails.py` |
+| repeat-1 | Finishing the job? | VthAtQ | Maxisil, trims, MELA links; source saved from Klaviyo, not built by `make_emails.py` |
+
+browse-1 and repeat-1 have HTML only (no plain-text part) in Klaviyo; the flow copies are SHUSZw and SFTSQZ.
 
 **Editing an email.** Each flow holds its own copy of the template (Klaviyo copies it when the flow is
 created), so changing the master does not change the live flow. Edit the email inside the flow (Flows → open
@@ -62,6 +75,34 @@ in another link) and `{% unsubscribe_link %}` in the plain-text version.
 above, so their copies are now: welcome-1 UVXAGK (flow action 120142352), welcome-2 TuZYD7 (120142355), cart-1
 UzMzbz (120142389), checkout-1 TS9gdy (120142375), checkout-2 WKkJgv (120142378), winback-1 XQ8iNX (120142420).
 welcome-3, post-1, post-2 and the two trade emails do not mention the threshold and were left alone.
+
+**13 Oct 2026, checkout emails.** checkout-2 now says what FREEPOST really does (standard post rates up to $30,
+so parcels to 5 kg; heavier parcels post at the normal rate) instead of "whatever the order size", and both
+checkout plain-text versions keep the link unescaped (`|safe`). Masters XURBGg and Y8JnzV updated and the flow
+re-pointed: live copies are now checkout-1 Wx2R3B (flow action 120142375) and checkout-2 TpVBWu (120142378).
+
+## Sending domain (DMARC), set up 13 Oct, waiting on DNS
+
+The domain publishes `v=DMARC1; p=quarantine` and Klaviyo had no sending domain, so every email went through
+Klaviyo's shared domain, failed DMARC and was quarantined (0 opens on the first 4 flow emails). A branded
+sending domain `send.excellenttilingservice.com.au` (Klaviyo id 3434342) was created through
+`POST /api/sending-domains` (static configuration, marketing). Records to add at Hosting Platform
+(ns1/ns2.syd7.hostingplatform.net.au), relative to `excellenttilingservice.com.au`:
+
+| Type | Host | Value |
+|---|---|---|
+| CNAME | `send` | `3847965137100592943.klaviyodns.com` |
+| CNAME | `mtd1._domainkey` | `mtd1._domainkey.3847965137100592943.klaviyodns.com` |
+| CNAME | `mtd2._domainkey` | `mtd2._domainkey.3847965137100592943.klaviyodns.com` |
+| TXT | `@` | `klaviyo-site-verification=WNnVDh` |
+
+Then run the verification job (`POST /api/sending-domain-verification-jobs`) and the activation job
+(`POST /api/sending-domain-activation-jobs`); the From address stays contactus@excellenttilingservice.com.au.
+
+## Campaign drafts
+
+"ETS | Finishing Essentials | REVIEW ONLY | 2026-10-08" (template Sw2Cbg) and "ETS | Black Friday 2026 – 15%
+off, four days | DRAFT for approval" (12 Oct, template WsJaAz) are unsent drafts awaiting the owner.
 
 ## Discount codes used
 

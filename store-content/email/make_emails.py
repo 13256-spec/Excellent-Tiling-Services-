@@ -65,15 +65,15 @@ E["checkout-1"]=("Your checkout is saved", base("Your checkout is saved",
  btn("Finish my order", "{{ event.extra.checkout_url }}")+
  p("Not sure about delivery? Posted orders over $150 ship free anywhere in Australia. Tiles and large items are delivered in Perth or picked up free from Maddington, and the options show at checkout.")+
  small("Questions? Reply to this email or call 0450 960 543 (Mon to Sat, 4:30 to 9 pm)."),
- "You started an order with us and didn't finish. Your items are saved here: {{ event.extra.checkout_url }}  Questions about delivery? Reply to this email or call 0450 960 543."))
+ "You started an order with us and didn't finish. Your items are saved here: {{ event.extra.checkout_url|safe }}  Questions about delivery? Reply to this email or call 0450 960 543."))
 # ---------- Checkout 2
 E["checkout-2"]=("Free postage on this order", base("Free postage on this order",
  h1("We'll cover the postage on this one")+
- p("Still thinking it over? Use the code below and standard Australia Post shipping on your saved order is free, whatever the order size.")+
+ p("Still thinking it over? Use the code below at checkout and tracked standard post on your saved order is on us. That is the whole postage charge on parcels up to 5 kg, which covers most tool, trim and tapware orders.")+
  code("FREEPOST")+items+
  btn("Finish my order", "{{ event.extra.checkout_url }}")+
- small("One use per customer, Australian addresses, orders of $60 or more. Covers tracked standard post. Tiles and large items are Perth delivery or pickup and aren't posted. Already over $150? Then postage was free anyway, and this code just makes sure."),
- "Still thinking it over? Use FREEPOST at checkout and standard Australia Post shipping on your saved order is free (Australian addresses, orders $60+). Finish here: {{ event.extra.checkout_url }}"))
+ small("One use per customer, Australian addresses, orders of $60 or more. Applies to standard post rates up to $30 (parcels to 5 kg); heavier parcels post at our normal rate. Tiles and large items are Perth delivery or pickup and aren't posted. Already over $150? Then postage was free anyway, and this code just makes sure."),
+ "Still thinking it over? Use FREEPOST at checkout and tracked standard post on your saved order is on us (Australian addresses, orders $60+, standard post rates up to $30, so parcels up to 5 kg). Finish here: {{ event.extra.checkout_url|safe }}"))
 # ---------- Cart
 E["cart-1"]=("Still in your cart", base("Still in your cart",
  h1("Still in your cart")+
