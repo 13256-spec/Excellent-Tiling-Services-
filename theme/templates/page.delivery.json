@@ -22,7 +22,7 @@
           "settings": {
             "icon": "box",
             "title": "Australia-wide post from $9.95",
-            "text": "<p>Tools, silicone, tapware, shower sets, towel rails and other small boxed items post anywhere in Australia by tracked Australia Post, priced by parcel weight: up to 250 g $9.95, up to 500 g $11.95, up to 1 kg $15, up to 3 kg $20, up to 5 kg $24.95, heavier parcels by weight. Basins, mirrors, sinks and niche boxes go the same way. Free on WA orders over $100 and on orders over $180 anywhere in Australia. Exact prices show at checkout.</p>"
+            "text": "<p>Tools, silicone, tapware, shower sets, towel rails and other small boxed items post anywhere in Australia by tracked Australia Post, priced by parcel weight: up to 250 g $9.95, up to 500 g $11.95, up to 1 kg $15, up to 3 kg $20, up to 5 kg $24.95, heavier parcels by weight. Basins, mirrors, sinks and niche boxes go the same way. Free on WA orders over $100 and on orders over $150 anywhere in Australia. Exact prices show at checkout.</p>"
           }
         },
         "1": {
@@ -69,7 +69,7 @@
           "type": "step",
           "settings": {
             "title": "Choose delivery or pickup",
-            "text": "Perth local delivery, Australia-wide post from $9.95 (free on WA orders over $100 and on orders over $180 elsewhere), or free pickup: the options for your address show at checkout."
+            "text": "Perth local delivery, Australia-wide post from $9.95 (free on WA orders over $100 and on orders over $150 elsewhere), or free pickup: the options for your address show at checkout."
           }
         },
         "2": {

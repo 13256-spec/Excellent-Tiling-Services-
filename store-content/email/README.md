@@ -50,9 +50,18 @@ hours and Klaviyo's unsubscribe link. Dynamic bits use Klaviyo's Shopify event d
 
 **Editing an email.** Each flow holds its own copy of the template (Klaviyo copies it when the flow is
 created), so changing the master does not change the live flow. Edit the email inside the flow (Flows → open
-the flow → click the email → Edit content), or change the master and rebuild the flow. Keep the
+the flow → click the email → Edit content), or change the master and point the flow's email action at it again
+(`PATCH /api/flow-actions/{id}` with the master's `template_id`, the flow can stay live): Klaviyo then takes a
+fresh copy with a new template id. The copies themselves cannot be changed through the Templates API (PATCH
+/api/templates/{copy id} answers 404). Keep the
 `{% unsubscribe 'Unsubscribe' %}` tag in the HTML (Klaviyo turns it into the unsubscribe link; don't wrap it
 in another link) and `{% unsubscribe_link %}` in the plain-text version.
+
+**12 Oct 2026, free post from $150.** welcome-1, welcome-2, cart-1, checkout-1, checkout-2 and winback-1 said
+"$180"; `make_emails.py` and the six masters now say $150, and the live flows were re-pointed at the masters as
+above, so their copies are now: welcome-1 UVXAGK (flow action 120142352), welcome-2 TuZYD7 (120142355), cart-1
+UzMzbz (120142389), checkout-1 TS9gdy (120142375), checkout-2 WKkJgv (120142378), winback-1 XQ8iNX (120142420).
+welcome-3, post-1, post-2 and the two trade emails do not mention the threshold and were left alone.
 
 ## Discount codes used
 

@@ -4,7 +4,7 @@ Written 12 Oct 2026 after the first eBay order (#1008, caulking sticks, $7.95 to
 
 ## Why eBay orders arrive with free postage
 
-Shopify's shipping rates ($15 standard, free over $180, free over $100 in WA) only run at the website
+Shopify's shipping rates ($15 standard, free over $150, free over $100 in WA) only run at the website
 checkout. eBay listings take their postage from an **eBay postage business policy** that Marketplace Connect
 assigns to each listing, and the policy in use is "free postage / Standard Parcel Delivery". The eBay price is
 the Shopify price +8% (Marketplace Connect price adjustment), which doesn't cover eBay's final value fee
@@ -16,7 +16,7 @@ $5 → roughly $9 lost.
 ## Fix A: charge the same postage as the website (five eBay postage policies)
 
 The website charges Australia Post by total weight, the same table for WA and the other states (General and
-Dangerous goods profiles), free over $180 anywhere and free over $100 in WA:
+Dangerous goods profiles), free over $150 anywhere and free over $100 in WA:
 
 | Weight | Website postage | eBay policy to create | Shopify tag (added 12 Oct) | Products |
 |---|---|---|---|---|
@@ -30,7 +30,7 @@ Every parcel product (708, General and Dangerous goods profiles) now carries one
 heaviest variant (60 products have variants in more than one tier; the heaviest wins so postage is never short).
 eBay can't do weight tiers inside one policy and calculated postage needs package dimensions Shopify doesn't send,
 so one flat policy per tier is the way to mirror the website. eBay also can't give WA a different free threshold,
-so eBay gets free postage over $180 only.
+so eBay gets free postage over $150 only.
 
 ### A1. Create the five policies on eBay (phone browser in desktop mode, not the eBay app)
 
@@ -44,10 +44,10 @@ so eBay gets free postage over $180 only.
 3. **Create policy** → **Postage** → name "ETS Post B – 1 to 3 kg – $20", same settings with cost **20.00** → **Save**.
    Repeat for C ($29), D ($39) and E ($59).
 
-### A2. Free postage over $180, like the website
+### A2. Free postage over $150, like the website
 
 1. https://www.ebay.com.au/ship/prf → **Combined postage rules** → **Edit** → **Promotional postage rule** →
-   free postage when the buyer spends $180 or more → **Save**.
+   free postage when the buyer spends $150 or more → **Save**.
 2. Back at https://www.ebay.com.au/bp/manage, open each of the five policies → **Combined postage discounts** →
    tick the promotional rule → **Save**.
 
@@ -61,10 +61,10 @@ Shopify → **Apps** → **Marketplace Connect** → **Listings** → marketplac
 4. **Settings** → **Accounts** → eBay → **New listings** → **Manage** → **Shipping**: set policy A as the default for
    future listings, and remember to move heavier new products to B–E by their tag.
 
-## Fix B (optional): free postage over $180, like the website
+## Fix B (optional): free postage over $150, like the website
 
 1. https://www.ebay.com.au/ship/prf → **Combined postage rules** → **Edit** → **Promotional postage rule** →
-   free postage when the buyer spends $180 or more → **Save**.
+   free postage when the buyer spends $150 or more → **Save**.
 2. https://www.ebay.com.au/bp/manage → open the postage policy → **Combined postage discounts** → tick the
    rule → **Save**.
 

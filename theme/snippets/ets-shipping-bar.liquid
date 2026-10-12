@@ -1,7 +1,7 @@
 {%- doc -%}
   Free-postage progress bar for the cart drawer and cart page (12 Oct 2026).
   Counts only items that post (not tiles or products tagged ship-local-only): free standard post on WA orders of $100+ and
-  on orders of $180+ anywhere in Australia (Settings -> Shipping). Tiles and large items get the Perth delivery / pickup line.
+  on orders of $150+ anywhere in Australia (Settings -> Shipping). Tiles and large items get the Perth delivery / pickup line.
   Shown only when the cart is in AUD (Australian market); overseas visitors pay international post and see nothing here.
   Re-renders with the cart through the Section Rendering API because it sits inside the cart drawer and main-cart sections.
 {%- enddoc -%}
@@ -16,8 +16,8 @@
     endif
   endfor
   assign wa_gap = 10000 | minus: postable
-  assign au_gap = 18000 | minus: postable
-  assign pct = postable | times: 100 | divided_by: 18000
+  assign au_gap = 15000 | minus: postable
+  assign pct = postable | times: 100 | divided_by: 15000
   if pct > 100
     assign pct = 100
   endif

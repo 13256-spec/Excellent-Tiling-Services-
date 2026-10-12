@@ -62,14 +62,14 @@ countries that don't buy.
    review stars on product pages in a draft theme and turn on the review-request email. Real reviews lift conversion more
    than anything else on the page.
 
-Two decisions that need a yes or no (not done, they change what customers pay):
+Two decisions that needed a yes or no (both given by the owner later on 12 Oct, and done):
 
 - **Cheaper postage for small items.** Today a $15 tube of Maxisil costs $15 to post. Australia Post's small satchel
   (up to 500 g) costs about $10 through MyPost Business. A $9.95 rate for carts under 500 g would make the most-searched
-  products (silicone, cleaner, spacers, caulking sticks) buyable. Say yes and it goes into Settings → Shipping as a
-  weight tier on the General and Dangerous goods profiles; free over $100 in WA and over $180 elsewhere stay.
+  products (silicone, cleaner, spacers, caulking sticks) buyable. Done 12 Oct: $9.95 up to 250 g and $11.95 up to 500 g are live on the
+  General and Dangerous goods profiles; free over $100 in WA stays, and free post Australia-wide now starts at $150 (was $180).
 - **Pickup lead time.** Checkout promises pickup "in 2 to 4 days", by appointment. A Perth tiler who needs it tomorrow
-  goes to Bunnings. If orders can be packed by the next evening, change it to "Usually ready in 24 hours"
+  goes to Bunnings. Done 12 Oct: checkout now says "Usually ready in 24 hours"
   (Settings → Shipping and delivery → Local pickup → Maddington → Expected pickup time).
 
 ## Next for the agents (no decision needed)
@@ -124,16 +124,18 @@ later on 12 Oct ("make a plan for this fix and go ahead and do it") and done the
    (from $29). Of the 944 active postable variants, 164 weigh up to 250 g and 165 up to 500 g: spacers, bolts, blades,
    drill bits, cleaner, caulking sticks, a single tube of silicone. Done with `deliveryProfileUpdate` (create the two
    new rates per zone, move the existing first tier's lower bound to 0.501 kg, reprice the 3–5 kg tier).
-2. Show the postage before checkout: a line on every product page ("Post from $9.95, free over $100 in WA and $180
+2. Show the postage before checkout: a line on every product page ("Post from $9.95, free over $100 in WA and $150
    Australia-wide, free pickup in Maddington") and a free-postage progress bar in the cart drawer. Draft theme, owner
    publishes. The live product page says "Shipping calculated at checkout".
-3. Keep the free thresholds (WA $100, elsewhere $180); optionally lower the Australia-wide one to $150 (owner's call,
-   about $20 of postage absorbed on each order between $150 and $180).
-4. Pickup lead time to "usually ready in 24 hours" if orders can be packed by the next evening (owner's call).
+3. Free thresholds: WA $100 stays; the Australia-wide one lowered from $180 to $150 (owner's call, given later on 12 Oct;
+   about $20 of postage absorbed on each order between $150 and $180, which is what it takes to win those orders).
+4. Pickup lead time to "usually ready in 24 hours" (owner's call, given later on 12 Oct).
 5. Put every parcel, eBay included, through MyPost Business so the account climbs to Band 1 and 2, then lower the
    tiers again. eBay postage policies per `store-content/marketplaces/ebay-postage-and-pricing-2026-10-12.md`.
 
 Done 12 Oct: tiers 1 live in Shopify (verified on ten test carts; Shopify's 100 g default package is added to the cart weight,
 so every tier boundary was moved 100 g up to match the item weights); theme draft "ETS 2026 – Postage shown before checkout
-(draft 12 Oct)" holds item 2 (product-page postage line, cart free-post bar, all wording) for the owner to publish; thresholds
-kept (item 3); pickup lead time left at 2–4 days (item 4, owner's call); the empty "Small parcels - $249" profile was removed.
+(draft 12 Oct)" holds item 2 (product-page postage line, cart free-post bar, all wording) for the owner to publish; free
+Australia-wide post now from $150 instead of $180 on both parcel profiles, verified at checkout ($162.50 cart free, $130 cart pays $20;
+item 3); pickup at checkout now "usually ready in 24 hours" (item 4); every $180 mention on the site, in the emails, the social
+queue and the docs changed to $150; the empty "Small parcels - $249" profile was removed.

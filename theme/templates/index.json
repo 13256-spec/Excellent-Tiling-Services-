@@ -386,7 +386,7 @@
           "settings": {
             "icon": "box",
             "title": "Australia-wide shipping",
-            "text": "<p>Tools, silicone, tapware and accessories post anywhere in Australia from $9.95, free on WA orders over $100 and on orders over $180 Australia-wide. Tiles and large items are Perth delivery or free pickup.</p>",
+            "text": "<p>Tools, silicone, tapware and accessories post anywhere in Australia from $9.95, free on WA orders over $100 and on orders over $150 Australia-wide. Tiles and large items are Perth delivery or free pickup.</p>",
             "link_label": "Shipping policy",
             "link": "/policies/shipping-policy"
           }
@@ -422,7 +422,7 @@
           "type": "question",
           "settings": {
             "question": "Do you deliver tiles outside Perth?",
-            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tools, tapware and accessories post Australia-wide from $9.95, free on WA orders over $100 and on orders over $180 anywhere in Australia. Small items also ship to New Zealand, the US, the UK and the UAE.</p>"
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tools, tapware and accessories post Australia-wide from $9.95, free on WA orders over $100 and on orders over $150 anywhere in Australia. Small items also ship to New Zealand, the US, the UK and the UAE.</p>"
           }
         },
         "1": {

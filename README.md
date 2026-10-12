@@ -319,7 +319,7 @@ the report.
 ## Postage fix (12 Oct 2026, approved by the owner)
 
 - Shopify rates on both parcel profiles and both Australian zones: new tiers up to 250 g $9.95 and up to 500 g $11.95, 3–5 kg cut to
-  $24.95; the other tiers and the free thresholds (WA $100, Australia-wide $180) unchanged. Shopify adds its 100 g default package to the
+  $24.95; the other tiers unchanged; later the same day the owner also moved the Australia-wide free-post threshold from $180 to $150 (WA stays $100) and the pickup promise to "usually ready in 24 hours". Shopify adds its 100 g default package to the
   cart weight before picking a tier, so every boundary was moved 100 g up to match the item weights (`store-content/shipping/README.md`).
 - Draft theme "ETS 2026 – Postage shown before checkout (draft 12 Oct)": product pages show "Australia Post from $X" from the lightest
   variant's weight, the cart drawer and cart page get a free-post progress bar (`snippets/ets-shipping-bar.liquid`), and the top bar,

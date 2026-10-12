@@ -32,19 +32,19 @@ E["welcome-1"]=("Your 10% off is inside", base("Your 10% off",
  h1("Thanks for signing up. Here's 10% off your first order.")+
  p("Use the code below at checkout. It works on tiling tools, trims, spacers, grout and bathroom accessories across the store. It doesn't apply to tiles, vanities, baths or toilets, which are already priced as low as we can go.")+
  code("WELCOME10")+
- p("Orders over $180 get free standard shipping anywhere in Australia. In Perth you can also choose local delivery or free pickup from Maddington.")+
+ p("Orders over $150 get free standard shipping anywhere in Australia. In Perth you can also choose local delivery or free pickup from Maddington.")+
  btn("Shop with 10% off", SITE+"/collections/all?utm_source=klaviyo&utm_medium=email&utm_campaign=welcome")+
  small("One use per customer. Can't be combined with trade pricing or other codes. If you're a tiler, builder or plumber, a <a href='"+SITE+"/pages/trade-account' style='color:"+NAVY+"'>trade account</a> gives you more than 10% on most of the range, every order."),
- "Thanks for signing up. Here's 10% off your first order: use WELCOME10 at checkout. It works on tiling tools, trims, spacers, grout and bathroom accessories (not tiles, vanities, baths or toilets). Orders over $180 ship free Australia-wide. Shop: "+SITE))
+ "Thanks for signing up. Here's 10% off your first order: use WELCOME10 at checkout. It works on tiling tools, trims, spacers, grout and bathroom accessories (not tiles, vanities, baths or toilets). Orders over $150 ship free Australia-wide. Shop: "+SITE))
 # ---------- Welcome 2
 E["welcome-2"]=("Three ways to get your order home", base("Three ways to get it home",
  h1("Three ways to get your order home")+
- p("<strong>Posted.</strong> Tapware, shower sets, towel rails, tools and other boxed items go by tracked Australia Post. Free on orders over $180, otherwise from $15.")+
+ p("<strong>Posted.</strong> Tapware, shower sets, towel rails, tools and other boxed items go by tracked Australia Post. Free on orders over $150, otherwise from $15.")+
  p("<strong>Delivered in Perth.</strong> Tiles, vanities, baths, toilets and other big items are delivered by our own ute within about 30 km of Maddington for $95, free on orders over $2,000. We call you to set a time.")+
  p("<strong>Picked up free.</strong> Collect from 17A Olga Road, Maddington. We're open by appointment Monday to Saturday, 4:30 to 9 pm, so you can come after work.")+
  btn("See delivery and pickup", SITE+"/pages/delivery-pickup?utm_source=klaviyo&utm_medium=email&utm_campaign=welcome")+
  small("Want to see tiles and vanities in person before you buy? <a href='"+SITE+"/pages/book-appointment' style='color:"+NAVY+"'>Book an evening showroom visit</a>. Your WELCOME10 code still works."),
- "Three ways to get your order home: tracked Australia Post (free over $180), Perth delivery within about 30 km of Maddington ($95, free over $2,000), or free pickup from Maddington by appointment Mon to Sat 4:30 to 9 pm. Details: "+SITE+"/pages/delivery-pickup"))
+ "Three ways to get your order home: tracked Australia Post (free over $150), Perth delivery within about 30 km of Maddington ($95, free over $2,000), or free pickup from Maddington by appointment Mon to Sat 4:30 to 9 pm. Details: "+SITE+"/pages/delivery-pickup"))
 # ---------- Welcome 3
 E["welcome-3"]=("Your 10% off is still waiting", base("Still 10% off",
  h1("Your 10% off is still waiting")+
@@ -63,7 +63,7 @@ E["checkout-1"]=("Your checkout is saved", base("Your checkout is saved",
  h1("Your checkout is saved")+
  p("You started an order with us and didn't quite finish. Nothing's lost: your items are still there.")+items+
  btn("Finish my order", "{{ event.extra.checkout_url }}")+
- p("Not sure about delivery? Posted orders over $180 ship free anywhere in Australia. Tiles and large items are delivered in Perth or picked up free from Maddington, and the options show at checkout.")+
+ p("Not sure about delivery? Posted orders over $150 ship free anywhere in Australia. Tiles and large items are delivered in Perth or picked up free from Maddington, and the options show at checkout.")+
  small("Questions? Reply to this email or call 0450 960 543 (Mon to Sat, 4:30 to 9 pm)."),
  "You started an order with us and didn't finish. Your items are saved here: {{ event.extra.checkout_url }}  Questions about delivery? Reply to this email or call 0450 960 543."))
 # ---------- Checkout 2
@@ -72,16 +72,16 @@ E["checkout-2"]=("Free postage on this order", base("Free postage on this order"
  p("Still thinking it over? Use the code below and standard Australia Post shipping on your saved order is free, whatever the order size.")+
  code("FREEPOST")+items+
  btn("Finish my order", "{{ event.extra.checkout_url }}")+
- small("One use per customer, Australian addresses, orders of $60 or more. Covers tracked standard post. Tiles and large items are Perth delivery or pickup and aren't posted. Already over $180? Then postage was free anyway, and this code just makes sure."),
+ small("One use per customer, Australian addresses, orders of $60 or more. Covers tracked standard post. Tiles and large items are Perth delivery or pickup and aren't posted. Already over $150? Then postage was free anyway, and this code just makes sure."),
  "Still thinking it over? Use FREEPOST at checkout and standard Australia Post shipping on your saved order is free (Australian addresses, orders $60+). Finish here: {{ event.extra.checkout_url }}"))
 # ---------- Cart
 E["cart-1"]=("Still in your cart", base("Still in your cart",
  h1("Still in your cart")+
  p("You added something to your cart at Excellent Tiling Services and left it there. It's saved on this device whenever you're ready.")+
  btn("Back to my cart", SITE+"/cart?utm_source=klaviyo&utm_medium=email&utm_campaign=cart")+
- p("Orders over $180 ship free anywhere in Australia by tracked post. In Perth, tiles and large items are delivered by us or picked up free from Maddington.")+
+ p("Orders over $150 ship free anywhere in Australia by tracked post. In Perth, tiles and large items are delivered by us or picked up free from Maddington.")+
  small("Want a second opinion on sizes or finishes before you buy? Reply with a photo of the room. We do this every day."),
- "You left something in your cart at Excellent Tiling Services. Back to your cart: "+SITE+"/cart  Orders over $180 ship free Australia-wide."))
+ "You left something in your cart at Excellent Tiling Services. Back to your cart: "+SITE+"/cart  Orders over $150 ship free Australia-wide."))
 # ---------- Post-purchase 1
 E["post-1"]=("Thanks for your order, here's what happens next", base("Thanks for your order",
  h1("Thanks for your order")+
@@ -106,7 +106,7 @@ E["winback-1"]=("It's been a while. Here's 10% off", base("It's been a while",
  h1("It's been a while. Here's 10% off.")+
  p("It's been a couple of months since your last order. If there's another room on the list, this takes 10% off tiling tools, trims, spacers, grout and bathroom accessories.")+
  code("COMEBACK10")+
- p("Since you last looked: more Raimondi and BAT tools and trims, Perth delivery for tiles and large items at a flat $95, and free standard shipping over $180.")+
+ p("Since you last looked: more Raimondi and BAT tools and trims, Perth delivery for tiles and large items at a flat $95, and free standard shipping over $150.")+
  btn("Shop with 10% off", SITE+"/collections/all?utm_source=klaviyo&utm_medium=email&utm_campaign=winback")+
  small("One use per customer. Not on tiles, vanities, baths or toilets. Can't be combined with trade pricing."),
  "It's been a couple of months since your last order. COMEBACK10 takes 10% off tools, trims, spacers, grout and bathroom accessories. Shop: "+SITE))

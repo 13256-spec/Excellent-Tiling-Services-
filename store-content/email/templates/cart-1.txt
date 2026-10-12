@@ -1,4 +1,4 @@
-You left something in your cart at Excellent Tiling Services. Back to your cart: https://excellenttilingservice.com.au/cart  Orders over $180 ship free Australia-wide.
+You left something in your cart at Excellent Tiling Services. Back to your cart: https://excellenttilingservice.com.au/cart  Orders over $150 ship free Australia-wide.
 
 Excellent Tiling Services, 17A Olga Road, Maddington WA 6109. 0450 960 543.
 Unsubscribe: {% unsubscribe_link %}
