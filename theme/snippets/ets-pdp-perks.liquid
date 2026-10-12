@@ -1,6 +1,7 @@
 {%- doc -%}
   Delivery / pickup / returns summary for the product page.
-  Tiles (ets_trade_tile_types) and products tagged ship-local-only are Perth delivery or pickup. Everything else posts by
+  Tiles (ets_trade_tile_types) and products tagged ship-local-only are Perth delivery or pickup. Overseas visitors (cart not in AUD)
+  get an international line. Everything else posts by
   Australia Post, priced by parcel weight; the "from" price comes from the lightest variant (tiers as in Settings -> Shipping,
   12 Oct 2026: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95, 10 kg $39, 22 kg $59).
   @param {product} product
@@ -29,6 +30,9 @@
   if band == 'post' and min_w > 22000
     assign band = 'large'
   endif
+  if band == 'post' and cart.currency.iso_code != 'AUD'
+    assign band = 'intl'
+  endif
   assign post_from = ''
   if min_w > 0
     if min_w <= 250
@@ -56,6 +60,7 @@
       {%- case band -%}
         {%- when 'tiles' -%}<strong>Perth metro delivery</strong><small>Local delivery across the Perth metro area (tiles aren't shipped outside Perth). Options show at checkout, or choose free pickup from Maddington.</small>
         {%- when 'large' -%}<strong>Perth metro delivery</strong><small>Local delivery options show at checkout, or choose free pickup from Maddington. Outside Perth? <a href="/pages/contact">Ask for a freight quote.</a></small>
+        {%- when 'intl' -%}<strong>Ships from Perth, Australia</strong><small>Small items post to New Zealand, the United States, the United Kingdom and the UAE by tracked Australia Post; prices show at checkout. Tiles and large items are delivered within Australia only.</small>
         {%- else -%}
           {%- if post_from != blank -%}<strong>Australia Post from {{ post_from }}</strong><small>Tracked post anywhere in Australia, priced by parcel weight: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20. Free on WA orders over $100 and on orders over $180 Australia-wide. Or pick up free from Maddington.</small>
           {%- else -%}<strong>Australia-wide post</strong><small>Tracked Australia Post, priced by parcel weight at checkout (from $9.95). Free on WA orders over $100 and on orders over $180 Australia-wide. Or pick up free from Maddington.</small>

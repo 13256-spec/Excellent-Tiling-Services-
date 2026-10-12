@@ -2,6 +2,7 @@
   Free-postage progress bar for the cart drawer and cart page (12 Oct 2026).
   Counts only items that post (not tiles or products tagged ship-local-only): free standard post on WA orders of $100+ and
   on orders of $180+ anywhere in Australia (Settings -> Shipping). Tiles and large items get the Perth delivery / pickup line.
+  Shown only when the cart is in AUD (Australian market); overseas visitors pay international post and see nothing here.
   Re-renders with the cart through the Section Rendering API because it sits inside the cart drawer and main-cart sections.
 {%- enddoc -%}
 {%- liquid
@@ -21,7 +22,7 @@
     assign pct = 100
   endif
 -%}
-{%- if cart.item_count > 0 -%}
+{%- if cart.item_count > 0 and cart.currency.iso_code == 'AUD' -%}
 <div class="ets-shipbar" aria-live="polite">
   {%- if postable > 0 -%}
     <p class="ets-shipbar__text">
