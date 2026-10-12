@@ -328,13 +328,18 @@ say which accessories fit which machine. Fixed in three layers, see `store-conte
   `-floor-machine-parts`, `-mixer-vibrator-parts`, `-easymove-bigfoot-accessories`) linked from the
   Raimondi collection; 31 wet-saw family products and the Double spacer rewritten from Raimondi's catalogue
   (titles say what they suit, descriptions open with "Fits:"). No links in descriptions (eBay copies them).
-- **Theme (draft 144029483071 only):** `sections/ets-product-fits.liquid` (card grid of what fits) and
+- **Theme (the owner's copy of the live theme, 144029417535, until he publishes it):** `sections/ets-product-fits.liquid` (card grid of what fits) and
   `snippets/ets-pdp-fits.liquid` (the "Fits:" line under the title), wired into `templates/product.json`
   and `templates/product.store-wide.json`.
 - **Rule for new Raimondi products:** set both metafields, put "suits …" in the title, add the item to its
   `raimondi-*` collection and to the machines' `fits_with` lists, add a row to `fitmap.py`.
 
-## New look (12 Oct 2026, draft for the owner to publish)
+## New look (12 Oct 2026, declined by the owner)
+
+**Declined.** The owner deleted the new-look draft on the evening of 12 Oct ("didn't publish it cause I
+don't want it"). `theme/` holds the live (postage) look again; the new-look files survive only in git
+history (commit 64e7157) and in `store-content/reports/redesign-2026-10-12.md`. Do not rebuild it unless asked.
+
 
 - The owner asked for the site's look to be redone. `store-content/reports/redesign-2026-10-12.md` has the audit (blurry
   mosaics leading the Tiles range, a serif that never loaded, pill-and-shadow cards, a crowded phone hero, a product page

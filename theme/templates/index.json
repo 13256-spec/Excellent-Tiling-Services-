@@ -3,7 +3,7 @@
     "hero": {
       "type": "ets-hero-full",
       "settings": {
-        "eyebrow": "",
+        "eyebrow": "Maddington showroom · Perth delivery",
         "heading": "Your bathroom, from the first tile to the last tap.",
         "text": "Porcelain tiles, vanities, tapware and tiling tools. Shop online, visit our showroom, or let our licensed team handle the whole job.",
         "btn_1_label": "Shop tiles",
@@ -92,7 +92,7 @@
           "settings": {
             "collection": "tiles",
             "title": "Tiles",
-            "size": "sm",
+            "size": "lg",
             "fit": "cover",
             "subtitle": "Porcelain, ceramic and mosaic, priced per m²",
             "image": "shopify://shop_images/DSAYFR600331_2.jpg"
@@ -103,8 +103,8 @@
           "settings": {
             "collection": "bathroom-vanities",
             "title": "Vanities",
-            "size": "sm",
-            "fit": "contain",
+            "size": "md",
+            "fit": "auto",
             "subtitle": "Wall-hung, single and double"
           }
         },
@@ -113,8 +113,8 @@
           "settings": {
             "collection": "tapware",
             "title": "Tapware & showers",
-            "size": "sm",
-            "fit": "contain",
+            "size": "md",
+            "fit": "auto",
             "subtitle": "Mixers, spouts, shower sets"
           }
         },
@@ -123,7 +123,7 @@
           "settings": {
             "collection": "hardware",
             "title": "Tiling tools & hardware",
-            "size": "sm",
+            "size": "md",
             "fit": "contain",
             "subtitle": "Trowels, blades, silicone, trims"
           }
@@ -133,8 +133,8 @@
           "settings": {
             "collection": "kitchen-laundry",
             "title": "Kitchen & laundry",
-            "size": "sm",
-            "fit": "contain"
+            "size": "md",
+            "fit": "auto"
           }
         },
         "3": {
@@ -142,8 +142,8 @@
           "settings": {
             "collection": "basins",
             "title": "Basins",
-            "size": "sm",
-            "fit": "contain"
+            "size": "md",
+            "fit": "auto"
           }
         },
         "4": {
@@ -151,8 +151,8 @@
           "settings": {
             "collection": "baths",
             "title": "Baths",
-            "size": "sm",
-            "fit": "contain"
+            "size": "md",
+            "fit": "auto"
           }
         },
         "5": {
@@ -161,7 +161,7 @@
             "collection": "toilets",
             "title": "Toilets",
             "size": "sm",
-            "fit": "contain"
+            "fit": "auto"
           }
         },
         "6": {
@@ -170,7 +170,7 @@
             "collection": "mirrors",
             "title": "Mirrors & cabinets",
             "size": "sm",
-            "fit": "cover"
+            "fit": "auto"
           }
         },
         "7": {
@@ -179,7 +179,7 @@
             "collection": "shower-screens",
             "title": "Shower screens",
             "size": "sm",
-            "fit": "contain"
+            "fit": "auto"
           }
         }
       },

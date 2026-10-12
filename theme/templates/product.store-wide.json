@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "breadcrumbs": {
@@ -112,7 +121,7 @@
               "settings": {
                 "show_sale_price_first": true,
                 "show_installments": false,
-                "show_tax_info": false,
+                "show_tax_info": true,
                 "type_preset": "h4",
                 "width": "100%",
                 "alignment": "left",
@@ -242,11 +251,11 @@
             "title",
             "fits",
             "price",
+            "trade",
             "variant",
             "calc",
             "buy",
             "trust",
-            "trade",
             "description"
           ]
         }
