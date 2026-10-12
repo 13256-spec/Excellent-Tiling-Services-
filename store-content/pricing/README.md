@@ -116,3 +116,14 @@ cost during the day were capped too and ten moved out of the 5% "no cost" band. 
 
 Any product imported later needs the same three steps (price check, `ets.trade_band`, `trade-list-N`); the `ets-pricing` agent
 does them from a fresh bulk export.
+
+# Supplier cost check, 12 Oct 2026 (owner's files, no price changes)
+
+The owner sent the May 2026 BAT/Raimondi price books, the 2026 SILVER discount sheet and the 2025 MELA
+catalogue and asked for every public and trade price to be double-checked against them. Result in
+`reports/supplier-cost-check-2026-10-12.md`: all 1,948 BAT-family costs equal the books; all 599 MELA costs
+are at or above the catalogue (Bathroom City's live list, which is the cost basis, is equal or higher);
+the rules re-run on a fresh export with today's competitor prices changed nothing (`store-pricing-2026-10-12.csv`
+is the new master, identical prices to 11 Oct). Trade bands: metafield and collections match on all 921 products.
+Missing files: Roberts Designs price list, BAT Trims Book 2. The owner-decision items (competitor below our
+floor, Sigma ART 4CU, Baron E120, seven MELA baths $1 under a rounded floor) are listed in the report.

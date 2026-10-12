@@ -273,3 +273,13 @@ the report.
 - Photos: 24 of the 54 `photo-needed` products (all Raimondi) now have manufacturer photos, loaded from raimondispa.com and
   BAT Trims; 30 remain without any photo online (`store-content/reports/photos-sourced-2026-10-11.csv`, and the note in
   the audit report).
+
+## Supplier cost check (12 Oct 2026)
+
+- The owner's supplier price files (BAT Tools/Trims books and Raimondi list, May 2026; SILVER discount sheet;
+  2025 MELA catalogue) were checked against every Shopify unit cost: all 1,948 BAT-family costs match the books,
+  all 599 MELA costs are at or above the catalogue. The pricing rules re-run on a fresh export changed no price,
+  cost or trade band. Report: `store-content/pricing/reports/supplier-cost-check-2026-10-12.md`; parsed books:
+  `store-content/pricing/supplier-books-2026-05.csv`; master list now `store-pricing-2026-10-12.csv`.
+- Playbook: new "Supplier price files on hand" section and the rule that Bathroom City's live list is the MELA
+  cost basis, the catalogue the fallback.

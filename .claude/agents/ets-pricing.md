@@ -10,7 +10,9 @@ is busy and not technical: answer in short, plain sentences with dollar figures,
 
 1. `store-content/pricing/PRICING-PLAYBOOK.md`: the method, the rules, suppliers, competitors, where things
    live in Shopify. Follow it exactly.
-2. `store-content/pricing/store-pricing-2026-10-11.csv`: the master price list (costs, prices, rules, trade bands).
+2. `store-content/pricing/store-pricing-2026-10-12.csv`: the master price list (costs, prices, rules, trade bands).
+   Supplier price books on file: `store-content/pricing/supplier-books-2026-05.csv` (BAT, BAT Trims, Raimondi, May 2026)
+   and the MELA catalogue check in `store-content/pricing/reports/`; the cost-check method is in the playbook.
    `store-content/trade-accounts/README.md`: how trade accounts work (tag, metafield, collections, theme).
 3. The latest report in `store-content/pricing/reports/`, if the task is about competitors.
 

@@ -14,9 +14,10 @@ safely. Written for the owner and for the `ets-pricing` agent (`.claude/agents/e
 | Range | Supplier | Cost source | Cost basis |
 |---|---|---|---|
 | Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt` (5 Oct 2026 wholesale PDF), "non pallet" price | ex GST |
-| MELA bathroomware | via Bathroom City | Bathroom City list price × (1 − SILVER trade discount) ÷ 1.1 | ex GST |
-| Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify | ex GST |
-| BAT, RLA, Click (a few items) | – | **no cost recorded**, prices left alone | – |
+| MELA bathroomware | via Bathroom City | Bathroom City **live** list price × (1 − SILVER trade discount) ÷ 1.1; the 2025 MELA catalogue RRP only where Bathroom City doesn't list the item (checked 12 Oct 2026, `reports/mela-catalogue-check-2026-10-12.csv`) | ex GST |
+| BAT, BAT Trims, Raimondi, Panther, NICLIS, Washboy, Atika, ADA | BAT | `supplier-books-2026-05.csv` (Tools Book 1, Project Trims Book 1, Trims Book 1, Raimondi price list – May 2026), net price; 1,948 variants checked 12 Oct 2026 | ex GST |
+| Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify (no price list on file yet) | ex GST |
+| BAT SynSafe Acid 20 L, RLA Quick Set 5 L, Click Powerblock | – | **no cost recorded**, prices left alone | – |
 
 SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off the GST-inclusive list price:
 vanity package & handles 25%, basins 30%, tapware 40%, accessories 35%, mirrors & PORTER cabinets 25%,
@@ -27,6 +28,29 @@ confirms. MELA towel rails are non-heated, so they use accessories 35%.
 
 Delivery: the supplier's delivery charge is not added to costs; bulky-item delivery is charged to the
 customer at checkout (owner, 3 Oct 2026).
+
+## Supplier price files on hand (checked 12 Oct 2026)
+
+The owner sent his supplier price files on 12 Oct 2026. They are owner-only (never to customers); the
+parsed numbers live in this folder so the next check can be repeated.
+
+| Owner's file | Covers | In the repo |
+|---|---|---|
+| Tools Book 1 – May 2026 (xlsx) | BAT tools, Panther, NICLIS, Washboy, Atika, ADA | `supplier-books-2026-05.csv`, book `tools` |
+| Project Trims Book 1 – May 2026 (xlsx) | BAT Trims project range | book `project_trims` |
+| Trims Book 1 (pdf) | BAT Trims premium range | book `premium_trims` |
+| Raimondi Price List May 2026 (xlsx) | Raimondi | book `raimondi` |
+| 2026 NEW SILVER TRADE PRICE (pdf) | Bathroom City trade discounts | the discount list above |
+| 2025 MELA catalogue (pdf) | MELA RRPs (vanity, basin, mirror and toilet names are pictures: read by eye) | `reports/mela-catalogue-check-2026-10-12.csv` |
+
+Result: every BAT-family cost equals the book (`reports/bat-cost-check-2026-10-12.csv`); every MELA cost is
+at or above what the catalogue implies, because Bathroom City's live list is the same as the 2025 catalogue
+for 479 variants and $20–$200 above it for 97 (CLARK/CLASSIC/BRITTANY vanities, MORRIS screens, a few
+shower sets and mixers). **Rule: the live Bathroom City list is the cost basis; the catalogue is the fallback
+and the cross-check.** If the owner's invoices show the catalogue prices still apply, re-cost those 97 and
+prices drop about 5%. Full write-up: `reports/supplier-cost-check-2026-10-12.md`. Still missing: the Roberts
+Designs price list, BAT Trims Book 2 (cove corners, stair nosings, APC60 caps, half-rounds, ETS-HW items),
+and a cost for the three no-cost items.
 
 ## Competitors
 
@@ -107,10 +131,12 @@ Rules for any new code or sale:
 
 | File | What it is |
 |---|---|
-| `store-pricing-2026-10-11.csv` | **Master price list**: every active variant with old price, new price, the rule that set it, cost, margins, trade band (and the band it had before), trade price, competitor price, flags. Update it whenever prices change. |
+| `store-pricing-2026-10-12.csv` | **Master price list** (12 Oct re-run: same prices as 11 Oct, today's competitor prices): every active variant with old price, new price, the rule that set it, cost, margins, trade band (and the band it had before), trade price, competitor price, flags. Update it whenever prices change. |
 | `reprice_2026_10_11.py` | Builds the master list from a Shopify bulk export (`products` with variants + unit cost) + competitor feeds + the current `trade-list-N` membership. Holds `BB_MATCH`. |
 | `reports/reprice-2026-10-11.md` | What the 11 Oct run changed, with the owner-review tables. |
-| `store-pricing-2026-10-03.csv`, `reprice_2026_10.py` | The 3 Oct plan, kept for history. |
+| `store-pricing-2026-10-11.csv`, `store-pricing-2026-10-03.csv`, `reprice_2026_10.py` | Earlier plans, kept for history. |
+| `supplier-books-2026-05.csv` | BAT, BAT Trims and Raimondi May 2026 price books (net ex GST), parsed from the owner's files. |
+| `reports/supplier-cost-check-2026-10-12.md` | 12 Oct cost check against the supplier files, with the owner-review tables; detail in `reports/bat-cost-check-2026-10-12.csv` and `reports/mela-catalogue-check-2026-10-12.csv`. |
 | `monitor_competitors.py` | Weekly check (public feeds only, changes nothing) → `reports/price-check-YYYY-MM-DD.md`. |
 | `price_list_pdf.py` | PDFs in `price-lists/`: retail, trade, and **owner-only** cost & price list (never send to customers). |
 | `eternity_2026_10.py`, `eternity_new_products_2026_10.py` | Eternity tile pricing and new tile products. |
