@@ -19,9 +19,9 @@ the theme in Shopify.
   checkout, post-purchase and review ask, repeat purchase at day 21, win-back, trade), three email-only codes
   (WELCOME10, COMEBACK10, FREEPOST). Map, ids and the owner's switch-on list: `marketing/email/README.md`.
   Agent: `.claude/agents/ets-email.md`.
-- Black Friday 2026 is staged, not live: a 222-product collection, an automatic 15% discount parked as
-  expired, and a draft theme, to be bundled in a Shopify **Rollout** (Markets → Rollouts) that the owner
-  schedules. Plan, numbers and the click-by-click: `marketing/holiday-2026/ROLLOUT-PLAN.md`.
+- Black Friday 2026 is staged, not live: a 222-product collection and an automatic 15% discount parked as
+  expired, to be bundled with two theme-editor changes in a Shopify **Rollout** (admin home → Create a
+  rollout) that only the owner can create and schedule. Plan, numbers and the click-by-click: `marketing/holiday-2026/ROLLOUT-PLAN.md`.
 - The `ets-*` agents share one shipping rule (post from $9.95, free on WA orders over $100 and
   Australia-wide over $150; tiles and large items Perth metro only) taken from the live header bar and
   `/pages/delivery-pickup`. `theme/sections/header-group.json` and `footer-group.json` were re-synced to the

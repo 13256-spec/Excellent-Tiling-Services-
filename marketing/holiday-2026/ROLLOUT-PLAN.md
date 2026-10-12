@@ -47,13 +47,15 @@ discounts (set to not combine), so a trade customer gets the bigger of the two, 
   discounts only. Its own dates are 12 Oct 00:00–00:01, so it shows as Expired and nobody gets it. A Rollout
   that "activates" it turns it on for the rollout's window regardless of those dates (Shopify's documented
   behaviour). If the owner would rather not use Rollouts, he can instead edit the dates to 27–30 Nov.
-- Theme **"ETS 2026 – Black Friday rollout (draft, not live)"** (`gid://shopify/OnlineStoreTheme/144032366655`),
-  a copy of the live theme with two changes: header bar message "Black Friday · 15% off 220+ tools, tiles,
-  tapware & trims · Fri 27 to Mon 30 Nov" and the home hero (eyebrow, heading "15% off tools, tiles, tapware
-  and trims. Four days only.", text, button to the Black Friday collection). Files: `theme/`. Preview it from
-  Online Store → Themes → … → Preview. **Re-copy it the week before** if the live theme changes between now
-  and then (duplicate the live theme again and reapply the two files), otherwise the rollout would publish an
-  old theme.
+- No separate theme is needed (owner, 12 Oct 2026). The rollout edits the live theme inside its own theme
+  editor and reverts when the event ends. The two settings to change are in `theme/black-friday-theme-changes.json`:
+  header bar message 1 → "Black Friday · 15% off 220+ tools, tiles, tapware & trims · Fri 27 to Mon 30 Nov";
+  home hero → eyebrow "Black Friday · Fri 27 to Mon 30 Nov", heading "15% off tools, tiles, tapware and trims.
+  Four days only.", text "No code needed. The discount comes off in the cart on 220+ products. Perth delivery or
+  free pickup from Maddington; small items post Australia-wide.", first button "Shop the Black Friday range" →
+  collection `black-friday-2026`. (A theme copy "ETS 2026 – Black Friday rollout (draft, not live)",
+  `gid://shopify/OnlineStoreTheme/144032366655`, was made before the owner said no new theme; it can be deleted
+  from Online Store → Themes or kept as a preview of the two changes.)
 
 **Built in Klaviyo:** email template "ETS | Black Friday 2026 – 15% off, four days | DRAFT for approval"
 (`WsJaAz`) and a Draft campaign of the same name to the email-subscribers segment (trade excluded). Not
@@ -63,12 +65,15 @@ scheduled.
 main carousel Fri 27 Nov 6:30 pm (tools + tiles from the collection, real prices after discount), reminder
 Sun 29 Nov, "last day" Story Mon 30 Nov. Marketplace listings that weekend carry the discounted price.
 
-## How the owner creates the Rollout (about 10 minutes, once)
+## How the owner creates the Rollout (about 10 minutes, once; only the owner can, there is no API for it)
 
-1. Shopify admin → **Markets → Rollouts → Create rollout**. Name: "Black Friday 2026". Type: **Event**.
+1. Shopify admin home → the "Get BFCM ready with new features in Rollouts" card → **Create a rollout** (or
+   Markets → Rollouts → Create rollout). Name: "Black Friday 2026". Type: **Event**.
 2. Click **Save** once (needed before theme changes), then **Add changes**.
-3. **Theme (Online store)** → under "Replace the current theme" pick "ETS 2026 – Black Friday rollout (draft,
-   not live)" → Apply.
+3. **Theme (Online store)** → **Edit theme**. This opens the theme editor on a rollout-only copy of the live
+   theme. Change two things and click Save: (a) Header → top bar message 1 → the Black Friday line above;
+   (b) Home page → hero section → eyebrow, heading, text and first button as above. Nothing changes on the
+   live site until the event starts.
 4. **Add changes → Discounts** → select "Black Friday 2026 – 15% off…" → set it to **Activated** → Apply.
 5. Traffic allocation: leave at **All eligible visitors** (100%).
 6. Scheduling: "Event runs from" **27 Nov 2026 12:01 am** → **Set end date** **30 Nov 2026 11:59 pm**
