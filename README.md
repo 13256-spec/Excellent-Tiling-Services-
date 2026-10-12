@@ -287,3 +287,12 @@ the report.
   `reprice_2026_10_12.py` adds the thin-margin rule (1% under a competitor who is below our 20% price while we
   keep 10%; 5–10% only on owner-named products; never under 5% or cost). 22 prices cut and 15 products moved to
   trade band 0 in Shopify; PDFs regenerated; playbook, agent and monitor updated.
+
+## Duplicates check (12 Oct 2026)
+
+- Fresh exports of every product, variant and image, plus collections, discounts, menus, pages, customers and
+  Klaviyo, checked for duplicates: no duplicate products, SKUs, barcodes or variants. Fixed: 9 duplicate image
+  copies on 5 products, the 3 old tag-based `trade-band-*` collections and the stale `trade-N` tags on 240
+  products, a second welcome code (`ETSWELCOME10`, deactivated), a second free-shipping mechanism (app discount,
+  deactivated; the free rates in Settings → Shipping stay), a test customer, 22 products on overlapping product
+  types, and a draft Klaviyo flow + template. Report: `store-content/reports/duplicates-check-2026-10-12.md`.

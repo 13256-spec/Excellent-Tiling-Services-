@@ -132,7 +132,8 @@ Rules for any new code or sale:
   collection and is what the theme reads to show a logged-in trade customer their price with the retail
   price crossed out. To change an item's trade discount, set the metafield AND move it between the
   collections; the scripts do both. Full guide: `store-content/trade-accounts/README.md`.
-- Old `trade-band-*` collections and `trade-N` product tags are no longer used.
+- The old `trade-band-*` collections were deleted and the `trade-N` product tags removed on 12 Oct 2026
+  (duplicates check); the band lives only in `ets.trade_band` and the `trade-list-N` collections.
 
 ## Files
 

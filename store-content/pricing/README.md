@@ -70,7 +70,8 @@ was compared with, and any flag. Rules are in the script's docstring. In short:
   variant above the trade floor. Shopify Basic has no B2B price lists, so each band is a manual (unpublished)
   collection `trade-list-5` ... `trade-list-25` with an automatic discount "Trade price – N%" for the
   "Trade customers" segment (customer tag `trade`). To change one item's trade discount, move it to another
-  `trade-list-N` collection in Shopify admin. The old tag-based `trade-band-*` collections are no longer used.
+  `trade-list-N` collection in Shopify admin. The old tag-based `trade-band-*` collections and `trade-N` tags
+  were removed on 12 Oct 2026.
   (A `custom.trade_price` variant metafield definition exists but isn't filled.)
 - Applied: 1,388 prices, 599 MELA costs (ex GST), 5 trade discounts. 4 B&B items and 64 MELA items stay above
   the competitor because it sells below our profit floor; ~30 `BELOW PROFIT FLOOR` items left for the owner.
