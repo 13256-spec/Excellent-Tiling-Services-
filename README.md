@@ -392,19 +392,18 @@ history (commit 64e7157) and in `store-content/reports/redesign-2026-10-12.md`. 
 ## Checkout recovery audit (13 Oct 2026)
 
 The owner asked whether the checkout-recovery automation is set up correctly ("delete the old one, keep the
-working ones"). Report: `store-content/reports/checkout-recovery-2026-10-13.md`; flow details in
-`store-content/email/README.md`.
+working ones"). Report: `store-content/reports/checkout-recovery-2026-10-13.md`.
 
-- **Klaviyo flows are correct and live** (abandoned checkout 1 h + 24 h FREEPOST, abandoned cart 4 h, browse
-  abandonment 2 h, plus repeat purchase, welcome, post-purchase, win-back and the two trade emails). The old
-  8 Oct draft flow was already deleted. Shopify's built-in "Abandoned checkout emails by Shopify" is also on
-  (10 h, subscribers only) and duplicates the flow; it cannot be changed through the API, so the owner turns
-  it off (Apps → Messaging → Automations) once the sending domain is active.
-- **Why nothing was recovered:** the domain's DMARC policy is `p=quarantine` and Klaviyo had no sending
-  domain, so every flow email went through Klaviyo's shared domain, failed DMARC and was quarantined
-  (0 opens on the first 4). Sending domain `send.excellenttilingservice.com.au` created in Klaviyo; four DNS
-  records (in the report) go in at Hosting Platform, then verify and activate.
-- **Fixed:** smart sending off on the two checkout emails and the cart email; browse flow skips anyone who
-  added to cart, checked out or ordered in the last 24 h (views are back-filled at checkout); FREEPOST email
-  now states the code's real limit (standard post rates up to $30, parcels to 5 kg); plain-text links
-  unescaped. Live copies: checkout-1 Wx2R3B, checkout-2 TpVBWu.
+- **Found:** the Klaviyo flows were correct and firing, but the domain's DMARC policy is `p=quarantine` and
+  Klaviyo had no sending domain, so every Klaviyo email failed DMARC and was quarantined (0 opens on the first
+  4). Shopify's built-in "Abandoned checkout emails by Shopify" was also on (10 h, subscribers only) and does
+  deliver.
+- **Decision (owner): Shopify's automations, not Klaviyo.** All nine Klaviyo flows set to draft, nothing
+  deleted, app left installed; the Klaviyo sending domain created that morning stays unused. Shopify's
+  abandoned checkout email is the recovery email; the owner sets its "To:" to All customers and "Send after"
+  to 1 hour (Apps → Messaging → Automations) and can turn on abandoned cart, abandoned browse, welcome,
+  win-back and thank-you automations there. Sender authentication for Shopify's emails is optional (Settings →
+  Notifications → Sender email).
+- Before the decision, in Klaviyo: smart sending off on the checkout and cart emails, browse flow guarded
+  against back-filled views, FREEPOST email corrected to the code's real limit (standard post rates up to $30);
+  all now dormant with the flows. `store-content/email/` keeps the sources for when Klaviyo comes back.

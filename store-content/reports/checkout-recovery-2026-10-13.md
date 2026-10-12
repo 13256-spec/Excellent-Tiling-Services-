@@ -84,7 +84,7 @@ emails are signed by the shop's own domain and pass DMARC. Until then, assume ev
    `event.extra.checkout_url`): items with photo, variant, quantity and price, and the Finish my order button
    pointing at the recovery link.
 
-## For the owner
+## For the owner (superseded by the decision below)
 
 1. Add the four DNS records above at Hosting Platform (or forward the table to their support and ask them
    to add it), then say so: verification and activation take a minute from here.
@@ -97,3 +97,35 @@ emails are signed by the shop's own domain and pass DMARC. Until then, assume ev
    $39 rate.
 4. Not touched, say if they should go: the 8 Oct draft campaign "ETS | Finishing Essentials | REVIEW ONLY"
    and its template (never sent), and the 12 Oct Black Friday draft campaign and template "for approval".
+
+## Decision, 13 Oct 8:30 am Perth: Shopify's own automations, Klaviyo parked
+
+The owner's answer to the above: "Not Klaviyo, I don't wanna use that for now, use Shopify ones." Done at
+23:50 UTC on 12 Oct (7:50 am Perth):
+
+- **All nine Klaviyo flows set to draft** (off): abandoned checkout, abandoned cart, browse abandonment,
+  repeat purchase, welcome series, post-purchase, win-back, trade application received, trade account
+  approved. Nothing was deleted; each is one status change away from live. The Klaviyo app stays installed
+  (customer sync and onsite tracking still run; the owner can uninstall it from Apps if he wants it gone).
+  The Klaviyo sending domain created earlier stays "pending" and unused; its DNS records are not needed.
+- **Shopify's built-in "Abandoned checkout emails by Shopify" is now the only recovery email.** It already
+  works: Shopify's record for the 11 Oct checkout shows the email sent, and Shopify delivers even without
+  domain authentication (the From address shows "via shopifyemail.com", it is not quarantined like Klaviyo's
+  was). Two settings make it recover more than it does today, both in Shopify admin → Apps → Messaging →
+  Automations → "Abandoned checkout emails by Shopify":
+  1. *Edit email* → the **To:** field → **All customers**. Shopify's default is email subscribers only, which
+     is why the 12 Oct abandoners (not subscribed) got nothing while the subscribed 11 Oct one did.
+  2. *Edit settings* → **Send after: 1 hour** instead of the current 10 hours (the 11 Oct email went 10 h after
+     the checkout). One hour is when the customer is still at the device.
+  The email's wording and logo are edited in the same place; the default template already lists the items
+  and carries the "Complete your purchase" link.
+- **Other Shopify automations the owner can turn on** in the same place (Create automation): Recover abandoned
+  cart, Convert abandoned product browse, Welcome new subscribers with a discount (pick the existing
+  WELCOME10 code), Win back customers (COMEBACK10), Thank customers after they purchase. Each defaults to
+  subscribers only. Automations can be created on desktop; on the phone only the three recovery ones show.
+- **Sender authentication (optional, recommended):** Settings → Notifications → Sender email → "Authenticate
+  your domain" shows store-specific CNAME records to add at Hosting Platform; once in, Shopify's emails come
+  from contactus@excellenttilingservice.com.au without the "via shopifyemail.com" label. The domain has no
+  Shopify DKIM records today.
+- Not applicable any more: the Klaviyo DNS records above, and "turn off Shopify's reminder" (it is the one to
+  keep).

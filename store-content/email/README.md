@@ -1,9 +1,16 @@
-# Email automations (Klaviyo)
+# Email automations (Klaviyo) — parked since 13 Oct 2026
+
+**Status 13 Oct 2026:** the owner is not using Klaviyo for now ("use Shopify ones"). All nine flows below are
+set to **draft** (off), nothing deleted; the Klaviyo app stays installed. Checkout recovery runs on Shopify's
+own "Abandoned checkout emails by Shopify" (Shopify admin → Apps → Messaging → Automations), and other
+automations (abandoned cart, abandoned browse, welcome, win-back, thank-you) are turned on there if wanted.
+See `store-content/reports/checkout-recovery-2026-10-13.md`. To bring a Klaviyo flow back: set its status to
+live (`PATCH /api/flows/{id}`), after the sending domain below is active, or its emails go to junk.
 
 Set up 11 Oct 2026 through the Klaviyo API. Account WNnVDh, sender "Excellent Tiling Services"
 <contactus@excellenttilingservice.com.au>, send times in the customer's timezone (Perth when unknown).
 
-## The nine flows (all live)
+## The nine flows (all draft since 13 Oct; set up live 11 and 12 Oct)
 
 | Flow | Klaviyo ID | Starts when | What is sent |
 |---|---|---|---|
@@ -81,7 +88,7 @@ so parcels to 5 kg; heavier parcels post at the normal rate) instead of "whateve
 checkout plain-text versions keep the link unescaped (`|safe`). Masters XURBGg and Y8JnzV updated and the flow
 re-pointed: live copies are now checkout-1 Wx2R3B (flow action 120142375) and checkout-2 TpVBWu (120142378).
 
-## Sending domain (DMARC), set up 13 Oct, waiting on DNS
+## Sending domain (DMARC), created 13 Oct, left pending (Klaviyo parked)
 
 The domain publishes `v=DMARC1; p=quarantine` and Klaviyo had no sending domain, so every email went through
 Klaviyo's shared domain, failed DMARC and was quarantined (0 opens on the first 4 flow emails). A branded

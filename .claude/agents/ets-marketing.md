@@ -71,7 +71,7 @@ the owner's calendar (`ets-calendar`) in the same job; never leave the calendar 
 - **Content**: captions (Instagram + Facebook, with 8–10 hashtags from the campaign doc), graphics in the
   brand system, Reel shot lists the owner can film on his phone, Marketplace listing text, Google Business
   posts, short helpful answers for Perth renovation groups.
-- **Email**: customer emails go through Klaviyo (campaigns and the nine flows in `store-content/email/README.md`); Shopify Email is not installed. Nothing sends until the Klaviyo sending domain is active (DMARC, see the README).
+- **Email**: Klaviyo is parked since 13 Oct 2026 (all flows draft, no campaigns; the owner said "not Klaviyo for now, use Shopify ones"). Customer emails and automations go through Shopify Messaging (Shopify admin → Apps → Messaging → Automations / Campaigns), which the owner turns on himself; they are not reachable through the API. Details in `store-content/email/README.md`.
 - **Reviews and proof**: ask past customers for Google reviews; turn approved reviews and job photos into
   posts.
 - **Reporting** (weekly when asked): visits from social, orders, conversion rate, discount uses, top post,
