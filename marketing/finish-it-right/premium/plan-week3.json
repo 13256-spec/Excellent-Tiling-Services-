@@ -1,0 +1,95 @@
+{
+ "mon-spacers": {
+  "type": "main",
+  "image": "src/spacer-0.jpg",
+  "fit": "cover",
+  "title": "Raimondi reusable tile spacers",
+  "line": "Two sizes in one, 300 to a pack. Pull them out, rinse, use again.",
+  "price": "$64.95",
+  "price_note": "1 & 3 mm · 300 pack"
+ },
+ "tue-flova": {
+  "type": "main",
+  "image": "src/flova-0.png",
+  "fit": "studio",
+  "title": "MELA FLOVA basin mixer",
+  "line": "WELS 5-star. Chrome, matt black or brushed nickel.",
+  "price": "$189",
+  "price_note": "chrome · from"
+ },
+ "wed-maxisil": {
+  "type": "main",
+  "image": "src/maxisil-0.jpg",
+  "fit": "studio",
+  "title": "Maxisil wet area silicone",
+  "line": "Six colours to match your grout. Made for showers and wet areas.",
+  "price": "$16.25",
+  "price_note": "per tube"
+ },
+ "thu-waste": {
+  "type": "main",
+  "image": "src/waste-0.jpg",
+  "fit": "studio",
+  "title": "Square grate floor waste",
+  "line": "50 mm outlet. Six finishes, so it matches your tapware.",
+  "price": "$16.05",
+  "price_note": "each"
+ },
+ "fri-scraper": {
+  "type": "main",
+  "image": "src/scraper-0.jpg",
+  "fit": "studio",
+  "title": "Heavy duty floor scraper",
+  "line": "Lifts old adhesive, grout and tile. 150 or 300 mm blade.",
+  "price": "$28.90",
+  "price_note": "150 mm · from"
+ },
+ "sat-moon": {
+  "type": "main",
+  "image": "src/moon-1.jpg",
+  "fit": "cover",
+  "title": "Time Stone Moon porcelain",
+  "line": "Stone look in matt or lappato. 300×600 and 600×600 mm.",
+  "price": "$50.10",
+  "price_note": "per m² · from",
+  "tag": "Perth delivery · link in bio"
+ },
+ "sun-brittany": {
+  "type": "main",
+  "image": "src/brittany-0.jpg",
+  "fit": "cover",
+  "title": "MELA BRITTANY 1200 vanity",
+  "line": "Fluted oak, curved stone top, basin included.",
+  "price": "$1,994",
+  "price_note": "mirror sold separately",
+  "tag": "Showroom · link in bio"
+ },
+ "story-flova-black": {
+  "type": "story",
+  "image": "src/flova-3.png",
+  "fit": "studio",
+  "title": "MELA FLOVA basin mixer",
+  "line": "Matt black. WELS 5-star.",
+  "price": "$217",
+  "price_note": "matt black"
+ },
+ "story-moon": {
+  "type": "story",
+  "image": "src/moon-2.jpg",
+  "fit": "cover",
+  "title": "Time Stone Moon porcelain",
+  "line": "Matt or lappato, from $50.10 per m².",
+  "price": "$50.10",
+  "price_note": "per m² · from",
+  "tag": "Perth delivery · link in bio"
+ },
+ "story-waste": {
+  "type": "story",
+  "image": "src/waste-2.jpg",
+  "fit": "studio",
+  "title": "Square grate floor waste",
+  "line": "Six finishes to match your taps.",
+  "price": "$16.05",
+  "price_note": "each"
+ }
+}
