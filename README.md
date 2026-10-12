@@ -296,3 +296,11 @@ the report.
   products, a second welcome code (`ETSWELCOME10`, deactivated), a second free-shipping mechanism (app discount,
   deactivated; the free rates in Settings → Shipping stay), a test customer, 22 products on overlapping product
   types, and a draft Klaviyo flow + template. Report: `store-content/reports/duplicates-check-2026-10-12.md`.
+
+## Product photos, round two (12 Oct 2026)
+
+- On the owner's instruction to use supplier websites, 10 more of the products without photos now have supplier or distributor
+  photos (BAT plaster trowel, paint scrapers and BAT Pro square trowel; NICLIS waterproofing bandage and 85 mm grate with one
+  photo per variant; Raimondi Clipdozer, two Ipertitina connectors, 250 mm porcelain blade, Power Raizor MK2). 20 remain
+  (buckets, BATSEAL sealers, BAT Luxe inspection drain, knives and blades, five Raimondi spares): BAT Trims' site blocks
+  automated access and no stockist lists them. Sources and sizes: `store-content/reports/photos-sourced-2026-10-11.csv`.

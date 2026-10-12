@@ -38,4 +38,4 @@ and the Klaviyo account.
   every vanity is wall hung; both are in the menu on purpose.
 - Klaviyo default segments (VIP, Repeat Buyers, Churn Risks, Engaged 30/90) sit next to the ETS ones;
   the draft campaign template "ETS | Finishing Essentials | Draft | 8 Oct 2026" is a campaign idea, not a copy.
-- 30 products still have no photo at all (see `photos-sourced-2026-10-11.csv`).
+- 20 products still have no photo at all after the 12 Oct photo sourcing (see `photos-sourced-2026-10-11.csv`).
