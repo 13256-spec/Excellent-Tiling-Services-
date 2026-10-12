@@ -5,19 +5,25 @@
    ========================================================================== */
 
 :root {
-  --ets-bg: #F6F4EF;
-  --ets-bg-2: #EEEAE2;
+  --ets-bg: #F3F2EE;
+  --ets-bg-2: #E8E6E0;
   --ets-surface: #FFFFFF;
   --ets-ink: #15213A;
   --ets-ink-soft: #3A4556;
-  --ets-muted: #6A6862;
-  --ets-line: rgba(21, 33, 58, .10);
-  --ets-line-strong: rgba(21, 33, 58, .2);
-  --ets-brass: #9C7744;
-  --ets-brass-soft: #EFE6D6;
+  --ets-muted: #6B6E74;
+  --ets-line: #D9D6CF;
+  --ets-line-strong: #B9B5AC;
+  /* 12 Oct 2026 new look: the brass accent became the logo's blue; the old names stay so every rule follows */
+  --ets-brass: #2A5DA8;
+  --ets-brass-soft: #E4EEF9;
+  --ets-blue: #2A5DA8;
+  --ets-blue-deep: #214B8A;
+  --ets-blue-soft: #E4EEF9;
+  --ets-sky: #58A0D8;
+  --ets-sky-soft: #9CC8EE;
   --ets-trade: #1F6149;
   --ets-trade-soft: #E2EEE8;
-  --ets-dark: #0F1A2C;
+  --ets-dark: #111B30;
   --ets-danger: #9B2C2C;
   /* aliases used by older self-contained sections */
   --ets-navy: var(--ets-ink);
@@ -25,13 +31,13 @@
   --ets-white: #FFFFFF;
   --ets-header-h: 120px;
 
-  --ets-serif: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
-  --ets-sans: 'Manrope', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --ets-sans: 'Archivo', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --ets-serif: var(--ets-sans);
 
-  --ets-r-sm: 12px;
-  --ets-r: 20px;
-  --ets-r-lg: 28px;
-  --ets-pill: 999px;
+  --ets-r-sm: 3px;
+  --ets-r: 4px;
+  --ets-r-lg: 6px;
+  --ets-pill: 4px;
   --ets-ease: cubic-bezier(.32, .72, 0, 1);
   --ets-ease-out: cubic-bezier(.16, 1, .3, 1);
   --ets-shadow: 0 1px 2px rgba(21, 33, 58, .04), 0 12px 40px -12px rgba(21, 33, 58, .12);

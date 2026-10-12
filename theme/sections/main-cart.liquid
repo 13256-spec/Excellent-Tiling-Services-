@@ -49,11 +49,14 @@
 
       <div class="cart-page__items">
         {%- content_for 'block', id: 'cart-page-items', type: '_cart-products' %}
+        {%- unless cart.empty? -%}
+          {%- comment -%} Free-post bar sits under the items so it never lands in the summary's subgrid on desktop (12 Oct 2026). {%- endcomment -%}
+          <div class="cart-page__shipbar">{% render 'ets-shipping-bar' %}</div>
+        {%- endunless -%}
       </div>
 
       {%- unless cart.empty? -%}
         <div class="cart-page__summary">
-          {% render 'ets-shipping-bar' %}
           {%- content_for 'block', id: 'cart-page-summary', type: '_cart-summary' -%}
         </div>
       {%- endunless -%}
@@ -97,6 +100,10 @@
 
   .cart-page__summary {
     padding-top: var(--padding-xl);
+  }
+
+  .cart-page__shipbar {
+    margin-block-start: var(--margin-lg);
   }
 
   .cart-page__title + .cart-page__items {

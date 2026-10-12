@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "current": {
     "logo": "shopify://shop_images/excellent-tiling-services-logo.jpg",
@@ -50,22 +41,22 @@
     "transition_to_main_product": false,
     "card_hover_effect": "none",
     "badge_position": "top-right",
-    "badge_corner_radius": 100,
+    "badge_corner_radius": 2,
     "badge_sale_background_color": "{{ settings.color_palette.foreground }}",
     "badge_sale_text_color": "#FFFFFF",
     "badge_sold_out_background_color": "#EEEAE2",
     "badge_sold_out_text_color": "{{ settings.color_palette.foreground }}",
     "badge_text_transform": "none",
-    "palette_primary_button_background": "{{ settings.color_palette.foreground }}",
+    "palette_primary_button_background": "#2A5DA8",
     "palette_primary_button_text": "#FFFFFF",
-    "palette_primary_button_border": "{{ settings.color_palette.foreground }}",
+    "palette_primary_button_border": "#2A5DA8",
     "primary_button_border_width": 0,
-    "button_border_radius_primary": 100,
+    "button_border_radius_primary": 4,
     "palette_secondary_button_background": "#FFFFFF",
     "palette_secondary_button_text": "{{ settings.color_palette.foreground }}",
     "palette_secondary_button_border": "{{ settings.color_palette.foreground }}",
     "secondary_button_border_width": 1,
-    "button_border_radius_secondary": 100,
+    "button_border_radius_secondary": 4,
     "cart_type": "drawer",
     "cart_price_font": "subheading",
     "show_cart_note": true,
@@ -78,10 +69,10 @@
     "palette_input_text": "{{ settings.color_palette.foreground }}",
     "palette_input_border": "{{ settings.color_palette.color2 }}",
     "input_border_width": 1,
-    "inputs_border_radius": 14,
+    "inputs_border_radius": 4,
     "popover_background_color": "#FFFFFF",
     "popover_text_color": "{{ settings.color_palette.foreground }}",
-    "popover_border_radius": 14,
+    "popover_border_radius": 6,
     "popover_border_color": "{{ settings.color_palette.color2 }}",
     "popover_border_width": 1,
     "currency_code_enabled_product_pages": false,
@@ -89,12 +80,12 @@
     "currency_code_enabled_cart_items": false,
     "quick_add_background": "#FFFFFF",
     "quick_add_text": "{{ settings.color_palette.foreground }}",
-    "product_corner_radius": 20,
-    "card_corner_radius": 16,
+    "product_corner_radius": 4,
+    "card_corner_radius": 4,
     "show_variant_image": false,
     "variant_swatch_width": 34,
     "variant_swatch_height": 34,
-    "variant_swatch_radius": 32,
+    "variant_swatch_radius": 4,
     "palette_variant_background": "#FFFFFF",
     "palette_variant_text": "{{ settings.color_palette.foreground }}",
     "palette_variant_border": "{{ settings.color_palette.color2 }}",
@@ -102,8 +93,8 @@
     "palette_selected_variant_text": "#FFFFFF",
     "palette_selected_variant_border": "{{ settings.color_palette.foreground }}",
     "variant_button_border_width": 1,
-    "variant_button_radius": 12,
-    "variant_button_width": "equal-width-buttons",
+    "variant_button_radius": 4,
+    "variant_button_width": "default-width-buttons",
     "ets_trade_enabled": true,
     "ets_trade_tag": "trade",
     "ets_trade_tiles_pct": 20,
@@ -115,11 +106,40 @@
     "ets_facebook": "https://www.facebook.com/share/1943ueL61k/?mibextid=wwXIfr",
     "ets_instagram": "https://www.instagram.com/excellent_tiling_services/",
     "content_for_index": [],
+    "blocks": {
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "greeting_message": "",
+          "show_featured_products": true,
+          "featured_products": [],
+          "background_color": "#f6f4ef",
+          "font_color": "#15213a",
+          "agent_invert_activator_colors": true,
+          "button_color": "#000000",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "agent_inherit_fonts": true,
+          "agent_font": "system_ui_n4",
+          "agent_font_size": 14,
+          "agent_activator_font_size": 16,
+          "agent_border_radius": 14
+        }
+      },
+      "855628211100114053": {
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_palette": {
-      "background": "#F6F4EF",
+      "background": "#F3F2EE",
       "foreground": "#15213A",
-      "color1": "#6A6862",
-      "color2": "#DCD6CB"
+      "color1": "#6B6E74",
+      "color2": "#D9D6CF"
     }
   }
 }

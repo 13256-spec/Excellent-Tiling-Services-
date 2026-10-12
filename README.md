@@ -316,6 +316,16 @@ the report.
 - Owner to-dos with click paths (Google Ads location fix, publish the sign-up theme, Search Console, eBay postage,
   reviews app) and two pricing decisions (small-item postage tier, pickup lead time) are in the report.
 
+## New look (12 Oct 2026, draft for the owner to publish)
+
+- The owner asked for the site's look to be redone. `store-content/reports/redesign-2026-10-12.md` has the audit (blurry
+  mosaics leading the Tiles range, a serif that never loaded, pill-and-shadow cards, a crowded phone hero, a product page
+  with the buy button nine screens down), the direction ("porcelain and grout": white surfaces, 1 px lines, square corners,
+  Archivo, the logo's blue as the one accent) and what was built in the theme copy "ETS 2026 – New look (draft 12 Oct)".
+  Changed theme files are in `theme/`; before/after images in `store-content/reports/img/`.
+- Live changes made with it: the Tiles collection is sorted by hand (big-format ranges first, mosaics last) with a room
+  photo as its banner; the cart-page free-post bar no longer overlaps the order summary on desktop.
+
 ## Postage fix (12 Oct 2026, approved by the owner)
 
 - Shopify rates on both parcel profiles and both Australian zones: new tiers up to 250 g $9.95 and up to 500 g $11.95, 3–5 kg cut to

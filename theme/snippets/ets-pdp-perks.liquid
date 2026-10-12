@@ -62,8 +62,8 @@
         {%- when 'large' -%}<strong>Perth metro delivery</strong><small>Local delivery options show at checkout, or choose free pickup from Maddington. Outside Perth? <a href="/pages/contact">Ask for a freight quote.</a></small>
         {%- when 'intl' -%}<strong>Ships from Perth, Australia</strong><small>Small items post to New Zealand, the United States, the United Kingdom and the UAE by tracked Australia Post; prices show at checkout. Tiles and large items are delivered within Australia only.</small>
         {%- else -%}
-          {%- if post_from != blank -%}<strong>Australia Post from {{ post_from }}</strong><small>Tracked post anywhere in Australia, priced by parcel weight: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20. Free on WA orders over $100 and on orders over $150 Australia-wide. Or pick up free from Maddington.</small>
-          {%- else -%}<strong>Australia-wide post</strong><small>Tracked Australia Post, priced by parcel weight at checkout (from $9.95). Free on WA orders over $100 and on orders over $150 Australia-wide. Or pick up free from Maddington.</small>
+          {%- if post_from != blank -%}<strong>Australia Post from {{ post_from }}</strong><small>Tracked post anywhere in Australia, priced by parcel weight: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20. Free on WA orders over $100 and on orders over $150 Australia-wide. Or pick up free from Maddington. Prices include GST.</small>
+          {%- else -%}<strong>Australia-wide post</strong><small>Tracked Australia Post, priced by parcel weight at checkout (from $9.95). Free on WA orders over $100 and on orders over $150 Australia-wide. Or pick up free from Maddington. Prices include GST.</small>
           {%- endif -%}
       {%- endcase -%}
       {%- if lead != blank -%}<small>Lead time: {{ lead | escape }}</small>{%- endif -%}

@@ -1,0 +1,194 @@
+/* ==========================================================================
+   ETS new look (12 Oct 2026). Loaded after ets-2026.css and ets-refine.css; overrides only.
+   Porcelain and grout: paper and white surfaces, 1 px grout lines instead of shadows and
+   rounded shells, square corners, one typeface (Archivo) and one accent (the logo's blue)
+   on everything that can be bought or booked. Navy stays for text, the top bar, the trade
+   band and the footer.
+   ========================================================================== */
+:root {
+  --ets-r-sm: 3px; --ets-r: 4px; --ets-r-lg: 6px; --ets-pill: 4px;
+  --ets-shadow: none; --ets-shadow-lg: 0 16px 40px -20px rgba(21, 33, 58, .3);
+  --ets-sec: clamp(48px, 6vw, 96px);
+}
+::selection { background: #D5E4F7; }
+body { font-family: var(--ets-sans); font-feature-settings: normal; }
+
+/* ---------- Type ---------- */
+body h1, body h2, body .h1, body .h2, .ets-display, .ets-h2 { font-family: var(--ets-sans); font-weight: 600; letter-spacing: -.028em; }
+.ets-display { font-size: clamp(34px, 4vw, 56px); line-height: 1.04; max-width: none; }
+.ets-h2 { font-size: clamp(26px, 2.8vw, 38px); line-height: 1.08; }
+.ets-h3, .ets h3 { font-weight: 600; }
+.ets-lede { color: var(--ets-ink-soft); }
+.ets-eyebrow { font: 500 14px/1.3 var(--ets-sans); color: var(--ets-blue); }
+.ets-sec--ink .ets-eyebrow { color: var(--ets-sky-soft); }
+.ets-head { align-items: end; margin-bottom: clamp(24px, 3vw, 40px); }
+.ets :focus-visible { outline-color: var(--ets-blue); border-radius: 3px; }
+
+/* ---------- Buttons and links ---------- */
+.ets-btn { --btn-bg: var(--ets-blue); --btn-fg: #FFFFFF; border-radius: 4px; min-height: 48px; padding: 0 22px; font-weight: 600; letter-spacing: 0; }
+.ets-btn:hover { --btn-bg: var(--ets-blue-deep); filter: none; box-shadow: none; }
+.ets-btn--light { --btn-bg: #FFFFFF; --btn-fg: var(--ets-ink); }
+.ets-btn--light:hover { --btn-bg: #E4EEF9; }
+.ets-btn--brass { --btn-bg: var(--ets-blue); --btn-fg: #FFFFFF; }
+.ets-btn--ghost { --btn-bg: transparent; --btn-fg: var(--ets-ink); box-shadow: inset 0 0 0 1.5px var(--ets-ink); }
+.ets-btn--ghost:hover { --btn-bg: rgba(21, 33, 58, .06); box-shadow: inset 0 0 0 1.5px var(--ets-ink); }
+.ets-sec--ink .ets-btn--brass, .ets-sec--ink .ets-btn:not(.ets-btn--ghost) { --btn-bg: #FFFFFF; --btn-fg: var(--ets-ink); }
+.ets-sec--ink .ets-btn--ghost { --btn-fg: #FFFFFF; box-shadow: inset 0 0 0 1.5px rgba(255, 255, 255, .6); }
+.ets-sec--ink .ets-btn--ghost:hover { --btn-bg: rgba(255, 255, 255, .1); }
+.ets-link { font-weight: 600; }
+.ets-link:hover { color: var(--ets-blue); }
+
+/* ---------- Surfaces: flat, grout-lined ---------- */
+.ets-shell { padding: 0; background: none; box-shadow: none; border-radius: var(--ets-r-lg); }
+.ets-core { border-radius: var(--ets-r-lg); box-shadow: 0 0 0 1px var(--ets-line); }
+.ets-sec--ink .ets-core { box-shadow: 0 0 0 1px rgba(255, 255, 255, .12); }
+
+/* ---------- Header ---------- */
+.ets-topbar { background: var(--ets-dark); color: #DCE6F2; }
+.ets-topbar__msg span + span::before { background: var(--ets-sky); }
+.ets-topbar__trade { color: var(--ets-sky-soft) !important; }
+.ets-hdr { background: rgba(255, 255, 255, .94); border-bottom: 1px solid var(--ets-line); }
+.ets-search input { border-radius: 4px; box-shadow: inset 0 0 0 1px var(--ets-line-strong); background: #FFFFFF; }
+.ets-search input:focus { box-shadow: inset 0 0 0 1.5px var(--ets-blue), 0 0 0 4px rgba(42, 93, 168, .14); }
+.ets-search button { top: 4px; right: 4px; width: 40px; height: 40px; border-radius: 3px; background: var(--ets-blue); }
+.ets-search button:hover { background: var(--ets-blue-deep); }
+.ets-tool { border-radius: 4px; }
+.ets-tool__count { background: var(--ets-blue); border-radius: 4px; }
+.ets-trade-chip { border-radius: 3px; }
+.ets-nav { background: var(--ets-bg); border-top: 0; }
+.ets-nav__link { font-weight: 500; }
+.ets-nav__link::after { height: 2px; background: var(--ets-blue); bottom: 0; }
+.ets-mega .ets-core { border-radius: 6px; box-shadow: 0 0 0 1px var(--ets-line), var(--ets-shadow-lg); }
+.ets-mega__links a { font-weight: 500; }
+.ets-mega__links a:hover { color: var(--ets-blue); }
+.ets-mega__feature span { border-radius: 4px; }
+.ets-dnav details > summary, .ets-dnav > li > a { font: 600 21px/1.15 var(--ets-sans); letter-spacing: -.02em; }
+.ets-dnav__sub a { border-radius: 4px; font-weight: 500; }
+.ets-dnav__sub a.is-all { background: var(--ets-blue); }
+.ets-drawer__contact { border-radius: 6px; }
+
+/* ---------- Trust strip ---------- */
+.ets-trust { background: #FFFFFF; }
+.ets-trust__icon { color: var(--ets-blue); }
+.ets-trust__list strong { font-weight: 600; }
+
+/* ---------- Department tile wall: five equal squares across, two on phones, 1 px grout between ---------- */
+.ets-cats { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); grid-auto-rows: auto; gap: 1px; padding: 1px; background: var(--ets-line); }
+.ets-cats > .ets-cat, .ets-cats > .ets-cat--lg, .ets-cats > .ets-cat--md, .ets-cats > .ets-cat:last-child:nth-child(10) { grid-column: span 1; grid-row: span 1; min-height: 0; }
+.ets-cat { background: #FFFFFF; }
+.ets-cat .ets-shell { border-radius: 0; }
+.ets-cat .ets-core { position: static; display: flex; flex-direction: column; justify-content: flex-start; min-height: 0; border-radius: 0; box-shadow: none; background: #FFFFFF; }
+.ets-cat__img, .ets-cat__img--contain { position: relative; inset: auto; aspect-ratio: 1; overflow: hidden; }
+.ets-cat__img img { width: 100%; height: 100%; object-fit: cover; padding: 0; transition: none; }
+.ets-cat__img--contain img { object-fit: contain; padding: 12%; mix-blend-mode: multiply; }
+.ets-cat:hover .ets-cat__img img { transform: none; }
+.ets-cat__body { margin: 0; padding: 14px 16px 16px; border-radius: 0; border-top: 1px solid var(--ets-line); background: #FFFFFF; -webkit-backdrop-filter: none; backdrop-filter: none; }
+.ets-cat__body strong { font: 600 16px/1.25 var(--ets-sans); letter-spacing: -.01em; }
+.ets-cat__body small { display: block; margin-top: 3px; font-size: 13px; color: var(--ets-muted); }
+.ets-cat__go { display: none; }
+.ets-cat:hover .ets-cat__body strong { color: var(--ets-blue); }
+@media (max-width: 700px) {
+  .ets-cats { grid-template-columns: 1fr 1fr; }
+  .ets-cat__body { padding: 12px 12px 14px; }
+  .ets-cat__body strong { font-size: 15px; }
+  .ets-cat__body small { display: block; }
+}
+
+/* ---------- Product rails, tabs and cards ---------- */
+.ets-tabs { width: 100%; max-width: none; gap: 2px; padding: 0; border-radius: 0; background: none; border-bottom: 1px solid var(--ets-line); }
+.ets-tabs button { min-height: 44px; padding: 0 14px; border-radius: 0; color: var(--ets-muted); font-weight: 500; }
+.ets-tabs button[aria-selected='true'] { background: none; box-shadow: inset 0 -2px 0 var(--ets-ink); color: var(--ets-ink); font-weight: 600; }
+.ets-rail__nav button { border-radius: 4px; }
+.ets-card__media { border-radius: 4px; box-shadow: inset 0 0 0 1px var(--ets-line); }
+.ets-card:hover .ets-card__media { box-shadow: inset 0 0 0 1px var(--ets-ink); }
+.ets-card:hover .ets-card__media img:first-child { transform: none; }
+.ets-card__title { font-weight: 500; }
+.ets-card__price, .ets-price__now, body .price { font-weight: 600; font-variant-numeric: tabular-nums; }
+.ets-badge { border-radius: 2px; }
+product-card .card-gallery { border-radius: 4px; border: 1px solid var(--ets-line); }
+product-card:hover .card-gallery { border-color: var(--ets-ink); box-shadow: none; transform: none; }
+product-card [class*='__title'] p { font-weight: 500; }
+
+/* ---------- Split, services, steps, info columns, FAQ ---------- */
+.ets-split__media .ets-core { border-radius: 6px; }
+.ets-checks svg { border-radius: 3px; }
+.ets-service__icon, .ets-info__icon, .ets-fieldset legend span, .ets-faq summary span, .ets-pop__close, .ets-ftr__social a { border-radius: 4px; }
+.ets-info { gap: 0; border-top: 1px solid var(--ets-line); border-bottom: 1px solid var(--ets-line); }
+.ets-info .ets-shell { border-radius: 0; }
+.ets-info .ets-core { border-radius: 0; box-shadow: none; background: transparent; padding: 28px 28px 28px 0; }
+.ets-info .ets-shell + .ets-shell .ets-core { border-left: 1px solid var(--ets-line); padding-left: 28px; }
+.ets-info h3 { font: 600 22px/1.2 var(--ets-sans); letter-spacing: -.02em; }
+.ets-info__icon { background: var(--ets-blue-soft); color: var(--ets-blue); }
+@media (max-width: 989px) {
+  .ets-info .ets-core { padding: 22px 0; }
+  .ets-info .ets-shell + .ets-shell .ets-core { border-left: 0; border-top: 1px solid var(--ets-line); padding-left: 0; }
+}
+.ets-faq summary { font: 600 17px/1.35 var(--ets-sans); }
+.ets-faq details[open] summary span { background: var(--ets-blue); }
+.ets-steps li { border-radius: 4px; }
+.ets-steps li::before { font: 600 32px/1 var(--ets-sans); color: var(--ets-blue); }
+
+/* ---------- Trade band and other ink sections ---------- */
+.ets-sec--ink { background: var(--ets-dark); }
+.ets-rate { border-radius: 4px; background: rgba(255, 255, 255, .04); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .14); }
+.ets-rate strong { font-family: var(--ets-sans); font-weight: 600; color: var(--ets-sky-soft); }
+.ets-sec--ink .ets-checks svg { background: rgba(156, 200, 238, .16); color: var(--ets-sky-soft); }
+.ets-sec--ink .ets-service__icon { color: var(--ets-sky-soft); }
+.ets-cta .ets-core { border-radius: 6px; }
+
+/* ---------- Footer ---------- */
+.ets-ftr { background: var(--ets-dark); }
+.ets-ftr a:hover { color: var(--ets-sky-soft); }
+.ets-ftr__news-title { font: 600 clamp(24px, 2.6vw, 30px)/1.15 var(--ets-sans); letter-spacing: -.02em; }
+.ets-ftr .ets-news__row:focus-within { box-shadow: inset 0 0 0 1.5px #FFFFFF, 0 0 0 4px rgba(156, 200, 238, .22); }
+.ets-ftr .ets-news .ets-btn { --btn-bg: #FFFFFF; --btn-fg: var(--ets-ink); }
+
+/* ---------- Collection pages ---------- */
+.ets-phero__media .ets-core { border-radius: 6px; }
+.ets-chip { border-radius: 4px; box-shadow: inset 0 0 0 1px var(--ets-line-strong); font-weight: 500; }
+.ets-chip:hover { box-shadow: inset 0 0 0 1px var(--ets-ink); }
+.ets-chip[aria-current='page'] { background: var(--ets-ink); color: #FFFFFF; }
+body .facets__summary, body .facets__label { font-weight: 500; }
+
+/* ---------- Product pages ---------- */
+body .product-details h1, body .product-information h1 { font-family: var(--ets-sans) !important; font-weight: 600 !important; font-size: clamp(28px, 2.6vw, 40px) !important; line-height: 1.08 !important; letter-spacing: -.025em; }
+body .variant-option__button-label, body .variant-picker .variant-option__button-label { border-radius: 4px !important; font-weight: 500; }
+.ets-perks { border-radius: 4px; box-shadow: inset 0 0 0 1px var(--ets-line-strong); }
+.ets-perks svg { color: var(--ets-blue); }
+.ets-trade-note { border-radius: 4px; }
+.ets-calc { border-radius: 4px; }
+.ets-calc input, .ets-calc select { border-radius: 4px; }
+.ets-calc__head svg { color: var(--ets-blue); }
+.ets-calc__apply { border-radius: 4px; background: var(--ets-blue); }
+
+/* ---------- Forms, alerts, sign-up and pop-up ---------- */
+.ets-field input, .ets-field select, .ets-field textarea, .ets-option, .ets-alert { border-radius: 4px; }
+.ets-field input:focus, .ets-field select:focus, .ets-field textarea:focus { box-shadow: inset 0 0 0 1.5px var(--ets-blue), 0 0 0 4px rgba(42, 93, 168, .14); }
+.ets-option:has(input:checked) { box-shadow: inset 0 0 0 2px var(--ets-blue); background: #FFFFFF; }
+.ets-option input, .ets-consent input { accent-color: var(--ets-blue); }
+.ets-news__row { border-radius: 4px; }
+.ets-news__row:focus-within { box-shadow: inset 0 0 0 1.5px var(--ets-blue), 0 0 0 4px rgba(42, 93, 168, .14); }
+.ets-pop__card { border-radius: 6px; }
+.ets-pop h2 { font: 600 clamp(28px, 3.4vw, 40px)/1.08 var(--ets-sans); letter-spacing: -.025em; }
+.ets-pop__offer { border-radius: 4px; background: var(--ets-blue-soft); }
+.ets-pop__offer svg { color: var(--ets-blue); }
+@media (max-width: 640px) { .ets-pop__card { border-radius: 10px 10px 0 0; } }
+
+/* ---------- Shopify Inbox chat and the cookie banner: blue edge instead of brass ---------- */
+shopify-chat { --shopify-chat-accent-bg-color: var(--ets-blue); --shopify-chat-border-radius: 6px; }
+shopify-chat::part(activator) { background-color: var(--ets-ink); border-radius: 4px; box-shadow: 0 10px 28px -6px rgba(15, 26, 44, .45); }
+shopify-chat::part(activator):hover { background-color: var(--ets-blue); box-shadow: 0 14px 32px -6px rgba(15, 26, 44, .5); }
+shopify-chat::part(dialog) { border-top: 3px solid var(--ets-blue); }
+#shopify-pc__banner.shopify-pc__banner__dialog { border-radius: 6px; border-top: 3px solid var(--ets-blue); }
+#shopify-pc__banner button { border-radius: 4px; }
+#shopify-pc__banner button.shopify-pc__banner__btn-accept, #shopify-pc__banner button.shopify-pc__banner__btn-decline { border-color: var(--ets-ink); }
+#shopify-pc__banner button:focus-visible { box-shadow: 0 0 0 3px rgba(42, 93, 168, .45); }
+
+/* ---------- Laptop sizes: ets-refine made the department grid four across; the tile wall is five everywhere ---------- */
+@media (min-width: 990px) and (max-width: 1600px) {
+  .ets-cats { grid-template-columns: repeat(5, minmax(0, 1fr)); grid-auto-rows: auto; gap: 1px; }
+  .ets-cats > .ets-cat:last-child:nth-child(10) { grid-column: span 1; }
+}
+
+/* ---------- Collection pages: the collection hero already shows the breadcrumb, so the second one above the grid is hidden ---------- */
+.shopify-section:has(collection-component) > .ets.ets-wrap:first-child { display: none; }

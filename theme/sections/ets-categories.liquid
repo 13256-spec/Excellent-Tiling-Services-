@@ -51,12 +51,6 @@
     </div>
   </div>
 </section>
-{%- comment -%} On the two-column mobile grid, a large first tile fills its own row; stretch a leftover last tile so the grid ends without a gap. {%- endcomment -%}
-<style>
-  @media (max-width: 989px) {
-    #shopify-section-{{ section.id }} .ets-cat--lg:first-child ~ .ets-cat:last-child:nth-child(even) { grid-column: span 2; }
-  }
-</style>
 {% schema %}
 {
   "name": "ETS category grid",
