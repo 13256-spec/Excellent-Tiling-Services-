@@ -13,6 +13,15 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Shop app (Shop sales channel), 12 Oct 2026
+
+The Shop app store was almost empty: 5 of 921 active products and no collections were on the Shop
+channel. All 921 active products and all 92 website collections are now published to Shop, and
+60 collections that had no cover image (Shop hides those) use their first product's photo, which is
+what the website already showed as the fallback. Brand assets, Shop Store navigation and the
+collection lists can only be set in admin: the values to paste in are in
+[store-content/shop-app-store-setup.md](store-content/shop-app-store-setup.md).
+
 ## Showroom bookings
 
 The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm (closed Sunday).
