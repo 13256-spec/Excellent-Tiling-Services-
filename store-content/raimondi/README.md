@@ -56,9 +56,9 @@ Maxititina, grout clean-up, Rai-Fix).
   "Shop by machine" line: `raimondi-wet-saw-accessories`, `raimondi-bulldog-wheels-parts`,
   `raimondi-raizor-spares`, `raimondi-grout-clean-up-spares`, `raimondi-floor-machine-parts`,
   `raimondi-mixer-vibrator-parts`, `raimondi-easymove-bigfoot-accessories`.
-- Draft theme "ETS 2026 – what fits what (draft, not published)" (gid://shopify/OnlineStoreTheme/144033579071,
-  a duplicate of the live theme made 12 Oct, after the owner deleted his own copy 144029417535) only, until the
-  owner publishes it: `sections/ets-product-fits.liquid` renders the `fits_with` products as a card grid
+- Live theme "ETS 2026 – what fits what (live from 12 Oct)" (gid://shopify/OnlineStoreTheme/144033579071,
+  a duplicate of the previous live theme made 12 Oct after the owner deleted his own copy 144029417535, and
+  published by the owner that night): `sections/ets-product-fits.liquid` renders the `fits_with` products as a card grid
   ("What fits this one" on machines, "What this fits" on everything else, with a "See the whole range" link
   to the product's system or machine collection), and `snippets/ets-pdp-fits.liquid` puts the `fits_models`
   text under the product title with a "See what fits" jump link. Both product templates carry the `fits`

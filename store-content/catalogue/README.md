@@ -53,15 +53,20 @@ No links in product descriptions: Marketplace Connect copies them to eBay.
   | `washboy` (smart, vendor = Washboy) | 9 |
 
   The seven Raimondi machine collections from `store-content/raimondi/` stay as they are.
-- **Draft theme only, until the owner publishes it:** "ETS 2026 – what fits what (draft, not published)",
-  gid://shopify/OnlineStoreTheme/144033579071, a duplicate of the live theme made 12 Oct 21:43 Perth time.
+- **Live now, in the Hardware menu:** the seven system collections and Washboy sit in the Hardware dropdown of
+  `main-menu-2026` (the live header's menu) and `main-menu`, after the type links and before the brand links.
+  The header renders two menu levels only, so the dropdown is one flat list of 21 links, not grouped.
+- **Live theme:** "ETS 2026 – what fits what (live from 12 Oct)", gid://shopify/OnlineStoreTheme/144033579071,
+  a duplicate of the previous live theme made 12 Oct 21:43 Perth time and published by the owner that night.
   `sections/ets-product-fits.liquid` shows the `fits_with` products as a card grid ("What fits this one"
   on parents, "What this fits" on items) with a "See the whole range" link to the product's system
   collection (the first collection whose handle contains one of the fragments in the section's
   `system_handles` setting), and `snippets/ets-pdp-fits.liquid` puts the `fits_models` text under the
   title with a "See what fits" jump link. Both product templates carry the `fits` block and section.
   The owner's earlier copy of the live theme (144029417535) was deleted, which also removed the Raimondi
-  version of the section; the new draft restores it for the whole range. The live theme is never written to.
+  version of the section; the new theme restores it for the whole range. The previous live theme
+  (144022044735, "Postage shown before checkout") is unpublished and kept as the fallback. Theme files are
+  only ever written to an unpublished duplicate; the owner publishes.
 
 ## Adding a product
 

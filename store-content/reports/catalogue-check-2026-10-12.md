@@ -77,7 +77,16 @@ Maxisil and Barwalt.
    handle (160 x 315 mm) and the WB-9001L large float kit, but neither is in the May 2026 price book, so it
    cannot be listed without a cost (a cost is never invented). The large sponge page and the standard handle
    page now say the large handle can be ordered in. To list it, the owner sends BAT's price for WB-9002L.
-4. **Menu:** still the owner's call whether the eight system collections go in the Hardware dropdown.
+4. **Menu: done** (owner: "go ahead"). The seven system collections and Washboy are in the Hardware dropdown
+   of both menus (`main-menu-2026`, which the live header uses, and `main-menu`), after the six type links and
+   before the brand links: 21 links in all. A first attempt grouped them under "Shop by type", "Shop by system"
+   and "Shop by brand" headings, but the live header (`sections/ets-header.liquid`) renders two menu levels
+   only, so the headings showed with nothing under them; the dropdown went back to one flat level. Checked
+   live on desktop (three columns with product counts) and in the phone drawer.
+
+![Hardware dropdown on desktop](img/menu-hardware-desktop.jpg)
+![Hardware in the phone drawer](img/menu-hardware-mobile-1.jpg)
+![The rest of the phone drawer](img/menu-hardware-mobile-2.jpg)
 
 ## Catalogue items not stocked (for ordering decisions)
 
@@ -96,16 +105,15 @@ Maxisil and Barwalt.
 ## The theme
 
 The owner deleted his copy of the live theme this evening, which also removed the Raimondi "what fits"
-section. A fresh duplicate of the live theme was made through the API (publishing stays with the owner):
-**"ETS 2026 – what fits what (draft, not published)"**, gid://shopify/OnlineStoreTheme/144033579071. It has
-the section, the snippet and both product templates; nothing else differs from the live theme. Headings:
-"What fits this one" on machines and tools, "What this fits" on parts, with a "See the whole range" link to
-the product's system collection.
+section. A fresh duplicate of the live theme was made through the API and the owner published it the same
+evening (12 Oct, Perth time): **"ETS 2026 – what fits what (live from 12 Oct)"**,
+gid://shopify/OnlineStoreTheme/144033579071, now the live theme. The previous live theme, "ETS 2026 – Postage
+shown before checkout" (144022044735), is unpublished and kept as the fallback. The new theme has the section,
+the snippet and both product templates; nothing else differs from the previous live theme. Headings: "What fits
+this one" on machines and tools, "What this fits" on parts, with a "See the whole range" link to the product's
+system collection.
 
-Preview (works while the draft exists):
-https://excellenttilingservice.com.au/products/bat-pro-electric-hand-mixer-1600w?preview_theme_id=144033579071
-
-To publish: Shopify admin, Online Store, Themes, find "ETS 2026 – what fits what", the three dots, Publish.
+Live example: https://excellenttilingservice.com.au/products/bat-pro-electric-hand-mixer-1600w
 
 ![BAT 1600 W mixer: what fits this one](img/range-mixer-desktop-fits.jpg)
 ![The same grid on a phone](img/range-mixer-mobile-fits.jpg)
