@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
@@ -15,8 +6,8 @@
         "eyebrow": "Maddington showroom · Perth delivery",
         "heading": "Your bathroom, from the first tile to the last tap.",
         "text": "Porcelain tiles, vanities, tapware and tiling tools. Shop online, visit our showroom, or let our licensed team handle the whole job.",
-        "btn_1_label": "Shop the range",
-        "btn_1_link": "shopify://collections/all",
+        "btn_1_label": "Shop tiles",
+        "btn_1_link": "shopify://collections/tiles",
         "btn_2_label": "Get a renovation quote",
         "btn_2_link": "shopify://pages/request-a-quote",
         "stat_3_value": "5–25%",
@@ -217,7 +208,7 @@
         "0": {
           "type": "tab",
           "settings": {
-            "collection": "tiles-600x600",
+            "collection": "tiles",
             "label": "Tiles"
           }
         },
@@ -395,7 +386,7 @@
           "settings": {
             "icon": "box",
             "title": "Australia-wide shipping",
-            "text": "<p>Tapware, shower sets, towel rails and accessories ship anywhere in Australia from $20, free on orders over $1,000. Tiles are Perth metro only.</p>",
+            "text": "<p>Tools, silicone, tapware and accessories post anywhere in Australia from $9.95, free on WA orders over $100 and on orders over $180 Australia-wide. Tiles and large items are Perth delivery or free pickup.</p>",
             "link_label": "Shipping policy",
             "link": "/policies/shipping-policy"
           }
@@ -431,7 +422,7 @@
           "type": "question",
           "settings": {
             "question": "Do you deliver tiles outside Perth?",
-            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tapware and accessories ship Australia-wide from $20, free on orders over $1,000. Small items also ship to New Zealand, the US, the UK and the UAE.</p>"
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Tools, tapware and accessories post Australia-wide from $9.95, free on WA orders over $100 and on orders over $180 anywhere in Australia. Small items also ship to New Zealand, the US, the UK and the UAE.</p>"
           }
         },
         "1": {

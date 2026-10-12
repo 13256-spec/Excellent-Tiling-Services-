@@ -1,0 +1,51 @@
+{%- doc -%}
+  Free-postage progress bar for the cart drawer and cart page (12 Oct 2026).
+  Counts only items that post (not tiles or products tagged ship-local-only): free standard post on WA orders of $100+ and
+  on orders of $180+ anywhere in Australia (Settings -> Shipping). Tiles and large items get the Perth delivery / pickup line.
+  Re-renders with the cart through the Section Rendering API because it sits inside the cart drawer and main-cart sections.
+{%- enddoc -%}
+{%- liquid
+  assign postable = 0
+  assign local_only = 0
+  for item in cart.items
+    if item.product.tags contains 'ship-local-only' or item.product.type == 'Tile'
+      assign local_only = local_only | plus: item.final_line_price
+    else
+      assign postable = postable | plus: item.final_line_price
+    endif
+  endfor
+  assign wa_gap = 10000 | minus: postable
+  assign au_gap = 18000 | minus: postable
+  assign pct = postable | times: 100 | divided_by: 18000
+  if pct > 100
+    assign pct = 100
+  endif
+-%}
+{%- if cart.item_count > 0 -%}
+<div class="ets-shipbar" aria-live="polite">
+  {%- if postable > 0 -%}
+    <p class="ets-shipbar__text">
+      {%- if au_gap <= 0 -%}
+        <strong>Free standard post</strong> on this order, anywhere in Australia.
+      {%- elsif wa_gap <= 0 -%}
+        <strong>Free standard post in WA.</strong> Add {{ au_gap | money }} more for free post anywhere in Australia.
+      {%- else -%}
+        Add <strong>{{ wa_gap | money }}</strong> more for free post in WA ({{ au_gap | money }} for the rest of Australia), or pick up free in Maddington.
+      {%- endif -%}
+    </p>
+    <div class="ets-shipbar__track" role="presentation"><span class="ets-shipbar__fill" style="width:{{ pct }}%"></span></div>
+    {%- if au_gap > 0 -%}<p class="ets-shipbar__note">Post from $9.95 by parcel weight. Exact price at checkout.</p>{%- endif -%}
+  {%- endif -%}
+  {%- if local_only > 0 -%}
+    <p class="ets-shipbar__note">Tiles and large items: Perth metro delivery or free pickup from Maddington, options at checkout.</p>
+  {%- endif -%}
+</div>
+<style>
+  .ets-shipbar { width: 100%; box-sizing: border-box; margin: 0; padding: 12px 14px; border-radius: 8px; background: rgb(var(--color-foreground-rgb, 0 0 0) / 0.05); font-size: 0.875rem; line-height: 1.35; }
+  .ets-shipbar p { margin: 0; }
+  .ets-shipbar__text strong { font-weight: 600; }
+  .ets-shipbar__track { height: 6px; margin: 8px 0 6px; border-radius: 3px; background: rgb(var(--color-foreground-rgb, 0 0 0) / 0.12); overflow: hidden; }
+  .ets-shipbar__fill { display: block; height: 100%; border-radius: 3px; background: #1f7a4d; transition: width .3s ease; }
+  .ets-shipbar__note { font-size: 0.8125rem; opacity: .75; }
+</style>
+{%- endif -%}

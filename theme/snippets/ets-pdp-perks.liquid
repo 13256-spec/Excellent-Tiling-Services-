@@ -1,24 +1,51 @@
 {%- doc -%}
-  Delivery / pickup / returns summary for the product page, based on product type.
+  Delivery / pickup / returns summary for the product page.
+  Tiles (ets_trade_tile_types) and products tagged ship-local-only are Perth delivery or pickup. Everything else posts by
+  Australia Post, priced by parcel weight; the "from" price comes from the lightest variant (tiers as in Settings -> Shipping,
+  12 Oct 2026: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95, 10 kg $39, 22 kg $59).
   @param {product} product
 {%- enddoc -%}
 {%- liquid
-  assign band = 'small'
+  assign band = 'post'
   assign tile_types = settings.ets_trade_tile_types | default: 'Tile' | split: ','
-  assign large_types = settings.ets_trade_large_types | split: ','
   for t in tile_types
     assign tt = t | strip
     if tt == product.type
       assign band = 'tiles'
     endif
   endfor
-  if band == 'small'
-    for t in large_types
-      assign tt = t | strip
-      if tt == product.type
-        assign band = 'large'
+  if band == 'post' and product.tags contains 'ship-local-only'
+    assign band = 'large'
+  endif
+  assign min_w = 0
+  for v in product.variants
+    assign w = v.weight | times: 1
+    if w > 0
+      if min_w == 0 or w < min_w
+        assign min_w = w
       endif
-    endfor
+    endif
+  endfor
+  if band == 'post' and min_w > 22000
+    assign band = 'large'
+  endif
+  assign post_from = ''
+  if min_w > 0
+    if min_w <= 250
+      assign post_from = '$9.95'
+    elsif min_w <= 500
+      assign post_from = '$11.95'
+    elsif min_w <= 1000
+      assign post_from = '$15'
+    elsif min_w <= 3000
+      assign post_from = '$20'
+    elsif min_w <= 5000
+      assign post_from = '$24.95'
+    elsif min_w <= 10000
+      assign post_from = '$39'
+    else
+      assign post_from = '$59'
+    endif
   endif
   assign lead = product.metafields.ets.lead_time.value
 -%}
@@ -29,7 +56,10 @@
       {%- case band -%}
         {%- when 'tiles' -%}<strong>Perth metro delivery</strong><small>Local delivery across the Perth metro area (tiles aren't shipped outside Perth). Options show at checkout, or choose free pickup from Maddington.</small>
         {%- when 'large' -%}<strong>Perth metro delivery</strong><small>Local delivery options show at checkout, or choose free pickup from Maddington. Outside Perth? <a href="/pages/contact">Ask for a freight quote.</a></small>
-        {%- else -%}<strong>Australia-wide shipping</strong><small>From $20 by tracked Australia Post, free on orders over $1,000. Options show at checkout, or pick up free from Maddington.</small>
+        {%- else -%}
+          {%- if post_from != blank -%}<strong>Australia Post from {{ post_from }}</strong><small>Tracked post anywhere in Australia, priced by parcel weight: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20. Free on WA orders over $100 and on orders over $180 Australia-wide. Or pick up free from Maddington.</small>
+          {%- else -%}<strong>Australia-wide post</strong><small>Tracked Australia Post, priced by parcel weight at checkout (from $9.95). Free on WA orders over $100 and on orders over $180 Australia-wide. Or pick up free from Maddington.</small>
+          {%- endif -%}
       {%- endcase -%}
       {%- if lead != blank -%}<small>Lead time: {{ lead | escape }}</small>{%- endif -%}
     </span>

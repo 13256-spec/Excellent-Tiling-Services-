@@ -115,8 +115,9 @@ $500–$2,499 in 12 months), Band 2 $250–$499 (or $2,500–$4,999). Band 0 has
 price depends on the zone (Zone 1 same city, Zone 2 any capital or major area, Zone 3 rural). Over 5 kg is priced per
 kg by distance; the $39/$59/$109/$179 tiers stay as they are.
 
-So the current rates are already at cost for 500 g to 3 kg, and nothing can be cut there. The proposal, waiting on the
-owner's yes:
+So the current rates are already at cost for 500 g to 3 kg, and nothing can be cut there. The proposal, approved by the owner
+later on 12 Oct ("make a plan for this fix and go ahead and do it") and done the same day; details in
+`store-content/shipping/README.md` → "Lighter postage tiers, and the 100 g package offset":
 
 1. Two lighter tiers at cost and a cheaper 3–5 kg tier, on both parcel profiles and both zones (WA and outside WA):
    up to 250 g $9.95, 250 g to 500 g $11.95, 500 g to 1 kg $15 (unchanged), 1 to 3 kg $20 (unchanged), 3 to 5 kg $24.95
@@ -132,5 +133,7 @@ owner's yes:
 5. Put every parcel, eBay included, through MyPost Business so the account climbs to Band 1 and 2, then lower the
    tiers again. eBay postage policies per `store-content/marketplaces/ebay-postage-and-pricing-2026-10-12.md`.
 
-Housekeeping noticed: an empty delivery profile "Small parcels - $249 free shipping (setup pending)" (0 variants,
-inactive free rate) is left over from an earlier attempt and can be deleted.
+Done 12 Oct: tiers 1 live in Shopify (verified on ten test carts; Shopify's 100 g default package is added to the cart weight,
+so every tier boundary was moved 100 g up to match the item weights); theme draft "ETS 2026 – Postage shown before checkout
+(draft 12 Oct)" holds item 2 (product-page postage line, cart free-post bar, all wording) for the owner to publish; thresholds
+kept (item 3); pickup lead time left at 2–4 days (item 4, owner's call); the empty "Small parcels - $249" profile was removed.

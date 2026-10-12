@@ -315,3 +315,13 @@ the report.
   description; seven of them added to the Hardware dropdown of `main-menu-2026` and `main-menu`.
 - Owner to-dos with click paths (Google Ads location fix, publish the sign-up theme, Search Console, eBay postage,
   reviews app) and two pricing decisions (small-item postage tier, pickup lead time) are in the report.
+
+## Postage fix (12 Oct 2026, approved by the owner)
+
+- Shopify rates on both parcel profiles and both Australian zones: new tiers up to 250 g $9.95 and up to 500 g $11.95, 3–5 kg cut to
+  $24.95; the other tiers and the free thresholds (WA $100, Australia-wide $180) unchanged. Shopify adds its 100 g default package to the
+  cart weight before picking a tier, so every boundary was moved 100 g up to match the item weights (`store-content/shipping/README.md`).
+- Draft theme "ETS 2026 – Postage shown before checkout (draft 12 Oct)": product pages show "Australia Post from $X" from the lightest
+  variant's weight, the cart drawer and cart page get a free-post progress bar (`snippets/ets-shipping-bar.liquid`), and the top bar,
+  trust strip, FAQs, delivery page and product FAQ carry the new tiers. The owner publishes it. `store-content/policies/shipping-policy.html`
+  updated for the owner to paste.

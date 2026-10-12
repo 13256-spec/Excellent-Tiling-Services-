@@ -355,3 +355,54 @@ Australia-wide free rate. Both parcel profiles now have a Western Australia zone
 Checked with `draftOrderCalculate`: $109.50 of tapware to Perth → free; the same to Sydney → $20; a $7.30 item to Perth → $15;
 a $113.35 primer to Perth → free road. The shipping policy and the Delivery & pickup page still describe only the $180 rule;
 WA over $100 is extra, not a replacement. Owner to-do: add "WA orders of $100 or more ship free" to the delivery page.
+
+## Lighter postage tiers, and the 100 g package offset (12 Oct 2026)
+
+The owner approved the postage proposal in `store-content/reports/sales-plan-2026-10-12.md` ("make a plan for this fix and go
+ahead"). Applied through the Admin API on the General profile and the Dangerous goods (road only) profile, both Australian zones
+(WA, and Australia outside WA), the free-threshold rates untouched:
+
+| Items in the parcel | Customer pays | What Australia Post charges the shop (MyPost Business, July 2026, Band 0 / Band 1 Zone 2) |
+|---|---|---|
+| up to 250 g | $9.95 (new) | $10.20 / $9.69 |
+| 250 g to 500 g | $11.95 (new) | $11.70 / $11.12 |
+| 500 g to 1 kg | $15 | $16.00 / $15.20 |
+| 1 to 3 kg | $20 | $20.25 / $19.24 |
+| 3 to 5 kg | $24.95 (was $29) | $24.45 / $23.23 |
+| 5 to 10 kg, 10 to 22 kg, 22 to 44 kg, 44 to 100 kg | $39, $59, $109, $179 (unchanged) | priced per kg by distance |
+
+**The 100 g package offset.** Shopify adds the weight of the default package (Settings → Shipping and delivery → Packages, 100 g) to
+the cart weight before it picks a weight-based rate. `draftOrderCalculate` proved it: a 200 g bag of caulking sticks landed in the
+251–500 g tier, a 450 g tube of silicone in the 501 g–1 kg tier, a 150 g drill bit in the first tier but a 160 g one in the second
+(so the offset is between 90 and 100 g, i.e. the 100 g package). This also explains why five 200 g bags (1.0 kg) were charged the
+1–3 kg rate on order #1006. Every weight tier was therefore deleted and recreated 100 g higher, so the tiers above apply to the
+weight of the items themselves: ≤0.35 / 0.351–0.6 / 0.601–1.1 / 1.101–3.1 / 3.101–5.1 / 5.101–10.1 / 10.101–22.1 / 22.101–44.1 /
+44.101–100.1 kg, freight quote from 100.101 kg. The international zones (NZ, US, UK, UAE) keep their old 1 / 1.001–2 / … bounds and
+therefore still carry the 100 g offset; shift them the same way if overseas orders ever matter. If the default package weight is
+ever changed in admin, the domestic tiers must move with it.
+
+Verified after the change with `draftOrderCalculate`: 0.2 kg → $9.95, 0.1 kg ×1 → $9.95, 0.25 kg ×2 → $11.95, 0.45 kg → $11.95
+(WA), 0.9 kg → $15, 1.0 kg (five bags) → $15, 1.8 kg → $20, 3.6 kg → $24.95, dangerous goods 1.4 kg → $20 road and 5.6 kg → $39,
+$113.75 of tubes to Perth → free WA post (plus the $24.95 paid option).
+
+Also: the empty "Small parcels - $249 free shipping (setup pending)" profile (0 variants, inactive rate) was removed.
+
+**Theme, draft "ETS 2026 – Postage shown before checkout (draft 12 Oct)"** (gid://shopify/OnlineStoreTheme/144022044735, a
+duplicate of the live theme, which since 04:14 UTC on 12 Oct is the sign-up offer theme the owner published):
+- `snippets/ets-pdp-perks.liquid`: the delivery line now says "Australia Post from $X" with X from the lightest variant's weight
+  (same tiers), then the tier list and the free thresholds. Tiles (type in `ets_trade_tile_types`) and products tagged
+  `ship-local-only` keep the Perth delivery wording; a product whose lightest variant is over 22 kg gets it too. Basins, mirrors
+  and sinks, which the old snippet wrongly called Perth-only via `ets_trade_large_types`, now show their postage.
+- `snippets/ets-shipping-bar.liquid` (new), rendered in `snippets/cart-drawer.liquid` and `sections/main-cart.liquid` above the
+  summary: "Add $X more for free post in WA ($Y for the rest of Australia)", a progress bar to $180, then "Free standard post in
+  WA" and "Free standard post on this order". Counts only postable items (not tiles or `ship-local-only`); mixed carts get an extra
+  line for the Perth-only items. Re-renders with the cart through the Section Rendering API.
+- Wording: header top bar (`sections/header-group.json` msg_1), trust strip (`sections/ets-trust.liquid`), home delivery card and
+  FAQ (`templates/index.json`), FAQ page (`templates/page.faqs.json` q_5, q_7), product page FAQ (`templates/product.store-wide.json`
+  faq_2, which still promised free shipping over $1,000), delivery page (`templates/page.delivery.json`, also international "from
+  $29" → "$34"), trade page FAQ (`templates/page.trade-account.json`).
+- Previewed with Playwright at phone size (`scratchpad/preview/preview.js`): Maxisil tube "from $11.95", caulking sticks "from
+  $9.95", floor waste "from $15", tile and 3 m angle keep the Perth wording; two tubes in the cart → "Add $76.00 more for free post
+  in WA ($156.00 for the rest of Australia)". The owner publishes the draft from Online Store → Themes.
+- `store-content/policies/shipping-policy.html` updated (tiers, WA $100 heading); the connector can't write legal policies, so the
+  owner pastes it into Settings → Policies → Shipping policy.
