@@ -304,3 +304,14 @@ the report.
   photo per variant; Raimondi Clipdozer, two Ipertitina connectors, 250 mm porcelain blade, Power Raizor MK2). 20 remain
   (buckets, BATSEAL sealers, BAT Luxe inspection drain, knives and blades, five Raimondi spares): BAT Trims' site blocks
   automated access and no stockist lists them. Sources and sizes: `store-content/reports/photos-sourced-2026-10-11.csv`.
+
+## Sales review and brand pages (12 Oct 2026)
+
+- 30-day review of where sales come from (`store-content/reports/sales-plan-2026-10-12.md`): about 320 real visits,
+  8 orders, 6 of them from Google; the Performance Max campaign spends half its money outside Australia for no sales;
+  social brings no orders; email has no sign-ups because the sign-up theme is unpublished.
+- Nine smart brand collections created and published (`maxisil`, `sigma`, `raimondi`, `bat-tools`, `bat-trims`,
+  `roberts-designs`, `panther`, `baron`, `mela`), each with SEO title, meta description and a delivery-accurate
+  description; seven of them added to the Hardware dropdown of `main-menu-2026` and `main-menu`.
+- Owner to-dos with click paths (Google Ads location fix, publish the sign-up theme, Search Console, eBay postage,
+  reviews app) and two pricing decisions (small-item postage tier, pickup lead time) are in the report.
