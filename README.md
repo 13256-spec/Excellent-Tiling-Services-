@@ -22,6 +22,9 @@ the theme in Shopify.
 - Black Friday 2026 is staged, not live: a 222-product collection and an automatic 15% discount parked as
   expired, to be bundled with two theme-editor changes in a Shopify **Rollout** (admin home → Create a
   rollout) that only the owner can create and schedule. Plan, numbers and the click-by-click: `marketing/holiday-2026/ROLLOUT-PLAN.md`.
+- Social, week of 13–19 Oct: ten extra "premium" sales posts (real product photo + navy price band) are
+  queued in Metricool at 12:15 pm (feed) and 12:30 pm (Story, alternate days) next to the existing 6:30 pm
+  and 7:30 pm clean-look posts. Builder, plans, captions and Metricool ids: `marketing/finish-it-right/premium/`.
 - The `ets-*` agents share one shipping rule (post from $9.95, free on WA orders over $100 and
   Australia-wide over $150; tiles and large items Perth metro only) taken from the live header bar and
   `/pages/delivery-pickup`. `theme/sections/header-group.json` and `footer-group.json` were re-synced to the

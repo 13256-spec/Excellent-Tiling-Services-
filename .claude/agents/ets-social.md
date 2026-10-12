@@ -21,8 +21,12 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
   `lunch-products.json`, `main-posts.json`, `stories.json` are the sources; `build_schedule.py` rebuilds
   main posts and Stories.
 - Daily slots that auto-publish (owner, 11 Oct 2026): 6:30 pm photo post (carousel) and 7:30 pm Story,
-  Instagram + Facebook in ONE Metricool post each. No 12:15 post, no Reels, no Threads/Google Business
-  unless the owner asks. Never create a second schedule next to an existing one: reuse/overwrite drafts. The 7:00 am Story, Marketplace, groups, Google Business and replies are done by hand from the
+  Instagram + Facebook in ONE Metricool post each. No Reels, no Threads/Google Business unless the owner asks.
+- Extra "premium" sales slot (owner, 12 Oct 2026: "add more, schedule more posts"): 12:15 pm feed post
+  (one product photo with a navy price band, built by `marketing/finish-it-right/premium/make_premium.py`)
+  and a 12:30 pm Story on alternate days, 13–19 Oct. Ids in `marketing/finish-it-right/premium/metricool-week3.json`.
+  Keep this slot going week to week only while the owner wants two posts a day; check the 12:15 vs 6:30 pm
+  link clicks with `ets-analytics` on Monday before building the next week. Never create a second schedule next to an existing one: reuse/overwrite drafts. The 7:00 am Story, Marketplace, groups, Google Business and replies are done by hand from the
   calendar. Reels need a video the owner films, so they are never queued without the video file.
 
 ## How to schedule

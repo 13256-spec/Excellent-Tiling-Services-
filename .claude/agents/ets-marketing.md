@@ -60,7 +60,8 @@ the owner's calendar (`ets-calendar`) in the same job; never leave the calendar 
 
 - **Social (Finish It Right, 6 Oct to 8 Nov 2026)**: free channels only, no ad budget. Metricool
   auto-publishes to Instagram + Facebook: 6:30 pm photo carousel and 7:30 pm Story daily (owner's clean
-  look, 11 Oct). The owner does by hand: 7 am real Story, 8:30 am Marketplace, 3:30 pm groups + Google
+  look, 11 Oct), plus from 13 Oct a 12:15 pm "premium" sales post (photo + price band) and a 12:30 pm Story
+  on alternate days (owner, 12 Oct: "add more, schedule more posts"). The owner does by hand: 7 am real Story, 8:30 am Marketplace, 3:30 pm groups + Google
   Business, 9 pm replies. Every feed caption ends with the product link. Voice: friendly, plain Aussie
   English, a real Perth tiling business that sells what it installs. One product or idea per post, the real
   price, the link.

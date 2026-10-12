@@ -17,7 +17,13 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
 - Feed post = 1 to 4 photo carousel, 1080x1350. Story = one photo, 1080x1920, no text.
   Build with `marketing/finish-it-right/clean/make_slides.py plan.json outdir` (room shots cover-cropped,
   white studio shots fitted on white). Never repeat the same photo twice in one post. Look at every slide.
-- Schedule: 6:30 pm photo post + 7:30 pm Story daily, Instagram + Facebook together. No 12:15 post, no Reels.
+- Schedule: 6:30 pm photo post + 7:30 pm Story daily, Instagram + Facebook together. No Reels.
+- Second look, the 12:15 pm "premium" sales post (owner, 12 Oct 2026): one real product photo, a 6 px
+  tile-blue rule, then a navy band with the product name, one benefit line, the live price in blue and a
+  "Shop · link in bio" pill. Build with `marketing/finish-it-right/premium/make_premium.py plan.json outdir`
+  (`fit: studio` for white studio shots, `cover` for room shots, `zoom` to tighten small products).
+  Captions for this slot may open with a hook and must still carry the real price, one delivery line, the
+  product link and five hashtags. Example week: `premium/plan-week3.json` + `premium/captions-week3.json`.
 - Captions: calm and short, like a catalogue. Line 1 product name. One or two plain lines on what it is.
   Price and sizes. One delivery line. Three hashtags. No sales hooks, no "link in bio" spam, no emoji,
   no exclamation marks. Say what's not included when the photo shows it (e.g. "Mirror sold separately").
