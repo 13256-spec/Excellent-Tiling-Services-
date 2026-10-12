@@ -354,8 +354,10 @@ every tool product was checked against it. See `store-content/catalogue/README.m
   `ets.fits_role` and links to any system collection (`system_handles` setting); headings "What fits this
   one" and "What this fits". The owner deleted his copy of the live theme, so a fresh API duplicate of the live
   theme carries the section; the live theme is never written to.
-- **Owner decisions:** Bi-Bulldog wheel included or not, BAT 1050 W mixer chuck vs M14 paddle, stocking the
-  Washboy WB-9002L handle, whether the system collections go in the Hardware menu.
+- **Supplier checks (owner asked for them):** Raimondi's site confirms the Bi-Bulldog ships without a wheel and the
+  Bulldog with the 10 mm wheel; the 1050 W mixer has an M14 spindle (page rewritten, no chuck claim); BAT lists
+  the Washboy WB-9002L handle but the price book does not, so it needs a cost before it can be listed. Open:
+  whether the system collections go in the Hardware menu.
 
 ## New look (12 Oct 2026, declined by the owner)
 

@@ -62,17 +62,22 @@ Maxisil and Barwalt.
   Series 3 Max; 14C (15 mm) fits the 2D4 and Klick Klock models. Handles, squares and bars are titled with
   the cutters they suit.
 
-## For the owner to decide
+## The three open questions, checked on the supplier sites (owner: "find off the supplier website")
 
-1. **Bi-Bulldog**: the catalogue says no profiling wheels are included. If BAT actually ships one with it,
-   say so and the pages go back to "supplied with a 10 mm wheel".
-2. **BAT Pro 1050 W mixer**: the page says "13mm drill chuck" but its spare paddle (BAT-EM1050ST) is M14.
-   The page now also says "Takes M14 thread mixing paddles". If the 1050 W really has a chuck, the spare
-   paddle line needs changing instead.
-3. **Washboy large handle**: the store sells the large 185 x 345 mm sponge (WB-9003L) but not the
-   WB-9002L handle it needs. Either stock the handle or add "handle to order" to the sponge page.
-4. **Menu**: the eight system collections are reachable from product pages and brand pages. If you want
-   them in the Hardware dropdown, say which ones.
+1. **Bi-Bulldog: settled.** Raimondi's own product page lists the Bi-Bulldog Advanced as supplied with the
+   universal table, key kit with wrench, dressing stone and manual, no wheel; the single-motor Bulldog
+   Advanced is supplied with the 10 mm radius milling bullnose wheel. Both match the BAT catalogue, so the
+   pages stay as corrected (Bulldog: wheel included; Bi-Bulldog: wheels sold separately).
+2. **BAT Pro 1050 W mixer: settled.** The unit behind it (sold elsewhere as the 2B PT-EM1050) has an
+   M14 x 2 spindle and a 120 mm paddle; its "drill capacity 13 mm" spec is where the old "13 mm drill chuck"
+   line came from. BAT's own spare-stirrer page says the paddle is M14 for this mixer, and a BAT stockist
+   describes the M14 spindle with the paddle screwing straight on. Page rewritten: M14 spindle, no chuck
+   claim, T-shape handle as in the title.
+3. **Washboy large handle: settled as far as the supplier goes.** BAT Trims lists the WB-9002L large Velcro
+   handle (160 x 315 mm) and the WB-9001L large float kit, but neither is in the May 2026 price book, so it
+   cannot be listed without a cost (a cost is never invented). The large sponge page and the standard handle
+   page now say the large handle can be ordered in. To list it, the owner sends BAT's price for WB-9002L.
+4. **Menu:** still the owner's call whether the eight system collections go in the Hardware dropdown.
 
 ## Catalogue items not stocked (for ordering decisions)
 
