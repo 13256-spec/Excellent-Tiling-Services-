@@ -9,11 +9,11 @@ import csv, json, math, os, sys, time, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from reprice_2026_10_11 import BB_MATCH, GST, PUB_MARKUP  # noqa: E402
+from reprice_2026_10_12 import BB_MATCH, GST, PUB_MARKUP  # noqa: E402
 
 FEEDS = {"ours": "https://excellenttilingservice.com.au", "bc": "https://bathroom-city.com.au",
          "bb": "https://bbhardware.com.au"}
-PLAN = os.path.join(HERE, "store-pricing-2026-10-11.csv")
+PLAN = os.path.join(HERE, "store-pricing-2026-10-12.csv")
 MELA_MAP = os.path.join(HERE, "mela-pricing-2026-10-01.csv")
 
 

@@ -127,3 +127,11 @@ the rules re-run on a fresh export with today's competitor prices changed nothin
 is the new master, identical prices to 11 Oct). Trade bands: metafield and collections match on all 921 products.
 Missing files: Roberts Designs price list, BAT Trims Book 2. The owner-decision items (competitor below our
 floor, Sigma ART 4CU, Baron E120, seven MELA baths $1 under a rounded floor) are listed in the report.
+
+## Thin-margin rule (12 Oct 2026, afternoon, applied the same day)
+
+Owner: 20% is not a hard floor, "sometimes more, sometimes less, depends on the product". `reprice_2026_10_12.py`
+(replaces the 11 Oct engine; same rules plus: competitor below our 20% price → 1% under them while we keep
+10%, 5–10% only for owner-named products, never under 5% or cost). 22 prices cut, 15 products to trade band 0,
+PDFs regenerated. Details and the list of items still held: `reports/supplier-cost-check-2026-10-12.md`
+(bottom section). `monitor_competitors.py` now reads the 12 Oct plan and engine.

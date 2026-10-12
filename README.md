@@ -283,3 +283,7 @@ the report.
   `store-content/pricing/supplier-books-2026-05.csv`; master list now `store-pricing-2026-10-12.csv`.
 - Playbook: new "Supplier price files on hand" section and the rule that Bathroom City's live list is the MELA
   cost basis, the catalogue the fallback.
+- Later the same day the owner relaxed the 20% floor ("sometimes more, sometimes less, depends on the product"):
+  `reprice_2026_10_12.py` adds the thin-margin rule (1% under a competitor who is below our 20% price while we
+  keep 10%; 5–10% only on owner-named products; never under 5% or cost). 22 prices cut and 15 products moved to
+  trade band 0 in Shopify; PDFs regenerated; playbook, agent and monitor updated.

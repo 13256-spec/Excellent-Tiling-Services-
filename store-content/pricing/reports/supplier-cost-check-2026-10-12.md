@@ -200,3 +200,101 @@ The seven MELA baths are $1 under the floor only because the floor rounds up to 
 - A cost for BAT Eco SynSafe Acid 20 L, RLA Quick Set Liquid Additive 5 L and the Click Heavy Duty Powerblock.
 - SILVER sheet has no line for back-to-wall and corner baths (KORI, MIZO, NOOK): 20% is assumed.
 
+
+## Update, later on 12 Oct 2026: thin-margin rule applied
+
+The owner answered the two-machine question with: "It's fine, we don't always have to make 20% profit,
+sometimes more, sometimes less, depends on the product." New rule (`reprice_2026_10_12.py`, playbook
+updated): 20% stays the target; where the competitor is below our 20% price we go 1% under them as long as
+we keep 10%; 5–10% only on products the owner names (Sigma ART 4CU and Baron E120 today); never under 5%
+or under cost. Applied to Shopify straight away: 22 prices cut (none raised), 15 products moved from trade
+band 5% to 0% (their new price can't carry a trade discount and stay above the trade floor); metafield and
+`trade-list-5` collection updated (127 → 112 products). Cheaper than the competitor on 614 of 666 matched
+items now. The "below the floor" table above is superseded by the tables below.
+
+### Prices cut today under the thin-margin rule
+
+| Item | Old | New | Profit now | Competitor | Their price | Trade band |
+|---|---|---|---|---|---|---|
+| MELA PALCO / RONDO Hand Shower Set without Rail / Gun Metal | $202.00 | $186.00 | 13.2% | Bathroom City | $188.30 | 5% → 0% |
+| MELA PALCO / RONDO Combination Shower Set without Rail / Gun Metal | $525.00 | $484.00 | 13.3% | Bathroom City | $489.30 | 5% → 0% |
+| MELA PALCO Wall Mixer with Diverter / Gun Metal | $262.00 | $241.00 | 13.1% | Bathroom City | $244.30 | 5% → 0% |
+| MELA PALCO / RONDO Free Standing Bath Spout / Gun Metal | $345.00 | $318.00 | 13.4% | Bathroom City | $321.30 | 5% → 0% |
+| MELA PALCO / RONDO Free Standing Bath Mixer / Gun Metal | $555.00 | $512.00 | 13.4% | Bathroom City | $517.30 | 5% → 0% |
+| MELA PALCO Gooseneck Kitchen Mixer / Gun Metal | $375.00 | $345.00 | 13.2% | Bathroom City | $349.30 | 5% → 0% |
+| MELA RONDO Gooseneck Sink Mixer / Gun Metal | $225.00 | $207.00 | 13.3% | Bathroom City | $209.30 | 5% → 0% |
+| MELA RONDO Square Gooseneck Sink Mixer / Gun Metal | $225.00 | $207.00 | 13.3% | Bathroom City | $209.30 | 5% → 0% |
+| MELA MAYA Free Standing Bath / 1500mm | $1,200.00 | $1,088.00 | 11.8% | Bathroom City | $1,099.00 | 5% → 0% |
+| MELA MAYA Free Standing Bath / 1700mm | $1,275.00 | $1,187.00 | 14.1% | Bathroom City | $1,199.00 | 5% → 0% |
+| MELA TAYLOR Free Standing Bath / 1500mm | $1,275.00 | $1,167.00 | 12.6% | Bathroom City | $1,179.00 | 5% → 0% |
+| MELA TAYLOR Free Standing Bath / 1700mm | $1,350.00 | $1,266.00 | 14.7% | Bathroom City | $1,279.00 | 5% → 0% |
+| MELA KASTEN Inset Bath / 1525mm | $399.00 | $395.00 | 19.2% | Bathroom City | $399.00 | 5% → 5% |
+| MELA KASTEN Inset Bath / 1675mm | $479.00 | $474.00 | 19.2% | Bathroom City | $479.00 | 5% → 5% |
+| Sigma 19N Square 260mm | $61.90 | $58.95 | 16.0% | B&B Hardware | $59.95 | 5% → 0% |
+| Sigma Tile Cutter ART 4DU – 103cm | $1,050.80 | $935.55 | 10.1% | B&B Hardware | $945.00 | 5% → 0% |
+| Sigma Tile Cutter ART 4CU – 84cm | $800.00 | $791.00 | 8.9% | B&B Hardware | $799.00 | 0% → 0% |
+| Sigma Tile Cutter ART 4BU – 70cm | $825.55 | $737.55 | 10.5% | B&B Hardware | $745.00 | 5% → 0% |
+| Sigma Handle ART 24N for ART 4 Push series | $275.45 | $272.25 | 19.1% | B&B Hardware | $275.00 | 5% → 5% |
+| Baron E120 Forced Action Mixer | $4,799.99 | $4,252.05 | 5.6% | B&B Hardware | $4,295.00 | 0% → 0% |
+| Barwalt KN-1 Ultralight Knee Pad | $51.40 | $48.95 | 16.1% | B&B Hardware | $49.95 | 5% → 0% |
+| Raimondi Zoe Electric Wet Saw 3HP / Zoe 85A | $4,798.75 | $4,345.10 | 11.6% | B&B Hardware | $4,389.00 | 5% → 0% |
+
+### Still held at our 20% price: going 1% under the competitor would leave less than 10%
+
+| Item | Our price | Competitor | Their price | Profit if we went 1% under |
+|---|---|---|---|---|
+| MELA PALCO/RONDO Soap Holder / Gun Metal | $130.00 | Bathroom City | $111.30 | 6.0% |
+| MELA PALCO/RONDO Toilet Brush Holder / Gun Metal | $130.00 | Bathroom City | $111.30 | 6.0% |
+| MELA FLOVA Combination Shower Set without Rail / Chrome | $300.00 | Bathroom City | $229.00 | -5.9% (below cost) |
+| MELA FLOVA Combination Shower Set without Rail / Matt Black | $375.00 | Bathroom City | $329.00 | 7.9% |
+| MELA FLOVA Combination Shower Set with Rail / Chrome | $412.00 | Bathroom City | $299.00 | -11.3% (below cost) |
+| MELA FLOVA Combination Shower Set with Rail / Matt Black | $450.00 | Bathroom City | $399.00 | 9.0% |
+| MELA PALCO / RONDO Combination Shower Set without Rail / Chrome | $300.00 | Bathroom City | $229.00 | -5.9% (below cost) |
+| MELA PALCO / RONDO Combination Shower Set without Rail / Matt Black | $375.00 | Bathroom City | $329.00 | 7.9% |
+| MELA PALCO / RONDO Combination Shower Set with Rail / Chrome | $412.00 | Bathroom City | $299.00 | -11.3% (below cost) |
+| MELA PALCO / RONDO Combination Shower Set with Rail / Matt Black | $450.00 | Bathroom City | $399.00 | 9.0% |
+| MELA CASSA Pull Out Sink Mixer with Black Hose / Chrome | $300.00 | Bathroom City | $199.50 | -21.5% (below cost) |
+| MELA RONDO Square Pull-Out Sink Mixer / Chrome | $255.00 | Bathroom City | $135.60 | -51.8% (below cost) |
+| MELA RONDO Square Pull-Out Sink Mixer / Matt Black | $292.00 | Bathroom City | $155.60 | -51.6% (below cost) |
+| MELA RONDO Square Pull-Out Sink Mixer / Brushed Nickel | $315.00 | Bathroom City | $167.60 | -52.4% (below cost) |
+| MELA RONDO Square Pull-Out Sink Mixer / Gun Metal | $337.00 | Bathroom City | $179.60 | -52.2% (below cost) |
+| MELA FLOVA Bath Towel Shelf / Chrome | $154.00 | Bathroom City | $94.50 | -32.1% (below cost) |
+| MELA FLOVA Bath Towel Shelf / Matt Black | $195.00 | Bathroom City | $119.50 | -31.7% (below cost) |
+| MELA FLOVA Bath Towel Shelf / Brushed Nickel | $219.00 | Bathroom City | $134.50 | -31.5% (below cost) |
+| MELA PALCO / RONDO Bath Towel Shelf / Chrome | $154.00 | Bathroom City | $94.50 | -32.1% (below cost) |
+| MELA PALCO / RONDO Bath Towel Shelf / Matt Black | $195.00 | Bathroom City | $119.50 | -31.7% (below cost) |
+| MELA PALCO / RONDO Bath Towel Shelf / Brushed Nickel | $219.00 | Bathroom City | $134.50 | -31.5% (below cost) |
+| MELA PALCO / RONDO Bath Towel Shelf / Gun Metal | $243.00 | Bathroom City | $149.50 | -31.3% (below cost) |
+| MELA PALCO / RONDO Bath Towel Shelf / Brushed Brass | $243.00 | Bathroom City | $149.50 | -31.3% (below cost) |
+| MELA PALCO / RONDO 600 Single Towel Rail / Gun Metal | $138.00 | Bathroom City | $118.30 | 6.1% |
+| MELA PALCO / RONDO 600 Double Towel Rail / Gun Metal | $162.00 | Bathroom City | $139.30 | 5.6% |
+| MELA PALCO / RONDO 800 Single Towel Rail / Gun Metal | $162.00 | Bathroom City | $139.30 | 5.6% |
+| MELA PALCO / RONDO Hand Towel Rail / Gun Metal | $122.00 | Bathroom City | $104.30 | 6.0% |
+| MELA PALCO / RONDO Shelf Holder / Gun Metal | $203.00 | Bathroom City | $174.30 | 5.9% |
+| MELA CALLA Free Standing Bath / 1500mm | $1,200.00 | Bathroom City | $999.00 | 3.0% |
+| MELA CALLA Free Standing Bath / 1700mm | $1,275.00 | Bathroom City | $1,099.00 | 6.3% |
+| MELA KORI Back to Wall Bath / 1500mm | $1,599.00 | Bathroom City | $1,099.00 | -17.6% (below cost) |
+| MELA KORI Back to Wall Bath / 1700mm | $1,699.00 | Bathroom City | $1,199.00 | -14.5% (below cost) |
+| MELA MIZO Back to Wall Bath / 1500mm | $2,099.00 | Bathroom City | $1,399.00 | -21.2% (below cost) |
+| MELA MIZO Back to Wall Bath / 1700mm | $2,199.00 | Bathroom City | $1,499.00 | -18.5% (below cost) |
+| MELA NOOK Corner Bath (Right) / 1300mm | $1,699.00 | Bathroom City | $1,199.00 | -14.5% (below cost) |
+| MELA NOOK Corner Bath (Right) / 1500mm | $1,699.00 | Bathroom City | $1,199.00 | -14.5% (below cost) |
+| MELA NOOK Corner Bath (Right) / 1700mm | $1,799.00 | Bathroom City | $1,299.00 | -11.9% (below cost) |
+| MELA NOOK Corner Bath (Left) / 1300mm | $1,699.00 | Bathroom City | $1,199.00 | -14.5% (below cost) |
+| MELA NOOK Corner Bath (Left) / 1500mm | $1,699.00 | Bathroom City | $1,199.00 | -14.5% (below cost) |
+| MELA NOOK Corner Bath (Left) / 1700mm | $1,799.00 | Bathroom City | $1,299.00 | -11.9% (below cost) |
+| MELA CALLA Rimless Toilet Suite | $450.00 | Bathroom City | $399.00 | 9.0% |
+| MELA PASSA Rimless Toilet Suite Extra Height | $450.00 | Bathroom City | $399.00 | 9.0% |
+| MELA ELLIS Wall Faced Rimless Toilet Suite | $675.00 | Bathroom City | $599.00 | 9.0% |
+| MELA FELLI Wall Faced Rimless Toilet Suite | $675.00 | Bathroom City | $599.00 | 9.0% |
+| MELA MIA 450 Framed Oval Mirror / Gun Metal | $375.00 | Bathroom City | $199.50 | -51.9% (below cost) |
+| MELA SURI Framed Round Mirror / 700mm / Gun Metal | $328.00 | Bathroom City | $174.50 | -52.2% (below cost) |
+| MELA SURI Framed Round Mirror / 800mm / Gun Metal | $375.00 | Bathroom City | $199.50 | -51.9% (below cost) |
+| MELA SURI Framed Round Mirror / 900mm / Gun Metal | $421.00 | Bathroom City | $224.50 | -51.7% (below cost) |
+| MELA ZOE 600 Framed Arch Mirror / Gun Metal | $375.00 | Bathroom City | $199.50 | -51.9% (below cost) |
+| MELA MARCIE 440 Above Counter Basin | $175.00 | Bathroom City | $125.30 | -12.3% (below cost) |
+| Sigma Tile Cutter ART 4FN – 155cm | $2,281.55 | B&B Hardware | $1,750.00 | -5.4% (below cost) |
+| Sigma Tile Cutter ART 4EN – 125cm | $1,763.75 | B&B Hardware | $1,499.00 | 4.9% |
+
+The 7 KORI, MIZO and NOOK baths that were $1 under a rounded floor are no longer flagged (19.99% is fine
+under the new rule); Bathroom City's prices on them are below our cost, so they stay where they are.

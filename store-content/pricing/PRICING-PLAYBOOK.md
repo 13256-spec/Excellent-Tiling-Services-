@@ -64,10 +64,12 @@ and a cost for the three no-cost items.
 Competitor sale prices can be below our cost (e.g. Bathroom City clearance on gun-metal finishes, NOOK/KORI
 baths). Those are reported as "can't beat profitably", never matched.
 
-## The rules (all prices inc GST, costs ex GST) – from 11 Oct 2026
+## The rules (all prices inc GST, costs ex GST) – from 11 Oct 2026, thin-margin rule added 12 Oct
 
 Owner's instruction, 11 Oct 2026: cheaper than every competitor on every item, cheaper again on
-high-margin items, trade accounts cheaper still, always profitable. `reprice_2026_10_11.py` applies:
+high-margin items, trade accounts cheaper still, always profitable. On 12 Oct he added: "we don't always
+have to make 20% profit, sometimes more, sometimes less, depends on the product". `reprice_2026_10_12.py`
+applies:
 
 - **Public floor** = cost × 1.1 × 1.25 (at least 20% of the selling price is profit).
 - **Trade floor** = cost × 1.1 × 1.15.
@@ -79,9 +81,14 @@ high-margin items, trade accounts cheaper still, always profitable. `reprice_202
   (Earlier rules: tiles 15% under Eternity RRP, other hardware 10% under the supplier RRP; those prices
   are the starting point the cap works from.)
 - **Rounding**: MELA down to the dollar, tiles down to 10c, everything else down to 5c. Floors round up.
-- **Never below the floor.** If the competitor is below our floor we sit at the floor and the item is
-  flagged "competitor is below our floor; not undercut". A price is raised only when it is below the
-  floor, and never to or above the competitor (those are flagged BELOW PROFIT FLOOR for the owner).
+- **Thin-margin rule (12 Oct 2026).** 20% is the target, not an absolute floor. When the competitor is
+  below our 20% price we go 1% under them (at least $1) as long as we still keep **10%** of the selling
+  price. Between 5% and 10% only on products the owner has named (`OWNER_OK` in the script: Sigma ART 4CU,
+  Baron E120). Never under 5%, never under cost: those items stay at the 20% price and are flagged
+  "not undercut; owner's call" with the profit we'd make at 1% under. Thin-margin items get trade band 0
+  when no band keeps them above the trade floor. A thin-margin price is raised back to the 20% price
+  as soon as the competitor's price is no longer below it (the weekly run does this).
+- A price is raised only when it is below the floor that applies, and never to or above the competitor.
 - **Cost sanity check**: a product whose sizes all share one cost while their prices differ by 25%+ has a
   copied cost; price kept, flagged COST CHECK, trade band 5% until the supplier confirms the cost.
 - **Trade bands** (per product, not per variant): the deepest of 25 / 20 / 15 / 10 / 5% that keeps every
@@ -131,8 +138,8 @@ Rules for any new code or sale:
 
 | File | What it is |
 |---|---|
-| `store-pricing-2026-10-12.csv` | **Master price list** (12 Oct re-run: same prices as 11 Oct, today's competitor prices): every active variant with old price, new price, the rule that set it, cost, margins, trade band (and the band it had before), trade price, competitor price, flags. Update it whenever prices change. |
-| `reprice_2026_10_11.py` | Builds the master list from a Shopify bulk export (`products` with variants + unit cost) + competitor feeds + the current `trade-list-N` membership. Holds `BB_MATCH`. |
+| `store-pricing-2026-10-12.csv` | **Master price list** (12 Oct: supplier-file check, then the thin-margin rule – 22 prices cut): every active variant with old price, new price, the rule that set it, cost, margins, trade band (and the band it had before), trade price, competitor price, flags. Update it whenever prices change. |
+| `reprice_2026_10_12.py` | Builds the master list from a Shopify bulk export (`products` with variants + unit cost) + competitor feeds + the current `trade-list-N` membership. Holds `BB_MATCH` and `OWNER_OK`. (`reprice_2026_10_11.py` is the same without the thin-margin rule.) |
 | `reports/reprice-2026-10-11.md` | What the 11 Oct run changed, with the owner-review tables. |
 | `store-pricing-2026-10-11.csv`, `store-pricing-2026-10-03.csv`, `reprice_2026_10.py` | Earlier plans, kept for history. |
 | `supplier-books-2026-05.csv` | BAT, BAT Trims and Raimondi May 2026 price books (net ex GST), parsed from the owner's files. |
