@@ -22,6 +22,20 @@ what the website already showed as the fallback. Brand assets, Shop Store naviga
 collection lists can only be set in admin: the values to paste in are in
 [store-content/shop-app-store-setup.md](store-content/shop-app-store-setup.md).
 
+## Phone calls (Bland.ai), 13 Oct 2026
+
+Claude can ring the owner and, on his instruction, customers or suppliers, through Bland.ai.
+
+- Tool: `phone/call.py` (`python3 phone/call.py --help`). Contacts in `phone/contacts.json`; agent
+  `ets-phone` carries the rules (owner approval for anyone but the owner, no cold calls, Perth hours).
+- The Bland API key lives only in the `BLAND_API_KEY` environment variable of the Claude cloud
+  environment (Edit environment → secrets/environment variables). It is not stored in this repo. The key
+  shared in chat on 13 Oct should be rotated in the Bland dashboard and the new one put there.
+- Account on 13 Oct 2026: active, $2 free credit, no number owned. Bland refuses calls outside the
+  US/Canada until at least $5 of credits has been bought (Bland dashboard → Billing); per-minute price is
+  about US$0.12–0.14. Buying a dedicated number costs US$15 a month and is only self-serve for US/Canada;
+  an Australian caller ID needs a request to Bland support. Until then calls show a Bland pool number.
+
 ## Showroom bookings
 
 The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm (closed Sunday).
