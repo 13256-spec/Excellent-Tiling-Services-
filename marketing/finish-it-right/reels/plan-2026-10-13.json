@@ -1,0 +1,60 @@
+{
+ "2026-10-13-reel-tiles": {
+  "music": "uplifting-ambient.mp3",
+  "slides": [
+   {
+    "img": "moon.jpg",
+    "title": "Time Stone Moon",
+    "line": "Matt $50.10/m²  ·  Lappato $55.20/m²"
+   },
+   {
+    "img": "cementgrey.jpg",
+    "title": "Cement Grey",
+    "line": "From $37.40/m²  ·  P3 slip rating"
+   },
+   {
+    "img": "ash.jpg",
+    "title": "Lava Ash",
+    "line": "Matt $46.70/m²  ·  Gloss $50.10/m²"
+   },
+   {
+    "img": "dusk1.jpg",
+    "title": "Morgan Dusk",
+    "line": "From $37.40/m²  ·  Matt"
+   }
+  ],
+  "end": [
+   "excellenttilingservice.com.au",
+   "Perth delivery, or pick up free in Maddington"
+  ]
+ },
+ "2026-10-13-reel-vanities": {
+  "music": "mellow-chill.mp3",
+  "slides": [
+   {
+    "img": "paddy750.jpg",
+    "title": "MELA PADDY 750",
+    "line": "$949  ·  Four colours"
+   },
+   {
+    "img": "p/mela-clark-900-wall-hung-vanity-with-2-drawers-side-shelves.jpg",
+    "title": "MELA CLARK 900, side shelves",
+    "line": "$1,312  ·  Stone top and basin included"
+   },
+   {
+    "img": "brittany600.jpg",
+    "title": "MELA BRITTANY 600",
+    "line": "$1,312  ·  Fluted matt white"
+   },
+   {
+    "img": "brittany1200.jpg",
+    "title": "MELA BRITTANY 1200",
+    "line": "$1,994  ·  Fluted oak, curved sides"
+   }
+  ],
+  "end": [
+   "excellenttilingservice.com.au",
+   "Perth delivery, or pick up free in Maddington"
+  ]
+ }
+}

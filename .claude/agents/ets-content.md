@@ -17,7 +17,8 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
 - Feed post = 1 to 4 photo carousel, 1080x1350. Story = one photo, 1080x1920, no text.
   Build with `marketing/finish-it-right/clean/make_slides.py plan.json outdir` (room shots cover-cropped,
   white studio shots fitted on white). Never repeat the same photo twice in one post. Look at every slide.
-- Schedule: 6:30 pm photo post + 7:30 pm Story daily, Instagram + Facebook together. No 12:15 post, no Reels.
+- Schedule: 12:15 pm product post, 4:30 pm photo Reel (from 13 Oct, `marketing/finish-it-right/reels/make_reel.py`:
+  store photos only, name and price under the photo, CC0 music), 6:30 pm photo carousel, 7:30 pm Story. Instagram + Facebook together.
 - Captions: calm and short, like a catalogue. Line 1 product name. One or two plain lines on what it is.
   Price and sizes. One delivery line. Three hashtags. No sales hooks, no "link in bio" spam, no emoji,
   no exclamation marks. Say what's not included when the photo shows it (e.g. "Mirror sold separately").
@@ -33,7 +34,7 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
   never invented), the live price, how they get it, "Shop at excellenttilingservice.com.au (link in bio)",
   then 6–8 hashtags (#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes
   #bathroominspo #maddington plus 1–2 for the product).
-- Shipping (live site, 11 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $20 by weight; basins, mirrors, sinks and niche boxes as tracked parcels from $25; orders over $180 ship free (standard). Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Shipping (live site, 13 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $9.95 by parcel weight (basins, mirrors, sinks and niche boxes go the same way); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
 
 - No discount codes, no "cheaper than" or "lowest price" claims, never the tile supplier's name (Eternity).
 

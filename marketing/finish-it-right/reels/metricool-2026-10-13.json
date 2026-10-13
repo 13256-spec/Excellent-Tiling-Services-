@@ -1,0 +1,32 @@
+{
+ "note": "Photo Reels booked in Metricool (brand 7234377), Instagram + Facebook REEL, showReelOnFeed, autoPublish. Prices checked live 13 Oct 2026. Copy review: ets-copy-review PASS (tiles as written; vanities fixed to name the CLARK 900 side-shelves model and 'tapware and waste not included').",
+ "posts": {
+  "2026-10-13-reel-tiles": {
+   "time": "2026-10-13T16:30:00+08:00",
+   "metricool_id": 394601250,
+   "uuid": "-3026456293048172038",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-13-tiles.mp4?v=1791867668",
+   "calendar_event": "a6vb4gba7o7n3itdedl3vgvu8o",
+   "caption": "Four porcelain floors, all under $56 a square metre.\nTime Stone Moon from $50.10 · Cement Grey from $37.40 · Lava Ash from $46.70 · Morgan Dusk from $37.40 (per m², sold to the nearest full box).\nPerth metro delivery, or pick up free in Maddington. Showroom by appointment, Mon to Sat 4:30 to 9 pm.\nhttps://excellenttilingservice.com.au/collections/porcelain-tiles\n\n#porcelaintiles #perthtiles #perthrenovation"
+  },
+  "2026-10-13-reel-vanities": {
+   "time": "2026-10-13T20:30:00+08:00",
+   "metricool_id": 394601736,
+   "uuid": "5019418169597119645",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-13-vanities-v2.mp4?v=1791868064",
+   "calendar_event": "l34nk71q98hk7e39ffvgc4or4s",
+   "caption": "Four wall-hung vanities, stone top and basin included.\nMELA PADDY 750 $949 · CLARK 900 with side shelves $1,312 · BRITTANY 600 $1,312 · BRITTANY 1200 $1,994. Tapware and waste not included.\nPick up free in Maddington, or choose Perth metro delivery at checkout.\nhttps://excellenttilingservice.com.au/collections/wall-hung-vanities\n\n#bathroomvanity #wallhungvanity #perthbathrooms"
+  }
+ },
+ "price_fix": {
+  "2026-10-18-main CLARK 900": "$1,299.99 -> $1,312 (live price changed); Metricool post updated, new id 394598716, uuid -1897910926236170067"
+ },
+ "videos_on_cdn": {
+  "2026-10-14-reel-tools": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-14-tools.mp4?v=1791868064",
+  "2026-10-15-reel-mixers": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-15-mixers.mp4?v=1791868064",
+  "2026-10-16-reel-floors": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-16-floors.mp4?v=1791868064",
+  "2026-10-17-reel-mirrors": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-17-mirrors.mp4?v=1791868064",
+  "2026-10-18-reel-showers": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-18-showers.mp4?v=1791868064",
+  "2026-10-19-reel-vanities": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-19-vanities.mp4?v=1791868064"
+ }
+}

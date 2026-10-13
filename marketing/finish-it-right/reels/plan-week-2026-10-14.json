@@ -1,0 +1,61 @@
+{
+ "2026-10-14-reel-tools": {
+  "music": "lofi-guitar.mp3",
+  "slides": [
+   {"img": "raimondi-re-usable-double-spacer#0", "title": "Raimondi double spacers", "line": "$64.95 a tub of 300  ·  1 and 3 mm, re-usable"},
+   {"img": "bat-razor-mesh-diamond-blade#0", "title": "BAT Pro Razor 125 mm blade", "line": "$49.95  ·  Thin rim for porcelain"},
+   {"img": "pro-tile-gt-nipper#0", "title": "Pro Tile GT nipper", "line": "$24.65"},
+   {"img": "heavy-duty-floor-scraper#0", "title": "Heavy duty floor scraper", "line": "From $28.90  ·  150 or 300 mm"}
+  ],
+  "end": ["excellenttilingservice.com.au", "Posts Australia-wide, or pick up free in Maddington"]
+ },
+ "2026-10-15-reel-mixers": {
+  "music": "spacey-lofi.mp3",
+  "slides": [
+   {"img": "mela-flova-basin-mixer#0", "title": "MELA FLOVA basin mixer", "line": "From $189  ·  Chrome, matt black, brushed nickel"},
+   {"img": "mela-bruno-basin-mixer#0", "title": "MELA BRUNO basin mixer", "line": "From $246  ·  6-star WELS"},
+   {"img": "mela-palco-medium-basin-mixer#0", "title": "MELA PALCO medium basin mixer", "line": "From $255  ·  Five finishes"},
+   {"img": "mela-rondo-tall-basin-mixer#0", "title": "MELA RONDO tall basin mixer", "line": "From $284  ·  For above-counter basins"}
+  ],
+  "end": ["excellenttilingservice.com.au", "Posts Australia-wide, or pick up free in Maddington"]
+ },
+ "2026-10-16-reel-floors": {
+  "music": "uplifting-ambient.mp3",
+  "slides": [
+   {"img": "p/morgan-hail-porcelain-tile.jpg", "title": "Morgan Hail", "line": "From $37.40/m²  ·  Matt, up to 600×1200"},
+   {"img": "terrazzo-white-porcelain-tile#0", "title": "Terrazzo White", "line": "$37.40/m²  ·  Matt"},
+   {"img": "lava-kraka-porcelain-tile#0", "title": "Lava Kraka", "line": "Matt $46.70/m²  ·  Gloss $50.10/m²"},
+   {"img": "cementgrey.jpg", "title": "Cement Grey", "line": "From $37.40/m²  ·  P3 slip rating"}
+  ],
+  "end": ["excellenttilingservice.com.au", "Perth delivery, or pick up free in Maddington"]
+ },
+ "2026-10-17-reel-mirrors": {
+  "music": "lofi-epiano.mp3",
+  "slides": [
+   {"img": "miaoval.jpg", "title": "MELA MIA 450 frameless oval", "line": "$189"},
+   {"img": "p/mela-mia-450-led-oval-mirror.jpg", "title": "MELA MIA 450 LED", "line": "$379  ·  Backlit, dimmable, anti-fog"},
+   {"img": "vera.jpg", "title": "MELA VERA LED oval", "line": "From $569  ·  900 or 1200 mm"}
+  ],
+  "end": ["excellenttilingservice.com.au", "Posts Australia-wide, or pick up free in Maddington"]
+ },
+ "2026-10-18-reel-showers": {
+  "music": "mellow-chill.mp3",
+  "slides": [
+   {"img": "mela-palco-rondo-combination-shower-set-with-rail#0", "title": "MELA PALCO / RONDO shower set", "line": "From $412  ·  Rail, hand shower and overhead"},
+   {"img": "mela-flova-hand-shower-set-without-rail#0", "title": "MELA FLOVA hand shower set", "line": "From $151"},
+   {"img": "mela-rondo-wall-mixer#0", "title": "MELA RONDO wall mixer", "line": "From $141"},
+   {"img": "mela-flova-shower-head#0", "title": "MELA FLOVA shower head", "line": "From $151  ·  Chrome, matt black, brushed nickel"}
+  ],
+  "end": ["excellenttilingservice.com.au", "Posts Australia-wide, or pick up free in Maddington"]
+ },
+ "2026-10-19-reel-vanities": {
+  "music": "acoustic-keys.mp3",
+  "slides": [
+   {"img": "mela-clark-600-wall-hung-vanity-with-doors#0", "title": "MELA CLARK 600", "line": "$703  ·  Doors, stone top and basin"},
+   {"img": "paddy750.jpg", "title": "MELA PADDY 750", "line": "$949  ·  Door and two drawers"},
+   {"img": "p/classic600-shaker-crop.png", "title": "MELA CLASSIC 600", "line": "$1,125  ·  Hampton, pastel or shaker front"},
+   {"img": "brittany600.jpg", "title": "MELA BRITTANY 600", "line": "$1,312  ·  Fluted matt white"}
+  ],
+  "end": ["excellenttilingservice.com.au", "Perth delivery, or pick up free in Maddington"]
+ }
+}

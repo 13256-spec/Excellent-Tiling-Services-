@@ -21,9 +21,9 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
   `lunch-products.json`, `main-posts.json`, `stories.json` are the sources; `build_schedule.py` rebuilds
   main posts and Stories.
 - Daily slots that auto-publish (owner, 11 Oct 2026): 6:30 pm photo post (carousel) and 7:30 pm Story,
-  Instagram + Facebook in ONE Metricool post each. No 12:15 post, no Reels, no Threads/Google Business
-  unless the owner asks. Never create a second schedule next to an existing one: reuse/overwrite drafts. The 7:00 am Story, Marketplace, groups, Google Business and replies are done by hand from the
-  calendar. Reels need a video the owner films, so they are never queued without the video file.
+  Instagram + Facebook in ONE Metricool post each. Since 12 Oct the 12:15 pm product post is back, and since 13 Oct a 4:30 pm photo Reel (owner asked for
+  videos: `marketing/finish-it-right/reels/`). No Threads/Google Business unless the owner asks. Never create a second schedule next to an existing one: reuse/overwrite drafts. The 7:00 am Story, Marketplace, groups, Google Business and replies are done by hand from the
+  calendar. Reels are photo videos rendered with `reels/make_reel.py` and hosted on Shopify Files; never queue one without the CDN mp4 URL.
 
 ## How to schedule
 
@@ -60,7 +60,7 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
 - Before a post goes out, prices must match the live store. Each Monday, re-check that week's queued
   prices against Shopify; if one changed, update the post text with `updateScheduledPost` and say so.
 - Never name the tile supplier (Eternity) in text, alt text, file names or images. MELA can be named.
-- Shipping (live site, 11 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $20 by weight; basins, mirrors, sinks and niche boxes as tracked parcels from $25; orders over $180 ship free (standard). Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Shipping (live site, 13 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $9.95 by parcel weight (basins, mirrors, sinks and niche boxes go the same way); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
 
 - Never pay for boosts or ads. Never delete scheduled posts without the owner naming them.
 - After any change in Metricool (new, moved, re-designed or re-captioned posts), hand the list to the
