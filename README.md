@@ -22,6 +22,15 @@ what the website already showed as the fallback. Brand assets, Shop Store naviga
 collection lists can only be set in admin: the values to paste in are in
 [store-content/shop-app-store-setup.md](store-content/shop-app-store-setup.md).
 
+## MELA mirror descriptions (13 Oct 2026)
+
+After customer feedback that the LED mirror pages lacked detail, all 17 MELA mirror, LED mirror and
+mirror-cabinet listings were rewritten from the supplier's product pages, spec sheets and warranty/care
+PDFs (sizes and codes, light, touch dimmer, demister, IP44/SAA, mirror thickness, frame depth, cabinet
+box sizes, warranty, cleaning), with matching `ets.*` spec metafields. Records and the one open point
+(no published colour temperature for SURI/VERA/ZOE LED) are in
+[store-content/mirrors/README.md](store-content/mirrors/README.md).
+
 ## Showroom bookings
 
 The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm (closed Sunday).
