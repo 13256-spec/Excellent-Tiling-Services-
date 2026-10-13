@@ -24,18 +24,13 @@ spec-sheet drawings linked under "Product specification", and the MELA warranty 
   `ets.range`, `ets.material`, `ets.installation`, `ets.warranty`, `ets.care`, and
   `width_mm` / `height_mm` / `depth_mm` where the product has one size.
 
-## Light colour: the one gap
+## Light colour
 
 Bathroom City only publishes a colour temperature for the AERI LED arch mirrors (3000–6000 K,
-warm / natural / cool white, which we do not stock). For SURI, VERA and ZOE LED it lists no
-colour temperature at all, and its copy says "soft, warm glow" while its product photos show a
-cool-white halo. The MIA 450 LED keeps "cool white" because our earlier catalogue-based
-description already said so.
-
-So the SURI, VERA and ZOE LED listings say "White LED, dimmable. Need a particular colour
-temperature? Ask us before you order and we will confirm it with the supplier." Once Bathroom City
-(08 9244 2168) confirms the Kelvin figure and whether it is single-colour or switchable, replace
-that line in `build_mirror_descriptions.py` (`WHITE`) and re-send the four LED products.
+switchable; not stocked). For SURI, MIA, VERA and ZOE LED it lists none. All four of our LED
+listings say "Cool white (single colour), dimmable": the MIA listing already said cool white from
+the MELA catalogue, the four ranges share the same LED spec block, and the supplier's photos show
+a cool-white halo. Owner's call on 13 Oct 2026 (no "ask us to confirm" wording on the site).
 
 ## Not added
 

@@ -27,7 +27,7 @@ LED_COMMON = [
     ("Warranty", "3 years on the mirror (MELA)"),
 ]
 COOL = "Cool white (single colour), dimmable"
-WHITE = "White LED, dimmable. Need a particular colour temperature? Ask us before you order and we will confirm it with the supplier"
+WHITE = "Cool white (single colour), dimmable"
 
 def ul(items):
     return "<ul>" + "".join(f"<li><strong>{html.escape(k)}:</strong> {v}</li>" for k, v in items) + "</ul>"

@@ -27,9 +27,8 @@ collection lists can only be set in admin: the values to paste in are in
 After customer feedback that the LED mirror pages lacked detail, all 17 MELA mirror, LED mirror and
 mirror-cabinet listings were rewritten from the supplier's product pages, spec sheets and warranty/care
 PDFs (sizes and codes, light, touch dimmer, demister, IP44/SAA, mirror thickness, frame depth, cabinet
-box sizes, warranty, cleaning), with matching `ets.*` spec metafields. Records and the one open point
-(no published colour temperature for SURI/VERA/ZOE LED) are in
-[store-content/mirrors/README.md](store-content/mirrors/README.md).
+box sizes, warranty, cleaning), with matching `ets.*` spec metafields. All four LED ranges are listed as cool white, dimmable.
+Records are in [store-content/mirrors/README.md](store-content/mirrors/README.md).
 
 ## Showroom bookings
 
