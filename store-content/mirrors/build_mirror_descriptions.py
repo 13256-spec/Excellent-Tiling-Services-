@@ -27,6 +27,7 @@ LED_COMMON = [
     ("Warranty", "3 years on the mirror (MELA)"),
 ]
 COOL = "Cool white (single colour), dimmable"
+TRI = "Three settings: warm white, natural white and cool white, switched from the touch button; dimmable"
 WHITE = "Cool white (single colour), dimmable"
 
 def ul(items):
@@ -83,7 +84,7 @@ P["mela-zoe-600-led-arch-mirror"] = dict(
     html=desc(
         "The MELA ZOE 600 LED arch mirror traces an LED halo around a frameless arch, with a touch dimmer and anti-fog demister. It gives a single vanity or powder room height without a frame.",
         [("Size", "600 mm wide × 900 mm high (ZOE.600.LED), 300 mm arch radius"),
-         ("Shape", "Arch, frameless with a polished edge")] + led(WHITE) + [CARE_LINE],
+         ("Shape", "Arch, frameless with a polished edge")] + led(TRI) + [CARE_LINE],
         "Pairs with the MELA ZOE 600 frameless and framed arch mirrors and the ZOE 600 arch mirror cabinet.")
 )
 
