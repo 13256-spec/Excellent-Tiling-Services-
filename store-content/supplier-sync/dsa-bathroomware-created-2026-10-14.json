@@ -1,0 +1,1252 @@
+[
+ {
+  "source": "bath-pup-up-waste",
+  "title": "Celine Bath Pop Up Waste",
+  "productType": "Pop Up Waste",
+  "id": "gid://shopify/Product/8429904986175",
+  "handle": "celine-bath-pop-up-waste",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108087099455",
+    "sku": "ETBW047.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108087132223",
+    "sku": "ETBW047.BN"
+   }
+  ],
+  "collections": [
+   "bathroom-wastes",
+   "accessories"
+  ]
+ },
+ {
+  "source": "bottle-trap-32mm-chrome",
+  "title": "Celine Bottle Trap 32mm",
+  "productType": "Bottle Trap",
+  "id": "gid://shopify/Product/8429905018943",
+  "handle": "celine-bottle-trap-32mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108087164991",
+    "sku": "ETB186.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108087197759",
+    "sku": null
+   }
+  ],
+  "collections": [
+   "bathroom-wastes",
+   "accessories"
+  ]
+ },
+ {
+  "source": "caden-trough-001",
+  "title": "Caden Single Bowl Sink 610mm",
+  "productType": "Kitchen Sink",
+  "id": "gid://shopify/Product/8429905084479",
+  "handle": "caden-single-bowl-sink-610mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108087361599",
+    "sku": "ETLS-6150"
+   }
+  ],
+  "collections": [
+   "sinks",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "caden-trough-001-copy",
+  "title": "Caden Single Bowl Sink with Drainer 660mm",
+  "productType": "Kitchen Sink",
+  "id": "gid://shopify/Product/8429905117247",
+  "handle": "caden-single-bowl-sink-with-drainer-660mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108087394367",
+    "sku": "ETLS-7642S"
+   }
+  ],
+  "collections": [
+   "sinks",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "caden-trough-003",
+  "title": "Caden Double Bowl Sink with Drainer 1200mm",
+  "productType": "Kitchen Sink",
+  "id": "gid://shopify/Product/8429905379391",
+  "handle": "caden-double-bowl-sink-with-drainer-1200mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108088148031",
+    "sku": null
+   }
+  ],
+  "collections": [
+   "sinks",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "callan-trough-001",
+  "title": "Callan Single Bowl Sink 450mm",
+  "productType": "Kitchen Sink",
+  "id": "gid://shopify/Product/8429905412159",
+  "handle": "callan-single-bowl-sink-450mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108088180799",
+    "sku": "ETLS-4045"
+   }
+  ],
+  "collections": [
+   "sinks",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "callan-trough-002",
+  "title": "Callan Single Bowl Sink 580mm",
+  "productType": "Kitchen Sink",
+  "id": "gid://shopify/Product/8429905444927",
+  "handle": "callan-single-bowl-sink-580mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108088213567",
+    "sku": "ETLS-5845"
+   }
+  ],
+  "collections": [
+   "sinks",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "callan-trough-001-copy",
+  "title": "Callan Double Bowl Sink 700mm",
+  "productType": "Kitchen Sink",
+  "id": "gid://shopify/Product/8429905477695",
+  "handle": "callan-double-bowl-sink-700mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108088246335",
+    "sku": "ETLS-7040"
+   }
+  ],
+  "collections": [
+   "sinks",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "capsule-led-oval-back-lit",
+  "title": "Capsule LED Oval Backlit Mirror 450 x 900mm",
+  "productType": "LED Mirror",
+  "id": "gid://shopify/Product/8429905641535",
+  "handle": "capsule-led-oval-backlit-mirror-450-x-900mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108091162687",
+    "sku": "ETMIRBLEDOVAL"
+   }
+  ],
+  "collections": [
+   "mirrors",
+   "led-mirrors"
+  ]
+ },
+ {
+  "source": "celine-2-in-1-shower-type-1",
+  "title": "Celine Twin Rail Shower",
+  "productType": "Combination Shower Set",
+  "id": "gid://shopify/Product/8429905674303",
+  "handle": "celine-twin-rail-shower",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108091195455",
+    "sku": "ETS7121.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108091228223",
+    "sku": "ETS7121.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "celine-basin-mixer",
+  "title": "Celine Basin Mixer",
+  "productType": "Basin Mixer",
+  "id": "gid://shopify/Product/8429905707071",
+  "handle": "celine-basin-mixer",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108091260991",
+    "sku": "ETHD7020"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108091293759",
+    "sku": "ETHD7020-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "basin-mixers"
+  ]
+ },
+ {
+  "source": "celine-basin-bath-wall-mixer",
+  "title": "Celine Wall Basin / Bath Mixer with Spout",
+  "productType": "Wall Mixer",
+  "id": "gid://shopify/Product/8429905739839",
+  "handle": "celine-wall-basin-bath-mixer-with-spout",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108091326527",
+    "sku": "ETHD7025"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108091359295",
+    "sku": "ETHD7025-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "wall-mixers",
+   "bath-tapware"
+  ]
+ },
+ {
+  "source": "celine-double-towel-rail-600",
+  "title": "Celine 600 Double Towel Rail",
+  "productType": "Towel Rail",
+  "id": "gid://shopify/Product/8429905903679",
+  "handle": "celine-600-double-towel-rail",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108095127615",
+    "sku": "ETHDP302-60"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108095160383",
+    "sku": "ETHDP302-60-BN"
+   }
+  ],
+  "collections": [
+   "towel-rails",
+   "accessories"
+  ]
+ },
+ {
+  "source": "celine-double-towel-rail-800",
+  "title": "Celine 800 Double Towel Rail",
+  "productType": "Towel Rail",
+  "id": "gid://shopify/Product/8429905936447",
+  "handle": "celine-800-double-towel-rail",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108095193151",
+    "sku": "ETHDP302-80"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108095225919",
+    "sku": "ETHDP302-80BN"
+   }
+  ],
+  "collections": [
+   "towel-rails",
+   "accessories"
+  ]
+ },
+ {
+  "source": "celine-gooseneck-pull-out-kitchen-mixer",
+  "title": "Celine Gooseneck Pull Out Kitchen Mixer",
+  "productType": "Kitchen Sink Mixer",
+  "id": "gid://shopify/Product/8429905969215",
+  "handle": "celine-gooseneck-pull-out-kitchen-mixer",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108095258687",
+    "sku": "ETFE1731"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108095291455",
+    "sku": "ETFE1731-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "kitchen-tapware",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "celine-gooseneck-sink-mixer",
+  "title": "Celine Gooseneck Sink Mixer",
+  "productType": "Kitchen Sink Mixer",
+  "id": "gid://shopify/Product/8429906001983",
+  "handle": "celine-gooseneck-sink-mixer",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108095324223",
+    "sku": "ETHD4232"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108095356991",
+    "sku": "ETHD4232-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "kitchen-tapware",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "celine-hand-shower-type-1",
+  "title": "Celine Hand Shower on Bracket",
+  "productType": "Hand Shower Set",
+  "id": "gid://shopify/Product/8429910491199",
+  "handle": "celine-hand-shower-on-bracket",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108102336575",
+    "sku": "ETS028.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108102369343",
+    "sku": "ETS028.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "celine-hand-towel-rail",
+  "title": "Celine Hand Towel Rail",
+  "productType": "Hand Towel Rail",
+  "id": "gid://shopify/Product/8429911048255",
+  "handle": "celine-hand-towel-rail",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108102860863",
+    "sku": "ETHDP305"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108102893631",
+    "sku": "ETHDP305-BN"
+   }
+  ],
+  "collections": [
+   "towel-rails",
+   "accessories"
+  ]
+ },
+ {
+  "source": "celine-rail-shower",
+  "title": "Celine Rail Shower",
+  "productType": "Hand Shower Set",
+  "id": "gid://shopify/Product/8429911474239",
+  "handle": "celine-rail-shower",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108103417919",
+    "sku": "ETH614.CS"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108103450687",
+    "sku": "ETH614.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "celine-robe-hook",
+  "title": "Celine Robe Hook",
+  "productType": "Bathroom Hook",
+  "id": "gid://shopify/Product/8429912031295",
+  "handle": "celine-robe-hook",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108103942207",
+    "sku": "ETHDP306"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108103974975",
+    "sku": "ETHDP306-BN"
+   }
+  ],
+  "collections": [
+   "bathroom-hooks",
+   "accessories"
+  ]
+ },
+ {
+  "source": "chloe-round-hand-piece-chrome",
+  "title": "Celine Round Hand Shower Piece",
+  "productType": "Hand Shower",
+  "id": "gid://shopify/Product/8429929496639",
+  "handle": "celine-round-hand-shower-piece",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108121505855",
+    "sku": "ETHR002M4.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108121538623",
+    "sku": "ETHR002M4.BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "celine-shower-mixer",
+  "title": "Celine Shower Mixer",
+  "productType": "Wall Mixer",
+  "id": "gid://shopify/Product/8429929955391",
+  "handle": "celine-shower-mixer",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108121997375",
+    "sku": "ETHD7023"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108122030143",
+    "sku": "ETHD7023-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "wall-mixers"
+  ]
+ },
+ {
+  "source": "celine-shower-mixer-with-divertor",
+  "title": "Celine Shower Mixer with Diverter",
+  "productType": "Wall Mixer with Diverter",
+  "id": "gid://shopify/Product/8429930381375",
+  "handle": "celine-shower-mixer-with-diverter",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108122456127",
+    "sku": "ETHD7024"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108122488895",
+    "sku": "ETHD7024-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "wall-mixers"
+  ]
+ },
+ {
+  "source": "celine-shower-rose-type-2",
+  "title": "Celine Square Shower Rose 250mm",
+  "productType": "Shower Head",
+  "id": "gid://shopify/Product/8429930840127",
+  "handle": "celine-square-shower-rose-250mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108122980415",
+    "sku": "ETKSS110.PS"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108123013183",
+    "sku": "ETKSS110.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "celine-single-towel-tail-600",
+  "title": "Celine 600 Single Towel Rail",
+  "productType": "Towel Rail",
+  "id": "gid://shopify/Product/8429949288511",
+  "handle": "celine-600-single-towel-rail",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108141461567",
+    "sku": "ETHDP301-60"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108141494335",
+    "sku": "ETHDP301-60-BN"
+   }
+  ],
+  "collections": [
+   "towel-rails",
+   "accessories"
+  ]
+ },
+ {
+  "source": "celine-single-towel-tail-800",
+  "title": "Celine 800 Single Towel Rail",
+  "productType": "Towel Rail",
+  "id": "gid://shopify/Product/8429949616191",
+  "handle": "celine-800-single-towel-rail",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108141953087",
+    "sku": "ETHDP301-80"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108141985855",
+    "sku": "ETHDP301-80-BN"
+   }
+  ],
+  "collections": [
+   "towel-rails",
+   "accessories"
+  ]
+ },
+ {
+  "source": "celine-sink-mixer",
+  "title": "Celine Sink Mixer",
+  "productType": "Kitchen Sink Mixer",
+  "id": "gid://shopify/Product/8429950042175",
+  "handle": "celine-sink-mixer",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108142313535",
+    "sku": "ETHD7027"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108142346303",
+    "sku": "ETHD7027-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "kitchen-tapware",
+   "kitchen-laundry"
+  ]
+ },
+ {
+  "source": "celine-square-hand-piece-chrome",
+  "title": "Celine Square Hand Shower Piece",
+  "productType": "Hand Shower",
+  "id": "gid://shopify/Product/8429950206015",
+  "handle": "celine-square-hand-shower-piece",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108142608447",
+    "sku": "ETHS002M4.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108142641215",
+    "sku": "ETHS002M4.BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "celine-swivel-bath-spout",
+  "title": "Celine Swivel Bath Spout",
+  "productType": "Bath Spout",
+  "id": "gid://shopify/Product/8429953351743",
+  "handle": "celine-swivel-bath-spout",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108151291967",
+    "sku": "SP18SW"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108151324735",
+    "sku": "SP28SW-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "bath-tapware",
+   "spouts-outlets"
+  ]
+ },
+ {
+  "source": "celine-tall-basin-mixer",
+  "title": "Celine Tall Basin Mixer",
+  "productType": "Basin Mixer",
+  "id": "gid://shopify/Product/8429953384511",
+  "handle": "celine-tall-basin-mixer",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108151357503",
+    "sku": "ET103102"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108151390271",
+    "sku": "ETHD7021-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "basin-mixers"
+  ]
+ },
+ {
+  "source": "celine-toilet-roll-holder",
+  "title": "Celine Toilet Roll Holder",
+  "productType": "Toilet Roll Holder",
+  "id": "gid://shopify/Product/8429953417279",
+  "handle": "celine-toilet-roll-holder",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108151423039",
+    "sku": "ETHDP304"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108151455807",
+    "sku": "ETHDP304-BN"
+   }
+  ],
+  "collections": [
+   "toilet-roll-holders",
+   "accessories"
+  ]
+ },
+ {
+  "source": "celine-wall-mount-shower-arm-type-2",
+  "title": "Celine Wall Mounted Shower Arm",
+  "productType": "Shower Arm",
+  "id": "gid://shopify/Product/8429953450047",
+  "handle": "celine-wall-mounted-shower-arm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108151488575",
+    "sku": "ETSRQ07LF"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108151521343",
+    "sku": "ETSRQ07LF-BN"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "chloe-hand-shower-type-2",
+  "title": "Chloe Hand Shower on Bracket",
+  "productType": "Hand Shower Set",
+  "id": "gid://shopify/Product/8429953744959",
+  "handle": "chloe-hand-shower-on-bracket",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108152864831",
+    "sku": "ETS027.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108152897599",
+    "sku": "ETS027.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "chloe-shower-rose-type-1",
+  "title": "Chloe Round Shower Rose 250mm",
+  "productType": "Shower Head",
+  "id": "gid://shopify/Product/8429953777727",
+  "handle": "chloe-round-shower-rose-250mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108152930367",
+    "sku": "ETKSR110.PS"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108152963135",
+    "sku": "ETKSR110.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "chole-compact-round-shower-chrome",
+  "title": "Chloe Compact Twin Shower",
+  "productType": "Combination Shower Set",
+  "id": "gid://shopify/Product/8429953810495",
+  "handle": "chloe-compact-twin-shower",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108152995903",
+    "sku": "ETS703.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108153028671",
+    "sku": "ETS703.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "chole-2-in-1-shower-type-2",
+  "title": "Chloe Twin Rail Shower",
+  "productType": "Combination Shower Set",
+  "id": "gid://shopify/Product/8429953843263",
+  "handle": "chloe-twin-rail-shower",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108153061439",
+    "sku": "ETS4902A.CS"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108153094207",
+    "sku": "ETS4902A.BS"
+   }
+  ],
+  "collections": [
+   "tapware",
+   "shower-tapware"
+  ]
+ },
+ {
+  "source": "olivia-semi-inset-basin-copy",
+  "title": "Cosimo Semi Inset Basin",
+  "productType": "Semi Basin",
+  "id": "gid://shopify/Product/8429954072639",
+  "handle": "cosimo-semi-inset-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108154961983",
+    "sku": "ETE408D"
+   }
+  ],
+  "collections": [
+   "basins",
+   "semi-recessed-basins"
+  ]
+ },
+ {
+  "source": "cosimo-top-mount-basin",
+  "title": "Cosimo Above Counter Basin",
+  "productType": "Above Counter Basin",
+  "id": "gid://shopify/Product/8429954105407",
+  "handle": "cosimo-above-counter-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108154994751",
+    "sku": "ETBA207CT"
+   }
+  ],
+  "collections": [
+   "basins",
+   "above-counter-basins"
+  ]
+ },
+ {
+  "source": "cosimo-undermount-basin",
+  "title": "Cosimo Undermount Basin",
+  "productType": "Undermount Basin",
+  "id": "gid://shopify/Product/8429954138175",
+  "handle": "cosimo-undermount-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108155027519",
+    "sku": "ETBSN6018"
+   }
+  ],
+  "collections": [
+   "basins",
+   "undermount-basins"
+  ]
+ },
+ {
+  "source": "crystal-smart-toilet",
+  "title": "Crystal Smart Toilet with Bidet Seat",
+  "productType": "Toilet Suite",
+  "id": "gid://shopify/Product/8429954170943",
+  "handle": "crystal-smart-toilet-with-bidet-seat",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108155060287",
+    "sku": null
+   }
+  ],
+  "collections": [
+   "toilets",
+   "back-to-wall-toilets"
+  ]
+ },
+ {
+  "source": "cube-basin",
+  "title": "Cube Wall Hung Basin",
+  "productType": "Wall Hung Basin",
+  "id": "gid://shopify/Product/8429955743807",
+  "handle": "cube-wall-hung-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165120063",
+    "sku": "ETBSN4228L"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165152831",
+    "sku": "ETBSN4229R"
+   }
+  ],
+  "collections": [
+   "basins"
+  ]
+ },
+ {
+  "source": "eclipse-led-round-backlit-mirror",
+  "title": "Eclipse LED Round Backlit Mirror",
+  "productType": "LED Mirror",
+  "id": "gid://shopify/Product/8429955776575",
+  "handle": "eclipse-led-round-backlit-mirror",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165185599",
+    "sku": "ETMIRLEDBMR15000-W600"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165218367",
+    "sku": "ETMIRLEDBMR15000-W800"
+   }
+  ],
+  "collections": [
+   "mirrors",
+   "led-mirrors"
+  ]
+ },
+ {
+  "source": "malaga-antico-oak-cubby-cabinet-accesory-for-eternity-range-vanity",
+  "title": "Malaga Antico Oak Cubby Cabinet 300mm",
+  "productType": "Bathroom Tallboy",
+  "id": "gid://shopify/Product/8429955809343",
+  "handle": "malaga-antico-oak-cubby-cabinet-300mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165251135",
+    "sku": "ETCUB AO"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ]
+ },
+ {
+  "source": "malaga-antico-oak-eternity-range-vanity",
+  "title": "Malaga Antico Oak Wall Hung Vanity",
+  "productType": "Wall Hung Vanity",
+  "id": "gid://shopify/Product/8429955842111",
+  "handle": "malaga-antico-oak-wall-hung-vanity",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165283903",
+    "sku": "ETOJS106-600AO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165316671",
+    "sku": "ETOJS106-750AO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165349439",
+    "sku": "ETOJS106-900AO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165382207",
+    "sku": "ETOJS106-1200AO"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ]
+ },
+ {
+  "source": "malaga-antico-oak-kickboard-cabinet-accesory-for-eternity-range-vanity",
+  "title": "Malaga Antico Oak Vanity Kickboard",
+  "productType": "Vanity Kickboard",
+  "id": "gid://shopify/Product/8429955874879",
+  "handle": "malaga-antico-oak-vanity-kickboard",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165414975",
+    "sku": "ETKB-750AO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165447743",
+    "sku": "ETKB-900AO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165480511",
+    "sku": "ETKB-1200AO"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities"
+  ]
+ },
+ {
+  "source": "malaga-dark-oak-cubby-cabinet-accesory-for-eternity-range-vanity",
+  "title": "Malaga Dark Oak Cubby Cabinet 300mm",
+  "productType": "Bathroom Tallboy",
+  "id": "gid://shopify/Product/8429955907647",
+  "handle": "malaga-dark-oak-cubby-cabinet-300mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165513279",
+    "sku": "ETCUB DO"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ]
+ },
+ {
+  "source": "malaga-dark-oak-eternity-range-vanity",
+  "title": "Malaga Dark Oak Wall Hung Vanity",
+  "productType": "Wall Hung Vanity",
+  "id": "gid://shopify/Product/8429955940415",
+  "handle": "malaga-dark-oak-wall-hung-vanity",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165546047",
+    "sku": "ETOJS106-600DO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165578815",
+    "sku": "ETOJS106-750DO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165611583",
+    "sku": "ETOJS106-900DO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165644351",
+    "sku": "ETOJS106-1200DO"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ]
+ },
+ {
+  "source": "malaga-dark-oak-kickboard-cabinet-accesory-for-eternity-range-vanity",
+  "title": "Malaga Dark Oak Vanity Kickboard",
+  "productType": "Vanity Kickboard",
+  "id": "gid://shopify/Product/8429955973183",
+  "handle": "malaga-dark-oak-vanity-kickboard",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165677119",
+    "sku": "ETKB-750DO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165709887",
+    "sku": "ETKB-900DO"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165742655",
+    "sku": "ETKB-1200DO"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities"
+  ]
+ },
+ {
+  "source": "malaga-element-white-kickboard-cabinet-accesory-for-eternity-range-vanity",
+  "title": "Malaga Matt White Vanity Kickboard",
+  "productType": "Vanity Kickboard",
+  "id": "gid://shopify/Product/8429956005951",
+  "handle": "malaga-matt-white-vanity-kickboard",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165775423",
+    "sku": "ETKB-750W"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165808191",
+    "sku": "ETKB-900W"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165840959",
+    "sku": "ETKB-1200W"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities"
+  ]
+ },
+ {
+  "source": "malaga-elemental-cubby-cabinet-accesory-for-eternity-range-vanity",
+  "title": "Malaga Matt White Cubby Cabinet 300mm",
+  "productType": "Bathroom Tallboy",
+  "id": "gid://shopify/Product/8429956038719",
+  "handle": "malaga-matt-white-cubby-cabinet-300mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165873727",
+    "sku": "ETCUB W"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ]
+ },
+ {
+  "source": "malaga-elemental-eternity-range-vanity",
+  "title": "Malaga Matt White Wall Hung Vanity",
+  "productType": "Wall Hung Vanity",
+  "id": "gid://shopify/Product/8429956071487",
+  "handle": "malaga-matt-white-wall-hung-vanity",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108165906495",
+    "sku": "ETOJS106-600W"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165939263",
+    "sku": "ETOJS106-750W"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108165972031",
+    "sku": "ETOJS106-900W"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108166004799",
+    "sku": "ETOJS106-1200W"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ]
+ },
+ {
+  "source": "malaga-elemental-single-door-cabinet-cabinet-accesory-for-eternity-range-vanity",
+  "title": "Malaga Matt White Single Door Cabinet 295mm",
+  "productType": "Bathroom Tallboy",
+  "id": "gid://shopify/Product/8429956104255",
+  "handle": "malaga-matt-white-single-door-cabinet-295mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166037567",
+    "sku": "ETSDC W"
+   }
+  ],
+  "collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ]
+ },
+ {
+  "source": "mezo-basin",
+  "title": "Mezo Above Counter Basin",
+  "productType": "Above Counter Basin",
+  "id": "gid://shopify/Product/8429956169791",
+  "handle": "mezo-above-counter-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166135871",
+    "sku": "ET847"
+   }
+  ],
+  "collections": [
+   "basins",
+   "above-counter-basins"
+  ]
+ },
+ {
+  "source": "olivia-semi-above-counter-basin",
+  "title": "Olivia Above Counter Basin",
+  "productType": "Above Counter Basin",
+  "id": "gid://shopify/Product/8429956202559",
+  "handle": "olivia-above-counter-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166168639",
+    "sku": "ETBA8025CT"
+   }
+  ],
+  "collections": [
+   "basins",
+   "above-counter-basins"
+  ]
+ },
+ {
+  "source": "olivia-semi-inset-basin",
+  "title": "Olivia Semi Inset Basin",
+  "productType": "Semi Basin",
+  "id": "gid://shopify/Product/8429956235327",
+  "handle": "olivia-semi-inset-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166201407",
+    "sku": "ETBSN4302S"
+   }
+  ],
+  "collections": [
+   "basins",
+   "semi-recessed-basins"
+  ]
+ },
+ {
+  "source": "ria-semi-inset-basin",
+  "title": "Ria Semi Inset Basin",
+  "productType": "Semi Basin",
+  "id": "gid://shopify/Product/8429956268095",
+  "handle": "ria-semi-inset-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166234175",
+    "sku": "ETBSN4201"
+   }
+  ],
+  "collections": [
+   "basins",
+   "semi-recessed-basins"
+  ]
+ },
+ {
+  "source": "ria-top-mount-basin",
+  "title": "Ria Above Counter Basin",
+  "productType": "Above Counter Basin",
+  "id": "gid://shopify/Product/8429956300863",
+  "handle": "ria-above-counter-basin",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166266943",
+    "sku": "ETBA222CT"
+   }
+  ],
+  "collections": [
+   "basins",
+   "above-counter-basins"
+  ]
+ },
+ {
+  "source": "tiles-insert-floor-waste-50mm-top-100x100mm",
+  "title": "Tile Insert Floor Waste 50mm, 100 x 100mm",
+  "productType": "Floor Drains",
+  "id": "gid://shopify/Product/8429956333631",
+  "handle": "tile-insert-floor-waste-50mm-100-x-100mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166299711",
+    "sku": null
+   }
+  ],
+  "collections": [
+   "bathroom-wastes"
+  ]
+ },
+ {
+  "source": "tiles-insert-floor-waste-80mm-top-100x100mm",
+  "title": "Tile Insert Floor Waste 80mm, 100 x 100mm",
+  "productType": "Floor Drains",
+  "id": "gid://shopify/Product/8429956366399",
+  "handle": "tile-insert-floor-waste-80mm-100-x-100mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166332479",
+    "sku": "ETSQT101-100D-80-BS"
+   }
+  ],
+  "collections": [
+   "bathroom-wastes"
+  ]
+ },
+ {
+  "source": "twist-top-floor-drain-100mm-chrome",
+  "title": "Twist Top Floor Drain 100mm",
+  "productType": "Floor Drains",
+  "id": "gid://shopify/Product/8429956399167",
+  "handle": "twist-top-floor-drain-100mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166365247",
+    "sku": "ETBD078.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108166398015",
+    "sku": "ETBD078.BN"
+   }
+  ],
+  "collections": [
+   "bathroom-wastes"
+  ]
+ },
+ {
+  "source": "twist-top-floor-drain-80mm-chrome",
+  "title": "Twist Top Floor Drain 80mm",
+  "productType": "Floor Drains",
+  "id": "gid://shopify/Product/8429956431935",
+  "handle": "twist-top-floor-drain-80mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166430783",
+    "sku": "ETBD073.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108166463551",
+    "sku": "ETD073.BN"
+   }
+  ],
+  "collections": [
+   "bathroom-wastes"
+  ]
+ },
+ {
+  "source": "universal-pop-up-waste-type-2",
+  "title": "Celine Universal Pop Up Waste 32/40mm",
+  "productType": "Pop Up Waste",
+  "id": "gid://shopify/Product/8429956464703",
+  "handle": "celine-universal-pop-up-waste-32-40mm",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44108166496319",
+    "sku": "ETK81.CR"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44108166529087",
+    "sku": "ETK81.BN"
+   }
+  ],
+  "collections": [
+   "bathroom-wastes",
+   "accessories"
+  ]
+ }
+]
