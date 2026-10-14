@@ -106,5 +106,6 @@ is cost x 1.1 (GST) / 0.65 (35% margin on the ex-GST sale price), rounded up to 
 5-buy COD 55%) for the Malaga all-in-one packages. Two products created live at RRP (owner: sell at Eternity's
 price for now), `malaga_packages_2026_10.py` -> `supplier-sync/malaga-packages-2026-10-14.json`:
 China Top (3 colours x 750/900/1200) and Stone Top (3 colours x 750/900/1200/1500/1800). Stone colour (White Burst /
-Blanco Bliss) and basin shape are taken in the order notes, not as variants. No cost recorded yet: the owner has to
-say which wholesale tier ETS is on. Package photos are the sheet's own images (`supplier-sync/malaga-package-images/`).
+Blanco Bliss) and basin shape are taken in the order notes, not as variants. Cost = the sheet's **account deal 45%** column (owner, 14 Oct 2026), stored ex GST (÷ 1.1):
+china top $590.00 / $771.82 / $953.64, stone top $734.55 / $852.73 / $1,052.73 / $1,416.36 / $1,680.00. Margin 46-50%
+at RRP; both products in `trade-list-25`; 24 rows appended to the master CSV. Package photos are the sheet's own images (`supplier-sync/malaga-package-images/`).
