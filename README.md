@@ -25,9 +25,9 @@ collection lists can only be set in admin: the values to paste in are in
 ## DSA bathroomware (14 Oct 2026)
 
 Eternity's non-tile "DSA" range (Celine/Chloe tapware and showers, Malaga vanities, basins, sinks, LED mirrors,
-wastes, smart toilet): 62 products added as drafts at Eternity's retail price with no cost, tagged `needs-cost`,
-in their department collections and published to all channels. Set to Active once DSA costs are in and prices
-checked against the playbook. Details in [store-content/supplier-sync/README.md](store-content/supplier-sync/README.md).
+wastes, smart toilet): 62 products added at Eternity's retail price with no cost, tagged `needs-cost`, in their department collections
+and published to all channels. **Live since 14 Oct 2026** (owner's call: sell at Eternity's price until DSA sends a
+trade price list; the request to send them is `store-content/pricing/DSA-trade-price-request-2026-10-14.xlsx`). Details in [store-content/supplier-sync/README.md](store-content/supplier-sync/README.md).
 
 ## MELA mirror descriptions (13 Oct 2026)
 

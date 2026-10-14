@@ -125,8 +125,10 @@ For the other 35 the new price would be above market, so these **36 products sta
 ## DSA bathroomware from Eternity (14 Oct 2026)
 
 Everything Eternity lists under vendor "DSA" that is not a tile (the tiles were already in the store):
-62 products / 111 variants added as **drafts**, tagged `supplier-import` + `needs-cost`, published to all six
-sales channels so they go live the moment they are set to Active.
+62 products / 111 variants added, tagged `supplier-import` + `needs-cost`, published to all six sales channels.
+Created as drafts, then set **Active on 14 Oct 2026** on the owner's instruction: sell at Eternity's price until DSA
+sends a trade price list. The list of items to ask for is `store-content/pricing/DSA-trade-price-request-2026-10-14.xlsx`
+(and `.txt` for pasting into an email); once it comes back, price by the playbook and remove `needs-cost`.
 
 - Range: Celine tapware, showers and accessories (26), Chloe showers (4), Malaga wall hung vanities,
   cubby/single door cabinets and kickboards (10), Caden and Callan kitchen sinks (6), Cosimo/Olivia/Ria/Mezo/Cube
