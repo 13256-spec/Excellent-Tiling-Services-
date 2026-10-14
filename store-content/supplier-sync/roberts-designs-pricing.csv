@@ -1,11 +1,11 @@
 sku,product,option,roberts_list_price,market_price_used,market_source,our_price,our_cost,margin_pct,price_check,shipping
-RDXT987,20 Litre Maxisil Bucket,,16.2,16.2,roberts-list,14.55,9.90,25.2,,small parcel
+RDXT987,20 Litre Maxisil Bucket,,16.2,16.2,roberts-list,14.55,9.00,32.0,,small parcel
 RDXT307,3 piece Spare Roller – 75mm for RDXT308,,4.7,4.7,roberts-list,3.80,2.59,25.0,,small parcel
 RDXT230,3 x Spare rollers for RDXT232,,11.9,11.9,roberts-list,8.70,5.23,33.9,,small parcel
-RDXA3642,ART 4BN Sigma NEX Tile Cutter 62CM (Push Scoring),,1034.15,624.0,web:National Tiles,1007.95,633.88,30.8,,pickup/quote
-RDXA3643,ART 4CN Sigma NEX Tile Cutter 76CM (Push Scoring),,1296.55,829.0,web:National Tiles,1133.95,792.33,23.1,,pickup/quote
-RDXA3644,ART 4DN Sigma NEX Tile Cutter 95CM (Push Scoring),,1481.75,1049.95,web:National Tiles,1439.95,905.52,30.8,,pickup/quote
-RDXA3637,"ART 63G Sigma Table with legs, hooks for Kera cut and clamps",,2778.3,2778.3,roberts-list,2429.95,1697.85,23.1,yes,small parcel
+RDXA3642,ART 4BN Sigma NEX Tile Cutter 62CM (Push Scoring),,1034.15,624.0,web:National Tiles,1007.95,576.25,37.1,,pickup/quote
+RDXA3643,ART 4CN Sigma NEX Tile Cutter 76CM (Push Scoring),,1296.55,829.0,web:National Tiles,1133.95,720.30,30.1,,pickup/quote
+RDXA3644,ART 4DN Sigma NEX Tile Cutter 95CM (Push Scoring),,1481.75,1049.95,web:National Tiles,1439.95,823.20,37.1,,pickup/quote
+RDXA3637,"ART 63G Sigma Table with legs, hooks for Kera cut and clamps",,2778.3,2778.3,roberts-list,2429.95,1543.50,30.1,yes,small parcel
 RDXT886,Abrasive PVA Wheels,120,7.35,7.35,match:westerndist,6.15,4.18,25.2,,small parcel
 RDXT887,Abrasive PVA Wheels,220,7.35,7.35,roberts-list,6.15,4.18,25.2,,small parcel
 RDXT884,Abrasive PVA Wheels,40,7.35,7.35,match:westerndist,6.15,4.18,25.2,,small parcel
@@ -28,11 +28,11 @@ RDTT777,Balcony Trim – 3m Lengths,15mm / Matte Silver,70.4,70.4,roberts-list,6
 RDTT773,Balcony Trim – 3m Lengths,15mm / Mill Finish,64.85,64.85,roberts-list,58.45,39.60,25.5,,pickup/quote
 RDTT774,Balcony Trim – 3m Lengths,8mm / Matte Silver,48.15,48.15,roberts-list,43.15,29.43,25.0,,pickup/quote
 RDTT770,Balcony Trim – 3m Lengths,8mm / Mill Finish,40.75,40.75,roberts-list,36.85,24.91,25.6,,pickup/quote
-RDXM50030,Baron E120 Forced Action Mixer,,6570.0,4699.0,web:CeramicsWest,4252.05,4015.00,-3.9,yes,pickup/quote
-RDXM50002,Baron F200 Forced Action Mixer,,5900.0,5900.0,roberts-list,4699.99,6490.00,-51.9,yes,pickup/quote
-RDXM50003,Baron F300 Forced Action Mixer,,7900.0,7900.0,roberts-list,6039.55,8690.00,-58.3,yes,pickup/quote
-RDXT417,Barwalt KN – 1 Replacement Liners (pair),,52.55,47.67,match:tilemart,40.45,25.69,30.1,,small parcel
-RDXT415,Barwalt KN – 1 Ultralight Knee Pad,,79.8,78.44,match:tilemart,48.95,41.09,7.7,,small parcel
+RDXM50030,Baron E120 Forced Action Mixer,,6570.0,4699.0,web:CeramicsWest,4252.05,3650.00,5.6,yes,pickup/quote
+RDXM50002,Baron F200 Forced Action Mixer,,5900.0,5900.0,roberts-list,4699.99,3280.40,23.2,yes,pickup/quote
+RDXM50003,Baron F300 Forced Action Mixer,,7900.0,7900.0,roberts-list,6039.55,4392.40,20.0,yes,pickup/quote
+RDXT417,Barwalt KN – 1 Replacement Liners (pair),,52.55,47.67,match:tilemart,40.45,23.35,36.5,,small parcel
+RDXT415,Barwalt KN – 1 Ultralight Knee Pad,,79.8,78.44,match:tilemart,48.95,37.35,16.1,,small parcel
 RDXT713b,Blue Chalk Refill Bottle,,10.55,10.55,roberts-list,7.25,5.78,12.3,,small parcel
 2UX100,Blue Cross Universal Spacing Plate – 100 pack,,38.2,38.2,roberts-list,33.25,21.51,28.8,,small parcel
 2UE100,Blue Edge Universal Spacing Plate – 100 pack,,31.2,31.2,roberts-list,26.95,17.55,28.4,,small parcel
@@ -85,7 +85,7 @@ RDTT783,Diminishing Trim – 3m Lengths,18mm / Bright Silver,93.9,93.9,roberts-l
 RDXT237,Disposable Gloves,L,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
 RDXT236,Disposable Gloves,M,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
 RDXT238,Disposable Gloves,XL,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
-RDXM50101,E120 Replacement power cable (2m length) + plug,,125.19,125.19,roberts-list,120.95,137.71,-25.2,,small parcel
+RDXM50101,E120 Replacement power cable (2m length) + plug,,125.19,125.19,roberts-list,120.95,125.19,-13.9,,small parcel
 RDXT303,Economy Grout Float,,14.5,14.5,roberts-list,12.15,7.92,28.3,,small parcel
 RDXT108,Electric Glue Mixer 1400W,,420.25,420.25,roberts-list,280.10,224.07,12.0,,small parcel
 RDXT854,Electroplated Diamond Core Drill,38mm,86.75,78.65,match:tilemart,51.05,40.81,12.1,,small parcel
@@ -144,9 +144,9 @@ RDTT860mslv,External Cove Aluminium Corner,8mm x 10mm / Matte Silver,34.85,34.85
 RDTT859,External Cove Aluminium Corner,8mm x 10mm / Mill Finish,34.85,34.85,match:tilemart,28.75,19.58,25.1,,small parcel
 RDTT893,External Retro Cove Corner,Matte Silver,38.2,38.2,match:tilemart,31.45,21.51,24.8,,small parcel
 RDTT891,External Retro Cove Corner,Mill Finish,38.2,38.2,match:tilemart,31.45,21.51,24.8,,small parcel
-RDXM50425,F200 Mixer head (not including a paddles),,385.0,385.0,roberts-list,299.99,423.50,-55.3,,pickup/quote
-RDXM50427,F300 Mixer head (not including paddles),,385.0,385.0,roberts-list,270.00,423.50,-72.5,,pickup/quote
-RDXM50444,F300 Mixer paddles set (3),,385.0,385.0,roberts-list,372.95,423.50,-24.9,,small parcel
+RDXM50425,F200 Mixer head (not including a paddles),,385.0,385.0,roberts-list,299.99,196.35,28.0,,pickup/quote
+RDXM50427,F300 Mixer head (not including paddles),,385.0,385.0,roberts-list,270.00,196.35,20.0,,pickup/quote
+RDXM50444,F300 Mixer paddles set (3),,385.0,385.0,roberts-list,372.95,385.00,-13.6,,small parcel
 RDXT14466,Flange 50mm Socket Weld,,23.4,23.4,roberts-list,21.95,14.30,28.3,,small parcel
 RDXT614,Grout Haze Square Edge Sponge,,11.6,11.6,roberts-list,9.05,5.45,33.8,,small parcel
 RD6003-0001,Guardia Surface Protection,,132.5,132.5,match:westerndist,145.75,96.20,27.4,,small parcel
@@ -178,7 +178,7 @@ RDTT857mslv,Internal Cove Corner,8mm x 10mm / Matte Silver,34.85,34.85,match:til
 RDTT856,Internal Cove Corner,8mm x 10mm / Mill Finish,34.85,34.85,match:tilemart,28.75,19.58,25.1,,small parcel
 RDTT895,Internal Retro Cove Corner,Matte Silver,38.2,38.2,match:tilemart,31.45,21.51,24.8,,small parcel
 RDTT894,Internal Retro Cove Corner,Mill Finish,38.2,38.2,match:tilemart,31.45,21.51,24.8,,small parcel
-RDXA3540,"Kera Lift ART1A6 340 x 160cm, complete kit with 6 suction cups 51D style + 2 suction cups 51P2 style + 4 fall safety protection – 340cm x 160cm",,4476.15,2388.88,web:Sigma Tilecutters Online,3424.95,2739.22,12.0,,pickup/quote
+RDXA3540,"Kera Lift ART1A6 340 x 160cm, complete kit with 6 suction cups 51D style + 2 suction cups 51P2 style + 4 fall safety protection – 340cm x 160cm",,4476.15,2388.88,web:Sigma Tilecutters Online,3424.95,2490.20,20.0,,pickup/quote
 RDTT752,L Shape Aluminium Trim – 1m Lengths,10mm / Mill Finish,7.2,7.2,roberts-list,4.95,2.97,34.0,,pickup/quote
 RDTT753,L Shape Aluminium Trim – 1m Lengths,12mm / Mill Finish,8.2,8.2,roberts-list,5.65,3.41,33.6,,pickup/quote
 RDTT751,L Shape Aluminium Trim – 1m Lengths,8mm / Mill Finish,6.9,6.9,roberts-list,4.10,2.48,33.5,,pickup/quote
@@ -339,125 +339,125 @@ RDTT914SS316,L Shape S/Steel 316 Trim – 3m Lengths,22mm,118.65,118.65,roberts-
 RDTT903ss316,L Shape S/Steel 316 Trim – 3m Lengths,8mm,88.6,88.6,roberts-list,73.75,49.89,25.6,,pickup/quote
 RDXT112,Leveling Compound Mixer x 10mm Shaft,,31.5,31.5,roberts-list,22.45,15.40,24.5,,small parcel
 RDXT918,M14 Adapter for Vacuum Brazed Drill Bit,,24.7,23.84,match:tilemart,20.65,13.92,25.8,,small parcel
-RDXM50303,Main switch (For F200),,385.0,385.0,roberts-list,270.00,423.50,-72.5,,small parcel
-RDXM50304,Main switch (For F300),,385.0,385.0,roberts-list,339.99,423.50,-37.0,,small parcel
+RDXM50303,Main switch (For F200),,385.0,385.0,roberts-list,270.00,196.35,20.0,,small parcel
+RDXM50304,Main switch (For F300),,385.0,385.0,roberts-list,339.99,196.35,36.5,,small parcel
 RDXB2017,Masking Tape,,11.9,11.9,roberts-list,9.60,5.78,33.8,,small parcel
-RDXA3000,Maxisil Applicator,,13.35,13.35,match:tilemart,11.20,7.59,25.5,,small parcel
-RDX2004,Maxisil Cleaner – 250ml,,14.8,14.8,match:tilemart,12.30,8.36,25.2,,small parcel
-RDXA2050a,Maxisil Corner Nozzles 3 Pack,,12.95,12.95,match:tilemart,10.85,7.37,25.3,,small parcel
-RDXA2051,Maxisil Extension Nozzles 6 Pk,,12.55,12.55,match:tilemart,10.50,7.15,25.1,,small parcel
-RDG10an,Maxisil Grout – 10kg,Anthracite,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10bl,Maxisil Grout – 10kg,Black,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10g,Maxisil Grout – 10kg,Grey,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10hav,Maxisil Grout – 10kg,Havana,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10lg,Maxisil Grout – 10kg,Light Grey,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10mg,Maxisil Grout – 10kg,Mid Grey,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10sw,Maxisil Grout – 10kg,Snow White,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10sto,Maxisil Grout – 10kg,Stone,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10tr,Maxisil Grout – 10kg,Travertine,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG10w,Maxisil Grout – 10kg,White,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
-RDG2an,Maxisil Grout – 2kg,Anthracite,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2bl,Maxisil Grout – 2kg,Black,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2g,Maxisil Grout – 2kg,Grey,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2hav,Maxisil Grout – 2kg,Havana,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2lg,Maxisil Grout – 2kg,Light Grey,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2mg,Maxisil Grout – 2kg,Mid Grey,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2sw,Maxisil Grout – 2kg,Snow White,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2sto,Maxisil Grout – 2kg,Stone,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2tr,Maxisil Grout – 2kg,Travertine,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG2w,Maxisil Grout – 2kg,White,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
-RDG5an,Maxisil Grout – 5kg,Anthracite,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5bl,Maxisil Grout – 5kg,Black,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5g,Maxisil Grout – 5kg,Grey,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5hav,Maxisil Grout – 5kg,Havana,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5lg,Maxisil Grout – 5kg,Light Grey,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5mg,Maxisil Grout – 5kg,Mid Grey,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5sw,Maxisil Grout – 5kg,Snow White,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5sto,Maxisil Grout – 5kg,Stone,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5tr,Maxisil Grout – 5kg,Travertine,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDG5w,Maxisil Grout – 5kg,White,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
-RDX4001,Maxisil Maxigrab Adhesive,Crystal,23.5,23.5,roberts-list,18.85,13.20,23.0,,small parcel
-RDX4000,Maxisil Maxigrab Adhesive,Original,22.4,22.4,roberts-list,15.99,12.54,13.7,,small parcel
-RDX1007,Maxisil Membrane Silicone,,17.95,17.95,roberts-list,14.99,9.90,27.4,,small parcel
-RDX1001ala,Maxisil Natural Stone Silicone,Alabaster,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001an,Maxisil Natural Stone Silicone,Anthracite,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001bg,Maxisil Natural Stone Silicone,Beige,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001bl,Maxisil Natural Stone Silicone,Black,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001br,Maxisil Natural Stone Silicone,Brown,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001cl,Maxisil Natural Stone Silicone,Clear,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001dg,Maxisil Natural Stone Silicone,Drak Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001g,Maxisil Natural Stone Silicone,Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001hav,Maxisil Natural Stone Silicone,Havana,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001lg,Maxisil Natural Stone Silicone,Light Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001man,Maxisil Natural Stone Silicone,Manhattan,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001manth,Maxisil Natural Stone Silicone,Matte Anthracite,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001mb,Maxisil Natural Stone Silicone,Matte Black,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001mdg,Maxisil Natural Stone Silicone,Matte Dark Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001mman,Maxisil Natural Stone Silicone,Matte Manhattan,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001mmon,Maxisil Natural Stone Silicone,Matte Monumento,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001mw,Maxisil Natural Stone Silicone,Matte White,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001mon,Maxisil Natural Stone Silicone,Monumento,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001pg,Maxisil Natural Stone Silicone,Pearl Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001tr,Maxisil Natural Stone Silicone,Travertine,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001v,Maxisil Natural Stone Silicone,Vanilla,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1001w,Maxisil Natural Stone Silicone,White,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
-RDX1004b,Maxisil Pool Silicone,Black,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
-RDX1004g,Maxisil Pool Silicone,Grey,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
-RDX1004iv,Maxisil Pool Silicone,Ivory,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
-RDX1004lg,Maxisil Pool Silicone,Light Grey,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
-RDX1004ow,Maxisil Pool Silicone,Off White,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
-RDX1004w,Maxisil Pool Silicone,White,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
-RDXA3012,Maxisil Sausage Caulking Gun 600ml,,63.0,45.0,match:westerndist,62.95,38.50,32.7,,small parcel
-RDXA3010,Maxisil Silicone Nozzle Unblocker,,14.8,14.8,match:tilemart,12.30,8.36,25.2,,small parcel
-RDXT984,Maxisil Spray Bottle – 500ml,,11.95,11.95,match:tilemart,9.80,6.66,25.2,,small parcel
-RDX1000ala,Maxisil Wet Area Silicone,Alabaster,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000alu,Maxisil Wet Area Silicone,Aluminium,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000an,Maxisil Wet Area Silicone,Anthracite,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000Bahb,Maxisil Wet Area Silicone,Bahama Beige,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000bas,Maxisil Wet Area Silicone,Basalt,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000bg,Maxisil Wet Area Silicone,Beige,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000bl,Maxisil Wet Area Silicone,Black,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000blg,Maxisil Wet Area Silicone,Blue Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000br,Maxisil Wet Area Silicone,Brown,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000can,Maxisil Wet Area Silicone,Canvas,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000cash,Maxisil Wet Area Silicone,Cashmere,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000cl,Maxisil Wet Area Silicone,Clear,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000coc,Maxisil Wet Area Silicone,Cocoa,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000cot,Maxisil Wet Area Silicone,Cotto,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000dter,Maxisil Wet Area Silicone,Deep Terracotta,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000fg,Maxisil Wet Area Silicone,Flash Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000g,Maxisil Wet Area Silicone,Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000hav,Maxisil Wet Area Silicone,Havana,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000iv,Maxisil Wet Area Silicone,Ivory,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000lg,Maxisil Wet Area Silicone,Light Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000ma,Maxisil Wet Area Silicone,Matte Anthracite,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mbl,Maxisil Wet Area Silicone,Matte Black,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mgr,Maxisil Wet Area Silicone,Matte Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mlg,Maxisil Wet Area Silicone,Matte Light Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mmg,Maxisil Wet Area Silicone,Matte Mid Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mw,Maxisil Wet Area Silicone,Matte White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mb,Maxisil Wet Area Silicone,Mid Beige,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mbr,Maxisil Wet Area Silicone,Mid Brown,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000mg,Maxisil Wet Area Silicone,Mid Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000moc,Maxisil Wet Area Silicone,Mocha,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000ow,Maxisil Wet Area Silicone,Off White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000pewg,Maxisil Wet Area Silicone,Pewter,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000plat,Maxisil Wet Area Silicone,Platinum,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000r,Maxisil Wet Area Silicone,Red,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000s,Maxisil Wet Area Silicone,Sand,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000sw,Maxisil Wet Area Silicone,Snow White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000sto,Maxisil Wet Area Silicone,Stone,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000tau,Maxisil Wet Area Silicone,Taupe,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000tr,Maxisil Wet Area Silicone,Travertine,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000v,Maxisil Wet Area Silicone,Vanilla,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
-RDX1000w,Maxisil Wet Area Silicone,White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDXA3000,Maxisil Applicator,,13.35,13.35,match:tilemart,11.20,6.90,32.2,,small parcel
+RDX2004,Maxisil Cleaner – 250ml,,14.8,14.8,match:tilemart,12.30,7.60,32.0,,small parcel
+RDXA2050a,Maxisil Corner Nozzles 3 Pack,,12.95,12.95,match:tilemart,10.85,6.70,32.1,,small parcel
+RDXA2051,Maxisil Extension Nozzles 6 Pk,,12.55,12.55,match:tilemart,10.50,6.50,31.9,,small parcel
+RDG10an,Maxisil Grout – 10kg,Anthracite,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10bl,Maxisil Grout – 10kg,Black,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10g,Maxisil Grout – 10kg,Grey,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10hav,Maxisil Grout – 10kg,Havana,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10lg,Maxisil Grout – 10kg,Light Grey,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10mg,Maxisil Grout – 10kg,Mid Grey,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10sw,Maxisil Grout – 10kg,Snow White,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10sto,Maxisil Grout – 10kg,Stone,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10tr,Maxisil Grout – 10kg,Travertine,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG10w,Maxisil Grout – 10kg,White,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
+RDG2an,Maxisil Grout – 2kg,Anthracite,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2bl,Maxisil Grout – 2kg,Black,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2g,Maxisil Grout – 2kg,Grey,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2hav,Maxisil Grout – 2kg,Havana,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2lg,Maxisil Grout – 2kg,Light Grey,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2mg,Maxisil Grout – 2kg,Mid Grey,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2sw,Maxisil Grout – 2kg,Snow White,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2sto,Maxisil Grout – 2kg,Stone,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2tr,Maxisil Grout – 2kg,Travertine,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG2w,Maxisil Grout – 2kg,White,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
+RDG5an,Maxisil Grout – 5kg,Anthracite,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5bl,Maxisil Grout – 5kg,Black,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5g,Maxisil Grout – 5kg,Grey,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5hav,Maxisil Grout – 5kg,Havana,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5lg,Maxisil Grout – 5kg,Light Grey,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5mg,Maxisil Grout – 5kg,Mid Grey,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5sw,Maxisil Grout – 5kg,Snow White,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5sto,Maxisil Grout – 5kg,Stone,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5tr,Maxisil Grout – 5kg,Travertine,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDG5w,Maxisil Grout – 5kg,White,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
+RDX4001,Maxisil Maxigrab Adhesive,Crystal,23.5,23.5,roberts-list,18.85,12.00,30.0,,small parcel
+RDX4000,Maxisil Maxigrab Adhesive,Original,22.4,22.4,roberts-list,15.99,11.40,21.6,,small parcel
+RDX1007,Maxisil Membrane Silicone,,17.95,17.95,roberts-list,14.99,9.00,34.0,,small parcel
+RDX1001ala,Maxisil Natural Stone Silicone,Alabaster,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001an,Maxisil Natural Stone Silicone,Anthracite,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001bg,Maxisil Natural Stone Silicone,Beige,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001bl,Maxisil Natural Stone Silicone,Black,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001br,Maxisil Natural Stone Silicone,Brown,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001cl,Maxisil Natural Stone Silicone,Clear,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001dg,Maxisil Natural Stone Silicone,Drak Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001g,Maxisil Natural Stone Silicone,Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001hav,Maxisil Natural Stone Silicone,Havana,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001lg,Maxisil Natural Stone Silicone,Light Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001man,Maxisil Natural Stone Silicone,Manhattan,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001manth,Maxisil Natural Stone Silicone,Matte Anthracite,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001mb,Maxisil Natural Stone Silicone,Matte Black,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001mdg,Maxisil Natural Stone Silicone,Matte Dark Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001mman,Maxisil Natural Stone Silicone,Matte Manhattan,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001mmon,Maxisil Natural Stone Silicone,Matte Monumento,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001mw,Maxisil Natural Stone Silicone,Matte White,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001mon,Maxisil Natural Stone Silicone,Monumento,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001pg,Maxisil Natural Stone Silicone,Pearl Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001tr,Maxisil Natural Stone Silicone,Travertine,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001v,Maxisil Natural Stone Silicone,Vanilla,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1001w,Maxisil Natural Stone Silicone,White,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
+RDX1004b,Maxisil Pool Silicone,Black,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
+RDX1004g,Maxisil Pool Silicone,Grey,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
+RDX1004iv,Maxisil Pool Silicone,Ivory,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
+RDX1004lg,Maxisil Pool Silicone,Light Grey,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
+RDX1004ow,Maxisil Pool Silicone,Off White,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
+RDX1004w,Maxisil Pool Silicone,White,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
+RDXA3012,Maxisil Sausage Caulking Gun 600ml,,63.0,45.0,match:westerndist,62.95,35.00,38.8,,small parcel
+RDXA3010,Maxisil Silicone Nozzle Unblocker,,14.8,14.8,match:tilemart,12.30,7.60,32.0,,small parcel
+RDXT984,Maxisil Spray Bottle – 500ml,,11.95,11.95,match:tilemart,9.80,6.05,32.1,,small parcel
+RDX1000ala,Maxisil Wet Area Silicone,Alabaster,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000alu,Maxisil Wet Area Silicone,Aluminium,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000an,Maxisil Wet Area Silicone,Anthracite,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000Bahb,Maxisil Wet Area Silicone,Bahama Beige,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000bas,Maxisil Wet Area Silicone,Basalt,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000bg,Maxisil Wet Area Silicone,Beige,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000bl,Maxisil Wet Area Silicone,Black,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000blg,Maxisil Wet Area Silicone,Blue Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000br,Maxisil Wet Area Silicone,Brown,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000can,Maxisil Wet Area Silicone,Canvas,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000cash,Maxisil Wet Area Silicone,Cashmere,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000cl,Maxisil Wet Area Silicone,Clear,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000coc,Maxisil Wet Area Silicone,Cocoa,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000cot,Maxisil Wet Area Silicone,Cotto,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000dter,Maxisil Wet Area Silicone,Deep Terracotta,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000fg,Maxisil Wet Area Silicone,Flash Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000g,Maxisil Wet Area Silicone,Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000hav,Maxisil Wet Area Silicone,Havana,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000iv,Maxisil Wet Area Silicone,Ivory,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000lg,Maxisil Wet Area Silicone,Light Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000ma,Maxisil Wet Area Silicone,Matte Anthracite,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mbl,Maxisil Wet Area Silicone,Matte Black,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mgr,Maxisil Wet Area Silicone,Matte Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mlg,Maxisil Wet Area Silicone,Matte Light Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mmg,Maxisil Wet Area Silicone,Matte Mid Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mw,Maxisil Wet Area Silicone,Matte White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mb,Maxisil Wet Area Silicone,Mid Beige,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mbr,Maxisil Wet Area Silicone,Mid Brown,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000mg,Maxisil Wet Area Silicone,Mid Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000moc,Maxisil Wet Area Silicone,Mocha,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000ow,Maxisil Wet Area Silicone,Off White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000pewg,Maxisil Wet Area Silicone,Pewter,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000plat,Maxisil Wet Area Silicone,Platinum,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000r,Maxisil Wet Area Silicone,Red,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000s,Maxisil Wet Area Silicone,Sand,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000sw,Maxisil Wet Area Silicone,Snow White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000sto,Maxisil Wet Area Silicone,Stone,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000tau,Maxisil Wet Area Silicone,Taupe,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000tr,Maxisil Wet Area Silicone,Travertine,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000v,Maxisil Wet Area Silicone,Vanilla,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDX1000w,Maxisil Wet Area Silicone,White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
 RDXT2011,Mesh Rim Diamond Blades – Red,105mm,43.2,43.2,roberts-list,28.00,22.39,12.0,,small parcel
 RDXT2012,Mesh Rim Diamond Blades – Red,125mm,61.05,61.05,roberts-list,38.65,30.91,12.0,,small parcel
 RDXT2013,Mesh Rim Diamond Blades – Red,200mm,139.9,139.9,roberts-list,87.50,69.96,12.1,,small parcel
 RDXT2014,Mesh Rim Diamond Blades – Red,250mm,220.45,220.45,roberts-list,139.95,111.93,12.0,,small parcel
 RDXT2015,Mesh Rim Diamond Blades – Red,300mm,292.55,292.55,roberts-list,218.65,174.90,12.0,,small parcel
-RDXM50421,Mixer Head for Baron E120 Mixer (no shovels),,1209.75,1209.75,roberts-list,869.99,678.92,14.2,yes,pickup/quote
-RDXM50443,Mixing Paddles Set (3) for Baron E120 Mixer,,530.3,530.3,roberts-list,399.99,297.83,18.1,yes,pickup/quote
+RDXM50421,Mixer Head for Baron E120 Mixer (no shovels),,1209.75,1209.75,roberts-list,869.99,617.20,22.0,yes,pickup/quote
+RDXM50443,Mixing Paddles Set (3) for Baron E120 Mixer,,530.3,530.3,roberts-list,399.99,270.75,25.5,yes,pickup/quote
 RD600,Niche Box – 372 x 332,1,74.75,74.75,match:tilemart,63.85,42.02,27.6,,pickup/quote
 RD600pk,Niche Box – 372 x 332,3,212.95,212.95,roberts-list,181.75,119.52,27.7,,pickup/quote
 RD601,Niche Box – 424 x 364,1,100.7,100.7,roberts-list,86.35,56.49,28.0,,pickup/quote
@@ -485,11 +485,11 @@ RDXB2013,Pallet Wrap Roll,,73.5,73.5,roberts-list,59.75,35.86,34.0,,pickup/quote
 RDXT802,Premium Diamond Sintered Pin Drill,10mm,71.65,65.1,match:tilemart,42.85,34.27,12.0,,small parcel
 RDXT803,Premium Diamond Sintered Pin Drill,12mm,77.85,70.67,match:tilemart,45.80,36.63,12.0,,small parcel
 RDXT801,Premium Diamond Sintered Pin Drill,8mm,70.05,63.53,match:tilemart,41.00,32.78,12.1,,small parcel
-RDX2012,Primer 1215,,118.7,118.7,roberts-list,113.35,68.86,33.2,,small parcel
-RDX2014,Primer 1216,,118.7,118.7,roberts-list,113.35,68.86,33.2,,small parcel
-RDX2016,Primer 1217,,118.7,118.7,roberts-list,113.35,68.86,33.2,,small parcel
-RDX2017c,Primer 1218 – For Maxisil Pool,1 litre,490.4,490.4,roberts-list,429.25,283.03,27.5,,pickup/quote
-RDX2017b,Primer 1218 – For Maxisil Pool,250ml,143.5,143.5,roberts-list,137.65,84.15,32.8,,pickup/quote
+RDX2012,Primer 1215,,118.7,118.7,roberts-list,113.35,62.60,39.3,,small parcel
+RDX2014,Primer 1216,,118.7,118.7,roberts-list,113.35,62.60,39.3,,small parcel
+RDX2016,Primer 1217,,118.7,118.7,roberts-list,113.35,62.60,39.3,,small parcel
+RDX2017c,Primer 1218 – For Maxisil Pool,1 litre,490.4,490.4,roberts-list,429.25,257.30,34.1,,pickup/quote
+RDX2017b,Primer 1218 – For Maxisil Pool,250ml,143.5,143.5,roberts-list,137.65,76.50,38.9,,pickup/quote
 RDXT306,Pro Japanese Style Grout Float Timber Handle,,32.1,32.1,roberts-list,24.25,18.64,15.4,,small parcel
 RDXT404,Pro Tile “GT” Nipper,,36.75,33.39,match:tilemart,24.65,14.79,34.0,,small parcel
 RDXT502,Professional Quality Maxi Grip Grout Rake,,18.95,18.95,roberts-list,15.10,9.08,33.9,,small parcel
@@ -504,10 +504,10 @@ RDTT792mslv,Ramp Aluminium Trim – 3m Lengths,8mm / Matte Silver,83.35,83.35,ro
 RDTT789,Ramp Aluminium Trim – 3m Lengths,8mm / Mill Finish,74.1,74.1,roberts-list,66.55,45.27,25.2,,pickup/quote
 RDXT14791,Recessed Flange Adapter 100 x 100mm,,25.75,25.75,roberts-list,23.95,15.73,27.8,,small parcel
 RD110w,Regent Shelf and Soapholder,,40.65,40.65,match:tilemart,35.05,22.83,28.4,,small parcel
-RDXT611b,Replacement Bucket Handle for Eco Roller – Fits RDXT630,,48.2,48.2,roberts-list,29.45,23.54,12.1,,small parcel
-RDXT611c,Replacement Clip for Eco Roller – Fits RDXT630,,11.3,11.3,roberts-list,9.70,6.44,27.0,,small parcel
-RDXT612,Replacement Plastic Grid for Eco Roller – Fits RDXT630,,41.3,41.3,roberts-list,33.55,20.13,34.0,,small parcel
-RDXT611a,Replacement Roller for Eco Roller – Fits RDXT630,,22.7,22.7,roberts-list,19.75,12.87,28.3,,small parcel
+RDXT611b,Replacement Bucket Handle for Eco Roller – Fits RDXT630,,48.2,48.2,roberts-list,29.45,21.40,20.1,,small parcel
+RDXT611c,Replacement Clip for Eco Roller – Fits RDXT630,,11.3,11.3,roberts-list,9.70,5.85,33.7,,small parcel
+RDXT612,Replacement Plastic Grid for Eco Roller – Fits RDXT630,,41.3,41.3,roberts-list,33.55,18.30,40.0,,small parcel
+RDXT611a,Replacement Roller for Eco Roller – Fits RDXT630,,22.7,22.7,roberts-list,19.75,11.70,34.8,,small parcel
 RDXT108x,Replacement Spiral Head for RDXT108,,44.65,44.65,roberts-list,35.25,21.18,33.9,,small parcel
 RDTT881,Retro Cove Aluminium Trim – 3m Lengths,Matte Silver,87.75,87.75,roberts-list,72.85,49.34,25.5,,pickup/quote
 RDTT880,Retro Cove Aluminium Trim – 3m Lengths,Mill Finish,75.25,75.25,roberts-list,62.05,42.30,25.0,,pickup/quote
@@ -531,90 +531,90 @@ RDTT604slv,Round Edge Trim,12mm / Bright Silver,28.55,14.7,match:tilemart,18.20,
 RDTT623mslv,Round Edge Trim,12mm / Matte Silver,28.55,14.7,match:tilemart,18.20,10.95,33.8,,pickup/quote
 RDTT602slv,Round Edge Trim,8mm / Bright Silver,27.05,14.7,match:tilemart,17.10,10.29,33.8,,pickup/quote
 RDTT621mslv,Round Edge Trim,8mm / Matte Silver,27.05,14.7,match:tilemart,17.10,10.29,33.8,,pickup/quote
-RDXM50340,"Rubber wheel (for all mixers, except F300)",,80.0,80.0,roberts-list,69.99,88.00,-38.3,,small parcel
-RDXT630,SIRI Eco Roller Wash Up Bucket,,183.3,183.3,roberts-list,128.65,102.91,12.0,,small parcel
-RDXT620,SIRI Suction Cup (50kg lifting capacity),,57.85,57.85,roberts-list,46.00,27.61,34.0,,small parcel
+RDXM50340,"Rubber wheel (for all mixers, except F300)",,80.0,80.0,roberts-list,69.99,40.80,35.9,,small parcel
+RDXT630,SIRI Eco Roller Wash Up Bucket,,183.3,183.3,roberts-list,128.65,93.55,20.0,,small parcel
+RDXT620,SIRI Suction Cup (50kg lifting capacity),,57.85,57.85,roberts-list,46.00,25.10,40.0,,small parcel
 RDXA3007,Sausage Caulking Gun,,65.6,65.6,roberts-list,53.40,32.06,34.0,,small parcel
 RDXT2016,Segmented Diamond Blades – Orange,300mm,450.45,450.45,roberts-list,356.35,256.47,20.8,,small parcel
 RDXT2017,Segmented Diamond Blades – Orange,350mm,514.05,514.05,roberts-list,420.25,285.62,25.2,,small parcel
-RDXA3649,Sigma 108362 M8 Nut for Locking Bolt,,11.7,11.7,roberts-list,10.50,7.15,25.1,yes,small parcel
-RDXA3580,Sigma 108362 M8 Square Nut for Locking Bolt,,7.6,7.6,roberts-list,7.35,8.36,-25.1,yes,small parcel
-RDXA3511,Sigma 108616 Locking Bolt M8x25 for Swivel Measurement Bar,,28.2,28.2,roberts-list,22.99,15.84,24.2,yes,pickup/quote
-RDXA3535,Sigma 14C Scoring Wheel (15mm),,20.86,20.86,roberts-list,19.50,22.95,-29.5,yes,small parcel
-RDXA3526,Sigma 14G Kera Cut Spare Wheel (12mm),,35.8,35.8,roberts-list,33.95,20.13,34.8,yes,pickup/quote
-RDXA3651,Sigma 17A Extension Bar 500mm,,198.0,198.0,roberts-list,191.95,121.00,30.7,yes,pickup/quote
-RDXA3534,Sigma 196725 Rubber Foot,,5.4,5.4,roberts-list,5.20,3.30,30.2,yes,small parcel
-RDXA3516,Sigma 19B3 Square,,18.0,18.0,roberts-list,16.80,19.80,-29.6,yes,small parcel
-RDXA3516C,Sigma 19C Square,,38.4,38.4,roberts-list,31.80,21.61,25.2,yes,small parcel
-RDXA3516B,Sigma 19D Square,,48.5,48.5,roberts-list,36.45,27.17,18.0,yes,small parcel
-RDXA3646,Sigma 19N Square 260mm,,81.0,81.0,roberts-list,58.95,49.50,7.6,yes,small parcel
-RDXA3518,Sigma 24AE Handle,,186.45,186.45,roberts-list,135.80,104.67,15.2,yes,small parcel
-RDXA3520,Sigma 24C Handle,,173.9,173.9,roberts-list,132.05,97.63,18.7,yes,small parcel
-RDXA3517,Sigma 24E Handle,,186.45,186.45,roberts-list,144.65,104.67,20.4,yes,small parcel
-RDXA3519,Sigma 24M10X Handle,,319.8,319.8,roberts-list,314.20,251.35,12.0,yes,small parcel
-RDXA3528,Sigma 24M15X Handle,,1151.1,1151.1,roberts-list,951.25,646.03,25.3,yes,small parcel
-RDXA3539,Sigma 24M20X Handle,,319.8,319.8,roberts-list,314.20,251.35,12.0,yes,small parcel
-RDXA3492,Sigma 37C Table Fixing Kit,,267.3,267.3,roberts-list,258.95,163.35,30.6,yes,small parcel
-RDXA3595,Sigma 402 Work Bench Storage Hooks for Kera-Cut,,140.75,140.75,roberts-list,135.95,78.98,36.1,yes,small parcel
-RDXA3591,Sigma 421 Carriage Kit (2 Wheel Sets w/ Slab Support and Angle Support),,1151.1,1151.1,roberts-list,1115.95,646.03,36.3,yes,small parcel
-RDXA3650,Sigma 64B2 Non-Slip Magnetic Map,,198.0,198.0,roberts-list,191.95,121.00,30.7,yes,small parcel
-RDXA3599,Sigma 8AEP2 Kera-Cut Extension Bar 50cm,,332.5,332.5,roberts-list,321.95,186.73,36.2,yes,pickup/quote
-RDXA3525C,Sigma 90D3 Sigma Swivel Measurement Bar,,123.2,123.2,roberts-list,109.99,135.52,-35.5,yes,pickup/quote
-RDXA3525B,Sigma 90DG Sigma Swivel Measurement Bar,,88.2,88.2,roberts-list,84.95,97.02,-25.6,yes,pickup/quote
-RDXA3560,Sigma 90LB Sigma Swivel Measurement Bar,,268.55,268.55,roberts-list,188.55,150.81,12.0,yes,pickup/quote
-RDXA3561,Sigma 90LC Sigma Swivel Measurement Bar,,281.4,281.4,roberts-list,210.55,157.91,17.5,yes,pickup/quote
-RDXA3562,Sigma 90LD Sigma Swivel Measurement Bar,,152.6,152.6,roberts-list,139.99,167.86,-31.9,yes,pickup/quote
-RDXA3585,Sigma 90LE Sigma Swivel Measurement Bar,,140.0,140.0,roberts-list,130.90,154.00,-29.4,yes,pickup/quote
-RDXA3647,Sigma 90NE Sigma Swivel Measurement Bar 64cm-0-64cm,,387.0,387.0,roberts-list,374.95,236.50,30.6,yes,pickup/quote
-RDXA3544,"Sigma ART108621 Locking Bolt M8 x 40 for Series 3B,3C,3D models",,22.25,22.25,roberts-list,19.75,13.59,24.3,yes,small parcel
-RDXA3594,Sigma Aluminium Workbench ART 63E – 180 x 100,,2174.15,2174.15,match:tilemart,1781.95,1220.29,24.7,yes,pickup/quote
-RDXA3584,Sigma Cutting Wheel ART14K suits Kera Cut – 19mm dia,,69.05,69.05,match:tilemart,57.55,38.78,25.9,,pickup/quote
-RDXA3548,Sigma Cutting Wheel ART14MX suits ART 3FM/3EK – 19mm,,81.9,81.9,match:tilemart,67.45,46.04,24.9,,small parcel
-RDXA3626,Sigma Handle ART 24N for ART 4 Push series,,392.6,392.6,match:tilemart,272.25,220.33,11.0,,small parcel
-RDXA3625,Sigma Handle ART 24U for ART 4 Up series,,363.55,363.55,match:tilemart,261.25,204.05,14.1,,small parcel
-RDXA3477,"Sigma Jolly Edge ART37A3D, M14 thread, comes with Sigma Blade 115mm, 22mm bore, 1.3mm thick, ART 75B",,1151.1,1151.1,match:tilemart,951.25,646.03,25.3,yes,pickup/quote
-RDXA3598,"Sigma Kera Cut kit ART 8AE2, comes with 3 x ART51C suction cups, 1 x ART41C Nipper – 332cm",,2225.35,1225.0,web:Western Distributors,1835.95,1249.00,25.2,,pickup/quote
-RDXA3479,"Sigma Kera Flex Aluminium Suction Cup ART51C, suits Kera Cut, 120mm dia, 40kg capacity.",,179.1,179.1,match:tilemart,129.55,100.54,14.6,,pickup/quote
-RDXA3623,"Sigma Kera Flex Aluminium Suction Cup ART51P4, suits Kera Cut, 150mm dia, 90kg capacity",,641.9,641.9,roberts-list,530.95,360.25,25.4,yes,pickup/quote
-RDXA3628,Sigma Laser for 4 series ART022,,286.15,286.15,match:tilemart,257.35,174.90,25.2,,small parcel
-RDXA3629,Sigma Pro Grip Suction Cup ART51M3 mm for straight bar of Kera Lift 1A6 – 1D3 160mm dia,,555.15,555.15,match:tilemart,518.35,339.30,28.0,,pickup/quote
-RDXA3630,Sigma Pro Grip Suction Cup ART51M4 mm for cross bar of Kera Lift 160mm dia,,555.15,555.15,match:tilemart,518.35,339.30,28.0,,pickup/quote
-RDXA3512,Sigma Spare Wheel with axel ART14A – 12mm dia,,23.4,23.4,match:tilemart,23.80,14.30,33.9,,small parcel
-RDXA3621,Sigma Spare Wheel with axel ART14N – 16mm dia,,47.1,47.1,match:tilemart,39.70,26.46,26.7,,small parcel
-RDXA3619,Sigma Spare Wheel with axel ART14U – 12mm dia,,25.65,25.65,match:tilemart,23.70,14.36,33.4,,small parcel
-RDXA3631,Sigma Swivel Measurement Bar for 4BU ART90NB,,129.7,129.7,match:tilemart,132.15,79.31,34.0,,pickup/quote
-RDXA3632,Sigma Swivel Measurement Bar for 4CU ART90NC,,137.35,137.35,match:tilemart,139.85,83.93,34.0,,pickup/quote
-RDXA3633,Sigma Swivel Measurement Bar for 4DU ART90ND,,238.45,238.45,match:tilemart,199.99,145.75,19.8,,pickup/quote
-RDXA3503,Sigma Tile Cutter ART 2B3 – 66cm,,767.35,439.0,web:Tilers Online,683.95,430.76,30.7,,pickup/quote
-RDXA3510,Sigma Tile Cutter ART 2G – 37cm,,434.9,225.0,web:Tilers Online,368.95,244.15,27.2,,pickup/quote
-RDXA3614,Sigma Tile Cutter ART 4BU – 70cm,,1176.8,649.99,web:Tilers Online,737.55,660.44,1.5,,pickup/quote
-RDXA3615,Sigma Tile Cutter ART 4CU – 84cm,,1283.85,799.0,web:Tilers Online,791.00,720.50,-0.2,,pickup/quote
-RDXA3616,Sigma Tile Cutter ART 4DU – 103cm,,1497.75,890.0,web:CeramicsWest,935.55,840.62,1.2,,pickup/quote
-RDXA3617,Sigma Tile Cutter ART 4EN – 125cm,,2514.1,1420.0,web:Tilers Online,1763.75,1410.97,12.0,,pickup/quote
-RDXA3618,Sigma Tile Cutter ART 4FN – 155cm,,3252.3,1699.0,web:Tilers Online,2281.55,1825.23,12.0,,pickup/quote
-RDXA3498,Sigma Tile Cutter ART 7F – 37cm,,294.15,195.0,web:Tilers Online,260.95,165.17,30.4,,pickup/quote
-RDXA3622,Sigma Titanium Wheel with axel ART14NT – 16mm dia,,53.45,53.45,match:tilemart,44.05,29.98,25.1,,small parcel
-RDXA3552,Sigma Titanium Wheel with axel ART14T – 12mm,,38.4,38.4,match:tilemart,36.00,21.61,34.0,,small parcel
-RDXA3620,Sigma Titanium Wheel with axel ART14UT – 12mm,,35.3,35.3,match:tilemart,28.45,19.80,23.4,,small parcel
-RDXA3593,Sigma Workbench Clamps (pair) ART 400,,191.85,191.85,match:tilemart,158.35,107.69,25.2,yes,small parcel
-RDXA3634,Sigma complete left Support Arm ART483 for series 4,,55.3,55.3,match:tilemart,46.99,33.77,20.9,,pickup/quote
-RDXA3635,Sigma complete right Support Arm ART484 for series 4,,55.3,55.3,match:tilemart,46.99,33.77,20.9,,pickup/quote
-RDXT661,Siri Black Epoxy Grouting Pad for Mosaic Tiles,,47.9,47.9,roberts-list,36.85,23.54,29.7,,small parcel
-RDXT660,Siri Blue Epoxy Grouting Pad,,33.8,33.8,roberts-list,20.70,16.56,12.0,,small parcel
-RDXT612a,Siri Brown Sponge – Fits RDXT609 Handle,,28.25,28.25,roberts-list,21.55,13.81,29.5,,small parcel
-RDXT650,Siri Epoxy Grouting Kit,,127.55,127.55,roberts-list,99.35,59.62,34.0,,small parcel
-RDXT619,Siri Green Clean Up Pad,,17.1,17.1,roberts-list,12.15,8.25,25.3,,small parcel
-RDXT609,Siri Interchangeable Blue Handle,,17.8,17.8,roberts-list,12.30,8.75,21.7,,small parcel
-RDXT618,Siri White Rinse Pad,,17.1,17.1,roberts-list,11.30,8.25,19.7,,small parcel
-RDXT617,Siri White Velcro Base Plate – Fits RDXT609,,31.0,31.0,roberts-list,23.90,14.36,33.9,,small parcel
-RDXT662,Siri Yellow Epoxy Grouting Pad,,33.9,33.9,roberts-list,20.70,16.56,12.0,,small parcel
-RDXT610,Siri Yellow Sponge No cuts – Fits RDXT609 Handle,,26.3,26.3,roberts-list,20.10,13.81,24.4,,small parcel
-RDXT611,Siri Yellow Sponge With Cuts – Fits RDXT609 Handle,,27.4,27.4,roberts-list,23.90,14.36,33.9,,small parcel
-RDX1999,Smoothtex A,1 litre,28.5,28.5,roberts-list,23.25,16.06,24.0,,small parcel
-RDX2000,Smoothtex A,250ml,16.25,16.25,roberts-list,14.70,9.29,30.5,,small parcel
-RDX2002,Smoothtex A,5 litre,94.95,94.95,roberts-list,89.05,53.57,33.8,,small parcel
-RDX2020,Smoothtex N,1 litre,28.5,28.5,roberts-list,26.05,16.06,32.2,,small parcel
-RDX2019,Smoothtex N,250ml,16.25,16.25,roberts-list,14.95,9.29,31.6,,small parcel
+RDXA3649,Sigma 108362 M8 Nut for Locking Bolt,,11.7,11.7,roberts-list,10.50,6.50,31.9,yes,small parcel
+RDXA3580,Sigma 108362 M8 Square Nut for Locking Bolt,,7.6,7.6,roberts-list,7.35,7.60,-13.7,yes,small parcel
+RDXA3511,Sigma 108616 Locking Bolt M8x25 for Swivel Measurement Bar,,28.2,28.2,roberts-list,22.99,14.40,31.1,yes,pickup/quote
+RDXA3535,Sigma 14C Scoring Wheel (15mm),,20.86,20.86,roberts-list,19.50,10.64,40.0,yes,small parcel
+RDXA3526,Sigma 14G Kera Cut Spare Wheel (12mm),,35.8,35.8,roberts-list,33.95,18.30,40.7,yes,pickup/quote
+RDXA3651,Sigma 17A Extension Bar 500mm,,198.0,198.0,roberts-list,191.95,110.00,37.0,yes,pickup/quote
+RDXA3534,Sigma 196725 Rubber Foot,,5.4,5.4,roberts-list,5.20,3.00,36.5,yes,small parcel
+RDXA3516,Sigma 19B3 Square,,18.0,18.0,roberts-list,16.80,9.18,39.9,yes,small parcel
+RDXA3516C,Sigma 19C Square,,38.4,38.4,roberts-list,31.80,19.65,32.0,yes,small parcel
+RDXA3516B,Sigma 19D Square,,48.5,48.5,roberts-list,36.45,24.70,25.5,yes,small parcel
+RDXA3646,Sigma 19N Square 260mm,,81.0,81.0,roberts-list,58.95,45.00,16.0,yes,small parcel
+RDXA3518,Sigma 24AE Handle,,186.45,186.45,roberts-list,135.80,95.15,22.9,yes,small parcel
+RDXA3520,Sigma 24C Handle,,173.9,173.9,roberts-list,132.05,88.75,26.1,yes,small parcel
+RDXA3517,Sigma 24E Handle,,186.45,186.45,roberts-list,144.65,95.15,27.6,yes,small parcel
+RDXA3519,Sigma 24M10X Handle,,319.8,319.8,roberts-list,314.20,228.50,20.0,yes,small parcel
+RDXA3528,Sigma 24M15X Handle,,1151.1,1151.1,roberts-list,951.25,587.30,32.1,yes,small parcel
+RDXA3539,Sigma 24M20X Handle,,319.8,319.8,roberts-list,314.20,228.50,20.0,yes,small parcel
+RDXA3492,Sigma 37C Table Fixing Kit,,267.3,267.3,roberts-list,258.95,148.50,36.9,yes,small parcel
+RDXA3595,Sigma 402 Work Bench Storage Hooks for Kera-Cut,,140.75,140.75,roberts-list,135.95,71.80,41.9,yes,small parcel
+RDXA3591,Sigma 421 Carriage Kit (2 Wheel Sets w/ Slab Support and Angle Support),,1151.1,1151.1,roberts-list,1115.95,587.30,42.1,yes,small parcel
+RDXA3650,Sigma 64B2 Non-Slip Magnetic Map,,198.0,198.0,roberts-list,191.95,110.00,37.0,yes,small parcel
+RDXA3599,Sigma 8AEP2 Kera-Cut Extension Bar 50cm,,332.5,332.5,roberts-list,321.95,169.75,42.0,yes,pickup/quote
+RDXA3525C,Sigma 90D3 Sigma Swivel Measurement Bar,,123.2,123.2,roberts-list,109.99,62.83,37.2,yes,pickup/quote
+RDXA3525B,Sigma 90DG Sigma Swivel Measurement Bar,,88.2,88.2,roberts-list,84.95,88.20,-14.2,yes,pickup/quote
+RDXA3560,Sigma 90LB Sigma Swivel Measurement Bar,,268.55,268.55,roberts-list,188.55,137.10,20.0,yes,pickup/quote
+RDXA3561,Sigma 90LC Sigma Swivel Measurement Bar,,281.4,281.4,roberts-list,210.55,143.55,25.0,yes,pickup/quote
+RDXA3562,Sigma 90LD Sigma Swivel Measurement Bar,,152.6,152.6,roberts-list,139.99,77.83,38.8,yes,pickup/quote
+RDXA3585,Sigma 90LE Sigma Swivel Measurement Bar,,140.0,140.0,roberts-list,130.90,71.40,40.0,yes,pickup/quote
+RDXA3647,Sigma 90NE Sigma Swivel Measurement Bar 64cm-0-64cm,,387.0,387.0,roberts-list,374.95,215.00,36.9,yes,pickup/quote
+RDXA3544,"Sigma ART108621 Locking Bolt M8 x 40 for Series 3B,3C,3D models",,22.25,22.25,roberts-list,19.75,12.35,31.2,yes,small parcel
+RDXA3594,Sigma Aluminium Workbench ART 63E – 180 x 100,,2174.15,2174.15,match:tilemart,1781.95,1109.35,31.5,yes,pickup/quote
+RDXA3584,Sigma Cutting Wheel ART14K suits Kera Cut – 19mm dia,,69.05,69.05,match:tilemart,57.55,35.25,32.6,,pickup/quote
+RDXA3548,Sigma Cutting Wheel ART14MX suits ART 3FM/3EK – 19mm,,81.9,81.9,match:tilemart,67.45,41.85,31.7,,small parcel
+RDXA3626,Sigma Handle ART 24N for ART 4 Push series,,392.6,392.6,match:tilemart,272.25,200.30,19.1,,small parcel
+RDXA3625,Sigma Handle ART 24U for ART 4 Up series,,363.55,363.55,match:tilemart,261.25,185.50,21.9,,small parcel
+RDXA3477,"Sigma Jolly Edge ART37A3D, M14 thread, comes with Sigma Blade 115mm, 22mm bore, 1.3mm thick, ART 75B",,1151.1,1151.1,match:tilemart,951.25,587.30,32.1,yes,pickup/quote
+RDXA3598,"Sigma Kera Cut kit ART 8AE2, comes with 3 x ART51C suction cups, 1 x ART41C Nipper – 332cm",,2225.35,1225.0,web:Western Distributors,1835.95,1135.45,32.0,,pickup/quote
+RDXA3479,"Sigma Kera Flex Aluminium Suction Cup ART51C, suits Kera Cut, 120mm dia, 40kg capacity.",,179.1,179.1,match:tilemart,129.55,91.40,22.4,,pickup/quote
+RDXA3623,"Sigma Kera Flex Aluminium Suction Cup ART51P4, suits Kera Cut, 150mm dia, 90kg capacity",,641.9,641.9,roberts-list,530.95,327.50,32.1,yes,pickup/quote
+RDXA3628,Sigma Laser for 4 series ART022,,286.15,286.15,match:tilemart,257.35,159.00,32.0,,small parcel
+RDXA3629,Sigma Pro Grip Suction Cup ART51M3 mm for straight bar of Kera Lift 1A6 – 1D3 160mm dia,,555.15,555.15,match:tilemart,518.35,308.45,34.5,,pickup/quote
+RDXA3630,Sigma Pro Grip Suction Cup ART51M4 mm for cross bar of Kera Lift 160mm dia,,555.15,555.15,match:tilemart,518.35,308.45,34.5,,pickup/quote
+RDXA3512,Sigma Spare Wheel with axel ART14A – 12mm dia,,23.4,23.4,match:tilemart,23.80,13.00,39.9,,small parcel
+RDXA3621,Sigma Spare Wheel with axel ART14N – 16mm dia,,47.1,47.1,match:tilemart,39.70,24.05,33.4,,small parcel
+RDXA3619,Sigma Spare Wheel with axel ART14U – 12mm dia,,25.65,25.65,match:tilemart,23.70,13.05,39.4,,small parcel
+RDXA3631,Sigma Swivel Measurement Bar for 4BU ART90NB,,129.7,129.7,match:tilemart,132.15,72.10,40.0,,pickup/quote
+RDXA3632,Sigma Swivel Measurement Bar for 4CU ART90NC,,137.35,137.35,match:tilemart,139.85,76.30,40.0,,pickup/quote
+RDXA3633,Sigma Swivel Measurement Bar for 4DU ART90ND,,238.45,238.45,match:tilemart,199.99,132.50,27.1,,pickup/quote
+RDXA3503,Sigma Tile Cutter ART 2B3 – 66cm,,767.35,439.0,web:Tilers Online,683.95,391.60,37.0,,pickup/quote
+RDXA3510,Sigma Tile Cutter ART 2G – 37cm,,434.9,225.0,web:Tilers Online,368.95,221.95,33.8,,pickup/quote
+RDXA3614,Sigma Tile Cutter ART 4BU – 70cm,,1176.8,649.99,web:Tilers Online,737.55,600.40,10.5,,pickup/quote
+RDXA3615,Sigma Tile Cutter ART 4CU – 84cm,,1283.85,799.0,web:Tilers Online,791.00,655.00,8.9,,pickup/quote
+RDXA3616,Sigma Tile Cutter ART 4DU – 103cm,,1497.75,890.0,web:CeramicsWest,935.55,764.20,10.1,,pickup/quote
+RDXA3617,Sigma Tile Cutter ART 4EN – 125cm,,2514.1,1420.0,web:Tilers Online,1763.75,1282.70,20.0,,pickup/quote
+RDXA3618,Sigma Tile Cutter ART 4FN – 155cm,,3252.3,1699.0,web:Tilers Online,2281.55,1659.30,20.0,,pickup/quote
+RDXA3498,Sigma Tile Cutter ART 7F – 37cm,,294.15,195.0,web:Tilers Online,260.95,150.15,36.7,,pickup/quote
+RDXA3622,Sigma Titanium Wheel with axel ART14NT – 16mm dia,,53.45,53.45,match:tilemart,44.05,27.25,32.0,,small parcel
+RDXA3552,Sigma Titanium Wheel with axel ART14T – 12mm,,38.4,38.4,match:tilemart,36.00,19.65,40.0,,small parcel
+RDXA3620,Sigma Titanium Wheel with axel ART14UT – 12mm,,35.3,35.3,match:tilemart,28.45,18.00,30.4,,small parcel
+RDXA3593,Sigma Workbench Clamps (pair) ART 400,,191.85,191.85,match:tilemart,158.35,97.90,32.0,yes,small parcel
+RDXA3634,Sigma complete left Support Arm ART483 for series 4,,55.3,55.3,match:tilemart,46.99,30.70,28.1,,pickup/quote
+RDXA3635,Sigma complete right Support Arm ART484 for series 4,,55.3,55.3,match:tilemart,46.99,30.70,28.1,,pickup/quote
+RDXT661,Siri Black Epoxy Grouting Pad for Mosaic Tiles,,47.9,47.9,roberts-list,36.85,21.40,36.1,,small parcel
+RDXT660,Siri Blue Epoxy Grouting Pad,,33.8,33.8,roberts-list,20.70,15.05,20.0,,small parcel
+RDXT612a,Siri Brown Sponge – Fits RDXT609 Handle,,28.25,28.25,roberts-list,21.55,12.55,35.9,,small parcel
+RDXT650,Siri Epoxy Grouting Kit,,127.55,127.55,roberts-list,99.35,54.20,40.0,,small parcel
+RDXT619,Siri Green Clean Up Pad,,17.1,17.1,roberts-list,12.15,7.50,32.1,,small parcel
+RDXT609,Siri Interchangeable Blue Handle,,17.8,17.8,roberts-list,12.30,7.95,28.9,,small parcel
+RDXT618,Siri White Rinse Pad,,17.1,17.1,roberts-list,11.30,7.50,27.0,,small parcel
+RDXT617,Siri White Velcro Base Plate – Fits RDXT609,,31.0,31.0,roberts-list,23.90,13.05,39.9,,small parcel
+RDXT662,Siri Yellow Epoxy Grouting Pad,,33.9,33.9,roberts-list,20.70,15.05,20.0,,small parcel
+RDXT610,Siri Yellow Sponge No cuts – Fits RDXT609 Handle,,26.3,26.3,roberts-list,20.10,12.55,31.3,,small parcel
+RDXT611,Siri Yellow Sponge With Cuts – Fits RDXT609 Handle,,27.4,27.4,roberts-list,23.90,13.05,39.9,,small parcel
+RDX1999,Smoothtex A,1 litre,28.5,28.5,roberts-list,23.25,14.60,30.9,,small parcel
+RDX2000,Smoothtex A,250ml,16.25,16.25,roberts-list,14.70,8.45,36.8,,small parcel
+RDX2002,Smoothtex A,5 litre,94.95,94.95,roberts-list,89.05,48.70,39.8,,small parcel
+RDX2020,Smoothtex N,1 litre,28.5,28.5,roberts-list,26.05,14.60,38.3,,small parcel
+RDX2019,Smoothtex N,250ml,16.25,16.25,roberts-list,14.95,8.45,37.8,,small parcel
 SOC102,Socket Bits (2) fits red spindle,,6.9,6.9,roberts-list,4.30,2.59,33.7,,small parcel
 RDXT219A,Splash Trowel,,18.95,11.0,match:westerndist,15.10,9.08,33.9,,small parcel
 RDTT63B,Square Edge Aluminium Corner,10mm / Black,15.55,15.55,roberts-list,12.90,8.75,25.4,,small parcel

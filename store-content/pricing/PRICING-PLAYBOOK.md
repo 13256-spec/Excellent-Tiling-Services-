@@ -15,7 +15,8 @@ safely. Written for the owner and for the `ets-pricing` agent (`.claude/agents/e
 |---|---|---|---|
 | Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt` (5 Oct 2026 wholesale PDF), "non pallet" price | ex GST |
 | MELA bathroomware | via Bathroom City | Bathroom City list price × (1 − SILVER trade discount) ÷ 1.1 | ex GST |
-| Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost in Shopify = Roberts trade-account price x 1.1 (owner, 14 Oct 2026: the account prices did not include GST) | as stored; use the floor formula as is |
+| Roberts Designs (vendor) | Roberts Designs | unit cost in Shopify = trade-account price x 1.1 (owner, 14 Oct 2026: the account prices did not include GST) | as stored; use the floor formula as is |
+| Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify (trade-account price, 28 Sep 2026) | ex GST |
 | BAT, RLA, Click (a few items) | – | **no cost recorded**, prices left alone | – |
 
 SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off the GST-inclusive list price:

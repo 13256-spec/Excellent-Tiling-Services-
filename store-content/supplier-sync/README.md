@@ -124,11 +124,11 @@ For the other 35 the new price would be above market, so these **36 products sta
 
 ## Roberts Designs costs corrected for GST (14 Oct 2026)
 
-The owner confirmed the Roberts trade-account prices recorded as cost on 28 Sep did not include GST. Every unit cost on the 920 Roberts-supplied variants in Shopify (vendors Roberts Designs, Maxisil, Sigma, Siri, Baron and Barwalt, plus the pocket knife ETS-HW-005) was multiplied by 1.1. Selling prices were left as they are: the owner's call is that prices follow the market, not the cost.
+The owner confirmed the Roberts Designs trade-account prices recorded as cost on 28 Sep did not include GST. Every unit cost on the 715 variants with vendor **Roberts Designs** (including the pocket knife ETS-HW-005) was multiplied by 1.1. The other brands bought through Roberts (Maxisil, Sigma, Siri, Baron, Barwalt: 205 variants) were left at their 28 Sep cost on the owner's instruction. Selling prices were not changed: the owner's call is that prices follow the market, not the cost.
 
-- `roberts-designs-pricing.csv`: `our_cost` x 1.1 on all 935 rows, `our_price` refreshed to the live price, `margin_pct` recomputed.
-- `../pricing/store-pricing-2026-10-03.csv`: cost, price and margins refreshed on the 873 Roberts-supplied rows (`cost_src` says so).
-- 121 variants are now under the 25% profit floor (cost x 1.1 x 1.25). They are listed worst-first in `../pricing/reports/roberts-gst-below-floor-2026-10-14.csv` for the owner to decide: Baron E120 (-3.9%), Sigma 4CU, 4DU and 4BU cutters (0 to 1.5%), Sigma 19N square and Barwalt knee pad (under 8%), then 115 items between 11% and 24.9%, mostly Maxisil silicone colours and Roberts trims. Nothing was repriced.
+- `roberts-designs-pricing.csv`: `our_cost` x 1.1 on the Roberts Designs rows, `our_price` refreshed to the live price on every row, `margin_pct` recomputed.
+- `../pricing/store-pricing-2026-10-03.csv`: cost, price and margins refreshed on the 694 Roberts Designs rows (`cost_src` says so); the other Roberts-supplied brands had their price and margins refreshed only.
+- 48 Roberts Designs variants are now under the 25% profit floor (cost x 1.1 x 1.25), between 12.0% and 19.1% margin. They are listed worst-first in `../pricing/reports/roberts-gst-below-floor-2026-10-14.csv` for the owner to decide. Nothing was repriced.
 
 ## DSA bathroomware from Eternity (14 Oct 2026)
 
