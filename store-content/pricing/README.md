@@ -86,3 +86,16 @@ ordered at $199. Its recorded cost ($225.91 ex GST) was copied from the Matt Whi
 doesn't list a plain White, so the "below cost" flag may be wrong. Owner to confirm whether MELA supplies
 it and at what SILVER cost. To bring it back: set the variant's inventory policy to CONTINUE (or untrack
 inventory) and re-price against the real cost. Matt Black and Matt White ($337) are unaffected.
+
+## Eternity "wholesale essentials" list (V27102025.01, received 14 Oct 2026)
+
+`eternity-essentials-2025-10-27.csv`: the 30 lines from Eternity's essentials sheet (cement, Easy Screed, WPA
+waterproofing, TPA/Sika adhesives, Ardex FS-DD grout and SE silicone, aluminium angles, LX linear drains, tile
+insert and square-plate floor wastes), wholesale ex GST. It does **not** cover the DSA bathroomware (tapware,
+showers, vanities, basins, sinks, mirrors, toilet); that request is still `DSA-trade-price-request-2026-10-14.xlsx`.
+
+Applied: BL-TID50 ($38.25) and BL-TID80 ($38.25) recorded as the cost of the two DSA tile insert floor wastes
+(50mm given SKU BL-TID50; the 80mm keeps its web code; `needs-cost` removed). The two FLRG-SFD square-plate
+drains ($11.01 / $16.11) probably match the Twist Top Floor Drains 80mm/100mm but the sizes don't line up, so
+nothing recorded until Eternity confirms. The other 25 items are not stocked; `proposed_price_inc_gst` in the CSV
+is cost x 1.1 (GST) / 0.65 (35% margin on the ex-GST sale price), rounded up to 5c, for the owner to approve.
