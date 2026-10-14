@@ -22,6 +22,11 @@ what the website already showed as the fallback. Brand assets, Shop Store naviga
 collection lists can only be set in admin: the values to paste in are in
 [store-content/shop-app-store-setup.md](store-content/shop-app-store-setup.md).
 
+## Storefront filters
+
+Collection and search pages only filter by availability and price because the Search & Discovery app is not
+installed. Setup steps and the product fields that feed the filters: [store-content/search-filters-setup.md](store-content/search-filters-setup.md).
+
 ## DSA bathroomware (14 Oct 2026)
 
 Eternity's non-tile "DSA" range (Celine/Chloe tapware and showers, Malaga vanities, basins, sinks, LED mirrors,
