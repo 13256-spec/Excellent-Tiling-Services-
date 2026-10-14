@@ -44,14 +44,14 @@ baths). Those are reported as "can't beat profitably", never matched.
 ## The rules (all prices inc GST, costs ex GST)
 
 - **Public floor** = cost × 1.1 × 1.25 (at least 20% of the selling price is profit).
-- **Trade floor** = cost × 1.1 × 1.15.
+- **Trade floor** (owner, 14 Oct 2026): the trade price must leave **20% margin ex GST**, i.e. trade price ≥ cost ÷ 0.8 × 1.1. (Until 14 Oct it was cost × 1.1 × 1.15, about 13%, which the owner found too cheap.)
 - **MELA** = 5% under Bathroom City's current price, rounded down to the dollar.
 - **Hardware B&B also sells** = 5% under B&B, rounded down to 5c.
 - **Other hardware** = 10% under the supplier RRP (our old price), rounded down to 5c.
 - **Tiles** = 15% under Eternity RRP, rounded down to 10c (`eternity_2026_10.py`).
 - Never undercut below the public floor. Prices below the floor are raised only with the owner's OK.
 - **Trade bands** (per product, not per variant): the deepest of 25 / 20 / 15 / 10 / 5% that keeps every
-  variant above the trade floor. Tiles max 15%.
+  variant above the trade floor. Tiles max 15%. A product with no band that works gets no trade discount (it is in none of the `trade-list-N` collections).
 
 ## Where things are in Shopify
 
