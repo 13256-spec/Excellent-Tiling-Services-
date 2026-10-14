@@ -99,3 +99,12 @@ Applied: BL-TID50 ($38.25) and BL-TID80 ($38.25) recorded as the cost of the two
 drains ($11.01 / $16.11) probably match the Twist Top Floor Drains 80mm/100mm but the sizes don't line up, so
 nothing recorded until Eternity confirms. The other 25 items are not stocked; `proposed_price_inc_gst` in the CSV
 is cost x 1.1 (GST) / 0.65 (35% margin on the ex-GST sale price), rounded up to 5c, for the owner to approve.
+
+## Eternity vanity packages (sheet "Wholesale Vanity Package Pricing 2025", received 14 Oct 2026)
+
+`eternity-vanity-packages-2025.csv`: RRP and the three wholesale tiers (account 45% off, COD / 5-buy account 50%,
+5-buy COD 55%) for the Malaga all-in-one packages. Two products created live at RRP (owner: sell at Eternity's
+price for now), `malaga_packages_2026_10.py` -> `supplier-sync/malaga-packages-2026-10-14.json`:
+China Top (3 colours x 750/900/1200) and Stone Top (3 colours x 750/900/1200/1500/1800). Stone colour (White Burst /
+Blanco Bliss) and basin shape are taken in the order notes, not as variants. No cost recorded yet: the owner has to
+say which wholesale tier ETS is on. Package photos are the sheet's own images (`supplier-sync/malaga-package-images/`).
