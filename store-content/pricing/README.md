@@ -66,6 +66,7 @@ was compared with, and any flag. Rules are in the script's docstring. In short:
   at most 10% and stay under the competitor; bigger gaps are flagged `BELOW PROFIT FLOOR` and left.
 - MELA costs are estimates (Bathroom City list × (1 − SLIVER trade discount)); the sheet's discount is off
   the GST-inclusive list, so they're stored ex GST (÷ 1.1).
+- 14 Oct 2026: the 873 Roberts-supplied rows (Roberts Designs, Maxisil, Sigma, Siri, Baron, Barwalt) had their cost multiplied by 1.1 after the owner confirmed the Roberts account prices did not include GST; `new_price` on those rows was refreshed to the live price and both margins recomputed. Prices unchanged. The 121 variants now under the floor are in `reports/roberts-gst-below-floor-2026-10-14.csv`.
 - Trade: per-product bands of 5/10/15/20/25% (tiles max 15%), each the deepest that keeps every
   variant above the trade floor. Shopify Basic has no B2B price lists, so each band is a manual (unpublished)
   collection `trade-list-5` ... `trade-list-25` with an automatic discount "Trade price – N%" for the

@@ -122,6 +122,14 @@ For the other 35 the new price would be above market, so these **36 products sta
 - Tile Trims & Edging and Tile Cutters & Accessories are published to all channels and added under **Hardware** in the main menu.
 - Roberts pocket knife (ETS-HW-005) was not in this sheet and was left as it was.
 
+## Roberts Designs costs corrected for GST (14 Oct 2026)
+
+The owner confirmed the Roberts trade-account prices recorded as cost on 28 Sep did not include GST. Every unit cost on the 920 Roberts-supplied variants in Shopify (vendors Roberts Designs, Maxisil, Sigma, Siri, Baron and Barwalt, plus the pocket knife ETS-HW-005) was multiplied by 1.1. Selling prices were left as they are: the owner's call is that prices follow the market, not the cost.
+
+- `roberts-designs-pricing.csv`: `our_cost` x 1.1 on all 935 rows, `our_price` refreshed to the live price, `margin_pct` recomputed.
+- `../pricing/store-pricing-2026-10-03.csv`: cost, price and margins refreshed on the 873 Roberts-supplied rows (`cost_src` says so).
+- 121 variants are now under the 25% profit floor (cost x 1.1 x 1.25). They are listed worst-first in `../pricing/reports/roberts-gst-below-floor-2026-10-14.csv` for the owner to decide: Baron E120 (-3.9%), Sigma 4CU, 4DU and 4BU cutters (0 to 1.5%), Sigma 19N square and Barwalt knee pad (under 8%), then 115 items between 11% and 24.9%, mostly Maxisil silicone colours and Roberts trims. Nothing was repriced.
+
 ## DSA bathroomware from Eternity (14 Oct 2026)
 
 Everything Eternity lists under vendor "DSA" that is not a tile (the tiles were already in the store):
