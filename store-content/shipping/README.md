@@ -156,6 +156,17 @@ Shipping weights for tapware are estimates (kitchen mixers 2.4–3 kg). Weighing
 
 The theme (now published as "ETS 2026 – Restored (5 Oct)") still says "from $35" for international in two places: the delivery page "Where we deliver" panel (`sections/ets-standard-page.liquid`) and the delivery FAQ (`templates/page.delivery.json`). The repo copies say "from $29", but theme writes to the live theme are blocked. Fix in the theme editor (Delivery page FAQ) or through a draft copy of the theme. The Delivery & Pickup page body and the shipping policy text already say $29.
 
+## Live Australia Post rates and ShipX (5 Oct 2026, later)
+Superseded on 6 Oct: ShipX was cancelled and box sizes now live in the `shipping.box_size` metafield (see below). Kept for history.
+
+The owner changed shipping to one profile (General) with live Australia Post MyPost Business rates for Australia (Parcel Post, Express Post) and NZ/US/UK/UAE (International Standard, Express). No fixed prices and no free shipping. Perth local delivery ($75 near, $180 further, about $200 minimum) and pickup are on. Checkout prices every cart in the default 30x25x20 box, so bulky items are undercharged (basin to Sydney $43.70).
+
+ShipX – Shipping Rates & Rules (Premium trial) is installed to price each item in its own box. ShipX can't use MyPost Business rates, so it uses the Australia Post Postage Assessment Calculator (PAC, retail prices; synced). Dimensions live inside ShipX (ShipX → Products, or ··· → Import product dimensions), not in Shopify metafields.
+
+`shipx-dimensions-master.csv`: box size (cm) and weight (kg) for all 1,572 live variants, from `product-weights.csv`; 47 newer tile variants use an estimated 62x62x8 tile box. Map it onto ShipX's exported CSV and import.
+
+Planned ShipX rates: Australia and Global scenarios using PAC, conditions per unit for ALL products: weight ≤ 22 kg and length ≤ 105 cm; no handling fee, no fallback. Once ShipX rates show at checkout, remove Shopify's own Australia Post rate from the General profile, then update the site's delivery wording (it still says "from $20, free over $1,000" in many places).
+
 ## Checkout test (5 Oct 2026, 11:25 pm Perth) — from the marketing session
 Live Shopify settings at the time: only the **General profile** exists, and its only rates are two carrier
 services: "Australia Post MyPost Business (own account)" and "Shipx - Shipping Rates & Rules (via app)". The
