@@ -82,6 +82,9 @@ baths). Those are reported as "can't beat profitably", never matched.
    request under 16,384 characters. `bulkOperationRunMutation` is blocked in this setup.
 4. If a trade band changes, move the product between `trade-list-N` collections
    (`collectionRemoveProducts` / `collectionAddProducts`).
+   **Also set the product metafield `ets.trade_band` to the same number (0 if no list).** The theme shows the
+   trade price and the "N% off" note from this field, not from the collection, so a stale value shows trade
+   customers the wrong price.
 5. Update `store-pricing-2026-10-03.csv`, rerun `price_list_pdf.py`, commit, and tell the owner in plain
    words what changed.
 

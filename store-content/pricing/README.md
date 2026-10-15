@@ -126,3 +126,7 @@ The owner confirmed Maxisil costs from the Roberts trade account were ex GST, an
 - 18 products moved to a smaller discount (mostly 15% to 5%, grout 5/10kg and Natural Stone to 10%, primers 1215-1217 and the caulking gun to 15%). Pool silicone no longer gets a trade discount. Wet Area silicone and Maxigrab already had none.
 - Wet Area silicone ($16.25, 12% margin on the new cost) and Maxigrab ($15.99 / $18.85, 14% and 23%) now sit under the 20% profit floor at the public price. Online they sell for about $18.50 and $22.12, so there is room to raise them if the owner wants.
 
+
+## Trade price label fixed (15 Oct 2026)
+
+The product page showed trade customers the old discount (e.g. Maxisil Natural Stone: "25% off, $20.99" while the cart gave 10%, $25.19). The theme reads `ets.trade_band`, which had not been updated when products moved between `trade-list-N` collections on 14-15 Oct. All 840 out-of-sync products were reset so `ets.trade_band` matches their `trade-list-N` collection (0 when in none). Step 4 of the playbook now says to update both.
