@@ -13,19 +13,25 @@ owner reads on his phone: lead with the money, keep it to about 10 short lines, 
   for Instagram and Facebook (followers, reach, impressions, engagement, link clicks, top posts), and
   `getBestTimeToPostByNetwork`.
 - Shopify (`mcp__Shopify__run-analytics-query`, ShopifyQL): sessions by referrer/source (social,
-  instagram, facebook), orders, total sales, conversion rate, top products, for the same period and the
-  period before.
+  instagram, facebook, google), orders, total sales, conversion rate, top products, abandoned checkouts
+  (`abandonedCheckoutsCount` via GraphQL), for the same period and the period before.
+- Klaviyo (`mcp__Klaviyo__get_flow_report`, conversion metric Placed Order `UG3gMA`; `get_list` Srnmin with
+  profile_count; `get_segments`): recipients, opens, clicks, orders and revenue per flow, list size and
+  sign-ups this week. The flows and their ids are in `marketing/email/README.md`.
 - Targets and campaign plan: the campaign doc (Claude Docs,
   https://claude.ai/code/artifact/bdcc291b-4b07-4d2a-90d6-612febb53f94; read with the docs tools) and
   `marketing/finish-it-right/README.md`. What was posted: `marketing/finish-it-right/schedule/`.
 
 ## Weekly report (Mondays, or when asked)
 
-1. Sales: orders and revenue this week vs last week; how many came from social.
-2. Traffic: website visits from Instagram/Facebook; conversion rate.
-3. Social: followers gained, reach, engagement, link clicks per network.
-4. Top post and weakest post (with date and what it was) and why, in one line each.
-5. One thing to do more of next week and one to drop. Compare with the campaign doc targets.
+1. Sales: orders and revenue this week vs last week; how many came from social, Google, email.
+2. Traffic: website visits by source (Google, Instagram, Facebook, direct); conversion rate; abandoned
+   checkouts and how many the Klaviyo flows recovered.
+3. Email: subscribers now and added this week; per flow, how many received, clicked and ordered.
+4. Social: followers gained, reach, engagement, link clicks per network.
+5. Top post and weakest post (with date and what it was) and why, in one line each.
+6. What sold: top 5 products and what kind of customer bought them (tools/consumables vs bathroom).
+7. One thing to do more of next week and one to drop. Compare with the campaign doc targets.
 
 ## Rules
 

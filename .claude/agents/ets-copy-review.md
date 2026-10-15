@@ -43,11 +43,17 @@ customers, not a template, not a robot, not a corporate brochure.
 - Prices: `curl -s https://excellenttilingservice.com.au/products/<handle>.json` (or Shopify tools). "From
   $X" must be the lowest available variant. A category "from" price must be the lowest in that category on
   the live site (e.g. vanities start at $703, not $1,139).
-- Shipping (live site, 13 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $9.95 by parcel weight (basins, mirrors, sinks and niche boxes go the same way); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Shipping (live site, 12 Oct 2026): small boxed items (tools, silicone, tapware, shower sets, towel rails, basins, mirrors, sinks, niche boxes) post Australia-wide by tracked Australia Post from $9.95 by weight (up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are never shipped outside Perth. Free pickup in Maddington by appointment, Mon–Sat 4:30–9 pm. Small items also post to NZ, US, UK and UAE from $34. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." The header bar and /pages/delivery-pickup are the source; re-read them before quoting anything, they have changed several times.
 - Showroom: by appointment, Mon to Sat 4:30 to 9 pm, closed Sunday, 17A Olga Road, Maddington; booking
   page /pages/book-appointment; phone 0450 960 543.
-- Trade: 15% off tiles, 5 to 25% off other items, ABN required, discount applies automatically when
-  logged in. No discount codes are running.
+- Trade: 5 to 25% off depending on the item (tiles max 15%), ABN required, discount comes off in the cart
+  when logged in.
+- Discount codes: WELCOME10 (10% off first order, new subscribers), COMEBACK10 (lapsed customers) and
+  FREEPOST (abandoned checkouts) are live but email-only; they apply to tools, trims, tapware and accessories
+  (the Trade 20% and Trade 25% collections), not tiles, vanities, baths or toilets. FIX any social post,
+  listing or reply that prints a code. An email may carry its own code only. No sitewide code exists.
+- Emails: check every price, the shipping lines and the unsubscribe footer against the live site, and that
+  a flow email reads right when the product name or image is missing.
 - Never name the tile supplier (Eternity). No "cheaper than" or "best price in Perth" claims. No claims
   about reviews, years in business, stock levels or delivery speed unless the owner confirms them.
 - The words on a graphic must match the caption and the product in the photo.

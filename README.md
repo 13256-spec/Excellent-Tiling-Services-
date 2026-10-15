@@ -13,6 +13,23 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Marketing automation and holiday rollouts (12 Oct 2026)
+
+- Customer email runs in Klaviyo: nine automated flows (welcome, browse abandonment, abandoned cart and
+  checkout, post-purchase and review ask, repeat purchase at day 21, win-back, trade), three email-only codes
+  (WELCOME10, COMEBACK10, FREEPOST). Map, ids and the owner's switch-on list: `marketing/email/README.md`.
+  Agent: `.claude/agents/ets-email.md`.
+- Black Friday 2026 is staged, not live: a 222-product collection and an automatic 15% discount parked as
+  expired, to be bundled with two theme-editor changes in a Shopify **Rollout** (admin home → Create a
+  rollout) that only the owner can create and schedule. Plan, numbers and the click-by-click: `marketing/holiday-2026/ROLLOUT-PLAN.md`.
+- Social, week of 13–19 Oct: ten extra "premium" sales posts (real product photo + navy price band) are
+  queued in Metricool at 12:15 pm (feed) and 12:30 pm (Story, alternate days) next to the existing 6:30 pm
+  and 7:30 pm clean-look posts. Builder, plans, captions and Metricool ids: `marketing/finish-it-right/premium/`.
+- The `ets-*` agents share one shipping rule (post from $9.95, free on WA orders over $100 and
+  Australia-wide over $150; tiles and large items Perth metro only) taken from the live header bar and
+  `/pages/delivery-pickup`. `theme/sections/header-group.json` and `footer-group.json` were re-synced to the
+  live theme the same day (the live pop-up offers WELCOME10 after a 45 s delay).
+
 ## Shop app (Shop sales channel), 12 Oct 2026
 
 The Shop app store was almost empty: 5 of 921 active products and no collections were on the Shop

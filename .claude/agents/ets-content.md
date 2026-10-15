@@ -17,8 +17,15 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
 - Feed post = 1 to 4 photo carousel, 1080x1350. Story = one photo, 1080x1920, no text.
   Build with `marketing/finish-it-right/clean/make_slides.py plan.json outdir` (room shots cover-cropped,
   white studio shots fitted on white). Never repeat the same photo twice in one post. Look at every slide.
-- Schedule: 12:15 pm product post, 4:30 pm photo Reel (from 13 Oct, `marketing/finish-it-right/reels/make_reel.py`:
-  store photos only, name and price under the photo, CC0 music), 6:30 pm photo carousel, 7:30 pm Story. Instagram + Facebook together.
+- Schedule (Instagram + Facebook together): 12:15 pm premium sales post, 4:30 pm photo Reel (from 13 Oct,
+  `marketing/finish-it-right/reels/make_reel.py`: store photos only, name and price under the photo, CC0 music),
+  6:30 pm photo carousel, 7:30 pm Story.
+- The 12:15 pm "premium" sales post (owner, 12 Oct 2026): one real product photo, a 6 px
+  tile-blue rule, then a navy band with the product name, one benefit line, the live price in blue and a
+  "Shop · link in bio" pill. Build with `marketing/finish-it-right/premium/make_premium.py plan.json outdir`
+  (`fit: studio` for white studio shots, `cover` for room shots, `zoom` to tighten small products).
+  Captions for this slot may open with a hook and must still carry the real price, one delivery line, the
+  product link and five hashtags. Example week: `premium/plan-week3.json` + `premium/captions-week3.json`.
 - Captions: calm and short, like a catalogue. Line 1 product name. One or two plain lines on what it is.
   Price and sizes. One delivery line. Three hashtags. No sales hooks, no "link in bio" spam, no emoji,
   no exclamation marks. Say what's not included when the photo shows it (e.g. "Mirror sold separately").
@@ -34,9 +41,14 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
   never invented), the live price, how they get it, "Shop at excellenttilingservice.com.au (link in bio)",
   then 6–8 hashtags (#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes
   #bathroominspo #maddington plus 1–2 for the product).
-- Shipping (live site, 13 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $9.95 by parcel weight (basins, mirrors, sinks and niche boxes go the same way); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Shipping (live site, 12 Oct 2026): small boxed items (tools, silicone, tapware, shower sets, towel rails, basins, mirrors, sinks, niche boxes) post Australia-wide by tracked Australia Post from $9.95 by weight (up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are never shipped outside Perth. Free pickup in Maddington by appointment, Mon–Sat 4:30–9 pm. Small items also post to NZ, US, UK and UAE from $34. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." The header bar and /pages/delivery-pickup are the source; re-read them before quoting anything, they have changed several times.
 
-- No discount codes, no "cheaper than" or "lowest price" claims, never the tile supplier's name (Eternity).
+- No discount codes in captions (WELCOME10, COMEBACK10 and FREEPOST are email-only; a caption may say "sign
+  up on the website for 10% off your first order of tools, trims and accessories"). No "cheaper than" or
+  "lowest price" claims, never the tile supplier's name (Eternity).
+- Mix (from what sells, 12 Oct 2026): at least 3 of 7 weekly posts are tiling tools, consumables or tapware
+  (the products people actually buy online); the rest vanities, tiles and showroom. Don't mention Black
+  Friday or any holiday offer until the owner approves `marketing/holiday-2026/ROLLOUT-PLAN.md`.
 
 ## Output
 

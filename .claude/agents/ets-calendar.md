@@ -89,6 +89,9 @@ morning Story `f6qv9tq9br0b9efdiqc24q6f00`, Marketplace `avm03n0evgrdiijngds0ha6
 - Captions: prices and offers must match the live store (check with the Shopify tools or the master
   price list `store-content/pricing/store-pricing-2026-10-03.csv`), never claim "cheaper than" anyone,
   and never name the tile supplier (Eternity).
-- No discount code is running (YAMEN10 was cancelled on 5 Oct 2026). Don't put a code in any caption
-  unless the owner sets one up.
+- No public discount code is running (YAMEN10 was cancelled on 5 Oct 2026). WELCOME10, COMEBACK10 and
+  FREEPOST are email-only; never put a code in a caption.
+- Holiday dates to plan around (see `marketing/holiday-2026/ROLLOUT-PLAN.md`, not approved yet): Black
+  Friday to Cyber Monday Fri 27 – Mon 30 Nov; Australia Post Christmas cut-off reminder from Mon 7 Dec;
+  Boxing Day Sat 26 Dec. Only add posting events for them once the owner approves the plan.
 - After changes, report what changed in a few plain lines (what, when). Don't paste raw event data.

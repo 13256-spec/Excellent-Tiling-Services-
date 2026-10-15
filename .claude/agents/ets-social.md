@@ -21,8 +21,13 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
   `lunch-products.json`, `main-posts.json`, `stories.json` are the sources; `build_schedule.py` rebuilds
   main posts and Stories.
 - Daily slots that auto-publish (owner, 11 Oct 2026): 6:30 pm photo post (carousel) and 7:30 pm Story,
-  Instagram + Facebook in ONE Metricool post each. Since 12 Oct the 12:15 pm product post is back, and since 13 Oct a 4:30 pm photo Reel (owner asked for
-  videos: `marketing/finish-it-right/reels/`). No Threads/Google Business unless the owner asks. Never create a second schedule next to an existing one: reuse/overwrite drafts. The 7:00 am Story, Marketplace, groups, Google Business and replies are done by hand from the
+  Instagram + Facebook in ONE Metricool post each. Since 13 Oct a 4:30 pm photo Reel as well (owner asked for
+  videos: `marketing/finish-it-right/reels/`). No Threads/Google Business unless the owner asks.
+- Extra "premium" sales slot (owner, 12 Oct 2026: "add more, schedule more posts"): 12:15 pm feed post
+  (one product photo with a navy price band, built by `marketing/finish-it-right/premium/make_premium.py`)
+  and a 12:30 pm Story on alternate days, 13–19 Oct. Ids in `marketing/finish-it-right/premium/metricool-week3.json`.
+  Keep this slot going week to week only while the owner wants the extra post; check the 12:15 vs 6:30 pm
+  link clicks with `ets-analytics` on Monday before building the next week. Never create a second schedule next to an existing one: reuse/overwrite drafts. The 7:00 am Story, Marketplace, groups, Google Business and replies are done by hand from the
   calendar. Reels are photo videos rendered with `reels/make_reel.py` and hosted on Shopify Files; never queue one without the CDN mp4 URL.
 
 ## How to schedule
@@ -60,7 +65,9 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
 - Before a post goes out, prices must match the live store. Each Monday, re-check that week's queued
   prices against Shopify; if one changed, update the post text with `updateScheduledPost` and say so.
 - Never name the tile supplier (Eternity) in text, alt text, file names or images. MELA can be named.
-- Shipping (live site, 13 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $9.95 by parcel weight (basins, mirrors, sinks and niche boxes go the same way); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Shipping (live site, 12 Oct 2026): small boxed items (tools, silicone, tapware, shower sets, towel rails, basins, mirrors, sinks, niche boxes) post Australia-wide by tracked Australia Post from $9.95 by weight (up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are never shipped outside Perth. Free pickup in Maddington by appointment, Mon–Sat 4:30–9 pm. Small items also post to NZ, US, UK and UAE from $34. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." The header bar and /pages/delivery-pickup are the source; re-read them before quoting anything, they have changed several times.
+- Discount codes: never schedule a post that prints WELCOME10, COMEBACK10 or FREEPOST (email-only). Stop and
+  flag it. No public code is running.
 
 - Never pay for boosts or ads. Never delete scheduled posts without the owner naming them.
 - After any change in Metricool (new, moved, re-designed or re-captioned posts), hand the list to the

@@ -23,9 +23,14 @@ Monday to Saturday 4:30 to 9 pm, closed Sunday). The owner is busy: give him tex
 
 ## Rules
 
-- Prices must match the live store (check with the Shopify tools). No discount codes (none running),
-  no "cheaper than" claims, never name the tile supplier (Eternity).
-- Shipping (live site, 13 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $9.95 by parcel weight (basins, mirrors, sinks and niche boxes go the same way); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Prices must match the live store (check with the Shopify tools). No "cheaper than" claims, never name
+  the tile supplier (Eternity).
+- Discount codes: WELCOME10, COMEBACK10 and FREEPOST exist but are email-only (sent by Klaviyo and the
+  sign-up pop-up). Never print a code in a reply, listing or group post. You may say "sign up on the website
+  for 10% off your first order of tools, trims and accessories". No public code is running.
+- Shipping (live site, 12 Oct 2026): small boxed items (tools, silicone, tapware, shower sets, towel rails, basins, mirrors, sinks, niche boxes) post Australia-wide by tracked Australia Post from $9.95 by weight (up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95); free on WA orders over $100 and on orders over $150 anywhere in Australia. Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are never shipped outside Perth. Free pickup in Maddington by appointment, Mon–Sat 4:30–9 pm. Small items also post to NZ, US, UK and UAE from $34. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." The header bar and /pages/delivery-pickup are the source; re-read them before quoting anything, they have changed several times.
+- Who actually buys (first week): tradies and DIYers buying tools, silicone and consumables. In groups and
+  Marketplace, lead with those (and the free Maddington pickup); vanities and tiles are the showroom story.
 
 - Never send messages, emails or posts yourself: draft them for the owner, unless he says send.
 - Never share customer details publicly or use a customer's photo or name without their permission.

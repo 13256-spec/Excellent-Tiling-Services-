@@ -1,0 +1,18 @@
+{
+  "note": "Premium sales posts scheduled in Metricool on 12 Oct 2026 (owner: 'add more, schedule more posts'). These are ADDITIONAL posts next to the clean-look 6:30 pm posts and 7:30 pm Stories already queued for 13-19 Oct. Feed posts 12:15 pm Perth, Stories 12:30 pm Perth, Instagram + Facebook, autoPublish. Images hosted on Shopify Files (cdn.shopify.com), Metricool copied them to static.metricool.com.",
+  "blogId": "7234377",
+  "timezone": "Australia/Perth",
+  "posts": [
+    {"date": "2026-10-13T12:15", "type": "POST", "product": "Raimondi re-usable double spacer", "id": 394077301, "uuid": "3660659927904961553", "shopify_file": "gid://shopify/MediaImage/30391998349375", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-2026-10-13-mon-spacers.jpg?v=1791815749"},
+    {"date": "2026-10-14T12:15", "type": "POST", "product": "MELA FLOVA basin mixer", "id": 394077357, "uuid": "7060042455928359668", "shopify_file": "gid://shopify/MediaImage/30391998382143", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-2026-10-14-tue-flova.jpg?v=1791815749"},
+    {"date": "2026-10-14T12:30", "type": "STORY", "product": "MELA FLOVA matt black", "id": 394077937, "uuid": "-7978225992690678533", "shopify_file": "gid://shopify/MediaImage/30391998578751", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-story-flova-black.jpg?v=1791815749"},
+    {"date": "2026-10-15T12:15", "type": "POST", "product": "Maxisil wet area silicone", "id": 394077441, "uuid": "-9079506736847763311", "shopify_file": "gid://shopify/MediaImage/30391998414911", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-2026-10-15-wed-maxisil.jpg?v=1791815749"},
+    {"date": "2026-10-16T12:15", "type": "POST", "product": "Square grate floor waste 50 mm", "id": 394077505, "uuid": "-4501259548616930153", "shopify_file": "gid://shopify/MediaImage/30391998447679", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-2026-10-16-thu-waste.jpg?v=1791815749"},
+    {"date": "2026-10-16T12:30", "type": "STORY", "product": "Square grate floor waste", "id": 394077974, "uuid": "-4169985788047307782", "shopify_file": "gid://shopify/MediaImage/30391998644287", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-story-waste.jpg?v=1791815749"},
+    {"date": "2026-10-17T12:15", "type": "POST", "product": "Heavy duty floor scraper", "id": 394077565, "uuid": "5612392181745271226", "shopify_file": "gid://shopify/MediaImage/30391998480447", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-2026-10-17-fri-scraper.jpg?v=1791815749"},
+    {"date": "2026-10-18T12:15", "type": "POST", "product": "Time Stone Moon porcelain tile", "id": 394077818, "uuid": "-386614860029474151", "shopify_file": "gid://shopify/MediaImage/30391998513215", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-2026-10-18-sat-moon.jpg?v=1791815749"},
+    {"date": "2026-10-18T12:30", "type": "STORY", "product": "Time Stone Moon", "id": 394078018, "uuid": "-6100262140351526665", "shopify_file": "gid://shopify/MediaImage/30391998611519", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-story-moon.jpg?v=1791815749"},
+    {"date": "2026-10-19T12:15", "type": "POST", "product": "MELA BRITTANY 1200 vanity", "id": 394077890, "uuid": "-3819835175226618075", "shopify_file": "gid://shopify/MediaImage/30391998545983", "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-premium-2026-10-19-sun-brittany.jpg?v=1791815749"}
+  ],
+  "planner": "https://app.metricool.com/planner/calendar?blogId=7234377"
+}
