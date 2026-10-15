@@ -1,0 +1,2785 @@
+{
+ "variants": {
+  "bat-aluminium-tiling-angle-3m": [
+   {
+    "options": {
+     "Size": "4.5mm",
+     "Colour": "Linished Satin Nickel"
+    },
+    "sku": "AA-4-3-SNP",
+    "cost": 11.25,
+    "price": 19.7,
+    "weight": 0.39,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "6mm",
+     "Colour": "Linished Copper"
+    },
+    "sku": "AA-6-3-LCP",
+    "cost": 11.75,
+    "price": 20.95,
+    "weight": 0.39,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "6mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "AA-6-3-LMP",
+    "cost": 11.75,
+    "price": 20.95,
+    "weight": 0.39,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "6mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-6-3-LNP",
+    "cost": 11.75,
+    "price": 20.95,
+    "weight": 0.39,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Mill Finish (Unpunched)"
+    },
+    "sku": "AA-8-3-UP",
+    "cost": 6.4,
+    "price": 14.1,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-8-3-LNP",
+    "cost": 12.35,
+    "price": 21.95,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Ancient White"
+    },
+    "sku": "AA-8-3-AWP",
+    "cost": 11.65,
+    "price": 20.95,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Medium Grey"
+    },
+    "sku": "AA-8-3-MEP",
+    "cost": 11.65,
+    "price": 20.95,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Manhattan"
+    },
+    "sku": "AA-8-3-MHP",
+    "cost": 11.65,
+    "price": 20.95,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Moon White"
+    },
+    "sku": "AA-8-3-MOP",
+    "cost": 11.65,
+    "price": 20.95,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Mill Finish (Unpunched)"
+    },
+    "sku": "AA-9-3-UP",
+    "cost": 6.4,
+    "price": 14.1,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "9mm",
+     "Colour": "Linished Copper"
+    },
+    "sku": "AA-9-3-LCP",
+    "cost": 12.05,
+    "price": 21.95,
+    "weight": 0.44,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Mill Finish (Unpunched)"
+    },
+    "sku": "AA-10-3-UP",
+    "cost": 6.5,
+    "price": 14.3,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-10-3-LNP",
+    "cost": 13.6,
+    "price": 23.95,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Ancient White"
+    },
+    "sku": "AA-10-3-AWP",
+    "cost": 12.75,
+    "price": 22.95,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Medium Grey"
+    },
+    "sku": "AA-10-3-MEP",
+    "cost": 12.75,
+    "price": 22.95,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Manhattan"
+    },
+    "sku": "AA-10-3-MHP",
+    "cost": 12.75,
+    "price": 22.95,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Moon White"
+    },
+    "sku": "AA-10-3-MOP",
+    "cost": 12.75,
+    "price": 22.95,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Mill Finish (Unpunched)"
+    },
+    "sku": "AA-11-3-UP",
+    "cost": 6.75,
+    "price": 14.85,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-11-3-LNP",
+    "cost": 13.6,
+    "price": 23.95,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Ancient White"
+    },
+    "sku": "AA-11-3-AWP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Medium Grey"
+    },
+    "sku": "AA-11-3-MEP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Manhattan"
+    },
+    "sku": "AA-11-3-MHP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Moon White"
+    },
+    "sku": "AA-11-3-MOP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Mill Finish (Unpunched)"
+    },
+    "sku": "AA-12-3-UP",
+    "cost": 7.2,
+    "price": 15.65,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-12-3-LNP",
+    "cost": 14.3,
+    "price": 25.95,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Ancient White"
+    },
+    "sku": "AA-12-3-AWP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Medium Grey"
+    },
+    "sku": "AA-12-3-MEP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Manhattan"
+    },
+    "sku": "AA-12-3-MHP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Moon White"
+    },
+    "sku": "AA-12-3-MOP",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Colour": "Mill Finish (Unpunched)"
+    },
+    "sku": "AA-15-3-UP",
+    "cost": 8.6,
+    "price": 16.9,
+    "weight": 0.5,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "AA-15-3-GMP",
+    "cost": 14.3,
+    "price": 25.95,
+    "weight": 0.5,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Colour": "Linished Copper"
+    },
+    "sku": "AA-15-3-LCP",
+    "cost": 14.9,
+    "price": 26.95,
+    "weight": 0.5,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "AA-15-3-LMP",
+    "cost": 14.9,
+    "price": 26.95,
+    "weight": 0.5,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-15-3-LNP",
+    "cost": 14.9,
+    "price": 26.95,
+    "weight": 0.5,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "AA-15-3-SMP",
+    "cost": 14.9,
+    "price": 26.95,
+    "weight": 0.5,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "18.5mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "AA-18-3-GMP",
+    "cost": 16.0,
+    "price": 28.95,
+    "weight": 0.54,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "18.5mm",
+     "Colour": "Linished Copper"
+    },
+    "sku": "AA-18-3-LCP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.54,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "18.5mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "AA-18-3-LMP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.54,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "18.5mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "AA-18-3-SMP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.54,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "AA-20-3-GMP",
+    "cost": 16.0,
+    "price": 28.95,
+    "weight": 0.55,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Colour": "Linished Copper"
+    },
+    "sku": "AA-20-3-LCP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.55,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "AA-20-3-LMP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.55,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-20-3-LNP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.55,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "22mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "AA-22-3-GMP",
+    "cost": 16.0,
+    "price": 28.95,
+    "weight": 0.57,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "22mm",
+     "Colour": "Linished Copper"
+    },
+    "sku": "AA-22-3-LCP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.57,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "22mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "AA-22-3-LMP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.57,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "22mm",
+     "Colour": "Linished Nickel"
+    },
+    "sku": "AA-22-3-LNP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.57,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "22mm",
+     "Colour": "Surfmist"
+    },
+    "sku": "AA-22-3-SMP",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.57,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "28mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "AA-28-3",
+    "cost": 12.7,
+    "price": 22.95,
+    "weight": 0.61,
+    "box": "305 x 8 x 6 cm"
+   }
+  ],
+  "bat-notched-aluminium-angle-3m": [
+   {
+    "options": {
+     "Size": "6mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "AA-6-3-BSP-N",
+    "cost": 13.55,
+    "price": 23.95,
+    "weight": 0.39,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "AA-8-3-BSP-N",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Linished Gold"
+    },
+    "sku": "AA-8-3-LGP-N",
+    "cost": 14.1,
+    "price": 24.95,
+    "weight": 0.41,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "AA-10-3-BSP-N",
+    "cost": 15.25,
+    "price": 26.95,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Linished Gold"
+    },
+    "sku": "AA-10-3-LGP-N",
+    "cost": 15.25,
+    "price": 26.95,
+    "weight": 0.45,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "AA-11-3-BSP-N",
+    "cost": 15.9,
+    "price": 27.95,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "11mm",
+     "Colour": "Linished Gold"
+    },
+    "sku": "AA-11-3-LGP-N",
+    "cost": 15.9,
+    "price": 27.95,
+    "weight": 0.46,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "AA-12-3-BSP-N",
+    "cost": 15.9,
+    "price": 27.95,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Gold"
+    },
+    "sku": "AA-12-3-LGP-N",
+    "cost": 15.9,
+    "price": 27.95,
+    "weight": 0.48,
+    "box": "305 x 8 x 6 cm"
+   }
+  ],
+  "bat-aluminium-geometric-angle-3m": [
+   {
+    "options": {
+     "Size": "12 x 12 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-121216-3-MG",
+    "cost": 7.4,
+    "price": 15.85,
+    "weight": 0.44,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12 x 12 x 1.6mm",
+     "Colour": "Matt White"
+    },
+    "sku": "AA-121216-3-MW",
+    "cost": 7.4,
+    "price": 15.85,
+    "weight": 0.44,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12 x 20 x 1.6mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "AA-122016-3-MS",
+    "cost": 11.65,
+    "price": 20.95,
+    "weight": 0.54,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "16 x 16 x 1.6mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "AA-161616-3",
+    "cost": 6.7,
+    "price": 14.75,
+    "weight": 0.54,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "16 x 16 x 1.6mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "AA-161616-3-MBK",
+    "cost": 7.85,
+    "price": 16.3,
+    "weight": 0.54,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "16 x 16 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-161616-3-MG",
+    "cost": 7.85,
+    "price": 16.3,
+    "weight": 0.54,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "16 x 16 x 1.6mm",
+     "Colour": "Matt White"
+    },
+    "sku": "AA-161616-3-MW",
+    "cost": 7.85,
+    "price": 16.3,
+    "weight": 0.54,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20 x 20 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-202016-3-MG",
+    "cost": 9.55,
+    "price": 17.4,
+    "weight": 0.65,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20 x 20 x 1.6mm",
+     "Colour": "Matt White"
+    },
+    "sku": "AA-202016-3-MW",
+    "cost": 9.55,
+    "price": 17.4,
+    "weight": 0.65,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20 x 32 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-203216-3-MG",
+    "cost": 15.9,
+    "price": 27.95,
+    "weight": 0.8,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20 x 32 x 1.6mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "AA-203216-3-MS",
+    "cost": 14.3,
+    "price": 25.95,
+    "weight": 0.8,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25 x 40 x 1.6mm",
+     "Colour": "Matt White"
+    },
+    "sku": "AA-254016-3-MW",
+    "cost": 14.85,
+    "price": 26.95,
+    "weight": 0.97,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25 x 45 x 1.6mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "AA-254516-3",
+    "cost": 11.5,
+    "price": 20.95,
+    "weight": 0.95,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25 x 50 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-255016-3-MG",
+    "cost": 16.95,
+    "price": 29.95,
+    "weight": 1.1,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "32 x 32 x 1.6mm",
+     "Colour": "Linished Gunmetal"
+    },
+    "sku": "AA-323216-3-LGM",
+    "cost": 18.0,
+    "price": 31.95,
+    "weight": 0.96,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "32 x 32 x 1.6mm",
+     "Colour": "Linished Satin Nickel"
+    },
+    "sku": "AA-323216-3-LSN",
+    "cost": 18.0,
+    "price": 31.95,
+    "weight": 0.96,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "32 x 32 x 1.6mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "AA-323216-3-MS",
+    "cost": 18.0,
+    "price": 31.95,
+    "weight": 0.96,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "32 x 32 x 1.6mm",
+     "Colour": "Matt White"
+    },
+    "sku": "AA-323216-3-MW",
+    "cost": 15.9,
+    "price": 27.95,
+    "weight": 0.96,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "32 x 32 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-323216-3-MG",
+    "cost": 18.15,
+    "price": 31.95,
+    "weight": 0.96,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 40 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-404016-3-MG",
+    "cost": 24.9,
+    "price": 43.95,
+    "weight": 1.17,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 40 x 1.6mm",
+     "Colour": "Matt White"
+    },
+    "sku": "AA-404016-3-MW",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 1.17,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 1.6mm",
+     "Colour": "Linished Gunmetal"
+    },
+    "sku": "AA-405016-3-LGM",
+    "cost": 25.95,
+    "price": 45.95,
+    "weight": 1.3,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 1.6mm",
+     "Colour": "Linished Satin Nickel"
+    },
+    "sku": "AA-405016-3-LSN",
+    "cost": 25.95,
+    "price": 45.95,
+    "weight": 1.3,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 1.6mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-405016-3-MG",
+    "cost": 29.15,
+    "price": 51.95,
+    "weight": 1.3,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20 x 40 x 3mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "AA-20403-3",
+    "cost": 16.15,
+    "price": 28.95,
+    "weight": 1.71,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25 x 25 x 3mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-25253-3-MG",
+    "cost": 23.75,
+    "price": 41.95,
+    "weight": 1.29,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25 x 40 x 3mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "AA-25403-3-MS",
+    "cost": 29.7,
+    "price": 52.95,
+    "weight": 1.66,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 3mm",
+     "Colour": "Mill Finish"
+    },
+    "sku": "AA-40503-3",
+    "cost": 27.55,
+    "price": 48.95,
+    "weight": 2.44,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 3mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "AA-40503-3-BS",
+    "cost": 39.2,
+    "price": 63.95,
+    "weight": 2.44,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 3mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "AA-40503-3-MBK",
+    "cost": 39.2,
+    "price": 63.95,
+    "weight": 2.44,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 3mm",
+     "Colour": "Matt Gold"
+    },
+    "sku": "AA-40503-3-MG",
+    "cost": 39.2,
+    "price": 63.95,
+    "weight": 2.44,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "40 x 50 x 3mm",
+     "Colour": "Matt Silver"
+    },
+    "sku": "AA-40503-3-MS",
+    "cost": 39.2,
+    "price": 63.95,
+    "weight": 2.44,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-mosaic-corner-angle-3m": [
+   {
+    "options": {
+     "Size": "6.5mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "MCA-6-3-LMP",
+    "cost": 21.05,
+    "price": 36.95,
+    "weight": 0.64,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "8.5mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "MCA-8-3-LMP",
+    "cost": 22.2,
+    "price": 38.95,
+    "weight": 0.68,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10.5mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "MCA-10-3-LMP",
+    "cost": 23.5,
+    "price": 41.95,
+    "weight": 0.71,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "MCA-12-3-LMP",
+    "cost": 24.74,
+    "price": 43.95,
+    "weight": 0.74,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-co-pro-corner-protection-trim-3m": [
+   {
+    "options": {
+     "Size": "10 x 10mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "BCP-1010-LMG",
+    "cost": 9.4,
+    "price": 17.3,
+    "weight": 0.31,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "15 x 15mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "BCP-1515-LMG",
+    "cost": 12.15,
+    "price": 21.95,
+    "weight": 0.39,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20 x 20mm",
+     "Colour": "Linished Matt Gold"
+    },
+    "sku": "BCP-2020-LMG",
+    "cost": 14.8,
+    "price": 25.95,
+    "weight": 0.47,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-decorative-y-section-3m": [
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "BDY-10-3-BS",
+    "cost": 27.25,
+    "price": 47.95,
+    "weight": 1.07,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12mm",
+     "Colour": "Bright Silver"
+    },
+    "sku": "BDY-12-3-BS",
+    "cost": 29.65,
+    "price": 51.95,
+    "weight": 1.21,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-birds-mouth-trim-3m": [
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Pearl White"
+    },
+    "sku": "BMT-8-3-WH",
+    "cost": 14.2,
+    "price": 24.95,
+    "weight": 0.61,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Black"
+    },
+    "sku": "BMT-10-3-BK",
+    "cost": 14.9,
+    "price": 26.95,
+    "weight": 0.67,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-balcony-edge-trim-3m": [
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BET-8-3-GM",
+    "cost": 60.6,
+    "price": 98.95,
+    "weight": 2.6,
+    "box": "305 x 12 x 10 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BET-8-3-MBK",
+    "cost": 60.6,
+    "price": 98.95,
+    "weight": 2.6,
+    "box": "305 x 12 x 10 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BET-10-3-GM",
+    "cost": 64.95,
+    "price": 105.95,
+    "weight": 2.6,
+    "box": "305 x 12 x 10 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BET-10-3-MBK",
+    "cost": 64.95,
+    "price": 105.95,
+    "weight": 2.6,
+    "box": "305 x 12 x 10 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BET-12-3-GM",
+    "cost": 67.5,
+    "price": 109.95,
+    "weight": 2.6,
+    "box": "305 x 12 x 10 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BET-12-3-MBK",
+    "cost": 67.5,
+    "price": 109.95,
+    "weight": 2.6,
+    "box": "305 x 12 x 10 cm"
+   }
+  ],
+  "bat-balcony-edge-trim-corners": [
+   {
+    "options": {
+     "Type": "External",
+     "Size": "8mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BETEC-8-GM",
+    "cost": 18.7,
+    "price": 32.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "Internal",
+     "Size": "8mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BETIC-8-GM",
+    "cost": 18.7,
+    "price": 32.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "External",
+     "Size": "8mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BETEC-8-MBK",
+    "cost": 18.7,
+    "price": 32.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "Internal",
+     "Size": "8mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BETIC-8-MBK",
+    "cost": 18.7,
+    "price": 32.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "External",
+     "Size": "10mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BETEC-10-GM",
+    "cost": 21.15,
+    "price": 37.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "Internal",
+     "Size": "10mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BETIC-10-GM",
+    "cost": 21.15,
+    "price": 37.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "External",
+     "Size": "10mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BETEC-10-MBK",
+    "cost": 21.15,
+    "price": 37.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "Internal",
+     "Size": "10mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BETIC-10-MBK",
+    "cost": 21.15,
+    "price": 37.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "External",
+     "Size": "12.5mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BETEC-12-GM",
+    "cost": 22.6,
+    "price": 39.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "Internal",
+     "Size": "12.5mm",
+     "Colour": "Gunmetal"
+    },
+    "sku": "BETIC-12-GM",
+    "cost": 22.6,
+    "price": 39.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "External",
+     "Size": "12.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BETEC-12-MBK",
+    "cost": 22.6,
+    "price": 39.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   },
+   {
+    "options": {
+     "Type": "Internal",
+     "Size": "12.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "BETIC-12-MBK",
+    "cost": 22.6,
+    "price": 39.95,
+    "weight": 0.25,
+    "box": "18 x 18 x 12 cm"
+   }
+  ],
+  "bat-diminishing-trim-3m": [
+   {
+    "options": {
+     "Size": "8mm",
+     "Material": "Aluminium Bright Gold"
+    },
+    "sku": "ADT-8-3-BG",
+    "cost": 19.45,
+    "price": 34.95,
+    "weight": 0.81,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Material": "Aluminium Bright Gold"
+    },
+    "sku": "ADT-15-3-BG",
+    "cost": 23.5,
+    "price": 41.95,
+    "weight": 0.98,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Material": "Aluminium Matt Black"
+    },
+    "sku": "ADT-8-3-MBK",
+    "cost": 19.45,
+    "price": 34.95,
+    "weight": 0.81,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Material": "Aluminium Matt Black"
+    },
+    "sku": "ADT-10-3-MBK",
+    "cost": 20.05,
+    "price": 35.95,
+    "weight": 0.83,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Material": "Aluminium Matt Black"
+    },
+    "sku": "ADT-12-3-MBK",
+    "cost": 21.75,
+    "price": 38.95,
+    "weight": 0.9,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Material": "Aluminium Matt Black"
+    },
+    "sku": "ADT-15-3-MBK",
+    "cost": 23.5,
+    "price": 41.95,
+    "weight": 0.98,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "8mm",
+     "Material": "Chrome Plated Brass"
+    },
+    "sku": "CPDT-8-3",
+    "cost": 83.95,
+    "price": 136.95,
+    "weight": 0.81,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Material": "Chrome Plated Brass"
+    },
+    "sku": "CPDT-10-3",
+    "cost": 86.5,
+    "price": 140.95,
+    "weight": 0.83,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Material": "Chrome Plated Brass"
+    },
+    "sku": "CPDT-12-3",
+    "cost": 94.15,
+    "price": 152.95,
+    "weight": 0.9,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Material": "Chrome Plated Brass"
+    },
+    "sku": "CPDT-15-3",
+    "cost": 101.75,
+    "price": 161.95,
+    "weight": 0.98,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-double-sided-angle-3m": [
+   {
+    "options": {
+     "Size": "10 / 12.5mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "DSA-1012-3-MBK",
+    "cost": 18.55,
+    "price": 32.95,
+    "weight": 0.92,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "10 / 30mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "DSA-1030-3-MBK",
+    "cost": 19.95,
+    "price": 34.95,
+    "weight": 0.92,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5 / 15mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "DSA-1215-3-MBK",
+    "cost": 23.5,
+    "price": 41.95,
+    "weight": 1.0,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5 / 30mm",
+     "Colour": "Matt Black"
+    },
+    "sku": "DSA-1230-3-MBK",
+    "cost": 24.15,
+    "price": 42.95,
+    "weight": 1.0,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-stainless-steel-tiling-angle-3m": [
+   {
+    "options": {
+     "Size": "18.5mm"
+    },
+    "sku": "SSAMG-18-3",
+    "cost": 48.8,
+    "price": 79.95,
+    "weight": 1.06,
+    "box": "305 x 8 x 6 cm"
+   }
+  ],
+  "bat-brass-stainless-geometric-angle": [
+   {
+    "options": {
+     "Material": "Brass (3.6m)",
+     "Size": "19.05 x 19.05 x 3.18mm"
+    },
+    "sku": "BA-1932-36",
+    "cost": 159.0,
+    "price": 238.95,
+    "weight": 1.93,
+    "box": "365 x 8 x 8 cm"
+   }
+  ],
+  "bat-flat-bar-aluminium-brass-stainless": [
+   {
+    "options": {
+     "Material": "Aluminium (4m)",
+     "Size": "80 x 3mm"
+    },
+    "sku": "AF-803-4",
+    "cost": 44.45,
+    "price": 72.95,
+    "weight": 2.83,
+    "box": "405 x 12 x 4 cm"
+   },
+   {
+    "options": {
+     "Material": "Aluminium (4m)",
+     "Size": "100 x 3mm"
+    },
+    "sku": "AF-1003-4",
+    "cost": 58.85,
+    "price": 95.95,
+    "weight": 3.54,
+    "box": "405 x 12 x 4 cm"
+   }
+  ],
+  "bat-pvc-waterproofing-angle-3m": [
+   {
+    "options": {
+     "Size": "45 x 45 x 4mm"
+    },
+    "sku": "PVC-WPA45454-3",
+    "cost": 18.8,
+    "price": 32.95,
+    "weight": 0.75,
+    "box": "305 x 10 x 8 cm"
+   }
+  ],
+  "bat-corner-angle-brass-stainless": [
+   {
+    "options": {
+     "Size": "8mm",
+     "Finish": "Commercial Grade Stainless Steel, Polished (2.7m)"
+    },
+    "sku": "SSCCA-8-27P",
+    "cost": 59.5,
+    "price": 96.95,
+    "weight": 1.36,
+    "box": "275 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "10mm",
+     "Finish": "Commercial Grade Stainless Steel, Polished (2.7m)"
+    },
+    "sku": "SSCCA-10-27P",
+    "cost": 61.8,
+    "price": 100.95,
+    "weight": 1.43,
+    "box": "275 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "12.5mm",
+     "Finish": "Commercial Grade Stainless Steel, Polished (2.7m)"
+    },
+    "sku": "SSCCA-12-27P",
+    "cost": 65.25,
+    "price": 105.95,
+    "weight": 1.52,
+    "box": "275 x 8 x 6 cm"
+   },
+   {
+    "options": {
+     "Size": "15mm",
+     "Finish": "Commercial Grade Stainless Steel, Polished (2.7m)"
+    },
+    "sku": "SSCCA-15-27P",
+    "cost": 66.4,
+    "price": 107.95,
+    "weight": 1.6,
+    "box": "275 x 8 x 6 cm"
+   }
+  ],
+  "bat-half-round-trim-aluminium-3m": [
+   {
+    "options": {
+     "Size": "12mm",
+     "Colour": "Bright Gold"
+    },
+    "sku": "HRT-12-3BGP",
+    "cost": 19.15,
+    "price": 33.95,
+    "weight": 0.53,
+    "box": "305 x 8 x 6 cm"
+   }
+  ],
+  "bat-batex-expansion-joint-brass-3m": [
+   {
+    "options": {
+     "Size": "16mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXB-166-3-BK",
+    "cost": 137.8,
+    "price": 206.95,
+    "weight": 2.6,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "16mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXB-166-3-GR",
+    "cost": 137.8,
+    "price": 206.95,
+    "weight": 2.6,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "23mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXB-236-3-BK",
+    "cost": 161.1,
+    "price": 241.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "23mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXB-236-3-GR",
+    "cost": 161.1,
+    "price": 241.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXB-256-3-BK",
+    "cost": 165.35,
+    "price": 248.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXB-256-3-GR",
+    "cost": 165.35,
+    "price": 248.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "16mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXB-1610-3-BK",
+    "cost": 143.1,
+    "price": 214.95,
+    "weight": 2.6,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "16mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXB-1610-3-GR",
+    "cost": 143.1,
+    "price": 214.95,
+    "weight": 2.6,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "23mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXB-2310-3-BK",
+    "cost": 168.55,
+    "price": 252.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "23mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXB-2310-3-GR",
+    "cost": 168.55,
+    "price": 252.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXB-2510-3-BK",
+    "cost": 174.9,
+    "price": 262.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "25mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXB-2510-3-GR",
+    "cost": 174.9,
+    "price": 262.95,
+    "weight": 3.03,
+    "box": "305 x 8 x 8 cm"
+   }
+  ],
+  "bat-batex-expansion-joint-stainless-3m": [
+   {
+    "options": {
+     "Size": "17.5mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXS-176-3-BK",
+    "cost": 135.1,
+    "price": 202.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "17.5mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXS-176-3-GR",
+    "cost": 135.1,
+    "price": 202.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXS-206-3-BK",
+    "cost": 145.4,
+    "price": 218.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Infill Width": "6mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXS-206-3-GR",
+    "cost": 145.4,
+    "price": 218.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "17.5mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXS-1710-3-BK",
+    "cost": 141.95,
+    "price": 212.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "17.5mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXS-1710-3-GR",
+    "cost": 141.95,
+    "price": 212.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Black"
+    },
+    "sku": "BTXS-2010-3-BK",
+    "cost": 147.65,
+    "price": 221.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   },
+   {
+    "options": {
+     "Size": "20mm",
+     "Infill Width": "10mm",
+     "Insert Colour": "Grey"
+    },
+    "sku": "BTXS-2010-3-GR",
+    "cost": 147.65,
+    "price": 221.95,
+    "weight": 2.62,
+    "box": "305 x 8 x 8 cm"
+   }
+  ]
+ },
+ "products": [
+  {
+   "handle": "bat-aluminium-channel-trim-3m",
+   "title": "BAT Aluminium Channel Trim (U Channel) – 3m Lengths",
+   "productType": "Square edge",
+   "tags": [
+    "BAT Trims",
+    "BAT",
+    "Hardware",
+    "Tile Trims + Edging Profiles",
+    "supplier-bat",
+    "bat-price-list-2026-05",
+    "ship-local-only",
+    "ship-long"
+   ],
+   "files": [
+    "channel",
+    "channel-profile"
+   ],
+   "seo": {
+    "title": "BAT Aluminium Channel Trim U Channel 3m | ETS Perth",
+    "description": "BAT aluminium U channel tile trim, 8, 10 and 12mm, 3m lengths. Mill, bright silver, matt silver, matt black or pearl white. Perth."
+   },
+   "descriptionHtml": "<p>A U-shaped aluminium channel that caps the edge of tile, stone, glass or panels with a clean square finish on both faces. Use it on benchtop and splashback edges, niches, shelves and feature panels.</p><ul>\n<li>Material: aluminium</li>\n<li>Length: 3m</li>\n<li>Sizes (internal width): 8, 10 and 12mm</li>\n<li>Finishes: Mill Finish, Bright Silver, Matt Silver, Matt Black, Pearl White (coloured finishes come with protective film)</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+   "options": [
+    "Size",
+    "Colour"
+   ],
+   "variants": [
+    {
+     "options": {
+      "Size": "8mm",
+      "Colour": "Mill Finish"
+     },
+     "sku": "AC-8-3-MF",
+     "cost": 12.0,
+     "price": 21.95,
+     "weight": 0.36,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "8mm",
+      "Colour": "Bright Silver"
+     },
+     "sku": "AC-8-3-BSP",
+     "cost": 12.5,
+     "price": 21.95,
+     "weight": 0.36,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "8mm",
+      "Colour": "Matt Silver"
+     },
+     "sku": "AC-8-3-MSP",
+     "cost": 12.5,
+     "price": 21.95,
+     "weight": 0.36,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "8mm",
+      "Colour": "Matt Black"
+     },
+     "sku": "AC-8-3-MBKP",
+     "cost": 12.5,
+     "price": 21.95,
+     "weight": 0.36,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "8mm",
+      "Colour": "Pearl White"
+     },
+     "sku": "AC-8-3-WHP",
+     "cost": 12.5,
+     "price": 21.95,
+     "weight": 0.36,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "10mm",
+      "Colour": "Mill Finish"
+     },
+     "sku": "AC-10-3-MF",
+     "cost": 13.0,
+     "price": 22.95,
+     "weight": 0.38,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "10mm",
+      "Colour": "Bright Silver"
+     },
+     "sku": "AC-10-3-BSP",
+     "cost": 13.5,
+     "price": 23.95,
+     "weight": 0.38,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "10mm",
+      "Colour": "Matt Silver"
+     },
+     "sku": "AC-10-3-MSP",
+     "cost": 13.5,
+     "price": 23.95,
+     "weight": 0.38,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "10mm",
+      "Colour": "Matt Black"
+     },
+     "sku": "AC-10-3-MBKP",
+     "cost": 13.5,
+     "price": 23.95,
+     "weight": 0.38,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "10mm",
+      "Colour": "Pearl White"
+     },
+     "sku": "AC-10-3-WHP",
+     "cost": 13.5,
+     "price": 23.95,
+     "weight": 0.38,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "12mm",
+      "Colour": "Mill Finish"
+     },
+     "sku": "AC-12-3-MF",
+     "cost": 14.0,
+     "price": 24.95,
+     "weight": 0.4,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "12mm",
+      "Colour": "Bright Silver"
+     },
+     "sku": "AC-12-3-BSP",
+     "cost": 14.5,
+     "price": 25.95,
+     "weight": 0.4,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "12mm",
+      "Colour": "Matt Silver"
+     },
+     "sku": "AC-12-3-MSP",
+     "cost": 14.5,
+     "price": 25.95,
+     "weight": 0.4,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "12mm",
+      "Colour": "Matt Black"
+     },
+     "sku": "AC-12-3-MBKP",
+     "cost": 14.5,
+     "price": 25.95,
+     "weight": 0.4,
+     "box": "305 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Size": "12mm",
+      "Colour": "Pearl White"
+     },
+     "sku": "AC-12-3-WHP",
+     "cost": 14.5,
+     "price": 25.95,
+     "weight": 0.4,
+     "box": "305 x 8 x 6 cm"
+    }
+   ],
+   "ship": "local"
+  },
+  {
+   "handle": "bat-aluminium-tiling-angle-1m",
+   "title": "BAT Aluminium Tiling Angle – 1m Lengths (Mill Finish)",
+   "productType": "L Shaped Trim",
+   "tags": [
+    "BAT Trims",
+    "BAT",
+    "Hardware",
+    "Tile Trims + Edging Profiles",
+    "supplier-bat",
+    "bat-price-list-2026-05",
+    "ship-parcel"
+   ],
+   "files": [
+    "aa-gold",
+    "aa-diagram"
+   ],
+   "seo": {
+    "title": "BAT Aluminium Tile Trim Angle 1m | Small Jobs | ETS Perth",
+    "description": "BAT mill finish aluminium tile edge angle in handy 1m lengths, 4.5mm to 25mm. Ideal for niches, small repairs and shower hobs. Ships Australia wide."
+   },
+   "descriptionHtml": "<p>The same BAT aluminium L angle as the 3m range, cut to 1m. Handy for niches, shower hobs, window sills, small repairs and anywhere a full 3m length would be wasted. Short enough to post.</p><ul>\n<li>Material: aluminium, mill finish, perforated fixing leg</li>\n<li>Length: 1m</li>\n<li>Sizes (tile thickness): 4.5, 6, 8, 9, 10, 11, 12.5, 13.5, 15, 17, 18.5, 20, 22 and 25mm</li>\n<li>Choose the size that matches your tile thickness</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+   "options": [
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": {
+      "Size": "4.5mm"
+     },
+     "sku": "AA-4-1",
+     "cost": 2.3,
+     "price": 5.1,
+     "weight": 0.13,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "6mm"
+     },
+     "sku": "AA-6-1",
+     "cost": 2.4,
+     "price": 5.3,
+     "weight": 0.13,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "8mm"
+     },
+     "sku": "AA-8-1",
+     "cost": 2.75,
+     "price": 6.1,
+     "weight": 0.14,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "9mm"
+     },
+     "sku": "AA-9-1",
+     "cost": 2.85,
+     "price": 6.3,
+     "weight": 0.15,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "10mm"
+     },
+     "sku": "AA-10-1",
+     "cost": 2.85,
+     "price": 6.3,
+     "weight": 0.15,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "11mm"
+     },
+     "sku": "AA-11-1",
+     "cost": 2.95,
+     "price": 6.5,
+     "weight": 0.15,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "12.5mm"
+     },
+     "sku": "AA-12-1",
+     "cost": 3.05,
+     "price": 6.75,
+     "weight": 0.16,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "13.5mm"
+     },
+     "sku": "AA-13-1",
+     "cost": 3.2,
+     "price": 7.05,
+     "weight": 0.16,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "15mm"
+     },
+     "sku": "AA-15-1",
+     "cost": 3.35,
+     "price": 7.4,
+     "weight": 0.17,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "17mm"
+     },
+     "sku": "AA-17-1",
+     "cost": 3.55,
+     "price": 7.85,
+     "weight": 0.17,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "18.5mm"
+     },
+     "sku": "AA-18-1",
+     "cost": 3.75,
+     "price": 8.25,
+     "weight": 0.18,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "20mm"
+     },
+     "sku": "AA-20-1",
+     "cost": 3.75,
+     "price": 8.25,
+     "weight": 0.18,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "22mm"
+     },
+     "sku": "AA-22-1",
+     "cost": 4.05,
+     "price": 8.95,
+     "weight": 0.19,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "25mm"
+     },
+     "sku": "AA-25-1",
+     "cost": 4.45,
+     "price": 9.8,
+     "weight": 0.2,
+     "box": "105 x 6 x 4 cm"
+    }
+   ],
+   "ship": "parcel"
+  },
+  {
+   "handle": "bat-brass-tiling-angle-1m",
+   "title": "BAT Solid Brass Tiling Angle – 1m Lengths",
+   "productType": "L Shaped Trim",
+   "tags": [
+    "BAT Trims",
+    "BAT",
+    "Hardware",
+    "Tile Trims + Edging Profiles",
+    "supplier-bat",
+    "bat-price-list-2026-05",
+    "ship-parcel"
+   ],
+   "files": [
+    "brass-angle",
+    "aa-diagram"
+   ],
+   "seo": {
+    "title": "BAT Solid Brass Tile Trim Angle 1m | ETS Perth",
+    "description": "BAT solid brass tile edge angle in 1m lengths, 4.5mm to 25mm. Hard wearing, ages to a warm patina. Ships Australia wide from Perth."
+   },
+   "descriptionHtml": "<p>Solid brass L angle in 1m lengths, for feature edges, niches, steps and small jobs. Brass is much harder wearing than aluminium and ages to a warm patina, or can be polished back to bright.</p><ul>\n<li>Material: solid brass</li>\n<li>Length: 1m</li>\n<li>Sizes (tile thickness): 4.5mm to 25mm</li>\n<li>Choose the size that matches your tile thickness</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+   "options": [
+    "Size"
+   ],
+   "variants": [
+    {
+     "options": {
+      "Size": "4.5mm"
+     },
+     "sku": "NBA-4-1",
+     "cost": 10.2,
+     "price": 17.85,
+     "weight": 0.31,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "6mm"
+     },
+     "sku": "NBA-6-1",
+     "cost": 10.2,
+     "price": 17.85,
+     "weight": 0.32,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "8mm"
+     },
+     "sku": "NBA-8-1",
+     "cost": 11.45,
+     "price": 20.95,
+     "weight": 0.34,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "9mm"
+     },
+     "sku": "NBA-9-1",
+     "cost": 11.45,
+     "price": 20.95,
+     "weight": 0.35,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "10mm"
+     },
+     "sku": "NBA-10-1",
+     "cost": 11.45,
+     "price": 20.95,
+     "weight": 0.36,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "11mm"
+     },
+     "sku": "NBA-11-1",
+     "cost": 12.7,
+     "price": 22.95,
+     "weight": 0.37,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "12.5mm"
+     },
+     "sku": "NBA-12-1",
+     "cost": 12.7,
+     "price": 22.95,
+     "weight": 0.39,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "13.5mm"
+     },
+     "sku": "NBA-13-1",
+     "cost": 12.7,
+     "price": 22.95,
+     "weight": 0.4,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "15mm"
+     },
+     "sku": "NBA-15-1",
+     "cost": 14.0,
+     "price": 24.95,
+     "weight": 0.41,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "16.5mm"
+     },
+     "sku": "NBA-16-1",
+     "cost": 14.0,
+     "price": 24.95,
+     "weight": 0.43,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "18.5mm"
+     },
+     "sku": "NBA-18-1",
+     "cost": 15.25,
+     "price": 26.95,
+     "weight": 0.45,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "20mm"
+     },
+     "sku": "NBA-20-1",
+     "cost": 15.25,
+     "price": 26.95,
+     "weight": 0.46,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "22mm"
+     },
+     "sku": "NBA-22-1",
+     "cost": 16.55,
+     "price": 29.95,
+     "weight": 0.49,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "23.5mm"
+     },
+     "sku": "NBA-23-1",
+     "cost": 16.55,
+     "price": 29.95,
+     "weight": 0.5,
+     "box": "105 x 6 x 4 cm"
+    },
+    {
+     "options": {
+      "Size": "25mm"
+     },
+     "sku": "NBA-25-1",
+     "cost": 17.8,
+     "price": 31.95,
+     "weight": 0.52,
+     "box": "105 x 6 x 4 cm"
+    }
+   ],
+   "ship": "parcel"
+  },
+  {
+   "handle": "bat-trim-joiners-6-pack",
+   "title": "BAT Trim Joiners – Pack of 6 (Cove Trim, APC 60, Balcony Trim)",
+   "productType": "Tile Trims + Edging Profiles",
+   "tags": [
+    "BAT Trims",
+    "BAT",
+    "Hardware",
+    "Tile Trims + Edging Profiles",
+    "supplier-bat",
+    "bat-price-list-2026-05",
+    "ship-parcel"
+   ],
+   "files": [
+    "cove",
+    "balcony"
+   ],
+   "seo": {
+    "title": "BAT Trim Joiners Pack of 6 | Cove, APC 60, Balcony | ETS",
+    "description": "Joiners for BAT Cove Trim, APC 60 cove trim and Balcony Trim. Pack of 6 for neat, aligned joints between lengths. Ships Australia wide."
+   },
+   "descriptionHtml": "<p>Joiners that slot into the back of BAT trims so two lengths line up perfectly, with no step or gap at the joint. Choose the joiner that matches your trim.</p><ul>\n<li>Pack of 6</li>\n<li>Cove Trim joiners: suit BAT Cove Trim</li>\n<li>APC 60 joiners: suit BAT APC 60 All Purpose Cove Trim</li>\n<li>Balcony Trim joiners: suit BAT Balcony Edge Trim</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+   "options": [
+    "Type"
+   ],
+   "variants": [
+    {
+     "options": {
+      "Type": "Cove Trim Joiners"
+     },
+     "sku": "CTJ-6",
+     "cost": 8.7,
+     "price": 16.95,
+     "weight": 0.05,
+     "box": "12 x 8 x 3 cm"
+    },
+    {
+     "options": {
+      "Type": "APC 60 Cove Trim Joiners"
+     },
+     "sku": "APC60J-6",
+     "cost": 8.0,
+     "price": 16.45,
+     "weight": 0.05,
+     "box": "12 x 8 x 3 cm"
+    },
+    {
+     "options": {
+      "Type": "Balcony Trim Joiners"
+     },
+     "sku": "BETJ-6",
+     "cost": 6.9,
+     "price": 15.2,
+     "weight": 0.05,
+     "box": "12 x 8 x 3 cm"
+    }
+   ],
+   "ship": "parcel"
+  },
+  {
+   "handle": "bat-batex-expansion-joint-vinyl-3-3m",
+   "title": "BAT BATEX Expansion Joint for Vinyl – 3.3m Lengths",
+   "productType": "Expansion Trim",
+   "tags": [
+    "BAT Trims",
+    "BAT",
+    "Hardware",
+    "Tile Trims + Edging Profiles",
+    "supplier-bat",
+    "bat-price-list-2026-05",
+    "ship-local-only",
+    "ship-long"
+   ],
+   "files": [
+    "vinyl",
+    "batex"
+   ],
+   "seo": {
+    "title": "BAT BATEX Vinyl Expansion Joint 3.3m | 2.5 & 5.5mm | ETS Perth",
+    "description": "BAT BATEX aluminium expansion joint made for vinyl and hybrid floors. 2.5mm or 5.5mm high, 6mm infill, 3.3m lengths. Black, dark or smokey grey."
+   },
+   "descriptionHtml": "<p>A low-profile BATEX movement joint made for vinyl, hybrid and LVT floors. Aluminium side profiles hold a 6mm flexible infill that takes up floor movement and stops cracking and lifting across large areas and doorways.</p><ul>\n<li>Material: aluminium profiles, flexible infill</li>\n<li>Length: 3.3m</li>\n<li>Heights: 2.5mm or 5.5mm (match your floor thickness)</li>\n<li>Infill width: 6mm</li>\n<li>Insert colour: Black, Dark Grey or Smokey Grey</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+   "options": [
+    "Height",
+    "Insert Colour"
+   ],
+   "variants": [
+    {
+     "options": {
+      "Height": "2.5mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "BTXV-256-33-BK",
+     "cost": 45.0,
+     "price": 72.95,
+     "weight": 0.45,
+     "box": "335 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Height": "2.5mm",
+      "Insert Colour": "Dark Grey"
+     },
+     "sku": "BTXV-256-33-DG",
+     "cost": 45.0,
+     "price": 72.95,
+     "weight": 0.45,
+     "box": "335 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Height": "2.5mm",
+      "Insert Colour": "Smokey Grey"
+     },
+     "sku": "BTXV-256-33-SG",
+     "cost": 45.0,
+     "price": 72.95,
+     "weight": 0.45,
+     "box": "335 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Height": "5.5mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "BTXV-556-33-BK",
+     "cost": 47.0,
+     "price": 76.95,
+     "weight": 0.45,
+     "box": "335 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Height": "5.5mm",
+      "Insert Colour": "Dark Grey"
+     },
+     "sku": "BTXV-556-33-DG",
+     "cost": 47.0,
+     "price": 76.95,
+     "weight": 0.45,
+     "box": "335 x 8 x 6 cm"
+    },
+    {
+     "options": {
+      "Height": "5.5mm",
+      "Insert Colour": "Smokey Grey"
+     },
+     "sku": "BTXV-556-33-SG",
+     "cost": 47.0,
+     "price": 76.95,
+     "weight": 0.45,
+     "box": "335 x 8 x 6 cm"
+    }
+   ],
+   "ship": "local"
+  },
+  {
+   "handle": "bat-mortarloc-expansion-joint-stainless",
+   "title": "BAT MORTARLOC Expansion Joint Stainless Steel – 1.8m Lengths",
+   "productType": "Expansion Trim",
+   "tags": [
+    "BAT Trims",
+    "BAT",
+    "Hardware",
+    "Tile Trims + Edging Profiles",
+    "supplier-bat",
+    "bat-price-list-2026-05",
+    "ship-local-only",
+    "ship-long"
+   ],
+   "files": [
+    "mortarloc",
+    "mortarloc-drawing"
+   ],
+   "seo": {
+    "title": "BAT MORTARLOC Stainless Steel Expansion Joint 1.8m | ETS Perth",
+    "description": "BAT MORTARLOC stainless steel expansion joint for thick-bed mortar tiling. 25mm to 50mm high, 6 or 10mm wide, 1.8m lengths. Perth."
+   },
+   "descriptionHtml": "<p>MORTARLOC expansion joints are for thick-bed (mortar bed) tiling, where BATEX is for thin-bed adhesive. Two stainless steel side plates hold a neoprene infill, with anchor tabs that lock into the mortar bed. Stainless steel suits commercial kitchens, wet areas and outdoor paving.</p><ul>\n<li>Material: stainless steel side plates, neoprene infill</li>\n<li>Length: 1.8m</li>\n<li>Sizes (height x joint width): 25, 30, 40 and 50mm high; 6mm or 10mm wide</li>\n<li>Insert colour: Grey or Black</li>\n<li>For thick-bed / mortar bed installations</li>\n</ul><p><strong>Care:</strong> wash finished trims with warm soapy water and a soft cloth. Don't use acid or alkaline cleaners, scourers or sandpaper on coloured, anodised or plated finishes. Remove greasy marks with white spirits, then rinse with clean water.</p><p>BAT Trims is an Australian family business, making tiling trims in Dandenong, Victoria since 1985. Order through Excellent Tiling Services in Maddington, Perth.</p>",
+   "options": [
+    "Size",
+    "Insert Colour"
+   ],
+   "variants": [
+    {
+     "options": {
+      "Size": "25 x 6mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-2506-BK",
+     "cost": 75.6,
+     "price": 122.95,
+     "weight": 2.52,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "25 x 6mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-2506-GR",
+     "cost": 75.6,
+     "price": 122.95,
+     "weight": 2.52,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "25 x 10mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-2510-BK",
+     "cost": 82.4,
+     "price": 133.95,
+     "weight": 2.52,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "25 x 10mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-2510-GR",
+     "cost": 82.4,
+     "price": 133.95,
+     "weight": 2.52,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "30 x 6mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-3006-BK",
+     "cost": 85.15,
+     "price": 137.95,
+     "weight": 2.98,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "30 x 6mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-3006-GR",
+     "cost": 85.15,
+     "price": 137.95,
+     "weight": 2.98,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "30 x 10mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-3010-BK",
+     "cost": 92.05,
+     "price": 149.95,
+     "weight": 2.98,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "30 x 10mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-3010-GR",
+     "cost": 92.05,
+     "price": 149.95,
+     "weight": 2.98,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "40 x 6mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-4006-BK",
+     "cost": 96.15,
+     "price": 155.95,
+     "weight": 3.86,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "40 x 6mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-4006-GR",
+     "cost": 96.15,
+     "price": 155.95,
+     "weight": 3.86,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "40 x 10mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-4010-BK",
+     "cost": 103.05,
+     "price": 161.95,
+     "weight": 3.86,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "40 x 10mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-4010-GR",
+     "cost": 103.05,
+     "price": 161.95,
+     "weight": 3.86,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "50 x 6mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-5006-BK",
+     "cost": 105.8,
+     "price": 161.95,
+     "weight": 4.77,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "50 x 6mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-5006-GR",
+     "cost": 105.8,
+     "price": 161.95,
+     "weight": 4.77,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "50 x 10mm",
+      "Insert Colour": "Black"
+     },
+     "sku": "MLSTSS-5010-BK",
+     "cost": 116.75,
+     "price": 175.95,
+     "weight": 4.77,
+     "box": "185 x 8 x 8 cm"
+    },
+    {
+     "options": {
+      "Size": "50 x 10mm",
+      "Insert Colour": "Grey"
+     },
+     "sku": "MLSTSS-5010-GR",
+     "cost": 116.75,
+     "price": 175.95,
+     "weight": 4.77,
+     "box": "185 x 8 x 8 cm"
+    }
+   ],
+   "ship": "local"
+  }
+ ]
+}

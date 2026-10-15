@@ -1,0 +1,4466 @@
+{
+"AA-4-1": [
+2.3,
+"Aluminium Angle 4.5mm x 1m"
+],
+"AA-4-3": [
+5.95,
+"Aluminium Angle 4.5mm x 3m"
+],
+"AA-4-3-ALA": [
+10.55,
+"Aluminium Angle 4.5mm x 3m - Alabaster"
+],
+"AA-4-3-BG": [
+11.25,
+"Aluminium Angle 4.5mm x 3m - Bright Gold"
+],
+"AA-4-3-BKP": [
+10.55,
+"Aluminium Angle 4.5mm x 3m - Gloss Black"
+],
+"AA-4-3-BSP": [
+11.25,
+"Aluminium Angle 4.5mm x 3m - Bright Silver"
+],
+"AA-4-3-MBKP": [
+10.55,
+"Aluminium Angle 4.5mm x 3m - Matt Black"
+],
+"AA-4-3-MSP": [
+11.25,
+"Aluminium Angle 4.5mm x 3m - Matt Silver"
+],
+"AA-4-3-MWP": [
+10.55,
+"Aluminium Angle 4.5mm x 3m - Matt White"
+],
+"AA-4-3-SNP": [
+11.25,
+"Aluminium Angle 4.5mm x 3m - Linished Satin Nickel"
+],
+"AA-4-3-WHP": [
+10.55,
+"Aluminium Angle 4.5mm x 3m - Pearl White"
+],
+"AA-6-1": [
+2.4,
+"Aluminium Angle 6mm x 1m"
+],
+"AA-6-3": [
+6.3,
+"Aluminium Angle 6mm x 3m"
+],
+"AA-6-3-ALA": [
+10.55,
+"Aluminium Angle 6mm x 3m - Alabaster"
+],
+"AA-6-3-BAP": [
+10.55,
+"Aluminium Angle 6mm x 3m - Bronze Ash"
+],
+"AA-6-3-BG": [
+11.75,
+"Aluminium Angle 6mm x 3m - Bright Gold"
+],
+"AA-6-3-BKP": [
+10.55,
+"Aluminium Angle 6mm x 3m - Gloss Black"
+],
+"AA-6-3-BSP": [
+11.75,
+"Aluminium Angle 6mm x 3m - Bright Silver"
+],
+"AA-6-3-LBP": [
+11.75,
+"Aluminium Angle 6mm x 3m - Linished Black"
+],
+"AA-6-3-LCP": [
+11.75,
+"Aluminium Angle 6mm x 3m - Linished Cooper"
+],
+"AA-6-3-LMP": [
+11.75,
+"Aluminium Angle 6mm x 3m - Linished Matt Gold"
+],
+"AA-6-3-LNP": [
+11.75,
+"Aluminium Angle 6mm x 3m - Linished Nickel"
+],
+"AA-6-3-LSP": [
+11.75,
+"Aluminium Angle 6mm x 3m - Linished Silver"
+],
+"AA-6-3-MBKP": [
+10.55,
+"Aluminium Angle 6mm x 3m - Matt Black"
+],
+"AA-6-3-MSP": [
+11.75,
+"Aluminium Angle 6mm x 3m - Matt Silver"
+],
+"AA-6-3-MWP": [
+10.56,
+"Aluminium Angle 6mm x 3m - Matt White"
+],
+"AA-6-3-WHP": [
+10.55,
+"Aluminium Angle 6mm x 3m - Pearl White"
+],
+"AA-8-1": [
+2.75,
+"Aluminium Angle 8mm x 1m"
+],
+"AA-8-3": [
+6.4,
+"Aluminium Angle 8mm x 3m"
+],
+"AA-8-3-UP": [
+6.4,
+"Aluminium Angle 8mm x 3m - Un Punched"
+],
+"AA-8-3-ALA": [
+11.25,
+"Aluminium Angle 8mm x 3m - Alabaster"
+],
+"AA-8-3-BGP": [
+12.35,
+"Aluminium Angle 8mm x 3m - Bright Gold"
+],
+"AA-8-3-BKP": [
+11.25,
+"Aluminium Angle 8mm x 3m - Gloss Black"
+],
+"AA-8-3-BSP": [
+12.35,
+"Aluminium Angle 8mm x 3m - Bright Silver"
+],
+"AA-8-3-LBP": [
+12.35,
+"Aluminium Angle 8mm x 3m - Linished Black"
+],
+"AA-8-3-LCP": [
+11.75,
+"Aluminium Angle 8mm x 3m - Linished Copper"
+],
+"AA-8-3-LGP": [
+12.35,
+"Aluminium Angle 8mm x 3m - Linished Gold"
+],
+"AA-8-3-LNP": [
+12.35,
+"Aluminium Angle 8mm x 3m - Linished Nickel"
+],
+"AA-8-3-LSP": [
+12.35,
+"Aluminium Angle 8mm x 3m - Linished Silver"
+],
+"AA-8-3-MBKP": [
+11.25,
+"Aluminium Angle 8mm x 3m - Matt Black"
+],
+"AA-8-3-MSP": [
+12.35,
+"Aluminium Angle 8mm x 3m - Matt Silver"
+],
+"AA-8-3-MWP": [
+11.25,
+"Aluminium Angle 8mm x 3m - Matt White"
+],
+"AA-8-3-WHP": [
+11.25,
+"Aluminium Angle 8mm x 3m - Pearl White"
+],
+"AA-8-3-AWP": [
+11.65,
+"Aluminium Angle 8mm x 3m - Ancient White NEW"
+],
+"AA-8-3-MEP": [
+11.65,
+"Aluminium Angle 8mm x 3m - Med. Grey NEW"
+],
+"AA-8-3-MHP": [
+11.65,
+"Aluminium Angle 8mm x 3m - Manhattan NEW"
+],
+"AA-8-3-MOP": [
+11.65,
+"Aluminium Angle 8mm x 3m - Moon White NEW"
+],
+"AA-9-1": [
+2.85,
+"Aluminium Angle 9mm x 1m"
+],
+"AA-9-3": [
+6.4,
+"Aluminium Angle 9mm x 3m"
+],
+"AA-9-3-UP": [
+6.4,
+"Aluminium Angle 9mm x 3m - Un Punched"
+],
+"AA-9-3-ALA": [
+11.75,
+"Aluminium Angle 9mm x 3m - Alabaster"
+],
+"AA-9-3-BGP": [
+13.05,
+"Aluminium Angle 9mm x 3m - Bright Gold"
+],
+"AA-9-3-BKP": [
+11.75,
+"Aluminium Angle 9mm x 3m - Gloss Black"
+],
+"AA-9-3-BSP": [
+13.05,
+"Aluminium Angle 9mm x 3m - Bright Silver"
+],
+"AA-9-3-LBP": [
+13.05,
+"Aluminium Angle 9mm x 3m - Linished Black"
+],
+"AA-9-3-LCP": [
+12.05,
+"Aluminium Angle 9mm x 3m - Linished Copper"
+],
+"AA-9-3-LGP": [
+13.05,
+"Aluminium Angle 9mm x 3m - Linished Gold"
+],
+"AA-9-3-LSP": [
+13.05,
+"Aluminium Angle 9mm x 3m - Linished Silver"
+],
+"AA-9-3-MBKP": [
+11.75,
+"Aluminium Angle 9mm x 3m - Matt Black"
+],
+"AA-9-3-MSP": [
+13.05,
+"Aluminium Angle 9mm x 3m - Matt Silver"
+],
+"AA-9-3-MWP": [
+11.75,
+"Aluminium Angle 9mm x 3m - Matt White"
+],
+"AA-9-3-WHP": [
+11.75,
+"Aluminium Angle 9mm x 3m - Pearl White"
+],
+"AA-10-1": [
+2.85,
+"Aluminium Angle 10mm x 1m"
+],
+"AA-10-3": [
+6.5,
+"Aluminium Angle 10mm x 3m"
+],
+"AA-10-3-UP": [
+6.5,
+"Aluminium Angle 10mm x 3m - Un Puched"
+],
+"AA-10-3-ALA": [
+12.35,
+"Aluminium Angle 10mm x 3m - Alabaster"
+],
+"AA-10-3-BGP": [
+13.6,
+"Aluminium Angle 10mm x 3m - Bright Gold"
+],
+"AA-10-3-BKP": [
+12.35,
+"Aluminium Angle 10mm x 3m - Gloss Black"
+],
+"AA-10-3-BSP": [
+13.6,
+"Aluminium Angle 10mm x 3m - Bright Silver"
+],
+"AA-10-3-LBP": [
+13.6,
+"Aluminium Angle 10mm x 3m - Linished Black"
+],
+"AA-10-3-LCP": [
+12.35,
+"Aluminium Angle 10mm x 3m - Linished Copper"
+],
+"AA-10-3-LGP": [
+13.6,
+"Aluminium Angle 10mm x 3m - Linished Gold"
+],
+"AA-10-3-LNP": [
+13.6,
+"Aluminium Angle 10mm x 3m - Linished Nickel"
+],
+"AA-10-3-LSP": [
+13.6,
+"Aluminium Angle 10mm x 3m - Linished Silver"
+],
+"AA-10-3-MBKP": [
+12.35,
+"Aluminium Angle 10mm x 3m - Matt Black"
+],
+"AA-10-3-MSP": [
+13.6,
+"Aluminium Angle 10mm x 3m - Matt Silver"
+],
+"AA-10-3-MWP": [
+12.35,
+"Aluminium Angle 10mm x 3m - Matt White"
+],
+"AA-10-3-WHP": [
+12.35,
+"Aluminium Angle 10mm x 3m - Pearl White"
+],
+"AA-10-3-AWP": [
+12.75,
+"Aluminium Angle 10mm x 3m - Ancient White NEW"
+],
+"AA-10-3-MEP": [
+12.75,
+"Aluminium Angle 10mm x 3m - Med. Grey NEW"
+],
+"AA-10-3-MHP": [
+12.75,
+"Aluminium Angle 10mm x 3m - Manhattan NEW"
+],
+"AA-10-3-MOP": [
+12.75,
+"Aluminium Angle 10mm x 3m - Moon White NEW"
+],
+"AA-11-1": [
+2.95,
+"Aluminium Angle 11mm x 1m"
+],
+"AA-11-3": [
+6.75,
+"Aluminium Angle 11mm x 3m"
+],
+"AA-11-3-UP": [
+6.75,
+"Aluminium Angle 11mm x 3m - Un Punched"
+],
+"AA-11-3-ALA": [
+13.6,
+"Aluminium Angle 11mm x 3m - Alabaster"
+],
+"AA-11-3-BGP": [
+14.3,
+"Aluminium Angle 11mm x 3m - Bright Gold"
+],
+"AA-11-3-BKP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Gloss Black"
+],
+"AA-11-3-BSP": [
+14.3,
+"Aluminium Angle 11mm x 3m - Bright Silver"
+],
+"AA-11-3-LBP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Linished Black"
+],
+"AA-11-3-LCP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Linished Copper"
+],
+"AA-11-3-LGP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Linished Gold"
+],
+"AA-11-3-LNP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Linished Nickel"
+],
+"AA-11-3-LSP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Linished Silver"
+],
+"AA-11-3-MBKP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Matt Black"
+],
+"AA-11-3-MSP": [
+14.3,
+"Aluminium Angle 11mm x 3m - Matt Silver"
+],
+"AA-11-3-MWP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Matt White"
+],
+"AA-11-3-WHP": [
+13.6,
+"Aluminium Angle 11mm x 3m - Pearl White"
+],
+"AA-11-3-AWP": [
+14.1,
+"Aluminium Angle 11mm x 3m - Ancient White NEW"
+],
+"AA-11-3-MEP": [
+14.1,
+"Aluminium Angle 11mm x 3m - Med. Grey NEW"
+],
+"AA-11-3-MHP": [
+14.1,
+"Aluminium Angle 11mm x 3m - Manhattan NEW"
+],
+"AA-11-3-MOP": [
+14.1,
+"Aluminium Angle 11mm x 3m - Moon White NEW"
+],
+"AA-12-1": [
+3.05,
+"Aluminium Angle 12.5mm x 1m"
+],
+"AA-12-3": [
+7.2,
+"Aluminium Angle 12.5mm x 3m"
+],
+"AA-12-3-UP": [
+7.2,
+"Aluminium Angle 12.5mm x 3m - Un Punched"
+],
+"AA-12-3-ALA": [
+13.6,
+"Aluminium Angle 12.5mm x 3m - Alabaster"
+],
+"AA-12-3-BGP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Bright Gold"
+],
+"AA-12-3-BKP": [
+13.6,
+"Aluminium Angle 12.5mm x 3m - Gloss Black"
+],
+"AA-12-3-BSP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Bright Silver"
+],
+"AA-12-3-LBP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Linished Black"
+],
+"AA-12-3-LCP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Linished Copper"
+],
+"AA-12-3-LGP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Linished Gold"
+],
+"AA-12-3-LNP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Linished Nickel"
+],
+"AA-12-3-LSP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Linished Silver"
+],
+"AA-12-3-MBKP": [
+13.6,
+"Aluminium Angle 12.5mm x 3m - Matt Black"
+],
+"AA-12-3-MSP": [
+14.3,
+"Aluminium Angle 12.5mm x 3m - Matt Silver"
+],
+"AA-12-3-MWP": [
+13.6,
+"Aluminium Angle 12.5mm x 3m - Matt White"
+],
+"AA-12-3-WHP": [
+13.6,
+"Aluminium Angle 12.5mm x 3m - Pearl White"
+],
+"AA-12-3-AWP": [
+14.1,
+"Aluminium Angle 12.5mm x 3m - Ancient White NEW"
+],
+"AA-12-3-MEP": [
+14.1,
+"Aluminium Angle 12.5mm x 3m - Med. Grey NEW"
+],
+"AA-12-3-MHP": [
+14.1,
+"Aluminium Angle 12.5mm x 3m - Manhattan NEW"
+],
+"AA-12-3-MOP": [
+14.1,
+"Aluminium Angle 12.5mm x 3m - Moon White NEW"
+],
+"AA-13-1": [
+3.2,
+"Aluminium Angle 13.5mm x 1m"
+],
+"AA-13-3": [
+7.4,
+"Aluminium Angle 13.5mm x 3m"
+],
+"AA-13-3-ALA": [
+13.6,
+"Aluminium Angle 13.5mm x 3m - Alabaster"
+],
+"AA-13-3-BGP": [
+14.3,
+"Aluminium Angle 13.5mm x 3m - Bright Gold"
+],
+"AA-13-3-BKP": [
+13.6,
+"Aluminium Angle 13.5mm x 3m - Gloss Black"
+],
+"AA-13-3-BSP": [
+14.3,
+"Aluminium Angle 13.5mm x 3m - Bright Silver"
+],
+"AA-13-3-LSP": [
+14.3,
+"Aluminium Angle 13.5mm x 3m - Linished Silver"
+],
+"AA-13-3-MBKP": [
+13.6,
+"Aluminium Angle 13.5mm x 3m - Matt Black"
+],
+"AA-13-3-MSP": [
+14.3,
+"Aluminium Angle 13.5mm x 3m - Matt Silver"
+],
+"AA-13-3-MWP": [
+13.6,
+"Aluminium Angle 13.5mm x 3m - Matt White"
+],
+"AA-13-3-WHP": [
+13.6,
+"Aluminium Angle 13.5mm x 3m - Pearl White"
+],
+"AA-15-1": [
+3.35,
+"Aluminium Angle 15mm x 1m"
+],
+"AA-15-3": [
+8.6,
+"Aluminium Angle 15mm x 3m"
+],
+"AA-15-3-UP": [
+8.6,
+"Aluminium Angle 15mm x 3m - Un Punched"
+],
+"AA-15-3-ALA": [
+14.3,
+"Aluminium Angle 15mm x 3m - Alabaster"
+],
+"AA-15-3-BAP": [
+14.3,
+"Aluminium Angle 15mm x 3m - Bronze Ash"
+],
+"AA-15-3-BGP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Bright Gold"
+],
+"AA-15-3-BKP": [
+14.3,
+"Aluminium Angle 15mm x 3m - Gloss Black"
+],
+"AA-15-3-BSP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Bright Silver"
+],
+"AA-15-3-GMP": [
+14.3,
+"Aluminium Angle 15mm x 3m - Gunmetal"
+],
+"AA-15-3-LBP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Linished Black"
+],
+"AA-15-3-LCP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Linished Copper"
+],
+"AA-15-3-LGP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Linished Gold"
+],
+"AA-15-3-LMP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Linished Matt Gold"
+],
+"AA-15-3-LNP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Linished Nickel"
+],
+"AA-15-3-LSP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Linished Silver"
+],
+"AA-15-3-MBKP": [
+14.3,
+"Aluminium Angle 15mm x 3m - Matt Black"
+],
+"AA-15-3-MSP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Matt Silver"
+],
+"AA-15-3-MWP": [
+14.3,
+"Aluminium Angle 15mm x 3m - Matt White"
+],
+"AA-15-3-SMP": [
+14.9,
+"Aluminium Angle 15mm x 3m - Surfmist"
+],
+"AA-15-3-WHP": [
+14.3,
+"Aluminium Angle 15mm x 3m - Pearl White"
+],
+"AA-17-1": [
+3.55,
+"Aluminium Angle 17mm x 1m"
+],
+"AA-17-3": [
+9.15,
+"Aluminium Angle 17mm x 3m"
+],
+"AA-17-3-ALA": [
+16.0,
+"Aluminium Angle 17mm x 3m - Alabaster"
+],
+"AA-17-3-BKP": [
+16.0,
+"Aluminium Angle 17mm x 3m - Gloss Black"
+],
+"AA-17-3-BSP": [
+17.4,
+"Aluminium Angle 17mm x 3m - Bright Silver"
+],
+"AA-17-3-MBKP": [
+16.0,
+"Aluminium Angle 17mm x 3m - Matt Black"
+],
+"AA-17-3-MSP": [
+17.4,
+"Aluminium Angle 17mm x 3m - Matt Silver"
+],
+"AA-17-3-MW": [
+16.0,
+"Aluminium Angle 17mm x 3m - Matt White"
+],
+"AA-18-1": [
+3.75,
+"Aluminium Angle 18.5mm x 1m"
+],
+"AA-18-3": [
+9.15,
+"Aluminium Angle 18.5mm x 3m"
+],
+"AA-18-3-ALA": [
+16.0,
+"Aluminium Angle 18.5mm x 3m - Alabaster"
+],
+"AA-18-3-BAP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Bronze Ash"
+],
+"AA-18-3-BGP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Bright Gold"
+],
+"AA-18-3-BKP": [
+16.0,
+"Aluminium Angle 18.5mm x 3m - Gloss Black"
+],
+"AA-18-3-BSP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Bright Silver"
+],
+"AA-18-3-GMP": [
+16.0,
+"Aluminium Angle 18.5mm x 3m - Gunmetal"
+],
+"AA-18-3-LCP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Linished Copper"
+],
+"AA-18-3-LGP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Linished Gold"
+],
+"AA-18-3-LMP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Linished Matt Gold"
+],
+"AA-18-3-LSP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Linished Silver"
+],
+"AA-18-3-MBKP": [
+16.0,
+"Aluminium Angle 18.5mm x 3m - Matt Black"
+],
+"AA-18-3-MSP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Matt Silver"
+],
+"AA-18-3-MWP": [
+16.0,
+"Aluminium Angle 18.5mm x 3m - Matt White"
+],
+"AA-18-3-SMP": [
+18.55,
+"Aluminium Angle 18.5mm x 3m - Surfmist"
+],
+"AA-18-3-WHP": [
+16.0,
+"Aluminium Angle 18.5mm x 3m - Pearl White"
+],
+"AA-20-1": [
+3.75,
+"Aluminium Angle 20mm x 1m"
+],
+"AA-20-3": [
+9.15,
+"Aluminium Angle 20mm x 3m"
+],
+"AA-20-3-ALA": [
+16.0,
+"Aluminium Angle 20mm x 3m - Alabaster"
+],
+"AA-20-3-BAP": [
+14.95,
+"Aluminium Angle 20mm x 3m - Bronze Ash"
+],
+"AA-20-3-BGP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Bright Gold"
+],
+"AA-20-3-BKP": [
+16.0,
+"Aluminium Angle 20mm x 3m - Gloss Black"
+],
+"AA-20-3-BSP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Bright Silver"
+],
+"AA-20-3-GMP": [
+16.0,
+"Aluminium Angle 20mm x 3m - Gunmetal"
+],
+"AA-20-3-LCP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Linished Copper"
+],
+"AA-20-3-LGP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Linished Gold"
+],
+"AA-20-3-LMP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Linished Matt Gold"
+],
+"AA-20-3-LNP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Linished Nickel"
+],
+"AA-20-3-LSP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Linished Silver"
+],
+"AA-20-3-MBKP": [
+16.0,
+"Aluminium Angle 20mm x 3m - Matt Black"
+],
+"AA-20-3-MSP": [
+18.55,
+"Aluminium Angle 20mm x 3m - Matt Silver"
+],
+"AA-20-3-MWP": [
+16.0,
+"Aluminium Angle 20mm x 3m - Matt White"
+],
+"AA-20-3-WHP": [
+16.0,
+"Aluminium Angle 20mm x 3m - Pearl White"
+],
+"AA-22-1": [
+4.05,
+"Aluminium Angle 22mm x 1m"
+],
+"AA-22-3": [
+10.3,
+"Aluminium Angle 22mm x 3m"
+],
+"AA-22-3-ALA": [
+16.0,
+"Aluminium Angle 22mm x 3m - Alabaster"
+],
+"AA-22-3-BAP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Bronze Ash"
+],
+"AA-22-3-BGP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Bright Gold"
+],
+"AA-22-3-BKP": [
+16.0,
+"Aluminium Angle 22mm x 3m - Gloss Black"
+],
+"AA-22-3-BSP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Bright Silver"
+],
+"AA-22-3-GMP": [
+16.0,
+"Aluminium Angle 22mm x 3m - Gunmetal"
+],
+"AA-22-3-LCP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Linished Copper"
+],
+"AA-22-3-LGP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Linished Gold"
+],
+"AA-22-3-LMP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Linished Matt Gold"
+],
+"AA-22-3-LNP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Linished Nickel"
+],
+"AA-22-3-LSP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Linished Silver"
+],
+"AA-22-3-MBKP": [
+16.0,
+"Aluminium Angle 22mm x 3m - Matt Black"
+],
+"AA-22-3-MSP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Matt Silver"
+],
+"AA-22-3-MWP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Matt White"
+],
+"AA-22-3-SMP": [
+18.55,
+"Aluminium Angle 22mm x 3m - Surfmist"
+],
+"AA-22-3-WHP": [
+16.0,
+"Aluminium Angle 22mm x 3m - Pearl White"
+],
+"AA-23-3": [
+12.6,
+"Aluminium Angle 23.5mm x 3m"
+],
+"AA-23-3-BG": [
+18.55,
+"Aluminium Angle 23.5mm x 3m - Bright Gold"
+],
+"AA-23-3-BK": [
+16.0,
+"Aluminium Angle 23.5mm x 3m - Gloss Black"
+],
+"AA-23-3-BS": [
+18.55,
+"Aluminium Angle 23.5mm x 3m - Bright Silver"
+],
+"AA-23-3-MBK": [
+16.0,
+"Aluminium Angle 23.5mm x 3m - Matt Black"
+],
+"AA-23-3-MS": [
+18.55,
+"Aluminium Angle 23.5mm x 3m - Matt Silver"
+],
+"AA-23-3-MW": [
+16.0,
+"Aluminium Angle 23.5mm x 3m - Matt White"
+],
+"AA-23-3-WH": [
+16.0,
+"Aluminium Angle 23.5mm x 3m - Pearl White"
+],
+"AA-25-1": [
+4.45,
+"Aluminium Angle 25mm x 1m"
+],
+"AA-25-3": [
+12.7,
+"Aluminium Angle 25mm x 3m"
+],
+"AA-25-3-ALA": [
+17.3,
+"Aluminium Angle 25mm x 3m - Alabaster"
+],
+"AA-25-3-BGP": [
+19.8,
+"Aluminium Angle 25mm x 3m - Bright Gold"
+],
+"AA-25-3-BKP": [
+17.3,
+"Aluminium Angle 25mm x 3m - Gloss Black"
+],
+"AA-25-3-BSP": [
+19.8,
+"Aluminium Angle 25mm x 3m - Bright Silver"
+],
+"AA-25-3-LGP": [
+19.8,
+"Aluminium Angle 25mm x 3m - Linished Gold"
+],
+"AA-25-3-LSP": [
+19.8,
+"Aluminium Angle 25mm x 3m - Linished Silver"
+],
+"AA-25-3-MBKP": [
+17.3,
+"Aluminium Angle 25mm x 3m - Matt Black"
+],
+"AA-25-3-MSP": [
+19.8,
+"Aluminium Angle 25mm x 3m - Matt Silver"
+],
+"AA-25-3-MWP": [
+17.3,
+"Aluminium Angle 25mm x 3m - Matt White"
+],
+"AA-25-3-WHP": [
+17.3,
+"Aluminium Angle 25mm x 3m - Pearl White"
+],
+"AA-28-3": [
+12.7,
+"Aluminium Angle 28mm x 3m"
+],
+"AA-4-3-N": [
+10.65,
+"Notched Aluminium Angle 4.5mm x 3m"
+],
+"AA-4-3-BKP-N": [
+12.4,
+"Notched Aluminium Angle 4.5mm x 3m - Gloss Black"
+],
+"AA-4-3-MBKP-N": [
+12.4,
+"Notched Aluminium Angle 4.5mm x 3m - Matt Black"
+],
+"AA-4-3-MSP-N": [
+13.05,
+"Notched Aluminium Angle 4.5mm x 3m - Matt Silver"
+],
+"AA-4-3-MWP-N": [
+12.4,
+"Notched Aluminium Angle 4.5mm x 3m - Matt White"
+],
+"AA-4-3-WHP-N": [
+12.4,
+"Notched Aluminium Angle 4.5mm x 3m - Pearl White"
+],
+"AA-6-3-N": [
+10.85,
+"Notched Aluminium Angle 6mm x 3m"
+],
+"AA-6-3-BKP-N": [
+12.4,
+"Notched Aluminium Angle 6mm x 3m - Gloss Black"
+],
+"AA-6-3-BSP-N": [
+13.55,
+"Notched Aluminium Angle 6mm x 3m - Bright Silver"
+],
+"AA-6-3-MBKP-N": [
+12.4,
+"Notched Aluminium Angle 6mm x 3m - Matt Black"
+],
+"AA-6-3-MWP-N": [
+12.4,
+"Notched Aluminium Angle 6mm x 3m - Matt White"
+],
+"AA-6-3-WHP-N": [
+12.4,
+"Notched Aluminium Angle 6mm x 3m - Pearl White"
+],
+"AA-8-3-N": [
+11.45,
+"Notched Aluminium Angle 8mm x 3m"
+],
+"AA-8-3-BKP-N": [
+13.05,
+"Notched Aluminium Angle 8mm x 3m - Gloss Black"
+],
+"AA-8-3-BSP-N": [
+14.1,
+"Notched Aluminium Angle 8mm x 3m - Bright Silver"
+],
+"AA-8-3-LGP-N": [
+14.1,
+"Notched Aluminium Angle 8mm x 3m - Linished Gold"
+],
+"AA-8-3-LSP-N": [
+14.1,
+"Notched Aluminium Angle 8mm x 3m - Linished Silver"
+],
+"AA-8-3-MBKP-N": [
+13.05,
+"Notched Aluminium Angle 8mm x 3m - Matt Black"
+],
+"AA-8-3-MWP-N": [
+13.05,
+"Notched Aluminium Angle 8mm x 3m - Matt White"
+],
+"AA-8-3-WHP-N": [
+13.05,
+"Notched Aluminium Angle 8mm x 3m - Pearl White"
+],
+"AA-9-3-N": [
+11.95,
+"Notched Aluminium Angle 9mm x 3m"
+],
+"AA-10-3-N": [
+12.15,
+"Notched Aluminium Angle 10mm x 3m"
+],
+"AA-10-3-BKP-N": [
+14.1,
+"Notched Aluminium Angle 10mm x 3m - Gloss Black"
+],
+"AA-10-3-BSP-N": [
+15.25,
+"Notched Aluminium Angle 10mm x 3m - Bright Silver"
+],
+"AA-10-3-LGP-N": [
+15.25,
+"Notched Aluminium Angle 10mm x 3m - Linished Gold"
+],
+"AA-10-3-LSP-N": [
+15.25,
+"Notched Aluminium Angle 10mm x 3m - Linished Silver"
+],
+"AA-10-3-MBKP-N": [
+14.1,
+"Notched Aluminium Angle 10mm x 3m - Matt Black"
+],
+"AA-10-3-MSP-N": [
+15.25,
+"Notched Aluminium Angle 10mm x 3m - Matt Silver"
+],
+"AA-10-3-MWP-N": [
+14.1,
+"Notched Aluminium Angle 10mm x 3m - Matt White"
+],
+"AA-10-3-WHP-N": [
+14.1,
+"Notched Aluminium Angle 10mm x 3m - Pearl White"
+],
+"AA-11-3-N": [
+12.6,
+"Notched Aluminium Angle 11mm x 3m"
+],
+"AA-11-3-BKP-N": [
+15.25,
+"Notched Aluminium Angle 11mm x 3m - Gloss Black"
+],
+"AA-11-3-BSP-N": [
+15.9,
+"Notched Aluminium Angle 11mm x 3m - Bright Silver"
+],
+"AA-11-3-LGP-N": [
+15.9,
+"Notched Aluminium Angle 11mm x 3m - Linished Gold"
+],
+"AA-11-3-LSP-N": [
+15.9,
+"Notched Aluminium Angle 11mm x 3m - Linished Silver"
+],
+"AA-11-3-MBKP-N": [
+15.25,
+"Notched Aluminium Angle 11mm x 3m - Matt Black"
+],
+"AA-11-3-MSP-N": [
+15.9,
+"Notched Aluminium Angle 11mm x 3m - Matt Silver"
+],
+"AA-11-3-MWP-N": [
+15.25,
+"Notched Aluminium Angle 11mm x 3m - Matt White"
+],
+"AA-11-3-WHP-N": [
+15.25,
+"Notched Aluminium Angle 11mm x 3m - Pearl White"
+],
+"AA-12-3-N": [
+12.85,
+"Notched Aluminium Angle 12.5mm x 3m"
+],
+"AA-12-3-BKP-N": [
+15.25,
+"Notched Aluminium Angle 12.5mm x 3m - Gloss Black"
+],
+"AA-12-3-BSP-N": [
+15.9,
+"Notched Aluminium Angle 12.5mm x 3m - Bright Silver"
+],
+"AA-12-3-LGP-N": [
+15.9,
+"Notched Aluminium Angle 12.5mm x 3m - Linished Gold"
+],
+"AA-12-3-MBKP-N": [
+15.25,
+"Notched Aluminium Angle 12.5mm x 3m - Matt Black"
+],
+"AA-12-3-MSP-N": [
+15.9,
+"Notched Aluminium Angle 12.5mm x 3m - Matt Silver"
+],
+"AA-12-3-MWP-N": [
+15.25,
+"Notched Aluminium Angle 12.5mm x 3m - Matt White"
+],
+"AA-12-3-WHP-N": [
+15.25,
+"Notched Aluminium Angle 12.5mm x 3m - Pearl White"
+],
+"AA-13-3-N": [
+13.05,
+"Notched Aluminium Angle 13.5mm x 3m"
+],
+"AA-15-3-N": [
+14.5,
+"Notched Aluminium Angle 14mm x 3m"
+],
+"AA-17-3-N": [
+14.5,
+"Notched Aluminium Angle 17mm x 3m"
+],
+"AA-18-3-N": [
+14.5,
+"Notched Aluminium Angle 18.5mm x 3m"
+],
+"AA-20-3-N": [
+14.9,
+"Notched Aluminium Angle 20mm x 3m"
+],
+"AA-22-3-N": [
+15.2,
+"Notched Aluminium Angle 22mm x 3m"
+],
+"AA-23-3-N": [
+15.8,
+"Notched Aluminium Angle 23.5mm x 3m"
+],
+"AA-25-3-N": [
+16.4,
+"Notched Aluminium Angle 25mm x 3m"
+],
+"HRT-6-3-MF": [
+8.0,
+"Half Round Trim 6mm x 3m - Mill Finish"
+],
+"HRT-6-3-BGP": [
+17.3,
+"Half Round Trim 6mm x 3m - Bright Gold"
+],
+"HRT-6-3-BKP": [
+12.35,
+"Half Round Trim 6mm x 3m - Gloss Black"
+],
+"HRT-6-3-BSP": [
+17.3,
+"Half Round Trim 6mm x 3m - Bright Silver"
+],
+"HRT-6-3-LSP": [
+17.3,
+"Half Round Trim 6mm x 3m - Linished Silver"
+],
+"HRT-6-3-MBKP": [
+12.35,
+"Half Round Trim 6mm x 3m - Matt Black"
+],
+"HRT-6-3-MSP": [
+17.3,
+"Half Round Trim 6mm x 3m - Matt Silver"
+],
+"HRT-6-3-MWP": [
+12.35,
+"Half Round Trim 6mm x 3m - Matt White"
+],
+"HRT-6-3-WHP": [
+12.35,
+"Half Round Trim 6mm x 3m - Pearl White"
+],
+"HRT-8-3-MF": [
+8.7,
+"Half Round Trim 8mm x 3m - Mill Finish"
+],
+"HRT-8-3-BGP": [
+17.95,
+"Half Round Trim 8mm x 3m - Bright Gold"
+],
+"HRT-8-3-BKP": [
+13.6,
+"Half Round Trim 8mm x 3m - Gloss Black"
+],
+"HRT-8-3-BSP": [
+17.95,
+"Half Round Trim 8mm x 3m - Bright Silver"
+],
+"HRT-8-3-LSP": [
+17.95,
+"Half Round Trim 8mm x 3m - Linished Silver"
+],
+"HRT-8-3-MBKP": [
+13.6,
+"Half Round Trim 8mm x 3m - Matt Black"
+],
+"HRT-8-3-MSP": [
+17.95,
+"Half Round Trim 8mm x 3m - Matt Silver"
+],
+"HRT-8-3-MWP": [
+13.6,
+"Half Round Trim 8mm x 3m - Matt White"
+],
+"HRT-8-3-WHP": [
+13.6,
+"Half Round Trim 8mm x 3m - Pearl White"
+],
+"HRT-10-3-MF": [
+9.85,
+"Half Round Trim 10mm x 3m - Mill Finish"
+],
+"HRT-10-3-BGP": [
+18.55,
+"Half Round Trim 10mm x 3m - Bright Gold"
+],
+"HRT-10-3-BKP": [
+14.9,
+"Half Round Trim 10mm x 3m - Gloss Black"
+],
+"HRT-10-3-BSP": [
+18.55,
+"Half Round Trim 10mm x 3m - Bright Silver"
+],
+"HRT-10-3-LSP": [
+18.55,
+"Half Round Trim 10mm x 3m - Linished Silver"
+],
+"HRT-10-3-MBKP": [
+14.9,
+"Half Round Trim 10mm x 3m - Matt Black"
+],
+"HRT-10-3-MSP": [
+18.55,
+"Half Round Trim 10mm x 3m - Matt Silver"
+],
+"HRT-10-3-MWP": [
+14.9,
+"Half Round Trim 10mm x 3m - Matt White"
+],
+"HRT-10-3-WHP": [
+14.9,
+"Half Round Trim 10mm x 3m - Pearl White"
+],
+"HRT-12-3-MF": [
+10.55,
+"Half Round Trim 12mm x 3m - Mill Finish"
+],
+"HRT-12-3BGP": [
+19.15,
+"Half Round Trim 12mm x 3m - Bright Gold"
+],
+"HRT-12-3-BKP": [
+16.0,
+"Half Round Trim 12mm x 3m - Gloss Black"
+],
+"HRT-12-3-BSP": [
+19.15,
+"Half Round Trim 12mm x 3m - Bright Silver"
+],
+"HRT-12-3-LSP": [
+19.15,
+"Half Round Trim 12mm x 3m - Linished Silver"
+],
+"HRT-12-3-MBKP": [
+19.15,
+"Half Round Trim 12mm x 3m - Matt Black"
+],
+"HRT-12-3-MSP": [
+19.15,
+"Half Round Trim 12mm x 3m - Matt Silver"
+],
+"HRT-12-3-MWP": [
+16.0,
+"Half Round Trim 12mm x 3m - Matt White"
+],
+"HRT-12-3-WHP": [
+16.0,
+"Half Round Trim 12mm x 3m - Pearl White"
+],
+"MCA-4-3-MF": [
+16.0,
+"Mosaic Corner Angle 4.5mm x 3m - Mill Finish"
+],
+"MCA-4-3-ALA": [
+17.95,
+"Mosaic Corner Angle 4.5mm x 3m - Alabaster"
+],
+"MCA-4-3-BG": [
+17.95,
+"Mosaic Corner Angle 4.5mm x 3m - Bright Gold"
+],
+"MCA-4-3-BK": [
+17.95,
+"Mosaic Corner Angle 4.5mm x 3m - Gloss Black"
+],
+"MCA-4-3-BSP": [
+18.55,
+"Mosaic Corner Angle 4.5mm x 3m - Bright Silver"
+],
+"MCA-4-3-MBK": [
+17.95,
+"Mosaic Corner Angle 4.5mm x 3m - Matt Black"
+],
+"MCA-6-3-MF": [
+16.0,
+"Mosaic Corner Angle 6.5mm x 3m - Mill Finish"
+],
+"MCA-6-3-ALA": [
+17.95,
+"Mosaic Corner Angle 6.5mm x 3m - Alabaster"
+],
+"MCA-6-3-BKP": [
+17.95,
+"Mosaic Corner Angle 6.5mm x 3m - Gloss Black"
+],
+"MCA-6-3-BSP": [
+21.05,
+"Mosaic Corner Angle 6.5mm x 3m - Bright Silver"
+],
+"MCA-6-3-LGP": [
+21.05,
+"Mosaic Corner Angle 6.5mm x 3m - Linished Gold"
+],
+"MCA-6-3-LMP": [
+21.05,
+"Mosaic Corner Angle 6.5mm x 3m - Linished Matt Gold"
+],
+"MCA-6-3-LSP": [
+21.05,
+"Mosaic Corner Angle 6.5mm x 3m - Linished Silver"
+],
+"MCA-6-3-MBKP": [
+17.95,
+"Mosaic Corner Angle 6.5mm x 3m - Matt Black"
+],
+"MCA-6-3-MSP": [
+21.05,
+"Mosaic Corner Angle 6.5mm x 3m - Matt Silver"
+],
+"MCA-6-3-MWP": [
+17.95,
+"Mosaic Corner Angle 6.5mm x 3m - Matt White"
+],
+"MCA-6-3-WHP": [
+17.95,
+"Mosaic Corner Angle 6.5mm x 3m - Pearl White"
+],
+"MCA-8-3-MF": [
+16.7,
+"Mosaic Corner Angle 8.5mm x 3m - Mill Finish"
+],
+"MCA-8-3-ALA": [
+18.55,
+"Mosaic Corner Angle 8.5mm x 3m - Alabaster"
+],
+"MCA-8-3-BGP": [
+22.2,
+"Mosaic Corner Angle 8.5mm x 3m - Bright Gold"
+],
+"MCA-8-3-BKP": [
+18.55,
+"Mosaic Corner Angle 8.5mm x 3m - Gloss Black"
+],
+"MCA-8-3-BSP": [
+22.2,
+"Mosaic Corner Angle 8.5mm x 3m - Bright Silver"
+],
+"MCA-8-3-LBP": [
+22.2,
+"Mosaic Corner Angle 8.5mm x 3m - Linished Black"
+],
+"MCA-8-3-LGP": [
+22.2,
+"Mosaic Corner Angle 8.5mm x 3m - Linished Gold"
+],
+"MCA-8-3-LMP": [
+22.2,
+"Mosaic Corner Angle 8.5mm x 3m - Linished Matt Gold"
+],
+"MCA-8-3-LSP": [
+22.2,
+"Mosaic Corner Angle 8.5mm x 3m - Linished Silver"
+],
+"MCA-8-3-MBKP": [
+18.55,
+"Mosaic Corner Angle 8.5mm x 3m - Matt Black"
+],
+"MCA-8-3-MSP": [
+22.2,
+"Mosaic Corner Angle 8.5mm x 3m - Matt Silver"
+],
+"MCA-8-3-MWP": [
+18.55,
+"Mosaic Corner Angle 8.5mm x 3m - Matt White"
+],
+"MCA-8-3-WHP": [
+18.55,
+"Mosaic Corner Angle 8.5mm x 3m - Pearl White"
+],
+"MCA-10-3-MF": [
+17.95,
+"Mosaic Corner Angle 10.5mm x 3m - Mill Finish"
+],
+"MCA-10-3-ALA": [
+19.8,
+"Mosaic Corner Angle 10.5mm x 3m - Alabaster"
+],
+"MCA-10-3-BGP": [
+23.5,
+"Mosaic Corner Angle 10.5mm x 3m - Bright Gold"
+],
+"MCA-10-3-BKP": [
+19.8,
+"Mosaic Corner Angle 10.5mm x 3m - Gloss Black"
+],
+"MCA-10-3-BSP": [
+23.5,
+"Mosaic Corner Angle 10.5mm x 3m - Bright Silver"
+],
+"MCA-10-3-LBP": [
+23.5,
+"Mosaic Corner Angle 10.5mm x 3m - Linished Black"
+],
+"MCA-10-3-LGP": [
+23.5,
+"Mosaic Corner Angle 10.5mm x 3m - Linished Gold"
+],
+"MCA-10-3-LMP": [
+23.5,
+"Mosaic Corner Angle 10.5mm x 3m - Linished Matt Gold"
+],
+"MCA-10-3-LSP": [
+23.5,
+"Mosaic Corner Angle 10.5mm x 3m - Linished Silver"
+],
+"MCA-10-3-MBKP": [
+19.8,
+"Mosaic Corner Angle 10.5mm x 3m - Matt Black"
+],
+"MCA-10-3-MSP": [
+23.5,
+"Mosaic Corner Angle 10.5mm x 3m - Matt Silver"
+],
+"MCA-10-3-MWP": [
+19.8,
+"Mosaic Corner Angle 10.5mm x 3m - Matt White"
+],
+"MCA-10-3-WHP": [
+19.8,
+"Mosaic Corner Angle 10.5mm x 3m - Pearl White"
+],
+"MCA-12-3-MF": [
+18.55,
+"Mosaic Corner Angle 12.5mm x 3m - Mill Finish"
+],
+"MCA-12-3-BGP": [
+24.75,
+"Mosaic Corner Angle 12.5mm x 3m - Bright Gold"
+],
+"MCA-12-3-BKP": [
+21.05,
+"Mosaic Corner Angle 12.5mm x 3m - Gloss Black"
+],
+"MCA-12-3-BSP": [
+24.75,
+"Mosaic Corner Angle 12.5mm x 3m - Bright Silver"
+],
+"MCA-12-3-LBP": [
+24.75,
+"Mosaic Corner Angle 12.5mm x 3m - Linished Black"
+],
+"MCA-12-3-LGP": [
+24.75,
+"Mosaic Corner Angle 12.5mm x 3m - Linished Gold"
+],
+"MCA-12-3-LMP": [
+24.74,
+"Mosaic Corner Angle 12.5mm x 3m - Linished Matt Gold"
+],
+"MCA-12-3-LSP": [
+24.74,
+"Mosaic Corner Angle 12.5mm x 3m - Linished Silver"
+],
+"MCA-12-3-MBKP": [
+21.05,
+"Mosaic Corner Angle 12.5mm x 3m - Matt Black"
+],
+"MCA-12-3-MSP": [
+24.75,
+"Mosaic Corner Angle 12.5mm x 3m - Matt Silver"
+],
+"MCA-12-3-MWP": [
+21.05,
+"Mosaic Corner Angle 12.5mm x 3m - Matt White"
+],
+"MCA-12-3-WHP": [
+21.05,
+"Mosaic Corner Angle 12.5mm x 3m - Pearl White"
+],
+"MCA-15-3-MF": [
+21.05,
+"Mosaic Corner Angle 15mm x 3m - Mill Finish"
+],
+"MCA-15-3-ALA": [
+22.2,
+"Mosaic Corner Angle 15mm x 3m - Alabaster"
+],
+"MCA-15-3-BG": [
+27.25,
+"Mosaic Corner Angle 15mm x 3m - Bright Gold"
+],
+"MCA-15-3-BK": [
+22.2,
+"Mosaic Corner Angle 15mm x 3m - Gloss Black"
+],
+"MCA-15-3-BS": [
+27.25,
+"Mosaic Corner Angle 15mm x 3m - Bright Silver"
+],
+"MCA-15-3-MBK": [
+22.2,
+"Mosaic Corner Angle 15mm x 3m - Matt Black"
+],
+"MCA-15-3-MS": [
+27.25,
+"Mosaic Corner Angle 15mm x 3m - Matt Silver"
+],
+"MCA-15-3-MW": [
+22.2,
+"Mosaic Corner Angle 15mm x 3m - Matt White"
+],
+"MCA-15-3-WH": [
+22.2,
+"Mosiac Corner Angle 15mm x 3m - Pearl White"
+],
+"MCG-4-3-MF": [
+19.8,
+"Mosaic Corner Guard 4.5mm x 3m - Mill Finish"
+],
+"MCG-4-3-ALA": [
+22.2,
+"Mosaic Corner Guard 4.5mm x 3m - Alabaster"
+],
+"MCG-4-3-BK": [
+22.2,
+"Mosaic Corner Guard 4.5mm x 3m - Gloss Black"
+],
+"MCG-4-3-BSP": [
+27.25,
+"Mosaic Corner Guard 4.5mm x 3m - Bright Silver"
+],
+"MCG-6-3-MF": [
+21.05,
+"Mosaic Corner Guard 6.5mm x 3m - Mill Finish"
+],
+"MCG-6-3-ALA": [
+28.4,
+"Mosaic Corner Guard 6.5mm x 3m - Alabaster"
+],
+"MCG-6-3-BK": [
+28.4,
+"Mosaic Corner Guard 6.5mm x 3m - Gloss Black"
+],
+"MCG-6-3-BSP": [
+30.9,
+"Mosaic Corner Guard 6.5mm x 3m - Bright Silver"
+],
+"MCG-6-3-MBK": [
+28.4,
+"Mosaic Corner Guard 6.5mm x 3m - Matt Black"
+],
+"MCG-6-3-MS": [
+30.9,
+"Mosaic Corner Guard 6.5mm x 3m - Matt Silver"
+],
+"MCG-6-3-WH": [
+28.4,
+"Mosaic Corner Guard 6.5mm x 3m - Pearl White"
+],
+"MCG-8-3-MF": [
+21.05,
+"Mosaic Corner Guard 8.5mm x 3m - Mill Finish"
+],
+"MCG-8-3-ALA": [
+28.4,
+"Mosaic Corner Guard 8.5mm x 3m - Alabaster"
+],
+"MCG-8-3-BK": [
+28.4,
+"Mosaic Corner Guard 8.5mm x 3m - Gloss Black"
+],
+"MCG-8-3-BSP": [
+30.9,
+"Mosaic Corner Guard 8.5mm x 3m - Bright Silver"
+],
+"MCG-8-3-MBK": [
+28.4,
+"Mosaic Corner Guard 8.5mm x 3m - Matt Black"
+],
+"MCG-8-3-MSP": [
+30.9,
+"Mosaic Corner Guard 8.5mm x 3m - Matt Silver"
+],
+"MCG-8-3-MW": [
+28.4,
+"Mosaic Corner Guard 8.5mm x 3m - Matt White"
+],
+"MCG-8-3-WH": [
+28.4,
+"Mosaic Corner Guard 8.5mm x 3m - Pearl White"
+],
+"MCG-10-3-MF": [
+23.5,
+"Mosaic Corner Guard 10.5mm x 3m - Mill Finish"
+],
+"MCG-10-3-ALA": [
+28.4,
+"Mosaic Corner Guard 10.5mm x 3m - Alabaster"
+],
+"MCG-10-3-BG": [
+30.9,
+"Mosaic Corner Guard 10.5mm x 3m - Bright Gold"
+],
+"MCG-10-3-BKP": [
+28.4,
+"Mosaic Corner Guard 10.5mm x 3m - Gloss Black"
+],
+"MCG-10-3-BSP": [
+30.9,
+"Mosaic Corner Guard 10.5mm x 3m - Bright Silver"
+],
+"MCG-10-3-MBKP": [
+28.4,
+"Mosaic Corner Guard 10.5mm x 3m - Matt Black"
+],
+"MCG-10-3-MSP": [
+30.9,
+"Mosaic Corner Guard 10.5mm x 3m - Matt Silver"
+],
+"MCG-10-3-MWP": [
+28.4,
+"Mosaic Corner Guard 10.5mm x 3m - Matt White"
+],
+"MCG-10-3-WHP": [
+28.4,
+"Mosaic Corner Guard 10.5mm x 3m - Pearl White"
+],
+"MCG-12-3-MF": [
+24.75,
+"Mosaic Corner Guard 12.5mm x 3m - Mill Finish"
+],
+"MCG-12-3-BG": [
+34.55,
+"Mosaic Corner Guard 12.5mm x 3m - Bright Gold"
+],
+"MCG-12-3-BK": [
+29.65,
+"Mosaic Corner Guard 12.5mm x 3m - Gloss Black"
+],
+"MCG-12-3-BSP": [
+34.55,
+"Mosaic Corner Guard 12.5mm x 3m - Bright Silver"
+],
+"MCG-12-3-MBK": [
+29.65,
+"Mosaic Corner Guard 12.5mm x 3m - Matt Black"
+],
+"MCG-15-3-MF": [
+27.25,
+"Mosiac Corner Guard 15mm x 3m - Mill Finish"
+],
+"MCG-15-3-ALA": [
+33.45,
+"Mosaic Corner Guard 15mm x 3m - Alabaster"
+],
+"MCG-15-3-BK": [
+33.45,
+"Mosaic Corner Guard 15mm x 3m - Gloss Black"
+],
+"MCG-15-3-BS": [
+38.35,
+"Mosaic Corner Guard 15mm x 3m - Bright Silver"
+],
+"MCG-15-3-MBK": [
+33.45,
+"Mosaic Corner Guard 15mm x 3m - Matt Black"
+],
+"MCG-15-3-MS": [
+38.35,
+"Mosaic Corner Guard 15mm x 3m - Matt Silver"
+],
+"MCG-15-3-MW": [
+33.45,
+"Mosaic Corner Guard 15mm x 3m - Matt White"
+],
+"MCG-15-3-WH": [
+33.45,
+"Mosaic Corner Guard 15mm x 3m - Pearl White"
+],
+"MCPC-8-BG": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Bright Gold"
+],
+"MCPC-8-BK": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Gloss Black"
+],
+"MCPC-8-BS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Bright Silver"
+],
+"MCPC-8-LG": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Linished Gold"
+],
+"MCPC-8-LS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Linished Silver"
+],
+"MCPC-8-MBK": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Matt Black"
+],
+"MCPC-8-MS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Matt Silver"
+],
+"MCPC-8-MW": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Matt White"
+],
+"MCPC-8-WH": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 8.5mm - Pearl White"
+],
+"MCPC-10-BG": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Bright Gold"
+],
+"MCPC-10-BK": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Gloss Black"
+],
+"MCPC-10-BS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Bright Silver"
+],
+"MCPC-10-LG": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Linished Gold"
+],
+"MCPC-10-LS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Linished Silver"
+],
+"MCPC-10-MBK": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Matt Black"
+],
+"MCPC-10-MS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Matt Silver"
+],
+"MCPC-10-MW": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Matt White"
+],
+"MCPC-10-WH": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 10.5mm - Pearl White"
+],
+"MCPC-12-BG": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Bright Gold"
+],
+"MCPC-12-BK": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Gloss Black"
+],
+"MCPC-12-BS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Bright Silver"
+],
+"MCPC-12-LG": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Linished Gold"
+],
+"MCPC-12-LS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Linished Silver"
+],
+"MCPC-12-MBK": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Matt Black"
+],
+"MCPC-12-MS": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Matt Silver"
+],
+"MCPC-12-MW": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Matt White"
+],
+"MCPC-12-WH": [
+12.35,
+"Pre-Fabricated Corners to suit MCA/MCG 12.5mm - Pearl White"
+],
+"BEC-6-3-MF": [
+25.95,
+"External Corner 6mm x 3m - Mill Finish"
+],
+"BEC-6-3-ALA": [
+30.9,
+"External Corner 6mm x 3m - Alabaster"
+],
+"BEC-6-3-BS": [
+32.05,
+"External Corner 6mm x 3m - Bright Silver"
+],
+"BEC-6-3-MBK": [
+30.9,
+"External Corner 6mm x 3m - Matt Black"
+],
+"BEC-6-3-MS": [
+32.05,
+"External Corner 6mm x 3m - Matt Silver"
+],
+"BEC-6-3-WH": [
+30.9,
+"External Corner 6mm x 3m - Pearl White"
+],
+"BEC-8-3-MF": [
+25.95,
+"External Corner 8mm x 3m - Mill Finish"
+],
+"BEC-8-3-ALA": [
+32.15,
+"External Corner 8mm x 3m - Alabaster"
+],
+"BEC-8-3-BK": [
+32.15,
+"External Corner 8mm x 3m - Gloss Black"
+],
+"BEC-8-3-BS": [
+33.35,
+"External Corner 8mm x 3m - Bright Silver"
+],
+"BEC-8-3-MBK": [
+32.15,
+"External Corner 8mm x 3m - Matt Black"
+],
+"BEC-8-3-MS": [
+33.35,
+"External Corner 8mm x 3m - Matt Silver"
+],
+"BEC-8-3-WH": [
+32.15,
+"External Corner 8mm x 3m - Pearl White"
+],
+"BEC-10-3-MF": [
+29.65,
+"External Corner 10mm x 3m - Mill Finish"
+],
+"BEC-10-3-ALA": [
+34.55,
+"External Corner 10mm x 3m - Alabaster"
+],
+"BEC-10-3-BK": [
+34.55,
+"External Corner 10mm x 3m - Gloss Black"
+],
+"BEC-10-3-BS": [
+35.7,
+"External Corner 10mm x 3m - Bright Silver"
+],
+"BEC-10-3-MBK": [
+34.55,
+"External Corner 10mm x 3m - Matt Black"
+],
+"BEC-10-3-MS": [
+35.7,
+"External Corner 10mm x 3m - Matt Silver"
+],
+"BEC-10-3-WH": [
+34.55,
+"External Corner 10mm x 3m - Pearl White"
+],
+"BEC-12-3-MF": [
+33.45,
+"External Corner 12.5mm x 3m - Mill Finish"
+],
+"BEC-12-3-BK": [
+38.35,
+"External Corner 12.5mm x 3m - Gloss Black"
+],
+"BEC-12-3-BS": [
+39.5,
+"External Corner 12.5mm x 3m - Bright Silver"
+],
+"BEC-12-3-MBK": [
+38.35,
+"External Corner 12.5mm x 3m - Matt Black"
+],
+"BEC-12-3-MS": [
+39.5,
+"External Corner 12.5mm x 3m - Matt Silver"
+],
+"BEC-12-3-MW": [
+38.35,
+"External Corner 12.5mm x 3m - Matt White"
+],
+"BEC-12-3-WH": [
+38.35,
+"External Corner 12.5mm x 3m - Pearl White"
+],
+"BCP-1010-BS": [
+9.4,
+"Co-Pro Corner Protection Trim 10 x 10mm - Bright Silver"
+],
+"BCP-1010-LMG": [
+9.4,
+"Co-Pro Corner Protection Trim 10 x 10mm - Linished Matt Gold"
+],
+"BCP-1010-LS": [
+9.4,
+"Co-Pro Corner Protection Trim 10 x 10mm - Linished Silver"
+],
+"BCP-1010-MBK": [
+9.4,
+"Co-Pro Corner Protection Trim 10 x 10mm - Matt Black"
+],
+"BCP-1010-WH": [
+9.4,
+"Co-Pro Corner Protection Trim 10 x 10mm - Pearl White"
+],
+"BCP-1515-BS": [
+12.15,
+"Co-Pro Corner Protection Trim 15 x 15mm - Bright Silver"
+],
+"BCP-1515-LMG": [
+12.15,
+"Co-Pro Corner Protection Trim 15 x 15mm - Linished Matt Gold"
+],
+"BCP-1515-LS": [
+12.15,
+"Co-Pro Corner Protection Trim 15 x 15mm - Linished Silver"
+],
+"BCP-1515-MBK": [
+12.15,
+"Co-Pro Corner Protection Trim 15 x 15mm - Matt Black"
+],
+"BCP-1515-WH": [
+12.15,
+"Co-Pro Corner Protection Trim 15 x 15mm - Pearl White"
+],
+"BCP-2020-BS": [
+14.8,
+"Co-Pro Corner Protection Trim 20 x 20mm - Bright Silver"
+],
+"BCP-2020-LMG": [
+14.8,
+"Co-Pro Corner Protection Trim 20 x 20mm - Linished Matt Gold"
+],
+"BCP-2020-LS": [
+14.8,
+"Co-Pro Corner Protection Trim 20 x 20mm - Linished Silver"
+],
+"BCP-2020-MBK": [
+14.8,
+"Co-Pro Corner Protection Trim 20 x 20mm - Matt Black"
+],
+"BCP-2020-WH": [
+14.8,
+"Co-Pro Corner Protection Trim 20 x 20mm - Pearl White"
+],
+"BDY-8-3-MF": [
+23.5,
+"Aluminium Y Section 8mm x 3m - Mill Finish"
+],
+"BDY-8-3-MS": [
+25.95,
+"Aluminium Y Section 8mm x 3m - Matt Silver"
+],
+"BDY-10-3-MF": [
+24.75,
+"Aluminium Y Section 10mm x 3m - Mill Finish"
+],
+"BDY-10-3-BS": [
+27.25,
+"Aluminium Y Section 10mm x 3m - Bright Silver"
+],
+"BDY-10-3-MS": [
+27.25,
+"Aluminium Y Section 10mm x 3m - Matt Silver"
+],
+"BDY-12-3-MF": [
+27.25,
+"Aluminium Y Section 12.5mm x 3m - Mill Finish"
+],
+"BDY-12-3-BS": [
+29.65,
+"Aluminium Y Section 12.5mm x 3m - Bright Silver"
+],
+"BDY-12-3-MS": [
+29.65,
+"Aluminium Y Section 12.5mm x 3m - Matt Silver"
+],
+"BIC-8-3-MF": [
+28.4,
+"Internal Corner 8mm x 3m - Mill Finish"
+],
+"BIC-8-3-BK": [
+30.9,
+"Internal Corner 8mm x 3m - Gloss Black"
+],
+"BIC-8-3-BS": [
+34.0,
+"Internal Corner 8mm x 3m - Bright Silver"
+],
+"BIC-8-3-MS": [
+34.0,
+"Internal Corner 8mm x 3m - Matt Silver"
+],
+"BIC-8-3-WH": [
+30.9,
+"Internal Corner 8mm x 3m - Pearl White"
+],
+"BIC-10-3-MF": [
+30.3,
+"Internal Corner 10mm x 3m - Mill Finish"
+],
+"BIC-10-3-BK": [
+32.75,
+"Internal Corner 10mm x 3m - Gloss Black"
+],
+"BIC-10-3-BS": [
+31.1,
+"Internal Corner 10mm x 3m - Bright Silver"
+],
+"BIC-10-3-MS": [
+38.9,
+"Internal Corner 10mm x 3m - Matt Silver"
+],
+"BIC-10-3-MW": [
+32.75,
+"Internal Corner 10mm x 3m - Matt White"
+],
+"BIC-10-3-WH": [
+32.75,
+"Internal Corner 10mm x 3m - Pearl White"
+],
+"ST-8-3-MF": [
+17.3,
+"Splash Trim 8mm x 3m - Mill Finish"
+],
+"ST-8-3-ALA": [
+19.8,
+"Splash Trim 8mm x 3m - Alabaster"
+],
+"ST-8-3-BK": [
+19.8,
+"Splash Trim 8mm x 3m - Gloss Black"
+],
+"ST-8-3-BS": [
+23.5,
+"Splash Trim 8mm x 3m - Bright Silver"
+],
+"ST-8-3-MS": [
+23.5,
+"Splash Trim 8mm x 3m - Matt Silver"
+],
+"ST-8-3-WH": [
+19.8,
+"Splash Trim 8mm x 3m - Pearl White"
+],
+"ST-10-3-MF": [
+18.55,
+"Splash Trim 10mm x 3m - Mill Finish"
+],
+"ST-10-3-ALA": [
+20.35,
+"Splash Trim 10mm x 3m - Alabaster"
+],
+"ST-10-3-BK": [
+20.35,
+"Splash Trim 10mm x 3m - Gloss Black"
+],
+"BTT-6-3-MF": [
+14.3,
+"Top Trim 6.5mm x 3m - Mill Finish"
+],
+"BTT-6-3-BS": [
+23.5,
+"Top Trim 6.5mm x 3m - Bright Silver"
+],
+"BTT-6-3-MS": [
+23.5,
+"Top Trim 6.5mm x 3m - Matt Silver"
+],
+"BTT-6-3-WH": [
+19.8,
+"Top Trim 6.5mm x 3m - Pearl White"
+],
+"BTT-8-3-MF": [
+14.9,
+"Top Trim 8.5mm x 3m - Mill Finish"
+],
+"BTT-8-3-BK": [
+20.35,
+"Top Trim 8.5mm x 3m - Gloss Black"
+],
+"BTT-8-3-BS": [
+24.75,
+"Top Trim 8.5mm x 3m - Bright Silver"
+],
+"BTT-8-3-MS": [
+24.75,
+"Top Trim 8.5mm x 3m - Matt Silver"
+],
+"BTT-8-3-WH": [
+20.35,
+"Top Trim 8.5mm x 3m - Pearl White"
+],
+"BTT-10-3-MF": [
+15.5,
+"Top Trim 10.5mm x 3m - Mill Finish"
+],
+"BTT-10-3-BK": [
+21.0,
+"Top Trim 10.5mm x 3m - Gloss Black"
+],
+"BTT-10-3-BS": [
+25.3,
+"Top Trim 10.5mm x 3m - Bright Silver"
+],
+"BTT-10-3-MS": [
+25.3,
+"Top Trim 10.5mm x 3m - Matt Silver"
+],
+"BTT-10-3-MW": [
+21.0,
+"Top Trim 10.5mm x 3m - Matt White"
+],
+"BTT-10-3-WH": [
+21.0,
+"Top Trim 10.5mm x 3m - Pearl White"
+],
+"BT-8-3-MF": [
+14.9,
+"Border Trim 8mm x 3m - Mill Finish"
+],
+"BT-8-3-BK": [
+23.5,
+"Border Trim 8mm x 3m - Gloss Black"
+],
+"BT-8-3-BS": [
+28.4,
+"Border Trim 8mm x 3m - Bright Silver"
+],
+"BT-8-3-MS": [
+28.4,
+"Border Trim 8mm x 3m - Matt Silver"
+],
+"BT-8-3-WH": [
+23.5,
+"Border Trim 8mm x 3m - Pearl White"
+],
+"BT-10-3-MF": [
+14.9,
+"Border Trim 10mm x 3m - Mill Finish"
+],
+"BT-10-3-BK": [
+23.5,
+"Border Trim 10mm x 3m - Gloss Black"
+],
+"BT-10-3-BS": [
+28.4,
+"Border Trim 10mm x 3m - Bright Silver"
+],
+"BT-10-3-MS": [
+28.4,
+"Border Trim 10mm x 3m - Matt Silver"
+],
+"BT-10-3-WH": [
+23.5,
+"Border Trim 10mm x 3m - Pearl White"
+],
+"BMT-8-3": [
+12.95,
+"Birds Mouth Trim 8mm x 3m - Mill Finish"
+],
+"BMT-8-3-MS": [
+14.2,
+"Birds Mouth Trim 8mm x 3m - Matt Silver"
+],
+"BMT-8-3-WH": [
+14.2,
+"Birds Mouth Trim 8mm x 3m - Pearl White"
+],
+"BMT-10-3": [
+13.6,
+"Birds Mouth Trim 10mm x 3m - Mill Finish"
+],
+"BMT-10-3-BK": [
+14.9,
+"Birds Mouth Trim 10mm x 3m - Gloss Black"
+],
+"BMT-10-3-MS": [
+14.9,
+"Birds Mouth Trim 10mm x 3m - Matt Silver"
+],
+"BMT-12-3": [
+14.2,
+"Birds Mouth Trim 12.5mm x 3m - Mill Finish"
+],
+"BMT-12-3-MS": [
+15.5,
+"Birds Mouth Trim 12.5mm x 3m - Matt Silver"
+],
+"BMT-15-3": [
+27.25,
+"Birds Mouth Trim 15mm x 3m - Mill Finish"
+],
+"BMT-15-3-MS": [
+29.65,
+"Birds Mouth Trim 15mm x 3m - Matt Silver"
+],
+"BMT-20-3": [
+30.9,
+"Birds Mouth Trim 20mm x 3m - Mill Finish"
+],
+"BMT-20-3-MS": [
+33.45,
+"Birds Mouth Trim 20mm x 3m - Matt Silver"
+],
+"BMT-25-3": [
+35.85,
+"Birds Mouth Trim 25mm x 3m - Mill Finish"
+],
+"BMT-25-3-MS": [
+38.35,
+"Birds Mouth Trim 25mm x 3m - Matt Silver"
+],
+"SSB-103-BSP": [
+28.4,
+"Showerstop Bead 10mm x 3m - Bright Silver with Protective Film"
+],
+"BET-8-3-MF": [
+50.7,
+"Balcony Trim 8mm x 3m - Mill Finish"
+],
+"BET-8-3-GM": [
+60.6,
+"Balcony Trim 8mm x 3m - Gunmetal"
+],
+"BET-8-3-MBK": [
+60.6,
+"Balcony Trim 8mm x 3m - Matt Black"
+],
+"BET-8-3-MS": [
+60.6,
+"Balcony Trim 8mm x 3m - Matt Silver"
+],
+"BET-10-3-MF": [
+55.65,
+"Balcony Trim 10mm x 3m - Mill Finish"
+],
+"BET-10-3-GM": [
+64.95,
+"Balcony Trim 10mm x 3m - Gunmetal"
+],
+"BET-10-3-MBK": [
+64.95,
+"Balcony Trim 10mm x 3m - Matt Black"
+],
+"BET-10-3-MS": [
+64.95,
+"Balcony Trim 10mm x 3m - Matt Silver"
+],
+"BET-12-3-MF": [
+56.05,
+"Balcony Trim 12.5mm x 3m - Mill Finish"
+],
+"BET-12-3-GM": [
+67.5,
+"Balcony Trim 12.5mm x 3m - Gunmetal"
+],
+"BET-12-3-MBK": [
+67.5,
+"Balcony Trim 12.5mm x 3m - Matt Black"
+],
+"BET-12-3-MS": [
+67.5,
+"Balcony Trim 12.5mm x 3m - Matt Silver"
+],
+"BETEC-8-MF": [
+12.9,
+"Balcony Trim - External Corner 8mm - Mill Finish"
+],
+"BETEC-8-GM": [
+18.7,
+"Balcony Trim - External Corner 8mm - Gunmetal"
+],
+"BETEC-8-MBK": [
+18.7,
+"Balcony Trim - External Corner 8mm - Matt Black"
+],
+"BETEC-8-MS": [
+18.7,
+"Balcony Trim - External Corner 8mm - Matt Silver"
+],
+"BETEC-10-MF": [
+14.2,
+"Balcony Trim - External Corner 10mm - Mill Finish"
+],
+"BETEC-10-GM": [
+21.15,
+"Balcony Trim - External Corner 10mm - Gunmetal"
+],
+"BETEC-10-MBK": [
+21.15,
+"Balcony Trim - External Corner 10mm - Matt Black"
+],
+"BETEC-10-MS": [
+21.15,
+"Balcony Trim - External Corner 10mm - Matt Silver"
+],
+"BETEC-12-MF": [
+15.65,
+"Balcony Trim - External Corner 12mm - Mill Finish"
+],
+"BETEC-12-GM": [
+22.6,
+"Balcony Trim - External Corner 12mm - Gunmetal"
+],
+"BETEC-12-MBK": [
+22.6,
+"Balcony Trim - External Corner 12mm - Matt Black"
+],
+"BETEC-12-MS": [
+22.6,
+"Balcony Trim - External Corner 12mm - Matt Silver"
+],
+"BETIC-8-MF": [
+12.9,
+"Balcony Trim - Internal Corner 8mm - Mill Finish"
+],
+"BETIC-8-GM": [
+18.7,
+"Balcony Trim - Internal Corner 8mm - Gunmetal"
+],
+"BETIC-8-MBK": [
+18.7,
+"Balcony Trim - Internal Corner 8mm - Matt Black"
+],
+"BETIC-8-MS": [
+18.7,
+"Balcony Trim - Internal Corner 8mm - Matt Silver"
+],
+"BETIC-10-MF": [
+14.2,
+"Balcony Trim - Internal Corner 10mm - Mill Finish"
+],
+"BETIC-10-GM": [
+21.15,
+"Balcony Trim - Internal Corner 10mm - Gunmetal"
+],
+"BETIC-10-MBK": [
+21.15,
+"Balcony Trim - Internal Corner 10mm - Matt Black"
+],
+"BETIC-10-MS": [
+21.15,
+"Balcony Trim - Internal Corner 10mm - Matt Silver"
+],
+"BETIC-12-MF": [
+15.65,
+"Balcony Trim - Internal Corner 12mm - Mill Finish"
+],
+"BETIC-12-GM": [
+22.6,
+"Balcony Trim - Internal Corner 12mm - Gunmetal"
+],
+"BETIC-12-MBK": [
+22.6,
+"Balcony Trim - Internal Corner 12mm - Matt Black"
+],
+"BETIC-12-MS": [
+22.6,
+"Balcony Trim - Internal Corner 12mm - Matt Silver"
+],
+"BETJ-6": [
+6.9,
+"Balcony Trim Joiners (6 pack)"
+],
+"ADT-8-3": [
+14.2,
+"Aluminium Diminishing Trim 8mm x 3m - Mill Finish"
+],
+"ADT-8-3-BG": [
+19.45,
+"Aluminium Diminishing Trim 8mm x 3m - Bright Gold"
+],
+"ADT-8-3-MBK": [
+19.45,
+"Aluminium Diminishing Trim 8mm x 3m - Matt Black"
+],
+"ADT-8-3-MS": [
+17.95,
+"Aluminium Diminishing Trim 8mm x 3m - Matt Silver"
+],
+"ADT-10-3": [
+15.0,
+"Aluminium Diminishing Trim 10mm x 3m - Mill Finish"
+],
+"ADT-10-3-MBK": [
+20.05,
+"Aluminium Diminishing Trim 10mm x 3m - Matt Black"
+],
+"ADT-10-3-MS": [
+19.15,
+"Aluminium Diminishing Trim 10mm x 3m - Matt Silver"
+],
+"ADT-12-3": [
+16.7,
+"Aluminium Diminishing Trim 12.5mm x 3m - Mill Finish"
+],
+"ADT-12-3-MBK": [
+21.75,
+"Aluminium Diminishing Trim 12.5mm x 3m - Matt Black"
+],
+"ADT-12-3-MS": [
+20.7,
+"Aluminium Diminishing Trim 12.5mm x 3m - Matt Silver"
+],
+"ADT-15-3": [
+18.75,
+"Aluminium Diminishing Trim 15mm x 3m - Mill Finish"
+],
+"ADT-15-3-MBK": [
+23.5,
+"Aluminium DiminishingTrim 15mm x 3m - Matt Black"
+],
+"ADT-15-3-BG": [
+23.5,
+"Aluminium Diminishing Trim 15mm x 3m - Bright Gold"
+],
+"ADT-15-3-MS": [
+23.5,
+"Aluminium Diminishing Trim 15mm x 3m - Matt Silver"
+],
+"ADTC-8-3-MS": [
+42.7,
+"Aluminium Diminishing Trim - Commercial - 8mm x 3m - Matt Silver"
+],
+"ADTC-10-3-MS": [
+46.25,
+"Aluminium Diminishing Trim - Commercial - 10mm x 3m - Matt Silver"
+],
+"ADTC-12-3-MS": [
+48.2,
+"Aluminium Diminishing Trim - Commercial - 12.5mm x 3m - Matt Silver"
+],
+"BSN-8-3-ALA": [
+43.25,
+"Stairnosing 8mm x 3m - Alabaster"
+],
+"BSN-8-3-BK": [
+43.25,
+"Stairnosing 8mm x 3m - Gloss Black"
+],
+"BSN-8-3-BS": [
+51.3,
+"Stairnosing 8mm x 3m - Bright Silver"
+],
+"BSN-8-3-MF": [
+34.35,
+"Stairnosing 8mm x 3m - Mill Finish"
+],
+"BSN-8-3-MS": [
+51.3,
+"Stairnosing 8mm x 3m - Matt Silver"
+],
+"BSN-8-3-WH": [
+43.25,
+"Stairnosing 8mm x 3m - Pearl White"
+],
+"BSN-10-3-ALA": [
+44.3,
+"Stairnosing 10mm x 3m - Alabaster"
+],
+"BSN-10-3-BK": [
+44.3,
+"Stairnosing 10mm x 3m - Gloss Black"
+],
+"BSN-10-3-BS": [
+53.1,
+"Stairnosing 10mm x 3m - Bright Silver"
+],
+"BSN-10-3-MF": [
+37.0,
+"Stairnosing 10mm x 3m - Mill Finish"
+],
+"BSN-10-3-MS": [
+53.1,
+"Stairnosing 10mm x 3m - Matt Silver"
+],
+"BSN-10-3-WH": [
+44.3,
+"Stairnosing 10mm x 3m - Pearl White"
+],
+"BSN-12-3-ALA": [
+45.1,
+"Stairnosing 12.5mm x 3m - Alabaster"
+],
+"BSN-12-3-BK": [
+45.1,
+"Stairnosing 12.5mm x 3m - Gloss Black"
+],
+"BSN-12-3-BS": [
+55.0,
+"Stairnosing 12.5mm x 3m - Bright Silver"
+],
+"BSN-12-3-MBK": [
+45.1,
+"Stairnosing 12.5mm x 3m - Matt Black"
+],
+"BSN-12-3-MF": [
+38.75,
+"Stairnosing 12.5mm x 3m - Mill Finish"
+],
+"BSN-12-3-MS": [
+55.0,
+"Stairnosing 12.5mm x 3m - Matt Silver"
+],
+"BSN-12-3-WH": [
+45.1,
+"Stairnosing 12.5mm x 3m - Pearl White"
+],
+"RSI-BE": [
+22.9,
+"Rubber Stairnosing Insert 3m - Beige"
+],
+"RSI-BL": [
+22.9,
+"Rubber Stairnosing Insert 3m - Black"
+],
+"RSI-BR": [
+22.9,
+"Rubber Stairnosing Insert 3m - Brown"
+],
+"RSI-GR": [
+22.9,
+"Rubber Stairnosing Insert 3m - Grey"
+],
+"CT-88-3-ALA": [
+44.9,
+"Cove Trim 8mm x 8mm x 3m - Alabaster"
+],
+"CT-88-3-BK": [
+44.9,
+"Cove Trim 8mm x 8mm x 3m - Gloss Black"
+],
+"CT-88-3-BS": [
+57.25,
+"Cove Trim 8mm x 8mm x 3m - Bright Silver"
+],
+"CT-88-3-MF": [
+40.05,
+"Cove Trim 8mm x 8mm x 3m - Mill Finish"
+],
+"CT-88-3-MS": [
+57.25,
+"Cove Trim 8mm x 8mm x 3m - Matt Silver"
+],
+"CT-88-3-WH": [
+44.9,
+"Cove Trim 8mm x 8mm x 3m - Pearl White"
+],
+"CT-108-3-ALA": [
+44.9,
+"Cove Trim 10mm x 8mm x 3m - Alabaster"
+],
+"CT-108-3-BK": [
+44.9,
+"Cove Trim 10mm x 8mm x 3m - Gloss Black"
+],
+"CT-108-3-BS": [
+57.25,
+"Cove Trim 10mm x 8mm x 3m - Bright Silver"
+],
+"CT-108-3-MF": [
+40.05,
+"Cove Trim 10mm x 8mm x 3m - Mill Finish"
+],
+"CT-108-3-MS": [
+57.25,
+"Cove Trim 10mm x 8mm x 3m - Matt Silver"
+],
+"CT-108-3-WH": [
+44.9,
+"Cove Trim 10mm x 8mm x 3m - Pearl White"
+],
+"CT-1010-3-ALA": [
+44.9,
+"Cove Trim 10mm x 10mm x 3m - Alabaster"
+],
+"CT-1010-3-BK": [
+44.9,
+"Cove Trim 10mm x 10mm x 3m - Gloss Black"
+],
+"CT-1010-3-BS": [
+57.25,
+"Cove Trim 10mm x 10mm x 3m - Bright Silver"
+],
+"CT-1010-3-MF": [
+40.05,
+"Cove Trim 10mm x 10mm x 3m - Mill Finish"
+],
+"CT-1010-3-MS": [
+57.25,
+"Cove Trim 10mm x 10mm x 3m - Matt Silver"
+],
+"CT-1010-3-WH": [
+44.9,
+"Cove Trim 10mm x 10mm x 3m - Pearl White"
+],
+"CT-128-3-ALA": [
+44.9,
+"Cove Trim 12.5mm x 8mm x 3m - Alabaster"
+],
+"CT-128-3-BK": [
+44.9,
+"Cove Trim 12.5mm x 8mm x 3m - Gloss Black"
+],
+"CT-128-3-BS": [
+57.25,
+"Cove Trim 12.5mm x 8mm x 3m - Bright Silver"
+],
+"CT-128-3-MF": [
+40.05,
+"Cove Trim 12.5mm x 8mm x 3m - Mill Finish"
+],
+"CT-128-3-MS": [
+57.25,
+"Cove Trim 12.5mm x 8mm x 3m - Matt Silver"
+],
+"CT-128-3-WH": [
+44.9,
+"Cove Trim 12.5mm x 8mm x 3m - Pearl White"
+],
+"CT-1210-3-ALA": [
+44.9,
+"Cove Trim 12.5mm x 10mm x 3m - Alabaster"
+],
+"CT-1210-3-BK": [
+44.9,
+"Cove Trim 12.5mm x 10mm x 3m - Gloss Black"
+],
+"CT-1210-3-BS": [
+57.25,
+"Cove Trim 12.5mm x 10mm x 3m - Bright Silver"
+],
+"CT-1210-3-MF": [
+40.05,
+"Cove Trim 12.5mm x 10mm x 3m - Mill Finish"
+],
+"CT-1210-3-MS": [
+57.25,
+"Cove Trim 12.5mm x 10mm x 3m - Matt Silver"
+],
+"CT-1210-3-WH": [
+44.9,
+"Cove Trim 12.5mm x 10mm x 3m - Pearl White"
+],
+"CT-1212-3-ALA": [
+44.9,
+"Cove Trim 12.5mm x 12.5mm x 3m - Alabaster"
+],
+"CT-1212-3-BK": [
+44.9,
+"Cove Trim 12.5mm x 12.5mm x 3m - Gloss Black"
+],
+"CT-1212-3-BS": [
+57.25,
+"Cove Trim 12.5mm x 12.5mm x 3m - Bright Silver"
+],
+"CT-1212-3-MF": [
+40.05,
+"Cove Trim 12.5mm x 12.5mm x 3m - Mill Finish"
+],
+"CT-1212-3-MS": [
+57.25,
+"Cove Trim 12.5mm x 12.5mm x 3m - Matt Silver"
+],
+"CT-1212-3-WH": [
+44.9,
+"Cove Trim 12.5mm x 12.5mm x 3m - Pearl White"
+],
+"CTEC-88-(Colour)": [
+18.2,
+"Cove Trim External Corner 8 x 8mm - (Colour)"
+],
+"CTEC-108-(Colour)": [
+18.2,
+"Cove Trim External Corner 10 x 8mm - (Colour)"
+],
+"CTEC-1010-(Colour)": [
+18.2,
+"Cove Trim External Corner 10 x 10mm - (Colour)"
+],
+"CTEC-128-(Colour)": [
+18.2,
+"Cove Trim External Corner 12.5 x 8mm - (Colour)"
+],
+"CTEC-1210-(Colour)": [
+18.2,
+"Cove Trim External Corner 12.5 x 10mm - (Colour)"
+],
+"CTEC-1212-(Colour)": [
+18.2,
+"Cove Trim External Corner 12.5 x 12.5mm - (Colour)"
+],
+"CTIC-88-(Colour)": [
+18.2,
+"Cove Trim Internal Corner 8 x 8mm - (Colour)"
+],
+"CTIC-108-(Colour)": [
+18.2,
+"Cove Trim Internal Corner 10 x 8mm - (Colour)"
+],
+"CTIC-1010-(Colour)": [
+18.2,
+"Cove Trim Internal Corner 10 x 10mm - (Colour)"
+],
+"CTIC-128-(Colour)": [
+18.2,
+"Cove Trim Internal Corner 12.5 x 8mm - (Colour)"
+],
+"CTIC-1210-(Colour)": [
+18.2,
+"Cove Trim Internal Corner 12.5 x 10mm - (Colour)"
+],
+"CTIC-1212-(Colour)": [
+18.2,
+"Cove Trim Internal Corner 12.5 x 12.5mm - (Colour)"
+],
+"CTCAP-108L-GR": [
+7.8,
+"Cove Trim End Caps 10 x 8mm Left/Grey (10)"
+],
+"CTCAP-108L-WH": [
+7.8,
+"Cove Trim End Caps 10 x 8mm Left/White (10)"
+],
+"CTCAP-108R-GR": [
+7.8,
+"Cove Trim End Caps 10 x 8mm Right/Grey (10)"
+],
+"CTCAP-108R-WH": [
+7.8,
+"Cove Trim End Caps 10 x 8mm Right/White (10)"
+],
+"CTCAP-1010-GR": [
+7.8,
+"Cove Trim End Caps 10 x 10mm Univ/Grey (10)"
+],
+"CTCAP-1010-WH": [
+7.8,
+"Cove Trim End Caps 10 x 10mm Univ/White (10)"
+],
+"CTJ-6": [
+8.7,
+"Cove Trim Joiners Pkt 6"
+],
+"APC60-3-ALA": [
+37.1,
+"APC 60 Cove Trim x 3m - Alabaster"
+],
+"APC60-3-BK": [
+37.1,
+"APC 60 Cove Trim x 3m - Gloss Black"
+],
+"APC60-3-BS": [
+40.75,
+"APC 60 Cove Trim x 3m - Bright Silver"
+],
+"APC60-3-MBK": [
+37.1,
+"APC 60 Cove Trim x 3m - Matt Black"
+],
+"APC60-3-MF": [
+33.45,
+"APC 60 Cove Trim x 3m - Mill Finish"
+],
+"APC60-3-MS": [
+40.75,
+"APC 60 Cove Trim x 3m - Matt Silver"
+],
+"APC60-3-WH": [
+37.1,
+"APC 60 Cove Trim x 3m - Pearl White"
+],
+"APC60-EC-(Colour)": [
+19.95,
+"APC 60 Cove Trim External Corner - (Colour)"
+],
+"APC60-IC-(Colour)": [
+19.96,
+"APC 60 Cove Trim Internal Corner - (Colour)"
+],
+"APC60CAP-GR": [
+7.8,
+"APC 60 Endcaps - Pack of 10 - Grey"
+],
+"APC60CAP-WH": [
+7.9,
+"APC 60 Endcaps - Pack of 10 - White"
+],
+"APC60J-6": [
+8.0,
+"APC 60 Cove Trim Joiners Pack of 6"
+],
+"DSA-1012-3": [
+15.1,
+"Double Sided Aluminium Angle 10mm x 12.5mm x 3m - Mill Finish"
+],
+"DSA-1012-3-MBK": [
+18.55,
+"Double Sided Aluminium Angle 10mm x 12.5mm x 3m - Matt Black"
+],
+"DSA-1012-3-MS": [
+18.55,
+"Double Sided Aluminium Angle 10mm x 12.5mm x 3m - Matt Silver"
+],
+"DSA-1030-3": [
+16.5,
+"Double Sided Aluminium Angle 10mm x 30mm x 3m - Mill Finish"
+],
+"DSA-1030-3-MBK": [
+19.95,
+"Double Sided Aluminium Angle 10mm x 30mm x 3m - Matt Black"
+],
+"DSA-1030-3-MS": [
+19.95,
+"Double Sided Aluminium Angle 10mm x 30mm x 3m - Matt Silver"
+],
+"DSA-1215-3": [
+19.95,
+"Double Sided Aluminium Angle 12.5mm x 15mm x 3m - Mill Finish"
+],
+"DSA-1215-3-MBK": [
+23.5,
+"Double Sided Aluminium Angle 12.5mm x 15mm x 3m - Matt Black"
+],
+"DSA-1215-3-MS": [
+23.5,
+"Double Sided Aluminium Angle 12.5mm x 15mm x 3m - Matt Silver"
+],
+"DSA-1230-3": [
+20.35,
+"Double Sided Aluminium Angle 12.5mm x 30mm x 3m - Mill Finish"
+],
+"DSA-1230-3-MS": [
+24.15,
+"Double Sided Aluminium Angle 12.5mm x 30mm x 3m - Matt Silver"
+],
+"DSA-1230-3-MBK": [
+24.15,
+"Double Sided Aluminium Angle 12.5mm x 30mm x 3m - Matt Black"
+],
+"NBA-4-1": [
+10.2,
+"Brass Angle 4.5mm x 1m"
+],
+"NBA-4-3": [
+29.25,
+"Brass Angle 4.5mm x 3m"
+],
+"NBA-6-1": [
+10.2,
+"Brass Angle 6mm x 1m"
+],
+"NBA-6-3": [
+30.55,
+"Brass Angle 6mm x 3m"
+],
+"NBA-8-1": [
+11.45,
+"Brass Angle 8mm x 1m"
+],
+"NBA-8-3": [
+31.8,
+"Brass Angle 8mm x 3m"
+],
+"NBA-9-1": [
+11.45,
+"Brass Angle 9mm x 1m"
+],
+"NBA-9-3": [
+33.05,
+"Brass Angle 9mm x 3m"
+],
+"NBA-10-1": [
+11.45,
+"Brass Angle 10mm x 1m"
+],
+"NBA-10-3": [
+34.35,
+"Brass Angle 10mm x 3m"
+],
+"NBA-11-1": [
+12.7,
+"Brass Angle 11mm x 1m"
+],
+"NBA-11-3": [
+35.6,
+"Brass Angle 11mm x 3m"
+],
+"NBA-12-1": [
+12.7,
+"Brass Angle 12.5mm x 1m"
+],
+"NBA-12-3": [
+38.15,
+"Brass Angle 12.5mm x 3m"
+],
+"NBA-13-1": [
+12.7,
+"Brass Angle 13.5mm x 1m"
+],
+"NBA-13-3": [
+38.15,
+"Brass Angle 13.5mm x 3m"
+],
+"NBA-15-1": [
+14.0,
+"Brass Angle 15mm x 1m"
+],
+"NBA-15-3": [
+40.7,
+"Brass Angle 15mm x 3m"
+],
+"NBA-16-1": [
+14.0,
+"Brass Angle 16.5mm x 1m"
+],
+"NBA-16-3": [
+42.0,
+"Brass Angle 16.5mm x 3m"
+],
+"NBA-18-1": [
+15.25,
+"Brass Angle 18.5mm x 1m"
+],
+"NBA-18-3": [
+43.25,
+"Brass Angle 18.5mm x 3m"
+],
+"NBA-20-1": [
+15.25,
+"Brass Angle 20mm x 1m"
+],
+"NBA-20-3": [
+45.8,
+"Brass Angle 20mm x 3m"
+],
+"NBA-22-1": [
+16.55,
+"Brass Angle 22mm x 1m"
+],
+"NBA-22-3": [
+47.05,
+"Brass Angle 22mm x 3m"
+],
+"NBA-23-1": [
+16.55,
+"Brass Angle 23.5mm x 1m"
+],
+"NBA-23-3": [
+48.35,
+"Brass Angle 23.5mm x 3m"
+],
+"NBA-25-1": [
+17.8,
+"Brass Angle 25mm x 1m"
+],
+"NBA-25-3": [
+49.6,
+"Brass Angle 25mm x 3m"
+],
+"CPBA-4-3": [
+59.8,
+"Chrome Plated Brass Angle 4.5mm x 3m"
+],
+"CPBA-6-3": [
+59.8,
+"Chrome Plated Brass Angle 6mm x 3m"
+],
+"CPBA-8-3": [
+61.05,
+"Chrome Plated Brass Angle 8mm x 3m"
+],
+"CPBA-9-3": [
+63.6,
+"Chrome Plated Brass Angle 9mm x 3m"
+],
+"CPBA-10-3": [
+63.6,
+"Chrome Plated Brass Angle 10mm x 3m"
+],
+"CPBA-11-3": [
+64.85,
+"Chrome Plated Brass Angle 11mm x 3m"
+],
+"CPBA-12-3": [
+66.15,
+"Chrome Plated Brass Angle 12.5mm x 3m"
+],
+"CPBA-13-3": [
+67.4,
+"Chrome Plated Brass Angle 13.5mm x 3m"
+],
+"CPBA-15-3": [
+68.7,
+"Chrome Plated Brass Angle 15mm x 3m"
+],
+"CPBA-16-3": [
+69.95,
+"Chrome Plated Brass Angle 16.5mm x 3m"
+],
+"CPBA-18-3": [
+71.25,
+"Chrome Plated Brass Angle 18.5mm x 3m"
+],
+"CPBA-20-3": [
+73.8,
+"Chrome Plated Brass Angle 20mm x 3m"
+],
+"CPBA-22-3": [
+75.05,
+"Chrome Plated Brass Angle 22mm x 3m"
+],
+"CPBA-23-3": [
+76.3,
+"Chrome Plated Brass Angle 23.5mm x 3m"
+],
+"CPBA-25-3": [
+77.6,
+"Chrome Plated Brass Angle 25mm x 3m"
+],
+"SSAMG-6-3": [
+45.8,
+"Marine Grade Stainless Steel Angle 6mm x 3m"
+],
+"SSAMG-8-3": [
+45.8,
+"Marine Grade Stainless Steel Angle 8mm x 3m"
+],
+"SSAMG-10-3": [
+46.95,
+"Marine Grade Stainless Steel Angle 10mm x 3m"
+],
+"SSAMG-12-3": [
+46.95,
+"Marine Grade Stainless Steel Angle - 12.5mm x 3m"
+],
+"SSAMG-15-3": [
+46.95,
+"Marine Grade Stainless Steel Angle 15mm x 3m"
+],
+"SSAMG-17-3": [
+47.9,
+"Marine Grade Stainless Steel Angle 17mm x 3m"
+],
+"SSAMG-18-3": [
+48.8,
+"Marine Grade Stainless Steel Angle 18.5mm x 3m"
+],
+"SSAMG-20-3": [
+48.8,
+"Marine Grade Stainless Steel Angle - 20mm x 3m"
+],
+"SSAMG-22-3": [
+48.8,
+"Marine Grade Stainless Steel Angle - 22mm x 3m"
+],
+"BA-1216-36": [
+48.3,
+"Brass Angle 12.7 x 12.7 x 1.59mm x 3.6m"
+],
+"BA-1916-36": [
+117.65,
+"Brass Angle 19.05 x 19.05 x 1.59mm x 3.6m"
+],
+"BA-1932-36": [
+159.0,
+"Brass Angle 19.05 x 19.05 x 3.18mm x 3.6m"
+],
+"BA-2516-36": [
+146.3,
+"Brass Angle 25.4 x 25.4 x 1.59mm x 3.6m"
+],
+"BA-2532-36": [
+222.6,
+"Brass Angle 25.4 x 25.4 x 3.18mm x 3.6m"
+],
+"BA-3132-36": [
+280.85,
+"Brass Angle 31.75 x 31.75 x 3.18mm x 3.6m"
+],
+"BA-3832-36": [
+330.7,
+"Brass Angle 38.10 x 38.10 x 3.18mm x 3.6m"
+],
+"BA-5032-36": [
+461.1,
+"Brass Angle 50.80 x 50.80 x 3.18mm x 3.6m"
+],
+"AF-1216-4": [
+4.75,
+"Aluminium Flat Bar 12 x 1.6mm x 4m"
+],
+"AF-123-4": [
+8.4,
+"Aluminium Flat Bar 12 x 3mm x 4m"
+],
+"AF-163-4": [
+10.8,
+"Aluminium Flat Bar 16 x 3mm x 4m"
+],
+"AF-2016-4": [
+7.25,
+"Aluminium Flat Bar 20 x 1.6mm x 4m"
+],
+"AF-203-4": [
+13.25,
+"Aluminium Flat Bar 20 x 3mm x 4m"
+],
+"AF-2516-4": [
+9.6,
+"Aluminium Flat Bar 25 x 1.6mm x 4m"
+],
+"AF-253-4": [
+18.0,
+"Aluminium Flat Bar 25 x 3mm x 4m"
+],
+"AF-323-4": [
+19.25,
+"Aluminium Flat Bar 32 x 3mm x 4m"
+],
+"AF-403-4": [
+24.05,
+"Aluminium Flat Bar 40 x 3mm x 4m"
+],
+"AF-503-4": [
+28.8,
+"Aluminium Flat Bar 50 x 3mm x 4m"
+],
+"AF-803-4": [
+44.45,
+"Aluminium Flat Bar 80 x 3mm x 4m"
+],
+"AF-1003-4": [
+58.85,
+"Aluminium Flat Bar 100 x 3mm x 4m"
+],
+"PVC-WPA40502-3": [
+13.65,
+"PVC Angle - 40 x 50 x 2.0mm x 3m - White"
+],
+"PVC-WPA45454-3": [
+18.8,
+"PVC Angle - 45 x 45 x 4.0mm x 3m - White"
+],
+"PVC-WPA755014-3": [
+13.65,
+"PVC Angle - 75 x 50 x 1.40mm x 3m - White"
+],
+"PVC-WPA75502-3": [
+13.85,
+"PVC Angle - 75 x 50 x 2.0mm x 3m - White"
+],
+"HRT-6-3B": [
+29.4,
+"Brass Half Round Trim 6mm x 3m"
+],
+"HRT-8-3B": [
+30.7,
+"Brass Half Round Trim 8mm x 3m"
+],
+"HRT-10-3B": [
+32.05,
+"Brass Half Round Trim 10mm x 3m"
+],
+"HRT-12-3B": [
+33.4,
+"Brass Half Round Trim 12.5mm x 3m"
+],
+"CPHRT-6-3": [
+51.5,
+"Chrome Plated Half Round Trim 6mm x 3m"
+],
+"CPHRT-8-3": [
+51.5,
+"Chrome Plated Half Round Trim 8mm x 3m"
+],
+"CPHRT-10-3": [
+52.7,
+"Chrome Plated Half Round Trim 10mm x 3m"
+],
+"CPHRT-12-3": [
+53.8,
+"Chrome Plated Half Round Trim 12.5mm x 3m"
+],
+"SSHRT-6-25": [
+26.35,
+"Stainless Steel H/Round Trim 6mm x 2.5m - Grade 304"
+],
+"SSHRT-8-25": [
+27.45,
+"Stainless Steel H/Round Trim 8mm x 2.5m - Grade 304"
+],
+"SSHRT-10-25": [
+28.6,
+"Stainless Steel H/Round Trim 10mm x 2.5m - Grade 304"
+],
+"SSHRT-12-25": [
+36.6,
+"Stainless Steel H/Round Trim 12mm x 2.5m - Grade 304"
+],
+"SSHRTMG-6-25": [
+46.95,
+"Stainless Steel H/Round Trim 6mm x 2.5m - Grade 316"
+],
+"SSHRTMG-8-25": [
+49.25,
+"Stainless Steel H/Round Trim 8mm x 2.5m - Grade 316"
+],
+"SSHRTMG-10-25": [
+51.5,
+"Stainless Steel H/Round Trim 10mm x 2.5m - Grade 316"
+],
+"SSHRTMG-12-25": [
+53.8,
+"Stainless Steel H/Round Trim 12.5mm x 2.5m - Grade 316"
+],
+"BCA-8-3": [
+48.35,
+"Brass Corner Angle 8mm x 3m"
+],
+"BCA-10-3": [
+53.55,
+"Brass Corner Angle 10mm x 3m"
+],
+"BCA-12-3": [
+62.35,
+"Brass Corner Angle 12.5mm x 3m"
+],
+"CPBCA-8-3": [
+62.35,
+"Chrome Plated Brass Corner Angle 8mm x 3m"
+],
+"CPBCA-10-3": [
+66.15,
+"Chrome Plated Brass Corner Angle 10mm x 3m"
+],
+"CPBCA-12-3": [
+75.25,
+"Chrome Plated Brass Corner Angle 12.5mm x 3m"
+],
+"SSCA-8-27P": [
+59.5,
+"Stainless Steel Corner Angle 8mm x 2.7m - Polished"
+],
+"SSCA-10-27P": [
+61.8,
+"Stainless Steel Corner Angle 10mm x 2.7m - Polished"
+],
+"SSCA-12-27P": [
+65.25,
+"Stainless Steel Corner Angle 12.5mm x 2.7m - Polished"
+],
+"SSCA-15-27P": [
+67.5,
+"Stainless Steel Corner Angle 15mm x 2.7m - Polished"
+],
+"SSCCA-8-27P": [
+59.5,
+"Commercial Grade S/Steel Corner Angle 8mm x 2.7m - Polished"
+],
+"SSCCA-10-27P": [
+61.8,
+"Commercial Grade S/Steel Corner Angle 10mm x 2.7m - Polished"
+],
+"SSCCA-12-27P": [
+65.25,
+"Commercial Grade S/Steel Corner Angle 12.5mm x 2.7m - Polished"
+],
+"SSCCA-15-27P": [
+66.4,
+"Commercial Grade S/Steel Corner Angle 15mm x 2.7m - Polished"
+],
+"BDT-8-3": [
+48.35,
+"Brass Diminishing Trim 8mm x 3m"
+],
+"BDT-10-3": [
+55.95,
+"Brass Diminishing Trim 10mm x 3m"
+],
+"BDT-12-3": [
+62.35,
+"Brass Diminishing Trim 12.5mm x 3m"
+],
+"BDT-15-3": [
+63.6,
+"Brass Diminishing Trim 15mm x 3m"
+],
+"CPDT-8-3": [
+83.95,
+"Chrome Plated Brass Diminishing Trim 8mm x 3m"
+],
+"CPDT-10-3": [
+86.5,
+"Chrome Plated Brass Diminishing Trim 10mm x 3m"
+],
+"CPDT-12-3": [
+94.15,
+"Chrome Plated Brass Diminishing Trim 12.5mm x 3"
+],
+"CPDT-15-3": [
+101.75,
+"Chrome Plated Brass Diminishing Trim 15mm x 3m"
+],
+"BTXA-86-3-BK": [
+58.4,
+"Batex Aluminium 8 x 6mm x 3m - Black"
+],
+"BTXA-86-3-GR": [
+58.4,
+"Batex Aluminium 8 x 6mm x 3m - Grey"
+],
+"BTXA-96-3-BK": [
+60.7,
+"Batex Aluminium 9 x 6mm x 3m - Black"
+],
+"BTXA-96-3-GR": [
+60.7,
+"Batex Aluminium 9 x 6mm x 3m - Grey"
+],
+"BTXA-106-3-BK": [
+60.7,
+"Batex Aluminium 10 x 6mm x 3m - Black"
+],
+"BTXA-106-3-GR": [
+60.7,
+"Batex Aluminium 10 x 6mm x 3m - Grey"
+],
+"BTXA-116-3-BK": [
+60.7,
+"Batex Aluminium 11 x 6mm x 3m - Black"
+],
+"BTXA-116-3-GR": [
+60.7,
+"Batex Aluminium 11 x 6mm x 3m - Grey"
+],
+"BTXA-126-3-BK": [
+61.8,
+"Batex Aluminium 12.5 x 6mm x 3m - Black"
+],
+"BTXA-126-3-GR": [
+61.8,
+"Batex Aluminium 12.5 x 6mm x 3m - Grey"
+],
+"BTXA-136-3-BK": [
+69.85,
+"Batex Aluminium 13.5 x 6mm x 3m - Black"
+],
+"BTXA-136-3-GR": [
+69.85,
+"Batex Aluminium 13.5 x 6mm x 3m - Grey"
+],
+"BTXA-156-3-BK": [
+73.25,
+"Batex Aluminium 15 x 6mm x 3m - Black"
+],
+"BTXA-156-3-GR": [
+73.25,
+"Batex Aluminium 15 x 6mm x 3m - Grey"
+],
+"BTXA-176-3-BK": [
+74.4,
+"Batex Aluminium 17.5 x 6mm x 3m - Black"
+],
+"BTXA-176-3-GR": [
+74.4,
+"Batex Aluminium 17.5 x 6mm x 3m - Grey"
+],
+"BTXA-186-3-BK": [
+87.05,
+"Batex Aluminium 18.5 x 6mm x 3m - Black"
+],
+"BTXA-186-3-GR": [
+87.05,
+"Batex Aluminium 18.5 x 6mm x 3m - Grey"
+],
+"BTXA-206-3-BK": [
+88.15,
+"Batex Aluminium 20 x 6mm x 3m - Black"
+],
+"BTXA-206-3-GR": [
+88.15,
+"Batex Aluminium 20 x 6mm x 3m - Grey"
+],
+"BTXA-226-3-BK": [
+90.4,
+"Batex Aluminium 22 x 6mm x 3m - Black"
+],
+"BTXA-226-3-GR": [
+90.4,
+"Batex Aluminium 22 x 6mm x 3m - Grey"
+],
+"BTXA-236-3-BK": [
+93.85,
+"Batex Aluminium 23 x 6mm x 3m - Black"
+],
+"BTXA-236-3-GR": [
+93.85,
+"Batex Aluminium 23 x 6mm x 3m - Grey"
+],
+"BTXA-256-3-BK": [
+96.15,
+"Batex Aluminium 25 x 6mm x 3m - Black"
+],
+"BTXA-256-3-GR": [
+96.15,
+"Batex Aluminium 25 x 6mm x 3m - Grey"
+],
+"BTXA-810-3-BK": [
+60.7,
+"Batex Aluminium 8 x 10mm x 3m - Black"
+],
+"BTXA-810-3-GR": [
+60.7,
+"Batex Aluminium 8 x 10mm x 3m - Grey"
+],
+"BTXA-910-3-BK": [
+64.15,
+"Batex Aluminium 9 x 10mm x 3m - Black"
+],
+"BTXA-910-3-GR": [
+64.15,
+"Batex Aluminium 9 x 10mm x 3m - Grey"
+],
+"BTXA-1010-3-BK": [
+64.15,
+"Batex Aluminium 10 x 10mm x 3m - Black"
+],
+"BTXA-1010-3-GR": [
+64.15,
+"Batex Aluminium 10 x 10mm x 3m - Grey"
+],
+"BTXA-1110-3-BK": [
+64.15,
+"Batex Aluminium 11 x 10mm x 3m - Black"
+],
+"BTXA-1110-3-GR": [
+64.15,
+"Batex Aluminium 11 x 10mm x 3m - Grey"
+],
+"BTXA-1210-3-BK": [
+80.35,
+"Batex Aluminium 12.5 x 10mm x 3m - Black"
+],
+"BTXA-1210-3-GR": [
+80.35,
+"Batex Aluminium 12.5 x 10mm x 3m - Grey"
+],
+"BTXA-1310-3-BK": [
+84.1,
+"Batex Aluminium 13.5 x 10mm x 3m - Black"
+],
+"BTXA-1310-3-GR": [
+84.1,
+"Batex Aluminium 13.5 x 10mm x 3m - Grey"
+],
+"BTXA-1510-3-BK": [
+87.8,
+"Batex Aluminium 15 x 10mm x 3m - Black"
+],
+"BTXA-1510-3-GR": [
+87.8,
+"Batex Aluminium 15 x 10mm x 3m - Grey"
+],
+"BTXA-1710-3-BK": [
+87.8,
+"Batex Aluminium 17.5 x 10mm x 3m - Black"
+],
+"BTXA-1710-3-GR": [
+87.8,
+"Batex Aluminium 17.5 x 10mm x 3m - Grey"
+],
+"BTXA-1810-3-BK": [
+95.2,
+"Batex Aluminium 18.5 x 10mm x 3m - Black"
+],
+"BTXA-1810-3-GR": [
+95.2,
+"Batex Aluminium 18.5 x 10mm x 3m - Grey"
+],
+"BTXA-2010-3-BK": [
+96.45,
+"Batex Aluminium 20 x 10mm x 3m - Black"
+],
+"BTXA-2010-3-GR": [
+96.45,
+"Batex Aluminium 20 x 10mm x 3m - Grey"
+],
+"BTXA-2210-3-BK": [
+98.45,
+"Batex Aluminium 22 x 10mm x 3m - Black"
+],
+"BTXA-2210-3-GR": [
+98.45,
+"Batex Aluminium 22 x 10mm x 3m - Grey"
+],
+"BTXA-2310-3-BK": [
+101.85,
+"Batex Aluminium 23 x 10mm x 3m - Black"
+],
+"BTXA-2310-3-GR": [
+101.85,
+"Batex Aluminium 23 x 10mm x 3m - Grey"
+],
+"BTXA-2510-3-BK": [
+115.65,
+"Batex Aluminium 25 x 10mm x 3m - Black"
+],
+"BTXA-2510-3-GR": [
+115.65,
+"Batex Aluminium 25 x 10mm x 3m - Grey"
+],
+"BTXB-86-3-BK": [
+102.6,
+"Batex Brass 8 x 6mm x 3m - Black"
+],
+"BTXB-86-3-GR": [
+102.6,
+"Batex Brass 8 x 6mm x 3m - Grey"
+],
+"BTXB-96-3-BK": [
+106.0,
+"Batex Brass 9 x 6mm x 3m - Black"
+],
+"BTXB-96-3-GR": [
+106.0,
+"Batex Brass 9 x 6mm x 3m - Grey"
+],
+"BTXB-106-3-BK": [
+108.1,
+"Batex Brass 10 x 6mm x 3m -Black"
+],
+"BTXB-106-3-GR": [
+108.1,
+"Batex Brass 10 x 6mm x 3m - Grey"
+],
+"BTXB-116-3-BK": [
+111.3,
+"Batex Brass 11 x 6mm x 3m - Black"
+],
+"BTXB-116-3-GR": [
+111.3,
+"Batex Brass 11 x 6mm x 3m - Grey"
+],
+"BTXB-126-3-BK": [
+115.55,
+"Batex Brass 12.5 x 6mm x 3m - Black"
+],
+"BTXB-126-3-GR": [
+115.55,
+"Batex Brass 12.5 x 6mm x 3m - Grey"
+],
+"BTXB-136-3-BK": [
+119.8,
+"Batex Brass 13.5 x 6mm x 3m - Black"
+],
+"BTXB-136-3-GR": [
+119.8,
+"Batex Brass 13.5 x 6mm x 3m - Grey"
+],
+"BTXB-156-3-BK": [
+131.45,
+"Batex Brass 15 x 6mm x 3m - Black"
+],
+"BTXB-156-3-GR": [
+131.45,
+"Batex Brass 15 x 6mm x 3m - Grey"
+],
+"BTXB-166-3-BK": [
+137.8,
+"Batex Brass 16 x 6mm x 3m - Black"
+],
+"BTXB-166-3-GR": [
+137.8,
+"Batex Brass 16 x 6mm x 3m - Grey"
+],
+"BTXB-186-3-BK": [
+146.3,
+"Batex Brass 18.5 x 6mm x 3m - Black"
+],
+"BTXB-186-3-GR": [
+146.3,
+"Batex Brass 18.5 x 6mm x 3m - Grey"
+],
+"BTXB-206-3-BK": [
+148.4,
+"Batex Brass 20 x 6mm x 3m - Black"
+],
+"BTXB-206-3-GR": [
+148.4,
+"Batex Brass 20 x 6mm x 3m - Grey"
+],
+"BTXB-226-3-BK": [
+153.7,
+"Batex Brass 22 x 6mm x 3m - Black"
+],
+"BTXB-226-3-GR": [
+153.7,
+"Batex Brass 22 x 6mm x 3m - Grey"
+],
+"BTXB-236-3-BK": [
+161.1,
+"Batex Brass 23 x 6mm x 3m - Black"
+],
+"BTXB-236-3-GR": [
+161.1,
+"Batex Brass 23 x 6mm x 3m - Grey"
+],
+"BTXB-256-3-BK": [
+165.35,
+"Batex Brass 25 x 6mm x 3m - Black"
+],
+"BTXB-256-3-GR": [
+165.35,
+"Batex Brass 25 x 6mm x 3m - Grey"
+],
+"BTXB-810-3-BK": [
+104.95,
+"Batex Brass 8 x 10mm x 3m - Black"
+],
+"BTXB-810-3-GR": [
+104.95,
+"Batex Brass 8 x 10mm x 3m - Grey"
+],
+"BTXB-910-3-BK": [
+109.2,
+"Batex Brass 9 x 10mm x 3m - Black"
+],
+"BTXB-910-3-GR": [
+109.2,
+"Batex Brass 9 x 10mm x 3m - Grey"
+],
+"BTXB-1010-3-BK": [
+113.4,
+"Batex Brass 10 x 10mm x 3m - Black"
+],
+"BTXB-1010-3-GR": [
+113.4,
+"Batex Brass 11 x 10mm x 3m - Grey"
+],
+"BTXB-1110-3-BK": [
+115.55,
+"Batex Brass 11 x 10mm x 3m - Black"
+],
+"BTXB-1110-3-GR": [
+115.55,
+"Batex Brass 10 x 10mm x 3m - Grey"
+],
+"BTXB-1210-3-BK": [
+126.15,
+"Batex Brass 12.5 x 10mm x 3m - Black"
+],
+"BTXB-1210-3-GR": [
+126.15,
+"Batex Brass 12.5 x 10mm x 3m - Grey"
+],
+"BTXB-1310-3-BK": [
+130.4,
+"Batex Brass 13.5 x 10mm x 3m - Black"
+],
+"BTXB-1310-3-GR": [
+130.4,
+"Batex Brass 13.5 x 10mm x 3m - Grey"
+],
+"BTXB-1510-3-BK": [
+137.8,
+"Batex Brass 15 x 10mm x 3m - Black"
+],
+"BTXB-1510-3-GR": [
+137.8,
+"Batex Brass 15 x 10mm x 3m - Grey"
+],
+"BTXB-1610-3-BK": [
+143.1,
+"Batex Brass 16 x 10mm x 3m - Black"
+],
+"BTXB-1610-3-GR": [
+143.1,
+"Batex Brass 16 x 10mm x 3m - Grey"
+],
+"BTXB-1810-3-BK": [
+149.45,
+"Batex Brass 18.5 x 10mm x 3m - Black"
+],
+"BTXB-1810-3-GR": [
+149.45,
+"Batex Brass 18.5 x 10mm x 3m - Grey"
+],
+"BTXB-2010-3-BK": [
+151.6,
+"Batex Brass 20 x 10mm x 3m - Black"
+],
+"BTXB-2010-3-GR": [
+151.6,
+"Batex Brass 20 x 10mm x 3m - Grey"
+],
+"BTXB-2210-3-BK": [
+163.25,
+"Batex Brass 22 x 10mm x 3m - Black"
+],
+"BTXB-2210-3-GR": [
+163.25,
+"Batex Brass 22 x 10mm x 3m - Grey"
+],
+"BTXB-2310-3-BK": [
+168.55,
+"Batex Brass 23 x 10mm x 3m - Black"
+],
+"BTXB-2310-3-GR": [
+168.55,
+"Batex Brass 23 x 10mm x 3m - Grey"
+],
+"BTXB-2510-3-BK": [
+174.9,
+"Batex Brass 25 x 10mm x 3m - Black"
+],
+"BTXB-2510-3-GR": [
+174.9,
+"Batex Brass 25 x 10mm x 3m - Grey"
+],
+"BTXS-86-3-BK": [
+113.3,
+"Batex Stainless Steel 8 x 6mm x 3m - Black"
+],
+"BTXS-86-3-GR": [
+113.3,
+"Batex Stainless Steel 8 x 6mm x 3m - Grey"
+],
+"BTXS-106-3-BK": [
+119.05,
+"Batex Stainless Steel 10 x 6mm x 3m - Black"
+],
+"BTXS-106-3-GR": [
+119.05,
+"Batex Stainless Steel 10 x 6mm x 3m - Grey"
+],
+"BTXS-126-3-BK": [
+123.65,
+"Batex Stainless Steel 12.5 x 6mm x 3m - Black"
+],
+"BTXS-126-3-GR": [
+123.65,
+"Batex Stainless Steel 12.5 x 6mm x 3m - Grey"
+],
+"BTXS-156-3-BK": [
+130.5,
+"Batex Stainless Steel 15 x 6mm x 3m - Black"
+],
+"BTXS-156-3-GR": [
+130.5,
+"Batex Stainless Steel 15 x 6mm x 3m - Grey"
+],
+"BTXS-176-3-BK": [
+135.1,
+"Batex Stainless Steel 17.5 x 6mm x 3m - Black"
+],
+"BTXS-176-3-GR": [
+135.1,
+"Batex Stainless Steel 17.5 x 6mm x 3m - Grey"
+],
+"BTXS-206-3-BK": [
+145.4,
+"Batex Stainless Steel 20 x 6mm x 3m - Black"
+],
+"BTXS-206-3-GR": [
+145.4,
+"Batex Stainless Steel 20 x 6mm x 3m - Grey"
+],
+"BTXS-226-3-BK": [
+150.0,
+"Batex Stainless Steel 22 x 6mm x 3m - Black"
+],
+"BTXS-226-3-GR": [
+150.0,
+"Batex Stainless Steel 22 x 6mm x 3m - Grey"
+],
+"BTXS-810-3-BK": [
+115.65,
+"Batex Stainless Steel 8 x 10mm x 3m - Black"
+],
+"BTXS-810-3-GR": [
+115.65,
+"Batex Stainless Steel 8 x 10mm x 3m - Grey"
+],
+"BTXS-1010-3-BK": [
+122.5,
+"Batex Stainless Steel 10 x 10mm x 3m - Black"
+],
+"BTXS-1010-3-GR": [
+122.5,
+"Batex Stainless Steel 10 x 10mm x 3m - Grey"
+],
+"BTXS-1210-3-BK": [
+132.8,
+"Batex Stainless Steel 12.5 x 10mm x 3m - Black"
+],
+"BTXS-1210-3-GR": [
+132.8,
+"Batex Stainless Steel 12.5 x 10mm x 3m - Grey"
+],
+"BTXS-1510-3-BK": [
+137.4,
+"Batex Stainless Steel 15 x 10mm x 3m - Black"
+],
+"BTXS-1510-3-GR": [
+137.4,
+"Batex Stainless Steel 15 x 10mm x 3m - Grey"
+],
+"BTXS-1710-3-BK": [
+141.95,
+"Batex Stainless Steel 17.5 x 10mm x 3m - Black"
+],
+"BTXS-1710-3-GR": [
+141.95,
+"Batex Stainless Steel 17.5 x 10mm x 3m - Grey"
+],
+"BTXS-2010-3-BK": [
+147.65,
+"Batex Stainless Steel 20 x 10mm x 3m - Black"
+],
+"BTXS-2010-3-GR": [
+147.65,
+"Batex Stainless Steel 20 x 10mm x 3m - Grey"
+],
+"BTXS-2210-3-BK": [
+159.1,
+"Batex Stainless Steel 22 x 10mm x 3m - Black"
+],
+"BTXS-2210-3-GR": [
+159.1,
+"Batex Stainless Steel 22 x 10mm x 3m - Grey"
+],
+"BTXV-256-33-BK": [
+45.0,
+"Batex Aluminium 2.5 x 6mm x 3.3m to suit Vinyl Install - Black"
+],
+"BTXV-256-33-DG": [
+45.0,
+"Batex Aluminium 2.5 x 6mm x 3.3m to suit Vinyl Install - Dark Grey"
+],
+"BTXV-256-33-SG": [
+45.0,
+"Batex Aluminium 2.5 x 6mm x 3.3m to suit Vinyl Install - Smokey Grey"
+],
+"BTXV-556-33-BK": [
+47.0,
+"Batex Aluminium 5.5 x 6mm x 3.3m to suit Vinyl Install - Black"
+],
+"BTXV-556-33-DG": [
+47.0,
+"Batex Aluminium 5.5 x 6mm x 3.3m to suit Vinyl Install - Dark Grey"
+],
+"BTXV-556-33-SG": [
+47.0,
+"Batex Aluminium 5.5 x 6mm x 3.3m to suit Vinyl Install - Smokey Grey"
+],
+"MLSTA-2506-BK": [
+64.5,
+"Mortarloc Aluminium 25 x 6mm x 1.8m - Black"
+],
+"MLSTA-2506-GR": [
+64.5,
+"Mortarloc Aluminium 25 x 6mm x 1.8m - Grey"
+],
+"MLSTA-2510-BK": [
+68.5,
+"Mortarloc Aluminium 25 x 10mm x 1.8m - Black"
+],
+"MLSTA-2510-GR": [
+68.5,
+"Mortarloc Aluminium 25 x 10mm x 1.8m - Grey"
+],
+"MLSTA-3006-BK": [
+72.4,
+"Mortarloc Aluminium 30 x 6mm x 1.8m - Black"
+],
+"MLSTA-3006-GR": [
+72.4,
+"Mortarloc Aluminium 30 x 6mm x 1.8m - Grey"
+],
+"MLSTA-3010-BK": [
+77.7,
+"Mortarloc Aluminium 30 x 10mm x 1.8m - Black"
+],
+"MLSTA-3010-GR": [
+77.7,
+"Mortarloc Aluminium 30 x 10mm x 1.8m - Grey"
+],
+"MLSTA-4006-BK": [
+77.7,
+"Mortarloc Aluminium 40 x 6mm x 1.8m - Black"
+],
+"MLSTA-4006-GR": [
+77.7,
+"Mortarloc Aluminium 40 x 6mm x 1.8m - Grey"
+],
+"MLSTA-4010-BK": [
+81.6,
+"Mortarloc Aluminium 40 x 10mm x 1.8m - Black"
+],
+"MLSTA-4010-GR": [
+81.6,
+"Mortarloc Aluminium 40 x 10mm x 1.8m - Grey"
+],
+"MLSTA-5006-BK": [
+88.2,
+"Mortarloc Aluminium 50 x 6mm x 1.8m - Black"
+],
+"MLSTA-5006-GR": [
+88.2,
+"Mortarloc Aluminium 50 x 6mm x 1.8m - Grey"
+],
+"MLSTA-5010-BK": [
+96.1,
+"Mortarloc Aluminium 50 x 10mm x 1.8m - Black"
+],
+"MLSTA-5010-GR": [
+96.1,
+"Mortarloc Aluminium 50 x 10mm x 1.8m - Grey"
+],
+"MLSTB-2506-BK": [
+81.6,
+"Mortarloc Brass 25 x 6mm x 1.8m - Black"
+],
+"MLSTB-2506-GR": [
+81.6,
+"Mortarloc Brass 25 x 6mm x 1.8m - Grey"
+],
+"MLSTB-2510-BK": [
+89.05,
+"Mortarloc Brass 25 x 10mm x 1.8m - Black"
+],
+"MLSTB-2510-GR": [
+89.05,
+"Mortarloc Brass 25 x 10mm x 1.8m - Grey"
+],
+"MLSTB-3006-BK": [
+90.1,
+"Mortarloc Brass 30 x 6mm x 1.8m - Black"
+],
+"MLSTB-3006-GR": [
+90.1,
+"Mortarloc Brass 30 x 6mm x 1.8m - Grey"
+],
+"MLSTB-3010-BK": [
+98.05,
+"Mortarloc Brass 30 x 10mm x 1.8m - Black"
+],
+"MLSTB-3010-GR": [
+98.05,
+"Mortarloc Brass 30 x 10mm x 1.8m - Grey"
+],
+"MLSTB-4006-BK": [
+108.1,
+"Mortarloc Brass 40 x 6mm x 1.8m - Black"
+],
+"MLSTB-4006-GR": [
+108.1,
+"Mortarloc Brass 40 x 6mm x 1.8m - Grey"
+],
+"MLSTB-4010-BK": [
+117.65,
+"Mortarloc Brass 40 x 10mm x 1.8m - Black"
+],
+"MLSTB-4010-GR": [
+117.65,
+"Mortarloc Brass 40 x 10mm x 1.8m - Grey"
+],
+"MLSTB-5006-BK": [
+120.85,
+"Mortarloc Brass 50 x 6mm x 1.8m - Black"
+],
+"MLSTB-5006-GR": [
+120.85,
+"Mortarloc Brass 50 x 6mm x 1.8m - Grey"
+],
+"MLSTB-5010-BK": [
+134.1,
+"Mortarloc Brass 50 x 10mm x 1.8m - Black"
+],
+"MLSTB-5010-GR": [
+134.1,
+"Mortarloc Brass 50 x 10mm x 1.8m - Grey"
+],
+"MLSTSS-2506-BK": [
+75.6,
+"Mortarloc Stainless Steel 25 x 6mm x 1.8m - Black"
+],
+"MLSTSS-2506-GR": [
+75.6,
+"Mortarloc Stainless Steel 25 x 6mm x 1.8m - Grey"
+],
+"MLSTSS-2510-BK": [
+82.4,
+"Mortarloc Stainless Steel 25 x 10mm x 1.8m - Black"
+],
+"MLSTSS-2510-GR": [
+82.4,
+"Mortarloc Stainless Steel 25 x 10mm x 1.8m - Grey"
+],
+"MLSTSS-3006-BK": [
+85.15,
+"Mortarloc Stainless Steel 30 x 6mm x 1.8m - Black"
+],
+"MLSTSS-3006-GR": [
+85.15,
+"Mortarloc Stainless Steel 30 x 6mm x 1.8m - Grey"
+],
+"MLSTSS-3010-BK": [
+92.05,
+"Mortarloc Stainless Steel 30 x 10mm x 1.8m - Black"
+],
+"MLSTSS-3010-GR": [
+92.05,
+"Mortarloc Stainless Steel 30 x 10mm x 1.8m - Grey"
+],
+"MLSTSS-4006-BK": [
+96.15,
+"Mortarloc Stainless Steel 40 x 6mm x 1.8m - Black"
+],
+"MLSTSS-4006-GR": [
+96.15,
+"Mortarloc Stainless Steel 40 x 6mm x 1.8m - Grey"
+],
+"MLSTSS-4010-BK": [
+103.05,
+"Mortarloc Stainless Steel 40 x 10mm x 1.8m - Black"
+],
+"MLSTSS-4010-GR": [
+103.05,
+"Mortarloc Stainless Steel 40 x 10mm x 1.8m - Grey"
+],
+"MLSTSS-5006-BK": [
+105.8,
+"Mortarloc Stainless Steel 50 x 6mm x 1.8m - Black"
+],
+"MLSTSS-5006-GR": [
+105.8,
+"Mortarloc Stainless Steel 50 x 6mm x 1.8m - Grey"
+],
+"MLSTSS-5010-BK": [
+116.75,
+"Mortarloc Stainless Steel 50 x 10mm x 1.8m - Black"
+],
+"MLSTSS-5010-GR": [
+116.75,
+"Mortarloc Stainless Steel 50 x 10mm x 1.8m - Grey"
+],
+"AA-121216-3": [
+4.25,
+"Aluminium Angle 12 x 12 x 1.6mm x 3m"
+],
+"AA-121216-3-MBK": [
+7.4,
+"Aluminium Angle 12 x 12 x 1.6mm x 3m -Matt Black"
+],
+"AA-121216-3-MG": [
+7.4,
+"Aluminium Angle 12 x 12 x 1.6mm x 3m - Matt Gold"
+],
+"AA-121216-3-MW": [
+7.4,
+"Aluminium Angle 12 x 12 x 1.6mm x 3m - Matt White"
+],
+"AA-122016-3": [
+5.3,
+"Aluminium Angle 12 x 20 x 1.6mm x 3m"
+],
+"AA-122016-3-BS": [
+11.65,
+"Aluminium Angle 12 x 20 x 1.6mm x 3m - Bright Silver"
+],
+"AA-122016-3-MS": [
+11.65,
+"Aluminium Angle 12 x 20 x 1.6mm x 3m - Matt Silver"
+],
+"AA-124016-3": [
+10.6,
+"Aluminium Angle 12 x 40 x 1.6mm x 3m"
+],
+"AA-161616-3": [
+6.7,
+"Aluminium Angle 16 x 16 x 1.6mm x 3m"
+],
+"AA-161616-3-MBK": [
+7.85,
+"Aluminium Angle 16 x 16 x 1.6mm x 3m - Matt Black"
+],
+"AA-161616-3-MG": [
+7.85,
+"Aluminium Angle 16 x 16 x 1.6mm x 3m - Matt Gold"
+],
+"AA-161616-3-MW": [
+7.85,
+"Aluminium Angle 16 x 16 x 1.6mm x 3m - Matt White"
+],
+"AA-202016-3": [
+6.35,
+"Aluminium Angle 20 x 20 x 1.6mm x 3m"
+],
+"AA-202016-3-MBK": [
+9.55,
+"Aluminium Angle 20 x 20 x 1.6mm x 3m - Matt Black"
+],
+"AA-202016-3-MG": [
+9.55,
+"Aluminium Angle 20 x 20 x 1.6mm x 3m - Matt Gold"
+],
+"AA-202016-3-MW": [
+9.55,
+"Aluminium Angle 20 x 20 x 1.6mm x 3m - Matt White"
+],
+"AA-202516-3": [
+7.4,
+"Aluminium Angle 20 x 25 x 1.6mm x 3m"
+],
+"AA-202516-3-MBK": [
+10.6,
+"Aluminium Angle 20 x 25 x 1.6mm x 3m - Matt Black"
+],
+"AA-203216-3": [
+10.45,
+"Aluminium Angle 20 x 32 x 1.6mm x 3m"
+],
+"AA-203216-3-BS": [
+14.85,
+"Aluminium Angle 20 x 32 x 1.6mm x 3m - Bright Silver"
+],
+"AA-203216-3-MBK": [
+12.35,
+"Aluminium Angle 20 x 32 x 1.6mm x 3m - Matt Black"
+],
+"AA-203216-3-MG": [
+15.9,
+"Aluminium Angle 20 x 32 x 1.6mm x 3m - Matt Gold"
+],
+"AA-203216-3-MS": [
+14.3,
+"Aluminium Angle 20 x 32 x 1.6mm x 3m - Matt Silver"
+],
+"AA-204016-3": [
+9.55,
+"Aluminium Angle 20 x 40 x 1.6mm x 3m"
+],
+"AA-204016-3-MBK": [
+14.25,
+"Aluminium Angle 20 x 40 x 1.6mm x 3m - Matt Black"
+],
+"AA-252516-3": [
+9.0,
+"Aluminium Angle 25 x 25 x 1.6mm x 3m"
+],
+"AA-252516-3-MBK": [
+11.85,
+"Aluminium Angle 25 x 25 x 1.6mm x 3m - Matt Black"
+],
+"AA-254016-3": [
+13.25,
+"Aluminium Angle 25 x 40 x 1.6mm x 3m"
+],
+"AA-254016-3-BS": [
+19.1,
+"Aluminium Angle 25 x 40 x 1.6mm x 3m - Bright Silver"
+],
+"AA-254016-3-MBK": [
+14.85,
+"Aluminium Angle 25 x 40 x 1.6mm x 3m - Matt Black"
+],
+"AA-254016-3-MW": [
+14.85,
+"Aluminium Angle 25 x 40 x 1.6mm x 3m - Matt White"
+],
+"AA-254516-3": [
+11.5,
+"Aluminium Angle 25 x 45 x 1.6mm x 3m"
+],
+"AA-255016-3": [
+13.25,
+"Aluminium Angle 25 x 50 x 1.6mm x 3m"
+],
+"AA-255016-3-BS": [
+19.1,
+"Aluminium Angle 25 x 50 x 1.6mm x 3m - Bright Silver"
+],
+"AA-255016-3-MBK": [
+14.85,
+"Aluminium Angle 25 x 50 x 1.6mm x 3m - Matt Black"
+],
+"AA-255016-3-MG": [
+16.95,
+"Aluminium Angle 25 x 50 x 1.6mm x 3m - Matt Gold"
+],
+"AA-323216-3": [
+13.6,
+"Aluminium Angle 32 x 32 x 1.6mm x 3m"
+],
+"AA-323216-3-LGM": [
+18.0,
+"Aluminium Angle 32 x 32 x 1.6mm x 3m - Linished Gunmetal NEW"
+],
+"AA-323216-3-LSN": [
+18.0,
+"Aluminium Angle 32 x 32 x 1.6mm x 3m - Linished Satin Nickle NEW"
+],
+"AA-323216-3-MBK": [
+15.6,
+"Aluminium Angle 32 x 32 x 1.6mm x 3m - Matt Black"
+],
+"AA-323216-3-MS": [
+18.0,
+"Aluminium Angle 32 x 32 x 1.6mm x 3m - Matt Silver"
+],
+"AA-323216-3-MW": [
+15.9,
+"Aluminium Angle 32 x 32 x 1.6mm x 3m - Matt White"
+],
+"AA-323216-3-MG": [
+18.15,
+"Aluminium Angle 32 x 32 x 1.6mm x 3m - Matt Gold"
+],
+"AA-404016-3": [
+16.2,
+"Aluminium Angle 40 x 40 x 1.6mm x 3m"
+],
+"AA-404016-3-MBK": [
+18.55,
+"Aluminium Angle 40 x 40 x 1.6mm x 3m - Matt Black"
+],
+"AA-404016-3-MG": [
+24.9,
+"Aluminium Angle 40 x 40 x 1.6mm x 3m - Matt Gold"
+],
+"AA-404016-3-MW": [
+18.55,
+"Aluminium Angle 40 x 40 x 1.6mm x 3m - Matt White"
+],
+"AA-405016-3": [
+18.0,
+"Aluminium Angle 40 x 50 x 1.6mm x 3m"
+],
+"AA-405016-3-BS": [
+25.95,
+"Aluminium Angle 40 x 50 x 1.6mm x 3m - Bright Silver"
+],
+"AA-405016-3-LGM": [
+25.95,
+"Aluminium Angle 40 x 50 x 1.6mm x 3m - Linished Gunmetal NEW"
+],
+"AA-405016-3-LSN": [
+25.95,
+"Aluminium Angle 40 x 50 x 1.6mm x 3m - Linished Satin Nickle NEW"
+],
+"AA-405016-3-MBK": [
+20.7,
+"Aluminium Angle 40 x 50 x 1.6mm x 3m - Matt Black"
+],
+"AA-405016-3-MG": [
+29.15,
+"Aluminium Angle 40 x 50 x 1.6mm x 3m - Matt Gold"
+],
+"AA-505016-3": [
+19.95,
+"Aluminium Angle 50 x 50 x 1.6mm x 3m"
+],
+"AA-505016-3-MBK": [
+22.75,
+"Aluminium Angle 50 x 50 x 1.6mm x 3m - Matt Black"
+],
+"AA-20203-3": [
+14.85,
+"Aluminium Angle 20 x 20 x 3mm x 3m"
+],
+"AA-20253-3": [
+16.95,
+"Aluminium Angle 20 x 25 x 3mm x 3m"
+],
+"AA-20323-3": [
+20.15,
+"Aluminium Angle 20 x 32 x 3mm x 3m"
+],
+"AA-20403-3": [
+16.15,
+"Aluminium Angle 20 x 40 x 3mm x 3m"
+],
+"AA-25253-3": [
+18.0,
+"Aluminium Angle 25 x 25 x 3mm x 3m"
+],
+"AA-25253-3-MBK": [
+23.75,
+"Aluminium Angle 25 x 25 x 3mm x 3m - Matt Black"
+],
+"AA-25253-3-MG": [
+23.75,
+"Aluminium Angle 25 x 25 x 3mm x 3m - Matt Gold"
+],
+"AA-25323-3": [
+21.2,
+"Aluminium Angle 25 x 32 x 3mm x 3m"
+],
+"AA-25403-3": [
+24.4,
+"Aluminium Angle 25 x 40 x 3mm x 3m"
+],
+"AA-25403-3-MS": [
+29.7,
+"Aluminium Angle 25 x 40 x 3mm x 3m - Matt Silver"
+],
+"AA-25503-3": [
+27.55,
+"Aluminium Angle 25 x 50 x 3mm x 3m"
+],
+"AA-32323-3": [
+23.3,
+"Aluminium Angle 32 x 32 x 3mm x 3m"
+],
+"AA-32323-3-BS": [
+28.0,
+"Aluminium Angle 32 x 32 x 3mm x 3m - Bright Silver"
+],
+"AA-40403-3": [
+26.5,
+"Aluminium Angle 40 x 40 x 3mm x 3m"
+],
+"AA-40503-3": [
+27.55,
+"Aluminium Angle 40 x 50 x 3mm x 3m"
+],
+"AA-40503-3-BS": [
+39.2,
+"Aluminium Angle 40 x 50 x 3mm x 3m - Bright Silver"
+],
+"AA-40503-3-MBK": [
+39.2,
+"Aluminium Angle 40 x 50 x 3mm x 3m - Matt Black"
+],
+"AA-40503-3-MG": [
+39.2,
+"Aluminium Angle 40 x 50 x 3mm x 3m - Matt Gold"
+],
+"AA-40503-3-MS": [
+39.2,
+"Aluminium Angle 40 x 50 x 3mm x 3m - Matt Silver"
+],
+"AA-50503-3": [
+37.1,
+"Aluminium Angle 50 x 50 x 3mm x 3m"
+],
+"AA-60603-3": [
+45.6,
+"Aluminium Angle 60 x 60 x 3mm x 3m"
+],
+"AC-8-3-MF": [
+12.0,
+"Aluminium Channel Trim 8mm x 3m - Mill Finish"
+],
+"AC-8-3-BSP": [
+12.5,
+"Aluminium Channel Trim 8mm x 3m - Bright Silver Protected"
+],
+"AC-8-3-MBKP": [
+12.5,
+"Aluminium Channel Trim 8mm x 3m - Matt Black Protected"
+],
+"AC-8-3-MSP": [
+12.5,
+"Aluminium Channel Trim 8mm x 3m - Matt Silver Protected"
+],
+"AC-8-3-WHP": [
+12.5,
+"Aluminium Channel Trim 8mm x 3m - Pearl White Protected"
+],
+"AC-10-3-MF": [
+13.0,
+"Aluminium Channel Trim 10mm x 3m - Mill Finish"
+],
+"AC-10-3-BSP": [
+13.5,
+"Aluminium Channel Trim 10mm x 3m - Bright Silver Protected"
+],
+"AC-10-3-MBKP": [
+13.5,
+"Aluminium Channel Trim 10mm x 3m - Matt Black Protected"
+],
+"AC-10-3-MSP": [
+13.5,
+"Aluminium Channel Trim 10mm x 3m - Matt Silver Protected"
+],
+"AC-10-3-WHP": [
+13.5,
+"Aluminium Channel Trim 10mm x 3m - Pearl White Protected"
+],
+"AC-12-3-MF": [
+14.0,
+"Aluminium Channel Trim 12mm x 3m - Mill Finish"
+],
+"AC-12-3-BSP": [
+14.5,
+"Aluminium Channel Trim 12mm x 3m - Bright Silver Protected"
+],
+"AC-12-3-MBKP": [
+14.5,
+"Aluminium Channel Trim 12mm x 3m - Matt Black Protected"
+],
+"AC-12-3-MSP": [
+14.5,
+"Aluminium Channel Trim 12mm x 3m - Matt Silver Protected"
+],
+"AC-12-3-WHP": [
+14.5,
+"Aluminium Channel Trim 12mm x 3m - Pearl White Protected"
+]
+}
