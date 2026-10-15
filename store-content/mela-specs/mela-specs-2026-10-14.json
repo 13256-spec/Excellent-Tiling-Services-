@@ -1,0 +1,3064 @@
+[
+ {
+  "handle": "mela-flova-basin-mixer",
+  "id": "gid://shopify/Product/8382095556671",
+  "title": "MELA FLOVA Basin Mixer",
+  "status": "update",
+  "bc": [
+   "flova-basin-mixer",
+   "mela-flova-basin-mixer-black",
+   "mela-flova-basin-mixer-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA Basin Mixer brings a clean, contemporary profile to bathroom basins and is available in Chrome, Matt Black and Brushed Nickel.</p><h4>Specifications</h4><ul>\n<li>WELS 5 Star</li>\n<li>6 L/min flow rate</li>\n<li>35 mm cartridge</li>\n<li>WELS registration T31170</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "5 Star",
+   "flow_rate": "6L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-tall-basin-mixer",
+  "id": "gid://shopify/Product/8382095687743",
+  "title": "MELA FLOVA Tall Basin Mixer",
+  "status": "update",
+  "bc": [
+   "flova-tall-basin-mixer",
+   "mela-flova-tall-basin-mixer-black",
+   "mela-flova-tall-basin-mixer-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA Tall Basin Mixer is designed for taller or above-counter basin applications and is available in Chrome, Matt Black and Brushed Nickel.</p><h4>Specifications</h4><ul>\n<li>WELS 6 Star</li>\n<li>4.5 L/min flow rate</li>\n<li>35 mm cartridge</li>\n<li>WELS registration T32092</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "6 Star",
+   "flow_rate": "4.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-shower-bath-wall-mixer",
+  "id": "gid://shopify/Product/8382095753279",
+  "title": "MELA FLOVA Shower/Bath Wall Mixer",
+  "status": "update",
+  "bc": [
+   "flova-shower-bath-wall-mixer-chrome",
+   "mela-flova-shower-bath-wall-mixer-black",
+   "mela-flova-shower-bath-wall-mixer-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA Shower/Bath Wall Mixer is a streamlined wall-mounted mixer for shower or bath applications, available in Chrome, Matt Black and Brushed Nickel.</p><h4>Specifications</h4><ul>\n<li>35 mm cartridge</li>\n<li>Suitable for shower or bath mixer applications</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-shower-bath-wall-mixer-diverter",
+  "id": "gid://shopify/Product/8382095851583",
+  "title": "MELA FLOVA Shower/Bath Wall Mixer with Diverter",
+  "status": "update",
+  "bc": [
+   "mela-flova-shower-bath-wall-mixer-diverter-chrome",
+   "mela-flova-shower-bath-wall-mixer-diverter-black",
+   "mela-flova-shower-bath-wall-mixer-diverter-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA Shower/Bath Wall Mixer with Diverter combines wall-mounted mixing control with an integrated diverter. Available in Chrome, Matt Black and Brushed Nickel.</p><h4>Specifications</h4><ul>\n<li>Integrated diverter</li>\n<li>35 mm cartridge</li>\n<li>Suitable for shower or bath applications requiring flow diversion</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-600-double-towel-rail",
+  "id": "gid://shopify/Product/8382118527039",
+  "title": "MELA FLOVA 600 Double Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-600-double-towel-rail-chrome",
+   "mela-flova-600-double-towel-rail-black",
+   "mela-flova-600-double-towel-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA 600 Double Towel Rail.</p><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 600(W) × 28(H) × 106(D)mm</li><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 600,
+   "height_mm": 28,
+   "depth_mm": 106,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-toilet-brush-holder",
+  "id": "gid://shopify/Product/8382118592575",
+  "title": "MELA FLOVA Toilet Brush Holder",
+  "status": "update",
+  "bc": [
+   "mela-flova-toilet-brush-holder",
+   "mela-flova-toilet-brush-holder-black",
+   "mela-flova-toilet-brush-holder-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Toilet Brush Holder.</p><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 156.5(W) × 384(H) × 101(D)mm</li><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "height_mm": 384,
+   "depth_mm": 101,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-soap-holder",
+  "id": "gid://shopify/Product/8382118625343",
+  "title": "MELA PALCO/RONDO Soap Holder",
+  "status": "update",
+  "bc": [
+   "mela-palco-soap-holder-chrome",
+   "mela-palco-soap-holder-matt-black",
+   "mela-palco-soap-holder-brushed-nickel",
+   "mela-palco-soap-holder-gun-metal",
+   "mela-palco-soap-holder-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO/RONDO Soap Holder with coordinating finishes for the PALCO and RONDO ranges.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 150(W) × 25(H) × 100(D)mm (Chrome, Matt Black)</li><li><strong>Dimensions:</strong> 150(W) × 100(D)mm (Brushed Nickel, Gun Metal, Brushed Brass)</li><li><strong>Material:</strong> Brass</li><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-toilet-brush-holder",
+  "id": "gid://shopify/Product/8382118690879",
+  "title": "MELA PALCO/RONDO Toilet Brush Holder",
+  "status": "update",
+  "bc": [
+   "mela-palco-toilet-brush-holder",
+   "mela-palco-rondo-toilet-brush-holder-black",
+   "mela-palco-rondo-toilet-brush-holder-brushed-nickel",
+   "mela-palco-rondo-toilet-brush-holder-gun-metal",
+   "mela-palco-rondo-toilet-brush-holder-brushed-brass",
+   "mela-palco-rondo-toilet-brush-holder-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO/RONDO Toilet Brush Holder with coordinating finishes for the PALCO and RONDO ranges.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass, Brushed Copper</li><li><strong>Dimensions:</strong> 114(W) × 129.50(D) × 384(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 114,
+   "depth_mm": 50,
+   "height_mm": 384,
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-rondo-swivel-wall-spout",
+  "id": "gid://shopify/Product/8382139170879",
+  "title": "MELA RONDO Swivel Wall Spout",
+  "status": "update",
+  "bc": [
+   "mela-rondo-swivel-wall-spout-chrome",
+   "mela-rondo-swivel-wall-spout-black",
+   "mela-rondo-swivel-wall-spout-brushed-brass"
+  ],
+  "old": "<p>The MELA RONDO Swivel Wall Spout is a wall-mounted outlet with a rotating spout, suited to bath or basin installations. Its rounded design coordinates with the MELA RONDO tapware range.</p><p>Available in Chrome, Matt Black and Brushed Brass, from our Maddington showroom with delivery across Australia.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Compatibility:</strong> Also compatible with Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-rondo-pull-out-sink-mixer",
+  "id": "gid://shopify/Product/8382139236415",
+  "title": "MELA RONDO Pull Out Sink Mixer",
+  "status": "update",
+  "bc": [
+   "mela-rondo-gooseneck-pull-out-sink-mixer-chrome",
+   "mela-rondo-gooseneck-pull-out-sink-mixer-black-1"
+  ],
+  "old": "<p>The MELA RONDO Pull Out Sink Mixer pairs a clean, rounded kitchen mixer profile with a pull-out outlet, making it easy to rinse dishes, fill pots and clean around the sink. Available in Chrome and Matt Black to suit modern kitchens and laundries.</p><h4>Specifications</h4><ul>\n<li>WELS 5 Star</li>\n<li>6 L/min flow rate</li>\n<li>35 mm cartridge</li>\n<li>WELS registration T35195</li>\n</ul><p>Available from our Maddington showroom with delivery across Australia.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "5 Star",
+   "flow_rate": "6L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-flova-medium-basin-mixer",
+  "id": "gid://shopify/Product/8382636064831",
+  "title": "MELA FLOVA Medium Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-flova-medium-basin-mixer",
+   "mela-flova-medium-basin-mixer-matt-black",
+   "mela-flova-medium-basin-mixer-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Medium Basin Mixer.</p><ul>\n<li>WELS: 6 Star</li>\n<li>Flow rate: 4.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T32092</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "6 Star",
+   "flow_rate": "4.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-palco-wall-spout",
+  "id": "gid://shopify/Product/8382636097599",
+  "title": "MELA FLOVA / PALCO Wall Spout",
+  "status": "update",
+  "bc": [
+   "flova-palco-wall-spout-chrome",
+   "mela-flova-palco-wall-spout-black",
+   "mela-flova-palco-wall-spout-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA / PALCO Wall Spout.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>WELS registration: T38403</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li><li><strong>Compatibility:</strong> Also compatible with Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-palco-swivel-bath-spout",
+  "id": "gid://shopify/Product/8382636130367",
+  "title": "MELA FLOVA / PALCO Swivel Wall Spout",
+  "status": "update",
+  "bc": [
+   "flova-palco-swivel-wall-spout-chrome",
+   "mela-flova-palco-swivel-wall-spout-black",
+   "mela-flova-palco-swivel-wall-spout-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA / PALCO swivel wall spout is a brass wall-mounted spout suitable for bath or basin use. Its rotating outlet offers flexibility and coordinates with the FLOVA and PALCO ranges.</p><ul>\n<li>Material: brass</li>\n<li>Finishes: Chrome, Matt Black, Brushed Nickel</li>\n<li>Installation: wall mounted; licensed plumber required</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Compatibility:</strong> Also compatible with Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-free-standing-bath-spout",
+  "title": "MELA FLOVA Free Standing Bath Spout",
+  "status": "unmatched"
+ },
+ {
+  "handle": "mela-flova-shower-arm",
+  "id": "gid://shopify/Product/8382636195903",
+  "title": "MELA FLOVA Shower Arm",
+  "status": "update",
+  "bc": [
+   "mela-flova-shower-arm-chrome",
+   "mela-flova-shower-arm-black",
+   "mela-flova-shower-arm-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA shower arm has a geometric wall-mounted profile designed to coordinate with the FLOVA shower range.</p><ul>\n<li>Dimensions: 402 mm wide × 323 mm high</li>\n<li>Material: brass</li>\n<li>Finishes: Chrome, Matt Black, Brushed Nickel</li>\n<li>Installation: licensed plumber required</li>\n</ul>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 402,
+   "height_mm": 323,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-shower-head",
+  "id": "gid://shopify/Product/8382636228671",
+  "title": "MELA FLOVA Shower Head",
+  "status": "update",
+  "bc": [
+   "mela-flova-shower-head-chrome",
+   "mela-flova-shower-head-black",
+   "mela-flova-shower-head-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Shower Head.</p><ul>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S14293</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-hand-shower-set-without-rail",
+  "id": "gid://shopify/Product/8382636261439",
+  "title": "MELA FLOVA Hand Shower Set without Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-hand-shower-set-without-rail-chrome",
+   "mela-flova-hand-shower-set-without-rail-black",
+   "mela-flova-hand-shower-set-without-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Hand Shower Set without Rail.</p><ul>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S14289</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-hand-shower-set-with-rail",
+  "id": "gid://shopify/Product/8382636294207",
+  "title": "MELA FLOVA Hand Shower Set with Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-hand-shower-set-with-rail-chrome",
+   "mela-flova-hand-shower-set-with-rail-black",
+   "mela-flova-hand-shower-set-with-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Hand Shower Set with Rail.</p><ul>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S15179</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-combination-shower-set-without-rail",
+  "id": "gid://shopify/Product/8382636326975",
+  "title": "MELA FLOVA Combination Shower Set without Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-twin-combo-shower-set-without-rail-chrome",
+   "mela-flova-twin-combo-shower-set-without-rail-black",
+   "mela-flova-twin-combo-shower-set-without-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Combination Shower Set without Rail.</p><ul>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S14972</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-combination-shower-set-with-rail",
+  "id": "gid://shopify/Product/8382636359743",
+  "title": "MELA FLOVA Combination Shower Set with Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-twin-combo-shower-set-with-rail-chrome",
+   "mela-flova-twin-combo-shower-set-with-rail-black",
+   "mela-flova-twin-combo-shower-set-with-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Combination Shower Set with Rail.</p><ul>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S15182</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-shower-arm",
+  "id": "gid://shopify/Product/8382636490815",
+  "title": "MELA PALCO / RONDO Shower Arm",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-shower-arm-chrome",
+   "mela-palco-rondo-shower-arm-black",
+   "mela-palco-rondo-shower-arm-brushed-nickel",
+   "mela-palco-rondo-shower-arm-brushed-brass",
+   "mela-palco-rondo-shower-arm-brushed-copper"
+  ],
+  "old": "<p>The MELA PALCO / RONDO Shower Arm is a brass wall-mounted arm for fitting a shower head, made to suit the MELA PALCO and RONDO tapware ranges.</p><ul>\n<li>Material: Brass</li>\n<li>Available in six finishes: Chrome (PAL.SA.001), Matt Black (PAL.SA.001.BK), Brushed Nickel (PAL.SA.001.BN), Gun Metal (PAL.SA.001.GM), Brushed Brass (PAL.SA.001.BB) and Brushed Copper (PAL.SA.001.BC)</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 401(L) × 368.5(H)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 401,
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-straight-shower-arm",
+  "id": "gid://shopify/Product/8382636556351",
+  "title": "MELA PALCO / RONDO Straight Shower Arm",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-straight-shower-arm-chrome",
+   "mela-palco-rondo-straight-shower-arm-black",
+   "mela-palco-rondo-straight-shower-arm-brushed-nickel",
+   "mela-palco-rondo-straight-shower-arm-brushed-brass",
+   "mela-palco-rondo-straight-shower-arm-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO / RONDO Straight Shower Arm.</p><ul><li>Material: Brass</li></ul><p>Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 350(L) × 25(W)mm</li><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Brushed Brass, Brushed Copper</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-ceiling-shower-arm",
+  "id": "gid://shopify/Product/8382636621887",
+  "title": "MELA PALCO / RONDO Ceiling Shower Arm",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-ceiling-arm-chrome",
+   "mela-palco-rondo-ceiling-arm-black",
+   "mela-palco-rondo-ceiling-arm-brushed-nickel",
+   "mela-palco-rondo-ceiling-arm-brushed-brass",
+   "mela-palco-rondo-ceiling-arm-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO / RONDO Ceiling Shower Arm.</p><ul><li>Material: Brass</li></ul><p>Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 300(L) × 25(W)mm</li><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Brushed Brass</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-shower-head",
+  "id": "gid://shopify/Product/8382636654655",
+  "title": "MELA PALCO / RONDO Shower Head",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-shower-head-chrome",
+   "mela-palco-rondo-shower-head-black",
+   "mela-palco-rondo-shower-head-brushed-nickel",
+   "mela-palco-rondo-shower-head-brushed-brass",
+   "mela-palco-rondo-shower-head-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO / RONDO Shower Head.</p><ul>\n<li>Material: Brass</li>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>WELS registration: S18583</li>\n</ul><p>Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> ⌀250mm</li><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Brushed Brass, Brushed Copper</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-hand-shower-set-without-rail",
+  "id": "gid://shopify/Product/8382636687423",
+  "title": "MELA PALCO / RONDO Hand Shower Set without Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-hand-shower-set-without-rail-chrome",
+   "mela-palco-rondo-hand-shower-set-without-rail-black",
+   "mela-palco-rondo-hand-shower-set-without-rail-brushed-nickel",
+   "mela-palco-rondo-hand-shower-set-without-rail-gun-metal",
+   "mela-palco-rondo-hand-shower-set-without-rail-brushed-brass",
+   "mela-palco-rondo-hand-shower-set-without-rail-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO / RONDO Hand Shower Set without Rail.</p><ul>\n<li>Material: Brass</li>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S14290</li>\n</ul><p>Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass, Brushed Copper</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-hand-shower-set-with-rail",
+  "id": "gid://shopify/Product/8382636720191",
+  "title": "MELA PALCO / RONDO Hand Shower Set with Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-hand-shower-set-with-rail-chrome",
+   "mela-palco-rondo-hand-shower-set-with-rail-black",
+   "mela-palco-rondo-hand-shower-set-with-rail-brushed-nickel",
+   "mela-palco-rondo-hand-shower-set-with-rail-brushed-brass",
+   "mela-palco-rondo-hand-shower-set-with-rail-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO / RONDO Hand Shower Set with Rail.</p><ul>\n<li>Material: Brass</li>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>WELS registration: S17450</li>\n</ul><p>Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Brushed Brass, Brushed Copper</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-combination-shower-set-without-rail",
+  "id": "gid://shopify/Product/8382636752959",
+  "title": "MELA PALCO / RONDO Combination Shower Set without Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-twin-combo-shower-set-without-rail-chrome",
+   "mela-palco-rondo-twin-combo-shower-set-without-rail-black",
+   "mela-palco-rondo-twin-combo-shower-set-without-rail-brushed-nickel",
+   "mela-palco-rondo-twin-combo-shower-set-without-rail-gun-metal",
+   "mela-palco-rondo-twin-combo-shower-set-without-rail-brushed-brass",
+   "mela-palco-rondo-twin-combo-shower-set-without-rail-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO / RONDO Combination Shower Set without Rail.</p><ul>\n<li>Material: Brass</li>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S14973</li>\n</ul><p>Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass, Brushed Copper</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-combination-shower-set-with-rail",
+  "id": "gid://shopify/Product/8382636818495",
+  "title": "MELA PALCO / RONDO Combination Shower Set with Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-twin-combo-shower-set-with-rail-chrome",
+   "mela-palco-rondo-twin-combo-shower-set-with-rail-black",
+   "mela-palco-rondo-twin-combo-shower-set-with-rail-brushed-nickel",
+   "mela-palco-rondo-twin-combo-shower-set-with-rail-brushed-brass",
+   "mela-palco-rondo-twin-combo-shower-set-with-rail-brushed-copper"
+  ],
+  "old": "<p>MELA PALCO / RONDO Combination Shower Set with Rail.</p><ul>\n<li>Material: Brass</li>\n<li>WELS: 3 Star</li>\n<li>Flow rate: 9L/min</li>\n<li>WELS registration: S14916</li>\n</ul><p>Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Chrome, Matt Black, Brushed Nickel, Brushed Brass, Brushed Copper</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "3 Star",
+   "flow_rate": "9L / MIN",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-basin-mixer",
+  "id": "gid://shopify/Product/8382636916799",
+  "title": "MELA PALCO Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-palco-basin-mixer-chrome",
+   "mela-palco-basin-mixer-black",
+   "mela-palco-basin-mixer-brushed-nickel",
+   "mela-palco-basin-mixer-light-gun-metal",
+   "mela-palco-basin-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO Basin Mixer.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T26386</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-medium-basin-mixer",
+  "id": "gid://shopify/Product/8382636949567",
+  "title": "MELA PALCO Medium Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-palco-medium-basin-mixer-chrome",
+   "mela-palco-medium-basin-mixer-black",
+   "mela-palco-medium-basin-mixer-brushed-nickel",
+   "mela-palco-medium-basin-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO Medium Basin Mixer.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T26387</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-tall-basin-mixer",
+  "id": "gid://shopify/Product/8382636982335",
+  "title": "MELA PALCO Tall Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-palco-tall-basin-mixer-chrome",
+   "mela-palco-tall-basin-mixer-black",
+   "mela-palco-tall-basin-mixer-brushed-nickel",
+   "mela-palco-tall-basin-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO Tall Basin Mixer.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>Cartridge: 35mm</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-wall-mixer",
+  "id": "gid://shopify/Product/8382637015103",
+  "title": "MELA PALCO Wall Mixer",
+  "status": "update",
+  "bc": [
+   "mela-palco-shower-bath-wall-mixer-chrome",
+   "mela-palco-shower-bath-wall-mixer-black",
+   "mela-palco-shower-bath-wall-mixer-brushed-nickel",
+   "mela-palco-shower-bath-wall-mixer-light-gun-metal",
+   "mela-palco-shower-bath-wall-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO Wall Mixer.</p><ul><li>Cartridge: 35mm</li></ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-wall-mixer-with-diverter",
+  "id": "gid://shopify/Product/8382637047871",
+  "title": "MELA PALCO Wall Mixer with Diverter",
+  "status": "update",
+  "bc": [
+   "mela-palco-shower-bath-wall-mixer-diverter-chrome",
+   "mela-palco-shower-bath-wall-mixer-diverter-black",
+   "mela-palco-shower-bath-wall-mixer-diverter-brushed-nickel",
+   "mela-palco-shower-bath-wall-mixer-diverter-gun-metal",
+   "mela-palco-shower-bath-wall-mixer-diverter-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO Wall Mixer with Diverter.</p><ul><li>Cartridge: 35mm</li></ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-free-standing-bath-spout",
+  "id": "gid://shopify/Product/8382637080639",
+  "title": "MELA PALCO / RONDO Free Standing Bath Spout",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-freestanding-spout-chrome",
+   "mela-palco-rondo-freestanding-spout-black",
+   "mela-palco-rondo-freestanding-spout-brushed-nickel",
+   "mela-palco-rondo-freestanding-spout-gun-metal",
+   "mela-palco-rondo-freestanding-spout-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO Free Standing Bath Spout.</p><ul><li>Cartridge: 35mm</li></ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range (Chrome)</li><li><strong>Compatibility:</strong> Also compatible with Rondo range (Matt Black, Brushed Nickel, Gun Metal, Brushed Brass)</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-free-standing-bath-mixer",
+  "id": "gid://shopify/Product/8382637113407",
+  "title": "MELA PALCO / RONDO Free Standing Bath Mixer",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-freestanding-mixer-chrome",
+   "mela-palco-rondo-freestanding-mixer-black",
+   "mela-palco-rondo-freestanding-mixer-brushed-nickel",
+   "mela-palco-rondo-freestanding-mixer-gun-metal",
+   "mela-palco-rondo-freestanding-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO Free Standing Bath Mixer.</p><ul><li>Cartridge: 35mm</li></ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-gooseneck-kitchen-mixer",
+  "id": "gid://shopify/Product/8382637146175",
+  "title": "MELA PALCO Gooseneck Kitchen Mixer",
+  "status": "update",
+  "bc": [
+   "mela-palco-gooseneck-kitchen-mixer-chrome",
+   "mela-palco-gooseneck-kitchen-mixer-matt-black",
+   "mela-palco-gooseneck-kitchen-mixer-brushed-nickel",
+   "mela-palco-gooseneck-kitchen-mixer-gun-metal",
+   "mela-palco-gooseneck-kitchen-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO Gooseneck Kitchen Mixer.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T25409</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-rondo-basin-mixer",
+  "id": "gid://shopify/Product/8382637178943",
+  "title": "MELA RONDO Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-rondo-basin-mixer-chrome",
+   "mela-rondo-basin-mixer-black",
+   "mela-rondo-basin-mixer-brushed-nickel",
+   "mela-rondo-basin-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA RONDO Basin Mixer.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T42517</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-rondo-tall-basin-mixer",
+  "id": "gid://shopify/Product/8382637211711",
+  "title": "MELA RONDO Tall Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-rondo-tall-basin-mixer-chrome",
+   "mela-rondo-tall-basin-mixer-black",
+   "mela-rondo-tall-basin-mixer-brushed-nickel",
+   "mela-rondo-tall-basin-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA RONDO Tall Basin Mixer.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T42518</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-rondo-wall-mixer",
+  "id": "gid://shopify/Product/8382637244479",
+  "title": "MELA RONDO Wall Mixer",
+  "status": "update",
+  "bc": [
+   "mela-rondo-shower-bath-wall-mixer-chrome",
+   "mela-rondo-shower-bath-wall-mixer-black",
+   "mela-rondo-shower-bath-wall-mixer-brushed-nickel",
+   "mela-rondo-shower-bath-wall-mixer-brushed-brass"
+  ],
+  "old": "<p>MELA RONDO Wall Mixer.</p><ul><li>Cartridge: 35mm</li></ul><p>Available in Chrome, Matt Black, Brushed Nickel and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass and Zinc Alloy Handle</li></ul>",
+  "metafields": {
+   "material": "Brass and Zinc Alloy Handle",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-rondo-wall-mixer-with-diverter",
+  "id": "gid://shopify/Product/8382637310015",
+  "title": "MELA RONDO Wall Mixer with Diverter",
+  "status": "update",
+  "bc": [
+   "mela-rondo-shower-bath-wall-mixer-diverter-chrome",
+   "mela-rondo-shower-bath-wall-mixer-diverter-black",
+   "mela-rondo-shower-bath-wall-mixer-diverter-brushed-nickel",
+   "mela-rondo-shower-bath-wall-mixer-diverter-brushed-brass"
+  ],
+  "old": "<p>MELA RONDO Wall Mixer with Diverter.</p><ul><li>Cartridge: 35mm</li></ul><p>Available in Chrome, Matt Black, Brushed Nickel and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass and Zinc Alloy Handle</li></ul>",
+  "metafields": {
+   "material": "Brass and Zinc Alloy Handle",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-rondo-wall-spout",
+  "id": "gid://shopify/Product/8382637342783",
+  "title": "MELA RONDO Wall Spout",
+  "status": "update",
+  "bc": [
+   "mela-rondo-wall-spout-chrome",
+   "mela-rondo-wall-spout-black",
+   "mela-rondo-wall-spout-brushed-nickel",
+   "mela-rondo-wall-spout-light-gun-metal",
+   "mela-rondo-wall-spout-brushed-brass"
+  ],
+  "old": "<p>MELA RONDO Wall Spout.</p><ul>\n<li>WELS: 6 Star</li>\n<li>Flow rate: 4.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T37074</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Compatibility:</strong> Also compatible with Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "6 Star",
+   "flow_rate": "4.5L / MIN",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-rondo-gooseneck-sink-mixer",
+  "id": "gid://shopify/Product/8382637408319",
+  "title": "MELA RONDO Gooseneck Sink Mixer",
+  "status": "update",
+  "bc": [
+   "mela-rondo-square-gooseneck-sink-mixer-chrome",
+   "mela-rondo-sink-mixer-black",
+   "mela-rondo-square-gooseneck-sink-mixer-brushed-nickel",
+   "mela-rondo-sink-mixer-gun-metal",
+   "mela-rondo-square-gooseneck-sink-mixer-gun-metal-1"
+  ],
+  "old": "<p>MELA RONDO Gooseneck Sink Mixer.</p><ul>\n<li>WELS: 6 Star</li>\n<li>Flow rate: 5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T42521</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-rondo-square-gooseneck-sink-mixer",
+  "id": "gid://shopify/Product/8382637441087",
+  "title": "MELA RONDO Square Gooseneck Sink Mixer",
+  "status": "update",
+  "bc": [
+   "mela-rondo-square-gooseneck-sink-mixer-chrome",
+   "mela-rondo-square-gooseneck-sink-mixer-black",
+   "mela-rondo-square-gooseneck-sink-mixer-brushed-nickel",
+   "mela-rondo-square-gooseneck-sink-mixer-gun-metal",
+   "mela-rondo-square-gooseneck-sink-mixer-gun-metal-1"
+  ],
+  "old": "<p>MELA RONDO Square Gooseneck Sink Mixer.</p><ul>\n<li>WELS: 4 Star</li>\n<li>Flow rate: 7.5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T42516</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-bruno-600-single-towel-rail",
+  "id": "gid://shopify/Product/8382637506623",
+  "title": "MELA BRUNO 600 Single Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-bruno-600-single-towel-rail-brushed-nickel",
+   "mela-bruno-600-single-towel-rail-gun-metal",
+   "mela-bruno-600-single-towel-rail-brushed-brass",
+   "mela-bruno-600-single-towel-rail-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO 600 Single Towel Rail.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 654(W) × 77.7(D) × 54(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 654,
+   "height_mm": 54
+  }
+ },
+ {
+  "handle": "mela-bruno-600-double-towel-rail",
+  "id": "gid://shopify/Product/8382637539391",
+  "title": "MELA BRUNO 600 Double Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-bruno-600-double-towel-rail-brushed-nickel",
+   "mela-bruno-600-double-towel-rail-gun-metal",
+   "mela-bruno-600-double-towel-rail-brushed-brass",
+   "mela-bruno-600-double-towel-rail-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO 600 Double Towel Rail.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 654(W) × 134.7(D) × 54(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 654,
+   "height_mm": 54
+  }
+ },
+ {
+  "handle": "mela-bruno-800-single-towel-rail",
+  "id": "gid://shopify/Product/8382637572159",
+  "title": "MELA BRUNO 800 Single Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-bruno-800-single-towel-rail-brushed-nickel",
+   "mela-bruno-800-single-towel-rail-gun-metal",
+   "mela-bruno-800-single-towel-rail-brushed-brass",
+   "mela-bruno-800-single-towel-rail-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO 800 Single Towel Rail.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 854(W) × 77.7(D) × 54(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 854,
+   "height_mm": 54
+  }
+ },
+ {
+  "handle": "mela-bruno-800-double-towel-rail",
+  "id": "gid://shopify/Product/8382637604927",
+  "title": "MELA BRUNO 800 Double Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-bruno-800-double-towel-rail-brushed-nickel",
+   "mela-bruno-800-double-towel-rail-gun-metal",
+   "mela-bruno-800-double-towel-rail-brushed-brass",
+   "mela-bruno-800-double-towel-rail-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO 800 Double Towel Rail.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 854(W) × 134.7(D) × 54(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 854,
+   "height_mm": 54
+  }
+ },
+ {
+  "handle": "mela-bruno-paper-holder",
+  "id": "gid://shopify/Product/8382637670463",
+  "title": "MELA BRUNO Paper Holder",
+  "status": "update",
+  "bc": [
+   "mela-bruno-paper-holder-brushed-nickel",
+   "mela-bruno-paper-holder-light-gun-metal",
+   "mela-bruno-paper-holder-brushed-brass",
+   "mela-bruno-paper-holder-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Paper Holder.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 165(W) × 77.7(D) × 54(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 165,
+   "height_mm": 54
+  }
+ },
+ {
+  "handle": "mela-bruno-hook",
+  "id": "gid://shopify/Product/8382637735999",
+  "title": "MELA BRUNO Hook",
+  "status": "update",
+  "bc": [
+   "mela-bruno-robe-hook-brushed-nickel",
+   "mela-bruno-robe-hook-brushed-brass",
+   "mela-bruno-robe-hook-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Hook.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 54(W) × 56(D)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 54,
+   "depth_mm": 56
+  }
+ },
+ {
+  "handle": "mela-bruno-hand-towel-rail",
+  "id": "gid://shopify/Product/8382637867071",
+  "title": "MELA BRUNO Hand Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-bruno-hand-towel-rail-brushed-nickel",
+   "mela-bruno-hand-towel-rail-gun-metal",
+   "mela-bruno-hand-towel-rail-brushed-brass",
+   "mela-bruno-hand-towel-rail-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Hand Towel Rail.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 213(W) × 57.7(D) × 122(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 213,
+   "height_mm": 122
+  }
+ },
+ {
+  "handle": "mela-bruno-soap-holder",
+  "id": "gid://shopify/Product/8382637932607",
+  "title": "MELA BRUNO Soap Holder",
+  "status": "update",
+  "bc": [
+   "mela-bruno-soap-holder-brushed-nickel",
+   "mela-bruno-soap-holder-light-gun-metal",
+   "mela-bruno-soap-holder-brushed-brass",
+   "mela-bruno-soap-holder-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Soap Holder.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 194(W) × 114.7(D) × 54(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 194,
+   "height_mm": 54
+  }
+ },
+ {
+  "handle": "mela-bruno-shelf-holder",
+  "id": "gid://shopify/Product/8382637965375",
+  "title": "MELA BRUNO Shelf Holder",
+  "status": "update",
+  "bc": [
+   "mela-bruno-shelf-holder-brushed-nickel",
+   "mela-bruno-shelf-holder-light-gun-metal",
+   "mela-bruno-shelf-holder-brushed-brass",
+   "mela-bruno-shelf-holder-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Shelf Holder.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Dimensions:</strong> 478(W) × 110.5(D) × 54(H)mm</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Palco range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 478,
+   "height_mm": 54
+  }
+ },
+ {
+  "handle": "mela-bruno-basin-mixer",
+  "id": "gid://shopify/Product/8382638063679",
+  "title": "MELA BRUNO Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-bruno-basin-mixer-brushed-nickel",
+   "mela-bruno-basin-mixer-light-gun-metal",
+   "mela-bruno-basin-mixer-brushed-brass",
+   "mela-bruno-basin-mixer-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Basin Mixer.</p><ul>\n<li>WELS: 6 Star</li>\n<li>Flow rate: 5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T44806</li>\n</ul><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "flow_rate": "5L / MIN"
+  }
+ },
+ {
+  "handle": "mela-bruno-tall-basin-mixer",
+  "id": "gid://shopify/Product/8382638096447",
+  "title": "MELA BRUNO Tall Basin Mixer",
+  "status": "update",
+  "bc": [
+   "mela-bruno-tall-basin-mixer-brushed-nickel",
+   "mela-bruno-tall-basin-mixer-light-gun-metal",
+   "mela-bruno-tall-basin-mixer-brushed-brass",
+   "mela-bruno-tall-basin-mixer-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Tall Basin Mixer.</p><ul>\n<li>WELS: 6 Star</li>\n<li>Flow rate: 5L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T44807</li>\n</ul><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "6 Star",
+   "flow_rate": "5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA BRUNO"
+  }
+ },
+ {
+  "handle": "mela-bruno-wall-mixer",
+  "id": "gid://shopify/Product/8382638129215",
+  "title": "MELA BRUNO Wall Mixer",
+  "status": "update",
+  "bc": [
+   "mela-bruno-shower-bath-wall-mixer-brushed-nickel",
+   "mela-bruno-shower-bath-wall-mixer-brushed-brass",
+   "mela-bruno-shower-bath-wall-mixer-brushed-copper"
+  ],
+  "old": "<p>The MELA BRUNO shower/bath wall mixer has a sculptural profile and a 35 mm ceramic cartridge for shower or bath use.</p><ul>\n<li>Material: brass</li>\n<li>Cartridge: 35 mm</li>\n<li>Finishes: Brushed Nickel, Light Gun Metal, Brushed Brass and Brushed Copper</li>\n<li>Installation by a licensed plumber</li>\n</ul>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "cartridge": "35mm",
+   "range": "MELA BRUNO"
+  }
+ },
+ {
+  "handle": "mela-bruno-wall-spout",
+  "id": "gid://shopify/Product/8382638194751",
+  "title": "MELA BRUNO Wall Spout",
+  "status": "update",
+  "bc": [
+   "mela-bruno-wall-spout-brushed-nickel",
+   "mela-bruno-wall-spout-light-gun-metal",
+   "mela-bruno-wall-spout-brushed-brass",
+   "mela-bruno-wall-spout-brushed-copper"
+  ],
+  "old": "<p>MELA BRUNO Wall Spout.</p><p>Available in Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Light Gun Metal</li><li><strong>Compatibility:</strong> Also compatible with Rondo range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA BRUNO"
+  }
+ },
+ {
+  "handle": "mela-flova-gooseneck-kitchen-mixer",
+  "id": "gid://shopify/Product/8382638391359",
+  "title": "MELA FLOVA Gooseneck Kitchen Mixer",
+  "status": "update",
+  "bc": [
+   "mela-flova-gooseneck-kitchen-mixer-chrome",
+   "mela-flova-gooseneck-kitchen-mixer-matt-black",
+   "mela-flova-gooseneck-kitchen-mixer-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA Gooseneck Kitchen Mixer.</p><ul>\n<li>WELS 4 Star</li>\n<li>Flow rate: 7.5 L/min</li>\n<li>35mm cartridge</li>\n<li>WELS registration: T34771</li>\n<li>Available in Chrome, Matt Black and Brushed Nickel</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "4 Star",
+   "flow_rate": "7.5L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-cassa-pull-out-sink-mixer-black-hose",
+  "id": "gid://shopify/Product/8382638424127",
+  "title": "MELA CASSA Pull Out Sink Mixer with Black Hose",
+  "status": "update",
+  "bc": [
+   "mela-cassa-pull-out-sink-mixer-chrome-black-hose",
+   "mela-cassa-pull-out-sink-mixer-black-with-black-hose",
+   "mela-cassa-pull-out-sink-mixer-nickel-with-black-hose"
+  ],
+  "old": "<p>MELA CASSA pull-out sink mixer with a black hose, for kitchens and laundries.</p><ul>\n<li>WELS: 5 Star</li>\n<li>Flow rate: 6L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T24590</li>\n</ul><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "5 Star",
+   "flow_rate": "6L / MIN",
+   "cartridge": "35mm",
+   "wels_registration": "T24590",
+   "range": "MELA CASSA"
+  }
+ },
+ {
+  "handle": "mela-rondo-square-pull-out-sink-mixer",
+  "id": "gid://shopify/Product/8382638456895",
+  "title": "MELA RONDO Square Pull-Out Sink Mixer",
+  "status": "update",
+  "bc": [
+   "mela-rondo-square-gooseneck-sink-mixer-chrome-1",
+   "mela-rondo-square-gooseneck-pull-out-mixer-black-nickel",
+   "mela-rondo-gooseneck-pull-out-sink-mixer-brushed-nickel",
+   "mela-rondo-gooseneck-pull-out-sink-mixer-gun-metal"
+  ],
+  "old": "<p>MELA RONDO Square Pull-Out Sink Mixer.</p><ul>\n<li>WELS: 5 Star</li>\n<li>Flow rate: 6L/min</li>\n<li>Cartridge: 35mm</li>\n<li>WELS registration: T33641</li>\n</ul><p>Available in Chrome, Matt Black, Brushed Nickel and Gun Metal.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "wels_rating": "5 Star",
+   "flow_rate": "6L / MIN",
+   "cartridge": "35mm",
+   "range": "MELA RONDO"
+  }
+ },
+ {
+  "handle": "mela-flova-bath-towel-shelf",
+  "id": "gid://shopify/Product/8382638784575",
+  "title": "MELA FLOVA Bath Towel Shelf",
+  "status": "update",
+  "bc": [
+   "mela-flova-bath-towel-shelf-chrome",
+   "mela-flova-bath-towel-shelf-matt-black",
+   "mela-flova-bath-towel-shelf-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA bath towel shelf adds wall-mounted towel storage with a clean geometric profile.</p><ul>\n<li>Dimensions: 600 mm wide × 120 mm high × 206 mm deep</li>\n<li>Material: brass</li>\n<li>Finishes: Chrome, Matt Black, Brushed Nickel</li>\n</ul>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 600,
+   "height_mm": 120,
+   "depth_mm": 206,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-600-single-towel-rail",
+  "id": "gid://shopify/Product/8382638850111",
+  "title": "MELA FLOVA 600 Single Towel Rail",
+  "status": "update",
+  "bc": [
+   "flova-600-single-towel-rail-chrome",
+   "mela-flova-600-single-towel-rail-black",
+   "mela-flova-600-single-towel-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA 600 Single Towel Rail.</p><p>Available in Chrome, Matt Black and Brushed Nickel.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 600,
+   "height_mm": 28,
+   "depth_mm": 56,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-800-single-towel-rail",
+  "id": "gid://shopify/Product/8382638882879",
+  "title": "MELA FLOVA 800 Single Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-800-single-towel-rail-chrome",
+   "mela-flova-800-single-towel-rail-black",
+   "mela-flova-800-single-towel-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA 800 Single Towel Rail.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 800,
+   "height_mm": 28,
+   "depth_mm": 60,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-800-double-towel-rail",
+  "id": "gid://shopify/Product/8382638915647",
+  "title": "MELA FLOVA 800 Double Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-800-double-towel-rail-chrome",
+   "mela-flova-800-double-towel-rail-black",
+   "mela-flova-800-double-towel-rail-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA 800 Double Towel Rail.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 800(W)) × 28(H) × 106(Dmm (Chrome)</li><li><strong>Dimensions:</strong> 800(W) × 28(H) × 106(D)mm (Matt Black, Brushed Nickel)</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-paper-holder",
+  "id": "gid://shopify/Product/8382638981183",
+  "title": "MELA FLOVA Paper Holder",
+  "status": "update",
+  "bc": [
+   "mela-flova-paper-holder-chrome",
+   "mela-flova-paper-holder-black",
+   "mela-flova-paper-holder-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA wall-mounted paper holder coordinates with FLOVA bathroom accessories.</p><ul>\n<li>Dimensions: 142 mm wide × 25 mm high × 70.2 mm deep</li>\n<li>Material: brass</li>\n<li>Finishes: Chrome, Matt Black, Brushed Nickel</li>\n</ul>",
+  "add": "",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 142,
+   "height_mm": 25,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-hook",
+  "id": "gid://shopify/Product/8382639013951",
+  "title": "MELA FLOVA Hook",
+  "status": "update",
+  "bc": [
+   "mela-flova-robe-hook-chrome",
+   "mela-flova-robe-hook-black",
+   "mela-flova-robe-hook-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA hook is a wall-mounted bathroom hook for towels and robes, made to match the rest of the FLOVA accessories range.</p><ul>\n<li>\n<strong>Range:</strong> MELA FLOVA</li>\n<li>\n<strong>Type:</strong> Bathroom hook</li>\n<li>\n<strong>Finishes available:</strong> Chrome, Matt Black, Brushed Nickel</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 28(W) × 45(H) × 36(D)mm</li><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 28,
+   "height_mm": 45,
+   "depth_mm": 36,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-hand-towel-rail",
+  "id": "gid://shopify/Product/8382639079487",
+  "title": "MELA FLOVA Hand Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-flova-hand-towel-rail-chrome",
+   "mela-flova-hand-towel-rail-black",
+   "mela-flova-hand-towel-rail-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA hand towel rail is a wall-mounted rail for hanging hand towels beside the basin. A simple accessory to finish a bathroom renovation in a matching FLOVA look.</p><ul>\n<li>\n<strong>Range:</strong> MELA FLOVA</li>\n<li>\n<strong>Type:</strong> Hand towel rail</li>\n<li>\n<strong>Finishes available:</strong> Chrome, Matt Black, Brushed Nickel</li>\n<li>\n<strong>Codes:</strong> FLO.HT.001 (Chrome), FLO.HT.001.BK (Matt Black), FLO.HT.001.BN (Brushed Nickel)</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 220(W) × 28(H) × 70(D)mm</li><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 220,
+   "height_mm": 28,
+   "depth_mm": 70,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-soap-holder",
+  "id": "gid://shopify/Product/8382639112255",
+  "title": "MELA FLOVA Soap Holder",
+  "status": "update",
+  "bc": [
+   "mela-flova-soap-holder-chrome",
+   "mela-flova-soap-holder-matt-black",
+   "mela-flova-soap-holder-brushed-nickel"
+  ],
+  "old": "<p>MELA FLOVA soap holder for the shower or bath, giving a fixed spot to keep soap off the tiles and bench.</p><ul>\n<li>Range: MELA FLOVA</li>\n<li>\n<strong>Finishes available:</strong> Chrome, Matt Black and Brushed Nickel</li>\n<li>\n<strong>Codes:</strong> FLO.SH.001 (Chrome), FLO.SH.001.BK (Matt Black), FLO.SH.001.BN (Brushed Nickel)</li>\n</ul><p>Choose the finish to match other FLOVA accessories and tapware in the bathroom.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 156.5(W) × 28(H) × 101(D)mm</li><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "height_mm": 28,
+   "depth_mm": 101,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-flova-shelf-holder",
+  "id": "gid://shopify/Product/8382639177791",
+  "title": "MELA FLOVA Shelf Holder",
+  "status": "update",
+  "bc": [
+   "mela-flova-shelf-holder-chrome",
+   "mela-flova-shelf-holder-matt-black",
+   "mela-flova-shelf-holder-brushed-nickel"
+  ],
+  "old": "<p>The MELA FLOVA Shelf Holder is a bathroom accessory from the MELA FLOVA range, used to hold a shelf in place in the shower or vanity area.</p><ul>\n<li>Range: MELA FLOVA</li>\n<li>Available in Chrome (FLO.SH.002), Matt Black (FLO.SH.002.BK) and Brushed Nickel (FLO.SH.002.BN)</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 600(W) × 28(H) × 124(D)mm</li><li><strong>Material:</strong> Brass</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "width_mm": 600,
+   "height_mm": 28,
+   "depth_mm": 124,
+   "range": "MELA FLOVA"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-bath-towel-shelf",
+  "id": "gid://shopify/Product/8382639243327",
+  "title": "MELA PALCO / RONDO Bath Towel Shelf",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-bath-towel-shelf-chrome",
+   "mela-palco-rondo-bath-towel-shelf-black",
+   "mela-palco-rondo-bath-towel-shelf-brushed-nickel",
+   "mela-palco-rondo-bath-towel-shelf-gun-metal",
+   "mela-palco-rondo-bath-towel-shelf-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO Bath Towel Shelf.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 600(W) × 100.5(H) × 206(D)mm (Chrome, Matt Black)</li><li><strong>Dimensions:</strong> 600(W) × 195(D)mm (Brushed Nickel, Gun Metal, Brushed Brass)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-600-single-towel-rail",
+  "id": "gid://shopify/Product/8382639276095",
+  "title": "MELA PALCO / RONDO 600 Single Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-600-single-towel-rail-chrome",
+   "mela-palco-rondo-600-single-towel-rail-black",
+   "mela-palco-rondo-600-single-towel-rail-brushed-nickel",
+   "mela-palco-rondo-600-single-towel-rail-gun-metal",
+   "mela-palco-rondo-600-single-towel-rail-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO 600 Single Towel Rail.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-600-double-towel-rail",
+  "id": "gid://shopify/Product/8382639341631",
+  "title": "MELA PALCO / RONDO 600 Double Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-600-double-towel-rail-chrome",
+   "mela-palco-rondo-600-double-towel-rail-black",
+   "mela-palco-rondo-600-double-towel-rail-brushed-nickel",
+   "mela-palco-rondo-600-double-towel-rail-gun-metal",
+   "mela-palco-rondo-600-double-towel-rail-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO 600 Double Towel Rail.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 600(W) × 25(H) × 106(D)mm (Chrome, Matt Black)</li><li><strong>Dimensions:</strong> 600(W) × 106(D) × 25(H)mm (Brushed Nickel, Gun Metal, Brushed Brass)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-800-single-towel-rail",
+  "id": "gid://shopify/Product/8382639472703",
+  "title": "MELA PALCO / RONDO 800 Single Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-towel-rail-800-single-chrome",
+   "mela-palco-rondo-towel-rail-800-single-black",
+   "mela-palco-rondo-towel-rail-800-single-brushed-nickel",
+   "mela-palco-rondo-towel-rail-800-single-gun-metal",
+   "mela-palco-rondo-towel-rail-800-single-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO 800 Single Towel Rail.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-800-double-towel-rail",
+  "id": "gid://shopify/Product/8382639505471",
+  "title": "MELA PALCO / RONDO 800 Double Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-towel-rail-800-double-chrome",
+   "mela-palco-rondo-towel-rail-800-double-black",
+   "mela-palco-rondo-towel-rail-800-double-brushed-nickel",
+   "mela-palco-rondo-towel-rail-800-double-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO 800 Double Towel Rail.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 800(W) × 25(H) × 105.80(D)mm (Chrome, Matt Black)</li><li><strong>Dimensions:</strong> 800(W) × 105.80(D) × 25(H)mm (Brushed Nickel, Brushed Brass)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-paper-holder",
+  "id": "gid://shopify/Product/8382639538239",
+  "title": "MELA PALCO / RONDO Paper Holder",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-paper-holder-chrome",
+   "mela-palco-rondo-paper-holder-black",
+   "mela-palco-rondo-paper-holder-brushed-nickel",
+   "mela-palco-rondo-paper-holder-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO Paper Holder.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 142(W) × 25(H) × 55.8(D)mm (Chrome, Matt Black)</li><li><strong>Dimensions:</strong> 142(W) × 55.8(D) × 25(H)mm (Brushed Nickel, Brushed Brass)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-hook",
+  "id": "gid://shopify/Product/8382639636543",
+  "title": "MELA PALCO / RONDO Hook",
+  "status": "update",
+  "bc": [
+   "mela-palco-robe-hook-chrome",
+   "mela-palco-robe-hook-black",
+   "mela-palco-rondo-robe-hook-brushed-nickel",
+   "mela-palco-rondo-robe-hook-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO Hook.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 25(W) × 45(H) × 36(D)mm (Chrome, Matt Black)</li><li><strong>Dimensions:</strong> 25(W) × 36(D) × 45(H)mm (Brushed Nickel, Brushed Brass)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-hand-towel-rail",
+  "id": "gid://shopify/Product/8382639702079",
+  "title": "MELA PALCO / RONDO Hand Towel Rail",
+  "status": "update",
+  "bc": [
+   "mela-palco-rondo-hand-towel-rail-chrome",
+   "mela-palco-rondo-hand-towel-rail-black",
+   "mela-palco-rondo-hand-towel-rail-brushed-nickel",
+   "mela-palco-rondo-hand-towel-rail-gun-metal",
+   "mela-palco-rondo-hand-towel-rail-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO Hand Towel Rail.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 220(W) × 25(H) × 55.3(D)mm (Chrome, Matt Black)</li><li><strong>Dimensions:</strong> 220(W) × 55.3(D) × 25(H)mm (Brushed Nickel, Gun Metal, Brushed Brass)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-palco-rondo-shelf-holder",
+  "id": "gid://shopify/Product/8382639767615",
+  "title": "MELA PALCO / RONDO Shelf Holder",
+  "status": "update",
+  "bc": [
+   "mela-palco-shelf-holder-chrome",
+   "mela-palco-rondo-shelf-holder-matt-black",
+   "mela-palco-rondo-shelf-holder-brushed-nickel",
+   "mela-palco-rondo-shelf-holder-gun-metal",
+   "mela-palco-rondo-shelf-holder-brushed-brass"
+  ],
+  "old": "<p>MELA PALCO / RONDO Shelf Holder.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 600(W) × 2(H) × 124(D)mm (Chrome)</li><li><strong>Dimensions:</strong> 600(W) × 25(H) × 124(D)mm (Matt Black)</li><li><strong>Dimensions:</strong> 600(W) × 124(D)mm (Brushed Nickel, Gun Metal, Brushed Brass)</li><li><strong>Compatibility:</strong> Also compatible with Rondo and Bruno range</li></ul>",
+  "metafields": {
+   "material": "Brass",
+   "range": "MELA PALCO"
+  }
+ },
+ {
+  "handle": "mela-bruno-corner-glass-shelf-holder",
+  "id": "gid://shopify/Product/8382639800383",
+  "title": "MELA BRUNO Corner Glass Shelf Holder",
+  "status": "update",
+  "bc": [
+   "mela-corner-glass-shelf-matt-black",
+   "mela-corner-glass-shelf-brushed-nickel",
+   "mela-corner-glass-shelf-gun-metal",
+   "mela-corner-glass-shelf-brushed-brass"
+  ],
+  "old": "<p>MELA BRUNO Shelf Holder.</p><ul><li>Material: Brass</li></ul><p>Quarter-round corner glass shelf holder. Available in six finishes.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 230(W) × 230(L) × 49(D)mm</li><li><strong>Colours:</strong> Matt Black, Brushed Nickel, Gun Metal, Brushed Brass</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-pop-up-waste-universal",
+  "id": "gid://shopify/Product/8382639865919",
+  "title": "MELA Pop Up Waste Universal",
+  "status": "update",
+  "bc": [
+   "mela-universal-dome-pop-up-waste-chrome1",
+   "mela-universal-pop-up-waste-brushed-nickel",
+   "mela-universal-pop-up-waste-gun-metal-grey-1",
+   "mela-universal-pop-up-waste-brushed-gold"
+  ],
+  "old": "<p>MELA Pop Up Waste Universal.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Outlet:</strong> 32/40mm</li></ul>",
+  "metafields": {
+   "range": "MELA P"
+  }
+ },
+ {
+  "handle": "mela-calla-free-standing-bath",
+  "id": "gid://shopify/Product/8382639964223",
+  "title": "MELA CALLA Free Standing Bath",
+  "status": "update",
+  "bc": [
+   "mela-calla-free-standing-bath-1500mm",
+   "mela-calla-free-standing-bath-1700mm"
+  ],
+  "old": "<p>MELA CALLA Free Standing Bath.</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1500mm (CALLA.1500.3): 1500(L) × 750(W) × 580(H) mm</li>\n<li>1700mm (CALLA.1700.3): 1700(L) × 800(W) × 580(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA CALLA"
+  }
+ },
+ {
+  "handle": "mela-felli-free-standing-bath",
+  "id": "gid://shopify/Product/8382639996991",
+  "title": "MELA FELLI Free Standing Bath",
+  "status": "update",
+  "bc": [
+   "mela-felli-free-standing-bath-1500mm",
+   "mela-felli-free-standing-bath-1700mm-1"
+  ],
+  "old": "<p>MELA FELLI Free Standing Bath.</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1500mm (FELLI.1500.3): 1500(L) × 750(W) × 580(H) mm</li>\n<li>1700mm (FELLI.1700.3): 1700(L) × 750(W) × 580(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p><p><strong>Shipping:</strong> Available across Australia and to selected international destinations by freight quote. Final freight availability and cost depend on destination and are confirmed before dispatch.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA FELLI"
+  }
+ },
+ {
+  "handle": "mela-maya-free-standing-bath",
+  "id": "gid://shopify/Product/8382640029759",
+  "title": "MELA MAYA Free Standing Bath",
+  "status": "update",
+  "bc": [
+   "mela-maya-1500-high-back-free-standing-bath",
+   "mela-maya-high-back-free-standing-bath-1700mm"
+  ],
+  "old": "<p>MELA MAYA Free Standing Bath.</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1500mm (MAYA.1500.3): 1500(L) × 750(W) × 680(H) mm</li>\n<li>1700mm (MAYA.1700.3): 1700(L) × 750(W) × 700(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA MAYA"
+  }
+ },
+ {
+  "handle": "mela-taylor-free-standing-bath",
+  "id": "gid://shopify/Product/8382640062527",
+  "title": "MELA TAYLOR Free Standing Bath",
+  "status": "update",
+  "bc": [
+   "copy-of-mela-taylor-high-back-free-standing-bath-1500mm",
+   "copy-of-mela-taylor-high-back-free-standing-bath-1700mm"
+  ],
+  "old": "<p>MELA TAYLOR Free Standing Bath.</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1500mm (TAYLOR.1500.3): 1500(L) × 750(W) × 680(H) mm</li>\n<li>1700mm (TAYLOR.1700.3): 1700(L) × 750(W) × 700(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA TAYLOR"
+  }
+ },
+ {
+  "handle": "mela-kori-back-to-wall-bath",
+  "id": "gid://shopify/Product/8382640095295",
+  "title": "MELA KORI Back to Wall Bath",
+  "status": "update",
+  "bc": [
+   "mela-kori-1500-back-to-wall-free-standing-bath",
+   "mela-kori-1700-back-to-wall-free-standing-bath"
+  ],
+  "old": "<p>MELA KORI Back to Wall Bath.</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1500mm (KORI.1500.3): 1500(L) × 750(W) × 580(H) mm</li>\n<li>1700mm (KORI.1700.3): 1700(L) × 800(W) × 580(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA KORI"
+  }
+ },
+ {
+  "handle": "mela-mizo-back-to-wall-bath",
+  "id": "gid://shopify/Product/8382640128063",
+  "title": "MELA MIZO Back to Wall Bath",
+  "status": "update",
+  "bc": [
+   "mela-mizo-free-standing-bath-1500mm",
+   "mela-mizo-free-standing-bath-1700mm"
+  ],
+  "old": "<p>MELA MIZO Back to Wall Bath.</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1500mm (MIZO.1500.3): 1500(L) × 750(W) × 580(H) mm</li>\n<li>1700mm (MIZO.1700.3): 1700(L) × 800(W) × 580(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA MIZO"
+  }
+ },
+ {
+  "handle": "mela-nook-corner-bath-right",
+  "id": "gid://shopify/Product/8382640160831",
+  "title": "MELA NOOK Corner Bath (Right)",
+  "status": "update",
+  "bc": [
+   "mela-nook-1300-free-standing-bath-right-corner",
+   "mela-nook-1500-free-standing-bath-right-corner",
+   "copy-of-mela-nook-1700-free-standing-bath-right-corner"
+  ],
+  "old": "<p>MELA NOOK Corner Bath (Right).</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1300mm (NOOK.1300R.3): 1300(L) × 750(W) × 580(H) mm</li>\n<li>1500mm (NOOK.1500R.3): 1500(L) × 750(W) × 580(H) mm</li>\n<li>1700mm (NOOK.1700R.3): 1700(L) × 800(W) × 580(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA NOOK"
+  }
+ },
+ {
+  "handle": "mela-nook-corner-bath-left",
+  "id": "gid://shopify/Product/8382640193599",
+  "title": "MELA NOOK Corner Bath (Left)",
+  "status": "update",
+  "bc": [
+   "mela-nook-1300-free-standing-bath-left-corner",
+   "mela-nook-1500-free-standing-bath-left-corner",
+   "copy-of-mela-nook-1700-free-standing-bath-left-corner"
+  ],
+  "old": "<p>MELA NOOK Corner Bath (Left).</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Product dimensions</h4><ul>\n<li>1300mm (NOOK.1300L.3): 1300(L) × 750(W) × 580(H) mm</li>\n<li>1500mm (NOOK.1500L.3): 1500(L) × 750(W) × 580(H) mm</li>\n<li>1700mm (NOOK.1700L.3): 1700(L) × 800(W) × 580(H) mm</li>\n</ul><p>These are product measurements. Packed carton dimensions and weights require supplier confirmation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA NOOK"
+  }
+ },
+ {
+  "handle": "mela-kasten-inset-bath",
+  "id": "gid://shopify/Product/8382640226367",
+  "title": "MELA KASTEN Inset Bath",
+  "status": "update",
+  "bc": [
+   "mela-kasten-1525-insert-bath",
+   "mela-kasten-1675-insert-bath"
+  ],
+  "old": "<p>MELA KASTEN Inset Bath.</p><ul>\n<li>Material: Acrylic</li>\n<li>Colour: White</li>\n<li>Manufacturing tolerance: +/- 10mm</li>\n</ul><h4>Available sizes</h4><p>1525mm, 1675mm. These are model size labels; confirm full product dimensions before installation.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 1525(L) × 765(W) × 400(H)mm (1525mm)</li><li><strong>Dimensions:</strong> 1675(L) × 765(W) × 400(H)mm (1675mm)</li><li><strong>Waste:</strong> 40mm (No overflow)</li></ul>",
+  "metafields": {
+   "material": "Acrylic",
+   "range": "MELA KASTEN"
+  }
+ },
+ {
+  "handle": "mela-morris-frameless-shower-panel",
+  "id": "gid://shopify/Product/8382640619583",
+  "title": "MELA MORRIS Frameless Shower Panel",
+  "status": "update",
+  "bc": [
+   "mela-frameless-shower-panel-600mm",
+   "mela-frameless-shower-panel-700mm",
+   "mela-frameless-shower-panel-800mm",
+   "mela-frameless-shower-panel-900mm",
+   "mela-frameless-shower-panel-1000mm",
+   "mela-frameless-shower-panel-1200mm"
+  ],
+  "old": "<p>MELA MORRIS Frameless Shower Panel.</p><ul>\n<li>Easy to mount</li>\n<li>Suits tiled floors</li>\n<li>Fully reversible screen</li>\n<li>Screen height: 2000mm</li>\n<li>10mm toughened safety glass</li>\n<li>Includes 3 brackets</li>\n</ul><p>Optional bracket finishes are sold separately.</p><h4>Panel sizes</h4><p>600 x 2000mm, 700 x 2000mm, 800 x 2000mm, 895 x 2000mm, 995 x 2000mm, 895 x 2000mm Curved, 995 x 2000mm Curved, 1095 x 2000mm, 1195 x 2000mm. Glass thickness: 10 mm. Curved variants are identified above.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> 10mm Clear Toughened Glass</li><li><strong>Hardware:</strong> Chrome Plated Brass</li><li>Package includes (600 x 2000mm): 1 x 600mm Shower Panel; 3 x Chrome U Brackets; * Optional extra (Aluminum U Channel); * Optional extra (Support Bar)</li><li>Package includes (700 x 2000mm): 1 x 700mm Shower Panel; 3 x Chrome U Brackets; * Optional extra (Aluminum U Channel); * Optional extra (Support Bar)</li><li>Package includes (800 x 2000mm): 1 x 800mm Shower Panel; 3 x Chrome U Brackets; * Optional extra (Aluminum U Channel); * Optional extra (Support Bar)</li><li>Package includes (895 x 2000mm): 1 x 895mm Shower Panel; 3 x Chrome U Brackets; * Optional extra (Aluminum U Channel); * Optional extra (Support Bar)</li><li>Package includes (995 x 2000mm): 1 x 995mm Shower Panel; 3 x Chrome U Brackets; * Optional extra (Aluminum U Channel); * Optional extra (Support Bar)</li><li>Package includes (1195 x 2000mm): 1 x 1195mm Shower Panel; 3 x Chrome U Brackets; * Optional extra (Aluminum U Channel); * Optional extra (Support Bar)</li></ul>",
+  "metafields": {
+   "material": "10mm Clear Toughened Glass",
+   "range": "MELA MORRIS"
+  }
+ },
+ {
+  "handle": "mela-morris-frameless-corner-shower-screen",
+  "id": "gid://shopify/Product/8382640685119",
+  "title": "MELA MORRIS Frameless Corner Shower Screen",
+  "status": "update",
+  "bc": [
+   "mela-morris-900x900mm-frameless-corner-shower-screen",
+   "mela-morris-900x1000mm-frameless-corner-shower-screen",
+   "mela-morris-900x1200mm-frameless-corner-shower-screen",
+   "mela-morris-1000x1000mm-frameless-corner-shower-screen",
+   "mela-morris-1000x1200mm-frameless-corner-shower-screen"
+  ],
+  "old": "<p>MELA MORRIS Frameless Corner Shower Screen.</p><ul>\n<li>Screen height: 2000mm</li>\n<li>10mm toughened safety glass</li>\n<li>Fully reversible screen</li>\n<li>Easy to mount and suitable for tiled floors</li>\n<li>Includes 2 shower door hinges, 1 round handle and 6 U-brackets</li>\n</ul><p>Optional fitting finishes are sold separately.</p><h4>Screen sizes</h4><p>900 x 900mm, 900 x 1000mm, 900 x 1200mm, 1000 x 1000mm, 1000 x 1200mm, 1200 x 1200mm. Height: 2000 mm; glass thickness: 10 mm. Confirm the layout and number of panels for delivery.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> 10mm Clear Toughened Glass</li><li><strong>Hardware:</strong> Chrome Plated Brass</li><li>Package includes (900 x 900mm): 1 x 895mm Shower Panel; 1 x 327mm Nib Panel; 1 x 650mm Door Panel; 2 x Shower Door Hinges; 6 x Chrome U Brackets; 1 x Door Magnet PVC Strip; 1 x Waterproof PVC Strip; 1 x Chrome Door Handle; * Optional extra (Aluminum U Channel)</li><li>Package includes (900 x 1000mm): 1 x 895mm Shower Panel or 995mm Shower Panel; 1 x 327mm Nib Panel or 227mm Nib Panel; 1 x 650mm Door Panel; 2 x Shower Door Hinges; 6 x Chrome U Brackets; 1 x Door Magnet PVC Strip; 1 x Waterproof PVC Strip; 1 x Chrome Door Handle; * Optional extra (Aluminum U Channel)</li><li>Package includes (900 x 1200mm): 1 x 895mm Shower Panel or 1195mm Shower Panel; 1 x 527mm Nib Panel or 227mm Nib Panel; 1 x 650mm Door Panel; 2 x Shower Door Hinges; 6 x Chrome U Brackets; 1 x Door Magnet PVC Strip; 1 x Waterproof PVC Strip; 1 x Chrome Door Handle; * Optional extra (Aluminum U Channel)</li><li>Package includes (1000 x 1000mm): 1 x 995mm Shower Panel; 1 x 327mm Nib Panel; 1 x 650mm Door Panel; 2 x Shower Door Hinges; 6 x Chrome U Brackets; 1 x Door Magnet PVC Strip; 1 x Waterproof PVC Strip; 1 x Chrome Door Handle; * Optional extra (Aluminum U Channel)</li><li>Package includes (1000 x 1200mm): 1 x 995mm Shower Panel or 1195mm Shower Panel; 1 x 527mm Nib Panel or 327mm Nib Panel; 1 x 650mm Door Panel; 2 x Shower Door Hinges; 6 x Chrome U Brackets; 1 x Door Magnet PVC Strip; 1 x Waterproof PVC Strip; 1 x Chrome Door Handle; * Optional extra (Aluminum U Channel)</li></ul>",
+  "metafields": {
+   "material": "10mm Clear Toughened Glass",
+   "range": "MELA MORRIS"
+  }
+ },
+ {
+  "handle": "mela-triton-380-single-sink",
+  "id": "gid://shopify/Product/8382640783423",
+  "title": "MELA TRITON 380 Single Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-380s-stainless-steel-kitchen-sink",
+   "mela-triton-380s-stainless-steel-sink-black"
+  ],
+  "old": "<p>The MELA TRITON 380S is a single-bowl stainless steel sink for kitchen or laundry use.</p><ul>\n<li>Bowl dimensions: 380 mm long × 440 mm wide × 230 mm deep</li>\n<li>Material: stainless steel</li>\n<li>Finishes: Stainless Steel or Black</li>\n<li>Models: TRITON.380S and TRITON.380S.BK</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Installation:</strong> Top Mount or Under Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-450-single-sink",
+  "id": "gid://shopify/Product/8382640816191",
+  "title": "MELA TRITON 450 Single Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-450s-stainless-steel-kitchen-laundry-sink-single",
+   "mela-triton-450s-stainless-steel-sink-black"
+  ],
+  "old": "<p>The MELA TRITON 450 is a handmade single bowl stainless steel sink for kitchen and laundry fit-outs. Suits builders and renovators after a clean, simple single sink.</p><ul>\n<li>\n<strong>Range:</strong> MELA TRITON</li>\n<li>\n<strong>Model:</strong> 450 Single</li>\n<li>\n<strong>Material:</strong> Stainless steel</li>\n<li>\n<strong>Construction:</strong> Handmade</li>\n<li>\n<strong>Bowl:</strong> Single</li>\n<li>\n<strong>Finishes available:</strong> Stainless Steel, Black</li>\n<li>\n<strong>Codes:</strong> TRITON.450S (Stainless Steel), TRITON.450S.BK (Black)</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 450(L) × 440(W) × 230(D)mm</li><li><strong>Installation:</strong> Top Mount or Under Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-550-single-sink",
+  "id": "gid://shopify/Product/8382640848959",
+  "title": "MELA TRITON 550 Single Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-550s-stainless-steel-kitchen-laundry-sink-single"
+  ],
+  "old": "<p>MELA TRITON 550 single bowl kitchen sink, handmade in stainless steel, for kitchen fit-outs and renovations.</p><ul>\n<li>Range: MELA TRITON</li>\n<li>\n<strong>Configuration:</strong> Single bowl</li>\n<li>\n<strong>Construction:</strong> Handmade stainless steel</li>\n<li>\n<strong>Finishes available:</strong> Stainless Steel (TRITON.550S) and Black (TRITON.550S.BK)</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 550(L) × 440(W) × 230(D)mm</li><li><strong>Installation:</strong> Top Mount or Under Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-770-double-sink",
+  "id": "gid://shopify/Product/8382640914495",
+  "title": "MELA TRITON 770 Double Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-770d-stainless-steel-kitchen-laundry-sink-double"
+  ],
+  "old": "<p>The MELA TRITON 770 is a handmade stainless steel double bowl kitchen sink, suited to kitchen renovations and new builds.</p><ul>\n<li>Range: MELA TRITON</li>\n<li>Model: 770 Double</li>\n<li>Bowls: Double</li>\n<li>Material: Stainless steel</li>\n<li>Construction: Handmade</li>\n<li>Code: TRITON.7700D</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 770(L) × 440(W) × 230(D)mm</li><li><strong>Installation:</strong> Top Mount or Under Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-35l-sink",
+  "id": "gid://shopify/Product/8382640980031",
+  "title": "MELA TRITON 35L Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-35l-polish-stainless-steel-sink"
+  ],
+  "old": "<p>The MELA TRITON 35L is a polished stainless steel sink for kitchen and utility installations.</p><ul>\n<li>\n<strong>Range:</strong> MELA TRITON</li>\n<li>\n<strong>Model:</strong> 35L</li>\n<li>\n<strong>Material:</strong> Stainless steel</li>\n<li>\n<strong>Finish:</strong> Polished</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 450(L) × 400(W)mm</li><li><strong>Installation:</strong> Top Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-45l-sink",
+  "id": "gid://shopify/Product/8382641012799",
+  "title": "MELA TRITON 45L Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-45l-polish-stainless-steel-sink"
+  ],
+  "old": "<p>The MELA TRITON 45L is a polished stainless steel sink for kitchen and laundry installations. A practical choice for renovations and new builds.</p><ul>\n<li>\n<strong>Range:</strong> MELA TRITON</li>\n<li>\n<strong>Model:</strong> 45L</li>\n<li>\n<strong>Material:</strong> Stainless steel</li>\n<li>\n<strong>Finish:</strong> Polished</li>\n<li>\n<strong>Code:</strong> TRITON.45L</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 600(L) × 500(W)mm</li><li><strong>Installation:</strong> Top Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-765-single-sink",
+  "id": "gid://shopify/Product/8382641045567",
+  "title": "MELA TRITON 765 Single Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-765-polish-stainless-steel-sink-with-drainer"
+  ],
+  "old": "<p>MELA TRITON 765 single bowl kitchen sink with an attached drainer, for kitchens and laundries where draining space is wanted beside the bowl.</p><ul>\n<li>Range: MELA TRITON</li>\n<li>\n<strong>Configuration:</strong> Single bowl with drainer</li>\n<li>\n<strong>Material:</strong> Stainless steel</li>\n<li>\n<strong>Finish:</strong> Polished</li>\n<li>\n<strong>Code:</strong> TRITON.765S</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 765(L) × 480(W)mm</li><li><strong>Installation:</strong> Top Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-1080-double-sink",
+  "id": "gid://shopify/Product/8382641078335",
+  "title": "MELA TRITON 1080 Double Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-1080-polish-stainless-steel-sink-with-drainer"
+  ],
+  "old": "<p>The MELA TRITON 1080 is a polished stainless steel double bowl kitchen sink with a drainer, suited to kitchen renovations and new builds.</p><ul>\n<li>Range: MELA TRITON</li>\n<li>Model: 1080 Double</li>\n<li>Bowls: Double, with drainer</li>\n<li>Material: Stainless steel</li>\n<li>Finish: Polished</li>\n<li>Code: TRITON.1080D</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 1080(L) × 480(W) × ?(D)mm</li><li><strong>Installation:</strong> Top Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-triton-1200-double-sink",
+  "id": "gid://shopify/Product/8382641143871",
+  "title": "MELA TRITON 1200 Double Sink",
+  "status": "update",
+  "bc": [
+   "mela-triton-1200-polish-stainless-steel-sink-with-drainer"
+  ],
+  "old": "<p>The MELA TRITON 1200 is a double-bowl polished stainless steel kitchen sink with a built-in drainer for draining dishes beside the bowls.</p><ul>\n<li>\n<strong>Range:</strong> MELA TRITON</li>\n<li>\n<strong>Model:</strong> 1200 Double</li>\n<li>\n<strong>Bowls:</strong> Double, with drainer</li>\n<li>\n<strong>Material:</strong> Stainless steel</li>\n<li>\n<strong>Finish:</strong> Polished</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 1200(L) × 480(W)mm</li><li><strong>Installation:</strong> Top Mount</li></ul>",
+  "metafields": {
+   "material": "Stainless Steel",
+   "range": "MELA TRITON"
+  }
+ },
+ {
+  "handle": "mela-calla-rimless-toilet-suite",
+  "id": "gid://shopify/Product/8382641274943",
+  "title": "MELA CALLA Rimless Toilet Suite",
+  "status": "update",
+  "bc": [
+   "mela-calla-rimless-toilet-suite"
+  ],
+  "old": "<p>MELA CALLA Rimless Toilet Suite.</p><ul>\n<li>Dimensions: 355(W) x 610(D) x 815(H) mm</li>\n<li>Material: Vitreous China</li>\n<li>Colour: White</li>\n<li>WELS: 4 Stars</li>\n<li>Type &amp; mount: Wall Faced</li>\n<li>Seat: Premium quick release soft close thermoset seat</li>\n<li>Trap type: Universal S or P Trap</li>\n<li>S Trap: 75-170mm</li>\n<li>P Trap: 180mm</li>\n<li>Water inlet: Bottom inlet reversible left or right; rear entry top left</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 345(W) × 610(D) × 815(H)mm</li><li><strong>WELS rating:</strong> WELS (4 Stars): 4.6L Full Flush/3L Half Flush/3.5L Average Flush</li><li><strong>WELS registration:</strong> L06535</li><li>The Calla Rimless Toilet features the latest rimless flushing system, with water reaching every part of the bowl to ensure it is completely clean.</li></ul>",
+  "metafields": {
+   "material": "Vitreous China",
+   "wels_rating": "WELS (4 Stars): 4.6L Full Flush/3L Half Flush/3.5L Average Flush",
+   "wels_registration": "L06535",
+   "width_mm": 345,
+   "depth_mm": 610,
+   "height_mm": 815,
+   "range": "MELA CALLA"
+  }
+ },
+ {
+  "handle": "mela-passa-rimless-toilet-suite-extra-height",
+  "id": "gid://shopify/Product/8382641340479",
+  "title": "MELA PASSA Rimless Toilet Suite Extra Height",
+  "status": "update",
+  "bc": [
+   "mela-passa-rimless-extra-height-toilet-suite"
+  ],
+  "old": "<p>MELA PASSA Rimless Toilet Suite - Extra Height.</p><ul>\n<li>Dimensions: 620mm(D) x 385mm(W) x 855mm(H)</li>\n<li>WELS rating: 4 Stars - 4.5L Full Flush and 3L Half Flush</li>\n<li>Type &amp; mount: Wall Faced</li>\n<li>Material: Virteous China</li>\n<li>Toilet seat: Premium quick release soft close thermos seat</li>\n<li>Trap type: Universal S or P Trap (S: 75-180mm, P: 180mm)</li>\n<li>Water inlet: Bottom inlet (reversible left or right); rear entry (Top left)</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 365(W) × 620(D) × 855(H)mm</li><li><strong>Material:</strong> Vitreous China</li><li><strong>Colour:</strong> White</li><li><strong>WELS registration:</strong> L1383</li><li>The Passa Rimless Toilet features extra height and the latest rimless flushing system, with water reaching every part of the bowl to ensure it is completely clean.</li></ul>",
+  "metafields": {
+   "material": "Vitreous China",
+   "wels_rating": "WELS (4 Stars): 4.5L Full Flush/3L Half Flush/3.5L Average Flush",
+   "wels_registration": "L1383",
+   "width_mm": 365,
+   "depth_mm": 620,
+   "height_mm": 855,
+   "range": "MELA PASSA"
+  }
+ },
+ {
+  "handle": "mela-ellis-whirlpool-toilet-suite",
+  "id": "gid://shopify/Product/8382641373247",
+  "title": "MELA ELLIS Whirlpool Toilet Suite",
+  "status": "update",
+  "bc": [
+   "mela-ellis-whirlpool-toilet-suite"
+  ],
+  "old": "<p>MELA ELLIS Whirlpool Toilet Suite.</p><ul>\n<li>Dimensions: 370(W) x 610(D) x 835(H)mm</li>\n<li>Material: Vitreous China</li>\n<li>Colour: White</li>\n<li>WELS: 4 Stars — 4.5L full flush / 3L half flush / 3.5L average flush</li>\n<li>WELS registration: L04710</li>\n<li>Type &amp; mount: Wall Faced</li>\n<li>Seat: Premium quick release soft close thermoset seat</li>\n<li>Trap type: Universal S or P Trap</li>\n<li>S Trap: 60-220mm</li>\n<li>P Trap: 180mm</li>\n<li>Water inlet: Bottom inlet reversible left or right; rear entry top left</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>The Ellis toilet features the latest whirlpool flushing system, with water reaching every part of the bowl to ensure it is completely clean.</li></ul>",
+  "metafields": {
+   "material": "Vitreous China",
+   "wels_rating": "WELS (4 Stars): 4.5L Full Flush/3L Half Flush/3.5L Average Flush",
+   "wels_registration": "L04710",
+   "width_mm": 370,
+   "depth_mm": 610,
+   "height_mm": 835,
+   "range": "MELA ELLIS"
+  }
+ },
+ {
+  "handle": "mela-felli-whirlpool-toilet-suite",
+  "id": "gid://shopify/Product/8382641406015",
+  "title": "MELA FELLI Whirlpool Toilet Suite",
+  "status": "update",
+  "bc": [
+   "mela-felli-whirlpool-toilet-suite"
+  ],
+  "old": "<p>MELA FELLI Whirlpool Toilet Suite.</p><ul>\n<li>Dimensions: 370(W) x 610(D) x 835(H) mm</li>\n<li>Material: Vitreous China</li>\n<li>Colour: White</li>\n<li>WELS: 4 Stars — 4.5L full flush / 3L half flush / 3.5L average flush</li>\n<li>WELS registration: L04710</li>\n<li>Type &amp; mount: Wall Faced</li>\n<li>Seat: Premium quick release soft close thermoset seat</li>\n<li>Trap type: Universal S or P Trap</li>\n<li>S Trap: 60-220mm</li>\n<li>P Trap: 180mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 360(W) × 610(D) × 835(H)mm</li><li><strong>Bottom inlet:</strong> reversible left or right</li><li><strong>Rear entry:</strong> top left</li><li>The Felli Toilet features the latest whirlpool flushing system, with water reaching every part of the bowl to ensure it is completely clean.</li></ul>",
+  "metafields": {
+   "material": "Vitreous China",
+   "wels_rating": "WELS (4 Stars): 4.5L Full Flush/3L Half Flush/3.5L Average Flush",
+   "wels_registration": "L04710",
+   "width_mm": 360,
+   "depth_mm": 610,
+   "height_mm": 835,
+   "range": "MELA FELLI"
+  }
+ },
+ {
+  "handle": "mela-elvas-whirlpool-toilet-suite-extra-height",
+  "id": "gid://shopify/Product/8382641471551",
+  "title": "MELA ELVAS Whirlpool Toilet Suite Extra Height",
+  "status": "update",
+  "bc": [
+   "mela-elvas-toilet-suite-extra-height"
+  ],
+  "old": "<p>MELA ELVAS Whirlpool Toilet Suite - Extra Height.</p><ul>\n<li>Dimensions: 660mm(D) x 370mm(W) x 855mm(H)</li>\n<li>WELS rating: 4 Stars - 4.5L Full Flush and 3L Half Flush</li>\n<li>Type &amp; mount: Wall Faced</li>\n<li>Material: Vitreous China</li>\n<li>Toilet seat: Premium quick release soft close thermos seat</li>\n<li>Trap type: Universal S or P Trap (S: 60-220mm, P: 180mm)</li>\n<li>Water inlet: Bottom inlet (reversible left or right); rear entry (top left)</li>\n</ul><p>Browse more <a href=\"/collections/wall-faced-toilets\">wall-faced toilets</a> or explore our <a href=\"/collections/toilets\">toilet suites</a>.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Colour:</strong> White</li><li><strong>WELS registration:</strong> L04711</li><li>The Elvas Whirlpool Rimless Toilet features extra height and the latest single hole flushing system, with water reaching every part of the bowl to ensure it is completely clean.</li></ul>",
+  "metafields": {
+   "material": "Vitreous China",
+   "wels_rating": "WELS (4 Stars): 4.5L Full Flush/3L Half Flush/3.4L Average Flush",
+   "wels_registration": "L04711",
+   "width_mm": 370,
+   "depth_mm": 660,
+   "height_mm": 855,
+   "range": "MELA ELVAS"
+  }
+ },
+ {
+  "handle": "mela-ellis-rimless-wall-face-cistern-toilet",
+  "id": "gid://shopify/Product/8382641504319",
+  "title": "MELA ELLIS Wall Faced Rimless Toilet Suite",
+  "status": "update",
+  "bc": [
+   "mela-ellis-wall-face-rimless-toilet-suite"
+  ],
+  "old": "<p>MELA ELLIS Wall Faced Rimless Toilet Suite with concealed in-wall cistern design and rimless flushing.</p><ul>\n<li>\n<strong>Model:</strong> KIT.ELLIS.Wall Face Suite</li>\n<li>\n<strong>Dimensions:</strong> 360(W) x 560(D) x 420(H) mm</li>\n<li>\n<strong>Material:</strong> Vitreous china</li>\n<li>\n<strong>Colour:</strong> White</li>\n<li>\n<strong>WELS:</strong> 4 Stars – 4.5L full flush / 3L half flush / 3.5L average flush</li>\n<li>\n<strong>WELS registration:</strong> L07982</li>\n<li>\n<strong>Type &amp; mount:</strong> Wall faced, concealed cistern</li>\n<li>\n<strong>Seat:</strong> Premium quick-release soft-close thermoset seat</li>\n<li>\n<strong>Trap:</strong> Universal S or P trap</li>\n<li>\n<strong>S-trap set-out:</strong> 75–120mm</li>\n<li>\n<strong>P-trap set-out:</strong> 180mm</li>\n</ul><p>Confirm plumbing compatibility and installation requirements with your plumber before purchase. Available from Excellent Tiling Services in Maddington, Perth.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>S trap:</strong> 75-120mm</li><li>The Ellis Wall Face Toilet features the latest rimless flushing system, with water reaching every part of the bowl to ensure it is completely clean. Designed with a hidden cistern, the Ellis is sleek and minimal.</li></ul>",
+  "metafields": {
+   "material": "Vitreous China",
+   "wels_rating": "WELS (4 Stars): 4.5L Full Flush/3L Half Flush/3.5L Average Flush",
+   "wels_registration": "L07982",
+   "width_mm": 360,
+   "depth_mm": 560,
+   "height_mm": 420,
+   "range": "MELA ELLIS"
+  }
+ },
+ {
+  "handle": "mela-felli-rimless-wall-face-cistern-toilet",
+  "id": "gid://shopify/Product/8382641537087",
+  "title": "MELA FELLI Wall Faced Rimless Toilet Suite",
+  "status": "update",
+  "bc": [
+   "mela-felli-rimless-toilet-suite"
+  ],
+  "old": "<p>MELA FELLI Wall Faced Rimless Toilet Suite with concealed in-wall cistern design and rimless flushing.</p><ul>\n<li>\n<strong>Model:</strong> KIT.FELLI.Wall Face Suite</li>\n<li>\n<strong>Dimensions:</strong> 365(W) x 580(D) x 400(H) mm</li>\n<li>\n<strong>Material:</strong> Vitreous china</li>\n<li>\n<strong>Colour:</strong> White</li>\n<li>\n<strong>WELS:</strong> 4 Stars – 4.5L full flush / 3L half flush / 3.5L average flush</li>\n<li>\n<strong>WELS registration:</strong> L07983</li>\n<li>\n<strong>Type &amp; mount:</strong> Wall faced, concealed cistern</li>\n<li>\n<strong>Seat:</strong> Premium quick-release soft-close thermoset seat</li>\n<li>\n<strong>Trap:</strong> Universal S or P trap</li>\n<li>\n<strong>S-trap set-out:</strong> 80–110mm</li>\n<li>\n<strong>P-trap set-out:</strong> 180mm</li>\n</ul><p>Confirm plumbing compatibility and installation requirements with your plumber before purchase. Available from Excellent Tiling Services in Maddington, Perth.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>S trap:</strong> 80-110mm</li><li>The Felli Wall Face Toilet features the latest rimless flushing system, with water reaching every part of the bowl to ensure it is completely clean. Designed with a hidden cistern, the Felli is sleek and minimal.</li></ul>",
+  "metafields": {
+   "material": "Vitreous China",
+   "wels_rating": "WELS (4 Stars): 4.5L Full Flush/3L Half Flush/3.5L Average Flush",
+   "wels_registration": "L07983",
+   "width_mm": 365,
+   "depth_mm": 580,
+   "height_mm": 400,
+   "range": "MELA FELLI"
+  }
+ },
+ {
+  "handle": "mela-morris-shower-screen-u-bracket",
+  "id": "gid://shopify/Product/8382641963071",
+  "title": "MELA MORRIS Shower Screen U Bracket",
+  "status": "update",
+  "bc": [
+   "mela-shower-screen-u-brackets-chrome",
+   "mela-shower-panel-u-brackets-black-x3-option-set",
+   "mela-shower-screen-u-brackets-brushed-nickel",
+   "mela-shower-panel-u-brackets-gun-metal-x3-option-set",
+   "mela-shower-panel-u-brackets-brushed-brass-x3-option-set"
+  ],
+  "old": "<p>MELA MORRIS Shower Screen U Bracket.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 50.2(W) × 26(H) × 12.3(T)mm</li></ul>",
+  "metafields": {
+   "height_mm": 26,
+   "range": "MELA MORRIS"
+  }
+ },
+ {
+  "handle": "mela-morris-shower-screen-l-bracket",
+  "id": "gid://shopify/Product/8382641995839",
+  "title": "MELA MORRIS Shower Screen L Bracket",
+  "status": "update",
+  "bc": [
+   "mela-shower-screen-l-brackets-chrome",
+   "mela-shower-screen-l-brackets-matt-black",
+   "mela-shower-screen-l-brackets-brushed-nickel",
+   "mela-shower-screen-l-brackets-gun-metal",
+   "mela-shower-screen-l-brackets-brushed-brass"
+  ],
+  "old": "<p>MELA MORRIS Shower Screen L Bracket.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 50.2(W) × 24(H) × 43(D)mm</li></ul>",
+  "metafields": {
+   "height_mm": 24,
+   "depth_mm": 43,
+   "range": "MELA MORRIS"
+  }
+ },
+ {
+  "handle": "mela-morris-shower-screen-hinge",
+  "id": "gid://shopify/Product/8382642061375",
+  "title": "MELA MORRIS Shower Screen Hinge",
+  "status": "update",
+  "bc": [
+   "mela-shower-screen-hinge-chrome",
+   "mela-shower-screen-hinge-black",
+   "mela-shower-screen-hinge-brushed-nickel",
+   "mela-shower-screen-hinge-gun-metal",
+   "mela-shower-screen-hinge-brushed-brass"
+  ],
+  "old": "<p>MELA MORRIS Shower Screen Hinge.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal, Brushed Brass and Brushed Copper.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 90(W) × 55(H) × 5(T)mm</li></ul>",
+  "metafields": {
+   "width_mm": 90,
+   "height_mm": 55,
+   "range": "MELA MORRIS"
+  }
+ },
+ {
+  "handle": "mela-morris-shower-screen-u-channel-2000",
+  "id": "gid://shopify/Product/8382642094143",
+  "title": "MELA MORRIS Shower Screen U Channel 2000",
+  "status": "update",
+  "bc": [
+   "mela-shower-screen-u-channel-chrome",
+   "mela-shower-screen-u-channel-matt-black",
+   "mela-shower-screen-u-channel-brushed-nickel",
+   "mela-shower-screen-u-channel-gun-metal",
+   "mela-shower-screen-u-channel-brushed-brass"
+  ],
+  "old": "<p>MELA MORRIS Shower Screen U Channel 2000.</p><p>Available in Chrome, Matt Black, Brushed Nickel, Gun Metal and Brushed Brass.</p>",
+  "add": "",
+  "metafields": {
+   "width_mm": 2000,
+   "range": "MELA MORRIS"
+  }
+ },
+ {
+  "handle": "mela-porter-mirror-cabinet",
+  "title": "MELA PORTER Mirror Cabinet",
+  "status": "nothing-new",
+  "bc": [
+   "mela-porter-600-snafell-mirror-cabinet-with-doors",
+   "mela-porter-600-walnut-mirror-cabinet-with-doors",
+   "mela-porter-600-gloss-white-mirror-cabinet-with-doors",
+   "mela-porter-750-snafell-mirror-cabinet-with-doors",
+   "mela-porter-750-walnut-mirror-cabinet-with-doors",
+   "mela-porter-750-gloss-white-mirror-cabinet-with-doors",
+   "mela-porter-900-snafell-mirror-cabinet-with-doors",
+   "mela-porter-900-walnut-mirror-cabinet-with-doors",
+   "mela-porter-900-gloss-white-mirror-cabinet-with-doors",
+   "mela-porter-1200-snafell-mirror-cabinet-with-doors",
+   "mela-porter-1200-walnut-mirror-cabinet-with-doors",
+   "mela-porter-1200-gloss-white-mirror-cabinet-with-doors"
+  ]
+ },
+ {
+  "handle": "mela-mia-450-frameless-oval-mirror",
+  "title": "MELA MIA 450 Frameless Oval Mirror",
+  "status": "nothing-new",
+  "bc": [
+   "mela-mia-450-oval-mirror"
+  ]
+ },
+ {
+  "handle": "mela-mia-450-framed-oval-mirror",
+  "title": "MELA MIA 450 Framed Oval Mirror",
+  "status": "nothing-new",
+  "bc": [
+   "copy-of-mela-mia-450-oval-mirror-with-black-frame",
+   "mela-mia-450-oval-mirror-with-brushed-brass-frame",
+   "mela-mia-450-oval-mirror-with-gun-metal-frame"
+  ]
+ },
+ {
+  "handle": "mela-mia-450-led-oval-mirror",
+  "id": "gid://shopify/Product/8382645370943",
+  "title": "MELA MIA 450 LED Oval Mirror",
+  "status": "update",
+  "bc": [
+   "mela-mia-450-oval-mirror-with-led"
+  ],
+  "old": "<p>The MELA MIA 450 LED oval mirror is a tall pill-shaped mirror with a backlit LED halo, touch dimmer and anti-fog demister. It suits a single vanity, powder room or ensuite where wall width is tight.</p><ul>\n<li>\n<strong>Size:</strong> 450 mm wide × 900 mm high (MIA.450.LED)</li>\n<li>\n<strong>Shape:</strong> Vertical oval (pill) with a slim acrylic frame</li>\n<li>\n<strong>Mirror:</strong> 5 mm copper-free mirror, anti-fog</li>\n<li>\n<strong>Light:</strong> Backlit LED halo around the full edge of the mirror, giving even, shadow-free light at the vanity</li>\n<li>\n<strong>Light colour:</strong> Cool white (single colour), dimmable</li>\n<li>\n<strong>Control:</strong> Touch button on the mirror face for on/off and brightness (dimmable)</li>\n<li>\n<strong>Anti-fog:</strong> Built-in demister pad keeps the centre of the mirror clear after a hot shower</li>\n<li>\n<strong>Power:</strong> 220–240 V, plug-in or hard-wired; hard-wiring must be done by a licensed electrician</li>\n<li>\n<strong>Rating:</strong> IP44 splash protection, SAA approved</li>\n<li>\n<strong>Mounting:</strong> Wall-mounted on the supplied brackets</li>\n<li>\n<strong>Warranty:</strong> 3 years on the mirror (MELA)</li>\n<li>\n<strong>Care:</strong> Clean with 30% methylated spirits in water on a soft cloth. No Windex-type glass cleaners, bleach, ammonia or abrasives, and keep water off the back and edges</li>\n</ul><p>Pairs with the MELA MIA 450 frameless and framed oval mirrors and the MIA 450 oval mirror cabinet.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Installation:</strong> Plugin / Hardwire</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-mia-450-oval-mirror-cabinet",
+  "title": "MELA MIA 450 Oval Mirror Cabinet",
+  "status": "nothing-new",
+  "bc": [
+   "mela-mia-450-oval-mirror-cabinet"
+  ]
+ },
+ {
+  "handle": "mela-suri-frameless-round-mirror",
+  "title": "MELA SURI Frameless Round Mirror",
+  "status": "nothing-new",
+  "bc": [
+   "mela-suri-700-round-mirror",
+   "mela-suri-800-round-mirror",
+   "mela-suri-900-round-mirror"
+  ]
+ },
+ {
+  "handle": "mela-suri-framed-round-mirror",
+  "title": "MELA SURI Framed Round Mirror",
+  "status": "unmatched"
+ },
+ {
+  "handle": "mela-suri-led-round-mirror",
+  "id": "gid://shopify/Product/8382645665855",
+  "title": "MELA SURI LED Round Mirror",
+  "status": "update",
+  "bc": [
+   "mela-suri-700-round-mirror-with-led",
+   "mela-suri-800-round-mirror-with-led",
+   "mela-suri-900-round-mirror-with-led"
+  ],
+  "old": "<p>The MELA SURI LED round mirror is a frameless round bathroom mirror with a backlit LED halo, touch dimmer and anti-fog demister. Four diameters cover a powder room up to a double vanity.</p><ul>\n<li>\n<strong>Sizes:</strong> 600 mm (SURI.600.LED), 700 mm (SURI.700R.LED), 800 mm (SURI.800R.LED) and 900 mm (SURI.900R.LED) diameter</li>\n<li>\n<strong>Shape:</strong> Round, frameless with a polished edge</li>\n<li>\n<strong>Light:</strong> Backlit LED halo around the full edge of the mirror, giving even, shadow-free light at the vanity</li>\n<li>\n<strong>Light colour:</strong> Cool white (single colour), dimmable</li>\n<li>\n<strong>Control:</strong> Touch button on the mirror face for on/off and brightness (dimmable)</li>\n<li>\n<strong>Anti-fog:</strong> Built-in demister pad keeps the centre of the mirror clear after a hot shower</li>\n<li>\n<strong>Power:</strong> 220–240 V, plug-in or hard-wired; hard-wiring must be done by a licensed electrician</li>\n<li>\n<strong>Rating:</strong> IP44 splash protection, SAA approved</li>\n<li>\n<strong>Mounting:</strong> Wall-mounted on the supplied brackets</li>\n<li>\n<strong>Warranty:</strong> 3 years on the mirror (MELA)</li>\n<li>\n<strong>Care:</strong> Clean with 30% methylated spirits in water on a soft cloth. No Windex-type glass cleaners, bleach, ammonia or abrasives, and keep water off the back and edges</li>\n</ul><p>Pairs with the MELA SURI frameless and framed round mirrors and the SURI 800 round mirror cabinet.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Installation:</strong> Plugin / Hardwire</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-suri-800-round-mirror-cabinet",
+  "title": "MELA SURI 800 Round Mirror Cabinet",
+  "status": "nothing-new",
+  "bc": [
+   "mela-suri-800-round-mirror-cabinet"
+  ]
+ },
+ {
+  "handle": "mela-vera-oval-mirror-cabinet",
+  "title": "MELA VERA Oval Mirror Cabinet",
+  "status": "nothing-new",
+  "bc": [
+   "mela-vera-900-horizontal-oval-mirror-cabinet",
+   "mela-vera-1200-horizontal-oval-mirror-cabinet"
+  ]
+ },
+ {
+  "handle": "mela-vera-oval-mirror",
+  "title": "MELA VERA Oval Mirror",
+  "status": "nothing-new",
+  "bc": [
+   "mela-vera-900-horizontal-oval-mirror-copy",
+   "mela-vera-1200-horizontal-oval-mirror"
+  ]
+ },
+ {
+  "handle": "mela-vera-led-oval-mirror",
+  "id": "gid://shopify/Product/8382645829695",
+  "title": "MELA VERA LED Oval Mirror",
+  "status": "update",
+  "bc": [
+   "mela-vera-900-led-horizontal-oval-mirror",
+   "mela-vera-1200-led-horizontal-oval-mirror"
+  ],
+  "old": "<p>The MELA VERA LED horizontal oval mirror runs a soft LED halo around the full edge of a wide, frameless oval. The 900 suits a single vanity and the 1200 a double vanity.</p><ul>\n<li>\n<strong>Sizes:</strong> 900 mm wide × 600 mm high (VERA.900.LED) and 1200 mm wide × 750 mm high (VERA.1200.LED)</li>\n<li>\n<strong>Shape:</strong> Horizontal oval, frameless with a polished edge</li>\n<li>\n<strong>Light:</strong> Backlit LED halo around the full edge of the mirror, giving even, shadow-free light at the vanity</li>\n<li>\n<strong>Light colour:</strong> Cool white (single colour), dimmable</li>\n<li>\n<strong>Control:</strong> Touch button on the mirror face for on/off and brightness (dimmable)</li>\n<li>\n<strong>Anti-fog:</strong> Built-in demister pad keeps the centre of the mirror clear after a hot shower</li>\n<li>\n<strong>Power:</strong> 220–240 V, plug-in or hard-wired; hard-wiring must be done by a licensed electrician</li>\n<li>\n<strong>Rating:</strong> IP44 splash protection, SAA approved</li>\n<li>\n<strong>Mounting:</strong> Wall-mounted on the supplied brackets</li>\n<li>\n<strong>Warranty:</strong> 3 years on the mirror (MELA)</li>\n<li>\n<strong>Care:</strong> Clean with 30% methylated spirits in water on a soft cloth. No Windex-type glass cleaners, bleach, ammonia or abrasives, and keep water off the back and edges</li>\n</ul><p>Pairs with the MELA VERA plain oval mirror and the VERA oval mirror cabinet.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Installation:</strong> Plugin / Hardwire</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-vina-plain-mirror",
+  "title": "MELA VINA Plain Mirror",
+  "status": "nothing-new",
+  "bc": [
+   "mela-vina-1200-plain-mirror-polished-edge",
+   "mela-vina-1500-plain-mirror-polished-edge",
+   "mela-vina-1800-plain-mirror-polished-edge"
+  ]
+ },
+ {
+  "handle": "mela-zoe-600-frameless-arch-mirror",
+  "title": "MELA ZOE 600 Frameless Arch Mirror",
+  "status": "nothing-new",
+  "bc": [
+   "mela-zoe-600-arch-mirror"
+  ]
+ },
+ {
+  "handle": "mela-zoe-600-framed-arch-mirror",
+  "title": "MELA ZOE 600 Framed Arch Mirror",
+  "status": "nothing-new",
+  "bc": [
+   "mela-zoe-600-arch-mirror-with-matt-blackframe",
+   "mela-zoe-600-arch-mirror-with-gun-metal-frame",
+   "copy-of-copy-of-mela-zoe-600-arch-mirror-brushed-brass-frame"
+  ]
+ },
+ {
+  "handle": "mela-zoe-600-led-arch-mirror",
+  "id": "gid://shopify/Product/8382646222911",
+  "title": "MELA ZOE 600 LED Arch Mirror",
+  "status": "update",
+  "bc": [
+   "copy-of-mela-zoe-600-arch-mirror-with-led"
+  ],
+  "old": "<p>The MELA ZOE 600 LED arch mirror traces an LED halo around a frameless arch, with a touch dimmer and anti-fog demister. It gives a single vanity or powder room height without a frame.</p><ul>\n<li>\n<strong>Size:</strong> 600 mm wide × 900 mm high (ZOE.600.LED), 300 mm arch radius</li>\n<li>\n<strong>Shape:</strong> Arch, frameless with a polished edge</li>\n<li>\n<strong>Light:</strong> Backlit LED halo around the full edge of the mirror, giving even, shadow-free light at the vanity</li>\n<li>\n<strong>Light colour:</strong> Three settings: warm white, natural white and cool white, switched from the touch button; dimmable</li>\n<li>\n<strong>Control:</strong> Touch button on the mirror face for on/off and brightness (dimmable)</li>\n<li>\n<strong>Anti-fog:</strong> Built-in demister pad keeps the centre of the mirror clear after a hot shower</li>\n<li>\n<strong>Power:</strong> 220–240 V, plug-in or hard-wired; hard-wiring must be done by a licensed electrician</li>\n<li>\n<strong>Rating:</strong> IP44 splash protection, SAA approved</li>\n<li>\n<strong>Mounting:</strong> Wall-mounted on the supplied brackets</li>\n<li>\n<strong>Warranty:</strong> 3 years on the mirror (MELA)</li>\n<li>\n<strong>Care:</strong> Clean with 30% methylated spirits in water on a soft cloth. No Windex-type glass cleaners, bleach, ammonia or abrasives, and keep water off the back and edges</li>\n</ul><p>Pairs with the MELA ZOE 600 frameless and framed arch mirrors and the ZOE 600 arch mirror cabinet.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Installation:</strong> Plugin / Hardwire</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-zoe-600-arch-mirror-cabinet",
+  "title": "MELA ZOE 600 Arch Mirror Cabinet",
+  "status": "nothing-new",
+  "bc": [
+   "copy-of-mela-zoe-600-arch-mirror-cabinet"
+  ]
+ },
+ {
+  "handle": "mela-ava-above-counter-basin",
+  "id": "gid://shopify/Product/8382648778815",
+  "title": "MELA AVA Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-ava-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA AVA above counter basin.</p><ul>\n<li>Model: AVA.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 405(W) x 330(D) x 140(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-arch-above-counter-basin",
+  "id": "gid://shopify/Product/8382648844351",
+  "title": "MELA ARCH Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-arch-above-counter-basin"
+  ],
+  "old": "<p>MELA ARCH above counter basin.</p><ul>\n<li>Model: ARCH.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Approx. dimensions: 415(W) x 365(D) x 100(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-baylee-above-counter-basin",
+  "id": "gid://shopify/Product/8382648877119",
+  "title": "MELA BAYLEE Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-baylee-above-counter-vanity-basin"
+  ],
+  "old": "<p>The MELA BAYLEE above counter basin has a soft rectangular shape with rounded corners for a modern bathroom vanity.</p><ul>\n<li>Dimensions: 455 mm wide × 325 mm deep × 135 mm high</li>\n<li>Material: ceramic</li>\n<li>Finishes: Gloss White, Matt Black, Matt White</li>\n<li>Above counter installation; pair with a suitable tall mixer or wall tap</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-bella-above-counter-basin",
+  "id": "gid://shopify/Product/8382649434175",
+  "title": "MELA BELLA Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-bella-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA BELLA above counter basin.</p><ul>\n<li>Model: BELLA.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 590(W) x 405(D) x 145(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-brando-above-counter-basin",
+  "id": "gid://shopify/Product/8382651269183",
+  "title": "MELA BRANDO Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-brando-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA BRANDO above counter basin.</p><ul>\n<li>Model: BRANDO.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 415(W) x 415(D) x 135(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-cento-above-counter-basin",
+  "id": "gid://shopify/Product/8382652678207",
+  "title": "MELA CENTO Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-cento-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA CENTO above counter basin.</p><ul>\n<li>Model: CENTO.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 615(W) x 360(D) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> 615(W) × 360(D) × 155(H)mm</li><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 615,
+   "depth_mm": 360,
+   "height_mm": 155,
+   "range": "MELA CENTO"
+  }
+ },
+ {
+  "handle": "mela-costa-above-counter-basin",
+  "id": "gid://shopify/Product/8382654021695",
+  "title": "MELA COSTA Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-costa-above-counter-basin"
+  ],
+  "old": "<p>MELA COSTA above counter basin.</p><ul>\n<li>Model: COSTA.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 394(W) x 394(D) x 115(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 394,
+   "depth_mm": 394,
+   "height_mm": 115,
+   "range": "MELA COSTA"
+  }
+ },
+ {
+  "handle": "mela-daisy-above-counter-basin",
+  "id": "gid://shopify/Product/8382655660095",
+  "title": "MELA DAISY Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-daisy-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA DAISY above counter basin.</p><ul>\n<li>Model: DAISY.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 390(W) x 390(D) x 120(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 390,
+   "depth_mm": 390,
+   "height_mm": 120,
+   "range": "MELA DAISY"
+  }
+ },
+ {
+  "handle": "mela-davisson-above-counter-basin",
+  "id": "gid://shopify/Product/8382658412607",
+  "title": "MELA DAVISSON Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-davisson-matte-black-above-counter-basin-1",
+   "mela-davisson-matt-white-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA DAVISSON above counter basin.</p><ul>\n<li>Material: Ceramic</li>\n<li>Dimensions: 385(W) x 385(D) x 120(H) mm</li>\n<li>Available in White, Matt Black and Matt White</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 385,
+   "depth_mm": 385,
+   "height_mm": 120,
+   "range": "MELA DAVISSON"
+  }
+ },
+ {
+  "handle": "mela-faro-above-counter-basin",
+  "id": "gid://shopify/Product/8382659821631",
+  "title": "MELA FARO Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-faro-above-counter-top-basin"
+  ],
+  "old": "<p>MELA FARO above counter basin.</p><ul>\n<li>Model: FARO.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 415(W) x 415(D) x 145(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 415,
+   "depth_mm": 415,
+   "height_mm": 145,
+   "range": "MELA FARO"
+  }
+ },
+ {
+  "handle": "mela-kiva-above-counter-basin",
+  "id": "gid://shopify/Product/8382662475839",
+  "title": "MELA KIVA Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-kiva-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA KIVA above counter basin.</p><ul>\n<li>Model: KIVA.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 500(W) x 390(D) x 130(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 500,
+   "depth_mm": 390,
+   "height_mm": 130,
+   "range": "MELA KIVA"
+  }
+ },
+ {
+  "handle": "mela-marcie-440-above-counter-basin",
+  "id": "gid://shopify/Product/8382663458879",
+  "title": "MELA MARCIE 440 Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-marcie-440-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA MARCIE 440 above counter basin.</p><ul>\n<li>Model: MARCIE.ABOVE.440</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 440(W) x 440(D) x 100(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 440,
+   "depth_mm": 440,
+   "height_mm": 100,
+   "range": "MELA MARCIE"
+  }
+ },
+ {
+  "handle": "mela-paula-above-counter-basin",
+  "id": "gid://shopify/Product/8382664147007",
+  "title": "MELA PAULA Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-paula-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA PAULA above counter basin.</p><ul>\n<li>Model: PAULA.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 525(W) x 300(D) x 115(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 525,
+   "depth_mm": 300,
+   "height_mm": 115,
+   "range": "MELA PAULA"
+  }
+ },
+ {
+  "handle": "mela-petal-above-counter-basin",
+  "id": "gid://shopify/Product/8382664343615",
+  "title": "MELA PETAL Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-petal-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA PETAL above counter basin.</p><ul>\n<li>Model: PETAL.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 540(W) x 425(D) x 137(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 540,
+   "depth_mm": 425,
+   "height_mm": 137,
+   "range": "MELA PETAL"
+  }
+ },
+ {
+  "handle": "mela-viva-above-counter-basin",
+  "id": "gid://shopify/Product/8382664441919",
+  "title": "MELA VIVA Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-viva-above-counter-vanity-basin"
+  ],
+  "old": "<p>MELA VIVA above counter basin.</p><ul>\n<li>Model: VIVA.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 385(W) x 385(D) x 135(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 385,
+   "depth_mm": 385,
+   "height_mm": 135,
+   "range": "MELA VIVA"
+  }
+ },
+ {
+  "handle": "mela-nuie-above-counter-basin",
+  "id": "gid://shopify/Product/8382664474687",
+  "title": "MELA NUIE Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-nuie-above-counter-basin-1"
+  ],
+  "old": "<p>MELA NUIE above counter basin.</p><ul>\n<li>Model: NUIE.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Approx. dimensions: 410(W) x 410(D) x 100(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 410,
+   "depth_mm": 410,
+   "height_mm": 100,
+   "range": "MELA NUIE"
+  }
+ },
+ {
+  "handle": "mela-ovali-above-counter-basin",
+  "id": "gid://shopify/Product/8382664507455",
+  "title": "MELA OVALI Above Counter Basin",
+  "status": "update",
+  "bc": [
+   "mela-ovalli-above-counter-basin"
+  ],
+  "old": "<p>MELA OVALI above counter basin.</p><ul>\n<li>Model: OVALI.ABOVE</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 580(W) x 360(D) x 100(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 580,
+   "depth_mm": 360,
+   "height_mm": 100,
+   "range": "MELA OVALI"
+  }
+ },
+ {
+  "handle": "mela-debba-half-inset-basin",
+  "id": "gid://shopify/Product/8382664572991",
+  "title": "MELA DEBBA Half Inset Basin",
+  "status": "update",
+  "bc": [
+   "mela-debba-half-inset-vanity-basin",
+   "mela-debba-half-inset-basin-matt-white"
+  ],
+  "old": "<p>MELA DEBBA half inset basin.</p><ul>\n<li>Material: Ceramic</li>\n<li>Dimensions: 515(W) x 340(D) x 155(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Colours:</strong> Gloss White, Matt White</li><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 515,
+   "depth_mm": 340,
+   "height_mm": 155,
+   "range": "MELA DEBBA"
+  }
+ },
+ {
+  "handle": "mela-selva-half-inset-basin",
+  "id": "gid://shopify/Product/8382664638527",
+  "title": "MELA SELVA Half Inset Basin",
+  "status": "update",
+  "bc": [
+   "mela-selva-half-inset-vanity-basin",
+   "mela-selva-half-inset-basin-matt-white",
+   "mela-selva-matt-black-half-inset-basin"
+  ],
+  "old": "<p>MELA SELVA half inset basin.</p><ul>\n<li>Material: Ceramic</li>\n<li>Dimensions: 400(W) x 400(D) x 110(H) mm</li>\n<li>Available in White, Matt White and Matt Black</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 400,
+   "depth_mm": 400,
+   "height_mm": 110,
+   "range": "MELA SELVA"
+  }
+ },
+ {
+  "handle": "mela-zone-semi-basin",
+  "id": "gid://shopify/Product/8382664671295",
+  "title": "MELA ZONE Semi Basin",
+  "status": "update",
+  "bc": [
+   "mela-zone-semi-recessed-vanity-basin"
+  ],
+  "old": "<p>MELA ZONE semi basin.</p><ul>\n<li>Model: ZONE.SEMI</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 410(W) x 410(D) x 140(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 410,
+   "depth_mm": 410,
+   "height_mm": 140,
+   "range": "MELA ZONE"
+  }
+ },
+ {
+  "handle": "mela-aspra-undermount-basin",
+  "id": "gid://shopify/Product/8382664704063",
+  "title": "MELA ASPRA Undermount Basin",
+  "status": "update",
+  "bc": [
+   "mela-aspra-undermount-vanity-basin"
+  ],
+  "old": "<p>MELA ASPRA undermount basin.</p><ul>\n<li>Model: ASPRA.UNDER</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 455(W) x 325(D) x 190(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {}
+ },
+ {
+  "handle": "mela-myra-inset-basin",
+  "id": "gid://shopify/Product/8382664736831",
+  "title": "MELA MYRA Inset Basin",
+  "status": "update",
+  "bc": [
+   "mela-myra-inset-vanity-basin"
+  ],
+  "old": "<p>MELA MYRA inset basin.</p><ul>\n<li>Model: MYRA.INSET</li>\n<li>Material: Ceramic</li>\n<li>Colour: White</li>\n<li>Dimensions: 415(W) x 415(D) x 170(H) mm</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li>Ceramic products, specifications must allow +/- 10 mm tolerance for manufacturing variance, it is recommended to use measurements of the actual product received.</li></ul>",
+  "metafields": {
+   "material": "Ceramic",
+   "width_mm": 415,
+   "depth_mm": 415,
+   "height_mm": 170,
+   "range": "MELA MYRA"
+  }
+ },
+ {
+  "handle": "mela-clark-600-wall-hung-vanity-with-doors",
+  "id": "gid://shopify/Product/8382665785407",
+  "title": "MELA CLARK 600 Wall Hung Vanity with Doors",
+  "status": "update",
+  "bc": [
+   "mela-clark-600-gloss-white-wall-hung-vanity-with-2-doors"
+  ],
+  "old": "<p>MELA CLARK 600 wall hung vanity with doors, from the MELA CLARK vanity collection.</p><ul>\n<li>Gloss White only</li>\n<li>595mm wall hung cabinet with 2 doors</li>\n<li>600mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Wall hung cabinet dimensions: 595(W) x 455(D) x 650(H) mm</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Package includes: 1 x 595mm Gloss White Wall Hung Cabinet with 2 Doors; 1 x 600mm Pearl White Stone Top or Snafell Laminate Top; 1 x Gloss White Ceramic Basin (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-600-wall-hung-vanity-with-2-drawers",
+  "id": "gid://shopify/Product/8382665818175",
+  "title": "MELA CLARK 600 Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-clark-600-gloss-white-wall-hung-vanity-with-2-drawers"
+  ],
+  "old": "<p>MELA CLARK 600 wall hung vanity with two drawers.</p><ul>\n<li>595mm wall hung cabinet</li>\n<li>600mm Pearl White 20mm stone top</li>\n<li>Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n</ul><p>Kickboard, stone cutting, tapware and waste are not included.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 595(W) × 455(D) × 650(H)mm Freestanding - 595(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-750-wall-hung-vanity-with-doors",
+  "id": "gid://shopify/Product/8382665883711",
+  "title": "MELA CLARK 750 Wall Hung Vanity with Doors",
+  "status": "update",
+  "bc": [
+   "mela-clark-750-gloss-white-wall-hung-vanity-with-2-doors",
+   "mela-clark-750-snafell-wall-hung-vanity-with-2-doors",
+   "mela-clark-750-walnut-wall-hung-vanity-with-2-doors",
+   "mela-clark-750-sorrento-oak-wall-hung-vanity-with-2-doors"
+  ],
+  "old": "<p>MELA CLARK 750 wall hung vanity with doors.</p><ul>\n<li>745mm wall hung cabinet with doors</li>\n<li>750mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 745(W) × 455(D) × 650(H)mm Freestanding - 745(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-750-wall-hung-vanity-with-2-drawers",
+  "id": "gid://shopify/Product/8382665916479",
+  "title": "MELA CLARK 750 Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-clark-750-sorrento-oak-wall-hung-vanity-with-2-drawers"
+  ],
+  "old": "<p>MELA CLARK 750 wall hung vanity with 2 drawers.</p><ul>\n<li>745mm wall hung cabinet with 2 drawers</li>\n<li>750mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 745(W) × 455(D) × 650(H)mm Freestanding - 745(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-900-wall-hung-vanity-with-2-drawers",
+  "id": "gid://shopify/Product/8382665949247",
+  "title": "MELA CLARK 900 Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-clark-900-gloss-white-wall-hung-vanity-with-2-drawers",
+   "mela-clark-900-snafell-wall-hung-vanity-with-2-drawers",
+   "mela-clark-900-walnut-wall-hung-vanity-with-2-drawers",
+   "mela-clark-900-sorrento-oak-wall-hung-vanity-with-2-drawers"
+  ],
+  "old": "<p>MELA CLARK 900 wall hung vanity with 2 drawers.</p><ul>\n<li>895mm wall hung cabinet with 2 drawers</li>\n<li>900mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 895(W) × 455(D) × 650(H)mm Freestanding - 895(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-900-wall-hung-vanity-with-2-drawers-side-shelves",
+  "id": "gid://shopify/Product/8382666014783",
+  "title": "MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Side Shelves",
+  "status": "update",
+  "bc": [
+   "mela-clark-900-gloss-white-wall-hung-vanity-with-2-drawers",
+   "mela-clark-900-snafell-wall-hung-vanity-with-2-drawers",
+   "mela-clark-900-walnut-wall-hung-vanity-with-2-drawers",
+   "mela-clark-900-sorrento-oak-wall-hung-vanity-with-2-drawers"
+  ],
+  "old": "<p>MELA CLARK 900 modular wall hung vanity with 2 drawers and open side shelves.</p><ul>\n<li>1 x CLARK 600 cabinet</li>\n<li>1 x CLARK 300 open shelf module</li>\n<li>900mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 895(W) × 455(D) × 650(H)mm Freestanding - 895(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1050-wall-hung-vanity-with-2-drawers-side-shelves",
+  "id": "gid://shopify/Product/8382666047551",
+  "title": "MELA CLARK 1050 Wall Hung Vanity with 2 Drawers & Side Shelves",
+  "status": "update",
+  "bc": [
+   "mela-clark-1050-gloss-white-wall-hung-vanity-2-drawers-open-shelves",
+   "mela-clark-1050-snafell-wall-hung-vanity-2-drawers-and-open-shelves",
+   "mela-clark-1050-walnut-wall-hung-vanity-2-drawers-and-open-shelves",
+   "mela-clark-1050-sorrento-oak-wall-hung-vanity-2-drawers-open-shelves"
+  ],
+  "old": "<p>MELA CLARK 1050 modular wall hung vanity with 2 drawers and open side shelves.</p><ul>\n<li>1 x CLARK 750 cabinet</li>\n<li>1 x CLARK 300 open shelf module</li>\n<li>1050mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1040(W) × 455(D) × 650(H)mm Freestanding - 1040(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Package includes (Snafell): 1 x 745mm Snafell Wall Hung Cabinet with 2 Drawers; 1 x 295mm Snafell Open Shelf Unit (left or right); 1 x 1050mm Pearl White Stone Top; 1 x Gloss White Ceramic Basin (choice of 20)</li><li>Package includes (Walnut): 1 x 745mm Walnut Wall Hung Cabinet with 2 Drawers; 1 x 295mm Walnut Open Shelf Unit (left or right); 1 x 1050mm Pearl White Stone Top; 1 x Gloss White Ceramic Basin (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1200-wall-hung-vanity-with-drawers",
+  "id": "gid://shopify/Product/8382666080319",
+  "title": "MELA CLARK 1200 Wall Hung Vanity with Drawers",
+  "status": "update",
+  "bc": [
+   "mela-clark-1200-gloss-white-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1200-snafell-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1200-walnut-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1200-sorrento-oak-wall-hung-vanity-with-4-drawers"
+  ],
+  "old": "<p>MELA CLARK 1200 wall hung vanity with drawers.</p><ul>\n<li>1190mm wall hung cabinet</li>\n<li>1200mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1190(W) × 455(D) × 650(H)mm Freestanding - 1190(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1200-wall-hung-vanity-with-2-drawers-single-side-shelves",
+  "title": "MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Single Side Shelves",
+  "status": "unmatched"
+ },
+ {
+  "handle": "mela-clark-1200-wall-hung-vanity-with-2-drawers-dual-side-shelves",
+  "title": "MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Dual Side Shelves",
+  "status": "unmatched"
+ },
+ {
+  "handle": "mela-clark-1500-wall-hung-vanity-with-2-drawers-dual-side-shelves",
+  "title": "MELA CLARK 1500 Wall Hung Vanity with 2 Drawers & Dual Side Shelves",
+  "status": "unmatched"
+ },
+ {
+  "handle": "mela-clark-1500-double-wall-hung-vanity-with-doors",
+  "id": "gid://shopify/Product/8382666276927",
+  "title": "MELA CLARK 1500 Double Wall Hung Vanity with Doors",
+  "status": "update",
+  "bc": [
+   "mela-clark-1500-gloss-white-wall-hung-vanity-doors-drawers",
+   "mela-clark-1500-snafell-wall-hung-vanity-with-4-doors",
+   "mela-clark-1500-walnut-wall-hung-vanity-with-4-doors",
+   "mela-clark-1500-sorrento-oak-wall-hung-vanity-doors-drawers"
+  ],
+  "old": "<p>MELA CLARK 1500 double wall hung vanity with doors.</p><ul>\n<li>2 x CLARK 750 cabinets with doors</li>\n<li>1500mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul><p><strong>Shipping:</strong> Available across Australia and to selected international destinations by freight quote. Final freight availability and cost depend on destination and are confirmed before dispatch.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1490(W) × 455(D) × 650(H)mm Freestanding - 1490(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1500-double-wall-hung-vanity-with-doors-drawers",
+  "id": "gid://shopify/Product/8382666309695",
+  "title": "MELA CLARK 1500 Double Wall Hung Vanity with Doors & Drawers",
+  "status": "update",
+  "bc": [
+   "mela-clark-1500-gloss-white-wall-hung-vanity-doors-drawers",
+   "mela-clark-1500-snafell-wall-hung-vanity-with-doors-drawers",
+   "mela-clark-1500-walnut-wall-hung-vanity-with-doors-drawers",
+   "mela-clark-1500-sorrento-oak-wall-hung-vanity-doors-drawers"
+  ],
+  "old": "<p>MELA CLARK 1500 double wall hung vanity combining door and drawer storage.</p><ul>\n<li>2 x CLARK 750 cabinet modules</li>\n<li>1500mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1490(W) × 455(D) × 650(H)mm Freestanding - 1490(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Package includes (Gloss White): 1 x 745mm Gloss White Wall Hung Cabinet with 2 Doors; 1 x 745mm Gloss White Wall Hung Cabinet with 2 Drawers; 1 x 1500mm Pearl White Stone Top or Snafell Laminate Top; 2 x Gloss White Ceramic Basins (choice of 20)</li><li>Package includes (Snafell): 1 x 745mm Snafell Wall Hung Cabinet with 2 Doors; 1 x 745mm Snafell Wall Hung Cabinet with 2 Drawers; 1 x 1500mm Pearl White Stone Top or Snafell Laminate Top; 2 x Gloss White Ceramic Basins (choice of 20)</li><li>Package includes (Walnut): 1 x 745mm Walnut Wall Hung Cabinet with 2 Doors; 1 x 745mm Walnut Wall Hung Cabinet with 2 Drawers; 1 x 1500mm Pearl White Stone Top; 2 x Gloss White Ceramic Basins (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1500-double-wall-hung-vanity-with-drawers",
+  "id": "gid://shopify/Product/8382666375231",
+  "title": "MELA CLARK 1500 Double Wall Hung Vanity with Drawers",
+  "status": "update",
+  "bc": [
+   "mela-clark-1500-gloss-white-wall-hung-vanity-doors-drawers",
+   "mela-clark-1500-snafell-wall-hung-vanity-with-doors-drawers",
+   "mela-clark-1500-walnut-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1500-sorrento-oak-wall-hung-vanity-doors-drawers"
+  ],
+  "old": "<p>MELA CLARK 1500 double wall hung vanity with drawer storage.</p><ul>\n<li>2 x CLARK 750 drawer cabinets</li>\n<li>1500mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1490(W) × 455(D) × 650(H)mm Freestanding - 1490(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1500-double-wall-hung-vanity-with-4-drawers-centre-shelves",
+  "id": "gid://shopify/Product/8382666440767",
+  "title": "MELA CLARK 1500 Double Wall Hung Vanity with 4 Drawers & Centre Shelves",
+  "status": "update",
+  "bc": [
+   "mela-clark-1500-gloss-white-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1500-snafell-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1500-walnut-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1500-sorrento-oak-wall-hung-vanity-with-4-drawers"
+  ],
+  "old": "<p>MELA CLARK 1500 modular double wall hung vanity with four drawers and a central open shelf module.</p><ul>\n<li>2 x CLARK 600 drawer cabinet modules</li>\n<li>1 x CLARK 300 open shelf module</li>\n<li>1500mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1490(W) × 455(D) × 650(H)mm Freestanding - 1490(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1800-double-wall-hung-vanity-with-4-drawers",
+  "id": "gid://shopify/Product/8382666506303",
+  "title": "MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-clark-1800-gloss-white-wall-hung-vanity-4-drawers-open-shelves"
+  ],
+  "old": "<p>MELA CLARK 1800 double wall hung vanity with four drawers.</p><ul>\n<li>2 x CLARK 900 drawer cabinet modules</li>\n<li>1800mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1785(W) × 455(D) × 650(H)mm Freestanding - 1785(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Package includes: 2 x 745mm Gloss White Wall Hung Cabinet with 2 Drawers; 2 x 295mm Gloss White Open Shelf Units; 1 x 1800mm Pearl White Stone Top or Snafell Laminate Top; 2 x Gloss White Ceramic Basins (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-1800-double-wall-hung-vanity-with-4-drawers-centre-shelves",
+  "id": "gid://shopify/Product/8382666604607",
+  "title": "MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers & Centre Shelves",
+  "status": "update",
+  "bc": [
+   "mela-clark-1800-gloss-white-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1800-snafell-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1800-walnut-wall-hung-vanity-with-4-drawers",
+   "mela-clark-1800-sorrento-oak-wall-hung-vanity-4-drawers-open-shelves"
+  ],
+  "old": "<p>MELA CLARK 1800 modular double wall hung vanity with four drawers and central open shelves.</p><ul>\n<li>2 x CLARK 750 drawer cabinet modules</li>\n<li>1 x CLARK 300 open shelf module</li>\n<li>1800mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1790(W) × 455(D) × 650(H)mm Freestanding - 1790(W) × 455(D) × 850(H)mm (Gloss White, Snafell, Walnut)</li><li><strong>Dimensions:</strong> Wall Hung - 1785(W) × 455(D) × 650(H)mm Freestanding - 1785(W) × 455(D) × 850(H)mm (Sorrento Oak)</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li><li>Our modular Clark cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-clark-400-wall-hung-tallboy",
+  "id": "gid://shopify/Product/8382666768447",
+  "title": "MELA CLARK 400 Wall Hung Tallboy",
+  "status": "update",
+  "bc": [
+   "mela-clark-400-gloss-white-wall-hung-tallboy",
+   "mela-clark-400-snafell-wall-hung-tallboy",
+   "mela-clark-400-walnut-wall-hung-tallboy",
+   "mela-clark-400-sorrento-oak-wall-hung-tallboy"
+  ],
+  "old": "<p>MELA CLARK 400 wall hung tallboy cabinet.</p><ul>\n<li>Wall hung bathroom storage</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 400(W) × 455(D) × 1800(H)mm Freestanding - 400(W) × 455(D) × 2000(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC hardware</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA CLARK"
+  }
+ },
+ {
+  "handle": "mela-paddy-750-wall-hung-vanity",
+  "id": "gid://shopify/Product/8382668243007",
+  "title": "MELA PADDY 750 Wall Hung Vanity",
+  "status": "update",
+  "bc": [
+   "mela-paddy-750-gloss-white-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-750-snafell-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-750-walnut-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-750-sorrento-oak-wall-hung-vanity-with-door-and-drawers"
+  ],
+  "old": "<p>MELA PADDY 750 wall hung vanity with cupboard and two drawers.</p><ul>\n<li>745mm wall hung cabinet with doors and drawers</li>\n<li>750mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Approx. wall hung dimensions: 745(W) x 455(D) x 650(H) mm</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC Hardware</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA PADDY"
+  }
+ },
+ {
+  "handle": "mela-paddy-900-wall-hung-vanity",
+  "id": "gid://shopify/Product/8382668275775",
+  "title": "MELA PADDY 900 Wall Hung Vanity",
+  "status": "update",
+  "bc": [
+   "mela-paddy-900-gloss-white-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-900-snafell-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-900-walnut-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-900-sorrento-oak-wall-hung-vanity-with-door-and-drawers"
+  ],
+  "old": "<p>MELA PADDY 900 wall hung vanity with cupboard and drawer storage.</p><ul>\n<li>900mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 895(W) × 455(D) × 650(H)mm Freestanding - 895(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC Hardware</li><li>Package includes (Snafell): 1 x 895mm Snafell Wall Hung Cabinet with Door and 2 Drawers; 1 x 900mm Pearl White Stone Top; 1 x Gloss White Ceramic Basin (choice of 20)</li><li>Package includes (Walnut): 1 x 895mm Walnut Wall Hung Cabinet with Door and 2 Drawers; 1 x 900mm Pearl White Stone Top; 1 x Gloss White Ceramic Basin (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA PADDY"
+  }
+ },
+ {
+  "handle": "mela-paddy-1200-wall-hung-vanity",
+  "id": "gid://shopify/Product/8382668341311",
+  "title": "MELA PADDY 1200 Wall Hung Vanity",
+  "status": "update",
+  "bc": [
+   "mela-paddy-1200-gloss-white-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1200-snafell-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1200-walnut-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1200-sorrento-oak-wall-hung-vanity-with-door-and-drawers"
+  ],
+  "old": "<p>MELA PADDY 1200 wall hung vanity with cupboard and drawer storage.</p><ul>\n<li>1200mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1190(W) × 455(D) × 650(H)mm Freestanding - 1190(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC Hardware</li><li>Package includes (Snafell): 1 x 1190mm Snafell Wall Hung Cabinet with Door and 2 Drawers; 1 x 1200mm Pearl White Stone Top; 1 x Gloss White Ceramic Basin (choice of 20)</li><li>Package includes (Walnut): 1 x 1190mm Walnut Wall Hung Cabinet with Door and 2 Drawers; 1 x 1200mm Pearl White Stone Top; 1 x Gloss White Ceramic Basin (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA PADDY"
+  }
+ },
+ {
+  "handle": "mela-paddy-1500-double-wall-hung-vanity",
+  "id": "gid://shopify/Product/8382668439615",
+  "title": "MELA PADDY 1500 Double Wall Hung Vanity",
+  "status": "update",
+  "bc": [
+   "mela-paddy-1500-gloss-white-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1500-snafell-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1500-walnut-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1500-sorrento-oak-wall-hung-vanity-with-door-and-drawers"
+  ],
+  "old": "<p>MELA PADDY 1500 double wall hung vanity.</p><ul>\n<li>2 x PADDY 750 cabinet modules</li>\n<li>1500mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1490(W) × 455(D) × 650(H)mm Freestanding - 1490(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC Hardware</li><li>Package includes (Gloss White): 2 x 745mm Gloss White Wall Hung Cabinet with Door and 2 Drawers; 1 x 1500mm Pearl White Stone Top; 2 x Gloss White Ceramic Basin (choice of 20)</li><li>Package includes (Snafell): 2 x 745mm Snafell Wall Hung Cabinet with Door and 2 Drawers; 1 x 1500mm Pearl White Stone Top; 2 x Gloss White Ceramic Basin (choice of 20)</li><li>Package includes (Walnut): 2 x 745mm Walnut Wall Hung Cabinet with Door and 2 Drawers; 1 x 1500mm Pearl White Stone Top; 2 x Gloss White Ceramic Basin (choice of 20)</li><li>Package includes (Sorrento Oak): 2 x 745mm Sorrento Oak Wall Hung Cabinet with Door and 2 Drawers; 1 x 1500mm Pearl White Stone Top; 2 x Gloss White Ceramic Basin (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA PADDY"
+  }
+ },
+ {
+  "handle": "mela-paddy-1800-double-wall-hung-vanity",
+  "id": "gid://shopify/Product/8382668505151",
+  "title": "MELA PADDY 1800 Double Wall Hung Vanity",
+  "status": "update",
+  "bc": [
+   "mela-paddy-1800-gloss-white-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1800-snafell-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1800-walnut-wall-hung-vanity-with-door-and-drawers",
+   "mela-paddy-1800-sorrento-oak-wall-hung-vanity-with-door-and-drawers"
+  ],
+  "old": "<p>MELA PADDY 1800 double wall hung vanity.</p><ul>\n<li>2 x PADDY 900 cabinet modules</li>\n<li>1800mm Pearl White 20mm stone top</li>\n<li>2 Gloss White ceramic basins included</li>\n<li>Available in Gloss White, Snafell, Walnut and Sorrento Oak</li>\n<li>Kickboard, stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1790(W) × 455(D) × 650(H)mm Freestanding - 1790(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Artificial Board and 15mm Backing Board</li><li><strong>Hardware:</strong> Integrated European DTC Hardware</li><li>Package includes (Gloss White): 2 x 895mm Gloss White Wall Hung Cabinet with Door and 2 Drawers; 1 x 1800mm Pearl White Stone Top; 2 x Gloss White Ceramic Basins (choice of 20)</li><li>Package includes (Snafell): 2 x 895mm Snafell Wall Hung Cabinet with Door and 2 Drawers; 1 x 1800mm Pearl White Stone Top; 2 x Gloss White Ceramic Basins (choice of 20)</li><li>Package includes (Walnut): 2 x 895mm Walnut Wall Hung Cabinet with Door and 2 Drawers; 1 x 1800mm Pearl White Stone Top; 2 x Gloss White Ceramic Basins (choice of 20)</li><li>Package includes (Sorrento Oak): 2 x 895mm Sorrento Oak Wall Hung Cabinet with Door and 2 Drawers; 1 x 1800mm Pearl White Stone Top; 2 x Gloss White Ceramic Basins (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Artificial Board and 15mm Backing Board",
+   "range": "MELA PADDY"
+  }
+ },
+ {
+  "handle": "mela-classic-600-matt-white-wall-hung-vanity-with-2-drawers",
+  "id": "gid://shopify/Product/8382668996671",
+  "title": "MELA CLASSIC 600 Matt White Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-hampton-600-matt-white-wall-hung-vanity-with-drawers",
+   "mela-pastel-600-matt-white-wall-hung-vanity-with-drawers",
+   "mela-shaker-600-matt-white-wall-hung-vanity-with-drawers"
+  ],
+  "old": "<p>MELA CLASSIC 600 Matt White wall hung vanity with 2 drawers.</p><ul>\n<li>595mm wall hung cabinet</li>\n<li>Choice of Hampton, Pastel or Shaker front design</li>\n<li>600mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Kickboard, stone cutting, tapware, waste and handles are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 590(W) × 455(D) × 650(H)mm Freestanding - 590(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Medium Density Fiberboard (MDF) and 15mm Backing Board</li><li><strong>Kickboard:</strong> 590(W) × 405(D) × 200(H)mm</li></ul>",
+  "metafields": {
+   "material": "Medium Density Fiberboard (MDF) and 15mm Backing Board",
+   "range": "MELA CLASSIC"
+  }
+ },
+ {
+  "handle": "mela-classic-750-matt-white-wall-hung-vanity-with-2-drawers",
+  "id": "gid://shopify/Product/8382669094975",
+  "title": "MELA CLASSIC 750 Matt White Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-hampton-750-matt-white-wall-hung-vanity-with-drawers",
+   "mela-pastel-750-matt-white-wall-hung-vanity-with-drawers",
+   "mela-shaker-750-matt-white-wall-hung-vanity-with-drawers"
+  ],
+  "old": "<p>MELA CLASSIC 750 Matt White wall hung vanity with 2 drawers.</p><ul>\n<li>Choice of Hampton, Pastel or Shaker front design</li>\n<li>750mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Kickboard, stone cutting, tapware, waste and handles are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 745(W) × 455(D) × 650(H)mm Freestanding - 745(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Medium Density Fiberboard (MDF) and 15mm Backing Board</li><li><strong>Kickboard:</strong> 745(W) × 405(D) × 200(H)mm (Hampton, Pastel)</li><li><strong>Kickboard:</strong> 740(W) × 405(D) × 200(H)mm (Shaker)</li></ul>",
+  "metafields": {
+   "material": "Medium Density Fiberboard (MDF) and 15mm Backing Board",
+   "range": "MELA CLASSIC"
+  }
+ },
+ {
+  "handle": "mela-classic-900-matt-white-wall-hung-vanity-with-2-drawers",
+  "id": "gid://shopify/Product/8382669291583",
+  "title": "MELA CLASSIC 900 Matt White Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-hampton-900-matt-white-wall-hung-vanity-with-drawers",
+   "mela-pastel-900-matt-white-wall-hung-vanity-with-drawers",
+   "mela-shaker-900-matt-white-wall-hung-vanity-with-drawers"
+  ],
+  "old": "<p>MELA CLASSIC 900 Matt White wall hung vanity with 2 drawers.</p><ul>\n<li>Choice of Hampton, Pastel or Shaker front design</li>\n<li>900mm Pearl White 20mm stone top</li>\n<li>1 Gloss White ceramic basin included</li>\n<li>Kickboard, stone cutting, tapware, waste and handles are not included</li>\n</ul><p><strong>Shipping:</strong> Available across Australia and to selected international destinations by freight quote. Final freight availability and cost depend on destination and are confirmed before dispatch.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 895(W) × 455(D) × 650(H)mm Freestanding - 895(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Medium Density Fiberboard (MDF) and 15mm Backing Board</li><li><strong>Kickboard:</strong> 895(W) × 405(D) × 200(H)mm (Hampton, Pastel)</li><li><strong>Kickboard:</strong> 890(W) × 405(D) × 200(H)mm (Shaker)</li></ul>",
+  "metafields": {
+   "material": "Medium Density Fiberboard (MDF) and 15mm Backing Board",
+   "range": "MELA CLASSIC"
+  }
+ },
+ {
+  "handle": "mela-classic-1200-matt-white-wall-hung-vanity-with-2-drawers",
+  "id": "gid://shopify/Product/8382669619263",
+  "title": "MELA CLASSIC 1200 Matt White Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-hampton-1200-matt-white-wall-hung-vanity-with-drawers",
+   "pastel-1200-matt-white-wall-hung-vanity-with-drawers",
+   "mela-shaker-1200-matt-white-wall-hung-vanity-with-drawers"
+  ],
+  "old": "<p>MELA CLASSIC 1200 Matt White wall hung vanity with 2 drawers. Choice of Hampton, Pastel or Shaker front design. Includes Pearl White 20mm stone top and 1 Gloss White ceramic basin. Kickboard, stone cutting, tapware, waste and handles are not included.</p>",
+  "add": "<h4>More details</h4><ul><li><strong>Dimensions:</strong> Wall Hung - 1190(W) × 455(D) × 650(H)mm Freestanding - 1190(W) × 455(D) × 850(H)mm</li><li><strong>Material:</strong> Medium Density Fiberboard (MDF) and 15mm Backing Board</li><li><strong>Kickboard:</strong> 1190(W) × 405(D) × 200(H)mm</li></ul>",
+  "metafields": {
+   "material": "Medium Density Fiberboard (MDF) and 15mm Backing Board",
+   "range": "MELA CLASSIC"
+  }
+ },
+ {
+  "handle": "mela-brittany-600-wall-hung-vanity",
+  "id": "gid://shopify/Product/8386498822207",
+  "title": "MELA BRITTANY 600 Matt White Fluted Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-brittany-600-oak-fluted-wall-hung-vanity-with-2-drawers"
+  ],
+  "old": "<p>MELA BRITTANY 600 Matt White Fluted Wall Hung Vanity with 2 Drawers.</p><ul>\n<li>Model: KIT.BRI.600</li>\n<li>Wall hung dimensions: 590(W) x 455(D) x 550(H) mm</li>\n<li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li>\n<li>Colour: Matt White</li>\n<li>Includes 1 x 590mm Matt White Fluted wall hung cabinet with 2 drawers</li>\n<li>Includes 1 x 600mm stone top</li>\n<li>Includes 1 x Gloss White ceramic basin</li>\n<li>Stone cutting, tapware and waste are not included</li>\n</ul>",
+  "add": "<h4>More details</h4><ul><li><strong>Colour:</strong> Oak</li><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Package includes: 1 x 590mm Oak Fluted Wall Hung Cabinet with 2 Drawers; 1 x 600mm Stone Top (choice of 2); 1 x Gloss White Ceramic Basin (choice of 20)</li></ul>",
+  "metafields": {
+   "material": "Medium Density Fibreboard (MDF) and 15mm Backing Board",
+   "width_mm": 590,
+   "depth_mm": 455,
+   "height_mm": 550
+  }
+ },
+ {
+  "handle": "mela-brittany-1200-single-wall-hung-vanity",
+  "id": "gid://shopify/Product/8386517925951",
+  "title": "MELA BRITTANY 1200 Oak Fluted Curved Wall Hung Vanity with 2 Drawers",
+  "status": "update",
+  "bc": [
+   "mela-brittany-1200-oak-fluted-curved-wall-hung-vanity-drawer"
+  ],
+  "old": "<p>MELA BRITTANY 1200 Oak Fluted Curved Wall-Hung Vanity with 2 Drawers.</p>\n<ul>\n<li>Model: KIT.BRI.1200</li>\n<li>Wall hung dimensions: 1190(W) x 455(D) x 550(H) mm</li>\n<li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li>\n<li>Colour: Oak</li>\n<li>Includes 1 x 890mm Oak fluted wall-hung cabinet with 2 drawers</li>\n<li>Includes 2 x 150mm Matt White Fluted curved cabinet sides</li>\n<li>Includes 1 x 1200mm stone top with curved sides</li>\n<li>Includes 1 x Gloss White ceramic basin</li>\n<li>Stone cutting, tapware and waste are not included</li>\n</ul>\n<p>Browse more <a href=\"/collections/wall-hung-vanities\">wall-hung bathroom vanities</a> or explore our <a href=\"/collections/bathroom-vanities\">bathroom vanity collection</a>.</p>",
+  "add": "<h4>More details</h4><ul><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li></ul>",
+  "metafields": {
+   "material": "Medium Density Fibreboard (MDF) and 15mm Backing Board",
+   "width_mm": 1190,
+   "depth_mm": 455,
+   "height_mm": 550
+  }
+ }
+]

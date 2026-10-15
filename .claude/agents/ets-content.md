@@ -17,8 +17,10 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
 - Feed post = 1 to 4 photo carousel, 1080x1350. Story = one photo, 1080x1920, no text.
   Build with `marketing/finish-it-right/clean/make_slides.py plan.json outdir` (room shots cover-cropped,
   white studio shots fitted on white). Never repeat the same photo twice in one post. Look at every slide.
-- Schedule: 6:30 pm photo post + 7:30 pm Story daily, Instagram + Facebook together. No Reels.
-- Second look, the 12:15 pm "premium" sales post (owner, 12 Oct 2026): one real product photo, a 6 px
+- Schedule (Instagram + Facebook together): 12:15 pm premium sales post, 4:30 pm photo Reel (from 13 Oct,
+  `marketing/finish-it-right/reels/make_reel.py`: store photos only, name and price under the photo, CC0 music),
+  6:30 pm photo carousel, 7:30 pm Story.
+- The 12:15 pm "premium" sales post (owner, 12 Oct 2026): one real product photo, a 6 px
   tile-blue rule, then a navy band with the product name, one benefit line, the live price in blue and a
   "Shop · link in bio" pill. Build with `marketing/finish-it-right/premium/make_premium.py plan.json outdir`
   (`fit: studio` for white studio shots, `cover` for room shots, `zoom` to tighten small products).

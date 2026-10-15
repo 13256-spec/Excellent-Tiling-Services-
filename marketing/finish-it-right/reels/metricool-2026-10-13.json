@@ -1,0 +1,72 @@
+{
+ "note": "Photo Reels booked in Metricool (brand 7234377), Instagram + Facebook REEL, showReelOnFeed, autoPublish. Prices checked live 13 Oct 2026. Copy review: ets-copy-review PASS (tiles as written; vanities fixed to name the CLARK 900 side-shelves model and 'tapware and waste not included').",
+ "posts": {
+  "2026-10-13-reel-tiles": {
+   "time": "2026-10-13T16:30:00+08:00",
+   "metricool_id": 394601250,
+   "uuid": "-3026456293048172038",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-13-tiles.mp4?v=1791867668",
+   "calendar_event": "a6vb4gba7o7n3itdedl3vgvu8o",
+   "caption": "Four porcelain floors, all under $56 a square metre.\nTime Stone Moon from $50.10 · Cement Grey from $37.40 · Lava Ash from $46.70 · Morgan Dusk from $37.40 (per m², sold to the nearest full box).\nPerth metro delivery, or pick up free in Maddington. Showroom by appointment, Mon to Sat 4:30 to 9 pm.\nhttps://excellenttilingservice.com.au/collections/porcelain-tiles\n\n#porcelaintiles #perthtiles #perthrenovation"
+  },
+  "2026-10-13-reel-vanities": {
+   "time": "2026-10-13T20:30:00+08:00",
+   "metricool_id": 394601736,
+   "uuid": "5019418169597119645",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-13-vanities-v2.mp4?v=1791868064",
+   "calendar_event": "l34nk71q98hk7e39ffvgc4or4s",
+   "caption": "Four wall-hung vanities, stone top and basin included.\nMELA PADDY 750 $949 · CLARK 900 with side shelves $1,312 · BRITTANY 600 $1,312 · BRITTANY 1200 $1,994. Tapware and waste not included.\nPick up free in Maddington, or choose Perth metro delivery at checkout.\nhttps://excellenttilingservice.com.au/collections/wall-hung-vanities\n\n#bathroomvanity #wallhungvanity #perthbathrooms"
+  },
+  "2026-10-14-reel-tools": {
+   "time": "2026-10-14T16:30:00+08:00",
+   "metricool_id": 394602303,
+   "uuid": "-1559598622005178888",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-14-tools.mp4?v=1791868064",
+   "calendar_event": "0cieffjnaakvfq16vet5oj6epo",
+   "copy_review": "FIX applied: link /collections/trowels-tiling-tools (no live collection holds all four; spacer and blade are not in it yet), 'mesh' added to blade name"
+  },
+  "2026-10-15-reel-mixers": {
+   "time": "2026-10-15T16:30:00+08:00",
+   "metricool_id": 394602331,
+   "uuid": "2026833219358312243",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-15-mixers.mp4?v=1791868064",
+   "calendar_event": "dacs8qarnkuaknq5qnf67v0pss",
+   "copy_review": "FIX applied: brushed copper added to finishes"
+  },
+  "2026-10-16-reel-floors": {
+   "time": "2026-10-16T16:30:00+08:00",
+   "metricool_id": 394602358,
+   "uuid": "6536445503183538398",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-16-floors.mp4?v=1791868064",
+   "calendar_event": "6ousnlbekg1t8kticqs9ke4sm0",
+   "copy_review": "PASS"
+  },
+  "2026-10-17-reel-mirrors": {
+   "time": "2026-10-17T16:30:00+08:00",
+   "metricool_id": 394602386,
+   "uuid": "2124949507311093495",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-17-mirrors.mp4?v=1791868064",
+   "calendar_event": "n8742h64cmdhj5vv80866n88jg",
+   "copy_review": "FIX applied: no 'from $189' (VINA mirror is $149), range $189 to $664"
+  },
+  "2026-10-18-reel-showers": {
+   "time": "2026-10-18T16:30:00+08:00",
+   "metricool_id": 394602409,
+   "uuid": "-7416535041142141534",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-18-showers.mp4?v=1791868064",
+   "calendar_event": "tips83maiuarc8221ethk50d64",
+   "copy_review": "FIX applied: 'Four shower pieces, $141 to $412', 'without rail' on FLOVA hand shower"
+  },
+  "2026-10-19-reel-vanities": {
+   "time": "2026-10-19T16:30:00+08:00",
+   "metricool_id": 394602435,
+   "uuid": "5750962650919029624",
+   "video": "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-reel-2026-10-19-vanities.mp4?v=1791868064",
+   "calendar_event": "s5udisac419e26audq1qqt2osg",
+   "copy_review": "PASS"
+  }
+ },
+ "price_fix": {
+  "2026-10-18-main CLARK 900": "$1,299.99 -> $1,312 (live price changed); Metricool post updated, new id 394598716, uuid -1897910926236170067"
+ }
+}
