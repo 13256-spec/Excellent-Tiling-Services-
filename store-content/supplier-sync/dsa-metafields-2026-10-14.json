@@ -1,0 +1,1913 @@
+[
+{
+"ownerId": "gid://shopify/Product/8429904986175",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429904986175",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429904986175",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429905018943",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905018943",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429905018943",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429905084479",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905084479",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Caden"
+},
+{
+"ownerId": "gid://shopify/Product/8429905084479",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429905084479",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "610"
+},
+{
+"ownerId": "gid://shopify/Product/8429905084479",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "500"
+},
+{
+"ownerId": "gid://shopify/Product/8429905084479",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "200"
+},
+{
+"ownerId": "gid://shopify/Product/8429905117247",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905117247",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Caden"
+},
+{
+"ownerId": "gid://shopify/Product/8429905117247",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429905117247",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "660"
+},
+{
+"ownerId": "gid://shopify/Product/8429905117247",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "420"
+},
+{
+"ownerId": "gid://shopify/Product/8429905117247",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "200"
+},
+{
+"ownerId": "gid://shopify/Product/8429905379391",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905379391",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Caden"
+},
+{
+"ownerId": "gid://shopify/Product/8429905379391",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429905379391",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "1200"
+},
+{
+"ownerId": "gid://shopify/Product/8429905379391",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "500"
+},
+{
+"ownerId": "gid://shopify/Product/8429905379391",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "200"
+},
+{
+"ownerId": "gid://shopify/Product/8429905412159",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905412159",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Callan"
+},
+{
+"ownerId": "gid://shopify/Product/8429905412159",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429905412159",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "450"
+},
+{
+"ownerId": "gid://shopify/Product/8429905412159",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "400"
+},
+{
+"ownerId": "gid://shopify/Product/8429905412159",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "230"
+},
+{
+"ownerId": "gid://shopify/Product/8429905444927",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905444927",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Callan"
+},
+{
+"ownerId": "gid://shopify/Product/8429905444927",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429905444927",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "580"
+},
+{
+"ownerId": "gid://shopify/Product/8429905444927",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "450"
+},
+{
+"ownerId": "gid://shopify/Product/8429905444927",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "230"
+},
+{
+"ownerId": "gid://shopify/Product/8429905477695",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905477695",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Callan"
+},
+{
+"ownerId": "gid://shopify/Product/8429905477695",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429905477695",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "700"
+},
+{
+"ownerId": "gid://shopify/Product/8429905477695",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "400"
+},
+{
+"ownerId": "gid://shopify/Product/8429905477695",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "240"
+},
+{
+"ownerId": "gid://shopify/Product/8429905641535",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905641535",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Capsule"
+},
+{
+"ownerId": "gid://shopify/Product/8429905641535",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Copper-free silver mirror, backlit LED"
+},
+{
+"ownerId": "gid://shopify/Product/8429905641535",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "450"
+},
+{
+"ownerId": "gid://shopify/Product/8429905641535",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "900"
+},
+{
+"ownerId": "gid://shopify/Product/8429905674303",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905674303",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429905674303",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429905707071",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905707071",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429905707071",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429905739839",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905739839",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429905739839",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429905903679",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905903679",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429905903679",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429905903679",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "600"
+},
+{
+"ownerId": "gid://shopify/Product/8429905936447",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905936447",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429905936447",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429905936447",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "800"
+},
+{
+"ownerId": "gid://shopify/Product/8429905969215",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429905969215",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429905969215",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429906001983",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429906001983",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429906001983",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429910491199",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429910491199",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429910491199",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429911048255",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429911048255",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429911048255",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429911474239",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429911474239",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429911474239",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429912031295",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429912031295",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429912031295",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429929496639",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429929496639",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429929496639",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429929955391",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429929955391",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429929955391",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429930381375",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429930381375",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429930381375",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429930840127",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429930840127",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429930840127",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429949288511",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429949288511",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429949288511",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429949288511",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "600"
+},
+{
+"ownerId": "gid://shopify/Product/8429949616191",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429949616191",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429949616191",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429949616191",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "800"
+},
+{
+"ownerId": "gid://shopify/Product/8429950042175",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429950042175",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429950042175",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429950206015",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429950206015",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429950206015",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953351743",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953351743",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429953351743",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953384511",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953384511",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429953384511",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953417279",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953417279",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429953417279",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953450047",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953450047",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429953450047",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953744959",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953744959",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Chloe"
+},
+{
+"ownerId": "gid://shopify/Product/8429953744959",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953777727",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953777727",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Chloe"
+},
+{
+"ownerId": "gid://shopify/Product/8429953777727",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953810495",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953810495",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Chloe"
+},
+{
+"ownerId": "gid://shopify/Product/8429953810495",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429953843263",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429953843263",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Chloe"
+},
+{
+"ownerId": "gid://shopify/Product/8429953843263",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429954072639",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429954072639",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Cosimo"
+},
+{
+"ownerId": "gid://shopify/Product/8429954072639",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429954072639",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "520"
+},
+{
+"ownerId": "gid://shopify/Product/8429954072639",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "340"
+},
+{
+"ownerId": "gid://shopify/Product/8429954072639",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "150"
+},
+{
+"ownerId": "gid://shopify/Product/8429954105407",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429954105407",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Cosimo"
+},
+{
+"ownerId": "gid://shopify/Product/8429954105407",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429954105407",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "460"
+},
+{
+"ownerId": "gid://shopify/Product/8429954105407",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "325"
+},
+{
+"ownerId": "gid://shopify/Product/8429954105407",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "170"
+},
+{
+"ownerId": "gid://shopify/Product/8429954138175",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429954138175",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Cosimo"
+},
+{
+"ownerId": "gid://shopify/Product/8429954138175",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429954138175",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429954138175",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "325"
+},
+{
+"ownerId": "gid://shopify/Product/8429954138175",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "180"
+},
+{
+"ownerId": "gid://shopify/Product/8429954170943",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429954170943",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Crystal"
+},
+{
+"ownerId": "gid://shopify/Product/8429954170943",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429955743807",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955743807",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Cube"
+},
+{
+"ownerId": "gid://shopify/Product/8429955743807",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429955743807",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429955743807",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "255"
+},
+{
+"ownerId": "gid://shopify/Product/8429955743807",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "120"
+},
+{
+"ownerId": "gid://shopify/Product/8429955776575",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955776575",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Eclipse"
+},
+{
+"ownerId": "gid://shopify/Product/8429955776575",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Copper-free silver mirror, backlit LED"
+},
+{
+"ownerId": "gid://shopify/Product/8429955809343",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955809343",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429955809343",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board"
+},
+{
+"ownerId": "gid://shopify/Product/8429955809343",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "300"
+},
+{
+"ownerId": "gid://shopify/Product/8429955809343",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429955809343",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429955842111",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955842111",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429955842111",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board"
+},
+{
+"ownerId": "gid://shopify/Product/8429955842111",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429955842111",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429955874879",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955874879",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429955874879",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board"
+},
+{
+"ownerId": "gid://shopify/Product/8429955874879",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "425"
+},
+{
+"ownerId": "gid://shopify/Product/8429955874879",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "200"
+},
+{
+"ownerId": "gid://shopify/Product/8429955907647",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955907647",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429955907647",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board"
+},
+{
+"ownerId": "gid://shopify/Product/8429955907647",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "300"
+},
+{
+"ownerId": "gid://shopify/Product/8429955907647",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429955907647",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429955940415",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955940415",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429955940415",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board"
+},
+{
+"ownerId": "gid://shopify/Product/8429955940415",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429955940415",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429955973183",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429955973183",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429955973183",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board"
+},
+{
+"ownerId": "gid://shopify/Product/8429955973183",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "425"
+},
+{
+"ownerId": "gid://shopify/Product/8429955973183",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "200"
+},
+{
+"ownerId": "gid://shopify/Product/8429956005951",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956005951",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429956005951",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "MDF, matt white painted finish"
+},
+{
+"ownerId": "gid://shopify/Product/8429956005951",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "425"
+},
+{
+"ownerId": "gid://shopify/Product/8429956005951",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "200"
+},
+{
+"ownerId": "gid://shopify/Product/8429956038719",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956038719",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429956038719",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "MDF, matt white painted finish"
+},
+{
+"ownerId": "gid://shopify/Product/8429956038719",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "300"
+},
+{
+"ownerId": "gid://shopify/Product/8429956038719",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429956038719",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429956071487",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956071487",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429956071487",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "MDF, matt white painted finish"
+},
+{
+"ownerId": "gid://shopify/Product/8429956071487",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429956071487",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429956104255",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956104255",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429956104255",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "MDF, matt white painted finish"
+},
+{
+"ownerId": "gid://shopify/Product/8429956104255",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "295"
+},
+{
+"ownerId": "gid://shopify/Product/8429956104255",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429956104255",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429956169791",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956169791",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Mezo"
+},
+{
+"ownerId": "gid://shopify/Product/8429956169791",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429956169791",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "410"
+},
+{
+"ownerId": "gid://shopify/Product/8429956169791",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "340"
+},
+{
+"ownerId": "gid://shopify/Product/8429956169791",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "150"
+},
+{
+"ownerId": "gid://shopify/Product/8429956202559",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956202559",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Olivia"
+},
+{
+"ownerId": "gid://shopify/Product/8429956202559",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429956202559",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "490"
+},
+{
+"ownerId": "gid://shopify/Product/8429956202559",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "360"
+},
+{
+"ownerId": "gid://shopify/Product/8429956202559",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "135"
+},
+{
+"ownerId": "gid://shopify/Product/8429956235327",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956235327",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Olivia"
+},
+{
+"ownerId": "gid://shopify/Product/8429956235327",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429956235327",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "485"
+},
+{
+"ownerId": "gid://shopify/Product/8429956235327",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "330"
+},
+{
+"ownerId": "gid://shopify/Product/8429956235327",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "165"
+},
+{
+"ownerId": "gid://shopify/Product/8429956268095",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956268095",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Ria"
+},
+{
+"ownerId": "gid://shopify/Product/8429956268095",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429956268095",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "360"
+},
+{
+"ownerId": "gid://shopify/Product/8429956268095",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "360"
+},
+{
+"ownerId": "gid://shopify/Product/8429956268095",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "120"
+},
+{
+"ownerId": "gid://shopify/Product/8429956300863",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956300863",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Ria"
+},
+{
+"ownerId": "gid://shopify/Product/8429956300863",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Ceramic"
+},
+{
+"ownerId": "gid://shopify/Product/8429956300863",
+"namespace": "ets",
+"key": "width_mm",
+"type": "number_integer",
+"value": "360"
+},
+{
+"ownerId": "gid://shopify/Product/8429956300863",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "360"
+},
+{
+"ownerId": "gid://shopify/Product/8429956300863",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "120"
+},
+{
+"ownerId": "gid://shopify/Product/8429956333631",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956333631",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "DSA"
+},
+{
+"ownerId": "gid://shopify/Product/8429956333631",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429956366399",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956366399",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "DSA"
+},
+{
+"ownerId": "gid://shopify/Product/8429956366399",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429956399167",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956399167",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "DSA"
+},
+{
+"ownerId": "gid://shopify/Product/8429956399167",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429956431935",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956431935",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "DSA"
+},
+{
+"ownerId": "gid://shopify/Product/8429956431935",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Stainless Steel"
+},
+{
+"ownerId": "gid://shopify/Product/8429956464703",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429956464703",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Celine"
+},
+{
+"ownerId": "gid://shopify/Product/8429956464703",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Brass"
+},
+{
+"ownerId": "gid://shopify/Product/8429971734591",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429971734591",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429971734591",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board cabinet, ceramic or stone top, brass mixer"
+},
+{
+"ownerId": "gid://shopify/Product/8429971734591",
+"namespace": "ets",
+"key": "trade_band",
+"type": "number_integer",
+"value": "25"
+},
+{
+"ownerId": "gid://shopify/Product/8429971734591",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429971734591",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+},
+{
+"ownerId": "gid://shopify/Product/8429971767359",
+"namespace": "ets",
+"key": "supplier",
+"type": "single_line_text_field",
+"value": "Eternity Tiles"
+},
+{
+"ownerId": "gid://shopify/Product/8429971767359",
+"namespace": "ets",
+"key": "range",
+"type": "single_line_text_field",
+"value": "Malaga"
+},
+{
+"ownerId": "gid://shopify/Product/8429971767359",
+"namespace": "ets",
+"key": "material",
+"type": "single_line_text_field",
+"value": "Melamine board cabinet, ceramic or stone top, brass mixer"
+},
+{
+"ownerId": "gid://shopify/Product/8429971767359",
+"namespace": "ets",
+"key": "trade_band",
+"type": "number_integer",
+"value": "25"
+},
+{
+"ownerId": "gid://shopify/Product/8429971767359",
+"namespace": "ets",
+"key": "height_mm",
+"type": "number_integer",
+"value": "630"
+},
+{
+"ownerId": "gid://shopify/Product/8429971767359",
+"namespace": "ets",
+"key": "depth_mm",
+"type": "number_integer",
+"value": "455"
+}
+]

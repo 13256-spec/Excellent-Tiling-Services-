@@ -66,6 +66,7 @@ was compared with, and any flag. Rules are in the script's docstring. In short:
   at most 10% and stay under the competitor; bigger gaps are flagged `BELOW PROFIT FLOOR` and left.
 - MELA costs are estimates (Bathroom City list × (1 − SLIVER trade discount)); the sheet's discount is off
   the GST-inclusive list, so they're stored ex GST (÷ 1.1).
+- 14 Oct 2026: the 694 Roberts Designs rows had their cost multiplied by 1.1 after the owner confirmed the Roberts account prices did not include GST (Maxisil, Sigma, Siri, Baron and Barwalt rows kept their cost on the owner's instruction); `new_price` on all 873 Roberts-supplied rows was refreshed to the live price and both margins recomputed. Prices unchanged. The 48 variants now under the floor are in `reports/roberts-gst-below-floor-2026-10-14.csv`.
 - Trade: per-product bands of 5/10/15/20/25% (tiles max 15%), each the deepest that keeps every
   variant above the trade floor. Shopify Basic has no B2B price lists, so each band is a manual (unpublished)
   collection `trade-list-5` ... `trade-list-25` with an automatic discount "Trade price – N%" for the
@@ -86,3 +87,34 @@ ordered at $199. Its recorded cost ($225.91 ex GST) was copied from the Matt Whi
 doesn't list a plain White, so the "below cost" flag may be wrong. Owner to confirm whether MELA supplies
 it and at what SILVER cost. To bring it back: set the variant's inventory policy to CONTINUE (or untrack
 inventory) and re-price against the real cost. Matt Black and Matt White ($337) are unaffected.
+
+## Eternity "wholesale essentials" list (V27102025.01, received 14 Oct 2026)
+
+`eternity-essentials-2025-10-27.csv`: the 30 lines from Eternity's essentials sheet (cement, Easy Screed, WPA
+waterproofing, TPA/Sika adhesives, Ardex FS-DD grout and SE silicone, aluminium angles, LX linear drains, tile
+insert and square-plate floor wastes), wholesale ex GST. It does **not** cover the DSA bathroomware (tapware,
+showers, vanities, basins, sinks, mirrors, toilet); that request is still `DSA-trade-price-request-2026-10-14.xlsx`.
+
+Applied: BL-TID50 ($38.25) and BL-TID80 ($38.25) recorded as the cost of the two DSA tile insert floor wastes
+(50mm given SKU BL-TID50; the 80mm keeps its web code; `needs-cost` removed). The two FLRG-SFD square-plate
+drains ($11.01 / $16.11) probably match the Twist Top Floor Drains 80mm/100mm but the sizes don't line up, so
+nothing recorded until Eternity confirms. The other 25 items are not stocked; `proposed_price_inc_gst` in the CSV
+is cost x 1.1 (GST) / 0.65 (35% margin on the ex-GST sale price), rounded up to 5c, for the owner to approve.
+
+## Eternity vanity packages (sheet "Wholesale Vanity Package Pricing 2025", received 14 Oct 2026)
+
+`eternity-vanity-packages-2025.csv`: RRP and the three wholesale tiers (account 45% off, COD / 5-buy account 50%,
+5-buy COD 55%) for the Malaga all-in-one packages. Two products created live at RRP (owner: sell at Eternity's
+price for now), `malaga_packages_2026_10.py` -> `supplier-sync/malaga-packages-2026-10-14.json`:
+China Top (3 colours x 750/900/1200) and Stone Top (3 colours x 750/900/1200/1500/1800). Stone colour (White Burst /
+Blanco Bliss) and basin shape are taken in the order notes, not as variants. Cost = the sheet's **account deal 45%** column (owner, 14 Oct 2026), stored ex GST (÷ 1.1):
+china top $590.00 / $771.82 / $953.64, stone top $734.55 / $852.73 / $1,052.73 / $1,416.36 / $1,680.00. Margin 46-50%
+at RRP; both products in `trade-list-25`; 24 rows appended to the master CSV. Package photos are the sheet's own images (`supplier-sync/malaga-package-images/`).
+
+## Trade bands re-set to a 20% floor (14 Oct 2026)
+
+The owner found the trade prices too cheap: the 3 Oct bands were the deepest discount that kept about 13% margin, so the median margin after the trade discount was 16%, and the Roberts Designs cost correction pushed 141 of those products under even that floor. On the owner's instruction the trade floor is now **20% margin ex GST** (trade price ≥ cost ÷ 0.8 × 1.1) and every product on a trade list was re-banded to the deepest of 25/20/15/10/5% that keeps all its variants above it (tiles still max 15%).
+
+- 906 products checked, 840 moved between the `trade-list-N` collections. Bands now: 25% → 17 products, 20% → 233, 15% → 235, 10% → 65, 5% → 231; 123 products (72 MELA, 25 Roberts Designs, 26 other) come off the trade lists because no band keeps 20%. Two products with no cost (Click powerblock, RLA additive) were left where they were.
+- Median margin after the trade discount is now 22.8% (minimum 19.9%).
+- `store-pricing-2026-10-03.csv`: `trade_band`, `trade_price` and `trade_margin_pct` refreshed on every trade-listed row. `reports/trade-price-check-2026-10-14.csv` is the before/after check with the band each floor would give. Price-list PDFs regenerated.

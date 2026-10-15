@@ -121,3 +121,41 @@ For the other 35 the new price would be above market, so these **36 products sta
 - `price-check` items: 30 went live because their cost is below the Roberts list and margin is 20% or more. 10 stay as drafts (all in the lists above).
 - Tile Trims & Edging and Tile Cutters & Accessories are published to all channels and added under **Hardware** in the main menu.
 - Roberts pocket knife (ETS-HW-005) was not in this sheet and was left as it was.
+
+## Roberts Designs costs corrected for GST (14 Oct 2026)
+
+The owner confirmed the Roberts Designs trade-account prices recorded as cost on 28 Sep did not include GST. Every unit cost on the 715 variants with vendor **Roberts Designs** (including the pocket knife ETS-HW-005) was multiplied by 1.1. The other brands bought through Roberts (Maxisil, Sigma, Siri, Baron, Barwalt: 205 variants) were left at their 28 Sep cost on the owner's instruction. Selling prices were not changed: the owner's call is that prices follow the market, not the cost.
+
+- `roberts-designs-pricing.csv`: `our_cost` x 1.1 on the Roberts Designs rows, `our_price` refreshed to the live price on every row, `margin_pct` recomputed.
+- `../pricing/store-pricing-2026-10-03.csv`: cost, price and margins refreshed on the 694 Roberts Designs rows (`cost_src` says so); the other Roberts-supplied brands had their price and margins refreshed only.
+- 48 Roberts Designs variants are now under the 25% profit floor (cost x 1.1 x 1.25), between 12.0% and 19.1% margin. They are listed worst-first in `../pricing/reports/roberts-gst-below-floor-2026-10-14.csv` for the owner to decide. Nothing was repriced.
+
+## DSA bathroomware from Eternity (14 Oct 2026)
+
+Everything Eternity lists under vendor "DSA" that is not a tile (the tiles were already in the store):
+62 products / 111 variants added, tagged `supplier-import` + `needs-cost`, published to all six sales channels.
+Created as drafts, then set **Active on 14 Oct 2026** on the owner's instruction: sell at Eternity's price until DSA
+sends a trade price list. The list of items to ask for is `store-content/pricing/DSA-trade-price-request-2026-10-14.xlsx`
+(and `.txt` for pasting into an email); once it comes back, price by the playbook and remove `needs-cost`.
+
+- Range: Celine tapware, showers and accessories (26), Chloe showers (4), Malaga wall hung vanities,
+  cubby/single door cabinets and kickboards (10), Caden and Callan kitchen sinks (6), Cosimo/Olivia/Ria/Mezo/Cube
+  basins (9), Capsule and Eclipse LED mirrors (2), Crystal smart toilet (1), floor wastes, pop up wastes and a
+  bottle trap (7). Two zero-price "installation accessory" entries on Eternity's site were skipped.
+- **Price = Eternity's listed retail price, no cost recorded.** There is no DSA cost sheet yet, so the playbook
+  floor can't be checked; the owner needs DSA trade costs before these are priced (and before a trade band or
+  `trade-list-N` collection is chosen). Drafts until then.
+- Supplier name hidden (owner rule): vendor "Excellent Tiling Services", `custom.supplier` = "Eternity Tiles",
+  "Eternity Range" stripped from the Malaga titles. Typos fixed (Pup Up, Chole, Towel Tail, Divertor).
+- Options cleaned: Eternity's "Size: See Diagram" and "Default Title" colour values dropped; finish option is
+  `Finish` (Chrome / Brushed Nickel), Malaga sizes are 600/750/900/1200mm (full dimensions in the description).
+- Photos: Eternity's own product photos (some are size diagrams). Descriptions: Eternity's text where it had any,
+  otherwise one plain line per product type.
+- Delivery: vanities, cabinets, kickboards and the toilet on "Perth only (local delivery / pickup)"
+  (`ship-local-only`); everything else General profile (`ship-parcel` / `ship-bulky`), same as the MELA equivalents.
+- Collections: added to the manual department collections (tapware, basins, mirrors, sinks, towel rails,
+  bathroom wastes, bathroom vanities...). Two new product types were added to the menu smart collections:
+  "Wall Hung Basin" and "Vanity Kickboard" to Vanities & Basins, "Bottle Trap" to Mirrors & Accessories.
+- Files: `dsa_bathroomware_2026_10.py` (feed -> productSet inputs), `dsa-eternity-feed-2026-10-14.json` (Eternity's
+  feed that day), `dsa-bathroomware-2026-10-14.json` (what was sent), `dsa-bathroomware-created-2026-10-14.json`
+  (Shopify product and variant ids per source handle).

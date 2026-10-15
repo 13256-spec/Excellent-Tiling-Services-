@@ -1,0 +1,5371 @@
+[
+ {
+  "title": "Celine Bath Pop Up Waste",
+  "descriptionHtml": "<p>Pop up waste with a push-button plug; match the finish to your tapware.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Pop Up Waste",
+  "status": "DRAFT",
+  "tags": [
+   "Bath Waste",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/BW047.CR.jpg",
+    "alt": "Celine Bath Pop Up Waste",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/BW047-SIZE.jpg",
+    "alt": "Celine Bath Pop Up Waste",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/BW047.BN.jpg",
+    "alt": "Celine Bath Pop Up Waste",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "48.99",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBW047.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBW047.BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes",
+   "accessories"
+  ],
+  "_source": "bath-pup-up-waste"
+ },
+ {
+  "title": "Celine Bottle Trap 32mm",
+  "descriptionHtml": "<p>32mm bottle trap for exposed basin plumbing; match the finish to your tapware.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Bottle Trap",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/B186.CR.jpg",
+    "alt": "Celine Bottle Trap 32mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/B186.BN.jpg",
+    "alt": "Celine Bottle Trap 32mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/B186.jpg",
+    "alt": "Celine Bottle Trap 32mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "209.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETB186.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "249.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes",
+   "accessories"
+  ],
+  "_source": "bottle-trap-32mm-chrome"
+ },
+ {
+  "title": "Caden Single Bowl Sink 610mm",
+  "descriptionHtml": "<p>Caden - single bowl Inner 610x500x200mm. 1 taphole no overflow, abovemount installation, includes basket waste.</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink",
+  "status": "DRAFT",
+  "tags": [
+   "Caden",
+   "Single Bowl",
+   "Stainless Steel",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-6150_1.jpg",
+    "alt": "Caden Single Bowl Sink 610mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-6150.png",
+    "alt": "Caden Single Bowl Sink 610mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "220.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETLS-6150",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "sinks",
+   "kitchen-laundry"
+  ],
+  "_source": "caden-trough-001",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5"
+ },
+ {
+  "title": "Caden Single Bowl Sink with Drainer 660mm",
+  "descriptionHtml": "<p>Caden - single bowl with drainer Overall 660x420x200mm, bowl 365 x 335mm. 1 taphole no overflow, abovemount installation, includes basket waste.</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink",
+  "status": "DRAFT",
+  "tags": [
+   "Caden",
+   "Drainer",
+   "Single Bowl",
+   "Stainless Steel",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-7642S_4.jpg",
+    "alt": "Caden Single Bowl Sink with Drainer 660mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-7642S_2.jpg",
+    "alt": "Caden Single Bowl Sink with Drainer 660mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "226.60",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETLS-7642S",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "sinks",
+   "kitchen-laundry"
+  ],
+  "_source": "caden-trough-001-copy",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5"
+ },
+ {
+  "title": "Caden Double Bowl Sink with Drainer 1200mm",
+  "descriptionHtml": "<p>Caden - Double bowl with drainer Overall 1200x500x200mm, bowls 350 x 390mm. 1 taphole no overflow, abovemount installation, includes basket waste.</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink",
+  "status": "DRAFT",
+  "tags": [
+   "Caden",
+   "Double Bowl",
+   "Drainer",
+   "Stainless Steel",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-12050A-04_1.jpg",
+    "alt": "Caden Double Bowl Sink with Drainer 1200mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-12050A-01.jpg",
+    "alt": "Caden Double Bowl Sink with Drainer 1200mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-12050A.png",
+    "alt": "Caden Double Bowl Sink with Drainer 1200mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "363.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "sinks",
+   "kitchen-laundry"
+  ],
+  "_source": "caden-trough-003",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5"
+ },
+ {
+  "title": "Callan Single Bowl Sink 450mm",
+  "descriptionHtml": "<p>Callan - Single bowl. Overall 450x400x230mm, bowl 400 x 350mm. No overflow, abovemount or undermount installation, includes basket waste.</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink",
+  "status": "DRAFT",
+  "tags": [
+   "Callan",
+   "Laundry Sink",
+   "Single Bowl",
+   "Stainless Steel",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/20250225111325.jpg",
+    "alt": "Callan Single Bowl Sink 450mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/20250225111314.jpg",
+    "alt": "Callan Single Bowl Sink 450mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-4045.jpg",
+    "alt": "Callan Single Bowl Sink 450mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "385.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETLS-4045",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "sinks",
+   "kitchen-laundry"
+  ],
+  "_source": "callan-trough-001",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5"
+ },
+ {
+  "title": "Callan Single Bowl Sink 580mm",
+  "descriptionHtml": "<p>Callan- Single bowl. Overall 580x450x230mm, bowl 530 x 350mm. No overflow, abovemount or undermount installation, includes basket waste.</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink",
+  "status": "DRAFT",
+  "tags": [
+   "Callan",
+   "Laundry Sink",
+   "Single Bowl",
+   "Stainless Steel",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETLS5845_1.jpg",
+    "alt": "Callan Single Bowl Sink 580mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETLS5845_2.jpg",
+    "alt": "Callan Single Bowl Sink 580mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETLS5845_3.jpg",
+    "alt": "Callan Single Bowl Sink 580mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "462.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETLS-5845",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "sinks",
+   "kitchen-laundry"
+  ],
+  "_source": "callan-trough-002",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5"
+ },
+ {
+  "title": "Callan Double Bowl Sink 700mm",
+  "descriptionHtml": "<p>Callan - Double bowl. Overall 700x400x240mm, bowls 350 x 310mm. No overflow, abovemount or undermount installation, includes basket waste.</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink",
+  "status": "DRAFT",
+  "tags": [
+   "Callan",
+   "Double Bowl",
+   "Stainless Steel",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/20250225111452.jpg",
+    "alt": "Callan Double Bowl Sink 700mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/LS-7040.jpg",
+    "alt": "Callan Double Bowl Sink 700mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "660.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETLS-7040",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "sinks",
+   "kitchen-laundry"
+  ],
+  "_source": "callan-trough-001-copy",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5"
+ },
+ {
+  "title": "Capsule LED Oval Backlit Mirror 450 x 900mm",
+  "descriptionHtml": "<p>\u25cfChange between 3 tones<br>\u25cf Built-in demister<br>\u25cf Illuminating touch sensors for light and demister<br><br>\u25cf Wall mounting screws and anchor plugs included<br>\u25cf Supplied in extra strong packaging for added protection<br>\u25cf 220-240V AC 50/60Hz<br>\u25cf Please note: Mirror must be installed by a licensed electrician in accordance with local regulations.<br>Dimensions: 450 x 900mm</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "LED Mirror",
+  "status": "DRAFT",
+  "tags": [
+   "Anti Fog",
+   "Backlit Mirror",
+   "Capsule",
+   "Oval LED Mirror",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/1.jpg",
+    "alt": "Capsule LED Oval Backlit Mirror 450 x 900mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/2.jpg",
+    "alt": "Capsule LED Oval Backlit Mirror 450 x 900mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "499.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETMIRBLEDOVAL",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "mirrors",
+   "led-mirrors"
+  ],
+  "_source": "capsule-led-oval-back-lit",
+  "category": "gid://shopify/TaxonomyCategory/hg-3-47-2"
+ },
+ {
+  "title": "Celine Twin Rail Shower",
+  "descriptionHtml": "<p>Twin shower: an overhead rose plus a hand shower on a slide rail, run off one set of plumbing.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Combination Shower Set",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Rail Shower",
+   "Twin Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4C-KSS108-C7121.BS_1.jpg",
+    "alt": "Celine Twin Rail Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4C-KSS108-C7121.CR_1.png",
+    "alt": "Celine Twin Rail Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETS7121.BS_1.png",
+    "alt": "Celine Twin Rail Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETS7121.CR_1.png",
+    "alt": "Celine Twin Rail Shower",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "589.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS7121.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "699.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS7121.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "celine-2-in-1-shower-type-1"
+ },
+ {
+  "title": "Celine Basin Mixer",
+  "descriptionHtml": "<p>Single-lever basin mixer from the Celine range, a modern mix of curves and angles.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Basin Mixer",
+  "status": "DRAFT",
+  "tags": [
+   "Basin Mixer",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Tapware",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7020_b1729493-f8ec-45fa-9b37-a06ffe16ff75.jpg",
+    "alt": "Celine Basin Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETHD7020-BN.png",
+    "alt": "Celine Basin Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETHD7020_1.png",
+    "alt": "Celine Basin Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETHD7020-BN_1.png",
+    "alt": "Celine Basin Mixer",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "209.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7020",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "259.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7020-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "basin-mixers"
+  ],
+  "_source": "celine-basin-mixer",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-3-1"
+ },
+ {
+  "title": "Celine Wall Basin / Bath Mixer with Spout",
+  "descriptionHtml": "<p>A sleek, modern mixer and spout suitable for basins or baths.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Wall Mixer",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Tapware",
+   "Wall Basin Mixer",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7025_64dd2379-2221-4ba8-92bc-3d6d70f28703.jpg",
+    "alt": "Celine Wall Basin / Bath Mixer with Spout",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7025bn.jpg",
+    "alt": "Celine Wall Basin / Bath Mixer with Spout",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7025_1_1_41e2c0d6-8687-4fbb-bfa4-0e17c83695ef.jpg",
+    "alt": "Celine Wall Basin / Bath Mixer with Spout",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "309.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7025",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "369.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7025-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "wall-mixers",
+   "bath-tapware"
+  ],
+  "_source": "celine-basin-bath-wall-mixer",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-3-1"
+ },
+ {
+  "title": "Celine 600 Double Towel Rail",
+  "descriptionHtml": "<p>Wall-mounted towel rail from the Celine accessories range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Towel Rail",
+  "status": "DRAFT",
+  "tags": [
+   "600mm",
+   "Accessories",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Double Towel Rail",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP302_2_eeb7ddcd-f66f-4892-a5b7-6496a911038f.jpg",
+    "alt": "Celine 600 Double Towel Rail",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP302_3_c82fab9c-28ae-401f-8b5e-2bf7590490cf.jpg",
+    "alt": "Celine 600 Double Towel Rail",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "109.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP302-60",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "139.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP302-60-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "towel-rails",
+   "accessories"
+  ],
+  "_source": "celine-double-towel-rail-600",
+  "category": "gid://shopify/TaxonomyCategory/hg-1-21-3"
+ },
+ {
+  "title": "Celine 800 Double Towel Rail",
+  "descriptionHtml": "<p>Wall-mounted towel rail from the Celine accessories range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Towel Rail",
+  "status": "DRAFT",
+  "tags": [
+   "800mm",
+   "Accessories",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Double Towel Rail",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP302_1_fabaea82-943c-4b37-a922-fd93b7ef3841.jpg",
+    "alt": "Celine 800 Double Towel Rail",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP302_3_71c6324d-8a0b-4cb5-83da-e010da631ea7.jpg",
+    "alt": "Celine 800 Double Towel Rail",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP302-80size_4b7f8aa0-b7a0-42be-be7d-fe89b0a85aad.jpg",
+    "alt": "Celine 800 Double Towel Rail",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "139.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP302-80",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "149.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP302-80BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "towel-rails",
+   "accessories"
+  ],
+  "_source": "celine-double-towel-rail-800",
+  "category": "gid://shopify/TaxonomyCategory/hg-1-21-3"
+ },
+ {
+  "title": "Celine Gooseneck Pull Out Kitchen Mixer",
+  "descriptionHtml": "<p>Celine gooseneck pull out kitchen mixer features a pull out vege sprayer. </p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink Mixer",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Kitchen Mixer",
+   "Pull Out",
+   "Tapware",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/FE1731_f77e8c28-64e4-4dab-8689-367472d90480.jpg",
+    "alt": "Celine Gooseneck Pull Out Kitchen Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/FE1731bn.jpg",
+    "alt": "Celine Gooseneck Pull Out Kitchen Mixer",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "429.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETFE1731",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "599.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETFE1731-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "kitchen-tapware",
+   "kitchen-laundry"
+  ],
+  "_source": "celine-gooseneck-pull-out-kitchen-mixer"
+ },
+ {
+  "title": "Celine Gooseneck Sink Mixer",
+  "descriptionHtml": "<p>Suitable for kitchen or laundries, this mixer is in the classic gooseneck style.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink Mixer",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Kitchen Mixer",
+   "Tapware",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD4232_671f21aa-1024-48be-91e5-81817b187649.jpg",
+    "alt": "Celine Gooseneck Sink Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD4232_2_2976198a-0216-4435-9e99-b2a62b493cc1.jpg",
+    "alt": "Celine Gooseneck Sink Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD4232_1_dd747fe9-417b-4e9a-a5ac-dbd62b177703.jpg",
+    "alt": "Celine Gooseneck Sink Mixer",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "189.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD4232",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "239.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD4232-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "kitchen-tapware",
+   "kitchen-laundry"
+  ],
+  "_source": "celine-gooseneck-sink-mixer"
+ },
+ {
+  "title": "Celine Hand Shower on Bracket",
+  "descriptionHtml": "<p>The Celine hand shower offers detachable showerhead, with multiple functions, attached to a flexible hose, allowing users to hold it or place it in a mount for hands-free use.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Hand Shower Set",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Hand Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4C-S028.CR_1.jpg",
+    "alt": "Celine Hand Shower on Bracket",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4C-S028.BS.jpg",
+    "alt": "Celine Hand Shower on Bracket",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4-size_f14a1c70-977d-4144-8ddd-2b13eed6cfdd.jpg",
+    "alt": "Celine Hand Shower on Bracket",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "239.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS028.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "319.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS028.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "celine-hand-shower-type-1"
+ },
+ {
+  "title": "Celine Hand Towel Rail",
+  "descriptionHtml": "<p>The Celine hand towel rail is a stylish way to store your hand towel and keep your bathroom or powder room organised.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Hand Towel Rail",
+  "status": "DRAFT",
+  "tags": [
+   "Accessories",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Hand Towel Rail",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP305_1_b816c9ad-53f8-4aa1-a535-392ac6abcfc7.jpg",
+    "alt": "Celine Hand Towel Rail",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP305_62c4ccf7-9a7f-4492-a68a-9d6e99e3d103.jpg",
+    "alt": "Celine Hand Towel Rail",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP305",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "79.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP305-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "towel-rails",
+   "accessories"
+  ],
+  "_source": "celine-hand-towel-rail",
+  "category": "gid://shopify/TaxonomyCategory/hg-1-21-3"
+ },
+ {
+  "title": "Celine Rail Shower",
+  "descriptionHtml": "<p>The rail shower features a handheld shower head mounted on a vertical sliding bar. This design allows users to easily adjust the height and angle of the water spray. They offer exceptional versatility for any modern bathroom</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Hand Shower Set",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Hand Shower",
+   "Rail Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4C-S006F-H614.CR.jpg",
+    "alt": "Celine Rail Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4C-S006F-H614.BS.jpg",
+    "alt": "Celine Rail Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4-size_f09bc595-5bc5-41a7-9832-734d8836036c.jpg",
+    "alt": "Celine Rail Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/Picture1.png",
+    "alt": "Celine Rail Shower",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "239.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETH614.CS",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "319.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETH614.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "celine-rail-shower"
+ },
+ {
+  "title": "Celine Robe Hook",
+  "descriptionHtml": "<p>Wall-mounted robe hook from the Celine accessories range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Bathroom Hook",
+  "status": "DRAFT",
+  "tags": [
+   "Accessories",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Robe Hook",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP306_00bb76fe-fe2f-4598-8e4c-d12edeebcfef.jpg",
+    "alt": "Celine Robe Hook",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP306_1_58f473e5-461e-4607-822a-1307d2ab7dfa.jpg",
+    "alt": "Celine Robe Hook",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "39.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP306",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "48.99",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP306-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-hooks",
+   "accessories"
+  ],
+  "_source": "celine-robe-hook"
+ },
+ {
+  "title": "Celine Round Hand Shower Piece",
+  "descriptionHtml": "<p>Replacement hand shower piece; fits standard shower hoses.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Hand Shower",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Hand Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4.CR.jpg",
+    "alt": "Celine Round Hand Shower Piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4.BN.jpg",
+    "alt": "Celine Round Hand Shower Piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4-size_1.jpg",
+    "alt": "Celine Round Hand Shower Piece",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "39.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHR002M4.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHR002M4.BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "chloe-round-hand-piece-chrome"
+ },
+ {
+  "title": "Celine Shower Mixer",
+  "descriptionHtml": "<p>Single-lever shower and wall mixer from the Celine range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Wall Mixer",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Shower Mixer",
+   "Tapware",
+   "Wall Mixer",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7023_be05173b-69eb-4bf2-9e27-0ccfc61d153f.jpg",
+    "alt": "Celine Shower Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7023_1_45505f61-8789-45dc-9df0-3668b928ae52.jpg",
+    "alt": "Celine Shower Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7023_1_da563660-e47a-40ae-9e2c-193fea43f124.jpg",
+    "alt": "Celine Shower Mixer",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "119.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7023",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "139.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7023-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "wall-mixers"
+  ],
+  "_source": "celine-shower-mixer"
+ },
+ {
+  "title": "Celine Shower Mixer with Diverter",
+  "descriptionHtml": "<p>Single-lever wall mixer with a built-in diverter to switch between two outlets.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Wall Mixer with Diverter",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Diverter",
+   "Shower Mixer",
+   "Tapware",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7024cr_45f24575-c277-4621-8024-4ef0be874c21.jpg",
+    "alt": "Celine Shower Mixer with Diverter",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7024_4d3ba9a9-2921-4b05-a36d-d89bfcc220a5.jpg",
+    "alt": "Celine Shower Mixer with Diverter",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/hd7024_1_ae24c2ad-55e0-4b48-80c6-0fb4842be6aa.jpg",
+    "alt": "Celine Shower Mixer with Diverter",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "229.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7024",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "299.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7024-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "wall-mixers"
+  ],
+  "_source": "celine-shower-mixer-with-divertor"
+ },
+ {
+  "title": "Celine Square Shower Rose 250mm",
+  "descriptionHtml": "<p>Square shower rose.</p> <p>250 x 250 x 8mm</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Shower Head",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Shower Head",
+   "Square",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/KSS110.CR.jpg",
+    "alt": "Celine Square Shower Rose 250mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "319.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKSS110.PS",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "409.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKSS110.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "celine-shower-rose-type-2"
+ },
+ {
+  "title": "Celine 600 Single Towel Rail",
+  "descriptionHtml": "<p>Wall-mounted towel rail from the Celine accessories range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Towel Rail",
+  "status": "DRAFT",
+  "tags": [
+   "600mm",
+   "Accessories",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Single Towel Rail",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP301_1ac93fcf-8d1f-4421-9fb1-60dcc74de306.jpg",
+    "alt": "Celine 600 Single Towel Rail",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP301_2_a871acb6-22b5-470b-b230-a8d20d3a31ff.jpg",
+    "alt": "Celine 600 Single Towel Rail",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "89.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP301-60",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "109.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP301-60-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "towel-rails",
+   "accessories"
+  ],
+  "_source": "celine-single-towel-tail-600",
+  "category": "gid://shopify/TaxonomyCategory/hg-1-21-3"
+ },
+ {
+  "title": "Celine 800 Single Towel Rail",
+  "descriptionHtml": "<p>Wall-mounted towel rail from the Celine accessories range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Towel Rail",
+  "status": "DRAFT",
+  "tags": [
+   "800mm",
+   "Accessories",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Single Towel Rail",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP301_b6019803-ce8b-48bd-853e-7111d4316472.jpg",
+    "alt": "Celine 800 Single Towel Rail",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP301_2_765c2ced-36e0-4266-b6c7-f07ecfdb35bb.jpg",
+    "alt": "Celine 800 Single Towel Rail",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP301-80_cb4195b1-59c7-489a-98fa-cbb2309d12b3.jpg",
+    "alt": "Celine 800 Single Towel Rail",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "109.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP301-80",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "120.99",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP301-80-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "towel-rails",
+   "accessories"
+  ],
+  "_source": "celine-single-towel-tail-800",
+  "category": "gid://shopify/TaxonomyCategory/hg-1-21-3"
+ },
+ {
+  "title": "Celine Sink Mixer",
+  "descriptionHtml": "<p>This sink mixer suits either kitchen or laundry installation. This mixer features a modern combination of angles and curves.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Kitchen Sink Mixer",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Kitchen Mixer",
+   "Laundry Mixer",
+   "Tapware",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7027_11c64efa-02ea-4cde-a10a-f2a30a188336.jpg",
+    "alt": "Celine Sink Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7027bn_7851fc4f-789c-4329-8e60-ccf5d874f082.jpg",
+    "alt": "Celine Sink Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/hd7027_1_9b2dcd5d-a300-408a-88dd-8e95c4bd5d87.jpg",
+    "alt": "Celine Sink Mixer",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "319.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7027",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "429.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7027-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "kitchen-tapware",
+   "kitchen-laundry"
+  ],
+  "_source": "celine-sink-mixer"
+ },
+ {
+  "title": "Celine Square Hand Shower Piece",
+  "descriptionHtml": "<p>Replacement hand shower piece; fits standard shower hoses.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Hand Shower",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Hand Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4.CR.jpg",
+    "alt": "Celine Square Hand Shower Piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4.BN_3e5792f7-8ccf-4f12-956f-9a9f0317d14b.jpg",
+    "alt": "Celine Square Hand Shower Piece",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HS002M4-size.jpg",
+    "alt": "Celine Square Hand Shower Piece",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "39.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHS002M4.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHS002M4.BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "celine-square-hand-piece-chrome"
+ },
+ {
+  "title": "Celine Swivel Bath Spout",
+  "descriptionHtml": "<p>Swivel bath spout from the Celine range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Bath Spout",
+  "status": "DRAFT",
+  "tags": [
+   "Bath Spout",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Tapware",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/CelineSwivelBathSpout-SP28SWphoto.jpg",
+    "alt": "Celine Swivel Bath Spout",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/CelineSwivelBathSpout-SP28SWBNphoto.jpg",
+    "alt": "Celine Swivel Bath Spout",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/CelineSwivelBathSpout-SP28SWsize.jpg",
+    "alt": "Celine Swivel Bath Spout",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "159.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "SP18SW",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "259.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "SP28SW-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "bath-tapware",
+   "spouts-outlets"
+  ],
+  "_source": "celine-swivel-bath-spout"
+ },
+ {
+  "title": "Celine Tall Basin Mixer",
+  "descriptionHtml": "<p>The Celine range features a modern blend of curves and angles with an easy to use paddle. Tall mixers are best paired with above counter basins.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Basin Mixer",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Tall Basin Mixer",
+   "Tapware",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7021_a813dec5-8efb-467e-956e-445422c9f9af.jpg",
+    "alt": "Celine Tall Basin Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HD7021bn.jpg",
+    "alt": "Celine Tall Basin Mixer",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/hd7021_1_a0247450-685d-4a70-a5b3-eb9ad6648d79.jpg",
+    "alt": "Celine Tall Basin Mixer",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "269.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ET103102",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "349.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHD7021-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "basin-mixers"
+  ],
+  "_source": "celine-tall-basin-mixer",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-3-1"
+ },
+ {
+  "title": "Celine Toilet Roll Holder",
+  "descriptionHtml": "<p>Wall-mounted toilet roll holder from the Celine accessories range.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Toilet Roll Holder",
+  "status": "DRAFT",
+  "tags": [
+   "Accessories",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Toilet Roll Holder",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP304_b30daf09-ecdf-472b-87fe-53a633864d24.jpg",
+    "alt": "Celine Toilet Roll Holder",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HDP304_1_59be2059-fadd-42b1-b1ef-896bade3d101.jpg",
+    "alt": "Celine Toilet Roll Holder",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/image_2.png",
+    "alt": "Celine Toilet Roll Holder",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "59.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP304",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETHDP304-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "toilet-roll-holders",
+   "accessories"
+  ],
+  "_source": "celine-toilet-roll-holder"
+ },
+ {
+  "title": "Celine Wall Mounted Shower Arm",
+  "descriptionHtml": "<p>Wall-mounted shower arm from the Celine range, for use with a shower rose.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Shower Arm",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Shower Arm",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSASRQ07LF.CR.png",
+    "alt": "Celine Wall Mounted Shower Arm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSASRQ07LF.BN.png",
+    "alt": "Celine Wall Mounted Shower Arm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "209.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETSRQ07LF",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "319.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETSRQ07LF-BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "celine-wall-mount-shower-arm-type-2"
+ },
+ {
+  "title": "Chloe Hand Shower on Bracket",
+  "descriptionHtml": "<p>The hand shower offers a detachable showerhead attached to a flexible hose, allowing users to hold it or place it in a mount for hands-free use.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Hand Shower Set",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Chloe",
+   "Chrome",
+   "Hand Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-S027.CR.png",
+    "alt": "Chloe Hand Shower on Bracket",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-S027.BS.jpg",
+    "alt": "Chloe Hand Shower on Bracket",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-S027.CR.jpg",
+    "alt": "Chloe Hand Shower on Bracket",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4-size_1_571a6228-b903-49fc-9797-d314f6caf6c6.jpg",
+    "alt": "Chloe Hand Shower on Bracket",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "269.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS027.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "319.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS027.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "chloe-hand-shower-type-2"
+ },
+ {
+  "title": "Chloe Round Shower Rose 250mm",
+  "descriptionHtml": "<p>Chloe round shower rose. 250mm Diameter.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Shower Head",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Chloe",
+   "Chrome",
+   "Round",
+   "Shower Head",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/KSR110.BN.jpg",
+    "alt": "Chloe Round Shower Rose 250mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/KSR110.BN_b80b60ac-d2f8-42b5-8b7f-beec9d4de097.jpg",
+    "alt": "Chloe Round Shower Rose 250mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/KSR110-size.jpg",
+    "alt": "Chloe Round Shower Rose 250mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "319.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKSR110.PS",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "409.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKSR110.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "chloe-shower-rose-type-1"
+ },
+ {
+  "title": "Chloe Compact Twin Shower",
+  "descriptionHtml": "<p>The Chloe Compact twin shower combines a fixed overhead or rainfall showerhead with a fixed hand shower, offering versatility and choice.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Combination Shower Set",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Chloe",
+   "Chrome",
+   "Twin Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-KSR108-S703.CR.jpg",
+    "alt": "Chloe Compact Twin Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-KSR108-SA703.BS_1.jpg",
+    "alt": "Chloe Compact Twin Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-KSR108-S703-SIZE_1.jpg",
+    "alt": "Chloe Compact Twin Shower",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "439.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS703.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "539.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS703.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "chole-compact-round-shower-chrome"
+ },
+ {
+  "title": "Chloe Twin Rail Shower",
+  "descriptionHtml": "<p>The Chloe twin rail shower combines a fixed overhead or rainfall showerhead with a hand held shower on a rail for height adjustment.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Combination Shower Set",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Chloe",
+   "Chrome",
+   "Rail Shower",
+   "Twin Shower",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-KSR108-S4902.CR.jpg",
+    "alt": "Chloe Twin Rail Shower",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/HR002M4C-KSR108-S4902.BS.jpg",
+    "alt": "Chloe Twin Rail Shower",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "589.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS4902A.CS",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "699.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETS4902A.BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "tapware",
+   "shower-tapware"
+  ],
+  "_source": "chole-2-in-1-shower-type-2"
+ },
+ {
+  "title": "Cosimo Semi Inset Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 520 x 340 x 150mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Semi Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Basin",
+   "Ceramic",
+   "Cosimo",
+   "Semi Inset Basin",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/E408D.jpg",
+    "alt": "Cosimo Semi Inset Basin",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/E408D_1.png",
+    "alt": "Cosimo Semi Inset Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "299.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETE408D",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "semi-recessed-basins"
+  ],
+  "_source": "olivia-semi-inset-basin-copy",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Cosimo Above Counter Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 460 x 325 x 170mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Above Counter Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Above Counter Basin",
+   "Basin",
+   "Ceramic",
+   "Cosimo",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/895.jpg",
+    "alt": "Cosimo Above Counter Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "179.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBA207CT",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "above-counter-basins"
+  ],
+  "_source": "cosimo-top-mount-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Cosimo Undermount Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Built-in overflow </li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 455 x 325 x 180mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Undermount Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Basin",
+   "Ceramic",
+   "Cosimo",
+   "Undermount Basin",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSABSN6018.png",
+    "alt": "Cosimo Undermount Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "165.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBSN6018",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "undermount-basins"
+  ],
+  "_source": "cosimo-undermount-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Crystal Smart Toilet with Bidet Seat",
+  "descriptionHtml": "<p><strong>Back-to-wall design</strong><br><strong>Fully AU Standards compliant</strong><br><strong>Watermark &amp; SAA certified</strong><br><strong>WELS 3-Star \u00b7 4.0L avg flush</strong><br><strong>Built-in backup battery included</strong></p> <ul> <li>Auto Lid Open/Close<br>Microwave &amp; foot sensor \u2014 hands-free opening as you approach</li> <li>Heated Seat</li> <li>Multi-level temperature control for year-round comfort</li> <li>Smart Bidet Wash</li> <li>Rear &amp; front cleanse, moving wash, adjustable water pressure &amp; position</li> <li>Warm Air Drying</li> <li>Gentle adjustable warm-air drying after every wash cycle</li> <li>Power Outage Flush using back up battery</li> <li>Nano Deodoriser, high-efficiency nano catalyst eliminates<br>bathroom odour instantly</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Toilet Suite",
+  "status": "DRAFT",
+  "tags": [
+   "Back to Wall",
+   "Crystal",
+   "Smart Toilet",
+   "Toilet",
+   "WELS 3 Star",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/YC318GE.png",
+    "alt": "Crystal Smart Toilet with Bidet Seat",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "2999.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "toilets",
+   "back-to-wall-toilets"
+  ],
+  "_source": "crystal-smart-toilet",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-6-2"
+ },
+ {
+  "title": "Cube Wall Hung Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 455 x 255 x 120mm</li> </ul> <p>Options</p> <p>Taphole on left or right</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Wall Hung Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Basin",
+   "Ceramic",
+   "Cube",
+   "Wall Hung Basin",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Taphole",
+    "values": [
+     {
+      "name": "Left"
+     },
+     {
+      "name": "Right"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSABSN4229L.png",
+    "alt": "Cube Wall Hung Basin",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/DSABSN4229R.png",
+    "alt": "Cube Wall Hung Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Taphole",
+      "name": "Left"
+     }
+    ],
+    "price": "179.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBSN4228L",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Taphole",
+      "name": "Right"
+     }
+    ],
+    "price": "179.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBSN4229R",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins"
+  ],
+  "_source": "cube-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Eclipse LED Round Backlit Mirror",
+  "descriptionHtml": "<p>\u25cf Change between 3 tones<br>\u25cf Built-in demister<br>\u25cf Illuminating touch sensors for light and demister</p> <p>\u25cf Wall mounting screws and anchor plugs included<br>\u25cf Supplied in extra strong packaging for added protection<br>\u25cf 220-240V AC 50/60Hz<br>\u25cf Please note: Mirror must be installed by a licensed electrician in accordance with local regulations.<br>\u25cf Dimensions: 600 mm diameter or 800mm</p>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "LED Mirror",
+  "status": "DRAFT",
+  "tags": [
+   "Anti Fog",
+   "Backlit Mirror",
+   "Eclipse",
+   "Round LED Mirror",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "600mm"
+     },
+     {
+      "name": "800mm"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/2_1.jpg",
+    "alt": "Eclipse LED Round Backlit Mirror",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/600MMbathroommirrorscenegraph.jpg",
+    "alt": "Eclipse LED Round Backlit Mirror",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600mm"
+     }
+    ],
+    "price": "399.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETMIRLEDBMR15000-W600",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "800mm"
+     }
+    ],
+    "price": "499.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETMIRLEDBMR15000-W800",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "mirrors",
+   "led-mirrors"
+  ],
+  "_source": "eclipse-led-round-backlit-mirror",
+  "category": "gid://shopify/TaxonomyCategory/hg-3-47-2"
+ },
+ {
+  "title": "Malaga Antico Oak Cubby Cabinet 300mm",
+  "descriptionHtml": "<p>Open cubby side cabinet that matches the Malaga vanity range.</p><ul><li>630mm high, 455mm deep</li><li>Matches the Malaga vanity range</li><li>Finish: Antico Oak melamine</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Bathroom Tallboy",
+  "status": "DRAFT",
+  "tags": [
+   "Antico Oak",
+   "Malaga",
+   "Vanity Cabinet",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETCUBAO-1.jpg",
+    "alt": "Malaga Antico Oak Cubby Cabinet 300mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETCUB_20AO_1.png",
+    "alt": "Malaga Antico Oak Cubby Cabinet 300mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "329.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETCUB AO",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ],
+  "_source": "malaga-antico-oak-cubby-cabinet-accesory-for-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Antico Oak Wall Hung Vanity",
+  "descriptionHtml": "<p>Using a modern minimalist design the Malaga vanity range represents a fantastic addition to any bathroom. It features finger pulls instead of handles .</p><ul><li>Sizes: 600, 750, 900 and 1200mm wide, 630mm high, 455mm deep</li><li>Finger-pull doors and drawers, no handles</li><li>Supplied as cabinet; add a basin or top to suit</li><li>Finish: Antico Oak melamine</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Wall Hung Vanity",
+  "status": "DRAFT",
+  "tags": [
+   "Antico Oak",
+   "Bathroom Vanity",
+   "Malaga",
+   "Wall Hung Vanity",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "600mm"
+     },
+     {
+      "name": "750mm"
+     },
+     {
+      "name": "900mm"
+     },
+     {
+      "name": "1200mm"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-1200AO.png",
+    "alt": "Malaga Antico Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-1200AO_1.png",
+    "alt": "Malaga Antico Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106900AO-1_306dff57-3fb5-4dc9-a715-678048d1cb77.jpg",
+    "alt": "Malaga Antico Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-600AO_1.png",
+    "alt": "Malaga Antico Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-1200AO-1_a2c1cf3d-1701-48e3-bf38-4d7908f46083.jpg",
+    "alt": "Malaga Antico Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-750AO_1.png",
+    "alt": "Malaga Antico Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106750AO-1_a6bc39f5-ec17-4918-adbf-a8878e658d93.jpg",
+    "alt": "Malaga Antico Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600mm"
+     }
+    ],
+    "price": "599.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-600AO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "750mm"
+     }
+    ],
+    "price": "699.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-750AO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "900mm"
+     }
+    ],
+    "price": "899.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-900AO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "1200mm"
+     }
+    ],
+    "price": "1199.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-1200AO",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "_source": "malaga-antico-oak-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Antico Oak Vanity Kickboard",
+  "descriptionHtml": "<p>Kickboard that sits under a Malaga wall hung vanity to make it floor-standing.</p><ul><li>Sizes: 750, 900 and 1200mm wide, 425mm high, 200mm deep</li><li>Turns a Malaga wall hung vanity into a floor-standing one</li><li>Finish: Antico Oak melamine</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Vanity Kickboard",
+  "status": "DRAFT",
+  "tags": [
+   "Antico Oak",
+   "Malaga",
+   "Vanity Cabinet",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "750mm"
+     },
+     {
+      "name": "900mm"
+     },
+     {
+      "name": "1200mm"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB750A0-1.jpg",
+    "alt": "Malaga Antico Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-1200AO_1.png",
+    "alt": "Malaga Antico Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-750AO.png",
+    "alt": "Malaga Antico Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-750AO_1.png",
+    "alt": "Malaga Antico Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-900AO.png",
+    "alt": "Malaga Antico Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-900AO_1.png",
+    "alt": "Malaga Antico Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "750mm"
+     }
+    ],
+    "price": "159.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-750AO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "900mm"
+     }
+    ],
+    "price": "209.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-900AO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "1200mm"
+     }
+    ],
+    "price": "259.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-1200AO",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities"
+  ],
+  "_source": "malaga-antico-oak-kickboard-cabinet-accesory-for-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Dark Oak Cubby Cabinet 300mm",
+  "descriptionHtml": "<p>Open cubby side cabinet that matches the Malaga vanity range.</p><ul><li>630mm high, 455mm deep</li><li>Matches the Malaga vanity range</li><li>Finish: Dark Oak melamine</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Bathroom Tallboy",
+  "status": "DRAFT",
+  "tags": [
+   "Dark Oak",
+   "Malaga",
+   "Vanity Cabinet",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ET_CUB_DO-1.jpg",
+    "alt": "Malaga Dark Oak Cubby Cabinet 300mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETCUB_20DO_1.png",
+    "alt": "Malaga Dark Oak Cubby Cabinet 300mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "329.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETCUB DO",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ],
+  "_source": "malaga-dark-oak-cubby-cabinet-accesory-for-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Dark Oak Wall Hung Vanity",
+  "descriptionHtml": "<p>Using a modern minimalist design the Malaga vanity range represents a fantastic addition to any bathroom. It features finger pulls instead of handles .</p><ul><li>Sizes: 600, 750, 900 and 1200mm wide, 630mm high, 455mm deep</li><li>Finger-pull doors and drawers, no handles</li><li>Supplied as cabinet; add a basin or top to suit</li><li>Finish: Dark Oak melamine</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Wall Hung Vanity",
+  "status": "DRAFT",
+  "tags": [
+   "Bathroom Vanity",
+   "Dark Oak",
+   "Malaga",
+   "Wall Hung Vanity",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "600mm"
+     },
+     {
+      "name": "750mm"
+     },
+     {
+      "name": "900mm"
+     },
+     {
+      "name": "1200mm"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106750DO-1_1_e5c6af31-a27a-4d8f-8b12-ed23eff13c59.jpg",
+    "alt": "Malaga Dark Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106750DO-1_03e4d930-a0e9-4b79-a7b6-85b1cb67b26b.jpg",
+    "alt": "Malaga Dark Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106750DO-2_199a3fed-223b-4ae5-93d6-618c7b3dd3e2.jpg",
+    "alt": "Malaga Dark Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-1200DO-2_f352382a-d541-4004-b93c-30b89bcc22d9.jpg",
+    "alt": "Malaga Dark Oak Wall Hung Vanity",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600mm"
+     }
+    ],
+    "price": "599.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-600DO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "750mm"
+     }
+    ],
+    "price": "699.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-750DO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "900mm"
+     }
+    ],
+    "price": "899.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-900DO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "1200mm"
+     }
+    ],
+    "price": "1199.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-1200DO",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "_source": "malaga-dark-oak-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Dark Oak Vanity Kickboard",
+  "descriptionHtml": "<p>Kickboard that sits under a Malaga wall hung vanity to make it floor-standing.</p><ul><li>Sizes: 750, 900 and 1200mm wide, 425mm high, 200mm deep</li><li>Turns a Malaga wall hung vanity into a floor-standing one</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Vanity Kickboard",
+  "status": "DRAFT",
+  "tags": [
+   "Dark Oak",
+   "Malaga",
+   "Vanity Cabinet",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "750mm"
+     },
+     {
+      "name": "900mm"
+     },
+     {
+      "name": "1200mm"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ET_KB_750_DO-1.jpg",
+    "alt": "Malaga Dark Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB_20-750DO_1.png",
+    "alt": "Malaga Dark Oak Vanity Kickboard",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "750mm"
+     }
+    ],
+    "price": "159.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-750DO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "900mm"
+     }
+    ],
+    "price": "209.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-900DO",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "1200mm"
+     }
+    ],
+    "price": "259.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-1200DO",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities"
+  ],
+  "_source": "malaga-dark-oak-kickboard-cabinet-accesory-for-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Matt White Vanity Kickboard",
+  "descriptionHtml": "<p>Kickboard that sits under a Malaga wall hung vanity to make it floor-standing.</p><ul><li>Sizes: 750, 900 and 1200mm wide, 425mm high, 200mm deep</li><li>Turns a Malaga wall hung vanity into a floor-standing one</li><li>Finish: Matt White painted finish</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Vanity Kickboard",
+  "status": "DRAFT",
+  "tags": [
+   "Malaga",
+   "Matt White",
+   "Vanity Cabinet",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "750mm"
+     },
+     {
+      "name": "900mm"
+     },
+     {
+      "name": "1200mm"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ET_KB_750_W-1.jpg",
+    "alt": "Malaga Matt White Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-1200W_1.png",
+    "alt": "Malaga Matt White Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-750W.png",
+    "alt": "Malaga Matt White Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-750W_1.png",
+    "alt": "Malaga Matt White Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-900W.png",
+    "alt": "Malaga Matt White Vanity Kickboard",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETKB-900W_1.png",
+    "alt": "Malaga Matt White Vanity Kickboard",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "750mm"
+     }
+    ],
+    "price": "159.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-750W",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "900mm"
+     }
+    ],
+    "price": "209.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-900W",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "1200mm"
+     }
+    ],
+    "price": "259.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETKB-1200W",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities"
+  ],
+  "_source": "malaga-element-white-kickboard-cabinet-accesory-for-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Matt White Cubby Cabinet 300mm",
+  "descriptionHtml": "<p>Open cubby side cabinet that matches the Malaga vanity range.</p><ul><li>630mm high, 455mm deep</li><li>Matches the Malaga vanity range</li><li>Finish: Matt White painted finish</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Bathroom Tallboy",
+  "status": "DRAFT",
+  "tags": [
+   "Malaga",
+   "Matt White",
+   "Vanity Cabinet",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETCUBW-1.jpg",
+    "alt": "Malaga Matt White Cubby Cabinet 300mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETCUB_20W_1.png",
+    "alt": "Malaga Matt White Cubby Cabinet 300mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "329.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETCUB W",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ],
+  "_source": "malaga-elemental-cubby-cabinet-accesory-for-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Matt White Wall Hung Vanity",
+  "descriptionHtml": "<p>Using a modern minimalist design the Malaga vanity range represents a fantastic addition to any bathroom. It features finger pulls instead of handles .</p><ul><li>Sizes: 600, 750, 900 and 1200mm wide, 630mm high, 455mm deep</li><li>Finger-pull doors and drawers, no handles</li><li>Supplied as cabinet; add a basin or top to suit</li><li>Finish: Matt White painted finish</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Wall Hung Vanity",
+  "status": "DRAFT",
+  "tags": [
+   "Bathroom Vanity",
+   "Malaga",
+   "Matt White",
+   "Wall Hung Vanity",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Size",
+    "values": [
+     {
+      "name": "600mm"
+     },
+     {
+      "name": "750mm"
+     },
+     {
+      "name": "900mm"
+     },
+     {
+      "name": "1200mm"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-1200W.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-1200W_1.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-600W.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-600W_1.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-750W.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-750W_1.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-900W.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETOJS106-900W_1.png",
+    "alt": "Malaga Matt White Wall Hung Vanity",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "600mm"
+     }
+    ],
+    "price": "599.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-600W",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "750mm"
+     }
+    ],
+    "price": "699.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-750W",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "900mm"
+     }
+    ],
+    "price": "899.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-900W",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Size",
+      "name": "1200mm"
+     }
+    ],
+    "price": "1199.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETOJS106-1200W",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "_source": "malaga-elemental-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Malaga Matt White Single Door Cabinet 295mm",
+  "descriptionHtml": "<p>Single door side cabinet that matches the Malaga vanity range.</p><ul><li>630mm high, 455mm deep</li><li>Matches the Malaga vanity range</li><li>Finish: Matt White painted finish</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Bathroom Tallboy",
+  "status": "DRAFT",
+  "tags": [
+   "Malaga",
+   "Matt White",
+   "Vanity Cabinet",
+   "needs-cost",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETSDC_20W.png",
+    "alt": "Malaga Matt White Single Door Cabinet 295mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/ETSDC_20W_1.png",
+    "alt": "Malaga Matt White Single Door Cabinet 295mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "329.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETSDC W",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-vanities",
+   "bathroom-storage-tallboys"
+  ],
+  "_source": "malaga-elemental-single-door-cabinet-cabinet-accesory-for-eternity-range-vanity",
+  "category": "gid://shopify/TaxonomyCategory/fr-4-14-1"
+ },
+ {
+  "title": "Mezo Above Counter Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 410 x 340 x 150mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Above Counter Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Above Counter Basin",
+   "Basin",
+   "Ceramic",
+   "Mezo",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/847.jpg",
+    "alt": "Mezo Above Counter Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "179.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ET847",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "above-counter-basins"
+  ],
+  "_source": "mezo-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Olivia Above Counter Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 490 x 360 x 135mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Above Counter Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Above Counter Basin",
+   "Basin",
+   "Ceramic",
+   "Olivia",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/10001.png",
+    "alt": "Olivia Above Counter Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "299.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBA8025CT",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "above-counter-basins"
+  ],
+  "_source": "olivia-semi-above-counter-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Olivia Semi Inset Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 485 x 330 x 165mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Semi Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Basin",
+   "Ceramic",
+   "Olivia",
+   "Semi Inset Basin",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/4302S.png",
+    "alt": "Olivia Semi Inset Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "179.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBSN4302S",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "semi-recessed-basins"
+  ],
+  "_source": "olivia-semi-inset-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Ria Semi Inset Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm overflow waste (not included)</li> <li>Dimensions 360 x 360 x 120mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Semi Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Basin",
+   "Ceramic",
+   "Ria",
+   "Semi Inset Basin",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/4201.png",
+    "alt": "Ria Semi Inset Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "179.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBSN4201",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "semi-recessed-basins"
+  ],
+  "_source": "ria-semi-inset-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Ria Above Counter Basin",
+  "descriptionHtml": "<ul> <li>Gloss white finish</li> <li>Vitreous china</li> <li>Requires 32mm waste (not included)</li> <li>Dimensions 360 x 360 x 120mm</li> </ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Above Counter Basin",
+  "status": "DRAFT",
+  "tags": [
+   "Above Counter Basin",
+   "Basin",
+   "Ceramic",
+   "Ria",
+   "White",
+   "needs-cost",
+   "ship-bulky",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/4201.png",
+    "alt": "Ria Above Counter Basin",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "179.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBA222CT",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "basins",
+   "above-counter-basins"
+  ],
+  "_source": "ria-top-mount-basin",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-3-5-1"
+ },
+ {
+  "title": "Tile Insert Floor Waste 50mm, 100 x 100mm",
+  "descriptionHtml": "<p>Tile insert floor waste with a square 100 x 100mm top, so the floor tile runs through the grate.</p><ul><li>Finish: Chrome</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Floor Drains",
+  "status": "DRAFT",
+  "tags": [
+   "Chrome",
+   "Floor Drains",
+   "Floor Waste",
+   "Tile Insert",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/SQTI01-100D-80.BS_8428515b-1680-471b-821a-f56d1ba10421.jpg",
+    "alt": "Tile Insert Floor Waste 50mm, 100 x 100mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "62.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes"
+  ],
+  "_source": "tiles-insert-floor-waste-50mm-top-100x100mm",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-2-3-1"
+ },
+ {
+  "title": "Tile Insert Floor Waste 80mm, 100 x 100mm",
+  "descriptionHtml": "<p>Tile insert floor waste with a square 100 x 100mm top, so the floor tile runs through the grate.</p><ul><li>Finish: Chrome</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Floor Drains",
+  "status": "DRAFT",
+  "tags": [
+   "Chrome",
+   "Floor Drains",
+   "Floor Waste",
+   "Tile Insert",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/SQTI01-100D-80.BS_56f53b76-66d3-4bd8-8f09-b3148367877a.jpg",
+    "alt": "Tile Insert Floor Waste 80mm, 100 x 100mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/SQTI01-100D-80.BS_-_Size.jpg",
+    "alt": "Tile Insert Floor Waste 80mm, 100 x 100mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETSQT101-100D-80-BS",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes"
+  ],
+  "_source": "tiles-insert-floor-waste-80mm-top-100x100mm",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-2-3-1"
+ },
+ {
+  "title": "Twist Top Floor Drain 100mm",
+  "descriptionHtml": "<p>Twist-top floor drain with a removable grate.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Floor Drains",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Chrome",
+   "Floor Drains",
+   "Floor Waste",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/BD073.CR_ddc95546-542f-4a2a-8675-ef256854a8d9.jpg",
+    "alt": "Twist Top Floor Drain 100mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/1756372119_68eb5bbe-84e3-4aad-b6d7-34481bb20e52.png",
+    "alt": "Twist Top Floor Drain 100mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/BD073-SIZE_1_a2166569-6b81-43cc-954a-d739eafa7d00.jpg",
+    "alt": "Twist Top Floor Drain 100mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "18.70",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBD078.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "23.10",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBD078.BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes"
+  ],
+  "_source": "twist-top-floor-drain-100mm-chrome",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-2-3-1"
+ },
+ {
+  "title": "Twist Top Floor Drain 80mm",
+  "descriptionHtml": "<p>Twist-top floor drain with a removable grate.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Floor Drains",
+  "status": "DRAFT",
+  "tags": [
+   "Brushed Nickel",
+   "Chrome",
+   "Floor Drains",
+   "Floor Waste",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/BD073.CR_63884728-61d7-4279-9c63-ea4aab398185.jpg",
+    "alt": "Twist Top Floor Drain 80mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/1756372119_338afe95-f4d4-4b66-9af0-108798922b93.png",
+    "alt": "Twist Top Floor Drain 80mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "16.50",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETBD073.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "20.90",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETD073.BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes"
+  ],
+  "_source": "twist-top-floor-drain-80mm-chrome",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-2-3-1"
+ },
+ {
+  "title": "Celine Universal Pop Up Waste 32/40mm",
+  "descriptionHtml": "<p>Pop up waste with a push-button plug; match the finish to your tapware.</p><ul><li>Finish: Chrome or Brushed Nickel</li></ul>",
+  "vendor": "Excellent Tiling Services",
+  "productType": "Pop Up Waste",
+  "status": "DRAFT",
+  "tags": [
+   "Basin Waste",
+   "Brushed Nickel",
+   "Celine",
+   "Chrome",
+   "Pop Up Waste",
+   "needs-cost",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "metafields": [
+   {
+    "namespace": "custom",
+    "key": "supplier",
+    "type": "single_line_text_field",
+    "value": "Eternity Tiles"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Finish",
+    "values": [
+     {
+      "name": "Chrome"
+     },
+     {
+      "name": "Brushed Nickel"
+     }
+    ]
+   }
+  ],
+  "files": [
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/K80.CR_d05e4dbd-532e-43b5-b918-6da45de484ff.jpg",
+    "alt": "Celine Universal Pop Up Waste 32/40mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/K80-SIZE_1_1bad27f5-7288-4bbe-bac4-5b44d9beef3f.jpg",
+    "alt": "Celine Universal Pop Up Waste 32/40mm",
+    "contentType": "IMAGE"
+   },
+   {
+    "originalSource": "https://cdn.shopify.com/s/files/1/0827/3235/1706/files/K80.BN_0dec92f3-56b2-4783-a8a5-c1cc33fcab7d.jpg",
+    "alt": "Celine Universal Pop Up Waste 32/40mm",
+    "contentType": "IMAGE"
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Chrome"
+     }
+    ],
+    "price": "49.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETK81.CR",
+     "tracked": false
+    }
+   },
+   {
+    "optionValues": [
+     {
+      "optionName": "Finish",
+      "name": "Brushed Nickel"
+     }
+    ],
+    "price": "69.00",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "ETK81.BN",
+     "tracked": false
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes",
+   "accessories"
+  ],
+  "_source": "universal-pop-up-waste-type-2"
+ }
+]

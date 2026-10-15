@@ -15,7 +15,8 @@ safely. Written for the owner and for the `ets-pricing` agent (`.claude/agents/e
 |---|---|---|---|
 | Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt` (5 Oct 2026 wholesale PDF), "non pallet" price | ex GST |
 | MELA bathroomware | via Bathroom City | Bathroom City list price × (1 − SILVER trade discount) ÷ 1.1 | ex GST |
-| Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify | ex GST |
+| Roberts Designs (vendor) | Roberts Designs | unit cost in Shopify = trade-account price x 1.1 (owner, 14 Oct 2026: the account prices did not include GST) | as stored; use the floor formula as is |
+| Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify (trade-account price, 28 Sep 2026) | ex GST |
 | BAT, RLA, Click (a few items) | – | **no cost recorded**, prices left alone | – |
 
 SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off the GST-inclusive list price:
@@ -43,14 +44,14 @@ baths). Those are reported as "can't beat profitably", never matched.
 ## The rules (all prices inc GST, costs ex GST)
 
 - **Public floor** = cost × 1.1 × 1.25 (at least 20% of the selling price is profit).
-- **Trade floor** = cost × 1.1 × 1.15.
+- **Trade floor** (owner, 14 Oct 2026): the trade price must leave **20% margin ex GST**, i.e. trade price ≥ cost ÷ 0.8 × 1.1. (Until 14 Oct it was cost × 1.1 × 1.15, about 13%, which the owner found too cheap.)
 - **MELA** = 5% under Bathroom City's current price, rounded down to the dollar.
 - **Hardware B&B also sells** = 5% under B&B, rounded down to 5c.
 - **Other hardware** = 10% under the supplier RRP (our old price), rounded down to 5c.
 - **Tiles** = 15% under Eternity RRP, rounded down to 10c (`eternity_2026_10.py`).
 - Never undercut below the public floor. Prices below the floor are raised only with the owner's OK.
 - **Trade bands** (per product, not per variant): the deepest of 25 / 20 / 15 / 10 / 5% that keeps every
-  variant above the trade floor. Tiles max 15%.
+  variant above the trade floor. Tiles max 15%. A product with no band that works gets no trade discount (it is in none of the `trade-list-N` collections).
 
 ## Where things are in Shopify
 

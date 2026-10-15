@@ -102,13 +102,13 @@ def build(rows, path, mode):
                     Paragraph(r["sku"], styles["cell"]),
                     money(r["new_price"]) + unit(r)]
             if owner:
-                band = int(r["trade_band"])
+                band = int(r["trade_band"] or 0)
                 cost = float(r["cost"]) * 1.1 if r["cost"] else None
-                price, tp = float(r["new_price"]), float(r["trade_price"])
+                price, tp = float(r["new_price"]), float(r["trade_price"] or 0)
                 line = line[:3] + [money(cost) if cost else "–", line[3], pct(cost, price) if cost else "",
                                    money(tp) if band else "–", pct(cost, tp) if cost and band else ""]
             elif trade:
-                band = int(r["trade_band"])
+                band = int(r["trade_band"] or 0)
                 line += [money(r["trade_price"]) + unit(r) if band else "–", f"{band}%" if band else ""]
             data.append(line)
         t = Table(data, colWidths=widths, repeatRows=1)
@@ -130,7 +130,7 @@ def build(rows, path, mode):
         canvas.saveState()
         canvas.setFont("Sans", 7)
         canvas.setFillColor(colors.HexColor("#777777"))
-        canvas.drawString(15 * mm, 10 * mm, f"Excellent Tiling Services Pty Ltd · {title} · 3 October 2026")
+        canvas.drawString(15 * mm, 10 * mm, f"Excellent Tiling Services Pty Ltd · {title} · 14 October 2026")
         canvas.drawRightString(page[0] - 15 * mm, 10 * mm, f"Page {doc.page}")
         canvas.restoreState()
 
