@@ -1,5 +1,5 @@
 sku,product,option,roberts_list_price,market_price_used,market_source,our_price,our_cost,margin_pct,price_check,shipping
-RDXT987,20 Litre Maxisil Bucket,,16.2,16.2,roberts-list,14.55,9.00,32.0,,small parcel
+RDXT987,20 Litre Maxisil Bucket,,16.2,16.2,roberts-list,14.55,9.90,25.2,,small parcel
 RDXT307,3 piece Spare Roller – 75mm for RDXT308,,4.7,4.7,roberts-list,3.80,2.59,25.0,,small parcel
 RDXT230,3 x Spare rollers for RDXT232,,11.9,11.9,roberts-list,8.70,5.23,33.9,,small parcel
 RDXA3642,ART 4BN Sigma NEX Tile Cutter 62CM (Push Scoring),,1034.15,624.0,web:National Tiles,1007.95,576.25,37.1,,pickup/quote
@@ -342,115 +342,115 @@ RDXT918,M14 Adapter for Vacuum Brazed Drill Bit,,24.7,23.84,match:tilemart,20.65
 RDXM50303,Main switch (For F200),,385.0,385.0,roberts-list,270.00,196.35,20.0,,small parcel
 RDXM50304,Main switch (For F300),,385.0,385.0,roberts-list,339.99,196.35,36.5,,small parcel
 RDXB2017,Masking Tape,,11.9,11.9,roberts-list,9.60,5.78,33.8,,small parcel
-RDXA3000,Maxisil Applicator,,13.35,13.35,match:tilemart,11.20,6.90,32.2,,small parcel
-RDX2004,Maxisil Cleaner – 250ml,,14.8,14.8,match:tilemart,12.30,7.60,32.0,,small parcel
-RDXA2050a,Maxisil Corner Nozzles 3 Pack,,12.95,12.95,match:tilemart,10.85,6.70,32.1,,small parcel
-RDXA2051,Maxisil Extension Nozzles 6 Pk,,12.55,12.55,match:tilemart,10.50,6.50,31.9,,small parcel
-RDG10an,Maxisil Grout – 10kg,Anthracite,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10bl,Maxisil Grout – 10kg,Black,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10g,Maxisil Grout – 10kg,Grey,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10hav,Maxisil Grout – 10kg,Havana,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10lg,Maxisil Grout – 10kg,Light Grey,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10mg,Maxisil Grout – 10kg,Mid Grey,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10sw,Maxisil Grout – 10kg,Snow White,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10sto,Maxisil Grout – 10kg,Stone,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10tr,Maxisil Grout – 10kg,Travertine,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG10w,Maxisil Grout – 10kg,White,54.25,54.25,match:tilemart,46.75,27.75,34.7,,pickup/quote
-RDG2an,Maxisil Grout – 2kg,Anthracite,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2bl,Maxisil Grout – 2kg,Black,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2g,Maxisil Grout – 2kg,Grey,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2hav,Maxisil Grout – 2kg,Havana,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2lg,Maxisil Grout – 2kg,Light Grey,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2mg,Maxisil Grout – 2kg,Mid Grey,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2sw,Maxisil Grout – 2kg,Snow White,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2sto,Maxisil Grout – 2kg,Stone,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2tr,Maxisil Grout – 2kg,Travertine,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG2w,Maxisil Grout – 2kg,White,24.85,24.85,match:tilemart,20.65,12.65,32.6,,pickup/quote
-RDG5an,Maxisil Grout – 5kg,Anthracite,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5bl,Maxisil Grout – 5kg,Black,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5g,Maxisil Grout – 5kg,Grey,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5hav,Maxisil Grout – 5kg,Havana,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5lg,Maxisil Grout – 5kg,Light Grey,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5mg,Maxisil Grout – 5kg,Mid Grey,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5sw,Maxisil Grout – 5kg,Snow White,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5sto,Maxisil Grout – 5kg,Stone,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5tr,Maxisil Grout – 5kg,Travertine,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDG5w,Maxisil Grout – 5kg,White,34.45,34.45,match:tilemart,29.65,17.60,34.7,,pickup/quote
-RDX4001,Maxisil Maxigrab Adhesive,Crystal,23.5,23.5,roberts-list,18.85,12.00,30.0,,small parcel
-RDX4000,Maxisil Maxigrab Adhesive,Original,22.4,22.4,roberts-list,15.99,11.40,21.6,,small parcel
-RDX1007,Maxisil Membrane Silicone,,17.95,17.95,roberts-list,14.99,9.00,34.0,,small parcel
-RDX1001ala,Maxisil Natural Stone Silicone,Alabaster,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001an,Maxisil Natural Stone Silicone,Anthracite,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001bg,Maxisil Natural Stone Silicone,Beige,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001bl,Maxisil Natural Stone Silicone,Black,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001br,Maxisil Natural Stone Silicone,Brown,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001cl,Maxisil Natural Stone Silicone,Clear,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001dg,Maxisil Natural Stone Silicone,Drak Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001g,Maxisil Natural Stone Silicone,Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001hav,Maxisil Natural Stone Silicone,Havana,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001lg,Maxisil Natural Stone Silicone,Light Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001man,Maxisil Natural Stone Silicone,Manhattan,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001manth,Maxisil Natural Stone Silicone,Matte Anthracite,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001mb,Maxisil Natural Stone Silicone,Matte Black,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001mdg,Maxisil Natural Stone Silicone,Matte Dark Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001mman,Maxisil Natural Stone Silicone,Matte Manhattan,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001mmon,Maxisil Natural Stone Silicone,Matte Monumento,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001mw,Maxisil Natural Stone Silicone,Matte White,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001mon,Maxisil Natural Stone Silicone,Monumento,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001pg,Maxisil Natural Stone Silicone,Pearl Grey,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001tr,Maxisil Natural Stone Silicone,Travertine,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001v,Maxisil Natural Stone Silicone,Vanilla,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1001w,Maxisil Natural Stone Silicone,White,32.9,32.9,roberts-list,27.99,16.50,35.2,,small parcel
-RDX1004b,Maxisil Pool Silicone,Black,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
-RDX1004g,Maxisil Pool Silicone,Grey,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
-RDX1004iv,Maxisil Pool Silicone,Ivory,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
-RDX1004lg,Maxisil Pool Silicone,Light Grey,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
-RDX1004ow,Maxisil Pool Silicone,Off White,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
-RDX1004w,Maxisil Pool Silicone,White,38.8,38.8,roberts-list,31.99,20.20,30.5,,small parcel
-RDXA3012,Maxisil Sausage Caulking Gun 600ml,,63.0,45.0,match:westerndist,62.95,35.00,38.8,,small parcel
-RDXA3010,Maxisil Silicone Nozzle Unblocker,,14.8,14.8,match:tilemart,12.30,7.60,32.0,,small parcel
-RDXT984,Maxisil Spray Bottle – 500ml,,11.95,11.95,match:tilemart,9.80,6.05,32.1,,small parcel
-RDX1000ala,Maxisil Wet Area Silicone,Alabaster,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000alu,Maxisil Wet Area Silicone,Aluminium,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000an,Maxisil Wet Area Silicone,Anthracite,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000Bahb,Maxisil Wet Area Silicone,Bahama Beige,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000bas,Maxisil Wet Area Silicone,Basalt,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000bg,Maxisil Wet Area Silicone,Beige,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000bl,Maxisil Wet Area Silicone,Black,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000blg,Maxisil Wet Area Silicone,Blue Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000br,Maxisil Wet Area Silicone,Brown,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000can,Maxisil Wet Area Silicone,Canvas,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000cash,Maxisil Wet Area Silicone,Cashmere,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000cl,Maxisil Wet Area Silicone,Clear,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000coc,Maxisil Wet Area Silicone,Cocoa,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000cot,Maxisil Wet Area Silicone,Cotto,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000dter,Maxisil Wet Area Silicone,Deep Terracotta,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000fg,Maxisil Wet Area Silicone,Flash Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000g,Maxisil Wet Area Silicone,Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000hav,Maxisil Wet Area Silicone,Havana,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000iv,Maxisil Wet Area Silicone,Ivory,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000lg,Maxisil Wet Area Silicone,Light Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000ma,Maxisil Wet Area Silicone,Matte Anthracite,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mbl,Maxisil Wet Area Silicone,Matte Black,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mgr,Maxisil Wet Area Silicone,Matte Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mlg,Maxisil Wet Area Silicone,Matte Light Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mmg,Maxisil Wet Area Silicone,Matte Mid Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mw,Maxisil Wet Area Silicone,Matte White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mb,Maxisil Wet Area Silicone,Mid Beige,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mbr,Maxisil Wet Area Silicone,Mid Brown,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000mg,Maxisil Wet Area Silicone,Mid Grey,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000moc,Maxisil Wet Area Silicone,Mocha,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000ow,Maxisil Wet Area Silicone,Off White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000pewg,Maxisil Wet Area Silicone,Pewter,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000plat,Maxisil Wet Area Silicone,Platinum,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000r,Maxisil Wet Area Silicone,Red,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000s,Maxisil Wet Area Silicone,Sand,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000sw,Maxisil Wet Area Silicone,Snow White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000sto,Maxisil Wet Area Silicone,Stone,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000tau,Maxisil Wet Area Silicone,Taupe,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000tr,Maxisil Wet Area Silicone,Travertine,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000v,Maxisil Wet Area Silicone,Vanilla,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
-RDX1000w,Maxisil Wet Area Silicone,White,24.65,24.65,roberts-list,16.25,11.80,20.1,,small parcel
+RDXA3000,Maxisil Applicator,,13.35,13.35,match:tilemart,11.20,7.59,25.5,,small parcel
+RDX2004,Maxisil Cleaner – 250ml,,14.8,14.8,match:tilemart,12.30,8.36,25.2,,small parcel
+RDXA2050a,Maxisil Corner Nozzles 3 Pack,,12.95,12.95,match:tilemart,10.85,7.37,25.3,,small parcel
+RDXA2051,Maxisil Extension Nozzles 6 Pk,,12.55,12.55,match:tilemart,10.50,7.15,25.1,,small parcel
+RDG10an,Maxisil Grout – 10kg,Anthracite,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10bl,Maxisil Grout – 10kg,Black,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10g,Maxisil Grout – 10kg,Grey,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10hav,Maxisil Grout – 10kg,Havana,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10lg,Maxisil Grout – 10kg,Light Grey,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10mg,Maxisil Grout – 10kg,Mid Grey,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10sw,Maxisil Grout – 10kg,Snow White,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10sto,Maxisil Grout – 10kg,Stone,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10tr,Maxisil Grout – 10kg,Travertine,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG10w,Maxisil Grout – 10kg,White,54.25,54.25,match:tilemart,46.75,30.53,28.2,,pickup/quote
+RDG2an,Maxisil Grout – 2kg,Anthracite,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2bl,Maxisil Grout – 2kg,Black,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2g,Maxisil Grout – 2kg,Grey,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2hav,Maxisil Grout – 2kg,Havana,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2lg,Maxisil Grout – 2kg,Light Grey,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2mg,Maxisil Grout – 2kg,Mid Grey,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2sw,Maxisil Grout – 2kg,Snow White,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2sto,Maxisil Grout – 2kg,Stone,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2tr,Maxisil Grout – 2kg,Travertine,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG2w,Maxisil Grout – 2kg,White,24.85,24.85,match:tilemart,20.65,13.92,25.8,,pickup/quote
+RDG5an,Maxisil Grout – 5kg,Anthracite,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5bl,Maxisil Grout – 5kg,Black,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5g,Maxisil Grout – 5kg,Grey,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5hav,Maxisil Grout – 5kg,Havana,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5lg,Maxisil Grout – 5kg,Light Grey,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5mg,Maxisil Grout – 5kg,Mid Grey,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5sw,Maxisil Grout – 5kg,Snow White,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5sto,Maxisil Grout – 5kg,Stone,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5tr,Maxisil Grout – 5kg,Travertine,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDG5w,Maxisil Grout – 5kg,White,34.45,34.45,match:tilemart,29.65,19.36,28.2,,pickup/quote
+RDX4001,Maxisil Maxigrab Adhesive,Crystal,23.5,23.5,roberts-list,18.85,13.20,23.0,,small parcel
+RDX4000,Maxisil Maxigrab Adhesive,Original,22.4,22.4,roberts-list,15.99,12.54,13.7,,small parcel
+RDX1007,Maxisil Membrane Silicone,,17.95,17.95,roberts-list,14.99,9.90,27.4,,small parcel
+RDX1001ala,Maxisil Natural Stone Silicone,Alabaster,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001an,Maxisil Natural Stone Silicone,Anthracite,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001bg,Maxisil Natural Stone Silicone,Beige,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001bl,Maxisil Natural Stone Silicone,Black,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001br,Maxisil Natural Stone Silicone,Brown,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001cl,Maxisil Natural Stone Silicone,Clear,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001dg,Maxisil Natural Stone Silicone,Drak Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001g,Maxisil Natural Stone Silicone,Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001hav,Maxisil Natural Stone Silicone,Havana,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001lg,Maxisil Natural Stone Silicone,Light Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001man,Maxisil Natural Stone Silicone,Manhattan,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001manth,Maxisil Natural Stone Silicone,Matte Anthracite,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001mb,Maxisil Natural Stone Silicone,Matte Black,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001mdg,Maxisil Natural Stone Silicone,Matte Dark Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001mman,Maxisil Natural Stone Silicone,Matte Manhattan,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001mmon,Maxisil Natural Stone Silicone,Matte Monumento,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001mw,Maxisil Natural Stone Silicone,Matte White,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001mon,Maxisil Natural Stone Silicone,Monumento,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001pg,Maxisil Natural Stone Silicone,Pearl Grey,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001tr,Maxisil Natural Stone Silicone,Travertine,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001v,Maxisil Natural Stone Silicone,Vanilla,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1001w,Maxisil Natural Stone Silicone,White,32.9,32.9,roberts-list,27.99,18.15,28.7,,small parcel
+RDX1004b,Maxisil Pool Silicone,Black,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
+RDX1004g,Maxisil Pool Silicone,Grey,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
+RDX1004iv,Maxisil Pool Silicone,Ivory,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
+RDX1004lg,Maxisil Pool Silicone,Light Grey,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
+RDX1004ow,Maxisil Pool Silicone,Off White,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
+RDX1004w,Maxisil Pool Silicone,White,38.8,38.8,roberts-list,31.99,22.22,23.6,,small parcel
+RDXA3012,Maxisil Sausage Caulking Gun 600ml,,63.0,45.0,match:westerndist,62.95,38.50,32.7,,small parcel
+RDXA3010,Maxisil Silicone Nozzle Unblocker,,14.8,14.8,match:tilemart,12.30,8.36,25.2,,small parcel
+RDXT984,Maxisil Spray Bottle – 500ml,,11.95,11.95,match:tilemart,9.80,6.66,25.2,,small parcel
+RDX1000ala,Maxisil Wet Area Silicone,Alabaster,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000alu,Maxisil Wet Area Silicone,Aluminium,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000an,Maxisil Wet Area Silicone,Anthracite,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000Bahb,Maxisil Wet Area Silicone,Bahama Beige,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000bas,Maxisil Wet Area Silicone,Basalt,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000bg,Maxisil Wet Area Silicone,Beige,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000bl,Maxisil Wet Area Silicone,Black,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000blg,Maxisil Wet Area Silicone,Blue Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000br,Maxisil Wet Area Silicone,Brown,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000can,Maxisil Wet Area Silicone,Canvas,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000cash,Maxisil Wet Area Silicone,Cashmere,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000cl,Maxisil Wet Area Silicone,Clear,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000coc,Maxisil Wet Area Silicone,Cocoa,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000cot,Maxisil Wet Area Silicone,Cotto,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000dter,Maxisil Wet Area Silicone,Deep Terracotta,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000fg,Maxisil Wet Area Silicone,Flash Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000g,Maxisil Wet Area Silicone,Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000hav,Maxisil Wet Area Silicone,Havana,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000iv,Maxisil Wet Area Silicone,Ivory,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000lg,Maxisil Wet Area Silicone,Light Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000ma,Maxisil Wet Area Silicone,Matte Anthracite,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mbl,Maxisil Wet Area Silicone,Matte Black,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mgr,Maxisil Wet Area Silicone,Matte Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mlg,Maxisil Wet Area Silicone,Matte Light Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mmg,Maxisil Wet Area Silicone,Matte Mid Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mw,Maxisil Wet Area Silicone,Matte White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mb,Maxisil Wet Area Silicone,Mid Beige,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mbr,Maxisil Wet Area Silicone,Mid Brown,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000mg,Maxisil Wet Area Silicone,Mid Grey,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000moc,Maxisil Wet Area Silicone,Mocha,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000ow,Maxisil Wet Area Silicone,Off White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000pewg,Maxisil Wet Area Silicone,Pewter,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000plat,Maxisil Wet Area Silicone,Platinum,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000r,Maxisil Wet Area Silicone,Red,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000s,Maxisil Wet Area Silicone,Sand,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000sw,Maxisil Wet Area Silicone,Snow White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000sto,Maxisil Wet Area Silicone,Stone,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000tau,Maxisil Wet Area Silicone,Taupe,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000tr,Maxisil Wet Area Silicone,Travertine,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000v,Maxisil Wet Area Silicone,Vanilla,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
+RDX1000w,Maxisil Wet Area Silicone,White,24.65,24.65,roberts-list,16.25,12.98,12.1,,small parcel
 RDXT2011,Mesh Rim Diamond Blades – Red,105mm,43.2,43.2,roberts-list,28.00,22.39,12.0,,small parcel
 RDXT2012,Mesh Rim Diamond Blades – Red,125mm,61.05,61.05,roberts-list,38.65,30.91,12.0,,small parcel
 RDXT2013,Mesh Rim Diamond Blades – Red,200mm,139.9,139.9,roberts-list,87.50,69.96,12.1,,small parcel
@@ -485,11 +485,11 @@ RDXB2013,Pallet Wrap Roll,,73.5,73.5,roberts-list,59.75,35.86,34.0,,pickup/quote
 RDXT802,Premium Diamond Sintered Pin Drill,10mm,71.65,65.1,match:tilemart,42.85,34.27,12.0,,small parcel
 RDXT803,Premium Diamond Sintered Pin Drill,12mm,77.85,70.67,match:tilemart,45.80,36.63,12.0,,small parcel
 RDXT801,Premium Diamond Sintered Pin Drill,8mm,70.05,63.53,match:tilemart,41.00,32.78,12.1,,small parcel
-RDX2012,Primer 1215,,118.7,118.7,roberts-list,113.35,62.60,39.3,,small parcel
-RDX2014,Primer 1216,,118.7,118.7,roberts-list,113.35,62.60,39.3,,small parcel
-RDX2016,Primer 1217,,118.7,118.7,roberts-list,113.35,62.60,39.3,,small parcel
-RDX2017c,Primer 1218 – For Maxisil Pool,1 litre,490.4,490.4,roberts-list,429.25,257.30,34.1,,pickup/quote
-RDX2017b,Primer 1218 – For Maxisil Pool,250ml,143.5,143.5,roberts-list,137.65,76.50,38.9,,pickup/quote
+RDX2012,Primer 1215,,118.7,118.7,roberts-list,113.35,68.86,33.2,,small parcel
+RDX2014,Primer 1216,,118.7,118.7,roberts-list,113.35,68.86,33.2,,small parcel
+RDX2016,Primer 1217,,118.7,118.7,roberts-list,113.35,68.86,33.2,,small parcel
+RDX2017c,Primer 1218 – For Maxisil Pool,1 litre,490.4,490.4,roberts-list,429.25,283.03,27.5,,pickup/quote
+RDX2017b,Primer 1218 – For Maxisil Pool,250ml,143.5,143.5,roberts-list,137.65,84.15,32.8,,pickup/quote
 RDXT306,Pro Japanese Style Grout Float Timber Handle,,32.1,32.1,roberts-list,24.25,18.64,15.4,,small parcel
 RDXT404,Pro Tile “GT” Nipper,,36.75,33.39,match:tilemart,24.65,14.79,34.0,,small parcel
 RDXT502,Professional Quality Maxi Grip Grout Rake,,18.95,18.95,roberts-list,15.10,9.08,33.9,,small parcel
@@ -611,10 +611,10 @@ RDXT662,Siri Yellow Epoxy Grouting Pad,,33.9,33.9,roberts-list,20.70,15.05,20.0,
 RDXT610,Siri Yellow Sponge No cuts – Fits RDXT609 Handle,,26.3,26.3,roberts-list,20.10,12.55,31.3,,small parcel
 RDXT611,Siri Yellow Sponge With Cuts – Fits RDXT609 Handle,,27.4,27.4,roberts-list,23.90,13.05,39.9,,small parcel
 RDX1999,Smoothtex A,1 litre,28.5,28.5,roberts-list,23.25,14.60,30.9,,small parcel
-RDX2000,Smoothtex A,250ml,16.25,16.25,roberts-list,14.70,8.45,36.8,,small parcel
-RDX2002,Smoothtex A,5 litre,94.95,94.95,roberts-list,89.05,48.70,39.8,,small parcel
-RDX2020,Smoothtex N,1 litre,28.5,28.5,roberts-list,26.05,14.60,38.3,,small parcel
-RDX2019,Smoothtex N,250ml,16.25,16.25,roberts-list,14.95,8.45,37.8,,small parcel
+RDX2000,Smoothtex A,250ml,16.25,16.25,roberts-list,14.70,9.29,30.5,,small parcel
+RDX2002,Smoothtex A,5 litre,94.95,94.95,roberts-list,89.05,53.57,33.8,,small parcel
+RDX2020,Smoothtex N,1 litre,28.5,28.5,roberts-list,26.05,16.06,32.2,,small parcel
+RDX2019,Smoothtex N,250ml,16.25,16.25,roberts-list,14.95,9.29,31.6,,small parcel
 SOC102,Socket Bits (2) fits red spindle,,6.9,6.9,roberts-list,4.30,2.59,33.7,,small parcel
 RDXT219A,Splash Trowel,,18.95,11.0,match:westerndist,15.10,9.08,33.9,,small parcel
 RDTT63B,Square Edge Aluminium Corner,10mm / Black,15.55,15.55,roberts-list,12.90,8.75,25.4,,small parcel

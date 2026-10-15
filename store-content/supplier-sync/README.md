@@ -130,6 +130,8 @@ The owner confirmed the Roberts Designs trade-account prices recorded as cost on
 - `../pricing/store-pricing-2026-10-03.csv`: cost, price and margins refreshed on the 694 Roberts Designs rows (`cost_src` says so); the other Roberts-supplied brands had their price and margins refreshed only.
 - 48 Roberts Designs variants are now under the 25% profit floor (cost x 1.1 x 1.25), between 12.0% and 19.1% margin. They are listed worst-first in `../pricing/reports/roberts-gst-below-floor-2026-10-14.csv` for the owner to decide. Nothing was repriced.
 
+**15 Oct 2026:** the owner said Maxisil costs were also ex GST. The 120 Maxisil variants in Shopify now carry cost x 1.1 as well; Sigma, Siri, Baron and Barwalt are still at their 28 Sep cost.
+
 ## DSA bathroomware from Eternity (14 Oct 2026)
 
 Everything Eternity lists under vendor "DSA" that is not a tile (the tiles were already in the store):
