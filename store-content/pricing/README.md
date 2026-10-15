@@ -118,3 +118,11 @@ The owner found the trade prices too cheap: the 3 Oct bands were the deepest dis
 - 906 products checked, 840 moved between the `trade-list-N` collections. Bands now: 25% → 17 products, 20% → 233, 15% → 235, 10% → 65, 5% → 231; 123 products (72 MELA, 25 Roberts Designs, 26 other) come off the trade lists because no band keeps 20%. Two products with no cost (Click powerblock, RLA additive) were left where they were.
 - Median margin after the trade discount is now 22.8% (minimum 19.9%).
 - `store-pricing-2026-10-03.csv`: `trade_band`, `trade_price` and `trade_margin_pct` refreshed on every trade-listed row. `reports/trade-price-check-2026-10-14.csv` is the before/after check with the band each floor would give. Price-list PDFs regenerated.
+
+## Maxisil costs and trade bands (15 Oct 2026)
+
+The owner confirmed Maxisil costs from the Roberts trade account were ex GST, and that trade customers were getting Maxisil too cheap. The 120 Maxisil variants now carry cost x 1.1, and each Maxisil product was re-banded to the deepest trade discount that keeps a 20% margin. **Public prices were left unchanged on the owner's instruction.**
+
+- 18 products moved to a smaller discount (mostly 15% to 5%, grout 5/10kg and Natural Stone to 10%, primers 1215-1217 and the caulking gun to 15%). Pool silicone no longer gets a trade discount. Wet Area silicone and Maxigrab already had none.
+- Wet Area silicone ($16.25, 12% margin on the new cost) and Maxigrab ($15.99 / $18.85, 14% and 23%) now sit under the 20% profit floor at the public price. Online they sell for about $18.50 and $22.12, so there is room to raise them if the owner wants.
+
