@@ -1,6 +1,6 @@
 """Weekly pricing check: our live prices vs Bathroom City (MELA) and B&B Hardware, against our profit floors.
 
-Reads only public product feeds (no Shopify login needed) plus store-pricing-2026-10-03.csv for costs and
+Reads only public product feeds (no Shopify login needed) plus store-pricing-2026-10-11.csv for costs and
 trade bands. Changes nothing; writes a Markdown report for the owner to approve.
 
 Usage: monitor_competitors.py [report.md]
@@ -9,11 +9,11 @@ import csv, json, math, os, sys, time, urllib.request
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
-from reprice_2026_10 import BB_MATCH, GST, PUB_MARKUP  # noqa: E402
+from reprice_2026_10_12 import BB_MATCH, GST, PUB_MARKUP  # noqa: E402
 
 FEEDS = {"ours": "https://excellenttilingservice.com.au", "bc": "https://bathroom-city.com.au",
          "bb": "https://bbhardware.com.au"}
-PLAN = os.path.join(HERE, "store-pricing-2026-10-03.csv")
+PLAN = os.path.join(HERE, "store-pricing-2026-10-12.csv")
 MELA_MAP = os.path.join(HERE, "mela-pricing-2026-10-01.csv")
 
 
@@ -40,7 +40,12 @@ def main(report_path):
     mela = {r["vid"].split("/")[-1]: r for r in csv.DictReader(open(MELA_MAP))}
     ours = {str(v["id"]): (p, v) for p in feed(FEEDS["ours"]) for v in p["variants"]}
     bc = {(p["title"], v["sku"]): float(v["price"]) for p in feed(FEEDS["bc"]) for v in p["variants"]}
-    bb = {p["title"]: float(p["variants"][0]["price"]) for p in feed(FEEDS["bb"])}
+    bb = {}
+    for p in feed(FEEDS["bb"]):
+        for v in p["variants"]:
+            t = p["title"] + ("" if v["title"] == "Default Title" else " / " + v["title"])
+            bb[t] = float(v["price"])
+            bb.setdefault(p["title"], float(p["variants"][0]["price"]))
 
     undercut, drift, floor_breach, unplanned, gone = [], [], [], [], []
     for vid, (p, v) in ours.items():

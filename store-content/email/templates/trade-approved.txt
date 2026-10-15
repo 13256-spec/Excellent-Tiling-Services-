@@ -1,0 +1,4 @@
+Your trade account is approved. Log in with this email and your trade prices show automatically (15% off tiles, 5 to 25% off the rest). Log in: https://excellenttilingservice.com.au/account/login
+
+Excellent Tiling Services, 17A Olga Road, Maddington WA 6109. 0450 960 543.
+Unsubscribe: {% unsubscribe_link %}

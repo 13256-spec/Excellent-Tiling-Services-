@@ -71,7 +71,7 @@ the owner's calendar (`ets-calendar`) in the same job; never leave the calendar 
 - **Content**: captions (Instagram + Facebook, with 8–10 hashtags from the campaign doc), graphics in the
   brand system, Reel shot lists the owner can film on his phone, Marketplace listing text, Google Business
   posts, short helpful answers for Perth renovation groups.
-- **Email**: short customer emails through Shopify Email when asked (new range, offer ending, review ask).
+- **Email**: Klaviyo is parked since 13 Oct 2026 (all flows draft, no campaigns; the owner said "not Klaviyo for now, use Shopify ones"). Customer emails and automations go through Shopify Messaging (Shopify admin → Apps → Messaging → Automations / Campaigns), which the owner turns on himself; they are not reachable through the API. Details in `store-content/email/README.md`.
 - **Reviews and proof**: ask past customers for Google reviews; turn approved reviews and job photos into
   posts.
 - **Reporting** (weekly when asked): visits from social, orders, conversion rate, discount uses, top post,
@@ -91,7 +91,7 @@ the owner's calendar (`ets-calendar`) in the same job; never leave the calendar 
   The owner decided on 5 Oct 2026 not to run a discount for the Finish It Right campaign (YAMEN10 was
   cancelled). Don't propose one again unless he asks.
 - Prices in posts must match the live store on the day the post goes out; re-check before reposting.
-- Shipping (live site, 11 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $20 by weight; basins, mirrors, sinks and niche boxes as tracked parcels from $25; orders over $180 ship free (standard). Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
+- Shipping (live checkout, 12 Oct 2026): small items post Australia-wide by tracked Australia Post, priced by parcel weight: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95, heavier by weight. Free standard post on WA orders of $100 or more and on orders of $150 or more anywhere in Australia (postable items only). Basins, mirrors, sinks and niche boxes post the same way. Tiles, vanities, baths, toilets, shower screens, 3 m trims and other large items are Perth metro delivery (Local delivery $95 within about 30 km of Maddington) or free pickup from Maddington by appointment (checkout says "usually ready in 24 hours"); tiles are not shipped outside Perth; freight quote elsewhere. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout."
 - Showroom is by appointment, Monday to Saturday 4:30 to 9 pm, closed Sunday. Phone 0450 960 543.
 - After any approved change: save new graphics in `marketing/`, update the campaign doc if the plan
   changed, commit with a clear message, and report what changed in a few plain lines.

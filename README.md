@@ -234,3 +234,193 @@ customer-facing wording with no unverifiable claims:
 - Not changed (store content, not theme): the Care & Warranty page names "AUS Home Collection Group Pty Ltd (trading as
   Bathroom City)" as the MELA warrantor, and tile descriptions say "sold per sqm to the nearest full box" while the
   calculator rounds to whole m².
+
+## Trade prices on the site + store-wide repricing (11 Oct 2026)
+
+- Prices: every active product repriced to the owner's 11 Oct rule (cheaper than every competitor, 40%
+  margin cap on high-margin items, profit floor kept). `store-content/pricing/reports/reprice-2026-10-11.md`
+  has the numbers; `store-content/pricing/PRICING-PLAYBOOK.md` the rules.
+- Trade accounts: approved customers (tag `trade`) now see their trade price on every product with the
+  retail price crossed out, matching the automatic discount in the cart. Per-product band in the
+  `ets.trade_band` metafield + `trade-list-N` collections. Guide: `store-content/trade-accounts/README.md`.
+- Theme: unpublished **"ETS 2026 – Trade prices on site (draft 11 Oct)"** (gid://shopify/OnlineStoreTheme/143975940159),
+  duplicate of the live theme with `snippets/ets-trade-rate.liquid` (reads the metafield instead of the old
+  10/15/20%-by-type settings), `ets-pdp-trade.liquid`, `ets-trade-rates.liquid`, `sections/ets-trade-apply.liquid`,
+  `ets-trade-band.liquid`. `theme/snippets/price.liquid` is the ETS-modified Horizon price snippet as it is live
+  (trade/retail display); it is unchanged by this work. **Published by the owner on 11 Oct 2026** (it is now
+  the live theme; the previous live theme "Copy of ETS – $180 shipping wording only" is no longer in the theme list).
+  First trade customer approved the same day (tag `trade`).
+- New segment "Trade applicants (waiting for approval)" in Customers → Segments.
+
+## Sitewide trade bar (draft theme, 11 Oct 2026)
+
+Logged-in trade customers now get a green bar under the header on every page: "✓ Trade account · Logged in as
+<name>. You're seeing your trade prices. Retail prices are crossed out and the discount comes off in the cart ·
+Your account · Log out". `snippets/ets-trade-bar.liquid`, rendered from `layout/theme.liquid` right after the
+header group. Retail customers and visitors see nothing. `theme/layout/theme.liquid` was re-synced from the live
+theme first (it carries a Metricool tracking script the repo copy lacked; checksum verified) and then the one
+render line added. Uploaded to the unpublished theme **"ETS 2026 – Trade bar under header (draft 11 Oct)"**
+(gid://shopify/OnlineStoreTheme/144004087871), a duplicate of the live theme; publish it from Online Store → Themes.
+
+## Site audit and fixes (11 Oct 2026, evening)
+
+Full crawl and catalogue audit after the day's pricing and shipping work: `store-content/reports/site-audit-2026-10-11.md`.
+Every URL and internal link works; breadcrumbs and structured data are in place. Fixed: 336 products that no storefront
+collection matched (smart-collection rules extended), 144 new Raimondi products priced and banded, supplier name and stale
+"$1,000" wording removed, missing meta descriptions and image alt text added, duplicate Perth delivery rate removed in favour
+of Shopify's own Local delivery. Open items (photos for 54 products, local-delivery settings, Search Console access) are in
+the report.
+
+## Discount codes, email automations and rollout plan (11 Oct 2026, night)
+
+- Shopify discount codes: `WELCOME10` and `COMEBACK10` (10% off, scoped to the `trade-list-20` and `trade-list-25`
+  collections so profit stays above 22%, once per customer, never with trade pricing) and `FREEPOST` (free standard
+  post up to $30 on orders of $60 or more). Rules: `store-content/pricing/PRICING-PLAYBOOK.md` → "Discount codes".
+- Klaviyo: 11 branded email templates and 7 live flows (welcome ×3, abandoned checkout ×2, abandoned cart,
+  post-purchase ×2, win-back, trade application received, trade approved). IDs, timing and how to edit:
+  `store-content/email/README.md`; sources in `store-content/email/templates/`, generator `make_emails.py`.
+- Checkout: free standard post for WA orders of $100 or more on both parcel profiles
+  (`store-content/shipping/README.md`).
+- Theme: a draft copy of the live theme, "ETS 2026 – 10% sign-up offer (draft 11 Oct)", has the footer sign-up
+  and pop-up promising 10% off a first order and showing `WELCOME10` after sign-up (settings in
+  `sections/footer-group.json` only, no code change). The connector can't write to the live theme; the owner
+  publishes the draft from Online Store → Themes.
+- Plan: `marketing/rollout-2026-10-11.md` (week-by-week posts, owner to-dos, Black Friday proposal date).
+- `.claude/agents/ets-copy-review.md`: shipping and discount-code facts updated.
+- Photos: 24 of the 54 `photo-needed` products (all Raimondi) now have manufacturer photos, loaded from raimondispa.com and
+  BAT Trims; 30 remain without any photo online (`store-content/reports/photos-sourced-2026-10-11.csv`, and the note in
+  the audit report).
+
+## Supplier cost check (12 Oct 2026)
+
+- The owner's supplier price files (BAT Tools/Trims books and Raimondi list, May 2026; SILVER discount sheet;
+  2025 MELA catalogue) were checked against every Shopify unit cost: all 1,948 BAT-family costs match the books,
+  all 599 MELA costs are at or above the catalogue. The pricing rules re-run on a fresh export changed no price,
+  cost or trade band. Report: `store-content/pricing/reports/supplier-cost-check-2026-10-12.md`; parsed books:
+  `store-content/pricing/supplier-books-2026-05.csv`; master list now `store-pricing-2026-10-12.csv`.
+- Playbook: new "Supplier price files on hand" section and the rule that Bathroom City's live list is the MELA
+  cost basis, the catalogue the fallback.
+- Later the same day the owner relaxed the 20% floor ("sometimes more, sometimes less, depends on the product"):
+  `reprice_2026_10_12.py` adds the thin-margin rule (1% under a competitor who is below our 20% price while we
+  keep 10%; 5–10% only on owner-named products; never under 5% or cost). 22 prices cut and 15 products moved to
+  trade band 0 in Shopify; PDFs regenerated; playbook, agent and monitor updated.
+
+## Duplicates check (12 Oct 2026)
+
+- Fresh exports of every product, variant and image, plus collections, discounts, menus, pages, customers and
+  Klaviyo, checked for duplicates: no duplicate products, SKUs, barcodes or variants. Fixed: 9 duplicate image
+  copies on 5 products, the 3 old tag-based `trade-band-*` collections and the stale `trade-N` tags on 240
+  products, a second welcome code (`ETSWELCOME10`, deactivated), a second free-shipping mechanism (app discount,
+  deactivated; the free rates in Settings → Shipping stay), a test customer, 22 products on overlapping product
+  types, and a draft Klaviyo flow + template. Report: `store-content/reports/duplicates-check-2026-10-12.md`.
+
+## Product photos, round two (12 Oct 2026)
+
+- On the owner's instruction to use supplier websites, 10 more of the products without photos now have supplier or distributor
+  photos (BAT plaster trowel, paint scrapers and BAT Pro square trowel; NICLIS waterproofing bandage and 85 mm grate with one
+  photo per variant; Raimondi Clipdozer, two Ipertitina connectors, 250 mm porcelain blade, Power Raizor MK2). 20 remain
+  (buckets, BATSEAL sealers, BAT Luxe inspection drain, knives and blades, five Raimondi spares): BAT Trims' site blocks
+  automated access and no stockist lists them. Sources and sizes: `store-content/reports/photos-sourced-2026-10-11.csv`.
+
+## Sales review and brand pages (12 Oct 2026)
+
+- 30-day review of where sales come from (`store-content/reports/sales-plan-2026-10-12.md`): about 320 real visits,
+  8 orders, 6 of them from Google; the Performance Max campaign spends half its money outside Australia for no sales;
+  social brings no orders; email has no sign-ups because the sign-up theme is unpublished.
+- Nine smart brand collections created and published (`maxisil`, `sigma`, `raimondi`, `bat-tools`, `bat-trims`,
+  `roberts-designs`, `panther`, `baron`, `mela`), each with SEO title, meta description and a delivery-accurate
+  description; seven of them added to the Hardware dropdown of `main-menu-2026` and `main-menu`.
+- Owner to-dos with click paths (Google Ads location fix, publish the sign-up theme, Search Console, eBay postage,
+  reviews app) and two pricing decisions (small-item postage tier, pickup lead time) are in the report.
+
+## Raimondi "what fits what" (12 Oct 2026)
+
+Order #1009 (a Zoe 85A with its extension table, side square and spacers) showed the Raimondi range did not
+say which accessories fit which machine. Fixed in three layers, see `store-content/raimondi/README.md` and
+`store-content/reports/raimondi-fit-2026-10-12.md`:
+
+- **Data (live):** product metafields `ets.fits_with` (list of products) and `ets.fits_models` (text) on all
+  131 Raimondi machines, accessories, blades and parts; seven manual "shop by machine" collections
+  (`raimondi-wet-saw-accessories`, `-bulldog-wheels-parts`, `-raizor-spares`, `-grout-clean-up-spares`,
+  `-floor-machine-parts`, `-mixer-vibrator-parts`, `-easymove-bigfoot-accessories`) linked from the
+  Raimondi collection; 31 wet-saw family products and the Double spacer rewritten from Raimondi's catalogue
+  (titles say what they suit, descriptions open with "Fits:"). No links in descriptions (eBay copies them).
+- **Theme ("ETS 2026 – what fits what (live from 12 Oct)", 144033579071, published by the owner on the night of 12 Oct; his earlier copy 144029417535 was deleted):** `sections/ets-product-fits.liquid` (card grid of what fits) and
+  `snippets/ets-pdp-fits.liquid` (the "Fits:" line under the title), wired into `templates/product.json`
+  and `templates/product.store-wide.json`.
+- **Rule for new Raimondi products:** set both metafields, put "suits …" in the title, add the item to its
+  `raimondi-*` collection and to the machines' `fits_with` lists, add a row to `fitmap.py`.
+
+## Catalogue check and "what fits what" for the whole range (12 Oct 2026)
+
+Customer feedback: hard to tell which items work with which. The owner photographed the BAT Trims Tools
+Catalogue (106 pages); it is transcribed in `store-content/catalogue/bat-tools-catalogue.csv` (774 rows) and
+every tool product was checked against it. See `store-content/catalogue/README.md` and
+`store-content/reports/catalogue-check-2026-10-12.md`.
+
+- **Data (live):** 370 products across BAT, Raimondi, Washboy, Panther, Siri, Sigma, Baron, Atika, Maxisil and
+  Barwalt carry `ets.fits_with`, `ets.fits_models` and the new `ets.fits_role` (`parent` or `item`); 71 titles
+  say what they suit, 55 product types corrected, 186 descriptions open with "Fits:" or carry "What fits:";
+  the catalogue corrected a dozen facts (Bi-Bulldog wheels, Bulldog feed kit, Washboy sizes, trowel sizes,
+  Sigma wheel fitment and more). Map as code: `store-content/catalogue/fitmap_all.py`; as data:
+  `compatibility-all.csv`.
+- **Collections (live):** eight "shop by system" collections, all brands together, linked from the Raimondi,
+  BAT, Sigma and Panther pages: `grout-clean-up-systems`, `mixers-paddles-buckets`, `sigma-cutter-spares`,
+  `scrapers-knives-blades`, `silicone-tools`, `knee-pads-spares`, `tile-drilling`, `washboy`.
+- **Theme (live: "ETS 2026 – what fits what (live from 12 Oct)", 144033579071, published by the owner that
+  night; the previous live theme 144022044735 is unpublished and kept as the fallback):** the what-fits section
+  keys off `ets.fits_role` and links to any system collection (`system_handles` setting); headings "What fits
+  this one" and "What this fits". The owner deleted his copy of the live theme, so a fresh API duplicate of the
+  live theme carried the section until he published it; theme files are only ever written to an unpublished
+  duplicate.
+- **Menu (live, owner: "go ahead"):** the seven system collections and Washboy are in the Hardware dropdown of
+  `main-menu-2026` and `main-menu`, after the type links and before the brand links (21 links). The header
+  (`sections/ets-header.liquid`) renders two menu levels only, so a grouped version with "Shop by type / system
+  / brand" headings showed nothing under the headings and was replaced by the flat list the same night.
+- **Supplier checks (owner asked for them):** Raimondi's site confirms the Bi-Bulldog ships without a wheel and the
+  Bulldog with the 10 mm wheel; the 1050 W mixer has an M14 spindle (page rewritten, no chuck claim); BAT lists
+  the Washboy WB-9002L handle but the price book does not, so it needs a cost before it can be listed.
+
+## New look (12 Oct 2026, declined by the owner)
+
+**Declined.** The owner deleted the new-look draft on the evening of 12 Oct ("didn't publish it cause I
+don't want it"). `theme/` holds the live (postage) look again; the new-look files survive only in git
+history (commit 64e7157) and in `store-content/reports/redesign-2026-10-12.md`. Do not rebuild it unless asked.
+
+
+- The owner asked for the site's look to be redone. `store-content/reports/redesign-2026-10-12.md` has the audit (blurry
+  mosaics leading the Tiles range, a serif that never loaded, pill-and-shadow cards, a crowded phone hero, a product page
+  with the buy button nine screens down), the direction ("porcelain and grout": white surfaces, 1 px lines, square corners,
+  Archivo, the logo's blue as the one accent) and what was built in the theme copy "ETS 2026 – New look (draft 12 Oct)".
+  Changed theme files are in `theme/`; before/after images in `store-content/reports/img/`.
+- Live changes made with it: the Tiles collection is sorted by hand (big-format ranges first, mosaics last) with a room
+  photo as its banner; the cart-page free-post bar no longer overlaps the order summary on desktop.
+
+## Postage fix (12 Oct 2026, approved by the owner)
+
+- Shopify rates on both parcel profiles and both Australian zones: new tiers up to 250 g $9.95 and up to 500 g $11.95, 3–5 kg cut to
+  $24.95; the other tiers unchanged; later the same day the owner also moved the Australia-wide free-post threshold from $180 to $150 (WA stays $100) and the pickup promise to "usually ready in 24 hours". Shopify adds its 100 g default package to the
+  cart weight before picking a tier, so every boundary was moved 100 g up to match the item weights (`store-content/shipping/README.md`).
+- Draft theme "ETS 2026 – Postage shown before checkout (draft 12 Oct)": product pages show "Australia Post from $X" from the lightest
+  variant's weight, the cart drawer and cart page get a free-post progress bar (`snippets/ets-shipping-bar.liquid`), and the top bar,
+  trust strip, FAQs, delivery page and product FAQ carry the new tiers. The owner publishes it. `store-content/policies/shipping-policy.html`
+  updated for the owner to paste.
+
+## Checkout recovery audit (13 Oct 2026)
+
+The owner asked whether the checkout-recovery automation is set up correctly ("delete the old one, keep the
+working ones"). Report: `store-content/reports/checkout-recovery-2026-10-13.md`.
+
+- **Found:** the Klaviyo flows were correct and firing, but the domain's DMARC policy is `p=quarantine` and
+  Klaviyo had no sending domain, so every Klaviyo email failed DMARC and was quarantined (0 opens on the first
+  4). Shopify's built-in "Abandoned checkout emails by Shopify" was also on (10 h, subscribers only) and does
+  deliver.
+- **Decision (owner): Shopify's automations, not Klaviyo.** All nine Klaviyo flows set to draft, nothing
+  deleted, app left installed; the Klaviyo sending domain created that morning stays unused. Shopify's
+  abandoned checkout email is the recovery email; the owner sets its "To:" to All customers and "Send after"
+  to 1 hour (Apps → Messaging → Automations) and can turn on abandoned cart, abandoned browse, welcome,
+  win-back and thank-you automations there. Sender authentication for Shopify's emails is optional (Settings →
+  Notifications → Sender email).
+- Before the decision, in Klaviyo: smart sending off on the checkout and cart emails, browse flow guarded
+  against back-filled views, FREEPOST email corrected to the code's real limit (standard post rates up to $30);
+  all now dormant with the flows. `store-content/email/` keeps the sources for when Klaviyo comes back.

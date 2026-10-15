@@ -1,0 +1,115 @@
+{%- doc -%}
+  Renders product pricing.
+  @param {product} product_resource
+  @param {boolean} [show_unit_price]
+  @param {boolean} [show_sale_price_first]
+{%- enddoc -%}
+{% render 'price-styles' %}
+{%- liquid
+  assign show_unit_price = show_unit_price | default: false
+  assign show_sale_price_first = show_sale_price_first | default: false
+  assign selected_variant = product_resource.selected_or_first_available_variant
+  assign price = selected_variant.price
+  assign compare_at_price = selected_variant.compare_at_price
+  assign show_compare_price = false
+  if compare_at_price > price
+    assign show_compare_price = true
+  endif
+  if product_resource == blank
+    assign price = 1999
+  endif
+  assign has_volume_pricing = null
+  assign price_min = null
+  assign price_max = null
+  assign is_product_card = false
+  if template.name != 'product'
+    assign is_product_card = true
+  endif
+  if is_product_card
+    assign price_min = product_resource.price_min
+    assign price_max = product_resource.price_max
+    assign has_volume_pricing = product_resource.quantity_price_breaks_configured? | default: false
+  else
+    if selected_variant.quantity_price_breaks.size > 0
+      assign has_volume_pricing = true
+      assign price_min = selected_variant.quantity_price_breaks.last.price
+      assign price_max = selected_variant.price
+    endif
+  endif
+  assign use_currency = false
+  if product.handle == product_resource.handle
+    if settings.currency_code_enabled_product_pages
+      assign use_currency = true
+    endif
+  elsif settings.currency_code_enabled_product_cards
+    assign use_currency = true
+  endif
+  if use_currency
+    assign price = price | money_with_currency
+    assign compare_at_price = compare_at_price | money_with_currency
+    assign price_min = price_min | money_with_currency
+    assign price_max = price_max | money_with_currency
+  else
+    assign price = price | money
+    assign compare_at_price = compare_at_price | money
+    assign price_min = price_min | money
+    assign price_max = price_max | money
+  endif
+  assign is_ets_tile = false
+  assign ets_tile_types = settings.ets_trade_tile_types | default: 'Tile' | split: ','
+  for t in ets_tile_types
+    assign tt = t | strip
+    if tt == product_resource.type
+      assign is_ets_tile = true
+    endif
+  endfor
+-%}
+{%- capture ets_trade_pct -%}{% render 'ets-trade-rate', product: product_resource %}{%- endcapture -%}
+{%- assign ets_trade_pct = ets_trade_pct | strip | plus: 0 -%}
+<div ref="priceContainer">
+  {% if ets_trade_pct > 0 and has_volume_pricing != true %}
+    {%- liquid
+      assign ets_keep = 100 | minus: ets_trade_pct
+      if is_product_card and price_min != price_max
+        assign ets_base = product_resource.price_min
+      else
+        assign ets_base = selected_variant.price
+      endif
+      assign ets_trade = ets_base | times: ets_keep | divided_by: 100.0 | round
+      assign ets_save = ets_base | minus: ets_trade
+    -%}
+    <span class="ets-price-block">
+      <span class="ets-trade-price">
+        <span class="ets-trade-price__tag">Trade</span>
+        <span class="price"><bdi>{% if is_product_card and product_resource.price_varies %}From {% endif %}{{ ets_trade | money }}</bdi>{% if is_ets_tile %}<span class="ets-price__unit"> / m²</span>{% endif %}</span>
+        {% unless is_product_card %}<span class="ets-trade-price__save">Save {{ ets_save | money }} ({{ ets_trade_pct }}%)</span>{% endunless %}
+      </span>
+      <span class="ets-price__was"><span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>Retail <bdi>{% if is_product_card and product_resource.price_varies %}{{ price_min }}{% else %}{{ price }}{% endif %}</bdi></span>
+    </span>
+  {% elsif has_volume_pricing %}
+    {% if show_compare_price %}<span class="price-item__group compare-at-price"><span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span><bdi>{{ compare_at_price }}</bdi></span>{% endif %}
+    <span class="price-item__group price"><span class="visually-hidden">{{ 'content.price_range' | t }}&nbsp;</span><bdi>{{ price_min }} - {{ price_max }}</bdi></span>
+  {% else %}
+    {% if show_compare_price %}
+      {% if show_sale_price_first %}
+        <span class="price-item__group price"><span class="visually-hidden">{{ 'content.price_sale' | t }}&nbsp;</span><bdi>{{ price | default: '&nbsp;' }}</bdi></span>
+        <span class="price-item__group price-item--regular compare-at-price"><span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span><bdi>{{ compare_at_price }}</bdi></span>
+      {% else %}
+        <span class="price-item__group price-item--regular compare-at-price"><span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span><bdi>{{ compare_at_price }}</bdi></span>
+        <span class="price-item__group price"><span class="visually-hidden">{{ 'content.price_sale' | t }}&nbsp;</span><bdi>{{ price | default: '&nbsp;' }}</bdi></span>
+      {% endif %}
+    {% else %}
+      <span class="price"><bdi>{{ price | default: '&nbsp;' }}</bdi></span>
+    {% endif %}
+  {% endif %}
+  {% if is_ets_tile and ets_trade_pct == 0 %}<span class="ets-price__unit"> / m²</span>{% endif %}
+  {% if selected_variant.unit_price and show_unit_price %}
+    {% if use_currency %}
+      {% assign unit_price = selected_variant.unit_price | money_with_currency %}
+    {% else %}
+      {% assign unit_price = selected_variant.unit_price | money %}
+    {% endif %}
+    {% render 'unit-price', price: unit_price, measurement: selected_variant.unit_price_measurement %}
+  {% endif %}
+</div>
+{% if has_volume_pricing %}<small ref="volumePricingNote" class="volume-pricing-note">{{ 'content.volume_pricing_available' | t }}</small>{% endif %}

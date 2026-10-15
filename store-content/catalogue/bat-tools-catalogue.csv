@@ -1,0 +1,775 @@
+page,code,brand,name,specs,suits
+1,BAT-1000,BAT,BAT-1000 Wet Saw,"520mm cutting length; 1 hp motor; 200mm blade, 25.4mm bore; cutting thickness 30mm (25mm at 45°); diagonal 420x420mm; max thickness 30mm; straight and 45° bevel cuts; plastic water tray; folding legs; heavy duty water pump",
+1,RAI-EXP70-15,Raimondi,Raimondi Exploit 70 MY15 wet saw,"700mm cutting length; 0.9 hp motor; 200mm blade, 25.4mm bore; cutting thickness 45mm; diagonal 490x490mm; clearance 20mm; max thickness 45mm; 34 kg; straight, 45° bevel and plunge cuts; removable aluminium tables; folding legs; heavy duty water pump",accessories: RAI-EXWHK wheels and handles kit; RAI-SS4590R sliding square 45/90° right
+2,RAI-BOLT90,Raimondi,Raimondi Bolt 90 wet saw,"900mm cutting length; 1.5 hp; 250mm blade, 25.4mm bore; cutting thickness 55mm; diagonal 630x630mm; clearance 25mm; 46 kg; straight, 45° bevel and plunge cuts; removable aluminium tables; folding legs; coated metal frame; heavy duty water pump; adjustable guide and 45/90 square",accessories: RAI-EXWHK; RAI-SS4590R (right); RAI-SS4590 (left); RAI-ESSPZ extension side square large
+2,RAI-BOLT120,Raimondi,Raimondi Bolt 120 wet saw,1200mm cutting length; 1.5 hp; 250mm blade; cutting thickness 55mm; diagonal 850x850mm; 50 kg,same accessories as Bolt 90
+2,RAI-BOLT150,Raimondi,Raimondi Bolt 150 wet saw,1500mm cutting length; 1.5 hp; 250mm blade; cutting thickness 55mm; diagonal 1050x1050mm; 54 kg,same accessories as Bolt 90
+3,RAI-MISTRAL90,Raimondi,Raimondi Mistral 90 wet saw,"900mm cutting length; 3 hp; 350mm blade, 25.4mm bore; cutting thickness 100mm; diagonal 630x630mm; clearance 30mm; 60 kg; straight, 45° bevel and plunge cuts; removable aluminium tables; folding legs; coated metal frame; heavy duty water pump; adjustable guide and 45/90 square",accessories: RAI-EXWHK; RAI-SS4590R; RAI-SS4590; RAI-ESSPZ
+3,RAI-MISTRAL120,Raimondi,Raimondi Mistral 120 wet saw,1200mm; 3 hp; 350mm blade; 100mm; diagonal 850x850mm; 65 kg,same accessories as Mistral 90
+3,RAI-MISTRAL150,Raimondi,Raimondi Mistral 150 wet saw,1500mm; 3 hp; 350mm blade; 100mm; diagonal 1050x1050mm; 69 kg,same accessories as Mistral 90
+4,RAI-PIK85A,Raimondi,Raimondi Pikus 85 Advanced wet saw,"850mm cutting length; 1.5 hp; 250mm blade, 25.4mm bore; cutting thickness 80mm (55mm at 45°); diagonal 600x600mm; clearance 70mm; max thickness 150mm (two passes); 60 kg; straight, 45° bevel and plunge cuts; removable aluminium tables; telescopic legs; plastic water tray; heavy duty water pump; adjustable guide and 45/90 square",accessories: RAI-FETPIK75 folding extension tables and 90° sliding square; RAI-PZ85THD tile holding device (suit PIK85A); RAI-PZ10THD (suit PIK105A); RAI-PZ13THD (suit PIK130A); RAI-SS90 sliding square 90°; RAI-SS4590 sliding square 45/90° left; RAI-SS4590PZ sliding square 45/90° right; RAI-ESSPZ extension side square large; RAI-RETZOE5 5 roller extension table; RAI-RETZOE10 10 roller extension table; RAI-ESSSA80 extension side square small
+4,RAI-PIK105A,Raimondi,Raimondi Pikus 105 Advanced wet saw,1050mm; 1.5 hp; 250mm blade; 80mm (55mm at 45°); diagonal 750x750mm; 64 kg,same accessories as Pikus 85 Advanced
+4,RAI-PIK130A,Raimondi,Raimondi Pikus 130 Advanced wet saw,1300mm; 1.5 hp; 250mm blade; 80mm (55mm at 45°); diagonal 900x900mm; 78 kg,same accessories as Pikus 85 Advanced
+5,RAI-ZOE85A,Raimondi,Raimondi Zoe 85 Advanced wet saw,"850mm cutting length; 3 hp motor; 360mm blade, 25.4mm bore; cutting thickness 120mm (80mm at 45°); diagonal 600x600mm; clearance 180mm; max thickness 240mm (two passes); blade-down cut 600mm; 80 kg; straight, 45° bevel and plunge cuts; removable aluminium tables; telescopic legs; plastic water tray; heavy duty water pump; adjustable guide and 45/90 square",accessories: RAI-FETPIK75; RAI-PZ85THD (suit ZOE85A); RAI-PZ10THD (suit ZOE105A); RAI-PZ13THD (suit ZOE130A); RAI-PZ15THD (suit ZOE155A); RAI-SS90; RAI-SS4590 (left); RAI-SS4590PZ (right); RAI-ESSPZ; RAI-RETZOE5; RAI-RETZOE10; RAI-ESSSA80
+5,RAI-ZOE105A,Raimondi,Raimondi Zoe 105 Advanced wet saw,1050mm; 3 hp; 360mm blade; 120mm (80mm at 45°); diagonal 750x750mm; blade-down 800mm; 84 kg,same accessories as Zoe 85 Advanced
+5,RAI-ZOE130A,Raimondi,Raimondi Zoe 130 Advanced wet saw,1300mm; 3 hp; 360mm blade; 120mm; diagonal 900x900mm; blade-down 1050mm; 98 kg,same accessories as Zoe 85 Advanced
+5,RAI-ZOE155A,Raimondi,Raimondi Zoe 155 Advanced wet saw,1550mm; 3 hp; 360mm blade; 120mm; diagonal 1090x1090mm; blade-down 1300mm; 106 kg,same accessories as Zoe 85 Advanced
+6,RAI-CM150M,Raimondi,Raimondi CM150 Manual bridge saw,"1500mm cutting length; 2.8 hp; 300mm blade (or 350mm), 25.4mm bore; cutting thickness 80mm with 300 / 105mm with 350 (55/75mm at 45°); diagonal 1060x1060mm; clearance 30/20mm; max thickness 125mm; 150 kg; straight, 45° bevel and plunge cuts; precision depth adjustment; removable legs; rigid steel construction; super heavy duty water pump; fixed guide and adjustable square",accessories: RAI-CM150EB extension bench with full length sliding square; RAI-CM150THD tile holding device; RAI-CM150EB45 sliding 45° square for extension bench; RAI-CM150SS set square; RAI-ESSSA80; RAI-RETZOE5; RAI-RETZOE10
+7,RAI-CM150A,Raimondi,Raimondi CM150 Auto bridge saw,"1500mm; 2.8 hp; 300mm blade, 30mm bore; cutting thickness 80mm (55mm at 45°); diagonal 1060x1060mm; max thickness 90mm; 265 kg; automated cutting process; 5 speed motor tracking; simultaneous cut and bevel, bullnosing, channel cut (anti-slip)",accessories: RAI-CM150EB (suit CM150); RAI-CM150THD (suit CM150); RAI-CM150EB45 (suit RAI-CM150EB); RAI-CM150SS (suit CM150); RAI-ESSSA80; RAI-RETZOE5; RAI-RETZOE10
+8,RAI-CM180A,Raimondi,Raimondi CM180 Auto bridge saw,"1800mm; 3 hp; 360mm blade, 30mm bore; cutting thickness 120mm (65mm at 45°); diagonal 1250x1250mm; clearance 60mm; 450 kg; half bullnose, tread grooves and multiple cuts; height adjustable levelling legs; external plastic tank on wheels; automated cutting; 5 speed motor tracking",accessories: RAI-CM180MDCK multi blade housing and extension shaft (suit CM180); RAI-CM180MDGK multi blade flanges kit (suit RAI-CM180MDCK); RAI-CM150EB45; RAI-CM180THD tile holding device (suit CM180); RAI-ESSSA80; RAI-RETZOE5; RAI-RETZOE10
+9,RAI-MAXICUT,Raimondi,Raimondi Maxi-Cut bridge saw,"2000mm cutting length; 3 hp; 300mm blade, 25.4mm bore; cutting thickness 50mm; diagonal 1400x1400mm; 145 kg; straight cuts only; removable aluminium tables; telescopic legs; plastic water tank; heavy duty water pump; adjustable guide and 45/90 square; wheel operated cutting feed; laser line; two sets of blade flanges (90mm standard and 200mm for max rigidity)",accessories: RAI-FETPIK75; RAI-SS90; RAI-SS4590; RAI-SS4590PZ; RAI-ESSPZ; RAI-RETZOE5; RAI-RETZOE10; RAI-ESSSA80
+10,RAI-SA80,Raimondi,Raimondi SA 80 trolley wet saw,"800mm cutting length; 3 hp; 350mm blade, 25.4mm bore; 120mm single pass, 170mm double pass; 65mm at 45°; width of cut 600mm; diagonal 500x500mm; clearance 170mm; 77 kg; for thicker materials, bricks, pavers, stones; straight, 45° bevel and plunge cuts; sliding table; telescopic legs; plastic water tray; heavy duty water pump",accessories: RAI-ESSSA80 extension side square small; RAI-SSSA80 adjustable square (suit SA80 and Sherpa); RAI-FPSA80 foot pedal (suit SA80); RAI-EBSA80 extension bench (suit SA80)
+10,RAI-SHERPA,Raimondi,Raimondi Sherpa brick saw,"700mm cutting length (700mm for material to 140mm thick, 420mm for material to 250mm); 3.3 hp; 630mm blade, 30mm bore; 250mm single pass; 130mm at 45°; width 600mm; diagonal 490x490mm; clearance 110mm; 137 kg",accessories: RAI-HANDSA09 handles (suit Sherpa); RAI-SSSA80 adjustable square; RAI-FPSHERPA foot pedal (suit Sherpa)
+11,SIG-9M2,Sigma,Sigma 9M1 wet saw with 63A folding bench,"550mm cutting length; 1.5 hp; 250mm blade, 30mm bore; cutting thickness 60mm (50mm at 45°); width 550mm; diagonal 400x400mm; 41 kg incl. SIG-63A stand; straight and 45° bevel; folding support bench; plastic water tray; no water pump; adjustable guide and 45/90 square; SIG-85G1 optional, not supplied; unlimited straight cutting length",accessories: SIG-85G1 adjustable square and ruler guide (suit 9M2); SIG-80A sliding square 90° 330mm (suit 9M2 and 10M9); SIG-90F swivel measurement bar +45/0/-45 (suit 9M2); SIG-63A folding support bench (suit 9M2); SIG-108615 clamping knob (suit 90F and 90G)
+11,SIG-10M9,Sigma,Sigma 10M9 wet saw with 62A folding bench,"750mm cutting length; 3 hp; 300mm blade, 30mm bore; cutting thickness 80mm (70mm at 45°); width 750mm; diagonal 500x500mm; 63 kg incl. SIG-62A stand",accessories: SIG-85G adjustable square and ruler guide (suit 10M9); SIG-80A; SIG-90G swivel measurement bar (suit 10M9); SIG-62A folding support bench (suit 10M9); SIG-108615
+12,RAI-BULLDOG,Raimondi,Raimondi Bulldog Advanced profiling machine,"800mm cutting length (1200mm with extensions); 1.5 hp; half bullnose, 45° and 90° wheels; 75 kg; supplied with 1 x RAI-BSW10R; half bullnose 8 to 30mm, 45° bevel up to 15mm, 90° edges up to 30mm; shaping (rough), finishing (smooth) and polishing wheels; connect multiple machines in line (RAI-BULLDOG only); heavy duty water pump; semi-auto and powered auto best for tiles under 110mm wide; optional accessories automate up to 400mm wide x 900mm long",accessories: RAI-BULLCP attachment arms for connecting Bulldog and Bi-Bulldog in line; RAI-BULLSEPR side extensions for RAI-BULLDOG; RAI-BULLTH80 tile table max 800mm x under 110mm (all Bulldog machines); RAI-BBTH120 tile table max 1200mm x under 110mm (1200mm machines); RAI-BULLTH80PL tile table 800mm x over 110mm (all Bulldog machines); RAI-BBTH120PL 1200mm x over 110mm (1200mm machines); RAI-BULLSGSK side guide/support max width 600mm (suit 800mm tile table); RAI-BIBULLSGSK side guide/support (suit 1200mm tile table); RAI-BULLMFK manual feed kit for RAI-BULLDOG; RAI-BULLAFK automation kit for RAI-BULLDOG
+12,RAI-BULLDOGM,Raimondi,Raimondi Bulldog Advanced Manual,"1200mm cutting length; 1.5 hp; half bullnose, 45° and 90° wheels; 99 kg; supplied with 1 x RAI-BSW10R",same accessories as Bulldog
+12,RAI-BULLDOGA,Raimondi,Raimondi Bulldog Advanced Auto,1200mm cutting length; 1.5 hp; 149 kg; supplied with 1 x RAI-BSW10R,same accessories as Bulldog
+13,RAI-BIBULLDOG,Raimondi,Raimondi Bi-Bulldog Advanced,"double motor assembly; 800mm cutting length (1200mm with extensions); 1.5 hp; half bullnose, 45° and 90° wheels; 110 kg; supplied without profiling wheels",accessories: RAI-BULLCP; RAI-BULLSEPR side extensions for RAI-BIBULLDOG; RAI-BULLTH80; RAI-BBTH120; RAI-BULLTH80PL; RAI-BBTH120PL; RAI-BULLSGSK; RAI-BIBULLSGSK; RAI-BIBULLMFK manual feed kit for RAI-BIBULLDOG; RAI-BIBULLAFK automation kit for RAI-BIBULLDOG
+13,RAI-BIBULLDOGM,Raimondi,Raimondi Bi-Bulldog Advanced Manual,double motor; 1200mm; 1.5 hp motors; 152 kg; supplied without profiling wheels,same accessories as Bi-Bulldog
+13,RAI-BIBULLDOGA,Raimondi,Raimondi Bi-Bulldog Advanced Auto,double motor; 1200mm; 1.5 hp; 185 kg; supplied without profiling wheels,same accessories as Bi-Bulldog
+14,RAI-BSW(Size)R,Raimondi,"Bulldog milling/shaping wheel, half bullnose","radius 8, 10, 15, 20 and 30mm",Bulldog and Bi-Bulldog
+14,RAI-BFW(Size)R,Raimondi,"Bulldog finishing/smoothing wheel, half bullnose","radius 8, 10, 15, 20 and 30mm",Bulldog and Bi-Bulldog
+14,RAI-BPW(Size)R400,Raimondi,"Bulldog polishing wheel 400 grit, half bullnose","radius 8, 10, 15, 20 and 30mm",Bulldog and Bi-Bulldog
+14,RAI-BPW(Size)R800,Raimondi,"Bulldog polishing wheel 800 grit, half bullnose","radius 8, 10, 15, 20 and 30mm",Bulldog and Bi-Bulldog
+14,RAI-BPW(Size)R1500,Raimondi,"Bulldog polishing wheel 1500 grit, half bullnose","radius 10, 15, 20 and 30mm",Bulldog and Bi-Bulldog
+14,RAI-BPW(Size)R1800,Raimondi,"Bulldog polishing wheel 1800 grit, half bullnose","radius 10, 15, 20 and 30mm",Bulldog and Bi-Bulldog
+14,RAI-BPW(Size)R3500,Raimondi,"Bulldog polishing wheel 3500 grit, half bullnose","radius 15, 20 and 30mm",Bulldog and Bi-Bulldog
+14,RAI-BSW45,Raimondi,Bulldog milling/shaping wheel 45° finish,15mm face height,Bulldog and Bi-Bulldog
+14,RAI-BSWF,Raimondi,Bulldog milling/shaping wheel 90° finish,16 and 30mm face heights,Bulldog and Bi-Bulldog
+14,RAI-BDBS,Raimondi,Bulldog rubber drum holder,for finishing and smoothing bands,Bulldog and Bi-Bulldog
+14,RAI-BDB100,Raimondi,Bulldog finishing/smoothing band 100 grit,90° finish; 38mm face height,on RAI-BDBS drum holder
+14,RAI-BDB400,Raimondi,Bulldog polishing band 400 grit,90° finish; 38mm face height,on RAI-BDBS drum holder
+15,BAT-300,BAT,BAT-300 economy tile cutter,300mm cutting length; 200x200mm diagonal; no additional guides or accessories,spare wheel BAT-300SW
+15,BAT-400,BAT,BAT-400 economy tile cutter,400mm cutting length; 250x250mm diagonal,spare wheel BAT-300SW
+15,BAT-540,BAT,BAT-540 trade tile cutter,540mm cutting length; blow moulded carry case; 380x380mm diagonal; 0 to +60°,BAT-540ASG adjustable square and ruler guide; BAT-540SW spare wheel
+15,BAT-640,BAT,BAT-640 trade tile cutter,640mm cutting length; blow moulded carry case; 450x450mm diagonal; 0 to +60°,BAT-540ASG; BAT-540SW
+15,BAT-540ASG,BAT,Adjustable square and ruler guide,suit BAT-540 and BAT-640,"BAT-540, BAT-640"
+15,BAT-540SW,BAT,Spare scoring wheel,"suit BAT-540, BAT-640 and DWTN","BAT-540, BAT-640, DWTN"
+15,BAT-300SW,BAT,Spare scoring wheel,suit BAT-300 and BAT-400,"BAT-300, BAT-400"
+16,TOP-480,Kaufmann,Kaufmann Topline 480 tile cutter,480mm cutting length; 330x330mm diagonal; adjustable guide for 45° and 90° cutting,TOP-720-ASG; TOP-SW; TOP-AX
+16,TOP-630,Kaufmann,Kaufmann Topline 630 tile cutter,630mm cutting length; 440x440mm diagonal,TOP-720-ASG; TOP-SW; TOP-AX
+16,TOP-720,Kaufmann,Kaufmann Topline 720 tile cutter,720mm cutting length; 500x500mm diagonal,TOP-720-ASG; TOP-SW; TOP-AX
+16,TOP-720-ASG,Kaufmann,Adjustable square and ruler guide,suit all Topline series,"Topline 480, 630, 720"
+16,TOP-SW,Kaufmann,Spare scoring wheel 22mm diameter,suit all Topline series,"Topline 480, 630, 720"
+16,TOP-AX,Kaufmann,Spare axle,suit all Topline series,"Topline 480, 630, 720"
+17,BAT-XPRO60,Battipav,Battipav X-Pro 600 tile cutter,600mm cutting length; 420x420mm diagonal; max 15mm tile thickness; -45° to +45° adjustable guide,BAT-XPRO-60GB guide bar; BAT-XPRO-CK; BAT-XPRO-60H handle; BAT-XPRO-SW; BAT-XPRO-SS; BAT-XPRO-SB; BAT-XPRO-BF
+17,BAT-XPRO80,Battipav,Battipav X-Pro 800 tile cutter,800mm cutting length; 560x560mm diagonal; max 15mm,BAT-XPRO-80GB; BAT-XPRO-CK; BAT-XPRO-801H; BAT-XPRO-SW; BAT-XPRO-SS; BAT-XPRO-SB; BAT-XPRO-BF
+17,BAT-XPRO100,Battipav,Battipav X-Pro 1000 tile cutter,1000mm cutting length; 700x700mm diagonal; max 15mm,BAT-XPRO-10GB; BAT-XPRO-CK; BAT-XPRO-801H; BAT-XPRO-SW; BAT-XPRO-SS; BAT-XPRO-SB; BAT-XPRO-BF
+17,BAT-XPRO-60GB,Battipav,XPro guide bar 60,suit BAT-XPRO60,X-Pro 600
+17,BAT-XPRO-80GB,Battipav,XPro guide bar 80,suit BAT-XPRO80,X-Pro 800
+17,BAT-XPRO-10GB,Battipav,XPro guide bar 100,suit BAT-XPRO100,X-Pro 1000
+17,BAT-XPRO-CK,Battipav,XPro clamping knob,suit BAT-XPRO guide bars,"X-Pro 600, 800, 1000"
+17,BAT-XPRO-60H,Battipav,XPro handle 50x6,suit BAT-XPRO 60,X-Pro 600
+17,BAT-XPRO-801H,Battipav,XPro handle 50x10,suit BAT-XPRO 80 and 100,"X-Pro 800, 1000"
+17,BAT-XPRO-SW,Battipav,XPro spare scoring wheel,15 x 6 x 1.5mm,"X-Pro 600, 800, 1000"
+17,BAT-XPRO-SS,Battipav,XPro guide bar sliding square,,"X-Pro 600, 800, 1000"
+17,BAT-XPRO-SB,Battipav,XPro slide bar,used with guide bar sliding square,"X-Pro 600, 800, 1000"
+17,BAT-XPRO-BF,Battipav,XPro antiscratch breaker foot,image not shown,"X-Pro 600, 800, 1000"
+18,SIG-2G,Sigma,Sigma 2G tile cutter,"370mm cutting length; 260x260mm diagonal; max 15mm tile thickness; scoring wheel SIG-14A (optional SIG-14T vitrified, SIG-14M mosaics)",parts: SIG-39H chrome guide bar; SIG-90DG swivelling calibrated arm; SIG-19C sliding square; SIG-108616 clamping knob; SIG-1079104 clamping knob nut; SIG-24F complete handle; SIG-106731 rubber foot; SIG-104039 non-marking nylon foot
+18,SIG-2A,Sigma,Sigma 2A3 tile cutter,"510mm cutting length; 350x350mm diagonal; max 20mm; SIG-14A wheel (optional 14T, 14M)",parts: SIG-39D chrome guide bar; SIG-90D3 swivelling calibrated arm; SIG-19B3 sliding square; SIG-108612 clamping knob; SIG-17D3 calibrated arm extension; SIG-24C complete handle; SIG-106731 rubber foot; SIG-104032 nylon foot
+18,SIG-2B,Sigma,Sigma 2B3 tile cutter,"660mm cutting length; 460x460mm diagonal; max 20mm; SIG-14A wheel (optional 14T, 14M)",parts: SIG-39E chrome guide bar; SIG-90D3 swivelling calibrated arm; SIG-19B3 sliding square; SIG-108612 clamping knob; SIG-17D3 calibrated arm extension; SIG-24C complete handle; SIG-106731; SIG-104032
+19,SIG-3G,Sigma,Sigma 3G tile cutter,"450mm cutting length; 310x310mm diagonal; max 20mm; SIG-14A wheel (optional 14T, 14M)",parts: SIG-90E front measure and square (reduces cutting length by 60mm); SIG-39R chrome guide bar; SIG-90LF swivelling calibrated arm; SIG-20B guide bar ends; SIG-19D sliding square; SIG-108621 clamping knob; SIG-1079104 clamping knob nut; SIG-24F complete handle; SIG-106725 rubber foot; SIG-104033 nylon foot
+19,SIG-3L,Sigma,Sigma 3L tile cutter,"550mm cutting length; 380x380mm diagonal; max 20mm; SIG-14A (optional 14T, 14M)",parts: SIG-90E; SIG-39S chrome guide bar; SIG-90LA swivelling calibrated arm; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24E complete handle; SIG-106725; SIG-104033
+19,SIG-3B,Sigma,Sigma 3B2 tile cutter,"650mm cutting length; 450x450mm diagonal; max 20mm; SIG-14A (optional 14T, 14M)",parts: SIG-90E; SIG-39L chrome guide bar; SIG-90LB swivelling calibrated arm; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24E complete handle; SIG-104064 support arm left (optional); SIG-104065 support arm right (optional); SIG-106725; SIG-104033
+20,SIG-3C,Sigma,Sigma 3C2 tile cutter,"770mm cutting length; 540x540mm diagonal; max 20mm; SIG-14A (optional 14T, 14M)",parts: SIG-90E; SIG-39B chrome guide bar; SIG-90LC swivelling calibrated arm; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24AE complete handle; SIG-104064 support arm left; SIG-104065 support arm right (optional); SIG-106725; SIG-104033
+20,SIG-3D,Sigma,Sigma 3D2 tile cutter,"950mm cutting length; 670x670mm diagonal; max 20mm; SIG-14A (optional 14T, 14M)",parts: SIG-90E; SIG-39N chrome guide bar; SIG-90LD swivelling calibrated arm; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24AE; SIG-104064; SIG-104065; SIG-106725; SIG-104033
+21,SIG-3BM,Sigma,Sigma 3B3M Max tile cutter,605mm cutting length; 427x427mm diagonal; max 20mm; scoring wheel SIG-14MX,parts: SIG-90E; SIG-39L chrome guide bar; SIG-90LB swivelling calibrated arm; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24M08 complete handle; SIG-104064 support arm left (optional); SIG-104065 support arm right (optional); SIG-106725; SIG-104058 nylon foot
+21,SIG-3CM,Sigma,Sigma 3C3M Max tile cutter,725mm cutting length; 513x513mm diagonal; max 20mm; SIG-14MX,parts: SIG-90E; SIG-39B; SIG-90LC; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24M10 complete handle; SIG-104064; SIG-104065; SIG-106725; SIG-104058
+21,SIG-3DM,Sigma,Sigma 3D3M Max tile cutter,905mm cutting length; 640x640mm diagonal; max 20mm; SIG-14MX,parts: SIG-90E; SIG-39N; SIG-90LD; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24M10; SIG-104064; SIG-104065; SIG-106725; SIG-104058
+22,SIG-3PM,Sigma,Sigma 3P3M Max tile cutter,1005mm cutting length; 710x710mm diagonal; max 20mm; SIG-14MX,parts: SIG-90E; SIG-39T chrome guide bar; SIG-90LD; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24M10; SIG-104064; SIG-104065; SIG-106725; SIG-104058
+22,SIG-3EM,Sigma,Sigma 3E3M Max tile cutter,1264mm cutting length; 894x894mm diagonal; max 20mm; SIG-14MX,parts: SIG-90E; SIG-39P chrome guide bar; SIG-90LE swivelling calibrated arm; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24M15 complete handle; SIG-104064 support arm left; SIG-104065 support arm right; SIG-1079119 support arm XL left; SIG-283 support arm XL right (optional); SIG-106725; SIG-104058
+22,SIG-3FM,Sigma,Sigma 3F3M Max tile cutter,1514mm cutting length; 1070x1070mm diagonal; max 20mm; SIG-14MX,parts: SIG-90E; SIG-39Q chrome guide bar; SIG-90LE; SIG-20B; SIG-19D; SIG-108621; SIG-1079104; SIG-24M15; SIG-1079119; SIG-283; SIG-106725; SIG-104058
+23,SIG-4A,Sigma,Sigma 4A tile cutter,750mm cutting length; 520x520mm diagonal; max 20mm; SIG-14A (optional SIG-14T),parts: SIG-39B chrome guide bar; SIG-90 swivelling calibrated arm; SIG-20A guide bar ends; SIG-19A sliding square; SIG-92 clamping knob; SIG-24AE complete handle; SIG-107954 support arm left; SIG-104033 nylon foot
+23,SIG-5B,Sigma,Sigma 5B tile cutter,620mm cutting length; 430x430mm diagonal; max 20mm; SIG-14A (optional SIG-14T),parts: SIG-39A chrome guide bar; SIG-90C swivelling calibrated arm; SIG-20 guide bar ends; SIG-19A sliding square; SIG-92 clamping knob; SIG-24E complete handle; SIG-104033
+23,SIG-6,Sigma,Sigma 6 tile cutter,"350mm cutting length; 250x250mm diagonal; max 15mm; SIG-14A (optional 14T, 14M)",parts: SIG-39 chrome guide bar; SIG-17 calibrated arm extension; SIG-20 guide bar ends; SIG-19 sliding square; SIG-24E complete handle; SIG-104033
+23,SIG-7F,Sigma,Sigma 7F tile cutter,"370mm cutting length; 260x260mm diagonal; max 15mm; SIG-14A (optional 14T, 14M)",parts: SIG-39H chrome guide bar; sliding square (optional); SIG-24F complete handle; SIG-104039 nylon foot
+24,RAI-FREECUT150,Raimondi,"Raimondi Free-Cut starter kit, 1560mm cutting length","for large tiles and panels; 1 x 1700mm guide rail; 1 x separating pliers (up to 6mm thick); 1 x guide set incl. carry case (2 rail end guides, scribing mechanism with 12mm scoring wheel RAI-FREECUT-SW, small pliers RAI-FREECUT-SMP)",extend with RAI-FREECUT-EB (3260mm total)
+24,RAI-FREECUT-EB,Raimondi,Raimondi Free-Cut extension bar 1700mm,1 x 1700mm guide rail; connects to RAI-FREECUT150 for 3260mm total (or to FREECUT200 for 3760mm),"RAI-FREECUT150, RAI-FREECUT200"
+24,RAI-FREECUT200,Raimondi,"Raimondi Free-Cut starter kit, 2060mm cutting length",1 x 2200mm guide rail; separating pliers (up to 6mm); guide set incl. carry case; check stock before ordering,extend with RAI-FREECUT-EB (3760mm) or RAI-FREECUT-200EB (4260mm)
+24,RAI-FREECUT-200EB,Raimondi,Raimondi Free-Cut extension bar 2200mm,1 x 2200mm guide rail; connects to RAI-FREECUT200 for 4260mm total,RAI-FREECUT200
+24,RAI-FREECUT-SW,Raimondi,Free-Cut 12mm scoring wheel,in the guide set,Free-Cut rails
+25,RAI-FREECUTSMP,Raimondi,Raimondi Free-Cut small pliers,for tiles/panels 3mm to 6mm thick,Free-Cut
+25,RAI-FREECUTLGP,Raimondi,Raimondi Free-Cut large pliers,for tiles/panels 6mm to 12mm thick,Free-Cut
+25,RAI-FF90-INC,Raimondi,Raimondi Free-Flex 90° cutting kit with grinder,850W 150mm angle grinder included; mounts on Free-Cut guide rail; plunge cut up to 25mm; 150mm continuous blade,Free-Cut guide rail
+25,RAI-FF90-EXC,Raimondi,Raimondi Free-Flex 90° cutting kit without grinder,semi universal attachment suits most 125mm to 150mm angle grinders; mounts on Free-Cut guide rail; plunge cut up to 25mm,Free-Cut guide rail
+25,RAI-FF3555-INC,Raimondi,Raimondi Free-Flex 35/55° cutting kit with grinder,850W 150mm grinder included; mounts on Free-Cut guide rail; 20mm cut depth adjustable 35° to 55°; 150mm continuous blade,Free-Cut guide rail
+25,RAI-FF3555-EXC,Raimondi,Raimondi Free-Flex 35/55° cutting kit without grinder,semi universal attachment for 125mm to 150mm grinders; mounts on Free-Cut guide rail; 20mm cut depth 35° to 55°,Free-Cut guide rail
+26,RAI-EASYMOVE3,Raimondi,Raimondi Easy-Move 3000 carry system,for panels up to 3000x1500mm; 2 x 1370mm guides; 3 x sliding double suction cups,join two with RAI-EASYMOVE-XB and RAI-EASYMOVE-DSC2
+26,RAI-EASYMOVE-XB,Raimondi,Easy-Move 3000 cross bars,2 x 1370mm cross bars; used to join 2 x RAI-EASYMOVE3,"RAI-EASYMOVE3, RAI-EASYMOVE3V"
+26,RAI-EASYMOVE-DSC2,Raimondi,Easy-Move 3000 double suction cups,2 x double suction cups; attach to RAI-EASYMOVE-XB,RAI-EASYMOVE-XB
+26,RAI-EASYMOVE3-2,Raimondi,Easy-Move 3000 complete carry system,"panels up to 3000x1500; 2 x RAI-EASYMOVE3 (4 guides), 1 x RAI-EASYMOVE-XB, 1 x RAI-EASYMOVE-DSC2",
+27,RAI-EASYMOVE3V,Raimondi,Raimondi Easy-Move 3000 Vacuum carry system,panels up to 3000x1500; 2 x 1370mm guides; 2 x sliding vacuum suction cups; 1 x guide joiner; upgrade kit RAI-EASYMOVE3-UP3V (vacuum cups only) for RAI-EASYMOVE3 owners,join two with RAI-EASYMOVE-XB and RAI-EASYMOVE-SCV
+27,RAI-EASYMOVE3-UP3V,Raimondi,Easy-Move vacuum suction cup upgrade,"vacuum cups only, for an existing RAI-EASYMOVE3",RAI-EASYMOVE3
+27,RAI-EASYMOVE-SCV,Raimondi,Easy-Move 3000 vacuum suction cups and covers,2 x vacuum suction cups and covers; attach to RAI-EASYMOVE-XB,RAI-EASYMOVE-XB
+27,RAI-EASYMOVE3-2V,Raimondi,Easy-Move 3000 Vacuum complete carry system,"panels up to 3000x1500; vacuum cups best on textured surfaces; 2 x RAI-EASYMOVE3V, 1 x RAI-EASYMOVE-XB, 1 x RAI-EASYMOVE-SCV",
+28,RAI-CAM300,Raimondi,Raimondi CAM modular trolley,for large format panels; 24 kg; aluminium; easy to assemble; telescopic safety hook; crossbar with rubber protection; adjustable Easy-Move frame supports; lockable wheels,Easy-Move frames rest on its hooks
+29,RAI-BM180,Raimondi,Raimondi BM 180 modular bench,1800 x 900mm worktop; 830mm height; 31 kg; adjustable rubber feet; adjustable bench rail positions; joiner piece supplied to connect multiple benches; quick clamp legs,
+30,RAI-RAICUT,Raimondi,Raimondi Rai-Cut complete grooving tool,for the RAI-FIX system; 900 W motor; supplied with RAI-DBCCT125; vacuum attachment; adjustable depth stop,RAI-FIX hooks
+30,RAI-RAICUT-JIG,Raimondi,Raimondi Rai-Cut grooving jig,for the RAI-FIX system; angle grinder not included; vacuum attachment; adjustable depth stop,RAI-FIX hooks; RAI-DBCCT125 blade
+30,RAI-RFH6120,Raimondi,"RAI-FIX hooks for tiles over 6mm, 120 pcs","stainless steel; small, min 6mm tile; 6mm and 8mm anchor holes; 600x600 1 hook, 900x900 2, 1200x1200 3; mechanical fixing for wall tiles and slabs in addition to adhesive",Rai-Cut slot
+30,RAI-RFH6500,Raimondi,"RAI-FIX hooks for tiles over 6mm, 500 pcs",,Rai-Cut slot
+30,RAI-RFH870,Raimondi,"RAI-FIX hooks for tiles over 8mm, 70 pcs","medium, min 8mm tile",Rai-Cut slot
+30,RAI-RFH8120,Raimondi,"RAI-FIX hooks for tiles over 8mm, 120 pcs",,Rai-Cut slot
+30,RAI-RFH8500,Raimondi,"RAI-FIX hooks for tiles over 8mm, 500 pcs",,Rai-Cut slot
+30,RAI-DBCCT125,Raimondi,Raimondi 125mm diamond blade for Rai-Cut,not shown,"RAI-RAICUT, RAI-RAICUT-JIG"
+31,LS-SMALL,BAT,"Liquid stirrer, double spiral 100 x 500mm, 10mm hex shaft",,drills with 10mm hex chuck
+31,LS-MEDIUM,BAT,"Liquid stirrer, double spiral 120 x 500mm, 10mm hex shaft",,
+31,LS-LARGE,BAT,"Liquid stirrer, double spiral 150 x 500mm, 10mm hex shaft",,
+31,LS-848,BAT,"Liquid stirrer, double spiral 80 x 400mm, 8mm hex shaft",,
+31,LS-858,BAT,"Liquid stirrer, double spiral 80 x 500mm, 8mm hex shaft",,
+31,LS-161,BAT,"Liquid stirrer, double spiral 100 x 600mm, 10mm hex shaft",,
+31,RAI-LSWS,Raimondi,"Raimondi liquid stirrer, 4 blade whisk 120 x 550mm, 10mm hex shaft",,
+31,RAI-27LB,Raimondi,Raimondi 27L bucket with steel handle,,
+31,RAI-45LB,Raimondi,Raimondi 45L bucket with steel handle,,
+32,BAT-ST100,BAT,"Liquid stirrer, double spiral 100 x 600mm, M14 thread",,"M14 mixers (BAT-EM1400, RAI-DM1600)"
+32,LS-1261,BAT,"Liquid stirrer, double spiral 120 x 600mm, M14 thread",,M14 mixers
+32,BAT-ST135,BAT,"Liquid stirrer, double spiral 135 x 600mm, M14 thread",,M14 mixers
+32,BAT-ST140,BAT,"Liquid stirrer, double spiral 140 x 600mm, M14 thread",supplied with BAT-EM1400,M14 mixers
+32,BAT-ST160,BAT,"Liquid stirrer, double spiral 160 x 600mm, M14 thread",,M14 mixers
+32,RAI-FLMIXLSPL,Raimondi,"Raimondi liquid stirrer, triple spiral 140 x 680mm, M14 thread",supplied with Fluid Mix Special,M14 mixers; Fluid Mix Special
+32,RAI-LSSPSM14,Raimondi,"Raimondi liquid stirrer, triple spiral 120 x 600mm, M14 thread",,M14 mixers
+32,RAI-LSSPLM14,Raimondi,"Raimondi liquid stirrer, triple spiral 140 x 600mm, M14 thread",,M14 mixers
+32,RAI-LSSPXM14,Raimondi,"Raimondi liquid stirrer, double spiral 160 x 600mm, M14 thread",,M14 mixers
+32,BAT-LSW100,BAT,"Liquid stirrer, 4 blade whisk 100 x 600mm, M14 thread",supplied with BAT-EM1400 (as BAT-SW100),M14 mixers
+32,RAI-LSWSKM14,Raimondi,"Raimondi liquid stirrer, 4 blade whisk 140 x 600mm, M14 thread",,M14 mixers
+32,BAT-SE200,BAT,Liquid stirrer extension 200mm x M14 thread,,M14 paddles
+33,BAT-EM1400,BAT,BAT electric hand mixer 1400W,"1400 W; 2 speed; variable speed control; M14 thread; carry case; low 150-300 rpm, high 300-650 rpm; for adhesives, mortars, screeds, levelling compounds; 2 paddles included (BAT-ST140 and BAT-SW100)",parts: BAT-SE200 200mm paddle extension (M14 paddles); BAT-EMCHUCK drill chuck 3-16mm with M14 adapter; BAT-EM1400BRUSH carbon brushes (set of 2)
+33,BAT-EMCHUCK,BAT,Drill chuck 3 to 16mm with M14 adapter,,M14 mixers
+33,BAT-EM1400BRUSH,BAT,Carbon brush set of 2,suit BAT-EM1400,BAT-EM1400
+33,RAI-DM1600,Raimondi,Raimondi electric hand mixer 1600W,"1600 W; 2 speed; variable; M14; low 180-460 rpm, high 300-700 rpm; digital speed display; digital timer 1-90 min when fitted to the Fluid Mix Special; paddle included 160 x 600mm M14",parts: RAI-DM1600BRUSH carbon brushes (set of 2)
+33,RAI-DM1600BRUSH,Raimondi,Carbon brush set of 2,suit RAI-DM1600,RAI-DM1600
+34,RAI-IPERBET,Raimondi,Raimondi Iperbet mixer,"fixed paddle, rotating bucket; 0.5 hp geared motor; supplied with two 45L buckets; 55 rpm; for tile adhesives, thinsets, mortar, plasters",accessories: RAI-IPERBU spare 45L mixing bucket; RAI-IPERCB clump breaker; RAI-IPERDB double blade mixing tool; RAI-IPERMKF fluid mixing kit
+35,AT-COMPACT100,Atika,Atika Compact 100 pan mixer,2 kW motor; 100L capacity; 80 kg; fits through doorways; empties into a bucket or wheelbarrow; serrated teeth strip to break open bags; safety cut-out lid; removable mixing head,parts: AT-C100-AH replacement agitation head; AT-C100-AAS agitation arm side; AT-C100-ABS agitation blade side; AT-C100-AAO agitation arm outside bottom; AT-C100-ABO agitation blade outside bottom; AT-C100-AAI agitation arm inside bottom; AT-C100-ABI agitation blade inside bottom (all suit Compact 100)
+36,RAI-FLUMIXSP,Raimondi,Raimondi Fluid Mix Special,"fluid material mixer; 75L bucket and dust cap; 140mm paddle (M14, 680mm shaft) included; 4 swivel wheels; tiltable bucket; universal attachment for mixers 40mm to 60mm",accessories: RAI-FLUMIXB 75L bucket; RAI-FLUMIXDL spare lid (suit Fluid Mix bucket); RAI-FLUMIXLSPL liquid stirrer 140 x 680 M14
+36,RAI-FLUMIXB,Raimondi,Fluid Mix bucket 75L,suit Fluid Mix Special,RAI-FLUMIXSP
+36,RAI-FLUMIXDL,Raimondi,Fluid Mix spare lid,suit Fluid Mix bucket,"RAI-FLUMIXSP, RAI-FLUMIXB"
+37,RAI-SPRINT,Raimondi,Raimondi Sprintbeton screed and tile vibrator,"80 W multi use vibrator; screed bar, roller plate and flat plate; 150 W / 42 V transformer; for screeding a mortar base and vibrating tiles into a mud bed; interchangeable screed bar and plate assemblies; supplied with RAI-SPRINTRA, RAI-SPRINTVP, RAI-SPRINTSB18, RAI-SPRINTSB21, RAI-SPRINTSS20, RAI-SPRINTTF, RAI-SCSP","accessories: RAI-SPRINTRA 7 row roller plate 300 x 450mm; RAI-SPRINTVP flat vibrating plate 300 x 450mm; RAI-SPRINTSB18/21/25/30/35/40 screed bars 1800 to 4000mm; RAI-SPRINTSS20 screed shim pair 2000mm; RAI-SPRINTTF 150 W / 42 V transformer (suit Sprintbeton, Lupetto, Cucciolo); RAI-SCSP 500mm mortar spreader (not incl. RAI-AH); RAI-AH aluminium handle 27 x 1330mm"
+37,RAI-SPRINTRA,Raimondi,Sprintbeton 7 row roller plate 300 x 450mm assembly,,Sprintbeton
+37,RAI-SPRINTVP,Raimondi,Sprintbeton flat vibrating plate 300 x 450mm,,Sprintbeton
+37,RAI-SPRINTSB18,Raimondi,Sprintbeton screed bar 1800mm,,Sprintbeton
+37,RAI-SPRINTSB21,Raimondi,Sprintbeton screed bar 2100mm,,Sprintbeton
+37,RAI-SPRINTSB25,Raimondi,Sprintbeton screed bar 2500mm,,Sprintbeton
+37,RAI-SPRINTSB30,Raimondi,Sprintbeton screed bar 3000mm,,Sprintbeton
+37,RAI-SPRINTSB35,Raimondi,Sprintbeton screed bar 3500mm,,Sprintbeton
+37,RAI-SPRINTSB40,Raimondi,Sprintbeton screed bar 4000mm,,Sprintbeton
+37,RAI-SPRINTSS20,Raimondi,Sprintbeton screed shim (pair) 2000mm,,Sprintbeton
+37,RAI-SPRINTTF,Raimondi,Raimondi 150 W / 42 V transformer,"suit Sprintbeton, Lupetto and Cucciolo","Sprintbeton, Lupetto, Cucciolo"
+37,RAI-SCSP,Raimondi,Raimondi 500mm mortar spreader,not including RAI-AH handle,RAI-AH handle
+37,RAI-AH,Raimondi,Raimondi aluminium handle 27mm x 1330mm,,"mortar spreader, Raimondi floats"
+38,RAI-TERRA,Raimondi,Raimondi Terranova tile vibrator,200 W high vibration tile level; three speed 4000/6500/8600 rpm; 300 W / 42 V transformer; 11 row roller plate 470 x 520mm,accessories: RAI-TERRA-RA 11 row roller plate 470 x 520mm assembly; RAI-TERRATF 300 W / 42 V transformer (suit Terranova)
+38,RAI-LUPETTO,Raimondi,Raimondi Lupetto tile vibrator,80 W high vibration tile level; two speed 6000/8200 rpm; 150 W / 42 V transformer; flat vibrating plate 250 x 450mm,accessories: RAI-LUPETTO-RA 11 row roller plate 250 x 450mm assembly (optional); RAI-LUPETTO-VP flat vibrating plate 250 x 450mm; RAI-SPRINTTF 150 W / 42 V transformer
+38,RAI-CUCCIOLO,Raimondi,Raimondi Cucciolo tile vibrator,80 W high vibration tile level; two speed 6000/8200 rpm; 150 W / 42 V transformer; flat vibrating pointed plate 250 x 450mm,accessories: RAI-CUCCIOLO-VP flat vibrating pointed plate 250 x 450mm; RAI-SPRINTTF transformer
+38,RAI-TERRA-RA,Raimondi,Terranova 11 row roller plate 470 x 520mm assembly,,Terranova
+38,RAI-TERRATF,Raimondi,Raimondi 300 W / 42 V transformer,suit Terranova,Terranova
+38,RAI-LUPETTO-RA,Raimondi,Lupetto 11 row roller plate 250 x 450mm assembly,optional,Lupetto
+38,RAI-LUPETTO-VP,Raimondi,Lupetto flat vibrating plate 250 x 450mm,,Lupetto
+38,RAI-CUCCIOLO-VP,Raimondi,Cucciolo flat vibrating pointed plate 250 x 450mm,,Cucciolo
+39,RAI-MAXITITINA,Raimondi,Raimondi Maxititina floor machine,"single rotating brush; grouting, cleaning, smoothing, finishing; 1.2 hp motor; dual speed 55 and 110 rpm",accessories: RAI-MAXTGP grout paddle complete; RAI-MAXTGPRRS grout paddle replacement blades (set of 8); RAI-MAXTSNB stiff bristle nylon brush (080); RAI-MAXTMNB medium bristle nylon brush (065); RAI-MAXTSWB brass coated steel wire brush; RAI-MAXTINEX Tinex abrasive bristle brush (050); RAI-MAXTVSDH2 Velcro disc holder for felt pads and sponge disc; RAI-MAXTFDS soft felt pad white; RAI-MAXTFDM medium felt pad green; RAI-MAXTFDH hard felt pad black; RAI-MAXTANK 12L polypropylene tank
+39,RAI-MAXTGP,Raimondi,Maxititina grout paddle complete,,Maxititina
+39,RAI-MAXTGPRRS,Raimondi,Maxititina grout paddle replacement blades (full set of 8),,Maxititina grout paddle
+39,RAI-MAXTSNB,Raimondi,Maxititina stiff bristle nylon brush (080),,Maxititina
+39,RAI-MAXTMNB,Raimondi,Maxititina medium bristle nylon brush (065),,Maxititina
+39,RAI-MAXTSWB,Raimondi,Maxititina brass coated steel wire brush,,Maxititina
+39,RAI-MAXTINEX,Raimondi,Maxititina Tinex abrasive bristle brush (050),,Maxititina
+39,RAI-MAXTVSDH2,Raimondi,Maxititina Velcro disc holder for felt pads and sponge disc,,Maxititina
+39,RAI-MAXTFDS,Raimondi,"Maxititina soft felt pad, white",,Maxititina (on Velcro holder)
+39,RAI-MAXTFDM,Raimondi,"Maxititina medium felt pad, green",,Maxititina (on Velcro holder)
+39,RAI-MAXTFDH,Raimondi,"Maxititina hard felt pad, black",,Maxititina (on Velcro holder)
+39,RAI-MAXTANK,Raimondi,Maxititina 12L polypropylene tank,,Maxititina
+40,RAI-MICROTITINA,Raimondi,Raimondi Microtitina,"single rotating brush; grinding, finishing and polishing small areas; cut-in around walls before larger machines; 1.5 hp motor; tool speed 4500 rpm; contact BAT Trims rep",
+41,RAI-IPERTITINAPLUS,Raimondi,Raimondi Ipertitina Plus,"single rotating brush; grinding, finishing and polishing small to medium areas; up to 6 geared counter-rotating wheel satellites (rpm x5); 3 hp motor; 3 versions 55, 110 and 255 rpm; contact BAT Trims rep","accessories (page 42, no codes): planetary heads, abrasive/wire/nylon brushes, grinding wheels, resin pads, felt discs"
+43,notch-diagrams,BAT,Notch diagrams,"square notch 4/6/8/10/12mm (A=B); V notch pointed 3mm (4.5 x 3.5), 5mm (6 x 5), 12mm; V notch rounded 8mm (6 x 8); half moon 15mm (20 x 15)",
+44,ADS-4,BAT,Galvanised adhesive spreader 4mm square notch,,
+44,ADS-6,BAT,Galvanised adhesive spreader 6mm square notch,,
+44,ADS-8,BAT,Galvanised adhesive spreader 8mm square notch,,
+44,ADS-10,BAT,Galvanised adhesive spreader 10mm square notch,,
+44,ADS-12,BAT,Galvanised adhesive spreader 12mm square notch,,
+44,ADS-V,BAT,Galvanised adhesive spreader 3mm V notch,,
+44,BAT-EN4,BAT,BAT economy trowel 4mm square notch,,
+44,BAT-EN6,BAT,BAT economy trowel 6mm square notch,,
+44,BAT-EN8,BAT,BAT economy trowel 8mm square notch,,
+44,BAT-EN10,BAT,BAT economy trowel 10mm square notch,,
+44,BAT-EN12,BAT,BAT economy trowel 12mm square notch,,
+44,BAT-ENV,BAT,BAT economy trowel 3mm V notch,,
+44,BAT-BS4-SG,BAT,"BAT bright steel trowel 4mm square notch, soft grip",,
+44,BAT-BS6-SG,BAT,"BAT bright steel trowel 6mm square notch, soft grip",,
+44,BAT-BS8-SG,BAT,"BAT bright steel trowel 8mm square notch, soft grip",,
+44,BAT-BS10-SG,BAT,"BAT bright steel trowel 10mm square notch, soft grip",,
+44,BAT-BS12-SG,BAT,"BAT bright steel trowel 12mm square notch, soft grip",,
+44,BAT-BSV-SG,BAT,"BAT bright steel trowel 3mm V notch, soft grip",,
+44,BAT-BSPV5-SG,BAT,"BAT bright steel trowel 5mm V notch, soft grip",,
+44,BAT-BSRV8-SG,BAT,"BAT bright steel trowel 8mm V notch (rounded), soft grip",,
+44,BAT-BSPV12-SG,BAT,"BAT bright steel trowel 12mm V notch, soft grip",,
+44,BAT-BSHM15-SG,BAT,"BAT bright steel trowel 15mm half moon notch, soft grip",,
+45,BAT-SS4-SG,BAT,"BAT stainless steel trowel 4mm square notch, soft grip",,
+45,BAT-SS6-SG,BAT,"BAT stainless steel trowel 6mm square notch, soft grip",,
+45,BAT-SS8-SG,BAT,"BAT stainless steel trowel 8mm square notch, soft grip",,
+45,BAT-SS10-SG,BAT,"BAT stainless steel trowel 10mm square notch, soft grip",,
+45,BAT-SS12-SG,BAT,"BAT stainless steel trowel 12mm square notch, soft grip",,
+45,BAT-LBBST8-SG,BAT,"BAT bright steel long blade trowel 8mm square notch, soft grip",,
+45,BAT-LBBST10-SG,BAT,"BAT bright steel long blade trowel 10mm square notch, soft grip",,
+45,BAT-LBBST12-SG,BAT,"BAT bright steel long blade trowel 12mm square notch, soft grip",,
+45,BAT-LBBST-HM15-SG,BAT,"BAT bright steel long blade trowel 15mm half moon, soft grip",,
+45,RAI-BSTSR6,Raimondi,"Raimondi stainless steel trowel 6mm slant ridge, soft grip",,
+45,RAI-BSTSR8,Raimondi,"Raimondi stainless steel trowel 8mm slant ridge, soft grip",,
+45,RAI-BSTSR10,Raimondi,"Raimondi stainless steel trowel 10mm slant ridge, soft grip",,
+45,RAI-LBT8,Raimondi,Raimondi bright steel long blade trowel 8mm notch,,
+45,RAI-LBT10,Raimondi,Raimondi bright steel long blade trowel 10mm notch,,
+45,RAI-LBT12,Raimondi,Raimondi bright steel long blade trowel 12mm notch,,
+45,RAI-LBTHM15,Raimondi,Raimondi bright steel long blade trowel 15mm half moon notch,,
+45,RAI-LBTSR6,Raimondi,Raimondi stainless steel long blade trowel 6mm slant ridge,,
+45,RAI-LBTSR8,Raimondi,Raimondi stainless steel long blade trowel 8mm slant ridge,,
+45,RAI-LBTSR10,Raimondi,Raimondi stainless steel long blade trowel 10mm slant ridge,,
+46,PS-50,BAT,"Paint scraper 50mm, soft grip handle",,
+46,PS-75,BAT,"Paint scraper 75mm, soft grip handle",,
+46,PS-100,BAT,"Paint scraper 100mm, soft grip handle",,
+46,PSN-6,BAT,"Paint scraper notched 100mm, 6mm square notch, soft grip",,
+46,PSN-8,BAT,"Paint scraper notched 100mm, 8mm square notch, soft grip",,
+46,PSN-10,BAT,"Paint scraper notched 100mm, 10mm square notch, soft grip",,
+46,FPSS-3-SG,BAT,"Paint scraper set 38, 50 and 75mm, soft grip",,
+46,CSHE-3-SG,BAT,"Scraper / chisel set, hammer end, 32, 32 bent and 50mm, soft grip",,
+46,CHE-38-SG,BAT,"Scraper / chisel, hammer end, 32mm bent, soft grip",,
+46,PLSP-60,BAT,Plasterer's spatula 60mm,,
+46,PLSP-N6,BAT,"Plasterer's spatula 60mm, 6mm notched",,
+46,RAI-SKT,Raimondi,"Raimondi skirting trowel 130mm, 10mm notched",,
+47,GAT-7-SG,BAT,"Gauging trowel 180mm (7 inch), soft grip",,
+47,GAT-8-SG,BAT,"Gauging trowel 200mm (8 inch), soft grip",,
+47,TT-H,BAT,"Tiler's trowel, heart shaped",,
+47,TT-SQ,BAT,"Tiler's trowel, square shaped",,
+47,ST-12,BAT,Small tool 12mm (1/2 inch),,
+47,ST-58,BAT,Small tool 16mm (5/8 inch),,
+47,ST-34,BAT,Small tool 19mm (3/4 inch),,
+47,ST-1,BAT,Small tool 25mm (1 inch),,
+47,RAI-SLGR,Raimondi,Raimondi self levelling rake,0 to 20mm depth gauge; 600mm width,RAI-AH handle
+47,BAT-SR21500,BAT,"Spike roller 21mm spike, 500mm wide",,
+47,BAT-WH,BAT,Wooden handle 20mm x 1500mm,,"spike roller, spreaders"
+47,RAI-AH,Raimondi,Raimondi aluminium handle 27mm x 1330mm,,"Raimondi spreaders, rake, floats"
+48,HG-6,BAT,Handyman grouter 150mm (6 inch),,
+48,HG-9,BAT,Handyman grouter 230mm (9 inch),,
+48,HG-12,BAT,Handyman grouter 300mm (12 inch),,
+48,TG-6,BAT,Tradesman grouter 150mm (6 inch),,
+48,TG-9,BAT,Tradesman grouter 230mm (9 inch),,
+48,TG-12,BAT,Tradesman grouter 300mm (12 inch),,
+48,PRGP,BAT,"Pointed grouter, plastic handle",,
+48,PRGB,BAT,"Pointed grouter, trade quality",,
+48,PRGJ,BAT,"Pointed grouter, Japanese rubber",,
+48,WB-1006,Washboy,"Washboy rectangular grouter, Velcro backed rubber pad",,WB-1008 replacement rubber
+48,WB-9002,Washboy,"Washboy handle, Velcro, 265 x 130mm",,Washboy sponges and rubber pads
+48,WB-1008,Washboy,"Washboy replacement rectangular rubber, Velcro backed",,"WB-1006, WB-9002 handle"
+49,RAI-RGFS,Raimondi,"Raimondi rectangular grouter, soft blue rubber 115 x 250mm",,
+49,RAI-RGFH,Raimondi,"Raimondi rectangular grouter, hard green rubber 115 x 250mm",,
+49,RAI-RGFR,Raimondi,"Raimondi rectangular grouter, soft blue rubber 95 x 245mm",,replacement rubber RAI-RGFRR
+49,RAI-RGFRR,Raimondi,"Raimondi replacement rectangular rubber, soft blue",suit RAI-RGFR,RAI-RGFR
+49,RAI-RFRG,Raimondi,"Raimondi rectangular grouter, foam rubber 130 x 290mm",,
+49,RAI-GJFT,Raimondi,Raimondi Pallino grout joint finishing tool,"chrome spheres 17, 22, 27 and 30mm",
+49,RAI-FRS40,Raimondi,"Raimondi squeegee, double foam rubber 400mm",,replacement RAI-FRS40SR
+49,RAI-FRS50,Raimondi,"Raimondi squeegee, double foam rubber 500mm",,replacement RAI-FRS50SR
+49,RAI-FRS75,Raimondi,"Raimondi squeegee, double foam rubber 750mm",,replacement RAI-FRS75SR
+49,RAI-FRS40SR,Raimondi,Replacement double foam rubber 400mm,suit RAI-FRS40,RAI-FRS40
+49,RAI-FRS50SR,Raimondi,Replacement double foam rubber 500mm,suit RAI-FRS50,RAI-FRS50
+49,RAI-FRS75SR,Raimondi,Replacement double foam rubber 750mm,suit RAI-FRS75,RAI-FRS75
+50,RAI-ROS,Raimondi,Raimondi Rosina electric grout clean up machine,0.5 hp; dual speed 18 and 22 rpm; approx 100 m2 per hour; 56 kg,"sponges RAI-BERSP, RAI-BERSPSW, RAI-BERSPEPO; anti foam RAI-AFL100, RAI-AFL400"
+50,RAI-BER,Raimondi,Raimondi Berta electric grout clean up machine,0.16 hp; dual speed 21 and 25 rpm; approx 100 m2 per hour; 29 kg,accessories: RAI-BERSP replacement sponge Avana standard; RAI-BERSPSW replacement sponge Sweepex high absorption; RAI-BERSPEPO replacement sponge cellulose for epoxy; RAI-AFL100 antifoaming liquid 100g; RAI-AFL400 antifoaming liquid 400g
+50,RAI-BERSP,Raimondi,"Raimondi replacement sponge roller, Avana standard",,"Berta, Rosina"
+50,RAI-BERSPSW,Raimondi,"Raimondi replacement sponge roller, Sweepex high absorption",,"Berta, Rosina"
+50,RAI-BERSPEPO,Raimondi,"Raimondi replacement sponge roller, cellulose for epoxy",,"Berta, Rosina"
+50,RAI-AFL100,Raimondi,Raimondi antifoaming liquid 100g,,"Berta, Rosina"
+50,RAI-AFL400,Raimondi,Raimondi antifoaming liquid 400g,,"Berta, Rosina"
+51,RAI-EASY,Raimondi,Raimondi Easy grout clean up system,10L capacity; supplied with 5 disposable bag liners; supplied with RAI-SMFLOAT,spare rollers RAI-SRS3E (3 rollers)
+51,RAI-SKIPPER,Raimondi,Raimondi Skipper grout clean up system,13L capacity; supplied with RAI-SMFLOAT,spare rollers RAI-SRS2 (2 rollers)
+51,RAI-SKIPPER4,Raimondi,"Raimondi Skipper grout clean up system, pack of four",4 x RAI-SKIPPER; 13L; supplied with RAI-SMFLOAT,RAI-SRS2
+51,RAI-SKIPPER8,Raimondi,"Raimondi Skipper grout clean up system, pack of eight",8 x RAI-SKIPPER; 13L; supplied with RAI-SMFLOAT,RAI-SRS2
+51,RAI-PULIRAPID,Raimondi,Raimondi Pulirapid grout clean up system,20L capacity; supplied with RAI-SMFLOAT,spare rollers RAI-SRS3 (3 rollers)
+51,RAI-PEDALO,Raimondi,Raimondi Pedalo grout clean up system,"40L capacity; supplied with RAI-LGFLOAT, RAI-PLFLOAT and RAI-AHSEC","floats RAI-LGFLOAT, RAI-PLFLOAT; handle RAI-AHSEC"
+52,RAI-QCFH,Raimondi,Raimondi quick change float handle 100 x 240mm,,"RAI-SMSPONGE, RAI-LGSPONGE"
+52,RAI-AH,Raimondi,Raimondi aluminium handle 27mm x 1330mm,,
+52,RAI-AHSEC,Raimondi,Raimondi aluminium 2 piece handle 27mm x 1330mm,,Pedalo float
+52,RAI-SMFLOAT,Raimondi,Raimondi float small,1 x RAI-QCFH and 1 x RAI-SMSPONGE; 130 x 300mm,"Easy, Skipper, Pulirapid buckets"
+52,RAI-SMFLOATCUT,Raimondi,Raimondi float small with cuts,1 x RAI-QCFH and 1 x RAI-SMSPONGECUT; 130 x 300mm,
+52,RAI-LGFLOAT,Raimondi,Raimondi float large,1 x RAI-QCFH and 1 x RAI-LGSPONGE; 170 x 340mm,Pedalo
+52,RAI-LGFLOATCUT,Raimondi,Raimondi float large with cuts,1 x RAI-QCFH and 1 x RAI-LGSPONGECUT; 170 x 340mm,
+52,RAI-PLFLOAT,Raimondi,Raimondi float Pedalo,1 x metal bracket and 1 x RAI-PLSPONGE; 130 x 420mm,Pedalo (on RAI-AHSEC handle)
+52,RAI-PLFLOATCUT,Raimondi,Raimondi float Pedalo with cuts,1 x metal bracket and 1 x RAI-PLSPONGECUT; 130 x 420mm,Pedalo
+52,RAI-SRS2,Raimondi,"Raimondi replacement ringing rollers, 2 rollers",suits RAI-SKIPPER,Skipper
+52,RAI-SRS3E,Raimondi,"Raimondi replacement ringing rollers, 3 rollers",suits RAI-EASY,Easy
+52,RAI-SRS3,Raimondi,"Raimondi replacement ringing rollers, 3 rollers",suits RAI-PULIRAPID,Pulirapid
+53,RAI-SMSPONGE,Raimondi,Raimondi small sponge 130 x 300mm,suits RAI-QCFH,"RAI-QCFH quick change handle; Easy, Skipper, Pulirapid floats"
+53,RAI-SMSPONGECUT,Raimondi,Raimondi small sponge with cuts 130 x 300mm,suits RAI-QCFH,RAI-QCFH
+53,RAI-SMSPONGECV,Raimondi,Raimondi small sponge carved 130 x 300mm,suits RAI-QCFH,RAI-QCFH
+53,RAI-LGSPONGE,Raimondi,Raimondi large sponge 170 x 340mm,suits RAI-QCFH,RAI-QCFH; Pedalo large float
+53,RAI-LGSPONGECUT,Raimondi,Raimondi large sponge with cuts 170 x 340mm,suits RAI-QCFH,RAI-QCFH
+53,RAI-LGSPONGECV,Raimondi,Raimondi large sponge carved 170 x 340mm,suits RAI-QCFH,RAI-QCFH
+53,RAI-PLSPONGE,Raimondi,Raimondi Pedalo sponge 130 x 420mm,suits RAI-PLFLOAT,RAI-PLFLOAT (Pedalo)
+53,RAI-PLSPONGECUT,Raimondi,Raimondi Pedalo sponge with cut 130 x 420mm,suits RAI-PLFLOAT,RAI-PLFLOAT (Pedalo)
+53,RAI-PLSPONGECV,Raimondi,Raimondi Pedalo sponge carved 130 x 420mm,suits RAI-PLFLOAT,RAI-PLFLOAT (Pedalo)
+53,RAI-EASY-SB20,Raimondi,"Raimondi Easy replacement liners, roll of 20",for the Easy 10L bucket,RAI-EASY
+53,RAI-SPG,Raimondi,Raimondi replacement grate,suit RAI-SKIPPER,Skipper
+54,WB-PROFI,Washboy,"Washboy Profi grout clean up system, adhesive sponge kit","parts: WB-BUCK bucket, WB-9009 Profi rinsing rollers, WB-9010 base rollers, WB-9004 adhesive float","sponges WB-9005 (adhesive); rollers WB-9009, WB-9010, WB-9011; WB-DC dirt catcher; WB-GGI grate; WB-9008 adhesive"
+54,WB-PROFI-A,Washboy,"Washboy Profi grout clean up system, Velcro sponge kit","parts: WB-BUCK, WB-9009, WB-9010, WB-9001 Velcro float","sponges WB-9003, WB-SVS, WB-SPS (Velcro); rollers WB-9009, WB-9010, WB-9011; WB-DC; WB-GGI"
+54,BAT-MAXIMO-C,BAT,"Maximo Commodore grout clean up system, Velcro sponge kit","parts: complete bucket and roller set, BAT-MAXVHC handle, BAT-MAXVSC sponge",BAT-MAXVSC sponge 150 x 320mm; BAT-MAXPG plastic grate
+55,WB-9001,Washboy,"Washboy float, Velcro",1 x WB-9002 handle and 1 x WB-9003 sponge,"WB-9003, WB-SVS, WB-SPS sponges"
+55,WB-9002,Washboy,"Washboy handle, Velcro 130 x 265mm",,WB-9003 145 x 290mm Velcro sponges; WB-1008 grouter rubber
+55,WB-9003,Washboy,"Washboy sponge, Velcro 145 x 290mm",,WB-9002 handle
+55,WB-9001L,Washboy,"Washboy large float, Velcro",1 x WB-9002L handle and 1 x WB-9003L sponge,WB-9003L
+55,WB-9002L,Washboy,"Washboy large handle, Velcro 160 x 315mm",,WB-9003L sponge
+55,WB-9003L,Washboy,"Washboy large sponge, Velcro 185 x 345mm",,WB-9002L handle
+55,WB-9004,Washboy,"Washboy float, adhesive",1 x handle and 1 x WB-9005 sponge,"WB-9005 sponge, WB-9008 adhesive"
+55,WB-9005,Washboy,"Washboy sponge, adhesive 145 x 290mm",,WB-9004 float (glued with WB-9008)
+55,BAT-MAXVHC,BAT,"BAT Maximo Commodore handle, Velcro 130 x 300mm",,BAT-MAXVSC sponge
+55,WB-9006,Washboy,"Washboy large float, adhesive",1 x handle and 1 x WB-9007 sponge,WB-9007
+55,WB-9007,Washboy,"Washboy large sponge, adhesive 185 x 345mm",,WB-9006 float
+55,BAT-MAXVSC,BAT,"BAT Maximo Commodore sponge, Velcro 150 x 320mm",,BAT-MAXVHC handle
+56,WB-0116,Washboy,"Washboy grout and wash kit, Velcro","1 x WB-9002 handle, 1 x WB-9003 sponge, 1 x WB-1008 grouter rubber",
+56,WB-SVS,Washboy,"Washboy epoxy sponge, Velcro 140 x 275mm",,WB-9002 handle
+56,WB-SPS,Washboy,"Washboy polyester sponge, Velcro 140 x 275mm",,WB-9002 handle
+56,WB-BUCK,Washboy,Washboy bucket 23L with carry handle,,Washboy Profi systems
+56,WB-DC,Washboy,Washboy dirt catcher,sits underneath rinsing rollers to catch sediment,Washboy bucket
+56,WB-GGI,Washboy,"Washboy grate, galvanised grill",sits in bottom of bucket,Washboy bucket
+56,WB-9009,Washboy,"Washboy rollers, Profi rinsing set",,Washboy bucket
+56,WB-9010,Washboy,"Washboy rollers, base set",,Washboy bucket
+56,WB-9011,Washboy,"Washboy rollers, Speedy rinsing set",,Washboy bucket
+56,WB-9008,Washboy,Washboy adhesive 30 g tube,for adhesive handles and sponges,"WB-9004, WB-9006, WB-9005, WB-9007"
+56,BAT-MAXPG,BAT,"BAT Maximo grate, plastic",hangs in bucket,Maximo Commodore bucket
+57,S-50,BAT,General purpose sponge 200 x 150 x 50mm,,
+57,S-100,BAT,General purpose sponge 200 x 150 x 100mm,,
+57,SP-DLXCELL,BAT,Deluxe cellulose sponge 190 x 135 x 55mm,,
+57,WB-HANDSP,Washboy,Washboy hand sponge 165 x 110 x 65mm,,
+57,SP-TILSLA,BAT,Tilers and slaters sponge 300 x 210 x 35mm,,
+57,RAI-AHS,Raimondi,Raimondi Avana sponge 190 x 120 x 70mm,,
+57,RAI-SHS,Raimondi,Raimondi Sweepex sponge 160 x 120 x 70mm,,
+58,RAI-SWHAS,Raimondi,Raimondi Sweepex abrasive and sponge 160 x 90 x 70mm,,
+58,RAI-SPCHA,Raimondi,Raimondi cellulose abrasive and sponge 160 x 90 x 70mm,,
+58,RAI-HAS,Raimondi,Raimondi hard abrasive sponge 160 x 90 x 70mm,,
+58,RAI-SPADF,Raimondi,"Scouring / finishing pad, low abrasive 120 x 250 x 20mm",,RAI-SPADKIT Velcro handle
+58,RAI-SPADM,Raimondi,"Scouring / finishing pad, medium abrasive 120 x 250 x 20mm",,RAI-SPADKIT Velcro handle
+58,RAI-SPADH,Raimondi,"Scouring / finishing pad, high abrasive 120 x 250 x 20mm",,RAI-SPADKIT Velcro handle
+58,RAI-SPADKIT,Raimondi,Scouring / finishing kit,"1 x Velcro handle, 1 x RAI-SPADF, 1 x RAI-SPADM, 1 x RAI-SPADH",
+59,WTC-38,BAT,"3 wing tile core, tungsten carbide, 38mm",,
+59,WTC-50,BAT,"3 wing tile core, tungsten carbide, 50mm",,
+59,TB-273,BAT,"Triangular boart, tungsten carbide, 2 to 73mm",,
+59,HCG,BAT,"Adjustable tile core, tungsten carbide, 23 to 94mm",,HCG-SC replacement tips
+59,HCG-SC,BAT,"Replacement cutting tips, 1 centre and 2 outer",suit HCG,HCG
+59,EPDB-6,BAT,"Electroplated diamond core drill 6mm, wet use",,EPDB-5PUK guide
+59,EPDB-8,BAT,"Electroplated diamond core drill 8mm, wet use",,
+59,EPDB-10,BAT,"Electroplated diamond core drill 10mm, wet use",,
+59,EPDB-12,BAT,"Electroplated diamond core drill 12mm, wet use",,
+59,EPDB-38,BAT,"Electroplated diamond core drill 38mm, wet use",,
+59,EPDB-5PUK,BAT,Electroplated diamond core drill set,"5, 6, 8, 10 and 12mm bits; 0.9L water pressure bottle; 5 hole universal suction drill guide; 1.8m flexible hose",
+60,SIG-54A,Sigma,"Sigma diamond core drill 25mm, 10mm shaft, wet use",,SIG-87D1 guide
+60,SIG-55,Sigma,"Sigma diamond core drill 35mm, 10mm shaft, wet use",,SIG-87D1 guide
+60,SIG-56,Sigma,"Sigma diamond core drill 40mm, 10mm shaft, wet use",,SIG-87D1 guide
+60,SIG-57,Sigma,"Sigma diamond core drill 50mm, 10mm shaft, wet use",,SIG-87D1 guide
+60,SIG-57A,Sigma,"Sigma diamond core drill 60mm, 10mm shaft, wet use",,SIG-87D1 guide
+60,SIG-58,Sigma,"Sigma diamond core drill 65mm, 10mm shaft, wet use",,SIG-87D1 guide
+60,SIG-59A,Sigma,"Sigma diamond core drill 75mm, 10mm shaft, wet use",,SIG-87D1 guide
+60,SIG-87D1,Sigma,Sigma drill guide,steel plate with rubber; removable guide post,Sigma core drills SIG-54A to SIG-59A
+61,RAI-WFCK,Raimondi,Raimondi Caratone drilling kit,"1 x RAI bucket, 1 x RAI support, 1 x RAI-WFCA water feed, 1 x RAI-WFSG drill guide/splash guard, 1 x RAI-WCDSC drill support and depth gauge, 1 x RAI-DBADAP adapter, 1 x RAI-DCBLP locking pin, 1 x WFWP water pump (kit not pictured)",RAI-DDB pin and core drills
+61,SIG-87B,Sigma,Sigma water feed,suit M14 core drills (RAI-DBADAP required for RAI-DDB pin and core drills),M14 core drills; RAI-DDB with RAI-DBADAP
+61,RAI-WFCA,Raimondi,Raimondi water feed,used with RAI-DDB pin and core drills (incl. RAI-DBADAP),RAI-DDB drills; RAI-WFSG; RAI-WCDSC
+61,RAI-DCBLP,Raimondi,Raimondi locking pin,"fits RAI-DBADAP, locks RAI-DDB core drills",RAI-DBADAP
+61,RAI-DBADAP,Raimondi,Raimondi adapter,used with RAI-DDB pin and core drills; attaches to drill or water feed,RAI-DDB drills; RAI-WFCA; SIG-87B
+61,RAI-WFSG,Raimondi,Raimondi drill guide / splash guard,fits to RAI-WFCA,RAI-WFCA
+61,RAI-WCDSC,Raimondi,Raimondi drill support and depth gauge,fits to drill (not included); used with RAI-WFCA,RAI-WFCA
+61,RAI-WFTSB,Raimondi,Raimondi tile support bench,durable cutting board material,drilling
+61,RAI-WFWT56,Raimondi,Raimondi water tray 56L,,drilling
+62,RAI-FORASPEED,Raimondi,Raimondi Foraspeed drilling machine,"6 to 120mm core/drill; 1 kW motor; 260 to 1050 rpm variable; 30mm max thickness; 700mm max tile; drill centre of up to 700 x 700mm tile; water pump with through-bit cooling; pre-drill or drill floor tiles already installed; for porcelain, ceramics, marble, granite",RAI-DDB pin and core drills (wet)
+62,RAI-DDB6,Raimondi,"Raimondi diamond pin drill 6mm, wet use",,RAI-DBADAP adapter; Foraspeed; water feed
+62,RAI-DDB8,Raimondi,"Raimondi diamond pin drill 8mm, wet use",,RAI-DBADAP
+62,RAI-DDB10,Raimondi,"Raimondi diamond pin drill 10mm, wet use",,RAI-DBADAP
+62,RAI-DDB12,Raimondi,"Raimondi diamond pin drill 12mm, wet use",,RAI-DBADAP
+62,RAI-DDB20,Raimondi,"Raimondi diamond core drill 20mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+62,RAI-DDB22,Raimondi,"Raimondi diamond core drill 22mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+62,RAI-DDB25,Raimondi,"Raimondi diamond core drill 25mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+62,RAI-DDB30,Raimondi,"Raimondi diamond core drill 30mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB35,Raimondi,"Raimondi diamond core drill 35mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB40,Raimondi,"Raimondi diamond core drill 40mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB45,Raimondi,"Raimondi diamond core drill 45mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB50,Raimondi,"Raimondi diamond core drill 50mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB55,Raimondi,"Raimondi diamond core drill 55mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB60,Raimondi,"Raimondi diamond core drill 60mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB65,Raimondi,"Raimondi diamond core drill 65mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB70,Raimondi,"Raimondi diamond core drill 70mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB75,Raimondi,"Raimondi diamond core drill 75mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB80,Raimondi,"Raimondi diamond core drill 80mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB90,Raimondi,"Raimondi diamond core drill 90mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB100,Raimondi,"Raimondi diamond core drill 100mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB110,Raimondi,"Raimondi diamond core drill 110mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB115,Raimondi,"Raimondi diamond core drill 115mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+63,RAI-DDB120,Raimondi,"Raimondi diamond core drill 120mm, wet use",fits to RAI-DBADAP,RAI-DBADAP
+64,RAI-DCDB6,Raimondi,"Raimondi diamond core drill 6mm, dry use, M14 thread",under 14mm: switch off the grinder and water-cool the bit after every hole,M14 angle grinders
+64,RAI-DCDB8,Raimondi,"Raimondi diamond core drill 8mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB10,Raimondi,"Raimondi diamond core drill 10mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB12,Raimondi,"Raimondi diamond core drill 12mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB14,Raimondi,"Raimondi diamond core drill 14mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB20,Raimondi,"Raimondi diamond core drill 20mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB27,Raimondi,"Raimondi diamond core drill 27mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB35,Raimondi,"Raimondi diamond core drill 35mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB40,Raimondi,"Raimondi diamond core drill 40mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB50,Raimondi,"Raimondi diamond core drill 50mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB60,Raimondi,"Raimondi diamond core drill 60mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB65,Raimondi,"Raimondi diamond core drill 65mm, dry use, M14 thread",,M14 angle grinders
+64,RAI-DCDB75,Raimondi,"Raimondi diamond core drill 75mm, dry use, M14 thread",,M14 angle grinders
+65,MAR-PG7X-DKIT1,Marcrist,Marcrist PG750X dry drilling kit 1,"carry case; steel drill guide (MAR-PG7-DG625); MAR-PG7X-D6, D8 and D10",
+65,MAR-PG7X-D6,Marcrist,"Marcrist PG750X tile drill 6mm, dry",,MAR-PG7-DG625 guide
+65,MAR-PG7X-D8,Marcrist,"Marcrist PG750X tile drill 8mm, dry",,MAR-PG7-DG625 guide
+65,MAR-PG7X-D10,Marcrist,"Marcrist PG750X tile drill 10mm, dry",,MAR-PG7-DG625 guide
+65,MAR-PG7X-D14,Marcrist,"Marcrist PG750X tile drill 14mm, dry",,MAR-PG7-DG625 guide
+65,MAR-PG7-DG625,Marcrist,Marcrist PG750 drill guide,"6, 8, 10, 15, 20 and 25mm holes; suction cup",PG750X drills
+66,MAR-PG8-K1,Marcrist,Marcrist PG850 tile drill kit one,6 and 36mm drills; water feed; pressure bottle; suction cup guide,
+66,MAR-PG8-K2,Marcrist,Marcrist PG850 tile drill kit two,"6, 8, 10, 15, 19, 26, 32, 36, 44 and 112mm; water feed; pressure bottle; suction cup guide",
+66,MAR-PG8-WSA,Marcrist,Marcrist PG850 water feed,fits MAR-PG8 core drills; 1/2 inch x 20 UNF thread,MAR-PG8 drills
+66,MAR-PG8-6,Marcrist,"Marcrist PG850 tile drill 6mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+66,MAR-PG8-8,Marcrist,"Marcrist PG850 tile drill 8mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+66,MAR-PG8-10,Marcrist,"Marcrist PG850 tile drill 10mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+66,MAR-PG8-15,Marcrist,"Marcrist PG850 tile drill 15mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-19,Marcrist,"Marcrist PG850 tile drill 19mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-22,Marcrist,"Marcrist PG850 tile drill 22mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-26,Marcrist,"Marcrist PG850 tile drill 26mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-32,Marcrist,"Marcrist PG850 tile drill 32mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-36,Marcrist,"Marcrist PG850 tile drill 36mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-44,Marcrist,"Marcrist PG850 tile drill 44mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-70,Marcrist,"Marcrist PG850 tile drill 70mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-80,Marcrist,"Marcrist PG850 tile drill 80mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+67,MAR-PG8-112,Marcrist,"Marcrist PG850 tile drill 112mm, wet",fits to MAR-PG8-WSA,MAR-PG8-WSA
+68,DB-4-R10S,Unitec,"Unitec R10S continuous rim blade 105mm, 22.2/20/16 bore","wet and dry; ceramic and glass tiles, marble and slate",
+68,DB45-R10S,Unitec,"Unitec R10S continuous rim blade 115mm, 22.2/20/16 bore",,
+68,DB5-R10S,Unitec,"Unitec R10S continuous rim blade 125mm, 22.2/20/16 bore",,
+68,DB8-R10S,Unitec,"Unitec R10S continuous rim blade 200mm, 25.4/22.2 bore",,
+68,DB10-R10S,Unitec,"Unitec R10S continuous rim blade 250mm, 30/25.4 bore",,
+68,DB12-R10S,Unitec,"Unitec R10S continuous rim blade 300mm, 30/25.4 bore",,
+68,DB14-R10S,Unitec,"Unitec R10S continuous rim blade 350mm, 30/25.4 bore",,
+68,DB-4-R30P,Unitec,"Unitec R30P pro continuous rim blade 105mm, 22.2/20/16 bore","wet and dry; ceramic and glass, vitrified and porcelain, granite and bluestone, marble and slate",
+68,DB45-R30P,Unitec,"Unitec R30P pro continuous rim blade 115mm, 22.2/20/16 bore",,
+68,DB5-R30P,Unitec,"Unitec R30P pro continuous rim blade 125mm, 22.2/20/16 bore",,
+68,DB8-R30P,Unitec,"Unitec R30P pro continuous rim blade 200mm, 25.4/22.2 bore",,
+68,DB10-R30P,Unitec,"Unitec R30P pro continuous rim blade 250mm, 30/25.4 bore",,
+68,DB12-R30P,Unitec,"Unitec R30P pro continuous rim blade 300mm, 30/25.4 bore",,
+68,DB-14-R30P,Unitec,"Unitec R30P pro continuous rim blade 350mm, 30/25.4 bore",,
+68,DB4-T20S,Unitec,"Unitec T20S turbo rim blade 105mm, 22.2/20/16 bore","wet and dry; clay pavers and terracotta, marble and slate, cured concrete and cement sheet",
+68,DB-45-T20S,Unitec,"Unitec T20S turbo rim blade 115mm, 22.2/20/16 bore",,
+68,DB5-T20S,Unitec,"Unitec T20S turbo rim blade 125mm, 22.2/20/16 bore",,
+68,DB-4-KT1,Unitec,"Unitec KT1 pro turbo rim blade 105mm, 22.2/20/16 bore","wet and dry; clay pavers and terracotta, marble and slate, cured concrete and cement sheet, granite and bluestone",
+68,DB45-KT1,Unitec,"Unitec KT1 pro turbo rim blade 115mm, 22.2/20/16 bore",,
+68,DB5-KT1,Unitec,"Unitec KT1 pro turbo rim blade 125mm, 22.2/20/16 bore",,
+68,DB8-KT1,Unitec,"Unitec KT1 pro turbo rim blade 200mm, 25.4/22.2 bore",,
+68,DB10-KT1,Unitec,"Unitec KT1 pro turbo rim blade 250mm, 30/25.4 bore",,
+68,DB12-KT1,Unitec,"Unitec KT1 pro turbo rim blade 300mm, 30/25.4 bore",,
+68,DB14-KT1,Unitec,"Unitec KT1 pro turbo rim blade 350mm, 30/25.4 bore",,
+69,BD-MTR-105,BAT,"BAT Pro diamond mesh rim blade 105mm, 22.2/20/16 bore","wet and dry; ceramic and glass, vitrified and porcelain, granite and bluestone, marble and slate",angle grinders
+69,BD-MTR-115,BAT,"BAT Pro diamond mesh rim blade 115mm, 22.2/20/16 bore",,angle grinders
+69,BD-MTR-125,BAT,"BAT Pro diamond mesh rim blade 125mm, 22.2/20/16 bore",,angle grinders
+69,BD-MTR-180,BAT,"BAT Pro diamond mesh rim blade 180mm, 25.4/22.2 bore",,
+69,BD-MTR-250,BAT,"BAT Pro diamond mesh rim blade 250mm, 25.4/22.2 bore",,"250mm wet saws (Pikus, Bolt, Sigma 9M)"
+69,BD-MTR-350,BAT,"BAT Pro diamond mesh rim blade 350mm, 25.4/22.2 bore",,"350mm wet saws (Zoe, SMS, SA 80, Mistral)"
+69,BD-TTR-105,BAT,"BAT Pro diamond thin turbo rim blade 105mm, 22.2/20/16 bore","wet and dry; ceramic and glass, vitrified and porcelain, granite and bluestone, marble and slate",angle grinders
+69,BD-TTR-115,BAT,"BAT Pro diamond thin turbo rim blade 115mm, 22.2/20/16 bore",,angle grinders
+69,BD-TTR-125,BAT,"BAT Pro diamond thin turbo rim blade 125mm, 22.2/20/16 bore",,angle grinders
+69,BD-TRRC-250,BAT,"BAT Pro diamond thin rim reinforced centre blade 250mm, 25.4/22.2 bore","wet only; ceramic and glass, vitrified and porcelain, marble and slate; super fine cut, large rivet reinforced centre for critically hard tiles; must be mounted on an electric wet saw",250mm wet saws
+69,BD-TRRC-300,BAT,"BAT Pro diamond thin rim reinforced centre blade 300mm, 30/25.4 bore",,300mm wet saws
+69,BD-TRRC-350,BAT,"BAT Pro diamond thin rim reinforced centre blade 350mm, 30/25.4 bore",,350mm wet saws
+69,BD-GWSC-100,BAT,"BAT Pro super cluster grinding wheel 100mm, 22.2/20 bore","wet and dry; removing, grinding, preparing and finishing epoxies, urethanes, ferrous metals, concrete, stone",angle grinders
+69,BD-GWSC-180,BAT,"BAT Pro super cluster grinding wheel 180mm, 25.4/22 bore",,
+70,RAI-DBCC180,Raimondi,"Raimondi continuous rim blade, economy, 180mm, 25.4 bore","wet; ceramic and glass, vitrified and porcelain, marble and slate",
+70,RAI-DBCC200E,Raimondi,"Raimondi continuous rim blade, economy, 200mm, 25.4 bore",wet,"Exploit, BAT-1000 (200mm saws)"
+70,RAI-DBCC200,Raimondi,"Raimondi continuous rim blade, premium, 200mm, 25.4 bore","wet; ceramic and glass, vitrified and porcelain, granite and bluestone, marble and slate","Exploit, BAT-1000"
+70,RAI-DBCC250,Raimondi,"Raimondi continuous rim blade, premium, 250mm, 25.4 bore",wet,"Pikus Advanced, Bolt (250mm saws)"
+70,RAI-DBCC300,Raimondi,"Raimondi continuous rim blade, premium, 300mm, 30/25.4 bore",wet,"Zoe Advanced, SMS, SA 80, CM150, Maxi-Cut, Sigma 10M9"
+70,RAI-DBCC350,Raimondi,"Raimondi continuous rim blade, premium, 350mm, 30/25.4 bore",wet,"Zoe Advanced, SMS, SA 80, Mistral"
+70,RAI-DBSET200SP,Raimondi,"Raimondi multilayer slotted rim blade, porcelain, 200mm, 25.4 bore","wet; ceramic and glass, vitrified and porcelain, granite and bluestone, marble and slate",200mm saws
+70,RAI-DBSET250BE,Raimondi,"Raimondi slotted rim blade, porcelain economy, 250mm, 25.4 bore",wet,250mm saws
+70,RAI-DBSET250SP,Raimondi,"Raimondi multilayer slotted rim blade, porcelain, 250mm, 25.4 bore",wet,250mm saws
+70,RAI-DB12SET300B,Raimondi,"Raimondi slotted rim blade, porcelain, 300mm, 30/25.4 bore",wet,300mm saws
+70,RAI-DBSET350B,Raimondi,"Raimondi slotted rim blade, porcelain, 350mm, 30/25.4 bore",wet,350mm saws
+70,RAI-DBCC250B,Raimondi,Raimondi continuous rim 45° bevel blade 250mm,wet; to be mounted with a 300mm continuous or slotted rim blade (two bevel blades illustrated),CM150/CM180 multi-blade
+71,RAI-DBSET250E,Raimondi,"Raimondi segmented rim blade, economy, 250mm, 25.4 bore","wet; clay pavers and terracotta, cured concrete and cement sheet, marble and slate",250mm saws
+71,RAI-DBSET300E,Raimondi,"Raimondi segmented rim blade, economy, 300mm, 30/25.4 bore",wet,300mm saws
+71,RAI-DBSET360E,Raimondi,"Raimondi segmented rim blade, economy, 360mm, 30/25.4 bore",wet,"Zoe Advanced (360mm), SA 80"
+71,RAI-DBSET300,Raimondi,"Raimondi segmented rim blade, premium, 300mm, 30/25.4 bore","wet; abrasive stone, clay pavers and terracotta, cured concrete and cement sheet, marble and slate",300mm saws
+71,RAI-DBSET360,Raimondi,"Raimondi segmented rim blade, premium, 360mm, 30/25.4 bore",wet,"Zoe Advanced, SA 80"
+71,RAI-DBSET300G,Raimondi,"Raimondi segmented rim blade, granite, 300mm, 30/25.4 bore","wet; granite and bluestone, marble and slate",300mm saws
+71,RAI-DBSET350G,Raimondi,"Raimondi segmented rim blade, granite, 350mm, 30/25.4 bore",wet,350mm saws
+71,RAI-DBCCT250,Raimondi,"Raimondi turbo rim blade 250mm, 25.4 bore","wet; ceramic and glass, vitrified and porcelain",250mm saws
+71,RAI-DBCCT300,Raimondi,"Raimondi turbo rim blade 300mm, 30/25.4 bore",wet,300mm saws
+71,RAI-DBCCT350,Raimondi,"Raimondi turbo rim blade 350mm, 30/25.4 bore",wet,350mm saws
+72,SIG-60E,Sigma,"Sigma continuous rim blade, premium, 200mm, 30 bore","wet; ceramic and glass, vitrified and porcelain, granite and bluestone, marble and slate",30mm bore saws
+72,SIG-74C,Sigma,"Sigma J slotted rim blade, premium, 300mm, 30 bore",wet,Sigma 10M9 and other 30mm bore 300mm saws
+72,BD-BUSH-2016,BAT,Diamond blade bush 20/16,,
+72,BD-BUSH-2216,BAT,Diamond blade bush 22.2/16,,
+72,BD-BUSH-2220,BAT,Diamond blade bush 22.2/20,,
+72,BD-BUSH-2516,BAT,Diamond blade bush 25.4/16,,
+72,BD-BUSH-2520,BAT,Diamond blade bush 25.4/20,,
+72,BD-BUSH-2522,BAT,Diamond blade bush 25.4/22.2,,
+72,BD-BUSH-2522R,BAT,"Diamond blade bush 25.4/22.2, suit reinforced centre",,BD-TRRC-250
+72,BD-BUSH-3022,BAT,Diamond blade bush 30/22.2,,
+72,BD-BUSH-3025,BAT,Diamond blade bush 30/25.4,,30mm bore blades on 25.4mm saws
+72,BD-BUSH-3025R,BAT,"Diamond blade bush 30/25.4, suit reinforced centre",,"BD-TRRC-300, BD-TRRC-350"
+73,SL-40,BAT,BAT spirit level 2 vials 400mm,made in Europe,
+73,SL-60,BAT,BAT spirit level 2 vials 600mm,,
+73,SL-80,BAT,BAT spirit level 2 vials 800mm,,
+73,SL-100,BAT,BAT spirit level 2 vials 1000mm,,
+73,SL-120,BAT,BAT spirit level 2 vials 1200mm,,
+73,SL-150,BAT,BAT spirit level 2 vials 1500mm,,
+73,SL-180,BAT,BAT spirit level 2 vials 1800mm,,
+73,RAI-FL75,Raimondi,Raimondi fixed level / square 750mm long edge,45° and 90° square,
+73,RAI-FL100,Raimondi,Raimondi fixed level / square 1000mm long edge,45° and 90° square,
+73,RAI-AL50,Raimondi,Raimondi adjustable level / square 500mm closed,"0°, 45°, 90°, 135° and 180°",
+73,RAI-AL100,Raimondi,Raimondi adjustable level / square 1000mm closed,"0°, 45°, 90°, 135° and 180°",
+74,BSE-1500,BAT,BAT straight edge matt silver anodised 100 x 22 x 1500mm,,
+74,BSE-1800,BAT,BAT straight edge matt silver anodised 100 x 22 x 1800mm,,
+74,BSE-2100,BAT,BAT straight edge matt silver anodised 100 x 22 x 2100mm,,
+74,BSE-2400,BAT,BAT straight edge matt silver anodised 100 x 22 x 2400mm,,
+74,BSE-2700,BAT,BAT straight edge matt silver anodised 100 x 22 x 2700mm,,
+74,BSE-3000,BAT,BAT straight edge matt silver anodised 100 x 22 x 3000mm,,
+74,BSE-CUSTOM,BAT,BAT straight edge custom length,100mm increments to 5000mm,
+74,SE-95-1800,BAT,Straight edge with vial 95 x 18 x 1800mm,,
+74,SE-95-2500,BAT,Straight edge with vial 95 x 18 x 2500mm,,
+74,SE-95-3000,BAT,Straight edge with vial 95 x 18 x 3000mm,,
+74,SEH-95-1800,BAT,Straight edge with vial and handles 95 x 18 x 1800mm,,
+75,BAT-SE72-1200,BAT,BAT straight edge powder coated 70 x 20 x 1200mm,,
+75,BAT-SE72-1500,BAT,BAT straight edge powder coated 70 x 20 x 1500mm,,
+75,BAT-SE72-1800,BAT,BAT straight edge powder coated 70 x 20 x 1800mm,,
+75,BAT-SE72-2100,BAT,BAT straight edge powder coated 70 x 20 x 2100mm,,
+75,BAT-SE72-2400,BAT,BAT straight edge powder coated 70 x 20 x 2400mm,,
+75,BAT-SE72-2700,BAT,BAT straight edge powder coated 70 x 20 x 2700mm,,
+75,BAT-SE72-3000,BAT,BAT straight edge powder coated 70 x 20 x 3000mm,,
+75,BAT-SE72-CUSTOM,BAT,BAT straight edge powder coated custom length,100mm increments to 5000mm,
+75,BAT-SB-1500,BAT,"BAT screed bar with handle, powder coated 50 x 45 x 1500mm",dual reversible edge (cutting and pushing),
+75,BAT-SB-1800,BAT,BAT screed bar with handle 50 x 45 x 1800mm,,
+75,BAT-SB-2100,BAT,BAT screed bar with handle 50 x 45 x 2100mm,,
+75,BAT-SB-2400,BAT,BAT screed bar with handle 50 x 45 x 2400mm,,
+75,BAT-SB-2700,BAT,BAT screed bar with handle 50 x 45 x 2700mm,,
+75,BAT-SB-3000,BAT,BAT screed bar with handle 50 x 45 x 3000mm,,
+75,BAT-SB-3600,BAT,BAT screed bar with handle 50 x 45 x 3600mm,,
+75,BAT-SB-4200,BAT,BAT screed bar with double handles 50 x 45 x 4200mm,,
+75,BAT-SB-5000,BAT,BAT screed bar with double handles 50 x 45 x 5000mm,,
+76,RAI-DIALOG40,Raimondi,"Raimondi diagonal layout guide, 400mm sliding bar",,
+76,RAI-DIALOG50,Raimondi,"Raimondi diagonal layout guide, 500mm sliding bar",,
+76,RAI-LSTAND,Raimondi,Raimondi Krick Krock wall levelling guides,,
+76,ADA-TM5,ADA,Tape measure 25mm x 5m easy read,shock resistant rubber outer; blade lock,
+76,ADA-TM8,ADA,Tape measure 25mm x 8m easy read,shock resistant rubber outer; blade lock,
+76,CL,BAT,"Chalk line, alloy housing, 33m (100 ft)",,"CL-BR, CL-RR refills"
+76,CL-BR,BAT,Chalk line refill blue 224 g (8 oz),,CL
+76,CL-RR,BAT,Chalk line refill red 224 g (8 oz),,CL
+77,ADA-CUBE-3DK,ADA,ADA Instruments Cube line laser kit,self levelling; 90° square; vertical and horizontal cross lines; up to 20m range; plastic case; adjustable tripod with pivot mount; universal clamp mount; laser visibility glasses; 3 x AAA batteries; lockable laser,
+77,ADA-COSMO-40,ADA,ADA Instruments Cosmo 40 laser distance meter,"laser point measuring up to 40m; IP54; 2 x AAA; single and continuous distance, min/max, area, volume, indirect measurements",
+78,RAI-LSK,Raimondi,Raimondi levelling system starter kit,"1 x RAI-LSATPF floor pliers, 1 x RAI-LSBC100 base clips, 1 x RAI-LSW100 wedges",RLS clips and wedges
+78,RAI-LSATPF,Raimondi,"RLS adjustable traction pliers, floor",,RLS wedges and clips; RAI-LSATPC cap
+78,RAI-LSATPW,Raimondi,"RLS adjustable traction pliers, wall",,RLS wedges and clips; RAI-LSATPC cap
+78,RAI-LSATPC,Raimondi,RLS replacement protective cap,"for adjustable traction pliers, wall and floor","RAI-LSATPF, RAI-LSATPW"
+79,RAI-3DLSBC100,Raimondi,"Raimondi 3D levelling system base clips (3-12mm), 100 pcs",min joint 1.5mm; tile thickness 3 to 12mm; use with RAI-LSW wedges,RAI-LSW wedges
+79,RAI-3DLSBC250,Raimondi,"Raimondi 3D levelling system base clips (3-12mm), 250 pcs",,RAI-LSW
+79,RAI-3DLSBC500,Raimondi,"Raimondi 3D levelling system base clips (3-12mm), 500 pcs",,RAI-LSW
+79,RAI-3DLSBC3000,Raimondi,"Raimondi 3D levelling system base clips (3-12mm), 3,000 pcs",,RAI-LSW
+79,RAI-LSBC1MM100,Raimondi,"Raimondi levelling system base clips 1mm (3-12mm), 100 pcs",min joint 1.0mm; tile 3 to 12mm; use with RAI-LSW,RAI-LSW
+79,RAI-LSBC1MM250,Raimondi,"Raimondi levelling system base clips 1mm (3-12mm), 250 pcs",,RAI-LSW
+79,RAI-LSBC1MM500,Raimondi,"Raimondi levelling system base clips 1mm (3-12mm), 500 pcs",,RAI-LSW
+79,RAI-LSBC1MM3000,Raimondi,"Raimondi levelling system base clips 1mm (3-12mm), 3,000 pcs",,RAI-LSW
+79,note,Raimondi,3mm and 4mm RLS base clips available on enquiry,,
+80,RAI-LSBC100,Raimondi,"Raimondi levelling system base clips, small (3-12mm), 100 pcs",min joint 1.5mm; tile 3 to 12mm; use with RAI-LSW,RAI-LSW
+80,RAI-LSBC250,Raimondi,"Raimondi levelling system base clips, small (3-12mm), 250 pcs",,RAI-LSW
+80,RAI-LSBC500,Raimondi,"Raimondi levelling system base clips, small (3-12mm), 500 pcs",,RAI-LSW
+80,RAI-LSBC2000,Raimondi,"Raimondi levelling system base clips, small (3-12mm), 2,000 pcs",,RAI-LSW
+80,RAI-LSBCL200,Raimondi,"Raimondi levelling system base clips, large (12-20mm), 200 pcs",min joint 1.5mm; tile 12 to 20mm; use with RAI-LSW,RAI-LSW
+80,RAI-LSBCL400,Raimondi,"Raimondi levelling system base clips, large (12-20mm), 400 pcs",,RAI-LSW
+80,RAI-LSBCL1500,Raimondi,"Raimondi levelling system base clips, large (12-20mm), 1,500 pcs",,RAI-LSW
+80,RAI-LSW100,Raimondi,"Raimondi levelling system wedges, 100 pcs","for small, large and 3D base clips; reusable",all RLS clips
+80,RAI-LSW250,Raimondi,"Raimondi levelling system wedges, 250 pcs",,all RLS clips
+80,RAI-LSW500,Raimondi,"Raimondi levelling system wedges, 500 pcs",,all RLS clips
+80,RAI-LSW1000,Raimondi,"Raimondi levelling system wedges, 1,000 pcs",,all RLS clips
+81,RAI-TC1200,Raimondi,Raimondi tile crosses 1mm x 200 bag,,
+81,RAI-TC11000,Raimondi,"Raimondi tile crosses 1mm x 1,000 carton",,
+81,TC-100,BAT,Tile crosses 1.5mm x 100 bag,,
+81,TC-500-ECON,BAT,"Tile crosses 1.5mm x 500 bag, no header card",,
+81,TC-500,BAT,Tile crosses 1.5mm x 500 bag,,
+81,TC-1000,BAT,"Tile crosses 1.5mm x 1,000 bag",,
+81,TCB-2000,BAT,"Tile crosses 1.5mm x 2,000 bucket",,
+81,TCB-3000,BAT,"Tile crosses 1.5mm x 3,000 bucket",,
+81,TCB-5000,BAT,"Tile crosses 1.5mm x 5,000 bucket",,
+81,TCB-10000,BAT,"Tile crosses 1.5mm x 10,000 bucket",,
+81,TCB-15000,BAT,"Tile crosses 1.5mm x 15,000 bucket",,
+81,TCB-20000,BAT,"Tile crosses 1.5mm x 20,000 bucket",,
+81,TCB-50000,BAT,"Tile crosses 1.5mm x 50,000 bulk bag",,
+81,TCD-100,BAT,Deep tile crosses 1.5mm x 100 bag,,
+81,TCD-250,BAT,Deep tile crosses 1.5mm x 250 bag,,
+81,TCD-500,BAT,Deep tile crosses 1.5mm x 500 bag,,
+81,TCDB-2000,BAT,"Deep tile crosses 1.5mm x 2,000 bucket",,
+81,TCDB-5000,BAT,"Deep tile crosses 1.5mm x 5,000 bucket",,
+81,TCDB-10000,BAT,"Deep tile crosses 1.5mm x 10,000 bucket",,
+82,RAI-TC2200,Raimondi,Raimondi tile crosses 2mm x 200 bag,,
+82,RAI-TC21000,Raimondi,"Raimondi tile crosses 2mm x 1,000 carton",,
+82,TC2-100,BAT,Tile crosses 2mm x 100 bag,,
+82,TC2-500,BAT,Tile crosses 2mm x 500 bag,,
+82,TC2B-2000,BAT,"Tile crosses 2mm x 2,000 bucket",,
+82,TC2B-10000,BAT,"Tile crosses 2mm x 10,000 bucket",,
+82,TC2B-20000,BAT,"Tile crosses 2mm x 20,000 bucket",,
+82,TC3-100,BAT,Tile crosses 3mm x 100 bag,,
+82,TC3-500-ECON,BAT,"Tile crosses 3mm x 500 bag, no header card",,
+82,TC3-500,BAT,Tile crosses 3mm x 500 bag,,
+82,TC3-1000,BAT,"Tile crosses 3mm x 1,000 bag",,
+82,TC3B-2000,BAT,"Tile crosses 3mm x 2,000 bucket",,
+82,TC3B-5000,BAT,"Tile crosses 3mm x 5,000 bucket",,
+82,TC3B-10000,BAT,"Tile crosses 3mm x 10,000 bucket",,
+82,TC3B-15000,BAT,"Tile crosses 3mm x 15,000 bucket",,
+82,RAI-TC41000,Raimondi,"Raimondi tile crosses 4mm x 1,000 bag",,
+83,TC5-100,BAT,Tile crosses 5mm x 100 bag,,
+83,TC5-250,BAT,Tile crosses 5mm x 250 bag,,
+83,TC5-500,BAT,Tile crosses 5mm x 500 bag,,
+83,TC5B-1000,BAT,"Tile crosses 5mm x 1,000 bucket",,
+83,TC5B-5000,BAT,"Tile crosses 5mm x 5,000 bucket",,
+83,TC5B-10000,BAT,"Tile crosses 5mm x 10,000 bucket",,
+83,RAI-TC8200,Raimondi,Raimondi tile crosses 8mm x 200 bag,,
+83,RAI-TC81000,Raimondi,"Raimondi tile crosses 8mm x 1,000 carton",,
+83,TC10-100,BAT,Tile crosses 10mm x 100 bag,,
+83,TC10-250,BAT,Tile crosses 10mm x 250 bag,,
+83,TC10B-500,BAT,Tile crosses 10mm x 500 bucket,,
+83,TC10B-1000,BAT,"Tile crosses 10mm x 1,000 bucket",,
+84,TS-100,BAT,Tile T shapes 1.5mm x 100 bag,,
+84,TS-500,BAT,Tile T shapes 1.5mm x 500 bag,,
+84,TS-1000,BAT,"Tile T shapes 1.5mm x 1,000 bag",,
+84,TSB-2000,BAT,"Tile T shapes 1.5mm x 2,000 bucket",,
+84,TSD-500,BAT,Deep tile T shapes 1.5mm x 500 bag,,
+84,TS3-100,BAT,Tile T shapes 3mm x 100 bag,,
+84,TS3-500,BAT,Tile T shapes 3mm x 500 bag,,
+84,TS3B-1000,BAT,"Tile T shapes 3mm x 1,000 bucket",,
+84,TS5-250,BAT,Tile T shapes 5mm x 250 bag,,
+84,TS5-500,BAT,Tile T shapes 5mm x 500 bag,,
+85,TS10-250,BAT,Tile T shapes 10mm x 250 bag,,
+85,TS10-500,BAT,Tile T shapes 10mm x 500 bag,,
+85,W-100,BAT,Tile wedges x 100 bag,,
+85,W-500,BAT,Tile wedges x 500 bag,,
+85,WB-1000,BAT,"Tile wedges x 1,000 bucket",,
+85,RAI-W281000,Raimondi,"Raimondi wedges 28mm x 1,000 carton",,
+85,WB-2000,BAT,"Tile wedges x 2,000 bucket",,
+85,JW-100,BAT,Wedges jumbo x 100 bag,,
+85,JW-250,BAT,Wedges jumbo x 250 bag,,
+85,JW-500,BAT,Wedges jumbo x 500 bag,,
+85,JWB-1000,BAT,"Wedges jumbo x 1,000 bucket",,
+86,SN,BAT,"Side nipper, offset, straight jaws",,
+86,SN-SCJ,BAT,"Side nipper, offset, single curved jaw",,
+86,SN-CJ,BAT,"Side nipper, offset, dual curved jaws",,
+86,STN,BAT,"Straight nipper, inline, straight jaws",,
+86,HDTN,BAT,"Heavy duty nipper, offset, straight jaws",,
+86,PN,BAT,"Parrot beak nipper, angled head, for enlarging holes",,
+86,DWTN,BAT,"Dual wheel nipper, mosaic nipper, dual rotatable wheels",replacement wheels BAT-540SW,BAT-540SW
+86,PVC-MULTIMC,BAT,PVC multi cutter with mitre guide,,PVC-MULTIMC-SB blades
+86,PVC-MULTIMC-SB,BAT,"Replacement blades, pack of 5",suit PVC-MULTIMC,PVC-MULTIMC
+87,TS,BAT,Tile scriber,,
+87,UK-1,BAT,"Utility knife, snap off blades",,UKSB-10
+87,UKSB-10,BAT,"Replacement blades, pack of 10",suit UK-1,UK-1
+87,GRB-ECON,BAT,"Economy grout remover, serrated tooth blade",,GR-SB
+87,GR-SB,BAT,Replacement blade,suit GRB-ECON,GRB-ECON
+87,WS-SG,BAT,"Wallboard saw 6 inch (150mm), soft grip",,
+87,GR-DLX-SG,BAT,Deluxe grout remover,"1 x serrated tooth blade, 1 x tungsten grit blade; soft grip",GR-DLX-SB
+87,GR-DLX-SB,BAT,"Replacement blades, 1 x serrated tooth and 1 x tungsten grit",suit GR-DLX-SG,GR-DLX-SG
+87,TCF-HRSG,BAT,"Tungsten carbide file 125mm, half round and flat faces, soft grip",,
+88,BATSC-4,BAT,"BAT suction cup 100mm, up to 40 kg",,
+88,BATSC-D4,BAT,"BAT dual suction cup 100mm, up to 80 kg",,
+88,BAT-UDG683,BAT,BAT universal drilling guide 6mm to 83mm,,core drills
+88,RAI-MEDSC,Raimondi,"Raimondi Medusa suction cup 115mm, up to 40 kg",,
+88,RAI-SCD45,Raimondi,"Raimondi dual suction cup 115mm, up to 90 kg",,
+88,BAT-ZPSH,BAT,"BAT suction cup hook, zinc plated, 38mm, up to 6 kg",,
+88,RAI-FREECLOSER,Raimondi,Raimondi Free-Cut Closer,suction cup device to adjust grout lines; use with RLS for best results,RLS
+89,RAI-FFKP,Raimondi,"Raimondi flat faced knee pads, adjustable elastic straps",,"RAI-FLKP-RST, RAI-FLKP-ST straps"
+89,RAI-FLKP,Raimondi,"Raimondi flexible faced knee pads, adjustable elastic straps",,"RAI-FLKP-RST, RAI-FLKP-ST straps; RAI-FLKP-IN inserts"
+89,RAI-KPRELAX,Raimondi,"Raimondi Relax gel knee pads, adjustable Velcro elastic straps",,
+89,RAI-FLKP-RST,Raimondi,"Replacement rubber straps, set of two",suits RAI-FFKP and RAI-FLKP,"RAI-FFKP, RAI-FLKP"
+89,RAI-FLKP-ST,Raimondi,"Replacement elastic straps with clips, set of two",suits RAI-FFKP and RAI-FLKP,"RAI-FFKP, RAI-FLKP"
+89,RAI-FLKP-IN,Raimondi,"Replacement inserts, set of two",suits RAI-FLKP,RAI-FLKP
+89,KP-SB,BAT,"Replacement buttons, set of eight",suit KPA,KPA
+89,KP-RL,BAT,"Replacement inserts, set of two",suit KPA,KPA
+89,KP-ST,BAT,"Replacement straps, set of four",suit KPA,KPA
+90,KPA,BAT,"BAT professional knee pads, flexible face",,"KP-SB, KP-RL, KP-ST spares"
+90,BOX-W,BAT,"Flat faced knee pads, white anti scuff",,
+90,BOX-B,BAT,"Flat faced knee pads, black",,
+90,RAI-MORKC,Raimondi,Raimondi Morbidone knee cushion,,
+90,RAI-NAPOL,Raimondi,"Raimondi Napoleone seat with wheels, height adjustable 270 to 350mm",,
+90,RAI-NELSON,Raimondi,"Raimondi Nelson rolling seat and kneeling platform, height adjustable 250 to 350mm",,
+90,RAI-ELIA,Raimondi,Raimondi Elia bucket and tile trolley,,
+90,RAI-PUGIOL,Raimondi,Raimondi Pugiol work bench 450 x 770 x 740mm high,,
+91,RAI-HUSKY,Raimondi,"Raimondi Husky shoes, for walking on thinset adhesive",,
+91,RAI-WSWT,Raimondi,"Raimondi waffled shoes, distribute weight over a larger surface",,
+91,RAI-ISIP,Raimondi,"Raimondi Isola tile platform, square laid tiles only, min joint 2mm",,
+91,RAI-FIDO,Raimondi,"Raimondi Fido ergonomic support handle, with or without non marking feet",,
+91,RAI-SL,Raimondi,"Raimondi paver / slab lifter, adjustable 300, 350, 400, 450 and 500mm",,
+92,N25BUCK1,BAT,Ring shank nails 25mm x 1 kg (approx 720),,
+92,N25BUCK25,BAT,Ring shank nails 25mm x 2.5 kg (approx 1800),,
+92,N25BUCK5,BAT,Ring shank nails 25mm x 5 kg (approx 3600),,
+92,N30BUCK1,BAT,Ring shank nails 30mm x 1 kg (approx 650),,
+92,N30BUCK25,BAT,Ring shank nails 30mm x 2.5 kg (approx 1625),,
+92,N30BUCK5,BAT,Ring shank nails 30mm x 5 kg (approx 3250),,
+93,FS-412,BAT,"Scraper 100mm blade, 300mm handle",,FS-412-RB blades
+93,FS-125,BAT,"Scraper 125mm blade, 500mm handle",,FS-125-RB blades
+93,FS-300,BAT,"Scraper 300mm blade, 1300mm timber handle",,FS-300-RB blades
+93,FS-412-RB,BAT,"Replacement blades, pack of 10",suits FS-412,FS-412
+93,FS-125-RB,BAT,"Replacement blades, pack of 5",suits FS-125,FS-125
+93,FS-300-RB,BAT,Replacement blades,suits FS-300,FS-300
+93,RAI-BWSB,Raimondi,"Raimondi angled broom, soft bristles, without handle",,RAI-AH handle
+93,RAI-AH,Raimondi,Raimondi aluminium handle 27mm x 1330mm,,
+94,TG-4,Bostik,Bostik TG 4 hot melt glue gun,,"GS-20, GS-15 glue sticks"
+94,GS-20,Bostik,"Bostik glue sticks, pack of 20",,TG-4
+94,GS-15,Bostik,"Bostik glue sticks, 15 kg carton (approx 400)",,TG-4
+94,RM-3005,BAT,"Rubber mallet, natural white non marking, 400 g",,
+94,RM-3008,BAT,"Rubber mallet, non marking hard / soft, 250 g",,
+94,RAI-WRM500,Raimondi,"Raimondi rubber mallet, white non marking, 500 g",,
+94,RAI-WRM1000,Raimondi,"Raimondi rubber mallet, white non marking, 1 kg",,
+94,RAI-PTB,Raimondi,"Raimondi plastic tile beater 170 x 370mm, 1.5 kg",,
+94,RAI-RTB,Raimondi,"Raimondi rubber tile beater 145 x 350mm, 1.5 kg",,
+95,CM-BLUE,BAT,"Chinagraph marker blue, pack of 12",,
+95,CM-BLACK,BAT,"Chinagraph marker black, pack of 12",,
+95,CM-RED,BAT,"Chinagraph marker red, pack of 12",,
+95,RAI-FPR,Raimondi,"Raimondi Fakiro plaster rasp, removes irregularities on plaster",,RAI-FPRBS blades
+95,RAI-FPRBS,Raimondi,"Replacement blades, pack of 6",suit RAI-FPR,RAI-FPR
+95,CP-1,BAT,Carpenters pencil,,
+96,PUF-2412,BAT,PU float 240 x 120mm,,
+96,PUF-2814,BAT,PU float 280 x 140mm,,
+96,PUF-3218,BAT,PU float 320 x 180mm,,
+96,PUF-3620,BAT,PU float 360 x 200mm,,
+96,PUF-4222,BAT,PU float 420 x 220mm,,
+96,PUF-4824,BAT,PU float 480 x 240mm,,
+96,PUF-5028,BAT,PU float 500 x 280mm,,
+96,PUFD-3414,BAT,PU float Dutch 340 x 140/120mm,,
+96,PPUF-2680,BAT,PU float pointed 260 x 80mm,,
+97,PUD-8012,BAT,PU float Darby 800 x 120mm,,
+97,PUD-10012,BAT,PU float Darby 1000 x 120mm,,
+97,PUD-12012,BAT,PU float Darby 1200 x 120mm,,
+98,PUH-152,BAT,PU hawk 152 x 152mm,,
+98,PUH-330,BAT,PU hawk 330 x 330mm,,
+98,PRF-28142,BAT,Plastic float 280 x 140 x 2mm,,
+98,PRF-28143,BAT,Plastic float 280 x 140 x 3mm,,
+98,PPRF-2814,BAT,Plastic float pointed 280 x 140 x 2mm,,
+98,PFC-1219,BAT,Plastic float waffle 125 x 195mm,,
+98,PFC-1824,BAT,Plastic float waffle 185 x 245mm,,
+99,SC-(colour),BAT,BATSEAL Ceramic silicone sealant 300ml,"premium one component silicone; bathrooms, connecting joints, shower cabinets, wash basins, floor joints; 20 per carton; colours 11 translucent, 12 white, 14 antique white, 21 silver grey, 22 light grey, 23 grey, 24 gunmetal, 26 black, 31 buff, 32 vanilla, 33 ivory, 34 travertine, 35 sand, 41 taupe, 42 beige, 44 mid brown, 45 espresso, 46 mocha, 54 soft pink, 61 aluminium",
+99,SS-(colour),BAT,BATSEAL Stone neutral cure silicone sealant 310ml,"natural and artificial stone joints, bathrooms, connecting joints, shower cabinets, wash basins, floor joints; 20 per carton; colours 11 translucent, 12 white, 22 light grey, 23 grey, 24 gunmetal, 26 black, 31 buff, 34 travertine, 46 mocha",
+99,SP-(colour),BAT,BATSEAL Pool neutral cure silicone sealant 310ml,"connecting and expansion joints in and around swimming pools; 20 per carton; colours 12 white, 22 light grey, 23 grey",
+100,colour-chart,BAT,BATSEAL colour chart,"Ceramic SC-11 translucent, SC-12 white, SC-14 antique white, SC-21 silver grey, SC-22 light grey, SC-23 grey, SC-24 gunmetal, SC-26 black, SC-31 buff, SC-32 vanilla, SC-33 ivory, SC-34 travertine, SC-35 sand, SC-41 taupe, SC-42 beige, SC-44 mid brown, SC-45 espresso, SC-46 mocha, SC-54 soft pink, SC-61 aluminium; Stone SS-11, SS-12, SS-22, SS-23, SS-24, SS-26, SS-31, SS-34, SS-46; Pool SP-12, SP-22, SP-23; colours a guide only",
+101,SA-CL-(size),BAT,BATSEAL Clean alcohol based all purpose cleaner,"cleaning tiles, ceramics, natural stone, plastics and painted substrates before applying BATSEAL silicone; 100ml, 200ml, 500ml and 1L; apply with lint free cloth",before BATSEAL silicones
+101,SA-PM-(size),BAT,BATSEAL Prime Metals and Plastics primer,"solvent primer to optimise adhesion of BATSEAL silicones on metals and plastics; 100ml, 200ml, 500ml",BATSEAL silicones
+101,SA-PS-(size),BAT,BATSEAL Prime Stone and Concrete primer,"solvent primer for stone, artificial stone and concrete; 100ml, 200ml, 500ml",BATSEAL silicones
+101,SA-SC-(size),BAT,BATSEAL Smooth Ceramic tooling agent,"mild tooling/smoothing agent for BATSEAL Ceramic, general silicones, polyurethanes and acrylic sealants; 100ml, 200ml, 500ml, 1L",BATSEAL Ceramic silicone
+101,SA-SS-(size),BAT,BATSEAL Smooth Stone tooling agent,"for BATSEAL Stone and Pool; 100ml, 200ml, 500ml, 1L",BATSEAL Stone and Pool silicone
+102,BCAL,BAT,"BATSEAL caulking gun, skeleton",dripless; metal grip,300/310ml cartridges
+102,SA-CGP,BAT,"BATSEAL caulking gun, professional",dripless; metal grip,cartridges
+102,SA-CGT,BAT,"BATSEAL caulking gun, tube",aluminium tube; metal end caps; cartridges and sausages,cartridges and sausages
+102,SA-CGA,BAT,"BATSEAL caulking gun, air",pneumatic; cartridges and sausages; needs an air compressor,cartridges and sausages
+102,SA-DSJC,BAT,Delta silicone joint cutter,,
+102,SA-BR-20,BAT,Backer rod 6mm x 20m,also 100m carton SA-BR-100,
+102,SA-RB,BAT,Round brush,,
+102,SA-CNC,BAT,Cartridge and nozzle cutter,,
+102,SA-APPRAD,BAT,"BATSEAL applicator set, radius 4 to 14mm, set of 3",,
+102,SA-APP45,BAT,"BATSEAL applicator set, 45 degree 3 to 10mm, set of 3",,
+103,CSD-ST15-(colour),BAT,Ceramic soap dish standard 150 x 150mm,"colours AW antique white, VAN vanilla, WH white",
+103,CSD-ST21-(colour),BAT,Ceramic soap dish standard 200 x 100mm,,
+103,CSD-SH21-(colour),BAT,Ceramic soap dish shell 200 x 100mm,,
+103,CSD-CO15-(colour),BAT,Ceramic soap dish combo 150 x 150mm,,
+103,CSD-CO21-(colour),BAT,Ceramic soap dish combo 200 x 100mm,,
+103,CSD-COLT21-(colour),BAT,Ceramic soap dish combo large top 200 x 100mm,,
+104,CSD-FOOT21-(colour),BAT,Ceramic footrest 200 x 100mm,"colours AW, VAN, WH",
+104,CSD-PRH21-(colour),BAT,Ceramic paper roll holder 200 x 100mm,,
+104,CSD-SF31-(colour),BAT,Ceramic shelf 300 x 100mm,,
+104,CSD-SF41-(colour),BAT,Ceramic shelf 400 x 100mm,,
+105,BC-MPC-(size),BAT,BATSEAL multi purpose cleaner,"water based heavy duty cleaner; alternative to chlorinated or caustic products; removes grease, grime, dirt from all hard surfaces; low foaming; eco friendly AS4351; biodegradable; non flammable, non hazardous, non corrosive, non toxic; dilute to suit; 1L and 5L",
+105,BC-A350,BAT,BATSEAL aerosol sealer 350 g,"penetrating sealer; up to 15 years protection; non yellowing, UV protected; prevents mould, mildew and algae; newly grouted areas; porous grout, tile and masonry: concrete, terracotta, sandstone, limestone, porcelain, marble, granite, brick",
+106,BC-LPS-(size),BAT,"BATSEAL LPS penetrating sealer, low porosity","water and oil based stain protection; up to 15 years; non yellowing, UV protected; prevents mould, mildew and algae; newly grouted areas; slow drying for dense and polished surfaces: porcelain, marble, granite, terrazzo, bluestone; 1L, 4L, 20L",
+106,BC-HPS-(size),BAT,"BATSEAL HPS penetrating sealer, high porosity","water and oil based stain protection; up to 15 years; non yellowing, UV protected; prevents mould, mildew and algae; newly grouted areas; fast drying for porous surfaces: concrete, brick, terracotta, sandstone, limestone, stucco, saltillo, slate, grout; 1L, 4L, 20L",

@@ -70,7 +70,8 @@ was compared with, and any flag. Rules are in the script's docstring. In short:
   variant above the trade floor. Shopify Basic has no B2B price lists, so each band is a manual (unpublished)
   collection `trade-list-5` ... `trade-list-25` with an automatic discount "Trade price – N%" for the
   "Trade customers" segment (customer tag `trade`). To change one item's trade discount, move it to another
-  `trade-list-N` collection in Shopify admin. The old tag-based `trade-band-*` collections are no longer used.
+  `trade-list-N` collection in Shopify admin. The old tag-based `trade-band-*` collections and `trade-N` tags
+  were removed on 12 Oct 2026.
   (A `custom.trade_price` variant metafield definition exists but isn't filled.)
 - Applied: 1,388 prices, 599 MELA costs (ex GST), 5 trade discounts. 4 B&B items and 64 MELA items stay above
   the competitor because it sells below our profit floor; ~30 `BELOW PROFIT FLOOR` items left for the owner.
@@ -86,3 +87,52 @@ ordered at $199. Its recorded cost ($225.91 ex GST) was copied from the Matt Whi
 doesn't list a plain White, so the "below cost" flag may be wrong. Owner to confirm whether MELA supplies
 it and at what SILVER cost. To bring it back: set the variant's inventory policy to CONTINUE (or untrack
 inventory) and re-price against the real cost. Matt Black and Matt White ($337) are unaffected.
+
+# Store-wide repricing, 11 Oct 2026 (owner's instruction, applied the same day)
+
+The owner asked for prices cheaper than every competitor, cheaper again on high-margin items, and trade
+accounts cheaper still. `reprice_2026_10_11.py` → `store-pricing-2026-10-11.csv` (master list, replaces
+the 3 Oct one) and `reports/reprice-2026-10-11.md` (what changed, owner-review tables).
+
+- The store had grown to 780 active products / 3,562 variants: ~1,950 BAT, BAT Trims, Raimondi, Panther,
+  Washboy, NICLIS, Atika and ADA variants were added after 4 Oct with costs but no competitor check or
+  trade band. All are now in the plan.
+- New rule on top of the playbook: **margin cap 40%**. 563 variants above 40% were cut to 40% (Roberts
+  trims, BAT trims and tools, some tiles and mosaics). Competitor rule unchanged (5% under; 10% under when
+  still at 40%+). 67 variants that were under the 20% floor went up to the floor (CLASSIC/BRITTANY/CLARK
+  vanities, Baron F300 and parts, Maxisil wet-area silicone). 9 stay below the floor because the
+  competitor is lower (NOOK/KORI/MIZO baths, Sigma 4CU, Baron E120); 28 Expansion-trim variants are
+  flagged COST CHECK (same $23.99 cost on every size).
+- Applied: 646 prices (579 down, 67 up), `ets.trade_band` metafield on all 780 products, 361 products moved
+  between the `trade-list-N` collections (now 25%: 264, 20%: 185, 15%: 173, 10%: 19, 5%: 137, none: 2).
+- New B&B matches for BAT and Raimondi items in `BB_MATCH`. `monitor_competitors.py` now reads this plan.
+- PDFs regenerated in `price-lists/`.
+
+## Second Raimondi batch, 11 Oct 2026 (evening)
+
+144 Raimondi products imported during the day were priced with the same rules (22 variants cut to the 40% cap, the rest kept),
+given trade bands (25%: 54, 15%: 53, 20%: 37) and added to the `trade-list-N` collections. Four BAT/Panther items that got a
+cost during the day were capped too and ten moved out of the 5% "no cost" band. Report:
+`reports/reprice-2026-10-11-raimondi-batch2.md`. The master CSV and PDFs include them.
+
+Any product imported later needs the same three steps (price check, `ets.trade_band`, `trade-list-N`); the `ets-pricing` agent
+does them from a fresh bulk export.
+
+# Supplier cost check, 12 Oct 2026 (owner's files, no price changes)
+
+The owner sent the May 2026 BAT/Raimondi price books, the 2026 SILVER discount sheet and the 2025 MELA
+catalogue and asked for every public and trade price to be double-checked against them. Result in
+`reports/supplier-cost-check-2026-10-12.md`: all 1,948 BAT-family costs equal the books; all 599 MELA costs
+are at or above the catalogue (Bathroom City's live list, which is the cost basis, is equal or higher);
+the rules re-run on a fresh export with today's competitor prices changed nothing (`store-pricing-2026-10-12.csv`
+is the new master, identical prices to 11 Oct). Trade bands: metafield and collections match on all 921 products.
+Missing files: Roberts Designs price list, BAT Trims Book 2. The owner-decision items (competitor below our
+floor, Sigma ART 4CU, Baron E120, seven MELA baths $1 under a rounded floor) are listed in the report.
+
+## Thin-margin rule (12 Oct 2026, afternoon, applied the same day)
+
+Owner: 20% is not a hard floor, "sometimes more, sometimes less, depends on the product". `reprice_2026_10_12.py`
+(replaces the 11 Oct engine; same rules plus: competitor below our 20% price → 1% under them while we keep
+10%, 5–10% only for owner-named products, never under 5% or cost). 22 prices cut, 15 products to trade band 0,
+PDFs regenerated. Details and the list of items still held: `reports/supplier-cost-check-2026-10-12.md`
+(bottom section). `monitor_competitors.py` now reads the 12 Oct plan and engine.

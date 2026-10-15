@@ -1,12 +1,3 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */
 {
   "sections": {
     "hero": {
@@ -30,8 +21,8 @@
           "type": "card",
           "settings": {
             "icon": "box",
-            "title": "Australia-wide shipping, free over $1,000",
-            "text": "<p>Tapware, shower sets, towel rails, hooks, holders and other small boxed items ship anywhere in Australia by tracked Australia Post, from $20 depending on weight. Basins, mirrors, sinks and niche boxes go as tracked parcels from $25. Orders of $1,000 or more ship free. Exact prices show at checkout.</p>"
+            "title": "Australia-wide post from $9.95",
+            "text": "<p>Tools, silicone, tapware, shower sets, towel rails and other small boxed items post anywhere in Australia by tracked Australia Post, priced by parcel weight: up to 250 g $9.95, up to 500 g $11.95, up to 1 kg $15, up to 3 kg $20, up to 5 kg $24.95, heavier parcels by weight. Basins, mirrors, sinks and niche boxes go the same way. Free on WA orders over $100 and on orders over $150 anywhere in Australia. Exact prices show at checkout.</p>"
           }
         },
         "1": {
@@ -78,7 +69,7 @@
           "type": "step",
           "settings": {
             "title": "Choose delivery or pickup",
-            "text": "Perth local delivery, Australia-wide shipping (free on orders over $1,000), or free pickup: the options for your address show at checkout."
+            "text": "Perth local delivery, Australia-wide post from $9.95 (free on WA orders over $100 and on orders over $150 elsewhere), or free pickup: the options for your address show at checkout."
           }
         },
         "2": {
@@ -117,7 +108,7 @@
           "type": "question",
           "settings": {
             "question": "Do you ship internationally?",
-            "answer": "<p>Yes, for small items. Tapware, accessories and other small boxed items ship to New Zealand, the United States, the United Kingdom and the UAE by tracked Australia Post, from $29. Prices are in AUD, and any import duties or taxes are paid on delivery. Tiles and large items are delivered within Australia only.</p>"
+            "answer": "<p>Yes, for small items. Tapware, accessories and other small boxed items ship to New Zealand, the United States, the United Kingdom and the UAE by tracked Australia Post, from $34. Prices are in AUD, and any import duties or taxes are paid on delivery. Tiles and large items are delivered within Australia only.</p>"
           }
         },
         "1": {

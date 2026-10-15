@@ -1,0 +1,4 @@
+Thanks for applying for a trade account. We check the ABN and usually approve within one business day; you'll get an email when it's live. Trade pricing: 15% off tiles, 5 to 25% off the rest, applied automatically when you're logged in.
+
+Excellent Tiling Services, 17A Olga Road, Maddington WA 6109. 0450 960 543.
+Unsubscribe: {% unsubscribe_link %}
