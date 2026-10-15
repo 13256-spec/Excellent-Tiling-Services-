@@ -13,6 +13,23 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Shop app (Shop sales channel), 12 Oct 2026
+
+The Shop app store was almost empty: 5 of 921 active products and no collections were on the Shop
+channel. All 921 active products and all 92 website collections are now published to Shop, and
+60 collections that had no cover image (Shop hides those) use their first product's photo, which is
+what the website already showed as the fallback. Brand assets, Shop Store navigation and the
+collection lists can only be set in admin: the values to paste in are in
+[store-content/shop-app-store-setup.md](store-content/shop-app-store-setup.md).
+
+## MELA mirror descriptions (13 Oct 2026)
+
+After customer feedback that the LED mirror pages lacked detail, all 17 MELA mirror, LED mirror and
+mirror-cabinet listings were rewritten from the supplier's product pages, spec sheets and warranty/care
+PDFs (sizes and codes, light, touch dimmer, demister, IP44/SAA, mirror thickness, frame depth, cabinet
+box sizes, warranty, cleaning), with matching `ets.*` spec metafields. All four LED ranges are listed as cool white, dimmable.
+Records are in [store-content/mirrors/README.md](store-content/mirrors/README.md).
+
 ## Showroom bookings
 
 The showroom is open **by appointment only**, Monday to Saturday 4:30 pm to 9 pm (closed Sunday).

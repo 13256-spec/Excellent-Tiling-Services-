@@ -1,0 +1,29 @@
+{
+ "2026-10-11-main": {
+  "type": "main",
+  "images": [
+   "local:storm.jpg",
+   "morgan-storm-porcelain-tile#0"
+  ]
+ },
+ "2026-10-11-story": {
+  "type": "story",
+  "images": [
+   "local:storm.jpg"
+  ]
+ },
+ "2026-10-12-main": {
+  "type": "main",
+  "images": [
+   "mela-paddy-750-wall-hung-vanity#0",
+   "mela-paddy-750-wall-hung-vanity#1",
+   "mela-paddy-750-wall-hung-vanity#2"
+  ]
+ },
+ "2026-10-12-story": {
+  "type": "story",
+  "images": [
+   "mela-rondo-wall-mixer#0"
+  ]
+ }
+}

@@ -1,0 +1,340 @@
+[
+ {
+  "name": "2026-10-06-main",
+  "img": "u-timber-bath.jpg",
+  "pos": "center",
+  "box": {
+   "left": 330,
+   "top": 150,
+   "width": 690
+  },
+  "hs": 84,
+  "kicker": "Excellent Tiling Services · Maddington",
+  "head": "Perth tilers. We sell what we install.",
+  "sub": "Tiles, vanities and tapware, picked by the crew that lays them.",
+  "subcolor": "#16243E"
+ },
+ {
+  "name": "2026-10-07-main",
+  "img": "brittany600.jpg",
+  "pos": "center 60%",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 520
+  },
+  "hs": 60,
+  "kicker": "MELA · Wall-hung vanity",
+  "head": "Small bathroom? Get the vanity off the floor.",
+  "sub": "Brittany 600, stone top and basin included.",
+  "price": "$1,149.99"
+ },
+ {
+  "name": "2026-10-08-main",
+  "img": "u-sunlit-tiles.jpg",
+  "pos": "center 70%",
+  "box": {
+   "left": 72,
+   "top": 110,
+   "width": 800
+  },
+  "hs": 84,
+  "head": "No trailer? We'll bring the tiles.",
+  "sub": "We deliver, or pick up free in Maddington."
+ },
+ {
+  "name": "2026-10-09-main",
+  "img": "storm.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 560
+  },
+  "hs": 64,
+  "kicker": "Trade accounts",
+  "head": "Tradies: 15% off tiles. No haggling.",
+  "sub": "And 5–25% off tools and bathroomware. ABN required.",
+  "pill": "Apply · link in bio"
+ },
+ {
+  "name": "2026-10-10-main",
+  "img": "cinder.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "bottom": 160,
+   "width": 600
+  },
+  "hs": 64,
+  "kicker": "Tiler's tip",
+  "head": "Order 10% extra. Here's why.",
+  "sub": "Cuts and breakages eat tiles. Every tile page has a calculator."
+ },
+ {
+  "name": "2026-10-11-main",
+  "img": "etna.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 560
+  },
+  "hs": 62,
+  "kicker": "Porcelain tile · Matt",
+  "head": "Dark marble look. None of the upkeep.",
+  "sub": "Lava Etna, no sealing, no etching.",
+  "price": "$46.70/m²"
+ },
+ {
+  "name": "2026-10-12-main",
+  "img": "paddy750.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 520
+  },
+  "hs": 62,
+  "kicker": "MELA · Wall-hung vanity",
+  "head": "The price includes the top.",
+  "sub": "Paddy 750, 20 mm stone top and basin included.",
+  "price": "$949"
+ },
+ {
+  "name": "2026-10-06-lunch",
+  "img": "p/mela-flova-basin-mixer.png",
+  "cutout": true,
+  "cutstyle": "left:120px;top:300px;width:1150px;height:1150px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "MELA · Basin mixer",
+  "head": "FLOVA basin mixer",
+  "sub": "5-star WELS. Chrome, matt black or brushed nickel.",
+  "price": "$189",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-07-lunch",
+  "img": "p/clark600-alt.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 520
+  },
+  "hs": 60,
+  "kicker": "MELA · Wall-hung vanity",
+  "head": "Our lowest-priced vanity.",
+  "sub": "Clark 600, stone top and basin included.",
+  "price": "$703"
+ },
+ {
+  "name": "2026-10-08-lunch",
+  "img": "p/mela-bruno-600-single-towel-rail.png",
+  "cutout": true,
+  "cutstyle": "left:-60px;top:330px;width:1200px;height:1000px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "MELA · Towel rail",
+  "head": "BRUNO 600 towel rail",
+  "sub": "Match your brushed tapware: nickel, gun metal, brass or copper.",
+  "price": "$132",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-09-lunch",
+  "img": "moon.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 540
+  },
+  "hs": 62,
+  "kicker": "Porcelain tile · Matt or lappato",
+  "head": "Time Stone Moon",
+  "sub": "Soft stone look, P4/R11 slip rating for wet areas.",
+  "price": "$50.10/m²",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-10-lunch",
+  "img": "p/mela-palco-rondo-combination-shower-set-with-rail.png",
+  "cutout": true,
+  "cutstyle": "left:380px;top:250px;width:760px;height:1150px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 520
+  },
+  "hs": 66,
+  "kicker": "MELA · Shower set",
+  "head": "Overhead and hand shower in one set",
+  "sub": "Palco / Rondo combination set with rail. Six finishes.",
+  "price": "$412",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-11-lunch",
+  "img": "p/mela-mia-450-led-oval-mirror.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 56,
+   "width": 500
+  },
+  "hs": 60,
+  "kicker": "MELA · LED mirror",
+  "head": "Backlit, dimmable, no fog.",
+  "sub": "MIA 450 LED oval mirror.",
+  "price": "$379"
+ },
+ {
+  "name": "2026-10-12-lunch",
+  "img": "p/mela-rondo-wall-mixer.png",
+  "cutout": true,
+  "cutstyle": "left:160px;top:330px;width:1100px;height:1100px",
+  "box": {
+   "left": 72,
+   "top": 90,
+   "width": 900
+  },
+  "hs": 76,
+  "kicker": "MELA · Wall mixer",
+  "head": "RONDO wall mixer",
+  "sub": "Shower mixer looking tired? Chrome, black and brushed finishes.",
+  "price": "$141",
+  "pre": "from"
+ },
+ {
+  "name": "2026-10-06-story",
+  "story": true,
+  "img": "brittany1200.jpg",
+  "pos": "35% center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 250,
+   "width": 700
+  },
+  "hs": 76,
+  "kicker": "MELA vanities",
+  "head": "Stone top and basin, always included.",
+  "sub": "Every MELA vanity we sell comes with both. From $703."
+ },
+ {
+  "name": "2026-10-07-story",
+  "story": true,
+  "img": "u-sunlit-tiles.jpg",
+  "pos": "30% center",
+  "box": {
+   "left": 72,
+   "top": 260,
+   "width": 900
+  },
+  "hs": 96,
+  "kicker": "Tiler's tip",
+  "head": "How much tile do you need?",
+  "sub": "Add 10% for cuts, or use the calculator on every tile page."
+ },
+ {
+  "name": "2026-10-08-story",
+  "story": true,
+  "img": "particle.jpg",
+  "pos": "30% center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 250,
+   "width": 760
+  },
+  "hs": 80,
+  "kicker": "Tiling, Perth metro",
+  "head": "Want us to tile it too?",
+  "sub": "Every job starts with a free measure and quote.",
+  "pill": "Get a quote · link in bio"
+ },
+ {
+  "name": "2026-10-09-story",
+  "story": true,
+  "img": "u-stone-vanity.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 250,
+   "width": 760
+  },
+  "hs": 80,
+  "kicker": "Trade accounts",
+  "head": "Tradies: 15% off tiles.",
+  "sub": "Apply with your ABN. The discount comes off when you log in.",
+  "pill": "Apply · link in bio"
+ },
+ {
+  "name": "2026-10-10-story",
+  "story": true,
+  "img": "u-fluted-vanity.jpg",
+  "pos": "center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 250,
+   "width": 640
+  },
+  "hs": 76,
+  "kicker": "Showroom · Maddington",
+  "head": "Evening showroom, by appointment.",
+  "sub": "Mon–Sat 4:30–9 pm, 17A Olga Road.",
+  "pill": "Book · link in bio"
+ },
+ {
+  "name": "2026-10-11-story",
+  "story": true,
+  "img": "p/mela-flova-basin-mixer.png",
+  "cutout": true,
+  "cutstyle": "left:-40px;top:620px;width:1250px;height:1250px",
+  "box": {
+   "left": 72,
+   "top": 260,
+   "width": 900
+  },
+  "hs": 104,
+  "kicker": "MELA FLOVA basin mixer",
+  "head": "Chrome or matt black?",
+  "sub": "Reply with your pick. From $189."
+ },
+ {
+  "name": "2026-10-12-story",
+  "story": true,
+  "img": "u-lit-niche.jpg",
+  "pos": "55% center",
+  "card": true,
+  "box": {
+   "left": 56,
+   "top": 250,
+   "width": 720
+  },
+  "hs": 78,
+  "kicker": "Free pickup",
+  "head": "Order online. Collect after work.",
+  "sub": "Maddington, Mon–Sat 4:30–9 pm, by appointment."
+ }
+]

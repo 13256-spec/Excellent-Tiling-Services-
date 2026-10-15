@@ -1,0 +1,95 @@
+{
+ "2026-10-13-main": {
+  "type": "main",
+  "images": [
+   "local:brittany1200.jpg",
+   "mela-brittany-1200-single-wall-hung-vanity#0"
+  ]
+ },
+ "2026-10-14-main": {
+  "type": "main",
+  "images": [
+   "mela-flova-basin-mixer#0",
+   "mela-flova-hand-shower-set-without-rail#0",
+   "mela-flova-600-single-towel-rail#0",
+   "mela-flova-paper-holder#0"
+  ]
+ },
+ "2026-10-15-main": {
+  "type": "main",
+  "images": [
+   "local:moon.jpg",
+   "time-stone-moon-porcelain-tile#0"
+  ]
+ },
+ "2026-10-16-main": {
+  "type": "main",
+  "images": [
+   "mela-mia-450-frameless-oval-mirror#0"
+  ]
+ },
+ "2026-10-17-main": {
+  "type": "main",
+  "images": [
+   "local:cementgrey.jpg",
+   "cement-grey-porcelain-tile#1"
+  ]
+ },
+ "2026-10-18-main": {
+  "type": "main",
+  "images": [
+   "local:p/mela-clark-900-wall-hung-vanity-with-2-drawers-side-shelves.jpg",
+   "mela-clark-900-wall-hung-vanity-with-2-drawers-side-shelves#1",
+   "mela-clark-900-wall-hung-vanity-with-2-drawers-side-shelves#2"
+  ]
+ },
+ "2026-10-19-main": {
+  "type": "main",
+  "images": [
+   "local:ash.jpg",
+   "lava-ash-porcelain-tile#0"
+  ]
+ },
+ "2026-10-13-story": {
+  "type": "story",
+  "images": [
+   "mela-bruno-basin-mixer#0"
+  ]
+ },
+ "2026-10-14-story": {
+  "type": "story",
+  "images": [
+   "morgan-hail-porcelain-tile#1"
+  ]
+ },
+ "2026-10-15-story": {
+  "type": "story",
+  "images": [
+   "mela-arch-above-counter-basin#0"
+  ]
+ },
+ "2026-10-16-story": {
+  "type": "story",
+  "images": [
+   "local:p/classic600-shaker-crop.png"
+  ]
+ },
+ "2026-10-17-story": {
+  "type": "story",
+  "images": [
+   "mela-flova-paper-holder#1"
+  ]
+ },
+ "2026-10-18-story": {
+  "type": "story",
+  "images": [
+   "local:paddy750.jpg"
+  ]
+ },
+ "2026-10-19-story": {
+  "type": "story",
+  "images": [
+   "local:dusk1.jpg"
+  ]
+ }
+}

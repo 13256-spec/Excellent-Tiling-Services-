@@ -40,13 +40,16 @@ Every posting event's description says which graphic to use (file name from `mar
 and has the caption ready to copy. Appointment and job events carry the customer's name, phone, suburb,
 what they want, and any order number in the description.
 
-## The daily posting template (Finish It Right, 12 Oct to 8 Nov 2026)
+## The daily posting template (Finish It Right, 6 Oct to 8 Nov 2026)
 
-7:00 am morning Story · 8:30 am Marketplace (2 listings) · 12:15 pm lunch product post · 3:30 pm groups +
-Google Business · 6:30 pm main post · 7:30 pm evening Story · 9:00 pm reply to comments and DMs.
-The six non-main slots are daily recurring series; the 6:30 pm posts are one event per day. Reuse this
-template for the next campaign unless the owner wants something different. Keep feed posts to about
-two a day; extra volume goes to Stories, Marketplace, groups and Google, not the main feed.
+7:00 am morning Story (by hand, real photo/video) · 8:30 am Marketplace (2 listings) · 12:15 pm product
+post (AUTO via Metricool) · 3:30 pm groups + Google Business · 6:30 pm main post (AUTO via Metricool,
+except Reels and the review post) · 7:30 pm evening Story (AUTO via Metricool) · 9:00 pm replies.
+AUTO slots: the owner only checks they went out and replies to comments; never tell him to post them by
+hand (double posts). What Metricool has queued: `marketing/finish-it-right/schedule/` (ask `ets-social`
+to change it). The six non-main slots are daily recurring series from 12 Oct (6-11 Oct has its own
+events); the 6:30 pm posts are one event per day. Reuse this template for the next campaign unless the
+owner wants something different. Keep feed posts to about two a day.
 
 Recurring series IDs (edit the whole series, not one copy, unless asked for one day):
 morning Story `f6qv9tq9br0b9efdiqc24q6f00`, Marketplace `avm03n0evgrdiijngds0ha6um4`, lunch post
@@ -70,6 +73,13 @@ morning Story `f6qv9tq9br0b9efdiqc24q6f00`, Marketplace `avm03n0evgrdiijngds0ha6
 
 ## Hard rules
 
+- Owner (11 Oct 2026): keep the calendar clean. No daily reminder series and no per-post events. Only the
+  weekly Saturday "Check next week's posts" and Monday results events. Add others only if he asks.
+- Only label a slot "AUTO" with a post title once that post is booked in Metricool and not a draft
+  (check with getScheduledPosts). Weeks not yet approved show "not booked yet (approve on Saturday)".
+  The caption in the event must match the Metricool text exactly. Never invent future post titles.
+  When updating a recurring series, check first that it has no instances that are real booked posts
+  (edit single instances instead). Cleaned up 6 Oct 2026 on the owner's request.
 - Never delete events or a recurring series without the owner confirming the exact events. Moving and
   editing are fine when asked.
 - Never invite customers or anyone else as attendees, and send updates with `notificationLevel: NONE`,

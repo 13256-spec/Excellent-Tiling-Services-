@@ -1,0 +1,202 @@
+# Products set to DRAFT on 6 Oct 2026 for owner review. id | title | issues
+gid://shopify/Product/8403245006911 | 20 Litre Maxisil Bucket | short description (<80 chars)
+gid://shopify/Product/8403245891647 | 3 piece Spare Roller – 75mm for RDXT308 | short description (<80 chars)
+gid://shopify/Product/8403244122175 | Adhesive Mixer 100mm x 10mm Shaft (downward push) | short description (<80 chars)
+gid://shopify/Product/8403244089407 | Adhesive Mixer 140mm x 10mm Shaft (downward push) | short description (<80 chars)
+gid://shopify/Product/8402654265407 | BAT Cross Tile Spacers 1.5mm – 1000 Pack | no cost price
+gid://shopify/Product/8402654199871 | BAT Cross Tile Spacers 1.5mm – 500 Pack | no cost price
+gid://shopify/Product/8402654822463 | BAT Eco SynSafe Acid | no cost price
+gid://shopify/Product/8402654756927 | BAT Pro PVA Abrasive Wheels 100 mm – 10 Pack | no cost price
+gid://shopify/Product/8402654658623 | BAT Pro Razor Mesh Diamond Blade 125mm | no cost price
+gid://shopify/Product/8402654232639 | BAT Tile Wedges Blue – 500 Pack | no cost price
+gid://shopify/Product/8403243237439 | Backer Rod – Round Closed Cell – 10mm | short description (<80 chars)
+gid://shopify/Product/8403243270207 | Backer Rod – Round Closed Cell – 6mm | short description (<80 chars)
+gid://shopify/Product/8403244974143 | Backer Rod – Square Open Cell – 20mm | short description (<80 chars)
+gid://shopify/Product/8403243958335 | Balcony Trim Joiner – fits all sizes – 8mm | short description (<80 chars)
+gid://shopify/Product/8403254018111 | Barwalt KN-1 Replacement Liners (pair) | short description (<80 chars)
+gid://shopify/Product/8403254804543 | Blue Chalk Refill Bottle | short description (<80 chars)
+gid://shopify/Product/8403253821503 | Blue Cross Universal Spacing Plate – 100 pack | short description (<80 chars)
+gid://shopify/Product/8403253788735 | Blue Edge Universal Spacing Plate – 100 pack | short description (<80 chars)
+gid://shopify/Product/8403253755967 | Blue T Universal Spacing Plate – 100 pack | short description (<80 chars)
+gid://shopify/Product/8403254771775 | Caulking Gun 310ml | short description (<80 chars)
+gid://shopify/Product/8403243302975 | Caulking Sticks – Bag of 250 | short description (<80 chars)
+gid://shopify/Product/8403254968383 | Chalk Line Reel | short description (<80 chars)
+gid://shopify/Product/8403253887039 | Clear Packaging Tape | short description (<80 chars)
+gid://shopify/Product/8402654920767 | Click Heavy Duty Powerblock – 4 Outlet with RCBO Protection | no cost price
+gid://shopify/Product/8403248382015 | Continuous Rim Diamond Blades – Green | short description (<80 chars)
+gid://shopify/Product/8403250905151 | Deep T Spacer – 1.5mm | short description (<80 chars)
+gid://shopify/Product/8403250872383 | Deep T Spacer – 2mm | short description (<80 chars)
+gid://shopify/Product/8403251101759 | Deep X Spacer – 1.5mm | short description (<80 chars)
+gid://shopify/Product/8403251036223 | Deep X Spacer – 2mm | short description (<80 chars)
+gid://shopify/Product/8403252379711 | Economy Grout Float | short description (<80 chars)
+gid://shopify/Product/8403241533503 | Electroplated Diamond Core Drill | short description (<80 chars)
+gid://shopify/Product/8403241566271 | Electroplated Diamond Pin Drill | short description (<80 chars)
+gid://shopify/Product/8403249299519 | External Balcony Corner | short description (<80 chars)
+gid://shopify/Product/8403248447551 | External Cove Aluminium Corner | short description (<80 chars)
+gid://shopify/Product/8403005374527 | External Retro Cove Corner | short description (<80 chars)
+gid://shopify/Product/8403251331135 | Guardia Surface Protection | short description (<80 chars)
+gid://shopify/Product/8403253985343 | Handyman Knee Pad | short description (<80 chars)
+gid://shopify/Product/8403251986495 | Hex Shank Adapter for Vacuum Brazed Drill Bit | short description (<80 chars)
+gid://shopify/Product/8403243991103 | Hydra Tilers Round Edge Sponge | short description (<80 chars)
+gid://shopify/Product/8403244056639 | Hydra Tilers Slater Sponge | short description (<80 chars)
+gid://shopify/Product/8403244023871 | Hydra Tilers Square Edge Sponge | short description (<80 chars)
+gid://shopify/Product/8403249332287 | Internal Balcony Corner | short description (<80 chars)
+gid://shopify/Product/8403248480319 | Internal Cove Corner | short description (<80 chars)
+gid://shopify/Product/8403248545855 | Internal Retro Cove Corner | short description (<80 chars)
+gid://shopify/Product/8403241041983 | Leveling Compound Mixer x 10mm Shaft | short description (<80 chars)
+gid://shopify/Product/8403252478015 | M14 Adapter for Vacuum Brazed Drill Bit | short description (<80 chars)
+gid://shopify/Product/8382639800383 | MELA BRUNO Corner Glass Shelf Holder | no cost price
+gid://shopify/Product/8382638161983 | MELA BRUNO Wall Mixer with Diverter | no cost price, no image
+gid://shopify/Product/8382639898687 | MELA Bath Pop Up Waste Universal | no cost price, no image
+gid://shopify/Product/8382666047551 | MELA CLARK 1050 Wall Hung Vanity with 2 Drawers & Side Shelves | no SKU
+gid://shopify/Product/8382666211391 | MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Dual Side Shelves | no SKU
+gid://shopify/Product/8382666113087 | MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Single Side Shelves | no SKU
+gid://shopify/Product/8382666080319 | MELA CLARK 1200 Wall Hung Vanity with Drawers | no SKU
+gid://shopify/Product/8382666440767 | MELA CLARK 1500 Double Wall Hung Vanity with 4 Drawers & Centre Shelves | no SKU
+gid://shopify/Product/8382666276927 | MELA CLARK 1500 Double Wall Hung Vanity with Doors | no SKU
+gid://shopify/Product/8382666309695 | MELA CLARK 1500 Double Wall Hung Vanity with Doors & Drawers | no SKU
+gid://shopify/Product/8382666375231 | MELA CLARK 1500 Double Wall Hung Vanity with Drawers | no SKU
+gid://shopify/Product/8382666244159 | MELA CLARK 1500 Wall Hung Vanity with 2 Drawers & Dual Side Shelves | no SKU
+gid://shopify/Product/8382666506303 | MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers | no cost price
+gid://shopify/Product/8382666604607 | MELA CLARK 1800 Double Wall Hung Vanity with 4 Drawers & Centre Shelves | no SKU
+gid://shopify/Product/8382665785407 | MELA CLARK 600 Wall Hung Vanity with Doors | no SKU
+gid://shopify/Product/8382665916479 | MELA CLARK 750 Wall Hung Vanity with 2 Drawers | no SKU
+gid://shopify/Product/8382665883711 | MELA CLARK 750 Wall Hung Vanity with Doors | no SKU
+gid://shopify/Product/8382665949247 | MELA CLARK 900 Wall Hung Vanity with 2 Drawers | no SKU
+gid://shopify/Product/8382666014783 | MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Side Shelves | no SKU
+gid://shopify/Product/8382669619263 | MELA CLASSIC 1200 Matt White Wall Hung Vanity with 2 Drawers | no SKU
+gid://shopify/Product/8382668996671 | MELA CLASSIC 600 Matt White Wall Hung Vanity with 2 Drawers | no SKU
+gid://shopify/Product/8382669094975 | MELA CLASSIC 750 Matt White Wall Hung Vanity with 2 Drawers | no SKU
+gid://shopify/Product/8382669291583 | MELA CLASSIC 900 Matt White Wall Hung Vanity with 2 Drawers | no SKU
+gid://shopify/Product/8382641799231 | MELA Corrugated Flexible Shower Hose | no cost price, no image
+gid://shopify/Product/8382658412607 | MELA DAVISSON Above Counter Basin | price (ex GST) below cost, tracked, 0 stock, cannot be bought
+gid://shopify/Product/8382638915647 | MELA FLOVA 800 Double Towel Rail | no cost price
+gid://shopify/Product/8382638882879 | MELA FLOVA 800 Single Towel Rail | no cost price
+gid://shopify/Product/8382641602623 | MELA FLOVA ABS Shower Head | no cost price, no image
+gid://shopify/Product/8382641635391 | MELA FLOVA Brass Shower Head | no cost price, no image
+gid://shopify/Product/8382636163135 | MELA FLOVA Free Standing Bath Spout | no cost price
+gid://shopify/Product/8382639079487 | MELA FLOVA Hand Towel Rail | short description (<80 chars)
+gid://shopify/Product/8382639013951 | MELA FLOVA Hook | short description (<80 chars)
+gid://shopify/Product/8382639177791 | MELA FLOVA Shelf Holder | short description (<80 chars)
+gid://shopify/Product/8382639112255 | MELA FLOVA Soap Holder | short description (<80 chars)
+gid://shopify/Product/8382664605759 | MELA MELVA Half Inset Basin | no cost price, no image
+gid://shopify/Product/8382640685119 | MELA MORRIS Frameless Corner Shower Screen | no cost price
+gid://shopify/Product/8382640619583 | MELA MORRIS Frameless Shower Panel | no cost price
+gid://shopify/Product/8382641897535 | MELA MORRIS Shower Door Handle | no cost price, no image
+gid://shopify/Product/8382642061375 | MELA MORRIS Shower Screen Hinge | no cost price
+gid://shopify/Product/8382641995839 | MELA MORRIS Shower Screen L Bracket | no cost price
+gid://shopify/Product/8382641963071 | MELA MORRIS Shower Screen U Bracket | no cost price
+gid://shopify/Product/8382668341311 | MELA PADDY 1200 Wall Hung Vanity | no SKU
+gid://shopify/Product/8382668439615 | MELA PADDY 1500 Double Wall Hung Vanity | no SKU
+gid://shopify/Product/8382668505151 | MELA PADDY 1800 Double Wall Hung Vanity | no SKU
+gid://shopify/Product/8382668243007 | MELA PADDY 750 Wall Hung Vanity | no SKU
+gid://shopify/Product/8382668275775 | MELA PADDY 900 Wall Hung Vanity | no SKU
+gid://shopify/Product/8382641668159 | MELA PALCO / RONDO ABS Shower Head | no cost price, no image
+gid://shopify/Product/8382641700927 | MELA PALCO / RONDO Brass Shower Head | no cost price, no image
+gid://shopify/Product/8382636490815 | MELA PALCO / RONDO Shower Arm | short description (<80 chars)
+gid://shopify/Product/8382641831999 | MELA PVC Shower Hose | no cost price, no image
+gid://shopify/Product/8382639865919 | MELA Pop Up Waste Universal | no cost price
+gid://shopify/Product/8382637408319 | MELA RONDO Gooseneck Sink Mixer | no cost price
+gid://shopify/Product/8382664409151 | MELA RORY Above Counter Basin | no cost price, no image
+gid://shopify/Product/8382645665855 | MELA SURI LED Round Mirror | no cost price
+gid://shopify/Product/8382641078335 | MELA TRITON 1080 Double Sink | short description (<80 chars)
+gid://shopify/Product/8382641143871 | MELA TRITON 1200 Double Sink | short description (<80 chars)
+gid://shopify/Product/8382640717887 | MELA TRITON 310 Single Sink | no cost price, no image, short description (<80 chars)
+gid://shopify/Product/8382640980031 | MELA TRITON 35L Sink | short description (<80 chars)
+gid://shopify/Product/8382640816191 | MELA TRITON 450 Single Sink | short description (<80 chars)
+gid://shopify/Product/8382641012799 | MELA TRITON 45L Sink | short description (<80 chars)
+gid://shopify/Product/8382640848959 | MELA TRITON 550 Single Sink | no cost price, short description (<80 chars)
+gid://shopify/Product/8382641045567 | MELA TRITON 765 Single Sink | short description (<80 chars)
+gid://shopify/Product/8382640914495 | MELA TRITON 770 Double Sink | short description (<80 chars)
+gid://shopify/Product/8382645731391 | MELA VERA Oval Mirror Cabinet | short description (<80 chars)
+gid://shopify/Product/8382645895231 | MELA VINA LED Plain Mirror | no cost price, no image, short description (<80 chars)
+gid://shopify/Product/8382645862463 | MELA VINA Plain Mirror | no cost price
+gid://shopify/Product/8382646222911 | MELA ZOE 600 LED Arch Mirror | short description (<80 chars)
+gid://shopify/Product/8403252772927 | Masking Tape | short description (<80 chars)
+gid://shopify/Product/8403253264447 | Maxisil Applicator | short description (<80 chars)
+gid://shopify/Product/8403251789887 | Maxisil Corner Nozzles 3 Pack | short description (<80 chars)
+gid://shopify/Product/8403253297215 | Maxisil Extension Nozzles 6 Pk | short description (<80 chars)
+gid://shopify/Product/8403253231679 | Maxisil Silicone Nozzle Unblocker | short description (<80 chars)
+gid://shopify/Product/8403252510783 | Maxisil Spray Bottle – 500ml | short description (<80 chars)
+gid://shopify/Product/8403248316479 | Mesh Rim Diamond Blades – Red | short description (<80 chars)
+gid://shopify/Product/8403251855423 | Mixing Paddles Set (3) for Baron E120 Mixer | short description (<80 chars)
+gid://shopify/Product/8403253723199 | Orange Cross Universal Spacing Plate – 100 pack | short description (<80 chars)
+gid://shopify/Product/8403253690431 | Orange Edge Universal Spacing Plate – 100 pack | short description (<80 chars)
+gid://shopify/Product/8403253526591 | Orange T Universal Spacing Plate – 100 pack | short description (<80 chars)
+gid://shopify/Product/8403251822655 | Paint Roller Handle – 230mm | short description (<80 chars)
+gid://shopify/Product/8403245858879 | Paint Roller Handle – 75mm | short description (<80 chars)
+gid://shopify/Product/8403255033919 | Paint Roller and Tray | short description (<80 chars)
+gid://shopify/Product/8403255230527 | Paint Scraper | short description (<80 chars)
+gid://shopify/Product/8403253919807 | Pallet Wrap Dispenser | short description (<80 chars)
+gid://shopify/Product/8403253952575 | Pallet Wrap Roll | short description (<80 chars)
+gid://shopify/Product/8403250839615 | Pre Assembled Spindles | short description (<80 chars)
+gid://shopify/Product/8403241599039 | Premium Diamond Sintered Pin Drill | short description (<80 chars)
+gid://shopify/Product/8403252805695 | Pro Japanese Style Grout Float Timber Handle | short description (<80 chars)
+gid://shopify/Product/8403252052031 | Puddle Flange – Recessed | short description (<80 chars)
+gid://shopify/Product/8402654887999 | RLA Quick Set Liquid Additive – Cement Accelerator 5 L | no cost price
+gid://shopify/Product/8403245826111 | Replacement Clip for Eco Roller – Fits RDXT630 | short description (<80 chars)
+gid://shopify/Product/8403254444095 | Replacement Plastic Grid for Eco Roller – Fits RDXT630 | short description (<80 chars)
+gid://shopify/Product/8403254575167 | Replacement Spiral Head for RDXT108 | short description (<80 chars)
+gid://shopify/Product/8403254542399 | SIRI Eco Roller Wash Up Bucket | short description (<80 chars)
+gid://shopify/Product/8403253100607 | SIRI Suction Cup (50kg lifting capacity) | short description (<80 chars)
+gid://shopify/Product/8403248283711 | Segmented Diamond Blades – Orange | short description (<80 chars)
+gid://shopify/Product/8403243204671 | Sigma 108362 M8 Nut for Locking Bolt | short description (<80 chars)
+gid://shopify/Product/8403242844223 | Sigma 19C Square | short description (<80 chars)
+gid://shopify/Product/8403242811455 | Sigma 19D Square | short description (<80 chars)
+gid://shopify/Product/8403242778687 | Sigma 19N Square 260mm | short description (<80 chars)
+gid://shopify/Product/8403242745919 | Sigma 24AE Handle | short description (<80 chars)
+gid://shopify/Product/8403242713151 | Sigma 24C Handle | short description (<80 chars)
+gid://shopify/Product/8403242680383 | Sigma 24E Handle | short description (<80 chars)
+gid://shopify/Product/8403242647615 | Sigma 24M10X Handle | short description (<80 chars)
+gid://shopify/Product/8403242614847 | Sigma 24M15X Handle | short description (<80 chars)
+gid://shopify/Product/8403242549311 | Sigma 24M20X Handle | short description (<80 chars)
+gid://shopify/Product/8403241893951 | Sigma 90LB Sigma Swivel Measurement Bar | short description (<80 chars)
+gid://shopify/Product/8403241861183 | Sigma 90LC Sigma Swivel Measurement Bar | short description (<80 chars)
+gid://shopify/Product/8403243663423 | Sigma ART108621 Locking Bolt M8 x 40 for Series 3B,3C,3D models | short description (<80 chars)
+gid://shopify/Product/8403252543551 | Sigma Aluminium Workbench ART 63E – 180 x 100 | short description (<80 chars)
+gid://shopify/Product/8403252576319 | Sigma Cutting Wheel ART14K suits Kera Cut – 19mm dia | short description (<80 chars)
+gid://shopify/Product/8403253428287 | Sigma Cutting Wheel ART14MX suits ART 3FM/3EK – 19mm | short description (<80 chars)
+gid://shopify/Product/8403245236287 | Sigma Handle ART 24N for ART 4 Push series | short description (<80 chars)
+gid://shopify/Product/8403245432895 | Sigma Handle ART 24U for ART 4 Up series | short description (<80 chars)
+gid://shopify/Product/8403252674623 | Sigma Jolly Edge ART37A3D with 115mm Blade (ART 75B) | short description (<80 chars)
+gid://shopify/Product/8403252609087 | Sigma Kera Flex Aluminium Suction Cup ART51C, suits Kera Cut, 120mm dia, 40kg capacity | short description (<80 chars)
+gid://shopify/Product/8403245531199 | Sigma Kera Flex Aluminium Suction Cup ART51P4, suits Kera Cut, 150mm dia, 90kg capacity | short description (<80 chars)
+gid://shopify/Product/8403245760575 | Sigma Laser for 4 series ART022 | short description (<80 chars)
+gid://shopify/Product/8403245498431 | Sigma Pro Grip Suction Cup ART51M3 mm for straight bar of Kera Lift 1A6 – 1D3 160mm dia | short description (<80 chars)
+gid://shopify/Product/8403245465663 | Sigma Pro Grip Suction Cup ART51M4 mm for cross bar of Kera Lift 160mm dia | short description (<80 chars)
+gid://shopify/Product/8403253493823 | Sigma Spare Wheel with axle ART14A – 12mm dia | short description (<80 chars)
+gid://shopify/Product/8403251626047 | Sigma Spare Wheel with axle ART14N – 16mm dia | short description (<80 chars)
+gid://shopify/Product/8403251691583 | Sigma Spare Wheel with axle ART14U – 12mm dia | short description (<80 chars)
+gid://shopify/Product/8403245203519 | Sigma Swivel Measurement Bar for 4BU ART90NB | short description (<80 chars)
+gid://shopify/Product/8403245170751 | Sigma Swivel Measurement Bar for 4CU ART90NC | short description (<80 chars)
+gid://shopify/Product/8403245137983 | Sigma Swivel Measurement Bar for 4DU ART90ND | short description (<80 chars)
+gid://shopify/Product/8403251593279 | Sigma Titanium Wheel with axle ART14NT – 16mm dia | short description (<80 chars)
+gid://shopify/Product/8403253461055 | Sigma Titanium Wheel with axle ART14T – 12mm | short description (<80 chars)
+gid://shopify/Product/8403251658815 | Sigma Titanium Wheel with axle ART14UT – 12mm dia | short description (<80 chars)
+gid://shopify/Product/8403252641855 | Sigma Workbench Clamps (pair) ART 400 | short description (<80 chars)
+gid://shopify/Product/8403245072447 | Sigma complete left Support Arm ART483 for series 4 | short description (<80 chars)
+gid://shopify/Product/8403245039679 | Sigma complete right Support Arm ART484 for series 4 | short description (<80 chars)
+gid://shopify/Product/8403244744767 | Siri Black Epoxy Grouting Pad for Mosaic Tiles | short description (<80 chars)
+gid://shopify/Product/8403244777535 | Siri Blue Epoxy Grouting Pad | short description (<80 chars)
+gid://shopify/Product/8403254149183 | Siri Brown Sponge – Fits RDXT609 Handle | short description (<80 chars)
+gid://shopify/Product/8403241762879 | Siri Epoxy Grouting Kit | short description (<80 chars)
+gid://shopify/Product/8403254083647 | Siri Green Clean Up Pad | short description (<80 chars)
+gid://shopify/Product/8403254116415 | Siri White Rinse Pad | short description (<80 chars)
+gid://shopify/Product/8403244711999 | Siri Yellow Epoxy Grouting Pad | short description (<80 chars)
+gid://shopify/Product/8403254378559 | Siri Yellow Sponge No Cuts – Fits RDXT609 Handle | short description (<80 chars)
+gid://shopify/Product/8403254345791 | Siri Yellow Sponge With Cuts – Fits RDXT609 Handle | short description (<80 chars)
+gid://shopify/Product/8403252740159 | Socket Bits (2) fits red spindle | short description (<80 chars)
+gid://shopify/Product/8403248906303 | Square Edge Aluminium Corner | short description (<80 chars)
+gid://shopify/Product/8403244875839 | Swan Neck Gauging Trowel | short description (<80 chars)
+gid://shopify/Product/8403251003455 | T Spacer – 1.5mm | short description (<80 chars)
+gid://shopify/Product/8403250970687 | T Spacer – 2mm | short description (<80 chars)
+gid://shopify/Product/8403250937919 | T Spacer – 3mm | short description (<80 chars)
+gid://shopify/Product/8403255066687 | Tape Measure | short description (<80 chars)
+gid://shopify/Product/8403253854271 | Tile Wedges | short description (<80 chars)
+gid://shopify/Product/8403243368511 | Vents | short description (<80 chars)
+gid://shopify/Product/8403255099455 | White Rubber Mallet | short description (<80 chars)
+gid://shopify/Product/8403251232831 | X Spacer – 1.5mm | short description (<80 chars)
+gid://shopify/Product/8403241074751 | X Spacer – 10mm | short description (<80 chars)
+gid://shopify/Product/8403251200063 | X Spacer – 2mm | short description (<80 chars)
+gid://shopify/Product/8403251167295 | X Spacer – 3mm | short description (<80 chars)
+gid://shopify/Product/8403251134527 | X Spacer – 5mm | short description (<80 chars)
