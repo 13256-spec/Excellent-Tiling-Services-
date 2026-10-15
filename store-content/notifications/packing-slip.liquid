@@ -1,0 +1,81 @@
+{% comment %}
+  ETS packing slip. Paste over the whole template in
+  Settings -> Shipping and delivery -> Packing slips -> Edit, then Preview before saving.
+  "Revert to default" in the same screen undoes it.
+{% endcomment %}
+<div style="font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:13px;line-height:1.5;max-width:720px;margin:0 auto;">
+  <table width="100%" style="border-bottom:3px solid #9C7744;padding-bottom:12px;margin-bottom:16px;">
+    <tr>
+      <td style="vertical-align:top;">
+        <p style="margin:0;font-size:22px;font-weight:bold;">Excellent Tiling Services</p>
+        <p style="margin:2px 0 0;">17A Olga Road, Maddington WA 6109 · 0450 960 543</p>
+        <p style="margin:0;">excellenttilingservice.com.au · ABN 63 150 082 054</p>
+      </td>
+      <td style="vertical-align:top;text-align:right;">
+        <p style="margin:0;font-size:18px;font-weight:bold;">Packing slip</p>
+        <p style="margin:2px 0 0;">Order {{ order.name }}</p>
+        <p style="margin:0;">{{ order.created_at | date: "%-d %B %Y" }}</p>
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" style="margin-bottom:16px;">
+    <tr>
+      <td style="vertical-align:top;width:50%;">
+        <p style="margin:0 0 4px;font-weight:bold;color:#9C7744;">{% if delivery_method.method_type == 'pick-up' %}Pickup for{% else %}Ship to{% endif %}</p>
+        {% if shipping_address != blank %}
+          <p style="margin:0;">
+            {{ shipping_address.name }}<br>
+            {% if shipping_address.company != blank %}{{ shipping_address.company }}<br>{% endif %}
+            {{ shipping_address.address1 }}{% if shipping_address.address2 != blank %}, {{ shipping_address.address2 }}{% endif %}<br>
+            {{ shipping_address.city }} {{ shipping_address.province_code }} {{ shipping_address.zip }}<br>
+            {{ shipping_address.country }}
+            {% if shipping_address.phone != blank %}<br>{{ shipping_address.phone }}{% endif %}
+          </p>
+        {% elsif billing_address != blank %}
+          <p style="margin:0;">{{ billing_address.name }}{% if billing_address.phone != blank %}<br>{{ billing_address.phone }}{% endif %}</p>
+        {% endif %}
+      </td>
+      <td style="vertical-align:top;width:50%;">
+        {% if delivery_method.instructions != blank %}
+          <p style="margin:0 0 4px;font-weight:bold;color:#9C7744;">Delivery instructions</p>
+          <p style="margin:0;">{{ delivery_method.instructions }}</p>
+        {% endif %}
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" cellpadding="6" cellspacing="0" style="border-collapse:collapse;">
+    <tr style="background:#F6F4EF;text-align:left;">
+      <th style="border-bottom:1px solid #C9BFA9;">Item</th>
+      <th style="border-bottom:1px solid #C9BFA9;">SKU</th>
+      <th style="border-bottom:1px solid #C9BFA9;text-align:right;">Qty</th>
+      <th style="border-bottom:1px solid #C9BFA9;text-align:center;">Packed</th>
+    </tr>
+    {% for line_item in line_items_in_shipment %}
+      <tr>
+        <td style="border-bottom:1px solid #EFE6D6;">
+          {{ line_item.title }}
+          {% if line_item.variant_title != blank %}<br><span style="color:#5B6372;">{{ line_item.variant_title }}</span>{% endif %}
+        </td>
+        <td style="border-bottom:1px solid #EFE6D6;">{{ line_item.sku }}</td>
+        <td style="border-bottom:1px solid #EFE6D6;text-align:right;">{{ line_item.shipping_quantity }} of {{ line_item.quantity }}</td>
+        <td style="border-bottom:1px solid #EFE6D6;text-align:center;">☐</td>
+      </tr>
+    {% endfor %}
+  </table>
+
+  {% unless includes_all_line_items_in_order %}
+    <p style="margin:12px 0 0;font-weight:bold;">This is part of your order. The rest is coming separately.</p>
+  {% endunless %}
+
+  {% if order.note != blank %}
+    <p style="margin:16px 0 4px;font-weight:bold;color:#9C7744;">Order note</p>
+    <p style="margin:0;">{{ order.note }}</p>
+  {% endif %}
+
+  <div style="margin-top:24px;padding:12px 14px;background:#F6F4EF;border-left:4px solid #9C7744;">
+    <p style="margin:0 0 4px;font-weight:bold;">Please check your order before installing.</p>
+    <p style="margin:0;">Damaged, missing or wrong? Text 0450 960 543 or email contactus@excellenttilingservice.com.au with your order number and photos. Change-of-mind returns: within 30 days, unused and in original packaging (15% restocking fee). Full policy on our website.</p>
+  </div>
+</div>

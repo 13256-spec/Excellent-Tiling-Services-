@@ -1,0 +1,86 @@
+{% comment %}
+  ETS tax invoice for the free Shopify "Order Printer" app.
+  Order Printer -> Templates -> Create template -> name it "Tax invoice" -> paste this -> Preview -> Save.
+  Meets the ATO tax invoice basics: the words "Tax invoice", seller name and ABN, date, item
+  descriptions and quantities, GST amount and total. For sales of $1,000 or more the buyer's name
+  or ABN is also needed; it prints from the billing address and company.
+{% endcomment %}
+<div style="font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:13px;line-height:1.5;max-width:720px;margin:0 auto;">
+  <table width="100%" style="border-bottom:3px solid #9C7744;padding-bottom:12px;margin-bottom:16px;">
+    <tr>
+      <td style="vertical-align:top;">
+        <p style="margin:0;font-size:22px;font-weight:bold;">Excellent Tiling Services Pty Ltd</p>
+        <p style="margin:2px 0 0;">ABN 63 150 082 054</p>
+        <p style="margin:0;">17A Olga Road, Maddington WA 6109</p>
+        <p style="margin:0;">0450 960 543 · contactus@excellenttilingservice.com.au</p>
+      </td>
+      <td style="vertical-align:top;text-align:right;">
+        <p style="margin:0;font-size:22px;font-weight:bold;">Tax invoice</p>
+        <p style="margin:2px 0 0;">Invoice {{ order.name }}</p>
+        <p style="margin:0;">Date: {{ order.created_at | date: "%-d %B %Y" }}</p>
+        <p style="margin:0;">Status: {% if order.financial_status == 'paid' %}Paid{% else %}{{ order.financial_status | capitalize }}{% endif %}</p>
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" style="margin-bottom:16px;">
+    <tr>
+      <td style="vertical-align:top;width:50%;">
+        <p style="margin:0 0 4px;font-weight:bold;color:#9C7744;">Bill to</p>
+        {% if order.billing_address %}
+          <p style="margin:0;">
+            {{ order.billing_address.name }}<br>
+            {% if order.billing_address.company != blank %}{{ order.billing_address.company }}<br>{% endif %}
+            {{ order.billing_address.address1 }}{% if order.billing_address.address2 != blank %}, {{ order.billing_address.address2 }}{% endif %}<br>
+            {{ order.billing_address.city }} {{ order.billing_address.province_code }} {{ order.billing_address.zip }}
+          </p>
+        {% endif %}
+        {% if order.email != blank %}<p style="margin:4px 0 0;">{{ order.email }}</p>{% endif %}
+      </td>
+      <td style="vertical-align:top;width:50%;">
+        {% if order.shipping_address %}
+          <p style="margin:0 0 4px;font-weight:bold;color:#9C7744;">Deliver to</p>
+          <p style="margin:0;">
+            {{ order.shipping_address.name }}<br>
+            {{ order.shipping_address.address1 }}{% if order.shipping_address.address2 != blank %}, {{ order.shipping_address.address2 }}{% endif %}<br>
+            {{ order.shipping_address.city }} {{ order.shipping_address.province_code }} {{ order.shipping_address.zip }}
+          </p>
+        {% endif %}
+      </td>
+    </tr>
+  </table>
+
+  <table width="100%" cellpadding="6" cellspacing="0" style="border-collapse:collapse;">
+    <tr style="background:#F6F4EF;text-align:left;">
+      <th style="border-bottom:1px solid #C9BFA9;">Description</th>
+      <th style="border-bottom:1px solid #C9BFA9;">SKU</th>
+      <th style="border-bottom:1px solid #C9BFA9;text-align:right;">Qty</th>
+      <th style="border-bottom:1px solid #C9BFA9;text-align:right;">Unit price</th>
+      <th style="border-bottom:1px solid #C9BFA9;text-align:right;">Amount</th>
+    </tr>
+    {% for line_item in order.line_items %}
+      <tr>
+        <td style="border-bottom:1px solid #EFE6D6;">
+          {{ line_item.title }}
+          {% if line_item.variant_title != blank %}<br><span style="color:#5B6372;">{{ line_item.variant_title }}</span>{% endif %}
+        </td>
+        <td style="border-bottom:1px solid #EFE6D6;">{{ line_item.sku }}</td>
+        <td style="border-bottom:1px solid #EFE6D6;text-align:right;">{{ line_item.quantity }}</td>
+        <td style="border-bottom:1px solid #EFE6D6;text-align:right;">{{ line_item.final_price | money }}</td>
+        <td style="border-bottom:1px solid #EFE6D6;text-align:right;">{{ line_item.final_line_price | money }}</td>
+      </tr>
+    {% endfor %}
+  </table>
+
+  <table width="100%" cellpadding="4" cellspacing="0" style="margin-top:12px;">
+    <tr><td style="text-align:right;width:75%;">Subtotal</td><td style="text-align:right;">{{ order.subtotal_price | money }}</td></tr>
+    {% if order.total_discounts > 0 %}<tr><td style="text-align:right;">Discounts</td><td style="text-align:right;">-{{ order.total_discounts | money }}</td></tr>{% endif %}
+    <tr><td style="text-align:right;">Shipping</td><td style="text-align:right;">{{ order.shipping_price | money }}</td></tr>
+    <tr><td style="text-align:right;font-weight:bold;border-top:2px solid #15213A;">Total (inc. GST)</td><td style="text-align:right;font-weight:bold;border-top:2px solid #15213A;">{{ order.total_price | money }}</td></tr>
+    <tr><td style="text-align:right;color:#5B6372;">GST included in total</td><td style="text-align:right;color:#5B6372;">{{ order.tax_price | money }}</td></tr>
+  </table>
+
+  <div style="margin-top:24px;padding:12px 14px;background:#F6F4EF;border-left:4px solid #9C7744;">
+    <p style="margin:0;">Thanks for shopping with Excellent Tiling Services. Returns and warranty: see our refund policy at excellenttilingservice.com.au/policies/refund-policy. Your rights under the Australian Consumer Law are not affected.</p>
+  </div>
+</div>

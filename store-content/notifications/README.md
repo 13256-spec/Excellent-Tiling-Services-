@@ -1,4 +1,4 @@
-# Branded checkout and customer emails (5 Oct 2026)
+# Branded checkout, customer emails, packing slip and tax invoice (updated 8 Oct 2026)
 
 Brand values, taken from the live theme (`theme/assets/ets-2026.css`):
 
@@ -41,72 +41,55 @@ Settings → Notifications → Customer notifications → **Customize email temp
 
 Save. Every customer email now carries the logo and navy buttons.
 
-## 3. Personal wording in the main emails (copy and paste)
+## 3. Personal wording in every customer email (copy and paste)
 
-For each email below: Settings → Notifications → Customer notifications → open the email →
-**Edit code**. Find the line `<p>{{ email_body }}</p>` near the top and paste the block on the
-line **directly after it**. Click **Preview**, then **Save**. Leave everything else as Shopify's
-default so order details, discounts, pickup and tracking still work.
-
+The blocks are in `emails/` (built by `build_blocks.py`; edit wording there and re-run it).
+For each one: Settings → Notifications → Customer notifications → open the email → **Edit code**.
+Find `{{ email_body }}` near the top and paste the block on the line **directly after it**
+(if an email has no `{{ email_body }}`, paste it after the heading). Click **Preview**, then **Save**.
+Everything else stays Shopify's default, so order details, buttons, pickup and tracking keep working.
 To undo, open the email and click **Revert to default**.
 
-### Order confirmation
+| Shopify email | File |
+| --- | --- |
+| Order confirmation | `emails/order-confirmation.liquid` |
+| Order invoice (quotes / draft orders) | `emails/order-invoice.liquid` |
+| Order edited | `emails/order-edited.liquid` |
+| Order cancelled | `emails/order-cancelled.liquid` |
+| Refund notification | `emails/refund-notification.liquid` |
+| Shipping confirmation | `emails/shipping-confirmation.liquid` |
+| Shipping update | `emails/shipping-update.liquid` |
+| Out for delivery | `emails/out-for-delivery.liquid` |
+| Delivered | `emails/delivered.liquid` |
+| Ready for local pickup | `emails/ready-for-local-pickup.liquid` |
+| Picked up by customer | `emails/picked-up-by-customer.liquid` |
+| Local delivery: out for delivery | `emails/local-delivery-out-for-delivery.liquid` |
+| Local delivery: delivered | `emails/local-delivery-delivered.liquid` |
+| Local delivery: missed | `emails/local-delivery-missed.liquid` |
+| Abandoned checkout | `emails/abandoned-checkout.liquid` |
+| Customer account invite | `emails/customer-account-invite.liquid` |
+| Customer account welcome | `emails/customer-account-welcome.liquid` |
 
-```liquid
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0;background:#F6F4EF;border-left:4px solid #9C7744;border-radius:8px;">
-  <tr><td style="padding:18px 20px;font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:15px;line-height:1.55;">
-    <p style="margin:0 0 10px;font-size:17px;font-weight:bold;">Thanks for choosing Excellent Tiling Services{% if customer.first_name %}, {{ customer.first_name }}{% endif %}.</p>
-    <p style="margin:0 0 10px;">We're a local tile and bathroom supplier in Maddington, Perth, and a real person is now checking your order {{ order_name }}.</p>
-    <p style="margin:0 0 6px;font-weight:bold;">What happens next</p>
-    {% if delivery_method == 'pick-up' %}
-    <p style="margin:0 0 10px;">We'll email you as soon as your order is ready to collect. Pickup is from 17A Olga Road, Maddington WA 6109, <strong>by appointment</strong>, Monday to Saturday 4:30 pm to 9 pm. Please bring your order number.</p>
-    {% elsif delivery_method == 'local' %}
-    <p style="margin:0 0 10px;">We'll call or text you to arrange a delivery time in Perth. Please make sure someone can receive large items, and tell us about any stairs or tight access.</p>
-    {% else %}
-    <p style="margin:0 0 10px;">Some items come straight from our suppliers, so dispatch times can vary. When your parcel is on its way, you'll get a tracking link by email.</p>
-    {% endif %}
-    <p style="margin:0;">Questions? Call or text <a href="tel:0450960543" style="color:#9C7744;font-weight:bold;">0450 960 543</a> or reply to this email.</p>
-  </td></tr>
-</table>
-```
+Wording follows the owner's rules (8 Oct 2026): no shipping prices or carrier names, no "Perth only"
+for products, installation and free measure and quote are Perth services, showroom by appointment
+Mon–Sat 4:30–9 pm, trade 5–25% off depending on the item.
 
-### Shipping confirmation
+## 3a. Packing slip
 
-```liquid
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0;background:#F6F4EF;border-left:4px solid #9C7744;border-radius:8px;">
-  <tr><td style="padding:18px 20px;font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:15px;line-height:1.55;">
-    <p style="margin:0 0 10px;font-size:17px;font-weight:bold;">Good news{% if customer.first_name %}, {{ customer.first_name }}{% endif %}: your order is on its way.</p>
-    <p style="margin:0 0 10px;">We packed it by hand in Maddington. Use the tracking button below to follow it with Australia Post.</p>
-    <p style="margin:0 0 10px;"><strong>When it arrives:</strong> check the box and contents before you install anything. If something is damaged, missing or wrong, send us your order number and a few photos of the product and packaging, and we'll sort it out.</p>
-    <p style="margin:0;">Call or text <a href="tel:0450960543" style="color:#9C7744;font-weight:bold;">0450 960 543</a> or reply to this email.</p>
-  </td></tr>
-</table>
-```
+Settings → Shipping and delivery → **Packing slips** → Edit → replace the whole template with
+`packing-slip.liquid` → **Preview** → Save. It adds the ETS header and ABN, a "packed" tick column,
+part-shipment note, delivery instructions and the returns summary.
 
-### Ready for local pickup
+## 3b. Tax invoice (printable / PDF)
 
-```liquid
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0;background:#F6F4EF;border-left:4px solid #9C7744;border-radius:8px;">
-  <tr><td style="padding:18px 20px;font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:15px;line-height:1.55;">
-    <p style="margin:0 0 10px;font-size:17px;font-weight:bold;">Your order is ready to collect{% if customer.first_name %}, {{ customer.first_name }}{% endif %}.</p>
-    <p style="margin:0 0 10px;"><strong>Where:</strong> 17A Olga Road, Maddington WA 6109<br><strong>When:</strong> by appointment, Monday to Saturday 4:30 pm to 9 pm</p>
-    <p style="margin:0 0 10px;">Text <a href="sms:0450960543" style="color:#9C7744;font-weight:bold;">0450 960 543</a> with your order number and a time that suits you. For tiles or large items, bring a vehicle with enough room. We'll help you load.</p>
-    <p style="margin:0;"><a href="https://excellenttilingservice.com.au/pages/book-appointment" style="display:inline-block;background:#15213A;color:#ffffff;text-decoration:none;padding:10px 18px;border-radius:6px;font-weight:bold;">Book a pickup time</a></p>
-  </td></tr>
-</table>
-```
+Shopify Basic has no built-in tax invoice. Install the free **Shopify Order Printer** app, then
+Templates → Create template → "Tax invoice" → paste `tax-invoice-order-printer.liquid` → Preview → Save.
+It shows "Tax invoice", the ABN, items, GST included and the total, as the ATO requires. Print or
+email it from any order (More actions → Print with Order Printer).
 
-### Local delivery: out for delivery
+## 3c. Email marketing
 
-```liquid
-<table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="margin:20px 0;background:#F6F4EF;border-left:4px solid #9C7744;border-radius:8px;">
-  <tr><td style="padding:18px 20px;font-family:-apple-system,'Segoe UI',Arial,sans-serif;color:#15213A;font-size:15px;line-height:1.55;">
-    <p style="margin:0 0 10px;font-size:17px;font-weight:bold;">We're on our way{% if customer.first_name %}, {{ customer.first_name }}{% endif %}.</p>
-    <p style="margin:0 0 10px;">Your order is out for delivery today with the Excellent Tiling Services team. Please keep your phone handy and the driveway clear. Check items before signing, and write any damage on the paperwork.</p>
-    <p style="margin:0;">Running late or need to change something? Call <a href="tel:0450960543" style="color:#9C7744;font-weight:bold;">0450 960 543</a>.</p>
-  </td></tr>
-</table>
-```
+Automations and campaigns (Shopify Email): `marketing/email/shopify-email-campaigns.md`.
 
 ## 4. Sender details
 
