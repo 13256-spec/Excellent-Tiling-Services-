@@ -1,0 +1,29 @@
+{%- liquid
+  assign band = 'small'
+  assign tile_types = settings.ets_trade_tile_types | default: 'Tile' | split: ','
+  assign large_types = settings.ets_trade_large_types | split: ','
+  for t in tile_types
+    assign tt = t | strip
+    if tt == product.type
+      assign band = 'tiles'
+    endif
+  endfor
+  if band == 'small'
+    for t in large_types
+      assign tt = t | strip
+      if tt == product.type
+        assign band = 'large'
+      endif
+    endfor
+  endif
+-%}
+<p class="ets-buy-delivery">
+  {%- case band -%}
+    {%- when 'tiles' -%}
+      Perth metro delivery or free pickup from Maddington. Tiles are not posted.
+    {%- when 'large' -%}
+      Local delivery or free Maddington pickup. Outside Perth? <a href="/pages/contact">Ask for a freight quote.</a>
+    {%- else -%}
+      Australia Post from $9.95 by parcel weight. Rates appear at checkout.
+  {%- endcase -%}
+</p>

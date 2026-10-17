@@ -69,7 +69,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Do you offer free shipping?",
-            "answer": "<p>Yes, on orders of $1,000 or more within Australia. Under that, small items like tapware, shower heads and sets, towel rails and accessories ship anywhere in Australia by tracked Australia Post from $20, depending on weight. Basins, mirrors and sinks ship as tracked parcels from $25. Toilets, baths, vanities, shower screens and tiles are Perth metro delivery or pickup only; outside Perth, contact us for a freight quote.</p>"
+            "answer": "<p>No. Shipping is worked out by weight at checkout, and free pickup from our Maddington showroom is available. Small items like tapware, shower heads and sets, towel rails and accessories post anywhere in Australia by tracked Australia Post, priced by parcel weight: up to 250 g $9.95, 500 g $11.95, 1 kg $15, 3 kg $20, 5 kg $24.95, heavier parcels by weight. Basins, mirrors and sinks go the same way. Toilets, baths, vanities, shower screens and tiles are Perth metro delivery or pickup only; outside Perth, contact us for a freight quote.</p>"
           }
         },
         "q_6": {
@@ -83,7 +83,7 @@
           "type": "faq_item",
           "settings": {
             "question": "Do you deliver tiles outside Perth?",
-            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Small bathroom items like tapware and accessories ship Australia-wide from $20, free on orders over $1,000.</p>"
+            "answer": "<p>Tiles are delivered within the Perth metro area only, or you can pick them up from our Maddington showroom. Small bathroom items like tapware and accessories post Australia-wide from $9.95.</p>"
           }
         },
         "tab_3": {

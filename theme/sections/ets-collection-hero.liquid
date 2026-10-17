@@ -35,7 +35,7 @@
       <div>
         <h1 class="ets-display" id="EtsColl-{{ section.id }}">{{ collection.title | escape }}</h1>
         {%- if collection.description != blank -%}
-          <div class="ets-lede ets-coll-lede">{{ collection.description | strip_html | truncatewords: 45 }}</div>
+          <div class="ets-lede ets-coll-lede">{{ collection.description | strip_html | replace: ', free on orders over $1,000', '' | replace: ', free on orders over $100', '' | replace: ', free on orders over $150', '' | truncatewords: 45 }}</div>
         {%- endif -%}
         <p class="ets-small" style="margin:16px 0 0">
           {{ collection.products_count }} {{ collection.products_count | pluralize: 'product', 'products' }}
