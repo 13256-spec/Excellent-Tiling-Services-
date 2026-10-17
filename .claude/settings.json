@@ -3,6 +3,7 @@
     "allow": [
       "mcp__Shopify__graphql_query",
       "mcp__Shopify__graphql_schema",
+      "mcp__Shopify__graphql_mutation",
       "mcp__Shopify__search_docs_chunks",
       "mcp__Shopify__search_products",
       "mcp__Shopify__search_collections",
@@ -10,9 +11,32 @@
       "mcp__Shopify__get-collection",
       "mcp__Shopify__get-shop-info",
       "mcp__Shopify__get-inventory-levels",
+      "mcp__Shopify__bulk-update-product-status",
+      "mcp__Shopify__update-product",
+      "mcp__Shopify__create-product",
+      "mcp__Shopify__update-collection",
+      "mcp__Shopify__create-collection",
+      "mcp__Shopify__add-to-collection",
+      "mcp__Shopify__set-inventory",
+      "mcp__Shopify__create-discount",
+      "mcp__Shopify__run-analytics-query",
+      "mcp__Shopify__list-orders",
+      "mcp__Shopify__get-order",
+      "mcp__Shopify__list-customers",
       "mcp__github__pull_request_read",
       "mcp__github__list_pull_requests",
-      "mcp__github__get_file_contents"
+      "mcp__github__get_file_contents",
+      "mcp__github__create_pull_request",
+      "mcp__github__update_pull_request",
+      "mcp__claude-code-remote__subscribe_pr_activity",
+      "mcp__claude-code-remote__send_later",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git push *)",
+      "Bash(git fetch *)",
+      "Bash(git pull *)",
+      "Bash(git checkout *)",
+      "Bash(mkdir *)"
     ]
   }
 }
