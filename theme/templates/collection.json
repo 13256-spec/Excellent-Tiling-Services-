@@ -133,7 +133,9 @@
         "padding-inline-end": 0,
         "background_color": "#FFFFFF",
         "padding-block-start": 16,
-        "padding-block-end": 64
+        "padding-block-end": 64,
+        "enable_infinite_scroll": false,
+        "products_per_page": 20
       }
     },
     "selling_points": {
@@ -143,7 +145,7 @@
           "type": "item",
           "settings": {
             "icon": "truck",
-            "text": "Australia-wide shipping · Free on orders over $1,000",
+            "text": "Post from $9.95",
             "icon_color": "#9C7744",
             "text_color": "#15213A"
           }

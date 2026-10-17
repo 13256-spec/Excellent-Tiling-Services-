@@ -7,7 +7,7 @@ store isn't pinned to Perth.
 
 Each description keeps the product facts from seo/product-seo.json and ends with how that
 product type is delivered, per the shipping policy (store-content/policies/shipping-policy.html):
-small items ship Australia-wide (free over $100), bulky parcels go by Australia Post, and
+small items ship Australia-wide, bulky parcels go by Australia Post, and
 large items are delivered in Perth with freight quoted elsewhere.
 
 Usage: keyword_product_titles.py products.tsv product-seo.json out.json
@@ -70,8 +70,7 @@ OVERRIDES = {
 }
 
 # Delivery wording per shipping-policy class, longest first; the first that fits is used.
-SMALL = [" Free shipping Australia-wide on orders over $100.", " Free shipping over $100, Australia-wide.",
-         " Ships Australia-wide."]
+SMALL = [" Shipped Australia-wide by Australia Post.", " Ships Australia-wide."]
 PARCEL = [" Shipped Australia-wide by Australia Post.", " Shipped Australia-wide."]
 LARGE = [" Delivered in Perth, freight quoted Australia-wide.", " Freight quoted Australia-wide."]
 NEUTRAL = [" Buy online from Excellent Tiling Services.", " Buy online at ETS."]

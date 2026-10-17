@@ -48,12 +48,12 @@
    "headline": "No trailer? We'll bring the tiles.",
    "sub": "Perth metro delivery for tiles and vanities, or free pickup in Maddington, Mon–Sat 4:30–9 pm by appointment.",
    "caption": "No trailer? We'll bring the tiles.\nTwenty boxes of porcelain won't fit in a hatchback. Choose delivery at checkout and you'll see the cost before you pay.\nGot a ute? Pick up free from 17A Olga Road, Maddington. We email when it's ready, then you book an evening slot, Mon–Sat 4:30–9 pm.\nFloor shown: Morgan Dusk, from $37.40/m².\nPlan your order via the link in bio.\n\n#perthrenovation #perthbathrooms #perthhomes #maddington #bathroomrenovation #perthtiler #excellenttilingservices",
-   "verdict": "FIX: old copy said \"free shipping on tapware and accessories over $100 anywhere in WA\" (wrong since the $1,000 rule). Rewritten around the real problem (getting heavy tiles home).",
+   "verdict": "FIX: old copy said \"free shipping on tapware and accessories over $100 anywhere in WA\" (no longer offered). Rewritten around the real problem (getting heavy tiles home).",
    "facts": [
     "Price: 300x300mm / Matt $42.50, 300x600mm / Matt $37.40, 600x600mm / Matt $37.40 (live /products/morgan-dusk-porcelain-tile.json, 5 Oct)",
     "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)",
     "Pickup: choose pickup at checkout, wait for the ready email, book a time Mon to Sat 4:30 to 9 pm, bring order number; tell us if you need loading help (live /pages/delivery-pickup and /policies/shipping-policy)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -154,15 +154,15 @@
    "pre": "",
    "headline": "New tapware, same bathroom: $480.",
    "sub": "FLOVA basin mixer, hand shower, 600 towel rail and paper holder, all in matching chrome.",
-   "caption": "Not ready for a full reno? Change the metal, not the tiles.\nFLOVA basin mixer $189, hand shower set (no rail) $151, 600 towel rail $94, paper holder $46. That's $480 in matching chrome.\nThe mixer and hand shower need a licensed plumber; the rail and holder are an easy weekend job.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nShop the FLOVA range via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old copy said the $480 set \"ships free anywhere in WA\" (wrong: under $1,000 it pays postage by weight). Removed the \"no tradie needed\" line.",
+   "caption": "Not ready for a full reno? Change the metal, not the tiles.\nFLOVA basin mixer $189, hand shower set (no rail) $151, 600 towel rail $94, paper holder $46. That's $480 in matching chrome.\nThe mixer and hand shower need a licensed plumber; the rail and holder are an easy weekend job.\nShips Australia-wide from $20 by weight.\nShop the FLOVA range via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old copy said the $480 set \"ships free anywhere in WA\" (wrong: it pays postage by weight). Removed the \"no tradie needed\" line.",
    "facts": [
     "Price: Chrome $189, Matt Black $217, Brushed Nickel $246 (live /products/mela-flova-basin-mixer.json, 5 Oct)",
     "Price: Chrome $151, Matt Black $198, Brushed Nickel $227 (live /products/mela-flova-hand-shower-set-without-rail.json, 5 Oct)",
     "Price: Chrome $94, Matt Black $122, Brushed Nickel $132 (live /products/mela-flova-600-single-towel-rail.json, 5 Oct)",
     "Price: Chrome $46, Matt Black $56, Brushed Nickel $65 (live /products/mela-flova-paper-holder.json, 5 Oct)",
     "Sum: 189 + 151 + 94 + 46 = $480 (all chrome, live)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -193,11 +193,11 @@
    "pre": "",
    "headline": "Unboxing the $189 FLOVA mixer",
    "sub": "What's in the box, and how it looks out of it.",
-   "caption": "What does a $189 basin mixer look like out of the box?\nUnboxing the MELA FLOVA in chrome: 5-star WELS, 6 L/min, 35 mm cartridge.\nAlso in matt black ($217) and brushed nickel ($246).\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nShop it via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "caption": "What does a $189 basin mixer look like out of the box?\nUnboxing the MELA FLOVA in chrome: 5-star WELS, 6 L/min, 35 mm cartridge.\nAlso in matt black ($217) and brushed nickel ($246).\nShips Australia-wide from $20 by weight.\nShop it via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
    "verdict": "NEW caption for the hand-posted Reel (cover text = headline/sub). PASS once the video shows the chrome FLOVA basin mixer.",
    "facts": [
     "Price: Chrome $189, Matt Black $217, Brushed Nickel $246 (live /products/mela-flova-basin-mixer.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -229,12 +229,12 @@
    "pre": "",
    "headline": "",
    "sub": "",
-   "caption": "Tired bathroom? Start with the mirror.\nA new mirror changes the whole wall, and it's the easiest thing to swap. The MELA MIA 450 frameless oval is $189.\nWant it lit? The MIA 450 LED is backlit, dimmable and anti-fog, $379.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nShop mirrors via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "caption": "Tired bathroom? Start with the mirror.\nA new mirror changes the whole wall, and it's the easiest thing to swap. The MELA MIA 450 frameless oval is $189.\nWant it lit? The MIA 450 LED is backlit, dimmable and anti-fog, $379.\nShips Australia-wide as a tracked parcel from $25.\nShop mirrors via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
    "verdict": "FIX: replaces the old 18 Oct \"sick of call for price\" post (kill list). Mirror shipping stated correctly (tracked parcel, priced by weight).",
    "facts": [
     "Price: Default $189 (live /products/mela-mia-450-frameless-oval-mirror.json, 5 Oct)",
     "Price: Default $379 (live /products/mela-mia-450-led-oval-mirror.json, 5 Oct)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -334,11 +334,11 @@
    "pre": "from",
    "headline": "",
    "sub": "",
-   "caption": "Where does all the stuff on your vanity go? Behind the mirror.\nThe MELA PORTER mirror cabinet hides toothbrushes, meds and makeup behind mirrored doors.\nFour widths (600, 750, 900, 1200 mm) and four finishes: snafell, sorrento oak, walnut, gloss white. From $284.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nShop it via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "caption": "Where does all the stuff on your vanity go? Behind the mirror.\nThe MELA PORTER mirror cabinet hides toothbrushes, meds and makeup behind mirrored doors.\nFour widths (600, 750, 900, 1200 mm) and four finishes: snafell, sorrento oak, walnut, gloss white. From $284.\nShips Australia-wide as a tracked parcel from $25.\nShop it via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
    "verdict": "NEW angle (old 24 Oct was a list of SURI mirror prices). Storage benefit, prices checked.",
    "facts": [
     "Price: 600mm / Snafell $284, 600mm / Sorrento Oak $284, 600mm / Walnut $284, 600mm / Gloss White $284, 750mm / Snafell $331, 750mm / Sorrento Oak $331, 750mm / Walnut $331, 750mm / Gloss White $331, 900mm / Snafell $379, 900mm / Sorrento Oak $379, 900mm / Walnut $379, 900mm / Gloss White $379, 1200mm / Snafell $455, 1200mm / Sorrento Oak $455, 1200mm / Walnut $455, 1200mm / Gloss White $455 (live /products/mela-porter-mirror-cabinet.json, 5 Oct)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -402,14 +402,14 @@
    "pre": "",
    "headline": "Two sinks, two cabinets, no morning queue.",
    "sub": "MIA 450 oval mirror cabinet: 450 x 900 mm, shelves behind the mirror. $474 each.",
-   "caption": "Sharing a bathroom? Give everyone their own side.\nTwo MIA 450 oval mirror cabinets over a double vanity: adjustable shelves behind each mirror, and a mirror inside too.\n450 mm wide x 900 mm high, light grey, $474 each. Our double vanities run 1500 to 1800 mm, from $1,781.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nShop it via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "caption": "Sharing a bathroom? Give everyone their own side.\nTwo MIA 450 oval mirror cabinets over a double vanity: adjustable shelves behind each mirror, and a mirror inside too.\n450 mm wide x 900 mm high, light grey, $474 each. Our double vanities run 1500 to 1800 mm, from $1,781.\nShips Australia-wide as a tracked parcel from $25.\nShop it via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
    "verdict": "NEW angle (old 28 Oct was the FLOVA set again with wrong free WA shipping).",
    "facts": [
     "Price: Default $474 (live /products/mela-mia-450-oval-mirror-cabinet.json, 5 Oct)",
     "Price: Gloss White $1,781, Snafell $1,781, Walnut $1,781, Sorrento Oak $1,781 (live /products/mela-clark-1500-double-wall-hung-vanity-with-doors.json, 5 Oct)",
     "Specs: 450 W x 900 H mm, light grey, adjustable shelving and internal mirror (live)",
     "Double vanities: 8 live, 1500 to 1800 mm, lowest $1,781 (CLARK 1500 with doors)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -456,12 +456,12 @@
    "pre": "from",
    "headline": "",
    "sub": "",
-   "caption": "6 am, steamy bathroom, can't see a thing? Fix the mirror.\nMELA VERA LED oval: perimeter lighting, touch dimmer and an anti-fog demister.\n900 x 600 mm ($569) or 1200 x 750 mm ($664). Plug-in, or hardwired by a licensed electrician.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nShop it via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "caption": "6 am, steamy bathroom, can't see a thing? Fix the mirror.\nMELA VERA LED oval: perimeter lighting, touch dimmer and an anti-fog demister.\n900 x 600 mm ($569) or 1200 x 750 mm ($664). Plug-in, or hardwired by a licensed electrician.\nShips Australia-wide as a tracked parcel from $25.\nShop it via the link in bio.\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
    "verdict": "NEW angle (old 31 Oct repeated Time Stone Moon). Specs and both sizes checked.",
    "facts": [
     "Price: 900mm $569, 1200mm $664 (live /products/mela-vera-led-oval-mirror.json, 5 Oct)",
     "Specs: perimeter lighting, touch dimmer, anti-fog demister, IP44, SAA approved, plug-in or hardwired (licensed electrician) (live)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -546,12 +546,12 @@
    "pre": "from",
    "headline": "",
    "sub": "",
-   "caption": "Not in Perth? Our tapware still ships to you.\nMixers, shower sets, towel rails and accessories go Australia-wide by tracked post from $20, depending on weight. Orders of $1,000+ ship free.\nShown: MELA FLOVA tall basin mixer for above-counter basins, 6-star WELS, from $284 in chrome.\nTiles and vanities stay Perth metro delivery or Maddington pickup.\nShop tapware via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "caption": "Not in Perth? Our tapware still ships to you.\nMixers, shower sets, towel rails and accessories go Australia-wide by tracked post from $20, depending on weight.\nShown: MELA FLOVA tall basin mixer for above-counter basins, 6-star WELS, from $284 in chrome.\nTiles and vanities stay Perth metro delivery or Maddington pickup.\nShop tapware via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
    "verdict": "FIX: old 5 Nov said \"ship free anywhere in WA once your order hits $100, under that $20 flat\". Both wrong now.",
    "facts": [
     "Price: Chrome $284, Matt Black $303, Brushed Nickel $331 (live /products/mela-flova-tall-basin-mixer.json, 5 Oct)",
     "Specs: WELS 6 Star, 4.5 L/min, 35 mm cartridge (live)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)",
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)",
     "Delivery: tiles, vanities, baths are Perth metro delivery (cost at checkout) or free pickup at 17A Olga Rd Maddington; tiles not shipped outside Perth (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
@@ -565,14 +565,14 @@
    "pre": "from",
    "headline": "",
    "sub": "",
-   "caption": "Brushed brass that goes easy on water.\nThe MELA BRUNO basin mixer is 6-star WELS at 5 L/min.\nBrushed nickel $246, gun metal $274, brushed brass $303, brushed copper $341. Match it with a BRUNO towel rail (from $132) and paper holder (from $65).\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nShop BRUNO via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "caption": "Brushed brass that goes easy on water.\nThe MELA BRUNO basin mixer is 6-star WELS at 5 L/min.\nBrushed nickel $246, gun metal $274, brushed brass $303, brushed copper $341. Match it with a BRUNO towel rail (from $132) and paper holder (from $65).\nShips Australia-wide from $20 by weight.\nShop BRUNO via the link in bio.\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
    "verdict": "NEW angle (old 6 Nov repeated the pickup post). Note: the graphic shows brushed brass, so the \"from $246\" is brushed nickel; caption lists each finish.",
    "facts": [
     "Price: Brushed Nickel $246, Gun Metal $274, Brushed Brass $303, Brushed Copper $341 (live /products/mela-bruno-basin-mixer.json, 5 Oct)",
     "Price: Brushed Nickel $132, Gun Metal $160, Brushed Brass $160, Brushed Copper $170 (live /products/mela-bruno-600-single-towel-rail.json, 5 Oct)",
     "Price: Brushed Nickel $65, Gun Metal $75, Brushed Brass $75, Brushed Copper $84 (live /products/mela-bruno-paper-holder.json, 5 Oct)",
     "Specs: WELS 6 Star, 5 L/min, 35 mm cartridge (live)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -625,10 +625,10 @@
    "price": "$189",
    "pre": "from",
    "caption": "A new basin mixer for $189. The bathroom looks years younger.\nMELA FLOVA: 5-star WELS, 6 L/min, 35 mm cartridge.\nChrome $189, matt black $217, brushed nickel $246.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $189, Matt Black $217, Brushed Nickel $246 (live /products/mela-flova-basin-mixer.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -665,10 +665,10 @@
    "price": "$132",
    "pre": "from",
    "caption": "Brushed tapware? Your towel rail should match.\nMELA BRUNO 600 single towel rail in brushed nickel, gun metal, brushed brass or brushed copper.\nFrom $132 in brushed nickel.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-bruno-600-single-towel-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Brushed Nickel $132, Gun Metal $160, Brushed Brass $160, Brushed Copper $170 (live /products/mela-bruno-600-single-towel-rail.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -703,10 +703,10 @@
    "price": "$412",
    "pre": "from",
    "caption": "Overhead shower and hand shower, one set.\nMELA PALCO / RONDO combination set with rail: brass, 3-star WELS at 9 L/min.\nSix finishes, from $412 in chrome.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-palco-rondo-combination-shower-set-with-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $412, Matt Black $450, Brushed Nickel $664, Gun Metal $759, Brushed Brass $759, Brushed Copper $806 (live /products/mela-palco-rondo-combination-shower-set-with-rail.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -725,7 +725,7 @@
    "verdict": "FIX: shipping line now says tracked parcel from $25 and the $1,000 free-shipping rule; hook rewritten.",
    "facts": [
     "Price: Default $379 (live /products/mela-mia-450-led-oval-mirror.json, 5 Oct)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -741,10 +741,10 @@
    "price": "$141",
    "pre": "from",
    "caption": "Shower mixer looking tired? From $141.\nMELA RONDO wall mixer for shower or bath, 35 mm cartridge.\nChrome $141, matt black $189, brushed nickel $217, brushed brass $246.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/mela-rondo-wall-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $141, Matt Black $189, Brushed Nickel $217, Brushed Brass $246 (live /products/mela-rondo-wall-mixer.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -759,11 +759,11 @@
    "name": "FLOVA paper holder",
    "price": "$46",
    "pre": "from",
-   "caption": "The $46 detail that finishes a bathroom.\nMELA FLOVA paper holder in brass, finished in chrome, matt black or brushed nickel to match FLOVA tapware.\nFrom $46 in chrome.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-paper-holder\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "caption": "The $46 detail that finishes a bathroom.\nMELA FLOVA paper holder in brass, finished in chrome, matt black or brushed nickel to match FLOVA tapware.\nFrom $46 in chrome.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-paper-holder\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
    "verdict": "FIX: old caption said \"solid brass\" (site says brass) and \"free shipping in WA over $100\" (wrong).",
    "facts": [
     "Price: Chrome $46, Matt Black $56, Brushed Nickel $65 (live /products/mela-flova-paper-holder.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -778,7 +778,7 @@
    "price": "$49.95",
    "pre": "",
    "caption": "Chipping porcelain on every cut?\nBAT Pro Razor 125 mm mesh diamond blade: a thin 1.2 mm rim that helps reduce chipping. Wet or dry, straight cuts only.\nFor porcelain, ceramic, marble and granite. $49.95.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/bat-razor-mesh-diamond-blade\n\n#tilingtools #tiling #diytiling #perthtiler #diyrenovation #perthrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Default Title $49.95 (live /products/bat-razor-mesh-diamond-blade.json, 5 Oct)",
     "Delivery: tools are not named in any shipping category on the live Delivery page, so copy only promises free Maddington pickup and \"options at checkout\" (owner to confirm)"
@@ -816,11 +816,11 @@
    "name": "BRUNO basin mixer",
    "price": "$246",
    "pre": "from",
-   "caption": "Six stars for water, four warm finishes.\nMELA BRUNO basin mixer: 6-star WELS at 5 L/min.\nBrushed nickel $246, gun metal $274, brushed brass $303, brushed copper $341.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-bruno-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "caption": "Six stars for water, four warm finishes.\nMELA BRUNO basin mixer: 6-star WELS at 5 L/min.\nBrushed nickel $246, gun metal $274, brushed brass $303, brushed copper $341.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-bruno-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Brushed Nickel $246, Gun Metal $274, Brushed Brass $303, Brushed Copper $341 (live /products/mela-bruno-basin-mixer.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -854,11 +854,11 @@
    "name": "ARCH fluted basin",
    "price": "$299",
    "pre": "",
-   "caption": "A fluted basin does half the styling for you.\nMELA ARCH above-counter basin in white ceramic, 415 x 365 x 100 mm.\nPair it with a tall mixer or a wall mixer. $299.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-arch-above-counter-basin\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "caption": "A fluted basin does half the styling for you.\nMELA ARCH above-counter basin in white ceramic, 415 x 365 x 100 mm.\nPair it with a tall mixer or a wall mixer. $299.\nShips Australia-wide as a tracked parcel from $25.\nLink in bio, or excellenttilingservice.com.au/products/mela-arch-above-counter-basin\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
    "verdict": "FIX: shipping line now says tracked parcel from $25 and the $1,000 free-shipping rule; hook rewritten.",
    "facts": [
     "Price: Default $299 (live /products/mela-arch-above-counter-basin.json, 5 Oct)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -933,11 +933,11 @@
    "name": "FLOVA 800 double towel rail",
    "price": "$151",
    "pre": "from",
-   "caption": "Two towels, one rail.\nMELA FLOVA 800 double towel rail in chrome, matt black, brushed nickel, gun metal or brushed brass.\nFrom $151 in chrome.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-800-double-towel-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "caption": "Two towels, one rail.\nMELA FLOVA 800 double towel rail in chrome, matt black, brushed nickel, gun metal or brushed brass.\nFrom $151 in chrome.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-800-double-towel-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $151, Matt Black $179, Brushed Nickel $189, Gun Metal $229, Brushed Brass $229 (live /products/mela-flova-800-double-towel-rail.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -952,7 +952,7 @@
    "price": "$35.95",
    "pre": "from",
    "caption": "Lippage ruins a good tile job.\nPre-assembled 20 mm tile levelling spindles from Roberts Designs, for use with a levelling system.\n50 pack $35.95, 100 pack $62.05.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/pre-assembled-spindles\n\n#tilingtools #tiling #diytiling #perthtiler #diyrenovation #perthrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: 50 pack $35.95, 100 pack $62.05 (live /products/pre-assembled-spindles.json, 5 Oct)",
     "Delivery: tools are not named in any shipping category on the live Delivery page, so copy only promises free Maddington pickup and \"options at checkout\" (owner to confirm)"
@@ -989,11 +989,11 @@
    "name": "FLOVA hand shower set with rail",
    "price": "$246",
    "pre": "from",
-   "caption": "Slide it up for you, down for the kids.\nMELA FLOVA hand shower set with rail: 3-star WELS, 9 L/min.\nChrome $246, matt black $274, brushed nickel $303.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-hand-shower-set-with-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "caption": "Slide it up for you, down for the kids.\nMELA FLOVA hand shower set with rail: 3-star WELS, 9 L/min.\nChrome $246, matt black $274, brushed nickel $303.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-hand-shower-set-with-rail\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $246, Matt Black $274, Brushed Nickel $303 (live /products/mela-flova-hand-shower-set-with-rail.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -1028,11 +1028,11 @@
    "name": "VERA LED",
    "price": "$569",
    "pre": "from",
-   "caption": "Wide oval, built-in light, no fog.\nMELA VERA LED oval mirror: perimeter lighting, touch dimmer, anti-fog demister.\n900 mm $569, 1200 mm $664.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-vera-led-oval-mirror\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "caption": "Wide oval, built-in light, no fog.\nMELA VERA LED oval mirror: perimeter lighting, touch dimmer, anti-fog demister.\n900 mm $569, 1200 mm $664.\nShips Australia-wide as a tracked parcel from $25.\nLink in bio, or excellenttilingservice.com.au/products/mela-vera-led-oval-mirror\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
    "verdict": "FIX: shipping line now says tracked parcel from $25 and the $1,000 free-shipping rule; hook rewritten.",
    "facts": [
     "Price: 900mm $569, 1200mm $664 (live /products/mela-vera-led-oval-mirror.json, 5 Oct)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -1047,11 +1047,11 @@
    "name": "RONDO tall basin mixer",
    "price": "$284",
    "pre": "from",
-   "caption": "Above-counter basin? It needs a tall mixer.\nMELA RONDO tall basin mixer: 4-star WELS, 7.5 L/min.\nChrome $284, matt black $303, brushed nickel $331, brushed brass $360.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-rondo-tall-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "caption": "Above-counter basin? It needs a tall mixer.\nMELA RONDO tall basin mixer: 4-star WELS, 7.5 L/min.\nChrome $284, matt black $303, brushed nickel $331, brushed brass $360.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-rondo-tall-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $284, Matt Black $303, Brushed Nickel $331, Brushed Brass $360 (live /products/mela-rondo-tall-basin-mixer.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -1088,7 +1088,7 @@
    "price": "$30.55",
    "pre": "",
    "caption": "For the fiddly cuts around pipes and corners.\nPro Tile GT nipper with Maxigrip handle. Comes with a serrated tooth blade and a tungsten carbide grit blade.\n$30.55.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/pro-tile-gt-nipper\n\n#tilingtools #tiling #diytiling #perthtiler #diyrenovation #perthrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Default Title $30.55 (live /products/pro-tile-gt-nipper.json, 5 Oct)",
     "Delivery: tools are not named in any shipping category on the live Delivery page, so copy only promises free Maddington pickup and \"options at checkout\" (owner to confirm)"
@@ -1106,11 +1106,11 @@
    "name": "BRUNO paper holder",
    "price": "$65",
    "pre": "from",
-   "caption": "Finish the BRUNO look.\nMELA BRUNO paper holder to match your BRUNO mixer and towel rail.\nBrushed nickel $65, gun metal or brushed brass $75, brushed copper $84.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-bruno-paper-holder\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "caption": "Finish the BRUNO look.\nMELA BRUNO paper holder to match your BRUNO mixer and towel rail.\nBrushed nickel $65, gun metal or brushed brass $75, brushed copper $84.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-bruno-paper-holder\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Brushed Nickel $65, Gun Metal $75, Brushed Brass $75, Brushed Copper $84 (live /products/mela-bruno-paper-holder.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -1163,11 +1163,11 @@
    "name": "FLOVA shower head",
    "price": "$151",
    "pre": "from",
-   "caption": "New shower head, new shower.\nMELA FLOVA shower head: 3-star WELS, 9 L/min.\nChrome $151, matt black $198, brushed nickel $227.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-shower-head\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "caption": "New shower head, new shower.\nMELA FLOVA shower head: 3-star WELS, 9 L/min.\nChrome $151, matt black $198, brushed nickel $227.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-flova-shower-head\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $151, Matt Black $198, Brushed Nickel $227 (live /products/mela-flova-shower-head.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -1182,11 +1182,11 @@
    "name": "BAYLEE basin",
    "price": "$189",
    "pre": "from",
-   "caption": "Soft corners, three colours.\nMELA BAYLEE above-counter basin, 455 x 325 x 135 mm. Pair it with a tall mixer or wall tap.\nGloss white $189, matt black or matt white $337.\nShips Australia-wide as a tracked parcel from $25, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-baylee-above-counter-basin\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
+   "caption": "Soft corners, three colours.\nMELA BAYLEE above-counter basin, 455 x 325 x 135 mm. Pair it with a tall mixer or wall tap.\nGloss white $189, matt black or matt white $337.\nShips Australia-wide as a tracked parcel from $25.\nLink in bio, or excellenttilingservice.com.au/products/mela-baylee-above-counter-basin\n\n#bathroommirror #ledmirror #bathroomstorage #perthbathrooms #bathroominspo #bathroomrenovation #excellenttilingservices",
    "verdict": "FIX: shipping line now says tracked parcel from $25 and the $1,000 free-shipping rule; prices per colour added.",
    "facts": [
     "Price: White $189, Matt Black $337, Matt White $337 (live /products/mela-baylee-above-counter-basin.json, 5 Oct)",
-    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25; free on orders of $1,000+ (live /pages/delivery-pickup, 5 Oct)"
+    "Shipping: basins, mirrors and mirror cabinets go as tracked parcels from $25 (live /pages/delivery-pickup, 5 Oct)"
    ]
   },
   {
@@ -1221,11 +1221,11 @@
    "name": "PALCO medium basin mixer",
    "price": "$255",
    "pre": "from",
-   "caption": "Too tall, too short? The medium height sits in between.\nMELA PALCO medium basin mixer: 4-star WELS, 7.5 L/min, 35 mm cartridge.\nFive finishes, from $255 in chrome.\nShips Australia-wide from $20 by weight, free on orders of $1,000+.\nLink in bio, or excellenttilingservice.com.au/products/mela-palco-medium-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "caption": "Too tall, too short? The medium height sits in between.\nMELA PALCO medium basin mixer: 4-star WELS, 7.5 L/min, 35 mm cartridge.\nFive finishes, from $255 in chrome.\nShips Australia-wide from $20 by weight.\nLink in bio, or excellenttilingservice.com.au/products/mela-palco-medium-basin-mixer\n\n#bathroomtapware #basinmixer #bathroomrefresh #perthbathrooms #bathroomrenovation #australianrenovation #excellenttilingservices",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Chrome $255, Matt Black $284, Brushed Nickel $312, Gun Metal $341, Brushed Brass $369 (live /products/mela-palco-medium-basin-mixer.json, 5 Oct)",
-    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight; free on orders of $1,000+ (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
+    "Shipping: small items (tapware, shower sets, towel rails, holders) ship Australia-wide by tracked Australia Post from $20 by weight (live /pages/delivery-pickup and /pages/faqs, 5 Oct)"
    ]
   },
   {
@@ -1259,7 +1259,7 @@
    "price": "$24.25",
    "pre": "",
    "caption": "Grouting this weekend?\nPro Japanese-style grout float: timber handle, rubber float and a pointed end for corners.\n$24.25.\nFree pickup in Maddington, or see delivery options at checkout.\nLink in bio, or excellenttilingservice.com.au/products/pro-japanese-style-grout-float-timber-handle\n\n#tilingtools #tiling #diytiling #perthtiler #diyrenovation #perthrenovation #excellenttilingservices",
-   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (now: free only on $1,000+). Hook rewritten.",
+   "verdict": "FIX: old caption promised \"free shipping in WA on orders over $100\" (free shipping ended 17 Oct 2026). Hook rewritten.",
    "facts": [
     "Price: Default Title $24.25 (live /products/pro-japanese-style-grout-float-timber-handle.json, 5 Oct)",
     "Delivery: tools are not named in any shipping category on the live Delivery page, so copy only promises free Maddington pickup and \"options at checkout\" (owner to confirm)"
@@ -1318,7 +1318,7 @@
   {
    "date": "2026-10-14",
    "photo_product": "Lava Ash porcelain tile (living room shot)",
-   "headline": "Free shipping over $1,000",
+   "headline": "Posted Australia-wide from $9.95",
    "sub": "Tapware ships Australia-wide from $20. Tiles and vanities: Perth delivery or free pickup."
   },
   {
@@ -1354,7 +1354,7 @@
   {
    "date": "2026-10-20",
    "photo_product": "Lava Ash porcelain tile (living room shot)",
-   "headline": "Free shipping over $1,000",
+   "headline": "Posted Australia-wide from $9.95",
    "sub": "Tapware ships Australia-wide from $20. Tiles and vanities: Perth delivery or free pickup."
   },
   {
@@ -1390,7 +1390,7 @@
   {
    "date": "2026-10-26",
    "photo_product": "Lava Ash porcelain tile (living room shot)",
-   "headline": "Free shipping over $1,000",
+   "headline": "Posted Australia-wide from $9.95",
    "sub": "Tapware ships Australia-wide from $20. Tiles and vanities: Perth delivery or free pickup."
   },
   {
@@ -1426,7 +1426,7 @@
   {
    "date": "2026-11-01",
    "photo_product": "Lava Ash porcelain tile (living room shot)",
-   "headline": "Free shipping over $1,000",
+   "headline": "Posted Australia-wide from $9.95",
    "sub": "Tapware ships Australia-wide from $20. Tiles and vanities: Perth delivery or free pickup."
   },
   {
@@ -1462,7 +1462,7 @@
   {
    "date": "2026-11-07",
    "photo_product": "Lava Ash porcelain tile (living room shot)",
-   "headline": "Free shipping over $1,000",
+   "headline": "Posted Australia-wide from $9.95",
    "sub": "Tapware ships Australia-wide from $20. Tiles and vanities: Perth delivery or free pickup."
   },
   {

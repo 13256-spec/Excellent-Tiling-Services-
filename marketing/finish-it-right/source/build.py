@@ -34,13 +34,13 @@ posts={
 'A2-1-cover':
  img('brittany2.jpg','1/5','1/4')+
  f'<div class="t" {a("1/4","4/6")}><h1>Our online store is open</h1><p class="bot">Tiles, tapware and vanities from a Perth tiling business. Every price is online.</p></div>'+
- f'<div class="t navy" {a("4/5","4/5")}><h2 style="font-size:40px">Free<br>shipping</h2><p class="small bot">in WA on orders over $100</p></div>'+
+ f'<div class="t navy" {a("4/5","4/5")}><h2 style="font-size:40px">Free<br>pickup</h2><p class="small bot">in Maddington, or posted from $9.95</p></div>'+
  LOGO('4/5','5/6'),
 'A2-2-flova':
  img('flova.png','1/5','1/4','fit')+
  f'<div class="t navy" {a("1/3","4/6")}><div class="big">$189</div><p class="bot">MELA FLOVA basin mixer in chrome. WELS 5 star.</p></div>'+
  img('flova-black.png','3/5','4/5','fit zoom','Also in matt<br>black, $217','dark top')+
- f'<div class="t blue" {a("3/5","5/6")}><p>Free shipping anywhere in WA on tapware orders over $100</p></div>',
+ f'<div class="t blue" {a("3/5","5/6")}><p>Posted Australia-wide from $9.95, or pick up free in Maddington</p></div>',
 'A2-3-vanities':
  img('clark-walnut.webp','1/5','1/4')+
  f'<div class="t" {a("1/4","4/6")}><h2>Wall-hung vanities</h2><p class="bot">Delivered across Perth, or pick up free from our Maddington showroom. Shown: MELA CLARK 900 in walnut.</p></div>'+
@@ -60,7 +60,7 @@ posts={
 }
 posts.update({
 'B2-refresh':
- f'<div class="t navy" {a("1/5","1/3")}><h1 style="font-size:104px">Bathroom refresh for $480</h1><p class="bot">Four swaps, one matching chrome finish, delivered free anywhere in WA.</p></div>'+
+ f'<div class="t navy" {a("1/5","1/3")}><h1 style="font-size:104px">Bathroom refresh for $480</h1><p class="bot">Four swaps in one matching chrome finish. Posted from $9.95.</p></div>'+
  img('flova.png','1/3','3/5','fit','Basin mixer $189','dark')+
  img('handshower.jpg','3/4','3/5','fit','Hand shower $151','dark')+
  img('towelrail.png','4/5','3/4','fit','Towel rail $94','dark')+
@@ -70,7 +70,7 @@ posts.update({
  f'<div class="t" {a("1/5","1/3")}><h1 style="font-size:112px">Every price is on the website</h1></div>'+
  f'<div class="t navy" {a("1/3","3/5")}><h2>No “call for price”</h2><p class="bot">Tiles, tapware, vanities and tools, all priced online, all buyable tonight.</p></div>'+
  img('flova-black.png','3/5','3/4','fit zoom','FLOVA basin mixer, matt black, $217','dark top')+
- f'<div class="t blue" {a("3/5","4/5")}><p>Free WA shipping on tapware over $100. Perth delivery for tiles and vanities.</p></div>'+
+ f'<div class="t blue" {a("3/5","4/5")}><p>Tapware posted from $9.95. Perth delivery for tiles and vanities.</p></div>'+
  f'<div class="t" {a("1/4","5/6")}><p>excellenttilingservice.com.au</p></div>'+LOGO('4/5','5/6'),
 'A3-idea':
  img('brittany2.jpg','1/5','1/4')+
@@ -89,7 +89,7 @@ posts.update({
  f'<div class="t blue" {a("1/4","5/6")}><h2 style="font-size:52px">Apply on our website in two minutes</h2></div>'+LOGO('4/5','5/6'),
 'R-B1-unboxing':
  img('flova.png','1/5','1/5','fit')+
- f'<div class="t navy" {a("1/5","5/8")}><h1 style="font-size:120px">Unboxing the FLOVA basin mixer</h1><p class="bot" style="font-size:40px">$189 in chrome. Free WA shipping over $100.</p></div>',
+ f'<div class="t navy" {a("1/5","5/8")}><h1 style="font-size:120px">Unboxing the FLOVA basin mixer</h1><p class="bot" style="font-size:40px">$189 in chrome. Posted Australia-wide from $9.95.</p></div>',
 'R-C1-vanity':
  img('clark-walnut.webp','1/5','1/5')+
  f'<div class="t navy" {a("1/5","5/8")}><h1 style="font-size:120px">Wall-hung vanity, start to finish</h1><p class="bot" style="font-size:40px">30 seconds. One install. Delivered across Perth.</p></div>',
@@ -115,7 +115,7 @@ posts.update({
 posts.update({
 'A2-5-delivery':
  f'<div class="t deep" {a("1/5","1/3")}><h1 style="font-size:112px">Three ways to get it home</h1></div>'+
- f'<div class="t" {a("1/3","3/5")}><h2 style="font-size:58px">Free shipping</h2><p class="bot">Tapware and accessories over $100, anywhere in WA.</p></div>'+
+ f'<div class="t" {a("1/3","3/5")}><h2 style="font-size:58px">Posted from $9.95</h2><p class="bot">Tapware and accessories, tracked Australia Post, anywhere in Australia.</p></div>'+
  f'<div class="t" {a("3/5","3/5")}><h2 style="font-size:58px">Perth delivery</h2><p class="bot">Tiles, vanities and baths, priced at checkout.</p></div>'+
  f'<div class="t blue" {a("1/4","5/6")}><h2 style="font-size:54px">Free pickup in Maddington</h2></div>'+LOGO('4/5','5/6'),
 'D3-pickup':
@@ -123,7 +123,7 @@ posts.update({
  f'<div class="t deep" {a("1/5","3/5")}><p>Order online</p><h1 style="font-size:150px;margin-top:24px">Pick up free</h1><h2 class="bot" style="font-size:58px">17A Olga Road, Maddington</h2></div>'+
  f'<div class="t" {a("1/4","5/6")}><p>We message you when it\'s ready. Book a pickup time, Monday to Saturday, 4:30 to 9 pm.</p></div>'+LOGO('4/5','5/6'),
 'S-shipping':
- f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Tapware and accessories</p><h1 style="font-size:150px;margin-top:40px">Free shipping over $100</h1><p class="bot" style="font-size:44px">Anywhere in Western Australia</p></div>'+
+ f'<div class="t deep" {a("1/5","1/5")}><p style="font-size:40px">Tapware and accessories</p><h1 style="font-size:150px;margin-top:40px">Posted Australia-wide from $9.95</h1><p class="bot" style="font-size:44px">or pick up free in Maddington</p></div>'+
  img('flova.png','1/5','5/7','fit')+
  f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Shop via the link in our bio</h2></div>'+LOGO('4/5','7/8'),
 })
