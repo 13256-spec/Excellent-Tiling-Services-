@@ -29,7 +29,7 @@ P={}
 P['N1-launch']=statement('brittany1200.jpg','Every price is online.','Tiles, tapware and vanities from a Perth tiling business. Order tonight, or see it first in our Maddington showroom.',pos='center 55%')
 P['N2-brittany600']=product('brittany600.jpg','MELA · Wall-hung vanity','Brittany 600 fluted, matt white','$1,149.99',pos='center 60%')
 P['N3-dusk']=product('dusk2.jpg','Porcelain tile · Matt','Morgan Dusk','$37.40/m²',pre='from',pos='center 70%')
-P['N4-shipping']=statement('dusk1.jpg','Free shipping over $1,000','Tapware ships Australia-wide, priced by weight at checkout. Tiles and vanities: Perth delivery or free pickup.',pos='center 60%')
+P['N4-shipping']=statement('dusk1.jpg','Posted Australia-wide from $9.95','Or pick up free in Maddington. Tapware goes by tracked Australia Post, priced by weight at checkout. Tiles and vanities: Perth delivery.',pos='center 60%')
 P['S-N2-brittany600']=product('brittany600.jpg','MELA · Wall-hung vanity','Brittany 600 fluted, matt white','$1,149.99',pos='center 55%',H=1920,strip=380)
 only=sys.argv[1:]
 for name,(W,H,body) in P.items():

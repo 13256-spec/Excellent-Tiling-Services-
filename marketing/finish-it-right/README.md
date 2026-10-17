@@ -20,7 +20,7 @@ Ready-to-post graphics. Feed posts are 1080×1350 (Instagram/Facebook portrait);
 
 A YAMEN10 code (10% off, $150 minimum) was set up and then cancelled before launch: at 10% off, 349 of
 1,572 product options would have dropped below the 20% profit floor and 9 would have sold below cost.
-The campaign leads with free shipping in WA on orders over $100 (the rest of Australia pays Australia Post rates), every price online, Perth delivery, free
+The campaign leads with every price online, small items posted Australia-wide from $9.95 (free shipping ended 17 Oct 2026), Perth delivery, free
 pickup in Maddington and the evening showroom instead. Don't claim "cheaper than" competitors: 62 of 574
 MELA prices are above Bathroom City's.
 
