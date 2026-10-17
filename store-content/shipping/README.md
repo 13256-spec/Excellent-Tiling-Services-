@@ -302,3 +302,13 @@ Sydney quote; tile + spacers to Sydney one combined "Shipping $15".
 Later the same day: freight quote also added overseas (NZ, US, UK, UAE) for the Perth-only profile (tiles, large
 items) and the Dangerous goods profile (acids, primers; needs a DG-licensed forwarder), plus DG Australia over 100 kg.
 Tested: tile to UK / NZ and acid to NZ / US show the quote option; acid to Melbourne still $20 road.
+
+## Free shipping ended (17 Oct 2026)
+Owner's rule: **no free shipping or free delivery at any order value.** Free pickup in Maddington stays.
+- Deleted the four free rates: General profile "Free standard shipping (orders $150+)" (outside WA) and
+  "Free standard shipping (WA orders $100+)"; Dangerous goods "Free Parcel Post road shipping (orders $150+)"
+  and "(WA orders $100+)". Every zone keeps its paid Australia Post weight rates and the freight-quote rate over 100 kg.
+- Deactivated the FREEPOST code (free standard post on abandoned orders).
+- The WA zone names still read "free ... over $100". Zone names are admin-only, so they were left as is.
+- Wording removed from the theme (unpublished copy "ETS 2026 – No free shipping (draft)"), shipping policy,
+  pages, product and collection SEO text, and the ets-* agent rules.
