@@ -11,6 +11,23 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "ets_load_more": {
+      "type": "ets-load-more",
+      "settings": {
+        "button_label": "Load more products",
+        "loading_label": "Loading…",
+        "page_of": "Page [page] of [pages]"
+      }
+    },
+    "ets_recently_viewed": {
+      "type": "ets-recently-viewed",
+      "settings": {
+        "heading": "Recently viewed",
+        "heading_home": "Pick up where you left off",
+        "clear_label": "Clear",
+        "max": 6
+      }
+    },
     "ets_footer": {
       "type": "ets-footer",
       "settings": {
@@ -47,6 +64,8 @@
     }
   },
   "order": [
+    "ets_load_more",
+    "ets_recently_viewed",
     "ets_footer",
     "ets_news_popup"
   ]

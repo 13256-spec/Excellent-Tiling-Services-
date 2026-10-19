@@ -132,6 +132,62 @@ Settings → Policies (the API connector used here can't write legal policies).
 - Theme: `snippets/meta-tags.liquid` no longer appends the shop name to titles that already
   end in "| ETS Perth", so titles stay inside Google's display limit.
 
+## Shopify Inbox chat
+
+The Inbox chat button and window are styled from the theme in `assets/ets-refine.css` (bottom of
+the file) through the variables and `::part(activator)` / `::part(dialog)` hooks Shopify exposes:
+navy pill button with a brass ring, Manrope font, solid cream chat window with a brass top edge. On phones the button sits above the sticky
+"Call / Free quote" bar, and the bar slides away while the chat is open so the message box isn't
+covered. `assets/ets-2026.js` holds back the email sign-up pop-up while a chat is open. Button text,
+position (left/right), greeting and AI settings are set in Shopify admin → Inbox → Chat settings;
+those admin colours are overridden by the theme CSS.
+
+## Laptop sizing
+
+The desktop layout was sized for large monitors, so on laptops (990-1600px wide) the site felt
+zoomed in. `assets/ets-refine.css` (bottom of the file) trims it for that range only: slimmer sticky
+header (about 107px instead of 130px once scrolled), smaller headings, department tiles four across
+instead of two, a shorter collection banner and smaller product titles. Phones and wider screens are
+unchanged. Two rules use `!important` to beat an inline banner shape and an earlier `!important`
+product-title size. Product breadcrumbs also show on one line instead of as a numbered list.
+
+## Product cards
+
+Collection, search and carousel product cards (`assets/ets-refine.css`, "Product cards"): a white
+rounded square with a real border, the photo inset inside it (product photos have their own white
+backgrounds, so without this the edges vanished and the grid looked patchy), bolder two-line names,
+bold prices and a small lift on hover. The collection grid shows five per row from 1200px wide.
+
+## Cookie banner
+
+Shopify's customer privacy banner is restyled in `assets/ets-refine.css` ("Cookie banner"): a
+compact card bottom-left on desktop and a bottom sheet on phones, Manrope type, brass top edge,
+equal-size Accept (navy) and Decline (outline) buttons, "Manage preferences" as a text link. Shopify
+injects its own styles later in the page, so the rules lead with `#shopify-pc__banner`. On screens
+under 900px the chat button hides while the banner is open. The banner text and whether it shows
+are set in Shopify admin > Settings > Customer privacy.
+
+## Recently viewed
+
+`sections/ets-recently-viewed.liquid`, placed first in the footer group so it shows above the
+footer on every page. It remembers the last 12 products a visitor opened (in their own browser's
+localStorage, key `ets-recently-viewed`; nothing is sent anywhere) and shows up to 6 of them:
+"Recently viewed" on product pages (leaving out the current product), "Pick up where you left off"
+on the home page. Hidden for first-time visitors. Products are loaded from `/products/<handle>.js`,
+whose prices are already in the visitor's currency. Headings, the Clear link and the number shown
+are editable in the theme editor (Footer group).
+
+## Page numbers and Load more
+
+Collection and search pages show 20 products per page (4 rows of 5 on laptops) instead of
+scrolling endlessly: "Automatically load products" is off and "Products per page" is 20 in
+`templates/collection.json` and `templates/search.json`. Below the products sit "Page X of Y",
+a "Load more products" button and the theme's page numbers. The button
+(`sections/ets-load-more.liquid`, first in the footer group) adds the next page under the
+current products and updates the page numbers and address; the numbers still jump to any page.
+It reappears after filtering or sorting, and falls back to opening the next page if the request
+fails. Its wording is editable in the theme editor (Footer group).
+
 ## Booking form (Shopify Forms)
 
 See [store-content/booking-form-shopify-forms.md](store-content/booking-form-shopify-forms.md) for the exact fields and settings. Adding the Forms block to the booking section replaces the built-in request form.

@@ -103,3 +103,156 @@ body h1, body h2, body .h1, body .h2,
 /* Card and panel titles: same weight as the rest of the headings */
 .ets h3 { font-family: var(--ets-sans); font-weight: 700; letter-spacing: -.01em; }
 .ets-rate strong { font-size: clamp(24px, 2.4vw, 34px); line-height: 1; white-space: nowrap; }
+
+/* Shopify Inbox chat: brand colours, and lifted clear of the mobile call / free-quote bar.
+   The widget lives in a shadow root; Shopify exposes these variables and the "activator" and
+   "dialog" parts. The messages themselves sit in an iframe that only takes the variables. */
+shopify-chat {
+  --shopify-chat-text-color: var(--ets-ink);
+  --shopify-chat-bg-color: var(--ets-bg);
+  --shopify-chat-accent-bg-color: var(--ets-ink);
+  --shopify-chat-accent-text-color: var(--ets-white);
+  --shopify-chat-border-radius: 18px;
+  --shopify-chat-body-font-family: var(--ets-sans);
+  --shopify-chat-heading-font-family: var(--ets-sans);
+  --shopify-chat-activator-font-size: 15px;
+}
+shopify-chat::part(activator) {
+  background-color: var(--ets-ink);
+  color: var(--ets-white);
+  font-weight: 700;
+  letter-spacing: .01em;
+  padding-inline: 20px 22px;
+  border-radius: 999px;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  box-shadow: inset 0 0 0 1.5px #c9a46c, 0 10px 28px -6px rgba(15, 26, 44, .45);
+  transition: background-color .2s ease, transform .2s ease, box-shadow .2s ease;
+}
+shopify-chat::part(activator):hover {
+  background-color: var(--ets-dark);
+  transform: translateY(-2px);
+  box-shadow: inset 0 0 0 1.5px #c9a46c, 0 14px 32px -6px rgba(15, 26, 44, .5);
+}
+/* Solid window (Shopify's default is see-through) with a brass top edge */
+shopify-chat::part(dialog) {
+  background-color: var(--ets-bg);
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+  border: 1px solid var(--ets-line);
+  border-top: 3px solid #c9a46c;
+  box-shadow: 0 24px 60px -12px rgba(15, 26, 44, .35);
+}
+@media (max-width: 989px) {
+  body:has(.ets-hf-bar.is-on) shopify-chat { --shopify-chat-activator-offset: calc(80px + env(safe-area-inset-bottom)); }
+  /* The open chat window needs the whole screen, so the bar steps aside while it's open. */
+  body:has(shopify-chat[open]) .ets-hf-bar { transform: translateY(110%); }
+}
+
+/* Breadcrumbs: one line ("Home / Mosaic Tiles / ..."), never a numbered list */
+.ets-crumbs ol { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin: 0; padding: 0; list-style: none; }
+
+/* Laptops (990-1600px wide): the desktop layout was sized for big monitors, so on a laptop
+   the header, headings and department tiles filled most of the screen. Phones and large
+   monitors are unchanged. */
+@media (min-width: 990px) and (max-width: 1600px) {
+  :root { --ets-sec: clamp(44px, 4.4vw, 64px); }
+
+  /* Slimmer sticky header */
+  /* doubled class so these beat the header section's own styles, which load later */
+  .ets-hdr .ets-hdr__bar { min-height: 62px; }
+  .ets-nav .ets-nav__link, .ets-nav .ets-nav__toggle { height: 44px; }
+  .ets-nav .ets-nav__link::after { bottom: 8px; }
+
+  /* Headings */
+  .ets-hf .ets-hf__title { font-size: clamp(40px, 3.7vw, 54px); }
+  .ets .ets-h2 { font-size: clamp(26px, 2.3vw, 32px); }
+  .ets-display, .ets-phero .ets-display { font-size: clamp(38px, 3.6vw, 52px); }
+
+  /* Department tiles: four across instead of two big ones */
+  .ets-cats { grid-template-columns: repeat(4, minmax(0, 1fr)); grid-auto-rows: 220px; gap: 12px; }
+  .ets-cat, .ets-cat--md { grid-column: span 1; grid-row: auto; }
+  .ets-cat--lg { grid-column: span 2; grid-row: auto; }
+  /* 10 tiles with one double-width: widen the last so the grid ends square */
+  .ets-cats > .ets-cat:last-child:nth-child(10) { grid-column: span 2; }
+
+  /* Collection banner: shorter, so products start on the first screen */
+  .ets-phero { padding-block: 24px 28px; }
+  .ets-phero .ets-lede { margin-top: 12px; }
+  /* !important: the banner sets its shape inline */
+  .ets-phero__media .ets-core { aspect-ratio: 2 / 1 !important; }
+
+  /* Product page title */
+  /* !important: an earlier product-page rule forces clamp(34px, 3.6vw, 52px) with !important */
+  body .product-information .product-details h1 { font-size: clamp(30px, 2.5vw, 38px) !important; line-height: 1.1 !important; }
+}
+
+/* Product cards (collection grids, search, carousels): one clean white square per product.
+   Product photos come on their own white backgrounds, so the square gets a real border and the
+   photo sits inset inside it; otherwise the edges disappear and the grid looks patchy. */
+product-card .card-gallery {
+  background: var(--ets-surface);
+  border: 1px solid var(--ets-line);
+  border-radius: 12px;
+  box-shadow: none;
+  overflow: hidden;
+  transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+product-card .card-gallery .product-media__image { object-fit: contain; padding: 9%; mix-blend-mode: multiply; }
+product-card:hover .card-gallery {
+  border-color: var(--ets-line-strong);
+  box-shadow: 0 10px 24px -14px rgba(15, 26, 44, .35);
+  transform: translateY(-2px);
+}
+product-card .product-card__content { row-gap: 10px; }
+product-card [class*='__title'] p { font-size: 15px; font-weight: 600; line-height: 1.35; color: var(--ets-ink);
+  display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+product-card product-price { font-weight: 700; color: var(--ets-ink); }
+/* Collection grid: five per row on laptops and up (four made each square ~300px on a laptop and
+   ~440px on a big monitor). Only the default view; the "zoom out" view keeps its own columns. */
+@media (min-width: 1200px) {
+  .product-grid.product-grid--grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+
+/* Cookie banner (Shopify's customer privacy banner). Shopify injects its own <style> later in the
+   page, so every rule here leads with the banner's id to win. Accept and Decline stay the same
+   size so declining is as easy as accepting. */
+#shopify-pc__banner.shopify-pc__banner__dialog {
+  left: 24px; right: auto; bottom: 24px; width: 400px; min-width: 0; max-width: calc(100vw - 48px);
+  padding: 22px 22px 18px;
+  background: var(--ets-surface);
+  border: 1px solid var(--ets-line);
+  border-top: 3px solid #c9a46c;
+  border-radius: 14px;
+  box-shadow: 0 24px 60px -16px rgba(15, 26, 44, .35);
+  font-family: var(--ets-sans);
+}
+#shopify-pc__banner .shopify-pc__banner__wrapper { align-items: stretch; }
+#shopify-pc__banner .shopify-pc__banner__body { margin-bottom: 4px; }
+#shopify-pc__banner h2 { font: 700 16px/1.25 var(--ets-sans); color: var(--ets-ink); margin: 0 0 6px; }
+#shopify-pc__banner p { font-size: 13.5px; line-height: 1.5; color: var(--ets-ink-soft); }
+#shopify-pc__banner p a { color: var(--ets-ink); text-underline-offset: 2px; }
+#shopify-pc__banner .shopify-pc__banner__btns { flex-direction: row; flex-wrap: wrap; gap: 8px; margin-top: 12px; }
+#shopify-pc__banner button {
+  margin: 0; height: 44px; padding: 0 16px; border-radius: 999px;
+  font: 700 14px/1 var(--ets-sans); transition: background-color .2s ease, color .2s ease, border-color .2s ease;
+}
+#shopify-pc__banner button.shopify-pc__banner__btn-accept,
+#shopify-pc__banner button.shopify-pc__banner__btn-decline { flex: 1 1 0; border: 1.5px solid var(--ets-ink); }
+#shopify-pc__banner button.shopify-pc__banner__btn-accept { order: 1; background: var(--ets-ink); color: #fff; }
+#shopify-pc__banner button.shopify-pc__banner__btn-accept:hover { background: var(--ets-dark); }
+#shopify-pc__banner button.shopify-pc__banner__btn-decline { order: 2; background: transparent; color: var(--ets-ink); }
+#shopify-pc__banner button.shopify-pc__banner__btn-decline:hover { background: rgba(21, 33, 58, .06); }
+#shopify-pc__banner button.shopify-pc__banner__btn-manage-prefs {
+  order: 3; flex: 1 0 100%; height: auto; padding: 4px 0 0; text-align: center;
+  font-weight: 600; font-size: 13px; color: var(--ets-ink-soft); background: transparent; border: 0;
+}
+#shopify-pc__banner button:focus-visible { box-shadow: 0 0 0 3px rgba(201, 164, 108, .6); }
+@media (max-width: 600px) {
+  #shopify-pc__banner.shopify-pc__banner__dialog { left: 12px; right: 12px; bottom: 12px; width: auto; max-width: none; padding: 18px 18px 14px; }
+}
+/* On small screens the chat button would sit on the banner's buttons; it comes back once the
+   visitor chooses (Shopify hides the banner with an inline display: none). */
+@media (max-width: 899px) {
+  body:has(#shopify-pc__banner:not([style*='none'])) shopify-chat { visibility: hidden; }
+}
