@@ -13,6 +13,17 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Bathroom City additions from customer quotes (19 Oct 2026)
+
+Two customer quotes listed BRITTANY 1800 vanity packages and an AERI 1500 LED mirror that the store did not have.
+Seven MELA products were added from Bathroom City's pages, priced by the playbook (cost = list × 0.75 ÷ 1.1,
+price = 5% under Bathroom City, all at 21% margin, no trade band), with photos, `ets.*` spec metafields, SEO
+title/description, "continue selling when out of stock", Perth-only delivery, and published to all channels:
+BRITTANY 1800 Oak and Matt White × (curved 2 doors & 2 drawers, one-side curved door & 2 drawers, double 4 drawers)
+and the AERI 1500 LED arch mirror. Record: `store-content/new-products/bathroom-city-2026-10-19.json`.
+Not added (not sold by Bathroom City): Pandia 4W wall light, Mini Hartelle fluted cabinet, individual Brittany
+cabinet modules and stone-cutting fees.
+
 ## Shop app (Shop sales channel), 12 Oct 2026
 
 The Shop app store was almost empty: 5 of 921 active products and no collections were on the Shop
