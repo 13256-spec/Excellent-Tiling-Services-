@@ -42,6 +42,10 @@ Not on the sheet: stone cutting and kickboards. Owner's call (20 Oct 2026): sell
 cost recorded (`needs-cost`), until Bathroom City gives a trade price. Basin upgrades use basins 30%; the Carrara stone-top upgrade uses stone top
 20% (cost $145.45, so it sells at $200, the floor, matching Bathroom City; approved 20 Oct 2026).
 
+Bulk import of the missing MELA range (20 Oct 2026): 111 products / 179 variants and 29 new variants priced by the
+rules above (`store-content/bathroom-city-import/build_products.py` is the executable form). Bathroom City
+clearance lines priced below our floor were not matched and not added (68 lines, listed in that folder).
+
 Delivery: the supplier's delivery charge is not added to costs; bulky-item delivery is charged to the
 customer at checkout (owner, 3 Oct 2026).
 

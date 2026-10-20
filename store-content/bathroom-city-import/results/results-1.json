@@ -252,5 +252,23 @@
   "variant_ids": {
    "DICE.INSET": "gid://shopify/ProductVariant/44169655975999"
   }
+ },
+ {
+  "index": 105,
+  "title": "MELA LUCCA 1200mm Ceramic Vanity Top",
+  "product_id": "gid://shopify/Product/8450305228863",
+  "handle": "mela-lucca-1200mm-ceramic-vanity-top",
+  "variant_ids": {
+   "LUCCA.1200": "gid://shopify/ProductVariant/44169694216255"
+  }
+ },
+ {
+  "index": 109,
+  "title": "MELA Kitchen Sink Chopping Board",
+  "product_id": "gid://shopify/Product/8450305851455",
+  "handle": "mela-kitchen-sink-chopping-board",
+  "variant_ids": {
+   "CHOPPING BOARD": "gid://shopify/ProductVariant/44169696903231"
+  }
  }
 ]

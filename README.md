@@ -13,6 +13,21 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Whole missing Bathroom City MELA range (20 Oct 2026)
+
+Owner's call: "whatever Bathroom City sells we sell". Everything MELA on bathroomcity.com.au that was not already in the
+store was added: 111 products / 179 variants (74 wall-hung vanities incl. the full BRITTANY, CLARK, LUNA, MILANO,
+HAMPTON, PASTEL and SHAKER packages, 4 tallboys, 6 LUCCA ceramic tops, basins, toilets, bidet seats, flush buttons, mixers,
+sinks and accessories) plus 29 new finish/size variants on existing products. Priced by the playbook (cost = list ×
+(1 − SILVER discount) ÷ 1.1, price 5% under Bathroom City, trade band = deepest band that keeps every variant above
+the trade floor: 13 products in `trade-list-5`, 2 in 10, 1 in 15, 12 in 20, 83 with no band). Each has photos,
+`ets.*` spec metafields, SEO title/description, "continue selling when out of stock", the right collections and all
+six sales channels; vanity packages, tops and tallboys are Perth-only delivery. Not added: 68 Bathroom City
+clearance lines (ANTIK, SELTEN, VINA, CASSA, MONI, RONDO filter mixers, Matt Grey vanities, some wastes) whose
+sale price is below our profit floor (`store-content/bathroom-city-import/skipped-clearance.json`). Two Wall Spout &
+Mixer sets have no SKU because Bathroom City lists none. Build and record scripts, the generated inputs and the
+Shopify IDs are in `store-content/bathroom-city-import/`.
+
 ## Vanity options like Bathroom City (20 Oct 2026)
 
 Bathroom City sells each MELA vanity package with add-on choices (stone colour, basin, stone cutting, kickboard) through
