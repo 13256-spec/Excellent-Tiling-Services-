@@ -1,0 +1,140 @@
+[
+ {
+  "index": 2,
+  "title": "MELA NUDA Above Counter Concrete Basin",
+  "product_id": "gid://shopify/Product/8450246017087",
+  "handle": "mela-nuda-above-counter-concrete-basin",
+  "variant_ids": {
+   "NUDA.CONCRETE.PINK": "gid://shopify/ProductVariant/44169397436479",
+   "NUDA.CONCRETE.SAGE": "gid://shopify/ProductVariant/44169397469247",
+   "NUDA.CONCRETE.SAND": "gid://shopify/ProductVariant/44169397502015"
+  }
+ },
+ {
+  "index": 6,
+  "title": "MELA AERI 1200 LED Arch Mirror",
+  "product_id": "gid://shopify/Product/8450246148159",
+  "handle": "mela-aeri-1200-led-arch-mirror",
+  "variant_ids": {
+   "AERI.1200.LED.1": "gid://shopify/ProductVariant/44169398124607"
+  }
+ },
+ {
+  "index": 10,
+  "title": "MELA MILANO 1800 Wall Hung Vanity with 2 Doors & Drawers",
+  "product_id": "gid://shopify/Product/8450269478975",
+  "handle": "mela-milano-1800-wall-hung-vanity-with-2-doors-drawers",
+  "variant_ids": {
+   "KIT.MILANO1800DW.S.BO.SHELVES": "gid://shopify/ProductVariant/44169461170239"
+  }
+ },
+ {
+  "index": 14,
+  "title": "MELA MILANO 1500 Wall Hung Vanity with Door & 2 Drawers",
+  "product_id": "gid://shopify/Product/8450269708351",
+  "handle": "mela-milano-1500-wall-hung-vanity-with-door-2-drawers",
+  "variant_ids": {
+   "KIT.MILANO1500DW.D.BO.SHELVES": "gid://shopify/ProductVariant/44169461399615"
+  }
+ },
+ {
+  "index": 18,
+  "title": "MELA MILANO 1200 Wall Hung Vanity with Drawers",
+  "product_id": "gid://shopify/Product/8450269937727",
+  "handle": "mela-milano-1200-wall-hung-vanity-with-drawers",
+  "variant_ids": {
+   "KIT.MILANO.1200DW.BO": "gid://shopify/ProductVariant/44169462022207"
+  }
+ },
+ {
+  "index": 22,
+  "title": "MELA MILANO 600 Wall Hung Vanity with Drawers",
+  "product_id": "gid://shopify/Product/8450270003263",
+  "handle": "mela-milano-600-wall-hung-vanity-with-drawers",
+  "variant_ids": {
+   "KIT.MILANO.600DW.BO": "gid://shopify/ProductVariant/44169462120511"
+  }
+ },
+ {
+  "index": 26,
+  "title": "MELA LUNA 900 Curved Wall Hung Vanity with Drawer",
+  "product_id": "gid://shopify/Product/8450270330943",
+  "handle": "mela-luna-900-curved-wall-hung-vanity-with-drawer",
+  "variant_ids": {
+   "KIT.LUNA.900": "gid://shopify/ProductVariant/44169462710335"
+  }
+ },
+ {
+  "index": 30,
+  "title": "MELA Smart Bidet Seat Separate",
+  "product_id": "gid://shopify/Product/8450270429247",
+  "handle": "mela-smart-bidet-seat-separate",
+  "variant_ids": {
+   "ST-203": "gid://shopify/ProductVariant/44169462906943"
+  }
+ },
+ {
+  "index": 35,
+  "title": "MELA BRITTANY 900 Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+  "product_id": "gid://shopify/Product/8450270593087",
+  "handle": "mela-brittany-900-fluted-one-side-curved-wall-hung-vanity-with-2-drawers",
+  "variant_ids": {
+   "KIT.BRI.900.MW": "gid://shopify/ProductVariant/44169463332927",
+   "KIT.BRI.900.O": "gid://shopify/ProductVariant/44169463365695"
+  }
+ },
+ {
+  "index": 39,
+  "title": "MELA BRITTANY 750 Fluted Wall Hung Vanity with 2 Drawers",
+  "product_id": "gid://shopify/Product/8450270724159",
+  "handle": "mela-brittany-750-fluted-wall-hung-vanity-with-2-drawers",
+  "variant_ids": {
+   "KIT.BRI.750.MW": "gid://shopify/ProductVariant/44169463562303",
+   "KIT.BRI.750.O": "gid://shopify/ProductVariant/44169463595071"
+  }
+ },
+ {
+  "index": 43,
+  "title": "MELA BRITTANY 1500 Fluted Curved Wall Hung Vanity with 2 Drawers",
+  "product_id": "gid://shopify/Product/8450270920767",
+  "handle": "mela-brittany-1500-fluted-curved-wall-hung-vanity-with-2-drawers",
+  "variant_ids": {
+   "KIT.BRI.1500.S.MW": "gid://shopify/ProductVariant/44169464053823",
+   "KIT.BRI.1500.S.O": "gid://shopify/ProductVariant/44169464086591"
+  }
+ },
+ {
+  "index": 47,
+  "title": "MELA BRITTANY 1350 Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+  "product_id": "gid://shopify/Product/8450271150143",
+  "handle": "mela-brittany-1350-fluted-one-side-curved-wall-hung-vanity-with-2-drawers",
+  "variant_ids": {
+   "KIT.BRI.1350.MW": "gid://shopify/ProductVariant/44169464578111",
+   "KIT.BRI.1350.O": "gid://shopify/ProductVariant/44169464610879"
+  }
+ },
+ {
+  "index": 51,
+  "title": "MELA CLARK 1800 Wall Hung Vanity with 4 Drawers & 2 Open Shelves",
+  "product_id": "gid://shopify/Product/8450271215679",
+  "handle": "mela-clark-1800-wall-hung-vanity-with-4-drawers-2-open-shelves",
+  "variant_ids": {
+   "KIT.CLA.1800.S.SHELVES.S": "gid://shopify/ProductVariant/44169464709183",
+   "KIT.CLA.1800.S.SHELVES.SO": "gid://shopify/ProductVariant/44169464741951",
+   "KIT.CLA.1800.S.SHELVES.W": "gid://shopify/ProductVariant/44169464774719"
+  }
+ },
+ {
+  "index": 55,
+  "title": "MELA PALCO Wall Spout & Mixer Set",
+  "product_id": "gid://shopify/Product/8450271477823",
+  "handle": "mela-palco-wall-spout-mixer-set",
+  "variant_ids": {
+   "1": "gid://shopify/ProductVariant/44169465528383",
+   "2": "gid://shopify/ProductVariant/44169465561151",
+   "3": "gid://shopify/ProductVariant/44169465593919",
+   "4": "gid://shopify/ProductVariant/44169465626687",
+   "5": "gid://shopify/ProductVariant/44169465659455"
+  }
+ }
+]
