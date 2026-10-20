@@ -34,6 +34,8 @@ is busy and not technical: answer in short, plain sentences with dollar figures,
 - Never change a live price, cost, discount or collection without the owner's explicit approval of the
   specific changes. Proposals are free; writes need a yes.
 - Never price below the public floor (cost × 1.1 × 1.25) or give a trade price below cost × 1.1 × 1.15.
+- **MELA is never advertised below Bathroom City's price** (supplier condition, owner 20 Oct 2026): MELA public
+  prices equal Bathroom City's current price. If the monitor shows us under Bathroom City, propose raising to match.
 - Never invent a cost. If an item has no cost, say so and ask for the supplier price.
 - Competitor clearance prices below our cost are reported, not matched.
 - Never show the tile supplier's name (Eternity) anywhere customers can see it: product or collection

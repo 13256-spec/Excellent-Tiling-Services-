@@ -6,6 +6,8 @@ safely. Written for the owner and for the `ets-pricing` agent (`.claude/agents/e
 ## The goal
 
 1. **Public price**: cheaper than the competitor that sells the same item, but always profitable.
+   **Exception, MELA (20 Oct 2026):** Bathroom City is our MELA supplier and we are not allowed to advertise
+   MELA below their price. MELA public prices are set **equal to Bathroom City's current price**, never under.
 2. **Trade price**: cheaper again for approved trade accounts, still profitable.
 3. **Profit first**: if the competitor is below our profit floor, we don't follow them down.
 
@@ -33,7 +35,7 @@ customer at checkout (owner, 3 Oct 2026).
 
 | Competitor | What they sell | How we read prices |
 |---|---|---|
-| Bathroom City (bathroom-city.com.au) | MELA, the only other stockist | public `products.json`; matched per variant in `mela-pricing-2026-10-01.csv` (`bc_title` + `bc_sku`) |
+| Bathroom City (bathroom-city.com.au) | MELA supplier and the only other stockist; **we must not advertise below their price** | public `products.json`; matched per variant in `mela-pricing-2026-10-01.csv` (`bc_title` + `bc_sku`) |
 | B&B Hardware, Maddington (bbhardware.com.au) | tiling hardware, ~50 identical items | public `products.json`; matched by hand in `BB_MATCH` (`reprice_2026_10.py`) |
 | Terweys Total Hardware, Cannington | tiling hardware | **no online prices**; phone (08) 9451 9599 for spot checks |
 | Eternity Tiles' own shop and WA stockists | tiles | sell at Eternity RRP |
@@ -45,7 +47,9 @@ baths). Those are reported as "can't beat profitably", never matched.
 
 - **Public floor** = cost × 1.1 × 1.25 (at least 20% of the selling price is profit).
 - **Trade floor** (owner, 14 Oct 2026): the trade price must leave **20% margin ex GST**, i.e. trade price ≥ cost ÷ 0.8 × 1.1. (Until 14 Oct it was cost × 1.1 × 1.15, about 13%, which the owner found too cheap.)
-- **MELA** = 5% under Bathroom City's current price, rounded down to the dollar.
+- **MELA** = **the same as Bathroom City's current price** (owner, 20 Oct 2026: supplier does not allow us to
+  advertise cheaper). Where Bathroom City's clearance price is below our public floor we stay above them.
+  (Until 20 Oct it was 5% under Bathroom City.)
 - **Hardware B&B also sells** = 5% under B&B, rounded down to 5c.
 - **Other hardware** = 10% under the supplier RRP (our old price), rounded down to 5c.
 - **Tiles** = 15% under Eternity RRP, rounded down to 10c (`eternity_2026_10.py`).

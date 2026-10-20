@@ -1,5 +1,8 @@
 """Weekly pricing check: our live prices vs Bathroom City (MELA) and B&B Hardware, against our profit floors.
 
+MELA rule since 20 Oct 2026: our price must equal Bathroom City's current price, never below it (supplier condition).
+B&B rule: 5% under.
+
 Reads only public product feeds (no Shopify login needed) plus store-pricing-2026-10-03.csv for costs and
 trade bands. Changes nothing; writes a Markdown report for the owner to approve.
 
@@ -42,7 +45,7 @@ def main(report_path):
     bc = {(p["title"], v["sku"]): float(v["price"]) for p in feed(FEEDS["bc"]) for v in p["variants"]}
     bb = {p["title"]: float(p["variants"][0]["price"]) for p in feed(FEEDS["bb"])}
 
-    undercut, drift, floor_breach, unplanned, gone = [], [], [], [], []
+    undercut, drift, floor_breach, unplanned, gone, below_bc, bc_cheaper = [], [], [], [], [], [], []
     for vid, (p, v) in ours.items():
         price = float(v["price"])
         name = p["title"] + ("" if v["title"] == "Default Title" else " / " + v["title"])
@@ -67,11 +70,18 @@ def main(report_path):
                 comp, who = bb.get(BB_MATCH[key]), "B&B Hardware"
                 if comp is None:
                     gone.append(f"| {name} | B&B: {BB_MATCH[key]} |")
-        if comp is not None and price >= comp:
+        band = r["trade_band"] or "0"
+        if who == "Bathroom City" and comp is not None and price < comp - 0.004:
+            # MELA may not be advertised below Bathroom City (owner, 20 Oct 2026): raise to match.
+            below_bc.append(f"| {name} | ${comp:.2f} | ${price:.2f} | {'$%.2f' % cost if cost else '–'} | {band}% |")
+        elif who == "Bathroom City" and comp is not None and price > comp + 0.004:
+            floor = cost * PUB_MARKUP if cost else 0
+            bc_cheaper.append(f"| {name} | ${comp:.2f} | ${price:.2f} | {'$%.2f' % cost if cost else '–'} | "
+                              f"{'can match' if comp >= floor else 'below our profit floor, stay'} |")
+        elif who == "B&B Hardware" and comp is not None and price >= comp:
             want = target(comp, dollar)
             floor = cost * PUB_MARKUP if cost else 0
             ok = want >= floor
-            band = r["trade_band"] or "0"
             undercut.append(f"| {name} | {who} ${comp:.2f} | ${price:.2f} | "
                             f"{'$%.2f' % want if ok else 'can’t beat profitably'} | "
                             f"{'$%.2f' % cost if cost else '–'} | {band}% |")
@@ -82,7 +92,11 @@ def main(report_path):
     md = [f"# ETS weekly price check – {time.strftime('%d %b %Y')}\n",
           f"Checked {len(ours)} of our variants, {len(bc)} Bathroom City and {len(bb)} B&B products. "
           "Nothing was changed; the owner approves any price change.\n",
-          "## 1. A competitor is now as cheap or cheaper than us\n",
+          "## 1a. MELA priced BELOW Bathroom City (not allowed: raise to their price)\n",
+          table("| Item | Bathroom City | Our price | Cost inc GST | Trade band |", below_bc),
+          "## 1b. Bathroom City now cheaper than us on MELA (match only if above our profit floor)\n",
+          table("| Item | Bathroom City | Our price | Cost inc GST | Action |", bc_cheaper),
+          "## 1c. B&B Hardware is now as cheap or cheaper than us\n",
           table("| Item | Competitor | Our price | Suggested (5% under, above profit floor) | Cost inc GST | Trade band |", undercut),
           "## 2. Selling below the profit floor (cost inc GST × 1.25)\n",
           table("| Item | Our price | Cost inc GST | Floor price |", floor_breach),
@@ -94,7 +108,7 @@ def main(report_path):
           table("| Item | Was matched to |", gone)]
     os.makedirs(os.path.dirname(report_path) or ".", exist_ok=True)
     open(report_path, "w").write("\n".join(md))
-    print(f"undercut {len(undercut)}, below floor {len(floor_breach)}, drift {len(drift)}, "
+    print(f"below BC {len(below_bc)}, BC cheaper {len(bc_cheaper)}, undercut {len(undercut)}, below floor {len(floor_breach)}, drift {len(drift)}, "
           f"unplanned {len(unplanned)}, gone {len(gone)} -> {report_path}")
 
 

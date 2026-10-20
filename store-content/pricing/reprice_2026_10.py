@@ -13,6 +13,7 @@ Rules (costs are ex GST, prices inc GST):
 - Public floor = cost x 1.1 x 1.25 (at least 20% margin ex GST). Trade floor = cost x 1.1 x 1.15.
 - MELA cost (estimate) = Bathroom City list price x (1 - SLIVER trade discount) / 1.1.
 - MELA matched: 5% under Bathroom City's current price, rounded down to the dollar.
+  (Superseded 20 Oct 2026: MELA must equal Bathroom City's price, see PRICING-PLAYBOOK.md.)
 - Hardware matched on B&B: 5% under B&B, rounded down to 5c.
 - Other hardware with a cost: 10% under our current price (supplier RRP), rounded down to 5c.
 - A price is only raised when it is below the public floor, by at most 10% and never to or above the

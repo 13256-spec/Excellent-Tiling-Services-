@@ -130,3 +130,14 @@ The owner confirmed Maxisil costs from the Roberts trade account were ex GST, an
 ## Trade price label fixed (15 Oct 2026)
 
 The product page showed trade customers the old discount (e.g. Maxisil Natural Stone: "25% off, $20.99" while the cart gave 10%, $25.19). The theme reads `ets.trade_band`, which had not been updated when products moved between `trade-list-N` collections on 14-15 Oct. All 840 out-of-sync products were reset so `ets.trade_band` matches their `trade-list-N` collection (0 when in none). Step 4 of the playbook now says to update both.
+
+## MELA matched to Bathroom City's price (20 Oct 2026)
+
+Bathroom City supplies our MELA range and does not allow us to advertise below its price. On the owner's
+instruction every MELA variant priced under Bathroom City's current price was raised to exactly that price
+(734 variants, 278 products); nothing was lowered. 50 variants stay above Bathroom City because its clearance
+price is under our profit floor; 25 are not on Bathroom City's site and were left alone. Full list:
+`reports/bathroom-city-price-match-2026-10-20.md`. `monitor_competitors.py` now reports any MELA variant
+priced below Bathroom City as a breach (section 1a) instead of suggesting 5% under. 213 MELA variants added
+after 3 Oct were appended to the master CSV (cost from `mela-estimated-costs-2026-10-06.csv` where it has one); `mela-pricing-2026-10-01.csv`
+now carries a Bathroom City match for all 786 matched variants. Trade bands were not changed.
