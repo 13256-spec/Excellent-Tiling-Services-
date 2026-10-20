@@ -38,8 +38,8 @@ repo). Same MELA rates as above, and it also gives:
 | Billi tapware, Ventair | 5% (read from merged cells; confirm) |
 | Bathroom City delivery (not tiles) | $80 Perth metro, $120 for 30 to 50 km, over 50 km by agreement |
 
-Not on the sheet: stone cutting, kickboards and the vanity "option set" items. Those stay without a cost (`needs-cost`)
-until the owner gets a price from Bathroom City. Basin upgrades use basins 30%; the Carrara stone-top upgrade uses stone top
+Not on the sheet: stone cutting and kickboards. Owner's call (20 Oct 2026): sell them at Bathroom City's website price, no
+cost recorded (`needs-cost`), until Bathroom City gives a trade price. Basin upgrades use basins 30%; the Carrara stone-top upgrade uses stone top
 20% (cost $145.45, so it sells at $200, the floor, matching Bathroom City; approved 20 Oct 2026).
 
 Delivery: the supplier's delivery charge is not added to costs; bulky-item delivery is charged to the
