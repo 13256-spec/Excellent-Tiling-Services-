@@ -137,5 +137,39 @@
    "KIT.CLA.1200.SHELVES.SO": "gid://shopify/ProductVariant/44169465200703",
    "KIT.CLA.1200.SHELVES.W": "gid://shopify/ProductVariant/44169465233471"
   }
+ },
+ {
+  "index": 57,
+  "title": "MELA CLARK 1500 Wall Hung Vanity with 4 Drawers & Open Shelves",
+  "product_id": "gid://shopify/Product/8450271576127",
+  "handle": "mela-clark-1500-wall-hung-vanity-with-4-drawers-open-shelves",
+  "variant_ids": {
+   "KIT.CLA.1500.D.SHELVES.GW": "gid://shopify/ProductVariant/44169466150975",
+   "KIT.CLA.1500.D.SHELVES.S": "gid://shopify/ProductVariant/44169466183743",
+   "KIT.CLA.1500.D.SHELVES.SO": "gid://shopify/ProductVariant/44169466216511",
+   "KIT.CLA.1500.D.SHELVES.W": "gid://shopify/ProductVariant/44169466249279"
+  }
+ },
+ {
+  "index": 61,
+  "title": "MELA KOSI Heated Towel Ladder 600x800mm",
+  "product_id": "gid://shopify/Product/8450271641663",
+  "handle": "mela-kosi-heated-towel-ladder-600x800mm",
+  "variant_ids": {
+   "KOSI.6080R.CH": "gid://shopify/ProductVariant/44169466380351",
+   "KOSI.6080R.BN": "gid://shopify/ProductVariant/44169466413119",
+   "KOSI.6080R.BK": "gid://shopify/ProductVariant/44169466445887",
+   "KOSI.6080R.BB": "gid://shopify/ProductVariant/44169466478655",
+   "KOSI.6080R.GM": "gid://shopify/ProductVariant/44169466511423"
+  }
+ },
+ {
+  "index": 65,
+  "title": "MELA HAMPTON 1350 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "product_id": "gid://shopify/Product/8450271969343",
+  "handle": "mela-hampton-1350-wall-hung-vanity-with-2-doors-2-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1350.MW.SHELVES": "gid://shopify/ProductVariant/44169466904639"
+  }
  }
 ]

@@ -136,5 +136,35 @@
    "4": "gid://shopify/ProductVariant/44169465626687",
    "5": "gid://shopify/ProductVariant/44169465659455"
   }
+ },
+ {
+  "index": 59,
+  "title": "MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Open Shelves",
+  "product_id": "gid://shopify/Product/8450271510591",
+  "handle": "mela-clark-1200-wall-hung-vanity-with-2-drawers-open-shelves",
+  "variant_ids": {
+   "KIT.CLA.1200.SHELVES.GW": "gid://shopify/ProductVariant/44169465888831",
+   "KIT.CLA.1200.SHELVES.S": "gid://shopify/ProductVariant/44169465921599",
+   "KIT.CLA.1200.SHELVES.SO": "gid://shopify/ProductVariant/44169465954367",
+   "KIT.CLA.1200.SHELVES.W": "gid://shopify/ProductVariant/44169465987135"
+  }
+ },
+ {
+  "index": 63,
+  "title": "MELA SHAKER 1350 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "product_id": "gid://shopify/Product/8450271739967",
+  "handle": "mela-shaker-1350-wall-hung-vanity-with-2-doors-2-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1350.MW.SHELVES": "gid://shopify/ProductVariant/44169466609727"
+  }
+ },
+ {
+  "index": 67,
+  "title": "MELA HAMPTON 1050 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450271903807",
+  "handle": "mela-hampton-1050-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1050.MW.SHELVES": "gid://shopify/ProductVariant/44169466839103"
+  }
  }
 ]

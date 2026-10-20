@@ -135,5 +135,35 @@
    "KIT.CLA.1350.SHELVES.SO": "gid://shopify/ProductVariant/44169465331775",
    "KIT.CLA.1350.SHELVES.W": "gid://shopify/ProductVariant/44169465364543"
   }
+ },
+ {
+  "index": 60,
+  "title": "MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Open Shelves",
+  "product_id": "gid://shopify/Product/8450271543359",
+  "handle": "mela-clark-900-wall-hung-vanity-with-2-drawers-open-shelves",
+  "variant_ids": {
+   "KIT.CLA.900.SELVES.GW": "gid://shopify/ProductVariant/44169466019903",
+   "KIT.CLA.900.SELVES.S": "gid://shopify/ProductVariant/44169466052671",
+   "KIT.CLA.900.SELVES.SO": "gid://shopify/ProductVariant/44169466085439",
+   "KIT.CLA.900.SELVES.W": "gid://shopify/ProductVariant/44169466118207"
+  }
+ },
+ {
+  "index": 64,
+  "title": "MELA SHAKER 1050 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450271707199",
+  "handle": "mela-shaker-1050-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1050.MW.SHELVES": "gid://shopify/ProductVariant/44169466576959"
+  }
+ },
+ {
+  "index": 68,
+  "title": "MELA HAMPTON 900 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450271936575",
+  "handle": "mela-hampton-900-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.900.SHELVES.MW": "gid://shopify/ProductVariant/44169466871871"
+  }
  }
 ]

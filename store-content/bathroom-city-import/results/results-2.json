@@ -155,5 +155,32 @@
    "MOS.400.SO": "gid://shopify/ProductVariant/44169465462847",
    "MOS.400.WN": "gid://shopify/ProductVariant/44169465495615"
   }
+ },
+ {
+  "index": 66,
+  "title": "MELA SHAKER 900 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450271608895",
+  "handle": "mela-shaker-900-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.900.SHELVES": "gid://shopify/ProductVariant/44169466282047"
+  }
+ },
+ {
+  "index": 70,
+  "title": "MELA PASTEL 1050 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450271674431",
+  "handle": "mela-pastel-1050-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1050.MW.SHELVES": "gid://shopify/ProductVariant/44169466544191"
+  }
+ },
+ {
+  "index": 74,
+  "title": "MELA HAMPTON 1800 Wall Hung Vanity with Door & 4 Drawers",
+  "product_id": "gid://shopify/Product/8450272002111",
+  "handle": null,
+  "variant_ids": {
+   "KIT.CLASSIC.1800.D.MW.SHELVES": "gid://shopify/ProductVariant/44169466937407"
+  }
  }
 ]
