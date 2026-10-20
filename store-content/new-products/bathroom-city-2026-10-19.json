@@ -1126,7 +1126,7 @@
   "title": "MELA Vanity Stone Top Upgrade: Carrara",
   "type": "Vanity Option",
   "added": "2026-10-20",
-  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "note": "Add-on for the vanity options block. Priced $190 on 20 Oct, raised to $200 (= Bathroom City) the same day with the owner's OK: at stone top 20% the cost is $145.45 and the floor is $200. Margin 20%.",
   "input": {
    "handle": "ets-vanity-stone-top-upgrade",
    "title": "MELA Vanity Stone Top Upgrade: Carrara",
