@@ -1201,7 +1201,7 @@
   "title": "MELA Vanity Basin Upgrade",
   "type": "Vanity Option",
   "added": "2026-10-20",
-  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "note": "Add-on for the vanity options block; price = Bathroom City option price less 5%; cost set 20 Oct 2026 from the SILVER sheet (basins 30%): $50.91 single, $101.82 double, 26% margin",
   "input": {
    "handle": "ets-vanity-basin-upgrade",
    "title": "MELA Vanity Basin Upgrade",

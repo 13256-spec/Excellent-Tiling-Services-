@@ -26,6 +26,22 @@ sinks 40%, pop-up wastes 40%, heated towel rails 30%, floor waste/channel 40%, k
 Back-to-wall and corner baths (KORI, MIZO, NOOK) are **not on the sheet**; 20% is assumed until the owner
 confirms. MELA towel rails are non-heated, so they use accessories 35%.
 
+The owner re-sent the sheet on 20 Oct 2026 (file `2026_NEW_SILVER_TRADE_PRICE.pdf`, kept by the owner, not in this
+repo). Same MELA rates as above, and it also gives:
+
+| Line on the sheet | Discount |
+|---|---|
+| Stone top (delivery fee confirmed by the consultant) | 20% |
+| Art Australia / Lafeme, Modern National, Radiant, Thermogroup, Tiles (over 5 boxes), Wilson & Bradley | 20% |
+| Alpine, Aulic, Con-Serv, Decina, Mixx, Remer, Otti, Unios | 15% |
+| Sunstar | 10% (read from merged cells; confirm) |
+| Billi tapware, Ventair | 5% (read from merged cells; confirm) |
+| Bathroom City delivery (not tiles) | $80 Perth metro, $120 for 30 to 50 km, over 50 km by agreement |
+
+Not on the sheet: stone cutting, kickboards and the vanity "option set" items. Those stay without a cost (`needs-cost`)
+until the owner gets a price from Bathroom City. Basin upgrades use basins 30%; the Carrara stone-top upgrade uses stone top
+20%.
+
 Delivery: the supplier's delivery charge is not added to costs; bulky-item delivery is charged to the
 customer at checkout (owner, 3 Oct 2026).
 
