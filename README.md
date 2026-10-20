@@ -15,7 +15,7 @@ the theme in Shopify.
 
 ## Whole missing Bathroom City MELA range (20 Oct 2026)
 
-Owner's call: "whatever Bathroom City sells we sell". Everything MELA on bathroomcity.com.au that was not already in the
+Owner's call: "whatever Bathroom City sells we sell". Everything MELA on bathroom-city.com.au that was not already in the
 store was added: 111 products / 179 variants (74 wall-hung vanities incl. the full BRITTANY, CLARK, LUNA, MILANO,
 HAMPTON, PASTEL and SHAKER packages, 4 tallboys, 6 LUCCA ceramic tops, basins, toilets, bidet seats, flush buttons, mixers,
 sinks and accessories) plus 29 new finish/size variants on existing products. Priced by the playbook (cost = list ×
