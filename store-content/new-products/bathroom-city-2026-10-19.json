@@ -1119,5 +1119,1327 @@
     }
    ]
   }
+ },
+ {
+  "id": "gid://shopify/Product/8450190737471",
+  "handle": "ets-vanity-stone-top-upgrade",
+  "title": "MELA Vanity Stone Top Upgrade: Carrara",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "input": {
+   "handle": "ets-vanity-stone-top-upgrade",
+   "title": "MELA Vanity Stone Top Upgrade: Carrara",
+   "descriptionHtml": "<p>Swap the standard Pearl White silica-free stone top on a MELA vanity package for a Carrara-look stone top with soft grey veining on white. Same size and edge profile as the standard top for your vanity.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on",
+    "ship-local-only"
+   ],
+   "seo": {
+    "title": "MELA Vanity Stone Top Upgrade: Carrara | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-option-set-for-vanity-carrara-stop-upgrademela-bathroom-city-perth-2735986.png?v=1757555171",
+     "alt": "MELA Vanity Stone Top Upgrade: Carrara",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "190",
+     "sku": "OPT.STONE.CARRARA",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8450191523903",
+  "handle": "ets-vanity-basin-upgrade",
+  "title": "MELA Vanity Basin Upgrade",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "input": {
+   "handle": "ets-vanity-basin-upgrade",
+   "title": "MELA Vanity Basin Upgrade",
+   "descriptionHtml": "<p>Upgrade the standard gloss white ceramic basin in a MELA vanity package to a matt white, matt black or designer basin. The upgrade price is per basin: choose the double option for a double vanity, which replaces both basins.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on",
+    "ship-local-only"
+   ],
+   "seo": {
+    "title": "MELA Vanity Basin Upgrade | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-arch-above-counter-basin-3541510.png?v=1754634689",
+     "alt": "MELA Vanity Basin Upgrade",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Basin",
+     "values": [
+      {
+       "name": "ARCH Above Counter"
+      },
+      {
+       "name": "BAYLEE Matt Black Above Counter"
+      },
+      {
+       "name": "BAYLEE Matt White Above Counter"
+      },
+      {
+       "name": "DAVISSON Matt Black Above Counter"
+      },
+      {
+       "name": "DAVISSON Matt White Above Counter"
+      },
+      {
+       "name": "DEBBA Matt White Half Inset"
+      },
+      {
+       "name": "NUIE Above Counter"
+      },
+      {
+       "name": "OVALI Above Counter"
+      },
+      {
+       "name": "SELVA Matt White Half Inset"
+      }
+     ]
+    },
+    {
+     "name": "Vanity",
+     "values": [
+      {
+       "name": "Single vanity (1 basin)"
+      },
+      {
+       "name": "Double vanity (2 basins)"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "ARCH Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.01.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "ARCH Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.01.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.02.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.02.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.03.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.03.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.04.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.04.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.05.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.05.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DEBBA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.06.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DEBBA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.06.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "NUIE Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.07.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "NUIE Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.07.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "OVALI Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.08.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "OVALI Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.08.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "SELVA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.09.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "SELVA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.09.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8450191851583",
+  "handle": "ets-vanity-stone-cutting",
+  "title": "MELA Vanity Stone Top Cutting",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "input": {
+   "handle": "ets-vanity-stone-cutting",
+   "title": "MELA Vanity Stone Top Cutting",
+   "descriptionHtml": "<p>Have the stonemason cut your MELA vanity stone top for the basin and tap before it leaves the warehouse: the basin hole for an above counter, inset, half inset or ASPRA undermount basin, with the mixer hole on the left, centre or right if your tap mounts on the top. Wall-mounted mixers need no mixer hole. For a double vanity, add one cut for each side.</p><p>Cutting is done to the basin you choose with the vanity. Allow about 2 weeks.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on"
+   ],
+   "seo": {
+    "title": "MELA Vanity Stone Cutting: Basin & Mixer Holes | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-option-set-for-double-vanity-cutting-left-side-above-counter-hole-cutting-with-centre-mixer-holemela-bathroom-city-perth-4058587.png?v=1756910800",
+     "alt": "MELA Vanity Stone Top Cutting",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Cut",
+     "values": [
+      {
+       "name": "Above counter basin hole"
+      },
+      {
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      }
+     ]
+    },
+    {
+     "name": "Side",
+     "values": [
+      {
+       "name": "Single vanity"
+      },
+      {
+       "name": "Double vanity: left side"
+      },
+      {
+       "name": "Double vanity: right side"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter basin hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "33",
+     "sku": "OPT.CUT.01.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter basin hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "33",
+     "sku": "OPT.CUT.01.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter basin hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "33",
+     "sku": "OPT.CUT.01.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.02.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.02.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.02.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.03.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.03.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.03.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.04.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.04.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.04.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.CUT.05.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.CUT.05.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.CUT.05.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.06.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.06.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.06.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.07.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.07.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.07.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.08.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.08.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.08.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "285",
+     "sku": "OPT.CUT.09.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "285",
+     "sku": "OPT.CUT.09.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "285",
+     "sku": "OPT.CUT.09.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "318",
+     "sku": "OPT.CUT.10.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "318",
+     "sku": "OPT.CUT.10.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "318",
+     "sku": "OPT.CUT.10.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8450192441407",
+  "handle": "ets-vanity-kickboard",
+  "title": "MELA Vanity Kickboard",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "input": {
+   "handle": "ets-vanity-kickboard",
+   "title": "MELA Vanity Kickboard",
+   "descriptionHtml": "<p>A matching kickboard that closes the gap under a wall-hung MELA vanity for a built-in look. Same finish as your vanity cabinets. Choose the double option for a double vanity.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on",
+    "ship-local-only"
+   ],
+   "seo": {
+    "title": "MELA Vanity Kickboard | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-option-set-for-vanity-kickboardmela-bathroom-city-perth-6006523.png?v=1757555170",
+     "alt": "MELA Vanity Kickboard",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Vanity",
+     "values": [
+      {
+       "name": "Single vanity"
+      },
+      {
+       "name": "Double vanity"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "47",
+     "sku": "OPT.KICK.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.KICK.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    }
+   ]
+  }
  }
 ]

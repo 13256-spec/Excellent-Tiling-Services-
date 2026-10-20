@@ -13,6 +13,21 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Vanity options like Bathroom City (20 Oct 2026)
+
+Bathroom City sells each MELA vanity package with add-on choices (stone colour, basin, stone cutting, kickboard) through
+the Mageworx options app. The same choices are now built into the theme with no app: snippet
+`theme/snippets/ets-pdp-options.liquid`, added as a `custom-liquid` block before the buy buttons in
+`theme/templates/product.json`. It shows on MELA products of type Wall Hung Vanity / Double Wall Hung Vanity (tag
+`no-vanity-options` hides it). Free choices (Pearl White stone, the 18 included gloss-white basins) go on the vanity's cart
+line as properties. Priced add-ons are four hidden products (type Vanity Option, tag `vanity-option`, Online Store + POS
+only, no cost, tagged `needs-cost`): Carrara stone top upgrade $190, basin upgrade $76 / $152 (9 basins), stone cutting
+$33 to $318 (10 cuts × single / double left / double right) and kickboard $47 / $76, all 5% under Bathroom City. When one is
+chosen the add-to-cart is taken over and the vanity plus the add-ons go to the cart in one request, each add-on tagged
+"For vanity: <title>". **Theme files are on the unpublished theme "ETS 2026 – AI files (ready to publish)"**; publish it from
+Shopify admin to go live. Browser-tested against the live theme on 20 Oct 2026 (both paths). Not copied: Bathroom City's
+pop-up waste x2 option (wastes are sold as normal products here).
+
 ## Bathroom City additions from customer quotes (19 Oct 2026)
 
 Two customer quotes listed BRITTANY 1800 vanity packages and an AERI 1500 LED mirror that the store did not have.
