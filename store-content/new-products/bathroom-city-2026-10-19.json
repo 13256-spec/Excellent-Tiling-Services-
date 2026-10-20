@@ -1,0 +1,2445 @@
+[
+ {
+  "id": "gid://shopify/Product/8448705953855",
+  "variant_id": "gid://shopify/ProductVariant/44164722950207",
+  "title": "MELA BRITTANY 1800 Oak Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "sku": "KIT.BRI.1800.S",
+  "type": "Wall Hung Vanity",
+  "bathroom_city_handle": "mela-brittany-1800-oak-fluted-curved-vanity-2-door-drawer",
+  "bc_price": 2999,
+  "price": 2849,
+  "cost": 2044.77,
+  "margin_pct": 21.1,
+  "trade_band": 0,
+  "seo_title": "MELA BRITTANY 1800 Oak Curved Vanity, Doors & Drawers",
+  "seo_desc": "MELA BRITTANY 1800 Oak fluted wall hung vanity curved both ends, stone top and basin. 1770 x 455 x 550 mm. Showroom in Maddington, Perth.",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "input": {
+   "title": "MELA BRITTANY 1800 Oak Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers",
+   "descriptionHtml": "<p>MELA BRITTANY 1800 Oak Fluted Curved Wall-Hung Vanity with 2 Doors & 2 Drawers. Curved both ends: a 890 mm two-drawer cabinet in the centre, a 290 mm cupboard each side and 150 mm curved end panels, under a 1800 mm stone top with a single basin. Hangs off the wall for easy floor cleaning.</p><ul><li>Model: KIT.BRI.1800.S</li><li>Wall hung dimensions: 1770(W) x 455(D) x 550(H) mm</li><li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li><li>Colour: Oak</li><li>Includes 1 x 890 mm Oak fluted wall-hung cabinet with 2 drawers</li><li>Includes 2 x 290 mm Oak fluted wall-hung cupboards</li><li>Includes 2 x 150 mm Oak fluted curved end panels</li><li>Includes 1 x 1800 mm stone top, curved both ends</li><li>Includes 1 x Gloss White ceramic basin (choice of 20 shapes)</li><li>Matt White, coloured or fluted basin upgrade available on request</li><li>Stone cutting, tapware and waste are not included</li></ul><p>Browse more <a href=\"/collections/wall-hung-vanities\">wall-hung bathroom vanities</a> or explore our <a href=\"/collections/bathroom-vanities\">bathroom vanity collection</a>.</p><h4>More details</h4><ul><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Tell us your basin choice and stone colour when you order, or see the samples in our Maddington showroom.</li></ul>",
+   "vendor": "MELA",
+   "productType": "Wall Hung Vanity",
+   "tags": [
+    "1800mm",
+    "Bathroom Vanity",
+    "BRITTANY",
+    "ebay-pickup-only",
+    "MELA",
+    "ship-local-only",
+    "Wall Hung Vanity",
+    "Fluted Vanity",
+    "Oak",
+    "Curved Vanity",
+    "Single Basin Vanity"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "MELA BRITTANY 1800 Oak Curved Vanity, Doors & Drawers",
+    "description": "MELA BRITTANY 1800 Oak fluted wall hung vanity curved both ends, stone top and basin. 1770 x 455 x 550 mm. Showroom in Maddington, Perth."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "range",
+     "type": "single_line_text_field",
+     "value": "BRITTANY"
+    },
+    {
+     "namespace": "ets",
+     "key": "material",
+     "type": "single_line_text_field",
+     "value": "Medium Density Fibreboard (MDF) and 15mm Backing Board"
+    },
+    {
+     "namespace": "ets",
+     "key": "width_mm",
+     "type": "number_integer",
+     "value": "1770"
+    },
+    {
+     "namespace": "ets",
+     "key": "depth_mm",
+     "type": "number_integer",
+     "value": "455"
+    },
+    {
+     "namespace": "ets",
+     "key": "height_mm",
+     "type": "number_integer",
+     "value": "550"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    },
+    {
+     "namespace": "ets",
+     "key": "care_guide",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078097471"
+    },
+    {
+     "namespace": "ets",
+     "key": "warranty_terms",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078687295"
+    },
+    {
+     "namespace": "ets",
+     "key": "lead_time",
+     "type": "single_line_text_field",
+     "value": "Made to order: allow about 2 weeks for the stonemason to cut the top"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-oak-fluted-curved-wall-hung-vanity-with-2-doors-2-drawersvanitiesmela-bathroom-city-perth-9682662.webp?v=1783100533",
+     "alt": "MELA BRITTANY 1800 Oak Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers",
+     "contentType": "IMAGE"
+    },
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-oak-fluted-curved-wall-hung-vanity-with-2-doors-2-drawers-8110222.jpg?v=1765953870",
+     "alt": "MELA BRITTANY 1800 Oak Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers, view 2",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "sku": "KIT.BRI.1800.S",
+     "price": "2849",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": true,
+      "cost": "2044.77",
+      "requiresShipping": true,
+      "measurement": {
+       "weight": {
+        "value": 100,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/77786087487",
+       "name": "available",
+       "quantity": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8448706412607",
+  "variant_id": "gid://shopify/ProductVariant/44164731076671",
+  "title": "MELA BRITTANY 1800 Oak Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+  "sku": "KIT.BRI.1800.S",
+  "type": "Wall Hung Vanity",
+  "bathroom_city_handle": "mela-brittany-1800-oak-fluted-one-side-curved-vanity",
+  "bc_price": 2999,
+  "price": 2849,
+  "cost": 2044.77,
+  "margin_pct": 21.1,
+  "trade_band": 0,
+  "seo_title": "MELA BRITTANY 1800 Oak One Side Curved Vanity",
+  "seo_desc": "MELA BRITTANY 1800 Oak fluted wall hung vanity, curved one end, stone top and basin. 1780 x 455 x 550 mm. Showroom in Maddington, Perth.",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "input": {
+   "title": "MELA BRITTANY 1800 Oak Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+   "descriptionHtml": "<p>MELA BRITTANY 1800 Oak Fluted One Side Curved Wall-Hung Vanity with Door & 2 Drawers. Curved on one end only, so the square end sits flush against a wall or shower screen. A 1190 mm two-drawer cabinet, a 440 mm cupboard and a 150 mm curved end panel under a 1800 mm stone top with a single basin. Hangs off the wall for easy floor cleaning.</p><ul><li>Model: KIT.BRI.1800.S</li><li>Wall hung dimensions: 1780(W) x 455(D) x 550(H) mm</li><li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li><li>Colour: Oak</li><li>Includes 1 x 1190 mm Oak fluted wall-hung cabinet with 2 drawers</li><li>Includes 1 x 440 mm Oak fluted wall-hung cupboard</li><li>Includes 1 x 150 mm Oak fluted curved end panel</li><li>Includes 1 x 1800 mm stone top, curved one end (left or right)</li><li>Includes 1 x Gloss White ceramic basin (choice of 20 shapes)</li><li>Matt White, coloured or fluted basin upgrade available on request</li><li>Stone cutting, tapware and waste are not included</li></ul><p>Browse more <a href=\"/collections/wall-hung-vanities\">wall-hung bathroom vanities</a> or explore our <a href=\"/collections/bathroom-vanities\">bathroom vanity collection</a>.</p><h4>More details</h4><ul><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Tell us your basin choice and stone colour when you order, or see the samples in our Maddington showroom.</li></ul>",
+   "vendor": "MELA",
+   "productType": "Wall Hung Vanity",
+   "tags": [
+    "1800mm",
+    "Bathroom Vanity",
+    "BRITTANY",
+    "ebay-pickup-only",
+    "MELA",
+    "ship-local-only",
+    "Wall Hung Vanity",
+    "Fluted Vanity",
+    "Oak",
+    "Curved Vanity",
+    "Single Basin Vanity"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "MELA BRITTANY 1800 Oak One Side Curved Vanity",
+    "description": "MELA BRITTANY 1800 Oak fluted wall hung vanity, curved one end, stone top and basin. 1780 x 455 x 550 mm. Showroom in Maddington, Perth."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "range",
+     "type": "single_line_text_field",
+     "value": "BRITTANY"
+    },
+    {
+     "namespace": "ets",
+     "key": "material",
+     "type": "single_line_text_field",
+     "value": "Medium Density Fibreboard (MDF) and 15mm Backing Board"
+    },
+    {
+     "namespace": "ets",
+     "key": "width_mm",
+     "type": "number_integer",
+     "value": "1780"
+    },
+    {
+     "namespace": "ets",
+     "key": "depth_mm",
+     "type": "number_integer",
+     "value": "455"
+    },
+    {
+     "namespace": "ets",
+     "key": "height_mm",
+     "type": "number_integer",
+     "value": "550"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    },
+    {
+     "namespace": "ets",
+     "key": "care_guide",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078097471"
+    },
+    {
+     "namespace": "ets",
+     "key": "warranty_terms",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078687295"
+    },
+    {
+     "namespace": "ets",
+     "key": "lead_time",
+     "type": "single_line_text_field",
+     "value": "Made to order: allow about 2 weeks for the stonemason to cut the top"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-oak-fluted-one-side-curved-wall-hung-vanity-with-door-2-drawersvanitiesmela-bathroom-city-perth-7697479.webp?v=1782927486",
+     "alt": "MELA BRITTANY 1800 Oak Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+     "contentType": "IMAGE"
+    },
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-oak-fluted-one-side-curved-wall-hung-vanity-with-door-2-drawers-4198165.jpg?v=1765953870",
+     "alt": "MELA BRITTANY 1800 Oak Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers, view 2",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "sku": "KIT.BRI.1800.S",
+     "price": "2849",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": true,
+      "cost": "2044.77",
+      "requiresShipping": true,
+      "measurement": {
+       "weight": {
+        "value": 100,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/77786087487",
+       "name": "available",
+       "quantity": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8448706445375",
+  "variant_id": "gid://shopify/ProductVariant/44164731142207",
+  "title": "MELA BRITTANY 1800 Oak Fluted Wall Hung Double Vanity with 4 Drawers",
+  "sku": "KIT.BRI.1800",
+  "type": "Double Wall Hung Vanity",
+  "bathroom_city_handle": "mela-brittany-1800-oak-fluted-wall-hung-vanity-4-drawers",
+  "bc_price": 3499,
+  "price": 3324,
+  "cost": 2385.68,
+  "margin_pct": 21.1,
+  "trade_band": 0,
+  "seo_title": "MELA BRITTANY 1800 Oak Double Vanity, 4 Drawers | ETS",
+  "seo_desc": "MELA BRITTANY 1800 Oak fluted wall hung double vanity, 4 drawers, stone top, 2 basins. 1780 x 455 x 550 mm. Showroom in Maddington, Perth.",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "input": {
+   "title": "MELA BRITTANY 1800 Oak Fluted Wall Hung Double Vanity with 4 Drawers",
+   "descriptionHtml": "<p>MELA BRITTANY 1800 Oak Fluted Wall-Hung Double Vanity with 4 Drawers. A double vanity for a main bathroom or ensuite: two 890 mm two-drawer cabinets under a straight 1800 mm stone top with two basins. Hangs off the wall for easy floor cleaning.</p><ul><li>Model: KIT.BRI.1800</li><li>Wall hung dimensions: 1780(W) x 455(D) x 550(H) mm</li><li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li><li>Colour: Oak</li><li>Includes 2 x 890 mm Oak fluted wall-hung cabinets with 2 drawers each</li><li>Includes 1 x 1800 mm stone top (choice of 2 colours)</li><li>Includes 2 x Gloss White ceramic basins (choice of 20 shapes)</li><li>Matt White, coloured or fluted basin upgrade available on request</li><li>Stone cutting, tapware and waste are not included</li></ul><p>Browse more <a href=\"/collections/wall-hung-vanities\">wall-hung bathroom vanities</a> or explore our <a href=\"/collections/bathroom-vanities\">bathroom vanity collection</a>.</p><h4>More details</h4><ul><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Tell us your basin choice and stone colour when you order, or see the samples in our Maddington showroom.</li></ul>",
+   "vendor": "MELA",
+   "productType": "Double Wall Hung Vanity",
+   "tags": [
+    "1800mm",
+    "Bathroom Vanity",
+    "BRITTANY",
+    "ebay-pickup-only",
+    "MELA",
+    "ship-local-only",
+    "Wall Hung Vanity",
+    "Fluted Vanity",
+    "Oak",
+    "Double Vanity",
+    "Drawers"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "MELA BRITTANY 1800 Oak Double Vanity, 4 Drawers | ETS",
+    "description": "MELA BRITTANY 1800 Oak fluted wall hung double vanity, 4 drawers, stone top, 2 basins. 1780 x 455 x 550 mm. Showroom in Maddington, Perth."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "range",
+     "type": "single_line_text_field",
+     "value": "BRITTANY"
+    },
+    {
+     "namespace": "ets",
+     "key": "material",
+     "type": "single_line_text_field",
+     "value": "Medium Density Fibreboard (MDF) and 15mm Backing Board"
+    },
+    {
+     "namespace": "ets",
+     "key": "width_mm",
+     "type": "number_integer",
+     "value": "1780"
+    },
+    {
+     "namespace": "ets",
+     "key": "depth_mm",
+     "type": "number_integer",
+     "value": "455"
+    },
+    {
+     "namespace": "ets",
+     "key": "height_mm",
+     "type": "number_integer",
+     "value": "550"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    },
+    {
+     "namespace": "ets",
+     "key": "care_guide",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078097471"
+    },
+    {
+     "namespace": "ets",
+     "key": "warranty_terms",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078687295"
+    },
+    {
+     "namespace": "ets",
+     "key": "lead_time",
+     "type": "single_line_text_field",
+     "value": "Made to order: allow about 2 weeks for the stonemason to cut the top"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-oak-fluted-wall-hung-vanity-with-4-drawersvanitiesmela-bathroom-city-perth-7834016.webp?v=1783100535",
+     "alt": "MELA BRITTANY 1800 Oak Fluted Wall Hung Double Vanity with 4 Drawers",
+     "contentType": "IMAGE"
+    },
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-oak-fluted-wall-hung-vanity-with-4-drawers-9102312.jpg?v=1765953870",
+     "alt": "MELA BRITTANY 1800 Oak Fluted Wall Hung Double Vanity with 4 Drawers, view 2",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "sku": "KIT.BRI.1800",
+     "price": "3324",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": true,
+      "cost": "2385.68",
+      "requiresShipping": true,
+      "measurement": {
+       "weight": {
+        "value": 100,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/77786087487",
+       "name": "available",
+       "quantity": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8448706641983",
+  "variant_id": "gid://shopify/ProductVariant/44164733141055",
+  "title": "MELA BRITTANY 1800 Matt White Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "sku": "KIT.BRI.1800.S",
+  "type": "Wall Hung Vanity",
+  "bathroom_city_handle": "mela-brittany-1800-mwhite-fluted-curved-vanity-2-door-drawer",
+  "bc_price": 2999,
+  "price": 2849,
+  "cost": 2044.77,
+  "margin_pct": 21.1,
+  "trade_band": 0,
+  "seo_title": "MELA BRITTANY 1800 Matt White Curved Vanity, Doors & Drawers",
+  "seo_desc": "MELA BRITTANY 1800 Matt White fluted wall hung vanity curved both ends, stone top and basin. 1770 x 455 x 550 mm. Showroom in Maddington, Perth.",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "input": {
+   "title": "MELA BRITTANY 1800 Matt White Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers",
+   "descriptionHtml": "<p>MELA BRITTANY 1800 Matt White Fluted Curved Wall-Hung Vanity with 2 Doors & 2 Drawers. Curved both ends: a 890 mm two-drawer cabinet in the centre, a 290 mm cupboard each side and 150 mm curved end panels, under a 1800 mm stone top with a single basin. Hangs off the wall for easy floor cleaning.</p><ul><li>Model: KIT.BRI.1800.S</li><li>Wall hung dimensions: 1770(W) x 455(D) x 550(H) mm</li><li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li><li>Colour: Matt White</li><li>Includes 1 x 890 mm Matt White fluted wall-hung cabinet with 2 drawers</li><li>Includes 2 x 290 mm Matt White fluted wall-hung cupboards</li><li>Includes 2 x 150 mm Matt White fluted curved end panels</li><li>Includes 1 x 1800 mm stone top, curved both ends</li><li>Includes 1 x Gloss White ceramic basin (choice of 20 shapes)</li><li>Matt White, coloured or fluted basin upgrade available on request</li><li>Stone cutting, tapware and waste are not included</li></ul><p>Browse more <a href=\"/collections/wall-hung-vanities\">wall-hung bathroom vanities</a> or explore our <a href=\"/collections/bathroom-vanities\">bathroom vanity collection</a>.</p><h4>More details</h4><ul><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Tell us your basin choice and stone colour when you order, or see the samples in our Maddington showroom.</li></ul>",
+   "vendor": "MELA",
+   "productType": "Wall Hung Vanity",
+   "tags": [
+    "1800mm",
+    "Bathroom Vanity",
+    "BRITTANY",
+    "ebay-pickup-only",
+    "MELA",
+    "ship-local-only",
+    "Wall Hung Vanity",
+    "Fluted Vanity",
+    "Matt White",
+    "Curved Vanity",
+    "Single Basin Vanity"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "MELA BRITTANY 1800 Matt White Curved Vanity, Doors & Drawers",
+    "description": "MELA BRITTANY 1800 Matt White fluted wall hung vanity curved both ends, stone top and basin. 1770 x 455 x 550 mm. Showroom in Maddington, Perth."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "range",
+     "type": "single_line_text_field",
+     "value": "BRITTANY"
+    },
+    {
+     "namespace": "ets",
+     "key": "material",
+     "type": "single_line_text_field",
+     "value": "Medium Density Fibreboard (MDF) and 15mm Backing Board"
+    },
+    {
+     "namespace": "ets",
+     "key": "width_mm",
+     "type": "number_integer",
+     "value": "1770"
+    },
+    {
+     "namespace": "ets",
+     "key": "depth_mm",
+     "type": "number_integer",
+     "value": "455"
+    },
+    {
+     "namespace": "ets",
+     "key": "height_mm",
+     "type": "number_integer",
+     "value": "550"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    },
+    {
+     "namespace": "ets",
+     "key": "care_guide",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078097471"
+    },
+    {
+     "namespace": "ets",
+     "key": "warranty_terms",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078687295"
+    },
+    {
+     "namespace": "ets",
+     "key": "lead_time",
+     "type": "single_line_text_field",
+     "value": "Made to order: allow about 2 weeks for the stonemason to cut the top"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-matt-white-fluted-curved-wall-hung-vanity-with-2-doors-2-drawersvanitiesmela-bathroom-city-perth-5283529.webp?v=1782927548",
+     "alt": "MELA BRITTANY 1800 Matt White Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers",
+     "contentType": "IMAGE"
+    },
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-matt-white-fluted-curved-wall-hung-vanity-with-2-doors-2-drawers-7847329.jpg?v=1765953872",
+     "alt": "MELA BRITTANY 1800 Matt White Fluted Curved Wall Hung Vanity with 2 Doors & 2 Drawers, view 2",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "sku": "KIT.BRI.1800.S",
+     "price": "2849",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": true,
+      "cost": "2044.77",
+      "requiresShipping": true,
+      "measurement": {
+       "weight": {
+        "value": 100,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/77786087487",
+       "name": "available",
+       "quantity": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8448706707519",
+  "variant_id": "gid://shopify/ProductVariant/44164733304895",
+  "title": "MELA BRITTANY 1800 Matt White Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+  "sku": "KIT.BRI.1800.S",
+  "type": "Wall Hung Vanity",
+  "bathroom_city_handle": "mela-brittany-1800-matt-white-fluted-one-side-curved-vanity",
+  "bc_price": 2999,
+  "price": 2849,
+  "cost": 2044.77,
+  "margin_pct": 21.1,
+  "trade_band": 0,
+  "seo_title": "MELA BRITTANY 1800 Matt White One Side Curved Vanity",
+  "seo_desc": "MELA BRITTANY 1800 Matt White fluted wall hung vanity, curved one end, stone top and basin. 1780 x 455 x 550 mm. Showroom in Maddington, Perth.",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "input": {
+   "title": "MELA BRITTANY 1800 Matt White Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+   "descriptionHtml": "<p>MELA BRITTANY 1800 Matt White Fluted One Side Curved Wall-Hung Vanity with Door & 2 Drawers. Curved on one end only, so the square end sits flush against a wall or shower screen. A 1190 mm two-drawer cabinet, a 440 mm cupboard and a 150 mm curved end panel under a 1800 mm stone top with a single basin. Hangs off the wall for easy floor cleaning.</p><ul><li>Model: KIT.BRI.1800.S</li><li>Wall hung dimensions: 1780(W) x 455(D) x 550(H) mm</li><li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li><li>Colour: Matt White</li><li>Includes 1 x 1190 mm Matt White fluted wall-hung cabinet with 2 drawers</li><li>Includes 1 x 440 mm Matt White fluted wall-hung cupboard</li><li>Includes 1 x 150 mm Matt White fluted curved end panel</li><li>Includes 1 x 1800 mm stone top, curved one end (left or right)</li><li>Includes 1 x Gloss White ceramic basin (choice of 20 shapes)</li><li>Matt White, coloured or fluted basin upgrade available on request</li><li>Stone cutting, tapware and waste are not included</li></ul><p>Browse more <a href=\"/collections/wall-hung-vanities\">wall-hung bathroom vanities</a> or explore our <a href=\"/collections/bathroom-vanities\">bathroom vanity collection</a>.</p><h4>More details</h4><ul><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Tell us your basin choice and stone colour when you order, or see the samples in our Maddington showroom.</li></ul>",
+   "vendor": "MELA",
+   "productType": "Wall Hung Vanity",
+   "tags": [
+    "1800mm",
+    "Bathroom Vanity",
+    "BRITTANY",
+    "ebay-pickup-only",
+    "MELA",
+    "ship-local-only",
+    "Wall Hung Vanity",
+    "Fluted Vanity",
+    "Matt White",
+    "Curved Vanity",
+    "Single Basin Vanity"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "MELA BRITTANY 1800 Matt White One Side Curved Vanity",
+    "description": "MELA BRITTANY 1800 Matt White fluted wall hung vanity, curved one end, stone top and basin. 1780 x 455 x 550 mm. Showroom in Maddington, Perth."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "range",
+     "type": "single_line_text_field",
+     "value": "BRITTANY"
+    },
+    {
+     "namespace": "ets",
+     "key": "material",
+     "type": "single_line_text_field",
+     "value": "Medium Density Fibreboard (MDF) and 15mm Backing Board"
+    },
+    {
+     "namespace": "ets",
+     "key": "width_mm",
+     "type": "number_integer",
+     "value": "1780"
+    },
+    {
+     "namespace": "ets",
+     "key": "depth_mm",
+     "type": "number_integer",
+     "value": "455"
+    },
+    {
+     "namespace": "ets",
+     "key": "height_mm",
+     "type": "number_integer",
+     "value": "550"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    },
+    {
+     "namespace": "ets",
+     "key": "care_guide",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078097471"
+    },
+    {
+     "namespace": "ets",
+     "key": "warranty_terms",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078687295"
+    },
+    {
+     "namespace": "ets",
+     "key": "lead_time",
+     "type": "single_line_text_field",
+     "value": "Made to order: allow about 2 weeks for the stonemason to cut the top"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-matt-white-fluted-one-side-curved-wall-hung-vanity-with-door-2-drawersvanitiesmela-bathroom-city-perth-1552378.webp?v=1782927486",
+     "alt": "MELA BRITTANY 1800 Matt White Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+     "contentType": "IMAGE"
+    },
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-matt-white-fluted-one-side-curved-wall-hung-vanity-with-door-2-drawers-2964481.jpg?v=1765953870",
+     "alt": "MELA BRITTANY 1800 Matt White Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers, view 2",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "sku": "KIT.BRI.1800.S",
+     "price": "2849",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": true,
+      "cost": "2044.77",
+      "requiresShipping": true,
+      "measurement": {
+       "weight": {
+        "value": 100,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/77786087487",
+       "name": "available",
+       "quantity": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8448706805823",
+  "variant_id": "gid://shopify/ProductVariant/44164734058559",
+  "title": "MELA BRITTANY 1800 Matt White Fluted Wall Hung Double Vanity with 4 Drawers",
+  "sku": "KIT.BRI.1800",
+  "type": "Double Wall Hung Vanity",
+  "bathroom_city_handle": "mela-brittany-1800-matt-white-fluted-wall-hung-vanity-drawer",
+  "bc_price": 3499,
+  "price": 3324,
+  "cost": 2385.68,
+  "margin_pct": 21.1,
+  "trade_band": 0,
+  "seo_title": "MELA BRITTANY 1800 Matt White Double Vanity, 4 Drawers | ETS",
+  "seo_desc": "MELA BRITTANY 1800 Matt White fluted wall hung double vanity, 4 drawers, stone top, 2 basins. 1780 x 455 x 550 mm. Showroom in Maddington, Perth.",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "input": {
+   "title": "MELA BRITTANY 1800 Matt White Fluted Wall Hung Double Vanity with 4 Drawers",
+   "descriptionHtml": "<p>MELA BRITTANY 1800 Matt White Fluted Wall-Hung Double Vanity with 4 Drawers. A double vanity for a main bathroom or ensuite: two 890 mm two-drawer cabinets under a straight 1800 mm stone top with two basins. Hangs off the wall for easy floor cleaning.</p><ul><li>Model: KIT.BRI.1800</li><li>Wall hung dimensions: 1780(W) x 455(D) x 550(H) mm</li><li>Material: Medium Density Fibreboard (MDF) with 15mm backing board</li><li>Colour: Matt White</li><li>Includes 2 x 890 mm Matt White fluted wall-hung cabinets with 2 drawers each</li><li>Includes 1 x 1800 mm stone top (choice of 2 colours)</li><li>Includes 2 x Gloss White ceramic basins (choice of 20 shapes)</li><li>Matt White, coloured or fluted basin upgrade available on request</li><li>Stone cutting, tapware and waste are not included</li></ul><p>Browse more <a href=\"/collections/wall-hung-vanities\">wall-hung bathroom vanities</a> or explore our <a href=\"/collections/bathroom-vanities\">bathroom vanity collection</a>.</p><h4>More details</h4><ul><li>Our modular Brittany cabinets are pre-assembled and just need to be combined to create your perfect vanity configuration.</li><li>Tell us your basin choice and stone colour when you order, or see the samples in our Maddington showroom.</li></ul>",
+   "vendor": "MELA",
+   "productType": "Double Wall Hung Vanity",
+   "tags": [
+    "1800mm",
+    "Bathroom Vanity",
+    "BRITTANY",
+    "ebay-pickup-only",
+    "MELA",
+    "ship-local-only",
+    "Wall Hung Vanity",
+    "Fluted Vanity",
+    "Matt White",
+    "Double Vanity",
+    "Drawers"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "MELA BRITTANY 1800 Matt White Double Vanity, 4 Drawers | ETS",
+    "description": "MELA BRITTANY 1800 Matt White fluted wall hung double vanity, 4 drawers, stone top, 2 basins. 1780 x 455 x 550 mm. Showroom in Maddington, Perth."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "range",
+     "type": "single_line_text_field",
+     "value": "BRITTANY"
+    },
+    {
+     "namespace": "ets",
+     "key": "material",
+     "type": "single_line_text_field",
+     "value": "Medium Density Fibreboard (MDF) and 15mm Backing Board"
+    },
+    {
+     "namespace": "ets",
+     "key": "width_mm",
+     "type": "number_integer",
+     "value": "1780"
+    },
+    {
+     "namespace": "ets",
+     "key": "depth_mm",
+     "type": "number_integer",
+     "value": "455"
+    },
+    {
+     "namespace": "ets",
+     "key": "height_mm",
+     "type": "number_integer",
+     "value": "550"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    },
+    {
+     "namespace": "ets",
+     "key": "care_guide",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078097471"
+    },
+    {
+     "namespace": "ets",
+     "key": "warranty_terms",
+     "type": "metaobject_reference",
+     "value": "gid://shopify/Metaobject/290078687295"
+    },
+    {
+     "namespace": "ets",
+     "key": "lead_time",
+     "type": "single_line_text_field",
+     "value": "Made to order: allow about 2 weeks for the stonemason to cut the top"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-matt-white-fluted-wall-hung-vanity-with-4-drawersvanitiesmela-bathroom-city-perth-5361741.webp?v=1782927548",
+     "alt": "MELA BRITTANY 1800 Matt White Fluted Wall Hung Double Vanity with 4 Drawers",
+     "contentType": "IMAGE"
+    },
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-brittany-1800-matt-white-fluted-wall-hung-vanity-with-4-drawers-4514778.jpg?v=1765953872",
+     "alt": "MELA BRITTANY 1800 Matt White Fluted Wall Hung Double Vanity with 4 Drawers, view 2",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "sku": "KIT.BRI.1800",
+     "price": "3324",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": true,
+      "cost": "2385.68",
+      "requiresShipping": true,
+      "measurement": {
+       "weight": {
+        "value": 100,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/77786087487",
+       "name": "available",
+       "quantity": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8448707166271",
+  "variant_id": "gid://shopify/ProductVariant/44164739301439",
+  "title": "MELA AERI 1500 LED Arch Mirror",
+  "sku": "AERI.1500LED.1",
+  "type": "LED Mirror",
+  "bathroom_city_handle": "mela-aeri-1500-led-arch-mirror",
+  "bc_price": 699,
+  "price": 664,
+  "cost": 476.59,
+  "margin_pct": 21.0,
+  "trade_band": 0,
+  "seo_title": "MELA AERI 1500 LED Arch Mirror | Bathroom Mirror | ETS",
+  "seo_desc": "MELA AERI 1500 x 900 LED arch mirror: dimmable warm, natural or cool white light, touch control, IP54. Pickup or local delivery in Perth.",
+  "collections": [
+   "mirrors",
+   "led-mirrors"
+  ],
+  "input": {
+   "title": "MELA AERI 1500 LED Arch Mirror",
+   "descriptionHtml": "<p>The MELA AERI 1500 LED arch mirror is a wide landscape mirror with a soft arched top, a backlit LED halo and a touch dimmer. At 1500 mm wide it suits a double vanity or a long single vanity where you want one mirror instead of two.</p><ul><li><strong>Size:</strong> 1500 mm wide × 900 mm high (AERI.1500LED.1)</li><li><strong>Shape:</strong> Landscape arch with a slim frame</li><li><strong>Light:</strong> Backlit LED around the edge of the mirror for even, shadow-free light at the vanity</li><li><strong>Light colour:</strong> Warm white, natural white or cool white (3000–6000 K), dimmable, CRI over 80</li><li><strong>Control:</strong> Touch button on the mirror face for on/off, colour and brightness, with memory so it comes back on at your last setting</li><li><strong>Power:</strong> 220–240 V, plug-in or hard-wired; hard-wiring must be done by a licensed electrician</li><li><strong>Rating:</strong> IP54 splash and dust protection</li><li><strong>Mounting:</strong> Wall-mounted, easy to install</li><li><strong>Warranty:</strong> 3 years on the mirror (MELA)</li><li><strong>Care:</strong> Clean with 30% methylated spirits in water on a soft cloth. No Windex-type glass cleaners, bleach, ammonia or abrasives, and keep water off the back and edges</li></ul><p>Pairs well with the 1500 and 1800 mm <a href=\"/collections/double-vanities\">double vanities</a>. Browse more <a href=\"/collections/led-mirrors\">LED bathroom mirrors</a>.</p><h4>Delivery</h4><ul><li>Too long for Australia Post: pickup from Maddington or Perth metro delivery. Ask us for a freight quote elsewhere.</li></ul>",
+   "vendor": "MELA",
+   "productType": "LED Mirror",
+   "tags": [
+    "1500mm",
+    "Anti Fog",
+    "Arch LED Mirror",
+    "Arch Mirror",
+    "Backlit Mirror",
+    "Dimmable",
+    "ebay-pickup-only",
+    "IP54",
+    "LED Mirror",
+    "MELA",
+    "Mirror",
+    "ship-local-only",
+    "AERI"
+   ],
+   "status": "ACTIVE",
+   "seo": {
+    "title": "MELA AERI 1500 LED Arch Mirror | Bathroom Mirror | ETS",
+    "description": "MELA AERI 1500 x 900 LED arch mirror: dimmable warm, natural or cool white light, touch control, IP54. Pickup or local delivery in Perth."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "range",
+     "type": "single_line_text_field",
+     "value": "MELA AERI"
+    },
+    {
+     "namespace": "ets",
+     "key": "material",
+     "type": "single_line_text_field",
+     "value": "Copper-free silver mirror, slim frame, backlit LED"
+    },
+    {
+     "namespace": "ets",
+     "key": "installation",
+     "type": "single_line_text_field",
+     "value": "Wall-mounted; plug-in or hard-wired (licensed electrician)"
+    },
+    {
+     "namespace": "ets",
+     "key": "warranty",
+     "type": "single_line_text_field",
+     "value": "3 years on the mirror (MELA)"
+    },
+    {
+     "namespace": "ets",
+     "key": "care",
+     "type": "multi_line_text_field",
+     "value": "Clean with a 30% methylated spirits / 70% water mix on a soft cloth. Keep water off the back and edges and wipe around the edge to stop salt and calcium build-up. Do not use Windex or similar glass cleaners, bleach, ammonia, acidic cleaners, alcohol or mineral-based solvents, or abrasive pads."
+    },
+    {
+     "namespace": "ets",
+     "key": "width_mm",
+     "type": "number_integer",
+     "value": "1500"
+    },
+    {
+     "namespace": "ets",
+     "key": "height_mm",
+     "type": "number_integer",
+     "value": "900"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    },
+    {
+     "namespace": "mm-google-shopping",
+     "key": "google_product_category",
+     "type": "string",
+     "value": "595"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-aeri-1500-led-arch-mirrormirrormela-bathroom-city-perth-5705131.png?v=1779092827",
+     "alt": "MELA AERI 1500 LED Arch Mirror",
+     "contentType": "IMAGE"
+    },
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-aeri-1500-led-arch-mirrormirrormela-bathroom-city-perth-9221331.webp?v=1782407950",
+     "alt": "MELA AERI 1500 LED Arch Mirror, view 2",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "sku": "AERI.1500LED.1",
+     "price": "664",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": true,
+      "cost": "476.59",
+      "requiresShipping": true,
+      "measurement": {
+       "weight": {
+        "value": 22,
+        "unit": "KILOGRAMS"
+       }
+      }
+     },
+     "inventoryQuantities": [
+      {
+       "locationId": "gid://shopify/Location/77786087487",
+       "name": "available",
+       "quantity": 0
+      }
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8450190737471",
+  "handle": "ets-vanity-stone-top-upgrade",
+  "title": "MELA Vanity Stone Top Upgrade: Carrara",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block. Priced $190 on 20 Oct, raised to $200 (= Bathroom City) the same day with the owner's OK: at stone top 20% the cost is $145.45 and the floor is $200. Margin 20%.",
+  "input": {
+   "handle": "ets-vanity-stone-top-upgrade",
+   "title": "MELA Vanity Stone Top Upgrade: Carrara",
+   "descriptionHtml": "<p>Swap the standard Pearl White silica-free stone top on a MELA vanity package for a Carrara-look stone top with soft grey veining on white. Same size and edge profile as the standard top for your vanity.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on",
+    "ship-local-only"
+   ],
+   "seo": {
+    "title": "MELA Vanity Stone Top Upgrade: Carrara | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-option-set-for-vanity-carrara-stop-upgrademela-bathroom-city-perth-2735986.png?v=1757555171",
+     "alt": "MELA Vanity Stone Top Upgrade: Carrara",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Title",
+     "values": [
+      {
+       "name": "Default Title"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Title",
+       "name": "Default Title"
+      }
+     ],
+     "price": "190",
+     "sku": "OPT.STONE.CARRARA",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8450191523903",
+  "handle": "ets-vanity-basin-upgrade",
+  "title": "MELA Vanity Basin Upgrade",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block; price = Bathroom City option price less 5%; cost set 20 Oct 2026 from the SILVER sheet (basins 30%): $50.91 single, $101.82 double, 26% margin",
+  "input": {
+   "handle": "ets-vanity-basin-upgrade",
+   "title": "MELA Vanity Basin Upgrade",
+   "descriptionHtml": "<p>Upgrade the standard gloss white ceramic basin in a MELA vanity package to a matt white, matt black or designer basin. The upgrade price is per basin: choose the double option for a double vanity, which replaces both basins.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on",
+    "ship-local-only"
+   ],
+   "seo": {
+    "title": "MELA Vanity Basin Upgrade | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-arch-above-counter-basin-3541510.png?v=1754634689",
+     "alt": "MELA Vanity Basin Upgrade",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Basin",
+     "values": [
+      {
+       "name": "ARCH Above Counter"
+      },
+      {
+       "name": "BAYLEE Matt Black Above Counter"
+      },
+      {
+       "name": "BAYLEE Matt White Above Counter"
+      },
+      {
+       "name": "DAVISSON Matt Black Above Counter"
+      },
+      {
+       "name": "DAVISSON Matt White Above Counter"
+      },
+      {
+       "name": "DEBBA Matt White Half Inset"
+      },
+      {
+       "name": "NUIE Above Counter"
+      },
+      {
+       "name": "OVALI Above Counter"
+      },
+      {
+       "name": "SELVA Matt White Half Inset"
+      }
+     ]
+    },
+    {
+     "name": "Vanity",
+     "values": [
+      {
+       "name": "Single vanity (1 basin)"
+      },
+      {
+       "name": "Double vanity (2 basins)"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "ARCH Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.01.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "ARCH Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.01.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.02.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.02.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.03.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "BAYLEE Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.03.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.04.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt Black Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.04.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.05.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DAVISSON Matt White Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.05.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DEBBA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.06.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "DEBBA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.06.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "NUIE Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.07.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "NUIE Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.07.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "OVALI Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.08.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "OVALI Above Counter"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.08.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "SELVA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity (1 basin)"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.BASIN.09.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Basin",
+       "name": "SELVA Matt White Half Inset"
+      },
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity (2 basins)"
+      }
+     ],
+     "price": "152",
+     "sku": "OPT.BASIN.09.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8450191851583",
+  "handle": "ets-vanity-stone-cutting",
+  "title": "MELA Vanity Stone Top Cutting",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "input": {
+   "handle": "ets-vanity-stone-cutting",
+   "title": "MELA Vanity Stone Top Cutting",
+   "descriptionHtml": "<p>Have the stonemason cut your MELA vanity stone top for the basin and tap before it leaves the warehouse: the basin hole for an above counter, inset, half inset or ASPRA undermount basin, with the mixer hole on the left, centre or right if your tap mounts on the top. Wall-mounted mixers need no mixer hole. For a double vanity, add one cut for each side.</p><p>Cutting is done to the basin you choose with the vanity. Allow about 2 weeks.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on"
+   ],
+   "seo": {
+    "title": "MELA Vanity Stone Cutting: Basin & Mixer Holes | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-option-set-for-double-vanity-cutting-left-side-above-counter-hole-cutting-with-centre-mixer-holemela-bathroom-city-perth-4058587.png?v=1756910800",
+     "alt": "MELA Vanity Stone Top Cutting",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Cut",
+     "values": [
+      {
+       "name": "Above counter basin hole"
+      },
+      {
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      }
+     ]
+    },
+    {
+     "name": "Side",
+     "values": [
+      {
+       "name": "Single vanity"
+      },
+      {
+       "name": "Double vanity: left side"
+      },
+      {
+       "name": "Double vanity: right side"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter basin hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "33",
+     "sku": "OPT.CUT.01.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter basin hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "33",
+     "sku": "OPT.CUT.01.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter basin hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "33",
+     "sku": "OPT.CUT.01.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.02.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.02.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.02.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.03.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.03.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.03.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.04.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.04.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Above counter hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "66",
+     "sku": "OPT.CUT.04.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.CUT.05.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.CUT.05.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset basin hole, no mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.CUT.05.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.06.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.06.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + left mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.06.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.07.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.07.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.07.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.08.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.08.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "Inset or half inset hole + right mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "109",
+     "sku": "OPT.CUT.08.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "285",
+     "sku": "OPT.CUT.09.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "285",
+     "sku": "OPT.CUT.09.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "285",
+     "sku": "OPT.CUT.09.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "318",
+     "sku": "OPT.CUT.10.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: left side"
+      }
+     ],
+     "price": "318",
+     "sku": "OPT.CUT.10.L",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Cut",
+       "name": "ASPRA undermount: cut, polish and mount + centre mixer hole"
+      },
+      {
+       "optionName": "Side",
+       "name": "Double vanity: right side"
+      }
+     ],
+     "price": "318",
+     "sku": "OPT.CUT.10.R",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": false
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "gid://shopify/Product/8450192441407",
+  "handle": "ets-vanity-kickboard",
+  "title": "MELA Vanity Kickboard",
+  "type": "Vanity Option",
+  "added": "2026-10-20",
+  "note": "Add-on for the vanity options block (theme snippet ets-pdp-options); price = Bathroom City option set price less 5%, no cost (needs-cost)",
+  "input": {
+   "handle": "ets-vanity-kickboard",
+   "title": "MELA Vanity Kickboard",
+   "descriptionHtml": "<p>A matching kickboard that closes the gap under a wall-hung MELA vanity for a built-in look. Same finish as your vanity cabinets. Choose the double option for a double vanity.</p><p>This is an option for MELA vanity packages. Choose it on the vanity product page so it is ordered with the right vanity; it is not sold on its own.</p>",
+   "vendor": "Excellent Tiling Services",
+   "productType": "Vanity Option",
+   "status": "ACTIVE",
+   "tags": [
+    "vanity-option",
+    "needs-cost",
+    "MELA vanity add-on",
+    "ship-local-only"
+   ],
+   "seo": {
+    "title": "MELA Vanity Kickboard | ETS Perth",
+    "description": "Add-on for MELA vanity packages from Excellent Tiling Services, Maddington, Perth. Choose it on the vanity's page; it is not sold on its own."
+   },
+   "metafields": [
+    {
+     "namespace": "ets",
+     "key": "supplier",
+     "type": "single_line_text_field",
+     "value": "Bathroom City"
+    },
+    {
+     "namespace": "ets",
+     "key": "trade_band",
+     "type": "number_integer",
+     "value": "0"
+    }
+   ],
+   "files": [
+    {
+     "originalSource": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-option-set-for-vanity-kickboardmela-bathroom-city-perth-6006523.png?v=1757555170",
+     "alt": "MELA Vanity Kickboard",
+     "contentType": "IMAGE"
+    }
+   ],
+   "productOptions": [
+    {
+     "name": "Vanity",
+     "values": [
+      {
+       "name": "Single vanity"
+      },
+      {
+       "name": "Double vanity"
+      }
+     ]
+    }
+   ],
+   "variants": [
+    {
+     "optionValues": [
+      {
+       "optionName": "Vanity",
+       "name": "Single vanity"
+      }
+     ],
+     "price": "47",
+     "sku": "OPT.KICK.S",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    },
+    {
+     "optionValues": [
+      {
+       "optionName": "Vanity",
+       "name": "Double vanity"
+      }
+     ],
+     "price": "76",
+     "sku": "OPT.KICK.D",
+     "inventoryPolicy": "CONTINUE",
+     "taxable": true,
+     "inventoryItem": {
+      "tracked": false,
+      "requiresShipping": true
+     }
+    }
+   ]
+  }
+ }
+]

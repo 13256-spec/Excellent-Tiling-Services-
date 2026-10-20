@@ -1,0 +1,3798 @@
+[
+ {
+  "id": "gid://shopify/Product/8450245918783",
+  "handle": "mela-morris-995mm-curved-frameless-shower-panel",
+  "title": "MELA MORRIS 995mm Curved Frameless Shower Panel",
+  "type": "Frameless Shower Panel",
+  "trade_band": 20,
+  "ship": "local",
+  "collections": [
+   "shower-screens",
+   "frameless-shower-panels",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-morris-995mm-curved-frameless-shower-panel-9",
+    "bc_title": "MELA - MORRIS 995mm Curved Frameless Shower Panel",
+    "fin": "",
+    "sku": "",
+    "bc_list": 449.0,
+    "bc_price": 449.0,
+    "price": 426,
+    "cost": 244.91,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450245984319",
+  "handle": "mela-morris-895mm-curved-frameless-shower-panel",
+  "title": "MELA MORRIS 895mm Curved Frameless Shower Panel",
+  "type": "Frameless Shower Panel",
+  "trade_band": 20,
+  "ship": "local",
+  "collections": [
+   "shower-screens",
+   "frameless-shower-panels",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-morris-895mm-curved-frameless-shower-panel",
+    "bc_title": "MELA - MORRIS 895mm Curved Frameless Shower Panel",
+    "fin": "",
+    "sku": "",
+    "bc_list": 439.0,
+    "bc_price": 439.0,
+    "price": 417,
+    "cost": 239.45,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450246017087",
+  "handle": "mela-nuda-above-counter-concrete-basin",
+  "title": "MELA NUDA Above Counter Concrete Basin",
+  "type": "Above Counter Basin",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "above-counter-basins",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-nuda-pink-above-counter-concrete-basin",
+    "bc_title": "MELA - NUDA Pink Above Counter Concrete Basin",
+    "fin": "Pink",
+    "sku": "NUDA.CONCRETE.PINK",
+    "bc_list": 425.0,
+    "bc_price": 425.0,
+    "price": 403,
+    "cost": 270.45,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-nuda-sage-above-counter-concrete-basin",
+    "bc_title": "MELA - NUDA Sage Above Counter Concrete Basin",
+    "fin": "Sage",
+    "sku": "NUDA.CONCRETE.SAGE",
+    "bc_list": 425.0,
+    "bc_price": 425.0,
+    "price": 403,
+    "cost": 270.45,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-nuda-sand-above-counter-concrete-basin",
+    "bc_title": "MELA - NUDA Sand Above Counter Concrete Basin",
+    "fin": "Sand",
+    "sku": "NUDA.CONCRETE.SAND",
+    "bc_list": 425.0,
+    "bc_price": 425.0,
+    "price": 403,
+    "cost": 270.45,
+    "margin": 26.2,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450245886015",
+  "handle": "mela-jade-above-counter-concrete-basin",
+  "title": "MELA JADE Above Counter Concrete Basin",
+  "type": "Above Counter Basin",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "above-counter-basins",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-jade-pink-above-counter-concrete-basin",
+    "bc_title": "MELA - JADE Pink Above Counter Concrete Basin",
+    "fin": "Pink",
+    "sku": "JADE.CONCRETE.PINK",
+    "bc_list": 525.0,
+    "bc_price": 525.0,
+    "price": 498,
+    "cost": 334.09,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-jade-sage-above-counter-concrete-basin",
+    "bc_title": "MELA - JADE Sage Above Counter Concrete Basin",
+    "fin": "Sage",
+    "sku": "JADE.CONCRETE.SAGE",
+    "bc_list": 525.0,
+    "bc_price": 525.0,
+    "price": 498,
+    "cost": 334.09,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-jade-sand-above-counter-concrete-basin",
+    "bc_title": "MELA - JADE Sand Above Counter Concrete Basin",
+    "fin": "Sand",
+    "sku": "JADE.CONCRETE.SAND",
+    "bc_list": 525.0,
+    "bc_price": 525.0,
+    "price": 498,
+    "cost": 334.09,
+    "margin": 26.2,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450246082623",
+  "handle": "mela-aria-above-counter-concrete-basin",
+  "title": "MELA ARIA Above Counter Concrete Basin",
+  "type": "Above Counter Basin",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "above-counter-basins",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-aria-above-counter-concrete-basin",
+    "bc_title": "MELA - ARIA Pink Above Counter Concrete Basin",
+    "fin": "Pink",
+    "sku": "ARIA.CONCRETE.PINK",
+    "bc_list": 525.0,
+    "bc_price": 525.0,
+    "price": 498,
+    "cost": 334.09,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-aria-sage-above-counter-concrete-basin",
+    "bc_title": "MELA - ARIA Sage Above Counter Concrete Basin",
+    "fin": "Sage",
+    "sku": "ARIA.CONCRETE.SAGE",
+    "bc_list": 525.0,
+    "bc_price": 525.0,
+    "price": 498,
+    "cost": 334.09,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-aria-sand-above-counter-concrete-basin",
+    "bc_title": "MELA - ARIA Sand Above Counter Concrete Basin",
+    "fin": "Sand",
+    "sku": "ARIA.CONCRETE.SAND",
+    "bc_list": 525.0,
+    "bc_price": 525.0,
+    "price": 498,
+    "cost": 334.09,
+    "margin": 26.2,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450246115391",
+  "handle": "mela-aeri-1800-led-arch-mirror",
+  "title": "MELA AERI 1800 LED Arch Mirror",
+  "type": "LED Mirror",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "mirrors",
+   "led-mirrors"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-aeri-1800-led-arch-mirror",
+    "bc_title": "MELA - AERI 1800 LED Arch Mirror",
+    "fin": "",
+    "sku": "AERI.1800LED.1",
+    "bc_list": 799.0,
+    "bc_price": 799.0,
+    "price": 759,
+    "cost": 544.77,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450246148159",
+  "handle": "mela-aeri-1200-led-arch-mirror",
+  "title": "MELA AERI 1200 LED Arch Mirror",
+  "type": "LED Mirror",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "mirrors",
+   "led-mirrors"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-aeri-1200-led-arch-mirror",
+    "bc_title": "MELA - AERI 1200 LED Arch Mirror",
+    "fin": "",
+    "sku": "AERI.1200.LED.1",
+    "bc_list": 599.0,
+    "bc_price": 599.0,
+    "price": 569,
+    "cost": 408.41,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450246049855",
+  "handle": "mela-amio-ambulant-rimless-toilet-suite",
+  "title": "MELA AMIO Ambulant Rimless Toilet Suite",
+  "type": "Toilet Suite",
+  "trade_band": 20,
+  "ship": "local",
+  "collections": [
+   "toilets",
+   "rimless-toilets",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-amio-ambulant-rimless-toilet-suite",
+    "bc_title": "MELA - Amio Ambulant Rimless Toilet Suite",
+    "fin": "",
+    "sku": "KIT.AMIO.Toilet Suite",
+    "bc_list": 999.0,
+    "bc_price": 999.0,
+    "price": 949,
+    "cost": 544.91,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269577279",
+  "handle": "mela-elio-smart-wall-face-toilet-suite",
+  "title": "MELA ELIO Smart Wall Face Toilet Suite",
+  "type": "Toilet Suite",
+  "trade_band": 20,
+  "ship": "local",
+  "collections": [
+   "toilets",
+   "wall-faced-toilets",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-elio-smart-wall-face-toilet-suite",
+    "bc_title": "MELA - ELIO Smart Wall Face Toilet Suite",
+    "fin": "",
+    "sku": "ELIO. Smart Wall Face Suite",
+    "bc_list": 2999.0,
+    "bc_price": 2999.0,
+    "price": 2849,
+    "cost": 1635.82,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450246311999",
+  "handle": "mela-miro-smart-toilet-suite",
+  "title": "MELA MIRO Smart Toilet Suite",
+  "type": "Toilet Suite",
+  "trade_band": 20,
+  "ship": "local",
+  "collections": [
+   "toilets",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-miro-smart-toilet-suite",
+    "bc_title": "MELA - MIRO Smart Toilet Suite",
+    "fin": "",
+    "sku": "KIT.MIRO.Smart Toilet Suite",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1581.27,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269478975",
+  "handle": "mela-milano-1800-wall-hung-vanity-with-2-doors-drawers",
+  "title": "MELA MILANO 1800 Wall Hung Vanity with 2 Doors & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1800-black-oak-wall-hung-vanity-2-doors-drawers",
+    "bc_title": "MELA - MILANO 1800 Black Oak Wall Hung Vanity with 2 Doors & Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO1800DW.S.BO.SHELVES",
+    "bc_list": 2649.0,
+    "bc_price": 2649.0,
+    "price": 2516,
+    "cost": 1806.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269544511",
+  "handle": "mela-milano-1800-wall-hung-vanity-with-door-2-drawers",
+  "title": "MELA MILANO 1800 Wall Hung Vanity with Door & 2 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1800-black-oak-wall-hung-vanity-door-2-drawers",
+    "bc_title": "MELA - MILANO 1800 Black Oak Wall Hung Vanity with Door & 2 Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.1800DW.D.BO.SHELVES",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269610047",
+  "handle": "mela-milano-1800-wall-hung-vanity-with-drawers",
+  "title": "MELA MILANO 1800 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1800-black-oak-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - MILANO 1800 Black Oak Wall Hung Vanity with Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.1800DW.BO",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269511743",
+  "handle": "mela-milano-1500-wall-hung-vanity-with-2-doors-drawers",
+  "title": "MELA MILANO 1500 Wall Hung Vanity with 2 Doors & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1500-black-oak-wall-hung-vanity-2-doors-drawers",
+    "bc_title": "MELA - MILANO 1500 Black Oak Wall Hung Vanity with 2 Doors & Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO1500DW.S.BO.SHELVES",
+    "bc_list": 2549.0,
+    "bc_price": 2549.0,
+    "price": 2421,
+    "cost": 1737.95,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269708351",
+  "handle": "mela-milano-1500-wall-hung-vanity-with-door-2-drawers",
+  "title": "MELA MILANO 1500 Wall Hung Vanity with Door & 2 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1500-black-oak-wall-hung-vanity-door-2-drawers",
+    "bc_title": "MELA - MILANO 1500 Black Oak Wall Hung Vanity with Door & 2 Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO1500DW.D.BO.SHELVES",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269642815",
+  "handle": "mela-milano-1500-wall-hung-vanity-with-drawers",
+  "title": "MELA MILANO 1500 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1500-black-oak-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - MILANO 1500 Black Oak Wall Hung Vanity with Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.1500DW.BO",
+    "bc_list": 2699.0,
+    "bc_price": 2699.0,
+    "price": 2564,
+    "cost": 1840.23,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269904959",
+  "handle": "mela-milano-1200-wall-hung-vanity-with-2-doors-drawers",
+  "title": "MELA MILANO 1200 Wall Hung Vanity with 2 Doors & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1200-black-oak-wall-hung-vanity-2-doors-drawers",
+    "bc_title": "MELA - MILANO 1200 Black Oak Wall Hung Vanity with 2 Doors & Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.1200DW.BO.SHELVES",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269675583",
+  "handle": "mela-milano-400-wall-hung-tallboy-with-2-doors",
+  "title": "MELA MILANO 400 Wall Hung Tallboy with 2 Doors",
+  "type": "Bathroom Tallboy",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-storage-tallboys"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-400-black-oak-wall-hung-tallboy-with-2-doors",
+    "bc_title": "MELA - MILANO 400 Black Oak Wall Hung Tallboy with 2 Doors",
+    "fin": "Black Oak",
+    "sku": "MILANO.400T.BO",
+    "bc_list": 1099.0,
+    "bc_price": 1099.0,
+    "price": 1044,
+    "cost": 749.32,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269937727",
+  "handle": "mela-milano-1200-wall-hung-vanity-with-drawers",
+  "title": "MELA MILANO 1200 Wall Hung Vanity with Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-1200-black-oak-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - MILANO 1200 Black Oak Wall Hung Vanity with Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.1200DW.BO",
+    "bc_list": 1649.0,
+    "bc_price": 1649.0,
+    "price": 1566,
+    "cost": 1124.32,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269773887",
+  "handle": "mela-milano-900-wall-hung-vanity-with-door-drawers",
+  "title": "MELA MILANO 900 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-900-black-oak-wall-hung-vanity-with-door-drawers",
+    "bc_title": "MELA - MILANO 900 Black Oak Wall Hung Vanity with Door & Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.900DW.BO.SHELVES",
+    "bc_list": 1549.0,
+    "bc_price": 1549.0,
+    "price": 1471,
+    "cost": 1056.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270068799",
+  "handle": "mela-milano-900-wall-hung-vanity-with-drawers",
+  "title": "MELA MILANO 900 Wall Hung Vanity with Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-900-black-oak-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - MILANO 900 Black Oak Wall Hung Vanity with Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.900DW.BO",
+    "bc_list": 1399.0,
+    "bc_price": 1399.0,
+    "price": 1329,
+    "cost": 953.86,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450269806655",
+  "handle": "mela-milano-750-wall-hung-vanity-with-drawers",
+  "title": "MELA MILANO 750 Wall Hung Vanity with Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-750-black-oak-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - MILANO 750 Black Oak Wall Hung Vanity with Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.750DW.BO",
+    "bc_list": 1299.0,
+    "bc_price": 1299.0,
+    "price": 1234,
+    "cost": 885.68,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270003263",
+  "handle": "mela-milano-600-wall-hung-vanity-with-drawers",
+  "title": "MELA MILANO 600 Wall Hung Vanity with Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-milano-600-black-oak-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - MILANO 600 Black Oak Wall Hung Vanity with Drawers",
+    "fin": "Black Oak",
+    "sku": "KIT.MILANO.600DW.BO",
+    "bc_list": 1199.0,
+    "bc_price": 1199.0,
+    "price": 1139,
+    "cost": 817.5,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270036031",
+  "handle": "mela-luna-1800-curved-wall-hung-vanity-with-2-doors-drawer",
+  "title": "MELA LUNA 1800 Curved Wall Hung Vanity with 2 Doors & Drawer",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-luna-1800-matt-white-curved-wall-hung-vanity",
+    "bc_title": "MELA - LUNA 1800 Matt White Curved Wall Hung Vanity with 2 Doors & Drawer",
+    "fin": "Matt White",
+    "sku": "KIT.LUNA.1800",
+    "bc_list": 3099.0,
+    "bc_price": 3099.0,
+    "price": 2944,
+    "cost": 2112.95,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270134335",
+  "handle": "mela-luna-1500-curved-wall-hung-vanity-with-2-doors-drawer",
+  "title": "MELA LUNA 1500 Curved Wall Hung Vanity with 2 Doors & Drawer",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-luna-1500-matt-white-curved-wall-hung-vanity",
+    "bc_title": "MELA - LUNA 1500 Matt White Curved Wall Hung Vanity with 2 Doors & Drawer",
+    "fin": "Matt White",
+    "sku": "KIT.LUNA.1500",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270101567",
+  "handle": "mela-luna-1200-curved-wall-hung-vanity-with-drawer",
+  "title": "MELA LUNA 1200 Curved Wall Hung Vanity with Drawer",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-luna-1200-matt-white-curved-wall-hung-vanity-drawer",
+    "bc_title": "MELA - LUNA 1200 Matt White Curved Wall Hung Vanity with Drawer",
+    "fin": "Matt White",
+    "sku": "KIT.LUNA.1200",
+    "bc_list": 2049.0,
+    "bc_price": 2049.0,
+    "price": 1946,
+    "cost": 1397.05,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270330943",
+  "handle": "mela-luna-900-curved-wall-hung-vanity-with-drawer",
+  "title": "MELA LUNA 900 Curved Wall Hung Vanity with Drawer",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-luna-900-matt-white-curved-wall-hung-vanity-with-drawer",
+    "bc_title": "MELA - LUNA 900 Matt White Curved Wall Hung Vanity with Drawer",
+    "fin": "Matt White",
+    "sku": "KIT.LUNA.900",
+    "bc_list": 1749.0,
+    "bc_price": 1749.0,
+    "price": 1661,
+    "cost": 1192.5,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270232639",
+  "handle": "mela-luna-750-curved-wall-hung-vanity-with-drawer",
+  "title": "MELA LUNA 750 Curved Wall Hung Vanity with Drawer",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-luna-750-matt-white-curved-wall-hung-vanity-with-drawer",
+    "bc_title": "MELA - LUNA 750 Matt White Curved Wall Hung Vanity with Drawer",
+    "fin": "Matt White",
+    "sku": "KIT.LUNA.750",
+    "bc_list": 1549.0,
+    "bc_price": 1549.0,
+    "price": 1471,
+    "cost": 1056.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270265407",
+  "handle": "mela-luna-600-curved-wall-hung-vanity-with-drawer",
+  "title": "MELA LUNA 600 Curved Wall Hung Vanity with Drawer",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-luna-600-matt-white-curved-wall-hung-vanity",
+    "bc_title": "MELA - LUNA 600 Matt White Curved Wall Hung Vanity with Drawer",
+    "fin": "Matt White",
+    "sku": "KIT.LUNA.600",
+    "bc_list": 1349.0,
+    "bc_price": 1349.0,
+    "price": 1281,
+    "cost": 919.77,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270167103",
+  "handle": "mela-smart-bidet-seat-handle",
+  "title": "MELA Smart Bidet Seat Handle",
+  "type": "Bidet Seat",
+  "trade_band": 0,
+  "ship": "bulky",
+  "collections": [
+   "toilets"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-smart-bidet-seat-handle",
+    "bc_title": "MELA - Smart Bidet Seat Handle",
+    "fin": "",
+    "sku": "ST-212",
+    "bc_list": 799.0,
+    "bc_price": 799.0,
+    "price": 799,
+    "cost": 581.09,
+    "margin": 20.0,
+    "flag": "Bathroom City $799 is below our floor; priced at the floor"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270429247",
+  "handle": "mela-smart-bidet-seat-separate",
+  "title": "MELA Smart Bidet Seat Separate",
+  "type": "Bidet Seat",
+  "trade_band": 0,
+  "ship": "bulky",
+  "collections": [
+   "toilets"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-smart-bidet-seat-separate",
+    "bc_title": "MELA - Smart Bidet Seat Separate",
+    "fin": "",
+    "sku": "ST-203",
+    "bc_list": 799.0,
+    "bc_price": 799.0,
+    "price": 799,
+    "cost": 581.09,
+    "margin": 20.0,
+    "flag": "Bathroom City $799 is below our floor; priced at the floor"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270462015",
+  "handle": "mela-rondo-sink-mixer-tall",
+  "title": "MELA RONDO Sink Mixer (Tall)",
+  "type": "Kitchen Sink Mixer",
+  "trade_band": 0,
+  "ship": "parcel",
+  "collections": [
+   "tapware",
+   "kitchen-tapware",
+   "kitchen-laundry"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-rondo-sink-mixer-chrome-tall",
+    "bc_title": "MELA - RONDO Sink Mixer Chrome (Tall)",
+    "fin": "Chrome",
+    "sku": "RON.SM.001.TALL",
+    "bc_list": 189.0,
+    "bc_price": 151.2,
+    "price": 143,
+    "cost": 103.09,
+    "margin": 20.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-rondo-sink-mixer-brushed-nickel-tall",
+    "bc_title": "MELA - RONDO Sink Mixer Brushed Nickel (Tall)",
+    "fin": "Brushed Nickel",
+    "sku": "RON.SM.001BN.TALL",
+    "bc_list": 269.0,
+    "bc_price": 215.2,
+    "price": 204,
+    "cost": 146.73,
+    "margin": 20.9,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-rondo-sink-mixer-brushed-brass-tall",
+    "bc_title": "MELA - RONDO Sink Mixer Brushed Brass (Tall)",
+    "fin": "Brushed Brass",
+    "sku": "RON.SM.001BB.TALL",
+    "bc_list": 329.0,
+    "bc_price": 263.3,
+    "price": 250,
+    "cost": 179.45,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450245394495",
+  "handle": "mela-toilet-flush-button",
+  "title": "MELA Toilet Flush Button",
+  "type": "Toilet Flush Button",
+  "trade_band": 15,
+  "ship": "parcel",
+  "collections": [
+   "toilets",
+   "trade-list-15"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-toilet-flush-button-chrome",
+    "bc_title": "MELA - Toilet Flush Button Chrome",
+    "fin": "Chrome",
+    "sku": "Flush Button.CH",
+    "bc_list": 45.0,
+    "bc_price": 45.0,
+    "price": 42,
+    "cost": 24.55,
+    "margin": 35.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-toilet-flush-button-matt-black",
+    "bc_title": "MELA - Toilet Flush Button Matt Black",
+    "fin": "Matt Black",
+    "sku": "Flush Button.BK",
+    "bc_list": 50.0,
+    "bc_price": 50.0,
+    "price": 47,
+    "cost": 27.27,
+    "margin": 36.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-toilet-flush-button-matt-white",
+    "bc_title": "MELA - Toilet Flush Button Matt White",
+    "fin": "Matt White",
+    "sku": "Flush Button.MW",
+    "bc_list": 50.0,
+    "bc_price": 50.0,
+    "price": 47,
+    "cost": 27.27,
+    "margin": 36.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-toilet-flush-button-brushed-nickel",
+    "bc_title": "MELA - Toilet Flush Button Brushed Nickel",
+    "fin": "Brushed Nickel",
+    "sku": "Flush Button.BN",
+    "bc_list": 60.0,
+    "bc_price": 60.0,
+    "price": 57,
+    "cost": 32.73,
+    "margin": 36.8,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-toilet-flush-button-brushed-brass",
+    "bc_title": "MELA - Toilet Flush Button Brushed Brass",
+    "fin": "Brushed Brass",
+    "sku": "Flush Button.BB",
+    "bc_list": 70.0,
+    "bc_price": 70.0,
+    "price": 66,
+    "cost": 38.18,
+    "margin": 36.4,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-toilet-flush-button-gun-metal",
+    "bc_title": "MELA - Toilet Flush Button Gun Metal",
+    "fin": "Gun Metal",
+    "sku": "Flush Button.GM",
+    "bc_list": 70.0,
+    "bc_price": 70.0,
+    "price": 66,
+    "cost": 38.18,
+    "margin": 36.4,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270527551",
+  "handle": "mela-in-wall-toilet-button-round",
+  "title": "MELA In Wall Toilet Button Round",
+  "type": "Toilet Flush Button",
+  "trade_band": 20,
+  "ship": "parcel",
+  "collections": [
+   "toilets",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-in-wall-toilet-button-round-chrome",
+    "bc_title": "MELA - In Wall Toilet Button Round Chrome",
+    "fin": "Chrome",
+    "sku": "In Wall Button.CH",
+    "bc_list": 135.0,
+    "bc_price": 135.0,
+    "price": 128,
+    "cost": 73.64,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-in-wall-toilet-button-round-black",
+    "bc_title": "MELA - In Wall Toilet Button Round Black",
+    "fin": "Black",
+    "sku": "In Wall Button.BK",
+    "bc_list": 155.0,
+    "bc_price": 155.0,
+    "price": 147,
+    "cost": 84.55,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-in-wall-toilet-button-round-brushed-nickel",
+    "bc_title": "MELA - In Wall Toilet Button Round Brushed Nickel",
+    "fin": "Brushed Nickel",
+    "sku": "In Wall Button.BN",
+    "bc_list": 175.0,
+    "bc_price": 175.0,
+    "price": 166,
+    "cost": 95.45,
+    "margin": 36.8,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-in-wall-toilet-button-round-brushed-brass",
+    "bc_title": "MELA - In Wall Toilet Button Round Brushed Brass",
+    "fin": "Brushed Brass",
+    "sku": "In Wall Button.BB",
+    "bc_list": 275.0,
+    "bc_price": 275.0,
+    "price": 261,
+    "cost": 150.0,
+    "margin": 36.8,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-in-wall-toilet-button-round-gun-metal",
+    "bc_title": "MELA - In Wall Toilet Button Round Gun Metal",
+    "fin": "Gun Metal",
+    "sku": "In Wall Button.GM",
+    "bc_list": 275.0,
+    "bc_price": 275.0,
+    "price": 261,
+    "cost": 150.0,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270298175",
+  "handle": "mela-clark-1500-wall-hung-vanity-with-4-doors",
+  "title": "MELA CLARK 1500 Wall Hung Vanity with 4 Doors",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1500-gloss-white-wall-hung-vanity-with-4-doors",
+    "bc_title": "MELA - CLARK 1500 Gloss White Wall Hung Vanity with 4 Doors",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.1500DR",
+    "bc_list": 1899.0,
+    "bc_price": 1899.0,
+    "price": 1804,
+    "cost": 1294.77,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1500-sorrento-oak-wall-hung-vanity-with-4-doors-1",
+    "bc_title": "MELA - CLARK 1500 Sorrento Oak Wall Hung Vanity with 4 Doors",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.1500DR",
+    "bc_list": 1899.0,
+    "bc_price": 1899.0,
+    "price": 1804,
+    "cost": 1294.77,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270593087",
+  "handle": "mela-brittany-900-fluted-one-side-curved-wall-hung-vanity-with-2-drawers",
+  "title": "MELA BRITTANY 900 Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-900-matt-white-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 900 Matt White Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.900",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-900-oak-fluted-one-side-curve-wall-hung-vanity",
+    "bc_title": "MELA - BRITTANY 900 Oak Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.900",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270560319",
+  "handle": "mela-brittany-900-fluted-wall-hung-vanity-with-2-drawers",
+  "title": "MELA BRITTANY 900 Fluted Wall Hung Vanity with 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-900-matt-white-fluted-wall-hung-vanity-drawers",
+    "bc_title": "MELA - BRITTANY 900 Matt White Fluted Wall Hung Vanity with 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.900",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-900-oak-fluted-wall-hung-vanity-with-2-drawers",
+    "bc_title": "MELA - BRITTANY 900 Oak Fluted Wall Hung Vanity with 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.900",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270756927",
+  "handle": "mela-brittany-750-fluted-curved-wall-hung-vanity-with-cupboard",
+  "title": "MELA BRITTANY 750 Fluted Curved Wall Hung Vanity with Cupboard",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-750-matt-white-fluted-curved-vanity-cupboard",
+    "bc_title": "MELA - BRITTANY 750 Matt White Fluted Curved Wall Hung Vanity with Cupboard",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.750",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-750-oak-fluted-curve-wall-hung-vanity-cupboard",
+    "bc_title": "MELA - BRITTANY 750 Oak Fluted Curved Wall Hung Vanity with Cupboard",
+    "fin": "Oak",
+    "sku": "KIT.BRI.750",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270494783",
+  "handle": "mela-brittany-750-fluted-one-side-curved-wall-hung-vanity-with-2-drawers",
+  "title": "MELA BRITTANY 750 Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-750-matt-white-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 750 Matt White Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.750",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-750-oak-fluted-one-side-curved-wallhung-vanity",
+    "bc_title": "MELA - BRITTANY 750 Oak Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.750",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270724159",
+  "handle": "mela-brittany-750-fluted-wall-hung-vanity-with-2-drawers",
+  "title": "MELA BRITTANY 750 Fluted Wall Hung Vanity with 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-750-matt-white-fluted-wall-hung-vanity-2drawer",
+    "bc_title": "MELA - BRITTANY 750 Matt White Fluted Wall Hung Vanity with 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.750",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-750-oak-fluted-wall-hung-vanity-with-2-drawers",
+    "bc_title": "MELA - BRITTANY 750 Oak Fluted Wall Hung Vanity with 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.750",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270789695",
+  "handle": "mela-brittany-450-fluted-one-side-curved-wall-hung-vanity-with-cupboard",
+  "title": "MELA BRITTANY 450 Fluted One Side Curved Wall Hung Vanity with Cupboard",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-450-matt-white-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 450 Matt White Fluted One Side Curved Wall Hung Vanity with Cupboard",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.450",
+    "bc_list": 1099.0,
+    "bc_price": 1099.0,
+    "price": 1044,
+    "cost": 749.32,
+    "margin": 21.0,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-450-oak-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 450 Oak Fluted One Side Curved Wall Hung Vanity with Cupboard",
+    "fin": "Oak",
+    "sku": "KIT.BRI.450",
+    "bc_list": 1099.0,
+    "bc_price": 1099.0,
+    "price": 1044,
+    "cost": 749.32,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270887999",
+  "handle": "mela-brittany-1650-fluted-one-side-curved-wall-hung-vanity-with-4-drawers",
+  "title": "MELA BRITTANY 1650 Fluted One Side Curved Wall Hung Vanity with 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1650-matt-white-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 1650 Matt White Fluted One Side Curved Wall Hung Vanity with 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1650",
+    "bc_list": 3299.0,
+    "bc_price": 3299.0,
+    "price": 3134,
+    "cost": 2249.32,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1650-oak-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 1650 Oak Fluted One Side Curved Wall Hung Vanity with 4 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1650",
+    "bc_list": 3299.0,
+    "bc_price": 3299.0,
+    "price": 3134,
+    "cost": 2249.32,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270625855",
+  "handle": "mela-brittany-1500-fluted-wall-hung-vanity-with-4-drawers",
+  "title": "MELA BRITTANY 1500 Fluted Wall Hung Vanity with 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1500-matt-white-fluted-vanity-4-drawers",
+    "bc_title": "MELA - BRITTANY 1500 Matt White Fluted Wall Hung Vanity with 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1500",
+    "bc_list": 3099.0,
+    "bc_price": 3099.0,
+    "price": 2944,
+    "cost": 2112.95,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1500-oak-fluted-wall-hung-vanity-4-drawers",
+    "bc_title": "MELA - BRITTANY 1500 Oak Fluted Wall Hung Vanity with 4 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1500",
+    "bc_list": 3099.0,
+    "bc_price": 3099.0,
+    "price": 2944,
+    "cost": 2112.95,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270920767",
+  "handle": "mela-brittany-1500-fluted-curved-wall-hung-vanity-with-2-drawers",
+  "title": "MELA BRITTANY 1500 Fluted Curved Wall Hung Vanity with 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1500-matt-white-fluted-curved-vanity-2-drawers",
+    "bc_title": "MELA - BRITTANY 1500 Matt White Fluted Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1500.S",
+    "bc_list": 2599.0,
+    "bc_price": 2599.0,
+    "price": 2469,
+    "cost": 1772.05,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1500-oak-fluted-curved-vanity-2-drawers",
+    "bc_title": "MELA - BRITTANY 1500 Oak Fluted Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1500.S",
+    "bc_list": 2599.0,
+    "bc_price": 2599.0,
+    "price": 2469,
+    "cost": 1772.05,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270855231",
+  "handle": "mela-brittany-1500-fluted-curved-wall-hung-vanity-with-4-drawers",
+  "title": "MELA BRITTANY 1500 Fluted Curved Wall Hung Vanity with 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1500-matt-white-fluted-curved-vanity-4-drawers",
+    "bc_title": "MELA - BRITTANY 1500 Matt White Fluted Curved Wall Hung Vanity with 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1500",
+    "bc_list": 3099.0,
+    "bc_price": 3099.0,
+    "price": 2944,
+    "cost": 2112.95,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1500-oak-fluted-curved-vanity-4-drawers",
+    "bc_title": "MELA - BRITTANY 1500 Oak Fluted Curved Wall Hung Vanity with 4 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1500",
+    "bc_list": 3099.0,
+    "bc_price": 3099.0,
+    "price": 2944,
+    "cost": 2112.95,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271051839",
+  "handle": "mela-brittany-1500-fluted-one-side-curved-wall-hung-vanity-with-door-2-drawers",
+  "title": "MELA BRITTANY 1500 Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1500-mattwhite-fluted-curve-vanity-door-drawer",
+    "bc_title": "MELA - BRITTANY 1500 Matt White Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1500.S",
+    "bc_list": 2599.0,
+    "bc_price": 2599.0,
+    "price": 2469,
+    "cost": 1772.05,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1500-oak-fluted-curved-vanity-door-2-drawers",
+    "bc_title": "MELA - BRITTANY 1500 Oak Fluted One Side Curved Wall Hung Vanity with Door & 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1500.S",
+    "bc_list": 2599.0,
+    "bc_price": 2599.0,
+    "price": 2469,
+    "cost": 1772.05,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270691391",
+  "handle": "mela-brittany-1350-fluted-one-side-curved-wall-hung-vanity-with-4-drawers",
+  "title": "MELA BRITTANY 1350 Fluted One Side Curved Wall Hung Vanity with 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1350-matt-white-fluted-curved-vanity-4-drawers",
+    "bc_title": "MELA - BRITTANY 1350 Matt White Fluted One Side Curved Wall Hung Vanity with 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1350.D",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1350-oak-fluted-curved-vanity-4-drawers",
+    "bc_title": "MELA - BRITTANY 1350 Oak Fluted One Side Curved Wall Hung Vanity with 4 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1350.D",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271150143",
+  "handle": "mela-brittany-1350-fluted-one-side-curved-wall-hung-vanity-with-2-drawers",
+  "title": "MELA BRITTANY 1350 Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1350-matt-white-fluted-curved-vanity-2-drawers",
+    "bc_title": "MELA - BRITTANY 1350 Matt White Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1350",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1350-oak-fluted-curved-vanity-2-drawers",
+    "bc_title": "MELA - BRITTANY 1350 Oak Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1350",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271117375",
+  "handle": "mela-brittany-1200-fluted-wall-hung-vanity-with-4-drawers",
+  "title": "MELA BRITTANY 1200 Fluted Wall Hung Vanity with 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1200-matt-white-fluted-wall-hung-vanity",
+    "bc_title": "MELA - BRITTANY 1200 Matt White Fluted Wall Hung Vanity with 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1200.D",
+    "bc_list": 2299.0,
+    "bc_price": 2299.0,
+    "price": 2184,
+    "cost": 1567.5,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1200-oak-fluted-wall-hung-vanity-4-drawers",
+    "bc_title": "MELA - BRITTANY 1200 Oak Fluted Wall Hung Vanity with 4 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1200.D",
+    "bc_list": 2299.0,
+    "bc_price": 2299.0,
+    "price": 2184,
+    "cost": 1567.5,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271313983",
+  "handle": "mela-brittany-1050-fluted-one-side-curved-wall-hung-vanity-with-2-drawers",
+  "title": "MELA BRITTANY 1050 Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-brittany-1050-matt-white-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 1050 Matt White Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.BRI.1050",
+    "bc_list": 1999.0,
+    "bc_price": 1999.0,
+    "price": 1899,
+    "cost": 1362.95,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-brittany-1050-oak-fluted-one-side-curved-vanity",
+    "bc_title": "MELA - BRITTANY 1050 Oak Fluted One Side Curved Wall Hung Vanity with 2 Drawers",
+    "fin": "Oak",
+    "sku": "KIT.BRI.1050",
+    "bc_list": 1999.0,
+    "bc_price": 1999.0,
+    "price": 1899,
+    "cost": 1362.95,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450270953535",
+  "handle": "mela-morris-750mm-frameless-bath-panel",
+  "title": "MELA MORRIS 750mm Frameless Bath Panel",
+  "type": "Frameless Shower Panel",
+  "trade_band": 20,
+  "ship": "local",
+  "collections": [
+   "shower-screens",
+   "frameless-shower-panels",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-morris-750mm-frameless-bath-panel",
+    "bc_title": "MELA - MORRIS 750mm Frameless Bath Panel",
+    "fin": "",
+    "sku": "MORRIS.750*1450",
+    "bc_list": 349.0,
+    "bc_price": 349.0,
+    "price": 331,
+    "cost": 190.36,
+    "margin": 36.7,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271215679",
+  "handle": "mela-clark-1800-wall-hung-vanity-with-4-drawers-2-open-shelves",
+  "title": "MELA CLARK 1800 Wall Hung Vanity with 4 Drawers & 2 Open Shelves",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1800-snafell-wall-hung-vanity-2-drawers-2-open-shelves",
+    "bc_title": "MELA - CLARK 1800 Snafell Wall Hung Vanity with 4 Drawers and 2 Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.1800.S.SHELVES",
+    "bc_list": 2299.0,
+    "bc_price": 2299.0,
+    "price": 2184,
+    "cost": 1567.5,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1800-sorrento-oak-wall-hung-vanity-4-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1800 Sorrento Oak Wall Hung Vanity with 4 Drawers and 2 Open Shelves",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.1800.S.SHELVES",
+    "bc_list": 2299.0,
+    "bc_price": 2299.0,
+    "price": 2184,
+    "cost": 1567.5,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1800-walnut-wall-hung-vanity-4-drawers-2-open-shelves",
+    "bc_title": "MELA - CLARK 1800 Walnut Wall Hung Vanity with 4 Drawers and 2 Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.1800.S.SHELVES",
+    "bc_list": 2299.0,
+    "bc_price": 2299.0,
+    "price": 2184,
+    "cost": 1567.5,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271346751",
+  "handle": "mela-clark-1800-wall-hung-vanity-with-2-drawers-2-open-shelves",
+  "title": "MELA CLARK 1800 Wall Hung Vanity with 2 Drawers & 2 Open Shelves",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1800-gloss-white-wall-hung-vanity-2-drawers-2-open-shelves",
+    "bc_title": "MELA - CLARK 1800 Gloss White Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.1800.S.SHELVES",
+    "bc_list": 2299.0,
+    "bc_price": 2299.0,
+    "price": 2184,
+    "cost": 1567.5,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271379519",
+  "handle": "mela-clark-1200-wall-hung-vanity-with-2-drawers-2-open-shelves",
+  "title": "MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & 2 Open Shelves",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1200-gloss-white-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1200 Gloss White Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1200-snafell-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1200 Snafell Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1200-sorrento-oak-wall-hung-vanity-2-drawer-2-shelves",
+    "bc_title": "MELA - CLARK 1200 Sorrento Oak Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1200-walnut-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1200 Walnut Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271084607",
+  "handle": "mela-rondo-wall-spout-mixer-set",
+  "title": "MELA RONDO Wall Spout & Mixer Set",
+  "type": "Wall Mixer",
+  "trade_band": 20,
+  "ship": "parcel",
+  "collections": [
+   "tapware",
+   "wall-mixers",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-rondo-wall-spout-and-mixer-set-chrome",
+    "bc_title": "MELA - RONDO Wall Spout and Mixer Set Chrome",
+    "fin": "Chrome",
+    "sku": "",
+    "bc_list": 248.0,
+    "bc_price": 248.0,
+    "price": 235,
+    "cost": 135.27,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-rondo-wall-spout-and-mixer-set-black",
+    "bc_title": "MELA - RONDO Wall Spout and Mixer Set Black",
+    "fin": "Black",
+    "sku": "",
+    "bc_list": 348.0,
+    "bc_price": 348.0,
+    "price": 330,
+    "cost": 189.82,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-rondo-wall-spout-and-mixer-set-brushed-nickel",
+    "bc_title": "MELA - RONDO Wall Spout and Mixer Set Brushed Nickel",
+    "fin": "Brushed Nickel",
+    "sku": "",
+    "bc_list": 408.0,
+    "bc_price": 408.0,
+    "price": 387,
+    "cost": 222.55,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-rondo-wall-spout-and-mixer-set-brushed-brass",
+    "bc_title": "MELA - RONDO Wall Spout and Mixer Set Brushed Brass",
+    "fin": "Brushed Brass",
+    "sku": "",
+    "bc_list": 468.0,
+    "bc_price": 468.0,
+    "price": 444,
+    "cost": 255.27,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271477823",
+  "handle": "mela-palco-wall-spout-mixer-set",
+  "title": "MELA PALCO Wall Spout & Mixer Set",
+  "type": "Wall Mixer",
+  "trade_band": 20,
+  "ship": "parcel",
+  "collections": [
+   "tapware",
+   "wall-mixers",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-palco-wall-spout-and-mixer-set-chrome",
+    "bc_title": "MELA - PALCO Wall Spout and Mixer Set Chrome",
+    "fin": "Chrome",
+    "sku": "",
+    "bc_list": 248.0,
+    "bc_price": 248.0,
+    "price": 235,
+    "cost": 135.27,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-palco-wall-spout-and-mixer-set-black",
+    "bc_title": "MELA - PALCO Wall Spout and Mixer Set Black",
+    "fin": "Black",
+    "sku": "",
+    "bc_list": 348.0,
+    "bc_price": 348.0,
+    "price": 330,
+    "cost": 189.82,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-palco-wall-spout-and-mixer-set-brushed-nickel",
+    "bc_title": "MELA - PALCO Wall Spout and Mixer Set Brushed Nickel",
+    "fin": "Brushed Nickel",
+    "sku": "",
+    "bc_list": 408.0,
+    "bc_price": 408.0,
+    "price": 387,
+    "cost": 222.55,
+    "margin": 36.7,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-palco-wall-spout-and-mixer-set-gun-metal",
+    "bc_title": "MELA - PALCO Wall Spout and Mixer Set Gun Metal",
+    "fin": "Gun Metal",
+    "sku": "",
+    "bc_list": 468.0,
+    "bc_price": 468.0,
+    "price": 444,
+    "cost": 255.27,
+    "margin": 36.8,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-palco-wall-spout-and-mixer-set-brushed-brass",
+    "bc_title": "MELA - PALCO Wall Spout and Mixer Set Brushed Brass",
+    "fin": "Brushed Brass",
+    "sku": "",
+    "bc_list": 498.0,
+    "bc_price": 498.0,
+    "price": 473,
+    "cost": 271.64,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271412287",
+  "handle": "mela-clark-1350-wall-hung-vanity-with-2-drawers-2-open-shelves",
+  "title": "MELA CLARK 1350 Wall Hung Vanity with 2 Drawers & 2 Open Shelves",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1350-gloss-white-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1350 Gloss White Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.1350.SHELVES",
+    "bc_list": 1899.0,
+    "bc_price": 1899.0,
+    "price": 1804,
+    "cost": 1294.77,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1350-snafell-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1350 Snafell Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.1350.SHELVES",
+    "bc_list": 1899.0,
+    "bc_price": 1899.0,
+    "price": 1804,
+    "cost": 1294.77,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1350-sorrento-oak-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1350 Sorrento Oak Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.1350.SHELVES",
+    "bc_list": 1899.0,
+    "bc_price": 1899.0,
+    "price": 1804,
+    "cost": 1294.77,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1350-walnut-wall-hung-vanity-2-drawers-2-open-shelves",
+    "bc_title": "MELA - CLARK 1350 Walnut Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.1350.SHELVES",
+    "bc_list": 1899.0,
+    "bc_price": 1899.0,
+    "price": 1804,
+    "cost": 1294.77,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271576127",
+  "handle": "mela-clark-1500-wall-hung-vanity-with-4-drawers-open-shelves",
+  "title": "MELA CLARK 1500 Wall Hung Vanity with 4 Drawers & Open Shelves",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1500-gloss-white-wall-hung-vanity-4-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1500 Gloss White Wall Hung Vanity with 4 Drawers and Open Shelves",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.1500.D.SHELVES",
+    "bc_list": 2399.0,
+    "bc_price": 2399.0,
+    "price": 2279,
+    "cost": 1635.68,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1500-snafell-wall-hung-vanity-4-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1500 Snafell Wall Hung Vanity with 4 Drawers and Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.1500.D.SHELVES",
+    "bc_list": 2399.0,
+    "bc_price": 2399.0,
+    "price": 2279,
+    "cost": 1635.68,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1500-sorrento-oak-wall-hung-vanity-4-drawers-open-shelf",
+    "bc_title": "MELA - CLARK 1500 Sorrento Oak Wall Hung Vanity with 4 Drawers and Open Shelves",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.1500.D.SHELVES",
+    "bc_list": 2399.0,
+    "bc_price": 2399.0,
+    "price": 2279,
+    "cost": 1635.68,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1500-walnut-wall-hung-vanity-4-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1500 Walnut Wall Hung Vanity with 4 Drawers and Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.1500.D.SHELVES",
+    "bc_list": 2399.0,
+    "bc_price": 2399.0,
+    "price": 2279,
+    "cost": 1635.68,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271281215",
+  "handle": "mela-clark-1500-wall-hung-vanity-with-2-drawers-2-open-shelves",
+  "title": "MELA CLARK 1500 Wall Hung Vanity with 2 Drawers & 2 Open Shelves",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1500-gloss-white-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1500 Gloss White Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.1500.S.SHELVES",
+    "bc_list": 2099.0,
+    "bc_price": 2099.0,
+    "price": 1994,
+    "cost": 1431.14,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1500-snafell-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1500 Snafell Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.1500.S.SHELVES",
+    "bc_list": 2099.0,
+    "bc_price": 2099.0,
+    "price": 1994,
+    "cost": 1431.14,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1500-sorrento-oak-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1500 Sorrento Oak Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.1500.S.SHELVES",
+    "bc_list": 2099.0,
+    "bc_price": 2099.0,
+    "price": 1994,
+    "cost": 1431.14,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1500-walnut-wall-hung-vanity-2-drawers-2-shelves",
+    "bc_title": "MELA - CLARK 1500 Walnut Wall Hung Vanity with 2 Drawers and 2 Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.1500.S.SHELVES",
+    "bc_list": 2099.0,
+    "bc_price": 2099.0,
+    "price": 1994,
+    "cost": 1431.14,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271510591",
+  "handle": "mela-clark-1200-wall-hung-vanity-with-2-drawers-open-shelves",
+  "title": "MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Open Shelves",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1200-gloss-white-wall-hung-vanity-2-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1200 Gloss White Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1200-snafell-wall-hung-vanity-2-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1200 Snafell Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1200-sorrento-oak-wall-hung-vanity-2-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1200 Sorrento Oak Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1200-walnut-wall-hung-vanity-with-2-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1200 Walnut Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.1200.SHELVES",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1158.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271543359",
+  "handle": "mela-clark-900-wall-hung-vanity-with-2-drawers-open-shelves",
+  "title": "MELA CLARK 900 Wall Hung Vanity with 2 Drawers & Open Shelves",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-900-gloss-white-wall-hung-vanity-2-drawers-and-open-shelves",
+    "bc_title": "MELA - CLARK 900 Gloss White Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Gloss White",
+    "sku": "KIT.CLA.900.SELVES",
+    "bc_list": 1399.0,
+    "bc_price": 1399.0,
+    "price": 1329,
+    "cost": 953.86,
+    "margin": 21.0,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-900-snafell-wall-hung-vanity-2-drawers-and-open-shelves",
+    "bc_title": "MELA - CLARK 900 Snafell Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.900.SELVES",
+    "bc_list": 1399.0,
+    "bc_price": 1399.0,
+    "price": 1329,
+    "cost": 953.86,
+    "margin": 21.0,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-900-sorrento-oak-wall-hung-vanity-2-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 900 Sorrento Oak Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Sorrento Oak",
+    "sku": "KIT.CLA.900.SELVES",
+    "bc_list": 1399.0,
+    "bc_price": 1399.0,
+    "price": 1329,
+    "cost": 953.86,
+    "margin": 21.0,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-900-walnut-wall-hung-vanity-2-drawers-and-open-shelves",
+    "bc_title": "MELA - CLARK 900 Walnut Wall Hung Vanity with 2 Drawers and Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.900.SELVES",
+    "bc_list": 1399.0,
+    "bc_price": 1399.0,
+    "price": 1329,
+    "cost": 953.86,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271641663",
+  "handle": "mela-kosi-heated-towel-ladder-600x800mm",
+  "title": "MELA KOSI Heated Towel Ladder 600x800mm",
+  "type": "Heated Towel Rail",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "towel-rails",
+   "accessories",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "kosi-heated-towel-ladder-chrome-600x800mm",
+    "bc_title": "MELA - KOSI Heated Towel Ladder 600x800mm Chrome",
+    "fin": "Chrome",
+    "sku": "KOSI.6080R.CH",
+    "bc_list": 465.0,
+    "bc_price": 465.0,
+    "price": 441,
+    "cost": 295.91,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "kosi-heated-towel-ladder-brushed-nickel-600x800mm",
+    "bc_title": "MELA - KOSI Heated Towel Ladder 600x800mm Brushed Nickel",
+    "fin": "Brushed Nickel",
+    "sku": "KOSI.6080R.BN",
+    "bc_list": 495.0,
+    "bc_price": 495.0,
+    "price": 470,
+    "cost": 315.0,
+    "margin": 26.3,
+    "flag": ""
+   },
+   {
+    "bc_handle": "kosi-heated-towel-ladder-matt-black-600x800mm",
+    "bc_title": "MELA - KOSI Heated Towel Ladder 600x800mm Black",
+    "fin": "Black",
+    "sku": "KOSI.6080R.BK",
+    "bc_list": 565.0,
+    "bc_price": 565.0,
+    "price": 536,
+    "cost": 359.55,
+    "margin": 26.2,
+    "flag": ""
+   },
+   {
+    "bc_handle": "kosi-heated-towel-ladder-brushed-brass-600x800mm",
+    "bc_title": "MELA - KOSI Heated Towel Ladder 600x800mm Brushed Brass",
+    "fin": "Brushed Brass",
+    "sku": "KOSI.6080R.BB",
+    "bc_list": 695.0,
+    "bc_price": 695.0,
+    "price": 660,
+    "cost": 442.27,
+    "margin": 26.3,
+    "flag": ""
+   },
+   {
+    "bc_handle": "kosi-heated-towel-ladder-gun-metal-600x800mm",
+    "bc_title": "MELA - KOSI Heated Towel Ladder 600x800mm Gun Metal",
+    "fin": "Gun Metal",
+    "sku": "KOSI.6080R.GM",
+    "bc_list": 695.0,
+    "bc_price": 695.0,
+    "price": 660,
+    "cost": 442.27,
+    "margin": 26.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271445055",
+  "handle": "mela-moses-400-wall-hung-powder-room-vanity-with-door",
+  "title": "MELA MOSES 400 Wall Hung Powder Room Vanity with Door",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-moses-400-gloss-white-powder-room-vanity-with-door",
+    "bc_title": "MELA - MOSES 400 Gloss White Wall Hung Powder Room Vanity with Door",
+    "fin": "Gloss White",
+    "sku": "MOS.400.GW",
+    "bc_list": 449.0,
+    "bc_price": 449.0,
+    "price": 426,
+    "cost": 306.14,
+    "margin": 20.9,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-moses-400-snafell-powder-room-vanity-with-door",
+    "bc_title": "MELA - MOSES 400 Snafell Wall Hung Powder Room Vanity with Door",
+    "fin": "Snafell",
+    "sku": "MOS.400.SF",
+    "bc_list": 449.0,
+    "bc_price": 449.0,
+    "price": 426,
+    "cost": 306.14,
+    "margin": 20.9,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-moses-400-sorrento-oak-powder-room-vanity-with-door-1",
+    "bc_title": "MELA - MOSES 400 Sorrento Oak Wall Hung Powder Room Vanity with Door",
+    "fin": "Sorrento Oak",
+    "sku": "MOS.400.SO",
+    "bc_list": 449.0,
+    "bc_price": 449.0,
+    "price": 426,
+    "cost": 306.14,
+    "margin": 20.9,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-moses-400-walnut-powder-room-vanity-with-door",
+    "bc_title": "MELA - MOSES 400 Walnut Wall Hung Powder Room Vanity with Door",
+    "fin": "Walnut",
+    "sku": "MOS.400.WN",
+    "bc_list": 449.0,
+    "bc_price": 449.0,
+    "price": 426,
+    "cost": 306.14,
+    "margin": 20.9,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271739967",
+  "handle": "mela-shaker-1350-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA SHAKER 1350 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1350-matt-white-wall-hung-vanity-with-2-doors-2-drawers",
+    "bc_title": "MELA - SHAKER 1350 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1350.MW.SHELVES",
+    "bc_list": 2349.0,
+    "bc_price": 2349.0,
+    "price": 2231,
+    "cost": 1601.59,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271707199",
+  "handle": "mela-shaker-1050-wall-hung-vanity-with-door-drawers",
+  "title": "MELA SHAKER 1050 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1050-matt-white-wall-hung-vanity-with-door-and-drawers",
+    "bc_title": "MELA - SHAKER 1050 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1050.MW.SHELVES",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271969343",
+  "handle": "mela-hampton-1350-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA HAMPTON 1350 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1350-matt-white-wall-hung-vanity-2door-2drawer",
+    "bc_title": "MELA - HAMPTON 1350 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1350.MW.SHELVES",
+    "bc_list": 2349.0,
+    "bc_price": 2349.0,
+    "price": 2231,
+    "cost": 1601.59,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271608895",
+  "handle": "mela-shaker-900-wall-hung-vanity-with-door-drawers",
+  "title": "MELA SHAKER 900 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-900-matt-white-wall-hung-vanity-with-door-and-drawers",
+    "bc_title": "MELA - SHAKER 900 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.900.SHELVES",
+    "bc_list": 1399.0,
+    "bc_price": 1399.0,
+    "price": 1329,
+    "cost": 953.86,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271903807",
+  "handle": "mela-hampton-1050-wall-hung-vanity-with-door-drawers",
+  "title": "MELA HAMPTON 1050 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1050-matt-white-wall-hung-vanity-door-drawers",
+    "bc_title": "MELA - HAMPTON 1050 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1050.MW.SHELVES",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271936575",
+  "handle": "mela-hampton-900-wall-hung-vanity-with-door-drawers",
+  "title": "MELA HAMPTON 900 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-900-matt-white-wall-hung-vanity-door-drawers",
+    "bc_title": "MELA - HAMPTON 900 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.900.SHELVES.MW",
+    "bc_list": 1549.0,
+    "bc_price": 1549.0,
+    "price": 1471,
+    "cost": 1056.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287403071",
+  "handle": "mela-pastel-1350-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA PASTEL 1350 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1350-matt-white-wall-hung-vanity-2doors-2drawers",
+    "bc_title": "MELA - PASTEL 1350 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1350.MW.SHELVES",
+    "bc_list": 2349.0,
+    "bc_price": 2349.0,
+    "price": 2231,
+    "cost": 1601.59,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450271674431",
+  "handle": "mela-pastel-1050-wall-hung-vanity-with-door-drawers",
+  "title": "MELA PASTEL 1050 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1050-matt-white-wall-hung-vanity-door-drawers",
+    "bc_title": "MELA - PASTEL 1050 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1050.MW.SHELVES",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1090.23,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287271999",
+  "handle": "mela-pastel-900-wall-hung-vanity-with-door-drawers",
+  "title": "MELA PASTEL 900 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-900-matt-white-wall-hung-vanity-with-door-drawer",
+    "bc_title": "MELA - PASTEL 900 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.900.SHELVES.MW",
+    "bc_list": 1549.0,
+    "bc_price": 1549.0,
+    "price": 1471,
+    "cost": 1056.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287337535",
+  "handle": "mela-shaker-400-wall-hung-tallboy",
+  "title": "MELA SHAKER 400 Wall Hung Tallboy",
+  "type": "Bathroom Tallboy",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-storage-tallboys"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-400-matte-white-tall-boy-wall-hung-cabinet",
+    "bc_title": "MELA - SHAKER 400 Matt White Wall Hung Tallboy",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.400T.MW",
+    "bc_list": 949.0,
+    "bc_price": 949.0,
+    "price": 901,
+    "cost": 647.05,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287796287",
+  "handle": "mela-hampton-1800-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA HAMPTON 1800 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1800-matt-white-wall-hung-vanity-2door-2drawer",
+    "bc_title": "MELA - HAMPTON 1800 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800.S.MW.SHELVES",
+    "bc_list": 2649.0,
+    "bc_price": 2649.0,
+    "price": 2516,
+    "cost": 1806.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450272002111",
+  "handle": null,
+  "title": "MELA HAMPTON 1800 Wall Hung Vanity with Door & 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1800-matt-white-wall-hung-vanity-door-4-drawers",
+    "bc_title": "MELA - HAMPTON 1800 Matt White Wall Hung Vanity with Door & 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800.D.MW.SHELVES",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287697983",
+  "handle": "mela-hampton-1500-wall-hung-vanity-with-4-drawers-door",
+  "title": "MELA HAMPTON 1500 Wall Hung Vanity with 4 Drawers & Door",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1500-matt-white-wall-hung-vanity-4-drawers-door",
+    "bc_title": "MELA - HAMPTON 1500 Matt White Wall Hung Vanity with 4 Drawers and Door",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500.D.MW.SHELVES",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287730751",
+  "handle": "mela-hampton-1500-wall-hung-vanity-with-2-doors-drawers",
+  "title": "MELA HAMPTON 1500 Wall Hung Vanity with 2 Doors & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1500-matt-white-wall-hung-vanity-2doors-drawers",
+    "bc_title": "MELA - HAMPTON 1500 Matt White Wall Hung Vanity with 2 Doors & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500.S.MW.SHELVES",
+    "bc_list": 2549.0,
+    "bc_price": 2549.0,
+    "price": 2421,
+    "cost": 1737.95,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450288320575",
+  "handle": "mela-hampton-1200-wall-hung-vanity-with-door-drawers",
+  "title": "MELA HAMPTON 1200 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1200-matt-white-wall-hung-vanity-door-drawers",
+    "bc_title": "MELA - HAMPTON 1200 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1200.MW.SHELVES",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287468607",
+  "handle": "mela-hampton-1800-wall-hung-vanity-with-drawers",
+  "title": "MELA HAMPTON 1800 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1800-matt-white-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - HAMPTON 1800 Matt White Wall Hung Vanity with Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800DW.MW",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450288025663",
+  "handle": "mela-hampton-400-wall-hung-tallboy",
+  "title": "MELA HAMPTON 400 Wall Hung Tallboy",
+  "type": "Bathroom Tallboy",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-storage-tallboys"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-400-matte-white-boy-wall-hung-cabinet",
+    "bc_title": "MELA - HAMPTON 400 Matt White Wall Hung Tallboy",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.400T.MW",
+    "bc_list": 949.0,
+    "bc_price": 949.0,
+    "price": 901,
+    "cost": 647.05,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450288123967",
+  "handle": "mela-pastel-400-wall-hung-tallboy",
+  "title": "MELA PASTEL 400 Wall Hung Tallboy",
+  "type": "Bathroom Tallboy",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-storage-tallboys"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-400-matt-white-tall-boy-wall-hung-cabinet",
+    "bc_title": "MELA - PASTEL 400 Matt White Wall Hung Tallboy",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.400T.MW",
+    "bc_list": 949.0,
+    "bc_price": 949.0,
+    "price": 901,
+    "cost": 647.05,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450290384959",
+  "handle": "mela-pastel-1800-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA PASTEL 1800 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1800-matt-white-wall-hung-vanity-2doors-2drawers",
+    "bc_title": "MELA - PASTEL 1800 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800.S.MW.SHELVES",
+    "bc_list": 2649.0,
+    "bc_price": 2649.0,
+    "price": 2516,
+    "cost": 1806.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450287960127",
+  "handle": "mela-pastel-1800-wall-hung-vanity-with-door-4-drawers",
+  "title": "MELA PASTEL 1800 Wall Hung Vanity with Door & 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1800-matt-white-wall-hung-vanity-door-4-drawers",
+    "bc_title": "MELA - PASTEL 1800 Matt White Wall Hung Vanity with Door & 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800.D.MW.SHELVES",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450289729599",
+  "handle": "mela-pastel-1500-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA PASTEL 1500 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1500-matt-white-wall-hung-vanity-2doors-2drawers",
+    "bc_title": "MELA - PASTEL 1500 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500.S.MW.SHELVES",
+    "bc_list": 2549.0,
+    "bc_price": 2549.0,
+    "price": 2421,
+    "cost": 1737.95,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450289893439",
+  "handle": "mela-pastel-1500-wall-hung-vanity-with-door-4-drawers",
+  "title": "MELA PASTEL 1500 Wall Hung Vanity with Door & 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1500-matt-white-wall-hung-vanity-door-4-drawers",
+    "bc_title": "MELA - PASTEL 1500 Matt White Wall Hung Vanity with Door & 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500.D.MW.SHELVES",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450292154431",
+  "handle": "mela-pastel-1200-wall-hung-vanity-with-door-drawers",
+  "title": "MELA PASTEL 1200 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1200-matt-white-wall-hung-vanity-door-drawers",
+    "bc_title": "MELA - PASTEL 1200 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1200.MW.SHELVES",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450290122815",
+  "handle": "mela-pastel-1800-wall-hung-vanity-with-drawers",
+  "title": "MELA PASTEL 1800 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1800-matt-white-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - PASTEL 1800 Matt White Wall Hung Vanity with Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800DW.MW",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450291105855",
+  "handle": "mela-pastel-1500-wall-hung-vanity-with-drawers",
+  "title": "MELA PASTEL 1500 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-pastel-1500-matt-white-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - PASTEL 1500 Matt White Wall Hung Vanity with Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500DW.MW",
+    "bc_list": 2699.0,
+    "bc_price": 2699.0,
+    "price": 2564,
+    "cost": 1840.23,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450291990591",
+  "handle": "mela-shaker-1200-wall-hung-vanity-with-door-drawers",
+  "title": "MELA SHAKER 1200 Wall Hung Vanity with Door & Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1200-matt-white-wall-hung-vanity-with-door-and-drawers",
+    "bc_title": "MELA - SHAKER 1200 Matt White Wall Hung Vanity with Door & Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1200.MW.SHELVES",
+    "bc_list": 1799.0,
+    "bc_price": 1799.0,
+    "price": 1709,
+    "cost": 1226.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450293596223",
+  "handle": "mela-shaker-1500-wall-hung-vanity-with-drawers",
+  "title": "MELA SHAKER 1500 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1500-matt-white-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - SHAKER 1500 Matt White Wall Hung Vanity with Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500DW.MW",
+    "bc_list": 2699.0,
+    "bc_price": 2699.0,
+    "price": 2564,
+    "cost": 1840.23,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450291236927",
+  "handle": "mela-shaker-1500-wall-hung-vanity-with-door-4-drawers",
+  "title": "MELA SHAKER 1500 Wall Hung Vanity with Door & 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1500-matt-white-wall-hung-vanity-with-door-and-4-drawers",
+    "bc_title": "MELA - SHAKER 1500 Matt White Wall Hung Vanity with Door & 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500.D.MW.SHELVES",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450292383807",
+  "handle": "mela-shaker-1500-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA SHAKER 1500 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1500-matt-white-wall-hung-vanity-with-2-doors-2-drawers",
+    "bc_title": "MELA - SHAKER 1500 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500.S.MW.SHELVES",
+    "bc_list": 2549.0,
+    "bc_price": 2549.0,
+    "price": 2421,
+    "cost": 1737.95,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450293170239",
+  "handle": "mela-shaker-1800-wall-hung-vanity-with-drawers",
+  "title": "MELA SHAKER 1800 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1800-matt-white-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - SHAKER 1800 Matt White Wall Hung Vanity with Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800DW.MW",
+    "bc_list": 2799.0,
+    "bc_price": 2799.0,
+    "price": 2659,
+    "cost": 1908.41,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450295365695",
+  "handle": "mela-shaker-1800-wall-hung-vanity-with-2-doors-2-drawers",
+  "title": "MELA SHAKER 1800 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "type": "Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "single-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1800-matt-white-wall-hung-vanity-2doors-2drawers",
+    "bc_title": "MELA - SHAKER 1800 Matt White Wall Hung Vanity with 2 Doors & 2 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800.S.MW.SHELVES",
+    "bc_list": 2649.0,
+    "bc_price": 2649.0,
+    "price": 2516,
+    "cost": 1806.14,
+    "margin": 21.0,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450292514879",
+  "handle": "mela-shaker-1800-wall-hung-vanity-with-door-4-drawers",
+  "title": "MELA SHAKER 1800 Wall Hung Vanity with Door & 4 Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-shaker-1800-matt-white-wall-hung-vanity-with-door-4-drawers",
+    "bc_title": "MELA - SHAKER 1800 Matt White Wall Hung Vanity with Door & 4 Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1800.D.MW.SHELVES",
+    "bc_list": 2899.0,
+    "bc_price": 2899.0,
+    "price": 2754,
+    "cost": 1976.59,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450293628991",
+  "handle": "mela-triton-430-polish-stainless-steel-sink-round",
+  "title": "MELA TRITON 430 Polish Stainless Steel Sink Round",
+  "type": "Kitchen Sink",
+  "trade_band": 20,
+  "ship": "bulky",
+  "collections": [
+   "sinks",
+   "kitchen-laundry",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-triton-430-polish-stainless-steel-sink-round",
+    "bc_title": "MELA - TRITON 430 Polish Stainless Steel Sink Round",
+    "fin": "",
+    "sku": "TRITON.430S.R",
+    "bc_list": 175.0,
+    "bc_price": 175.0,
+    "price": 166,
+    "cost": 95.45,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450294054975",
+  "handle": "mela-triton-770d-stainless-steel-sink",
+  "title": "MELA TRITON 770D Stainless Steel Sink",
+  "type": "Kitchen Sink",
+  "trade_band": 20,
+  "ship": "bulky",
+  "collections": [
+   "sinks",
+   "kitchen-laundry",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-triton-770d-stainless-steel-sink-black",
+    "bc_title": "MELA - TRITON 770D Stainless Steel Sink Black",
+    "fin": "Black",
+    "sku": "TRITON.770D.BK",
+    "bc_list": 619.0,
+    "bc_price": 619.0,
+    "price": 588,
+    "cost": 337.64,
+    "margin": 36.8,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450297036863",
+  "handle": "mela-universal-dome-pop-up-waste",
+  "title": "MELA Universal Dome Pop Up Waste",
+  "type": "Pop Up Waste",
+  "trade_band": 20,
+  "ship": "parcel",
+  "collections": [
+   "bathroom-wastes",
+   "accessories",
+   "trade-list-20"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-universal-pop-up-waste-matt-black",
+    "bc_title": "MELA - Universal Dome Pop Up Waste Matt Black",
+    "fin": "Matt Black",
+    "sku": "POP-UP Waste Universal BK",
+    "bc_list": 65.0,
+    "bc_price": 65.0,
+    "price": 61,
+    "cost": 35.45,
+    "margin": 36.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450293727295",
+  "handle": "mela-lucca-1500mm-single-ceramic-vanity-top",
+  "title": "MELA LUCCA 1500mm Single Ceramic Vanity Top",
+  "type": "Ceramic Vanity Top",
+  "trade_band": 5,
+  "ship": "local",
+  "collections": [
+   "basins",
+   "bathroom-vanities",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-lucca-1500mm-single-ceramic-vanity-top",
+    "bc_title": "MELA - LUCCA 1500mm Single Ceramic Vanity Top",
+    "fin": "White",
+    "sku": "LUCCA.1500.SINGLE",
+    "bc_list": 1699.0,
+    "bc_price": 1699.0,
+    "price": 1614,
+    "cost": 1081.18,
+    "margin": 26.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450295201855",
+  "handle": "mela-moses-left-wall-mounted-basin",
+  "title": "MELA MOSES Left Wall Mounted Basin",
+  "type": "Wall Hung Basin",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "basins",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-moses-left-wall-mounted-vanity-basin",
+    "bc_title": "MELA - MOSES Left Wall Mounted Vanity Basin",
+    "fin": "White",
+    "sku": "MOSES.WALL.LEFT",
+    "bc_list": 189.0,
+    "bc_price": 189.0,
+    "price": 179,
+    "cost": 120.27,
+    "margin": 26.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450295300159",
+  "handle": "mela-moses-right-wall-mounted-basin",
+  "title": "MELA MOSES Right Wall Mounted Basin",
+  "type": "Wall Hung Basin",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "basins",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-moses-right-wall-mounted-vanity-basin",
+    "bc_title": "MELA - MOSES Right Wall Mounted Vanity Basin",
+    "fin": "White",
+    "sku": "MOSES.WALL.RIGHT",
+    "bc_list": 189.0,
+    "bc_price": 189.0,
+    "price": 179,
+    "cost": 120.27,
+    "margin": 26.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450297856063",
+  "handle": "mela-dice-inset-basin",
+  "title": "MELA DICE Inset Basin",
+  "type": "Inset Basin",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "inset-basins",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-dice-inset-vanity-basin",
+    "bc_title": "MELA - DICE Inset Vanity Basin",
+    "fin": "White",
+    "sku": "DICE.INSET",
+    "bc_list": 199.0,
+    "bc_price": 199.0,
+    "price": 189,
+    "cost": 126.64,
+    "margin": 26.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450295529535",
+  "handle": "mela-clark-1800-wall-hung-vanity-with-4-drawers-open-shelves",
+  "title": "MELA CLARK 1800 Wall Hung Vanity with 4 Drawers & Open Shelves",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-clark-1800-snafell-wall-hung-vanity-4-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1800 Snafell Wall Hung Vanity with 4 Drawers and Open Shelves",
+    "fin": "Snafell",
+    "sku": "KIT.CLA.1800.D.SHELVES",
+    "bc_list": 2599.0,
+    "bc_price": 2599.0,
+    "price": 2469,
+    "cost": 1772.05,
+    "margin": 21.1,
+    "flag": ""
+   },
+   {
+    "bc_handle": "mela-clark-1800-walnut-wall-hung-vanity-4-drawers-open-shelves",
+    "bc_title": "MELA - CLARK 1800 Walnut Wall Hung Vanity with 4 Drawers and Open Shelves",
+    "fin": "Walnut",
+    "sku": "KIT.CLA.1800.D.SHELVES",
+    "bc_list": 2599.0,
+    "bc_price": 2599.0,
+    "price": 2469,
+    "cost": 1772.05,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450297102399",
+  "handle": "mela-hampton-1500-wall-hung-vanity-with-drawers",
+  "title": "MELA HAMPTON 1500 Wall Hung Vanity with Drawers",
+  "type": "Double Wall Hung Vanity",
+  "trade_band": 0,
+  "ship": "local",
+  "collections": [
+   "bathroom-vanities",
+   "wall-hung-vanities",
+   "double-vanities"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-hampton-1500-matt-white-wall-hung-vanity-with-drawers",
+    "bc_title": "MELA - HAMPTON 1500 Matt White Wall Hung Vanity with Drawers",
+    "fin": "Matt White",
+    "sku": "KIT.CLASSIC.1500DW.MW",
+    "bc_list": 2699.0,
+    "bc_price": 2699.0,
+    "price": 2564,
+    "cost": 1840.23,
+    "margin": 21.1,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450296741951",
+  "handle": "mela-lucca-1500mm-double-ceramic-vanity-top",
+  "title": "MELA LUCCA 1500mm Double Ceramic Vanity Top",
+  "type": "Ceramic Vanity Top",
+  "trade_band": 5,
+  "ship": "local",
+  "collections": [
+   "basins",
+   "bathroom-vanities",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-lucca-1500mm-double-ceramic-vanity-top",
+    "bc_title": "MELA - LUCCA 1500mm Double Ceramic Vanity Top",
+    "fin": "White",
+    "sku": "LUCCA.1500",
+    "bc_list": 1599.0,
+    "bc_price": 1599.0,
+    "price": 1519,
+    "cost": 1017.55,
+    "margin": 26.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450305228863",
+  "handle": "mela-lucca-1200mm-ceramic-vanity-top",
+  "title": "MELA LUCCA 1200mm Ceramic Vanity Top",
+  "type": "Ceramic Vanity Top",
+  "trade_band": 5,
+  "ship": "local",
+  "collections": [
+   "basins",
+   "bathroom-vanities",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-lucca-1200mm-ceramic-vanity-top",
+    "bc_title": "MELA - LUCCA 1200mm Ceramic Vanity Top",
+    "fin": "White",
+    "sku": "LUCCA.1200",
+    "bc_list": 499.0,
+    "bc_price": 499.0,
+    "price": 474,
+    "cost": 317.55,
+    "margin": 26.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450297167935",
+  "handle": "mela-lucca-900mm-ceramic-vanity-top",
+  "title": "MELA LUCCA 900mm Ceramic Vanity Top",
+  "type": "Ceramic Vanity Top",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "bathroom-vanities",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-lucca-900mm-ceramic-vanity-top",
+    "bc_title": "MELA - LUCCA 900mm Ceramic Vanity Top",
+    "fin": "White",
+    "sku": "LUCCA.900TOP.CENTRE",
+    "bc_list": 399.0,
+    "bc_price": 399.0,
+    "price": 379,
+    "cost": 253.91,
+    "margin": 26.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450297921599",
+  "handle": "mela-lucca-750mm-ceramic-vanity-top",
+  "title": "MELA LUCCA 750mm Ceramic Vanity Top",
+  "type": "Ceramic Vanity Top",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "bathroom-vanities",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-lucca-750mm-ceramic-vanity-top",
+    "bc_title": "MELA - LUCCA 750mm Ceramic Vanity Top",
+    "fin": "White",
+    "sku": "LUCCA.750",
+    "bc_list": 299.0,
+    "bc_price": 299.0,
+    "price": 284,
+    "cost": 190.27,
+    "margin": 26.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450297724991",
+  "handle": "mela-lucca-600mm-ceramic-vanity-top",
+  "title": "MELA LUCCA 600mm Ceramic Vanity Top",
+  "type": "Ceramic Vanity Top",
+  "trade_band": 5,
+  "ship": "bulky",
+  "collections": [
+   "basins",
+   "bathroom-vanities",
+   "trade-list-5"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-lucca-600mm-ceramic-vanity-top",
+    "bc_title": "MELA - LUCCA 600mm Ceramic Vanity Top",
+    "fin": "White",
+    "sku": "LUCCA.600",
+    "bc_list": 215.0,
+    "bc_price": 215.0,
+    "price": 204,
+    "cost": 136.82,
+    "margin": 26.2,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450305851455",
+  "handle": "mela-kitchen-sink-chopping-board",
+  "title": "MELA Kitchen Sink Chopping Board",
+  "type": "Kitchen Sink Accessory",
+  "trade_band": 10,
+  "ship": "parcel",
+  "collections": [
+   "kitchen-laundry",
+   "sinks",
+   "trade-list-10"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-kitchen-sink-chopping-board",
+    "bc_title": "MELA - Kitchen Sink Chopping Board",
+    "fin": "",
+    "sku": "CHOPPING BOARD",
+    "bc_list": 75.0,
+    "bc_price": 75.0,
+    "price": 71,
+    "cost": 44.32,
+    "margin": 31.3,
+    "flag": ""
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8450297593919",
+  "handle": "mela-kitchen-sink-colander-stainless-steel",
+  "title": "MELA Kitchen Sink Colander Stainless Steel",
+  "type": "Kitchen Sink Accessory",
+  "trade_band": 10,
+  "ship": "parcel",
+  "collections": [
+   "kitchen-laundry",
+   "sinks",
+   "trade-list-10"
+  ],
+  "members": [
+   {
+    "bc_handle": "mela-kitchen-sink-colander-stainless-steel",
+    "bc_title": "MELA - Kitchen Sink Colander Stainless Steel",
+    "fin": "",
+    "sku": "COLANDER",
+    "bc_list": 75.0,
+    "bc_price": 75.0,
+    "price": 71,
+    "cost": 44.32,
+    "margin": 31.3,
+    "flag": ""
+   }
+  ]
+ }
+]

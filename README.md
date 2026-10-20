@@ -13,6 +13,47 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Whole missing Bathroom City MELA range (20 Oct 2026)
+
+Owner's call: "whatever Bathroom City sells we sell". Everything MELA on bathroom-city.com.au that was not already in the
+store was added: 111 products / 179 variants (74 wall-hung vanities incl. the full BRITTANY, CLARK, LUNA, MILANO,
+HAMPTON, PASTEL and SHAKER packages, 4 tallboys, 6 LUCCA ceramic tops, basins, toilets, bidet seats, flush buttons, mixers,
+sinks and accessories) plus 29 new finish/size variants on existing products. Priced by the playbook (cost = list ×
+(1 − SILVER discount) ÷ 1.1, price 5% under Bathroom City, trade band = deepest band that keeps every variant above
+the trade floor: 13 products in `trade-list-5`, 2 in 10, 1 in 15, 12 in 20, 83 with no band). Each has photos,
+`ets.*` spec metafields, SEO title/description, "continue selling when out of stock", the right collections and all
+six sales channels; vanity packages, tops and tallboys are Perth-only delivery. Not added: 68 Bathroom City
+clearance lines (ANTIK, SELTEN, VINA, CASSA, MONI, RONDO filter mixers, Matt Grey vanities, some wastes) whose
+sale price is below our profit floor (`store-content/bathroom-city-import/skipped-clearance.json`). Two Wall Spout &
+Mixer sets have no SKU because Bathroom City lists none. Build and record scripts, the generated inputs and the
+Shopify IDs are in `store-content/bathroom-city-import/`.
+
+## Vanity options like Bathroom City (20 Oct 2026)
+
+Bathroom City sells each MELA vanity package with add-on choices (stone colour, basin, stone cutting, kickboard) through
+the Mageworx options app. The same choices are now built into the theme with no app: snippet
+`theme/snippets/ets-pdp-options.liquid`, added as a `custom-liquid` block before the buy buttons in
+`theme/templates/product.json`. It shows on MELA products of type Wall Hung Vanity / Double Wall Hung Vanity (tag
+`no-vanity-options` hides it). Free choices (Pearl White stone, the 18 included gloss-white basins) go on the vanity's cart
+line as properties. Priced add-ons are four hidden products (type Vanity Option, tag `vanity-option`, Online Store + POS
+only, no cost, tagged `needs-cost`): Carrara stone top upgrade $190, basin upgrade $76 / $152 (9 basins), stone cutting
+$33 to $318 (10 cuts × single / double left / double right) and kickboard $47 / $76, all 5% under Bathroom City. When one is
+chosen the add-to-cart is taken over and the vanity plus the add-ons go to the cart in one request, each add-on tagged
+"For vanity: <title>". **Theme files are on the unpublished theme "ETS 2026 – AI files (ready to publish)"**; publish it from
+Shopify admin to go live. Browser-tested against the live theme on 20 Oct 2026 (both paths). Not copied: Bathroom City's
+pop-up waste x2 option (wastes are sold as normal products here).
+
+## Bathroom City additions from customer quotes (19 Oct 2026)
+
+Two customer quotes listed BRITTANY 1800 vanity packages and an AERI 1500 LED mirror that the store did not have.
+Seven MELA products were added from Bathroom City's pages, priced by the playbook (cost = list × 0.75 ÷ 1.1,
+price = 5% under Bathroom City, all at 21% margin, no trade band), with photos, `ets.*` spec metafields, SEO
+title/description, "continue selling when out of stock", Perth-only delivery, and published to all channels:
+BRITTANY 1800 Oak and Matt White × (curved 2 doors & 2 drawers, one-side curved door & 2 drawers, double 4 drawers)
+and the AERI 1500 LED arch mirror. Record: `store-content/new-products/bathroom-city-2026-10-19.json`.
+Not added (not sold by Bathroom City): Pandia 4W wall light, Mini Hartelle fluted cabinet, individual Brittany
+cabinet modules and stone-cutting fees.
+
 ## Shop app (Shop sales channel), 12 Oct 2026
 
 The Shop app store was almost empty: 5 of 921 active products and no collections were on the Shop

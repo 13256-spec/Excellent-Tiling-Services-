@@ -1,0 +1,780 @@
+[
+ {
+  "our_product": "MELA PALCO / RONDO Ceiling Shower Arm",
+  "pid": "gid://shopify/Product/8382636621887",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.2,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO Ceiling Arm Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-ceiling-arm-light-gun-metal",
+  "sku": "PAL.CA.001LGM",
+  "bc_list": 119.0,
+  "bc_price": 119.0,
+  "price": 113,
+  "cost": 64.91,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-ceiling-arm-gun-metaltapwaremela-bathroom-city-perth-1285504.png?v=1755266335",
+  "type": "Ceiling Shower Arm",
+  "variant_id": "gid://shopify/ProductVariant/44169396715583",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA BRUNO Hook",
+  "pid": "gid://shopify/Product/8382637735999",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 0.25,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - BRUNO Robe Hook Light Gun Metal",
+  "bc_handle": "mela-bruno-robe-hook-light-gun-metal",
+  "sku": "BRU.H.001.LGM",
+  "bc_list": 59.0,
+  "bc_price": 59.0,
+  "price": 56,
+  "cost": 34.86,
+  "margin": 31.5,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-bruno-hook-gun-metal-4480239.png?v=1754634087",
+  "type": "Bathroom Hook",
+  "variant_id": "gid://shopify/ProductVariant/44169396748351",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA BRUNO Wall Mixer",
+  "pid": "gid://shopify/Product/8382638129215",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.4,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - BRUNO Shower/Bath Wall Mixer Light Gun Metal",
+  "bc_handle": "mela-bruno-shower-bath-wall-mixer-light-gun-metal",
+  "sku": "BRU.WM.001.LGM",
+  "bc_list": 259.0,
+  "bc_price": 259.0,
+  "price": 246,
+  "cost": 141.27,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-bruno-showerbath-wall-mixer-gun-metal-2796168.png?v=1754634088",
+  "type": "Wall Mixer",
+  "variant_id": "gid://shopify/ProductVariant/44169396781119",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO / RONDO Hook",
+  "pid": "gid://shopify/Product/8382639636543",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 0.25,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO Robe Hook Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-robe-hook-light-gun-metal",
+  "sku": "PAL.H.001.LGM",
+  "bc_list": 59.0,
+  "bc_price": 59.0,
+  "price": 56,
+  "cost": 34.86,
+  "margin": 31.5,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-hook-gun-metal-9454569.png?v=1754635165",
+  "type": "Bathroom Hook",
+  "variant_id": "gid://shopify/ProductVariant/44169396813887",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PORTER Mirror Cabinet",
+  "pid": "gid://shopify/Product/8382645174335",
+  "optionValues": [
+   {
+    "optionName": "Size",
+    "name": "1500mm"
+   },
+   {
+    "optionName": "Finish",
+    "name": "Walnut"
+   }
+  ],
+  "weight": 35,
+  "finish": "Walnut",
+  "size": "1500mm",
+  "bc_title": "MELA - PORTER 1500 Walnut Mirror Cabinet",
+  "bc_handle": "mela-porter-1500-walnut-mirror-cabinet-with-doors-1",
+  "sku": "POR.1500.WN",
+  "bc_list": 698.0,
+  "bc_price": 698.0,
+  "price": 663,
+  "cost": 475.91,
+  "margin": 21.0,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-porter-1500-walnut-mirror-cabinet-with-doors-5860005.png?v=1754635860",
+  "type": "Mirror Cabinet",
+  "variant_id": "gid://shopify/ProductVariant/44169396944959",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PORTER Mirror Cabinet",
+  "pid": "gid://shopify/Product/8382645174335",
+  "optionValues": [
+   {
+    "optionName": "Size",
+    "name": "1800mm"
+   },
+   {
+    "optionName": "Finish",
+    "name": "Snafell"
+   }
+  ],
+  "weight": 42,
+  "finish": "Snafell",
+  "size": "1800mm",
+  "bc_title": "MELA - PORTER 1800 Snafell Mirror Cabinet",
+  "bc_handle": "mela-porter-1800-snafell-mirror-cabinet-with-doors",
+  "sku": "POR.1800.SF",
+  "bc_list": 798.0,
+  "bc_price": 798.0,
+  "price": 758,
+  "cost": 544.09,
+  "margin": 21.0,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-porter-1800-snafell-mirror-cabinet-8563907.png?v=1754635861",
+  "type": "Mirror Cabinet",
+  "variant_id": "gid://shopify/ProductVariant/44169397043263",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PORTER Mirror Cabinet",
+  "pid": "gid://shopify/Product/8382645174335",
+  "optionValues": [
+   {
+    "optionName": "Size",
+    "name": "1800mm"
+   },
+   {
+    "optionName": "Finish",
+    "name": "Gloss White"
+   }
+  ],
+  "weight": 42,
+  "finish": "Gloss White",
+  "size": "1800mm",
+  "bc_title": "MELA - PORTER 1800 Gloss White Mirror Cabinet",
+  "bc_handle": "mela-porter-1800-gloss-white-mirror-cabinet-with-doors",
+  "sku": "POR.1800.GW",
+  "bc_list": 798.0,
+  "bc_price": 798.0,
+  "price": 758,
+  "cost": 544.09,
+  "margin": 21.0,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-porter-1800-gloss-white-mirror-cabinet-6574595.png?v=1754635861",
+  "type": "Mirror Cabinet",
+  "variant_id": "gid://shopify/ProductVariant/44169397076031",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PORTER Mirror Cabinet",
+  "pid": "gid://shopify/Product/8382645174335",
+  "optionValues": [
+   {
+    "optionName": "Size",
+    "name": "1500mm"
+   },
+   {
+    "optionName": "Finish",
+    "name": "Snafell"
+   }
+  ],
+  "weight": 35,
+  "finish": "Snafell",
+  "size": "1500mm",
+  "bc_title": "MELA - PORTER 1500 Snafell Mirror Cabinet",
+  "bc_handle": "mela-porter-1500-snafell-mirror-cabinet-with-doors",
+  "sku": "POR.1500.SF",
+  "bc_list": 698.0,
+  "bc_price": 698.0,
+  "price": 663,
+  "cost": 475.91,
+  "margin": 21.0,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-porter-1500-snafell-mirror-cabinet-with-doors-4323850.png?v=1754635861",
+  "type": "Mirror Cabinet",
+  "variant_id": "gid://shopify/ProductVariant/44169396977727",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PORTER Mirror Cabinet",
+  "pid": "gid://shopify/Product/8382645174335",
+  "optionValues": [
+   {
+    "optionName": "Size",
+    "name": "1800mm"
+   },
+   {
+    "optionName": "Finish",
+    "name": "Walnut"
+   }
+  ],
+  "weight": 42,
+  "finish": "Walnut",
+  "size": "1800mm",
+  "bc_title": "MELA - PORTER 1800 Walnut Mirror Cabinet",
+  "bc_handle": "mela-porter-1500-walnut-mirror-cabinet-with-doors",
+  "sku": "POR.1800.WN",
+  "bc_list": 798.0,
+  "bc_price": 798.0,
+  "price": 758,
+  "cost": 544.09,
+  "margin": 21.0,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-porter-1800-walnut-mirror-cabinet-1242384.png?v=1754635862",
+  "type": "Mirror Cabinet",
+  "variant_id": "gid://shopify/ProductVariant/44169397108799",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PORTER Mirror Cabinet",
+  "pid": "gid://shopify/Product/8382645174335",
+  "optionValues": [
+   {
+    "optionName": "Size",
+    "name": "1500mm"
+   },
+   {
+    "optionName": "Finish",
+    "name": "Gloss White"
+   }
+  ],
+  "weight": 35,
+  "finish": "Gloss White",
+  "size": "1500mm",
+  "bc_title": "MELA - PORTER 1500 Gloss White Mirror Cabinet",
+  "bc_handle": "mela-porter-1500-gloss-white-mirror-cabinet-with-doors",
+  "sku": "POR.1500.GW",
+  "bc_list": 698.0,
+  "bc_price": 698.0,
+  "price": 663,
+  "cost": 475.91,
+  "margin": 21.0,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-porter-1500-gloss-white-mirror-cabinet-4766453.png?v=1754635862",
+  "type": "Mirror Cabinet",
+  "variant_id": "gid://shopify/ProductVariant/44169397010495",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO / RONDO Straight Shower Arm",
+  "pid": "gid://shopify/Product/8382636556351",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.2,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO Straight Shower Arm Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-straight-shower-arm-light-gun-metal",
+  "sku": "PAL.SA.002LGM",
+  "bc_list": 289.0,
+  "bc_price": 289.0,
+  "price": 274,
+  "cost": 157.64,
+  "margin": 36.7,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-straight-shower-arm-gun-metaltapwaremela-bathroom-city-perth-2816689.png?v=1755266336",
+  "type": "Shower Arm",
+  "variant_id": "gid://shopify/ProductVariant/44169397141567",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO / RONDO Hand Shower Set with Rail",
+  "pid": "gid://shopify/Product/8382636720191",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 3,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO Hand Shower Set with Rail Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-hand-shower-set-with-rail-light-gun-metal",
+  "sku": "PAL.HS.001LGM",
+  "bc_list": 349.0,
+  "bc_price": 349.0,
+  "price": 331,
+  "cost": 190.36,
+  "margin": 36.7,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-hand-shower-set-with-rail-gun-metal-1331325.png?v=1754635225",
+  "type": "Hand Shower Set",
+  "variant_id": "gid://shopify/ProductVariant/44169397174335",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA FLOVA / PALCO Wall Spout",
+  "pid": "gid://shopify/Product/8382636097599",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.1,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - FLOVA/PALCO Wall Spout Light Gun Metal",
+  "bc_handle": "mela-flova-palco-wall-spout-light-gun-metal",
+  "sku": "FLO.WS.001GM",
+  "bc_list": 209.0,
+  "bc_price": 209.0,
+  "price": 198,
+  "cost": 114.0,
+  "margin": 36.7,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-flovapalco-wall-spout-gun-metal-1337701.png?v=1754635046",
+  "type": "Wall Spout",
+  "variant_id": "gid://shopify/ProductVariant/44169397207103",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA FLOVA / PALCO Swivel Wall Spout",
+  "pid": "gid://shopify/Product/8382636130367",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Brushed Brass"
+   }
+  ],
+  "weight": 1.1,
+  "finish": "Brushed Brass",
+  "size": null,
+  "bc_title": "MELA - FLOVA/PALCO Swivel Wall Spout Brushed Brass",
+  "bc_handle": "mela-flova-palco-swivel-wall-spout-brushed-brass",
+  "sku": "FLO.WS.002.BB",
+  "bc_list": 289.0,
+  "bc_price": 289.0,
+  "price": 274,
+  "cost": 157.64,
+  "margin": 36.7,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-flovapalco-swivel-wall-spout-brushed-brass-7166667.png?v=1754634511",
+  "type": "Wall Spout",
+  "variant_id": "gid://shopify/ProductVariant/44169397305407",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA FLOVA / PALCO Swivel Wall Spout",
+  "pid": "gid://shopify/Product/8382636130367",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.1,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - FLOVA/PALCO Swivel Wall Spout Light Gun Metal",
+  "bc_handle": "mela-flova-palco-swivel-wall-spout-light-gun-metal",
+  "sku": "FLO.WS.002.GM",
+  "bc_list": 259.0,
+  "bc_price": 259.0,
+  "price": 246,
+  "cost": 141.27,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-flovapalco-swivel-wall-spout-gun-metaltapwaremela-bathroom-city-perth-2234411.png?v=1764926167",
+  "type": "Wall Spout",
+  "variant_id": "gid://shopify/ProductVariant/44169397338175",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO / RONDO Shower Head",
+  "pid": "gid://shopify/Product/8382636654655",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.2,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO Shower Head Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-shower-head-light-gun-metal",
+  "sku": "PAL.SR.001.LGM",
+  "bc_list": 269.0,
+  "bc_price": 269.0,
+  "price": 255,
+  "cost": 146.73,
+  "margin": 36.7,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-shower-head-gun-metal-5071717.png?v=1754635224",
+  "type": "Shower Head",
+  "variant_id": "gid://shopify/ProductVariant/44169397534783",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA RONDO Pull Out Sink Mixer",
+  "pid": "gid://shopify/Product/8382139236415",
+  "optionValues": [
+   {
+    "optionName": "Finish",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 3,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - RONDO Pull Out Sink Mixer Light Gun Metal",
+  "bc_handle": "mela-rondo-gooseneck-pull-out-sink-mixer-gun-metal-1",
+  "sku": "RON.SM.003LGM",
+  "bc_list": 429.0,
+  "bc_price": 429.0,
+  "price": 407,
+  "cost": 234.0,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-rondo-pull-out-sink-mixer-gun-metaltapwaremela-bathroom-city-perth-1964807.png?v=1766397141",
+  "type": "Kitchen Sink Mixer",
+  "variant_id": "gid://shopify/ProductVariant/44169397567551",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA RONDO Pull Out Sink Mixer",
+  "pid": "gid://shopify/Product/8382139236415",
+  "optionValues": [
+   {
+    "optionName": "Finish",
+    "name": "Brushed Nickel"
+   }
+  ],
+  "weight": 3,
+  "finish": "Brushed Nickel",
+  "size": null,
+  "bc_title": "MELA - RONDO Pull Out Sink Mixer Brushed Nickel",
+  "bc_handle": "mela-rondo-gooseneck-pull-out-sink-mixer-brushed-nickel-1",
+  "sku": "RON.SM.003BN",
+  "bc_list": 399.0,
+  "bc_price": 399.0,
+  "price": 379,
+  "cost": 217.64,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-rondo-pull-out-sink-mixer-brushed-nickeltapwaremela-bathroom-city-perth-6863400.png?v=1766397141",
+  "type": "Kitchen Sink Mixer",
+  "variant_id": "gid://shopify/ProductVariant/44169397600319",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA FLOVA / PALCO Wall Spout",
+  "pid": "gid://shopify/Product/8382636097599",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Brushed Brass"
+   }
+  ],
+  "weight": 1.1,
+  "finish": "Brushed Brass",
+  "size": null,
+  "bc_title": "MELA - FLOVA/PALCO Wall Spout Brushed Brass",
+  "bc_handle": "mela-flova-palco-wall-spout-brushed-brass",
+  "sku": "FLO.WS.001BB",
+  "bc_list": 239.0,
+  "bc_price": 239.0,
+  "price": 227,
+  "cost": 130.36,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-flovapalco-wall-spout-brushed-brass-3697335.png?v=1754634510",
+  "type": "Wall Spout",
+  "variant_id": "gid://shopify/ProductVariant/44169397239871",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO Medium Basin Mixer",
+  "pid": "gid://shopify/Product/8382636949567",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.4,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO Medium Basin Mixer Light Gun Metal",
+  "bc_handle": "mela-palco-medium-basin-mixer-light-gun-metal",
+  "sku": "PAL.BM.003LGM",
+  "bc_list": 359.0,
+  "bc_price": 359.0,
+  "price": 341,
+  "cost": 195.82,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palco-medium-basin-mixer-gun-metal-3936928.png?v=1754635378",
+  "type": "Basin Mixer",
+  "variant_id": "gid://shopify/ProductVariant/44169397665855",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO Tall Basin Mixer",
+  "pid": "gid://shopify/Product/8382636982335",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 2,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO Tall Basin Mixer Light Gun Metal",
+  "bc_handle": "mela-palco-tall-basin-mixer-light-gun-metal",
+  "sku": "PAL.BM.002LGM",
+  "bc_list": 379.0,
+  "bc_price": 379.0,
+  "price": 360,
+  "cost": 206.73,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palco-tall-basin-mixer-gun-metaltapwaremela-bathroom-city-perth-9050873.png?v=1764926168",
+  "type": "Basin Mixer",
+  "variant_id": "gid://shopify/ProductVariant/44169397698623",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA RONDO Pull Out Sink Mixer",
+  "pid": "gid://shopify/Product/8382139236415",
+  "optionValues": [
+   {
+    "optionName": "Finish",
+    "name": "Brushed Brass"
+   }
+  ],
+  "weight": 3,
+  "finish": "Brushed Brass",
+  "size": null,
+  "bc_title": "MELA - RONDO Pull Out Sink Mixer Brushed Brass",
+  "bc_handle": "mela-rondo-gooseneck-pull-out-sink-mixer-brushed-brass",
+  "sku": "RON.SM.003BB",
+  "bc_list": 459.0,
+  "bc_price": 459.0,
+  "price": 436,
+  "cost": 250.36,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-rondo-pull-out-sink-mixer-brushed-brass-1638657.png?v=1754634511",
+  "type": "Kitchen Sink Mixer",
+  "variant_id": "gid://shopify/ProductVariant/44169397633087",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO / RONDO 800 Double Towel Rail",
+  "pid": "gid://shopify/Product/8382639505471",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 3.1,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO 800 Double Towel Rail Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-800-double-towel-rail-light-gun-metal",
+  "sku": "PAL.TR.800D.LGM",
+  "bc_list": 229.0,
+  "bc_price": 229.0,
+  "price": 217,
+  "cost": 135.32,
+  "margin": 31.4,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-800-double-towel-rail-gun-metal-5857653.png?v=1754635046",
+  "type": "Towel Rail",
+  "variant_id": "gid://shopify/ProductVariant/44169397731391",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA BAYLEE Above Counter Basin",
+  "pid": "gid://shopify/Product/8382648877119",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Matt Grey"
+   }
+  ],
+  "weight": 9,
+  "finish": "Matt Grey",
+  "size": null,
+  "bc_title": "MELA - BAYLEE Matt Grey Above Counter Basin",
+  "bc_handle": "mela-baylee-matte-grey-above-counter-basin",
+  "sku": "BAYLEE.ABOVE.GREY",
+  "bc_list": 299.0,
+  "bc_price": 299.0,
+  "price": 284,
+  "cost": 190.27,
+  "margin": 26.3,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-baylee-matt-grey-above-counter-basin-2549684.png?v=1754634908",
+  "type": "Above Counter Basin",
+  "variant_id": "gid://shopify/ProductVariant/44169397764159",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA RONDO Swivel Wall Spout",
+  "pid": "gid://shopify/Product/8382139170879",
+  "optionValues": [
+   {
+    "optionName": "Finish",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.1,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - RONDO Swivel Wall Spout Light Gun Metal",
+  "bc_handle": "mela-rondo-swivel-wall-spout-light-gun-metal",
+  "sku": "RON.WS.002GM",
+  "bc_list": 259.0,
+  "bc_price": 259.0,
+  "price": 246,
+  "cost": 141.27,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-rondo-swivel-wall-spout-gun-metal-2949164.png?v=1754635047",
+  "type": "Wall Spout",
+  "variant_id": "gid://shopify/ProductVariant/44169397796927",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA RONDO Swivel Wall Spout",
+  "pid": "gid://shopify/Product/8382139170879",
+  "optionValues": [
+   {
+    "optionName": "Finish",
+    "name": "Brushed Nickel"
+   }
+  ],
+  "weight": 1.1,
+  "finish": "Brushed Nickel",
+  "size": null,
+  "bc_title": "MELA - RONDO Swivel Wall Spout Brushed Nickel",
+  "bc_handle": "mela-rondo-swivel-wall-spout-brushed-nickel",
+  "sku": "RON.WS.002BN",
+  "bc_list": 259.0,
+  "bc_price": 259.0,
+  "price": 246,
+  "cost": 141.27,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-rondo-swivel-wall-spout-brushed-nickeltapwaremela-bathroom-city-perth-3427557.png?v=1766397367",
+  "type": "Wall Spout",
+  "variant_id": "gid://shopify/ProductVariant/44169397829695",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO / RONDO Shower Arm",
+  "pid": "gid://shopify/Product/8382636490815",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 1.2,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO Shower Arm Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-shower-arm-light-gun-metal",
+  "sku": "PAL.SA.001LGM",
+  "bc_list": 279.0,
+  "bc_price": 279.0,
+  "price": 265,
+  "cost": 152.18,
+  "margin": 36.8,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-shower-arm-gun-metal-6189339.png?v=1754635225",
+  "type": "Shower Arm",
+  "variant_id": "gid://shopify/ProductVariant/44169397862463",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA PALCO / RONDO Paper Holder",
+  "pid": "gid://shopify/Product/8382639538239",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Light Gun Metal"
+   }
+  ],
+  "weight": 0.5,
+  "finish": "Light Gun Metal",
+  "size": null,
+  "bc_title": "MELA - PALCO/RONDO Paper Holder Light Gun Metal",
+  "bc_handle": "mela-palco-rondo-paper-holder-light-gun-metal",
+  "sku": "PAL.PH.001LGM",
+  "bc_list": 79.0,
+  "bc_price": 79.0,
+  "price": 75,
+  "cost": 46.68,
+  "margin": 31.5,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-palcorondo-paper-holder-gun-metal-2079943.png?v=1754635165",
+  "type": "Toilet Roll Holder",
+  "variant_id": "gid://shopify/ProductVariant/44169397895231",
+  "created": "2026-10-20"
+ },
+ {
+  "our_product": "MELA DAVISSON Above Counter Basin",
+  "pid": "gid://shopify/Product/8382658412607",
+  "optionValues": [
+   {
+    "optionName": "Colour",
+    "name": "Matt Grey"
+   }
+  ],
+  "weight": 9,
+  "finish": "Matt Grey",
+  "size": null,
+  "bc_title": "MELA - DAVISSON Matt Grey Above Counter Basin",
+  "bc_handle": "mela-davisson-matte-grey-above-counter-basin",
+  "sku": "DAVISSON.ABOVE.GREY",
+  "bc_list": 299.0,
+  "bc_price": 299.0,
+  "price": 284,
+  "cost": 190.27,
+  "margin": 26.3,
+  "flag": "",
+  "image": "https://cdn.shopify.com/s/files/1/0251/0533/4371/files/mela-davisson-matt-grey-above-counter-basin-2273984.png?v=1754635497",
+  "type": "Above Counter Basin",
+  "variant_id": "gid://shopify/ProductVariant/44169397927999",
+  "created": "2026-10-20"
+ }
+]

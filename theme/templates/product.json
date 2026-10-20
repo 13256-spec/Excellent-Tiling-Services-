@@ -244,6 +244,12 @@
                 "custom_liquid": "{% render 'ets-pdp-fits', product: product %}"
               },
               "blocks": {}
+            },
+            "options": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-options', product: product %}"
+              }
             }
           },
           "block_order": [
@@ -254,6 +260,7 @@
             "trade",
             "variant",
             "calc",
+            "options",
             "buy",
             "trust",
             "description"

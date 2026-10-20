@@ -1,0 +1,188 @@
+{%- doc -%}
+  Vanity options for MELA vanity packages: stone top, basin, stone cutting and kickboard, the same choices
+  Bathroom City (the supplier) offers on its vanity pages. Shown on MELA products of type "Wall Hung Vanity" or
+  "Double Wall Hung Vanity" (tag no-vanity-options hides it).
+  Free choices are written to the vanity's cart line as properties (hidden inputs added to the product form).
+  Priced add-ons are the four hidden products tagged vanity-option (ets-vanity-stone-top-upgrade,
+  ets-vanity-basin-upgrade, ets-vanity-stone-cutting, ets-vanity-kickboard): when any is chosen the add-to-cart
+  submit is taken over and the vanity plus the add-ons go to /cart/add.js in one request. Prices come from those
+  products, so change them in Shopify admin, not here.
+  @param {product} product
+{%- enddoc -%}
+{%- liquid
+  assign show = false
+  if product.vendor == 'MELA'
+    if product.type == 'Wall Hung Vanity' or product.type == 'Double Wall Hung Vanity'
+      assign show = true
+    endif
+  endif
+  if product.tags contains 'no-vanity-options'
+    assign show = false
+  endif
+  assign is_double = false
+  if product.type == 'Double Wall Hung Vanity'
+    assign is_double = true
+  endif
+  assign stone = all_products['ets-vanity-stone-top-upgrade']
+  assign basin = all_products['ets-vanity-basin-upgrade']
+  assign cutting = all_products['ets-vanity-stone-cutting']
+  assign kick = all_products['ets-vanity-kickboard']
+  assign free_basins = 'ASPRA Undermount,AVA Above Counter,BAYLEE Above Counter,BELLA Above Counter,BRANDO Above Counter,CENTO Above Counter,COSTA Above Counter,DAISY Above Counter,DAVISSON Above Counter,DEBBA Half Inset,DICE Inset,KIVA Above Counter,MARCIE 440 Above Counter,MYRA Inset,PAULA Above Counter,PETAL Above Counter,SELVA Half Inset,VIVA Above Counter' | split: ','
+  if is_double
+    assign basin_side = 'Double vanity (2 basins)'
+    assign kick_side = 'Double vanity'
+    assign x2 = ' x2'
+  else
+    assign basin_side = 'Single vanity (1 basin)'
+    assign kick_side = 'Single vanity'
+    assign x2 = ''
+  endif
+-%}
+{%- if show -%}
+  <div class="ets ets-vopt" data-ets-vopt data-product-title="{{ product.title | escape }}">
+    <p class="ets-vopt__head">{% render 'ets-icon', name: 'ruler' %}Choose your stone, basin and cutting</p>
+
+    <fieldset class="ets-vopt__group">
+      <legend>Stone top</legend>
+      <label class="ets-vopt__radio"><input type="radio" name="ets-stone" value="" data-prop="Stone top" data-label="Pearl White silica-free (included)" checked> Pearl White silica-free <span>included</span></label>
+      {%- if stone != blank and stone.available -%}
+        {%- assign sv = stone.selected_or_first_available_variant -%}
+        <label class="ets-vopt__radio"><input type="radio" name="ets-stone" value="{{ sv.id }}" data-prop="Stone top" data-label="Carrara upgrade" data-price="{{ sv.price }}"> Carrara <span>+{{ sv.price | money }}</span></label>
+      {%- endif -%}
+    </fieldset>
+
+    <label class="ets-vopt__field">Basin{{ x2 }} <span>(gloss white included, upgrades per basin)</span>
+      <select name="ets-basin" data-prop="Basin">
+        <option value="" data-label="To be confirmed with the showroom">Choose a basin (we will confirm with you)</option>
+        <optgroup label="Included: gloss white ceramic">
+          {%- for b in free_basins -%}
+            <option value="" data-label="{{ b }}{{ x2 }}">{{ b }}{{ x2 }}</option>
+          {%- endfor -%}
+        </optgroup>
+        {%- if basin != blank and basin.available -%}
+          <optgroup label="Upgrade">
+            {%- for v in basin.variants -%}
+              {%- if v.option2 == basin_side and v.available -%}
+                <option value="{{ v.id }}" data-label="{{ v.option1 | escape }}{{ x2 }} (upgrade)" data-price="{{ v.price }}">{{ v.option1 }}{{ x2 }} (+{{ v.price | money }})</option>
+              {%- endif -%}
+            {%- endfor -%}
+          </optgroup>
+        {%- endif -%}
+      </select>
+    </label>
+
+    {%- if cutting != blank and cutting.available -%}
+      {%- if is_double -%}
+        {%- assign sides = 'Double vanity: left side|Double vanity: right side' | split: '|' -%}
+      {%- else -%}
+        {%- assign sides = 'Single vanity' | split: '|' -%}
+      {%- endif -%}
+      {%- for side in sides -%}
+        <label class="ets-vopt__field">Stone cutting{% if is_double %}: {{ side | remove: 'Double vanity: ' }}{% endif %} <span>(basin and tap holes, cut before delivery)</span>
+          <select name="ets-cut-{{ forloop.index }}" data-prop="Stone cutting{% if is_double %} ({{ side | remove: 'Double vanity: ' }}){% endif %}">
+            <option value="" data-label="">No cutting (I will arrange my own)</option>
+            {%- for v in cutting.variants -%}
+              {%- if v.option2 == side and v.available -%}
+                <option value="{{ v.id }}" data-label="{{ v.option1 | escape }}" data-price="{{ v.price }}">{{ v.option1 }} (+{{ v.price | money }})</option>
+              {%- endif -%}
+            {%- endfor -%}
+          </select>
+        </label>
+      {%- endfor -%}
+    {%- endif -%}
+
+    {%- if kick != blank and kick.available -%}
+      {%- for v in kick.variants -%}
+        {%- if v.option1 == kick_side and v.available -%}
+          <label class="ets-vopt__check"><input type="checkbox" name="ets-kick" value="{{ v.id }}" data-prop="Kickboard" data-label="Matching kickboard" data-price="{{ v.price }}"> Add a matching kickboard <span>+{{ v.price | money }}</span></label>
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endif -%}
+
+    <p class="ets-vopt__total" aria-live="polite" hidden>Options: <strong data-total></strong> added with the vanity</p>
+    <p class="ets-vopt__note">Tapware and waste are sold separately. Not sure what to pick? <a href="/pages/contact">Ask the showroom</a>.</p>
+  </div>
+
+  <style>
+    .ets-vopt { display: grid; gap: 12px; padding: 18px; border-radius: 18px; background: var(--ets-surface, #f6f4f0); box-shadow: inset 0 0 0 1px var(--ets-line-strong, #d9d4cc); }
+    .ets-vopt__head { display: flex; align-items: center; gap: 10px; margin: 0; font-weight: 700; font-size: 15px; }
+    .ets-vopt__head svg { width: 20px; height: 20px; color: var(--ets-brass, #b08d57); }
+    .ets-vopt__group { display: grid; gap: 6px; margin: 0; padding: 0; border: 0; }
+    .ets-vopt legend, .ets-vopt__field { font-size: 12.5px; font-weight: 600; color: var(--ets-ink-soft, #555); }
+    .ets-vopt__field { display: grid; gap: 6px; }
+    .ets-vopt__field > span, .ets-vopt legend span { font-weight: 400; }
+    .ets-vopt select { width: 100%; min-height: 42px; padding: 8px 10px; border: 1px solid var(--ets-line-strong, #d9d4cc); border-radius: 10px; background: #fff; font: inherit; font-size: 14px; }
+    .ets-vopt__radio, .ets-vopt__check { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 500; }
+    .ets-vopt__radio span, .ets-vopt__check span { margin-left: auto; font-size: 12.5px; color: var(--ets-ink-soft, #555); }
+    .ets-vopt__total { margin: 0; font-size: 14px; }
+    .ets-vopt__note { margin: 0; font-size: 12.5px; color: var(--ets-ink-soft, #555); }
+  </style>
+
+  <script type="module">
+    (() => {
+      const box = document.querySelector('[data-ets-vopt]:not([data-ready])');
+      if (!box) return;
+      box.dataset.ready = '1';
+      const section = box.closest('.shopify-section') || document;
+      const form = section.querySelector('product-form-component form[action*="/cart/add"]') || section.querySelector('form[action*="/cart/add"]');
+      if (!form) return;
+      const component = form.closest('product-form-component');
+      const money = cents => '$' + (cents / 100).toLocaleString('en-AU', { minimumFractionDigits: 0, maximumFractionDigits: 2 });
+
+      const picks = () => {
+        const out = [];
+        for (const el of box.querySelectorAll('select, input[type=radio]:checked, input[type=checkbox]:checked')) {
+          const opt = el.tagName === 'SELECT' ? el.selectedOptions[0] : el;
+          if (!opt) continue;
+          out.push({ prop: el.dataset.prop || opt.dataset.prop, label: opt.dataset.label, id: Number(opt.value) || 0, price: Number(opt.dataset.price) || 0 });
+        }
+        return out;
+      };
+
+      const sync = () => {
+        for (const old of form.querySelectorAll('input[data-ets-vopt-prop]')) old.remove();
+        let total = 0;
+        for (const p of picks()) {
+          if (!p.label) continue;
+          const input = document.createElement('input');
+          input.type = 'hidden'; input.name = `properties[${p.prop}]`; input.value = p.label; input.dataset.etsVoptProp = '1';
+          form.appendChild(input);
+          total += p.price;
+        }
+        const line = box.querySelector('.ets-vopt__total');
+        line.hidden = total === 0;
+        line.querySelector('[data-total]').textContent = '+' + money(total);
+      };
+      box.addEventListener('change', sync);
+      sync();
+
+      form.addEventListener('submit', async event => {
+        const addons = picks().filter(p => p.id);
+        if (!addons.length || !form.checkValidity()) return; // nothing priced: the theme adds the vanity, properties ride along
+        event.preventDefault();
+        event.stopImmediatePropagation();
+        const fd = new FormData(form);
+        const qty = Number(fd.get('quantity')) || 1;
+        const props = {};
+        for (const [k, v] of fd.entries()) { const m = k.match(/^properties\[(.+)\]$/); if (m && v) props[m[1]] = v; }
+        const items = [{ id: Number(fd.get('id')), quantity: qty, properties: props }]
+          .concat(addons.map(a => ({ id: a.id, quantity: qty, properties: { 'For vanity': box.dataset.productTitle } })));
+        const sections = [...document.querySelectorAll('cart-items-component')].map(el => el.dataset.sectionId).filter(Boolean).join(',');
+        const button = component?.querySelector('add-to-cart-component');
+        try {
+          const { CartLinesUpdateEvent } = await import('@shopify/events');
+          const deferred = CartLinesUpdateEvent.createPromise();
+          (component || form).dispatchEvent(new CartLinesUpdateEvent({ action: 'add', context: 'product', lines: items.map(i => ({ merchandiseId: String(i.id), quantity: i.quantity })), promise: deferred.promise }));
+          const res = await fetch(Theme.routes.cart_add_url, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ items, sections }) }).then(r => r.json());
+          if (res.status) { deferred.reject(new Error(res.description || res.message)); alert(res.description || res.message || 'Could not add to cart'); return; }
+          const cart = await fetch(`${Theme.routes.cart_url}.json`, { headers: { Accept: 'application/json' } }).then(r => r.json());
+          button?.animateAddToCart?.();
+          deferred.resolve({ cart: CartLinesUpdateEvent.createCartFromAjaxResponse(cart), detail: { items: cart.items, source: 'product-form-component', sourceId: component?.id || '', itemCount: items.reduce((n, i) => n + i.quantity, 0), productId: component?.dataset.productId, sections: res.sections, didError: false } });
+        } catch (err) {
+          console.error('[ets-vopt]', err);
+          window.location.href = Theme.routes.cart_url; // items may already be in the cart; show it
+        }
+      }, true);
+    })();
+  </script>
+{%- endif -%}
