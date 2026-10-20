@@ -171,5 +171,86 @@
   "variant_ids": {
    "KIT.CLASSIC.1350.MW.SHELVES": "gid://shopify/ProductVariant/44169466904639"
   }
+ },
+ {
+  "index": 69,
+  "title": "MELA PASTEL 1350 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "product_id": "gid://shopify/Product/8450287403071",
+  "handle": "mela-pastel-1350-wall-hung-vanity-with-2-doors-2-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1350.MW.SHELVES": "gid://shopify/ProductVariant/44169606692927"
+  }
+ },
+ {
+  "index": 73,
+  "title": "MELA HAMPTON 1800 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "product_id": "gid://shopify/Product/8450287796287",
+  "handle": "mela-hampton-1800-wall-hung-vanity-with-2-doors-2-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800.S.MW.SHELVES": "gid://shopify/ProductVariant/44169607610431"
+  }
+ },
+ {
+  "index": 77,
+  "title": "MELA HAMPTON 1200 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450288320575",
+  "handle": "mela-hampton-1200-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1200.MW.SHELVES": "gid://shopify/ProductVariant/44169609510975"
+  }
+ },
+ {
+  "index": 81,
+  "title": "MELA PASTEL 1800 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "product_id": "gid://shopify/Product/8450290384959",
+  "handle": "mela-pastel-1800-wall-hung-vanity-with-2-doors-2-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800.S.MW.SHELVES": "gid://shopify/ProductVariant/44169617211455"
+  }
+ },
+ {
+  "index": 85,
+  "title": "MELA PASTEL 1200 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450292154431",
+  "handle": "mela-pastel-1200-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1200.MW.SHELVES": "gid://shopify/ProductVariant/44169627107391"
+  }
+ },
+ {
+  "index": 89,
+  "title": "MELA SHAKER 1500 Wall Hung Vanity with Drawers",
+  "product_id": "gid://shopify/Product/8450293596223",
+  "handle": "mela-shaker-1500-wall-hung-vanity-with-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1500DW.MW": "gid://shopify/ProductVariant/44169634218047"
+  }
+ },
+ {
+  "index": 93,
+  "title": "MELA SHAKER 1800 Wall Hung Vanity with 2 Doors & 2 Drawers",
+  "product_id": "gid://shopify/Product/8450295365695",
+  "handle": "mela-shaker-1800-wall-hung-vanity-with-2-doors-2-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800.S.MW.SHELVES": "gid://shopify/ProductVariant/44169643196479"
+  }
+ },
+ {
+  "index": 97,
+  "title": "MELA Universal Dome Pop Up Waste",
+  "product_id": "gid://shopify/Product/8450297036863",
+  "handle": "mela-universal-dome-pop-up-waste",
+  "variant_ids": {
+   "POP-UP Waste Universal BK": "gid://shopify/ProductVariant/44169651945535"
+  }
+ },
+ {
+  "index": 101,
+  "title": "MELA DICE Inset Basin",
+  "product_id": "gid://shopify/Product/8450297856063",
+  "handle": "mela-dice-inset-basin",
+  "variant_ids": {
+   "DICE.INSET": "gid://shopify/ProductVariant/44169655975999"
+  }
  }
 ]

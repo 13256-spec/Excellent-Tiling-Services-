@@ -14,10 +14,10 @@ n = 0
 for i, p in enumerate(P):
     if i not in res: continue
     inp = p['input']; r = res[i]
-    for m, v in zip(p['members'], inp['variants']):
+    for k, (m, v) in enumerate(zip(p['members'], inp['variants'])):
         vt = v['optionValues'][0]['name'] if v['optionValues'][0]['name'] != 'Default Title' else 'Default'
         if (inp['title'], vt) in have: continue
-        vid = r['variant_ids'].get(v.get('sku')) or r['variant_ids'].get(vt) or ''
+        vid = r['variant_ids'].get(v.get('sku')) or r['variant_ids'].get(vt) or r['variant_ids'].get(str(k+1)) or ''
         rows.append([inp['title'], vt, v.get('sku', ''), 'MELA', inp['productType'], '', str(m['price']), str(p['band']) if p['band'] else '', f"{m['price']*(1-p['band']/100):.2f}" if p['band'] else '', f"{m['cost']:.2f}", 'estimate: list x (1 - SLIVER discount) / 1.1', f"{m['margin']:.1f}", '', 'Bathroom City', f"{m['bc_price']:g}", 'new 20 Oct 2026' + ('; ' + m['flag'] if m['flag'] else ''), vid, '', r['product_id'], ' '.join(inp['tags'])]); n += 1
     if r['product_id'] not in seo_ids:
         seo.append({'id': r['product_id'], 'title': inp['title'], 'status': 'ACTIVE', 'old_title': None, 'old_desc': None, 'seo_title': inp['seo']['title'], 'seo_desc': inp['seo']['description']})

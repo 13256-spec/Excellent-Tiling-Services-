@@ -165,5 +165,95 @@
   "variant_ids": {
    "KIT.CLASSIC.900.SHELVES.MW": "gid://shopify/ProductVariant/44169466871871"
   }
+ },
+ {
+  "index": 72,
+  "title": "MELA SHAKER 400 Wall Hung Tallboy",
+  "product_id": "gid://shopify/Product/8450287337535",
+  "handle": "mela-shaker-400-wall-hung-tallboy",
+  "variant_ids": {
+   "KIT.CLASSIC.400T.MW": "gid://shopify/ProductVariant/44169606627391"
+  }
+ },
+ {
+  "index": 76,
+  "title": "MELA HAMPTON 1500 Wall Hung Vanity with 2 Doors & Drawers",
+  "product_id": "gid://shopify/Product/8450287730751",
+  "handle": "mela-hampton-1500-wall-hung-vanity-with-2-doors-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1500.S.MW.SHELVES": "gid://shopify/ProductVariant/44169607544895"
+  }
+ },
+ {
+  "index": 80,
+  "title": "MELA PASTEL 400 Wall Hung Tallboy",
+  "product_id": "gid://shopify/Product/8450288123967",
+  "handle": "mela-pastel-400-wall-hung-tallboy",
+  "variant_ids": {
+   "KIT.CLASSIC.400T.MW": "gid://shopify/ProductVariant/44169608757311"
+  }
+ },
+ {
+  "index": 84,
+  "title": "MELA PASTEL 1500 Wall Hung Vanity with Door & 4 Drawers",
+  "product_id": "gid://shopify/Product/8450289893439",
+  "handle": "mela-pastel-1500-wall-hung-vanity-with-door-4-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1500.D.MW.SHELVES": "gid://shopify/ProductVariant/44169615638591"
+  }
+ },
+ {
+  "index": 88,
+  "title": "MELA SHAKER 1200 Wall Hung Vanity with Door & Drawers",
+  "product_id": "gid://shopify/Product/8450291990591",
+  "handle": "mela-shaker-1200-wall-hung-vanity-with-door-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1200.MW.SHELVES": "gid://shopify/ProductVariant/44169626026047"
+  }
+ },
+ {
+  "index": 92,
+  "title": "MELA SHAKER 1800 Wall Hung Vanity with Drawers",
+  "product_id": "gid://shopify/Product/8450293170239",
+  "handle": "mela-shaker-1800-wall-hung-vanity-with-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800DW.MW": "gid://shopify/ProductVariant/44169632022591"
+  }
+ },
+ {
+  "index": 96,
+  "title": "MELA TRITON 770D Stainless Steel Sink",
+  "product_id": "gid://shopify/Product/8450294054975",
+  "handle": "mela-triton-770d-stainless-steel-sink",
+  "variant_ids": {
+   "TRITON.770D.BK": "gid://shopify/ProductVariant/44169636413503"
+  }
+ },
+ {
+  "index": 100,
+  "title": "MELA MOSES Right Wall Mounted Basin",
+  "product_id": "gid://shopify/Product/8450295300159",
+  "handle": "mela-moses-right-wall-mounted-basin",
+  "variant_ids": {
+   "MOSES.WALL.RIGHT": "gid://shopify/ProductVariant/44169642999871"
+  }
+ },
+ {
+  "index": 104,
+  "title": "MELA LUCCA 1500mm Double Ceramic Vanity Top",
+  "product_id": "gid://shopify/Product/8450296741951",
+  "handle": "mela-lucca-1500mm-double-ceramic-vanity-top",
+  "variant_ids": {
+   "LUCCA.1500": "gid://shopify/ProductVariant/44169650765887"
+  }
+ },
+ {
+  "index": 108,
+  "title": "MELA LUCCA 600mm Ceramic Vanity Top",
+  "product_id": "gid://shopify/Product/8450297724991",
+  "handle": "mela-lucca-600mm-ceramic-vanity-top",
+  "variant_ids": {
+   "LUCCA.600": "gid://shopify/ProductVariant/44169655386175"
+  }
  }
 ]

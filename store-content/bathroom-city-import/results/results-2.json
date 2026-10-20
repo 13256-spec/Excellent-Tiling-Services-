@@ -182,5 +182,87 @@
   "variant_ids": {
    "KIT.CLASSIC.1800.D.MW.SHELVES": "gid://shopify/ProductVariant/44169466937407"
   }
+ },
+ {
+  "index": 78,
+  "title": "MELA HAMPTON 1800 Wall Hung Vanity with Drawers",
+  "product_id": "gid://shopify/Product/8450287468607",
+  "handle": "mela-hampton-1800-wall-hung-vanity-with-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800DW.MW": "gid://shopify/ProductVariant/44169606791231"
+  }
+ },
+ {
+  "index": 82,
+  "title": "MELA PASTEL 1800 Wall Hung Vanity with Door & 4 Drawers",
+  "product_id": "gid://shopify/Product/8450287960127",
+  "handle": "mela-pastel-1800-wall-hung-vanity-with-door-4-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800.D.MW.SHELVES": "gid://shopify/ProductVariant/44169608101951"
+  }
+ },
+ {
+  "index": 86,
+  "title": "MELA PASTEL 1800 Wall Hung Vanity with Drawers",
+  "product_id": "gid://shopify/Product/8450290122815",
+  "handle": "mela-pastel-1800-wall-hung-vanity-with-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800DW.MW": "gid://shopify/ProductVariant/44169616195647"
+  }
+ },
+ {
+  "index": 90,
+  "title": "MELA SHAKER 1500 Wall Hung Vanity with Door & 4 Drawers",
+  "product_id": "gid://shopify/Product/8450291236927",
+  "handle": "mela-shaker-1500-wall-hung-vanity-with-door-4-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1500.D.MW.SHELVES": "gid://shopify/ProductVariant/44169621667903"
+  }
+ },
+ {
+  "index": 94,
+  "title": "MELA SHAKER 1800 Wall Hung Vanity with Door & 4 Drawers",
+  "product_id": "gid://shopify/Product/8450292514879",
+  "handle": "mela-shaker-1800-wall-hung-vanity-with-door-4-drawers",
+  "variant_ids": {
+   "KIT.CLASSIC.1800.D.MW.SHELVES": "gid://shopify/ProductVariant/44169628549183"
+  }
+ },
+ {
+  "index": 98,
+  "title": "MELA LUCCA 1500mm Single Ceramic Vanity Top",
+  "product_id": "gid://shopify/Product/8450293727295",
+  "handle": "mela-lucca-1500mm-single-ceramic-vanity-top",
+  "variant_ids": {
+   "LUCCA.1500.SINGLE": "gid://shopify/ProductVariant/44169634545727"
+  }
+ },
+ {
+  "index": 102,
+  "title": "MELA CLARK 1800 Wall Hung Vanity with 4 Drawers & Open Shelves",
+  "product_id": "gid://shopify/Product/8450295529535",
+  "handle": "mela-clark-1800-wall-hung-vanity-with-4-drawers-open-shelves",
+  "variant_ids": {
+   "KIT.CLA.1800.D.SHELVES.S": "gid://shopify/ProductVariant/44169643884607",
+   "KIT.CLA.1800.D.SHELVES.W": "gid://shopify/ProductVariant/44169643917375"
+  }
+ },
+ {
+  "index": 106,
+  "title": "MELA LUCCA 900mm Ceramic Vanity Top",
+  "product_id": "gid://shopify/Product/8450297167935",
+  "handle": "mela-lucca-900mm-ceramic-vanity-top",
+  "variant_ids": {
+   "LUCCA.900TOP.CENTRE": "gid://shopify/ProductVariant/44169652797503"
+  }
+ },
+ {
+  "index": 110,
+  "title": "MELA Kitchen Sink Colander Stainless Steel",
+  "product_id": "gid://shopify/Product/8450297593919",
+  "handle": "mela-kitchen-sink-colander-stainless-steel",
+  "variant_ids": {
+   "COLANDER": "gid://shopify/ProductVariant/44169654861887"
+  }
  }
 ]
