@@ -85,7 +85,7 @@ RDTT783,Diminishing Trim – 3m Lengths,18mm / Bright Silver,93.9,93.9,roberts-l
 RDXT237,Disposable Gloves,L,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
 RDXT236,Disposable Gloves,M,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
 RDXT238,Disposable Gloves,XL,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
-RDXM50101,E120 Replacement power cable (2m length) + plug,,125.19,125.19,roberts-list,120.95,125.19,-13.9,,small parcel
+RDXM50101,E120 Replacement power cable (2m length) + plug,,125.19,,none found (floor),172.95,125.19,20.4,yes,small parcel
 RDXT303,Economy Grout Float,,14.5,14.5,roberts-list,12.15,7.92,28.3,,small parcel
 RDXT108,Electric Glue Mixer 1400W,,420.25,420.25,roberts-list,280.10,224.07,12.0,,small parcel
 RDXT854,Electroplated Diamond Core Drill,38mm,86.75,78.65,match:tilemart,51.05,40.81,12.1,,small parcel
@@ -146,8 +146,8 @@ RDTT893,External Retro Cove Corner,Matte Silver,38.2,38.2,match:tilemart,31.45,2
 RDTT891,External Retro Cove Corner,Mill Finish,38.2,38.2,match:tilemart,31.45,21.51,24.8,,small parcel
 RDXM50425,F200 Mixer head (not including a paddles),,385.0,385.0,roberts-list,299.99,196.35,28.0,,pickup/quote
 RDXM50427,F300 Mixer head (not including paddles),,385.0,385.0,roberts-list,270.00,196.35,20.0,,pickup/quote
-RDXM50444,F300 Mixer paddles set (3),,385.0,385.0,roberts-list,372.95,385.00,-13.6,,small parcel
-RDXT14466,Flange 50mm Socket Weld,,23.4,23.4,roberts-list,21.95,14.30,28.3,,small parcel
+RDXM50444,F300 Mixer paddles set (3),,385.0,,none found (floor),529.95,385.00,20.1,yes,small parcel
+RDXT14466,Flange 50mm Socket Weld,,23.4,,none found (floor),35.95,25.74,21.2,yes,small parcel
 RDXT614,Grout Haze Square Edge Sponge,,11.6,11.6,roberts-list,9.05,5.45,33.8,,small parcel
 RD6003-0001,Guardia Surface Protection,,132.5,132.5,match:westerndist,145.75,96.20,27.4,,small parcel
 RDXT416,Handyman Knee Pad,,32.85,29.82,match:tilemart,21.45,12.87,34.0,,small parcel
@@ -502,7 +502,7 @@ RDTT794mslv,Ramp Aluminium Trim – 3m Lengths,12mm / Matte Silver,120.4,120.4,r
 RDTT791,Ramp Aluminium Trim – 3m Lengths,12mm / Mill Finish,111.15,111.15,roberts-list,99.85,67.93,25.2,,pickup/quote
 RDTT792mslv,Ramp Aluminium Trim – 3m Lengths,8mm / Matte Silver,83.35,83.35,roberts-list,74.65,50.93,25.0,,pickup/quote
 RDTT789,Ramp Aluminium Trim – 3m Lengths,8mm / Mill Finish,74.1,74.1,roberts-list,66.55,45.27,25.2,,pickup/quote
-RDXT14791,Recessed Flange Adapter 100 x 100mm,,25.75,25.75,roberts-list,23.95,15.73,27.8,,small parcel
+RDXT14791,Recessed Flange Adapter 100 x 100mm,,25.75,,none found (floor),39.95,28.33,22.0,yes,small parcel
 RD110w,Regent Shelf and Soapholder,,40.65,40.65,match:tilemart,35.05,22.83,28.4,,small parcel
 RDXT611b,Replacement Bucket Handle for Eco Roller – Fits RDXT630,,48.2,48.2,roberts-list,29.45,21.40,20.1,,small parcel
 RDXT611c,Replacement Clip for Eco Roller – Fits RDXT630,,11.3,11.3,roberts-list,9.70,5.85,33.7,,small parcel
@@ -511,7 +511,7 @@ RDXT611a,Replacement Roller for Eco Roller – Fits RDXT630,,22.7,22.7,roberts-l
 RDXT108x,Replacement Spiral Head for RDXT108,,44.65,44.65,roberts-list,35.25,21.18,33.9,,small parcel
 RDTT881,Retro Cove Aluminium Trim – 3m Lengths,Matte Silver,87.75,87.75,roberts-list,72.85,49.34,25.5,,pickup/quote
 RDTT880,Retro Cove Aluminium Trim – 3m Lengths,Mill Finish,75.25,75.25,roberts-list,62.05,42.30,25.0,,pickup/quote
-RDTT896,Retro Cove Joiner – 70mm,,12.6,12.6,roberts-list,12.20,7.15,35.5,,small parcel
+RDTT896,Retro Cove Joiner – 70mm,,12.6,,none found (floor),19.95,13.86,23.6,yes,small parcel
 RDTT767b,Retro Fit Aluminium Trim – 3m Lengths,10mm / Black,18.45,18.45,roberts-list,11.90,7.15,33.9,,pickup/quote
 RDTT767slv,Retro Fit Aluminium Trim – 3m Lengths,10mm / Bright Silver,18.45,18.45,roberts-list,11.90,7.15,33.9,,pickup/quote
 RDTT767w,Retro Fit Aluminium Trim – 3m Lengths,10mm / White,18.45,18.45,roberts-list,11.90,7.15,33.9,,pickup/quote
@@ -538,12 +538,12 @@ RDXA3007,Sausage Caulking Gun,,65.6,65.6,roberts-list,53.40,32.06,34.0,,small pa
 RDXT2016,Segmented Diamond Blades – Orange,300mm,450.45,450.45,roberts-list,356.35,256.47,20.8,,small parcel
 RDXT2017,Segmented Diamond Blades – Orange,350mm,514.05,514.05,roberts-list,420.25,285.62,25.2,,small parcel
 RDXA3649,Sigma 108362 M8 Nut for Locking Bolt,,11.7,11.7,roberts-list,10.50,6.50,31.9,yes,small parcel
-RDXA3580,Sigma 108362 M8 Square Nut for Locking Bolt,,7.6,7.6,roberts-list,7.35,7.60,-13.7,yes,small parcel
+RDXA3580,Sigma 108362 M8 Square Nut for Locking Bolt,,7.6,,none found (floor),10.95,7.60,23.7,yes,small parcel
 RDXA3511,Sigma 108616 Locking Bolt M8x25 for Swivel Measurement Bar,,28.2,28.2,roberts-list,22.99,14.40,31.1,yes,pickup/quote
 RDXA3535,Sigma 14C Scoring Wheel (15mm),,20.86,20.86,roberts-list,19.50,10.64,40.0,yes,small parcel
-RDXA3526,Sigma 14G Kera Cut Spare Wheel (12mm),,35.8,35.8,roberts-list,33.95,18.30,40.7,yes,pickup/quote
-RDXA3651,Sigma 17A Extension Bar 500mm,,198.0,198.0,roberts-list,191.95,110.00,37.0,yes,pickup/quote
-RDXA3534,Sigma 196725 Rubber Foot,,5.4,5.4,roberts-list,5.20,3.00,36.5,yes,small parcel
+RDXA3526,Sigma 14G Kera Cut Spare Wheel (12mm),,35.8,47.06,web:eBay AU,49.95,35.80,21.2,yes,small parcel
+RDXA3651,Sigma 17A Extension Bar 500mm,,198.0,,none found (floor),272.95,198.00,20.2,yes,small parcel
+RDXA3534,Sigma 196725 Rubber Foot,,5.4,,none found (floor),7.95,5.40,25.3,yes,small parcel
 RDXA3516,Sigma 19B3 Square,,18.0,18.0,roberts-list,16.80,9.18,39.9,yes,small parcel
 RDXA3516C,Sigma 19C Square,,38.4,38.4,roberts-list,31.80,19.65,32.0,yes,small parcel
 RDXA3516B,Sigma 19D Square,,48.5,48.5,roberts-list,36.45,24.70,25.5,yes,small parcel
@@ -554,18 +554,18 @@ RDXA3517,Sigma 24E Handle,,186.45,186.45,roberts-list,144.65,95.15,27.6,yes,smal
 RDXA3519,Sigma 24M10X Handle,,319.8,319.8,roberts-list,314.20,228.50,20.0,yes,small parcel
 RDXA3528,Sigma 24M15X Handle,,1151.1,1151.1,roberts-list,951.25,587.30,32.1,yes,small parcel
 RDXA3539,Sigma 24M20X Handle,,319.8,319.8,roberts-list,314.20,228.50,20.0,yes,small parcel
-RDXA3492,Sigma 37C Table Fixing Kit,,267.3,267.3,roberts-list,258.95,148.50,36.9,yes,small parcel
-RDXA3595,Sigma 402 Work Bench Storage Hooks for Kera-Cut,,140.75,140.75,roberts-list,135.95,71.80,41.9,yes,small parcel
-RDXA3591,Sigma 421 Carriage Kit (2 Wheel Sets w/ Slab Support and Angle Support),,1151.1,1151.1,roberts-list,1115.95,587.30,42.1,yes,small parcel
-RDXA3650,Sigma 64B2 Non-Slip Magnetic Map,,198.0,198.0,roberts-list,191.95,110.00,37.0,yes,small parcel
-RDXA3599,Sigma 8AEP2 Kera-Cut Extension Bar 50cm,,332.5,332.5,roberts-list,321.95,169.75,42.0,yes,pickup/quote
+RDXA3492,Sigma 37C Table Fixing Kit,,267.3,,none found (floor),367.95,267.30,20.1,yes,small parcel
+RDXA3595,Sigma 402 Work Bench Storage Hooks for Kera-Cut,,140.75,146.58,web:Tile Mart,193.95,140.75,20.2,yes,small parcel
+RDXA3591,Sigma 421 Carriage Kit (2 Wheel Sets w/ Slab Support and Angle Support),,1151.1,874.90,web:Tile Mart,1582.95,1151.10,20.0,yes,small parcel
+RDXA3650,Sigma 64B2 Non-Slip Magnetic Map,,198.0,,none found (floor),272.95,198.00,20.2,yes,small parcel
+RDXA3599,Sigma 8AEP2 Kera-Cut Extension Bar 50cm,,332.5,346.40,web:Tile Mart (Victiles $200),457.95,332.50,20.1,yes,small parcel
 RDXA3525C,Sigma 90D3 Sigma Swivel Measurement Bar,,123.2,123.2,roberts-list,109.99,62.83,37.2,yes,pickup/quote
-RDXA3525B,Sigma 90DG Sigma Swivel Measurement Bar,,88.2,88.2,roberts-list,84.95,88.20,-14.2,yes,pickup/quote
+RDXA3525B,Sigma 90DG Sigma Swivel Measurement Bar,,88.2,,none found (floor),121.95,88.20,20.4,yes,small parcel
 RDXA3560,Sigma 90LB Sigma Swivel Measurement Bar,,268.55,268.55,roberts-list,188.55,137.10,20.0,yes,pickup/quote
 RDXA3561,Sigma 90LC Sigma Swivel Measurement Bar,,281.4,281.4,roberts-list,210.55,143.55,25.0,yes,pickup/quote
 RDXA3562,Sigma 90LD Sigma Swivel Measurement Bar,,152.6,152.6,roberts-list,139.99,77.83,38.8,yes,pickup/quote
 RDXA3585,Sigma 90LE Sigma Swivel Measurement Bar,,140.0,140.0,roberts-list,130.90,71.40,40.0,yes,pickup/quote
-RDXA3647,Sigma 90NE Sigma Swivel Measurement Bar 64cm-0-64cm,,387.0,387.0,roberts-list,374.95,215.00,36.9,yes,pickup/quote
+RDXA3647,Sigma 90NE Sigma Swivel Measurement Bar 64cm-0-64cm,,387.0,,none found (floor),532.95,387.00,20.1,yes,pickup/quote
 RDXA3544,"Sigma ART108621 Locking Bolt M8 x 40 for Series 3B,3C,3D models",,22.25,22.25,roberts-list,19.75,12.35,31.2,yes,small parcel
 RDXA3594,Sigma Aluminium Workbench ART 63E – 180 x 100,,2174.15,2174.15,match:tilemart,1781.95,1109.35,31.5,yes,pickup/quote
 RDXA3584,Sigma Cutting Wheel ART14K suits Kera Cut – 19mm dia,,69.05,69.05,match:tilemart,57.55,35.25,32.6,,pickup/quote
