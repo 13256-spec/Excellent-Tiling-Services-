@@ -161,3 +161,27 @@ sends a trade price list. The list of items to ask for is `store-content/pricing
 - Files: `dsa_bathroomware_2026_10.py` (feed -> productSet inputs), `dsa-eternity-feed-2026-10-14.json` (Eternity's
   feed that day), `dsa-bathroomware-2026-10-14.json` (what was sent), `dsa-bathroomware-created-2026-10-14.json`
   (Shopify product and variant ids per source handle).
+
+## Roberts Designs items with no photo (21 Oct 2026)
+
+Roberts' site lists 46 products with no image. 22 were already in the store (photos found elsewhere on 6 Oct),
+8 show $0 on Roberts (no price, skipped: F200 paddles set, F300 rubber wheel, E120/F120/F80 switch box, Sigma 87E4
+water kit, 315 locking bolt M10, 24F handle, 106742 plug/cap, 104096 no-mark protection). The other 16 were listed
+**without a photo** on the owner's instruction (5 had been deleted on 6 Oct for having none, 11 were never imported):
+
+11 Sigma parts (90DG and 90NE measurement bars, 8AEP2 and 17A extension bars, 64B2 magnetic mat, 421 carriage kit,
+402 bench hooks, 37C table fixing kit, 196725 rubber foot, 14G scoring wheel, 108362 M8 square nut), 2 Baron parts
+(F300 paddles set, E120 power cable), Recessed Flange Adapter 100 x 100mm, Flange 50mm Socket Weld, Retro Cove
+Joiner 70mm.
+
+- Active, published to all six channels, same vendor / type / category / tags as their siblings, plus tag `no-photo`
+  so they can be found when a photo turns up. The theme shows its placeholder image.
+- Price and cost from `roberts-designs-pricing.csv`. Where that sheet had cost = Roberts list price (paddles, cable,
+  90DG bar, M8 nut), cost = list x 0.51 like the sibling parts fixed on 6 Oct, tagged `cost-estimated`; sheet updated.
+  All 16 are at or above the 25% profit floor. `ets.trade_band` = 0 (not in any `trade-list-N` collection).
+- Weights are estimates; all `ship-parcel` (General profile).
+- Sigma parts in `sigma-cutter-spares`, Baron parts in `mixers-paddles-buckets`, flanges in `bathroom-wastes`
+  (the smart collections pick up the rest).
+- Roberts shows the 90DG bar and the Retro Cove Joiner as out of stock on their site.
+- Files: `roberts_no_photo_2026_10.py`, `roberts-no-photo-2026-10-21.json` (what was sent),
+  `roberts-no-photo-created-2026-10-21.json` (Shopify ids).

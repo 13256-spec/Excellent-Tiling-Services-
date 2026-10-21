@@ -85,7 +85,7 @@ RDTT783,Diminishing Trim – 3m Lengths,18mm / Bright Silver,93.9,93.9,roberts-l
 RDXT237,Disposable Gloves,L,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
 RDXT236,Disposable Gloves,M,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
 RDXT238,Disposable Gloves,XL,19.0,19.0,roberts-list,17.80,11.61,28.3,,small parcel
-RDXM50101,E120 Replacement power cable (2m length) + plug,,125.19,125.19,roberts-list,120.95,125.19,-13.9,,small parcel
+RDXM50101,E120 Replacement power cable (2m length) + plug,,125.19,125.19,roberts-list,120.95,63.85,41.9,,small parcel
 RDXT303,Economy Grout Float,,14.5,14.5,roberts-list,12.15,7.92,28.3,,small parcel
 RDXT108,Electric Glue Mixer 1400W,,420.25,420.25,roberts-list,280.10,224.07,12.0,,small parcel
 RDXT854,Electroplated Diamond Core Drill,38mm,86.75,78.65,match:tilemart,51.05,40.81,12.1,,small parcel
@@ -146,7 +146,7 @@ RDTT893,External Retro Cove Corner,Matte Silver,38.2,38.2,match:tilemart,31.45,2
 RDTT891,External Retro Cove Corner,Mill Finish,38.2,38.2,match:tilemart,31.45,21.51,24.8,,small parcel
 RDXM50425,F200 Mixer head (not including a paddles),,385.0,385.0,roberts-list,299.99,196.35,28.0,,pickup/quote
 RDXM50427,F300 Mixer head (not including paddles),,385.0,385.0,roberts-list,270.00,196.35,20.0,,pickup/quote
-RDXM50444,F300 Mixer paddles set (3),,385.0,385.0,roberts-list,372.95,385.00,-13.6,,small parcel
+RDXM50444,F300 Mixer paddles set (3),,385.0,385.0,roberts-list,372.95,196.35,42.1,,small parcel
 RDXT14466,Flange 50mm Socket Weld,,23.4,23.4,roberts-list,21.95,14.30,28.3,,small parcel
 RDXT614,Grout Haze Square Edge Sponge,,11.6,11.6,roberts-list,9.05,5.45,33.8,,small parcel
 RD6003-0001,Guardia Surface Protection,,132.5,132.5,match:westerndist,145.75,96.20,27.4,,small parcel
@@ -538,7 +538,7 @@ RDXA3007,Sausage Caulking Gun,,65.6,65.6,roberts-list,53.40,32.06,34.0,,small pa
 RDXT2016,Segmented Diamond Blades – Orange,300mm,450.45,450.45,roberts-list,356.35,256.47,20.8,,small parcel
 RDXT2017,Segmented Diamond Blades – Orange,350mm,514.05,514.05,roberts-list,420.25,285.62,25.2,,small parcel
 RDXA3649,Sigma 108362 M8 Nut for Locking Bolt,,11.7,11.7,roberts-list,10.50,6.50,31.9,yes,small parcel
-RDXA3580,Sigma 108362 M8 Square Nut for Locking Bolt,,7.6,7.6,roberts-list,7.35,7.60,-13.7,yes,small parcel
+RDXA3580,Sigma 108362 M8 Square Nut for Locking Bolt,,7.6,7.6,roberts-list,7.35,3.88,41.9,yes,small parcel
 RDXA3511,Sigma 108616 Locking Bolt M8x25 for Swivel Measurement Bar,,28.2,28.2,roberts-list,22.99,14.40,31.1,yes,pickup/quote
 RDXA3535,Sigma 14C Scoring Wheel (15mm),,20.86,20.86,roberts-list,19.50,10.64,40.0,yes,small parcel
 RDXA3526,Sigma 14G Kera Cut Spare Wheel (12mm),,35.8,35.8,roberts-list,33.95,18.30,40.7,yes,pickup/quote
@@ -560,7 +560,7 @@ RDXA3591,Sigma 421 Carriage Kit (2 Wheel Sets w/ Slab Support and Angle Support)
 RDXA3650,Sigma 64B2 Non-Slip Magnetic Map,,198.0,198.0,roberts-list,191.95,110.00,37.0,yes,small parcel
 RDXA3599,Sigma 8AEP2 Kera-Cut Extension Bar 50cm,,332.5,332.5,roberts-list,321.95,169.75,42.0,yes,pickup/quote
 RDXA3525C,Sigma 90D3 Sigma Swivel Measurement Bar,,123.2,123.2,roberts-list,109.99,62.83,37.2,yes,pickup/quote
-RDXA3525B,Sigma 90DG Sigma Swivel Measurement Bar,,88.2,88.2,roberts-list,84.95,88.20,-14.2,yes,pickup/quote
+RDXA3525B,Sigma 90DG Sigma Swivel Measurement Bar,,88.2,88.2,roberts-list,84.95,44.98,41.8,yes,pickup/quote
 RDXA3560,Sigma 90LB Sigma Swivel Measurement Bar,,268.55,268.55,roberts-list,188.55,137.10,20.0,yes,pickup/quote
 RDXA3561,Sigma 90LC Sigma Swivel Measurement Bar,,281.4,281.4,roberts-list,210.55,143.55,25.0,yes,pickup/quote
 RDXA3562,Sigma 90LD Sigma Swivel Measurement Bar,,152.6,152.6,roberts-list,139.99,77.83,38.8,yes,pickup/quote

@@ -1,0 +1,1229 @@
+[
+ {
+  "title": "Sigma 90DG Swivel Measurement Bar",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma cutters that take the 90DG bar; check the part number against your cutter</p><p>Genuine Sigma swivel measurement bar: the graduated bar that sets the cut width and angle on the cutter.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 90DG swivel measurement bar</li><li><strong>Code:</strong> RDXA3525B</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "cost-estimated",
+   "no-photo",
+   "ship-parcel",
+   "shipping-large",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 90DG Swivel Measurement Bar | ETS",
+   "description": "Genuine Sigma swivel measurement bar: the graduated bar that sets the cut width and angle on the cutter. Genuine Sigma part 90DG swivel measurement bar. SKU RDXA3525B."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma cutters that take the 90DG bar; check the part number against your cutter"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "84.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3525B",
+     "tracked": true,
+     "cost": "44.98",
+     "measurement": {
+      "weight": {
+       "value": 1.5,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 8AEP2 Kera-Cut Extension Bar 50cm",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma Kera-Cut large format cutting systems</p><p>Genuine Sigma 50 cm extension bar that lengthens the Kera-Cut guide rail for longer cuts in large format tiles and slabs.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 8AEP2 extension bar 50 cm</li><li><strong>Code:</strong> RDXA3599</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-large",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 8AEP2 Kera-Cut Extension Bar 50cm | ETS",
+   "description": "Genuine Sigma 50 cm extension bar that lengthens the Kera-Cut guide rail for longer cuts in large format tiles and slabs. Genuine Sigma part 8AEP2 extension bar 50 cm. SKU RDXA3599."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma Kera-Cut large format cutting systems"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "321.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3599",
+     "tracked": true,
+     "cost": "169.75",
+     "measurement": {
+      "weight": {
+       "value": 2.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 64B2 Non-Slip Magnetic Mat",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma Kera-Cut and Kera-Lift systems</p><p>Genuine Sigma non-slip magnetic mat that holds the tile or slab steady on the work surface while cutting.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 64B2 non-slip magnetic mat</li><li><strong>Code:</strong> RDXA3650</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 64B2 Non-Slip Magnetic Mat | ETS",
+   "description": "Genuine Sigma non-slip magnetic mat that holds the tile or slab steady on the work surface while cutting. Genuine Sigma part 64B2 non-slip magnetic mat. SKU RDXA3650."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma Kera-Cut and Kera-Lift systems"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "191.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3650",
+     "tracked": true,
+     "cost": "110.00",
+     "measurement": {
+      "weight": {
+       "value": 1.5,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 421 Carriage Kit (2 Wheel Sets with Slab Support and Angle Support)",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma Kera-Cut and Kera-Lift systems</p><p>Genuine Sigma carriage kit: two wheel sets with a slab support and an angle support for moving and positioning large format slabs.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 421 carriage kit</li><li><strong>Code:</strong> RDXA3591</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-large",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 421 Carriage Kit (2 Wheel Sets with Slab Support and Angle Support) | ETS",
+   "description": "Genuine Sigma carriage kit: two wheel sets with a slab support and an angle support for moving and positioning large format slabs. Genuine Sigma part 421 carriage kit. SKU RDXA3591."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma Kera-Cut and Kera-Lift systems"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "1115.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3591",
+     "tracked": true,
+     "cost": "587.30",
+     "measurement": {
+      "weight": {
+       "value": 8.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 402 Work Bench Storage Hooks for Kera-Cut",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma Kera-Cut work bench</p><p>Genuine Sigma storage hooks that mount on the Kera-Cut work bench to hang the rails and accessories when not in use.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 402 work bench storage hooks</li><li><strong>Code:</strong> RDXA3595</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 402 Work Bench Storage Hooks for Kera-Cut | ETS",
+   "description": "Genuine Sigma storage hooks that mount on the Kera-Cut work bench to hang the rails and accessories when not in use. Genuine Sigma part 402 work bench storage hooks. SKU RDXA3595."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma Kera-Cut work bench"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "135.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3595",
+     "tracked": true,
+     "cost": "71.80",
+     "measurement": {
+      "weight": {
+       "value": 2.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 90NE Swivel Measurement Bar 64cm-0-64cm",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma cutters that take the 90NE bar; check the part number against your cutter</p><p>Genuine Sigma swivel measurement bar graduated 64 cm either side of centre, for setting cut width and angle on the cutter.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 90NE swivel measurement bar 64-0-64 cm</li><li><strong>Code:</strong> RDXA3647</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-large",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 90NE Swivel Measurement Bar 64cm-0-64cm | ETS",
+   "description": "Genuine Sigma swivel measurement bar graduated 64 cm either side of centre, for setting cut width and angle on the cutter. Genuine Sigma part 90NE swivel measurement bar 64-0-64 cm. SKU RDXA3647."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma cutters that take the 90NE bar; check the part number against your cutter"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "374.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3647",
+     "tracked": true,
+     "cost": "215.00",
+     "measurement": {
+      "weight": {
+       "value": 3.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 37C Table Fixing Kit",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma Kera-Cut work bench</p><p>Genuine Sigma fixing kit for securing the Kera-Cut system to the work table.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 37C table fixing kit</li><li><strong>Code:</strong> RDXA3492</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 37C Table Fixing Kit | ETS",
+   "description": "Genuine Sigma fixing kit for securing the Kera-Cut system to the work table. Genuine Sigma part 37C table fixing kit. SKU RDXA3492."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma Kera-Cut work bench"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "258.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3492",
+     "tracked": true,
+     "cost": "148.50",
+     "measurement": {
+      "weight": {
+       "value": 3.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 196725 Rubber Foot",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma tile cutters; check the part number against your cutter</p><p>Genuine Sigma replacement rubber foot for the cutter base.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 196725 rubber foot</li><li><strong>Code:</strong> RDXA3534</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 196725 Rubber Foot | ETS",
+   "description": "Genuine Sigma replacement rubber foot for the cutter base. Genuine Sigma part 196725 rubber foot. SKU RDXA3534."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma tile cutters; check the part number against your cutter"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "5.20",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3534",
+     "tracked": true,
+     "cost": "3.00",
+     "measurement": {
+      "weight": {
+       "value": 0.05,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 17A Extension Bar 500mm",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma cutters that take the 17A bar; check the part number against your cutter</p><p>Genuine Sigma 500 mm extension bar for longer cuts on Sigma tile cutters.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 17A extension bar 500 mm</li><li><strong>Code:</strong> RDXA3651</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-large",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 17A Extension Bar 500mm | ETS",
+   "description": "Genuine Sigma 500 mm extension bar for longer cuts on Sigma tile cutters. Genuine Sigma part 17A extension bar 500 mm. SKU RDXA3651."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma cutters that take the 17A bar; check the part number against your cutter"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "191.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3651",
+     "tracked": true,
+     "cost": "110.00",
+     "measurement": {
+      "weight": {
+       "value": 2.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 14G Kera-Cut Spare Scoring Wheel 12mm",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma Kera-Cut</p><p>Genuine Sigma 12 mm replacement scoring wheel for the Kera-Cut cutting system.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 14G scoring wheel 12 mm</li><li><strong>Code:</strong> RDXA3526</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "no-photo",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 14G Kera-Cut Spare Scoring Wheel 12mm | ETS",
+   "description": "Genuine Sigma 12 mm replacement scoring wheel for the Kera-Cut cutting system. Genuine Sigma part 14G scoring wheel 12 mm. SKU RDXA3526."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma Kera-Cut"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "33.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3526",
+     "tracked": true,
+     "cost": "18.30",
+     "measurement": {
+      "weight": {
+       "value": 0.05,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "Sigma 108362 M8 Square Nut for Locking Bolt",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma swivel measurement bar locking bolts</p><p>Genuine Sigma M8 square nut for the measurement bar locking bolt.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 108362 M8 square nut</li><li><strong>Code:</strong> RDXA3580</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "vendor": "Sigma",
+  "productType": "Tiling Machine Parts",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
+  "status": "ACTIVE",
+  "tags": [
+   "Roberts Designs",
+   "Sigma",
+   "Tile Cutters",
+   "Tile Cutting Equipment",
+   "cost-estimated",
+   "no-photo",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Sigma 108362 M8 Square Nut for Locking Bolt | ETS",
+   "description": "Genuine Sigma M8 square nut for the measurement bar locking bolt. Genuine Sigma part 108362 M8 square nut. SKU RDXA3580."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Sigma swivel measurement bar locking bolts"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "7.35",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXA3580",
+     "tracked": true,
+     "cost": "3.88",
+     "measurement": {
+      "weight": {
+       "value": 0.1,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "sigma-cutter-spares"
+  ]
+ },
+ {
+  "title": "F300 Mixer Paddles Set (3)",
+  "descriptionHtml": "<p>Genuine Baron replacement set of three mixing paddles for the F300 forced action mixer.</p><ul><li>Fits: Baron F300 forced action mixer</li><li>Baron part number: 50444</li></ul><p>No product photo yet.</p>",
+  "vendor": "Baron",
+  "productType": "Mixers",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-34-2",
+  "status": "ACTIVE",
+  "tags": [
+   "Baron",
+   "Mixers",
+   "Roberts Designs",
+   "Tiling Tools + Installation Products",
+   "cost-estimated",
+   "no-photo",
+   "ship-parcel",
+   "shipping-large",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "F300 Mixer Paddles Set (3) | ETS",
+   "description": "Baron F300 Mixer Paddles Set (3). Genuine spare part for Baron forced action mixers. SKU RDXM50444."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Baron F300 forced action mixer"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "372.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXM50444",
+     "tracked": true,
+     "cost": "196.35",
+     "measurement": {
+      "weight": {
+       "value": 10.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "mixers-paddles-buckets"
+  ]
+ },
+ {
+  "title": "E120 Replacement Power Cable 2m with Plug",
+  "descriptionHtml": "<p>Genuine Baron 2 m replacement power cable with plug for the E120 forced action mixer.</p><ul><li>Fits: Baron E120 forced action mixer</li><li>Baron part number: 50101</li></ul><p>No product photo yet.</p>",
+  "vendor": "Baron",
+  "productType": "Mixers",
+  "category": "gid://shopify/TaxonomyCategory/ha-15-34-2",
+  "status": "ACTIVE",
+  "tags": [
+   "Baron",
+   "Mixers",
+   "Roberts Designs",
+   "Tiling Tools + Installation Products",
+   "cost-estimated",
+   "no-photo",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "E120 Replacement Power Cable 2m with Plug | ETS",
+   "description": "Baron E120 Replacement Power Cable 2m with Plug. Genuine spare part for Baron forced action mixers. SKU RDXM50101."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_models",
+    "type": "single_line_text_field",
+    "value": "Baron E120 forced action mixer"
+   },
+   {
+    "namespace": "ets",
+    "key": "fits_role",
+    "type": "single_line_text_field",
+    "value": "item"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "120.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXM50101",
+     "tracked": true,
+     "cost": "63.85",
+     "measurement": {
+      "weight": {
+       "value": 1.0,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "mixers-paddles-buckets"
+  ]
+ },
+ {
+  "title": "Recessed Flange Adapter 100 x 100mm",
+  "descriptionHtml": "<p>Adapter for a recessed puddle flange, 100 x 100mm, used at the floor waste penetration so the waterproofing membrane can be sealed to the waste.</p><ul><li><strong>Size:</strong> 100 x 100mm</li><li><strong>Code:</strong> RDXT14791</li></ul><p>No product photo yet.</p>",
+  "vendor": "Roberts Designs",
+  "productType": "Designer Bathroom Accessories",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-2-3",
+  "status": "ACTIVE",
+  "tags": [
+   "Designer Bathroom Accessories",
+   "Floor Wastes and Linear Drains",
+   "no-photo",
+   "Roberts Designs",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Recessed Flange Adapter 100 x 100mm | ETS",
+   "description": "Recessed flange adapter 100 x 100mm from Roberts Designs, for sealing the waterproofing membrane at a floor waste. SKU RDXT14791."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "23.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXT14791",
+     "tracked": true,
+     "cost": "15.73",
+     "measurement": {
+      "weight": {
+       "value": 0.4,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes"
+  ]
+ },
+ {
+  "title": "Flange 50mm Socket Weld",
+  "descriptionHtml": "<p>50mm socket weld flange for connecting a floor waste to 50mm PVC pipe.</p><ul><li><strong>Size:</strong> 50mm</li><li><strong>Connection:</strong> Socket weld</li><li><strong>Code:</strong> RDXT14466</li></ul><p>No product photo yet.</p>",
+  "vendor": "Roberts Designs",
+  "productType": "Designer Bathroom Accessories",
+  "category": "gid://shopify/TaxonomyCategory/ha-10-2-3",
+  "status": "ACTIVE",
+  "tags": [
+   "Designer Bathroom Accessories",
+   "Floor Wastes and Linear Drains",
+   "no-photo",
+   "Roberts Designs",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import"
+  ],
+  "seo": {
+   "title": "Flange 50mm Socket Weld | ETS",
+   "description": "50mm socket weld flange from Roberts Designs for connecting a floor waste to 50mm pipe. SKU RDXT14466."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "21.95",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDXT14466",
+     "tracked": true,
+     "cost": "14.30",
+     "measurement": {
+      "weight": {
+       "value": 0.3,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": [
+   "bathroom-wastes"
+  ]
+ },
+ {
+  "title": "Retro Cove Joiner – 70mm",
+  "descriptionHtml": "<p>Joiner for connecting lengths of 70mm retro cove trim, giving a straight, aligned join between pieces.</p><ul><li><strong>Size:</strong> 70mm</li><li><strong>Box Qty:</strong> 1</li><li><strong>Code:</strong> RDTT896</li></ul><p>No product photo yet.</p>",
+  "vendor": "Roberts Designs",
+  "productType": "Retro Cove Trim",
+  "category": "gid://shopify/TaxonomyCategory/ha-2-11",
+  "status": "ACTIVE",
+  "tags": [
+   "no-photo",
+   "Retro Cove Trim",
+   "Roberts Designs",
+   "ship-parcel",
+   "shipping-small",
+   "supplier-import",
+   "Tile Trims + Edging Profiles"
+  ],
+  "seo": {
+   "title": "Retro Cove Joiner – 70mm | ETS",
+   "description": "Joiner for 70mm retro cove tile trim from Roberts Designs. SKU RDTT896."
+  },
+  "metafields": [
+   {
+    "namespace": "ets",
+    "key": "trade_band",
+    "type": "number_integer",
+    "value": "0"
+   }
+  ],
+  "productOptions": [
+   {
+    "name": "Title",
+    "values": [
+     {
+      "name": "Default Title"
+     }
+    ]
+   }
+  ],
+  "variants": [
+   {
+    "optionValues": [
+     {
+      "optionName": "Title",
+      "name": "Default Title"
+     }
+    ],
+    "price": "12.20",
+    "inventoryPolicy": "CONTINUE",
+    "taxable": true,
+    "inventoryItem": {
+     "sku": "RDTT896",
+     "tracked": true,
+     "cost": "7.15",
+     "measurement": {
+      "weight": {
+       "value": 0.05,
+       "unit": "KILOGRAMS"
+      }
+     }
+    }
+   }
+  ],
+  "_collections": []
+ }
+]
