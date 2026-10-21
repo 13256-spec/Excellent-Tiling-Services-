@@ -11,8 +11,9 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
-   "cost-estimated",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-large",
    "supplier-import"
@@ -59,13 +60,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "84.95",
+    "price": "121.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3525B",
      "tracked": true,
-     "cost": "44.98",
+     "cost": "88.20",
      "measurement": {
       "weight": {
        "value": 1.5,
@@ -91,7 +92,9 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-large",
    "supplier-import"
@@ -138,13 +141,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "321.95",
+    "price": "457.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3599",
      "tracked": true,
-     "cost": "169.75",
+     "cost": "332.50",
      "measurement": {
       "weight": {
        "value": 2.0,
@@ -170,9 +173,11 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
-   "shipping-small",
+   "shipping-large",
    "supplier-import"
   ],
   "seo": {
@@ -217,13 +222,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "191.95",
+    "price": "272.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3650",
      "tracked": true,
-     "cost": "110.00",
+     "cost": "198.00",
      "measurement": {
       "weight": {
        "value": 1.5,
@@ -249,7 +254,9 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-large",
    "supplier-import"
@@ -296,16 +303,16 @@
       "name": "Default Title"
      }
     ],
-    "price": "1115.95",
+    "price": "1582.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3591",
      "tracked": true,
-     "cost": "587.30",
+     "cost": "1151.10",
      "measurement": {
       "weight": {
-       "value": 8.0,
+       "value": 12.0,
        "unit": "KILOGRAMS"
       }
      }
@@ -328,9 +335,11 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
-   "shipping-small",
+   "shipping-large",
    "supplier-import"
   ],
   "seo": {
@@ -375,13 +384,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "135.95",
+    "price": "193.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3595",
      "tracked": true,
-     "cost": "71.80",
+     "cost": "140.75",
      "measurement": {
       "weight": {
        "value": 2.0,
@@ -397,7 +406,7 @@
  },
  {
   "title": "Sigma 90NE Swivel Measurement Bar 64cm-0-64cm",
-  "descriptionHtml": "<p><strong>Fits:</strong> Sigma cutters that take the 90NE bar; check the part number against your cutter</p><p>Genuine Sigma swivel measurement bar graduated 64 cm either side of centre, for setting cut width and angle on the cutter.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 90NE swivel measurement bar 64-0-64 cm</li><li><strong>Code:</strong> RDXA3647</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma 4EN and 4FN tile cutters</p><p>Genuine Sigma swivel measurement bar graduated 64 cm either side of centre, for setting cut width and angle on the cutter.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 90NE swivel measurement bar 64-0-64 cm</li><li><strong>Code:</strong> RDXA3647</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
   "vendor": "Sigma",
   "productType": "Tiling Machine Parts",
   "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
@@ -407,8 +416,11 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-pickup-only",
    "no-photo",
-   "ship-parcel",
+   "price-check",
+   "ship-freight",
+   "ship-local-only",
    "shipping-large",
    "supplier-import"
   ],
@@ -427,7 +439,7 @@
     "namespace": "ets",
     "key": "fits_models",
     "type": "single_line_text_field",
-    "value": "Sigma cutters that take the 90NE bar; check the part number against your cutter"
+    "value": "Sigma 4EN and 4FN tile cutters"
    },
    {
     "namespace": "ets",
@@ -454,13 +466,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "374.95",
+    "price": "532.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3647",
      "tracked": true,
-     "cost": "215.00",
+     "cost": "387.00",
      "measurement": {
       "weight": {
        "value": 3.0,
@@ -486,9 +498,11 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
-   "shipping-small",
+   "shipping-large",
    "supplier-import"
   ],
   "seo": {
@@ -533,13 +547,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "258.95",
+    "price": "367.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3492",
      "tracked": true,
-     "cost": "148.50",
+     "cost": "267.30",
      "measurement": {
       "weight": {
        "value": 3.0,
@@ -565,7 +579,9 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-15",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-small",
    "supplier-import"
@@ -612,13 +628,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "5.20",
+    "price": "7.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3534",
      "tracked": true,
-     "cost": "3.00",
+     "cost": "5.40",
      "measurement": {
       "weight": {
        "value": 0.05,
@@ -634,7 +650,7 @@
  },
  {
   "title": "Sigma 17A Extension Bar 500mm",
-  "descriptionHtml": "<p><strong>Fits:</strong> Sigma cutters that take the 17A bar; check the part number against your cutter</p><p>Genuine Sigma 500 mm extension bar for longer cuts on Sigma tile cutters.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 17A extension bar 500 mm</li><li><strong>Code:</strong> RDXA3651</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
+  "descriptionHtml": "<p><strong>Fits:</strong> Sigma Series 4 tile cutters</p><p>Genuine Sigma 500 mm extension bar for longer cuts on Sigma tile cutters.</p><ul><li><strong>Brand:</strong> Sigma</li><li><strong>Part:</strong> 17A extension bar 500 mm</li><li><strong>Code:</strong> RDXA3651</li></ul><p>No product photo yet. Match the Sigma part number to your cutter before ordering.</p>",
   "vendor": "Sigma",
   "productType": "Tiling Machine Parts",
   "category": "gid://shopify/TaxonomyCategory/ha-15-11-7",
@@ -644,7 +660,9 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-large",
    "supplier-import"
@@ -664,7 +682,7 @@
     "namespace": "ets",
     "key": "fits_models",
     "type": "single_line_text_field",
-    "value": "Sigma cutters that take the 17A bar; check the part number against your cutter"
+    "value": "Sigma Series 4 tile cutters"
    },
    {
     "namespace": "ets",
@@ -691,13 +709,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "191.95",
+    "price": "272.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3651",
      "tracked": true,
-     "cost": "110.00",
+     "cost": "198.00",
      "measurement": {
       "weight": {
        "value": 2.0,
@@ -723,7 +741,9 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
+   "ebay-post-15",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-small",
    "supplier-import"
@@ -770,13 +790,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "33.95",
+    "price": "49.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3526",
      "tracked": true,
-     "cost": "18.30",
+     "cost": "35.80",
      "measurement": {
       "weight": {
        "value": 0.05,
@@ -802,8 +822,9 @@
    "Sigma",
    "Tile Cutters",
    "Tile Cutting Equipment",
-   "cost-estimated",
+   "ebay-post-15",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-small",
    "supplier-import"
@@ -850,13 +871,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "7.35",
+    "price": "10.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXA3580",
      "tracked": true,
-     "cost": "3.88",
+     "cost": "7.60",
      "measurement": {
       "weight": {
        "value": 0.1,
@@ -882,8 +903,9 @@
    "Mixers",
    "Roberts Designs",
    "Tiling Tools + Installation Products",
-   "cost-estimated",
+   "ebay-post-20",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-large",
    "supplier-import"
@@ -930,13 +952,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "372.95",
+    "price": "529.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXM50444",
      "tracked": true,
-     "cost": "196.35",
+     "cost": "385.00",
      "measurement": {
       "weight": {
        "value": 10.0,
@@ -962,8 +984,9 @@
    "Mixers",
    "Roberts Designs",
    "Tiling Tools + Installation Products",
-   "cost-estimated",
+   "ebay-post-15",
    "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-small",
    "supplier-import"
@@ -1010,13 +1033,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "120.95",
+    "price": "172.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXM50101",
      "tracked": true,
-     "cost": "63.85",
+     "cost": "125.19",
      "measurement": {
       "weight": {
        "value": 1.0,
@@ -1040,8 +1063,10 @@
   "tags": [
    "Designer Bathroom Accessories",
    "Floor Wastes and Linear Drains",
-   "no-photo",
    "Roberts Designs",
+   "ebay-post-15",
+   "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-small",
    "supplier-import"
@@ -1076,13 +1101,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "23.95",
+    "price": "39.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXT14791",
      "tracked": true,
-     "cost": "15.73",
+     "cost": "28.33",
      "measurement": {
       "weight": {
        "value": 0.4,
@@ -1106,8 +1131,10 @@
   "tags": [
    "Designer Bathroom Accessories",
    "Floor Wastes and Linear Drains",
-   "no-photo",
    "Roberts Designs",
+   "ebay-post-15",
+   "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-small",
    "supplier-import"
@@ -1142,13 +1169,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "21.95",
+    "price": "35.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDXT14466",
      "tracked": true,
-     "cost": "14.30",
+     "cost": "25.74",
      "measurement": {
       "weight": {
        "value": 0.3,
@@ -1170,13 +1197,15 @@
   "category": "gid://shopify/TaxonomyCategory/ha-2-11",
   "status": "ACTIVE",
   "tags": [
-   "no-photo",
    "Retro Cove Trim",
    "Roberts Designs",
+   "Tile Trims + Edging Profiles",
+   "ebay-post-15",
+   "no-photo",
+   "price-check",
    "ship-parcel",
    "shipping-small",
-   "supplier-import",
-   "Tile Trims + Edging Profiles"
+   "supplier-import"
   ],
   "seo": {
    "title": "Retro Cove Joiner – 70mm | ETS",
@@ -1208,13 +1237,13 @@
       "name": "Default Title"
      }
     ],
-    "price": "12.20",
+    "price": "19.95",
     "inventoryPolicy": "CONTINUE",
     "taxable": true,
     "inventoryItem": {
      "sku": "RDTT896",
      "tracked": true,
-     "cost": "7.15",
+     "cost": "13.86",
      "measurement": {
       "weight": {
        "value": 0.05,

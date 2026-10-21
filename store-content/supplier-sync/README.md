@@ -176,12 +176,23 @@ Joiner 70mm.
 
 - Active, published to all six channels, same vendor / type / category / tags as their siblings, plus tag `no-photo`
   so they can be found when a photo turns up. The theme shows its placeholder image.
-- Price and cost from `roberts-designs-pricing.csv`. Where that sheet had cost = Roberts list price (paddles, cable,
-  90DG bar, M8 nut), cost = list x 0.51 like the sibling parts fixed on 6 Oct, tagged `cost-estimated`; sheet updated.
-  All 16 are at or above the 25% profit floor. `ets.trade_band` = 0 (not in any `trade-list-N` collection).
-- Weights are estimates; all `ship-parcel` (General profile).
+- **Cost = the price on Roberts' public website** (owner, 21 Oct: that price is our cost, not a list price).
+  Sigma / Baron costs stored ex GST as usual; the three Roberts Designs vendor rows stored x 1.1 like that vendor's
+  other rows. The first version of this import (same morning) had wrongly used the old pricing-sheet costs.
+- **Price = public floor** (cost x 1.1 x 1.25, rounded up to .95), all tagged `price-check`. Market check on
+  21 Oct (Tile Mart, Victiles, TSP Trims, National Tiles, TradieCart, eBay AU): where an Australian price exists it
+  is at or below our cost, so it can't be matched: Kera-Cut 50cm bar Tile Mart $346.40 / Victiles $200 (cost
+  $332.50); 402 hooks Tile Mart $146.58 (cost $140.75); Kera-Lift carriage kit Tile Mart $874.90 (cost $1,151.10);
+  14G wheel eBay $47.06 (cost $35.80). The other 12 have no Australian listing (overseas only). Worth asking
+  Roberts whether these spare parts really carry no trade discount. No trade band works at the floor, so
+  `ets.trade_band` = 0 and none are in a `trade-list-N` collection.
+- Shipping: General profile parcels with the sibling eBay bands (`ebay-post-15` up to 1 kg, `ebay-post-20` above);
+  the 90NE bar (about 1.35 m, over the Australia Post length limit) is on "Perth only (local delivery / pickup)"
+  with `ship-local-only` / `ship-freight` / `ebay-pickup-only`. Weights are estimates (carriage kit 12 kg, F300
+  paddles 10 kg).
 - Sigma parts in `sigma-cutter-spares`, Baron parts in `mixers-paddles-buckets`, flanges in `bathroom-wastes`
   (the smart collections pick up the rest).
 - Roberts shows the 90DG bar and the Retro Cove Joiner as out of stock on their site.
 - Files: `roberts_no_photo_2026_10.py`, `roberts-no-photo-2026-10-21.json` (what was sent),
-  `roberts-no-photo-created-2026-10-21.json` (Shopify ids).
+  `roberts-no-photo-created-2026-10-21.json` (Shopify ids, final price and cost); `roberts-designs-pricing.csv`
+  rows refreshed.
