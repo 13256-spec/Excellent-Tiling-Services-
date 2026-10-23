@@ -161,3 +161,17 @@ sends a trade price list. The list of items to ask for is `store-content/pricing
 - Files: `dsa_bathroomware_2026_10.py` (feed -> productSet inputs), `dsa-eternity-feed-2026-10-14.json` (Eternity's
   feed that day), `dsa-bathroomware-2026-10-14.json` (what was sent), `dsa-bathroomware-created-2026-10-14.json`
   (Shopify product and variant ids per source handle).
+
+## Roberts Designs costs refreshed from the trade account (23 Oct 2026)
+
+The owner asked for the Roberts Designs trade prices to be recorded as Shopify unit cost with GST added. All 935 variants bought through Roberts (vendors Roberts Designs, Maxisil, Sigma, Siri, Baron, Barwalt) were checked against the logged-in trade price on robertsdesigns.com.au on 23 Oct. Unit cost = trade price (ex GST) x 1.1.
+
+- 834 variants were already right (Roberts Designs and Maxisil, done 14-15 Oct).
+- 100 variants updated in Shopify, listed in `../pricing/reports/roberts-cost-update-2026-10-23.csv`:
+  - 73 were still at the 28 Sep ex-GST figure (Sigma, Siri, Baron, Barwalt): cost x 1.1.
+  - 13 where Roberts now shows a trade discount that it did not in September (Sigma Kera-Cut parts, bench hooks, extension bars, 24N handle, two flanges, a cove joiner): cost went down 45-50%.
+  - 13 where Roberts now charges full list with no trade discount (Baron F200/F300 mixers, heads, switches and wheel; Sigma 90D3/90LD/90LE bars, 19B3 square, 14C wheel; Tile Insert Linear Drain 76mm 1500mm): cost roughly doubled.
+  - RDXT630 Siri Eco Roller Wash Up Bucket is no longer on the Roberts site; its 28 Sep ex-GST cost was multiplied by 1.1.
+- ETS-HW-005 pocket knife was already at the box-of-6 trade price / 6 x 1.1 and was left alone.
+- Selling prices were not changed. `../pricing/reports/roberts-below-floor-2026-10-23.csv` lists the 19 variants now under the playbook floor (cost inc GST x 1.25, i.e. 20% margin ex GST); 13 of them sell below cost, all Baron and Sigma items in the no-trade-discount group above plus the 1500mm linear drain. The owner should confirm with Roberts whether these carry a trade discount, or reprice them.
+- `roberts-designs-pricing.csv` and `../pricing/store-pricing-2026-10-03.csv`: cost and margins refreshed on the changed rows.

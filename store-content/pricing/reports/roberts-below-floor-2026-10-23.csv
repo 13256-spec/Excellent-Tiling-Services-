@@ -1,0 +1,20 @@
+sku,vendor,product,variant,price,cost_inc_gst,margin_pct,floor_price_cost_x1.25,note,cost_changed_today
+RDXM50427,Baron,F300 Mixer head (not including paddles),Default Title,270.00,423.50,-72.5,529.38,SELLING BELOW COST,True
+RDXM50303,Baron,Main switch (For F200),Default Title,270.00,423.50,-72.5,529.38,SELLING BELOW COST,True
+RDXM50003,Baron,Baron F300 Forced Action Mixer,Default Title,6039.55,8690.00,-58.3,10862.50,SELLING BELOW COST,True
+RDXM50425,Baron,F200 Mixer head (not including a paddles),Default Title,299.99,423.50,-55.3,529.38,SELLING BELOW COST,True
+RDXM50002,Baron,Baron F200 Forced Action Mixer,Default Title,4699.99,6490.00,-51.9,8112.50,SELLING BELOW COST,True
+RDXM50340,Baron,"Rubber wheel (for all mixers, except F300)",Default Title,69.99,88.00,-38.3,110.00,SELLING BELOW COST,True
+RDXM50304,Baron,Main switch (For F300),Default Title,339.99,423.50,-37.0,529.38,SELLING BELOW COST,True
+RDXA3525C,Sigma,"Sigma 90D3 Swivel Measurement Bar - suits Tecnica 2A3, 2B3 & 2D4",Default Title,109.99,135.52,-35.5,169.40,SELLING BELOW COST,True
+RDXA3562,Sigma,Sigma 90LD Swivel Measurement Bar - suits 3D & 3P series,Default Title,139.99,167.86,-31.9,209.83,SELLING BELOW COST,True
+RDXA3516,Sigma,"Sigma 19B3 Square - suits Tecnica 2A3, 2B3 & 2D4",Default Title,16.80,19.80,-29.6,24.75,SELLING BELOW COST,True
+RDXA3535,Sigma,Sigma 14C Scoring Wheel (15mm),Default Title,19.50,22.95,-29.5,28.69,SELLING BELOW COST,True
+RDXA3585,Sigma,Sigma 90LE Swivel Measurement Bar - suits 3E & 3F Max,Default Title,130.90,154.00,-29.4,192.50,SELLING BELOW COST,True
+RDXD1099,Roberts Designs,Tile Insert Linear Drain – 76mm Outlet,1500mm / Gold,504.90,594.00,-29.4,742.50,SELLING BELOW COST,True
+RDXA3617,Sigma,ART 4EN Sigma NEX Tile Cutter 125CM (Push Scoring),Default Title,1480.00,1410.97,-4.9,1763.71,,True
+RDXM50030,Baron,Baron E120 Forced Action Mixer,Default Title,4252.05,4015.00,-3.9,5018.75,,True
+RDXA3615,Sigma,ART 4CU Sigma UP Tile Cutter 84CM (Pull Scoring),Default Title,791.00,720.50,-0.2,900.62,,True
+RDXA3616,Sigma,ART 4DU Sigma UP Tile Cutter 103CM (Pull Scoring),Default Title,935.55,840.62,1.2,1050.78,,True
+RDXA3614,Sigma,ART 4BU Sigma UP Tile Cutter 70CM (Pull Scoring),Default Title,737.55,660.44,1.5,825.55,,True
+RDXA3646,Sigma,Sigma 19N Square 260mm,Default Title,58.95,49.50,7.6,61.88,,True
