@@ -145,3 +145,11 @@ now carries a Bathroom City match for all 786 matched variants. Trade bands were
 ## Roberts selling-price audit (23 Oct 2026)
 
 `reports/roberts-price-audit-2026-10-23.md` (+ `.csv` with a proposed price per variant) audits all 935 Roberts-supplied variants against today's costs, the B&B Hardware feed, the September market matches and Roberts' own retail price, using the playbook floor (cost inc GST x 1.25). Built by `audit_roberts_2026_10.py`. Nothing was changed; the owner decides.
+
+## Roberts selling prices applied (23 Oct 2026)
+
+Owner approved the whole audit ("make money but a tiny bit cheaper than the competitor"). Applied to Shopify on 23 Oct:
+- 913 variant prices set to the audit's proposed price (722 up, 191 down): 5% under B&B Hardware, 3% under the September market match, or 10% under Roberts' own retail, never under cost inc GST x 1.25. The 12 below-cost and 6 below-floor items (Baron mixers and parts, Sigma bars and cutters, 1500mm linear drain) now sit at the floor, so they are dearer than the competitor; ask Roberts for a trade discount on them.
+- Biggest cuts: Expansion Aluminium Trim (all 28 sizes were $61 to $117; Roberts lists every size at $43.20 retail / $23.99 trade, so now $38.85). Biggest rises: L-shape trims and floor wastes that were 35 to 50% under Roberts retail.
+- 227 products moved to the deepest trade band that keeps every variant at 20% margin ex GST at the new price (`ets.trade_band` metafield and `trade-list-N` collection both updated).
+- `store-pricing-2026-10-03.csv` and `../supplier-sync/roberts-designs-pricing.csv` refreshed; `audit_roberts_2026_10.py` produced the proposals, `reports/roberts-price-audit-2026-10-23.csv` is the exact list applied.
