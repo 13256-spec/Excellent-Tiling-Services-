@@ -141,3 +141,7 @@ price is under our profit floor; 25 are not on Bathroom City's site and were lef
 priced below Bathroom City as a breach (section 1a) instead of suggesting 5% under. 213 MELA variants added
 after 3 Oct were appended to the master CSV (cost from `mela-estimated-costs-2026-10-06.csv` where it has one); `mela-pricing-2026-10-01.csv`
 now carries a Bathroom City match for all 786 matched variants. Trade bands were not changed.
+
+## Roberts selling-price audit (23 Oct 2026)
+
+`reports/roberts-price-audit-2026-10-23.md` (+ `.csv` with a proposed price per variant) audits all 935 Roberts-supplied variants against today's costs, the B&B Hardware feed, the September market matches and Roberts' own retail price, using the playbook floor (cost inc GST x 1.25). Built by `audit_roberts_2026_10.py`. Nothing was changed; the owner decides.
