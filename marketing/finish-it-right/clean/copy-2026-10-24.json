@@ -418,5 +418,29 @@
   }
  },
  "review": "ets-copy-review 23 Oct 2026: see copy-review-2026-10-24.md; all FIX texts applied here. Reel end cards on the tapware reels keep \"Posts Australia-wide\" (true for small boxed items); the 3 slide fixes were re-rendered.",
- "booked": "23 Oct 2026 16:06-16:15 Perth. All posts Instagram + Facebook, autoPublish. Stories are 7 s videos with CC0 music (reels/make_story.py). Instagram first comment carries the product/collection link."
+ "booked": "23 Oct 2026 16:06-16:15 Perth. All posts Instagram + Facebook, autoPublish. Stories are 7 s videos with CC0 music (reels/make_story.py). Instagram first comment carries the product/collection link.",
+ "tonight-2026-10-23": {
+  "17:15 reel BRUNO range": {
+   "metricool_id": "403931404",
+   "video": "ets-reel-2026-10-23-bruno.mp4",
+   "review": "ets-copy-review PASS"
+  },
+  "18:30 main MOSES 400": {
+   "metricool_id": "403909490 (booked earlier)"
+  },
+  "19:30 story video Morgan Dusk room": {
+   "metricool_id": "403931272 (updated 388638137, replaced static S-showroom)",
+   "video": "ets-story-2026-10-23-a.mp4"
+  },
+  "20:30 carousel arch mirrors": {
+   "metricool_id": "403931455",
+   "media": "ets-clean-2026-10-23-arch-1..4.jpg",
+   "review": "ets-copy-review PASS",
+   "note": "AERI 1200 is tagged local delivery or pickup only on the site"
+  },
+  "21:15 story video ZOE LED arch": {
+   "metricool_id": "403931308",
+   "video": "ets-story-2026-10-23-b.mp4"
+  }
+ }
 }
