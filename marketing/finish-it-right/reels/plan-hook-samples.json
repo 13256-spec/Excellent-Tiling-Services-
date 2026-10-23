@@ -1,0 +1,101 @@
+{
+ "hook-vanities-under-1000": {
+  "music": "melodic-deep-house.mp3",
+  "hook": {
+   "img": "paddy750.jpg",
+   "lines": [
+    "3 vanities",
+    "under $1,000"
+   ]
+  },
+  "slides": [
+   {
+    "img": "mela-clark-600-wall-hung-vanity-with-doors#1",
+    "title": "MELA CLARK 600",
+    "line": "$749  ·  stone top and basin included"
+   },
+   {
+    "img": "mela-clark-750-wall-hung-vanity-with-doors#3",
+    "title": "MELA CLARK 750",
+    "line": "$899  ·  stone top and basin included"
+   },
+   {
+    "img": "paddy750.jpg",
+    "title": "MELA PADDY 750",
+    "line": "$999  ·  door and two drawers"
+   }
+  ],
+  "end": [
+   "Every price online",
+   "Free pickup in Maddington"
+  ]
+ },
+ "hook-matt-black-set": {
+  "music": "aesthetic-lofi.mp3",
+  "hook": {
+   "img": "mela-flova-basin-mixer#3",
+   "lines": [
+    "Matt black",
+    "tapware set",
+    "$626"
+   ]
+  },
+  "slides": [
+   {
+    "img": "mela-flova-basin-mixer#3",
+    "title": "MELA FLOVA basin mixer",
+    "line": "$229 matt black"
+   },
+   {
+    "img": "mela-flova-hand-shower-set-without-rail#5",
+    "title": "MELA FLOVA hand shower set",
+    "line": "$209 matt black"
+   },
+   {
+    "img": "mela-flova-600-single-towel-rail#3",
+    "title": "MELA FLOVA 600 towel rail",
+    "line": "$129 matt black"
+   },
+   {
+    "img": "mela-flova-paper-holder#3",
+    "title": "MELA FLOVA paper holder",
+    "line": "$59 matt black"
+   }
+  ],
+  "end": [
+   "Posts Australia-wide",
+   "Free pickup in Maddington"
+  ]
+ },
+ "hook-charcoal-floor": {
+  "music": "spacey-lofi.mp3",
+  "hook": {
+   "img": "charcoal.jpg",
+   "lines": [
+    "The floor that",
+    "hides everything"
+   ]
+  },
+  "slides": [
+   {
+    "img": "time-stone-charcoal-porcelain-tile#0",
+    "title": "Time Stone Charcoal",
+    "line": "From $50.10/m²  ·  P4/R11 slip rating"
+   },
+   {
+    "img": "cinder.jpg",
+    "title": "Time Stone Cinder",
+    "line": "From $50.10/m²  ·  matt or lappato"
+   },
+   {
+    "img": "etna.jpg",
+    "title": "Lava Etna",
+    "line": "$46.70/m²  ·  matt"
+   }
+  ],
+  "end": [
+   "Sold by the box, price per m² online",
+   "Perth delivery or free pickup"
+  ]
+ }
+}

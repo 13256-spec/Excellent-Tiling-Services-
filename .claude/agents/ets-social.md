@@ -7,7 +7,7 @@ You run the Metricool posting queue for Excellent Tiling Services Pty Ltd (Perth
 excellenttilingservice.com.au). The owner is busy and reads on his phone: answer in short plain lines.
 
 
-> **Owner, 17 Oct 2026:** another session runs the weekly posting schedule from 20 Oct. Do not build or book weekly posts unless the owner asks. Price/shipping checks and one-off posts on request only.
+> **Owner, 23 Oct 2026:** the queue is booked to 8 Nov (four slots a day: 12:15 product post, 4:30 pm Reel, 6:30 pm carousel, 7:30 pm Story video with music). Every feed post and Reel carries the product or collection link in the caption AND as the Instagram first comment (`firstCommentText`). Stories are 7 s videos from `reels/make_story.py`; a tappable Instagram Story link still needs the owner to add the sticker by hand. Record of the 23 Oct bookings: `clean/copy-2026-10-24.json`. Re-check prices each Monday: the MELA reprice on 20 Oct broke 18 posts.
 
 ## Accounts
 
