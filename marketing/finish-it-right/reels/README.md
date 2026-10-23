@@ -24,3 +24,7 @@ $1,000, set-out tools, LED mirrors, kitchen, toilets, light floors, floor wastes
 shower sets, mirror cabinets, dark floors, knee pads, the new Celine range). Prices checked against the
 live store on 23 Oct 2026 (after the MELA reprice). Videos on Shopify Files as `ets-reel-<date>-<topic>.mp4`;
 captions and Metricool ids in `../clean/copy-2026-10-24.json`.
+
+Stories with sound (owner, 23 Oct 2026): `make_story.py plan.json outdir` renders a 7 s 1080x1920 video from one
+store photo (slow push-in, CC0 music, no text). `plan-stories-2026-10-24.json` covers 24 to 29 Oct and the
+four replaced Stories on 1, 2, 7 and 8 Nov; hosted as `ets-story-<date>.mp4`.
