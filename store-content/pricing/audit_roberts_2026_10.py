@@ -1,12 +1,12 @@
 """Audit selling prices of Roberts-supplied variants. Rules (PRICING-PLAYBOOK.md + owner 23 Oct: make money, a bit under competitors):
 floor = cost(inc GST) x 1.25 (20% margin ex GST); target = 5% under B&B if they sell it, else 10% under Roberts retail; never below floor.
-Trade: price x (1 - band) must also be >= floor. Inputs (scratch dir): products.jsonl (Shopify bulk export with ets.trade_band), roberts-public.csv (Roberts retail, logged out), bb/p*.json (B&B feed). Writes roberts-price-audit-2026-10-23.{md,csv}. Changes nothing."""
+Trade: price x (1 - band) must also be >= floor. Writes roberts-price-audit-2026-10-23.{md,csv}. Changes nothing."""
 import csv, json, math, sys, os, collections
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from reprice_2026_10 import BB_MATCH
 MARKUP, BANDS = 1.25, [25, 20, 15, 10, 5, 0]
 def dn(x): return math.floor(round(x / 0.05, 6)) * 0.05
 def up(x): return math.ceil(round(x / 0.05, 6)) * 0.05
-def margin(price, cost): ex = price / 1.1; return (ex - cost) / ex * 100 if ex else 0
+def margin(price, cost): return (price - cost) / price * 100 if price else 0  # price and cost both inc GST, so this is the margin ex GST
 L = [json.loads(l) for l in open("products.jsonl")]
 P = {l["id"]: l for l in L if "id" in l and "/Product/" in l["id"]}
 V = [l for l in L if "id" in l and "/ProductVariant/" in l["id"]]

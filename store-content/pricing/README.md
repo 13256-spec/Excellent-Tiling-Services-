@@ -153,3 +153,13 @@ Owner approved the whole audit ("make money but a tiny bit cheaper than the comp
 - Biggest cuts: Expansion Aluminium Trim (all 28 sizes were $61 to $117; Roberts lists every size at $43.20 retail / $23.99 trade, so now $38.85). Biggest rises: L-shape trims and floor wastes that were 35 to 50% under Roberts retail.
 - 227 products moved to the deepest trade band that keeps every variant at 20% margin ex GST at the new price (`ets.trade_band` metafield and `trade-list-N` collection both updated).
 - `store-pricing-2026-10-03.csv` and `../supplier-sync/roberts-designs-pricing.csv` refreshed; `audit_roberts_2026_10.py` produced the proposals, `reports/roberts-price-audit-2026-10-23.csv` is the exact list applied.
+
+## BAT / Raimondi costs from the May 2026 price books (23 Oct 2026)
+
+Owner supplied three BAT price books (Tools Book 1, Raimondi Price Book, Project Trims Book 1, all May 2026, NET prices ex GST), flattened into `bat-price-books-2026-05.csv`. Applied by `bat_fix_2026_10.py`:
+- 883 variants matched by SKU (BAT tools, Raimondi, Panther, Washboy, NICLIS, Project trims): unit cost set to NET x 1.1. The costs already in Shopify were the NET figures without GST.
+- Selling prices left as they were except one: Raimondi Zoe 85A wet saw raised from $4,345.10 to $4,798.75 to clear the 20% floor. Every matched variant is now at 20% margin ex GST or better (median 37.5%). No competitor price is on file for BAT, so prices were not cut.
+- 10 trade bands changed (8 products 25% to 20%, one 15% to 20%, one 0% to 5%); metafield and collections updated.
+- `reports/bat-cost-price-update-2026-10-23.csv` has every matched variant; `reports/bat-not-in-may-2026-books.csv` lists the 1,280 variants these books do not cover: 1,253 BAT Trims profiles priced from the 2023-24 catalogue (GST basis of those costs still unconfirmed), 7 BAT items on ETS-HW internal SKUs, 20 archived trim variants.
+
+Note on margins: the margin columns in the 23 Oct Roberts reports and this one are (price - cost) / price with both inc GST, which equals the margin ex GST. An earlier version of the Roberts reports divided by the ex-GST price, understating margin by about 8 points; those files were regenerated.

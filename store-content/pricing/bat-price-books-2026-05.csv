@@ -1,0 +1,982 @@
+code,description,net_ex_gst,section,book
+RAI-SMS100,"Raimondi SMS 100 Electric Wet Saw, 3 Hp",3100.0,WET SAWS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMS125,"Raimondi SMS 125 Electric Wet Saw, 3 Hp",3200.0,WET SAWS,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOE85A,"Raimondi Zoe 85A Electric Wet Saw, 3 Hp",3490.0,WET SAWS,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOE105A,"Raimondi Zoe 105A Electric Wet Saw, 3 Hp",3620.0,WET SAWS,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOE130A,"Raimondi Zoe 130A Electric Wet Saw, 3 Hp",4100.0,WET SAWS,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOE155A,"Raimondi Zoe 155A Electric Wet Saw, 3 Hp",4300.0,WET SAWS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SA80,Raimondi SA 80 Electric Wet Saw - 800mm,3200.0,WET SAWS,Raimondi_Price_List_May_2026_Price_Book
+RAI-ESSPZ,Raimondi Extension Side Square - Suit P/Z,180.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PZTCS,Raimondi Telescopic Counter Square - to suit P/Z,480.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-EXWHK,Raimondi Wheels & Handle Kit,180.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-FETPIK75,Raimondi Folding Extension Table - Suit Pikus,260.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-RETZOE5,Raimondi 5 Roller Extension Table - Zoe,600.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PZ10THD,Raimondi Tile Holding Device - suit P/Z 105,180.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PZ13THD,Raimondi Tile Holding Device - suit Pikus / Zoe 130A,230.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PZ15THD,Raimondi Tile Holding Device - Suit Zoe 155A Wet Saws,275.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SS4590,Raimondi Sliding Square - 45/90 Degree Left,45.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SS4590PZ,Raimondi Sliding Square 45/90 P/Z Right,46.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SS90,Raimondi Sliding Square - 90 Degree,47.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SW/EX/PK/ZO,Raimondi Switch & Overload - Suit EX/PK/ZOE,40.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SCBEX/PK/ZOE,Raimondi Switch Base & Cover - suit Zoe,20.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOEBNB,Raimondi Bearing & Nylon Bush - Suit Zoe and Pikus Machines,18.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PL10AMP,Raimondi Plug and Lead - 10 Amp - to suit Wet Saws,22.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOE85SAR,Raimondi Zoe 85A Spare Aluminium Rail,140.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOE105SAR,Raimondi Zoe 105A Spare Aluminium Rail,180.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZOE130SAR,Raimondi Zoe 130A Spare Aluminium Rail,220.0,ELECTRIC SAW ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-DB12SET300B,Raimondi Diamond Blade 300mm - Porcelain,545.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBCC200,Raimondi Diamond Blade 200mm Continuous Rim,260.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBCC200E,Raimondi Diamond Blade 200mm Economy Continuous Rim,150.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBCC300,Raimondi Diamond Blade 300mm Continuous Rim,450.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBCC350,Raimondi Diamond Blade 350mm,500.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBCCT350,Raimondi Diamond Blade - Turbo 350mm,750.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBSET250SP,Raimondi Mulitlayer Slotted Rim - Porcelain - 25.4 - 250mm,330.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBSET250BE,Raimondi Segmented Diamond Blade 250mm - Porcelain Economy,245.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBSET300B,Raimondi Diamond Blade 300mm Segmented,690.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBSET300G,Raimondi Segmented Blade 300mm -Suit Granite,650.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBSET350B,Raimondi Diamond Blade 350mm Porcelain,580.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBSET350G,Raimondi Diamond Blade - Segmented 350mm  - suit Granite,800.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-DBSET360E,Raimondi Diamond Blade 360mm Segmented - Economy,400.0,"DIAMOND BLADES, GRINDING AND PARTS",Raimondi_Price_List_May_2026_Price_Book
+RAI-BC45,Raimondi BC 45 Jolly Tool,1235.0,SPECIALITY SAWS AND MACHINES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BULLDOG,Raimondi Bulldog Profiling Machine,428.0,SPECIALITY SAWS AND MACHINES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIBULLDOG,Raimondi Bi-Bulldog Profiling Machine,6291.0,SPECIALITY SAWS AND MACHINES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIBULLDOGM,Raimondi Bi-Bulldog with Manual Feed Kit,7601.0,SPECIALITY SAWS AND MACHINES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BULLMFK,Raimondi Manual Feed Kit for Bulldog & BiBulldog,2273.0,BULLDOG ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BULLCP,Raimondi Bulldog Connecting Piece,39.0,BULLDOG ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BULLSEPR,Raimondi Bulldog Side Extensions (Pair),468.0,BULLDOG ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BDBS,Raimondi Bulldog Polishing Band Holder,191.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BDB100,Raimondi Bulldog Polishing Band D100,169.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BDB400,Raimondi Bulldog Polishing Band D400,107.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BDB800,Raimondi Bulldog Polishing Band D800,99.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BFW8R,Raimondi Bulldog Finishing Wheel R - 8mm,693.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BFW10R,Raimondi Bulldog Finishing Wheel R - 10mm,720.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BFW15R,Raimondi Bulldog Finishing Wheel R - 15mm,774.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BFW20R,Raimondi Bulldog Finishing Wheel R - 20mm,905.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BFW30R,Raimondi Bulldog Finishing Wheel R - 30mm,1217.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSWFB22R,Raimondi Bulldog Shaping Wheel R=22mm Full Bullnose,1357.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BPW10R400,Raimondi Bulldog Polishing Wheel R - 10mm - 400 Grit,574.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BPW15R400,Raimondi Bulldog Polishing Wheel R - 15mm - 400 Grit,622.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BPW10R800,Raimondi Bulldog Polishing Wheel R - 10mm - 800 Grit,585.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BPW15R800,Raimondi Bulldog Polishing Wheel R - 15mm - 800 Grit,623.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BPW15R1500,Raimondi Bulldog Polishing Wheel R - 15mm - 1500 Grit,617.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BPW15R1800,Raimondi Bulldog Polishing Wheel R - 15mm - 1800 Grit,617.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSW10R,Raimondi Bulldog Shaping Wheel R - 10mm,977.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSW10RCR,Raimondi Bulldog Shaping Wheel R - 10mm - Continuous Rim,606.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSW15R,Raimondi Bulldog Shaping Wheel R - 15mm,861.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSW20R,Raimondi Bulldog Shaping Wheel R - 20mm,1005.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSW30R,Raimondi Bulldog Shaping Wheel R - 30mm,1366.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSW45,Raimondi Bulldog 45 Shaping Wheel,853.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSWF,Raimondi Bulldog Flat Shaping Wheel,761.0,BULLDOG SHAPING WHEELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAIZOR-MK2,Raizor MK2 Rail Cutting System - 330cm. upto 12mm tile tickness NEW,850.0,RAIZOR CUTTING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAIZORMTC2X,Raizor Modular Cutting System - 153cm. upto 15mm tile tickness NEW,900.0,RAIZOR CUTTING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAIZOR-MK2PLUS,Raizor MK2 PLUS Rail Cutting System - 330cm. upto 15mm tile tickness NEW,1100.0,RAIZOR CUTTING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAIZOR-SW,Raimondi Raizor Spare Cutting Wheel,32.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAIZOR-SWT,Raimondi Raizor Spare Cutting Wheel - Titanium,38.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAIZORM2PSW,Raimondi Raizor MK2 Plus Spare Cutting Wheel NEW,61.95,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAIZORM2SW,Raimondi Raizor MK2 Spare Cutting Wheel NEW,64.35,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-COMPASS,Raimondi Compass Cutting Tool NEW,248.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-PWRRAIZORJIG,Raimondi Original Power Raizor Cutting Apparatus - Jig Only,636.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-PWRRAIZOR-MK2,"Raimondi Power Raizor - MK2- Cutting Unit for Raizor MK2, Plus, MTCX2 NEW",615.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-PWRRZRDSW,Raimondi Power Raizor Dust Suppression Device - Water Fed,197.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-PWRRZRDCD,Raimondi Power Raizor Dust Containment Device,173.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-FREECUTSMP,Raimondi Freecut Small Pliers - suit 3-6mm Panels,72.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-LFTSPS,Raimondi Large Format Tile Snapping Pliers - to suit 3-12mm Panels NEW,140.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-FREECUTLGP,Raimondi Freecut Large Pliers - suit  6-20mm Panels,267.0,LARGE FORMAT CUTTING,Raimondi_Price_List_May_2026_Price_Book
+RAI-EASYMOVE-XLIGHT10,Raimondi Easymove X-Light with Crossbars and 10 Suction Cups NEW,1780.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-EASYMOVE3-4RV,Raimondi Easymove LFT Carrying Bar Set with 4 RV175 Suction Cups NEW,1550.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-EASYMOVE3-6RV,Raimondi Easymove LFT Carrying Bar Set with 6 RV175 Suction Cups NEW,2350.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-EASYMOVE3-2VGMK4,Raimondi Easymove Mk4 - 3200 x 1600mm with RV175 Suction Cups,3100.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIGFOOTM,Raimondi Bigfoot M Worktable for Tiles & Slabs - 135 x 63cm NEW,900.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIGFOOTXL,Raimondi Bigfoot XL Large Format Tile Cutting Table NEW,1200.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIGFOOTXXL,Raimondi Bigfoot XXL Large Format Tile Cutting Table NEW,1500.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIGFOOTXLEXT,Raimondi Bigfoot XL Extension Table NEW,600.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIGFOOTXXLEXT,Raimondi Bigfoot XXL Extension Table NEW,700.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-BM180SUP20,Raimondi Support Cylinders for Work Bench Set ( 20 pcs ),95.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-CAMADV,Raimondi CAM Advanced Trolley for Large Slabs,1010.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-ONLYONE,Raimondi OnlyOne Wheels device for Easymove Set NEW,874.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-TYRELL,Raimondi Tyrell Cart for Slab Transport NEW,410.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-LFTCP4,Raimondi Large Format Tile Corner Protector Set ( 4 pcs ),29.0,LARGE FORMAT HANDLING,Raimondi_Price_List_May_2026_Price_Book
+RAI-FREECLOSER,Raimondi Closer - Mechanical Closing Tool for Lge Format Tiles,278.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-CLOSER-PLUS,Raimondi Mechanical Closing Tool for Textured Lge Format Tiles,350.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LEVTOP-PLUS,Raimondi Levtop Plus Mechanical Closing Tool for Benchtops NEW,1064.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-MEDSC,"Raimondi Medusa Suction Cup 4.5""",22.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-MEDSC-PLUS,Raimondi Medusa Suction Cup for Textured Tiles,40.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SCD45,"Raimondi Double Suction Cup 4 1/2""",77.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BIVEN-PLUS,Raimondi Biventosa Double Suction Cups For Textured Tiles NEW,99.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-TRISC,Raimondi Triventosa Triple Suction Cup NEW,110.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-VSCRV175B,Raimondi RV 175 Battery Powered Electric Suction Cup NEW,250.0,SUCTION CUPS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAICUT-JIG,Raimondi Grooving Tool - Jig,223.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RFH5500,Raimondi Rai-Fix Hooks - >5mm - 500 pce carton,1400.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RFH6120,Raimondi Rai-Fix Hooks - >6mm - 120 pce carton,309.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RFH6500,Raimondi Rai-Fix Hooks - >6mm - 500 pce carton,1780.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RFH870,Raimondi Rai-Fix Hooks - >8mm - 70 pce pack,197.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RFH8120,Raimondi Rai-Fix Hooks - >8mm - 120 pce carton,309.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RFH8500,Raimondi Rai-Fix Hooks - >8mm - 500 pce carton,1780.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-RAICUT-SB,Raimondi Rai-Cut Grooving Tool Spare Blade,131.0,MECHANICAL FIXING SYSTEM,Raimondi_Price_List_May_2026_Price_Book
+RAI-FPR,Raimondi Fakiro Plaster Rasp,15.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FPRBS,Raimondi Plaster Rasp 6 pce Blade Set,52.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-KSBH,Raimondi Kessler Screed Bar Handles x 2,60.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-PTB,Raimondi Plastic Tile Beater,51.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RTB,Raimondi Rubber Tile Beater 145 x 350mm,65.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SKT,Raimondi Skirting Trowel Notched 10mm,11.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SLGR,Raimondi Self Levelling Compound Gauging Rake,102.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-WRM500,Raimondi White Rubber Mallet - 500gm,28.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-WRM1000,Raimondi White Rubber Mallet - 1000gm,36.0,GENERAL TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FLUMIXSP,Raimondi Fluid Mix Special,878.0,ELECTRIC MIXERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FLUMIXB,Raimondi Fluid Mix Spare Bucket,81.0,ELECTRIC MIXERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERBET,Raimondi Iperbet Electric Glue Mixer,1405.0,ELECTRIC MIXERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERBU,Raimondi Iperbet Spare 45L Mixing Bucket,27.0,ELECTRIC MIXERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERCB,Raimondi Iperbet Clump Breaker,28.0,ELECTRIC MIXERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERDB,Raimondi Iperbet Double Bladed Mix Tool,114.0,ELECTRIC MIXERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERMKF,Raimondi Iperbet Fluid Mixing Kit,359.0,ELECTRIC MIXERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FLUMIXLSPL,Raimondi Liquid Stirrer 140 x 680 x M14,60.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LSSPSM14,Raimondi Liquid Stirrer - Small Spiral x M14,46.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LSSPLM14,Raimondi Liquid Stirrer - Large Spiral x M14,54.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LSSPXM14,Raimondi Liquid Stirrer 160 x 600 x M14,56.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LSWS,Raimondi Liquid Stirrer - Whisk Style,11.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LSWSKM14,Raimondi Liquid Stirrer - Whisk Style x M14,34.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-27LB,Raimondi 27 Litre Bucket with Steel Handle,37.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-45LB,Raimondi 45 Litre Bucket with Steel Handle,53.0,LIQUID STIRRERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-EFOX,Raimondi e-Fox Cordless Vibrator for Large Format Tile,933.0,SPECIALIST TOOLS - VIBRATORS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LUPETTO,Raimondi Lupetto Vibrator,1209.0,SPECIALIST TOOLS - VIBRATORS,Raimondi_Price_List_May_2026_Price_Book
+RAI-MASTINO,Raimondi Mastino Vibrator - Complete,2751.0,SPECIALIST TOOLS - VIBRATORS,Raimondi_Price_List_May_2026_Price_Book
+RAI-TERRA,Raimondi Terranova Vibrator,2459.0,SPECIALIST TOOLS - VIBRATORS,Raimondi_Price_List_May_2026_Price_Book
+RAI-EFOX-SB,Spare Lithium Ion Battery to suit E-Fox Vibrator,249.0,SPECIALIST TOOLS - VIBRATORS - ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-LUPETTO-RA,Raimondi Lupetto 11 Row Roller Plate Assembly,362.0,SPECIALIST TOOLS - VIBRATORS - ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-LUPETTO-VP,Raimondi Lupetto Flat Vibrating Plate,392.0,SPECIALIST TOOLS - VIBRATORS - ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SCSP,Raimondi Screed Spreader - handle not included,23.0,SPECIALIST TOOLS - VIBRATORS - ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-TERRA-RA,Raimondi Terranova 11 Row Roller Plate Assembly,475.0,SPECIALIST TOOLS - VIBRATORS - ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-TERRATF,Raimondi 300W / 42V Transformer Suit Terranova,507.0,SPECIALIST TOOLS - VIBRATORS - ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPER110,Raimondi Ipertitina Electric Brush 110,3390.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING BRUSH MACHINES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERTITINAPLUS,Raimondi Ipertitina Plus Electric Brush,4111.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING BRUSH MACHINES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXIT,Raimondi Maxititina Machine,1922.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING BRUSH MACHINES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTANK,Raimondi Maxititina 12L Polypropylene Tank,266.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTFDH,Raimondi Maxititina Felt Disc - Hard,25.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTFDM,Raimondi Maxititina Felt Disc - Medium,23.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTFDS,Raimondi Maxititina Felt Disc - Soft,23.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTGP,Raimondi Maxititina Grouting Paddle,317.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTGPRRS,Raimondi Maxititina Grout Paddle Replacement Rubber Set,158.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTINEX,Raimondi Maxititina Abrasive Brush,155.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTMNB,Raimondi Maxititina Medium Nylon Brush,139.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTSNB,Raimondi Maxititina Stiff Nylon Brush,139.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTSWB,Raimondi Maxititina Steel Wire Brush,147.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-MAXTVSDH2,Raimondi Maxititina Velcro Disc Holder,167.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPER6KG,Raimondi Ipertitina 6kg Ballast Block,153.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERDHV,Raimondi Ipertitina Velcro Disc Holder,238.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERFDB,Raimondi Ipertitina Black Felt Disc,31.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERFDG,Raimondi Ipertitina Green Felt Disc,31.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERFDW,Raimondi Ipertitina White Felt Disc,33.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERPGS3,Raimondi Ipertitina Planetary Gear Set - 3 Head,1248.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERPGS6,Raimondi Ipertitina Planetary Gear Set - 6 Head,1895.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERSGSK,Raimondi Ipertitina Splash Guard Skirt,232.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERTANK,Raimondi Ipertitina 16 Ltr Watertank,238.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERTINEX,Raimondi Ipertitina Abrasive Brush,517.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERVAC2,Raimondi Ipertitina 2 Way Vacuum Connector,118.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERVAC3,Raimondi Ipertitina 3 Way Vacuum Connector,55.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERVACFH,Raimondi Ipertitina Vacuum Hose,21.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-IPERVACSK,Raimondi Ipertitina Suction Skirt,213.0,SURFACE PREPARATION - ELECTRIC SINGLE ROTATING ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPK6AG,Raimondi Diamond Pad Kit - 100mm - 6 pce - suit Agglomerates,176.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPK6GR,Raimondi Diamond Pad Kit - 100mm - 6 pce - suit Granite,212.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPK6MA,Raimondi Diamond Pad Kit - 100mm - 6 pce - suit Marble,176.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPK6PO,Raimondi Diamond Pad Kit - 100mm - 6 pce - suit Porcelain,210.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPP10050,Raimondi Diamond Polishing Pad - 100mm - 50 Grit,57.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPP100100,Raimondi Diamond Polishing Pad - 100mm - 100 Grit,35.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPP100200,Raimondi Diamond Polishing Pad - 100mm - 200 Grit,35.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPP100400,Raimondi Diamond Polishing Pad - 100mm - 400 Grit,35.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPP100800,Raimondi Diamond Polishing Pad - 100mm - 800 Grit,35.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPP1001500,Raimondi Diamond Polishing Pad - 100mm - 1500 Grit,35.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-DPPM14AD,Raimondi Diamond Polishing Pad Adapter - M14 Thread,47.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-ZAP10080,Raimondi Zirconium Abrasive Pad - 100mm - 80 Grit,4.0,DIAMOND PAD FOR POLISHING,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSTSR6,Raimondi B/Steel Trowel - Slant Ridge 6mm,23.0,TROWELS - BRIGHT STEEL - SOFT GRIP - SLANT RIDGE,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSTSR8,Raimondi B/Steel Trowel - Slant Ridge 8mm,23.0,TROWELS - BRIGHT STEEL - SOFT GRIP - SLANT RIDGE,Raimondi_Price_List_May_2026_Price_Book
+RAI-BSTSR10,Raimondi B/Steel Trowel - Slant Ridge 10mm,23.0,TROWELS - BRIGHT STEEL - SOFT GRIP - SLANT RIDGE,Raimondi_Price_List_May_2026_Price_Book
+RAI-LBT8,Raimondi Long Bladed Trowel 8mm,33.0,TROWELS -  480MM LONGBLADE,Raimondi_Price_List_May_2026_Price_Book
+RAI-LBT10,Raimondi Long Bladed Trowel 10mm,33.0,TROWELS -  480MM LONGBLADE,Raimondi_Price_List_May_2026_Price_Book
+RAI-LBT12,Raimondi Long Bladed Trowel 12mm,33.0,TROWELS -  480MM LONGBLADE,Raimondi_Price_List_May_2026_Price_Book
+RAI-LBTSR6,Raimondi Long Bladed Slant Ridge Trowel - 6mm,40.0,TROWELS -  480MM LONGBLADE,Raimondi_Price_List_May_2026_Price_Book
+RAI-LBTSR8,Raimondi Long Bladed Slant Ridge Trowel - 8mm,40.0,TROWELS -  480MM LONGBLADE,Raimondi_Price_List_May_2026_Price_Book
+RAI-LBTSR10,Raimondi Long Bladed Slant Ridge Trowel - 10mm,40.0,TROWELS -  480MM LONGBLADE,Raimondi_Price_List_May_2026_Price_Book
+RAI-FRS40,Raimondi Double Foam Rubber Squeegee 400mm,20.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FRS40SR,Raimondi Foam Rubber Squeegee 40cm Spare Rubber,5.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FRS50,Raimondi Double Foam Rubber Squeegee 500mm,20.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FRS50SR,Raimondi Foam Rubber Squeegee 50cm Spare Rubber,5.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FRS75,Raimondi Double Foam Rubber Squeegee 750mm,27.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-FRS75SR,Raimondi Foam Rubber Squeegee 75cm Spare Rubber,6.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RFRG,Raimondi Rectangular Foam Rubber Grouter,17.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RGFH,Raimondi Rectangular Grout Float - Hard,17.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RGFR,Grout Float Blue with Changeable Rubber,12.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RGFRR,Grout Float Blue - Rubber Replacement,7.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-RGFS,Raimondi Rectangular Grout Float - Soft,21.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-EGCLK,Raimondi Epoxy Grouting & Clean Up Kit,41.0,GROUTING - HAND TOOLS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BER,Raimondi Berta Grout Clean Up Machine,3700.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-ROS,Raimondi Rosina Grout Clean Up Machine,3800.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BERSP,Raimondi Berta Sponge - Std - Avana,125.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BERSPEPO,Raimondi Berta Sponge - Epoxy - Cellulose,222.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BERSPSW,Raimondi Berta Sponge - Long Life,138.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-AFL100G,Raimondi Berta Anti Foam Liquid - 100gm,9.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-AFL400G,Raimondi Berta Anti Foam Liquid - 400gm,19.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-BERWT,Raimondi Spare Water Tray to suit Berta,22.0,GROUT CLEAN UP - ELECTRIC MACHINES AND ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMART,Raimondi Smart Grout Clean Up System 1 pcs,75.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMART4,Raimondi Smart Grout Clean up Up System 4 pack,300.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SKIPPER,Raimondi Skipper Grout Clean Up System 1 pcs,80.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SKIPPER4,Raimondi Skipper Grout Clean Up System 4pk,310.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PEDALO,Raimondi Pedalo Grout Clean Up System,395.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PULIRAPID,Raimondi Pulirapid Grout Clean Up System,195.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-AH,Raimondi Aluminium Handle - 1330mm,20.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-AHSEC,Raimondi Aluminium Handle - Sectional,26.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-LGFLOAT,Raimondi Sweepex Float 17 x 34cm,23.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-LGFLOATCUT,Raimondi Sweepex Float - Cut - 17 x 34cm,22.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-LGSPONGE,Raimondi Sweepex Sponge 17 x 34cm,14.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-LGSPONGECUT,Raimondi Sweepex Sponge - Cut - 17 x 34cm,15.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-LGSPONGECV,Raimondi Sweepex Sponge 17 x 34cm - Carved,18.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PLFLOAT,Raimondi Sweepex Sponge & Plate 13 x 42cm,42.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PLFLOATCUT,Raimondi Sweepex Sponge Float - Cut - 13 x 42cm,42.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PLSPONGE,Raimondi Sweepex Sponge 13 x 42cm,12.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PLSPONGECUT,Raimondi Sweepex Sponge - Cut - 13 x 42cm,14.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-PLSPONGECV,Raimondi Sweepex Sponge Carved 13 x 42cm suit Pedalo,15.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-QCFH,Raimondi Quick Change Float Handle,5.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMFLOAT,Raimondi Sweepex Float 13 x 30cm,17.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMFLOATCUT,Raimondi Sweepex Float - Cut - 13 x 30cm,17.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMSPONGE,Raimondi Sweepex Sponge 13 x 30cm,9.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMSPONGECUT,Raimondi Sweepex Sponge - Cut - 13 x 30cm,10.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMSPONGECV,Raimondi Sweepex Sponge 13 x 30cm - Carved,13.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SPG,Raimondi Spare Plastic Grate,12.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SRS2,Raimondi Skipper Squeez. Roller Set of 2,13.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SRS3,Raimondi P'Rapid Squeez. Roller Set of 3,31.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SMARTRS2,Raimondi Smart Wash Bucket Roller Set - 2 pcs,14.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-SPGSM,Raimondi Spare Plastic Grate to suit Smart,16.0,GROUT CLEAN UP + ACCESSORIES,Raimondi_Price_List_May_2026_Price_Book
+RAI-AHS,Raimondi Avana Hand Sponge 190 x 120mm,3.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-HAS,Raimondi Hard Abrasive Sponge - for Epoxy Use,6.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SPCHA,Raimondi Cellulose / Hard Abrasive Sponge,12.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SWHAS,Raimondi Sweepex / Hard Abrasive Combination Sponge,6.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SHS,Raimondi Sweepex Hand Sponge 160 x 120mm,4.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SPADF,Raimondi Scouring Pad - Fine (White),5.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SPADM,Raimondi Scouring Pad - Medium (Green),5.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SPADH,Raimondi Scouring Pad - Coarse (Black),5.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-SPADKIT,Raimondi Scouring Pad Set - 3 pce - Inc. Handle,20.0,GROUT CLEAN UP - SPONGES AND SCOURERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-BWSB,Raimondi Soft Bristle Broom without Handle,13.0,CLEANING,Raimondi_Price_List_May_2026_Price_Book
+RAI-AL100,Raimondi Adjustable Level / Square 100cm,90.0,LEVELS,Raimondi_Price_List_May_2026_Price_Book
+RAI-LSTAND,Raimondi Krick Krock Level Guides (Pair),108.0,"MEASURING, PREPARATION & LAYOUT",Raimondi_Price_List_May_2026_Price_Book
+RAI-SPEED,Raimondi Speed Stair Setting Tool ( Pair ),77.0,"MEASURING, PREPARATION & LAYOUT",Raimondi_Price_List_May_2026_Price_Book
+RAI-TIPTOP,Raimondi Tip Top MItre Clamping Device  - set of 2 clamps,695.0,"MEASURING, PREPARATION & LAYOUT",Raimondi_Price_List_May_2026_Price_Book
+RAI-ELIA,Raimondi Elia Bucket & Tile Trolley,110.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-FFKP,Raimondi Flat Faced Knee Pads,33.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-FLKP,Raimondi Flexible Knee Pads,50.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-FLKP-IN,Raimondi Flexible Knee Pad Insert,10.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-FLKP-RST,Raimondi Replacement Kneepad Straps - Rubber - Set of 2,4.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-FLKP-ST,Raimondi Flexible Knee Pad Strap - Fabric (Set of 2),2.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-FIDO,Raimondi Fido Tiling Hand Support,47.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-KPRELAX,Raimondi Relax Gel Kneepads,50.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-HUSKY,Raimondi Husky Toothed Shoes,62.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-ISIP,Raimondi Isola Island Platforms,40.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-MORKC,"Raimondi ""Morbidone"" Kneeling Cushion",50.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-NELSON,Raimondi Nelson Rolling Seat with Wheels,416.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-PUGIOL,Raimondi Pugiol Folding Work Bench,252.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-SL,Raimondi Paver / Slab Lifter,45.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-SLEXT5065,Raimondi Slab Lifter - Extends to Suit 50 - 65cm,161.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-SLEXT50120,Raimondi Slab Lifter - Extends to Suit 50 - 120cm,280.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-TOOLBAG,Raimondi Padded Tool Bag,92.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-WSWT,Raimondi Waffled Shoes for Walking on Tile (Pair),54.0,"KNEE PADS, PLATFORMS & TILING AIDS",Raimondi_Price_List_May_2026_Price_Book
+RAI-TC1200,Raimondi Tile Crosses - 1mm x 200 Bag,4.0,SPACERS - CROSSES 1MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC11000,Raimondi Tile Crosses - 1mm x 1000,14.0,SPACERS - CROSSES 1MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC2200,Raimondi Tile Crosses - 2mm x 200 Bag,4.0,SPACERS - CROSSES 2MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC21000,Raimondi Tile Crosses - 2mm x 1000,14.0,SPACERS - CROSSES 2MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC3200-HEX,Raimondi Tile Crosses - 3mm x 200 - for Hexagonal Tiles,5.0,SPACERS - CROSSES 3MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC3S-1000,Raimondi Tile Crosses - 3mm x 1000 - Shielded Type,19.0,SPACERS - CROSSES 3MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TCA31000,Raimondi Tile Crosses - 3mm x 1000 - Arrow Type,19.0,SPACERS - CROSSES 3MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC41000,Raimondi Tile Crosses - 4mm x 1000,18.0,SPACERS - CROSSES 4MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC8200,Raimondi Tile Crosses - 8mm x 200,5.0,SPACERS - CROSSES 8MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC81000,Raimondi Tile Crosses - 8mm x 1000,19.0,SPACERS - CROSSES 8MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC10-200,Raimondi Tile Crosses - 10mm x 200,6.0,SPACERS - CROSSES 10MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-TC10-10000,Raimondi Tile Crosses - 10mm x 1000,21.0,SPACERS - CROSSES 10MM,Raimondi_Price_List_May_2026_Price_Book
+RAI-DS13300,Raimondi Re Usable Double Spacer - 1 & 3mm x 300,40.0,SPECIALISED SPACERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-DS25300,Raimondi Re Usable Double Spacer - 2 & 5mm x 300,43.0,SPECIALISED SPACERS,Raimondi_Price_List_May_2026_Price_Book
+RAI-W281000,Raimondi Wedges - 28mm x 1000,13.0,WEDGES,Raimondi_Price_List_May_2026_Price_Book
+RAI-CLIPDOZER,Raimondi Clipdozer Levelling Clips Removal Tool NEW,95.0,LEVELLING CLIP REMOVAL TOOL,Raimondi_Price_List_May_2026_Price_Book
+PA-8-3,Project Aluminium Angle 8mm x 3m,3.3,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-BAP,Project Aluminium Angle 8mm x 3m - Bronze Ash,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-BKP,Project Aluminium Angle 8mm x 3m - Gloss Black with,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-BSP,Project Aluminium Angle 8mm x 3m - Bright Silver with,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-GMP,Project Aluminium Angle 8mm x 3m - Gunmetal,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-LGMP,Project Aluminium Angle 8mm x 3m - Linished Gun Metal NEW,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-LIP,Project Aluminium Angle 8mm x 3m - Linished Iron,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-LMP,Project Aluminium Angle 8mm x 3m - Linished Matt Gold,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-LSNP,Project Aluminium Angle 8mm x 3m - Linished Satin Nickel NEW,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-LSP,Project Aluminium Angle 8mm x 3m - Linished Silver,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-MBP,Project Aluminium Angle 8mm x 3m - MattBlack,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-MGP,Project Aluminium Angle 8mm x 3m - Matt Gold,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-MMP,Project Aluminium Angle 8mm x 3m - Monument Matt,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-MSP,Project Aluminium Angle 8mm x 3m - Matt Silver,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-MWP,Project Aluminium Angle 8mm x 3m - Matt White,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-SMP,Project Aluminium Angle 8mm x 3m - Surfmist,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-8-3-WHP,Project Aluminium Angle 8mm x 3m - Pearl White,6.9,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3,Project Aluminium Angle 9mm x 3m,3.5,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-BAP,Project Aluminium Angle 9mm x 3m - Bronze Ash,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-BKP,Project Aluminium Angle 9mm x 3m - Gloss Black,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-BSP,Project Aluminium Angle 9mm x 3m - Bright Silver,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-GMP,Project Aluminium Angle 9mm x 3m - Gunmetal,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-LIP,Project Aluminium Angle 9mm x 3m - Linished Iron,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-LMP,Project Aluminium Angle 9mm x 3m - Linished Matt Gold,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-LSP,Project Aluminium Angle 9mm x 3m -Linished  Silver,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-MBP,Project Aluminium Angle 9mm x 3m - Matt Black,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-MGP,Project Aluminium Angle 9mm x 3m - Matt Gold,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-MMP,Project Aluminium Angle 9mm x 3m - Monument Matt,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-MSP,Project Aluminium Angle 9mm x 3m - Matt Silver,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-MWP,Project Aluminium Angle 9mm x 3m - Matt White,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-SMP,Project Aluminium Angle 9mm x 3m - Surfmist,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-9-3-WHP,Project Aluminium Angle 9mm x 3m - Pearl White,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3,Project Aluminium Angle 10mm x 3m,3.7,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-BAP,Project Aluminium Angle 10mm x 3m - Bronze Ash,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-BKP,Project Aluminium Angle 10mm x 3m - Gloss Black,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-BSP,Project Aluminium Angle 10mm x 3m - Bright Silver,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-GMP,Project Aluminium Angle 10mm x 3m - Gunmetal,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-LGMP,Project Aluminium Angle 10mm x 3m - Linished Gun Metal  NEW,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-LIP,Project Aluminium Angle 10mm x 3m - Linished Iron,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-LMP,Project Aluminium Angle 10mm x 3m - Linished Matt Gold,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-LSNP,Project Aluminium Angle 10mm x 3m - Linished Satin Nickel NEW,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-LSP,Project Aluminium Angle 10mm x 3m -Linish Silver,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-MBP,Project Aluminium Angle 10mm x 3m - Matt Black,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-MGP,Project Aluminium Angle 10mm x 3m - Matt Gold,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-MMP,Project Aluminium Angle 10mm x 3m - Monument Matt,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-MSP,Project Aluminium Angle 10mm x 3m - Matt Silver,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-MWP,Project Aluminium Angle 10mm x 3m -Matt White,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-SMP,Project Aluminium Angle 10mm x 3m - Surfmist with P/ Film,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-10-3-WHP,Project Aluminium Angle 10mm x 3m - Pearl White,6.95,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3,Project Aluminium Angle 11mm x 3m,3.8,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-BAP,Project Aluminium Angle 11mm x 3m - Bronze Ash,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-BKP,Project Aluminium Angle 11mm x 3m - Gloss Black,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-BSP,Project Aluminium Angle 11mm x 3m - Bright Silver,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-GMP,Project Aluminium Angle 11mm x 3m - Gunmetal,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-LGMP,Project Aluminium Angle 11mm x 3m - Linished Gun Metal NEW,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-LIP,Project Aluminium Angle 11mm x 3m - Linished Iron,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-LMP,Project Aluminium Angle 11mm x 3m - Linished Matt Gold,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-LSNP,Project Aluminium Angle 11mm x 3m - Linished Satin Nickel NEW,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-LSP,Project Aluminium Angle 11mm x 3m - Linished Silver,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-MBP,Project Aluminium Angle 11mm x 3m - Matt Black,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-MGP,Project Aluminium Angle 11mm x 3m - Matt Gold,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-MMP,Project Aluminium Angle 11mm x 3m - Monument Matt,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-MSP,Project Aluminium Angle 11mm x 3m - Matt Silver,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-MWP,Project Aluminium Angle 11mm x 3m - Matt White,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-SMP,Project Aluminium Angle 11mm x 3m - Surfmist,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-11-3-WHP,Project Aluminium Angle 11mm x 3m - Pearl White,7.1,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3,Project Aluminium Angle 12.5mm x 3m,3.85,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-BAP,Project Aluminium Angle 12.5mm x 3m - Bronze Ash,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-BKP,Project Aluminium Angle 12mm x 3m - Gloss Black,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-BSP,Project Aluminium Angle 12.5mm x 3m - Bright ilver,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-GMP,Project Aluminium Angle 12.5mm x 3m - Gunmetal,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-LGMP,Project Aluminium Angle 12.5mm x 3m - Linished Gun Metal NEW,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-LIP,Project Aluminium Angle 12.5mm x 3m - Linished Iron,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-LMP,Project Aluminium Angle 12.5mm x 3m - Linished Matt Gold,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-LSNP,Project Aluminium Angle 12.5mm x 3m - Linished Satin Nickel NEW,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-LSP,Project Aluminium Angle 12mm x 3m - Linished Silver,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-MBP,Project Aluminium Angle 12.5mm x 3m - Matt Black,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-MGP,Project Aluminium Angle 12.5mm x 3m - Matt Gold,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-MMP,Project Aluminium Angle 12.5mm x 3m - Monument Matt,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-MSP,Project Aluminium Angle 12.5mm x 3m - Matt Silver,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-MWP,Project Aluminium Angle 12.5mm x 3m - Matt White,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-SMP,Project Aluminium Angle 12.5mm x 3m - Surfmist,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PA-12-3-WHP,Project Aluminium Angle 12.5 mm x 3m - Pearl White,7.2,Aluminium Tiling Angle - Perforated,Project_Trims_Book_1_-_May_2026
+PMCA-8-3-BAP,Project Mosaic Corner Angle 8.5mm x 3m - Bronze Ash,9.75,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-8-3-BSP,Project Mosaic Corner Angle 8mm x 3m - Bright ilver,9.75,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-8-3-MBP,Project Mosaic Corner Angle 8.5mm x 3m - Matt Black,9.75,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-8-3-MSP,Project Mosaic Corner Angle 8.5mm x 3m - Matt Silver,9.75,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-8-3-MWP,Mosaic Corner Angle 8.5mm x 3m - Matt White,9.75,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-10-3-BAP,Project Mosaic Corner Angle 10.5mm x 3m -Bronze Ash,10.8,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-10-3-BSP,Project Mosaic Corner Angle 10.5mm x 3m - Bright Silver,10.8,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-10-3-MBP,Project Mosaic Corner Angle 10.5mm x 3m - Matt Black,10.8,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-10-3-MSP,Project Mosaic Corner Angle 10.5mm x 3m - Matt Silver,10.8,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-10-3-MWP,Project Mosaic Corner Angle 10.5mm x 3m - Matt White,10.8,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-12-3-BAP,Project Mosaic Corner Angle 12.5mm x 3m - Bronze Ash,12.95,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-12-3-BSP,Project Mosaic Corner Angle 12.5mm x 3m - Bright Silver,12.95,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-12-3-MBP,Project Mosaic Corner Angle 12.5mm x 3m - Matt Black,12.95,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-12-3-MSP,Project Mosaic Corner Angle 12.5mm x 3m - Matt Silver,12.95,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+PMCA-12-3-MWP,Project Mosaic Corner Angle 12.5mm x 3m - Matt White,12.95,Mosaic Aluminium Corner Angle - 3 Metre,Project_Trims_Book_1_-_May_2026
+BAT-ST140,BAT Liquid Stirrer to suit Electric Mixer 140 x 600 x M14mm,72.15,Liquid Stirrers,Tools_Book_1_-May_2026
+BAT-EM1600ST,BAT EM 1600 P Spare Liquid Stirrer - 140 x 590 x M14mm,21.05,Liquid Stirrers,Tools_Book_1_-May_2026
+BAT-EM1050ST,BAT EM 1050P Spare Liquid Stirrer - 120 x 590 x M14mm,17.15,Liquid Stirrers,Tools_Book_1_-May_2026
+LS-SMALL,Liquid Stirrer 100 x 500 x 10mm Shaft,21.75,Liquid Stirrers,Tools_Book_1_-May_2026
+LS-MEDIUM,Liquid Stirrer 120 x 500 x 10mm Shaft,24.05,Liquid Stirrers,Tools_Book_1_-May_2026
+LS-LARGE,Liquid Stirrer 150 x 500 x 10mm Shaft,25.2,Liquid Stirrers,Tools_Book_1_-May_2026
+BAT-EM1050P,BAT Pro Electric Hand Mixer - 1050W T-Shape Handle,145.95,Electric Mixers,Tools_Book_1_-May_2026
+BAT-EM1600P,BAT Pro Electric Hand Mixer - 1600W,191.35,Electric Mixers,Tools_Book_1_-May_2026
+PAN-SST4,Panther Stainless Steel Trowel 4mm - S/Grip,9.15,PANTHER Square Notched Trowels,Tools_Book_1_-May_2026
+PAN-SST6,Panther Stainless Steel Trowel 6mm - S/Grip,9.15,PANTHER Square Notched Trowels,Tools_Book_1_-May_2026
+PAN-SST8,Panther Stainless Steel Trowel 8mm - S/Grip,9.15,PANTHER Square Notched Trowels,Tools_Book_1_-May_2026
+PAN-SST10,Panther Stainless Steel Trowel 10mm - S/Grip,9.15,PANTHER Square Notched Trowels,Tools_Book_1_-May_2026
+PAN-SST12,Panther Stainless Steel Trowel 12mm - S/Grip,9.15,PANTHER Square Notched Trowels,Tools_Book_1_-May_2026
+PAN-SST15,Panther Stainless Steel Trowel 15mm - S/Grip,9.15,PANTHER Square Notched Trowels,Tools_Book_1_-May_2026
+BAT-BSV-SG,BAT Bright Steel Trowel 3mm V - S/Grip,15.5,Trowels - Bright Steel - Soft Grip V Notch,Tools_Book_1_-May_2026
+BAT-BSPV5-SG,BAT Bright Steel Trowel 5mm V - S/Grip,15.5,Trowels - Bright Steel - Soft Grip V Notch,Tools_Book_1_-May_2026
+BAT-BSRV8-SG,BAT Bright Steel Trowel 8mm V - S/Grip,15.5,Trowels - Bright Steel - Soft Grip V Notch,Tools_Book_1_-May_2026
+BAT-BSPV12-SG,BAT Bright Steel Trowel 12mm V - S/Grip,15.5,Trowels - Bright Steel - Soft Grip V Notch,Tools_Book_1_-May_2026
+BAT-BS4-SG,BAT Bright Steel Trowel 4mm - S/Grip,14.3,Trowels - Bright Steel - Soft Grip,Tools_Book_1_-May_2026
+BAT-BS6-SG,BAT Bright Steel Trowel 6mm - S/Grip,14.3,Trowels - Bright Steel - Soft Grip,Tools_Book_1_-May_2026
+BAT-BS8-SG,BAT Bright Steel Trowel 8mm - S/Grip,14.3,Trowels - Bright Steel - Soft Grip,Tools_Book_1_-May_2026
+BAT-BS10-SG,BAT Bright Steel Trowel 10mm - S/Grip,14.3,Trowels - Bright Steel - Soft Grip,Tools_Book_1_-May_2026
+BAT-BS12-SG,BAT Bright Steel Trowel 12mm - S/Grip,14.3,Trowels - Bright Steel - Soft Grip,Tools_Book_1_-May_2026
+BAT-BS15-SG,BAT Bright Steel Trowel 15mm - S/Grip,14.3,Trowels - Bright Steel - Soft Grip,Tools_Book_1_-May_2026
+BAT-SS4-SG,BAT Professional Stainless Steel Trowel 4mm - S/Grip,20.6,Trowels - Stainless Steel & Plaster,Tools_Book_1_-May_2026
+BAT-SS6-SG,BAT Professional Stainless Steel Trowel 6mm - S/Grip,20.6,Trowels - Stainless Steel & Plaster,Tools_Book_1_-May_2026
+BAT-SS8-SG,BAT Professional Stainless Steel Trowel 8mm - S/Grip,20.6,Trowels - Stainless Steel & Plaster,Tools_Book_1_-May_2026
+BAT-SS10-SG,BAT Professional Stainless Steel Trowel 10mm - S/Grip,20.6,Trowels - Stainless Steel & Plaster,Tools_Book_1_-May_2026
+BAT-SS12-SG,BAT Professional Stainless Steel Trowel 12mm - S/Grip,20.6,Trowels - Stainless Steel & Plaster,Tools_Book_1_-May_2026
+BAT-SS15-SG,BAT Professional Stainless Steel Trowel 15mm - S/Grip,20.6,Trowels - Stainless Steel & Plaster,Tools_Book_1_-May_2026
+BAT-BSV1-SG,BAT Bright Steel Trowel 1.6mm V Notch - S/Grip,20.0,Trowels - Bright Steel - V Notch/Plaster - Soft Grip,Tools_Book_1_-May_2026
+BAT-BSV2-SG,BAT Bright Steel Trowel 2.4mm V Notch - S/Grip,20.0,Trowels - Bright Steel - V Notch/Plaster - Soft Grip,Tools_Book_1_-May_2026
+BAT-BSV3-SG,BAT Bright Steel Trowel 3.2mm V Notch - S/Grip,20.0,Trowels - Bright Steel - V Notch/Plaster - Soft Grip,Tools_Book_1_-May_2026
+BAT-BSV5-SG,BAT Bright Steel Trowel 4.9mm V Flat Notch - S/Grip,20.0,Trowels - Bright Steel - V Notch/Plaster - Soft Grip,Tools_Book_1_-May_2026
+BAT-BSV6-SG,BAT Bright Steel Trowel 6mm V Notch - S/Grip,20.0,Trowels - Bright Steel - V Notch/Plaster - Soft Grip,Tools_Book_1_-May_2026
+BAT-BSPL-SG,BAT Bright Steel Trowel - Plaster - S/Grip,15.0,Trowels - Bright Steel - V Notch/Plaster - Soft Grip,Tools_Book_1_-May_2026
+BAT-LBBST-8-SG,BAT Bright Steel Long Blade Trowel 8mm - S/Grip,19.25,Trowels - Bright Steel - Long Blade - Soft Grip,Tools_Book_1_-May_2026
+BAT-LBBST-10-SG,BAT Bright Steel Long Blade Trowel 10mm - S/Grip,19.25,Trowels - Bright Steel - Long Blade - Soft Grip,Tools_Book_1_-May_2026
+BAT-LBBST-12-SG,BAT Bright Steel Long Blade Trowel 12mm - S/Grip,19.25,Trowels - Bright Steel - Long Blade - Soft Grip,Tools_Book_1_-May_2026
+BAT-LBBST-HM15-SG,BAT Bright Steel Long Blade Trowel 15mm H/M - S/Grip,19.25,Trowels - Bright Steel - Long Blade - Soft Grip,Tools_Book_1_-May_2026
+BAT-SR21500,BAT Spiked Roller - 21 x 500mm with Splash Guard & Thread,51.5,Spike Roller,Tools_Book_1_-May_2026
+BP-GAT180,BAT Pro Gauging Trowel with Swan Neck - 180mm,9.0,Adhesive Tools,Tools_Book_1_-May_2026
+BP-GAT200,BAT Pro Gauging Trowel with Swan Neck - 200mm,9.5,Adhesive Tools,Tools_Book_1_-May_2026
+PS-50,Paint Scraper - 50mm - S/Grip,6.9,Adhesive Tools,Tools_Book_1_-May_2026
+PS-75,Paint Scraper - 75mm - S/Grip,8.0,Adhesive Tools,Tools_Book_1_-May_2026
+PS-100,Paint Scraper - 100mm - S/Grip,10.3,Adhesive Tools,Tools_Book_1_-May_2026
+BP-TTSQ160,BAT Pro Square Trowel with Swan Neck - 160 x 110mm,9.0,Adhesive Tools,Tools_Book_1_-May_2026
+BP-TTSQ200,BAT Pro Square Trowel with Swan Neck - 200 x 125mm,9.5,Adhesive Tools,Tools_Book_1_-May_2026
+BAT-DHP060,BAT Diamond Hand Polishing Pad - 60 Grit,24.25,Hand Polishing Pads,Tools_Book_1_-May_2026
+BAT-DHP200,BAT Diamond Hand Polishing Pad - 200 Grit,24.25,Hand Polishing Pads,Tools_Book_1_-May_2026
+BAT-DHP400,BAT Diamond Hand Polishing Pad - 400 Grit,24.25,Hand Polishing Pads,Tools_Book_1_-May_2026
+BAT-DHP800,BAT Diamond Hand Polishing Pad - 800 Grit,24.25,Hand Polishing Pads,Tools_Book_1_-May_2026
+BP-PVA036,BAT Pro PVA Abrasive Wheel - 100mm - 36 Grit,5.7,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA060,BAT Pro PVA Abrasive Wheel - 100mm - 60 Grit,5.7,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA120,BAT Pro PVA Abrasive Wheel - 100mm - 120 Grit,5.7,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA220,BAT Pro PVA Abrasive Wheel - 100mm - 220 Grit,5.7,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA320,BAT Pro PVA Abrasive Wheel - 100mm - 320 Grit,5.7,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA400,BAT Pro PVA Abrasive Wheel - 100mm - 400 Grit,5.7,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA600,BAT Pro PVA Abrasive Wheel - 100mm - 600 Grit,5.7,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA036/10,BAT Pro PVA Abrasive Wheel - 100mm - 36 Grit (10 pack),45.8,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA060/10,BAT Pro PVA Abrasive Wheel - 100mm - 60 Grit (10 pack),45.8,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA120/10,BAT Pro PVA Abrasive Wheel - 100mm - 120 Grit (10 pack),45.8,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+BP-PVA220/10,BAT Pro PVA Abrasive Wheel - 100mm - 220 Grit (10 pack),45.8,PVA Abrasive Wheels,Tools_Book_1_-May_2026
+PRGB,Pointed Rubber Grouter - BAT Trade,14.9,Grouting - Hand Tools,Tools_Book_1_-May_2026
+PRGJ,Pointed Rubber Grouter - Japanese,27.4,Grouting - Hand Tools,Tools_Book_1_-May_2026
+PRGP,Pointed Rubber Grouter - Plastic,11.45,Grouting - Hand Tools,Tools_Book_1_-May_2026
+PAN-LGSP3418,Panther GCS Large Sponge with Cuts - 335 x 180mm,9.9,PANTHER Grout Clean Up System - Accessories,Tools_Book_1_-May_2026
+PAN-SMSP2814,Panther GCS Small Sponge with Cuts - 280 x 140mm,7.9,PANTHER Grout Clean Up System - Accessories,Tools_Book_1_-May_2026
+PAN-QRFH,Panther GCS Quick Release Float Handle,5.2,PANTHER Grout Clean Up System - Accessories,Tools_Book_1_-May_2026
+PAN-GCSRRS,Panther Grout Clean Up System Replacement Roller Set,13.5,PANTHER Grout Clean Up System - Accessories,Tools_Book_1_-May_2026
+BAT-MAXIMO-C,BAT Maximo Grout Clean Up System - Commodore,154.55,Grout Clean Up - Washboy,Tools_Book_1_-May_2026
+WB-PROFI,Washboy Professional Grout Clean Up Set,114.5,Grout Clean Up - Washboy,Tools_Book_1_-May_2026
+WB-PROFI-A,Washboy PROFI c/w Velcro Float,125.95,Grout Clean Up - Washboy,Tools_Book_1_-May_2026
+BAT-MAXPG,BAT Maximo Plastic Grate,32.6,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+BAT-MAXVHC,BAT Maximo Com. Vel. Handle 130 x 300mm,29.15,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+BAT-MAXVSC,BAT Maximo Com. Vel. Sponge 150 x 320mm,16.5,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+BAT-MAXBR2,BAT Maximo Bucket Roller - Set of 2,24.45,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+BAT-MAXBUCK,BAT Maximo Grout Clean Up System Spare Bucket 23 Ltr,78.95,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+BAT-MAXRR3,BAT Maximo Grout Clean Up Set Replacement Roller Set,34.65,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+WB-9001,Washboy Rep. Velcro Float with Sponge,31.25,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+WB-9002,Washboy Velcro Handle - 130 x 265mm,18.45,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+WB-9003,Washboy Velcro Sponge 150 x 290 x 35mm,15.8,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+WB-9003L,Washboy Spare Velcro Sponge 180 x 340 x 35mm,20.6,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+WB-9004,Washboy Float c/w Adhesive Sponge,20.6,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+WB-9005,Washboy Sp. Adhesive Sponge 150 x 300 x 35mm,11.75,Grout Clean Up - Washboy Accessories,Tools_Book_1_-May_2026
+S-50,Sponge - 200 x 150 x 50mm,3.45,Sponges and Scourers,Tools_Book_1_-May_2026
+S-100,Sponge - 200 x 150 x 100mm,5.7,Sponges and Scourers,Tools_Book_1_-May_2026
+SP-DLXCELL,Sponge - Deluxe Cellulose,5.95,Sponges and Scourers,Tools_Book_1_-May_2026
+SP-TILSLA,Sponge - Hydro - Tilers and Slaters,8.3,Sponges and Scourers,Tools_Book_1_-May_2026
+WB-HANDSP,Washboy Hand Sponge 165 x 110 x 60mm,5.95,Sponges and Scourers,Tools_Book_1_-May_2026
+SP-RGHAZE,Synthetic Abrasive Sponge - 190 x 140 x 50mm,5.6,Sponges and Scourers,Tools_Book_1_-May_2026
+BL-WPS60,B.A.T. Luxe Waste Pipe Sponge - 60 x 80mm,1.35,Sponges and Scourers,Tools_Book_1_-May_2026
+BL-WPS125,B.A.T. Luxe Waste Pipe Sponge - 125 x 120mm,2.5,Sponges and Scourers,Tools_Book_1_-May_2026
+EPDB-6,Electroplated Diamond Drill Bit 6mm,11.45,Diamond Core Bits - Tungsten & Electroplated,Tools_Book_1_-May_2026
+EPDB-8,Electroplated Diamond Drill Bit 8mm,14.9,Diamond Core Bits - Tungsten & Electroplated,Tools_Book_1_-May_2026
+EPDB-10,Electroplated Diamond Drill Bit 10mm,16.0,Diamond Core Bits - Tungsten & Electroplated,Tools_Book_1_-May_2026
+EPDB-12,Electroplated Diamond Drill Bit 12mm,19.45,Diamond Core Bits - Tungsten & Electroplated,Tools_Book_1_-May_2026
+EPDB-38,Electroplated Diamond Drill Bit 38mm,53.8,Diamond Core Bits - Tungsten & Electroplated,Tools_Book_1_-May_2026
+EPDB-5PUK,Electroplated Diamond Drill Set - 5pce Universal Kit,68.7,Diamond Core Bits - Tungsten & Electroplated,Tools_Book_1_-May_2026
+BP-DCDB5,BAT Pro Dry Cutting Drill Bit 5mm - M14 Thread,24.35,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB6,BAT Pro Dry Cutting Drill Bit 6mm - M14 Thread,25.75,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB8,BAT Pro Dry Cutting Drill Bit 8mm - M14 Thread,25.75,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB10,BAT Pro Dry Cutting Drill Bit 10mm - M14 Thread,27.2,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB12,BAT Pro Dry Cutting Drill Bit 12mm - M14 Thread,27.2,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB25,BAT Pro Dry Cutting Drill Bit 25mm - M14 Thread,28.6,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB35,BAT Pro Dry Cutting Drill Bit 35mm - M14 Thread,34.35,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB38,BAT Pro Dry Cutting Drill Bit 38mm - M14 Thread,35.8,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB45,BAT Pro Dry Cutting Drill Bit 45mm - M14 Thread,45.8,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB50,BAT Pro Dry Cutting Drill Bit 50mm - M14 Thread,48.65,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB55,BAT Pro Dry Cutting Drill Bit 55mm - M14 Thread,54.4,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB65,BAT Pro Dry Cutting Drill Bit 65mm - M14 Thread,64.4,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB88,BAT Pro Dry Cutting Drill Bit 88mm - M14 Thread,85.85,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DCDB110,BAT Pro Dry Cutting Drill Bit 110mm - M14 Thread,107.35,Diamond Core Bits - Vacuum Brazed M14 Thread,Tools_Book_1_-May_2026
+BP-DBAS1014,BAT Pro Drill Bit Adapter Set - M10 to M14,15.95,Diamond Core Bit - Universal Drill Bit Adapters,Tools_Book_1_-May_2026
+BP-DCDB5H,BAT Pro Dry Cutting Drill Bit 5mm - Hex Shaft,24.35,Diamond Core Bits - Vacuum Brazed Hex Shaft,Tools_Book_1_-May_2026
+BP-DCDB6H,BAT Pro Dry Cutting Drill Bit 6mm - Hex Shaft,25.75,Diamond Core Bits - Vacuum Brazed Hex Shaft,Tools_Book_1_-May_2026
+BP-DCDB8H,BAT Pro Dry Cutting Drill Bit 8mm - Hex Shaft,25.75,Diamond Core Bits - Vacuum Brazed Hex Shaft,Tools_Book_1_-May_2026
+BP-DCDB10H,BAT Pro Dry Cutting Drill Bit 10mm - Hex Shaft,27.2,Diamond Core Bits - Vacuum Brazed Hex Shaft,Tools_Book_1_-May_2026
+BP-DCDB12H,BAT Pro Dry Cutting Drill Bit 12mm - Hex Shaft,27.2,Diamond Core Bits - Vacuum Brazed Hex Shaft,Tools_Book_1_-May_2026
+BP-DCDG,BAT Pro Dry Cutting Drill Bit Guide with Suction Cup,22.9,Drill Bit Guide with Suction Cup,Tools_Book_1_-May_2026
+PAN-TTR-105,Panther Thin Turbo Rim Diamond Blade - 105mm,22.0,PANTHER Thin Turbo Diamond Blades,Tools_Book_1_-May_2026
+PAN-TTR-125,Panther Thin Turbo Rim Diamond Blade - 125mm,23.8,PANTHER Thin Turbo Diamond Blades,Tools_Book_1_-May_2026
+BD-MTR-105-R,BAT Pro Diamond Mesh Turbo Rim Blade - 105mm - Razor,27.5,Diamond Blades - BAT Pro,Tools_Book_1_-May_2026
+BD-MTR-115,BAT Pro Diamond Mesh Turbo Rim Blade - 115mm,30.0,Diamond Blades - BAT Pro,Tools_Book_1_-May_2026
+BD-MTR-125-R,BAT Pro Diamond Mesh Turbo Rim Blade - 125mm - Razor,33.55,Diamond Blades - BAT Pro,Tools_Book_1_-May_2026
+BD-TTR-105,BAT Pro Diamond Thin Turbo Rim Blade - 105mm,38.9,Diamond Blades - BAT Pro,Tools_Book_1_-May_2026
+BD-TTR-115,BAT Pro Diamond Thin Turbo Rim Blade - 115mm,42.35,Diamond Blades - BAT Pro,Tools_Book_1_-May_2026
+BD-TTR-125,BAT Pro Diamond Thin Turbo Rim Blade - 125mm,44.65,Diamond Blades - BAT Pro,Tools_Book_1_-May_2026
+BP-DBB250,B.A.T. Pro Diamond Seg Blade - 250mm - to suit Brick / Block,77.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBB300,B.A.T. Pro Diamond Seg Blade - 300mm - to suit Brick / Block,127.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBB350,B.A.T. Pro Diamond Seg Blade - 350mm - to suit Brick / Block,190.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBC250,B.A.T. Pro Diamond Seg Blade - 250mm - to suit Concrete,77.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBC300,B.A.T. Pro Diamond Seg Blade - 300mm - to suit Concrete,127.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBC350,B.A.T. Pro Diamond Seg Blade - 350mm - to suit Concrete,190.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBG250,B.A.T. Pro Diamond Seg Blade - 250mm - to suit Granite / Marble,77.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBG300,B.A.T. Pro Diamond Seg Blade - 300mm - to suit Granite / Marble,127.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBG350,B.A.T. Pro Diamond Seg Blade - 350mm - to suit Granite / Marble,190.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBP250,B.A.T. Pro Diamond Seg Blade - 250mm - to suit Porcelain,77.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBP300,B.A.T. Pro Diamond Seg Blade - 300mm - to suit Porcelain,127.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BP-DBP350,B.A.T. Pro Diamond Seg Blade - 350mm - to suit Porcelain,190.0,Diamond Blades - BAT Pro. To Suit Wet Saws,Tools_Book_1_-May_2026
+BD-BUSH-2016,Diamond Blade Bush 20/16,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-2216,Diamond Blade Bush 22.2/16,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-2220,Diamond Blade Bush 22.2/20,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-2516,Diamond Blade Bush 25.4/16,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-2520,Diamond Blade Bush 25.4/20,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-2522,Diamond Blade Bush 25.4/22.2,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-2522R,Diamond Blade Bush - suit. Rein. Centre 25.4/22.2,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-3022,Diamond Blade Bush 30/22.2,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-3025,Diamond Blade Bush 30/25.4,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-BUSH-3025R,Diamond Blade Bush - suit Rein. Centre 30/25.4,4.35,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-GWSC-100,BAT Super Cluster Grinding Wheel - 100mm x 22.2/20mm,111.05,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BD-GWSC-180,BAT Super Cluster Grinding Wheel - 180mm x 22.2/20mm,263.3,Diamond Blades Bush & Grinding Wheels,Tools_Book_1_-May_2026
+BAT-SB-1200,BAT Screed Bar with Handle 50 x 45 x 1200mm,41.5,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-1500,BAT Screed Bar with Handle 50 x 45 x 1500mm,51.95,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-1800,BAT Screed Bar with Handle 50 x 45 x 1800mm,60.25,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-2100,BAT Screed Bar with Handle 50 x 45 x 2100mm,68.6,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-2400,BAT Screed Bar with Handle 50 x 45 x 2400mm,76.0,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-2700,BAT Screed Bar with Handle 50 x 45 x 2700mm,82.4,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-3000,BAT Screed Bar with Handle 50 x 45 x 3000mm,89.3,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-3600,BAT Screed Bar with Handle 50 x 45 x 3600mm,121.35,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-4200,BAT Screed Bar with Double Handle 50 x 45 x 4200mm,137.35,Screed Bars,Tools_Book_1_-May_2026
+BAT-SB-5000,BAT Screed Bar with Double Handle 50 x 45 x 5000mm,172.9,Screed Bars,Tools_Book_1_-May_2026
+BAT-SE72-1200,BAT Straight Edge Powder Coated 70 x 20 x 1200mm,28.4,Straight Edges,Tools_Book_1_-May_2026
+BAT-SE72-1500,BAT Straight Edge Powder Coated 70 x 20 x 1500mm,32.75,Straight Edges,Tools_Book_1_-May_2026
+BAT-SE72-1800,BAT Straight Edge Powder Coated 70 x 20 x 1800mm,41.25,Straight Edges,Tools_Book_1_-May_2026
+BAT-SE72-2100,BAT Straight Edge Powder Coated 70 x 20 x 2100mm,43.6,Straight Edges,Tools_Book_1_-May_2026
+BAT-SE72-2400,BAT Straight Edge Powder Coated 70 x 20 x 2400mm,50.2,Straight Edges,Tools_Book_1_-May_2026
+BAT-SE72-2700,BAT Straight Edge Powder Coated 70 x 20 x 2700mm,56.0,Straight Edges,Tools_Book_1_-May_2026
+BAT-SE72-3000,BAT Straight Edge Powder Coated 70 x 20 x 3000mm,60.35,Straight Edges,Tools_Book_1_-May_2026
+BSE-1500,BAT Straight Edge 22 x 100 x 1500mm,62.35,Straight Edges,Tools_Book_1_-May_2026
+BSE-1800,BAT Straight Edge 22 x 100 x 1800mm,72.7,Straight Edges,Tools_Book_1_-May_2026
+BSE-2100,BAT Straight Edge 22 x 100 x 2100mm,83.6,Straight Edges,Tools_Book_1_-May_2026
+BSE-2400,BAT Straight Edge 22 x 100 x 2400mm,93.85,Straight Edges,Tools_Book_1_-May_2026
+BSE-2700,BAT Straight Edge 22 x 100 x 2700mm,104.2,Straight Edges,Tools_Book_1_-May_2026
+BSE-3000,BAT Straight Edge 22 x 100 x 3000mm,114.5,Straight Edges,Tools_Book_1_-May_2026
+BSE-4000,BAT Straight Edge 22 x 100 x 4000mm,125.95,Straight Edges,Tools_Book_1_-May_2026
+SL-40,Spirit Level - 2 Vials - 400mm,25.75,Spirit Levels,Tools_Book_1_-May_2026
+SL-60,Spirit Level - 2 Vials - 600mm,31.5,Spirit Levels,Tools_Book_1_-May_2026
+SL-80,Spirit Level - 2 Vials - 800mm,35.65,Spirit Levels,Tools_Book_1_-May_2026
+SL-100,Spirit Level - 2 Vials - 1000mm,38.9,Spirit Levels,Tools_Book_1_-May_2026
+SL-120,Spirit Level - 2 Vials - 1200mm,45.8,Spirit Levels,Tools_Book_1_-May_2026
+SL-150,Spirit Level - 2 Vials - 1500mm,59.5,Spirit Levels,Tools_Book_1_-May_2026
+SL-180,Spirit Level - 2 Vials - 1800mm,68.7,Spirit Levels,Tools_Book_1_-May_2026
+SL-KITS,Spirit Levels - KIT (1 of each size),312.55,Spirit Levels,Tools_Book_1_-May_2026
+ADA-COSMO-50,ADA Instruments Laser Distance Meter,140.0,"Measuring, Preparation & Layout",Tools_Book_1_-May_2026
+ADA-TM5,Tape Measure 25mm x 5m,9.05,"Measuring, Preparation & Layout",Tools_Book_1_-May_2026
+ADA-TM8,Tape Measure 25mm x 8m,12.6,"Measuring, Preparation & Layout",Tools_Book_1_-May_2026
+ADA-TM10,Tape Measure 32mm x 10m,19.45,"Measuring, Preparation & Layout",Tools_Book_1_-May_2026
+BP-BS2030,BAT Pro Builders Square - 200 x 300mm,9.0,"Measuring, Preparation & Layout",Tools_Book_1_-May_2026
+BP-BS4060,BAT Pro Builders Square - 400 x 600mm,17.5,"Measuring, Preparation & Layout",Tools_Book_1_-May_2026
+TC-100,Tile Crosses 1.5mm x 100 Bag,1.35,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-500,Tile Crosses 1.5mm x 500 Bag,2.25,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-500-ECON,Tile Crosses 1.5mm x 500 Bag - No Header Card,1.9,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-1000,Tile Crosses 1.5mm x 1000 Bag,4.45,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-2000,Tile Crosses 1.5mm x 2000 Bag,8.6,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-3000,Tile Crosses 1.5mm x 3000 Bag,12.6,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-5000,Tile Crosses 1.5mm x 5000 Bag,20.6,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-10000,Tile Crosses 1.5mm x 10000 Bag,37.8,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-15000,Tile Crosses 1.5mm x 15000 Bag,55.55,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TC-20000,Tile Crosses 1.5mm x 20000 Bag,70.95,Spacers - Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCB-2000,Tile Crosses 1.5mm x 2000 Bucket,11.15,Spacers - Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCB-3000,Tile Crosses 1.5mm x 3000 Bucket,15.5,Spacers - Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCB-5000,Tile Crosses 1.5mm x 5000 Bucket,24.75,Spacers - Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCB-10000,Tile Crosses 1.5mm x 10000 Bucket,44.1,Spacers - Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCB-15000,Tile Crosses 1.5mm x 15000 Bucket,61.8,Spacers - Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCB-20000,Tile Crosses 1.5mm x 20000 Bucket,79.55,Spacers - Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCD-100,Deep Tile Crosses 1.5mm x 100 Bag,1.4,Spacers - Deep Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCD-250,Deep Tile Crosses 1.5mm x 250 Bag,2.3,Spacers - Deep Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCD-500,Deep Tile Crosses 1.5mm x 500 Bag,4.05,Spacers - Deep Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCD-1000,Deep Tile Crosses 1.5mm x  1000 Bag,7.4,Spacers - Deep Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCD-2000,Deep Tile Crosses 1.5mm x 2000 Bag,14.3,Spacers - Deep Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCD-5000,Deep Tile Crosses 1.5mm x 5000 Bag,35.5,Spacers - Deep Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCD-10000,Deep Tile Crosses 1.5mm x 10000 Bag,69.85,Spacers - Deep Crosses 1.5mm - BAG,Tools_Book_1_-May_2026
+TCDB-1000,Deep Tile Crosses 1.5mm x 1000 Bucket,9.75,Spacers - Deep Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCDB-2000,Deep Tile Crosses 1.5mm x 2000 Bucket,17.15,Spacers - Deep Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCDB-5000,Deep Tile Crosses 1.5mm x 5000 Bucket,41.75,Spacers - Deep Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCDB-10000,Deep Tile Crosses 1.5mm x 10000 Bucket,77.85,Spacers - Deep Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TCDB-20000,Deep Tile Crosses 1.5mm x 20000 Bucket,155.7,Spacers - Deep Crosses 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TC2-100,Tile Crosses 2mm x 100 Bag,1.96,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2-500,Tile Crosses 2mm x 500 Bag,4.55,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2-1000,Tile Crosses 2mm x 1000 Bag,8.0,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2-2000,Tile Crosses 2mm x 2000 Bag,14.9,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2-3000,Tile Crosses 2mm x 3000 Bag,21.2,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2-5000,Tile Crosses 2mm x 5000 Bag,33.75,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2-10000,Tile Crosses 2mm x 10000 Bag,65.25,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2-20000,Tile Crosses 2mm x 20000 Bag,125.95,Spacers - Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2B-1000,Tile Crosses 2mm x 1000 Bucket,11.45,Spacers - Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC2B-2000,Tile Crosses 2mm x 2000 Bucket,19.45,Spacers - Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC2B-5000,Tile Crosses 2mm x 5000 Bucket,40.05,Spacers - Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC2B-10000,Tile Crosses 2mm x 10000 Bucket,74.4,Spacers - Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC2B-20000,Tile Crosses 2mm x 20000 Bucket,135.1,Spacers - Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC2D-500,Deep Tile Crosses 2mm x 500 Bag,8.0,Spacers - Deep Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2D-1000,Deep Tile Crosses 2mm x 1000 Bag,14.9,Spacers - Deep Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2D-2000,Deep Tile Crosses 2mm x 2000 Bag,28.6,Spacers - Deep Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2D-5000,Deep Tile Crosses 2mm x 5000 Bag,70.95,Spacers - Deep Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2D-10000,Deep Tile Crosses 2mm x 10000 Bag,137.4,Spacers - Deep Crosses 2mm - BAG,Tools_Book_1_-May_2026
+TC2DB-2000,Deep Tile Crosses 2mm x 2000 Bucket,31.5,Spacers - Deep Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC2DB-5000,Deep Tile Crosses 2mm x 5000 Bucket,77.3,Spacers - Deep Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC2DB-10000,Deep Tile Crosses 2mm x 10000 Bucket,145.4,Spacers - Deep Crosses 2mm - BUCKET,Tools_Book_1_-May_2026
+TC3-100,Tile Crosses 3mm x 100 Bag,2.25,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3-500,Tile Crosses 3mm x 500 Bag,5.15,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3-500-ECON,Tile Crosses 3mm x 500 Bag - No Header Card,4.55,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3-1000,Tile Crosses 3mm x 1000 Bag,8.6,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3-2000,Tile Crosses 3mm x 2000 Bag,16.0,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3-5000,Tile Crosses 3mm x 5000 Bag,36.05,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3-10000,Tile Crosses 3mm x 10000 Bag,69.85,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3-15000,Tile Crosses 3mm x 15000 Bag,101.85,Spacers - Crosses 3mm - BAG,Tools_Book_1_-May_2026
+TC3B-2000,Tile Crosses 3mm x 2000 Bucket,18.3,Spacers - Crosses 3mm - BUCKET,Tools_Book_1_-May_2026
+TC3B-5000,Tile Crosses 3mm x 5000 Bucket,42.35,Spacers - Crosses 3mm - BUCKET,Tools_Book_1_-May_2026
+TC3B-10000,Tile Crosses 3mm x 10000 Bucket,77.85,Spacers - Crosses 3mm - BUCKET,Tools_Book_1_-May_2026
+TC3B-15000,Tile Crosses 3mm x 15000 Bucket,109.9,Spacers - Crosses 3mm - BUCKET,Tools_Book_1_-May_2026
+TC4-500,Tile Crosses 4mm x 500 Bag,7.4,Spacers - Crosses 4mm - BAG,Tools_Book_1_-May_2026
+TC5-100,Tile Crosses 5mm x 100 Bag,4.05,Spacers - Crosses 5mm- BAG,Tools_Book_1_-May_2026
+TC5-250,Tile Crosses 5mm x 250 Bag,5.7,Spacers - Crosses 5mm- BAG,Tools_Book_1_-May_2026
+TC5-500,Tile Crosses 5mm x 500 Bag,9.75,Spacers - Crosses 5mm- BAG,Tools_Book_1_-May_2026
+TC5-1000,Tile Crosses 5mm x 1000 Bag,16.6,Spacers - Crosses 5mm- BAG,Tools_Book_1_-May_2026
+TC5-5000,Tile Crosses 5mm x 5000 Bag,80.15,Spacers - Crosses 5mm- BAG,Tools_Book_1_-May_2026
+TC5-10000,Tile Crosses 5mm x 10000 Bag,154.55,Spacers - Crosses 5mm- BAG,Tools_Book_1_-May_2026
+TC5B-1000,Tile Crosses 5mm x 1000 Bucket,19.45,Spacers - Crosses 5mm- BUCKET,Tools_Book_1_-May_2026
+TC5B-5000,Tile Crosses 5mm x 5000 Bucket,86.45,Spacers - Crosses 5mm- BUCKET,Tools_Book_1_-May_2026
+TC5B-10000,Tile Crosses 5mm x 10000 Bucket,162.55,Spacers - Crosses 5mm- BUCKET,Tools_Book_1_-May_2026
+TC10-100,Tile Crosses 10mm x 100 Bag,5.15,Spacers - Crosses 10mm - BAG,Tools_Book_1_-May_2026
+TC10-250,Tile Crosses 10mm x 250 Bag,10.3,Spacers - Crosses 10mm - BAG,Tools_Book_1_-May_2026
+TC10-500,Tile Crosses 10mm x 500 Bag,20.35,Spacers - Crosses 10mm - BAG,Tools_Book_1_-May_2026
+TC10B-500,Tile Crosses 10mm x 500 Bucket,27.45,Spacers - Crosses 10mm - BUCKET,Tools_Book_1_-May_2026
+TS-100,T Shapes 1.5mm x 100 Bag,1.35,Spacers - T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TS-500,T Shapes 1.5mm x 500 Bag,2.25,Spacers - T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TS-1000,T Shapes 1.5mm x 1000 Bag,4.45,Spacers - T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TS-2000,T Shapes 1.5mm x 2000 Bag,8.6,Spacers - T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TS-5000,T Shapes 1.5mm x 5000 Bag,20.6,Spacers - T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TS-10000,T Shapes 1.5mm x 10000 Bag,37.8,Spacers - T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TSB-2000,T Shapes 1.5mm x 2000 Bucket,11.15,Spacers - T-Shapes 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TSB-5000,T Shapes 1.5mm x 5000 Bucket,24.75,Spacers - T-Shapes 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TSB-10000,T Shapes 1.5mm x 10000 Bucket,44.1,Spacers - T-Shapes 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TSD-500,Deep T Shapes 1.5mm x 500 Bag,4.05,Spacers - Deep T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TSD-2000,Deep T Shapes 1.5mm x 2000 Bag,14.3,Spacers - Deep T Shapes 1.5mm - BAG,Tools_Book_1_-May_2026
+TSDB-2000,Deep T Shapes 1.5mm x 2000 Bucket,17.15,Spacers - Deep T Shapes 1.5mm - BUCKET,Tools_Book_1_-May_2026
+TS2-500,T Shapes 2mm x 500 Bag,4.55,Spacers - T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2-1000,T Shapes 2mm x 1000 Bag,8.0,Spacers - T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2-2000,T Shapes 2mm x 2000 Bag,14.9,Spacers - T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2-5000,T Shapes 2mm x 5000 Bag,33.75,Spacers - T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2-10000,T Shapes 2mm x 10000 Bag,65.25,Spacers - T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2B-1000,T Shapes 2mm x 1000 Bucket,11.45,Spacers - T Shapes 2mm - BUCKET,Tools_Book_1_-May_2026
+TS2B-2000,T Shapes 2mm x 2000 Bucket,19.45,Spacers - T Shapes 2mm - BUCKET,Tools_Book_1_-May_2026
+TS2B-5000,T Shapes 2mm x 5000 Bucket,40.05,Spacers - T Shapes 2mm - BUCKET,Tools_Book_1_-May_2026
+TS2B-10000,T Shapes 2mm x 10000 Bucket,74.4,Spacers - T Shapes 2mm - BUCKET,Tools_Book_1_-May_2026
+TS2D-500,Deep T Shapes 2mm x 500 Bag,8.0,Spacers - Deep T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2D-2000,Deep T Shapes 2mm x 2000 Bag,28.6,Spacers - Deep T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2D-5000,Deep T Shapes 2mm x 5000 Bag,70.95,Spacers - Deep T Shapes 2mm - BAG,Tools_Book_1_-May_2026
+TS2DB-2000,Deep T Shapes 2mm x 2000 Bucket,31.5,Spacers - Deep T Shapes 2mm - BUCKET,Tools_Book_1_-May_2026
+TS2DB-5000,Deep T Shapes 2mm x 5000 Bucket,77.25,Spacers - Deep T Shapes 2mm - BUCKET,Tools_Book_1_-May_2026
+TS3-100,T Shapes 3mm x 100 Bag,2.25,Spacers - T Shapes 3mm - BAG,Tools_Book_1_-May_2026
+TS3-500,T Shapes 3mm x 500 Bag,5.15,Spacers - T Shapes 3mm - BAG,Tools_Book_1_-May_2026
+TS3-1000,T Shapes 3mm x 1000 Bag,8.45,Spacers - T Shapes 3mm - BAG,Tools_Book_1_-May_2026
+TS3-2000,T Shapes 3mm x 2000 Bag,16.0,Spacers - T Shapes 3mm - BAG,Tools_Book_1_-May_2026
+TS3-5000,T Shapes 3mm x 5000 Bag,36.05,Spacers - T Shapes 3mm - BAG,Tools_Book_1_-May_2026
+TS3-10000,T Shapes 3mm x 10000 Bag,69.85,Spacers - T Shapes 3mm - BAG,Tools_Book_1_-May_2026
+TS3B-1000,T Shapes 3mm x 1000 Bucket,12.6,Spacers - T Shapes 3mm - BUCKET,Tools_Book_1_-May_2026
+TS3B-2000,T Shapes 3mm x 2000 Bucket,22.3,Spacers - T Shapes 3mm - BUCKET,Tools_Book_1_-May_2026
+TS3B-5000,T Shapes 3mm x 5000 Bucket,54.4,Spacers - T Shapes 3mm - BUCKET,Tools_Book_1_-May_2026
+TS3B-10000,T Shapes 3mm x 10000 Bucket,101.85,Spacers - T Shapes 3mm - BUCKET,Tools_Book_1_-May_2026
+TS5-250,T Shapes 5mm x 250 Bag,5.1,Spacers - T Shapes 5mm - BAG,Tools_Book_1_-May_2026
+TS5-500,T Shapes 5mm x 500 Bag,8.3,Spacers - T Shapes 5mm - BAG,Tools_Book_1_-May_2026
+TS5-2000,T Shapes 5mm x 2000 Bag,33.2,Spacers - T Shapes 5mm - BAG,Tools_Book_1_-May_2026
+TS5-5000,T Shapes 5mm x 5000 Bag,83.0,Spacers - T Shapes 5mm - BAG,Tools_Book_1_-May_2026
+TS5B-2000,T Shapes 5mm x 2000 Bucket,37.8,Spacers - T Shapes 5mm - BUCKET,Tools_Book_1_-May_2026
+TS5B-5000,T Shapes 5mm x 5000 Bucket,89.3,Spacers - T Shapes 5mm - BUCKET,Tools_Book_1_-May_2026
+TS10-250,T Shapes 10mm x 250 Bag,10.3,Spacers - T Shapes 10mm - BAG,Tools_Book_1_-May_2026
+TS10-500,T Shapes 10mm x 500 Bag,20.35,Spacers - T Shapes 10mm - BAG,Tools_Book_1_-May_2026
+TS10-1000,T Shapes 10mm x 1000 Bag,40.65,Spacers - T Shapes 10mm - BAG,Tools_Book_1_-May_2026
+W-100,Wedges x 100 Bag,1.9,Wedges - BAG,Tools_Book_1_-May_2026
+W-500,Wedges x 500 Bag,4.7,Wedges - BAG,Tools_Book_1_-May_2026
+W-1000,Wedges x 1000 Bag,10.65,Wedges - BAG,Tools_Book_1_-May_2026
+W-2000,Wedges x 2000 Bag,22.9,Wedges - BAG,Tools_Book_1_-May_2026
+W-5000,Wedges x 5000 Bag,48.05,Wedges - BAG,Tools_Book_1_-May_2026
+JW-100,Jumbo Wedges x 100 Bag,2.65,Wedges - BAG,Tools_Book_1_-May_2026
+JW-250,Jumbo Wedges x 250 Bag,4.05,Wedges - BAG,Tools_Book_1_-May_2026
+JW-500,Jumbo Wedges x 500 Bag,7.9,Wedges - BAG,Tools_Book_1_-May_2026
+JW-1000,Jumbo Wedges x 1000 Bag,14.3,Wedges - BAG,Tools_Book_1_-May_2026
+WB-1000,Wedges x 1000 Bucket,13.75,Wedges - BUCKET,Tools_Book_1_-May_2026
+WB-2000,Wedges x 2000 Bucket,25.2,Wedges - BUCKET,Tools_Book_1_-May_2026
+WB-5000,Wedges x 5000 Bucket,56.05,Wedges - BUCKET,Tools_Book_1_-May_2026
+WB-10000,Wedges x 10000 Bucket,112.2,Wedges - BUCKET,Tools_Book_1_-May_2026
+JWB-1000,Jumbo Wedges x 1000 Bucket,17.15,Wedges - BUCKET,Tools_Book_1_-May_2026
+DWTN,Dual Wheel Nipper,33.2,Hand Tools,Tools_Book_1_-May_2026
+GR-DLX-SB,Deluxe Grout Remover - Spare Blade,6.65,Hand Tools,Tools_Book_1_-May_2026
+GR-DLX-SG,Deluxe Grout Remover - Soft Grip,14.5,Hand Tools,Tools_Book_1_-May_2026
+HDTN,Heavy Duty Tile Nipper,18.35,Hand Tools,Tools_Book_1_-May_2026
+PN,Parrot Nipper,19.45,Hand Tools,Tools_Book_1_-May_2026
+SN,Side Nipper,24.05,Hand Tools,Tools_Book_1_-May_2026
+SN-CJ,Side Nipper - Curved Jaw,24.05,Hand Tools,Tools_Book_1_-May_2026
+SN-SCJ,Side Nipper - Single Curved Jaw,24.05,Hand Tools,Tools_Book_1_-May_2026
+STN,Straight Nipper,24.05,Hand Tools,Tools_Book_1_-May_2026
+BP-FKM6,BAT Pro Folding Utility Knife with 5 blades - 6 Pack Counter Display,68.7,Hand Tools,Tools_Book_1_-May_2026
+BP-FKSB10,BAT Pro Folding Utility Knife Spare Blade Set (10 pce),3.5,Hand Tools,Tools_Book_1_-May_2026
+UK-1,Utility Knife,4.0,Hand Tools,Tools_Book_1_-May_2026
+BATSC-4,BAT Suction Cup - 4,31.5,Suction Cups,Tools_Book_1_-May_2026
+BATSC-D4,BAT Dual Suction Cup - 4,40.05,Suction Cups,Tools_Book_1_-May_2026
+KPA,Professional Knee Pads,27.45,Knee Pads,Tools_Book_1_-May_2026
+KP-RL,Replacement Liners (Pair) - Suit KPA,8.9,Knee Pads,Tools_Book_1_-May_2026
+KP-SB,Replacement Buttons (Set of 4) - Suit KPA,8.0,Knee Pads,Tools_Book_1_-May_2026
+KP-ST,Replacement Straps (Set of 4) - Suit KPA,8.0,Knee Pads,Tools_Book_1_-May_2026
+N25BUCK1,Ring Shank Nails - 25mm x 1kg - Bucket,8.0,Cement & Sheet Nails,Tools_Book_1_-May_2026
+N25BUCK25,Ring Shank Nails - 25mm x 2.5kg - Bucket,19.45,Cement & Sheet Nails,Tools_Book_1_-May_2026
+N25BUCK5,Ring Shank Nails - 25mm x 5kg - Bucket,33.2,Cement & Sheet Nails,Tools_Book_1_-May_2026
+FS-125,Floor Scraper 125 x 500mm,26.9,Scrapers & Cleaning,Tools_Book_1_-May_2026
+FS-125-RB,Floor Scraper Replacement Blades to suit FS-125 (5 pk),8.8,Scrapers & Cleaning,Tools_Book_1_-May_2026
+FS-300,Floor Scraper 300mm x 1300mm,50.2,Scrapers & Cleaning,Tools_Book_1_-May_2026
+FS-300-SB,Floor Scraper 300mm Replacement Blade,15.7,Scrapers & Cleaning,Tools_Book_1_-May_2026
+FS-412,Short Handled Scraper 100mm x 300mm,12.6,Scrapers & Cleaning,Tools_Book_1_-May_2026
+FS-412-RB,Replacement Blade to suit FS-412 (10 pk),5.7,Scrapers & Cleaning,Tools_Book_1_-May_2026
+BAT-20LPB,BAT 20 Ltr Promotional Bucket,9.7,BAT Bucket,Tools_Book_1_-May_2026
+BAT-20LPBLID,BAT 20 Ltr Promotional Bucket Lid,2.0,BAT Bucket,Tools_Book_1_-May_2026
+PAN-20LPB,Panther 20 Ltr Promotional Bucket,9.7,PANTHER Bucket,Tools_Book_1_-May_2026
+PAN-20LPBLID,Panther 20 Ltr Promotional Bucket Lid - Orange,2.0,PANTHER Bucket,Tools_Book_1_-May_2026
+PFC-1219,Plaster Float - Coarse - 195 x 125mm,13.75,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PPUF-2680,P.U. Float - Pointed - 260 x 80mm,5.95,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PRF-28143,Plastic Float - 280 x 140 x 3mm,8.0,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PUF-2412,P.U. Float - 240 x 120mm,7.95,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PUF-2814,P.U. Float - 280 x 140mm,8.6,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PUF-3218,P.U. Float - 320 x 180mm,11.45,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PUF-3620,P.U. Float - 360 x 200mm,13.75,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PUF-4222,P.U. Float - 420 x 220mm,18.35,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+PUFD-3414,P.U. Float - Dutch - 340 x 140/120mm,11.45,P.U. & Plastic Rendering Floats,Tools_Book_1_-May_2026
+BAT-SFD50,Chrome Plated Floor Drain - 50mm,7.1,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD50MB,Chrome Plated Floor Drain - 50mm - Matt Black,12.6,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD80,Chrome Plated Floor Drain - 80mm,11.45,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD80MB,Chrome Plated Floor Drain - 80mm - Matt Black,16.0,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-LSFD80,Chrome Plated Long Collar Square Floor Drain - 80mm,18.55,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD100SH,Chrome Plated Floor Drain 100mm,16.0,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD100MB,Chrome Plated Floor Drain - 100mm - Matt Black,20.05,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD100,Chrome Plated Floor Drain - 100mm with PVC Collar,17.15,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD100-USC,Chrome Plated Floor Drain 100mm - Ultra Short Collar,15.95,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SSFD110,Stainless Steel (316) Tile Insert Floor Drain - 110mm,24.05,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFD100-USCMB,Chrome Plated Floor Drain 100mm - Ultra Short Collar-Matt Black,23.5,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BAT-SFDPVCC,PVC Collar - Shower & Floor Drain,2.6,Bathroom Floor Drains,Tools_Book_1_-May_2026
+BL-SID100,B.A.T. Luxe Square Inspection Drain - 100mm Outlet - Chrome Plated,29.8,Inspiection Drains,Tools_Book_1_-May_2026
+BL-SID100MB,B.A.T. Luxe Square Inspection Drain - 100mm Outlet - M/Black Chrome Plated,36.9,Inspiection Drains,Tools_Book_1_-May_2026
+BL-RPF100100R,BAT Luxe Recessed Round Puddle Flange - 100 x 100mm,6.0,BATLUXE Tile Insert Drains & Puddle Flanges,Tools_Book_1_-May_2026
+BL-RPF8050R,BAT Luxe Recessed Round Puddle Flange - 80 x 50mm,6.0,BATLUXE Tile Insert Drains & Puddle Flanges,Tools_Book_1_-May_2026
+BL-RPF8080R,BAT Luxe Recessed Round Puddle Flange - 80 x 80mm,6.0,BATLUXE Tile Insert Drains & Puddle Flanges,Tools_Book_1_-May_2026
+KFG-201B,NICLIS Grate 85 x 85 x 75mm Matt Black,11.5,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-201G,NICLIS Grate 85 x 85 x 75mm Brushed Gold,19.95,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-201N,NICLIS Grate 85 x 85 x 75mm Satin Nickel,14.9,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-801,NICLIS Tile Insert 115 x 115 x 90mm Chrome,27.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-801B,NICLIS Tile Insert 115 x 115 x 90mm Matt Black,32.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-801G,NICLIS Tile Insert 115 x 115 x 90mm Brushed Gold,35.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-801N,NICLIS Tile Insert 115 x 115 x 90mm Satin Nickel,35.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-802,NICLIS Tile Insert 115 x 115 x 75mm Chrome,26.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-802AB,NICLIS Tile Insert 115 x 115 x 75mm Ancient Brass,32.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-802B,NICLIS Tile Insert 115 x 115 x 75mm Matt Black,32.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-802G,NICLIS Tile Insert 115 x 115 x 75mm Brushed Gold,39.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-802GM,NICLIS Tile Insert 115 x 115 x 75mm Gun Metal,34.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-802N,NICLIS Tile Insert 115 x 115 x 75mm Satin Nickel,34.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-845,NICLIS Tile Insert 115 x 115 x 45mm Chrome,27.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-845B,NICLIS Tile Insert 115 x 115 x 45mm Matt Black,32.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-845G,NICLIS Tile Insert 115 x 115 x 45mm Brushed Gold,40.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-845GM,NICLIS Tile Insert 115 x 115 x 45mm Gun Metal,35.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-845N,NICLIS Tile Insert 115 x 115 x 45mm Satin Nickel,35.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-R902,NICLIS Round Tile Insert 115 x 115 x 75mm Chrome (13044400),40.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-R902B,NICLIS Round Tile Insert 115 x 115 x 75mm Matt Black (1304441),45.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-R902G,NICLIS Round Tile Insert 115 x 115 x 75mm Brushed Gold (1304443),45.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+KFG-R902N,NICLIS Round Tile Insert 115 x 115 x 75mm Satin Nickel (1304442),45.0,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+WPB100,NICLIS Waterproofing Bandage 100mm x 100m (1264420),17.9,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+WPB200,NICLIS Waterproofing Bandage 200mm x 100m (1264421),34.9,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+WPB200-50,NICLIS Waterproofing Bandage 200mm x 50m (1304438),20.9,"NICLIS Grates, Tile Insert Drains & Waterproofing Bandage",Tools_Book_1_-May_2026
+PAN-PRF230,Panther Paint Roller Frame - 230mm,2.95,PANTHER Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-PB50,BAT Paint Brush - 50mm,2.45,Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-PB75,BAT Paint Brush - 75mm,2.85,Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-PB100,BAT Paint Brush - 100mm,3.0,Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-PRF230HD,BAT Heavy Duty Paint Roller Frame - 230mm,4.3,Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-PREP1200,BAT Paint Roller Extension Pole 1.2-2.4m,10.95,Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-PRTS,BAT Paint Roller and Tray Set,7.85,Waterproofing Accessories,Tools_Book_1_-May_2026
+BP-WPK1,BAT Pro Waterproofing Kit,9.75,Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-3RRS,BAT Replacement Paint Roller Cover - Set of 3 pcs,5.7,Waterproofing Accessories,Tools_Book_1_-May_2026
+BAT-SRR100,BAT Replacement Roller Cover Set - Carton of 100 pcs,128.8,Waterproofing Accessories,Tools_Book_1_-May_2026
+PAN-LSBC1500,Panther Levelling System 1mm Base Clips (3-12mm) x 500 pcs,19.1,PANTHER Tile Levelling System - Clips,Tools_Book_1_-May_2026
+PAN-LSBC500,Panther Levelling System 1.5mm Base Clips (3-12mm) x 500 pce Bag,19.1,PANTHER Tile Levelling System - Clips,Tools_Book_1_-May_2026
+PAN-LSBC2500,Panther Levelling System 2mm Base Clips (3-12mm) x 500 pcs,20.15,PANTHER Tile Levelling System - Clips,Tools_Book_1_-May_2026
+PAN-LSBCS3250,Panther Levelling System 3mm Base Clips - Stone (23-32mm) x 250 pcs,14.85,PANTHER Tile Levelling System - Clips,Tools_Book_1_-May_2026
+PAN-LSBC3500,Panther Levelling System 3mm Base Clips (3-12mm) x 500 pcs,20.15,PANTHER Tile Levelling System - Clips,Tools_Book_1_-May_2026
+PAN-LSBCL250,Panther Levelling System 1.5mm Large Base Clips (11-20mm) x 250 pcs,11.65,PANTHER Tile Levelling System - Clips,Tools_Book_1_-May_2026
+PAN-LSBCS1250,Panther Levelling System 1mm Base Clips - Stone (23-32mm) x 250 pcs,12.7,PANTHER Tile Levelling System - Clips,Tools_Book_1_-May_2026
+PAN-LSW250,Panther Levelling System Wedges x 250's,19.1,PANTHER Tile Levelling System - Wedges,Tools_Book_1_-May_2026
+PAN-LSW500,Panther Levelling System Wedges x 500's,36.05,PANTHER Tile Levelling System - Wedges,Tools_Book_1_-May_2026
+PAN-LSATPF,Panther Levelling Spacers Adjustable Traction Pliers - Floor,15.9,PANTHER Tile Levelling System - Pliers,Tools_Book_1_-May_2026
+AT-C100-AAI,Atika Replacement Agitation Arm - Inside Bottom - suit Compact 100,46.65,ATIKA Accessories to Suit AT-COMPACT100,Tools_Book_1_-May_2026
+AT-C100-AAO,Atika Replacement Agitation Arm - Outside Bottom - suit Compact 100,46.65,ATIKA Accessories to Suit AT-COMPACT100,Tools_Book_1_-May_2026
+AT-C100-AAS,Atika Replacement Agitation Arm - Side - suit Compact 100,46.65,ATIKA Accessories to Suit AT-COMPACT100,Tools_Book_1_-May_2026
+AT-C100-ABI,Atika Replacement Agitation Blade - Inside Bottom - suit Compact 100,46.65,ATIKA Accessories to Suit AT-COMPACT100,Tools_Book_1_-May_2026
+AT-C100-ABO,Atika Replacement Agitation Blade - Outside Bottom - suit Compact 100,46.65,ATIKA Accessories to Suit AT-COMPACT100,Tools_Book_1_-May_2026
+AT-C100-ABS,Atika Replacement Agitation Blade - Side - suit Compact 100,46.65,ATIKA Accessories to Suit AT-COMPACT100,Tools_Book_1_-May_2026
+AT-C100-AH,Atika Replacement Agitation Head - suit Compact 100,551.2,ATIKA Accessories to Suit AT-COMPACT100,Tools_Book_1_-May_2026
+AT-C140-AAI,Atika Replacement Agitation Arm - Inside Bottom - suit Compact 140,57.25,ATIKA Accessories to Suit AT-COMPACT140,Tools_Book_1_-May_2026
+AT-C140-AAO,Atika Replacement Agitation Arm - Outside Bottom - suit Compact 140,57.25,ATIKA Accessories to Suit AT-COMPACT140,Tools_Book_1_-May_2026
+AT-C140-AAS,Atika Replacement Agitation Arm - Side - suit Compact 140,57.25,ATIKA Accessories to Suit AT-COMPACT140,Tools_Book_1_-May_2026
+AT-C140-ABI,Atika Replacement Agitation Blade - Inside Bottom - suit Compact 140,57.25,ATIKA Accessories to Suit AT-COMPACT140,Tools_Book_1_-May_2026
+AT-C140-ABO,Atika Replacement Agitation Blade - Outside Bottom - suit Compact 140,57.25,ATIKA Accessories to Suit AT-COMPACT140,Tools_Book_1_-May_2026
+AT-C140-ABS,Atika Replacement Agitation Blade - Side - suit Compact 140,57.25,ATIKA Accessories to Suit AT-COMPACT140,Tools_Book_1_-May_2026
+AT-C140-AH,Atika Replacement Agitation Head - suit Compact 140,561.8,ATIKA Accessories to Suit AT-COMPACT140,Tools_Book_1_-May_2026
+BSC-11,BATSEAL Ceramic Silicone - 310ml - Translucent,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-12,BATSEAL Ceramic Silicone - 310ml - White,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-14,BATSEAL Ceramic Silicone - 310ml - Antique White,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-21,BATSEAL Ceramic Silicone - 310ml - Silver Grey,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-22,BATSEAL Ceramic Silicone - 310ml - Light Grey,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-23,BATSEAL Ceramic Silicone - 310ml - Grey,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-24,BATSEAL Ceramic Silicone - 310ml - Gunmetal,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-26,BATSEAL Ceramic Silicone - 310ml - Black,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-31,BATSEAL Ceramic Silicone - 310ml - Buff,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-33,BATSEAL Ceramic Silicone - 310ml - Ivory,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-34,BATSEAL Ceramic Silicone - 310ml - Travertine,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-35,BATSEAL Ceramic Silicone - 310ml - Sand,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-36,BATSEAL Ceramic Silicone - 310ml - Canvas,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-42,BATSEAL Ceramic Silicone - 310ml - Beige,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-45,BATSEAL Ceramic Silicone - 310ml - Espresso,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-46,BATSEAL Ceramic Silicone - 310ml - Mocha,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSC-61,BATSEAL Ceramic Silicone - 310ml - Aluminium,16.45,BATSEAL Pro Ceramic,Tools_Book_1_-May_2026
+BSA-11,BATSEAL All-In-One Neutral Cure Silicone - 310ml - Translucent,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BSA-12,BATSEAL All-In-One Neutral Cure Silicone - 310ml - White,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BSA-21,BATSEAL All-In-One Neutral Cure Silicone - 310ml - Silver Grey,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BSA-22,BATSEAL All-In-One Neutral Cure Silicone - 310ml - Light Grey,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BSA-23,BATSEAL All-In-One Neutral Cure Silicone - 310ml - Grey,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BSA-24,BATSEAL All-In-One Neutral Cure Silicone - 310ml - Gunmetal,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BSA-34,BATSEAL All-In-One Neutral Cure Silicone - 310ml - Travertine,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BSA-42,BATSEAL All-In-One Neutral Cure Silicone - 310ml - Beige,19.5,BATSEAL All-In-One,Tools_Book_1_-May_2026
+BCAL,Caulking Gun - Skeleton,14.15,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-APP45,"BATSEAL - Applicators - Set of 3, 45 degree 3 - 10mm",23.5,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-APPRAD,"BATSEAL - Applicators - Set of 3, Radius 4 - 14mm",23.5,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-BR-20,BATSEAL - Backer Rod - 6mm x 20m,23.5,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-BR-100,BATSEAL - Backer Rod - 6mm x 100m,76.5,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-CGA,BATSEAL - Caulking Gun - Air,288.0,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-CGP,BATSEAL - Caulking Gun - Professional,43.5,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-CGT,BATSEAL - Caulking Gun - Cartridge and Sausage,53.0,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-DSJC,BATSEAL - Delta Silicone Joint Cutter,53.0,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+S A-DSJC-SB,BATSEAL - Delta Silicone Joint Cutter Spare Blade Set,14.0,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+SA-CNC,BATSEAL - Cartridge & Nozzle Cutter,15.3,"BATSEAL Pro Accessories - Applicators, Caulking Guns & Cutting Tools",Tools_Book_1_-May_2026
+BC-A350,BATSEAL Aero - High Porosity Sealer - 350gm Aerosol,29.5,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BC-HPS1,BATSEAL HPS - High Porosity Sealer - 1L Liquid,47.7,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BC-HPS4,BATSEAL HPS - High Porosity Sealer - 4L Liquid,159.0,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BC-LPS1,BATSEAL LPS - Low Porosity Sealer - 1L Liquid,63.6,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BC-LPS4,BATSEAL LPS - Low Porosity Sealer - 4L Liquid,212.0,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BC-MPC1,BATSEAL MPC - Multi Purpose Cleaner - 1L Liquid,19.1,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BC-MPC5,BATSEAL MPC - Multi Purpose Cleaner - 5L Liquid,63.6,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BAT-ESS1L,BAT SynSafe Acid 1 Litre Bottle - 100% Biodegradable,20.65,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BAT-ESS5L,BAT SynSafe Acid 5 Litre Bottle - 100% Biodegradable,84.8,BATSEAL Pro Sealers,Tools_Book_1_-May_2026
+BC-DSC1,BATSEAL De-Scale Phosphoric Acid Cleaner - 1 Ltr,32.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-DSC4,BATSEAL De-Scale Phosphoric Acid Cleaner - 4 Ltr,88.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SML1,BATSEAL Matt Look Solvent Based Sealer - 1 Ltr,27.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SML4,BATSEAL Matt Look Solvent Based Sealer - 4 Ltr,77.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SML20,BATSEAL Matt Look Solvent Based Sealer - 20 Ltr,169.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SPELSB1,BATSEAL Silcopel Solvent Based Sealer - 1 Ltr,27.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SPELSB4,BATSEAL Silcopel Solvent Based Sealer - 4 Ltr,118.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SWL1,BATSEAL Wet Look Solvent Based Sealer - 1 Ltr,26.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SWL4,BATSEAL Wet Look Solvent Based Sealer - 4 Ltr,74.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-SWL20,BATSEAL Wet Look Solvent Based Sealer - 20 Ltr,270.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-PRISWB1,BATSEAL Pristine - Water Based Sealer - 1 Ltr,52.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-EVSOL1,BATSEAL Eversol Solvent - 1 Ltr,17.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+BC-EVSOL4,BATSEAL Eversol Solvent - 4 Ltr,52.0,Solutions Sealers & Cleaners,Tools_Book_1_-May_2026
+SIG-2G,Sigma Tile Cutter - 370mm with Diagonal Arm,250.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-4BU,"Sigma Tile Cutter - 700mm ""UP"" - Pull Style with Diagonal Arm",730.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-4CU,"Sigma Tile Cutter - 840mm ""UP"" - Pull Style with Diagonal Arm",795.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-4DU,"Sigma Tile Cutter - 1030mm ""UP"" - Pull Style with Diagonal Arm",900.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-4EN,"Sigma Tile Cutter - 1250mm ""NEX"" - Push Style with Diagonal Arm",1370.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-4FN,"Sigma Tile Cutter - 1550mm ""NEX"" - Push Style with Diagonal Arm",1650.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-7A,Sigma Tile Cutter 330mm with Fixed Guide,155.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-7F,Sigma Tile Cutter 370mm with Fixed Guide,185.0,SIGMA Manual Tile Cutters,Tools_Book_1_-May_2026
+SIG-14A,Sigma Std Scoring Wheel - 12mm c/w Axle,13.25,SIGMA Scoring Wheels,Tools_Book_1_-May_2026
+SIG-14C,Sigma K/Klock Scoring Wheel - 16mm,18.55,SIGMA Scoring Wheels,Tools_Book_1_-May_2026
+SIG-14CT,Sigma Scoring Wheel - 16mm Titanium,29.7,SIGMA Scoring Wheels,Tools_Book_1_-May_2026
+SIG-14M,Sigma Vitrified Mosaic Scoring Wheel - 12mm c/w Axle,13.8,SIGMA Scoring Wheels,Tools_Book_1_-May_2026
+SIG-14T,Sigma Titanium Scoring Wheel - 12mm to suit UP Series Cutters,15.9,SIGMA Scoring Wheels,Tools_Book_1_-May_2026
+SIG-14U,Sigma Std Scoring Wheel - 12mm to suit UP Series Cutters,13.25,SIGMA Scoring Wheels,Tools_Book_1_-May_2026
+SIG-10144,Sigma Reinforced Ball Bearing,6.4,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-104033,"Sigma Nylon ""No-mark Feet"" for Sig 24E, AE & AK Handles",5.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-104039,"Sigma Nylon ""No-mark Feet"" for Sig 24F Handle",4.65,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-104058,"Sigma Nylon ""No-mark Feet"" for Sig 24M08, 10, 15 & 20 Handles",5.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-104064,Sigma Support Arm - Left,27.4,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-104065,Sigma Side Guide for 3EK,27.4,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-1040104,Sigma No Mark Feet to suit Sigma 24U Handle,3.7,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-106725,Sigma Rubber Foot for Cutter Base to suit 3 & 3 Max Series,5.85,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-107126,"Sigma Adhesive Meauring Tape to suit SIG-3B, 3C, 3D, 3E, 3F & Series 4",12.75,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-1079104,Sigma Locking Nut to suit Series 3 Machines,10.5,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-108362,Sigma M8 Nut to suit Series 4 Tile Cutters,5.85,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-108612,Sigma Clamping Knob to suit 2A & B,16.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-108616,Sigma Clamping Knob to suit 2G,12.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-108621,"Sigma Clamping Knob to suit 3A, B, C, D, EK & Series 4",14.6,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-17,Sigma Folding Calibrated Extension,37.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-17D,Sigma Calibrated Extention for 2A/2B,47.8,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-17D3,Sigma Extension Bar to suit SIG-2A & 2B,44.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-19,"Sigma Sliding Square to suit 5, 6, 7A",40.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-19A,Sigma Straight Guide,30.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-19B3,"Sigma Sliding Square to suit 2A, 2B",20.4,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-19C,Sigma Sliding Square to suit 2G,19.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-19D,"Sigma Sliding Square to suit 3A, B, C, D & EK",23.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-19F,Sigma Sliding Square to suit 7F,40.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-19N,Sigma Guide to suit Series 4 Cutters - 260mm Length,37.1,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-20,Sigma Adjustable Bar Support Screw - 8mm,24.5,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-20A,Sigma Adjustable Bar Support Screw - 10mm,24.5,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-20B,Sigma Guide Ends,24.5,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-22,Sigma Laser Kit to suit 4 Series Cutters,88.5,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-224,Sigma Chrome Guide Bar to suit 7A,25.65,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24A,Sigma Lever Grip 10mm Groove c/w Scoring Wheel - Now 24AE,72.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24AK,Sigma Complete Handle to suit 3EK,123.6,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24AE,Sigma Complete Handle to suit 3C & D,96.8,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24B,Sigma Complete Handle to suit 7A,50.14,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24C,Sigma Complete Handle to suit 2A & B,79.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24E,Sigma Complete Handle to suit 3A & B,96.8,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24EK,Sigma Krick Krock 15mm Handle,127.1,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24F,Sigma Complete Handle to suit 2G & 7F,71.15,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24M08X,Sigma Complete Handle to suit 3AM & 3BM,160.9,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24M10X,Sigma Complete Handle to suit 3CM & 3DM,160.9,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24M15X,Sigma Complete Handle to suit 3EM,195.9,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24M20X,Sigma Complete Handle to suit 3FM,160.9,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24N,"Sigma Series 4 ""NEX"" Push Type Handle",175.0,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-24U,"Sigma Series 4 ""UP"" Pull Type Handle",175.0,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-283,Sigma Right Hand Support Arm to suit SIG-3EM/FM,62.95,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-37C,Sigma Table Fixing Kit to suit 37A1D,185.0,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39,Sigma Chrome Guide Bar to suit 6,68.8,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39B,Sigma Chrome Guide Bar to suit 3C & 4A,155.1,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39D,Sigma Chrome Guide Bar to suit 2A,83.95,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39E,Sigma Chrome Guide Bar to suit 2B,100.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39H,Sigma Chrome Guide Bar to suit 2G & 7F,48.95,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39L,Sigma Chrome Guide Bar to suit 3B,122.45,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39N,Sigma Chrome Guide Bar to suit 3D,186.55,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39P,Sigma Chrome Guide Bar to suit 3EK,274.0,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39Q,Sigma Chrome Guide Bar to suit 3FM,489.7,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39S,Sigma Chrome Guide Bar to suit 3L,104.95,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-39T,Sigma Chrome Guide Bar to suit 3PM,250.7,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-40C,Sigma Wedges x 500's,5.85,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-483,Sigma Left Hand Support to suit Series 4 Tile Cutters,33.9,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-484,Sigma Right Hand Support to suit Series 4 Tile Cutters,33.9,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90,Sigma Swivelling Calibrated Support to suit 4A,128.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90A,Sigma Swivelling Calibrated Support to suit 4B,104.95,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90B,Sigma Swivelling Calibrated Support to suit 5A,104.95,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90C,Sigma Swivelling Calibrated Support to suit 5B,93.3,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90D3,Sigma Swivelling Calibrated Support to suit 2A & B,99.1,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90D3S,Sigma Swivelling Calibrated Arm to suit SIG-2C/2D,81.6,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90DG,Sigma Swivelling Calibrated Support to suit 2G,81.6,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90E4,Sigma Front Measure & Square to suit 3 & 3 Max Series,134.1,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90LA,Sigma Swivelling Calibrated Support to suit 3A,128.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90LB,Sigma Swivelling Calibrated Support to suit 3B,134.1,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90LC,Sigma Swivelling Calibrated Support to suit 3C,151.6,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90LD,Sigma Swivelling Calibrated Support to suit 3EK,163.25,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90LE,Sigma Swivelling Calibrated Support to suit 3EM & 3FM,180.75,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90NB,Sigma Swivelling Calibrated Arm to suit SIG-4BN,137.8,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90NC,Sigma Swivelling Calibrated Arm to suit SIG-4CN,137.8,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-90ND,Sigma Swivelling Calibrated Arm to suit SIG-4DN,137.8,SIGMA Accessories,Tools_Book_1_-May_2026
+SIG-92,Sigma Spare Clamping Knob 60mm (outside diameter),14.0,SIGMA Accessories,Tools_Book_1_-May_2026
+BP-LVFC,BAT Pro Laminate and Vinyl Flooring Cutter,190.0,Laminate Cutter,Tools_Book_1_-May_2026
