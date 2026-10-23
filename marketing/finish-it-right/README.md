@@ -53,3 +53,15 @@ the link in our bio". `S-poll` still needs a poll sticker, so it is for posting 
 By hand each day (Google Calendar): 7 am real Story, 8:30 am Marketplace, 3:30 pm groups + Google, 9 pm
 replies. Team agents: `ets-marketing` (lead), `ets-content`, `ets-social`, `ets-community`,
 `ets-analytics`, `ets-calendar`, `ets-pricing` (`.claude/agents/`).
+
+## 23 Oct 2026: price fixes and week of 25 Oct
+
+MELA prices were raised this week (commit "match MELA public prices to Bathroom City"), which made 18
+queued posts wrong. Text-only posts were re-captioned in Metricool; posts whose brand graphic had a price
+baked in (A2-2, A2-3, A3, B2, B3, S-vanity, S-reply) now use clean product photos instead. Metricool had
+nothing booked for 25 to 29 Oct and no Reels after 19 Oct, so that week was filled in the clean style
+(`clean/plan-2026-10-24.json`, slides in `clean/out-2026-10-24/`) plus a 4:30 pm Reel every day to 8 Nov
+(`reels/plan-week-2026-10-25.json`). Captions, media URLs, copy-review verdicts and Metricool ids:
+`clean/copy-2026-10-24.json` and `clean/copy-review-2026-10-24.md`. The live delivery page now ships
+Australia-wide with freight quotes for bulky items, so every caption uses the one safe line: "We deliver,
+or pick up free in Maddington. Shipping options show at checkout."

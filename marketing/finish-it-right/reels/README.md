@@ -16,3 +16,11 @@ delivery line. No AI images, no stock photos, no cards or gradients.
 Slot: 4:30 pm Instagram + Facebook Reel (showReelOnFeed), on top of the 12:15 pm product post, 6:30 pm
 carousel and 7:30 pm Story. Prices were checked against the live store on 13 Oct 2026; re-check before
 reposting.
+
+## Week 2 (25 Oct to 8 Nov 2026)
+
+`plan-week-2026-10-25.json`: one Reel a day at 4:30 pm, 25 Oct to 8 Nov (towel rails, vanities under
+$1,000, set-out tools, LED mirrors, kitchen, toilets, light floors, floor wastes, basins, BRITTANY range,
+shower sets, mirror cabinets, dark floors, knee pads, the new Celine range). Prices checked against the
+live store on 23 Oct 2026 (after the MELA reprice). Videos on Shopify Files as `ets-reel-<date>-<topic>.mp4`;
+captions and Metricool ids in `../clean/copy-2026-10-24.json`.

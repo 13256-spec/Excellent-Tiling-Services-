@@ -1,2 +1,3 @@
 # Rendered videos live on Shopify Files (cdn.shopify.com URLs in metricool-*.json); not tracked here.
 out-*/
+out-*.log
