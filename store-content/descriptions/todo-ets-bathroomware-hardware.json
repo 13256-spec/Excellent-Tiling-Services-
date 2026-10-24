@@ -1,0 +1,542 @@
+[
+ {
+  "id": "gid://shopify/Product/8429953777727",
+  "handle": "chloe-round-shower-rose-250mm",
+  "title": "Chloe Round Shower Rose 250mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Shower Head",
+  "sku": "ETKSR110.PS",
+  "words": 11
+ },
+ {
+  "id": "gid://shopify/Product/8429953351743",
+  "handle": "celine-swivel-bath-spout",
+  "title": "Celine Swivel Bath Spout",
+  "vendor": "Excellent Tiling Services",
+  "type": "Bath Spout",
+  "sku": "SP18SW",
+  "words": 12
+ },
+ {
+  "id": "gid://shopify/Product/8429956399167",
+  "handle": "twist-top-floor-drain-100mm",
+  "title": "Twist Top Floor Drain 100mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Floor Drains",
+  "sku": "ETBD078.CR",
+  "words": 12
+ },
+ {
+  "id": "gid://shopify/Product/8429956431935",
+  "handle": "twist-top-floor-drain-80mm",
+  "title": "Twist Top Floor Drain 80mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Floor Drains",
+  "sku": "ETBD073.CR",
+  "words": 12
+ },
+ {
+  "id": "gid://shopify/Product/8429905903679",
+  "handle": "celine-600-double-towel-rail",
+  "title": "Celine 600 Double Towel Rail",
+  "vendor": "Excellent Tiling Services",
+  "type": "Towel Rail",
+  "sku": "ETHDP302-60",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429905936447",
+  "handle": "celine-800-double-towel-rail",
+  "title": "Celine 800 Double Towel Rail",
+  "vendor": "Excellent Tiling Services",
+  "type": "Towel Rail",
+  "sku": "ETHDP302-80",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429912031295",
+  "handle": "celine-robe-hook",
+  "title": "Celine Robe Hook",
+  "vendor": "Excellent Tiling Services",
+  "type": "Bathroom Hook",
+  "sku": "ETHDP306",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429929496639",
+  "handle": "celine-round-hand-shower-piece",
+  "title": "Celine Round Hand Shower Piece",
+  "vendor": "Excellent Tiling Services",
+  "type": "Hand Shower",
+  "sku": "ETHR002M4.CR",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429930840127",
+  "handle": "celine-square-shower-rose-250mm",
+  "title": "Celine Square Shower Rose 250mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Shower Head",
+  "sku": "ETKSS110.PS",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429949288511",
+  "handle": "celine-600-single-towel-rail",
+  "title": "Celine 600 Single Towel Rail",
+  "vendor": "Excellent Tiling Services",
+  "type": "Towel Rail",
+  "sku": "ETHDP301-60",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429949616191",
+  "handle": "celine-800-single-towel-rail",
+  "title": "Celine 800 Single Towel Rail",
+  "vendor": "Excellent Tiling Services",
+  "type": "Towel Rail",
+  "sku": "ETHDP301-80",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429950206015",
+  "handle": "celine-square-hand-shower-piece",
+  "title": "Celine Square Hand Shower Piece",
+  "vendor": "Excellent Tiling Services",
+  "type": "Hand Shower",
+  "sku": "ETHS002M4.CR",
+  "words": 13
+ },
+ {
+  "id": "gid://shopify/Product/8429929955391",
+  "handle": "celine-shower-mixer",
+  "title": "Celine Shower Mixer",
+  "vendor": "Excellent Tiling Services",
+  "type": "Wall Mixer",
+  "sku": "ETHD7023",
+  "words": 14
+ },
+ {
+  "id": "gid://shopify/Product/8429953417279",
+  "handle": "celine-toilet-roll-holder",
+  "title": "Celine Toilet Roll Holder",
+  "vendor": "Excellent Tiling Services",
+  "type": "Toilet Roll Holder",
+  "sku": "ETHDP304",
+  "words": 14
+ },
+ {
+  "id": "gid://shopify/Product/8429905084479",
+  "handle": "caden-single-bowl-sink-610mm",
+  "title": "Caden Single Bowl Sink 610mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink",
+  "sku": "ETLS-6150",
+  "words": 15
+ },
+ {
+  "id": "gid://shopify/Product/8429905739839",
+  "handle": "celine-wall-basin-bath-mixer-with-spout",
+  "title": "Celine Wall Basin / Bath Mixer with Spout",
+  "vendor": "Excellent Tiling Services",
+  "type": "Wall Mixer",
+  "sku": "ETHD7025",
+  "words": 16
+ },
+ {
+  "id": "gid://shopify/Product/8429956300863",
+  "handle": "ria-above-counter-basin",
+  "title": "Ria Above Counter Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Above Counter Basin",
+  "sku": "ETBA222CT",
+  "words": 16
+ },
+ {
+  "id": "gid://shopify/Product/8429905969215",
+  "handle": "celine-gooseneck-pull-out-kitchen-mixer",
+  "title": "Celine Gooseneck Pull Out Kitchen Mixer",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink Mixer",
+  "sku": "ETFE1731",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429930381375",
+  "handle": "celine-shower-mixer-with-diverter",
+  "title": "Celine Shower Mixer with Diverter",
+  "vendor": "Excellent Tiling Services",
+  "type": "Wall Mixer with Diverter",
+  "sku": "ETHD7024",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429954072639",
+  "handle": "cosimo-semi-inset-basin",
+  "title": "Cosimo Semi Inset Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Semi Basin",
+  "sku": "ETE408D",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429954105407",
+  "handle": "cosimo-above-counter-basin",
+  "title": "Cosimo Above Counter Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Above Counter Basin",
+  "sku": "ETBA207CT",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429956169791",
+  "handle": "mezo-above-counter-basin",
+  "title": "Mezo Above Counter Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Above Counter Basin",
+  "sku": "ET847",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429956202559",
+  "handle": "olivia-above-counter-basin",
+  "title": "Olivia Above Counter Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Above Counter Basin",
+  "sku": "ETBA8025CT",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429956235327",
+  "handle": "olivia-semi-inset-basin",
+  "title": "Olivia Semi Inset Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Semi Basin",
+  "sku": "ETBSN4302S",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429956268095",
+  "handle": "ria-semi-inset-basin",
+  "title": "Ria Semi Inset Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Semi Basin",
+  "sku": "ETBSN4201",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8429904986175",
+  "handle": "celine-bath-pop-up-waste",
+  "title": "Celine Bath Pop Up Waste",
+  "vendor": "Excellent Tiling Services",
+  "type": "Pop Up Waste",
+  "sku": "ETBW047.CR",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8429905018943",
+  "handle": "celine-bottle-trap-32mm",
+  "title": "Celine Bottle Trap 32mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Bottle Trap",
+  "sku": "ETB186.CR",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8429905444927",
+  "handle": "callan-single-bowl-sink-580mm",
+  "title": "Callan Single Bowl Sink 580mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink",
+  "sku": "ETLS-5845",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8429906001983",
+  "handle": "celine-gooseneck-sink-mixer",
+  "title": "Celine Gooseneck Sink Mixer",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink Mixer",
+  "sku": "ETHD4232",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8429953450047",
+  "handle": "celine-wall-mounted-shower-arm",
+  "title": "Celine Wall Mounted Shower Arm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Shower Arm",
+  "sku": "ETSRQ07LF",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8429956464703",
+  "handle": "celine-universal-pop-up-waste-32-40mm",
+  "title": "Celine Universal Pop Up Waste 32/40mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Pop Up Waste",
+  "sku": "ETK81.CR",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8429905412159",
+  "handle": "callan-single-bowl-sink-450mm",
+  "title": "Callan Single Bowl Sink 450mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink",
+  "sku": "ETLS-4045",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8429905477695",
+  "handle": "callan-double-bowl-sink-700mm",
+  "title": "Callan Double Bowl Sink 700mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink",
+  "sku": "ETLS-7040",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8429905707071",
+  "handle": "celine-basin-mixer",
+  "title": "Celine Basin Mixer",
+  "vendor": "Excellent Tiling Services",
+  "type": "Basin Mixer",
+  "sku": "ETHD7020",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8429954138175",
+  "handle": "cosimo-undermount-basin",
+  "title": "Cosimo Undermount Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Undermount Basin",
+  "sku": "ETBSN6018",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8429905117247",
+  "handle": "caden-single-bowl-sink-with-drainer-660mm",
+  "title": "Caden Single Bowl Sink with Drainer 660mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink",
+  "sku": "ETLS-7642S",
+  "words": 21
+ },
+ {
+  "id": "gid://shopify/Product/8429905379391",
+  "handle": "caden-double-bowl-sink-with-drainer-1200mm",
+  "title": "Caden Double Bowl Sink with Drainer 1200mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink",
+  "sku": "",
+  "words": 21
+ },
+ {
+  "id": "gid://shopify/Product/8429956333631",
+  "handle": "tile-insert-floor-waste-50mm-100-x-100mm",
+  "title": "Tile Insert Floor Waste 50mm, 100 x 100mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Floor Drains",
+  "sku": "BL-TID50",
+  "words": 21
+ },
+ {
+  "id": "gid://shopify/Product/8429956366399",
+  "handle": "tile-insert-floor-waste-80mm-100-x-100mm",
+  "title": "Tile Insert Floor Waste 80mm, 100 x 100mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Floor Drains",
+  "sku": "ETSQT101-100D-80-BS",
+  "words": 21
+ },
+ {
+  "id": "gid://shopify/Product/8429955743807",
+  "handle": "cube-wall-hung-basin",
+  "title": "Cube Wall Hung Basin",
+  "vendor": "Excellent Tiling Services",
+  "type": "Wall Hung Basin",
+  "sku": "ETBSN4228L",
+  "words": 23
+ },
+ {
+  "id": "gid://shopify/Product/8429955809343",
+  "handle": "malaga-antico-oak-cubby-cabinet-300mm",
+  "title": "Malaga Antico Oak Cubby Cabinet 300mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Bathroom Tallboy",
+  "sku": "ETCUB AO",
+  "words": 23
+ },
+ {
+  "id": "gid://shopify/Product/8429955907647",
+  "handle": "malaga-dark-oak-cubby-cabinet-300mm",
+  "title": "Malaga Dark Oak Cubby Cabinet 300mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Bathroom Tallboy",
+  "sku": "ETCUB DO",
+  "words": 23
+ },
+ {
+  "id": "gid://shopify/Product/8429905674303",
+  "handle": "celine-twin-rail-shower",
+  "title": "Celine Twin Rail Shower",
+  "vendor": "Excellent Tiling Services",
+  "type": "Combination Shower Set",
+  "sku": "ETS7121.CR",
+  "words": 24
+ },
+ {
+  "id": "gid://shopify/Product/8429950042175",
+  "handle": "celine-sink-mixer",
+  "title": "Celine Sink Mixer",
+  "vendor": "Excellent Tiling Services",
+  "type": "Kitchen Sink Mixer",
+  "sku": "ETHD7027",
+  "words": 24
+ },
+ {
+  "id": "gid://shopify/Product/8429956038719",
+  "handle": "malaga-matt-white-cubby-cabinet-300mm",
+  "title": "Malaga Matt White Cubby Cabinet 300mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Bathroom Tallboy",
+  "sku": "ETCUB W",
+  "words": 24
+ },
+ {
+  "id": "gid://shopify/Product/8429956104255",
+  "handle": "malaga-matt-white-single-door-cabinet-295mm",
+  "title": "Malaga Matt White Single Door Cabinet 295mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "Bathroom Tallboy",
+  "sku": "ETSDC W",
+  "words": 24
+ },
+ {
+  "id": "gid://shopify/Product/8429953810495",
+  "handle": "chloe-compact-twin-shower",
+  "title": "Chloe Compact Twin Shower",
+  "vendor": "Excellent Tiling Services",
+  "type": "Combination Shower Set",
+  "sku": "ETS703.CR",
+  "words": 26
+ },
+ {
+  "id": "gid://shopify/Product/8429911048255",
+  "handle": "celine-hand-towel-rail",
+  "title": "Celine Hand Towel Rail",
+  "vendor": "Excellent Tiling Services",
+  "type": "Hand Towel Rail",
+  "sku": "ETHDP305",
+  "words": 27
+ },
+ {
+  "id": "gid://shopify/Product/8429953843263",
+  "handle": "chloe-twin-rail-shower",
+  "title": "Chloe Twin Rail Shower",
+  "vendor": "Excellent Tiling Services",
+  "type": "Combination Shower Set",
+  "sku": "ETS4902A.CS",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8429953384511",
+  "handle": "celine-tall-basin-mixer",
+  "title": "Celine Tall Basin Mixer",
+  "vendor": "Excellent Tiling Services",
+  "type": "Basin Mixer",
+  "sku": "ET103102",
+  "words": 31
+ },
+ {
+  "id": "gid://shopify/Product/8429953744959",
+  "handle": "chloe-hand-shower-on-bracket",
+  "title": "Chloe Hand Shower on Bracket",
+  "vendor": "Excellent Tiling Services",
+  "type": "Hand Shower Set",
+  "sku": "ETS027.CR",
+  "words": 31
+ },
+ {
+  "id": "gid://shopify/Product/8429910491199",
+  "handle": "celine-hand-shower-on-bracket",
+  "title": "Celine Hand Shower on Bracket",
+  "vendor": "Excellent Tiling Services",
+  "type": "Hand Shower Set",
+  "sku": "ETS028.CR",
+  "words": 34
+ },
+ {
+  "id": "gid://shopify/Product/8429955874879",
+  "handle": "malaga-antico-oak-vanity-kickboard",
+  "title": "Malaga Antico Oak Vanity Kickboard",
+  "vendor": "Excellent Tiling Services",
+  "type": "Vanity Kickboard",
+  "sku": "ETKB-750AO",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8429955973183",
+  "handle": "malaga-dark-oak-vanity-kickboard",
+  "title": "Malaga Dark Oak Vanity Kickboard",
+  "vendor": "Excellent Tiling Services",
+  "type": "Vanity Kickboard",
+  "sku": "ETKB-750DO",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8429956005951",
+  "handle": "malaga-matt-white-vanity-kickboard",
+  "title": "Malaga Matt White Vanity Kickboard",
+  "vendor": "Excellent Tiling Services",
+  "type": "Vanity Kickboard",
+  "sku": "ETKB-750W",
+  "words": 38
+ },
+ {
+  "id": "gid://shopify/Product/8429911474239",
+  "handle": "celine-rail-shower",
+  "title": "Celine Rail Shower",
+  "vendor": "Excellent Tiling Services",
+  "type": "Hand Shower Set",
+  "sku": "ETH614.CS",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8429955842111",
+  "handle": "malaga-antico-oak-wall-hung-vanity",
+  "title": "Malaga Antico Oak Wall Hung Vanity",
+  "vendor": "Excellent Tiling Services",
+  "type": "Wall Hung Vanity",
+  "sku": "ETOJS106-600AO",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8429955940415",
+  "handle": "malaga-dark-oak-wall-hung-vanity",
+  "title": "Malaga Dark Oak Wall Hung Vanity",
+  "vendor": "Excellent Tiling Services",
+  "type": "Wall Hung Vanity",
+  "sku": "ETOJS106-600DO",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8429956071487",
+  "handle": "malaga-matt-white-wall-hung-vanity",
+  "title": "Malaga Matt White Wall Hung Vanity",
+  "vendor": "Excellent Tiling Services",
+  "type": "Wall Hung Vanity",
+  "sku": "ETOJS106-600W",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8429905641535",
+  "handle": "capsule-led-oval-backlit-mirror-450-x-900mm",
+  "title": "Capsule LED Oval Backlit Mirror 450 x 900mm",
+  "vendor": "Excellent Tiling Services",
+  "type": "LED Mirror",
+  "sku": "ETMIRBLEDOVAL",
+  "words": 56
+ }
+]

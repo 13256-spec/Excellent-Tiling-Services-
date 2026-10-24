@@ -1,0 +1,1073 @@
+[
+ {
+  "id": "gid://shopify/Product/8382636163135",
+  "handle": "mela-flova-free-standing-bath-spout",
+  "title": "MELA FLOVA Free Standing Bath Spout",
+  "vendor": "MELA",
+  "type": "Freestanding Bath Spout",
+  "sku": "FLO.BS.001",
+  "words": 16
+ },
+ {
+  "id": "gid://shopify/Product/8382638850111",
+  "handle": "mela-flova-600-single-towel-rail",
+  "title": "MELA FLOVA 600 Single Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "FLO.TR.600S",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8382638882879",
+  "handle": "mela-flova-800-single-towel-rail",
+  "title": "MELA FLOVA 800 Single Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "FLO.TR.800S",
+  "words": 18
+ },
+ {
+  "id": "gid://shopify/Product/8382642094143",
+  "handle": "mela-morris-shower-screen-u-channel-2000",
+  "title": "MELA MORRIS Shower Screen U Channel 2000",
+  "vendor": "MELA",
+  "type": "Shower Screen Fitting",
+  "sku": "U CHANNEL 2000",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8382637047871",
+  "handle": "mela-palco-wall-mixer-with-diverter",
+  "title": "MELA PALCO Wall Mixer with Diverter",
+  "vendor": "MELA",
+  "type": "Wall Mixer with Diverter",
+  "sku": "PAL.WMD.001",
+  "words": 20
+ },
+ {
+  "id": "gid://shopify/Product/8382118592575",
+  "handle": "mela-flova-toilet-brush-holder",
+  "title": "MELA FLOVA Toilet Brush Holder",
+  "vendor": "MELA",
+  "type": "Toilet Brush Holder",
+  "sku": "FLO.TBH.001",
+  "words": 23
+ },
+ {
+  "id": "gid://shopify/Product/8382639865919",
+  "handle": "mela-pop-up-waste-universal",
+  "title": "MELA Pop Up Waste Universal",
+  "vendor": "MELA",
+  "type": "Pop Up Waste",
+  "sku": "POP-UP Waste Universal",
+  "words": 23
+ },
+ {
+  "id": "gid://shopify/Product/8382118527039",
+  "handle": "mela-flova-600-double-towel-rail",
+  "title": "MELA FLOVA 600 Double Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "FLO.TR.600D",
+  "words": 24
+ },
+ {
+  "id": "gid://shopify/Product/8382637015103",
+  "handle": "mela-palco-wall-mixer",
+  "title": "MELA PALCO Wall Mixer",
+  "vendor": "MELA",
+  "type": "Wall Mixer",
+  "sku": "PAL.WM.001",
+  "words": 24
+ },
+ {
+  "id": "gid://shopify/Product/8382637244479",
+  "handle": "mela-rondo-wall-mixer",
+  "title": "MELA RONDO Wall Mixer",
+  "vendor": "MELA",
+  "type": "Wall Mixer",
+  "sku": "RON.WM.001",
+  "words": 24
+ },
+ {
+  "id": "gid://shopify/Product/8382636228671",
+  "handle": "mela-flova-shower-head",
+  "title": "MELA FLOVA Shower Head",
+  "vendor": "MELA",
+  "type": "Shower Head",
+  "sku": "FLO.SR.001",
+  "words": 25
+ },
+ {
+  "id": "gid://shopify/Product/8382636982335",
+  "handle": "mela-palco-tall-basin-mixer",
+  "title": "MELA PALCO Tall Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "PAL.BM.002",
+  "words": 25
+ },
+ {
+  "id": "gid://shopify/Product/8382637178943",
+  "handle": "mela-rondo-basin-mixer",
+  "title": "MELA RONDO Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "RON.BM.001",
+  "words": 25
+ },
+ {
+  "id": "gid://shopify/Product/8382637211711",
+  "handle": "mela-rondo-tall-basin-mixer",
+  "title": "MELA RONDO Tall Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "RON.BM.002",
+  "words": 26
+ },
+ {
+  "id": "gid://shopify/Product/8382637310015",
+  "handle": "mela-rondo-wall-mixer-with-diverter",
+  "title": "MELA RONDO Wall Mixer with Diverter",
+  "vendor": "MELA",
+  "type": "Wall Mixer with Diverter",
+  "sku": "RON.WMD.001",
+  "words": 26
+ },
+ {
+  "id": "gid://shopify/Product/8382638194751",
+  "handle": "mela-bruno-wall-spout",
+  "title": "MELA BRUNO Wall Spout",
+  "vendor": "MELA",
+  "type": "Wall Spout",
+  "sku": "BRU.WS.001.BN",
+  "words": 27
+ },
+ {
+  "id": "gid://shopify/Product/8382642061375",
+  "handle": "mela-morris-shower-screen-hinge",
+  "title": "MELA MORRIS Shower Screen Hinge",
+  "vendor": "MELA",
+  "type": "Shower Screen Fitting",
+  "sku": "Hinge.FS.001",
+  "words": 27
+ },
+ {
+  "id": "gid://shopify/Product/8382636064831",
+  "handle": "mela-flova-medium-basin-mixer",
+  "title": "MELA FLOVA Medium Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "FLO.BM.003",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382636261439",
+  "handle": "mela-flova-hand-shower-set-without-rail",
+  "title": "MELA FLOVA Hand Shower Set without Rail",
+  "vendor": "MELA",
+  "type": "Hand Shower Set",
+  "sku": "FLO.HS.002",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382636294207",
+  "handle": "mela-flova-hand-shower-set-with-rail",
+  "title": "MELA FLOVA Hand Shower Set with Rail",
+  "vendor": "MELA",
+  "type": "Hand Shower Set",
+  "sku": "FLO.HS.001",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382636326975",
+  "handle": "mela-flova-combination-shower-set-without-rail",
+  "title": "MELA FLOVA Combination Shower Set without Rail",
+  "vendor": "MELA",
+  "type": "Combination Shower Set",
+  "sku": "FLO.CS.002",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382636359743",
+  "handle": "mela-flova-combination-shower-set-with-rail",
+  "title": "MELA FLOVA Combination Shower Set with Rail",
+  "vendor": "MELA",
+  "type": "Combination Shower Set",
+  "sku": "FLO.CS.001",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382636949567",
+  "handle": "mela-palco-medium-basin-mixer",
+  "title": "MELA PALCO Medium Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "PAL.BM.003",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382637146175",
+  "handle": "mela-palco-gooseneck-kitchen-mixer",
+  "title": "MELA PALCO Gooseneck Kitchen Mixer",
+  "vendor": "MELA",
+  "type": "Kitchen Sink Mixer",
+  "sku": "PAL.KM.001",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382637408319",
+  "handle": "mela-rondo-gooseneck-sink-mixer",
+  "title": "MELA RONDO Gooseneck Sink Mixer",
+  "vendor": "MELA",
+  "type": "Kitchen Sink Mixer",
+  "sku": "RON.SM.001",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382637735999",
+  "handle": "mela-bruno-hook",
+  "title": "MELA BRUNO Hook",
+  "vendor": "MELA",
+  "type": "Bathroom Hook",
+  "sku": "BRU.H.001.BN",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382641963071",
+  "handle": "mela-morris-shower-screen-u-bracket",
+  "title": "MELA MORRIS Shower Screen U Bracket",
+  "vendor": "MELA",
+  "type": "Shower Screen Fitting",
+  "sku": "U Bracket",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382641995839",
+  "handle": "mela-morris-shower-screen-l-bracket",
+  "title": "MELA MORRIS Shower Screen L Bracket",
+  "vendor": "MELA",
+  "type": "Shower Screen Fitting",
+  "sku": "L Bracket",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8382637441087",
+  "handle": "mela-rondo-square-gooseneck-sink-mixer",
+  "title": "MELA RONDO Square Gooseneck Sink Mixer",
+  "vendor": "MELA",
+  "type": "Kitchen Sink Mixer",
+  "sku": "RON.SM.002",
+  "words": 29
+ },
+ {
+  "id": "gid://shopify/Product/8382638391359",
+  "handle": "mela-flova-gooseneck-kitchen-mixer",
+  "title": "MELA FLOVA Gooseneck Kitchen Mixer",
+  "vendor": "MELA",
+  "type": "Kitchen Sink Mixer",
+  "sku": "FLO.KM.001",
+  "words": 29
+ },
+ {
+  "id": "gid://shopify/Product/8382639276095",
+  "handle": "mela-palco-rondo-600-single-towel-rail",
+  "title": "MELA PALCO / RONDO 600 Single Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "PAL.TR.600S",
+  "words": 30
+ },
+ {
+  "id": "gid://shopify/Product/8382639472703",
+  "handle": "mela-palco-rondo-800-single-towel-rail",
+  "title": "MELA PALCO / RONDO 800 Single Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "PAL.TR.800S",
+  "words": 30
+ },
+ {
+  "id": "gid://shopify/Product/8382638456895",
+  "handle": "mela-rondo-square-pull-out-sink-mixer",
+  "title": "MELA RONDO Square Pull-Out Sink Mixer",
+  "vendor": "MELA",
+  "type": "Kitchen Sink Mixer",
+  "sku": "RON.KM.003",
+  "words": 31
+ },
+ {
+  "id": "gid://shopify/Product/8382638981183",
+  "handle": "mela-flova-paper-holder",
+  "title": "MELA FLOVA Paper Holder",
+  "vendor": "MELA",
+  "type": "Toilet Roll Holder",
+  "sku": "FLO.PH.001",
+  "words": 31
+ },
+ {
+  "id": "gid://shopify/Product/8382637113407",
+  "handle": "mela-palco-rondo-free-standing-bath-mixer",
+  "title": "MELA PALCO / RONDO Free Standing Bath Mixer",
+  "vendor": "MELA",
+  "type": "Freestanding Bath Mixer",
+  "sku": "PAL.BS.002",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8382638063679",
+  "handle": "mela-bruno-basin-mixer",
+  "title": "MELA BRUNO Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "BRU.BM.001.BN",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8382639800383",
+  "handle": "mela-bruno-corner-glass-shelf-holder",
+  "title": "MELA BRUNO Corner Glass Shelf Holder",
+  "vendor": "MELA",
+  "type": "Shelf Holder",
+  "sku": "ACC.CGS.001",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8382636097599",
+  "handle": "mela-flova-palco-wall-spout",
+  "title": "MELA FLOVA / PALCO Wall Spout",
+  "vendor": "MELA",
+  "type": "Wall Spout",
+  "sku": "FLO.WS.001",
+  "words": 33
+ },
+ {
+  "id": "gid://shopify/Product/8382636916799",
+  "handle": "mela-palco-basin-mixer",
+  "title": "MELA PALCO Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "PAL.BM.001",
+  "words": 33
+ },
+ {
+  "id": "gid://shopify/Product/8382638096447",
+  "handle": "mela-bruno-tall-basin-mixer",
+  "title": "MELA BRUNO Tall Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "BRU.BM.002.BN",
+  "words": 33
+ },
+ {
+  "id": "gid://shopify/Product/8450270462015",
+  "handle": "mela-rondo-sink-mixer-tall",
+  "title": "MELA RONDO Sink Mixer (Tall)",
+  "vendor": "MELA",
+  "type": "Kitchen Sink Mixer",
+  "sku": "RON.SM.001.TALL",
+  "words": 33
+ },
+ {
+  "id": "gid://shopify/Product/8382640980031",
+  "handle": "mela-triton-35l-sink",
+  "title": "MELA TRITON 35L Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.35L",
+  "words": 34
+ },
+ {
+  "id": "gid://shopify/Product/8382636621887",
+  "handle": "mela-palco-rondo-ceiling-shower-arm",
+  "title": "MELA PALCO / RONDO Ceiling Shower Arm",
+  "vendor": "MELA",
+  "type": "Ceiling Shower Arm",
+  "sku": "PAL.CA.001",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8382637670463",
+  "handle": "mela-bruno-paper-holder",
+  "title": "MELA BRUNO Paper Holder",
+  "vendor": "MELA",
+  "type": "Toilet Roll Holder",
+  "sku": "BRU.PH.001.BN",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8382637932607",
+  "handle": "mela-bruno-soap-holder",
+  "title": "MELA BRUNO Soap Holder",
+  "vendor": "MELA",
+  "type": "Soap Holder",
+  "sku": "BRU.SH.001.BN",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8382637965375",
+  "handle": "mela-bruno-shelf-holder",
+  "title": "MELA BRUNO Shelf Holder",
+  "vendor": "MELA",
+  "type": "Shelf Holder",
+  "sku": "BRU.SH.002.BN",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8382638784575",
+  "handle": "mela-flova-bath-towel-shelf",
+  "title": "MELA FLOVA Bath Towel Shelf",
+  "vendor": "MELA",
+  "type": "Bath Towel Shelf",
+  "sku": "FLO.BTS.001",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8382637867071",
+  "handle": "mela-bruno-hand-towel-rail",
+  "title": "MELA BRUNO Hand Towel Rail",
+  "vendor": "MELA",
+  "type": "Hand Towel Rail",
+  "sku": "BRU.HT.001.BN",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8382638424127",
+  "handle": "mela-cassa-pull-out-sink-mixer-black-hose",
+  "title": "MELA CASSA Pull Out Sink Mixer with Black Hose",
+  "vendor": "MELA",
+  "type": "Kitchen Sink Mixer",
+  "sku": "CAS.SM.003",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8382636556351",
+  "handle": "mela-palco-rondo-straight-shower-arm",
+  "title": "MELA PALCO / RONDO Straight Shower Arm",
+  "vendor": "MELA",
+  "type": "Shower Arm",
+  "sku": "PAL.SA.002",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8382637506623",
+  "handle": "mela-bruno-600-single-towel-rail",
+  "title": "MELA BRUNO 600 Single Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "BRU.TR.600S.BN",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8382637539391",
+  "handle": "mela-bruno-600-double-towel-rail",
+  "title": "MELA BRUNO 600 Double Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "BRU.TR.600D.BN",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8382637572159",
+  "handle": "mela-bruno-800-single-towel-rail",
+  "title": "MELA BRUNO 800 Single Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "BRU.TR.800S.BN",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8382637604927",
+  "handle": "mela-bruno-800-double-towel-rail",
+  "title": "MELA BRUNO 800 Double Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "BRU.TR.800D.BN",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8382638915647",
+  "handle": "mela-flova-800-double-towel-rail",
+  "title": "MELA FLOVA 800 Double Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "FLO.TR.800D",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8382636195903",
+  "handle": "mela-flova-shower-arm",
+  "title": "MELA FLOVA Shower Arm",
+  "vendor": "MELA",
+  "type": "Shower Arm",
+  "sku": "FLO.SA.001",
+  "words": 38
+ },
+ {
+  "id": "gid://shopify/Product/8382095753279",
+  "handle": "mela-flova-shower-bath-wall-mixer",
+  "title": "MELA FLOVA Shower/Bath Wall Mixer",
+  "vendor": "MELA",
+  "type": "Wall Mixer",
+  "sku": "FLO.WM.001",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8382637342783",
+  "handle": "mela-rondo-wall-spout",
+  "title": "MELA RONDO Wall Spout",
+  "vendor": "MELA",
+  "type": "Wall Spout",
+  "sku": "RON.WS.001",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8382095556671",
+  "handle": "mela-flova-basin-mixer",
+  "title": "MELA FLOVA Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "FLO.BM.001",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8382095687743",
+  "handle": "mela-flova-tall-basin-mixer",
+  "title": "MELA FLOVA Tall Basin Mixer",
+  "vendor": "MELA",
+  "type": "Basin Mixer",
+  "sku": "FLO.BM.002",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8382638129215",
+  "handle": "mela-bruno-wall-mixer",
+  "title": "MELA BRUNO Wall Mixer",
+  "vendor": "MELA",
+  "type": "Wall Mixer",
+  "sku": "BRU.WM.001.BN",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8382664671295",
+  "handle": "mela-zone-semi-basin",
+  "title": "MELA ZONE Semi Basin",
+  "vendor": "MELA",
+  "type": "Semi Basin",
+  "sku": "ZONE.SEMI",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8382664704063",
+  "handle": "mela-aspra-undermount-basin",
+  "title": "MELA ASPRA Undermount Basin",
+  "vendor": "MELA",
+  "type": "Undermount Basin",
+  "sku": "ASPRA.UNDER",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8382664736831",
+  "handle": "mela-myra-inset-basin",
+  "title": "MELA MYRA Inset Basin",
+  "vendor": "MELA",
+  "type": "Inset Basin",
+  "sku": "MYRA.INSET",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8382095851583",
+  "handle": "mela-flova-shower-bath-wall-mixer-diverter",
+  "title": "MELA FLOVA Shower/Bath Wall Mixer with Diverter",
+  "vendor": "MELA",
+  "type": "Wall Mixer with Diverter",
+  "sku": "FLO.WMD.001",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382636654655",
+  "handle": "mela-palco-rondo-shower-head",
+  "title": "MELA PALCO / RONDO Shower Head",
+  "vendor": "MELA",
+  "type": "Shower Head",
+  "sku": "PAL.SR.001",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382648778815",
+  "handle": "mela-ava-above-counter-basin",
+  "title": "MELA AVA Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "AVA.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382649434175",
+  "handle": "mela-bella-above-counter-basin",
+  "title": "MELA BELLA Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "BELLA.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382651269183",
+  "handle": "mela-brando-above-counter-basin",
+  "title": "MELA BRANDO Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "BRANDO.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382654021695",
+  "handle": "mela-costa-above-counter-basin",
+  "title": "MELA COSTA Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "COSTA.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382655660095",
+  "handle": "mela-daisy-above-counter-basin",
+  "title": "MELA DAISY Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "DAISY.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382659821631",
+  "handle": "mela-faro-above-counter-basin",
+  "title": "MELA FARO Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "FARO.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382662475839",
+  "handle": "mela-kiva-above-counter-basin",
+  "title": "MELA KIVA Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "KIVA.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382664147007",
+  "handle": "mela-paula-above-counter-basin",
+  "title": "MELA PAULA Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "PAULA.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382664343615",
+  "handle": "mela-petal-above-counter-basin",
+  "title": "MELA PETAL Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "PETAL.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382664441919",
+  "handle": "mela-viva-above-counter-basin",
+  "title": "MELA VIVA Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "VIVA.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382664507455",
+  "handle": "mela-ovali-above-counter-basin",
+  "title": "MELA OVALI Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "OVALI.ABOVE",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8382118690879",
+  "handle": "mela-palco-rondo-toilet-brush-holder",
+  "title": "MELA PALCO/RONDO Toilet Brush Holder",
+  "vendor": "MELA",
+  "type": "Toilet Brush Holder",
+  "sku": "PAL.TBH.001",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382636720191",
+  "handle": "mela-palco-rondo-hand-shower-set-with-rail",
+  "title": "MELA PALCO / RONDO Hand Shower Set with Rail",
+  "vendor": "MELA",
+  "type": "Hand Shower Set",
+  "sku": "PAL.HS.001",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382636818495",
+  "handle": "mela-palco-rondo-combination-shower-set-with-rail",
+  "title": "MELA PALCO / RONDO Combination Shower Set with Rail",
+  "vendor": "MELA",
+  "type": "Combination Shower Set",
+  "sku": "PAL.CS.001",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382641012799",
+  "handle": "mela-triton-45l-sink",
+  "title": "MELA TRITON 45L Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.45L",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382648844351",
+  "handle": "mela-arch-above-counter-basin",
+  "title": "MELA ARCH Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "ARCH.ABOVE",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382663458879",
+  "handle": "mela-marcie-440-above-counter-basin",
+  "title": "MELA MARCIE 440 Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "MARCIE.ABOVE.440",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382664474687",
+  "handle": "mela-nuie-above-counter-basin",
+  "title": "MELA NUIE Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "NUIE.ABOVE",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382664572991",
+  "handle": "mela-debba-half-inset-basin",
+  "title": "MELA DEBBA Half Inset Basin",
+  "vendor": "MELA",
+  "type": "Half Inset Basin",
+  "sku": "DEBBA.HALF",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8382636687423",
+  "handle": "mela-palco-rondo-hand-shower-set-without-rail",
+  "title": "MELA PALCO / RONDO Hand Shower Set without Rail",
+  "vendor": "MELA",
+  "type": "Hand Shower Set",
+  "sku": "PAL.HS.002",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8382636752959",
+  "handle": "mela-palco-rondo-combination-shower-set-without-rail",
+  "title": "MELA PALCO / RONDO Combination Shower Set without Rail",
+  "vendor": "MELA",
+  "type": "Combination Shower Set",
+  "sku": "PAL.CS.002",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8382639013951",
+  "handle": "mela-flova-hook",
+  "title": "MELA FLOVA Hook",
+  "vendor": "MELA",
+  "type": "Bathroom Hook",
+  "sku": "FLO.H.001",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8382639636543",
+  "handle": "mela-palco-rondo-hook",
+  "title": "MELA PALCO / RONDO Hook",
+  "vendor": "MELA",
+  "type": "Bathroom Hook",
+  "sku": "PAL.H.001",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8382641143871",
+  "handle": "mela-triton-1200-double-sink",
+  "title": "MELA TRITON 1200 Double Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.1200D",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8382637080639",
+  "handle": "mela-palco-rondo-free-standing-bath-spout",
+  "title": "MELA PALCO / RONDO Free Standing Bath Spout",
+  "vendor": "MELA",
+  "type": "Freestanding Bath Spout",
+  "sku": "PAL.BS.001",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8382639538239",
+  "handle": "mela-palco-rondo-paper-holder",
+  "title": "MELA PALCO / RONDO Paper Holder",
+  "vendor": "MELA",
+  "type": "Toilet Roll Holder",
+  "sku": "PAL.PH.001",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8382640226367",
+  "handle": "mela-kasten-inset-bath",
+  "title": "MELA KASTEN Inset Bath",
+  "vendor": "MELA",
+  "type": "Inset Bath",
+  "sku": "KASTEN.1525.3",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8382641045567",
+  "handle": "mela-triton-765-single-sink",
+  "title": "MELA TRITON 765 Single Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.765S",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8382652678207",
+  "handle": "mela-cento-above-counter-basin",
+  "title": "MELA CENTO Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "CENTO.ABOVE",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8382658412607",
+  "handle": "mela-davisson-above-counter-basin",
+  "title": "MELA DAVISSON Above Counter Basin",
+  "vendor": "MELA",
+  "type": "Above Counter Basin",
+  "sku": "DAVISSON.ABOVE",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8382664638527",
+  "handle": "mela-selva-half-inset-basin",
+  "title": "MELA SELVA Half Inset Basin",
+  "vendor": "MELA",
+  "type": "Half Inset Basin",
+  "sku": "SELVA.HALF",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8382639243327",
+  "handle": "mela-palco-rondo-bath-towel-shelf",
+  "title": "MELA PALCO / RONDO Bath Towel Shelf",
+  "vendor": "MELA",
+  "type": "Bath Towel Shelf",
+  "sku": "PAL.BTS.001",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8382640783423",
+  "handle": "mela-triton-380-single-sink",
+  "title": "MELA TRITON 380 Single Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.380S",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8382640848959",
+  "handle": "mela-triton-550-single-sink",
+  "title": "MELA TRITON 550 Single Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.550S",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8382639505471",
+  "handle": "mela-palco-rondo-800-double-towel-rail",
+  "title": "MELA PALCO / RONDO 800 Double Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "PAL.TR.800D",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8382639964223",
+  "handle": "mela-calla-free-standing-bath",
+  "title": "MELA CALLA Free Standing Bath",
+  "vendor": "MELA",
+  "type": "Freestanding Bath",
+  "sku": "CALLA.1500.3",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8382640029759",
+  "handle": "mela-maya-free-standing-bath",
+  "title": "MELA MAYA Free Standing Bath",
+  "vendor": "MELA",
+  "type": "Freestanding Bath",
+  "sku": "MAYA.1500.3",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8382640062527",
+  "handle": "mela-taylor-free-standing-bath",
+  "title": "MELA TAYLOR Free Standing Bath",
+  "vendor": "MELA",
+  "type": "Freestanding Bath",
+  "sku": "TAYLOR.1500.3",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8382640914495",
+  "handle": "mela-triton-770-double-sink",
+  "title": "MELA TRITON 770 Double Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.7700D",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8382639702079",
+  "handle": "mela-palco-rondo-hand-towel-rail",
+  "title": "MELA PALCO / RONDO Hand Towel Rail",
+  "vendor": "MELA",
+  "type": "Hand Towel Rail",
+  "sku": "PAL.HT.001",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8382640095295",
+  "handle": "mela-kori-back-to-wall-bath",
+  "title": "MELA KORI Back to Wall Bath",
+  "vendor": "MELA",
+  "type": "Back to Wall Bath",
+  "sku": "KORI.1500.3",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8382640128063",
+  "handle": "mela-mizo-back-to-wall-bath",
+  "title": "MELA MIZO Back to Wall Bath",
+  "vendor": "MELA",
+  "type": "Back to Wall Bath",
+  "sku": "MIZO.1500.3",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8382666768447",
+  "handle": "mela-clark-400-wall-hung-tallboy",
+  "title": "MELA CLARK 400 Wall Hung Tallboy",
+  "vendor": "MELA",
+  "type": "Bathroom Tallboy",
+  "sku": "CLA.400T.GW",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8382639177791",
+  "handle": "mela-flova-shelf-holder",
+  "title": "MELA FLOVA Shelf Holder",
+  "vendor": "MELA",
+  "type": "Shelf Holder",
+  "sku": "FLO.SH.002",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8382639341631",
+  "handle": "mela-palco-rondo-600-double-towel-rail",
+  "title": "MELA PALCO / RONDO 600 Double Towel Rail",
+  "vendor": "MELA",
+  "type": "Towel Rail",
+  "sku": "PAL.TR.600D",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8382641078335",
+  "handle": "mela-triton-1080-double-sink",
+  "title": "MELA TRITON 1080 Double Sink",
+  "vendor": "MELA",
+  "type": "Kitchen Sink",
+  "sku": "TRITON.1080D",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8382639767615",
+  "handle": "mela-palco-rondo-shelf-holder",
+  "title": "MELA PALCO / RONDO Shelf Holder",
+  "vendor": "MELA",
+  "type": "Shelf Holder",
+  "sku": "PAL.SH.002",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8382118625343",
+  "handle": "mela-palco-rondo-soap-holder",
+  "title": "MELA PALCO/RONDO Soap Holder",
+  "vendor": "MELA",
+  "type": "Soap Holder",
+  "sku": "PAL.SH.001",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8382139170879",
+  "handle": "mela-rondo-swivel-wall-spout",
+  "title": "MELA RONDO Swivel Wall Spout",
+  "vendor": "MELA",
+  "type": "Wall Spout",
+  "sku": "RON.WS.002",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8382636130367",
+  "handle": "mela-flova-palco-swivel-bath-spout",
+  "title": "MELA FLOVA / PALCO Swivel Wall Spout",
+  "vendor": "MELA",
+  "type": "Bath Spout",
+  "sku": "FLO.WS.002",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8382640160831",
+  "handle": "mela-nook-corner-bath-right",
+  "title": "MELA NOOK Corner Bath (Right)",
+  "vendor": "MELA",
+  "type": "Corner Bath",
+  "sku": "NOOK.1300R.3",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8382640193599",
+  "handle": "mela-nook-corner-bath-left",
+  "title": "MELA NOOK Corner Bath (Left)",
+  "vendor": "MELA",
+  "type": "Corner Bath",
+  "sku": "NOOK.1300L.3",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8382666211391",
+  "handle": "mela-clark-1200-wall-hung-vanity-with-2-drawers-dual-side-shelves",
+  "title": "MELA CLARK 1200 Wall Hung Vanity with 2 Drawers & Dual Side Shelves",
+  "vendor": "MELA",
+  "type": "Wall Hung Vanity",
+  "sku": "CLA.1200DWS2.GW",
+  "words": 58
+ }
+]

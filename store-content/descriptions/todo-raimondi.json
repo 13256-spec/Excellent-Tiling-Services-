@@ -1,0 +1,821 @@
+[
+ {
+  "id": "gid://shopify/Product/8425991897151",
+  "handle": "raimondi-lupetto-flat-vibrating-plate",
+  "title": "Raimondi Lupetto Flat Vibrating Plate",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-LUPETTO-VP",
+  "words": 38
+ },
+ {
+  "id": "gid://shopify/Product/8426003595327",
+  "handle": "raimondi-spare-plastic-grate",
+  "title": "Raimondi Spare Plastic Grate - suits Skipper",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SPG",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8426003726399",
+  "handle": "raimondi-spare-plastic-grate-to-suit-smart",
+  "title": "Raimondi Spare Plastic Grate - suits Smart",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SPGSM",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8426003759167",
+  "handle": "raimondi-avana-hand-sponge-190-x-120mm",
+  "title": "Raimondi Avana Hand Sponge 190 x 120mm",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-AHS",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8425991962687",
+  "handle": "raimondi-terranova-11-row-roller-plate-assembly",
+  "title": "Raimondi Terranova 11 Row Roller Plate Assembly",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-TERRA-RA",
+  "words": 40
+ },
+ {
+  "id": "gid://shopify/Product/8425992454207",
+  "handle": "raimondi-maxititina-grout-paddle-replacement-rubber-set",
+  "title": "Raimondi Maxititina Grout Paddle Replacement Rubber Set",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTGPRRS",
+  "words": 40
+ },
+ {
+  "id": "gid://shopify/Product/8425991995455",
+  "handle": "raimondi-300w-42v-transformer-suit-terranova",
+  "title": "Raimondi 300W / 42V Transformer for Terranova",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-TERRATF",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8426003693631",
+  "handle": "raimondi-smart-wash-bucket-roller-set-2-pcs",
+  "title": "Raimondi Smart Wash Bucket Roller Set - 2 pcs",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SMARTRS2",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8426004054079",
+  "handle": "raimondi-sweepex-hand-sponge-160-x-120mm",
+  "title": "Raimondi Sweepex Hand Sponge 160 x 120mm",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SHS",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8425993142335",
+  "handle": "raimondi-maxititina-steel-wire-brush",
+  "title": "Raimondi Maxititina Steel Wire Brush",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTSWB",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8425993928767",
+  "handle": "raimondi-ipertitina-vacuum-hose",
+  "title": "Raimondi Ipertitina Vacuum Hose",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERVACFH",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8426003628095",
+  "handle": "raimondi-skipper-squeeze-roller-set-of-2",
+  "title": "Raimondi Skipper Squeeze Roller Set of 2",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SRS2",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8426003660863",
+  "handle": "raimondi-pulirapid-squeeze-roller-set-of-3",
+  "title": "Raimondi Pulirapid Squeeze Roller Set of 3",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SRS3",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8426003955775",
+  "handle": "raimondi-hard-abrasive-sponge-for-epoxy-use",
+  "title": "Raimondi Hard Abrasive Sponge - for Epoxy Use",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-HAS",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8425993044031",
+  "handle": "raimondi-maxititina-abrasive-brush",
+  "title": "Raimondi Maxititina Abrasive Brush",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTINEX",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8426000056383",
+  "handle": "raimondi-spare-water-tray-to-suit-berta",
+  "title": "Raimondi Spare Water Tray to suit Berta",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-BERWT",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8426004643903",
+  "handle": "raimondi-flexible-knee-pad-insert",
+  "title": "Raimondi Flexible Knee Pad Insert (Set of 2) - suits flexible pads",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-FLKP-IN",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8426029252671",
+  "handle": "raimondi-morbidone-kneeling-cushion",
+  "title": "Raimondi Morbidone Kneeling Cushion",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-MORKC",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8425993076799",
+  "handle": "raimondi-maxititina-medium-nylon-brush",
+  "title": "Raimondi Maxititina Medium Nylon Brush",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTMNB",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8425993175103",
+  "handle": "raimondi-maxititina-velcro-disc-holder",
+  "title": "Raimondi Maxititina Velcro Disc Holder",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTVSDH2",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8425993240639",
+  "handle": "raimondi-ipertitina-velcro-disc-holder",
+  "title": "Raimondi Ipertitina Velcro Disc Holder",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERDHV",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8425993830463",
+  "handle": "raimondi-ipertitina-2-way-vacuum-connector",
+  "title": "Raimondi Ipertitina 2 Way Vacuum Connector",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERVAC2",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8425993863231",
+  "handle": "raimondi-ipertitina-3-way-vacuum-connector",
+  "title": "Raimondi Ipertitina 3 Way Vacuum Connector",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERVAC3",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8425996255295",
+  "handle": "raimondi-rectangular-grout-float-hard",
+  "title": "Raimondi Rectangular Grout Float - Hard",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-RGFH",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8425999040575",
+  "handle": "raimondi-rectangular-grout-float-soft",
+  "title": "Raimondi Rectangular Grout Float - Soft",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-RGFS",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8426003988543",
+  "handle": "raimondi-cellulose-hard-abrasive-sponge",
+  "title": "Raimondi Cellulose / Hard Abrasive Sponge",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SPCHA",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8425992323135",
+  "handle": "raimondi-maxititina-12l-polypropylene-tank",
+  "title": "Raimondi Maxititina 12L Polypropylene Tank",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTANK",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8425993764927",
+  "handle": "raimondi-ipertitina-16-ltr-watertank",
+  "title": "Raimondi Ipertitina 16 Ltr Watertank",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERTANK",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8426004021311",
+  "handle": "raimondi-sweepex-hard-abrasive-combination-sponge",
+  "title": "Raimondi Sweepex / Hard Abrasive Combination Sponge",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-SWHAS",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8426032267327",
+  "handle": "raimondi-wedges-28mm-x-1000",
+  "title": "Raimondi Wedges - 28mm x 1000",
+  "vendor": "Raimondi",
+  "type": "Tile Spacers & Levelling",
+  "sku": "RAI-W281000",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8425989406783",
+  "handle": "raimondi-fluid-mix-spare-bucket",
+  "title": "Raimondi Fluid Mix Spare Bucket 75L",
+  "vendor": "Raimondi",
+  "type": "Mixing Tools",
+  "sku": "RAI-FLUMIXB",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8425989472319",
+  "handle": "raimondi-iperbet-spare-45l-mixing-bucket",
+  "title": "Raimondi Iperbet Spare 45L Mixing Bucket",
+  "vendor": "Raimondi",
+  "type": "Mixing Tools",
+  "sku": "RAI-IPERBU",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8425940484159",
+  "handle": "raimondi-raizor-mk2-spare-cutting-wheel",
+  "title": "Raimondi Raizor MK2 Spare Cutting Wheel",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-RAIZORM2SW",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8425987211327",
+  "handle": "raimondi-plaster-rasp-6-pce-blade-set",
+  "title": "Raimondi Plaster Rasp 6 pce Blade Set - suits Fakiro rasp",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-FPRBS",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8425940320319",
+  "handle": "raimondi-raizor-spare-cutting-wheel",
+  "title": "Raimondi Raizor Spare Cutting Wheel",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-RAIZOR-SW",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8425993732159",
+  "handle": "raimondi-ipertitina-splash-guard-skirt",
+  "title": "Raimondi Ipertitina Splash Guard Skirt",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERSGSK",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8425993797695",
+  "handle": "raimondi-ipertitina-abrasive-brush",
+  "title": "Raimondi Ipertitina Abrasive Brush",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERTINEX",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8425940385855",
+  "handle": "raimondi-raizor-mk2-plus-spare-cutting-wheel",
+  "title": "Raimondi Raizor MK2 Plus Spare Cutting Wheel",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-RAIZORM2PSW",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425987407935",
+  "handle": "raimondi-skirting-trowel-notched-10mm",
+  "title": "Raimondi Skirting Trowel Notched 10mm",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-SKT",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425989505087",
+  "handle": "raimondi-iperbet-clump-breaker",
+  "title": "Raimondi Iperbet Clump Breaker",
+  "vendor": "Raimondi",
+  "type": "Mixing Tools",
+  "sku": "RAI-IPERCB",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425991864383",
+  "handle": "raimondi-lupetto-11-row-roller-plate-assembly",
+  "title": "Raimondi Lupetto 11 Row Roller Plate Assembly",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-LUPETTO-RA",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425993961535",
+  "handle": "raimondi-ipertitina-suction-skirt",
+  "title": "Raimondi Ipertitina Suction Skirt",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERVACSK",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8426028990527",
+  "handle": "raimondi-replacement-kneepad-straps-rubber-set-of-2",
+  "title": "Raimondi Replacement Kneepad Straps - Rubber - Set of 2 - suits flat faced & flexible pads",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-FLKP-RST",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8426029056063",
+  "handle": "raimondi-flexible-knee-pad-strap-fabric-set-of-2",
+  "title": "Raimondi Knee Pad Strap - Fabric with Clips (Set of 2) - suits flat faced & flexible pads",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-FLKP-ST",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8426030825535",
+  "handle": "raimondi-waffled-shoes-for-walking-on-tile-pair",
+  "title": "Raimondi Waffled Shoes for Walking on Tile (Pair)",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-WSWT",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425939730495",
+  "handle": "raimondi-bulldog-side-extensions-pair",
+  "title": "Raimondi Bulldog Side Extensions (Pair)",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-BULLSEPR",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8425939763263",
+  "handle": "raimondi-bulldog-polishing-band-holder",
+  "title": "Raimondi Bulldog Polishing Band Holder",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-BDBS",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8425962700863",
+  "handle": "raimondi-bigfoot-xl-extension-table",
+  "title": "Raimondi Bigfoot XL Extension Table",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-BIGFOOTXLEXT",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8425962733631",
+  "handle": "raimondi-bigfoot-xxl-extension-table",
+  "title": "Raimondi Bigfoot XXL Extension Table",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-BIGFOOTXXLEXT",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8425989537855",
+  "handle": "raimondi-iperbet-double-bladed-mix-tool",
+  "title": "Raimondi Iperbet Double Bladed Mix Tool",
+  "vendor": "Raimondi",
+  "type": "Mixing Tools",
+  "sku": "RAI-IPERDB",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8425999007807",
+  "handle": "raimondi-grout-float-blue-rubber-replacement",
+  "title": "Raimondi Blue Grout Float Replacement Rubber - suits RAI-RGFR",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-RGFRR",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8425985540159",
+  "handle": "raimondi-triventosa-triple-suction-cup",
+  "title": "Raimondi Triventosa Triple Suction Cup",
+  "vendor": "Raimondi",
+  "type": "Suction Cups & Lifters",
+  "sku": "RAI-TRISC",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8425992388671",
+  "handle": "raimondi-maxititina-grouting-paddle",
+  "title": "Raimondi Maxititina Grouting Paddle",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTGP",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8425993109567",
+  "handle": "raimondi-maxititina-stiff-nylon-brush",
+  "title": "Raimondi Maxititina Stiff Nylon Brush",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTSNB",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8425985736767",
+  "handle": "raimondi-rai-cut-grooving-tool-spare-blade",
+  "title": "Raimondi Rai-Cut Grooving Tool Spare Blade",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-RAICUT-SB",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8425998975039",
+  "handle": "raimondi-grout-float-blue-with-changeable-rubber",
+  "title": "Raimondi Blue Grout Float with Changeable Rubber",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-RGFR",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8426032300095",
+  "handle": "raimondi-clipdozer-levelling-clips-removal-tool",
+  "title": "Raimondi Clipdozer Levelling Clips Removal Tool",
+  "vendor": "Raimondi",
+  "type": "Tile Spacers & Levelling",
+  "sku": "RAI-CLIPDOZER",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8425966370879",
+  "handle": "raimondi-double-suction-cup-4-1-2",
+  "title": "Raimondi Double Suction Cup 4.5\"",
+  "vendor": "Raimondi",
+  "type": "Suction Cups & Lifters",
+  "sku": "RAI-SCD45",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8425989570623",
+  "handle": "raimondi-iperbet-fluid-mixing-kit",
+  "title": "Raimondi Iperbet Fluid Mixing Kit",
+  "vendor": "Raimondi",
+  "type": "Mixing Tools",
+  "sku": "RAI-IPERMKF",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8425993273407",
+  "handle": "raimondi-ipertitina-felt-disc",
+  "title": "Raimondi Ipertitina Felt Disc",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPERFDB",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8425999073343",
+  "handle": "raimondi-epoxy-grouting-clean-up-kit",
+  "title": "Raimondi Epoxy Grouting & Clean Up Kit",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-EGCLK",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8426002219071",
+  "handle": "raimondi-sweepex-sponge-13-x-42cm",
+  "title": "Raimondi Sweepex Sponge 13 x 42cm - suits Pedalo pole float",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-PLSPONGE",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8426004578367",
+  "handle": "raimondi-flat-faced-knee-pads",
+  "title": "Raimondi Flat Faced Knee Pads",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-FFKP",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8426029121599",
+  "handle": "raimondi-relax-gel-kneepads",
+  "title": "Raimondi Relax Gel Kneepads",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-KPRELAX",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8426030694463",
+  "handle": "raimondi-paver-slab-lifter",
+  "title": "Raimondi Paver / Slab Lifter",
+  "vendor": "Raimondi",
+  "type": "Tiling Tools",
+  "sku": "RAI-SL",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8425940353087",
+  "handle": "raimondi-raizor-spare-cutting-wheel-titanium",
+  "title": "Raimondi Raizor Spare Cutting Wheel - Titanium",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-RAIZOR-SWT",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8425954672703",
+  "handle": "raimondi-bigfoot-xl-large-format-tile-cutting-table",
+  "title": "Raimondi Bigfoot XL Large Format Tile Cutting Table",
+  "vendor": "Raimondi",
+  "type": "Large Format Tile Handling",
+  "sku": "RAI-BIGFOOTXL",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8425987244095",
+  "handle": "raimondi-kessler-screed-bar-handles-x-2",
+  "title": "Raimondi Kessler Screed Bar Handles x 2",
+  "vendor": "Raimondi",
+  "type": "Screeding Tools",
+  "sku": "RAI-KSBH",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8425992355903",
+  "handle": "raimondi-maxititina-felt-disc",
+  "title": "Raimondi Maxititina Felt Disc",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-MAXTFDH",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8425939861567",
+  "handle": "raimondi-bulldog-shaping-wheel-r-22mm-full-bullnose",
+  "title": "Raimondi Bulldog Shaping Wheel R22mm Full Bullnose",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-BSWFB22R",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8426002284607",
+  "handle": "raimondi-sweepex-sponge-cut-13-x-42cm",
+  "title": "Raimondi Sweepex Sponge - Cut - 13 x 42cm - suits Pedalo pole float",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-PLSPONGECUT",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8425940156479",
+  "handle": "raimondi-bulldog-45-shaping-wheel",
+  "title": "Raimondi Bulldog 45 Shaping Wheel",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-BSW45",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425954213951",
+  "handle": "raimondi-large-format-tile-snapping-pliers-to-suit-3-12mm-panels",
+  "title": "Raimondi Large Format Tile Snapping Pliers - 3-12mm Panels",
+  "vendor": "Raimondi",
+  "type": "Tile Cutters",
+  "sku": "RAI-LFTSPS",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425991831615",
+  "handle": "raimondi-spare-lithium-ion-battery-to-suit-e-fox-vibrator",
+  "title": "Raimondi Spare Lithium Ion Battery for e-Fox Vibrator",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-EFOX-SB",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425993207871",
+  "handle": "raimondi-ipertitina-6kg-ballast-block",
+  "title": "Raimondi Ipertitina 6kg Ballast Block",
+  "vendor": "Raimondi",
+  "type": "Tiling Machine Parts",
+  "sku": "RAI-IPER6KG",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425994453055",
+  "handle": "raimondi-zirconium-abrasive-pad-100mm-80-grit",
+  "title": "Raimondi Zirconium Abrasive Pad - 80 Grit",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-ZAP10080",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8426004152383",
+  "handle": "raimondi-soft-bristle-broom-without-handle",
+  "title": "Raimondi Soft Bristle Broom without Handle",
+  "vendor": "Raimondi",
+  "type": "Grout Clean Up",
+  "sku": "RAI-BWSB",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8426004185151",
+  "handle": "raimondi-adjustable-level-square-100cm",
+  "title": "Raimondi Adjustable Level / Square 100cm",
+  "vendor": "Raimondi",
+  "type": "Levels",
+  "sku": "RAI-AL100",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8426030759999",
+  "handle": "raimondi-padded-tool-bag",
+  "title": "Raimondi Padded Tool Bag",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-TOOLBAG",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425940189247",
+  "handle": "raimondi-bulldog-flat-shaping-wheel",
+  "title": "Raimondi Bulldog Flat Shaping Wheel",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-BSWF",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425954607167",
+  "handle": "raimondi-bigfoot-m-worktable-for-tiles-slabs-135-x-63cm",
+  "title": "Raimondi Bigfoot M Worktable for Tiles & Slabs - 135 x 63cm",
+  "vendor": "Raimondi",
+  "type": "Large Format Tile Handling",
+  "sku": "RAI-BIGFOOTM",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425962569791",
+  "handle": "raimondi-bigfoot-xxl-large-format-tile-cutting-table",
+  "title": "Raimondi Bigfoot XXL Large Format Tile Cutting Table",
+  "vendor": "Raimondi",
+  "type": "Large Format Tile Handling",
+  "sku": "RAI-BIGFOOTXXL",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425995960383",
+  "handle": "raimondi-480mm-long-bladed-trowel",
+  "title": "Raimondi 480mm Long Bladed Trowel",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-LBT8",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425996222527",
+  "handle": "raimondi-rectangular-foam-rubber-grouter",
+  "title": "Raimondi Rectangular Foam Rubber Grouter",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-RFRG",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8426030628927",
+  "handle": "raimondi-pugiol-folding-work-bench",
+  "title": "Raimondi Pugiol Folding Work Bench",
+  "vendor": "Raimondi",
+  "type": "Large Format Tile Handling",
+  "sku": "RAI-PUGIOL",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425954345023",
+  "handle": "raimondi-easymove-x-light-with-crossbars-and-10-suction-cups",
+  "title": "Raimondi Easymove X-Light with Crossbars and 10 Suction Cups",
+  "vendor": "Raimondi",
+  "type": "Large Format Tile Handling",
+  "sku": "RAI-EASYMOVE-XLIGHT10",
+  "words": 58
+ },
+ {
+  "id": "gid://shopify/Product/8426029154367",
+  "handle": "raimondi-husky-toothed-shoes",
+  "title": "Raimondi Husky Toothed Shoes",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-HUSKY",
+  "words": 58
+ },
+ {
+  "id": "gid://shopify/Product/8426029219903",
+  "handle": "raimondi-isola-island-platforms",
+  "title": "Raimondi Isola Island Platforms",
+  "vendor": "Raimondi",
+  "type": "Knee Pads & Workwear",
+  "sku": "RAI-ISIP",
+  "words": 58
+ },
+ {
+  "id": "gid://shopify/Product/8425939796031",
+  "handle": "raimondi-bulldog-polishing-band",
+  "title": "Raimondi Bulldog Polishing Band",
+  "vendor": "Raimondi",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "RAI-BDB100",
+  "words": 59
+ },
+ {
+  "id": "gid://shopify/Product/8425985769535",
+  "handle": "raimondi-fakiro-plaster-rasp",
+  "title": "Raimondi Fakiro Plaster Rasp",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-FPR",
+  "words": 59
+ },
+ {
+  "id": "gid://shopify/Product/8425996156991",
+  "handle": "raimondi-foam-rubber-squeegee-spare-rubber",
+  "title": "Raimondi Foam Rubber Squeegee Spare Rubber",
+  "vendor": "Raimondi",
+  "type": "Tiling Trowels & Floats",
+  "sku": "RAI-FRS40SR",
+  "words": 59
+ }
+]

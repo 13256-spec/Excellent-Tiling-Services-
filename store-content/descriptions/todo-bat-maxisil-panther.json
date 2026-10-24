@@ -1,0 +1,524 @@
+[
+ {
+  "id": "gid://shopify/Product/8403247431743",
+  "handle": "smoothtex-n",
+  "title": "Smoothtex N",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDX2020",
+  "words": 14
+ },
+ {
+  "id": "gid://shopify/Product/8403248185407",
+  "handle": "maxisil-grout-2kg",
+  "title": "Maxisil Grout \u2013 2kg",
+  "vendor": "Maxisil",
+  "type": "Grout",
+  "sku": "RDG2an",
+  "words": 15
+ },
+ {
+  "id": "gid://shopify/Product/8403247595583",
+  "handle": "smoothtex-a",
+  "title": "Smoothtex A",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDX2000",
+  "words": 17
+ },
+ {
+  "id": "gid://shopify/Product/8403253133375",
+  "handle": "maxisil-primer-1217",
+  "title": "Maxisil Primer 1217",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDX2016",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8403253198911",
+  "handle": "maxisil-primer-1215",
+  "title": "Maxisil Primer 1215",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDX2012",
+  "words": 23
+ },
+ {
+  "id": "gid://shopify/Product/8402654036031",
+  "handle": "bat-pro-12-mm-square-notch-trowel",
+  "title": "BAT Pro 12 mm Square Notch Trowel",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "ETS-HW-002",
+  "words": 26
+ },
+ {
+  "id": "gid://shopify/Product/8403253166143",
+  "handle": "maxisil-primer-1216",
+  "title": "Maxisil Primer 1216",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDX2014",
+  "words": 26
+ },
+ {
+  "id": "gid://shopify/Product/8402654068799",
+  "handle": "panther-stainless-steel-square-notch-trowel-280-x-120-mm",
+  "title": "Panther Stainless Steel Square Notch Trowel 280 x 120 mm",
+  "vendor": "Panther",
+  "type": "Tiling Trowels & Floats",
+  "sku": "ETS-HW-003",
+  "words": 27
+ },
+ {
+  "id": "gid://shopify/Product/8402654396479",
+  "handle": "panther-diamond-blade",
+  "title": "Panther Thin Turbo Diamond Blade 105mm",
+  "vendor": "Panther",
+  "type": "Diamond Blades & Abrasives",
+  "sku": "ETS-HW-012",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8403247923263",
+  "handle": "maxisil-grout-10kg",
+  "title": "Maxisil Grout \u2013 10kg",
+  "vendor": "Maxisil",
+  "type": "Grout",
+  "sku": "RDG10an",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8403247956031",
+  "handle": "maxisil-grout-5kg",
+  "title": "Maxisil Grout \u2013 5kg",
+  "vendor": "Maxisil",
+  "type": "Grout",
+  "sku": "RDG5an",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8403247890495",
+  "handle": "maxisil-maxigrab-adhesive",
+  "title": "Maxisil Maxigrab Adhesive",
+  "vendor": "Maxisil",
+  "type": "Adhesives",
+  "sku": "RDX4000",
+  "words": 30
+ },
+ {
+  "id": "gid://shopify/Product/8403241664575",
+  "handle": "maxisil-sausage-caulking-gun-600ml",
+  "title": "Maxisil Sausage Caulking Gun 600ml",
+  "vendor": "Maxisil",
+  "type": "Tiling Tools",
+  "sku": "RDXA3012",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403245006911",
+  "handle": "20-litre-maxisil-bucket",
+  "title": "20 Litre Maxisil Bucket",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDXT987",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403251789887",
+  "handle": "maxisil-corner-nozzles-3-pack",
+  "title": "Maxisil Corner Nozzles 3 Pack",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDXA2050a",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403252510783",
+  "handle": "maxisil-spray-bottle-500ml",
+  "title": "Maxisil Spray Bottle \u2013 500ml",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDXT984",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403253297215",
+  "handle": "maxisil-extension-nozzles-6-pk",
+  "title": "Maxisil Extension Nozzles 6 Pk",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDXA2051",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403253231679",
+  "handle": "maxisil-silicone-nozzle-unblocker",
+  "title": "Maxisil Silicone Nozzle Unblocker",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDXA3010",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8403253264447",
+  "handle": "maxisil-applicator",
+  "title": "Maxisil Applicator",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDXA3000",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8425625976895",
+  "handle": "bat-paint-scraper-soft-grip",
+  "title": "BAT Paint Scraper - Soft Grip",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "PS-50",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8425626009663",
+  "handle": "bat-pro-square-trowel-with-swan-neck",
+  "title": "BAT Pro Square Trowel with Swan Neck",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "BP-TTSQ160",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8423921549375",
+  "handle": "bat-bright-steel-trowel-plaster-soft-grip",
+  "title": "BAT Bright Steel Trowel - Plaster - Soft Grip",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "BAT-BSPL-SG",
+  "words": 40
+ },
+ {
+  "id": "gid://shopify/Product/8423921123391",
+  "handle": "bat-t-shapes-10mm",
+  "title": "BAT T Shapes 10mm",
+  "vendor": "BAT",
+  "type": "Tile Spacers & Levelling",
+  "sku": "TS10-250",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8423921254463",
+  "handle": "bat-jumbo-wedges",
+  "title": "BAT Jumbo Wedges",
+  "vendor": "BAT",
+  "type": "Tile Spacers & Levelling",
+  "sku": "JW-100",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8423921156159",
+  "handle": "bat-wedges",
+  "title": "BAT Wedges",
+  "vendor": "BAT",
+  "type": "Tile Spacers & Levelling",
+  "sku": "W-100",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8425773760575",
+  "handle": "bat-heavy-duty-tile-nipper",
+  "title": "BAT Heavy Duty Tile Nipper",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "HDTN",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8423921090623",
+  "handle": "bat-t-shapes-5mm",
+  "title": "BAT T Shapes 5mm",
+  "vendor": "BAT",
+  "type": "Tile Spacers & Levelling",
+  "sku": "TS5-250",
+  "words": 46
+ },
+ {
+  "id": "gid://shopify/Product/8425780150335",
+  "handle": "bat-straight-nipper",
+  "title": "BAT Straight Nipper",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "STN",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425787195455",
+  "handle": "bat-floor-scraper-300mm-replacement-blade",
+  "title": "BAT Floor Scraper 300mm Replacement Blade",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "FS-300-SB",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425794699327",
+  "handle": "bat-20-ltr-promotional-bucket-lid",
+  "title": "BAT 20 Ltr Bucket Lid",
+  "vendor": "BAT",
+  "type": "Mixing Tools",
+  "sku": "BAT-20LPBLID",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425937829951",
+  "handle": "batseal-delta-silicone-joint-cutter-spare-blade-set",
+  "title": "BATSEAL Delta Joint Cutter Spare Blade Set - suits S A-DSJC",
+  "vendor": "BAT",
+  "type": "Sealants, Sealers & Cleaners",
+  "sku": "S A-DSJC-SB",
+  "words": 49
+ },
+ {
+  "id": "gid://shopify/Product/8425780772927",
+  "handle": "bat-replacement-liners-pair-suit-kpa",
+  "title": "BAT Replacement Liners (Pair) - Suit KPA",
+  "vendor": "BAT",
+  "type": "Knee Pads & Workwear",
+  "sku": "KP-RL",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8425786933311",
+  "handle": "bat-floor-scraper-replacement-blades-to-suit-fs-125-5-pk",
+  "title": "BAT Floor Scraper Replacement Blades to suit FS-125 (5 pk)",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "FS-125-RB",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8425937371199",
+  "handle": "panther-levelling-spacers-adjustable-traction-pliers-floor",
+  "title": "Panther Levelling System Adjustable Traction Pliers - Floor",
+  "vendor": "Panther",
+  "type": "Tile Spacers & Levelling",
+  "sku": "PAN-LSATPF",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8425774055487",
+  "handle": "bat-side-nipper",
+  "title": "BAT Side Nipper",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "SN",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8425786507327",
+  "handle": "bat-replacement-buttons-set-of-4-suit-kpa",
+  "title": "BAT Replacement Buttons (Set of 8) - Suit KPA",
+  "vendor": "BAT",
+  "type": "Knee Pads & Workwear",
+  "sku": "KP-SB",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8425794535487",
+  "handle": "bat-replacement-blade-to-suit-fs-412-10-pk",
+  "title": "BAT Replacement Blade to suit FS-412 (10 pk)",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "FS-412-RB",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8425794895935",
+  "handle": "panther-20-ltr-promotional-bucket-lid-orange",
+  "title": "Panther 20 Ltr Bucket Lid - Orange",
+  "vendor": "Panther",
+  "type": "Mixing Tools",
+  "sku": "PAN-20LPBLID",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8425795158079",
+  "handle": "bat-plastic-float-280-x-140-x-3mm",
+  "title": "BAT Plastic Float - 280 x 140 x 3mm",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "PRF-28143",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8425786605631",
+  "handle": "bat-replacement-straps-set-of-4-suit-kpa",
+  "title": "BAT Replacement Straps (Set of 4) - Suit KPA",
+  "vendor": "BAT",
+  "type": "Knee Pads & Workwear",
+  "sku": "KP-ST",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8425626796095",
+  "handle": "bat-tiling-sponge-200-x-150mm",
+  "title": "BAT Tiling Sponge 200 x 150mm",
+  "vendor": "BAT",
+  "type": "Grout Clean Up",
+  "sku": "S-50",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8425749282879",
+  "handle": "bat-tile-crosses-4mm",
+  "title": "BAT Tile Crosses 4mm",
+  "vendor": "BAT",
+  "type": "Tile Spacers & Levelling",
+  "sku": "TC4-500",
+  "words": 54
+ },
+ {
+  "id": "gid://shopify/Product/8425626828863",
+  "handle": "bat-sponge-deluxe-cellulose",
+  "title": "BAT Sponge - Deluxe Cellulose",
+  "vendor": "BAT",
+  "type": "Grout Clean Up",
+  "sku": "SP-DLXCELL",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8425759539263",
+  "handle": "bat-deep-t-shapes-1-5mm",
+  "title": "BAT Deep T Shapes 1.5mm",
+  "vendor": "BAT",
+  "type": "Tile Spacers & Levelling",
+  "sku": "TSD-500",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8425774153791",
+  "handle": "bat-side-nipper-curved-jaw",
+  "title": "BAT Side Nipper - Curved Jaw",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "SN-CJ",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8425780314175",
+  "handle": "bat-pro-folding-utility-knife-spare-blade-set-10-pce",
+  "title": "BAT Pro Folding Utility Knife Spare Blade Set (10 pce) - suits BAT Pro folding knife",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "BP-FKSB10",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8403253329983",
+  "handle": "maxisil-cleaner-250ml",
+  "title": "Maxisil Cleaner \u2013 250ml",
+  "vendor": "Maxisil",
+  "type": "Silicone Accessories",
+  "sku": "RDX2004",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425780510783",
+  "handle": "bat-suction-cup-4",
+  "title": "BAT Suction Cup - 4 inch Single Cup",
+  "vendor": "BAT",
+  "type": "Suction Cups & Lifters",
+  "sku": "BATSC-4",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425780609087",
+  "handle": "bat-dual-suction-cup-4",
+  "title": "BAT Dual Suction Cup - 4 inch",
+  "vendor": "BAT",
+  "type": "Suction Cups & Lifters",
+  "sku": "BATSC-D4",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8403253362751",
+  "handle": "maxisil-membrane-silicone",
+  "title": "Maxisil Membrane Silicone",
+  "vendor": "Maxisil",
+  "type": "Silicone Sealants",
+  "sku": "RDX1007",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425766617151",
+  "handle": "bat-deep-t-shapes-2mm",
+  "title": "BAT Deep T Shapes 2mm",
+  "vendor": "BAT",
+  "type": "Tile Spacers & Levelling",
+  "sku": "TS2D-500",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425780445247",
+  "handle": "bat-utility-knife",
+  "title": "BAT Utility Knife",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "UK-1",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8425626107967",
+  "handle": "bat-pointed-rubber-grouter",
+  "title": "Pointed Rubber Grouter",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "PRGB",
+  "words": 58
+ },
+ {
+  "id": "gid://shopify/Product/8425773563967",
+  "handle": "bat-deluxe-grout-remover-spare-blade",
+  "title": "BAT Deluxe Grout Remover Spare Blades - suits GR-DLX-SG",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "GR-DLX-SB",
+  "words": 58
+ },
+ {
+  "id": "gid://shopify/Product/8425794994239",
+  "handle": "bat-plaster-float-coarse-195-x-125mm",
+  "title": "BAT Plaster Float - Coarse - 195 x 125mm",
+  "vendor": "BAT",
+  "type": "Tiling Trowels & Floats",
+  "sku": "PFC-1219",
+  "words": 58
+ },
+ {
+  "id": "gid://shopify/Product/8425937076287",
+  "handle": "bat-paint-brush",
+  "title": "BAT Paint Brush",
+  "vendor": "BAT",
+  "type": "Waterproofing Tools",
+  "sku": "BAT-PB50",
+  "words": 58
+ },
+ {
+  "id": "gid://shopify/Product/8425773858879",
+  "handle": "bat-parrot-nipper",
+  "title": "BAT Parrot Nipper",
+  "vendor": "BAT",
+  "type": "Tiling Tools",
+  "sku": "PN",
+  "words": 59
+ },
+ {
+  "id": "gid://shopify/Product/8425937338431",
+  "handle": "panther-tile-levelling-system-wedges",
+  "title": "Panther Tile Levelling System Wedges",
+  "vendor": "Panther",
+  "type": "Tile Spacers & Levelling",
+  "sku": "PAN-LSW250",
+  "words": 59
+ }
+]

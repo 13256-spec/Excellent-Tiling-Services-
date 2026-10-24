@@ -1,0 +1,731 @@
+[
+ {
+  "id": "gid://shopify/Product/8403254476863",
+  "handle": "replacement-bucket-handle-for-eco-roller-fits-rdxt630",
+  "title": "Replacement Bucket Handle for Eco Roller \u2013 Fits RDXT630",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT611b",
+  "words": 14
+ },
+ {
+  "id": "gid://shopify/Product/8403254509631",
+  "handle": "replacement-roller-for-eco-roller-fits-rdxt630",
+  "title": "Replacement Roller for Eco Roller \u2013 Fits RDXT630",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT611a",
+  "words": 14
+ },
+ {
+  "id": "gid://shopify/Product/8403251920959",
+  "handle": "mixer-head-for-baron-e120-mixer-no-shovels",
+  "title": "Mixer Head for Baron E120 Mixer (no shovels)",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50421",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8403254050879",
+  "handle": "barwalt-kn-1-ultralight-knee-pad",
+  "title": "Barwalt KN-1 Ultralight Knee Pad",
+  "vendor": "Barwalt",
+  "type": "Tiling Tools",
+  "sku": "RDXT415",
+  "words": 19
+ },
+ {
+  "id": "gid://shopify/Product/8403241271359",
+  "handle": "rubber-wheel-for-all-mixers-except-f300",
+  "title": "Rubber wheel (for all mixers, except F300)",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50340",
+  "words": 22
+ },
+ {
+  "id": "gid://shopify/Product/8403254640703",
+  "handle": "siri-white-velcro-base-plate-fits-rdxt609",
+  "title": "Siri White Velcro Base Plate \u2013 Fits RDXT609",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT617",
+  "words": 22
+ },
+ {
+  "id": "gid://shopify/Product/8403245695039",
+  "handle": "art-63g-sigma-table-with-legs-hooks-for-kera-cut-and-clamps",
+  "title": "ART 63G Sigma Table with legs, hooks for Kera cut and clamps",
+  "vendor": "Sigma",
+  "type": "Large Format Tile Handling",
+  "sku": "RDXA3637",
+  "words": 25
+ },
+ {
+  "id": "gid://shopify/Product/8403253100607",
+  "handle": "siri-suction-cup-50kg-lifting-capacity",
+  "title": "SIRI Suction Cup (50kg lifting capacity)",
+  "vendor": "Siri",
+  "type": "Tiling Tools",
+  "sku": "RDXT620",
+  "words": 25
+ },
+ {
+  "id": "gid://shopify/Product/8403241959487",
+  "handle": "sigma-90d3-sigma-swivel-measurement-bar",
+  "title": "Sigma 90D3 Swivel Measurement Bar - suits Tecnica 2A3, 2B3 & 2D4",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3525C",
+  "words": 26
+ },
+ {
+  "id": "gid://shopify/Product/8451901980735",
+  "handle": "f300-mixer-paddles-set-3",
+  "title": "F300 Mixer Paddles Set (3)",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50444",
+  "words": 28
+ },
+ {
+  "id": "gid://shopify/Product/8403242778687",
+  "handle": "sigma-19n-square-260mm",
+  "title": "Sigma 19N Square 260mm",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3646",
+  "words": 29
+ },
+ {
+  "id": "gid://shopify/Product/8403245826111",
+  "handle": "replacement-clip-for-eco-roller-fits-rdxt630",
+  "title": "Replacement Clip for Eco Roller \u2013 Fits RDXT630",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT611c",
+  "words": 29
+ },
+ {
+  "id": "gid://shopify/Product/8451903488063",
+  "handle": "e120-replacement-power-cable-2m-with-plug",
+  "title": "E120 Replacement Power Cable 2m with Plug",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50101",
+  "words": 29
+ },
+ {
+  "id": "gid://shopify/Product/8403242876991",
+  "handle": "sigma-19b3-square",
+  "title": "Sigma 19B3 Square - suits Tecnica 2A3, 2B3 & 2D4",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3516",
+  "words": 30
+ },
+ {
+  "id": "gid://shopify/Product/8403244777535",
+  "handle": "siri-blue-epoxy-grouting-pad",
+  "title": "Siri Blue Epoxy Grouting Pad",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT660",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403245039679",
+  "handle": "sigma-complete-right-support-arm-art484-for-series-4",
+  "title": "Sigma complete right Support Arm ART484 for series 4",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3635",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403245137983",
+  "handle": "sigma-swivel-measurement-bar-for-4du-art90nd",
+  "title": "Sigma Swivel Measurement Bar for 4DU ART90ND",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3633",
+  "words": 32
+ },
+ {
+  "id": "gid://shopify/Product/8403245170751",
+  "handle": "sigma-swivel-measurement-bar-for-4cu-art90nc",
+  "title": "Sigma Swivel Measurement Bar for 4CU ART90NC",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3632",
+  "words": 33
+ },
+ {
+  "id": "gid://shopify/Product/8403253428287",
+  "handle": "sigma-cutting-wheel-art14mx-suits-art-3fm-3ek-19mm",
+  "title": "Sigma Cutting Wheel ART14MX 19mm - suits Series 3 Max cutters",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3548",
+  "words": 33
+ },
+ {
+  "id": "gid://shopify/Product/8403252576319",
+  "handle": "sigma-cutting-wheel-art14k-suits-kera-cut-19mm-dia",
+  "title": "Sigma Cutting Wheel ART14K suits Kera Cut \u2013 19mm dia",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3584",
+  "words": 34
+ },
+ {
+  "id": "gid://shopify/Product/8403245760575",
+  "handle": "sigma-laser-for-4-series-art022",
+  "title": "Sigma Laser for 4 series ART022",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3628",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8403252641855",
+  "handle": "sigma-workbench-clamps-pair-art-400",
+  "title": "Sigma Workbench Clamps (pair) ART 400",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3593",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8403254018111",
+  "handle": "barwalt-kn-1-replacement-liners-pair",
+  "title": "Barwalt KN-1 Replacement Liners (pair)",
+  "vendor": "Barwalt",
+  "type": "Tiling Tools",
+  "sku": "RDXT417",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8403254149183",
+  "handle": "siri-brown-sponge-fits-rdxt609-handle",
+  "title": "Siri Brown Sponge \u2013 Fits RDXT609 Handle",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT612a",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8403254673471",
+  "handle": "siri-interchangeable-blue-handle",
+  "title": "Siri Interchangeable Blue Handle",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT609",
+  "words": 35
+ },
+ {
+  "id": "gid://shopify/Product/8403241140287",
+  "handle": "f300-mixer-head-not-including-paddles",
+  "title": "F300 Mixer head (not including paddles)",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50427",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8403241173055",
+  "handle": "f200-mixer-head-not-including-a-paddles",
+  "title": "F200 Mixer head (not including a paddles)",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50425",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8403242614847",
+  "handle": "sigma-24m15x-handle",
+  "title": "Sigma 24M15X Handle - suits Max 3E3M & 3F3M",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3528",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8403242745919",
+  "handle": "sigma-24ae-handle",
+  "title": "Sigma 24AE Handle - suits 3C2, 3D2 & 4A",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3518",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8403243204671",
+  "handle": "sigma-108362-m8-nut-for-locking-bolt",
+  "title": "Sigma 108362 M8 Nut for Locking Bolt",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3649",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8403245203519",
+  "handle": "sigma-swivel-measurement-bar-for-4bu-art90nb",
+  "title": "Sigma Swivel Measurement Bar for 4BU ART90NB",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3631",
+  "words": 36
+ },
+ {
+  "id": "gid://shopify/Product/8403243106367",
+  "handle": "sigma-14c-scoring-wheel-15mm",
+  "title": "Sigma 14C Scoring Wheel (15mm)",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3535",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8403251855423",
+  "handle": "mixing-paddles-set-3-for-baron-e120-mixer",
+  "title": "Mixing Paddles Set (3) for Baron E120 Mixer",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50443",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8403253461055",
+  "handle": "sigma-titanium-wheel-with-axle-art14t-12mm",
+  "title": "Sigma Titanium Wheel with axle ART14T 12mm - suits 2G, 2B3, 7F & Series 3",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3552",
+  "words": 37
+ },
+ {
+  "id": "gid://shopify/Product/8403241205823",
+  "handle": "main-switch-for-f300",
+  "title": "Main switch (For F300)",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50304",
+  "words": 38
+ },
+ {
+  "id": "gid://shopify/Product/8403241238591",
+  "handle": "main-switch-for-f200",
+  "title": "Main switch (For F200)",
+  "vendor": "Baron",
+  "type": "Mixers",
+  "sku": "RDXM50303",
+  "words": 38
+ },
+ {
+  "id": "gid://shopify/Product/8403242647615",
+  "handle": "sigma-24m10x-handle",
+  "title": "Sigma 24M10X Handle - suits Max 3C3M, 3D3M & 3P3M",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3519",
+  "words": 38
+ },
+ {
+  "id": "gid://shopify/Product/8403251593279",
+  "handle": "sigma-titanium-wheel-with-axle-art14nt-16mm-dia",
+  "title": "Sigma Titanium Wheel with axle ART14NT 16mm - suits Series 4 NEX",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3622",
+  "words": 38
+ },
+ {
+  "id": "gid://shopify/Product/8403241861183",
+  "handle": "sigma-90lc-sigma-swivel-measurement-bar",
+  "title": "Sigma 90LC Swivel Measurement Bar - suits 3C2 & 3C3M",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3561",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8403243139135",
+  "handle": "sigma-108616-locking-bolt-m8x25-for-swivel-measurement-bar",
+  "title": "Sigma 108616 Locking Bolt M8x25 for Swivel Measurement Bar",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3511",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8403245432895",
+  "handle": "sigma-handle-art-24u-for-art-4-up-series",
+  "title": "Sigma Handle ART 24U for ART 4 Up series",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3625",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8451901849663",
+  "handle": "sigma-14g-kera-cut-spare-scoring-wheel-12mm",
+  "title": "Sigma 14G Kera-Cut Spare Scoring Wheel 12mm",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3526",
+  "words": 39
+ },
+ {
+  "id": "gid://shopify/Product/8403251626047",
+  "handle": "sigma-spare-wheel-with-axle-art14n-16mm-dia",
+  "title": "Sigma Spare Wheel with axle ART14N 16mm - suits Series 4 NEX",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3621",
+  "words": 40
+ },
+ {
+  "id": "gid://shopify/Product/8403254444095",
+  "handle": "replacement-plastic-grid-for-eco-roller-fits-rdxt630",
+  "title": "Replacement Plastic Grid for Eco Roller \u2013 Fits RDXT630",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT612",
+  "words": 40
+ },
+ {
+  "id": "gid://shopify/Product/8403251691583",
+  "handle": "sigma-spare-wheel-with-axle-art14u-12mm-dia",
+  "title": "Sigma Spare Wheel with axle ART14U 12mm - suits Series 4 Up (4BU, 4CU, 4DU)",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3619",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8403252609087",
+  "handle": "sigma-kera-flex-aluminium-suction-cup-art51c-suits-kera-cut-120mm-dia-40kg-capacity",
+  "title": "Sigma Kera Flex Aluminium Suction Cup ART51C, suits Kera Cut, 120mm dia, 40kg capacity",
+  "vendor": "Sigma",
+  "type": "Suction Cups & Lifters",
+  "sku": "RDXA3479",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8403254345791",
+  "handle": "siri-yellow-sponge-with-cuts-fits-rdxt609-handle",
+  "title": "Siri Yellow Sponge With Cuts \u2013 Fits RDXT609 Handle",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT611",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8451895787583",
+  "handle": "sigma-37c-table-fixing-kit",
+  "title": "Sigma 37C Table Fixing Kit",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3492",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8451901915199",
+  "handle": "sigma-108362-m8-square-nut-for-locking-bolt",
+  "title": "Sigma 108362 M8 Square Nut for Locking Bolt",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3580",
+  "words": 41
+ },
+ {
+  "id": "gid://shopify/Product/8403243663423",
+  "handle": "sigma-art108621-locking-bolt-m8-x-40-for-series-3b-3c-3d-models",
+  "title": "Sigma 108621 Locking Bolt M8 x 40 - suits Series 3 cutters",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3544",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8403254378559",
+  "handle": "siri-yellow-sponge-no-cuts-fits-rdxt609-handle",
+  "title": "Siri Yellow Sponge No Cuts \u2013 Fits RDXT609 Handle",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT610",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8451895853119",
+  "handle": "sigma-196725-rubber-foot",
+  "title": "Sigma 196725 Rubber Foot",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3534",
+  "words": 42
+ },
+ {
+  "id": "gid://shopify/Product/8403245072447",
+  "handle": "sigma-complete-left-support-arm-art483-for-series-4",
+  "title": "Sigma complete left Support Arm ART483 for series 4",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3634",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8403245531199",
+  "handle": "sigma-kera-flex-aluminium-suction-cup-art51p4-suits-kera-cut-150mm-dia-90kg-capacity",
+  "title": "Sigma Kera Flex Aluminium Suction Cup ART51P4, suits Kera Cut, 150mm dia, 90kg capacity",
+  "vendor": "Sigma",
+  "type": "Suction Cups & Lifters",
+  "sku": "RDXA3623",
+  "words": 43
+ },
+ {
+  "id": "gid://shopify/Product/8403241828415",
+  "handle": "sigma-90ld-sigma-swivel-measurement-bar",
+  "title": "Sigma 90LD Swivel Measurement Bar - suits 3D & 3P series",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3562",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8403245236287",
+  "handle": "sigma-handle-art-24n-for-art-4-push-series",
+  "title": "Sigma Handle ART 24N for ART 4 Push series",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3626",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8403251658815",
+  "handle": "sigma-titanium-wheel-with-axle-art14ut-12mm-dia",
+  "title": "Sigma Titanium Wheel with axle ART14UT 12mm - suits Series 4 Up (4BU, 4CU, 4DU)",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3620",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8403253493823",
+  "handle": "sigma-spare-wheel-with-axle-art14a-12mm-dia",
+  "title": "Sigma Spare Wheel with axle ART14A 12mm - suits 2G, 2B3, 7F & Series 3",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3512",
+  "words": 44
+ },
+ {
+  "id": "gid://shopify/Product/8403244744767",
+  "handle": "siri-black-epoxy-grouting-pad-for-mosaic-tiles",
+  "title": "Siri Black Epoxy Grouting Pad for Mosaic Tiles",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT661",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8403245498431",
+  "handle": "sigma-pro-grip-suction-cup-art51m3-mm-for-straight-bar-of-kera-lift-1a6-1d3-160mm-dia",
+  "title": "Sigma Pro Grip Suction Cup ART51M3 mm for straight bar of Kera Lift 1A6 \u2013 1D3 160mm dia",
+  "vendor": "Sigma",
+  "type": "Suction Cups & Lifters",
+  "sku": "RDXA3629",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8403252543551",
+  "handle": "sigma-aluminium-workbench-art-63e-180-x-100",
+  "title": "Sigma Aluminium Workbench ART 63E \u2013 180 x 100",
+  "vendor": "Sigma",
+  "type": "Large Format Tile Handling",
+  "sku": "RDXA3594",
+  "words": 45
+ },
+ {
+  "id": "gid://shopify/Product/8403245465663",
+  "handle": "sigma-pro-grip-suction-cup-art51m4-mm-for-cross-bar-of-kera-lift-160mm-dia",
+  "title": "Sigma Pro Grip Suction Cup ART51M4 mm for cross bar of Kera Lift 160mm dia",
+  "vendor": "Sigma",
+  "type": "Suction Cups & Lifters",
+  "sku": "RDXA3630",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8403254116415",
+  "handle": "siri-white-rinse-pad",
+  "title": "Siri White Rinse Pad",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT618",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8451858366527",
+  "handle": "sigma-64b2-non-slip-magnetic-mat",
+  "title": "Sigma 64B2 Non-Slip Magnetic Mat",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3650",
+  "words": 47
+ },
+ {
+  "id": "gid://shopify/Product/8403241795647",
+  "handle": "sigma-90le-sigma-swivel-measurement-bar",
+  "title": "Sigma 90LE Swivel Measurement Bar - suits 3E & 3F Max",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3585",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8403242680383",
+  "handle": "sigma-24e-handle",
+  "title": "Sigma 24E Handle - suits 3L, 3B2, 5B & 6",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3517",
+  "words": 48
+ },
+ {
+  "id": "gid://shopify/Product/8403241893951",
+  "handle": "sigma-90lb-sigma-swivel-measurement-bar",
+  "title": "Sigma 90LB Swivel Measurement Bar - suits 3B2 & 3B3M",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3560",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8403243696191",
+  "handle": "sigma-tile-cutter-art-7f-37cm",
+  "title": "Sigma Tile Cutter ART 7F \u2013 37cm",
+  "vendor": "Sigma",
+  "type": "Tile Cutters",
+  "sku": "RDXA3498",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8451858399295",
+  "handle": "sigma-421-carriage-kit-2-wheel-sets-with-slab-support-and-angle-support",
+  "title": "Sigma 421 Carriage Kit (2 Wheel Sets with Slab Support and Angle Support)",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3591",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8451895722047",
+  "handle": "sigma-402-work-bench-storage-hooks-for-kera-cut",
+  "title": "Sigma 402 Work Bench Storage Hooks for Kera-Cut",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3595",
+  "words": 50
+ },
+ {
+  "id": "gid://shopify/Product/8403254083647",
+  "handle": "siri-green-clean-up-pad",
+  "title": "Siri Green Clean Up Pad",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT619",
+  "words": 51
+ },
+ {
+  "id": "gid://shopify/Product/8403244711999",
+  "handle": "siri-yellow-epoxy-grouting-pad",
+  "title": "Siri Yellow Epoxy Grouting Pad",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT662",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8451858333759",
+  "handle": "sigma-8aep2-kera-cut-extension-bar-50cm",
+  "title": "Sigma 8AEP2 Kera-Cut Extension Bar 50cm",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3599",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8451901816895",
+  "handle": "sigma-17a-extension-bar-500mm",
+  "title": "Sigma 17A Extension Bar 500mm",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3651",
+  "words": 52
+ },
+ {
+  "id": "gid://shopify/Product/8403241762879",
+  "handle": "siri-epoxy-grouting-kit",
+  "title": "Siri Epoxy Grouting Kit",
+  "vendor": "Siri",
+  "type": "Sponges and Grouting Systems",
+  "sku": "RDXT650",
+  "words": 53
+ },
+ {
+  "id": "gid://shopify/Product/8403242844223",
+  "handle": "sigma-19c-square",
+  "title": "Sigma 19C Square - suits Tecnica 2G",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3516C",
+  "words": 55
+ },
+ {
+  "id": "gid://shopify/Product/8403242713151",
+  "handle": "sigma-24c-handle",
+  "title": "Sigma 24C Handle - suits Tecnica 2A3 & 2B3",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3520",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8403242811455",
+  "handle": "sigma-19d-square",
+  "title": "Sigma 19D Square - suits Series 3 cutters",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3516B",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8451858268223",
+  "handle": "sigma-90dg-swivel-measurement-bar",
+  "title": "Sigma 90DG Swivel Measurement Bar",
+  "vendor": "Sigma",
+  "type": "Tiling Machine Parts",
+  "sku": "RDXA3525B",
+  "words": 56
+ },
+ {
+  "id": "gid://shopify/Product/8425719660607",
+  "handle": "ada-instruments-ada-tape-measure",
+  "title": "ADA Tape Measure",
+  "vendor": "ADA Instruments",
+  "type": "Measuring Tools",
+  "sku": "ADA-TM5",
+  "words": 57
+ },
+ {
+  "id": "gid://shopify/Product/8403252674623",
+  "handle": "sigma-jolly-edge-art37a3d-with-115mm-blade-art-75b",
+  "title": "Sigma Jolly Edge ART37A3D with 115mm Blade (ART 75B)",
+  "vendor": "Sigma",
+  "type": "Tile Cutters",
+  "sku": "RDXA3477",
+  "words": 59
+ }
+]
