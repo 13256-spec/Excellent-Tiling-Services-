@@ -40,7 +40,7 @@ Call or text 0450 960 543.
 
 Category: Home Improvement > Building Materials. Condition: New. Photo: the bag shot (slide 1).
 
-## Google Business Profile post (owner pastes by hand; button "Buy" to the product link)
+## Google Business Profile post (scheduled through Metricool, Mon 26 Oct 9:35 am, id 404698343)
 
 New in stock: SikaTile-305 Master Lite, Sika's lightweight tile adhesive. A 15kg bag covers about 7.5m²
 with a 10mm notched trowel, about the same as a 20kg bag, so there's less to carry. Rated C2TES1: flexible,
@@ -62,4 +62,4 @@ shipping, no competitor claims, no supplier name, no exclamation marks. Hooks le
 
 Images on Shopify Files (`cdn.shopify.com/.../files/ets-sika-*.jpg`); Metricool ids in `schedule/results-sika.json`:
 Mon 26 Oct 9:30 am carousel (404695580), Mon 26 Oct 8:30 pm Story (404695597), Tue 27 Oct 9:30 am carousel (404695622).
-Instagram + Facebook, auto-publish. Marketplace and Google Business texts above are for the owner to paste by hand.
+Instagram + Facebook, auto-publish. Google Business Profile post 26 Oct 9:35 am (404698343, bag photo + text, via Metricool; owner said GBP is connected). Marketplace listing is still pasted by hand.

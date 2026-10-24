@@ -12,8 +12,8 @@ excellenttilingservice.com.au). The owner is busy and reads on his phone: answer
 ## Accounts
 
 - Metricool brand "Excellent Tiling Services", blogId / brandId `7234377`, timezone `Australia/Perth`.
-  Connected: Facebook page and Instagram `@excellent_tiling_services`. Not connected yet: TikTok, Google
-  Business Profile, Pinterest (tell the owner to connect them in Metricool if a task needs them).
+  Connected: Facebook page, Instagram `@excellent_tiling_services` and Google Business Profile (owner, 24 Oct 2026;
+  provider `gmb`, `gmbData {type: publication}` with text up to 1500 chars and one photo). Not connected yet: TikTok, Pinterest (tell the owner to connect them in Metricool if a task needs them).
 - Tools: `mcp__Metricool_Social_Media_Management__*` (load with ToolSearch): `createScheduledPost`,
   `getScheduledPosts`, `updateScheduledPost`, `getBestTimeToPostByNetwork`.
 

@@ -1,5 +1,50 @@
 [
- {"id": "2026-10-26-sika-0930", "metricool_id": 404695580, "uuid": "7834870247062850394", "date": "2026-10-26T09:30:00+08:00", "type": "post", "media": ["https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-0930-1.jpg?v=1792804450", "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-0930-2.jpg?v=1792804450", "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-0930-3.jpg?v=1792804450"], "copy_review": "PASS"},
- {"id": "2026-10-26-sika-story-2030", "metricool_id": 404695597, "uuid": "4918016624563470812", "date": "2026-10-26T20:30:00+08:00", "type": "story", "media": ["https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-story-2030.jpg?v=1792804450"], "copy_review": "n/a"},
- {"id": "2026-10-27-sika-0930", "metricool_id": 404695622, "uuid": "-3311528096482836286", "date": "2026-10-27T09:30:00+08:00", "type": "post", "media": ["https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-27-0930-1.jpg?v=1792804450", "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-27-0930-2.jpg?v=1792804450", "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-27-0930-3.jpg?v=1792804450"], "copy_review": "PASS"}
+ {
+  "id": "2026-10-26-sika-0930",
+  "metricool_id": 404695580,
+  "uuid": "7834870247062850394",
+  "date": "2026-10-26T09:30:00+08:00",
+  "type": "post",
+  "media": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-0930-1.jpg?v=1792804450",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-0930-2.jpg?v=1792804450",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-0930-3.jpg?v=1792804450"
+  ],
+  "copy_review": "PASS"
+ },
+ {
+  "id": "2026-10-26-sika-story-2030",
+  "metricool_id": 404695597,
+  "uuid": "4918016624563470812",
+  "date": "2026-10-26T20:30:00+08:00",
+  "type": "story",
+  "media": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-story-2030.jpg?v=1792804450"
+  ],
+  "copy_review": "n/a"
+ },
+ {
+  "id": "2026-10-27-sika-0930",
+  "metricool_id": 404695622,
+  "uuid": "-3311528096482836286",
+  "date": "2026-10-27T09:30:00+08:00",
+  "type": "post",
+  "media": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-27-0930-1.jpg?v=1792804450",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-27-0930-2.jpg?v=1792804450",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-27-0930-3.jpg?v=1792804450"
+  ],
+  "copy_review": "PASS"
+ },
+ {
+  "id": "2026-10-26-sika-gmb-0935",
+  "metricool_id": 404698343,
+  "uuid": "6774787724967365985",
+  "date": "2026-10-26T09:35:00+08:00",
+  "type": "gmb_publication",
+  "media": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-sika-2026-10-26-0930-1.jpg?v=1792804450"
+  ],
+  "copy_review": "PASS"
+ }
 ]
