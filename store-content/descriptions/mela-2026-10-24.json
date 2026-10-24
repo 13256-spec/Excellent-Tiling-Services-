@@ -10,7 +10,8 @@
    "existing description"
   ],
   "verified": false,
-  "notes": "Not on the supplier site. Only the title, option finishes and the existing 35 mm cartridge line could be used."
+  "notes": "Not on the supplier site. Only the title, option finishes and the existing 35 mm cartridge line could be used.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638850111",
@@ -25,7 +26,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638882879",
@@ -40,7 +42,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal and Brushed Brass options have no supplier page; listed without codes."
+  "notes": "Gun Metal and Brushed Brass options have no supplier page; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382642094143",
@@ -57,7 +60,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637047871",
@@ -74,7 +78,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382118592575",
@@ -89,7 +94,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639865919",
@@ -105,7 +111,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Chrome and Brushed Copper have no maker code on the supplier pages."
+  "notes": "Chrome and Brushed Copper have no maker code on the supplier pages.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382118527039",
@@ -120,7 +127,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637015103",
@@ -137,7 +145,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637244479",
@@ -153,7 +162,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636228671",
@@ -168,7 +178,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636982335",
@@ -184,7 +195,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637178943",
@@ -200,7 +212,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637211711",
@@ -216,7 +229,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637310015",
@@ -232,7 +246,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638194751",
@@ -248,7 +263,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382642061375",
@@ -265,7 +281,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Brushed Copper has no supplier page; listed without a code."
+  "notes": "Brushed Copper has no supplier page; listed without a code.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636064831",
@@ -280,7 +297,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636261439",
@@ -295,7 +313,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636294207",
@@ -310,7 +329,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636326975",
@@ -325,7 +345,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636359743",
@@ -340,7 +361,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636949567",
@@ -356,7 +378,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal and Light Gun Metal options have no maker code on the supplier pages."
+  "notes": "Gun Metal and Light Gun Metal options have no maker code on the supplier pages.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637146175",
@@ -373,7 +396,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637408319",
@@ -387,7 +411,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Supplier pages for RON.SM.001 exist in Matt Black and Gun Metal; Chrome, Brushed Nickel and Brushed Brass pages carry the square RON.SM.002 code, so those finishes are listed without a code."
+  "notes": "Supplier pages for RON.SM.001 exist in Matt Black and Gun Metal; Chrome, Brushed Nickel and Brushed Brass pages carry the square RON.SM.002 code, so those finishes are listed without a code.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637735999",
@@ -402,7 +427,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal and Light Gun Metal have no supplier page; listed without codes."
+  "notes": "Gun Metal and Light Gun Metal have no supplier page; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382641963071",
@@ -419,7 +445,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Matt Black, Gun Metal and Brushed Brass supplier pages are x3 option sets with different codes; listed without codes."
+  "notes": "Matt Black, Gun Metal and Brushed Brass supplier pages are x3 option sets with different codes; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382641995839",
@@ -436,7 +463,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Brushed Copper has no supplier page; listed without a code."
+  "notes": "Brushed Copper has no supplier page; listed without a code.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637441087",
@@ -453,7 +481,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638391359",
@@ -468,7 +497,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639276095",
@@ -485,7 +515,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639472703",
@@ -502,7 +533,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638456895",
@@ -518,7 +550,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638981183",
@@ -533,7 +566,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637113407",
@@ -550,7 +584,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638063679",
@@ -566,7 +601,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639800383",
@@ -582,7 +618,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Chrome and Brushed Copper have no supplier page; listed without codes. No warranty stated on the supplier pages."
+  "notes": "Chrome and Brushed Copper have no supplier page; listed without codes. No warranty stated on the supplier pages.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636097599",
@@ -597,7 +634,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636916799",
@@ -614,7 +652,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638096447",
@@ -630,7 +669,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8450270462015",
@@ -644,7 +684,8 @@
    "https://bathroom-city.com.au/products/mela-rondo-sink-mixer-brushed-brass-tall"
   ],
   "verified": true,
-  "notes": "Removed the old collection links at the end of the description."
+  "notes": "Removed the old collection links at the end of the description.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640980031",
@@ -657,7 +698,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636621887",
@@ -674,7 +716,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637670463",
@@ -690,7 +733,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637932607",
@@ -706,7 +750,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637965375",
@@ -721,7 +766,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Brushed Brass has no supplier page; listed without a code."
+  "notes": "Brushed Brass has no supplier page; listed without a code.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638784575",
@@ -736,7 +782,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637867071",
@@ -752,7 +799,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638424127",
@@ -767,7 +815,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636556351",
@@ -784,7 +833,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637506623",
@@ -800,7 +850,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637539391",
@@ -816,7 +867,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637572159",
@@ -832,7 +884,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637604927",
@@ -848,7 +901,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638915647",
@@ -863,7 +917,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal and Brushed Brass options have no supplier page; listed without codes. Fixed the garbled \"800(W))\" dimension line."
+  "notes": "Gun Metal and Brushed Brass options have no supplier page; listed without codes. Fixed the garbled \"800(W))\" dimension line.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636195903",
@@ -878,7 +933,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382095753279",
@@ -893,7 +949,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637342783",
@@ -910,7 +967,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Old description listed a 35 mm cartridge. A fixed spout has no cartridge and the supplier pages do not list one, so it was dropped."
+  "notes": "Old description listed a 35 mm cartridge. A fixed spout has no cartridge and the supplier pages do not list one, so it was dropped.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382095556671",
@@ -925,7 +983,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382095687743",
@@ -940,7 +999,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382638129215",
@@ -955,7 +1015,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal / Light Gun Metal variants have no supplier page; listed without codes."
+  "notes": "Gun Metal / Light Gun Metal variants have no supplier page; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664671295",
@@ -968,7 +1029,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664704063",
@@ -981,7 +1043,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664736831",
@@ -994,7 +1057,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382095851583",
@@ -1009,7 +1073,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636654655",
@@ -1026,7 +1091,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Old description said WELS 4 Star 7.5 L/min; the supplier pages and our metafields say 3 Star 9 L/min, so the supplier figure is used. Registration S18583 kept from the old description."
+  "notes": "Old description said WELS 4 Star 7.5 L/min; the supplier pages and our metafields say 3 Star 9 L/min, so the supplier figure is used. Registration S18583 kept from the old description.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382648778815",
@@ -1039,7 +1105,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382649434175",
@@ -1052,7 +1119,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382651269183",
@@ -1065,7 +1133,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382654021695",
@@ -1078,7 +1147,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382655660095",
@@ -1091,7 +1161,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382659821631",
@@ -1104,7 +1175,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382662475839",
@@ -1117,7 +1189,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664147007",
@@ -1130,7 +1203,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664343615",
@@ -1143,7 +1217,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664441919",
@@ -1156,7 +1231,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664507455",
@@ -1169,7 +1245,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382118690879",
@@ -1187,7 +1264,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636720191",
@@ -1204,7 +1282,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Old description said WELS 4 Star 7.5 L/min; supplier pages and our metafields say 3 Star 9 L/min, so the supplier figure is used. Registration S17450 kept."
+  "notes": "Old description said WELS 4 Star 7.5 L/min; supplier pages and our metafields say 3 Star 9 L/min, so the supplier figure is used. Registration S17450 kept.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636818495",
@@ -1221,7 +1300,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382641012799",
@@ -1234,7 +1314,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382648844351",
@@ -1247,7 +1328,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382663458879",
@@ -1260,7 +1342,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664474687",
@@ -1273,7 +1356,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664572991",
@@ -1287,7 +1371,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636687423",
@@ -1305,7 +1390,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636752959",
@@ -1323,7 +1409,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639013951",
@@ -1338,7 +1425,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639636543",
@@ -1354,7 +1442,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal and Light Gun Metal have no supplier page; listed without codes."
+  "notes": "Gun Metal and Light Gun Metal have no supplier page; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382641143871",
@@ -1367,7 +1456,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382637080639",
@@ -1384,7 +1474,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Supplier pages list a 35 mm cartridge for this spout, kept as in the old description."
+  "notes": "Supplier pages list a 35 mm cartridge for this spout, kept as in the old description.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639538239",
@@ -1399,7 +1490,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal, Brushed Brass and Light Gun Metal have no supplier page; listed without codes."
+  "notes": "Gun Metal, Brushed Brass and Light Gun Metal have no supplier page; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640226367",
@@ -1413,7 +1505,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Old description used size labels KASTEN.1525.3 in the SKU; supplier model numbers are KASTEN.1525 and KASTEN.1675."
+  "notes": "Old description used size labels KASTEN.1525.3 in the SKU; supplier model numbers are KASTEN.1525 and KASTEN.1675.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382641045567",
@@ -1426,7 +1519,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382652678207",
@@ -1439,7 +1533,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382658412607",
@@ -1453,7 +1548,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "White and Matt Grey options have no supplier page; listed without codes."
+  "notes": "White and Matt Grey options have no supplier page; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382664638527",
@@ -1468,7 +1564,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639243327",
@@ -1485,7 +1582,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Brushed Nickel has no supplier page; listed without a code."
+  "notes": "Brushed Nickel has no supplier page; listed without a code.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640783423",
@@ -1499,7 +1597,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640848959",
@@ -1512,7 +1611,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Black variant has no supplier page; code TRITON.550S.BK kept from the old description."
+  "notes": "Black variant has no supplier page; code TRITON.550S.BK kept from the old description.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639505471",
@@ -1528,7 +1628,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Gun Metal and Light Gun Metal options have no supplier page; listed without codes."
+  "notes": "Gun Metal and Light Gun Metal options have no supplier page; listed without codes.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639964223",
@@ -1542,7 +1643,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640029759",
@@ -1556,7 +1658,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640062527",
@@ -1570,7 +1673,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640914495",
@@ -1583,7 +1687,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Supplier model number is TRITON.770D; our SKU TRITON.7700D kept as the model in the listing."
+  "notes": "Supplier model number is TRITON.770D; our SKU TRITON.7700D kept as the model in the listing.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639702079",
@@ -1600,7 +1705,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640095295",
@@ -1614,7 +1720,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640128063",
@@ -1628,7 +1735,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382666768447",
@@ -1644,7 +1752,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Supplier lists the material as \"Artificial Board and 15mm Backing Board\"; written as engineered (artificial) board. Kickboard price on the supplier page not carried over."
+  "notes": "Supplier lists the material as \"Artificial Board and 15mm Backing Board\"; written as engineered (artificial) board. Kickboard price on the supplier page not carried over.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639177791",
@@ -1659,7 +1768,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639341631",
@@ -1676,7 +1786,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382641078335",
@@ -1689,7 +1800,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Bowl depth is not published by the supplier; removed the \"?(D)\" placeholder from the old description."
+  "notes": "Bowl depth is not published by the supplier; removed the \"?(D)\" placeholder from the old description.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382639767615",
@@ -1706,7 +1818,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Brushed Nickel has no supplier page; listed without a code. Supplier pages give the height as 2 mm, 25 mm or blank by finish; 25 mm used."
+  "notes": "Brushed Nickel has no supplier page; listed without a code. Supplier pages give the height as 2 mm, 25 mm or blank by finish; 25 mm used.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382118625343",
@@ -1723,7 +1836,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382139170879",
@@ -1738,7 +1852,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": "Light Gun Metal and Brushed Nickel variants have no supplier page; listed without codes. Removed the old Maddington showroom sentence."
+  "notes": "Light Gun Metal and Brushed Nickel variants have no supplier page; listed without codes. Removed the old Maddington showroom sentence.",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382636130367",
@@ -1753,7 +1868,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640160831",
@@ -1768,7 +1884,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382640193599",
@@ -1783,7 +1900,8 @@
    "store-content/mela-specs/mela-specs-2026-10-14.json"
   ],
   "verified": true,
-  "notes": ""
+  "notes": "",
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8382666211391",
@@ -1798,6 +1916,7 @@
    "https://bathroom-city.com.au/products/mela-clark-1200-sorrento-oak-wall-hung-vanity-2-drawer-2-shelves"
   ],
   "verified": true,
-  "notes": "Supplier material wording \"Artificial Board and 15mm Backing Board\" written as engineered (artificial) board. The 20 mm stone thickness comes from the old description. Supplier basin and kickboard upgrade prices not carried over."
+  "notes": "Supplier material wording \"Artificial Board and 15mm Backing Board\" written as engineered (artificial) board. The 20 mm stone thickness comes from the old description. Supplier basin and kickboard upgrade prices not carried over.",
+  "applied": true
  }
 ]
