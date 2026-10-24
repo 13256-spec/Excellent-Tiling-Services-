@@ -104,7 +104,7 @@ add("bat-diamond-hand-polishing-pad",
  ["bat-diamond-hand-polishing-pad-60-grit", "bat-diamond-hand-polishing-pad-800-grit"])
 
 add("bat-pro-pva-abrasive-wheel-100mm",
- "<p>The BAT Pro PVA Abrasive Wheel is a 100 mm polishing wheel for an angle grinder, made to finish the cut edges of porcelain, stone and concrete. The PVA bonded abrasive cuts cooler and leaves a smoother face than a standard grinding disc, and seven grits take an edge from rough to polished.</p>"
+ "<p>The BAT Pro PVA Abrasive Wheel is a 100 mm polishing wheel for an angle grinder, made to finish the cut edges of porcelain, stone and concrete. Seven grits take an edge from rough to polished.</p>"
  + sec("Use it for", "Polishing exposed cut edges on porcelain and stone", "Taking saw marks off mitred edges before they are glued", "Dressing concrete edges and small chips")
  + sec("Features", "PVA bonded abrasive wheel", "16 mm bore", "Seven grits so you can work up to the finish you want")
  + sec("Specifications", "Diameter: 100 mm", "Bore: 16 mm", "Recommended speed: 11,400 rpm", "Grits: 36, 60, 120, 220, 320, 400 and 600", "Models: BP-PVA036, BP-PVA060, BP-PVA120, BP-PVA220, BP-PVA320, BP-PVA400, BP-PVA600", "10 packs: BP-PVA060/10 (60 grit) and BP-PVA220/10 (220 grit)")
@@ -236,10 +236,10 @@ add("bat-pro-dry-cutting-drill-bit-guide-with-suction-cup",
  ["bat-pro-dry-cutting-drill-bit-guide-with-suction-cup", "bat-pro-dry-cutting-drill-bit-50mm-m14-thread"])
 
 add("bat-super-cluster-diamond-grinding-wheel",
- "<p>The BAT Super Cluster Diamond Grinding Wheel is a cup wheel for the angle grinder that takes old adhesive, paint and high spots off a concrete floor fast. The clustered diamond segments are aggressive enough for set adhesive, which is the job most tilers buy it for.</p>"
+ "<p>The BAT Super Cluster Diamond Grinding Wheel is a diamond grinding wheel for the angle grinder that takes old adhesive, paint and high spots off a concrete floor fast. The clustered diamond segments are aggressive enough for set adhesive, which is the job most tilers buy it for.</p>"
  + sec("Use it for", "Grinding off old tile adhesive before retiling", "Knocking down high spots and laitance on new concrete", "General floor preparation before screed or adhesive")
  + sec("Features", "Clustered diamond segments for fast removal", "Two sizes: 100 mm for a standard grinder, 180 mm for a large grinder")
- + sec("Specifications", "Diameters: 100 mm and 180 mm", "Bore: 22.2 mm, with 20 mm reducer", "Models: BD-GWSC-100 (100 mm), BD-GWSC-180 (180 mm)")
+ + sec("Specifications", "Diameters: 100 mm and 180 mm", "Bore: 22.2/20 mm", "Models: BD-GWSC-100 (100 mm), BD-GWSC-180 (180 mm)")
  + sec("Good to know", "Always wear eye protection, hearing protection and a dust mask, and use a dust shroud and vacuum where you can", "Keep the wheel moving and flat; leaning on one edge gouges the slab", "Check the slab is sound and dry before grinding; damp adhesive clogs the segments"),
  ["bat-super-cluster-grinding-wheel-100mm-x-22-2-20mm", "bat-super-cluster-grinding-wheel-180mm-x-22-2-20mm"])
 
@@ -286,7 +286,7 @@ add("bat-spirit-levels-kit-1-of-each-size",
  ["spirit-levels-kit-1-of-each-size"])
 
 add("bat-pro-builders-square",
- "<p>The BAT Pro Builders Square is a steel set square for marking and checking right angles. Tilers use it to square up the first tiles off a wall, to mark 90 degree cuts and to lay out a room before the adhesive comes out. Two sizes: 200 x 300 mm for tiles and 400 x 600 mm for floors.</p>"
+ "<p>The BAT Pro Builders Square is a set square for marking and checking right angles. Tilers use it to square up the first tiles off a wall, to mark 90 degree cuts and to lay out a room before the adhesive comes out. Two sizes: 200 x 300 mm for tiles and 400 x 600 mm for floors.</p>"
  + sec("Use it for", "Marking square cuts on tiles before scoring or sawing", "Checking a room, hob or niche is square before setting out", "Laying out tile lines and measuring off a wall")
  + sec("Features", "Right angle with a long and a short arm", "Two sizes for tile work and floor layout")
  + sec("Specifications", "200 x 300 mm (BP-BS2030)", "400 x 600 mm (BP-BS4060)")
@@ -413,15 +413,15 @@ add("bat-professional-knee-pads",
  ["professional-knee-pads"])
 
 add("bat-ring-shank-nails-25mm-bucket",
- "<p>BAT Ring Shank Nails are 25 mm galvanised nails for fixing fibre cement sheet over an existing timber floor before tiling. The ringed shank bites into the timber and does not work loose the way a smooth nail can, which matters when a tiled floor is riding on top of it. Sold by the bucket in 1, 2.5 and 5 kg.</p>"
+ "<p>BAT Ring Shank Nails are 25 mm nails for fixing fibre cement sheet over an existing timber floor before tiling. The ringed shank bites into the timber and does not work loose the way a smooth nail can, which matters when a tiled floor is riding on top of it. Sold by the bucket in 1, 2.5 and 5 kg.</p>"
  + sec("Use it for", "Nailing cement sheet underlay to timber floors", "Fixing sheet flooring and underlay where screws are too slow")
- + sec("Features", "Ring shank for grip in timber", "25 mm length suits 6 mm cement sheet over floorboards", "Resealable bucket")
+ + sec("Features", "Ring shank for grip in timber", "25 mm length", "Sold by the bucket")
  + sec("Specifications", "Length: 25 mm", "1 kg bucket, about 720 nails (N25BUCK1)", "2.5 kg bucket, about 1800 nails (N25BUCK25)", "5 kg bucket, about 3600 nails (N25BUCK5)")
  + sec("Good to know", "Follow the sheet maker's nailing pattern, usually a close grid with nails along every edge", "Punch heads flush or just below the surface so they do not show through the adhesive bed", "A 30 mm version is made for thicker sheet"),
  ["ring-shank-nails-25mm-x-1kg-bucket", "ring-shank-nails-25mm-x-5kg-bucket"])
 
 add("bat-floor-scraper-125-x-500mm",
- "<p>The BAT Floor Scraper 125 x 500 mm is the mid size scraper for lifting tiles, vinyl and old adhesive. The 125 mm blade gets under a tile edge, the 500 mm handle gives you two hands and some leverage, and the steel butt head on the end is made to be hit with a hammer when a tile will not come.</p>"
+ "<p>The BAT Floor Scraper 125 x 500 mm is the mid size scraper for lifting tiles, vinyl and old adhesive. The 125 mm blade gets under a tile edge, the 500 mm handle gives you two hands and some leverage, and the butt head on the end is made to be hit with a hammer when a tile will not come.</p>"
  + sec("Use it for", "Lifting floor tiles and vinyl during a strip out", "Scraping old adhesive and levelling compound off a slab", "Working behind toilets and in cupboards where a long pole cannot swing")
  + sec("Features", "125 mm replaceable blade", "500 mm handle for grip and leverage", "Butt head for striking with a hammer")
  + sec("Specifications", "Blade width: 125 mm", "Handle length: 500 mm", "Model: FS-125", "Takes the 5 pack of 125 mm replacement blades")
@@ -515,10 +515,10 @@ add("bat-chrome-plated-long-collar-square-floor-drain-80mm",
 add("bat-chrome-plated-floor-drain-100mm",
  "<p>The BAT Chrome Plated Floor Drain 100mm is a square chrome plated waste grate for a 100 mm outlet, the common size for shower and bathroom floor wastes. The square grate sits flush in the tiled floor and looks a lot neater than the old round chrome grate it usually replaces.</p>"
  + sec("Use it for", "Shower floors, bathrooms and wet areas with a 100 mm waste", "Replacing a round or corroded grate on an existing 100 mm waste")
- + sec("Features", "Square chrome plated grate", "Short collar", "100 mm outlet")
+ + sec("Features", "Square chrome plated grate", "100 mm outlet")
  + sec("Specifications", "Outlet: 100 mm", "Finish: chrome plated", "Model: BAT-SFD100SH")
  + sec("Fits", "100 mm waste pipes", "Spare PVC collar (BAT-SFDPVCC) available to extend the outlet", "Pairs with the BAT Luxe recessed round puddle flange in 100 x 100 mm")
- + sec("Good to know", "Matt black and ultra short collar versions are also made", DRAIN_GTK_PLUMB, DRAIN_GTK_CLEAN),
+ + sec("Good to know", "Matt black, ultra short collar and PVC collar versions are also made", DRAIN_GTK_PLUMB, DRAIN_GTK_CLEAN),
  ["chrome-plated-floor-drain-100mm", "pvc-collar-shower-floor-drain"])
 
 add("bat-chrome-plated-floor-drain-100mm-matt-black",
@@ -553,7 +553,7 @@ add("bat-stainless-steel-316-tile-insert-floor-drain-110mm",
  + sec("Use it for", "Shower floors where you do not want a chrome grate in the middle of the tile", "Bathrooms and wet rooms in large format or stone tile")
  + sec("Features", "Tile insert tray takes a cut piece of the floor tile", "Water drains through the slot around the insert", "Marine grade 316 stainless steel")
  + sec("Specifications", "Size: 110 x 110 mm", "Material: 316 stainless steel", "Model: BAT-SSFD110")
- + sec("Good to know", "Cut the insert tile a touch smaller than the tray so grout or silicone can seal around it", "The insert lifts out to clear hair and debris from the waste", DRAIN_GTK_PLUMB),
+ + sec("Good to know", "Cut the insert tile a touch smaller than the tray so grout or silicone can seal around it", DRAIN_GTK_PLUMB),
  ["stainless-steel-316-tile-insert-floor-drain-110mm"])
 
 add("bat-chrome-plated-floor-drain-100mm-ultra-short-collar-matt-black",

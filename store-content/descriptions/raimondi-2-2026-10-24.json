@@ -10,7 +10,8 @@
   ],
   "verified": true,
   "notes": "Part number and fit confirmed in the 2026 pocket catalogue (saw accessories page).",
-  "words": 163
+  "words": 163,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8423921221695",
@@ -21,7 +22,8 @@
   "sources": [],
   "verified": false,
   "notes": "No manufacturer page for this spare. Rewritten from the existing description and general use guidance.",
-  "words": 138
+  "words": 138,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8423921287231",
@@ -32,7 +34,8 @@
   "sources": [],
   "verified": false,
   "notes": "No manufacturer page for this spare. Rewritten from the existing description.",
-  "words": 127
+  "words": 127,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8423921385535",
@@ -43,7 +46,8 @@
   "sources": [],
   "verified": false,
   "notes": "No manufacturer page for this spare. Rewritten from the existing description; adjustable pulleys fact is from the Zoe Advanced listing.",
-  "words": 145
+  "words": 145,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8423921483839",
@@ -54,7 +58,8 @@
   "sources": [],
   "verified": false,
   "notes": "No manufacturer page for this spare. Rewritten from the existing description.",
-  "words": 159
+  "words": 159,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8423921516607",
@@ -65,7 +70,8 @@
   "sources": [],
   "verified": false,
   "notes": "No manufacturer page for this spare. Rewritten from the existing description.",
-  "words": 164
+  "words": 164,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8423921582143",
@@ -78,7 +84,8 @@
   ],
   "verified": true,
   "notes": "Catalogue confirms Raimondi's continuous rim ceramic discs in 300 mm; bore and rim from the existing description.",
-  "words": 154
+  "words": 154,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938616383",
@@ -91,7 +98,8 @@
   ],
   "verified": true,
   "notes": "Kit code confirmed in the catalogue saw accessories; saw size ranges from the catalogue saw pages.",
-  "words": 146
+  "words": 146,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938747455",
@@ -104,7 +112,8 @@
   ],
   "verified": true,
   "notes": "Part code confirmed in the catalogue saw accessories page.",
-  "words": 154
+  "words": 154,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938780223",
@@ -117,7 +126,8 @@
   ],
   "verified": false,
   "notes": "Only the left hand square is listed in the catalogue; right hand version rewritten from the existing description.",
-  "words": 150
+  "words": 150,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938845759",
@@ -130,7 +140,8 @@
   ],
   "verified": true,
   "notes": "Catalogue confirms Raimondi 200 mm continuous rim ceramic discs (179CC200) with 25.4 mm bore; Exploit sizes from the catalogue.",
-  "words": 149
+  "words": 149,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938878527",
@@ -143,7 +154,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 179CC200E: 200 mm, 25.4 mm bore, 10 mm rim, continuous rim for ceramic. Matches existing specs.",
-  "words": 145
+  "words": 145,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938911295",
@@ -156,7 +168,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 179CC300CAF: 300 mm, 30/25.4 mm bore, 10 mm rim. Matches existing specs.",
-  "words": 158
+  "words": 158,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938944063",
@@ -169,7 +182,8 @@
   ],
   "verified": true,
   "notes": "Depth of cut figures from the Zoe and SMS listings (Raimondi data); catalogue confirms 350 mm ceramic discs.",
-  "words": 169
+  "words": 169,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425938976831",
@@ -182,7 +196,8 @@
   ],
   "verified": true,
   "notes": "Catalogue confirms Raimondi turbo discs; specs from the existing description.",
-  "words": 163
+  "words": 163,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939042367",
@@ -195,7 +210,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists Raimondi J-slot (segmented) discs for ceramic in 250 mm including an economy grade (179SET250CBE).",
-  "words": 159
+  "words": 159,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939075135",
@@ -208,7 +224,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists Raimondi J-slot discs for ceramic in 300 mm.",
-  "words": 169
+  "words": 169,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939337279",
@@ -221,7 +238,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 179SET300G: 300 mm, 30/25.4 mm bore, 7 mm, segmented for granite. Matches existing specs.",
-  "words": 167
+  "words": 167,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939370047",
@@ -234,7 +252,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists Raimondi J-slot ceramic discs in 350 mm; depth of cut from the saw listings.",
-  "words": 169
+  "words": 169,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939402815",
@@ -247,7 +266,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 179SET350G: 350 mm, 30/25.4 mm bore, 7 mm, segmented for granite.",
-  "words": 176
+  "words": 176,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939435583",
@@ -260,7 +280,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 179SET360E: 360 mm, 30/25.4 mm bore, 7 mm, segmented for masonry/bricks.",
-  "words": 178
+  "words": 178,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939664959",
@@ -273,7 +294,8 @@
   ],
   "verified": false,
   "notes": "Kit not listed separately in the catalogue; Bulldog capacity facts from the Bulldog listing. Rewritten from the existing description.",
-  "words": 141
+  "words": 141,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939697727",
@@ -284,7 +306,8 @@
   "sources": [],
   "verified": false,
   "notes": "Not listed in the catalogue; rewritten from the existing description with Bulldog capacity from the Bulldog listing.",
-  "words": 143
+  "words": 143,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939828799",
@@ -297,7 +320,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists 1/2 bullnose continuous rim finishing wheels (fine grit) 179BULL10RF, 179BULL12RF, 179BULL15RF, 179BU20RF, 179BU30RF.",
-  "words": 158
+  "words": 158,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939894335",
@@ -310,7 +334,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists 1/2 bullnose polishing wheels in 800, 1500, 1800 and 3500 grit (15 mm). 400 grit and 10 mm radius from existing description.",
-  "words": 150
+  "words": 150,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425939927103",
@@ -323,7 +348,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists segmented half bullnose shaping wheels and continuous rim milling wheels with these codes.",
-  "words": 159
+  "words": 159,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940222015",
@@ -337,7 +363,8 @@
   ],
   "verified": true,
   "notes": "All specs from the Raimondi Raizor MkII page and 2026 catalogue.",
-  "words": 187
+  "words": 187,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940254783",
@@ -351,7 +378,8 @@
   ],
   "verified": true,
   "notes": "Raimondi's current MTC2X page lists the joined rails at 160 cm; kept the title's 153 cm. Other specs from the Raimondi page and catalogue.",
-  "words": 195
+  "words": 195,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940287551",
@@ -364,7 +392,8 @@
   ],
   "verified": true,
   "notes": "Specs from the 2026 catalogue Raizor MkII Plus entry and spare wheel listing.",
-  "words": 194
+  "words": 194,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940516927",
@@ -378,7 +407,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi Kompass page and catalogue (433KOMP 50, 1.2 kg).",
-  "words": 188
+  "words": 188,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940549695",
@@ -392,7 +422,8 @@
   ],
   "verified": true,
   "notes": "Accessory compatibility (water kit, dust containment) confirmed on the Raimondi Power Raizor MkII page, which lists the original Power Raizor.",
-  "words": 174
+  "words": 174,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940582463",
@@ -406,7 +437,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi Power Raizor MkII page and catalogue.",
-  "words": 197
+  "words": 197,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940615231",
@@ -420,7 +452,8 @@
   ],
   "verified": true,
   "notes": "Compatibility and tank size from the Raimondi page and catalogue (433PWW A, 8 lt).",
-  "words": 167
+  "words": 167,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940647999",
@@ -434,7 +467,8 @@
   ],
   "verified": true,
   "notes": "Compatibility from the Raimondi Power Raizor MkII page and catalogue (433PWZP A).",
-  "words": 167
+  "words": 167,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425940680767",
@@ -448,7 +482,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 169TR01A, 3-6 mm, 330 g. Retailer lists the body as die cast aluminium, which conflicts with the old 'galvanised steel', so the material was left out.",
-  "words": 172
+  "words": 172,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425954312255",
@@ -463,7 +498,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 169TM01AN, 3-20 mm, 1.2 kg; kept the 6-20 mm range from the title.",
-  "words": 187
+  "words": 187,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425954443327",
@@ -477,7 +513,8 @@
   ],
   "verified": true,
   "notes": "Catalogue Easy-Move 150 with 4 RV175 cups is rated for tiles up to 150 cm; RV175 cup facts from the Raimondi RV175 sheet.",
-  "words": 182
+  "words": 182,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425954476095",
@@ -491,7 +528,8 @@
   ],
   "verified": true,
   "notes": "RV175 cup facts from the Raimondi RV175 sheet; no length rating published for the six cup bar set, so none given.",
-  "words": 181
+  "words": 181,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425962799167",
@@ -504,7 +542,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 394CC 01A kit of 20 tile support cylinders for Bigfoot benches; BM 180 fit from the existing description.",
-  "words": 148
+  "words": 148,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425962864703",
@@ -518,7 +557,8 @@
   ],
   "verified": true,
   "notes": "Load and slab size from the catalogue CAM MKIV entry; the CAM Adv is the earlier model, so weight is only given for the newer versions.",
-  "words": 187
+  "words": 187,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425962995775",
@@ -532,7 +572,8 @@
   ],
   "verified": true,
   "notes": "Catalogue Tyrrel MkII: 210 kg, 6.8 kg. Wheel count kept from the existing description (distributor lists four wheels, two swivel).",
-  "words": 199
+  "words": 199,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425965977663",
@@ -545,7 +586,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 432SSBRAI corner protector, 4 pcs kit, 3-12 mm.",
-  "words": 169
+  "words": 169,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425966043199",
@@ -556,7 +598,8 @@
   "sources": [],
   "verified": false,
   "notes": "Raimondi's current page covers only the Closer Plus; rewritten from the existing description.",
-  "words": 156
+  "words": 156,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425966108735",
@@ -570,7 +613,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi Closer Plus page and catalogue (185DALMK2, 112 mm).",
-  "words": 165
+  "words": 165,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425966239807",
@@ -583,7 +627,8 @@
   ],
   "verified": true,
   "notes": "Catalogue Medusa Art. 185: 115 mm, 24 kg, 340 g, smooth surfaces.",
-  "words": 182
+  "words": 182,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425966338111",
@@ -596,7 +641,8 @@
   ],
   "verified": true,
   "notes": "Catalogue Medusa Plus 185MEMK3RP: 112 mm, 30 kg, 340 g, smooth and structured surfaces.",
-  "words": 165
+  "words": 165,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425985507391",
@@ -609,7 +655,8 @@
   ],
   "verified": true,
   "notes": "Catalogue Biventosa Plus 185BIMK3RP: 112 mm, 57 kg, 815 g.",
-  "words": 176
+  "words": 176,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425985572927",
@@ -623,7 +670,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 185WA02VRVBR1: 175 mm, 130 kg, 1.2 kg. Other specs from the Raimondi distributor listing.",
-  "words": 197
+  "words": 197,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425987309631",
@@ -634,7 +682,8 @@
   "sources": [],
   "verified": false,
   "notes": "No manufacturer page found; rewritten from the existing description with general use guidance.",
-  "words": 176
+  "words": 176,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425987375167",
@@ -648,7 +697,8 @@
   ],
   "verified": true,
   "notes": "Catalogue 142GR tile beater with anti bounce and stain free rubber, 1.8 kg; galvanised steel body from the Raimondi distributor listing.",
-  "words": 181
+  "words": 181,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425987473471",
@@ -662,7 +712,8 @@
   ],
   "verified": true,
   "notes": "Catalogue and mixer accessories sheet: Art. 243 height adjustable rake for self levelling (without handle), 1.6 kg; spare pins 243PE01A.",
-  "words": 176
+  "words": 176,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425987506239",
@@ -675,7 +726,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: white non marring anti bounce rubber mallets 176500BC (500 g) and 1761KGBC (1 kg).",
-  "words": 161
+  "words": 161,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425989439551",
@@ -689,7 +741,8 @@
   ],
   "verified": true,
   "notes": "Capacity, output, inclusions from the Raimondi Iperbet page; size and weight from the 2026 catalogue.",
-  "words": 193
+  "words": 193,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425989603391",
@@ -703,7 +756,8 @@
   ],
   "verified": true,
   "notes": "Catalogue mixing paddle table lists 178 389H (140 mm) alongside the Fluid Mix; galvanised steel from the mixer accessories sheet.",
-  "words": 167
+  "words": 167,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991209023",
@@ -717,7 +771,8 @@
   ],
   "verified": true,
   "notes": "Paddle range and construction from the Raimondi mixer accessories sheet; exact head size of this variant not published, so none given.",
-  "words": 167
+  "words": 167,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991241791",
@@ -731,7 +786,8 @@
   ],
   "verified": true,
   "notes": "Paddle range and construction from the Raimondi mixer accessories sheet; exact head size of this variant not published.",
-  "words": 156
+  "words": 156,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991274559",
@@ -745,7 +801,8 @@
   ],
   "verified": true,
   "notes": "Mixer accessories sheet: 178 389L double spiral mixing paddle 160 mm.",
-  "words": 169
+  "words": 169,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991307327",
@@ -759,7 +816,8 @@
   ],
   "verified": true,
   "notes": "Mixer accessories sheet: Art. 178 four bladed mixing paddle 120 mm, hex shank for chuck.",
-  "words": 161
+  "words": 161,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991340095",
@@ -773,7 +831,8 @@
   ],
   "verified": true,
   "notes": "Mixer accessories sheet: Art. 178 389E four bladed mixing paddle 140 mm, M14.",
-  "words": 161
+  "words": 161,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991372863",
@@ -786,7 +845,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: bucket with steel handle 289CMAN 45 lt, 289CICO 27 lt.",
-  "words": 172
+  "words": 172,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991405631",
@@ -800,7 +860,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi e-Fox page and 2026 catalogue.",
-  "words": 190
+  "words": 190,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991438399",
@@ -814,7 +875,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi Lupetto sheet and 2026 catalogue.",
-  "words": 186
+  "words": 186,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991766079",
@@ -827,7 +889,8 @@
   ],
   "verified": true,
   "notes": "Catalogue Mastino Art. 349: 0.4 kW, 230/42 V, 49 x 56 cm, 56.5 kg. Roller count and speeds from the existing description.",
-  "words": 190
+  "words": 190,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991798847",
@@ -841,7 +904,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi Terranova sheet and 2026 catalogue.",
-  "words": 193
+  "words": 193,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425991929919",
@@ -854,7 +918,8 @@
   ],
   "verified": false,
   "notes": "Catalogue lists a tempered steel mortar spreader (141PASQ) at 55 cm, which does not match the 500 mm here, so no code given. Handle options from the catalogue.",
-  "words": 173
+  "words": 173,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425992224831",
@@ -868,7 +933,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi Ipertitina sheet and 2026 catalogue. Motor power differs between the two sources so it is left out.",
-  "words": 200
+  "words": 200,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425992257599",
@@ -882,7 +948,8 @@
   ],
   "verified": true,
   "notes": "Specs from the 2026 catalogue Ipertitina Plus entry and the accessories sheet.",
-  "words": 188
+  "words": 188,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425992290367",
@@ -896,7 +963,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi Maxititina sheet and 2026 catalogue. Motor power differs between sources so it is left out.",
-  "words": 194
+  "words": 194,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425993699391",
@@ -910,7 +978,8 @@
   ],
   "verified": true,
   "notes": "Specs from the Raimondi planetary sheet and 2026 catalogue.",
-  "words": 197
+  "words": 197,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425994354751",
@@ -923,7 +992,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists 100 mm diamond pads 274FD100G0050 to G3000, a kit (274FDGP50) and the Velcro backing pad 274FD100A.",
-  "words": 195
+  "words": 195,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425994387519",
@@ -936,7 +1006,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists 100 mm diamond pads in 50, 100, 200, 400, 800, 1500 and 3000 grit.",
-  "words": 181
+  "words": 181,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425994420287",
@@ -949,7 +1020,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: pad with velcro Art. 274FD100A, listed with the 100 mm diamond pads.",
-  "words": 139
+  "words": 139,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425994485823",
@@ -962,7 +1034,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: stainless steel slant ridge notched 28 x 13 cm, 183HFV8 (8 mm), 183HFV10 (10 mm). 6 mm from existing description.",
-  "words": 195
+  "words": 195,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425996025919",
@@ -975,7 +1048,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists stainless slant ridge trowels in 28 x 13 and 36 x 13 cm; blade length of this item is not confirmed so no size is given.",
-  "words": 193
+  "words": 193,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425996091455",
@@ -988,7 +1062,8 @@
   ],
   "verified": true,
   "notes": "Catalogue foam and stiff rubber grout rakes: 139 40 (40 cm, 400 g), 139 (50 cm, 500 g), 140 (75 cm, 600 g), 140 INOX.",
-  "words": 190
+  "words": 190,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425999171647",
@@ -1001,7 +1076,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: sponge roller for cement based grout 380RULLO (Havana). Berta output from the catalogue; roller life from the Berta listing.",
-  "words": 169
+  "words": 169,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425999204415",
@@ -1014,7 +1090,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: sponge roller for epoxy resin based grout 380RULEPO (cellulose).",
-  "words": 157
+  "words": 157,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8425999958079",
@@ -1027,7 +1104,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: sponge roller high absorption for cement based grout 380RULSWE (Sweepex).",
-  "words": 156
+  "words": 156,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426000023615",
@@ -1040,7 +1118,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists antifoaming liquid 380ANTISC (100 g) and 380ANTISC500 (500 g); kept the 100 g and 400 g sizes from the existing listing options.",
-  "words": 168
+  "words": 168,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426001301567",
@@ -1053,7 +1132,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: anodised aluminium pole Art. 197, 133 cm, 420 g; sectional 197SC and 178 cm 197180CM.",
-  "words": 160
+  "words": 160,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426001399871",
@@ -1066,7 +1146,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: quick change sponge float 336 SWE (Sweepex) 17 x 34 x 4 cm; replacement 336 RICSWE.",
-  "words": 173
+  "words": 173,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426001432639",
@@ -1079,7 +1160,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 336 SWET Sweepex with cuts 17 x 34 x 4 cm; replacement 336 RICSWET.",
-  "words": 171
+  "words": 171,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426001465407",
@@ -1092,7 +1174,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: quick change replacement sponge 336 RICSWE 17 x 34 x 4 cm.",
-  "words": 154
+  "words": 154,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426001530943",
@@ -1105,7 +1188,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 336 RICSWET Sweepex with cuts 17 x 34 x 4 cm.",
-  "words": 158
+  "words": 158,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426001563711",
@@ -1118,7 +1202,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 336 RICSWESCO carved Sweepex 17 x 34 x 4 cm.",
-  "words": 152
+  "words": 152,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426001596479",
@@ -1131,7 +1216,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: quick change sponge float 355FSSWOH Sweepex 13 x 42 x 3 cm, supplied with the Pedalo.",
-  "words": 186
+  "words": 186,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426002186303",
@@ -1144,7 +1230,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 355FSSWOHT Sweepex with cuts 13 x 42 x 3 cm.",
-  "words": 176
+  "words": 176,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426002317375",
@@ -1157,7 +1244,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 355RICSWESCO carved Sweepex 13 x 42 x 3 cm.",
-  "words": 159
+  "words": 159,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426002350143",
@@ -1170,7 +1258,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: handle for quick change replacement sponges Art. 306IR20DN.",
-  "words": 163
+  "words": 163,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426002382911",
@@ -1183,7 +1272,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: quick change sponge float 217 SWE Sweepex 13 x 30 x 3 cm; replacement 217 RICSWE.",
-  "words": 174
+  "words": 174,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426002448447",
@@ -1196,7 +1286,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 217 SWET Sweepex with cuts 13 x 30 x 3 cm; replacement 217 RICSWGT.",
-  "words": 178
+  "words": 178,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426002481215",
@@ -1209,7 +1300,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: quick change replacement sponge 217 RICSWE 13 x 30 x 3 cm.",
-  "words": 159
+  "words": 159,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426003464255",
@@ -1222,7 +1314,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 217 RICSWGT Sweepex with cuts 13 x 30 x 3 cm.",
-  "words": 159
+  "words": 159,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426003529791",
@@ -1235,7 +1328,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: 217 RICSWESCO carved Sweepex 13 x 30 x 3 cm.",
-  "words": 160
+  "words": 160,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426004086847",
@@ -1248,7 +1342,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: replacement pads 227B (low), 227V (medium), 227N (high), 227M (extra high), 120 x 250 x 20 mm, for the float with abrasive pads and Velcro handle.",
-  "words": 181
+  "words": 181,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426004119615",
@@ -1261,7 +1356,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists the float with abrasive pads and Velcro handle (Art. 226) and 120 x 250 x 20 mm replacement pads.",
-  "words": 183
+  "words": 183,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426004447295",
@@ -1274,7 +1370,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: Krick krock wall levelling guides Art. 131 1, 700 g.",
-  "words": 188
+  "words": 188,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426004480063",
@@ -1287,7 +1384,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: Speed stairs setter Art. 171, 1.5 kg.",
-  "words": 193
+  "words": 193,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426004545599",
@@ -1300,7 +1398,8 @@
   ],
   "verified": true,
   "notes": "Catalogue lists the bucket-holder / tile dolly Art. 384TRI; no further specs published. Features from the existing description.",
-  "words": 184
+  "words": 184,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426004611135",
@@ -1313,7 +1412,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: knee pads with ribs (per pair) Art. 138SOFF.",
-  "words": 190
+  "words": 190,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426029088831",
@@ -1328,7 +1428,8 @@
   ],
   "verified": true,
   "notes": "Features from the Raimondi Fido page; size, weight and materials from the Raimondi distributor listing; Art. 174 from the catalogue.",
-  "words": 181
+  "words": 181,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426030596159",
@@ -1342,7 +1443,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: rolling seat with knee pad Art. 383COMBI; locking wheels from the Raimondi retailer listing.",
-  "words": 191
+  "words": 191,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426030727231",
@@ -1356,7 +1458,8 @@
   ],
   "verified": true,
   "notes": "Catalogue: extending slab lifters 144CM50-65 (2 kg) and 144CM50-120 (4.4 kg); 3 mm minimum joint from the Raimondi distributor listing.",
-  "words": 195
+  "words": 195,
+  "applied": true
  },
  {
   "id": "gid://shopify/Product/8426032169023",
@@ -1370,6 +1473,7 @@
   ],
   "verified": true,
   "notes": "Range (11 sizes, 43 models, hex spacer 161E200) from the Raimondi spacers catalogue; pack sizes from the existing description.",
-  "words": 198
+  "words": 198,
+  "applied": true
  }
 ]
