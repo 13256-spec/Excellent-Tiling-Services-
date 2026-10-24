@@ -38,6 +38,14 @@ product in `cleanup-2026-10-24.json`; result in `cleanup-results-2026-10-24.json
 | bat-2 | 89 | 76 |
 | misc-2 (Panther, Washboy, NICLIS, Atika, ADA, MELA) | 28 | 25 |
 
+## Final check (24 Oct 2026)
+
+A fresh export of all 1,123 active products was compared with the approved text: all 1,078 rewritten or cleaned
+descriptions match exactly. A store-wide scan for prices, stock, showroom, Maddington, delivery, pickup, shipping,
+trade-account, phone-number, supplier and importer wording found two leftovers (Sika Master Lite pickup line,
+Raimondi Rai-Fix Hooks "Buy ... from Excellent Tiling Services"), both fixed (`final-fixes-2026-10-24.json`).
+No active product now has a description under 60 words; median is 146 words (was 56).
+
 ## Facts the writers found that differ from what we had (check if it matters)
 
 - MELA PALCO/RONDO Shower Head and Hand Shower Set with Rail: old copy said WELS 4 star 7.5 L/min; the
