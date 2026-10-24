@@ -163,3 +163,12 @@ Owner supplied three BAT price books (Tools Book 1, Raimondi Price Book, Project
 - `reports/bat-cost-price-update-2026-10-23.csv` has every matched variant; `reports/bat-not-in-may-2026-books.csv` lists the 1,280 variants these books do not cover: 1,253 BAT Trims profiles priced from the 2023-24 catalogue (GST basis of those costs still unconfirmed), 7 BAT items on ETS-HW internal SKUs, 20 archived trim variants.
 
 Note on margins: the margin columns in the 23 Oct Roberts reports and this one are (price - cost) / price with both inc GST, which equals the margin ex GST. An earlier version of the Roberts reports divided by the ex-GST price, understating margin by about 8 points; those files were regenerated.
+
+## BAT Trims costs from Trims Book 1, August 2026 (24 Oct 2026)
+
+Owner supplied the BAT Premium Trims price book (Trims Book 1, August 2026 v2, NET prices ex GST), parsed from the PDF into `bat-trims-book-2026-08.csv` (1,102 codes). Applied with the same rules as the May books (`bat_fix_2026_10.py` pointed at this CSV, then `bat_trims_stairnosing_2026_10.py`):
+- 1,155 BAT Trims variants on 43 products now carry unit cost = book NET x 1.1. Every cost went up: the figures already in Shopify were the 2023-24 NET prices without GST.
+- Stairnosing (76 variants) is sold with the non-slip rubber insert, so its cost is bar + insert (`BSN-8-3-MF-BL` = `BSN-8-3-MF` $34.35 + `RSI-BL` $22.90), x 1.1. The old cost was exactly that sum without GST.
+- No selling price changed: every variant stays at 26.7% margin ex GST or better (median 37.5%), so no floor raise was needed and no trade band moved. No competitor price is on file for BAT Trims.
+- `reports/bat-trims-cost-update-2026-10-24.csv` has every variant (old/new cost, price, floor, margin, band). All 1,155 were added to `store-pricing-2026-10-03.csv`.
+- `reports/bat-not-in-any-price-book-2026-10-24.csv` supersedes the 23 Oct "not in May books" list: 125 variants remain without a book price. 98 active cove-trim and APC 60 corner pieces (`CTEC-*`, `CTIC-*`, `APC60-*`, one product) are not in any of the four books; 7 BAT items on internal ETS-HW SKUs need a manual code; 20 archived Unicorn and APC cove combination variants were left alone.
