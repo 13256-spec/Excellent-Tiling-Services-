@@ -10,6 +10,11 @@
   Products with a single variant are a Product; the rest are a ProductGroup with one
   Product per variant.
 
+  Every offer also says HOW we sell (24 Oct 2026, so AI assistants and shopping engines read
+  ETS as a retailer): businessFunction Sell, eligible customers Enduser + Business (public and
+  trade), pickup at the Maddington showroom, parcel delivery across Australia unless the product
+  is tagged ship-local-only (then Perth only), and the shipping destination.
+
   @param {product} product - The product to describe
 
   @example
@@ -19,8 +24,18 @@
 {%- liquid
   assign mf = product.metafields.ets
   assign business_id = shop.url | append: '#business'
+  assign business_logo = 'https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823'
   assign product_url = shop.url | append: product.url
   assign currency = cart.currency.iso_code | default: shop.currency
+  if product.tags contains 'ship-local-only'
+    assign delivery_methods = '["https://schema.org/OnSitePickup"]'
+    assign ship_region = '{ "@type": "DefinedRegion", "addressCountry": "AU", "addressRegion": "WA" }'
+    assign served = '{ "@type": "City", "name": "Perth", "containedInPlace": { "@type": "State", "name": "Western Australia" } }'
+  else
+    assign delivery_methods = '["https://schema.org/OnSitePickup", "https://schema.org/ParcelService"]'
+    assign ship_region = '{ "@type": "DefinedRegion", "addressCountry": "AU" }'
+    assign served = '{ "@type": "Country", "name": "Australia" }'
+  endif
 
   assign description = product.description | replace: '<', ' <' | strip_html | replace: '&nbsp;', ' ' | replace: '&amp;', '&' | split: ' ' | join: ' ' | truncate: 5000
   if description == blank
@@ -163,7 +178,13 @@
           "priceCurrency": {{ currency | json }},
           "availability": {% if variant.available %}"https://schema.org/InStock"{% else %}"https://schema.org/OutOfStock"{% endif %},
           "itemCondition": "https://schema.org/NewCondition",
-          "seller": { "@type": "Organization", "@id": {{ business_id | json }}, "name": {{ shop.name | json }} }
+          "businessFunction": "http://purl.org/goodrelations/v1#Sell",
+          "eligibleCustomerType": ["https://schema.org/Enduser", "https://schema.org/Business"],
+          "availableDeliveryMethod": {{ delivery_methods }},
+          "availableAtOrFrom": { "@type": "Place", "@id": {{ business_id | json }}, "name": "ETS showroom, 17A Olga Road, Maddington WA 6109" },
+          "areaServed": {{ served }},
+          "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": {{ ship_region }} },
+          "seller": { "@type": "Organization", "@id": {{ business_id | json }}, "name": {{ shop.name | json }}, "url": {{ shop.url | json }}, "logo": {{ business_logo | json }} }
           {{- return_policy }}
         }
       {%- unless product.has_only_default_variant %}

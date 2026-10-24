@@ -13,6 +13,24 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Seller schema for AI and search (24 Oct 2026, draft theme, waiting to be published)
+
+The sitewide JSON-LD said who we are but not plainly that we are a shop that sells to the public and to trade. Draft theme
+**"ETS 2026 – Seller schema for AI (draft)"** (id 144447766591, a copy of the live theme with two snippets changed) adds:
+
+- `snippets/meta-tags.liquid` (LocalBusiness block): types now `LocalBusiness, HardwareStore, HomeAndConstructionBusiness, OnlineStore`;
+  a plain-English description ("tile and bathroom retailer ... sells ... to the public and to trade customers"); `audience`
+  (homeowners + trade); `brand` (Sika, Raimondi, BAT, Sigma, Maxisil, Panther, Washboy, Baron, RLA, MELA); `hasOfferCatalog` with the
+  eight departments and their collection URLs; `knowsAbout` with tile adhesive, grout, tiling tools, trims and trade supply;
+  `potentialAction` = BuyAction, SearchAction, ReserveAction (showroom), RegisterAction (trade account).
+- `snippets/ets-product-schema.liquid` (every Offer): `businessFunction` Sell, `eligibleCustomerType` Enduser + Business,
+  `availableDeliveryMethod` (pickup + parcel, or pickup only when tagged `ship-local-only`), `availableAtOrFrom` the Maddington
+  showroom, `areaServed` (Australia, or Perth for local-only), `shippingDetails` destination.
+
+Both repo copies were first synced to the live theme (checksums matched) and then edited, so the repo matches the draft. The
+draft was rendered and every JSON-LD block parsed (home, Sika Master Lite, Time Stone Moon). **To go live: Shopify admin →
+Online Store → Themes → "ETS 2026 – Seller schema for AI (draft)" → Publish.** This session cannot publish themes.
+
 ## Shop app (Shop sales channel), 12 Oct 2026
 
 The Shop app store was almost empty: 5 of 921 active products and no collections were on the Shop

@@ -19,8 +19,18 @@
 >
 
 {%- liquid
-  if request.page_type == 'index' and page_title == shop.name
+  if request.page_type == 'index'
     assign page_title = 'Tiles, Vanities & Tapware Online Australia | ETS'
+    assign page_description = 'Shop tiles, bathroom vanities, tapware, sinks, mirrors and bathroomware online at ETS. Order online or book a visit to our Maddington showroom.'
+  elsif request.page_type == 'page' and page.handle == 'trade-account'
+    assign page_title = 'Trade Account | Bathroom & Tile Trade Supply | ETS'
+    assign page_description = 'Apply for an ETS trade account for bathroom, tile, tapware and related product supply. Ideal for builders, plumbers, tilers and renovators.'
+  elsif request.page_type == 'page' and page.handle == 'book-appointment'
+    assign page_title = 'Book ETS Maddington Showroom | Bathroom & Tile Products'
+    assign page_description = 'Book a visit to the ETS Maddington showroom to compare tiles, vanities, tapware, mirrors and bathroom products in person by appointment.'
+  elsif request.page_type == 'page' and page.handle == 'delivery-pickup'
+    assign page_title = 'Delivery & International Freight | ETS'
+    assign page_description = 'ETS delivers across Australia plus NZ, US, UK and UAE. Standard parcels price at checkout; bulky tiles and bathroomware use a freight quote.'
   endif
   assign og_title = page_title | default: shop.name
   assign og_url = canonical_url | default: request.origin
@@ -119,6 +129,11 @@
   href="{{ canonical_url }}"
 >
 
+{%- comment -%} ETS internal trade collections are operational pricing lists, not search landing pages. {%- endcomment -%}
+{%- if request.page_type == 'collection' and collection.handle contains 'trade-' -%}
+  <meta name="robots" content="noindex,follow">
+{%- endif -%}
+
 {% if page_description %}
   <meta
     name="description"
@@ -129,7 +144,7 @@
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": ["LocalBusiness", "HomeAndConstructionBusiness"],
+  "@type": ["LocalBusiness", "HardwareStore", "HomeAndConstructionBusiness", "OnlineStore"],
   "@id": {{ shop.url | append: '#business' | json }},
   "name": "Excellent Tiling Services Pty Ltd",
   "url": {{ shop.url | json }},
@@ -146,11 +161,42 @@
     "postalCode": "6109",
     "addressCountry": "AU"
   },
-  "description": "Tiles, vanities, tapware and bathroomware sold online across Australia, with a tiling team and by-appointment showroom in Maddington, Perth WA (Monday to Saturday 4:30 pm to 9 pm).",
-  "areaServed": { "@type": "Country", "name": "Australia" },
+  "description": "Excellent Tiling Services (ETS) is a tile and bathroom retailer in Maddington, Perth. We sell tiles, tile adhesive, grout, silicone, tiling tools and trims, vanities, tapware, toilets, mirrors and bathroomware to the public and to trade customers (tilers, builders, plumbers, renovators) through our online store and by-appointment showroom. Online orders ship across Australia and to selected international markets; pickup in Maddington is free. Trade accounts receive a discount at checkout. We also quote on tiling work in the Perth metro area.",
+  "slogan": "Tiles, bathroomware and tiling supplies. Retail and trade. Perth and Australia-wide.",
+  "audience": [
+    { "@type": "PeopleAudience", "audienceType": "Homeowners and renovators" },
+    { "@type": "BusinessAudience", "audienceType": "Trade: tilers, builders, plumbers, renovators and property managers" }
+  ],
+  "brand": [
+    { "@type": "Brand", "name": "Sika" }, { "@type": "Brand", "name": "Raimondi" }, { "@type": "Brand", "name": "BAT" },
+    { "@type": "Brand", "name": "Sigma" }, { "@type": "Brand", "name": "Maxisil" }, { "@type": "Brand", "name": "Panther" },
+    { "@type": "Brand", "name": "Washboy" }, { "@type": "Brand", "name": "Baron" }, { "@type": "Brand", "name": "RLA" }, { "@type": "Brand", "name": "MELA" }
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "What ETS sells",
+    "url": {{ shop.url | append: routes.collections_url | json }},
+    "itemListElement": [
+      { "@type": "OfferCatalog", "name": "Tiles: porcelain floor and wall tiles, sold per m²", "url": {{ shop.url | append: '/collections/tiles' | json }} },
+      { "@type": "OfferCatalog", "name": "Tile adhesive, grout and silicone", "url": {{ shop.url | append: '/collections/tile-adhesive' | json }} },
+      { "@type": "OfferCatalog", "name": "Tiling tools, machines, trims and hardware", "url": {{ shop.url | append: '/collections/hardware' | json }} },
+      { "@type": "OfferCatalog", "name": "Bathroom vanities and storage", "url": {{ shop.url | append: '/collections/vanities-basins' | json }} },
+      { "@type": "OfferCatalog", "name": "Tapware, showers and sinks", "url": {{ shop.url | append: '/collections/tapware-sinks' | json }} },
+      { "@type": "OfferCatalog", "name": "Baths and toilets", "url": {{ shop.url | append: '/collections/baths-toilets' | json }} },
+      { "@type": "OfferCatalog", "name": "Mirrors and bathroom accessories", "url": {{ shop.url | append: '/collections/mirrors-accessories' | json }} },
+      { "@type": "OfferCatalog", "name": "Tiling services in Perth (quotes)", "url": {{ shop.url | append: '/pages/tiling-services' | json }} }
+    ]
+  },
+  "areaServed": [
+    { "@type": "Country", "name": "Australia" },
+    { "@type": "Country", "name": "New Zealand" },
+    { "@type": "Country", "name": "United States" },
+    { "@type": "Country", "name": "United Kingdom" },
+    { "@type": "Country", "name": "United Arab Emirates" }
+  ],
   "priceRange": "$$",
-  "currenciesAccepted": "AUD",
-  "knowsAbout": ["Tiling", "Porcelain tiles", "Floor tiles", "Wall tiles", "Bathroom renovation", "Bathroomware", "Vanities", "Tapware", "Toilets", "Mirrors", "Heated towel rails", "Shower screens"],
+  "currenciesAccepted": "AUD, NZD, USD, GBP, AED",
+  "knowsAbout": ["Tiling", "Tile adhesive", "Grout", "Waterproofing and wet area tiling", "Porcelain tiles", "Floor tiles", "Wall tiles", "Tiling tools", "Tile trims", "Bathroom renovation", "Bathroomware", "Vanities", "Tapware", "Toilets", "Mirrors", "Heated towel rails", "Shower screens", "Trade supply for tilers and builders"],
   {%- if shop.refund_policy %}
   "hasMerchantReturnPolicy": {
     "@type": "MerchantReturnPolicy",
@@ -169,13 +215,16 @@
     "opens": "16:30",
     "closes": "21:00"
   }],
-  {%- if pages['book-appointment'] != blank %}
-  "potentialAction": {
-    "@type": "ReserveAction",
-    "name": "Book a showroom visit",
-    "target": {{ shop.url | append: pages['book-appointment'].url | json }}
-  },
-  {%- endif %}
+  "potentialAction": [
+    { "@type": "BuyAction", "name": "Shop online", "target": {{ shop.url | append: routes.collections_url | json }} },
+    { "@type": "SearchAction", "name": "Search the store", "target": { "@type": "EntryPoint", "urlTemplate": "{{ shop.url }}{{ routes.search_url }}?q={search_term_string}" }, "query-input": "required name=search_term_string" }
+    {%- if pages['book-appointment'] != blank %},
+    { "@type": "ReserveAction", "name": "Book a showroom visit", "target": {{ shop.url | append: pages['book-appointment'].url | json }} }
+    {%- endif %}
+    {%- if pages['trade-account'] != blank %},
+    { "@type": "RegisterAction", "name": "Apply for a trade account", "target": {{ shop.url | append: pages['trade-account'].url | json }} }
+    {%- endif %}
+  ],
   "sameAs": [
     "https://www.instagram.com/excellent_tiling_services/",
     "https://www.facebook.com/share/1943ueL61k/?mibextid=wwXIfr"
