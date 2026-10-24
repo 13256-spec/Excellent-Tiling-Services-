@@ -57,3 +57,9 @@ Both captions, the Marketplace text and the Google post: PASS. Checked against t
 pools and spas (concrete), under-tile heating, low VOC. Shipping line is the approved safe line; no free
 shipping, no competitor claims, no supplier name, no exclamation marks. Hooks lead with the benefit
 (15kg goes as far as 20kg; wet areas and pools).
+
+## Scheduled (24 Oct 2026)
+
+Images on Shopify Files (`cdn.shopify.com/.../files/ets-sika-*.jpg`); Metricool ids in `schedule/results-sika.json`:
+Mon 26 Oct 9:30 am carousel (404695580), Mon 26 Oct 8:30 pm Story (404695597), Tue 27 Oct 9:30 am carousel (404695622).
+Instagram + Facebook, auto-publish. Marketplace and Google Business texts above are for the owner to paste by hand.
