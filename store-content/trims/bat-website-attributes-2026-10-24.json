@@ -1,0 +1,660 @@
+{
+ "brass-angle-x-3-18mm-x-3-6m": {
+  "title": "Brass Angle x 3.18mm x 3.6m",
+  "sku": "BA-(Size)32-36",
+  "attrs": {
+   "Size": [
+    "19.05mm x 19.05mm",
+    "25.4mm x 25.4mm",
+    "31.75mm x 31.75mm",
+    "38.1mm x 38.1mm",
+    "50.8mm x 50.8mm"
+   ]
+  }
+ },
+ "aluminium-flat-bar-x-3mm-x-4m": {
+  "title": "Aluminium Flat Bar x 3mm x 4m",
+  "sku": "AF-(Size)3-4",
+  "attrs": {
+   "Size": [
+    "100mm",
+    "10mm",
+    "12mm",
+    "16mm",
+    "20mm",
+    "25mm",
+    "32mm",
+    "40mm",
+    "50mm",
+    "80mm"
+   ]
+  }
+ },
+ "birds-mouth-trim-x-3m": {
+  "title": "Birds Mouth Trim x 3m",
+  "sku": "BMT-(Size)-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Gloss Black",
+    "Matt Silver",
+    "Mill Finish",
+    "Pearl White"
+   ],
+   "Size": [
+    "10mm",
+    "12mm",
+    "15mm",
+    "20mm",
+    "25mm",
+    "8mm"
+   ]
+  }
+ },
+ "border-trim-x-3m": {
+  "title": "Border Trim x 3m",
+  "sku": "BT-(Size)-3-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Alabaster",
+    "Bright Silver",
+    "Gloss Black",
+    "Matt Silver",
+    "Mill Finish",
+    "Pearl White"
+   ],
+   "Size": [
+    "10mm",
+    "8mm"
+   ]
+  }
+ },
+ "chrome-plated-brass-angle-x-3m": {
+  "title": "Chrome Plated Brass Angle x 3m",
+  "sku": "CPBA-(Size)-3",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "16mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "4mm",
+    "6mm",
+    "8mm",
+    "9mm"
+   ]
+  }
+ },
+ "cove-trim-end-caps-10-x-8mm-left-grey-10": {
+  "title": "Cove Trim End Caps 10 x 8mm Left/Grey (10)",
+  "sku": "CTCAP-108L-GR",
+  "attrs": {}
+ },
+ "balcony-trim-joiners-6-pack": {
+  "title": "Balcony Trim Joiners (6 pack)",
+  "sku": "BETJ-6",
+  "attrs": {}
+ },
+ "batex-aluminium-x-10mm-x-3m": {
+  "title": "Batex Aluminium x 10mm x 3m",
+  "sku": "BTXA-(Size)10-3-(Colour)",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "8mm",
+    "9mm"
+   ],
+   "Colour": [
+    "Black",
+    "Grey"
+   ]
+  }
+ },
+ "balcony-trim-x-3m": {
+  "title": "Balcony Trim x 3m",
+  "sku": "BET-(Size)-3-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ],
+   "Size": [
+    "10mm",
+    "12mm",
+    "8mm"
+   ]
+  }
+ },
+ "aluminium-diminishing-trim-x-3m": {
+  "title": "Aluminium Diminishing Trim x 3m",
+  "sku": "ADT-(Size)-3-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Bright Gold",
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ],
+   "Size": [
+    "10mm",
+    "12mm",
+    "15mm",
+    "8mm"
+   ]
+  }
+ },
+ "cove-trim-end-caps-10-x-10mm-univ-white-10": {
+  "title": "Cove Trim End Caps 10 x 10mm Univ/White (10)",
+  "sku": "CTCAP-1010-WH",
+  "attrs": {}
+ },
+ "balcony-trim-external-corner-12mm": {
+  "title": "Balcony Trim \u2013 External Corner 12mm",
+  "sku": "BETEC-12-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ]
+  }
+ },
+ "co-pro-corner-protection-trim": {
+  "title": "Co-Pro Corner Protection Trim",
+  "sku": "BCP-(Size)-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Bright Silver",
+    "Linished Matt Gold",
+    "Linished Silver",
+    "Matt Black",
+    "Pearl",
+    "White"
+   ],
+   "Size": [
+    "10mm x 10mm",
+    "15mm x 15mm",
+    "20mm x 20mm"
+   ]
+  }
+ },
+ "brass-angle-x-3m": {
+  "title": "Brass Angle x 3m",
+  "sku": "NBA-(Size)-3",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "16mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "4mm",
+    "6mm",
+    "8mm",
+    "9mm"
+   ]
+  }
+ },
+ "aluminium-angle-x-3m-notched": {
+  "title": "Aluminium Angle x 3m Notched",
+  "sku": "AA-(Size)-3-N",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "25mm",
+    "4mm",
+    "6mm",
+    "8mm",
+    "9mm"
+   ]
+  }
+ },
+ "balcony-trim-internal-corner-10mm": {
+  "title": "Balcony Trim \u2013 Internal Corner 10mm",
+  "sku": "BETIC-10-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ]
+  }
+ },
+ "brass-half-round-trim-x-3m": {
+  "title": "Brass Half Round Trim x 3m",
+  "sku": "HRT-(Size)-3B",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "12mm",
+    "6mm",
+    "8mm"
+   ]
+  }
+ },
+ "chrome-plated-brass-corner-angle-x-3m": {
+  "title": "Chrome Plated Brass Corner Angle x 3m",
+  "sku": "CPBCA-(Size)-3",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "12mm",
+    "8mm"
+   ]
+  }
+ },
+ "apc-60-cove-trim-external-corner-colour": {
+  "title": "APC 60 Cove Trim External Corner \u2013 (Colour)",
+  "sku": "APC60-EC-(Colour)",
+  "attrs": {}
+ },
+ "apc-60-cove-trim-joiners-pack-of-6": {
+  "title": "APC 60 Cove Trim Joiners Pack of 6",
+  "sku": "APC60J-6",
+  "attrs": {}
+ },
+ "batex-aluminium-x-6mm-x-3-3m-to-suit-vinyl-install": {
+  "title": "Batex Aluminium x 6mm x 3.3m to suit Vinyl Install",
+  "sku": "BTXV-(Size)6-33(Colour)",
+  "attrs": {
+   "Size": [
+    "2.5mm",
+    "5.5mm"
+   ],
+   "Colour": [
+    "Black",
+    "Dark Grey",
+    "Smokey Grey"
+   ]
+  }
+ },
+ "brass-angle-x-1m": {
+  "title": "Brass Angle x 1m",
+  "sku": "NBA-(Size)-1",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "16mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "4mm",
+    "6mm",
+    "8mm",
+    "9mm"
+   ]
+  }
+ },
+ "cove-trim-external-corner-10-x-8mm-colour": {
+  "title": "Cove Trim External Corner 10 x 8mm \u2013 (Colour)",
+  "sku": "CTEC-108-(Colour)",
+  "attrs": {}
+ },
+ "batex-brass-x-6mm-x-3m": {
+  "title": "Batex Brass x 6mm x 3m",
+  "sku": "BTXB-(Size)6-3",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "8mm",
+    "9mm"
+   ],
+   "Colour": [
+    "Black",
+    "Grey"
+   ]
+  }
+ },
+ "aluminium-angle-x-1m": {
+  "title": "Aluminium Angle x 1m",
+  "sku": "AA-(Size)-1-(Colour)",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "25mm",
+    "4mm",
+    "6mm",
+    "8mm",
+    "9mm"
+   ]
+  }
+ },
+ "mca": {
+  "title": "Mosaic Corner Angle x 3m",
+  "sku": "MCA-(Size)-3-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Alabaster",
+    "Bright Gold",
+    "Bright Silver",
+    "Gloss Black",
+    "Linished Black",
+    "Linished Gold",
+    "Linished Matt Gold",
+    "Linished Silver",
+    "Matt Black",
+    "Matt Silver",
+    "Matt White",
+    "Mill Finish",
+    "Pearl White"
+   ],
+   "Size": [
+    "10mm",
+    "12mm",
+    "15mm",
+    "4mm",
+    "6mm",
+    "8mm"
+   ]
+  }
+ },
+ "cove-trim-end-caps-10-x-8mm-right-white-10": {
+  "title": "Cove Trim End Caps 10 x 8mm Right/White (10)",
+  "sku": "CTCAP-108R-WH",
+  "attrs": {}
+ },
+ "balcony-trim-external-corner-10mm": {
+  "title": "Balcony Trim \u2013 External Corner 10mm",
+  "sku": "BETEC-10-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ]
+  }
+ },
+ "aluminium-angle-x-3m": {
+  "title": "Aluminium Angle x 3m",
+  "sku": "AA-(Size)-3-(Colour)",
+  "attrs": {}
+ },
+ "batex-brass-x-10mm-x-3m": {
+  "title": "Batex Brass x 10mm x 3m",
+  "sku": "BTXB-(Size)10-3",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "8mm",
+    "9mm"
+   ],
+   "Colour": [
+    "Black",
+    "Grey"
+   ]
+  }
+ },
+ "chrome-plated-half-round-trim-x-3m": {
+  "title": "Chrome Plated Half Round Trim x 3m",
+  "sku": "CPHRT-(Size)-3",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "12mm",
+    "6mm",
+    "8mm"
+   ]
+  }
+ },
+ "aluminium-flat-bar-x-1-6mm-x-4m": {
+  "title": "Aluminium Flat Bar x 1.6mm x 4m",
+  "sku": "AF-(Size)16-4",
+  "attrs": {
+   "Size": [
+    "12mm",
+    "20mm",
+    "25mm"
+   ]
+  }
+ },
+ "cove-trim-end-caps-10-x-8mm-left-white-10": {
+  "title": "Cove Trim End Caps 10 x 8mm Left/White (10)",
+  "sku": "CTCAP-108L-WH",
+  "attrs": {}
+ },
+ "balcony-trim-internal-corner-12mm": {
+  "title": "Balcony Trim \u2013 Internal Corner 12mm",
+  "sku": "BETIC-12-MF",
+  "attrs": {
+   "Colour": [
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ]
+  }
+ },
+ "aluminium-y-section-x-3m": {
+  "title": "Aluminium Y Section x 3m",
+  "sku": "BDY-(Size)-3-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Matt Silver",
+    "Mill Finish"
+   ],
+   "Size": [
+    "10mm",
+    "12mm",
+    "8mm"
+   ]
+  }
+ },
+ "cove-trim-end-caps-10-x-8mm-right-grey-10": {
+  "title": "Cove Trim End Caps 10 x 8mm Right/Grey (10)",
+  "sku": "CTCAP-108R-GR",
+  "attrs": {}
+ },
+ "batex-aluminium-x-6mm-x-3m": {
+  "title": "Batex Aluminium x 6mm x 3m",
+  "sku": "BTXA-(Size)6-3-(Colour)",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "8mm",
+    "9mm"
+   ],
+   "Colour": [
+    "Black",
+    "Grey"
+   ]
+  }
+ },
+ "brass-angle-x-1-59mm-x-3-6m": {
+  "title": "Brass Angle x 1.59mm x 3.6m",
+  "sku": "BA-(Size)16-36",
+  "attrs": {
+   "Size": [
+    "12.7mm x 12.7mm",
+    "19.05mm x 19.05mm",
+    "25.4mm x 25.4mm"
+   ]
+  }
+ },
+ "batex-stainless-steel-x-6mm-x-3m": {
+  "title": "Batex Stainless Steel x 6mm x 3m",
+  "sku": "BTXS-(Size)10-3(Colour)",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "8mm",
+    "9mm"
+   ],
+   "Colour": [
+    "Black",
+    "Grey"
+   ]
+  }
+ },
+ "balcony-trim-external-corner-8mm": {
+  "title": "Balcony Trim \u2013 External Corner 8mm",
+  "sku": "BETEC-8-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ]
+  }
+ },
+ "cove-trim-end-caps-10-x-10mm-univ-grey-10": {
+  "title": "Cove Trim End Caps 10 x 10mm Univ/Grey (10)",
+  "sku": "CTCAP-1010-GR",
+  "attrs": {}
+ },
+ "apc-60-cove-trim-x-3m": {
+  "title": "APC 60 Cove Trim x 3m",
+  "sku": "APC60-3-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Alabaster",
+    "Bright Silver",
+    "Gloss Black",
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish",
+    "Pearl White"
+   ]
+  }
+ },
+ "aluminium-channel-trim": {
+  "title": "Aluminium Channel Trim",
+  "sku": "AA-(X)-3-(Colour)",
+  "attrs": {}
+ },
+ "balcony-trim-internal-corner-8mm": {
+  "title": "Balcony Trim \u2013 Internal Corner 8mm",
+  "sku": "BETIC-8-(Colour)",
+  "attrs": {
+   "Colour": [
+    "Matt Black",
+    "Matt Silver",
+    "Mill Finish"
+   ]
+  }
+ },
+ "cove-trim-external-corner-10-x-10mm-colour": {
+  "title": "Cove Trim External Corner 10 x 10mm \u2013 (Colour)",
+  "sku": "CTEC-1010-(Colour)",
+  "attrs": {}
+ },
+ "batex-stainless-steel-x-10mm-x-3m": {
+  "title": "Batex Stainless Steel x 10mm x 3m",
+  "sku": "BTXS-(Size)6-3-(Colour)",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "11mm",
+    "12mm",
+    "13mm",
+    "15mm",
+    "17mm",
+    "18mm",
+    "20mm",
+    "22mm",
+    "23mm",
+    "25mm",
+    "8mm",
+    "9mm"
+   ],
+   "Colour": [
+    "Black",
+    "Grey"
+   ]
+  }
+ },
+ "aluminium-diminishing-trim-commercial-x-3m-matt-silver": {
+  "title": "Aluminium Diminishing Trim \u2013 Commercial x 3m \u2013 Matt Silver",
+  "sku": "ADTC-(Size)-3-MS",
+  "attrs": {
+   "Size": [
+    "10mm",
+    "12mm",
+    "8mm"
+   ]
+  }
+ }
+}
