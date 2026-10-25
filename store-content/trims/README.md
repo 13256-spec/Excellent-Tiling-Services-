@@ -13,7 +13,8 @@ MCA-10-3-LSP). BAT's website and price book both call this finish "Linished Silv
   Book (Aug 2026) and Project Trims Book (May 2026), and each product to its battrims.com page (87 pages,
   colour and size tables in `bat-website-attributes-2026-10-24.json`).
 - BAT's website rounds sizes down (it lists "4mm", "12mm" for profiles the bags and price books call 4.5mm and
-  12.5mm), so sizes were checked against the price book and bag labels, and colours against the website.
+  12.5mm). Colours were checked against the website.
+- **Sizes follow BAT's website: whole numbers, no ".5"** (owner's call, 25 Oct 2026). See "Whole-number sizes" below.
 
 ## Fixed in Shopify (labels only; codes, prices and stock unchanged)
 
@@ -28,6 +29,19 @@ MCA-10-3-LSP). BAT's website and price book both call this finish "Linished Silv
   - Marine Grade 316 Stainless Angle: 17.5mm → 17mm (SSAMG-17-3)
   - BATEX Aluminium: 17mm → 17.5mm (BTXA-176-3-*, BTXA-1710-3-*)
 - **Barcode** 9325465016702 added to MCA-10-3-LSP.
+
+## Whole-number sizes (25 Oct 2026)
+
+The owner asked for no ".5" sizes, matching BAT's website. Every ".5" size option was rounded down: 76 values
+on 29 products. For example, 4.5 → 4, 10.5 → 10, 12.5 → 12, 23.5 → 23, "12.5 x 10mm" → "12 x 10mm",
+"12.5 / 15mm" → "12 / 15mm". This undoes the 23 → 23.5, 12 → 12.5 and 17 → 17.5 label changes above. Size
+lists in 25 product descriptions were updated to match. SKUs (BAT re-order codes), prices and stock are unchanged.
+The bag labels and price books still print the .5 size (the MCA-10-3-LSP bag says 10.5mm, listed here as 10mm).
+
+Left with a ".5" on purpose:
+- BATEX Expansion Joint for Vinyl, heights 2.5mm and 5.5mm. BAT's website lists these the same way.
+- Lengths (stainless half round in 2.5m), and profile dimensions that aren't the size you pick (Unicorn
+  5 x 11.5 x 11.5mm, stairnosing nose 21.5mm).
 
 ## Checked and correct (no change)
 
