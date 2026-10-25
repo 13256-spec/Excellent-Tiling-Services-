@@ -62,3 +62,11 @@ Left with a ".5" on purpose:
 - Product photos don't change when a finish is picked on most trim listings, and BAT doesn't publish per-finish
   photos. The variant SKU (BAT re-order code) is in the page data but not shown to shoppers; showing it would let
   anyone match a bag's re-order code to the listing.
+
+## Description touch-ups (25 Oct 2026)
+
+- Mosaic Corner Angle: finish list now reads "Linished Silver (labelled Linished Bright Silver on BAT packaging)",
+  the owner's choice over renaming the option. The same list said "Black" and "Bronze Ash"; it now says Gloss Black
+  and Linished Matt Gold, matching the 13 options.
+- 15 other trim descriptions said "Black" in their finish list after the option was renamed Gloss Black; now
+  "Gloss Black". The stairnosing's rubber insert colour stays "Black".
