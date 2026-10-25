@@ -33,7 +33,7 @@ MCA-10-3-LSP). BAT's website and price book both call this finish "Linished Silv
 ## Whole-number sizes (25 Oct 2026)
 
 The owner asked for no ".5" sizes, matching BAT's website. Every ".5" size option was rounded down: 76 values
-on 29 products. For example, 4.5 → 4, 10.5 → 10, 12.5 → 12, 23.5 → 23, "12.5 x 10mm" → "12 x 10mm",
+on 28 products. For example, 4.5 → 4, 10.5 → 10, 12.5 → 12, 23.5 → 23, "12.5 x 10mm" → "12 x 10mm",
 "12.5 / 15mm" → "12 / 15mm". This undoes the 23 → 23.5, 12 → 12.5 and 17 → 17.5 label changes above. Size
 lists in 25 product descriptions were updated to match. SKUs (BAT re-order codes), prices and stock are unchanged.
 The bag labels and price books still print the .5 size (the MCA-10-3-LSP bag says 10.5mm, listed here as 10mm).
