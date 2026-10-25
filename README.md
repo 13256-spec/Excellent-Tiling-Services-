@@ -13,6 +13,19 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Supplier on every product (25 Oct 2026)
+
+The pinned product metafield **`ets.supplier`** ("Supplier") now records who ETS buys each product from, on all 1,126
+products (it was filled on 136). Values, by vendor: MELA and the MELA vanity add-ons → **Bathroom City**; tiles and the
+DSA range (vendor "Excellent Tiling Services") → **Eternity Tiles**; Roberts Designs, Maxisil, Sigma, Siri, Baron and
+Barwalt (the `Roberts Designs` / `supplier-import` tags) → **Roberts Designs**; BAT, BAT Trims, Raimondi, Panther,
+NICLIS, Washboy, ADA Instruments and Atika (the `supplier-bat` tag; Raimondi is bought through BAT's Raimondi price
+book) → **B.A.T. Trims Pty Ltd**; Sika → **Sika Australia**. Two products have no supplier recorded because nothing in
+the store or these notes says where they come from: the RLA Quick Set Liquid Additive and the Click Heavy Duty
+Powerblock. The older unpinned `custom.supplier` field (Eternity items only) was left as it was; `ets.supplier` is the
+one to use. Filter in admin with Products → search `metafields.ets.supplier:"Roberts Designs"` or add the Supplier
+column to the product list.
+
 ## POS collections (25 Oct 2026)
 
 Only 3 collections were published to the Point of Sale channel, so the POS home screen had nothing to pin. Now every
