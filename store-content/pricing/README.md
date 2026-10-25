@@ -162,6 +162,8 @@ Owner supplied three BAT price books (Tools Book 1, Raimondi Price Book, Project
 - 10 trade bands changed (8 products 25% to 20%, one 15% to 20%, one 0% to 5%); metafield and collections updated.
 - `reports/bat-cost-price-update-2026-10-23.csv` has every matched variant; `reports/bat-not-in-may-2026-books.csv` lists the 1,280 variants these books do not cover: 1,253 BAT Trims profiles priced from the 2023-24 catalogue (GST basis of those costs still unconfirmed), 7 BAT items on ETS-HW internal SKUs, 20 archived trim variants.
 
+Re-checked 25 Oct 2026 on the owner's query, against the original Project Trims Book 1 (May 2026) spreadsheet. All 98 PA-/PMCA- codes match, and every Shopify cost = NET x 1.1. The selling prices already include GST (PA-8-3: $3.30 NET / 0.6 = $5.50 + GST = $6.05, a 40% margin ex GST; PMCA 37-39%). The owner chose to keep the prices.
+
 Note on margins: the margin columns in the 23 Oct Roberts reports and this one are (price - cost) / price with both inc GST, which equals the margin ex GST. An earlier version of the Roberts reports divided by the ex-GST price, understating margin by about 8 points; those files were regenerated.
 
 ## BAT Trims costs from Trims Book 1, August 2026 (24 Oct 2026)
