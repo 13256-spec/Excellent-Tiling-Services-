@@ -13,6 +13,21 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## POS collections (25 Oct 2026)
+
+Only 3 collections were published to the Point of Sale channel, so the POS home screen had nothing to pin. Now every
+collection except the `trade-list-*` price lists and `black-friday-2026` is on POS (103 collections), and nine new automated
+collections fill the gaps in the tiling-supplies side (all also on Online Store and Shop, each with a cover image):
+`grout`, `silicone-sealants` (silicone, hybrid sealants, primers, nozzles, cleaner), `waterproofing`, `trowels-floats`,
+`tile-cutters-saws-machines`, `large-format-tile-handling`, `tiling-hand-tools`, `knee-pads-workwear`, `clearance`
+(tag `Clearance Item`). `tile-adhesive` is now "Tile Adhesive & Additives" (adds the `Adhesives & Additives` tag),
+`tile-spacers-wedges` also takes the `Tile Wedges` type and `diamond-blades-drill-bits` the `Core Drills` type.
+Suggested POS smart grid (Shopify POS app → Home → Edit grid): Tiles · Tile Adhesive & Additives · Grout · Silicone & Sealants ·
+Waterproofing · Trowels & Floats · Tile Spacers & Wedges · Tile Cutters, Saws & Machines · Diamond Blades & Drill Bits ·
+Tile Trims & Edging · Floor Drains & Wastes · Tiling Hand Tools · Vanities & Basins · Tapware & Sinks · Baths & Toilets ·
+Mirrors & Accessories, with brand tiles (BAT, Raimondi, Sigma, Maxisil, Roberts Designs, MELA) on a second row.
+Collections are all automated by product type/tag, so a new product only needs the right type to land in them.
+
 ## New domain excellenttilingservices.com (25 Oct 2026, draft theme, waiting to be published)
 
 Shopify's primary domain, contact email and policies already use **excellenttilingservices.com** /
