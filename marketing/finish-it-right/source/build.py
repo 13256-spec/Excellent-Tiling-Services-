@@ -29,7 +29,7 @@ def img(f,c,r,cls='',cap='',capcls=''):
     k=f'<div class="t ph {cls}" {a(c,r)}><img src="img/{f}">'+(f'<span class="cap {capcls}">{cap}</span>' if cap else '')+'</div>'
     return k
 LOGO=lambda c,r: f'<div class="t logo" {a(c,r)}><img src="img/logo-white.jpg"></div>'
-URL='excellenttilingservice.com.au'
+URL='excellenttilingservices.com'
 posts={
 'A2-1-cover':
  img('brittany2.jpg','1/5','1/4')+
@@ -71,7 +71,7 @@ posts.update({
  f'<div class="t navy" {a("1/3","3/5")}><h2>No “call for price”</h2><p class="bot">Tiles, tapware, vanities and tools, all priced online, all buyable tonight.</p></div>'+
  img('flova-black.png','3/5','3/4','fit zoom','FLOVA basin mixer, matt black, $217','dark top')+
  f'<div class="t blue" {a("3/5","4/5")}><p>Tapware posted from $9.95. Perth delivery for tiles and vanities.</p></div>'+
- f'<div class="t" {a("1/4","5/6")}><p>excellenttilingservice.com.au</p></div>'+LOGO('4/5','5/6'),
+ f'<div class="t" {a("1/4","5/6")}><p>excellenttilingservices.com</p></div>'+LOGO('4/5','5/6'),
 'A3-idea':
  img('brittany2.jpg','1/5','1/4')+
  f'<div class="t" {a("1/4","4/6")}><h2>Bathroom idea: warm oak against a plain wall</h2><p class="bot">A fluted, curved vanity does the work. Keep the tiles quiet and the tapware simple.</p></div>'+

@@ -37,7 +37,7 @@ If the Forms app has no Date field, use a Short text field.
 - **Button:** Request appointment
 - **Success message:** Thanks, we've received your booking request. We'll contact you to confirm your appointment. Your time isn't locked in until we confirm it. If it's urgent, call 0450 960 543.
 - **Customer tags:** `booking-request`, so you can filter bookings in Customers.
-- **Notifications:** turn on staff email notifications to contactus@excellenttilingservice.com.au.
+- **Notifications:** turn on staff email notifications to contactus@excellenttilingservices.com.
 - **Colours** (to match the site): text `#1F3153`, button `#1F3153`, button label `#FFFFFF`, links `#1F3153`, errors `#E02229`. Alignment left.
 
 ## 4. Publish

@@ -14,7 +14,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from reprice_2026_10 import BB_MATCH, GST, PUB_MARKUP  # noqa: E402
 
-FEEDS = {"ours": "https://excellenttilingservice.com.au", "bc": "https://bathroom-city.com.au",
+FEEDS = {"ours": "https://excellenttilingservices.com", "bc": "https://bathroom-city.com.au",
          "bb": "https://bbhardware.com.au"}
 PLAN = os.path.join(HERE, "store-pricing-2026-10-03.csv")
 MELA_MAP = os.path.join(HERE, "mela-pricing-2026-10-01.csv")

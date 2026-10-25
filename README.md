@@ -1,17 +1,31 @@
 # Excellent Tiling Services – Shopify theme
 
-Theme source for [excellenttilingservice.com.au](https://excellenttilingservice.com.au)
+Theme source for [excellenttilingservices.com](https://excellenttilingservices.com)
 (Excellent Tiling Services Pty Ltd, 17A Olga Road, Maddington WA 6109).
 
 `theme/` holds the custom ETS files (sections, snippets, templates, CSS/JS) from the
 Horizon-based "ETS Premium" theme. Stock Horizon files are not duplicated here.
 
-Last synced from the live theme ("ETS 2026 – Landing page boost (draft)", the published theme) on
-4 Oct 2026: every `ets-*` asset, section and snippet, plus `layout/theme.liquid`, `meta-tags`,
+Last synced from the live theme ("ETS 2026 – Seller schema for AI (draft)", the published theme) on
+25 Oct 2026 (the 8 domain files; the rest on 4 Oct 2026): every `ets-*` asset, section and snippet, plus `layout/theme.liquid`, `meta-tags`,
 `config/settings_data.json`, the header/footer groups and the templates already tracked here.
 Third-party Section Store `ss-*` sections and the app-generated `product.store-wide.json` are
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
+
+## New domain excellenttilingservices.com (25 Oct 2026, draft theme, waiting to be published)
+
+Shopify's primary domain, contact email and policies already use **excellenttilingservices.com** /
+**contactus@excellenttilingservices.com**; the old `excellenttilingservice.com.au` (and `www.`) 301-redirect to it.
+The theme still hardcoded the old email and domain in 8 files, so draft theme
+**"ETS 2026 – New domain excellenttilingservices.com (draft)"** (id 144483844159, a copy of the live theme) replaces every
+`excellenttilingservice.com.au` with `excellenttilingservices.com` in: `sections/ets-flagship-footer.liquid`,
+`ets-flagship-home.liquid`, `ets-contact-page.liquid`, `ets-booking-page.liquid`, `ets-standard-page.liquid` (delivery page),
+`snippets/meta-tags.liquid` (LocalBusiness `email`), `templates/llms.txt.liquid` and `templates/llms-full.txt.liquid`
+(fallback base URL and email). Everything else in the theme uses `shop.url` / `request.origin`, so it followed the domain change
+on its own. The repo copies (and every other repo file: policies, notification templates, agent notes, marketing scripts and copy)
+now use the new domain too. **To go live: Shopify admin → Online Store → Themes → the "New domain" draft → Publish.**
+Still manual in admin: Settings → Notifications → sender email, and the Shopify Forms / booking notification address.
 
 ## Seller schema for AI and search (24 Oct 2026, draft theme, waiting to be published)
 

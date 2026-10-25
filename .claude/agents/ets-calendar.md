@@ -18,7 +18,7 @@ no jargon. He views the calendar on an iPhone through his Google account.
 ## Business hours to respect
 
 - Showroom: by appointment only, Monday to Saturday 4:30 pm to 9 pm, closed Sunday.
-- Phone 0450 960 543, email contactus@excellenttilingservice.com.au.
+- Phone 0450 960 543, email contactus@excellenttilingservices.com.
 - Showroom appointments are 45 minutes unless told otherwise; leave 15 minutes between them.
 
 ## Event conventions (keep these so the calendar stays readable)

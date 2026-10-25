@@ -1,6 +1,6 @@
 # SikaTile-305 Master Lite 15kg: launch posts (made 24 Oct 2026)
 
-Live product: https://excellenttilingservice.com.au/products/sikatile-305-master-lite-tile-adhesive-15kg
+Live product: https://excellenttilingservices.com/products/sikatile-305-master-lite-tile-adhesive-15kg
 Price checked 24 Oct 2026: $29.95 per 15kg bag. Re-check before posting.
 
 Every 12:15 pm slot from 24 Oct to 8 Nov is already booked in `schedule/metricool-queue.json`, so these
@@ -35,7 +35,7 @@ $29.95 a bag inc GST. In stock at our showroom, 17A Olga Road, Maddington (by ap
 4:30 to 9 pm). We deliver, or pick up free in Maddington. Shipping options show at checkout. Trade
 accounts get their discount at checkout.
 
-Order: https://excellenttilingservice.com.au/products/sikatile-305-master-lite-tile-adhesive-15kg
+Order: https://excellenttilingservices.com/products/sikatile-305-master-lite-tile-adhesive-15kg
 Call or text 0450 960 543.
 
 Category: Home Improvement > Building Materials. Condition: New. Photo: the bag shot (slide 1).
@@ -48,7 +48,7 @@ non-slip, 30 minute open time. Walls and floors, inside and out, wet areas, balc
 concrete pools. $29.95 a bag, in stock in Maddington. Trade accounts get their discount at checkout. We
 deliver, or pick up free in Maddington.
 
-Photo: the bag shot (slide 1). Link: https://excellenttilingservice.com.au/products/sikatile-305-master-lite-tile-adhesive-15kg
+Photo: the bag shot (slide 1). Link: https://excellenttilingservices.com/products/sikatile-305-master-lite-tile-adhesive-15kg
 
 ## Copy review (ets-copy-review checklist, 24 Oct 2026)
 

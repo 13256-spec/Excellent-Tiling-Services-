@@ -91,7 +91,7 @@ To undo, open the email and click **Revert to default**.
     <p style="margin:0 0 10px;font-size:17px;font-weight:bold;">Your order is ready to collect{% if customer.first_name %}, {{ customer.first_name }}{% endif %}.</p>
     <p style="margin:0 0 10px;"><strong>Where:</strong> 17A Olga Road, Maddington WA 6109<br><strong>When:</strong> by appointment, Monday to Saturday 4:30 pm to 9 pm</p>
     <p style="margin:0 0 10px;">Text <a href="sms:0450960543" style="color:#9C7744;font-weight:bold;">0450 960 543</a> with your order number and a time that suits you. For tiles or large items, bring a vehicle with enough room. We'll help you load.</p>
-    <p style="margin:0;"><a href="https://excellenttilingservice.com.au/pages/book-appointment" style="display:inline-block;background:#15213A;color:#ffffff;text-decoration:none;padding:10px 18px;border-radius:6px;font-weight:bold;">Book a pickup time</a></p>
+    <p style="margin:0;"><a href="https://excellenttilingservices.com/pages/book-appointment" style="display:inline-block;background:#15213A;color:#ffffff;text-decoration:none;padding:10px 18px;border-radius:6px;font-weight:bold;">Book a pickup time</a></p>
   </td></tr>
 </table>
 ```
@@ -110,6 +110,6 @@ To undo, open the email and click **Revert to default**.
 
 ## 4. Sender details
 
-Settings → Notifications → **Sender email**: `contactus@excellenttilingservice.com.au`. Shopify asks you to
+Settings → Notifications → **Sender email**: `contactus@excellenttilingservices.com`. Shopify asks you to
 verify the domain (DNS records). Then emails come from your address, not a shopify.com one,
 and are less likely to land in spam.

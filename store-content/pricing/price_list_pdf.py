@@ -65,8 +65,8 @@ def build(rows, path, mode):
     }
     story = [
         Paragraph(f"Excellent Tiling Services – {title}", styles["h1"]),
-        Paragraph("17A Olga Road, Maddington WA 6109 · 0450 960 543 · contactus@excellenttilingservice.com.au · "
-                  "excellenttilingservice.com.au", styles["sub"]),
+        Paragraph("17A Olga Road, Maddington WA 6109 · 0450 960 543 · contactus@excellenttilingservices.com · "
+                  "excellenttilingservices.com", styles["sub"]),
         Paragraph("Prices in AUD including GST, effective 3 October 2026 and subject to change without notice. "
                   "Tiles are priced per m² (sold to the nearest full box) and mosaics per sheet. Delivery is extra; "
                   "see our shipping policy." + (

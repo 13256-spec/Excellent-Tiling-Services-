@@ -9,7 +9,7 @@ _cache = {}
 
 def product_images(handle):
     if handle not in _cache:
-        with urllib.request.urlopen(f'https://excellenttilingservice.com.au/products/{handle}.json') as r:
+        with urllib.request.urlopen(f'https://excellenttilingservices.com/products/{handle}.json') as r:
             _cache[handle] = [i['src'] for i in json.load(r)['product']['images']]
     return _cache[handle]
 

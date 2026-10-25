@@ -8,7 +8,7 @@ V={'A2-1-cover':'1791211786','A2-2-flova':'1791211785','A2-3-vanities':'17912117
 'S-tiles':'1791211786','S-vanity':'1791211786'}
 def u(n): return f'{CDN}ets-{n}.png?v={V[n]}'
 TAGS='#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes #bathroominspo #maddington #excellenttilingservices'
-LINK='Shop at excellenttilingservice.com.au (link in bio).'
+LINK='Shop at excellenttilingservices.com (link in bio).'
 LAUNCH=['A2-1-cover','A2-2-flova','A2-3-vanities','A2-4-tiles','A2-5-delivery']
 M=[ # date, graphics, caption (no link/tags; added below). None graphics = owner posts by hand
 ('2026-10-06',LAUNCH,"Our online store is open. Tiles, tapware and vanities from a Perth tiling business, with every price on the website.\nSwipe for our favourites: MELA FLOVA basin mixer from $189, wall-hung vanities from $1,139 and porcelain tiles from $37.40/m².\nTapware posted Australia-wide from $9.95, Perth delivery, or free pickup from Maddington."),

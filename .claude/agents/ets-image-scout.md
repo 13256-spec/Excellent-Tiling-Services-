@@ -11,7 +11,7 @@ tradies, no fake smiles, no clip-art, no heavy filters).
 ## Where to look (in this order)
 
 1. **The store's own photos first** whenever the post is about a product we sell: the product's Shopify
-   images (`https://excellenttilingservice.com.au/products/<handle>.json`, or the Shopify tools). These are the
+   images (`https://excellenttilingservices.com/products/<handle>.json`, or the Shopify tools). These are the
    only images that may show "our" product.
 2. **Openverse API** (works from this server, no key): `https://api.openverse.org/v1/images/?q=<query>&license=cc0,pdm&size=large&page_size=20`
    - Only `cc0` or `pdm` (no attribution needed, commercial use OK). Skip `by`, `by-sa`, `by-nc`, `by-nd`.

@@ -5,7 +5,7 @@ Usage: python3 make_reel.py plan.json outdir
 plan.json = {"<name>": {"music": "mellow-chill.mp3",
                         "slides": [{"img": "moon.jpg" | "p/x.jpg" | "<handle>#<n>",
                                     "title": "Time Stone Moon", "line": "Matt $50.10/m2 . 300x600 or 600x600"}, ...],
-                        "end": ["excellenttilingservice.com.au", "Perth delivery . Free pickup in Maddington"]}}
+                        "end": ["excellenttilingservices.com", "Perth delivery . Free pickup in Maddington"]}}
 
 Look: porcelain-white canvas, one photo per slide (room shots cover-cropped, studio shots on white),
 slow 5% push-in, 0.6 s dissolve between slides, product name and price in navy Archivo under the photo.
@@ -33,7 +33,7 @@ _cache = {}
 
 def product_images(handle):
     if handle not in _cache:
-        with urllib.request.urlopen(f'https://excellenttilingservice.com.au/products/{handle}.json') as r:
+        with urllib.request.urlopen(f'https://excellenttilingservices.com/products/{handle}.json') as r:
             _cache[handle] = [i['src'] for i in json.load(r)['product']['images']]
     return _cache[handle]
 

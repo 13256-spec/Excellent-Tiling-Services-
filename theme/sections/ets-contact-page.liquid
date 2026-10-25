@@ -1,6 +1,7 @@
 {%- comment -%} ETS Visit us / contact page with Shopify Forms app block and native fallback. {%- endcomment -%}
 <section class="ets-visit">
   <div class="ets-visit__wrap">
+    {% render 'ets-breadcrumbs', current_title: page.title, current_url: page.url %}
     <header class="ets-visit__head">
       <p class="ets-overline">Maddington, Western Australia</p>
       <h1>{{ section.settings.heading | escape }}</h1>
@@ -14,7 +15,7 @@
             <div><dt>Address</dt><dd><address>{% render 'ets-address-link', text: '17A Olga Road<br>Maddington WA 6109' %}</address></dd></div>
             <div><dt>Hours</dt><dd>By appointment only<br>Monday to Saturday, 4:30 pm to 9 pm<br>Closed Sunday</dd></div>
             <div><dt>Phone</dt><dd><a href="tel:+61450960543">0450 960 543</a></dd></div>
-            <div><dt>Email</dt><dd><a href="mailto:contactus@excellenttilingservice.com.au">contactus@excellenttilingservice.com.au</a></dd></div>
+            <div><dt>Email</dt><dd><a href="mailto:contactus@excellenttilingservices.com">contactus@excellenttilingservices.com</a></dd></div>
           </dl>
           <p class="ets-visit__note">{{ section.settings.visit_note | escape }}</p>
           <div class="ets-visit__actions">

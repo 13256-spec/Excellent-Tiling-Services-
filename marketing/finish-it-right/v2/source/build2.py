@@ -19,8 +19,8 @@ def product(img,kicker,name,price,pre='',pos='center',W=1080,H=1350,strip=250):
     ph=H-strip
     return W,H,f'''<img class=ph src="img/{img}" style="height:{ph}px;object-position:{pos}">
 <div class=strip style="height:{strip}px;padding-bottom:58px"><div><div class=k><span class=mark></span>{kicker}</div><div class=n>{name}</div></div>
-<div><div class=p><small>{pre}</small>{price}</div><div class=u>excellenttilingservice.com.au</div></div></div>'''
-def statement(img,head,sub,pos='center',W=1080,H=1350,strip=420,foot='excellenttilingservice.com.au'):
+<div><div class=p><small>{pre}</small>{price}</div><div class=u>excellenttilingservices.com</div></div></div>'''
+def statement(img,head,sub,pos='center',W=1080,H=1350,strip=420,foot='excellenttilingservices.com'):
     ph=H-strip
     return W,H,f'''<img class=ph src="img/{img}" style="height:{ph}px;object-position:{pos}">
 <div class=strip style="height:{strip}px;display:block;padding-top:64px"><div class=h>{head}</div><div class=s>{sub}</div>
