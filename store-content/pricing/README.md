@@ -178,3 +178,16 @@ Owner supplied the BAT Premium Trims price book (Trims Book 1, August 2026 v2, N
 ## SikaTile-305 Master Lite 15kg (new product, 24 Oct 2026)
 
 Owner's cost $20 ex GST, recorded as $22.00 inc GST. Floor = $27.50. No Australian retailer lists Master Lite online yet (Sika released the data sheet in May 2026), so the market check used Sika's other 20kg adhesives: Prohesive Promaxset $26.61 (TradieCart), Proflex $27.50 and Evo Pro $28.60-31.46 (Kims Tiling Supplies), Davco SMP Evo $33.95 (Mitre 10), Megapro $34.10-37.51 (Kims). A 15kg Master Lite covers about what a 20kg standard bag does, so it was priced at **$29.95** (26.5% margin ex GST), trade band 5% ($28.45, 22.7%). SKU `SIKA-305-ML-15`, product `gid://shopify/Product/8458228629567`, published to every channel, tagged `Hardware` + `Adhesives & Additives` + `ship-parcel` (15kg fits Australia Post). Stock is tracked with "continue selling": the owner still has to enter the on-hand count.
+
+## Eternity tile samples, invoice SI-00036787 (added 26 Oct 2026)
+
+Five lappato 300x600 samples (`eternity-samples-invoice-SI-00036787.pdf`, 100% discounted, unit prices are the
+non-pallet ex GST cost). Decisions in `eternity-samples-2026-10-26.csv`. Time Stone Moon and Cinder lappato were
+already listed. Three products created as **drafts** (no photo yet, tag `needs-photo`): Time Stone Sand (BS630332,
+$55.20, cost $32.00, same tier as the other Time Stone lappatos), Arena Light (BV637544) and Arena Blonde (BV637541)
+($50.10, cost $28.00, tag `price-check`: neither is on the Oct 2026 list or Eternity's site, so the RRP is assumed to be
+the $59 tier their cost sits in). All three: trade-list-15, "Perth only (local delivery / pickup)" profile, published to
+every channel so they go live the moment the status is set to Active. Eternity's SharePoint folders (Time stone, Lava,
+Caliza, Terrazzo Lumina, porcelain/ceramic standard range, DSA toilet/kitchen/basin collections) need a login, so the
+product sheets and photos still have to be downloaded by the owner and added by hand.
+
