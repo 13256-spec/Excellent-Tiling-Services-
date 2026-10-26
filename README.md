@@ -13,6 +13,27 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## DSA toilet collection (26 Oct 2026, live)
+
+Eternity sent the DSA toilet product sheets (SharePoint folders, downloaded by the owner). Ten products created live and the
+existing smart toilet updated, via `store-content/supplier-sync/dsa_toilets_2026_10.py` -> `dsa-toilets-2026-10-26.json`:
+Eternal Clarice (DSA8080, $660), Edna Care (DSA8081, $1,320) and its back rest (DSA8081-Back rest, $268.99), Eternal Element
+(DSA8084, $500), Caleb Aria wall faced with in-wall cistern (DSA8102, $999), Eternal Edge (DSA8202, $550), Eternal Forma
+(DSA8203, $550), Eternal Flow (DSA8206, $660), Caleb Vero wall hung with in-wall frame (DSA8305, $1,299), Crystal Prime
+(DSAG1FD-E, $3,299) and Crystal Nova (DSAG6FD-E, $3,299) smart toilets. "Crystal Smart Toilet with Bidet Seat" is now
+**Crystal Elite Smart Toilet Suite** (DSAYC318GE, $2,999) with the sheet's specs and a second image.
+
+- **Price** = DSA RRP (as for the rest of the DSA range). **Cost** = ESTIMATE, RRP less the 45% account discount DSA gave on
+  the Malaga vanity packages, ex GST (= RRP x 0.5), tag `cost-estimate`; the toilets were added to
+  `store-content/pricing/DSA-trade-price-request-2026-10-14.txt` so Eternity can confirm. No trade band until the cost is real.
+- Full descriptions, SEO title and description, `ets.*` spec metafields (range, material, WELS, sizes), supplier metafields,
+  product photos plus the dimension drawings and, for the smart toilets, the feature and specification sheets.
+- Collections: Toilets, Back to Wall Toilets (not the wall hung Vero), Baths & Toilets (automatic by type) and the new automatic
+  **Smart Toilets** collection (tag `Smart Toilet`, also picks up the MELA smart suites and bidet seats). Perth-only delivery
+  profile, published to all six channels. The back rest has only a tiny supplier photo (tag `needs-photo`).
+- Master pricing CSV and the three price-list PDFs regenerated with the 12 rows. Supplier images kept in
+  `store-content/supplier-sync/dsa-toilet-sheets/` (the PDFs and videos are too big for the repo; the owner has them).
+
 ## "Call any time" on the phone number (26 Oct 2026, draft theme, waiting to be published)
 
 The number was on every page but nothing said when the phone is answered, and it sat next to the showroom hours

@@ -175,3 +175,13 @@ The owner asked for the Roberts Designs trade prices to be recorded as Shopify u
 - ETS-HW-005 pocket knife was already at the box-of-6 trade price / 6 x 1.1 and was left alone.
 - Selling prices were not changed. `../pricing/reports/roberts-below-floor-2026-10-23.csv` lists the 19 variants now under the playbook floor (cost inc GST x 1.25, i.e. 20% margin ex GST); 13 of them sell below cost, all Baron and Sigma items in the no-trade-discount group above plus the 1500mm linear drain. The owner should confirm with Roberts whether these carry a trade discount, or reprice them.
 - `roberts-designs-pricing.csv` and `../pricing/store-pricing-2026-10-03.csv`: cost and margins refreshed on the changed rows.
+
+## DSA toilet collection (26 Oct 2026)
+
+Ten toilet products created live from Eternity's product sheets (`dsa_toilets_2026_10.py` -> `dsa-toilets-2026-10-26.json`,
+images in `dsa-toilet-sheets/`), and the Crystal smart toilet renamed Crystal Elite with SKU DSAYC318GE. Price = RRP, cost =
+estimate (RRP x 0.5, tag `cost-estimate`). Details in the main README under "DSA toilet collection".
+Facts worth knowing: the two sheets disagree on the Crystal Prime and Nova heights (brochure: Prime 460 mm, Nova 440 mm;
+the shared spec table says the reverse). The brochure figures are on the product pages. The Eternal Element, Clarice and
+Edna Care sheets give no WELS figure, so none is claimed for them.
+
