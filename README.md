@@ -31,6 +31,8 @@ Eternal Clarice (DSA8080, $660), Edna Care (DSA8081, $1,320) and its back rest (
 - Collections: Toilets, Back to Wall Toilets (not the wall hung Vero), Baths & Toilets (automatic by type) and the new automatic
   **Smart Toilets** collection (tag `Smart Toilet`, also picks up the MELA smart suites and bidet seats). Perth-only delivery
   profile, published to all six channels. The back rest has only a tiny supplier photo (tag `needs-photo`).
+- Videos: the Crystal Prime and Nova installation video (same file, 2 min 46 s) is on both product pages, and the Crystal
+  Elite has its features video (1 min 13 s) and installation video (2 min 15 s). The other toilets came with no video.
 - Master pricing CSV and the three price-list PDFs regenerated with the 12 rows. Supplier images kept in
   `store-content/supplier-sync/dsa-toilet-sheets/` (the PDFs and videos are too big for the repo; the owner has them).
 
