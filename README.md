@@ -357,3 +357,11 @@ customer-facing wording with no unverifiable claims:
 - Not changed (store content, not theme): the Care & Warranty page names "AUS Home Collection Group Pty Ltd (trading as
   Bathroom City)" as the MELA warrantor, and tile descriptions say "sold per sqm to the nearest full box" while the
   calculator rounds to whole m².
+
+## Google Drive DSA folder (26 Oct 2026)
+
+The supplier's Google Drive folder was read through the Drive connector and applied to the store: lab slip
+ratings and test-report specs on the 10 porcelain tile products (Particle Grey and Warm corrected from P4 to P5),
+34 new tile photos, 2 new basins (Chet, Mezzo) with photos, warranties and estimated costs on all basins and
+sinks. Details, scripts and what was deliberately not added are in
+`store-content/supplier-sync/drive-dsa-2026-10-26/README.md`.

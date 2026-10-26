@@ -1,0 +1,17 @@
+product,variant_id,sku,price,cost_estimate,cost_src,status,note
+Chet Wall Hung Basin,gid://shopify/ProductVariant/44270951596095,ETK311B,198.00,99.00,RRP x 0.5 (account discount estimate),new - ACTIVE 26 Oct 2026,photo from Chet_and_Mezzo.pdf
+Mezzo Above Counter Basin,gid://shopify/ProductVariant/44270951694399,ET847,179.00,89.50,RRP x 0.5 (account discount estimate),new - ACTIVE 26 Oct 2026,photo + dimension drawing from Chet_and_Mezzo.pdf
+Cosimo Semi Inset Basin,gid://shopify/ProductVariant/44108154961983,,299.00,149.50,RRP x 0.5,existing,warranty metafield added
+Cosimo Above Counter Basin,gid://shopify/ProductVariant/44108154994751,,179.00,89.50,RRP x 0.5,existing,warranty metafield added
+Cosimo Undermount Basin,gid://shopify/ProductVariant/44108155027519,,165.00,82.50,RRP x 0.5,existing,warranty metafield added
+Cube Wall Hung Basin (2 variants),gid://shopify/ProductVariant/44108165120063;44108165152831,,179.00,89.50,RRP x 0.5,existing,warranty metafield added
+Ria Semi Inset Basin,gid://shopify/ProductVariant/44108166234175,,179.00,89.50,RRP x 0.5,existing,warranty metafield added
+Ria Above Counter Basin,gid://shopify/ProductVariant/44108166266943,,179.00,89.50,RRP x 0.5,existing,warranty metafield added
+Olivia Semi Inset Basin,gid://shopify/ProductVariant/44108166201407,,179.00,89.50,RRP x 0.5,existing,warranty metafield added; duplicate draft deleted
+Olivia Above Counter Basin,gid://shopify/ProductVariant/44108166168639,ETBA8025CT,299.00,149.50,RRP x 0.5,existing,warranty metafield added; duplicate draft deleted
+Caden Single Bowl Sink,gid://shopify/ProductVariant/44108087361599,,220.00,110.00,RRP x 0.5,existing,10-year sink warranty metafield
+Caden Single Bowl Sink with Drainer,gid://shopify/ProductVariant/44108087394367,,226.60,113.30,RRP x 0.5,existing,10-year sink warranty metafield
+Caden Double Bowl Sink with Drainer,gid://shopify/ProductVariant/44108088148031,,363.00,181.50,RRP x 0.5,existing,10-year sink warranty metafield
+Callan Laundry Sink (small),gid://shopify/ProductVariant/44108088180799,,385.00,192.50,RRP x 0.5,existing,10-year sink warranty metafield
+Callan Laundry Sink (large),gid://shopify/ProductVariant/44108088213567,,462.00,231.00,RRP x 0.5,existing,10-year sink warranty metafield
+Callan Double Bowl Sink,gid://shopify/ProductVariant/44108088246335,,660.00,330.00,RRP x 0.5,existing,10-year sink warranty metafield
