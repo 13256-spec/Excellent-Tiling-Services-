@@ -21,7 +21,7 @@
         "intro": {
           "type": "text",
           "settings": {
-            "text": "<p>Can't find your answer? Call <a href=\"tel:+61450960543\">0450 960 543</a> or <a href=\"/pages/contact\">send us a message</a>.</p>",
+            "text": "<p>Can't find your answer? Call <a href=\"tel:+61450960543\">0450 960 543</a> any time, or <a href=\"/pages/contact\">send us a message</a>.</p>",
             "text_color": "#3A4556"
           }
         },

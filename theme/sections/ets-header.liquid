@@ -28,7 +28,7 @@
         </p>
         <div class="ets-topbar__right">
           {%- if trade_page != blank and is_trade == false -%}<a class="ets-topbar__trade" href="{{ trade_page.url }}">Trade account →</a>{%- endif -%}
-          <a class="ets-topbar__phone" href="tel:{{ phone_link }}">{{ phone }}</a>
+          <a class="ets-topbar__phone" href="tel:{{ phone_link }}">Call any time · {{ phone }}</a>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
 
       <div class="ets-tools">
         <a class="ets-tool ets-tool--hide-sm ets-tool--call" href="tel:{{ phone_link }}" aria-label="Call {{ phone }}">
-          {% render 'ets-icon', name: 'phone' %}<span class="ets-tool__label"><small>Call the team</small>{{ phone }}</span>
+          {% render 'ets-icon', name: 'phone' %}<span class="ets-tool__label"><small>Call any time</small>{{ phone }}</span>
         </a>
         {%- if shop.customer_accounts_enabled -%}
           <a class="ets-tool ets-tool--account" href="{% if customer %}{{ routes.account_url }}{% else %}{{ routes.account_login_url }}{% endif %}" aria-label="{% if customer %}Your account{% else %}Log in{% endif %}">
@@ -251,7 +251,7 @@
           {%- endif -%}
         </div>
         <div class="ets-drawer__contact">
-          <a href="tel:{{ phone_link }}">{{ phone }}</a><br>
+          Call any time · <a href="tel:{{ phone_link }}">{{ phone }}</a><br>
           {% render 'ets-address-link' %}<br>
           <span class="ets-small">{{ settings.ets_hours | escape }}</span>
           {%- if shop.customer_accounts_enabled -%}

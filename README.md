@@ -13,6 +13,18 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## "Call any time" on the phone number (26 Oct 2026, draft theme, waiting to be published)
+
+The number was on every page but nothing said when the phone is answered, and it sat next to the showroom hours
+(Mon–Sat 4:30–9 pm), so a shopper could assume the phone keeps those hours too. Draft theme
+**"ETS 2026 – Call any time (draft)"** (id 144503144511, a copy of the live theme) adds the words: top bar and header
+call button ("Call any time · 0450 960 543"), the mobile menu drawer, the contact page Phone row ("Call any time, 7 days.
+If we miss you, we'll call back.") and the FAQs intro line. Files: `sections/ets-header.liquid`,
+`sections/ets-contact-page.liquid`, `templates/page.faqs.json`. The same draft also sets `ets_email` in
+`config/settings_data.json` to contactus@excellenttilingservices.com, because the footer was still showing the old
+`.com.au` address (the setting was unset, so the theme fell back to its old default). The "New domain" theme is now the
+live theme. **To go live: Shopify admin → Online Store → Themes → the "Call any time" draft → Publish.**
+
 ## Supplier on every product (25 Oct 2026)
 
 The pinned product metafield **`ets.supplier`** ("Supplier") now records who ETS buys each product from, on all 1,126
