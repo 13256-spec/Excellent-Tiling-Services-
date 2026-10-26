@@ -13,6 +13,22 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Product photos and the product-page gallery (26 Oct 2026)
+
+The owner found product pages showing a small product in a huge white square. Two causes, two fixes:
+
+1. **Supplier photos are mostly white space** (the product fills 40-60% of a 2000 px square). The Toilets collection's
+   photos (42 images, 10 products) were replaced live with tight square crops of themselves via Shopify's CDN
+   `crop=region` parameters, originals saved to Content > Files as `original-<name>`. A plan for the remaining 271
+   products / 653 images is ready in `store-content/images/` and waits for the owner's go-ahead. Details and method in
+   [store-content/images/README.md](store-content/images/README.md).
+2. **The gallery was the full width of the media column and taller than the screen.** Draft theme
+   **"ETS 2026 – Product gallery (draft)"** (id 144507338815, a copy of the live theme) adds a block to
+   `assets/ets-refine.css`: framed white photo box with rounded corners, gallery column capped at 620 px on desktop,
+   frame height capped so the photo fits on screen. Also carries the repo copy of `ets-refine.css` (chat, laptop,
+   product-card and cookie-banner rules that were only in Shopify until now). **To go live: Online Store → Themes →
+   the "Product gallery" draft → Publish.** The "Call any time" theme is live since 26 Oct.
+
 ## DSA toilet collection (26 Oct 2026, live)
 
 Eternity sent the DSA toilet product sheets (SharePoint folders, downloaded by the owner). Ten products created live and the
