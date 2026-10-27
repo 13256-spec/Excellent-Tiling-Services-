@@ -53,3 +53,14 @@ the link in our bio". `S-poll` still needs a poll sticker, so it is for posting 
 By hand each day (Google Calendar): 7 am real Story, 8:30 am Marketplace, 3:30 pm groups + Google, 9 pm
 replies. Team agents: `ets-marketing` (lead), `ets-content`, `ets-social`, `ets-community`,
 `ets-analytics`, `ets-calendar`, `ets-pricing` (`.claude/agents/`).
+
+## Queue rewrite, 28 Oct – 8 Nov (27 Oct 2026)
+
+The owner found the posts repetitive. Metricool reach backed it: feed posts fell from 44–55 people (6–10 Oct)
+to 9–37 after the catalogue template took over on 14 Oct, while Reels did 50–123. Every pending 12:15 pm and
+6:30 pm post and 4:30 pm Reel caption from 28 Oct to 8 Nov was rewritten in place (same Metricool uuids) with
+a different angle and call to action each day, the delivery line taken out of the caption, prices re-checked
+and eight parked drafts made live. Six products were swapped for ones never posted (smart toilet, Eternal
+Element toilet, Malaga package, niche box, BRITTANY 750, powder-room combo). Record and new captions:
+`schedule/rewrite-2026-10-28.json`. Known gap: the 1 Nov floor-waste Reel video still shows $16.05 (live
+$18.99); caption corrected, video not re-rendered.

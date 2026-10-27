@@ -1,0 +1,247 @@
+{
+  "_about": "Rewrite of every pending 12:15 pm and 6:30 pm feed post and 4:30 pm Reel caption from 28 Oct to 8 Nov 2026 (owner, 27 Oct: 'it's all so repetitive'). Each day now has a different angle (tip, compare, idea, question, new product, proof) and a different call to action; the delivery line moved out of the caption; no product headlines twice in 14 days. Prices checked against the live store on 27 Oct 2026. Media kept where the product stayed; swapped to Shopify CDN photos where the product changed. 'draft': false means the post goes out (several were parked as drafts). Metricool ids change on every update; uuid stays.",
+  "media_prefix": "https://static.metricool.com/planner/202610/7234377-file-",
+  "posts": [
+    {
+      "date": "2026-10-28T12:15:00", "id": "405608427", "uuid": "-9124097994296441579", "type": "POST", "angle": "tip",
+      "media": ["15330974216721161289.png", "2140181062145762169.png", "14690283654998680144.png"],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-rondo-tall-basin-mixer",
+      "text": "Above-counter basin with a standard-height tap? That's how you end up washing your hands on the bench.\nA tall mixer clears the rim of the bowl, so the water lands in the basin, not around it.\nMELA RONDO tall basin mixer: chrome $299, matt black $319, brushed nickel $349, brushed brass $379. 4 star WELS.\nNot sure if your basin needs tall or standard? DM us a photo and we'll tell you.\nhttps://excellenttilingservices.com/products/mela-rondo-tall-basin-mixer\n\n#tapware #bathroomtapware #abovecounterbasin #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-10-28T16:30:00", "id": "405608660", "uuid": "6577016224411831891", "type": "REEL", "angle": "reel",
+      "media": ["15459225412449599912.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/bat-trims",
+      "text": "Exposed tile edges chip. A trim stops that, and it looks finished.\nBAT aluminium tiling angle, 3 m, from $10.90. Half round from $14.65, geometric angle from $7.75, flat bar from $8.70. Matt black, bright silver, brass and more.\nDoing a niche or a step? Comment and we'll tell you which trim.\nhttps://excellenttilingservices.com/collections/bat-trims\n\n#tiletrim #tilingtools #tilingtips #perthtiler"
+    },
+    {
+      "date": "2026-10-28T18:30:00", "id": "405608564", "uuid": "-778805712930517253", "type": "POST", "angle": "idea",
+      "media": ["13031460789337146633.jpeg", "10923498254685330316.jpeg", "8095024395299889564.jpeg", "133979256449631882.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/mirror-cabinets",
+      "text": "Where does the toothpaste live? Behind the mirror.\nA mirror cabinet gives you shelves without another cupboard on the wall. MELA PORTER from $299, 600 to 1800 mm wide, in finishes that match the vanity. Want the round look with storage? MELA MIA 450 oval mirror cabinet, $499.\nSave this one for the vanity wall.\nhttps://excellenttilingservices.com/collections/mirror-cabinets\n\n#bathroomstorage #mirrorcabinet #bathroomideas #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-10-29T12:15:00", "id": "405609206", "uuid": "8628906779376501930", "type": "POST", "angle": "problem",
+      "media": ["3305569795725119991.png", "7640106376107771189.jpeg", "1655166073822050812.png"],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-paddy-1200-wall-hung-vanity",
+      "text": "Two people, one basin, every morning. The fix is width, not a second bathroom.\nMELA PADDY 1200: 1190 mm wide with a cupboard and drawers, 20 mm stone top and ceramic basin included. Gloss white, Snafell, walnut or Sorrento oak.\n$1,249.\nMeasure the wall tonight, then check it fits via the link in bio.\nhttps://excellenttilingservices.com/products/mela-paddy-1200-wall-hung-vanity\n\n#wallhungvanity #familybathroom #bathroomrenovation #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-10-29T16:30:00", "id": "405609584", "uuid": "1180131557507353968", "type": "REEL", "angle": "reel",
+      "media": ["12875847646022121415.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/sigma",
+      "text": "No power, no water, no dust: a manual cutter still does most of a tiling job.\nSigma 7F 37 cm $260.95, 2G 37 cm $368.95, 2B3 66 cm $683.95, 4BU 70 cm $737.55. Genuine Sigma, with the spare wheels and handles online too.\nWhich Sigma do you run? Tell us below.\nhttps://excellenttilingservices.com/collections/sigma\n\n#sigmacutter #tilecutter #tilingtools #perthtiler"
+    },
+    {
+      "date": "2026-10-29T18:30:00", "id": "405609249", "uuid": "5934613722998001621", "type": "POST", "angle": "question",
+      "media": ["13050431091752423431.jpeg", "10903100210341546683.jpeg", "16818850157117725284.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/shower-tapware",
+      "text": "Rain shower or hand shower? Have both on one rail.\nNew in: the Chloe twin rail shower puts the overhead rose and the hand shower on one bar, so you're not choosing. $589 in chrome, $699 in brushed nickel.\nJust want the hand shower? The Celine rail shower is $239 in chrome.\nOverhead or handheld, which do you actually use? Tell us below.\nhttps://excellenttilingservices.com/collections/shower-tapware\n\n#showerideas #tapware #bathroomrenovation #perthbathrooms #perthhomes"
+    },
+    {
+      "date": "2026-10-30T12:15:00", "id": "405609458", "uuid": "7121266094129891724", "type": "POST", "angle": "weekend DIY",
+      "media": ["9380476250969585892.jpeg", "8467686802101566034.jpeg", "8251222421758792121.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/products/pro-tile-gt-nipper",
+      "text": "The cut around the toilet pipe is where most DIY tiling jobs go wrong.\nYou can't do a curve with a straight cutter. A nipper takes it out bite by bite. The Pro Tile GT nipper comes with a serrated blade for ceramic and a tungsten carbide grit blade for porcelain.\n$32.35. Grab one before the weekend.\nhttps://excellenttilingservices.com/products/pro-tile-gt-nipper\n\n#diyrenovation #tilingtools #tilingtips #diyperth #perthtiler"
+    },
+    {
+      "date": "2026-10-30T16:30:00", "id": "405609546", "uuid": "787434127851867985", "type": "REEL", "angle": "reel",
+      "media": ["7957213125543432857.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/tile-spacers-wedges",
+      "text": "Lippage is the edge you catch your toe on. Big tiles need clips, not just spacers.\nPanther levelling clips from $20.95, wedges from $33.95, traction pliers $27.95. Raimondi re-usable double spacers from $64.95 a tub of 300.\nSave this for your first 600x1200 job.\nhttps://excellenttilingservices.com/collections/tile-spacers-wedges\n\n#tilelevelling #largeformattiles #tilingtips #perthtiler"
+    },
+    {
+      "date": "2026-10-30T18:30:00", "id": "405608854", "uuid": "-1062151774870158674", "type": "POST", "angle": "showroom", "was_draft": true,
+      "media": ["8045874962074279429.png"],
+      "firstCommentText": "https://excellenttilingservices.com/pages/book-appointment",
+      "text": "A photo can't tell you if the oak is too orange for your floor.\nBring a tile, a paint swatch or a photo of your bathroom and hold it up against the vanities. Our Maddington showroom is open by appointment tonight and tomorrow, 4:30 to 9 pm, so you don't need a day off work.\nBook via the link in bio or call 0450 960 543.\n17A Olga Road, Maddington.\n\n#perthbathrooms #maddington #bathroomrenovation #perthrenovation #bathroomshowroom"
+    },
+    {
+      "date": "2026-10-31T12:15:00", "id": "405609491", "uuid": "7071398152414776933", "type": "POST", "angle": "room idea with total",
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-moses-400-gloss-white-wall-hung-powder-room-vanity-with-door-7629246.jpg",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-flova-basin-mixer-chrome.png",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/DSA66AK666.jpg"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-moses-400-wall-hung-powder-room-vanity-with-door",
+      "text": "A powder room for about $800, all in.\nMELA MOSES 400 wall-hung vanity with basin, $449. MELA FLOVA basin mixer in chrome, $199. Morgan Dusk porcelain on a 2 x 2 m floor, about $150 at $37.40/m² (sold by the full box).\nAdd a mirror and a tap for the toilet and you're done. Every price is on the site, so you can add it up yourself.\nSave this for the powder room.\nhttps://excellenttilingservices.com/products/mela-moses-400-wall-hung-powder-room-vanity-with-door\n\n#powderroom #smallbathroom #bathroomideas #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-10-31T16:30:00", "id": "405609287", "uuid": "203638064050293517", "type": "REEL", "angle": "reel",
+      "media": ["12890452843256615105.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/porcelain-tiles",
+      "text": "Light floors make a small bathroom feel bigger. Four that work.\nTime Stone Moon from $50.10/m², Morgan Dusk from $37.40/m², Particle Warm $42/m², Cement Grey from $37.40/m². Sold by the full box.\nWhich one for your floor? Tell us below.\nhttps://excellenttilingservices.com/collections/porcelain-tiles\n\n#tilesperth #porcelaintiles #smallbathroom #perthrenovation"
+    },
+    {
+      "date": "2026-10-31T18:30:00", "id": "405609025", "uuid": "5357780051715639311", "type": "POST", "angle": "compare", "was_draft": true,
+      "media": ["18265262994960924351.jpeg", "7312571763706928299.jpeg", "17942977294956204209.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/products/time-stone-moon-porcelain-tile",
+      "text": "Matt or lappato? Same tile, two different rooms.\nTime Stone Moon in matt is soft, hides water spots and carries a P4/R11 slip rating, so it goes on floors and in the shower. Lappato has a low sheen that bounces light and makes a small room feel bigger, but it has no slip rating, so keep it on walls and dry floors.\nMatt $50.10/m², lappato $55.20/m², 300x600 or 600x600.\nWhich finish are you leaning towards?\nhttps://excellenttilingservices.com/products/time-stone-moon-porcelain-tile\n\n#porcelaintiles #stonelook #bathroomtiles #tilesperth #perthrenovation"
+    },
+    {
+      "date": "2026-11-01T12:15:00", "id": "405609060", "uuid": "8857249822077438097", "type": "POST", "angle": "question", "was_draft": true,
+      "media": ["9718298583512673495.jpeg", "14256709937813437366.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/products/terrazzo-white-porcelain-tile",
+      "text": "Terrazzo: still in, or over it?\nHonest answer from people who lay it: the fleck hides dust and footprints better than a plain white floor, which is why laundries love it. Terrazzo White porcelain, matt, P3 slip rating, 300x600 or 600x600, $37.40/m².\nYes or no for your bathroom? Vote in the comments.\nhttps://excellenttilingservices.com/products/terrazzo-white-porcelain-tile\n\n#terrazzo #porcelaintiles #laundryreno #tilesperth #perthrenovation"
+    },
+    {
+      "date": "2026-11-01T16:30:00", "id": "405609421", "uuid": "-2509830841004112636", "type": "REEL", "angle": "reel", "price_warning": "video says square grate waste $16.05; live price is $18.99 (chrome) to $21.99. Caption corrected; the video needs re-rendering or this Reel replacing.",
+      "media": ["8981808293699675117.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/floor-drains-wastes",
+      "text": "The floor waste is the one thing in the shower you look at every day. Match it to the taps.\nSquare grate waste from $18.99, tile insert waste from $54.85, tile insert linear drain from $189.99. Solid brass and marine-grade stainless, six finishes.\nTile insert or grate? Tell us which you'd pick.\nhttps://excellenttilingservices.com/collections/floor-drains-wastes\n\n#floorwaste #lineardrain #showerideas #perthbathrooms"
+    },
+    {
+      "date": "2026-11-01T18:30:00", "id": "405609100", "uuid": "8262557100724734757", "type": "POST", "angle": "new category", "was_draft": true,
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/YC318GE.png",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/dsayc318ge-crystal-elite-features.jpg"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/products/crystal-smart-toilet-with-bidet-seat",
+      "text": "A toilet that warms the seat, washes and dries. In Maddington, not Tokyo.\nNew in: the Crystal Elite smart toilet suite. The lid opens as you walk up, the seat is heated, the wash water heats instantly, a warm-air dryer finishes the job and a soft night light means no bathroom light at 3 am. Remote control included. $2,999.\nThe feature video is on the product page if you want to see it work.\nhttps://excellenttilingservices.com/products/crystal-smart-toilet-with-bidet-seat\n\n#smarttoilet #bathroomrenovation #bathroomtech #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-11-02T12:15:00", "id": "405609833", "uuid": "-9205490360485786021", "type": "POST", "angle": "compare",
+      "media": ["4009752441033748101.jpeg", "3570260073217392833.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-classic-1200-matt-white-wall-hung-vanity-with-2-drawers",
+      "text": "Hampton, pastel or shaker? It's the same vanity underneath.\nThe MELA CLASSIC 1200 comes with your choice of three drawer fronts. Same 20 mm Pearl White stone top, same ceramic basin, same two drawers, same $1,649.\nPick the front that matches your doors and cabinetry, not the tiles. Swipe to compare.\nWhich front? Tell us below.\nhttps://excellenttilingservices.com/products/mela-classic-1200-matt-white-wall-hung-vanity-with-2-drawers\n\n#wallhungvanity #hamptonstyle #shakerstyle #perthbathrooms #bathroomrenovation"
+    },
+    {
+      "date": "2026-11-02T16:30:00", "id": "405610279", "uuid": "-3378488097441168016", "type": "REEL", "angle": "reel",
+      "media": ["17762775431633265938.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/diamond-blades-drill-bits",
+      "text": "Chipped porcelain edges usually mean the wrong blade, not a bad tiler.\nContinuous rim blades from $23.40, mesh rim from $28, Panther thin turbo 125 mm $41.95, BAT Pro Razor 125 mm $49.95.\nTag the mate who's still using a brick blade on porcelain.\nhttps://excellenttilingservices.com/collections/diamond-blades-drill-bits\n\n#diamondblade #tilingtools #tilingtips #perthtiler"
+    },
+    {
+      "date": "2026-11-02T18:30:00", "id": "405609870", "uuid": "-6995172068820760201", "type": "POST", "angle": "budget idea",
+      "media": ["12744774388465840609.jpeg", "4547090139340254074.jpeg", "964934301855112023.jpeg", "11030177796912747752.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com",
+      "text": "Price a whole bathroom tonight without ringing anyone.\nPorcelain floor tile from $37.40/m². Wall-hung vanity with stone top and basin from $749 (MELA CLARK 600). Basin mixer from $199 (MELA FLOVA). Mirror from $149 (MELA VINA).\nFor a 3 x 2 m floor that's about $1,320 for the big four, before the shower tapware and toilet.\nAdd it up on the site, then DM us if the numbers don't make sense.\nhttps://excellenttilingservices.com\n\n#renovationbudget #bathroomrenovation #bathroomideas #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-11-03T12:15:00", "id": "405609923", "uuid": "-3444322281190373876", "type": "POST", "angle": "easy upgrade",
+      "media": ["7030375763679278531.png", "16311689900585355909.png"],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-flova-shower-head",
+      "text": "Cheapest shower upgrade there is: swap the head, keep the plumbing.\nThe MELA FLOVA shower head screws onto your existing shower arm. Most people do it themselves with a spanner and a bit of thread tape. 9 L/min, 3 star WELS.\nChrome $159, matt black $209, brushed nickel $239.\nLink in bio.\nhttps://excellenttilingservices.com/products/mela-flova-shower-head\n\n#showerideas #bathroomupgrade #tapware #diyperth #perthbathrooms"
+    },
+    {
+      "date": "2026-11-03T16:30:00", "id": "405610317", "uuid": "5577002946806760842", "type": "REEL", "angle": "reel",
+      "media": ["12701356521065850719.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/grout-clean-up-systems",
+      "text": "That cloudy film on new tiles is grout haze. Here's what takes it off without hydrochloric.\nBAT Eco SynSafe acid from $35, BATSEAL multi-purpose cleaner from $33.95, Washboy hand sponge $10.90, Panther float handle $9.50.\nSave this for the day after grouting.\nhttps://excellenttilingservices.com/collections/grout-clean-up-systems\n\n#groutcleaning #tilingtips #diyrenovation #perthtiler"
+    },
+    {
+      "date": "2026-11-03T18:30:00", "id": "405609960", "uuid": "-2443182334445532852", "type": "POST", "angle": "new category",
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/dsa8084-eternal-element-toilet-suite.jpg",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/dsa8084-eternal-element-dimensions.png"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/collections/toilets",
+      "text": "The toilet that's easier to clean around. And inside.\nBack to wall, so there's no gap behind the cistern for dust. Rimless bowl, so there's no rim for grime to hide under. The Eternal Element is also only 610 mm deep, which matters in a small ensuite.\n$500, soft-close seat included.\nNine new toilet suites just went live, from $500. Link in bio.\nhttps://excellenttilingservices.com/collections/toilets\n\n#toilets #backtowalltoilet #ensuite #bathroomrenovation #perthbathrooms"
+    },
+    {
+      "date": "2026-11-04T12:15:00", "id": "405609998", "uuid": "-7697554157829927053", "type": "POST", "angle": "tip",
+      "media": ["5656450224058778462.png", "5966528078751606152.png"],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-baylee-above-counter-basin",
+      "text": "Three things to get right with an above-counter basin.\n1. Tap height. It needs a tall mixer, or the spout won't clear the rim.\n2. Bench height. The bowl adds 135 mm, so drop the vanity so you're not washing at chest height.\n3. Splash. A soft rectangle like the MELA BAYLEE (455 x 325 x 135 mm) is kinder than a sharp square bowl.\nFrom $199 in white; matt black, matt white or matt grey too.\nSave this before you order the vanity.\nhttps://excellenttilingservices.com/products/mela-baylee-above-counter-basin\n\n#bathroomtips #abovecounterbasin #bathroomrenovation #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-11-04T16:30:00", "id": "405610205", "uuid": "7840266312848264602", "type": "REEL", "angle": "reel",
+      "media": ["17528469642519586750.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/trade-essentials",
+      "text": "The part of the bathroom nobody sees is the part that costs the most when it fails.\nBAT Pro waterproofing kit $17.45 with roller, two covers, tray and brush. NICLIS bandage from $31.95. BAT paint brush from $4.45. Maxisil Membrane silicone $14.99.\nTwo coats, cured, then tile. Save this.\nhttps://excellenttilingservices.com/collections/trade-essentials\n\n#waterproofing #bathroomrenovation #tilingtips #perthtiler"
+    },
+    {
+      "date": "2026-11-04T18:30:00", "id": "405610104", "uuid": "-8009204157821466851", "type": "POST", "angle": "hero product",
+      "media": ["12319487152769648014.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-brittany-1200-single-wall-hung-vanity",
+      "text": "The vanity you should touch before you buy.\nPhotos flatten fluted oak. In the room, the MELA BRITTANY 1200 has curved ends, a stone top that follows the curve and two drawers. Basin included, 1190 mm wide.\n$2,099.\nSee the finish in the Maddington showroom by appointment, Mon to Sat 4:30 to 9 pm. Book via the link in bio.\nhttps://excellenttilingservices.com/products/mela-brittany-1200-single-wall-hung-vanity\n\n#flutedvanity #wallhungvanity #bathroominspo #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-11-05T12:15:00", "id": "405609648", "uuid": "5337691022473445400", "type": "POST", "angle": "compare", "was_draft": true,
+      "media": ["3339632048823659291.jpeg", "12407755766629705702.jpeg", "10981687616162470473.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/products/morgan-dusk-porcelain-tile",
+      "text": "Small bathroom: 300x300 or 600x600 on the floor?\nBigger tiles mean fewer grout lines, so the floor reads as one surface and the room feels bigger. Smaller tiles follow the fall to the drain more easily. A common combo: 600x600 on the main floor, 300x300 in the shower.\nMorgan Dusk comes in both. 300x300 $42.50/m², 300x600 and 600x600 $37.40/m². Matt, P3 slip rating.\nNot sure? DM us your bathroom size.\nhttps://excellenttilingservices.com/products/morgan-dusk-porcelain-tile\n\n#smallbathroom #porcelaintiles #bathroomtiles #tilesperth #perthrenovation"
+    },
+    {
+      "date": "2026-11-05T16:30:00", "id": "405609780", "uuid": "7609625914649300024", "type": "REEL", "angle": "reel",
+      "media": ["12555899204537475615.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/mirror-cabinets",
+      "text": "No room for a tallboy? Put the storage behind the mirror.\nMELA PORTER from $299, MIA 450 oval $499, ZOE 600 arch $609, SURI 800 round $699, VERA oval from $799.\nSmall bathroom owners, this one's for you. Save it.\nhttps://excellenttilingservices.com/collections/mirror-cabinets\n\n#mirrorcabinet #smallbathroom #bathroomstorage #perthbathrooms"
+    },
+    {
+      "date": "2026-11-05T18:30:00", "id": "405610158", "uuid": "-2266723356205823759", "type": "POST", "angle": "package",
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ETOJS106-1200W_8fa713d4-cb63-4cd0-abab-e87b00e179aa.png",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ETOJS106-1200AO_19a1d89e-77a7-47d9-95f0-d0eecf33652d.png"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/products/malaga-all-in-one-vanity-package-with-stone-top",
+      "text": "Vanity, stone top, basin, tall mixer and pop-up waste. One box, one price.\nThe Malaga all-in-one package saves you matching five things from five pages. 750, 900 and 1200 mm with one basin, 1500 and 1800 mm with two. Matt white, Antico oak or dark oak.\n20 mm polished stone top from $1,478. China top from $1,215.\nTell us your wall width and we'll tell you which size.\nhttps://excellenttilingservices.com/products/malaga-all-in-one-vanity-package-with-stone-top\n\n#vanitypackage #wallhungvanity #doublevanity #perthbathrooms #bathroomrenovation"
+    },
+    {
+      "date": "2026-11-06T12:15:00", "id": "405610770", "uuid": "-8085031427484136185", "type": "POST", "angle": "weekend DIY",
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/RD600.jpg",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/RD600pk.jpg"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/products/niche-box-372-x-332",
+      "text": "The shampoo shelf that doesn't leak.\nA niche box is a ready-made foam recess with a waterproof coating. Fix it between the studs, waterproof over it, tile straight on. The shelf already has a 2 mm fall so water runs out instead of sitting there.\n372 x 332 mm $67.25. 424 x 364 mm $90.60. 632 x 332 mm $129.15.\nBuilding a shower this weekend? Link in bio.\nhttps://excellenttilingservices.com/products/niche-box-372-x-332\n\n#showerniche #diyrenovation #tilingtips #bathroomrenovation #perthtiler"
+    },
+    {
+      "date": "2026-11-06T16:30:00", "id": "405610565", "uuid": "7689730167253846237", "type": "REEL", "angle": "reel",
+      "media": ["14759765188682263905.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/porcelain-tiles",
+      "text": "Dark floor, white vanity. The easiest bathroom combo to get right.\nLava Etna $46.70/m², Morgan Storm $37.40/m², Time Stone Charcoal from $50.10/m², Time Stone Cinder from $50.10/m². Sold by the full box.\nTeam dark floor or team light floor? Comment below.\nhttps://excellenttilingservices.com/collections/porcelain-tiles\n\n#darkfloor #porcelaintiles #bathroomideas #tilesperth"
+    },
+    {
+      "date": "2026-11-06T18:30:00", "id": "405610343", "uuid": "4111626649410488701", "type": "POST", "angle": "explainer", "was_draft": true,
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/YF600337_4.jpg",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/YF600337_2.jpg"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/products/time-stone-charcoal-porcelain-tile",
+      "text": "What does P4/R11 on a tile page actually mean?\nIt's the slip rating. P is the wet pendulum test, P1 slippery to P5 grippiest. R is the ramp test, R9 to R13. As a rule of thumb: P3 for a bathroom floor, P4 or better for the shower floor and outdoors.\nTime Stone Charcoal in matt is P4/R11, so the same dark tile can run from the living room into the shower. From $50.10/m².\nSave this for when you're comparing tiles.\nhttps://excellenttilingservices.com/products/time-stone-charcoal-porcelain-tile\n\n#tilingtips #slipresistance #porcelaintiles #tilesperth #perthrenovation"
+    },
+    {
+      "date": "2026-11-07T12:15:00", "id": "405610852", "uuid": "596890291466158770", "type": "POST", "angle": "size alternative",
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-brittany-750-matt-white-fluted-wall-hung-vanity-with-2-drawersvanitiesmela-bathroom-city-perth-9787673.png",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-brittany-750-matt-white-fluted-wall-hung-vanity-with-2-drawers-6865477.jpg"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/products/mela-brittany-750-fluted-wall-hung-vanity-with-2-drawers",
+      "text": "Love the fluted look but the wall's only 800 wide?\nThe MELA BRITTANY 750 is the same fluted front and stone top in 740 mm, with two drawers. Matt white or oak. $1,599.\nThere's also a curved version, and a one-side-curved one for the corner by the door. Same price.\nMeasure first, then link in bio.\nhttps://excellenttilingservices.com/products/mela-brittany-750-fluted-wall-hung-vanity-with-2-drawers\n\n#flutedvanity #smallbathroom #wallhungvanity #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-11-07T16:30:00", "id": "405610645", "uuid": "-1663298589055893413", "type": "REEL", "angle": "reel",
+      "media": ["17181978269870651548.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/collections/knee-pads-spares",
+      "text": "Your knees are the one tool you can't replace.\nHandyman knee pad $21.45, BAT professional knee pads $48.95, Raimondi Relax gel knee pads $81.95, Raimondi Morbidone kneeling cushion $81.95.\nTag a tiler who still kneels on a folded towel.\nhttps://excellenttilingservices.com/collections/knee-pads-spares\n\n#tilingtools #kneepads #tradie #perthtiler"
+    },
+    {
+      "date": "2026-11-07T18:30:00", "id": "405610896", "uuid": "-5414918744156582989", "type": "POST", "angle": "refresh without a reno",
+      "media": ["1990410110093985120.jpeg", "12155315810851203452.jpeg", "8524165077712015891.jpeg", "2824122228295353782.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/search?q=flova",
+      "text": "Renting, or not ready to rip it out? Four swaps and the bathroom looks new.\nBasin mixer $199, hand shower set $159, 600 towel rail $99, paper holder $49. All MELA FLOVA in chrome, so they match. $506 for the lot.\nThe towel rail and roll holder are a drill and four screws. The tap and shower are a quick job for a plumber.\nTag the mate who keeps saying 'next year'.\nhttps://excellenttilingservices.com/search?q=flova\n\n#bathroomrefresh #rentalbathroom #tapware #perthbathrooms #perthrenovation"
+    },
+    {
+      "date": "2026-11-08T12:15:00", "id": "405610506", "uuid": "6292509032102645298", "type": "POST", "angle": "weekend DIY", "was_draft": true,
+      "media": ["8559734123475693304.jpeg"],
+      "firstCommentText": "https://excellenttilingservices.com/products/pro-japanese-style-grout-float-timber-handle",
+      "text": "Grouting this week? Don't use the sponge from under the sink.\nA proper float pushes grout into the joint instead of smearing it over the tile. The Pro Japanese-style float has a timber handle, a firm rubber face and a pointed end for corners.\n$28.85.\nOrder tonight, pick up free in Maddington from Monday evening, or we deliver.\nhttps://excellenttilingservices.com/products/pro-japanese-style-grout-float-timber-handle\n\n#grouting #diyrenovation #tilingtools #tilingtips #perthtiler"
+    },
+    {
+      "date": "2026-11-08T16:30:00", "id": "405610719", "uuid": "-3412481139171769589", "type": "REEL", "angle": "reel",
+      "media": ["17894372137889796037.mp4"],
+      "firstCommentText": "https://excellenttilingservices.com/search?q=celine",
+      "text": "New range, lower starting prices: meet Celine.\nBasin mixer from $209, shower mixer from $119, rail shower from $239, 600 towel rail from $89. Chrome or brushed nickel.\nChrome or brushed nickel for your bathroom? Tell us below.\nhttps://excellenttilingservices.com/search?q=celine\n\n#tapware #newin #bathroomrenovation #perthbathrooms"
+    },
+    {
+      "date": "2026-11-08T18:30:00", "id": "405610456", "uuid": "1017391291423933864", "type": "POST", "angle": "question", "was_draft": true,
+      "media_cdn": [
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/terrazzo-white-room.png",
+        "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/DSAFG607317_3.jpg"
+      ],
+      "firstCommentText": "https://excellenttilingservices.com/collections/porcelain-tiles",
+      "text": "Light floor or dark floor? Same white vanity, two very different bathrooms.\nLight (Terrazzo White, $37.40/m²) makes a small room feel bigger and hides water marks. Dark (Lava Etna, $46.70/m²) hides dirt and makes a white vanity pop, but shows every dried drop.\nWhich way would you go? Light or dark in the comments.\nBoth via the link in bio.\nhttps://excellenttilingservices.com/collections/porcelain-tiles\n\n#lightvsdark #bathroomideas #porcelaintiles #tilesperth #perthrenovation"
+    }
+  ]
+}

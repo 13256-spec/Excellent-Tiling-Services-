@@ -19,9 +19,9 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
   white studio shots fitted on white). Never repeat the same photo twice in one post. Look at every slide.
 - Schedule: 12:15 pm product post, 4:30 pm photo Reel (from 13 Oct, `marketing/finish-it-right/reels/make_reel.py`:
   store photos only, name and price under the photo, CC0 music), 6:30 pm photo carousel, 7:30 pm Story. Instagram + Facebook together.
-- Captions: calm and short, like a catalogue. Line 1 product name. One or two plain lines on what it is.
-  Price and sizes. One delivery line. Three hashtags. No sales hooks, no "link in bio" spam, no emoji,
-  no exclamation marks. Say what's not included when the photo shows it (e.g. "Mirror sold separately").
+- Captions (owner, 27 Oct 2026: "it's all so repetitive"): the catalogue template (name / specs / price /
+  delivery line) is retired. See "Captions" below. Still say what's not included when the photo shows it
+  (e.g. "Mirror sold separately"). No emoji, max one exclamation mark.
 - Every feed caption ends (before the hashtags) with the full product link, https://excellenttilingservices.com/products/<handle>
   (clickable on Facebook). Several products: link a search page, e.g. /search?q=flova. Stories can't carry links.
 - Stock photos (owner OK, 11 Oct 2026): use striking free stock shots (Unsplash/Openverse CC0, via ets-image-scout)
@@ -30,10 +30,20 @@ business selling tiles, MELA tapware and vanities, and tiling tools at excellent
 
 ## Captions
 
-- Plain Aussie English, 2–5 short lines: what it is, one real feature (from the product description,
-  never invented), the live price, how they get it, "Shop at excellenttilingservices.com (link in bio)",
-  then 6–8 hashtags (#perthrenovation #perthbathrooms #bathroomrenovation #perthtiler #perthhomes
-  #bathroominspo #maddington plus 1–2 for the product).
+- Plain Aussie English, 3–6 short lines. Line 1 is a hook a Perth renovator would stop for (a problem, a
+  question, a choice, a number), never the product name. Then the benefit, then the real price (from the
+  live store), then ONE call to action, then the product link, then 4–5 hashtags that fit the post.
+- Rotate the angle so no two days in a row read the same. Pick from: tip or mistake, A-or-B compare
+  (matt vs lappato, 300x300 vs 600x600, light vs dark), room idea with a total price, weekend DIY job,
+  question or poll, new product or category, size alternative, proof (job photo, review, pickup).
+  Examples of the voice: `marketing/finish-it-right/schedule/rewrite-2026-10-28.json`.
+- Rotate the call to action: link in bio, save this, DM us a photo or your wall width, which one (comment),
+  tag a mate, book an evening showroom visit, call 0450 960 543. Never the same one two days running.
+- No product headlines more than once in 14 days. No stock line in every caption: the delivery line
+  ("We deliver, or pick up free in Maddington...") goes in the first comment or is left out, not pasted
+  under every post. Vary the hashtags per post instead of one fixed set.
+- Reels reach 2–3x more people than photo posts here (Oct 2026 Metricool data); when a day only gets one
+  post, make it the Reel.
 - Shipping (live site, 17 Oct 2026): small boxed items (tapware, shower sets, towel rails, hooks, holders) ship Australia-wide by tracked Australia Post from $9.95 by parcel weight (basins, mirrors, sinks and niche boxes go the same way). There is NO free shipping or free delivery at any order value (ended 17 Oct 2026): never write "free shipping", "free delivery" or "free post". Tiles, vanities, baths, toilets and shower screens are Perth metro delivery only (cost at checkout); tiles are not shipped outside Perth. Free pickup in Maddington by appointment. Safe line for any product: "We deliver, or pick up free in Maddington. Shipping options show at checkout." Re-read /pages/delivery-pickup before quoting anything more specific; it has changed several times.
 
 - No discount codes, no "cheaper than" or "lowest price" claims, never the tile supplier's name (Eternity).
