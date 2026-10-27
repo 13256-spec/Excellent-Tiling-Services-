@@ -50,7 +50,9 @@ the owner's calendar (`ets-calendar`) in the same job; never leave the calendar 
   Reels (16, 21, 26 Oct) and the review/job photo post (27 Oct). That is 7-8 touches a day with only
   about two feed posts.
 - Voice: friendly, plain Aussie English, a real Perth tiling business that sells what it installs.
-  Every post: one product or one idea, the real price, and the link.
+  Every post: one product or one idea, the real price, and the link, but a different angle and call to
+  action from the day before (rotation in `ets-content.md`, "Captions"). The owner called the queue
+  repetitive on 27 Oct 2026; the 28 Oct–8 Nov queue was rewritten (`schedule/rewrite-2026-10-28.json`).
 - The posting schedule lives in Google Calendar (`ets-calendar`) and Metricool (`ets-social`). For any
   price, cost, margin or discount question, follow the `ets-pricing` agent's rules.
 - Next: weekly results every Monday (`ets-analytics`), then refill and adjust the queue; Black Friday plan
