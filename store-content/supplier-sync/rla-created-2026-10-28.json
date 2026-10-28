@@ -1,0 +1,2414 @@
+[
+ {
+  "id": "gid://shopify/Product/8478584438847",
+  "handle": "rla-tilebond-extra-white-tile-adhesive-20kg",
+  "title": "RLA TileBond Extra White Tile Adhesive 20kg",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C1E",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319099748415",
+    "sku": "RL7110-20",
+    "price": "23.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478584471615",
+  "handle": "rla-moreflex-flexible-tile-adhesive-20kg-grey",
+  "title": "RLA MoreFlex Flexible Tile Adhesive 20kg Grey",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C1ETS1",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319099781183",
+    "sku": "510013",
+    "price": "27.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478584537151",
+  "handle": "rla-tileflex-premium-flexible-tile-adhesive-20kg-white",
+  "title": "RLA TileFlex Premium Flexible Tile Adhesive 20kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2TES1",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Hardware",
+   "Large Format",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319099879487",
+    "sku": "RL7145-20",
+    "price": "26.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478584569919",
+  "handle": "rla-addflextra-polymer-modified-tile-adhesive-20kg-white",
+  "title": "RLA AddFlextra Polymer Modified Tile Adhesive 20kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2TES1",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Hardware",
+   "Large Format",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319099945023",
+    "sku": "RL7550-20",
+    "price": "36.55"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478584635455",
+  "handle": "rla-trade-mastik-polymer-modified-tile-adhesive-20kg-white",
+  "title": "RLA Trade Mastik Polymer Modified Tile Adhesive 20kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C1TES1",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Hardware",
+   "needs-cost",
+   "New",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319100010559",
+    "sku": "510020",
+    "price": "24.75"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478584700991",
+  "handle": "rla-mastik-premium-flexible-tile-adhesive-20kg",
+  "title": "RLA Mastik Premium Flexible Tile Adhesive 20kg",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2TES1",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Green Tag",
+   "Hardware",
+   "Large Format",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319100108863",
+    "sku": "RL7152-20",
+    "price": "25.60"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319100141631",
+    "sku": "RL7122-20",
+    "price": "25.60"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478584766527",
+  "handle": "rla-unilite-s1-lightweight-flexible-tile-adhesive-12-5kg",
+  "title": "RLA UniLite S1 Lightweight Flexible Tile Adhesive 12.5kg",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2TES1",
+   "ebay-post-39",
+   "Flexible Adhesive",
+   "Green Tag",
+   "Hardware",
+   "Lightweight Adhesive",
+   "needs-cost",
+   "New",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319100239935",
+    "sku": "510005",
+    "price": "31.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319100272703",
+    "sku": "510008",
+    "price": "31.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478584799295",
+  "handle": "rla-unilite-s2-lightweight-highly-deformable-tile-adhesive-12-5kg",
+  "title": "RLA UniLite S2 Lightweight Highly Deformable Tile Adhesive 12.5kg",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2TES2",
+   "ebay-post-39",
+   "Flexible Adhesive",
+   "Green Tag",
+   "Hardware",
+   "Lightweight Adhesive",
+   "needs-cost",
+   "New",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319100305471",
+    "sku": "510010",
+    "price": "41.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478604525631",
+  "handle": "rla-unigrip-premium-highly-flexible-tile-adhesive-15kg-white",
+  "title": "RLA UniGrip Premium Highly Flexible Tile Adhesive 15kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2S2ET",
+   "ebay-post-39",
+   "Flexible Adhesive",
+   "Hardware",
+   "Large Format",
+   "needs-cost",
+   "Pool",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319165022271",
+    "sku": "RL7153-15",
+    "price": "36.75"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478604591167",
+  "handle": "rla-fastset-rapid-setting-tile-adhesive-20kg-grey",
+  "title": "RLA FastSet Rapid Setting Tile Adhesive 20kg Grey",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2S1FTE",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "Rapid Set",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319165120575",
+    "sku": "RL7132-20",
+    "price": "44.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478604656703",
+  "handle": "rla-stoneset-rapid-setting-stone-adhesive-20kg-white",
+  "title": "RLA StoneSet Rapid Setting Stone Adhesive 20kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2S1FTE",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "Rapid Set",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "Stone Adhesive",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319165251647",
+    "sku": "RL7131-20",
+    "price": "64.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478604755007",
+  "handle": "rla-polymastic-pre-mixed-wall-tile-adhesive",
+  "title": "RLA PolyMastic Pre-Mixed Wall Tile Adhesive",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "D1E",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "Pre-Mixed Adhesive",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive",
+   "Wall Tiles"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319165448255",
+    "sku": "RL7194-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319165481023",
+    "sku": "RL7194-15",
+    "price": "94.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478604820543",
+  "handle": "rla-wpu-class-iii-internal-external-waterproofing-membrane",
+  "title": "RLA WPU Class III Internal & External Waterproofing Membrane",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Class III",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "UV Stable",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319165546559",
+    "sku": "14443",
+    "price": "94.05"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319165579327",
+    "sku": "14442",
+    "price": "166.25"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478604918847",
+  "handle": "rla-wpm-class-iii-wet-area-waterproofing-membrane-15l",
+  "title": "RLA WPM Class III Wet Area Waterproofing Membrane 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Class III",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319165743167",
+    "sku": "14510",
+    "price": "129.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478605017151",
+  "handle": "rla-safe2o-solvent-free-smp-waterproofing-membrane-15kg",
+  "title": "RLA Safe2o Solvent Free SMP Waterproofing Membrane 15kg",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Class III",
+   "ebay-pickup-only",
+   "Green Tag",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "SMP",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319165874239",
+    "sku": "RL1003",
+    "price": "199.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478605082687",
+  "handle": "rla-2part-uv-stable-cementitious-waterproofing-membrane-kit-40kg",
+  "title": "RLA 2Part UV Stable Cementitious Waterproofing Membrane Kit 40kg",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Cementitious",
+   "Class II",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "Pool",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319166005311",
+    "sku": "RL7190-KIT",
+    "price": "195.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478616977471",
+  "handle": "rla-1komponent-one-part-cementitious-waterproofing-membrane-20kg",
+  "title": "RLA 1Komponent One Part Cementitious Waterproofing Membrane 20kg",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Cementitious",
+   "Class I",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "Negative Pressure",
+   "Pool",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319190024255",
+    "sku": "999729",
+    "price": "184.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617075775",
+  "handle": "rla-pu850-moisture-cured-polyurethane-waterproofing-membrane-15l",
+  "title": "RLA PU850 Moisture Cured Polyurethane Waterproofing Membrane 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Class III",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "Polyurethane",
+   "RLA",
+   "rla-2026-10",
+   "ship-dangerous-goods",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319190188095",
+    "sku": "750599",
+    "price": "204.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617239615",
+  "handle": "rla-atc-aliphatic-top-coat-uv-protective-polyurethane-coating-15l",
+  "title": "RLA ATC Aliphatic Top Coat UV Protective Polyurethane Coating 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "Polyurethane",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-dangerous-goods",
+   "ship-local-only",
+   "supplier-import",
+   "Top Coat",
+   "UV Stable",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319190417471",
+    "sku": "RLA-ATC-15",
+    "price": "229.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617272383",
+  "handle": "rla-moisture-seal-two-part-epoxy-water-vapour-barrier-kit",
+  "title": "RLA Moisture Seal Two Part Epoxy Water Vapour Barrier Kit",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-pickup-only",
+   "Epoxy",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Vapour Barrier",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319190548543",
+    "sku": "15636",
+    "price": "219.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319190581311",
+    "sku": "15637",
+    "price": "479.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617403455",
+  "handle": "rla-primer-pu-penetrating-waterproofing-primer-15l",
+  "title": "RLA Primer PU Penetrating Waterproofing Primer 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "Polyurethane",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-dangerous-goods",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319190777919",
+    "sku": "730541",
+    "price": "204.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617501759",
+  "handle": "rla-max-smp-25-adhesive-sealant",
+  "title": "RLA Max SMP 25 Adhesive Sealant",
+  "status": "DRAFT",
+  "type": "Hybrid Sealants",
+  "tags": [
+   "Adhesive Sealant",
+   "ebay-post-15",
+   "Green Tag",
+   "Hardware",
+   "Hybrid Sealants",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "Silicone & Sealants",
+   "SMP",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319190974527",
+    "sku": "620514",
+    "price": "11.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319191007295",
+    "sku": "620515",
+    "price": "11.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319191040063",
+    "sku": "620516",
+    "price": "11.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319191072831",
+    "sku": "620521",
+    "price": "11.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319191105599",
+    "sku": "620520",
+    "price": "11.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319191138367",
+    "sku": "620519",
+    "price": "11.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617665599",
+  "handle": "rla-waterproof-tape-gripset-rf-fabric-reinforcing-tape-50m",
+  "title": "RLA Waterproof Tape / Gripset RF Fabric Reinforcing Tape 50m",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "ebay-post-20",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Tape"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319191367743",
+    "sku": "730663",
+    "price": "39.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319191400511",
+    "sku": "730662",
+    "price": "64.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617796671",
+  "handle": "rla-waterproofing-external-corners-pre-formed-rubber-box-of-25",
+  "title": "RLA Waterproofing External Corners Pre-Formed Rubber, Box of 25",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "ebay-post-20",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Corners"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319191597119",
+    "sku": "730695",
+    "price": "124.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478617894975",
+  "handle": "rla-waterproofing-internal-corners-pre-formed-rubber-box-of-25",
+  "title": "RLA Waterproofing Internal Corners Pre-Formed Rubber, Box of 25",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "ebay-post-20",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Corners"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319191760959",
+    "sku": "730696",
+    "price": "124.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478630707263",
+  "handle": "rla-waterproofing-pipe-collars-tap-sleeves-box-of-25",
+  "title": "RLA Waterproofing Pipe Collars Tap Sleeves, Box of 25",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "ebay-post-20",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Collars"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319217942591",
+    "sku": "730697",
+    "price": "124.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478630740031",
+  "handle": "rla-luminous-ef-efflorescence-free-coloured-grout-4kg",
+  "title": "RLA Luminous EF Efflorescence Free Coloured Grout 4kg",
+  "status": "DRAFT",
+  "type": "Grout",
+  "tags": [
+   "Coloured Grout",
+   "ebay-post-15",
+   "Green Tag",
+   "Grout",
+   "Hardware",
+   "Luminous",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Tile Grout"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319217975359",
+    "sku": "LUM02-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218008127",
+    "sku": "LUM82-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218040895",
+    "sku": "LUM41-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218073663",
+    "sku": "LUM85-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218106431",
+    "sku": "LUM21-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218139199",
+    "sku": "LUM06-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218171967",
+    "sku": "LUM77-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218204735",
+    "sku": "LUM80-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218237503",
+    "sku": "LUM39-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218270271",
+    "sku": "LUM30-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218303039",
+    "sku": "LUM88-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218335807",
+    "sku": "LUM14-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218368575",
+    "sku": "LUM19-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218401343",
+    "sku": "LUM11-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218434111",
+    "sku": "LUM54-4",
+    "price": "34.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218466879",
+    "sku": "LUM55-4",
+    "price": "34.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478630805567",
+  "handle": "rla-luminous-ssg-smooth-coloured-grout",
+  "title": "RLA Luminous SSG Smooth Coloured Grout",
+  "status": "DRAFT",
+  "type": "Grout",
+  "tags": [
+   "Coloured Grout",
+   "ebay-post-39",
+   "Grout",
+   "Hardware",
+   "Luminous",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Tile Grout"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319218565183",
+    "sku": "LUMSSG02-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218597951",
+    "sku": "LUMSSG02-10",
+    "price": "39.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218630719",
+    "sku": "LUMSSG82-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218663487",
+    "sku": "LUMSSG82-10",
+    "price": "59.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218696255",
+    "sku": "LUMSSG41-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218729023",
+    "sku": "LUMSSG41-10",
+    "price": "39.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218761791",
+    "sku": "LUMSSG85-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218794559",
+    "sku": "LUMSSG85-10",
+    "price": "59.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218827327",
+    "sku": "LUMSSG21-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218860095",
+    "sku": "LUMSSG21-10",
+    "price": "59.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218892863",
+    "sku": "LUMSSG06-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218925631",
+    "sku": "LUMSSG06-10",
+    "price": "39.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218958399",
+    "sku": "LUMSSG77-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319218991167",
+    "sku": "LUMSSG77-10",
+    "price": "59.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219023935",
+    "sku": "LUMSSG80-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219056703",
+    "sku": "LUMSSG80-10",
+    "price": "59.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219089471",
+    "sku": "LUMSSG88-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219122239",
+    "sku": "LUMSSG88-10",
+    "price": "59.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219155007",
+    "sku": "LUMSSG11-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219187775",
+    "sku": "LUMSSG11-10",
+    "price": "39.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219220543",
+    "sku": "LUMSSG54-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219253311",
+    "sku": "LUMSSG54-10",
+    "price": "59.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219286079",
+    "sku": "LUMSSG55-4",
+    "price": "28.50"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219318847",
+    "sku": "LUMSSG55-10",
+    "price": "59.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478630871103",
+  "handle": "rla-luminous-silicone-wet-area-sealant-300ml-grout-matched",
+  "title": "RLA Luminous Silicone Wet Area Sealant 300ml, Grout Matched",
+  "status": "DRAFT",
+  "type": "Silicone Sealants",
+  "tags": [
+   "ebay-post-15",
+   "Hardware",
+   "Luminous",
+   "needs-cost",
+   "Neutral Cure",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "Silicone & Sealants",
+   "supplier-import",
+   "Wet Area"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319219417151",
+    "sku": "610702",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219449919",
+    "sku": "610782",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219482687",
+    "sku": "610741",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219515455",
+    "sku": "610785",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219548223",
+    "sku": "610721",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219580991",
+    "sku": "610706",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219613759",
+    "sku": "610777",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219646527",
+    "sku": "610780",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219679295",
+    "sku": "610788",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219712063",
+    "sku": "610719",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219744831",
+    "sku": "610711",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219777599",
+    "sku": "610754",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219810367",
+    "sku": "610755",
+    "price": "9.75"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478630936639",
+  "handle": "rla-epoxy-grout-two-part-anti-acid-5kg-kit",
+  "title": "RLA Epoxy Grout Two Part Anti-Acid 5kg Kit",
+  "status": "DRAFT",
+  "type": "Grout",
+  "tags": [
+   "Coloured Grout",
+   "ebay-post-39",
+   "Epoxy Grout",
+   "Grout",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Tile Grout"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319219875903",
+    "sku": "620400",
+    "price": "149.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219908671",
+    "sku": "620401",
+    "price": "149.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219941439",
+    "sku": "620402",
+    "price": "149.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319219974207",
+    "sku": "620403",
+    "price": "149.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478637948991",
+  "handle": "rla-the-once-over-rejuvenating-grout-cleaner-1l",
+  "title": "RLA The Once Over Rejuvenating Grout Cleaner 1L",
+  "status": "DRAFT",
+  "type": "Sealants, Sealers & Cleaners",
+  "tags": [
+   "Cleaners & Sealers",
+   "ebay-post-15",
+   "Grout Cleaner",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319234031679",
+    "sku": "506210",
+    "price": "29.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478638047295",
+  "handle": "rla-porous-primer-acrylic-tiling-primer",
+  "title": "RLA Porous Primer Acrylic Tiling Primer",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "New",
+   "price-check",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319234228287",
+    "sku": "RL7175-5",
+    "price": "37.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234261055",
+    "sku": "RL7175-20",
+    "price": "109.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478638145599",
+  "handle": "rla-non-porous-primer-tile-over-tile-primer",
+  "title": "RLA Non-Porous Primer Tile Over Tile Primer",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Hardware",
+   "needs-cost",
+   "New",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Over Tile"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319234392127",
+    "sku": "RL8502-5",
+    "price": "87.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234424895",
+    "sku": "RL8502-20",
+    "price": "239.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478638178367",
+  "handle": "rla-plastinex-flexible-acrylic-additive",
+  "title": "RLA Plastinex Flexible Acrylic Additive",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Additive",
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Flexible Additive",
+   "Hardware",
+   "needs-cost",
+   "New",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319234490431",
+    "sku": "RL7950-5",
+    "price": "52.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234523199",
+    "sku": "RL7950-20",
+    "price": "179.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478638276671",
+  "handle": "rla-silikon-700-wet-area-antifungal-silicone-300g",
+  "title": "RLA Silikon 700 Wet Area Antifungal Silicone 300g",
+  "status": "DRAFT",
+  "type": "Silicone Sealants",
+  "tags": [
+   "ebay-post-15",
+   "Hardware",
+   "needs-cost",
+   "Neutral Cure",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "Silicone & Sealants",
+   "Silikon",
+   "supplier-import",
+   "Wet Area"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319234654271",
+    "sku": "610600",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234687039",
+    "sku": "610602",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234719807",
+    "sku": "610603",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234752575",
+    "sku": "610605",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234785343",
+    "sku": "610606",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234818111",
+    "sku": "610607",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234850879",
+    "sku": "610608",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234883647",
+    "sku": "610609",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234916415",
+    "sku": "610610",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234949183",
+    "sku": "610611",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319234981951",
+    "sku": "610612",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319235014719",
+    "sku": "610613",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319235047487",
+    "sku": "610614",
+    "price": "9.75"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319235080255",
+    "sku": "610615",
+    "price": "9.75"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478638374975",
+  "handle": "rla-heavy-duty-skeleton-caulking-gun",
+  "title": "RLA Heavy Duty Skeleton Caulking Gun",
+  "status": "DRAFT",
+  "type": "Silicone Accessories",
+  "tags": [
+   "Caulking Gun",
+   "ebay-post-20",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "Sealant Tools",
+   "ship-parcel",
+   "Silicone & Sealants",
+   "Silicone Accessories",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319235244095",
+    "sku": "A1380",
+    "price": "14.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319235276863",
+    "sku": "770502",
+    "price": "29.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478638440511",
+  "handle": "rla-dry-area-acoustic-mat-adhesive-15l",
+  "title": "RLA Dry Area Acoustic Mat Adhesive 15L",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Acoustic",
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Flooring Adhesive",
+   "Green Star",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319235407935",
+    "sku": "RL-7197-15",
+    "price": "189.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478638538815",
+  "handle": "rla-wet-area-acoustic-mat-adhesive-smp-10l",
+  "title": "RLA Wet Area Acoustic Mat Adhesive SMP 10L",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Acoustic",
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Flooring Adhesive",
+   "Green Star",
+   "Hardware",
+   "needs-cost",
+   "needs-photo",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "SMP",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319235539007",
+    "sku": "RL1010-15",
+    "price": "219.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650368063",
+  "handle": "gripset-e60-water-based-epoxy-primer-moisture-barrier-kit",
+  "title": "Gripset E60 Water Based Epoxy Primer & Moisture Barrier Kit",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-pickup-only",
+   "Epoxy",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Vapour Barrier",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319260344383",
+    "sku": "GWS085",
+    "price": "97.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319260377151",
+    "sku": "GWS072",
+    "price": "199.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319260409919",
+    "sku": "GWS071",
+    "price": "349.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650433599",
+  "handle": "gripset-gp-general-purpose-primer",
+  "title": "Gripset GP General Purpose Primer",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319260540991",
+    "sku": "GWS117",
+    "price": "84.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319260573759",
+    "sku": "GWS034",
+    "price": "127.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650531903",
+  "handle": "gripset-op-non-porous-surface-primer",
+  "title": "Gripset OP Non-Porous Surface Primer",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Over Tile",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319260704831",
+    "sku": "GWS106",
+    "price": "27.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319260737599",
+    "sku": "GWS118",
+    "price": "129.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319260770367",
+    "sku": "GWS040",
+    "price": "244.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650597439",
+  "handle": "gripset-11y-latex-waterproof-additive",
+  "title": "Gripset 11Y Latex Waterproof Additive",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Additive",
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319260901439",
+    "sku": "GWS116",
+    "price": "89.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319260934207",
+    "sku": "GWS015",
+    "price": "204.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650662975",
+  "handle": "gripset-elastoproof-b50-bond-breaker-joint-band-120mm",
+  "title": "Gripset Elastoproof B50 Bond Breaker Joint Band 120mm",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "Bond Breaker",
+   "ebay-post-20",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Tape"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319261032511",
+    "sku": "GWS010",
+    "price": "45.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319261065279",
+    "sku": "GWS011",
+    "price": "164.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650728511",
+  "handle": "gripset-elastoproof-prefabricated-corner",
+  "title": "Gripset Elastoproof Prefabricated Corner",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "Bond Breaker",
+   "ebay-post-15",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Corners"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319261163583",
+    "sku": "GWS009",
+    "price": "7.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319261196351",
+    "sku": "GWS006",
+    "price": "9.45"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650794047",
+  "handle": "gripset-elastoproof-base-collars-for-pipes-penetrations-pack",
+  "title": "Gripset Elastoproof Base Collars for Pipes & Penetrations, Pack",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "Bond Breaker",
+   "ebay-post-20",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Collars"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319261294655",
+    "sku": "GWS064",
+    "price": "89.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319261327423",
+    "sku": "GWS057",
+    "price": "179.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319261360191",
+    "sku": "GWS148",
+    "price": "499.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319261392959",
+    "sku": "GWS077",
+    "price": "379.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478650859583",
+  "handle": "gripset-brw-pf-tape-self-adhesive-butyl-sealing-tape-10m",
+  "title": "Gripset BRW PF Tape Self-Adhesive Butyl Sealing Tape 10m",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "Bond Breaker",
+   "Butyl Tape",
+   "ebay-post-20",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Tape"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319261491263",
+    "sku": "GWS231",
+    "price": "29.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319261524031",
+    "sku": "GWS146",
+    "price": "53.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661017663",
+  "handle": "gripset-brw-pf-square-self-adhesive-flange-seal-250-x-250mm",
+  "title": "Gripset BRW PF Square Self-Adhesive Flange Seal 250 x 250mm",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "Butyl Tape",
+   "ebay-post-15",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Collars"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319281315903",
+    "sku": "GWS152",
+    "price": "10.45"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661083199",
+  "handle": "gripset-38fc-sbr-fast-cure-waterproofing-membrane",
+  "title": "Gripset 38FC SBR Fast Cure Waterproofing Membrane",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Class III",
+   "ebay-pickup-only",
+   "Fast Cure",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319281414207",
+    "sku": "GWS068",
+    "price": "82.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319281446975",
+    "sku": "GWS065",
+    "price": "149.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661181503",
+  "handle": "gripset-p39-polyurethane-hybrid-waterproofing-membrane-15l",
+  "title": "Gripset P39 Polyurethane Hybrid Waterproofing Membrane 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Class III",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "UV Stable",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319281610815",
+    "sku": "GWS131",
+    "price": "184.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661279807",
+  "handle": "gripset-ls-external-trafficable-non-slip-top-coat-15l",
+  "title": "Gripset LS External Trafficable Non-Slip Top Coat 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Non Slip",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Top Coat",
+   "UV Stable",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319281774655",
+    "sku": "GWS039",
+    "price": "204.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661378111",
+  "handle": "gripset-51-solvent-free-bitumen-rubber-membrane",
+  "title": "Gripset 51 Solvent Free Bitumen Rubber Membrane",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Below Ground",
+   "Bitumen",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319281938495",
+    "sku": "GWS119",
+    "price": "63.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44319281971263",
+    "sku": "GWS022",
+    "price": "139.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661443647",
+  "handle": "gripset-xpress-primer-h2o-plus-vapour-barrier-primer-10l",
+  "title": "Gripset Xpress Primer H2O Plus Vapour Barrier Primer 10L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "ebay-post-39",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Primer",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Vapour Barrier",
+   "Waterproofing",
+   "Xpress"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319282069567",
+    "sku": "GWS192",
+    "price": "324.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661541951",
+  "handle": "gripset-xpress-multi-pro-water-based-elastomeric-membrane-15l",
+  "title": "Gripset Xpress Multi Pro Water Based Elastomeric Membrane 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Class III",
+   "ebay-pickup-only",
+   "Fast Cure",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "UV Stable",
+   "Waterproofing",
+   "Waterproofing Membrane",
+   "Xpress"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319282233407",
+    "sku": "GWS191",
+    "price": "279.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8478661673023",
+  "handle": "gripset-xpresslay-self-adhesive-waterproof-anti-fracture-sheet-1-3-x-10m",
+  "title": "Gripset XpressLay Self-Adhesive Waterproof Anti-Fracture Sheet 1.3 x 10m",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Anti-Fracture",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "Sheet Membrane",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Xpress"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44319282397247",
+    "sku": "GWS234",
+    "price": "519.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481018642495",
+  "handle": "gripset-2p-two-part-flexible-cementitious-membrane-kit",
+  "title": "Gripset 2P Two Part Flexible Cementitious Membrane Kit",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Cementitious",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Pool",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325567529023",
+    "sku": "GWS190",
+    "price": "179.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481018773567",
+  "handle": "gripset-c-1p-one-part-flexible-cementitious-membrane-15kg",
+  "title": "Gripset C-1P One Part Flexible Cementitious Membrane 15kg",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Cementitious",
+   "ebay-post-39",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Negative Pressure",
+   "Pool",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing",
+   "Waterproofing Membrane"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325567856703",
+    "sku": "GWS032",
+    "price": "154.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481018839103",
+  "handle": "gripset-c-bed-premium-engineered-screed-20kg",
+  "title": "Gripset C-Bed Premium Engineered Screed 20kg",
+  "status": "DRAFT",
+  "type": "Screeds & Levellers",
+  "tags": [
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "Screed",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325567987775",
+    "sku": "GWS210",
+    "price": "26.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481018904639",
+  "handle": "gripset-c-level-fast-set-self-levelling-compound-20kg",
+  "title": "Gripset C-Level Fast Set Self-Levelling Compound 20kg",
+  "status": "DRAFT",
+  "type": "Screeds & Levellers",
+  "tags": [
+   "Adhesives & Additives",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "Leveller",
+   "needs-cost",
+   "price-check",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325568086079",
+    "sku": "GWS209",
+    "price": "44.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481018970175",
+  "handle": "gripset-c-plug-rapid-set-water-plug",
+  "title": "Gripset C-Plug Rapid Set Water Plug",
+  "status": "DRAFT",
+  "type": "Screeds & Levellers",
+  "tags": [
+   "Adhesives & Additives",
+   "ebay-post-39",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Repair Mortar",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325568184383",
+    "sku": "GWS056",
+    "price": "54.95"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44325568217151",
+    "sku": "GWS055",
+    "price": "164.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481019035711",
+  "handle": "gripset-butyl-hd-tape-self-adhesive-bond-breaker-150mm-x-10m",
+  "title": "Gripset Butyl HD Tape Self-Adhesive Bond Breaker 150mm x 10m",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "Bond Breaker",
+   "Butyl Tape",
+   "ebay-post-20",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "Sheet Membrane",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325568348223",
+    "sku": "GWS228",
+    "price": "45.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481019101247",
+  "handle": "gripset-brw-hd-hdpe-reinforced-butyl-rubber-sheet-membrane-1m-x-10m",
+  "title": "Gripset BRW HD HDPE Reinforced Butyl Rubber Sheet Membrane 1m x 10m",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Below Ground",
+   "Butyl",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "Sheet Membrane",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325568413759",
+    "sku": "GWS197",
+    "price": "439.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481019166783",
+  "handle": "gripset-brw-pfn-fibre-reinforced-butyl-rubber-sheet-membrane-1m-x-10m",
+  "title": "Gripset BRW PFN Fibre Reinforced Butyl Rubber Sheet Membrane 1m x 10m",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Anti-Fracture",
+   "Butyl",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "Sheet Membrane",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325568544831",
+    "sku": "GWS225",
+    "price": "409.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481019265087",
+  "handle": "gripset-brw-fg-double-sided-fibreglass-sealing-tape-50mm-x-15m",
+  "title": "Gripset BRW FG Double Sided Fibreglass Sealing Tape 50mm x 15m",
+  "status": "DRAFT",
+  "type": "Waterproofing Accessories",
+  "tags": [
+   "Butyl Tape",
+   "ebay-post-15",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "Sheet Membrane",
+   "ship-parcel",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325568675903",
+    "sku": "GWS229",
+    "price": "38.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481023852607",
+  "handle": "gripset-c-lite-high-performance-lightweight-tile-adhesive-15kg-white",
+  "title": "Gripset C-Lite High Performance Lightweight Tile Adhesive 15kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2S2TE",
+   "ebay-post-39",
+   "Flexible Adhesive",
+   "Gripset",
+   "Hardware",
+   "Large Format",
+   "Lightweight Adhesive",
+   "needs-cost",
+   "Pool",
+   "RLA",
+   "rla-2026-10",
+   "ship-bulky",
+   "ship-parcel",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325577719871",
+    "sku": "GWS149",
+    "price": "39.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481023983679",
+  "handle": "gripset-c-stone-fast-set-moisture-sensitive-stone-adhesive-20kg-white",
+  "title": "Gripset C-Stone Fast Set Moisture Sensitive Stone Adhesive 20kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2S1FTE",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "price-check",
+   "Rapid Set",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "Stone Adhesive",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325577916479",
+    "sku": "GWS155",
+    "price": "59.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481024081983",
+  "handle": "gripset-b26-asphalt-crack-filler-15l",
+  "title": "Gripset B26 Asphalt Crack Filler 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Bitumen",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Pavement Protection",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325578047551",
+    "sku": "GPP008",
+    "price": "197.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481023918143",
+  "handle": "gripset-c-mastic-high-strength-polymer-modified-tile-adhesive-20kg-white",
+  "title": "Gripset C-Mastic High Strength Polymer Modified Tile Adhesive 20kg White",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2S1TE",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Gripset",
+   "Hardware",
+   "Large Format",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325577818175",
+    "sku": "GWS154",
+    "price": "35.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481024049215",
+  "handle": "gripset-c-rubber-economical-rubber-modified-tile-adhesive-20kg",
+  "title": "Gripset C-Rubber Economical Rubber Modified Tile Adhesive 20kg",
+  "status": "DRAFT",
+  "type": "Adhesives",
+  "tags": [
+   "Adhesives & Additives",
+   "C2TES1",
+   "ebay-pickup-only",
+   "Flexible Adhesive",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Tile Adhesive"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325577982015",
+    "sku": "GWS157",
+    "price": "32.95"
+   }
+  ]
+ },
+ {
+  "id": "gid://shopify/Product/8481024147519",
+  "handle": "gripset-b09-asphalt-resurfacer-rejuvenator-15l",
+  "title": "Gripset B09 Asphalt Resurfacer & Rejuvenator 15L",
+  "status": "DRAFT",
+  "type": "Waterproofing Membranes",
+  "tags": [
+   "Bitumen",
+   "ebay-pickup-only",
+   "Gripset",
+   "Hardware",
+   "needs-cost",
+   "Pavement Protection",
+   "RLA",
+   "rla-2026-10",
+   "ship-local-only",
+   "supplier-import",
+   "Waterproofing"
+  ],
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44325578178623",
+    "sku": "GPP006",
+    "price": "199.95"
+   }
+  ]
+ }
+]

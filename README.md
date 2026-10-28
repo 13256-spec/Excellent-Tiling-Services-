@@ -29,6 +29,15 @@ The owner found product pages showing a small product in a huge white square. Tw
    product-card and cookie-banner rules that were only in Shopify until now). **To go live: Online Store → Themes →
    the "Product gallery" draft → Publish.** The "Call any time" theme is live since 26 Oct.
 
+## RLA Polymers range (28 Oct 2026, drafts)
+
+A new supplier's two catalogues (RLA Tiling Product Range 2026 and the Gripset Waterproofing Product Guide) are in
+Shopify as **69 draft products / 165 variants** with full descriptions, SEO, photos, metafields, delivery profiles,
+collections and channels set up, tagged `rla-2026-10`, `needs-cost`. Prices are proposals a little under AU retail;
+there is no cost until the RLA trade account is approved, so nothing is Active. The Waterproofing collection now
+also matches the `Waterproofing` tag and the new "Waterproofing Membranes" / "Waterproofing Accessories" types.
+Details, codes and the activation steps: `store-content/supplier-sync/README.md`, "RLA Polymers range".
+
 ## DSA toilet collection (26 Oct 2026, live)
 
 Eternity sent the DSA toilet product sheets (SharePoint folders, downloaded by the owner). Ten products created live and the

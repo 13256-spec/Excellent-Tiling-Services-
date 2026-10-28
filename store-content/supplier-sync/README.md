@@ -185,3 +185,51 @@ Facts worth knowing: the two sheets disagree on the Crystal Prime and Nova heigh
 the shared spec table says the reverse). The brochure figures are on the product pages. The Eternal Element, Clarice and
 Edna Care sheets give no WELS figure, so none is claimed for them.
 
+
+## RLA Polymers range (28 Oct 2026, drafts)
+
+New supplier, trade account pending. Every product from the two printed catalogues the supplier gave the owner,
+**RLA Tiling Product Range 2026 (V2)** and the **Gripset Waterproofing Product Guide (V3)**, is now in Shopify as a
+**draft**: 69 products / 165 variants, vendor "RLA", tags `RLA`, `supplier-import`, `needs-cost`, `rla-2026-10`
+(plus `Gripset` on the 32 Gripset items). Nothing is visible until a product is set to Active.
+Script: `rla_2026_10.py` (catalogue data -> productSet inputs). Sent payload: `rla-2026-10-28.json`.
+Shopify ids per product and variant: `rla-created-2026-10-28.json`. Price research: `rla-market-prices-2026-10-28.csv`.
+
+- Range: RLA powder adhesives (TileBond Extra, MoreFlex, TileFlex, AddFlextra, Trade Mastik, Mastik, UniLite S1/S2,
+  UniGrip, FastSet, StoneSet, PolyMastic), membranes (WPU, WPM, Safe2o, 2Part, 1Komponent, PU850, ATC, Moisture Seal,
+  Primer PU), Max SMP 25, waterproof tape, corners and collars, Luminous EF (16 colours), Luminous SSG (12 colours x
+  4/10 kg), Luminous Silicone (13 colours), Epoxy Grout (4 colours), The Once Over, Porous and Non-Porous Primer,
+  Plastinex, Silikon 700 (14 colours), caulking guns, dry and wet area acoustic adhesives; Gripset E60, GP, OP, 11Y,
+  Elastoproof B50 band, corners (sold each) and collar packs, BRW PF tape and square, 38FC, P39, LS, 51, Xpress Primer
+  H2O Plus, Xpress Multi Pro, XpressLay, 2P, C-1P, C-Bed, C-Level, C-Plug, Butyl HD tape, BRW HD, BRW PFN, BRW FG tape,
+  C-Lite, C-Mastic, C-Stone, C-Rubber, B26 and B09.
+- Not created: RLA QuickSet (already in the store), the Gripset Enviro crack sealing machine, and Xpress SP / 30SC
+  (not in the printed guide). The RLA **Sealants** catalogue (Silikon 100-600, Flex-Pro, FirePro, UltraGrip, Max Grab,
+  Max SMP Crystal) is in the script behind `INCLUDE_SEALANTS_CATALOGUE = False` because it is not one of the two
+  catalogues the owner was given; flip it and rerun if RLA supplies those too.
+- Codes come from the printed catalogues, which differ from rlapolymers.com.au in places: Luminous Silicone uses the
+  6107xx codes, Luminous SSG is `LUMSSG02-4` (not `-04`), The Once Over is 506210, C-Level is GWS209 and C-Rubber
+  GWS157 (the Gripset PDF has typos), Silikon 700 is a 300 g cartridge. Max SMP 25 colour codes are "TBC" in the
+  catalogue, so the website 6205xx codes are used. ATC has no code in either source (`RLA-ATC-15` placeholder).
+- **Price = a little under the common AU retail price (no cost yet).** Method per variant in the `market` column of
+  the CSV: 5% under B&B Hardware where they list the item, otherwise just under the lowest of TradieCart, Adheseal
+  (ex GST x 1.1), Tilers Direct, Beaumont, Tile Mart, Bunnings. 20 products / 26 variants carry `price-check`: no
+  listing found, or only Beaumont (who run well above trade shops). No cost, no margin check, no trade band
+  (`ets.trade_band` = 0). When the RLA trade price list arrives: enter costs, run the playbook floor
+  (cost x 1.1 x 1.25), pick a trade band, remove `needs-cost` and `price-check`, then set Active.
+- Content: full description (intro, uses, colours, specs, good-to-know, TDS and SDS links), SEO title and description,
+  one or two product photos (RLA and Gripset press shots, catalogue crops for the accessories; `needs-photo` on the
+  wet area acoustic adhesive), alt text, Shopify taxonomy category, `ets.*` metafields (supplier "RLA Polymers",
+  material, range, warranty, freight_class, lead_time, trade_band) and `custom.supplier`, so the theme's product
+  JSON-LD renders as for the rest of the store.
+- Delivery: 55 variants (20 kg bags, 15 L pails, kits, sheet rolls) on "Perth only (local delivery / pickup)"
+  (`ship-local-only`); PU850, ATC and Primer PU (solvent based) on "Dangerous goods (road only)"
+  (`ship-dangerous-goods`); the rest General (`ship-parcel` / `ship-bulky`, eBay tags `ebay-post-15/20/39`).
+- Channels: published to all six (Online Store, POS, Shop, Google & YouTube, Facebook & Instagram, Inbox); takes
+  effect when the product goes Active.
+- Collections: new product types "Waterproofing Membranes", "Waterproofing Accessories" and "Screeds & Levellers".
+  The **Waterproofing** smart collection (303308341311) now matches *any of*: type "Waterproofing Tools", tag
+  `Waterproofing`, or the two new waterproofing types (it only matched the tools type before). Adhesives, grout and
+  sealants fall into Tile Adhesive, Grout and Silicone & Sealants through the existing type/tag rules; everything
+  is in Hardware via the `Hardware` tag.
+- Photos are in Shopify Files, not the repo (98 files, 22 MB).
