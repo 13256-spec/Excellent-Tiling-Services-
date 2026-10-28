@@ -186,12 +186,14 @@ the shared spec table says the reverse). The brochure figures are on the product
 Edna Care sheets give no WELS figure, so none is claimed for them.
 
 
-## RLA Polymers range (28 Oct 2026, drafts)
+## RLA Polymers range (28 Oct 2026, live)
 
 New supplier, trade account pending. Every product from the two printed catalogues the supplier gave the owner,
-**RLA Tiling Product Range 2026 (V2)** and the **Gripset Waterproofing Product Guide (V3)**, is now in Shopify as a
-**draft**: 69 products / 165 variants, vendor "RLA", tags `RLA`, `supplier-import`, `needs-cost`, `rla-2026-10`
-(plus `Gripset` on the 32 Gripset items). Nothing is visible until a product is set to Active.
+**RLA Tiling Product Range 2026 (V2)** and the **Gripset Waterproofing Product Guide (V3)**, is now in Shopify:
+69 products / 165 variants, vendor "RLA", tags `RLA`, `supplier-import`, `needs-cost`, `rla-2026-10`
+(plus `Gripset` on the 32 Gripset items). Created as drafts, then set **Active on 29 Oct 2026** on the owner's
+instruction: stock is 0 at Maddington with "continue selling when out of stock" on every variant, so customers can
+order and the product page shows the 3 to 7 day order-in lead time.
 Script: `rla_2026_10.py` (catalogue data -> productSet inputs). Sent payload: `rla-2026-10-28.json`.
 Shopify ids per product and variant: `rla-created-2026-10-28.json`. Price research: `rla-market-prices-2026-10-28.csv`.
 
@@ -216,7 +218,7 @@ Shopify ids per product and variant: `rla-created-2026-10-28.json`. Price resear
   (ex GST x 1.1), Tilers Direct, Beaumont, Tile Mart, Bunnings. 20 products / 26 variants carry `price-check`: no
   listing found, or only Beaumont (who run well above trade shops). No cost, no margin check, no trade band
   (`ets.trade_band` = 0). When the RLA trade price list arrives: enter costs, run the playbook floor
-  (cost x 1.1 x 1.25), pick a trade band, remove `needs-cost` and `price-check`, then set Active.
+  (cost x 1.1 x 1.25), pick a trade band, remove `needs-cost` and `price-check`.
 - Content: full description (intro, uses, colours, specs, good-to-know, TDS and SDS links), SEO title and description,
   one or two product photos (RLA and Gripset press shots, catalogue crops for the accessories; `needs-photo` on the
   wet area acoustic adhesive), alt text, Shopify taxonomy category, `ets.*` metafields (supplier "RLA Polymers",
@@ -225,8 +227,7 @@ Shopify ids per product and variant: `rla-created-2026-10-28.json`. Price resear
 - Delivery: 55 variants (20 kg bags, 15 L pails, kits, sheet rolls) on "Perth only (local delivery / pickup)"
   (`ship-local-only`); PU850, ATC and Primer PU (solvent based) on "Dangerous goods (road only)"
   (`ship-dangerous-goods`); the rest General (`ship-parcel` / `ship-bulky`, eBay tags `ebay-post-15/20/39`).
-- Channels: published to all six (Online Store, POS, Shop, Google & YouTube, Facebook & Instagram, Inbox); takes
-  effect when the product goes Active.
+- Channels: published to all six (Online Store, POS, Shop, Google & YouTube, Facebook & Instagram, Inbox).
 - Collections: new product types "Waterproofing Membranes", "Waterproofing Accessories" and "Screeds & Levellers".
   The **Waterproofing** smart collection (303308341311) now matches *any of*: type "Waterproofing Tools", tag
   `Waterproofing`, or the two new waterproofing types (it only matched the tools type before). Adhesives, grout and

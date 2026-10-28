@@ -20,7 +20,7 @@ safely. Written for the owner and for the `ets-pricing` agent (`.claude/agents/e
 | Roberts Designs, Maxisil | Roberts Designs | unit cost in Shopify = trade-account price x 1.1 (owner, 14 Oct 2026: the account prices did not include GST) | as stored; use the floor formula as is |
 | Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify (trade-account price, 28 Sep 2026) | ex GST |
 | BAT, Click (a few items) | – | **no cost recorded**, prices left alone | – |
-| RLA and Gripset (69 drafts, Oct 2026) | RLA Polymers | **no cost yet** (trade account pending); priced a little under AU retail, see `../supplier-sync/rla-market-prices-2026-10-28.csv`. No trade band until a cost exists. | – |
+| RLA and Gripset (69 products, live 29 Oct 2026, 0 stock, continue selling) | RLA Polymers | **no cost yet** (trade account pending); priced a little under AU retail, see `../supplier-sync/rla-market-prices-2026-10-28.csv`. No trade band until a cost exists. | – |
 
 SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off the GST-inclusive list price:
 vanity package & handles 25%, basins 30%, tapware 40%, accessories 35%, mirrors & PORTER cabinets 25%,
@@ -77,7 +77,7 @@ baths). Those are reported as "can't beat profitably", never matched.
 | `price_list_pdf.py` | PDFs in `price-lists/`: retail, trade, and **owner-only** cost & price list (never send to customers). |
 | `eternity_2026_10.py`, `eternity_new_products_2026_10.py` | Eternity tile pricing and new tile products. |
 | `mela-pricing-2026-10-01.csv` | MELA ↔ Bathroom City matching + cost estimates. |
-| `../supplier-sync/rla-market-prices-2026-10-28.csv` | RLA / Gripset drafts: proposed price per variant with the competitor prices it came from and a `price_check` flag. Not in the master list until the products go Active. |
+| `../supplier-sync/rla-market-prices-2026-10-28.csv` | RLA / Gripset drafts: proposed price per variant with the competitor prices it came from and a `price_check` flag. Add to the master list once costs exist. |
 
 ## Changing prices safely (for the agent)
 
