@@ -64,3 +64,11 @@ and eight parked drafts made live. Six products were swapped for ones never post
 Element toilet, Malaga package, niche box, BRITTANY 750, powder-room combo). Record and new captions:
 `schedule/rewrite-2026-10-28.json`. Known gap: the 1 Nov floor-waste Reel video still shows $16.05 (live
 $18.99); caption corrected, video not re-rendered.
+
+## Shop-with-AI, Google Business Profile posts and a Story (28 Oct 2026)
+
+The store can be shopped through AI assistants (llms.txt, llms-full.txt and agents.md are live: the Shop skill lets an agent
+search, build a cart and check out with Shop Pay). Booked in Metricool: a 28 Oct 9:30 am Instagram + Facebook post about it,
+three Google Business Profile updates (28 Oct AI shopping, 30 Oct toilets from $500, 3 Nov evening showroom + pickup + trade)
+at 9:35 am, and a 28 Oct 8:30 pm smart-toilet Story. Record plus paste-ready Facebook-group text:
+`schedule/ai-and-gbp-2026-10-28.json`.

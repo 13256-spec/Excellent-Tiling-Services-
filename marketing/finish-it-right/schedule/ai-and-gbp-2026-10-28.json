@@ -1,0 +1,33 @@
+{
+  "_about": "Owner, 28 Oct 2026: 'make a shop with AI post ... and Google Business Profile post and more'. What is true and live: llms.txt and llms-full.txt (guide for AI assistants), agents.md (Shop skill + Universal Commerce Protocol: an AI agent can search, build a cart and check out with Shop Pay), Shopify Inbox chat button, all products on the Shop channel. Booked in Metricool (brand 7234377), all autoPublish, not drafts.",
+  "posts": [
+    {
+      "date": "2026-10-28T09:30:00", "networks": "instagram+facebook", "type": "POST", "id": "408429696", "uuid": "8332175259507245336",
+      "media": ["terrazzo-white-room.png", "mela-brittany-1200-oak-fluted-curved-wall-hung-vanity.jpg", "mela-flova-basin-mixer-chrome.png"],
+      "text": "You can now shop our store through an AI assistant.\nAsk ChatGPT, or any assistant with the Shop skill, to find a 600x600 porcelain tile with a P4 slip rating under $55 a square metre, put 6 m² in a cart and check out with Shop Pay. It works because every product page has the price, sizes, slip rating and what's included written out in plain text, plus a guide written for AI at excellenttilingservices.com/llms-full.txt.\nNot into AI? The same answers are on the site, and a human answers the chat button and the phone, 0450 960 543.\nTry it tonight and tell us what it got wrong.\nhttps://excellenttilingservices.com\n\n#perthrenovation #bathroomrenovation #perthbathrooms #shopwithai #perthhomes"
+    },
+    {
+      "date": "2026-10-28T09:35:00", "networks": "gmb", "type": "publication", "id": "408429907", "uuid": "-1358569860682922303",
+      "media": ["terrazzo-white-room.png"],
+      "text": "Shop Excellent Tiling Services through an AI assistant.\n\nYou can now ask ChatGPT, or any AI assistant with the Shop skill, to search our store, compare tiles and bathroomware, build a cart and check out with Shop Pay. Every product page carries the price, sizes, slip rating and what's included in plain text, and there is a guide written for AI assistants at excellenttilingservices.com/llms-full.txt.\n\nTry: \"Find a 600x600 porcelain floor tile with a P4 slip rating under $55 a square metre at excellenttilingservices.com and tell me what 6 square metres costs.\"\n\nPrefer a person? Use the chat button on the site or call 0450 960 543. See the tiles and vanities in person at our Maddington showroom, by appointment Monday to Saturday 4:30 to 9 pm. Perth delivery or free pickup from 17A Olga Road, Maddington.\n\nhttps://excellenttilingservices.com"
+    },
+    {
+      "date": "2026-10-28T20:30:00", "networks": "instagram+facebook", "type": "STORY", "id": "408432605", "uuid": "727005247415143236",
+      "media": ["YC318GE.png"], "text": ""
+    },
+    {
+      "date": "2026-10-30T09:35:00", "networks": "gmb", "type": "publication", "id": "408430046", "uuid": "5986370609485529946",
+      "media": ["dsa8084-eternal-element-toilet-suite.jpg"],
+      "text": "New in: toilet suites from $500, in Maddington.\n\nNine new toilets just went live on excellenttilingservices.com. Back-to-wall and rimless suites from $500 (Eternal Element, 610 mm deep with a soft-close seat), wall-faced and wall-hung suites with in-wall cisterns from $999, and the Crystal smart toilets with heated seat, warm-water wash and air dryer from $2,999.\n\nEvery price is on the site, no quote needed. Perth metro delivery, or free pickup from our showroom at 17A Olga Road, Maddington. Showroom by appointment, Monday to Saturday 4:30 to 9 pm. Trade accounts get their discount at checkout.\n\nhttps://excellenttilingservices.com/collections/toilets"
+    },
+    {
+      "date": "2026-11-03T09:35:00", "networks": "gmb", "type": "publication", "id": "408430080", "uuid": "-5398917937375264403",
+      "media": ["mela-brittany-1200-oak-fluted-curved-wall-hung-vanity.jpg"],
+      "text": "Work all day? Our tile and bathroom showroom opens in the evening.\n\nExcellent Tiling Services, 17A Olga Road, Maddington, is open by appointment Monday to Saturday from 4:30 pm to 9 pm, so you can see porcelain tiles, MELA vanities, tapware, mirrors and toilets after work. Bring a tile, a paint swatch or a photo of your bathroom and hold it up against the real thing.\n\nOrder online and pick up free: choose local pickup at checkout, we message you when it's ready, then book a time that suits. Tiles, vanities and baths are also delivered across Perth metro.\n\nBuilders, tilers and plumbers: apply for a free trade account with your ABN and the discount comes off automatically at checkout.\n\nBook a visit: https://excellenttilingservices.com/pages/book-appointment or call 0450 960 543."
+    }
+  ],
+  "paste_by_hand": {
+    "perth_reno_facebook_groups": "Tip for anyone pricing a bathroom: you can get ChatGPT to do the maths. Paste a product link from a store that puts prices and specs on the page (ours do: excellenttilingservices.com, Maddington) and ask it \"what does 6 m² of this cost, and does it suit a shower floor?\" It reads the slip rating and the price per m² and adds it up. Then go and look at the tile in person before you buy, because no AI knows how a colour reads under your bathroom light.",
+    "instagram_story_text_if_posting_by_hand": "You can shop our store through ChatGPT now. Ask it to find a tile, build the cart and check out. Link in bio."
+  }
+}
