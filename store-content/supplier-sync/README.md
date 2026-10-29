@@ -192,8 +192,9 @@ New supplier, trade account pending. Every product from the two printed catalogu
 **RLA Tiling Product Range 2026 (V2)** and the **Gripset Waterproofing Product Guide (V3)**, is now in Shopify:
 69 products / 165 variants, vendor "RLA", tags `RLA`, `supplier-import`, `needs-cost`, `rla-2026-10`
 (plus `Gripset` on the 32 Gripset items). Created as drafts, then set **Active on 29 Oct 2026** on the owner's
-instruction: stock is 0 at Maddington with "continue selling when out of stock" on every variant, so customers can
-order and the product page shows the 3 to 7 day order-in lead time.
+instruction, **visible but not purchasable**: stock is 0 at Maddington and every variant is set to stop selling when
+out of stock, so the pages show as sold out / Enquire until RLA costs and stock arrive (then set stock or switch the
+variants to "continue selling").
 Script: `rla_2026_10.py` (catalogue data -> productSet inputs). Sent payload: `rla-2026-10-28.json`.
 Shopify ids per product and variant: `rla-created-2026-10-28.json`. Price research: `rla-market-prices-2026-10-28.csv`.
 

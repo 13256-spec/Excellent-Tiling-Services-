@@ -33,8 +33,8 @@ The owner found product pages showing a small product in a huge white square. Tw
 
 A new supplier's two catalogues (RLA Tiling Product Range 2026 and the Gripset Waterproofing Product Guide) are in
 Shopify as **69 live products / 165 variants** with full descriptions, SEO, photos, metafields, delivery profiles,
-collections and channels set up, tagged `rla-2026-10`, `needs-cost`. Stock is 0 with "continue selling" on, so
-they can be ordered and ship once RLA supplies them. Prices are proposals a little under AU retail; there is no
+collections and channels set up, tagged `rla-2026-10`, `needs-cost`. Stock is 0 and the variants stop selling
+at zero, so they are visible but show as sold out until costs and stock arrive. Prices are proposals a little under AU retail; there is no
 cost until the RLA trade account is approved. The Waterproofing collection now
 also matches the `Waterproofing` tag and the new "Waterproofing Membranes" / "Waterproofing Accessories" types.
 Details, codes and the activation steps: `store-content/supplier-sync/README.md`, "RLA Polymers range".
