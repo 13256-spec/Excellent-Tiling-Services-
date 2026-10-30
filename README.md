@@ -13,6 +13,14 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Google Merchant Center attribute fixes (30 Oct 2026, live)
+
+From the Merchant Center "product attribute improvements" report. 75 products with photos that were missing from the
+Google & YouTube channel are now on it; the variant colour/finish (Chrome, Matt Black, Mill Finish and so on) is now
+sent to Google's `color` field on 2,289 variants; the last 9 variants without a SKU have one. Still for the owner:
+17 no-photo products to exclude from Google (the tool cannot unpublish), and supplier barcode lists. Details in
+[store-content/merchant-center-2026-10-30.md](store-content/merchant-center-2026-10-30.md).
+
 ## Product photos and the product-page gallery (26 Oct 2026)
 
 The owner found product pages showing a small product in a huge white square. Two causes, two fixes:
