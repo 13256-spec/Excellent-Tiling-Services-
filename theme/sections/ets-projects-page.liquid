@@ -1,0 +1,211 @@
+{%- assign shown = false -%}
+<section class="ets ets-sec ets-pg{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% endcase %}" {% if section.settings.heading != blank %}aria-labelledby="EtsPg-{{ section.id }}"{% else %}aria-label="Projects"{% endif %}>
+  <div class="ets-wrap">
+    {%- if section.settings.heading != blank -%}
+      <div class="ets-head">
+        <div>
+          <h2 class="ets-h2" id="EtsPg-{{ section.id }}">{{ section.settings.heading }}</h2>
+          {%- if section.settings.intro != blank -%}<p class="ets-lede">{{ section.settings.intro | escape }}</p>{%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+
+    {%- if shop.metaobjects.project.values_count > 0 -%}
+      {%- paginate shop.metaobjects.project.values by 48 -%}
+        {%- liquid
+          # ponytail: the job-type filter and its counts only cover the current page of 48 projects
+          # (CSS can only hide cards that are on the page). Past 48 projects, add a page per job type
+          # or fetch the other pages with JS.
+          assign all_types = ''
+          for project in shop.metaobjects.project.values
+            assign all_types = all_types | append: project.job_type.value | append: '|'
+          endfor
+          assign types = all_types | split: '|'
+          assign page_total = types.size
+          assign types = types | uniq | sort
+          if page_total > 0
+            assign shown = true
+          endif
+          assign group = 'EtsPgType-' | append: section.id
+        -%}
+        {%- if shown -%}
+          {%- if types.size > 1 -%}
+            <fieldset class="ets-pg__filter">
+              <legend class="ets-pg__legend">Filter by job type</legend>
+              <div class="ets-chips ets-pg__chips">
+                <label class="ets-chip ets-pg__chip"><input class="ets-visually-hidden" type="radio" name="{{ group }}" value="all" checked>All <small>{{ page_total }}<span class="ets-visually-hidden"> {{ page_total | pluralize: 'project', 'projects' }}</span></small></label>
+                {%- for type in types -%}
+                  {%- liquid
+                    assign n = 0
+                    for project in shop.metaobjects.project.values
+                      if project.job_type.value == type
+                        assign n = n | plus: 1
+                      endif
+                    endfor
+                  -%}
+                  <label class="ets-chip ets-pg__chip"><input class="ets-visually-hidden" type="radio" name="{{ group }}" value="{{ type | handleize }}">{{ type | escape }} <small>{{ n }}<span class="ets-visually-hidden"> {{ n | pluralize: 'project', 'projects' }}</span></small></label>
+                {%- endfor -%}
+              </div>
+            </fieldset>
+            {%- comment -%} One rule per job type: hide every card that isn't the checked type. No JS. {%- endcomment -%}
+            <style>
+              {%- for type in types -%}
+                {%- assign key = type | handleize -%}
+                .ets-pg:has(input[value="{{ key }}"]:checked) .ets-pg__card:not([data-type="{{ key }}"]) { display: none; }
+              {%- endfor -%}
+            </style>
+          {%- endif -%}
+
+          <ul class="ets-pg__grid" role="list">
+            {%- for project in shop.metaobjects.project.values -%}
+              {%- liquid
+                assign first_card = forloop.first
+                assign title = project.title.value
+                assign photos = project.photos.value
+                assign tiles = project.tiles_used.value
+              -%}
+              <li class="ets-pg__card" id="project-{{ project.system.handle }}" data-type="{{ project.job_type.value | handleize }}">
+                {%- if photos != blank -%}
+                  <ul class="ets-pg__photos" role="list"{% if photos.count > 1 %} tabindex="0" aria-label="Photos of {{ title | escape }}, scroll sideways for more"{% endif %}>
+                    {%- for photo in photos -%}
+                      {%- liquid
+                        # The first photo of the first card sits near the top of the page and is likely the LCP
+                        # image, and a lazy-loaded LCP image hurts, so it loads eagerly at high priority.
+                        # Every other photo lazy-loads.
+                        assign loading = 'lazy'
+                        assign priority = 'auto'
+                        if first_card and forloop.first
+                          assign loading = 'eager'
+                          assign priority = 'high'
+                        endif
+                        assign alt = title
+                        unless forloop.first
+                          assign alt = title | append: ', photo ' | append: forloop.index
+                        endunless
+                        assign alt = photo.alt | default: alt
+                      -%}
+                      <li class="ets-pg__photo">
+                        {{ photo | image_url: width: 1000 | image_tag: loading: loading, fetchpriority: priority, widths: '400, 600, 800, 1000', sizes: '(min-width: 1360px) 400px, (min-width: 1200px) 28vw, (min-width: 750px) 42vw, 88vw', alt: alt }}
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+                <div class="ets-pg__body">
+                  <p class="ets-pg__type">{{ project.job_type.value | escape }}</p>
+                  <h3 class="ets-h3">{{ title | escape }}</h3>
+                  {%- if project.suburb.value != blank or project.completed_on.value != blank -%}
+                    <p class="ets-pg__meta">
+                      {%- if project.suburb.value != blank -%}<span>{% render 'ets-icon', name: 'pin' %}{{ project.suburb.value | escape }}</span>{%- endif -%}
+                      {%- if project.completed_on.value != blank -%}<span>Completed <time datetime="{{ project.completed_on.value }}">{{ project.completed_on.value | date: '%B %Y' }}</time></span>{%- endif -%}
+                    </p>
+                  {%- endif -%}
+                  {%- if project.summary.value != blank -%}<p class="ets-pg__summary">{{ project.summary.value | escape | newline_to_br }}</p>{%- endif -%}
+                  {%- if tiles != blank -%}
+                    <h4 class="ets-pg__label">Tiles used</h4>
+                    <ul class="ets-pg__tiles" role="list">
+                      {%- for product in tiles -%}
+                        <li>
+                          <a class="ets-pg__tile" href="{{ product.url }}">
+                            <span class="ets-pg__thumb">
+                              {%- if product.featured_media != blank -%}
+                                {{ product.featured_media.preview_image | image_url: width: 120 | image_tag: loading: 'lazy', widths: '60, 120', sizes: '56px', alt: '' }}
+                              {%- endif -%}
+                            </span>
+                            <div class="ets-pg__tile-text">
+                              <span class="ets-pg__tile-title">{{ product.title | escape }}</span>
+                              {% render 'price', product_resource: product %}
+                            </div>
+                          </a>
+                        </li>
+                      {%- endfor -%}
+                    </ul>
+                  {%- endif -%}
+                </div>
+              </li>
+            {%- endfor -%}
+          </ul>
+
+          {%- if paginate.pages > 1 -%}
+            <nav class="ets-pg__pages" aria-label="Project pages">{{ paginate | default_pagination }}</nav>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endpaginate -%}
+    {%- endif -%}
+
+    {%- unless shown -%}
+      <div class="ets-pg__empty">
+        <p>There are no projects to show here yet. Tell us about your job and we'll arrange a free measure and quote.</p>
+        <a class="ets-link" href="/pages/request-a-quote">Request a free measure and quote {% render 'ets-icon', name: 'arrow' %}</a>
+      </div>
+    {%- endunless -%}
+  </div>
+</section>
+
+{% stylesheet %}
+  /* Filter: radios styled as the theme's chips. Without :has() it can't work, so it's hidden. */
+  .ets-pg__filter { min-inline-size: 0; margin: 0 0 24px; padding: 0; border: 0; } /* min size stops the chip row widening the page */
+  .ets-pg__legend { margin: 0 0 10px; padding: 0; font-size: 13px; font-weight: 600; color: var(--ets-ink-soft); }
+  .ets-pg__chips { margin-top: 0; padding-block: 4px; }
+  .ets-pg__chip { position: relative; min-height: 44px; cursor: pointer; }
+  .ets-pg__chip:has(input:checked) { background: var(--ets-ink); color: #FFFFFF; box-shadow: none; }
+  .ets-pg__chip:has(input:checked) small { color: #B8C0CF; }
+  .ets-pg__chip:has(input:focus-visible) { outline: 2px solid var(--ets-brass); outline-offset: 2px; }
+  @supports not selector(:has(a)) { .ets-pg__filter { display: none; } }
+
+  /* Cards: 1 column on phones, 2 from 750px, 3 from 1200px */
+  .ets-pg__grid { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; margin: 0; padding: 0; list-style: none; }
+  .ets-pg__card { display: flex; flex-direction: column; gap: 14px; padding: 10px; border-radius: var(--ets-r-lg); background: var(--ets-surface); box-shadow: 0 0 0 1px var(--ets-line); }
+  .ets-pg__card:target { box-shadow: 0 0 0 2px var(--ets-brass); }
+
+  /* Photos: a sideways strip that snaps to each photo */
+  .ets-pg__photos { display: flex; gap: 8px; margin: 0; padding: 0; list-style: none; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x mandatory; scrollbar-width: thin; border-radius: var(--ets-r); }
+  .ets-pg__photo { flex: 0 0 86%; scroll-snap-align: start; }
+  .ets-pg__photo:only-child { flex-basis: 100%; }
+  .ets-pg__photo img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--ets-r); background: var(--ets-bg-2); }
+
+  .ets-pg__body { display: grid; gap: 8px; padding: 0 6px 6px; }
+  .ets-pg__type { margin: 0; font-size: 13px; font-weight: 600; color: #8a6a3a; } /* same darker brass as the theme's labels */
+  .ets-pg__body .ets-h3 { margin: 0; }
+  .ets-pg__meta { display: flex; flex-wrap: wrap; gap: 4px 16px; margin: 0; font-size: 14px; color: var(--ets-muted); }
+  .ets-pg__meta span { display: inline-flex; align-items: center; gap: 4px; }
+  .ets-pg__meta svg { width: 16px; height: 16px; }
+  .ets-pg__summary { margin: 0; font-size: 15px; line-height: 1.6; color: var(--ets-ink-soft); }
+
+  .ets-pg__label { margin: 6px 0 0; font-size: 13px; font-weight: 600; color: var(--ets-ink-soft); }
+  .ets-pg__tiles { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+  .ets-pg__tile { display: flex; align-items: center; gap: 12px; min-height: 44px; padding: 4px; border-radius: var(--ets-r-sm); text-decoration: none; color: var(--ets-ink); }
+  .ets-pg__tile:hover { background: var(--ets-bg); }
+  .ets-pg__thumb { flex: 0 0 56px; width: 56px; height: 56px; overflow: hidden; border-radius: var(--ets-r-sm); background: var(--ets-bg-2); }
+  .ets-pg__thumb img { width: 100%; height: 100%; object-fit: cover; }
+  .ets-pg__tile-text { display: grid; gap: 2px; min-width: 0; font-size: 14px; }
+  .ets-pg__tile-title { font-weight: 600; line-height: 1.3; }
+
+  .ets-pg__pages { display: flex; flex-wrap: wrap; justify-content: center; gap: 4px; margin-top: 32px; font-weight: 600; }
+  .ets-pg__pages > span { display: inline-flex; }
+  .ets-pg__pages a, .ets-pg__pages .current { display: inline-flex; align-items: center; justify-content: center; min-width: 44px; min-height: 44px; padding: 0 12px; border-radius: var(--ets-r-sm); text-decoration: none; }
+  .ets-pg__pages a:hover { background: var(--ets-bg-2); }
+  .ets-pg__pages .current { background: var(--ets-ink); color: #FFFFFF; }
+
+  .ets-pg__empty { display: grid; justify-items: start; gap: 12px; max-width: 58ch; }
+  .ets-pg__empty p { margin: 0; font-size: 16px; line-height: 1.6; color: var(--ets-ink-soft); }
+
+  @media (min-width: 750px) {
+    .ets-pg__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 20px; }
+  }
+  @media (min-width: 1200px) {
+    .ets-pg__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS projects (page)",
+  "settings": [
+    { "type": "paragraph", "content": "Lists active projects from Shopify admin > Content > Metaobjects > Project, 48 per page, with a job type filter. Drafts stay hidden." },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Recent projects" },
+    { "type": "textarea", "id": "intro", "label": "Intro" },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "presets": [{ "name": "ETS projects (page)" }]
+}
+{% endschema %}

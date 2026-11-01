@@ -1,0 +1,93 @@
+{%- liquid
+  assign projects = section.settings.projects
+  if projects == blank
+    assign projects = shop.metaobjects.project.values
+  endif
+  assign gallery_url = section.settings.link | default: '/pages/project-gallery'
+  # ponytail: photos link to #project-handle on the gallery page, which shows 48 projects per page.
+  # A project picked here that sits on page 2 or later lands on page 1 without scrolling to it.
+-%}
+{%- comment -%}
+  Six photo slots: each project's first photo, then their second photos, and so on, so a few
+  projects still fill the grid. The best shot of every project comes first.
+{%- endcomment -%}
+{%- assign shown = 0 -%}
+{%- capture items -%}
+  {%- for round in (0..5) -%}
+    {%- for project in projects limit: 6 -%}
+      {%- if shown < 6 -%}
+        {%- assign photo = project.photos.value[round] -%}
+        {%- if photo != blank -%}
+          {%- assign shown = shown | plus: 1 -%}
+          {%- assign alt = photo.alt | default: project.title.value -%}
+          <li class="ets-pgh__item">
+            <a class="ets-pgh__link" href="{{ gallery_url }}#project-{{ project.system.handle }}">
+              {{ photo | image_url: width: 900 | image_tag: loading: 'lazy', widths: '300, 450, 600, 900', sizes: '(min-width: 1360px) 440px, (min-width: 990px) 32vw, 48vw', alt: alt }}
+              <span class="ets-pgh__cap">{{ project.job_type.value | escape }}{% if project.suburb.value != blank %} · {{ project.suburb.value | escape }}{% endif %}</span>
+            </a>
+          </li>
+        {%- endif -%}
+      {%- endif -%}
+    {%- endfor -%}
+  {%- endfor -%}
+{%- endcapture -%}
+
+{%- if items != blank -%}
+  <section class="ets ets-sec{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% endcase %}" aria-labelledby="EtsPgh-{{ section.id }}">
+    <div class="ets-wrap">
+      <div class="ets-head">
+        <div>
+          {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+          <h2 class="ets-h2" id="EtsPgh-{{ section.id }}">{{ section.settings.heading | default: 'Our recent work' }}</h2>
+          {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>{%- endif -%}
+        </div>
+        {%- if section.settings.link_label != blank -%}
+          <a class="ets-btn ets-btn--ghost" href="{{ gallery_url }}">{{ section.settings.link_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+        {%- endif -%}
+      </div>
+      <ul class="ets-pgh" role="list">{{ items }}</ul>
+    </div>
+  </section>
+{%- elsif request.design_mode -%}
+  <section class="ets ets-sec" aria-label="Project gallery">
+    <div class="ets-wrap">
+      <p class="ets-pgh__note">ETS projects (home): no projects to show yet, so this section is hidden on the live site. Add them in Shopify admin under Content &gt; Metaobjects &gt; Project, and set each one to Active.</p>
+    </div>
+  </section>
+{%- endif -%}
+
+{% stylesheet %}
+  /* Masonry: CSS columns keep each photo at its own shape. Order runs down each column. */
+  .ets-pgh { columns: 2; column-gap: 12px; margin: 0; padding: 0; list-style: none; }
+  .ets-pgh__item { break-inside: avoid; margin: 0 0 12px; }
+  .ets-pgh__link { display: block; text-decoration: none; color: var(--ets-ink); border-radius: var(--ets-r); }
+  .ets-pgh__link img { width: 100%; height: auto; border-radius: var(--ets-r); background: var(--ets-bg-2); }
+  .ets-pgh__cap { display: block; padding: 8px 2px 0; font-size: 13px; font-weight: 600; line-height: 1.35; color: var(--ets-ink-soft); }
+  .ets-pgh__link:hover .ets-pgh__cap { color: var(--ets-ink); text-decoration: underline; text-underline-offset: 2px; }
+  .ets-pgh__note { margin: 0; padding: 16px 18px; border: 1px dashed var(--ets-line-strong); border-radius: var(--ets-r); font-size: 14px; color: var(--ets-ink-soft); }
+  @media (min-width: 750px) {
+    .ets-pgh { column-gap: 16px; }
+    .ets-pgh__item { margin-bottom: 16px; }
+  }
+  @media (min-width: 990px) {
+    .ets-pgh { columns: 3; column-gap: 20px; }
+    .ets-pgh__item { margin-bottom: 20px; }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS projects (home)",
+  "settings": [
+    { "type": "paragraph", "content": "Shows 6 photos: the first photo of each project, then their next photos if there are fewer than 6 projects. Each links to its project on the gallery page. Add projects in Shopify admin > Content > Metaobjects > Project. Hidden on the live site until there is at least one active project." },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Project gallery" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Our recent work" },
+    { "type": "textarea", "id": "text", "label": "Text" },
+    { "type": "metaobject_list", "id": "projects", "label": "Projects", "metaobject_type": "project", "limit": 6, "info": "Optional. Leave empty to show the first 6 active projects." },
+    { "type": "text", "id": "link_label", "label": "Button label", "default": "See our work" },
+    { "type": "url", "id": "link", "label": "Gallery page link", "info": "Leave empty to use /pages/project-gallery. Photos link to their project on this page." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "presets": [{ "name": "ETS projects (home)" }]
+}
+{% endschema %}

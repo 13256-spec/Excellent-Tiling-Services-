@@ -141,6 +141,30 @@
   >
 {% endif %}
 
+{%- comment -%}
+  Home page only: Judge.me's shop-wide rating (shop metafields, read the same way as
+  sections/ets-reviews.liquid, which shows the same reviews on the page). Output only when Judge.me
+  reports real reviews. Individual Review items are left out: Judge.me documents no Liquid source
+  for review text, author and date, and reviews are never typed in here.
+{%- endcomment -%}
+{%- liquid
+  assign jm_count = 0
+  if request.page_type == 'index'
+    assign jm_rating = shop.metafields.judgeme.all_reviews_rating.value
+    if jm_rating == blank
+      assign jm_rating = shop.metafields.judgeme.all_reviews_rating | append: ''
+    endif
+    assign jm_rating = jm_rating | times: 1.0 | at_least: 0 | at_most: 5 | round: 1
+    assign jm_count = shop.metafields.judgeme.all_reviews_count.value
+    if jm_count == blank
+      assign jm_count = shop.metafields.judgeme.all_reviews_count | append: ''
+    endif
+    assign jm_count = jm_count | times: 1 | round | at_least: 0
+    if jm_rating <= 0
+      assign jm_count = 0
+    endif
+  endif
+-%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -207,6 +231,15 @@
     "returnFees": "https://schema.org/RestockingFees",
     "restockingFee": 15,
     "merchantReturnLink": {{ shop.url | append: shop.refund_policy.url | json }}
+  },
+  {%- endif %}
+  {%- if jm_count > 0 %}
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": {{ jm_rating | json }},
+    "reviewCount": {{ jm_count | json }},
+    "bestRating": 5,
+    "worstRating": 1
   },
   {%- endif %}
   "openingHoursSpecification": [{

@@ -1,0 +1,133 @@
+{
+  "sections": {
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "eyebrow": "About us",
+        "heading": "About Excellent Tiling Services",
+        "text": "Tiles, bathroomware and tiling work from our showroom in Maddington, Perth. Trading since 2011.",
+        "show_crumbs": true,
+        "show_chips": false,
+        "bg": "none"
+      }
+    },
+    "story": {
+      "type": "ets-split",
+      "settings": {
+        "flip": false,
+        "bg": "white",
+        "eyebrow": "Trading since 2011",
+        "heading": "Our story",
+        "text": "<p>Excellent Tiling Services is a Perth tiling business based in Maddington. We've been trading since 2011. We do residential tiling for renovations and new builds: bathrooms, wet areas, floors, walls and splashbacks.</p><p>We also sell bathroom products from our showroom at 17A Olga Road, Maddington, and online. That includes vanities, basins, tapware, baths, toilets, mirrors, shower screens and accessories. So if you're doing a bathroom, you can buy the products and get the tiling done by the same people.</p><p>[Placeholder] How it started: who founded ETS in 2011, why, and what the first jobs were.</p>",
+        "checks": "Residential tiling for renovations and new builds\nBathrooms, wet areas, floors, walls and splashbacks\nBathroom products from our Maddington showroom and online",
+        "btn_1_label": "",
+        "btn_2_label": "",
+        "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg"
+      }
+    },
+    "team": {
+      "type": "ets-team",
+      "settings": {
+        "eyebrow": "The people",
+        "heading": "The team",
+        "text": "[Placeholder] One line introducing the team: who customers meet in the showroom and on site.",
+        "columns": "3",
+        "bg": "none"
+      },
+      "blocks": {
+        "member_1": {
+          "type": "member",
+          "settings": {
+            "title": "[Name]",
+            "role": "[Role, e.g. Founder]",
+            "trade": "",
+            "bio": "<p>[Placeholder] One or two sentences about the founder: when and why they started ETS, and the work they still do day to day.</p>"
+          }
+        },
+        "member_2": {
+          "type": "member",
+          "settings": {
+            "title": "[Name]",
+            "role": "[Role]",
+            "trade": "[Placeholder] Optional trade line, e.g. Licensed wall and floor tiler",
+            "bio": "<p>[Placeholder] One or two sentences about this person: how long they've been tiling, and the jobs they look after.</p>"
+          }
+        },
+        "member_3": {
+          "type": "member",
+          "settings": {
+            "title": "[Name]",
+            "role": "[Role]",
+            "trade": "",
+            "bio": "<p>[Placeholder] One or two sentences about this person: what they help showroom customers and tradies with.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "member_1",
+        "member_2",
+        "member_3"
+      ]
+    },
+    "trade_first": {
+      "type": "ets-info-cards",
+      "settings": {
+        "eyebrow": "How we work",
+        "heading": "Why we're trade-first",
+        "bg": "sand"
+      },
+      "blocks": {
+        "card_1": {
+          "type": "card",
+          "settings": {
+            "icon": "briefcase",
+            "title": "Tradies' pricing",
+            "text": "<p>[Placeholder] Explain trade pricing: who can open a trade account, how the discount works and how to apply.</p>",
+            "link_label": "Apply for a trade account",
+            "link": "shopify://pages/trade-account"
+          }
+        },
+        "card_2": {
+          "type": "card",
+          "settings": {
+            "icon": "box",
+            "title": "Stock for whole jobs",
+            "text": "<p>[Placeholder] Explain stock depth: what you keep on hand, bulk and whole-job orders, and how pick-up or delivery works.</p>"
+          }
+        },
+        "card_3": {
+          "type": "card",
+          "settings": {
+            "icon": "tile",
+            "title": "Advice from people who tile",
+            "text": "<p>[Placeholder] Explain who gives the advice: the team lays tiles themselves, so they can help with layouts, adhesives, waterproofing and quantities.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "card_1",
+        "card_2",
+        "card_3"
+      ]
+    },
+    "cta": {
+      "type": "ets-cta",
+      "settings": {
+        "eyebrow": "Maddington showroom",
+        "heading": "Come and see the range",
+        "text": "The showroom is open by appointment, Monday to Saturday. Book a time to visit, or send us the details of your job for a quote.",
+        "btn_1_label": "Book a visit",
+        "btn_1_link": "shopify://pages/book-appointment",
+        "btn_2_label": "Get a quote",
+        "btn_2_link": "shopify://pages/request-a-quote"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "story",
+    "team",
+    "trade_first",
+    "cta"
+  ]
+}

@@ -1,0 +1,66 @@
+# Project gallery: metaobject definition "project" (Admin GraphQL, checked against the 2026-10 schema).
+#
+# Read by theme/sections/ets-projects-home.liquid and theme/sections/ets-projects-page.liquid
+# through shop.metaobjects.project.values. Create this BEFORE pushing those sections: the home
+# section's "metaobject_list" picker names this type, and the theme editor shows an error on that
+# setting until the definition exists with Storefronts access.
+#
+# Option A: no code (Shopify admin)
+#   1. Settings > Custom data > Metaobject definitions > Add definition. Name "Project", type "project".
+#   2. Add the fields below, same keys, types and rules:
+#        title        Single line text, required, used as the display name
+#        job_type     Single line text, required, "Limit to preset choices":
+#                     Bathroom, Laundry, Kitchen splashback, Outdoor tiling
+#        suburb       Single line text
+#        photos       File, "List of files", required, accept Images only
+#        tiles_used   Product, "List of products"
+#        summary      Multi-line text
+#        completed_on Date
+#   3. Options: turn on "Active-draft status" (drafts stay off the site) and "Storefronts" access
+#      (lets the theme read entries). Save.
+#   4. Add projects in Content > Metaobjects > Project. Set each one to Active to show it.
+#      The first photo is the one used on the homepage, so put the best shot first.
+#   5. Online Store > Pages > Add page "Project gallery" (handle project-gallery), theme template
+#      "project-gallery" (theme/templates/page.project-gallery.json). Add it to the menu if wanted.
+#
+# Option B: run the mutation below (GraphiQL app or any Admin API client with write_metaobject_definitions).
+# Variables follow the operation.
+
+mutation CreateProjectDefinition($definition: MetaobjectDefinitionCreateInput!) {
+  metaobjectDefinitionCreate(definition: $definition) {
+    metaobjectDefinition {
+      id
+      type
+      name
+      displayNameKey
+      access { storefront }
+      capabilities { publishable { enabled } }
+      fieldDefinitions { key name required type { name } validations { name value } }
+    }
+    userErrors { field message code }
+  }
+}
+
+# Variables:
+# {
+#   "definition": {
+#     "type": "project",
+#     "name": "Project",
+#     "description": "A finished job for the project gallery.",
+#     "displayNameKey": "title",
+#     "access": { "storefront": "PUBLIC_READ" },
+#     "capabilities": { "publishable": { "enabled": true } },
+#     "fieldDefinitions": [
+#       { "key": "title", "name": "Title", "type": "single_line_text_field", "required": true },
+#       { "key": "job_type", "name": "Job type", "type": "single_line_text_field", "required": true,
+#         "validations": [{ "name": "choices", "value": "[\"Bathroom\",\"Laundry\",\"Kitchen splashback\",\"Outdoor tiling\"]" }] },
+#       { "key": "suburb", "name": "Suburb", "type": "single_line_text_field" },
+#       { "key": "photos", "name": "Photos", "type": "list.file_reference", "required": true,
+#         "description": "The first photo is used on the homepage.",
+#         "validations": [{ "name": "file_type_options", "value": "[\"Image\"]" }] },
+#       { "key": "tiles_used", "name": "Tiles used", "type": "list.product_reference" },
+#       { "key": "summary", "name": "Summary", "type": "multi_line_text_field" },
+#       { "key": "completed_on", "name": "Completed on", "type": "date" }
+#     ]
+#   }
+# }

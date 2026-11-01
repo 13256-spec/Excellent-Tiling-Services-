@@ -13,6 +13,87 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Trust sections: reviews, project gallery, credibility bar, showroom, About (1 Nov 2026, draft theme, waiting to be published)
+
+Unpublished theme **"ETS 2026 – Trust sections (draft)"** (id 144719740991, a copy of the live "ETS 2026 + iOS JS fix
+(PUBLISH ME)" theme) carries the 14 files below. The live copies of the 6 edited files matched this repo exactly before
+the upload, and every uploaded Liquid file's checksum matches the repo (Shopify re-serialises `templates/index.json`, same
+content). Also created in Shopify, none of it used by the live site: the **Project** metaobject definition (Content →
+Metaobjects → Project), a hidden page **Project gallery** (`/pages/project-gallery`, template `project-gallery`) and the
+menu **Main menu 2026 + About** (`main-menu-2026-about`, = `main-menu-2026` plus an About link to the About Us page),
+which the draft's header uses. **To go live: Online Store → Themes → the "Trust sections" draft → Publish**, after the
+steps at the end of this section.
+
+What's new (all editable in the theme editor):
+
+- **Credibility bar** (`sections/ets-credibility-bar.liquid`) under the hero, replacing the trust strip on the homepage:
+  Trading since 2011 · Licensed & insured · Maddington showroom (links to booking) · Australian owned. One line from 990 px,
+  2x2 below. New `flag` icon in `snippets/ets-icon.liquid`.
+- **Reviews** (`sections/ets-reviews.liquid`) under "Shop by department": star average and count from Judge.me's shop
+  metafields (`judgeme.all_reviews_rating`, `all_reviews_count`), reviews from Judge.me's Reviews Carousel app block
+  (or Judge.me's pre-rendered `featured_carousel` metafield). No reviews yet: an editable "Reviews are on their way"
+  card, or hide the section. Nothing is typed in by hand. **Judge.me is not installed on the store** (it isn't in the
+  installed apps and there are no `judgeme` shop metafields), so the homepage shows the "Reviews are on their way" card
+  until it is installed, its app embed is turned on and reviews come in. Which reviews show (4-6), reviewer name and
+  product name are set in Judge.me admin → Widgets → Reviews Carousel.
+- **Homepage aggregateRating**: `snippets/meta-tags.liquid` adds Judge.me's average and count to the existing
+  LocalBusiness on the home page only, and only when there are real reviews. Individual Review items are not output
+  (Judge.me documents no Liquid source for review text and author). Google doesn't show stars for a business's reviews of
+  itself on its own site, so expect the data to be read but no star snippet.
+- **Project gallery** on a `project` metaobject (definition in `store-content/project-gallery/metaobject-definition.graphql`:
+  title, job type Bathroom / Laundry / Kitchen splashback / Outdoor tiling, suburb, photos, tiles used, summary, completed
+  date; drafts stay hidden). Homepage `sections/ets-projects-home.liquid`: 6-photo masonry (first photo of each project,
+  then their next photos if there are fewer than 6), "See our work" link, hidden until a project exists. Page
+  `sections/ets-projects-page.liquid` + `templates/page.project-gallery.json`: job-type filter that works without
+  JavaScript, each project with photos, suburb, date, summary and linked tiles. Ceiling: 48 projects per page, and the
+  filter only covers the page shown.
+- **Showroom** (`sections/ets-showroom.liquid`) replaces the text-only "Delivery and showroom" cards: address, hours,
+  phone, pickup/delivery line, exterior photo (upload one; hidden until then), lazy Google map, Book a visit and Get
+  directions.
+- **About** (`templates/page.about.json`, new `sections/ets-team.liquid`): story (uses the live About Us text plus one
+  placeholder), team (3 placeholder members, initials tile until photos are added), why trade-first (3 placeholder cards),
+  call to action. Placeholders are marked `[Placeholder]` / `[Name]`.
+- **Mega menu**: each panel's product strip shows 6 still products instead of 16 scrolling ones rendered twice
+  (`snippets/ets-product-marquee.liquid` `static` mode). The homepage carried 192 menu product cards, 58% of its DOM.
+- Images: every gallery image lazy-loads through `image_tag` (width/height written, so no layout shift) except the first
+  photo on the gallery page (the likely LCP image). Shopify's CDN serves WebP/AVIF to browsers that accept them (checked);
+  `image_url` can't force a format.
+
+Checks done here: Shopify Theme Check (no new offences), every new section rendered with LiquidJS against the live CSS
+and screenshotted at 360-1280 px (no horizontal overflow; filter tested by click and keyboard), JSON-LD rendered with
+the Ruby Liquid gem for no/zero/legacy/numeric review values. Not Shopify's renderer: preview the draft before publishing.
+
+Lighthouse, same draft theme before and after the upload, median of 3 runs ([lighthouse/draft-diff.md](lighthouse/draft-diff.md)):
+
+| | Mobile before | Mobile after | Desktop before | Desktop after |
+|---|---|---|---|---|
+| Performance | 55 | 56 | 71 | 78 |
+| Total Blocking Time | 2.99 s | 2.49 s | 320 ms | 204 ms |
+| Largest Contentful Paint | 3.10 s | 3.24 s | 1.77 s | 1.66 s |
+| Cumulative Layout Shift | 0.009 | 0.008 | 0.004 | 0.003 |
+| DOM elements | 4,093 | 2,673 | 4,090 | 2,670 |
+
+The DOM drop (-1,420 elements, -35%) is the mega-menu trim and is the same on every run. Mobile LCP and TBT swing by
+more than the change between runs. Most mobile blocking time is third-party script (an azurefd.net script, Google Tag
+Manager, Clarity), outside this change. Live-site baseline: [lighthouse/before-live.md](lighthouse/before-live.md).
+
+Preview links (open in a private window): [home](https://excellenttilingservices.com/?preview_theme_id=144719740991),
+[About](https://excellenttilingservices.com/pages/about-us?view=about&preview_theme_id=144719740991),
+[project gallery](https://excellenttilingservices.com/pages/about-us?view=project-gallery&preview_theme_id=144719740991).
+
+**Before publishing the draft:**
+
+1. Reviews: install Judge.me, turn on its app embed in the draft (theme editor → App embeds) and add its Reviews Carousel
+   block to the ETS reviews section; pick 4-6 reviews with reviewer and product names in Judge.me → Widgets → Reviews
+   Carousel. Or tick "Hide this section until reviews exist".
+2. Showroom: upload a photo of the showroom outside in the ETS showroom section (hidden until then).
+3. About: replace the `[Placeholder]` / `[Name]` text and add team photos in the draft's theme editor (page template
+   "about"). Then in admin, on the About Us page: theme template → `about`, URL handle → `about` (keep "create a URL
+   redirect" ticked so `/pages/about-us` still works). The draft's menu link follows the page.
+4. Projects: add them in Content → Metaobjects → Project and set each to Active (first photo = homepage photo), then set
+   the "Project gallery" page to Visible. The homepage gallery stays hidden until there is an active project.
+5. Preview on a phone, then Online Store → Themes → "ETS 2026 – Trust sections (draft)" → Publish.
+
 ## Google Merchant Center attribute fixes (30 Oct 2026, live)
 
 From the Merchant Center "product attribute improvements" report. 75 products with photos that were missing from the
