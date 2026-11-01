@@ -13,6 +13,73 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Trust sections: reviews, project gallery, credibility bar, showroom, About (1 Nov 2026, repo only, not on Shopify yet)
+
+Built and checked in the repo; **not uploaded** because this session's Shopify connector was signed in to a different
+store (ECS Excellent Concierge Services) and then asked to sign in again, and no Shopify CLI theme token is set up.
+Nothing on the live store was changed.
+
+What's new (all editable in the theme editor):
+
+- **Credibility bar** (`sections/ets-credibility-bar.liquid`) under the hero, replacing the trust strip on the homepage:
+  Trading since 2011 · Licensed & insured · Maddington showroom (links to booking) · Australian owned. One line from 990 px,
+  2x2 below. New `flag` icon in `snippets/ets-icon.liquid`.
+- **Reviews** (`sections/ets-reviews.liquid`) under "Shop by department": star average and count from Judge.me's shop
+  metafields (`judgeme.all_reviews_rating`, `all_reviews_count`), reviews from Judge.me's Reviews Carousel app block
+  (or Judge.me's pre-rendered `featured_carousel` metafield). No reviews yet: an editable "Reviews are on their way"
+  card, or hide the section. Nothing is typed in by hand. **Judge.me's app embed is off on the live theme** (no Judge.me
+  script loads on any page), so turn it on in the theme editor's App embeds. Which reviews show (4-6), reviewer name and
+  product name are set in Judge.me admin → Widgets → Reviews Carousel.
+- **Homepage aggregateRating**: `snippets/meta-tags.liquid` adds Judge.me's average and count to the existing
+  LocalBusiness on the home page only, and only when there are real reviews. Individual Review items are not output
+  (Judge.me documents no Liquid source for review text and author). Google doesn't show stars for a business's reviews of
+  itself on its own site, so expect the data to be read but no star snippet.
+- **Project gallery** on a `project` metaobject (definition in `store-content/project-gallery/metaobject-definition.graphql`:
+  title, job type Bathroom / Laundry / Kitchen splashback / Outdoor tiling, suburb, photos, tiles used, summary, completed
+  date; drafts stay hidden). Homepage `sections/ets-projects-home.liquid`: 6-photo masonry (first photo of each project,
+  then their next photos if there are fewer than 6), "See our work" link, hidden until a project exists. Page
+  `sections/ets-projects-page.liquid` + `templates/page.project-gallery.json`: job-type filter that works without
+  JavaScript, each project with photos, suburb, date, summary and linked tiles. Ceiling: 48 projects per page, and the
+  filter only covers the page shown.
+- **Showroom** (`sections/ets-showroom.liquid`) replaces the text-only "Delivery and showroom" cards: address, hours,
+  phone, pickup/delivery line, exterior photo (upload one; hidden until then), lazy Google map, Book a visit and Get
+  directions.
+- **About** (`templates/page.about.json`, new `sections/ets-team.liquid`): story (uses the live About Us text plus one
+  placeholder), team (3 placeholder members, initials tile until photos are added), why trade-first (3 placeholder cards),
+  call to action. Placeholders are marked `[Placeholder]` / `[Name]`.
+- **Mega menu**: each panel's product strip shows 6 still products instead of 16 scrolling ones rendered twice
+  (`snippets/ets-product-marquee.liquid` `static` mode). The homepage carried 192 menu product cards, 58% of its DOM.
+- Images: every gallery image lazy-loads through `image_tag` (width/height written, so no layout shift) except the first
+  photo on the gallery page (the likely LCP image). Shopify's CDN serves WebP/AVIF to browsers that accept them (checked);
+  `image_url` can't force a format.
+
+Checks done here: Shopify Theme Check (no new offences), every new section rendered with LiquidJS against the live CSS
+and screenshotted at 360-1280 px (no horizontal overflow; filter tested by click and keyboard), JSON-LD rendered with
+the Ruby Liquid gem for no/zero/legacy/numeric review values. Not Shopify's renderer: preview the draft before publishing.
+
+Lighthouse baseline (live homepage, mobile / desktop, median of 3): performance 55 / 77, LCP 3.30 s / 1.76 s, TBT
+2.35 s / 168 ms, CLS 0.008 / 0.002, 4,080 DOM elements ([lighthouse/before-live.md](lighthouse/before-live.md)). Most
+of the mobile blocking time is third-party script (an azurefd.net script, Google Tag Manager, Clarity), outside this
+change. The "after" run needs the draft theme on Shopify.
+
+**To put it on Shopify** (needs the Shopify connector signed in to the ETS store, or a Theme Access token):
+
+1. Duplicate the live theme ("ETS 2026 + iOS JS fix (PUBLISH ME)", id 144587948095) as "ETS 2026 – Trust sections (draft)".
+2. The repo is behind live in places (`sections/ets-hero-full.liquid` is older). Before uploading, download the live
+   copies of the files this change edits (`sections/ets-header.liquid`, `snippets/ets-product-marquee.liquid`,
+   `snippets/meta-tags.liquid`, `snippets/ets-icon.liquid`, `templates/index.json`) and re-apply the edits if live differs.
+3. Create the `project` metaobject definition (before the sections, so the theme editor's project picker works).
+4. Upload the new and edited files to the draft (themeFilesUpsert).
+5. Run `lighthouse/run.sh before-draft "<preview URL>"` right after step 1 and `after-draft` after step 4, then
+   `python3 lighthouse/diff.py before-draft after-draft`.
+6. In the draft's theme editor: App embeds → Judge.me on; ETS reviews → Add block → Apps → Reviews Carousel; upload the
+   showroom exterior photo.
+7. About in the main menu: menus are store-wide, so copy `main-menu-2026` with an About link and point the draft's header
+   at the copy (as with the 1 Oct menu fix). The live About Us page (`/pages/about-us`) has the real text: change its
+   handle to `about` (keep the redirect from `about-us`) and its template to `about` when the placeholders are filled.
+8. Create the "Project gallery" page (handle `project-gallery`, template `project-gallery`) once the first projects are in.
+9. Publish the draft from Online Store → Themes after a preview on a phone.
+
 ## Google Merchant Center attribute fixes (30 Oct 2026, live)
 
 From the Merchant Center "product attribute improvements" report. 75 products with photos that were missing from the

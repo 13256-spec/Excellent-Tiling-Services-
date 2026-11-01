@@ -1,0 +1,116 @@
+{%- comment -%}
+  Team members for the About page. A member with no photo shows a tile with their initials on the
+  storefront (the theme editor shows Shopify's placeholder image instead, so it's obvious a photo is missing).
+{%- endcomment -%}
+{%- liquid
+  assign cols = section.settings.columns | default: '3'
+  # 1360px = --ets-max: wider screens keep cards at ~405px (3 across) or ~298px (4 across)
+  if cols == '4'
+    assign sizes = '(min-width: 1360px) 300px, (min-width: 990px) 25vw, (min-width: 750px) 50vw, 100vw'
+  else
+    assign sizes = '(min-width: 1360px) 410px, (min-width: 990px) 33vw, (min-width: 750px) 50vw, 100vw'
+  endif
+  assign shown = 0
+  for block in section.blocks
+    assign n = block.settings.title | strip
+    if n != blank
+      assign shown = shown | plus: 1
+    endif
+  endfor
+-%}
+{%- if shown > 0 or request.design_mode -%}
+<section class="ets ets-sec{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% endcase %}" aria-labelledby="EtsTeam-{{ section.id }}">
+  <div class="ets-wrap">
+    <div class="ets-head">
+      <div>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="ets-h2" id="EtsTeam-{{ section.id }}">{{ section.settings.heading | default: 'The team' }}</h2>
+        {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text }}</p>{%- endif -%}
+      </div>
+    </div>
+    <ul class="ets-team__grid ets-team__grid--{{ cols }}" role="list">
+      {%- for block in section.blocks -%}
+        {%- assign m = block.settings -%}
+        {%- assign name = m.title | strip -%}
+        {%- if name == blank and request.design_mode == false -%}{%- continue -%}{%- endif -%}
+        {%- liquid
+          assign words = name | remove: '[' | remove: ']' | split: ' '
+          assign initials = words.first | slice: 0
+          if words.size > 1
+            assign last_initial = words.last | slice: 0
+            assign initials = initials | append: last_initial
+          endif
+          assign initials = initials | upcase
+          assign alt = m.photo.alt | default: name
+        -%}
+        <li class="ets-team__card" {{ block.shopify_attributes }}>
+          <div class="ets-team__media">
+            {%- if m.photo != blank -%}
+              {{ m.photo | image_url: width: 1000 | image_tag: loading: 'lazy', widths: '300, 450, 600, 800, 1000', sizes: sizes, alt: alt }}
+            {%- elsif request.design_mode -%}
+              {{ 'image' | placeholder_svg_tag }}
+            {%- else -%}
+              <span class="ets-team__mono" aria-hidden="true">{{ initials | escape }}</span>
+            {%- endif -%}
+          </div>
+          <div>
+            {%- if name != blank -%}<h3 class="ets-team__name">{{ name | escape }}</h3>{%- endif -%}
+            {%- if m.role != blank -%}<p class="ets-team__role">{{ m.role | escape }}</p>{%- endif -%}
+            {%- if m.trade != blank -%}<p class="ets-team__trade">{% render 'ets-icon', name: 'tools' %}<span>{{ m.trade | escape }}</span></p>{%- endif -%}
+            {%- if m.bio != blank -%}<div class="ets-team__bio">{{ m.bio }}</div>{%- endif -%}
+          </div>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+{%- endif -%}
+{% stylesheet %}
+  .ets-team__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 32px 16px; }
+  .ets-team__card { display: flex; flex-direction: column; gap: 16px; min-width: 0; }
+  .ets-team__media { position: relative; aspect-ratio: 4 / 5; overflow: hidden; border-radius: var(--ets-r-lg); background: var(--ets-bg-2); box-shadow: 0 0 0 1px var(--ets-line); }
+  .ets-team__media img, .ets-team__media svg { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  .ets-team__mono { position: absolute; inset: 0; display: grid; place-items: center; background: var(--ets-ink); color: var(--ets-brass-soft); font: 700 clamp(48px, 10vw, 72px)/1 var(--ets-sans); letter-spacing: .04em; }
+  .ets-team__name { margin: 0; font: 700 19px/1.25 var(--ets-sans); color: var(--ets-ink); }
+  .ets-team__role { margin: 4px 0 0; font: 600 15px/1.4 var(--ets-sans); color: var(--ets-ink-soft); }
+  .ets-team__trade { display: flex; align-items: flex-start; gap: 8px; margin: 8px 0 0; font-size: 14px; line-height: 1.4; color: var(--ets-muted); }
+  .ets-team__trade svg { flex-shrink: 0; width: 18px; height: 18px; color: var(--ets-brass); }
+  .ets-team__bio { margin-top: 12px; font-size: 15px; line-height: 1.6; color: var(--ets-ink-soft); }
+  .ets-team__bio p { margin: 0; }
+  .ets-team__bio p + p { margin-top: .6em; }
+  @media (min-width: 750px) {
+    .ets-team__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px 20px; }
+  }
+  @media (min-width: 990px) {
+    .ets-team__grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 48px 24px; }
+    .ets-team__grid--4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS team",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "The people" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "The team" },
+    { "type": "inline_richtext", "id": "text", "label": "Text", "info": "Optional line under the heading." },
+    { "type": "select", "id": "columns", "label": "Columns on desktop", "default": "3", "options": [{ "value": "3", "label": "3" }, { "value": "4", "label": "4" }], "info": "Phones show 1 per row, tablets 2." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "blocks": [
+    {
+      "type": "member",
+      "name": "Team member",
+      "settings": [
+        { "type": "image_picker", "id": "photo", "label": "Photo", "info": "Portrait photos work best (4:5, e.g. 800 x 1000 px). With no photo, visitors see a tile with the person's initials." },
+        { "type": "text", "id": "title", "label": "Name", "default": "[Name]", "info": "Members with no name are hidden from visitors. With no named members the whole section is hidden." },
+        { "type": "text", "id": "role", "label": "Role", "default": "[Role]" },
+        { "type": "text", "id": "trade", "label": "Trade or licence", "info": "Optional, e.g. Licensed wall and floor tiler." },
+        { "type": "richtext", "id": "bio", "label": "Bio", "default": "<p>[Placeholder] One or two sentences about this person: how long they've been with ETS, the jobs they look after and what customers ask them about.</p>" }
+      ]
+    }
+  ],
+  "max_blocks": 25,
+  "presets": [{ "name": "ETS team", "blocks": [{ "type": "member" }, { "type": "member" }, { "type": "member" }] }]
+}
+{% endschema %}

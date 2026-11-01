@@ -1,0 +1,37 @@
+{
+  "sections": {
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "eyebrow": "Our work",
+        "heading": "Project gallery",
+        "text": "Bathrooms, laundries, splashbacks and outdoor areas our team has tiled around Perth.",
+        "show_crumbs": true
+      }
+    },
+    "gallery": {
+      "type": "ets-projects-page",
+      "settings": {
+        "heading": "Recent projects",
+        "bg": "none"
+      }
+    },
+    "cta": {
+      "type": "ets-cta",
+      "settings": {
+        "eyebrow": "Free measure & quote",
+        "heading": "Planning a renovation?",
+        "text": "Tell us about the room and when you'd like it done, and we'll arrange a free measure and quote.",
+        "btn_1_label": "Book a free measure & quote",
+        "btn_1_link": "shopify://pages/request-a-quote",
+        "btn_2_label": "Book a showroom visit",
+        "btn_2_link": "shopify://pages/book-appointment"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "gallery",
+    "cta"
+  ]
+}

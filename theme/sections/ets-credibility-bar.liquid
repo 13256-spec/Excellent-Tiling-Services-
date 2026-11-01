@@ -1,0 +1,105 @@
+{%- comment -%}
+  Slim trust strip under the homepage hero: one centred line on desktop, a 2x2 grid on phones and tablets.
+  No visible heading; the section is named for screen readers with aria-label.
+{%- endcomment -%}
+{%- if section.blocks.size > 0 -%}
+<section class="ets ets-cred{% case section.settings.bg %}{% when 'none' %} ets-cred--stone{% when 'sand' %} ets-cred--sand{% endcase %}" aria-label="Why shop with ETS">
+  <div class="ets-wrap">
+    <ul class="ets-cred__list" role="list">
+      {%- for block in section.blocks -%}
+        {%- if block.settings.text != blank -%}
+          {%- capture inner -%}<span class="ets-cred__icon">{% render 'ets-icon', name: block.settings.icon %}</span><span class="ets-cred__text">{{ block.settings.text | escape }}</span>{%- endcapture -%}
+          <li class="ets-cred__item" {{ block.shopify_attributes }}>
+            {%- if block.settings.link != blank -%}
+              <a class="ets-cred__in" href="{{ block.settings.link }}">{{ inner }}</a>
+            {%- else -%}
+              <span class="ets-cred__in">{{ inner }}</span>
+            {%- endif -%}
+          </li>
+        {%- endif -%}
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+{%- endif -%}
+
+{% stylesheet %}
+  .ets-cred { background: var(--ets-surface); border-block: 1px solid var(--ets-line); }
+  .ets-cred--stone { background: var(--ets-bg); }
+  .ets-cred--sand { background: var(--ets-bg-2); }
+  .ets-cred__list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 0; padding: 0; list-style: none; }
+  .ets-cred__item { display: flex; min-width: 0; }
+  .ets-cred__item:nth-child(n+3) { border-top: 1px solid var(--ets-line); }
+  .ets-cred__item:nth-child(even) { border-left: 1px solid var(--ets-line); padding-left: 14px; }
+  .ets-cred__in { display: flex; align-items: center; gap: 8px; min-height: 48px; padding: 10px 8px 10px 0; font: 600 13px/1.3 var(--ets-sans); color: var(--ets-ink); text-decoration: none; }
+  .ets-cred__icon { flex-shrink: 0; display: inline-grid; place-items: center; color: var(--ets-brass); }
+  .ets .ets-cred__icon svg { width: 18px; height: 18px; }
+  a.ets-cred__in .ets-cred__text { text-decoration: underline; text-decoration-color: var(--ets-line-strong); text-underline-offset: 3px; }
+  a.ets-cred__in:hover .ets-cred__text { text-decoration-color: currentColor; }
+
+  @media (min-width: 750px) {
+    .ets-cred__in { gap: 10px; font-size: 14px; }
+  }
+
+  /* Desktop: one centred line. Four default items measure ~785px at 990px against ~911px of room.
+     Five or six long items wrap to a second line instead of scrolling sideways. */
+  @media (min-width: 990px) {
+    .ets-cred__list { display: flex; flex-wrap: wrap; justify-content: center; }
+    .ets-cred__item:nth-child(n) { border: 0; padding: 0; }
+    .ets-cred__item + .ets-cred__item { border-left: 1px solid var(--ets-line); }
+    .ets-cred__in { min-height: 56px; padding: 12px clamp(16px, 2vw, 36px); white-space: nowrap; }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS credibility bar",
+  "max_blocks": 6,
+  "settings": [
+    { "type": "paragraph", "content": "A slim strip of short trust points. Four items fit on one line on desktop; phones and tablets show two per row." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "white", "options": [{ "value": "white", "label": "White" }, { "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }] }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        { "type": "select", "id": "icon", "label": "Icon", "default": "shield", "options": [
+          { "value": "calendar", "label": "Calendar" },
+          { "value": "medal", "label": "Medal" },
+          { "value": "shield", "label": "Shield" },
+          { "value": "store", "label": "Showroom" },
+          { "value": "flag", "label": "Flag" },
+          { "value": "pin", "label": "Location" },
+          { "value": "phone", "label": "Phone" },
+          { "value": "clock", "label": "Clock" },
+          { "value": "truck", "label": "Delivery" },
+          { "value": "box", "label": "Box" },
+          { "value": "return", "label": "Returns" },
+          { "value": "check", "label": "Tick" },
+          { "value": "tile", "label": "Tiles" },
+          { "value": "bath", "label": "Bath" },
+          { "value": "tools", "label": "Tools" },
+          { "value": "briefcase", "label": "Trade" },
+          { "value": "tag", "label": "Price tag" },
+          { "value": "user", "label": "Person" },
+          { "value": "mail", "label": "Email" }
+        ] },
+        { "type": "text", "id": "text", "label": "Text", "default": "Licensed & insured", "info": "Keep it to two or three words so the strip stays on one line." },
+        { "type": "url", "id": "link", "label": "Link", "info": "Optional." }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "ETS credibility bar",
+      "blocks": [
+        { "type": "item", "settings": { "icon": "calendar", "text": "Trading since 2011" } },
+        { "type": "item", "settings": { "icon": "shield", "text": "Licensed & insured" } },
+        { "type": "item", "settings": { "icon": "store", "text": "Maddington showroom" } },
+        { "type": "item", "settings": { "icon": "flag", "text": "Australian owned" } }
+      ]
+    }
+  ]
+}
+{% endschema %}

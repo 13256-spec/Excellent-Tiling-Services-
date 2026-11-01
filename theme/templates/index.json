@@ -82,10 +82,6 @@
         "slide_6"
       ]
     },
-    "trust": {
-      "type": "ets-trust",
-      "settings": {}
-    },
     "departments": {
       "type": "ets-categories",
       "settings": {
@@ -372,51 +368,6 @@
         "checks": "Discount comes off automatically in the cart\nPerth metro delivery to site, or pick up from Maddington\nBulk tile and project quantities quoted on request"
       }
     },
-    "delivery": {
-      "type": "ets-info-cards",
-      "settings": {
-        "eyebrow": "",
-        "heading": "Delivery and showroom",
-        "bg": "none"
-      },
-      "blocks": {
-        "0": {
-          "type": "card",
-          "settings": {
-            "icon": "truck",
-            "title": "Perth metro delivery",
-            "text": "<p>Tiles, vanities, baths and other large items are delivered across the Perth metro area. Delivery options show at checkout, or pick up free from Maddington.</p>",
-            "link_label": "Delivery and pickup",
-            "link": "shopify://pages/delivery-pickup"
-          }
-        },
-        "1": {
-          "type": "card",
-          "settings": {
-            "icon": "box",
-            "title": "Australia-wide shipping",
-            "text": "<p>Tools, silicone, tapware and accessories post anywhere in Australia from $9.95. Tiles and large items are Perth delivery or free pickup.</p>",
-            "link_label": "Shipping policy",
-            "link": "/policies/shipping-policy"
-          }
-        },
-        "2": {
-          "type": "card",
-          "settings": {
-            "icon": "store",
-            "title": "Maddington showroom",
-            "text": "<p>See tiles and bathroomware in person at <a href=\"/pages/book-appointment\">17A Olga Road, Maddington</a>, by appointment, Monday to Saturday 4:30–9 pm.</p>",
-            "link_label": "Book a visit",
-            "link": "shopify://pages/book-appointment"
-          }
-        }
-      },
-      "block_order": [
-        "0",
-        "1",
-        "2"
-      ]
-    },
     "faq": {
       "type": "ets-faq",
       "settings": {
@@ -470,17 +421,104 @@
         "3",
         "4"
       ]
+    },
+    "credibility": {
+      "type": "ets-credibility-bar",
+      "settings": {
+        "bg": "white"
+      },
+      "blocks": {
+        "since": {
+          "type": "item",
+          "settings": {
+            "icon": "calendar",
+            "text": "Trading since 2011"
+          }
+        },
+        "insured": {
+          "type": "item",
+          "settings": {
+            "icon": "shield",
+            "text": "Licensed & insured"
+          }
+        },
+        "showroom": {
+          "type": "item",
+          "settings": {
+            "icon": "store",
+            "text": "Maddington showroom",
+            "link": "shopify://pages/book-appointment"
+          }
+        },
+        "owned": {
+          "type": "item",
+          "settings": {
+            "icon": "flag",
+            "text": "Australian owned"
+          }
+        }
+      },
+      "block_order": [
+        "since",
+        "insured",
+        "showroom",
+        "owned"
+      ]
+    },
+    "reviews": {
+      "type": "ets-reviews",
+      "settings": {
+        "eyebrow": "",
+        "heading": "What our customers say",
+        "text": "",
+        "bg": "sand",
+        "hide_when_empty": false,
+        "empty_heading": "Reviews are on their way",
+        "empty_text": "We've just started collecting reviews on our website. Bought from us? We'd love to hear how it went.",
+        "empty_btn_label": "Tell us how it went",
+        "empty_btn_link": "shopify://pages/contact"
+      },
+      "blocks": {},
+      "block_order": []
+    },
+    "projects": {
+      "type": "ets-projects-home",
+      "settings": {
+        "eyebrow": "Project gallery",
+        "heading": "Our recent work",
+        "text": "Bathrooms, laundries, splashbacks and outdoor areas tiled by our team around Perth.",
+        "link_label": "See our work",
+        "link": "shopify://pages/project-gallery",
+        "bg": "sand"
+      }
+    },
+    "showroom": {
+      "type": "ets-showroom",
+      "settings": {
+        "bg": "none",
+        "eyebrow": "Showroom",
+        "heading": "Visit our Maddington showroom",
+        "text": "<p>See our tiles and bathroomware in person. Visits are by appointment.</p>",
+        "hours": "Monday to Saturday, 4:30 pm to 9 pm\nSunday closed\nBy appointment",
+        "show_phone": true,
+        "note": "<p>Free pickup from the showroom. Tiles and large items are delivered across Perth metro; tools, tapware and accessories post Australia-wide. <a href=\"/pages/delivery-pickup\" title=\"Delivery and pickup\">Delivery and pickup details</a></p>",
+        "show_map": true,
+        "map_query": "17A Olga Road, Maddington WA 6109",
+        "book_link": "shopify://pages/book-appointment"
+      }
     }
   },
   "order": [
     "hero",
-    "trust",
+    "credibility",
     "departments",
+    "reviews",
     "products",
     "tile_ranges",
     "renovations",
+    "projects",
     "trade",
-    "delivery",
+    "showroom",
     "faq"
   ]
 }

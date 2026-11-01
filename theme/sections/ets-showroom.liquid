@@ -1,0 +1,148 @@
+{%- liquid
+  assign s = section.settings
+  assign address = s.address | default: settings.ets_address | escape | newline_to_br
+  if address == blank
+    assign address = '17A Olga Road<br>Maddington WA 6109'
+  endif
+  assign hours = s.hours | newline_to_br | split: '<br />'
+  assign phone = settings.ets_phone | default: '0450 960 543'
+  assign phone_link = settings.ets_phone_link | default: '+61450960543'
+  assign query = s.map_query | default: '17A Olga Road, Maddington WA 6109'
+  assign q = query | url_encode
+  assign book_url = s.book_link | default: pages['book-appointment'].url | default: '/pages/book-appointment'
+  assign photo_alt = s.image.alt | default: 'Outside the ETS showroom at 17A Olga Road, Maddington'
+
+  assign show_photo = false
+  if s.image != blank or request.design_mode
+    assign show_photo = true
+  endif
+  assign pair = false
+  if show_photo and s.show_map
+    assign pair = true
+  endif
+  if pair
+    assign sizes = '(min-width: 1360px) 600px, (min-width: 750px) 50vw, 100vw'
+  else
+    assign sizes = '(min-width: 1360px) 600px, (min-width: 990px) 50vw, 100vw'
+  endif
+-%}
+<section class="ets ets-sec{% case s.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% endcase %}"{% if s.heading != blank %} aria-labelledby="EtsShow-{{ section.id }}"{% endif %}>
+  <div class="ets-wrap ets-show{% unless show_photo or s.show_map %} ets-show--solo{% endunless %}">
+    <div class="ets-show__copy">
+      {%- if s.eyebrow != blank -%}<p class="ets-eyebrow">{{ s.eyebrow | escape }}</p>{%- endif -%}
+      {%- if s.heading != blank -%}<h2 class="ets-h2" id="EtsShow-{{ section.id }}">{{ s.heading }}</h2>{%- endif -%}
+      {%- if s.text != blank -%}<div class="ets-lede ets-show__lede">{{ s.text }}</div>{%- endif -%}
+
+      <dl class="ets-show__details">
+        <div>
+          <dt>{% render 'ets-icon', name: 'pin' %}Address</dt>
+          <dd><address>{{ address }}</address></dd>
+        </div>
+        {%- if s.hours != blank -%}
+          <div>
+            <dt>{% render 'ets-icon', name: 'clock' %}Hours</dt>
+            <dd>
+              <ul role="list">
+                {%- for line in hours -%}{%- assign l = line | strip -%}{%- if l != blank -%}<li>{{ l | escape }}</li>{%- endif -%}{%- endfor -%}
+              </ul>
+            </dd>
+          </div>
+        {%- endif -%}
+        {%- if s.show_phone -%}
+          <div>
+            <dt>{% render 'ets-icon', name: 'phone' %}Phone</dt>
+            <dd><a class="ets-show__tel" href="tel:{{ phone_link | escape }}">{{ phone | escape }}</a></dd>
+          </div>
+        {%- endif -%}
+      </dl>
+
+      {%- if s.note != blank -%}<div class="ets-show__note">{{ s.note }}</div>{%- endif -%}
+
+      <div class="ets-btns ets-show__btns">
+        <a class="ets-btn" href="{{ book_url }}">Book a visit<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+        <a class="ets-btn ets-btn--ghost" href="https://www.google.com/maps/dir/?api=1&amp;destination={{ q }}" target="_blank" rel="noopener">Get directions{% render 'ets-icon', name: 'arrow-up-right' %}<span class="ets-visually-hidden"> (opens in a new tab)</span></a>
+      </div>
+    </div>
+
+    {%- if show_photo or s.show_map -%}
+      <div class="ets-show__media{% if pair %} ets-show__media--pair{% endif %}">
+        {%- if s.image != blank -%}
+          <div class="ets-show__photo">
+            {{ s.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '400, 600, 800, 1000, 1200, 1400', sizes: sizes, alt: photo_alt }}
+          </div>
+        {%- elsif request.design_mode -%}
+          <div class="ets-show__photo">{{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+        {%- endif -%}
+        {%- if s.show_map -%}
+          <div class="ets-show__map">
+            <iframe src="https://www.google.com/maps?q={{ q }}&amp;output=embed" title="Map showing the ETS showroom at {{ query | escape }}" width="600" height="450" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+
+{% stylesheet %}
+  .ets-show { display: grid; gap: 32px; }
+  .ets-show__lede { margin-top: 16px; }
+  .ets-show__lede p { margin: 0; }
+
+  .ets-show__details { display: grid; gap: 18px; margin: 28px 0 0; }
+  .ets-show__details dt { display: flex; align-items: center; gap: 8px; font: 600 13px/1.2 var(--ets-sans); color: var(--ets-muted); }
+  .ets .ets-show__details dt svg { width: 18px; height: 18px; color: var(--ets-brass); }
+  .ets-show__details dd { margin: 6px 0 0 26px; font-size: 16px; line-height: 1.55; color: var(--ets-ink); }
+  .ets-show__details address { font-style: normal; }
+  .ets-show__details ul { margin: 0; padding: 0; list-style: none; }
+  .ets-show__tel { display: inline-flex; align-items: center; min-height: 44px; margin-block: -10px; font-weight: 700; text-decoration: underline; text-decoration-color: var(--ets-line-strong); text-underline-offset: 3px; }
+  .ets-show__tel:hover { text-decoration-color: currentColor; }
+
+  .ets-show__note { max-width: 58ch; margin-top: 24px; padding-top: 18px; border-top: 1px solid var(--ets-line); font-size: 14.5px; line-height: 1.6; color: var(--ets-ink-soft); }
+  .ets-show__note p { margin: 0; }
+  .ets-show__note p + p { margin-top: 8px; }
+  .ets-show__note a { text-underline-offset: 3px; }
+
+  .ets-show__btns { margin-top: 28px; }
+  .ets .ets-show__btns svg { width: 16px; height: 16px; }
+
+  .ets-show__media { display: grid; gap: 14px; }
+  .ets-show__photo, .ets-show__map { aspect-ratio: 4 / 3; border-radius: var(--ets-r-lg); overflow: hidden; background: var(--ets-bg-2); box-shadow: 0 0 0 1px var(--ets-line); }
+  .ets .ets-show__photo img { width: 100%; height: 100%; object-fit: cover; }
+  .ets-show__map iframe { display: block; width: 100%; height: 100%; border: 0; }
+
+  @media (min-width: 750px) {
+    .ets-show__media--pair { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  }
+
+  /* Desktop: same columns and gap as ETS image with text; photo and map stack on the right */
+  @media (min-width: 990px) {
+    .ets-show { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: clamp(28px, 6vw, 96px); align-items: center; }
+    .ets-show--solo { grid-template-columns: minmax(0, 1fr); }
+    .ets-show__media--pair { grid-template-columns: minmax(0, 1fr); }
+    .ets-show__photo, .ets-show__map { aspect-ratio: 16 / 10; }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS showroom",
+  "settings": [
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Showroom" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Visit our Maddington showroom" },
+    { "type": "richtext", "id": "text", "label": "Text", "default": "<p>See our tiles and bathroomware in person. Visits are by appointment.</p>" },
+    { "type": "header", "content": "Details" },
+    { "type": "textarea", "id": "address", "label": "Address", "info": "Leave blank to use the address in Theme settings." },
+    { "type": "textarea", "id": "hours", "label": "Opening hours (one per line)", "default": "Monday to Saturday, 4:30 pm to 9 pm\nSunday closed\nBy appointment" },
+    { "type": "checkbox", "id": "show_phone", "label": "Show phone number", "default": true, "info": "Uses the phone number in Theme settings." },
+    { "type": "richtext", "id": "note", "label": "Pickup and delivery note", "default": "<p>Free pickup from the showroom. Tiles and large items are delivered across Perth metro; tools, tapware and accessories post Australia-wide.</p>" },
+    { "type": "header", "content": "Photo and map" },
+    { "type": "image_picker", "id": "image", "label": "Showroom exterior photo", "info": "Use a real photo of the showroom. Hidden on the store when empty." },
+    { "type": "checkbox", "id": "show_map", "label": "Show Google map", "default": true },
+    { "type": "text", "id": "map_query", "label": "Map address", "default": "17A Olga Road, Maddington WA 6109", "info": "What Google Maps searches for. Also used by the Get directions button." },
+    { "type": "header", "content": "Button" },
+    { "type": "url", "id": "book_link", "label": "Book a visit link", "info": "Leave blank to use the book an appointment page." }
+  ],
+  "presets": [{ "name": "ETS showroom" }]
+}
+{% endschema %}

@@ -1,0 +1,131 @@
+{%- comment -%}
+  Customer reviews from Judge.me. Nothing here is typed in by hand: the star average and count are
+  Judge.me's shop metafields, and the reviews themselves come from Judge.me's Reviews Carousel app
+  block (or Judge.me's pre-rendered carousel metafield when no block is added). With no reviews yet,
+  an editable empty state shows instead, or the section hides. The same totals feed the homepage
+  aggregateRating in the LocalBusiness block of snippets/meta-tags.liquid.
+{%- endcomment -%}
+{%- liquid
+  assign rating = shop.metafields.judgeme.all_reviews_rating.value
+  if rating == blank
+    assign rating = shop.metafields.judgeme.all_reviews_rating | append: ''
+  endif
+  assign rating = rating | times: 1.0 | at_least: 0 | at_most: 5 | round: 1
+
+  assign count = shop.metafields.judgeme.all_reviews_count.value
+  if count == blank
+    assign count = shop.metafields.judgeme.all_reviews_count | append: ''
+  endif
+  assign count = count | times: 1 | round | at_least: 0
+
+  assign has_reviews = false
+  if count > 0 and rating > 0
+    assign has_reviews = true
+  endif
+
+  assign carousel = shop.metafields.judgeme.featured_carousel.value
+  if carousel == blank
+    assign carousel = shop.metafields.judgeme.featured_carousel | append: ''
+  endif
+
+  assign show = true
+  if has_reviews == false and section.settings.hide_when_empty and request.design_mode == false
+    assign show = false
+  endif
+-%}
+{%- if show -%}
+<section class="ets ets-sec{% case section.settings.bg %}{% when 'sand' %} ets-sec--sand{% when 'white' %} ets-sec--white{% endcase %}" aria-labelledby="EtsRev-{{ section.id }}">
+  <div class="ets-wrap">
+    <div class="ets-head">
+      <div>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="ets-h2" id="EtsRev-{{ section.id }}">{{ section.settings.heading | default: 'What our customers say' }}</h2>
+        {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text }}</p>{%- endif -%}
+      </div>
+      {%- if has_reviews -%}
+        <p class="ets-rev__score">
+          <span class="ets-rev__stars" aria-hidden="true"><span style="width: {{ rating | times: 20 | round: 1 }}%"></span></span>
+          <span><strong>{{ rating }}</strong> out of 5 from {{ count }} {{ count | pluralize: 'review', 'reviews' }}</span>
+        </p>
+      {%- endif -%}
+    </div>
+
+    {%- if request.design_mode -%}
+      {%- if section.blocks.size == 0 -%}
+        <p class="ets-rev__hint">Editor only: add Judge.me's Reviews Carousel block to this section (Add block &gt; Apps &gt; Reviews Carousel). It needs the Judge.me app embed turned on in Theme settings &gt; App embeds.</p>
+      {%- endif -%}
+      {%- unless has_reviews -%}
+        <p class="ets-rev__hint">Editor only: Judge.me has no published reviews yet, so {% if section.settings.hide_when_empty %}this section is hidden from visitors{% else %}visitors see the message below instead of stars and reviews{% endif %}.</p>
+      {%- endunless -%}
+    {%- endif -%}
+
+    {%- if has_reviews -%}
+      {%- if section.blocks.size > 0 -%}
+        <div class="ets-rev__widget">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when '@app' -%}{% render block %}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      {%- elsif carousel != blank -%}
+        {%- comment -%} jdgm-carousel-wrapper: the container Judge.me's own carousel snippet puts around this metafield {%- endcomment -%}
+        <div class="ets-rev__widget"><div class="jdgm-carousel-wrapper">{{ carousel }}</div></div>
+      {%- endif -%}
+    {%- elsif section.settings.empty_heading != blank or section.settings.empty_text != blank or section.settings.empty_btn_label != blank -%}
+      <div class="ets-rev__empty">
+        {%- if section.settings.empty_heading != blank or section.settings.empty_text != blank -%}
+        <div>
+          {%- if section.settings.empty_heading != blank -%}<h3>{{ section.settings.empty_heading | escape }}</h3>{%- endif -%}
+          {%- if section.settings.empty_text != blank -%}<p>{{ section.settings.empty_text }}</p>{%- endif -%}
+        </div>
+        {%- endif -%}
+        {%- if section.settings.empty_btn_label != blank -%}
+          <a class="ets-btn" href="{{ section.settings.empty_btn_link | default: pages.contact.url | default: '/pages/contact' }}">{{ section.settings.empty_btn_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</section>
+{%- endif -%}
+{% stylesheet %}
+  .ets-rev__score { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; margin: 0; font-size: 15px; line-height: 1.4; color: var(--ets-ink-soft); }
+  .ets-rev__score strong { color: var(--ets-ink); font-weight: 700; }
+  /* Five stars, with the brass layer cut to the average (e.g. 4.8/5 = 96% wide) */
+  .ets-rev__stars { position: relative; display: inline-block; flex-shrink: 0; font-size: 20px; line-height: 1; white-space: nowrap; color: var(--ets-line-strong); }
+  .ets-rev__stars::before, .ets-rev__stars > span::before { content: '\2605\2605\2605\2605\2605'; }
+  .ets-rev__stars > span { position: absolute; top: 0; bottom: 0; left: 0; overflow: hidden; color: var(--ets-brass); }
+  .ets-rev__widget { min-width: 0; overflow-x: clip; }
+  .ets-rev__hint { margin: 0 0 16px; padding: 12px 14px; border: 1px dashed var(--ets-line-strong); border-radius: var(--ets-r-sm); font-size: 14px; line-height: 1.5; color: var(--ets-muted); }
+  .ets-rev__empty { display: grid; gap: 20px; padding: 24px 20px; background: var(--ets-surface); border-radius: var(--ets-r-lg); box-shadow: 0 0 0 1px var(--ets-line); }
+  .ets-sec--white .ets-rev__empty { background: var(--ets-bg); }
+  .ets-rev__empty h3 { margin: 0; font: 700 20px/1.25 var(--ets-sans); color: var(--ets-ink); }
+  .ets-rev__empty p { margin: 0; max-width: 60ch; font-size: 16px; line-height: 1.6; color: var(--ets-ink-soft); }
+  .ets-rev__empty h3 + p { margin-top: 8px; }
+  .ets-rev__empty .ets-btn { justify-self: start; }
+  @media (min-width: 750px) {
+    .ets-rev__empty { grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 32px; padding: 32px; }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS reviews",
+  "settings": [
+    { "type": "paragraph", "content": "Shows real reviews from Judge.me, never typed-in ones. The Judge.me app embed is currently off on the live store, so no Judge.me script loads yet. To set up: 1) Turn on Judge.me in Theme settings > App embeds. 2) In this section, Add block > Apps > Reviews Carousel. Which reviews show (for example 4 to 6 recent 5-star reviews), reviewer names and product names are set in Judge.me admin > Widgets > Reviews Carousel. The star average and review count also come from Judge.me." },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "What our customers say" },
+    { "type": "inline_richtext", "id": "text", "label": "Text", "info": "Optional line under the heading." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "white", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] },
+    { "type": "header", "content": "When there are no reviews yet" },
+    { "type": "checkbox", "id": "hide_when_empty", "label": "Hide this section until reviews exist", "default": false, "info": "When off, the message below shows instead of the stars and reviews." },
+    { "type": "text", "id": "empty_heading", "label": "Heading", "default": "Reviews are on their way" },
+    { "type": "inline_richtext", "id": "empty_text", "label": "Text", "default": "We've just started collecting reviews on our website. Bought from us? We'd love to hear how it went." },
+    { "type": "text", "id": "empty_btn_label", "label": "Button label", "default": "Tell us how it went" },
+    { "type": "url", "id": "empty_btn_link", "label": "Button link", "info": "Leave blank to link to the contact page." }
+  ],
+  "blocks": [{ "type": "@app" }],
+  "max_blocks": 3,
+  "presets": [{ "name": "ETS reviews" }]
+}
+{% endschema %}
