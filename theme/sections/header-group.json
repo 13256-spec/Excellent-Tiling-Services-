@@ -14,7 +14,7 @@
     "ets_header": {
       "type": "ets-header",
       "settings": {
-        "menu": "main-menu-2026",
+        "menu": "main-menu-2026-about",
         "search_placeholder": "Search tiles, vanities, tapware…",
         "cta_label": "Free measure & quote",
         "cta_link": "shopify://pages/request-a-quote",
