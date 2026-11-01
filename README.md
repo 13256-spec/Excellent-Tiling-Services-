@@ -13,11 +13,16 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
-## Trust sections: reviews, project gallery, credibility bar, showroom, About (1 Nov 2026, repo only, not on Shopify yet)
+## Trust sections: reviews, project gallery, credibility bar, showroom, About (1 Nov 2026, draft theme, waiting to be published)
 
-Built and checked in the repo; **not uploaded** because this session's Shopify connector was signed in to a different
-store (ECS Excellent Concierge Services) and then asked to sign in again, and no Shopify CLI theme token is set up.
-Nothing on the live store was changed.
+Unpublished theme **"ETS 2026 – Trust sections (draft)"** (id 144719740991, a copy of the live "ETS 2026 + iOS JS fix
+(PUBLISH ME)" theme) carries the 14 files below. The live copies of the 6 edited files matched this repo exactly before
+the upload, and every uploaded Liquid file's checksum matches the repo (Shopify re-serialises `templates/index.json`, same
+content). Also created in Shopify, none of it used by the live site: the **Project** metaobject definition (Content →
+Metaobjects → Project), a hidden page **Project gallery** (`/pages/project-gallery`, template `project-gallery`) and the
+menu **Main menu 2026 + About** (`main-menu-2026-about`, = `main-menu-2026` plus an About link to the About Us page),
+which the draft's header uses. **To go live: Online Store → Themes → the "Trust sections" draft → Publish**, after the
+steps at the end of this section.
 
 What's new (all editable in the theme editor):
 
@@ -27,8 +32,9 @@ What's new (all editable in the theme editor):
 - **Reviews** (`sections/ets-reviews.liquid`) under "Shop by department": star average and count from Judge.me's shop
   metafields (`judgeme.all_reviews_rating`, `all_reviews_count`), reviews from Judge.me's Reviews Carousel app block
   (or Judge.me's pre-rendered `featured_carousel` metafield). No reviews yet: an editable "Reviews are on their way"
-  card, or hide the section. Nothing is typed in by hand. **Judge.me's app embed is off on the live theme** (no Judge.me
-  script loads on any page), so turn it on in the theme editor's App embeds. Which reviews show (4-6), reviewer name and
+  card, or hide the section. Nothing is typed in by hand. **Judge.me is not installed on the store** (it isn't in the
+  installed apps and there are no `judgeme` shop metafields), so the homepage shows the "Reviews are on their way" card
+  until it is installed, its app embed is turned on and reviews come in. Which reviews show (4-6), reviewer name and
   product name are set in Judge.me admin → Widgets → Reviews Carousel.
 - **Homepage aggregateRating**: `snippets/meta-tags.liquid` adds Judge.me's average and count to the existing
   LocalBusiness on the home page only, and only when there are real reviews. Individual Review items are not output
