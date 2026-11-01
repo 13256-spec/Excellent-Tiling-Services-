@@ -63,28 +63,36 @@ Checks done here: Shopify Theme Check (no new offences), every new section rende
 and screenshotted at 360-1280 px (no horizontal overflow; filter tested by click and keyboard), JSON-LD rendered with
 the Ruby Liquid gem for no/zero/legacy/numeric review values. Not Shopify's renderer: preview the draft before publishing.
 
-Lighthouse baseline (live homepage, mobile / desktop, median of 3): performance 55 / 77, LCP 3.30 s / 1.76 s, TBT
-2.35 s / 168 ms, CLS 0.008 / 0.002, 4,080 DOM elements ([lighthouse/before-live.md](lighthouse/before-live.md)). Most
-of the mobile blocking time is third-party script (an azurefd.net script, Google Tag Manager, Clarity), outside this
-change. The "after" run needs the draft theme on Shopify.
+Lighthouse, same draft theme before and after the upload, median of 3 runs ([lighthouse/draft-diff.md](lighthouse/draft-diff.md)):
 
-**To put it on Shopify** (needs the Shopify connector signed in to the ETS store, or a Theme Access token):
+| | Mobile before | Mobile after | Desktop before | Desktop after |
+|---|---|---|---|---|
+| Performance | 55 | 56 | 71 | 78 |
+| Total Blocking Time | 2.99 s | 2.49 s | 320 ms | 204 ms |
+| Largest Contentful Paint | 3.10 s | 3.24 s | 1.77 s | 1.66 s |
+| Cumulative Layout Shift | 0.009 | 0.008 | 0.004 | 0.003 |
+| DOM elements | 4,093 | 2,673 | 4,090 | 2,670 |
 
-1. Duplicate the live theme ("ETS 2026 + iOS JS fix (PUBLISH ME)", id 144587948095) as "ETS 2026 – Trust sections (draft)".
-2. The repo is behind live in places (`sections/ets-hero-full.liquid` is older). Before uploading, download the live
-   copies of the files this change edits (`sections/ets-header.liquid`, `snippets/ets-product-marquee.liquid`,
-   `snippets/meta-tags.liquid`, `snippets/ets-icon.liquid`, `templates/index.json`) and re-apply the edits if live differs.
-3. Create the `project` metaobject definition (before the sections, so the theme editor's project picker works).
-4. Upload the new and edited files to the draft (themeFilesUpsert).
-5. Run `lighthouse/run.sh before-draft "<preview URL>"` right after step 1 and `after-draft` after step 4, then
-   `python3 lighthouse/diff.py before-draft after-draft`.
-6. In the draft's theme editor: App embeds → Judge.me on; ETS reviews → Add block → Apps → Reviews Carousel; upload the
-   showroom exterior photo.
-7. About in the main menu: menus are store-wide, so copy `main-menu-2026` with an About link and point the draft's header
-   at the copy (as with the 1 Oct menu fix). The live About Us page (`/pages/about-us`) has the real text: change its
-   handle to `about` (keep the redirect from `about-us`) and its template to `about` when the placeholders are filled.
-8. Create the "Project gallery" page (handle `project-gallery`, template `project-gallery`) once the first projects are in.
-9. Publish the draft from Online Store → Themes after a preview on a phone.
+The DOM drop (-1,420 elements, -35%) is the mega-menu trim and is the same on every run. Mobile LCP and TBT swing by
+more than the change between runs. Most mobile blocking time is third-party script (an azurefd.net script, Google Tag
+Manager, Clarity), outside this change. Live-site baseline: [lighthouse/before-live.md](lighthouse/before-live.md).
+
+Preview links (open in a private window): [home](https://excellenttilingservices.com/?preview_theme_id=144719740991),
+[About](https://excellenttilingservices.com/pages/about-us?view=about&preview_theme_id=144719740991),
+[project gallery](https://excellenttilingservices.com/pages/about-us?view=project-gallery&preview_theme_id=144719740991).
+
+**Before publishing the draft:**
+
+1. Reviews: install Judge.me, turn on its app embed in the draft (theme editor → App embeds) and add its Reviews Carousel
+   block to the ETS reviews section; pick 4-6 reviews with reviewer and product names in Judge.me → Widgets → Reviews
+   Carousel. Or tick "Hide this section until reviews exist".
+2. Showroom: upload a photo of the showroom outside in the ETS showroom section (hidden until then).
+3. About: replace the `[Placeholder]` / `[Name]` text and add team photos in the draft's theme editor (page template
+   "about"). Then in admin, on the About Us page: theme template → `about`, URL handle → `about` (keep "create a URL
+   redirect" ticked so `/pages/about-us` still works). The draft's menu link follows the page.
+4. Projects: add them in Content → Metaobjects → Project and set each to Active (first photo = homepage photo), then set
+   the "Project gallery" page to Visible. The homepage gallery stays hidden until there is an active project.
+5. Preview on a phone, then Online Store → Themes → "ETS 2026 – Trust sections (draft)" → Publish.
 
 ## Google Merchant Center attribute fixes (30 Oct 2026, live)
 
