@@ -130,7 +130,7 @@
                         {%- if link.type == 'collection_link' and link.object.products.size >= 3 -%}
                           <div class="ets-mega__strip">
                             <p class="ets-mega__strip-label">Shop {{ link.title | escape }}</p>
-                            {% render 'ets-product-marquee', collection: link.object, size: 'sm', limit: 16, defer: true %}
+                            {% render 'ets-product-marquee', collection: link.object, size: 'sm', limit: 6, static: true, defer: true %}
                           </div>
                         {%- endif -%}
                       {%- endunless -%}

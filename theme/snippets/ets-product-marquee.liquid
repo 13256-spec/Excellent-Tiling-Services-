@@ -5,6 +5,7 @@
   @param {number} [limit] - most products to show (default 24)
   @param {string} [size] - 'md' (page heroes) or 'sm' (menu panels)
   @param {boolean} [defer] - hold image loading until the menu panel opens
+  @param {boolean} [static] - one still row of up to `limit` products: no scrolling, no repeated copies (menu panels)
 {%- enddoc -%}
 {%- liquid
   assign limit = limit | default: 24
@@ -24,6 +25,11 @@
       Repeat short lists so one pass is wider than the screen; the second, hidden copy makes the loop seamless.
     endcomment
     assign reps = 12 | divided_by: count
+    assign passes = 2
+    if static
+      assign reps = 1
+      assign passes = 1
+    endif
     if reps < 1
       assign reps = 1
     endif
@@ -34,9 +40,9 @@
       assign img_width = 240
     endif
   -%}
-  <div class="ets-pmq ets-pmq--{{ size }}" style="--pmq-dur: {{ duration }}s" role="region" aria-label="{{ collection.title | escape }} products">
+  <div class="ets-pmq ets-pmq--{{ size }}{% if static %} ets-pmq--static{% endif %}"{% unless static %} style="--pmq-dur: {{ duration }}s"{% endunless %} role="region" aria-label="{{ collection.title | escape }} products">
     <div class="ets-pmq__track">
-      {%- for pass in (1..2) -%}
+      {%- for pass in (1..passes) -%}
         <ul class="ets-pmq__list" role="list"{% if pass == 2 %} aria-hidden="true"{% endif %}>
           {%- for r in (1..reps) -%}
             {%- for product in collection.products limit: limit -%}
@@ -85,6 +91,9 @@
   .ets-mega__strip { grid-column: 1 / -1; padding: 22px 40px 28px; border-top: 1px solid var(--ets-line); }
   .ets-mega__strip .ets-pmq { margin-top: 14px; }
   .ets-mega__strip-label { margin: 0; font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--ets-muted); }
+  .ets-pmq--static { -webkit-mask-image: none; mask-image: none; }
+  .ets-pmq--static .ets-pmq__track { width: auto; animation: none; }
+  .ets-pmq--static .ets-pmq__list { flex-wrap: wrap; padding-right: 0; }
   @keyframes ets-pmq-scroll { to { transform: translateX(-50%); } }
   @media (max-width: 749px) { .ets-pmq__item { width: 148px; } }
   @media (prefers-reduced-motion: reduce) {
