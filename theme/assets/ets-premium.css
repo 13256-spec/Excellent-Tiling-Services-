@@ -14,6 +14,10 @@
 
   Section {% stylesheet %} blocks load after this file, so rules that must beat them use a doubled class
   (.ets-hf .ets-hf__title), the same trick ets-refine.css uses for the header.
+
+  Round 2, after a QA pass on the first cut: one search field on the search page, the soft tile on
+  every product card, a hero kicker and caption that pass AA on any photo, no browser-faked bold in
+  the app sections, buttons that keep their outline on the dark bands, serif card titles everywhere.
 */
 
 /* ---------- Tokens ---------- */
@@ -37,7 +41,7 @@
 }
 
 /* ---------- Type ---------- */
-body { font-weight: 400; }
+body { font-weight: 400; font-synthesis: style; } /* Instrument Serif has one weight; app sections asking for 700 would get a faked bold */
 body h1, body h2, body .h1, body .h2,
 .ets-display, .ets-h2, .ets .ets-display, .ets .ets-h2 {
   font-family: var(--ets-serif);
@@ -49,6 +53,8 @@ body h1, body h2, body .h1, body .h2,
 .ets-display em, .ets-h2 em, .ets-pop h2 em, h1 em, h2 em { font-style: italic; color: var(--ets-brass); }
 .ets-lede { font-weight: 400; color: var(--ets-ink-soft); }
 .ets h3 { font-weight: 600; }
+.ets .ets-info h3, .ets .ets-aside-card h3 { font-family: var(--ets-serif); font-weight: 400; letter-spacing: -.01em; }
+body h2.ets-rv__title { font: 400 28px/1.1 var(--ets-serif); letter-spacing: -.015em; }
 .ets-head { margin-bottom: clamp(36px, 5vw, 64px); }
 .ets-eyebrow {
   margin-bottom: 14px;
@@ -72,6 +78,8 @@ body h1, body h2, body .h1, body .h2,
   text-transform: uppercase;
 }
 .ets-btn--ghost { box-shadow: inset 0 0 0 1px var(--ets-line-strong); }
+.ets-sec--ink .ets-btn--ghost:hover { background: rgba(255, 255, 255, .1); box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .6); }
+.ets-btn--brass { --btn-bg: #826333; } /* white on the brand brass is 4.1:1; this darker brass passes AA at 5.5:1 */
 .ets-link { font-weight: 600; font-size: 14px; }
 body .button, body button.button, body .add-to-cart-button, body .button-secondary {
   font-weight: 600 !important;
@@ -79,6 +87,13 @@ body .button, body button.button, body .add-to-cart-button, body .button-seconda
   letter-spacing: .06em;
   text-transform: uppercase;
 }
+/* The same small capitals on the phone call bar, the drawer's "Shop all", and the app sections' buttons */
+.ets-dnav__sub a.is-all, body .ets-hf-bar a, a[class*="feature-button-ss-button"] {
+  font-weight: 600; font-size: 13.5px; letter-spacing: .06em; text-transform: uppercase; border-radius: var(--ets-pill);
+}
+a[class*="feature-button-ss-button"] { box-shadow: none; }
+body .ets-more__btn { font-weight: 600; font-size: 13.5px; letter-spacing: .06em; text-transform: uppercase; } /* the "Load more products" button (sections/ets-load-more, live only) */
+body [class*="collection-card-title-"] { font-weight: 500; }
 
 /* ---------- Header: white, slimmer, quieter ---------- */
 .ets-topbar { font-size: 12.5px; }
@@ -99,13 +114,15 @@ body .button, body button.button, body .add-to-cart-button, body .button-seconda
 
 /* ---------- Home hero: the photo leads ---------- */
 .ets-hf.ets-hf { min-height: min(88svh, 880px); }
+/* Light where the photo is, dark where the words are. The kicker is small text and has to reach
+   4.5:1 on whatever photo sits behind it, so it is white over a brass rule rather than brass. */
 .ets-hf .ets-hf__shade {
   background:
-    linear-gradient(90deg, rgba(10, 18, 32, .5) 0%, rgba(10, 18, 32, .25) 45%, rgba(10, 18, 32, 0) 75%),
-    linear-gradient(0deg, rgba(10, 18, 32, .72) 0%, rgba(10, 18, 32, .2) 40%, rgba(10, 18, 32, 0) 70%);
+    linear-gradient(90deg, rgba(10, 18, 32, .72) 0%, rgba(10, 18, 32, .42) 42%, rgba(10, 18, 32, 0) 72%),
+    linear-gradient(0deg, rgba(10, 18, 32, .8) 0%, rgba(10, 18, 32, .3) 42%, rgba(10, 18, 32, 0) 72%);
 }
 .ets-hf .ets-hf__inner { padding-block: clamp(80px, 14vh, 160px) clamp(40px, 6vw, 72px); }
-.ets-hf .ets-hf__kicker { font-weight: 600; letter-spacing: .18em; }
+.ets-hf .ets-hf__kicker { font-weight: 600; letter-spacing: .18em; color: #FFFFFF; text-shadow: 0 1px 2px rgba(0, 0, 0, .35); }
 .ets-hf .ets-hf__kicker::before { width: 36px; height: 1px; }
 .ets-hf .ets-hf__title {
   max-width: 12ch;
@@ -125,15 +142,18 @@ body .button, body button.button, body .add-to-cart-button, body .button-seconda
   text-transform: uppercase;
 }
 .ets-hf a.ets-hf__btn--line { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .65); }
-.ets-hf .ets-hf__quick-links { font-weight: 500; }
+.ets-hf .ets-hf__quick-links a { font-weight: 500; }
 .ets-hf .ets-hf__stats { display: none; }
-.ets-hf .ets-hf__slide figcaption a { background: rgba(10, 18, 32, .45); font-weight: 500; }
+.ets-hf .ets-hf__slide figcaption a { background: rgba(10, 18, 32, .62); font-weight: 500; }
+.ets-hf .ets-hf__slide figcaption span { color: #FFFFFF; }
 @media (max-width: 989px) {
   .ets-hf .ets-hf__shade {
-    background: linear-gradient(0deg, rgba(10, 18, 32, .9) 0%, rgba(10, 18, 32, .62) 45%, rgba(10, 18, 32, .1) 85%);
+    background: linear-gradient(0deg, rgba(10, 18, 32, .92) 0%, rgba(10, 18, 32, .72) 45%, rgba(10, 18, 32, .12) 85%);
   }
   .ets-hf .ets-hf__kicker { letter-spacing: .12em; }
   .ets-hf .ets-hf__title { font-size: clamp(40px, 11vw, 52px); }
+  /* On phones the caption sits over the open top of the photo. */
+  .ets-hf .ets-hf__slide figcaption a { background: rgba(10, 18, 32, .82); }
 }
 
 /* ---------- Surfaces: hairlines, soft tile behind products ---------- */
@@ -162,6 +182,8 @@ product-card .card-gallery, body product-card .card-gallery, body .product-card 
   background: var(--ets-bg-2);
   box-shadow: none;
 }
+/* Cards with two or more photos wrap them in a slideshow that paints its own white; keep the tile. */
+product-card .card-gallery slideshow-container, product-card .card-gallery slideshow-slides, product-card .card-gallery slideshow-slide { background: transparent; }
 product-card .card-gallery .product-media__image { padding: 10%; mix-blend-mode: multiply; transition: transform .8s var(--ets-ease); }
 product-card:hover .card-gallery { border-color: transparent; box-shadow: none; transform: none; }
 product-card:hover .card-gallery .product-media__image { transform: scale(1.03); }
@@ -192,7 +214,9 @@ body .product-information .product-details h1 {
   body .product-details h1, body .product-information h1,
   body .product-information .product-details h1 { font-size: clamp(28px, 7.6vw, 36px) !important; }
 }
-body .tax-note { font-family: var(--ets-sans); font-size: 13px; color: var(--ets-muted); }
+/* Horizon's h4 preset on the price block (.text-block.h4 > *) outranks a plain class, hence !important. */
+body .tax-note { font-family: var(--ets-sans) !important; font-size: 13px; color: var(--ets-muted); }
+body product-price .ets-price__unit { font-family: var(--ets-sans) !important; }
 .product-information__media .product-media-container--image { border: 0; border-radius: var(--ets-r); background: var(--ets-bg-2); }
 .product-information__media .product-media-container--image .product-media__image { padding: 6%; mix-blend-mode: multiply; }
 /* Shopify's purple wallet button: off-brand next to the ink add-to-cart; "More payment options" stays.
@@ -208,3 +232,7 @@ body .add-to-cart-button.button-secondary:hover, body .sticky-add-to-cart__butto
 .ets-trade-note { background: transparent; box-shadow: inset 0 0 0 1px var(--ets-line); }
 .ets-perks, .ets-calc { border-radius: var(--ets-r); box-shadow: inset 0 0 0 1px var(--ets-line); }
 body .variant-option__button-label, body .variant-picker .variant-option__button-label { border-radius: var(--ets-r) !important; font-weight: 500; }
+
+/* ---------- Booking page: its step tiles used --ets-bg as a tint, which is white now ---------- */
+.ets-book .ets-book__steps li { background: var(--ets-bg-2); }
+.ets-book .ets-book__btn--ghost:hover { background: var(--ets-bg-2); }
