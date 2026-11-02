@@ -3,13 +3,11 @@
   logged-in customer, or 0 when the customer is not an approved trade account.
 
   Approved trade customers carry the tag set in Theme settings → ETS trade pricing
-  (default "trade"). The product's type decides the band:
-    - Tile product types        → tiles rate (default 20)
-    - Large fixture types       → large rate (default 15)
-    - Everything else           → small rate (default 10)
-
-  These bands must match the three "Trade …" automatic discounts in Shopify admin, which
-  apply the same percentages at checkout.
+  (default "trade"). The product's band comes from the product metafield
+  `ets.trade_band` (0, 5, 10, 15, 20 or 25), which mirrors the manual collection
+  `trade-list-N` the product sits in. The "Trade price – N%" automatic discounts on those
+  collections take the same percentage off in the cart, so what the page shows is what
+  the customer pays. Pricing rules: store-content/pricing/PRICING-PLAYBOOK.md.
 
   Usage: {%- capture pct -%}{% render 'ets-trade-rate', product: product %}{%- endcapture -%}
   @param {product} product
@@ -19,32 +17,10 @@
   assign trade_tag = settings.ets_trade_tag | default: 'trade' | strip
   if customer and settings.ets_trade_enabled and product != blank
     if customer.tags contains trade_tag
-      assign tile_types = settings.ets_trade_tile_types | split: ','
-      assign large_types = settings.ets_trade_large_types | split: ','
-      assign ptype = product.type | strip
-      assign band = 'small'
-      for t in tile_types
-        assign tt = t | strip
-        if tt == ptype
-          assign band = 'tiles'
-        endif
-      endfor
-      if band == 'small'
-        for t in large_types
-          assign tt = t | strip
-          if tt == ptype
-            assign band = 'large'
-          endif
-        endfor
+      assign band = product.metafields.ets.trade_band.value | default: 0 | plus: 0
+      if band >= 5 and band <= 25
+        assign pct = band
       endif
-      case band
-        when 'tiles'
-          assign pct = settings.ets_trade_tiles_pct
-        when 'large'
-          assign pct = settings.ets_trade_large_pct
-        else
-          assign pct = settings.ets_trade_small_pct
-      endcase
     endif
   endif
   echo pct | default: 0

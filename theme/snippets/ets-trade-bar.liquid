@@ -1,0 +1,32 @@
+{%- doc -%}
+  Sitewide bar under the header for approved trade customers (customer tag from
+  Theme settings → ETS trade pricing, default "trade"). Tells them they are logged in and
+  looking at trade prices. Rendered from layout/theme.liquid right after the header group.
+  Shows nothing for retail customers and visitors.
+{%- enddoc -%}
+{%- liquid
+  assign trade_tag = settings.ets_trade_tag | default: 'trade' | strip
+  assign is_trade = false
+  if customer and settings.ets_trade_enabled and customer.tags contains trade_tag
+    assign is_trade = true
+  endif
+-%}
+{%- if is_trade -%}
+  <div class="ets-trade-bar" role="status" aria-live="polite">
+    <div class="ets-trade-bar__inner">
+      <span class="ets-trade-bar__tag">✓ Trade account</span>
+      <span class="ets-trade-bar__text"><strong>Logged in as {{ customer.first_name | default: customer.email | escape }}.</strong> You're seeing your trade prices. Retail prices are crossed out and the discount comes off in the cart.</span>
+      <span class="ets-trade-bar__links"><a href="{{ routes.account_url }}">Your account</a><a href="{{ routes.account_logout_url }}">Log out</a></span>
+    </div>
+  </div>
+{%- endif -%}
+{% stylesheet %}
+.ets-trade-bar{background:#1F6149;color:#fff;font-family:var(--font-body--family);font-size:13px;line-height:1.45}
+.ets-trade-bar__inner{width:min(100%,1560px);margin:0 auto;padding:8px 16px;display:flex;flex-wrap:wrap;align-items:center;gap:6px 14px}
+.ets-trade-bar__tag{display:inline-block;padding:3px 10px;border-radius:999px;background:#fff;color:#1F6149;font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;white-space:nowrap}
+.ets-trade-bar__text{flex:1 1 260px;min-width:0}
+.ets-trade-bar__text strong{font-weight:700}
+.ets-trade-bar__links{display:inline-flex;gap:14px;white-space:nowrap}
+.ets-trade-bar__links a{color:#fff;font-weight:600;text-decoration:underline;text-underline-offset:3px}
+@media (max-width:600px){.ets-trade-bar__inner{padding:8px 12px;gap:4px 10px}.ets-trade-bar__text{font-size:12.5px}}
+{% endstylesheet %}

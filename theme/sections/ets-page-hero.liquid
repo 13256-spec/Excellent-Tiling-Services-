@@ -18,7 +18,9 @@
 <section class="ets ets-phero{% if section.settings.bg == 'sand' %} ets-sec--sand{% endif %}" aria-labelledby="EtsPh-{{ section.id }}">
   <div class="ets-wrap">
     {%- if section.settings.show_crumbs -%}
-      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">{{ heading | strip_html }}</li></ol>
+      {%- assign breadcrumb_title = heading | strip_html -%}
+      {%- assign breadcrumb_url = page.url | default: request.path -%}
+      {% render 'ets-breadcrumbs', current_title: breadcrumb_title, current_url: breadcrumb_url %}
     {%- endif -%}
     <div class="ets-phero__grid"{% if section.settings.image == blank %} style="grid-template-columns:minmax(0,1fr)"{% endif %}>
       <div>

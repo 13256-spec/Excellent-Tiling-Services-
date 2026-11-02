@@ -1,5 +1,6 @@
 {%- doc -%}
   Trade account prompt / confirmation under the product price.
+  @param {product} [product]
 {%- enddoc -%}
 {%- liquid
   assign trade_tag = settings.ets_trade_tag | default: 'trade'
@@ -7,11 +8,20 @@
   if customer and customer.tags contains trade_tag
     assign is_trade = true
   endif
+  assign p = product | default: closest.product
+  capture pct
+    render 'ets-trade-rate', product: p
+  endcapture
+  assign pct = pct | strip | plus: 0
 -%}
 {%- if settings.ets_trade_enabled -%}
   {%- if is_trade -%}
     <p class="ets ets-trade-note ets-trade-note--on" style="margin:0">
-      <span>✓ Trade price applied — your discount comes off automatically in the cart.</span>
+      {%- if pct > 0 -%}
+        <span>✓ Trade price shown: {{ pct }}% off the retail price. The discount comes off in the cart.</span>
+      {%- else -%}
+        <span>Trade account: this item is at the retail price (no trade discount on this one).</span>
+      {%- endif -%}
     </p>
   {%- else -%}
     <p class="ets ets-trade-note" style="margin:0">

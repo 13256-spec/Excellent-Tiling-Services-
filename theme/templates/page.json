@@ -9,8 +9,21 @@
  */
 {
   "sections": {
-    "hero": { "type": "ets-page-hero", "settings": { "show_crumbs": true } },
-    "content": { "type": "ets-page-content", "settings": { "show_help": true } }
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "show_crumbs": true
+      }
+    },
+    "content": {
+      "type": "ets-page-content",
+      "settings": {
+        "show_help": true
+      }
+    }
   },
-  "order": ["hero", "content"]
+  "order": [
+    "hero",
+    "content"
+  ]
 }

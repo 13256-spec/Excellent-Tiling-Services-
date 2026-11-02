@@ -12,7 +12,7 @@
     <div data-reveal>
       <p class="ets-eyebrow">{% if is_trade %}Your trade account{% else %}{{ section.settings.eyebrow | escape }}{% endif %}</p>
       <h2 class="ets-h2" id="EtsTrade-{{ section.id }}">{% if is_trade %}Welcome back, {{ customer.first_name | default: 'trade partner' | escape }}.{% else %}{{ section.settings.heading }}{% endif %}</h2>
-      <p class="ets-lede" style="margin-top:20px">{% if is_trade %}Your trade discount comes off automatically in the cart while you're logged in.{% else %}{{ section.settings.text | escape }}{% endif %}</p>
+      <p class="ets-lede" style="margin-top:20px">{% if is_trade %}While you're logged in, every product shows your trade price next to the crossed-out retail price. The discount comes off in the cart.{% else %}{{ section.settings.text | escape }}{% endif %}</p>
       {%- unless is_trade -%}
         {%- if section.settings.checks != blank -%}
           <ul class="ets-checks" role="list">
@@ -45,7 +45,7 @@
     { "type": "text", "id": "eyebrow", "label": "Label", "default": "For builders and trades" },
     { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Trade accounts for tilers, builders and plumbers." },
     { "type": "textarea", "id": "text", "label": "Text", "default": "Approved trade accounts get 5–25% off, depending on the item. Apply once with your ABN, then log in to shop at your trade price." },
-    { "type": "textarea", "id": "checks", "label": "Checklist (one per line)", "default": "Discount comes off automatically in the cart\nPerth metro delivery to site, or pick up from Maddington\nBulk tile and project quantities quoted on request" }
+    { "type": "textarea", "id": "checks", "label": "Checklist (one per line)", "default": "Log in to see your trade price on every product\nPerth metro delivery to site, or pick up from Maddington\nBulk tile and project quantities quoted on request" }
   ],
   "presets": [{ "name": "ETS trade band" }]
 }

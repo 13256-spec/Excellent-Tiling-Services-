@@ -132,7 +132,9 @@
         "columns_gap_vertical": 28,
         "background_color": "#FFFFFF",
         "padding-block-start": 12,
-        "padding-block-end": 60
+        "padding-block-end": 60,
+        "enable_infinite_scroll": false,
+        "products_per_page": 20
       }
     }
   },
