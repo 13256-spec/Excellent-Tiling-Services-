@@ -333,3 +333,10 @@ so acids, primers, tiles and large items show only the freight-quote option in e
 Not done: Christmas Island, Cocos Islands and Norfolk Island are separate countries in Shopify and fall into the
 rest-of-world zone, so they get Zone 5 prices instead of domestic. Add them to "Australia (outside WA)" if an order
 ever comes from there. The International market list also shows "Australia" as a region; check Settings → Markets.
+
+### Markets check (2 Nov 2026)
+When the owner added every country to the International market, Australia went in too. Shopify then nested the
+Australia market under International, and Australia inherited International's "add taxes at checkout" rule: a $4.00
+GST-inclusive item calculated as $4.40 for a Sydney address. Fixed by removing Australia from the International
+market's regions. Australia is a top-level market again (AUD, GST included, $4.00 total). International: every other
+country, prices in the customer's local currency, no GST, duties paid on delivery, "All Products" catalog, no price list.
