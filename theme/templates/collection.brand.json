@@ -1,0 +1,321 @@
+{
+  "sections": {
+    "hero": {
+      "type": "ets-page-hero",
+      "settings": {
+        "eyebrow": "Our own tapware",
+        "heading": "",
+        "text": "",
+        "show_crumbs": true,
+        "show_chips": false,
+        "bg": "none"
+      }
+    },
+    "story": {
+      "type": "ets-split",
+      "settings": {
+        "flip": false,
+        "bg": "white",
+        "eyebrow": "The range",
+        "heading": "Designed as a family, <em>finished</em> to last.",
+        "text": "<p>Basin mixers, wall mixers, bath spouts and shower sets that share one profile and one set of finishes, so a whole bathroom matches without hunting across brands. Solid brass bodies, ceramic disc cartridges and PVD or electroplated finishes, chosen and checked by the tilers who run this store.</p>",
+        "checks": "WaterMark certified and WELS rated, numbers on every page\nFive finishes across every piece\nManufacturer warranty, backed by us in Maddington",
+        "btn_1_label": "Shop the suites",
+        "btn_1_link": "#suites",
+        "btn_2_label": "Book a showroom visit",
+        "btn_2_link": "/pages/book-appointment"
+      }
+    },
+    "finishes": {
+      "type": "ets-finishes",
+      "settings": {
+        "eyebrow": "Finishes",
+        "heading": "Five finishes, <em>one</em> family.",
+        "text": "Every piece in the range comes in the same finishes, so a basin mixer, wall mixer, bath spout and shower always match.",
+        "bg": "none"
+      },
+      "blocks": {
+        "chrome": {
+          "type": "finish",
+          "settings": {
+            "name": "Chrome"
+          }
+        },
+        "matt-black": {
+          "type": "finish",
+          "settings": {
+            "name": "Matt Black"
+          }
+        },
+        "brushed-nickel": {
+          "type": "finish",
+          "settings": {
+            "name": "Brushed Nickel"
+          }
+        },
+        "brushed-brass": {
+          "type": "finish",
+          "settings": {
+            "name": "Brushed Brass"
+          }
+        },
+        "gunmetal": {
+          "type": "finish",
+          "settings": {
+            "name": "Gunmetal"
+          }
+        }
+      },
+      "block_order": [
+        "chrome",
+        "matt-black",
+        "brushed-nickel",
+        "brushed-brass",
+        "gunmetal"
+      ]
+    },
+    "suites": {
+      "type": "ets-suites",
+      "settings": {
+        "eyebrow": "Shop the suite",
+        "heading": "Matching sets, <em>one</em> finish.",
+        "text": "Each suite is a basin mixer, wall mixer, bath spout and shower set designed together. Pick a finish and add the lot in one go.",
+        "bg": "white"
+      }
+    },
+    "credentials": {
+      "type": "ets-info-cards",
+      "settings": {
+        "eyebrow": "Compliance and warranty",
+        "heading": "The paperwork, <em>on</em> every page.",
+        "bg": "none"
+      },
+      "blocks": {
+        "watermark": {
+          "type": "card",
+          "settings": {
+            "icon": "shield",
+            "title": "WaterMark certified",
+            "text": "<p>Every tap and shower carries its WaterMark licence number and the certifier that issued it. Nothing is listed without one.</p>"
+          }
+        },
+        "wels": {
+          "type": "card",
+          "settings": {
+            "icon": "box",
+            "title": "WELS rated",
+            "text": "<p>The water rating, flow rate and WELS registration number are on each product page and in the spec table, so you can check them on the WELS register.</p>",
+            "link_label": "WELS register",
+            "link": "https://www.waterrating.gov.au/"
+          }
+        },
+        "warranty": {
+          "type": "card",
+          "settings": {
+            "icon": "medal",
+            "title": "Warranty, handled here",
+            "text": "<p>The manufacturer warranty is shown on each product. Claims go through us in Maddington, not a call centre overseas.</p>",
+            "link_label": "Care and warranty",
+            "link": "/pages/product-care"
+          }
+        }
+      },
+      "block_order": [
+        "watermark",
+        "wels",
+        "warranty"
+      ]
+    },
+    "main": {
+      "type": "main-collection",
+      "blocks": {
+        "filters": {
+          "type": "filters",
+          "static": true,
+          "settings": {
+            "enable_filtering": true,
+            "filter_style": "horizontal",
+            "filter_width": "centered",
+            "text_label_case": "default",
+            "show_swatch_label": true,
+            "show_filter_label": false,
+            "enable_sorting": true,
+            "enable_grid_density": true,
+            "padding-block-start": 8,
+            "padding-block-end": 8,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "facets_margin_bottom": 16,
+            "facets_margin_right": 20
+          },
+          "blocks": {}
+        },
+        "product-card": {
+          "type": "_product-card",
+          "static": true,
+          "settings": {
+            "product_card_gap": 6,
+            "border": "none",
+            "border_width": 1,
+            "border_opacity": 100,
+            "border_radius": 0,
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {
+            "gallery": {
+              "type": "_product-card-gallery",
+              "settings": {
+                "image_ratio": "square",
+                "border": "none",
+                "border_width": 1,
+                "border_opacity": 100,
+                "border_radius": 0,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "title": {
+              "type": "product-title",
+              "settings": {
+                "width": "100%",
+                "max_width": "normal",
+                "alignment": "left",
+                "type_preset": "rte",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "wrap": "pretty",
+                "background": false,
+                "corner_radius": 0,
+                "padding-block-start": 8,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "price": {
+              "type": "price",
+              "settings": {
+                "show_sale_price_first": true,
+                "show_installments": false,
+                "show_tax_info": false,
+                "type_preset": "h6",
+                "width": "100%",
+                "alignment": "left",
+                "font": "var(--font-body--family)",
+                "font_size": "1rem",
+                "line_height": "normal",
+                "letter_spacing": "normal",
+                "case": "none",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            }
+          },
+          "block_order": [
+            "gallery",
+            "title",
+            "price"
+          ]
+        }
+      },
+      "settings": {
+        "layout_type": "grid",
+        "product_card_size": "medium",
+        "mobile_product_card_size": "small",
+        "product_grid_width": "centered",
+        "full_width_on_mobile": false,
+        "columns_gap_horizontal": 24,
+        "columns_gap_vertical": 40,
+        "padding-inline-start": 0,
+        "padding-inline-end": 0,
+        "background_color": "#FFFFFF",
+        "padding-block-start": 16,
+        "padding-block-end": 64,
+        "enable_infinite_scroll": false,
+        "products_per_page": 20
+      }
+    },
+    "faq": {
+      "type": "ets-faq",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Common questions",
+        "text": "",
+        "open_first": false,
+        "bg": "white"
+      },
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Where is this tapware made?",
+            "answer": "<p>It is made for us by a specialist tapware manufacturer to our specification, and tested to the Australian WaterMark and WELS schemes. Each product page lists its licence and registration numbers.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Will the finishes match other brands?",
+            "answer": "<p>Finishes vary between makers, even with the same name. Within this range every piece matches; if you are pairing with another brand, bring it to the showroom and compare in person.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "What pressure does it need?",
+            "answer": "<p>The maximum working pressure is in each product's spec table. Australian plumbing rules cap new installations at 500 kPa; your plumber can fit a pressure limiting valve if yours is higher.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Do trade accounts get a discount on this range?",
+            "answer": "<p>Yes. Approved trade accounts see their price once logged in, and the discount comes off in the cart.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    },
+    "cta": {
+      "type": "ets-cta",
+      "settings": {
+        "eyebrow": "See it in person",
+        "heading": "Compare the finishes under real light.",
+        "text": "The Maddington showroom is open by appointment, Monday to Saturday 4:30 to 9 pm. Bring your tile samples.",
+        "btn_1_label": "Book a showroom visit",
+        "btn_1_link": "/pages/book-appointment",
+        "btn_2_label": "Call 0450 960 543",
+        "btn_2_link": "tel:+61450960543"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "story",
+    "finishes",
+    "suites",
+    "credentials",
+    "main",
+    "faq",
+    "cta"
+  ]
+}

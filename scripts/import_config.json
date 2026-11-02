@@ -1,0 +1,99 @@
+{
+  "_readme": "Settings for scripts/import_supplier.py. Money in AUD unless noted. Edit here, not in the script.",
+  "brand": {
+    "name": "HOUSE_BRAND_TBC",
+    "tag": "house-brand",
+    "sku_prefix": "",
+    "_note": "name = Shopify vendor and the title prefix. sku_prefix is optional (e.g. 'ARX-'); the SKU body is the supplier's model code normalised."
+  },
+  "supplier": {
+    "name": "SUPPLIER_NAME_TBC",
+    "aliases": ["SUPPLIER_NAME_TBC"],
+    "_note": "Written only to the internal ets.supplier metafield. The script refuses to output any customer-facing text containing the name or an alias."
+  },
+  "currency": {"sheet": "USD", "aud_per_unit": 1.55, "_note": "FOB prices on the sheet are in `sheet` currency; aud_per_unit converts to AUD. Set to 1.0 if the sheet is already AUD."},
+  "landed": {
+    "duty_pct": 5.0,
+    "freight_pct_of_fob": 12.0,
+    "freight_per_kg_aud": 0.0,
+    "other_pct": 2.0,
+    "_note": "landed AUD ex GST = fob_aud x (1 + duty) + fob_aud x freight_pct + weight_kg x freight_per_kg + fob_aud x other_pct. Unit cost written to Shopify = landed x 1.1 (GST added, owner rule)."
+  },
+  "pricing": {
+    "markup_on_landed": {"default": 2.2, "Basin Mixer": 2.2, "Wall Mixer": 2.2, "Bath Spout": 2.4, "Shower Set": 2.0, "Shower Head": 2.3, "Shower Rail": 2.0},
+    "floor_multiplier_on_cost_inc_gst": 1.25,
+    "round": "x.95",
+    "trade_bands": [25, 20, 15, 10, 5],
+    "trade_floor_margin_ex_gst": 0.2,
+    "_note": "price inc GST = landed x markup x 1.1, rounded. Floor = cost_inc_gst x 1.25 (playbook). Trade band = deepest band keeping price x (1 - band) >= cost_inc_gst / (1 - trade_floor_margin)."
+  },
+  "finishes": {
+    "_note": "Finish option values exactly as the store already uses them (MELA/DSA products use 'Matt Black'). code = SKU suffix. aliases are matched case-insensitively against the sheet.",
+    "Chrome": {"code": "CP", "aliases": ["chrome", "cp", "ch", "polished chrome", "镀铬", "铬色", "亮铬"]},
+    "Matt Black": {"code": "MB", "aliases": ["matt black", "matte black", "mb", "bk", "black", "哑黑", "黑色", "磨砂黑"]},
+    "Brushed Nickel": {"code": "BN", "aliases": ["brushed nickel", "bn", "nickel", "拉丝镍", "镍色"]},
+    "Brushed Brass": {"code": "BB", "aliases": ["brushed brass", "brushed gold", "bb", "bg", "gold", "brass", "拉丝金", "金色", "拉丝黄铜"]},
+    "Gunmetal": {"code": "GM", "aliases": ["gunmetal", "gun metal", "gm", "graphite", "枪灰", "枪色", "枪灰色"]}
+  },
+  "types": {
+    "_note": "Shopify product type by keyword in the sheet's type/name column (first match wins). Collections are automated by type, so these must stay the store's existing type names.",
+    "Basin Mixer": ["basin mixer", "basin tap", "面盆龙头", "台盆龙头", "basin"],
+    "Wall Mixer": ["wall mixer", "shower mixer", "bath mixer", "墙面混水", "淋浴龙头", "暗装", "mixer"],
+    "Bath Spout": ["bath spout", "spout", "出水嘴", "浴缸出水"],
+    "Shower Set": ["shower set", "shower column", "twin shower", "花洒套装", "淋浴柱", "shower rail set"],
+    "Shower Head": ["shower head", "rain shower", "overhead", "顶喷", "花洒"],
+    "Shower Rail": ["rail", "滑杆", "slide bar"]
+  },
+  "shipping": {
+    "_note": "Weight bands in kg, matched in order. ship-* tags drive the delivery profiles (store convention); ebay-* tags drive Marketplace Connect postage (untagged = Local Pickup only).",
+    "bands": [
+      {"max_kg": 1, "tags": ["ship-parcel", "ebay-post-15"]},
+      {"max_kg": 3, "tags": ["ship-parcel", "ebay-post-20"]},
+      {"max_kg": 5, "tags": ["ship-parcel", "ebay-post-29"]},
+      {"max_kg": 10, "tags": ["ship-parcel", "ship-bulky", "ebay-post-39"]},
+      {"max_kg": 22, "tags": ["ship-parcel", "ship-bulky", "ebay-post-59"]}
+    ],
+    "over_max": ["ship-local-only", "ebay-pickup-only"],
+    "local_only_if_longest_side_over_mm": 1050,
+    "default_weight_kg_by_type": {"Basin Mixer": 1.6, "Wall Mixer": 1.2, "Bath Spout": 0.9, "Shower Set": 4.5, "Shower Head": 1.0, "Shower Rail": 1.5}
+  },
+  "defaults": {
+    "warranty_years": 5,
+    "material": "Brass",
+    "cartridge_brand": "",
+    "installation_type_by_type": {"Basin Mixer": "Deck mounted", "Wall Mixer": "In-wall", "Bath Spout": "Wall mounted", "Shower Set": "Wall mounted", "Shower Head": "Wall mounted", "Shower Rail": "Wall mounted"}
+  },
+  "publish_gate": ["watermark_licence_number", "wels_registration", "wels_rating"],
+  "columns": {
+    "_note": "Header aliases (lower-case, punctuation stripped). Add the manufacturer's own headers here as they turn up.",
+    "model": ["model", "model no", "model number", "item no", "item", "code", "product code", "art no", "sku", "型号", "产品型号", "货号", "编号"],
+    "name": ["name", "product name", "description", "item name", "product", "名称", "产品名称", "品名", "描述"],
+    "type": ["type", "category", "product type", "类别", "分类", "品类", "产品类别"],
+    "range": ["range", "series", "collection", "suite", "系列"],
+    "finish": ["finish", "finishes", "color", "colour", "surface", "surface finish", "表面", "表面处理", "颜色", "电镀"],
+    "fob": ["fob", "fob price", "price", "unit price", "usd", "fob usd", "price usd", "单价", "fob价", "价格", "出厂价"],
+    "moq": ["moq", "min order", "起订量"],
+    "material": ["material", "body material", "body", "材质", "主体材质"],
+    "cartridge": ["cartridge", "valve", "valve core", "阀芯"],
+    "cartridge_size": ["cartridge size", "cartridge dia", "阀芯尺寸"],
+    "pressure": ["pressure", "max pressure", "working pressure", "water pressure", "水压", "工作压力", "最大压力"],
+    "flow": ["flow", "flow rate", "流量"],
+    "wels_rating": ["wels", "wels rating", "wels star", "star rating", "stars", "wels星级", "星级"],
+    "wels_registration": ["wels reg", "wels registration", "wels no", "wels number", "registration", "wels注册号"],
+    "watermark_licence": ["watermark", "watermark licence", "watermark license", "wmk", "wm licence", "licence no", "license no", "水印认证", "watermark证书"],
+    "watermark_certifier": ["certifier", "certification body", "watermark certifier", "认证机构"],
+    "spout_projection": ["projection", "spout projection", "reach", "spout reach", "出水口长度", "出水长度"],
+    "spout_height": ["spout height", "height of spout", "出水高度", "出水口高度"],
+    "height": ["height", "overall height", "总高", "高度", "h"],
+    "width": ["width", "宽度", "w"],
+    "depth": ["depth", "length", "长度", "深度", "l", "d"],
+    "dimensions": ["dimensions", "size", "dimension", "尺寸", "规格", "产品尺寸"],
+    "weight": ["weight", "net weight", "nw", "n.w.", "gross weight", "gw", "g.w.", "重量", "净重", "毛重"],
+    "warranty": ["warranty", "guarantee", "质保", "保修"],
+    "image": ["image", "images", "photo", "picture", "img", "图片", "产品图片"],
+    "spec_sheet": ["spec sheet", "spec", "datasheet", "data sheet", "规格书"],
+    "installation_guide": ["installation", "installation guide", "install guide", "安装说明", "安装指南"],
+    "barcode": ["barcode", "ean", "upc", "gtin", "条码"],
+    "carton": ["carton", "carton qty", "packing", "装箱数"]
+  }
+}

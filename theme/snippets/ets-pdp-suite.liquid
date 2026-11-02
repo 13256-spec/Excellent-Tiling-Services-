@@ -1,0 +1,71 @@
+{%- doc -%}
+  "Part of the <range> suite" under the product description: the other pieces in the same
+  range (basin mixer, wall mixer, bath spout, shower set) shown in the finish being viewed,
+  with a link to the suite collection. The suite collection handle is the range name
+  handleized, prefixed with the vendor unless the range already starts with it
+  (vendor "Aria Tapware" + range "Aria" -> aria-tapware-aria; "MELA" + "MELA FLOVA" -> mela-flova).
+  Renders nothing unless that collection exists with at least two products.
+  @param {product} product
+  @example
+  {% render 'ets-pdp-suite', product: product %}
+{%- enddoc -%}
+{%- liquid
+  assign p = product | default: closest.product
+  assign range = p.metafields.ets.range.value
+  assign suite = blank
+  if range != blank and p.vendor != blank
+    if range contains p.vendor
+      assign handle = range | handleize
+    else
+      assign handle = p.vendor | append: ' ' | append: range | handleize
+    endif
+    assign suite = collections[handle]
+  endif
+  assign finish = ''
+  if p.options.first == 'Finish'
+    assign finish = p.selected_or_first_available_variant.option1
+  endif
+-%}
+{%- if suite != blank and suite.products_count > 1 -%}
+  <div class="ets ets-suite-link">
+    <p class="ets-suite-link__head"><span>Part of the</span> <strong>{{ range | escape }} suite</strong>{% if finish != blank %} <span>· shown in {{ finish | escape }}</span>{% endif %}</p>
+    <ul class="ets-suite-link__list" role="list">
+      {%- for item in suite.products limit: 6 -%}
+        {%- unless item.id == p.id -%}
+          {%- liquid
+            assign img = item.featured_image
+            if finish != blank
+              for v in item.variants
+                if v.option1 == finish and v.featured_image != blank
+                  assign img = v.featured_image
+                  break
+                endif
+              endfor
+            endif
+          -%}
+          <li>
+            <a class="ets-suite-link__item" href="{{ item.url }}">
+              <span class="ets-suite-link__media">{% if img != blank %}{{ img | image_url: width: 240 | image_tag: loading: 'lazy', widths: '120, 240', sizes: '72px', alt: '' }}{% endif %}</span>
+              <span class="ets-suite-link__name">{{ item.title | remove: p.vendor | remove: range | strip | default: item.title | escape }}</span>
+              <span class="ets-suite-link__price">{{ item.price | money }}</span>
+            </a>
+          </li>
+        {%- endunless -%}
+      {%- endfor -%}
+    </ul>
+    <a class="ets-link" href="{{ suite.url }}">Shop the whole {{ range | escape }} suite {% render 'ets-icon', name: 'arrow' %}</a>
+  </div>
+{%- endif -%}
+{% stylesheet %}
+  .ets-suite-link { display: grid; gap: 12px; margin: 20px 0 4px; padding: 16px; border-radius: var(--ets-r, 10px); background: var(--ets-bg-2, #F5F2EC); }
+  .ets-suite-link__head { margin: 0; font-size: 14px; color: var(--ets-ink-soft, #3A4556); }
+  .ets-suite-link__head strong { color: var(--ets-ink, #15213A); }
+  .ets-suite-link__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 10px; margin: 0; padding: 0; list-style: none; }
+  .ets-suite-link__item { display: grid; grid-template-columns: 56px 1fr; grid-template-rows: auto auto; column-gap: 10px; align-items: center; min-height: 56px; padding: 6px; border-radius: var(--ets-r-sm, 6px); background: var(--ets-surface, #fff); color: var(--ets-ink, #15213A); text-decoration: none; box-shadow: inset 0 0 0 1px var(--ets-line, rgba(21, 33, 58, .12)); }
+  .ets-suite-link__item:hover { box-shadow: inset 0 0 0 1px var(--ets-line-strong, rgba(21, 33, 58, .22)); }
+  .ets-suite-link__media { grid-row: 1 / 3; width: 56px; height: 56px; border-radius: var(--ets-r-sm, 6px); background: var(--ets-bg-2, #F5F2EC); overflow: hidden; }
+  .ets-suite-link__media img { width: 100%; height: 100%; object-fit: contain; padding: 8%; mix-blend-mode: multiply; }
+  .ets-suite-link__name { font-size: 13px; font-weight: 600; line-height: 1.3; }
+  .ets-suite-link__price { font-size: 12.5px; color: var(--ets-muted, #6A6862); }
+  .ets-suite-link .ets-link { justify-self: start; }
+{% endstylesheet %}

@@ -141,7 +141,7 @@
               "type": "variant-picker",
               "settings": {
                 "variant_style": "buttons",
-                "show_swatches": false,
+                "show_swatches": true,
                 "variant_style_class": "default",
                 "selected_variant_style_class": "default",
                 "alignment": "left",
@@ -250,6 +250,20 @@
               "settings": {
                 "custom_liquid": "{% render 'ets-pdp-options', product: product %}"
               }
+            },
+            "compliance": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-compliance', product: product %}"
+              },
+              "blocks": {}
+            },
+            "suite": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-suite', product: product %}"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -257,13 +271,15 @@
             "title",
             "fits",
             "price",
+            "compliance",
             "trade",
             "variant",
             "calc",
             "options",
             "buy",
             "trust",
-            "description"
+            "description",
+            "suite"
           ]
         }
       },

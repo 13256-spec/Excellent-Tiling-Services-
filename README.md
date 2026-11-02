@@ -13,6 +13,65 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Theme on GitHub and Shopify CLI (2 Nov 2026)
+
+The live theme ("ETS 2026 – Premium (draft)", the published theme) still lives only in Shopify. This repo mirrors its
+custom files in `theme/` (re-synced 2 Nov 2026). Shopify's GitHub integration needs **a whole theme at the root of a
+branch**, so it cannot point at this repo's `theme/` folder. Plan: a separate private repo for the full theme, this repo
+keeps the scripts, data and notes.
+
+### 1. Pull the full live theme once (owner's computer, 10 minutes)
+
+```bash
+npm install -g @shopify/cli@latest
+mkdir ets-theme && cd ets-theme
+shopify theme pull --store 0mthrd-hk.myshopify.com --live      # logs in through the browser, downloads every file
+git init && git add -A && git commit -m "Live theme, pulled $(date +%F)"
+```
+
+Copy this repo's `theme/` files over the top (same paths; they are the house-brand changes), commit again.
+
+### 2. Create the private GitHub repo and push
+
+GitHub → **New repository** → owner `13256-spec`, name `ets-theme`, **Private** → Create. Then in `ets-theme/`:
+
+```bash
+git branch -M main
+git remote add origin https://github.com/13256-spec/ets-theme.git
+git push -u origin main
+```
+
+### 3. Connect it in Shopify (click-through)
+
+1. Shopify admin → **Online Store** → **Themes**.
+2. Scroll to **Theme library** → **Add theme** ▾ → **Connect from GitHub**.
+3. **Log in to GitHub** → authorise the *Shopify Online Store* GitHub app for the `13256-spec` account; when it asks which
+   repositories, choose **Only select repositories** → `ets-theme` → Install & Authorize.
+4. Back in Shopify pick **Repository** `13256-spec/ets-theme` and **Branch** `main` → **Connect**.
+5. Shopify adds an **unpublished** theme named `ets-theme/main` to the library. Every commit to `main` updates it; every
+   edit made in the theme editor on that theme is committed back to `main`. It does not touch the live theme.
+6. Preview it (**...** → Preview). When it matches the live theme plus the house-brand changes, **...** → **Publish**.
+   The old "ETS 2026 – Premium" stays in the library as a backup.
+
+### 4. Local development against a development theme (never the live one)
+
+```bash
+cd ets-theme
+shopify theme dev --store 0mthrd-hk.myshopify.com        # creates a private development theme, hot-reloads, prints a preview URL
+shopify theme check                                      # Liquid/JSON lint before committing
+git checkout -b house-brand                              # work on a branch; merge to main when approved
+```
+
+`shopify theme dev` only ever writes to the development theme it created for your login. To put a branch in the admin
+for someone else to preview, push it and connect that branch the same way as step 3 (Add theme → Connect from GitHub →
+branch `house-brand`).
+
+### What is in this repo now
+
+- `theme/`: the house-brand changes on top of the live files (product page compliance badges and spec table, suite and
+  brand collection templates, finishes and suites sections, tokens stylesheet). Uploaded to the unpublished dev theme
+  **"ETS 2026 – House brand (dev)"** for preview; publish from Online Store → Themes once approved.
+- `brand/`, `data/metafields/`, `scripts/`: tokens, metafield definitions and the supplier import pipeline. See `CLAUDE.md`.
 ## Premium look, after Bathroom City (2 Nov 2026, draft theme, waiting to be published)
 
 The owner asked what makes Bathroom City's site (bathroom-city.com.au, Osborne Park; Shopify "Concept" theme) feel premium, and

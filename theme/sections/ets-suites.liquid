@@ -1,0 +1,84 @@
+{%- comment -%}
+  Suite cards on a brand collection page. Lists every range (ets.range) found on the
+  products of the current collection and links each to its suite collection, whose handle
+  is <vendor>-<range> handleized (or the range alone when it already starts with the vendor).
+  Needs no configuration: a new range appears here as soon as its suite collection exists.
+  @example
+  "suites": { "type": "ets-suites", "settings": { "heading": "Shop the suite" } }
+{%- endcomment -%}
+{%- liquid
+  assign ranges = ''
+  for p in collection.products
+    assign r = p.metafields.ets.range.value
+    if r != blank
+      assign probe = '|' | append: r | append: '|'
+      assign all = '|' | append: ranges | append: '|'
+      unless all contains probe
+        if ranges == ''
+          assign ranges = r
+        else
+          assign ranges = ranges | append: '|' | append: r
+        endif
+      endunless
+    endif
+  endfor
+  assign ranges = ranges | split: '|'
+-%}
+{%- if ranges.size > 0 -%}
+<section class="ets ets-sec ets-suites{% if section.settings.bg == 'sand' %} ets-sec--sand{% elsif section.settings.bg == 'white' %} ets-sec--white{% endif %}" id="suites" aria-labelledby="EtsSuites-{{ section.id }}">
+  <div class="ets-wrap">
+    <div class="ets-head">
+      <div data-reveal>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="ets-h2" id="EtsSuites-{{ section.id }}">{{ section.settings.heading }}</h2>
+        {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>{%- endif -%}
+      </div>
+    </div>
+    <div class="ets-cats">
+      {%- for r in ranges -%}
+        {%- liquid
+          if r contains collection.products.first.vendor
+            assign handle = r | handleize
+          else
+            assign handle = collection.products.first.vendor | append: ' ' | append: r | handleize
+          endif
+          assign suite = collections[handle]
+          if suite == blank
+            continue
+          endif
+          assign img = suite.image | default: suite.products.first.featured_image
+          assign names = suite.products | map: 'type' | uniq | join: ' · '
+        -%}
+        <a class="ets-cat ets-shell" href="{{ suite.url }}" data-reveal style="--d:{{ forloop.index0 | times: 0.05 }}s">
+          <div class="ets-core">
+            <div class="ets-cat__img ets-cat__img--contain">
+              {%- if img != blank -%}{{ img | image_url: width: 900 | image_tag: loading: 'lazy', widths: '300, 450, 600, 900', sizes: '(min-width: 990px) 25vw, 45vw', alt: '' }}{%- endif -%}
+            </div>
+            <div class="ets-cat__body">
+              <div>
+                <strong>{{ r | escape }} suite</strong>
+                <small>{{ names | escape | default: suite.products_count | append: ' pieces' }}</small>
+              </div>
+              <span class="ets-cat__go">{% render 'ets-icon', name: 'arrow-up-right' %}</span>
+            </div>
+          </div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+{% schema %}
+{
+  "name": "ETS suites",
+  "settings": [
+    { "type": "paragraph", "content": "Shows one card per range found on this collection's products (metafield ets.range), linked to the suite collection <brand>-<range>. Nothing to configure." },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Shop the suite" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Matching sets, <em>one</em> finish." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Each suite is a basin mixer, wall mixer, bath spout and shower set designed together. Pick a finish and add the lot in one go." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "none", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "enabled_on": { "templates": ["collection"] },
+  "presets": [{ "name": "ETS suites" }]
+}
+{% endschema %}

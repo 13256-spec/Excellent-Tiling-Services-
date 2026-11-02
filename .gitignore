@@ -7,3 +7,9 @@ marketing/finish-it-right/v2/source/outvid/*.mp4
 
 # Raw Lighthouse JSON reports (summaries are committed as lighthouse/*.md)
 lighthouse/*/*.json
+
+# House brand build-out
+.env
+.env.*
+.shopify/
+*.log
