@@ -312,3 +312,24 @@ Owner's rule: **no free shipping or free delivery at any order value.** Free pic
 - The WA zone names still read "free ... over $100". Zone names are admin-only, so they were left as is.
 - Wording removed from the theme (unpublished copy "ETS 2026 – No free shipping (draft)"), shipping policy,
   pages, product and collection SEO text, and the ets-* agent rules.
+
+## Shipping rates for every country (2 Nov 2026)
+Owner opened the International market to all countries. Rates in the General profile now follow Australia Post's
+five international zones (zone list: auspost.com.au/business/shipping/parcels/international-sending/zones; prices:
+International Post Charges Easy Guide, 1 July 2026). Same method as before: retail Standard + about $5 packaging,
+up to 20 kg, then "Freight quote" ($0).
+
+| Zone | Shopify zone | Countries | Up to 1 / 2 / 3 / 5 / 7 / 10 / 15 / 20 kg |
+| --- | --- | --- | --- |
+| 1 | New Zealand (unchanged) | NZ | 34 / 49 / 59 / 79 / 99 / 129 / 184 / 234 |
+| 2 | Asia Pacific (new) | 39 countries: China, Hong Kong, Japan, Korea, Taiwan, Singapore, Malaysia, Thailand, Vietnam, Indonesia, Philippines, India, Pakistan, Sri Lanka, Nepal, Bangladesh, Pacific islands | 49 / 74 / 84 / 114 / 144 / 179 / 249 / 314 |
+| 3 | United States & Canada (was United States) | US, Canada, US Minor Outlying Islands | 49 / 79 / 94 / 124 / 159 / 204 / 284 / 364 |
+| 4 | UK & Europe (was United Kingdom) | UK plus 39 countries: all of western, northern and central Europe, Russia, Ukraine, Türkiye, Brazil, South Africa | 54 / 84 / 104 / 139 / 174 / 229 / 319 / 409 |
+| 5 | Rest of world incl. UAE (was United Arab Emirates, now Shopify "rest of world") | everything else: Middle East, Africa, Central and South America, Caribbean, Baltics, central Asia | 69 / 104 / 129 / 179 / 229 / 299 / 419 / 539 |
+
+Dangerous goods and Perth-only profiles: their "Overseas (freight quote)" zones were changed to Shopify "rest of world",
+so acids, primers, tiles and large items show only the freight-quote option in every country.
+
+Not done: Christmas Island, Cocos Islands and Norfolk Island are separate countries in Shopify and fall into the
+rest-of-world zone, so they get Zone 5 prices instead of domestic. Add them to "Australia (outside WA)" if an order
+ever comes from there. The International market list also shows "Australia" as a region; check Settings → Markets.
