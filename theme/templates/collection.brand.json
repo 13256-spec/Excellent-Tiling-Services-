@@ -283,8 +283,7 @@
           "type": "question",
           "settings": {
             "question": "Do trade accounts get a discount on this range?",
-            "answer": "<p>Yes. Approved trade accounts see their price once logged in, and the discount comes off in the cart.</p>",
-            "link": ""
+            "answer": "<p>Yes. Approved trade accounts see their price once logged in, and the discount comes off in the cart.</p>"
           }
         }
       },
