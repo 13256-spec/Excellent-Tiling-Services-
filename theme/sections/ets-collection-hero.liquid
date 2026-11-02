@@ -26,11 +26,12 @@
 -%}
 <section class="ets ets-phero" aria-labelledby="EtsColl-{{ section.id }}">
   <div class="ets-wrap">
-    <ol class="ets-crumbs" role="list">
-      <li><a href="{{ routes.root_url }}">Home</a></li>
-      {%- if group != blank and group.url != collection.url -%}<li><a href="{{ group.url }}">{{ group.title | escape }}</a></li>{%- endif -%}
-      <li aria-current="page">{{ collection.title | escape }}</li>
-    </ol>
+    {%- comment -%} The one trail on the page (main-collection no longer renders its own); carries the BreadcrumbList schema too. {%- endcomment -%}
+    {%- if group != blank and group.url != collection.url -%}
+      {% render 'ets-breadcrumbs', parent: group, current_title: collection.title, current_url: collection.url %}
+    {%- else -%}
+      {% render 'ets-breadcrumbs', current_title: collection.title, current_url: collection.url %}
+    {%- endif -%}
     <div class="ets-phero__grid">
       <div>
         <h1 class="ets-display" id="EtsColl-{{ section.id }}">{{ collection.title | escape }}</h1>

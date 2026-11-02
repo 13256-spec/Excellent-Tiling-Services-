@@ -13,7 +13,7 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
-## Premium look, after Bathroom City (2 Nov 2026, draft theme, waiting to be published)
+## Premium look, after Bathroom City (2 Nov 2026; published, with a round-2 draft waiting)
 
 The owner asked what makes Bathroom City's site (bathroom-city.com.au, Osborne Park; Shopify "Concept" theme) feel premium, and
 for the same on ours. Both sites were screenshotted page by page (home, collection, product; desktop and phone). The difference
@@ -22,8 +22,8 @@ and one button over it; a white base with hairlines instead of boxed cards; a qu
 (They also have things we do not: a Google rating badge with 208 reviews, a testimonials block, a brand-logo strip, a project
 gallery and "book a consultation" in the main menu.)
 
-Draft theme **"ETS 2026 – Premium (draft)"** (id 144742973503, a copy of the live theme) applies the same restraint in the ETS
-brand rather than copying theirs:
+Theme **"ETS 2026 – Premium (draft)"** (id 144742973503, a copy of the previous live theme; the owner published it on 2 Nov, so
+it is now the live theme) applies the same restraint in the ETS brand rather than copying theirs:
 
 - `assets/ets-premium.css` (new, loaded last from `layout/theme.liquid`, which now also loads Instrument Serif): serif display
   headings at weight 400 everywhere, including product titles, with the brass italic accent word back; white page background with
@@ -39,8 +39,26 @@ brand rather than copying theirs:
   live theme had moved on since 25 Oct). `templates/product.json` and `config/settings_data.json` also differ live and are not
   yet re-synced here.
 
-**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Premium (draft)" → Publish.** Preview first:
-`https://excellenttilingservices.com/?preview_theme_id=144742973503`. Not in the theme, but worth the owner's call: the floating
+**Round 2 (same day), in the unpublished copy "ETS 2026 – Premium v2 (draft)", id 144747692095**, after a QA pass over the
+first cut (reviewers per page type on desktop and phone, each finding re-tested by independent checkers):
+
+- Search page: the page-level search box is gone (`sections/ets-page-hero.liquid`); the header already has one on every page,
+  and on phones the two sat one above the other. The department chips stay under the heading.
+- Collection pages: one breadcrumb trail instead of two. The ETS collection header renders the shared `ets-breadcrumbs` snippet
+  (with the department as the middle level, and the BreadcrumbList schema) and Horizon's `sections/main-collection.liquid`, now
+  tracked here, no longer renders its own.
+- `assets/ets-premium.css`: the soft tile shows on every product card (cards with two or more photos wrap them in a slideshow
+  that painted white over it); hero kicker in white with a stronger shade behind the words and a darker caption box, so the small
+  text passes AA on any slide; `font-synthesis: style` so Section Store headings asking for bold no longer get a browser-faked
+  bold of Instrument Serif; "Taxes included / Shipping calculated" and the "/ m²" suffix back in the sans; ghost buttons keep a
+  white outline on hover over the dark bands; the brass button is a darker brass so its white label passes AA; serif titles on the
+  "Delivery and showroom" and quote-page cards and "Recently viewed"; the booking page's step tiles tinted again; the phone call bar,
+  the drawer's "Shop all", "Load more products" and the app sections' buttons in the same small capitals.
+- `sections/ets-footer.liquid`: the footer section is a `div` inside the layout's `<footer>`; two nested footers doubled the
+  landmark and threw "duplicate view-transition-name: footer" on every filter or sort change.
+
+**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Premium v2 (draft)" → Publish.** Preview first:
+`https://excellenttilingservices.com/?preview_theme_id=144747692095`. Not in the theme, but worth the owner's call: the floating
 "Shop Best Sellers / Shop with AI / Explore this product" bubbles come from an app and sit on top of the hero and product columns on
 every page; Bathroom City has nothing like them.
 
