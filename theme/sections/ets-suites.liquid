@@ -23,6 +23,19 @@
     endif
   endfor
   assign ranges = ranges | split: '|'
+  assign vendor = collection.products.first.vendor
+  assign suites = ''
+  for r in ranges
+    if r contains vendor
+      assign handle = r | handleize
+    else
+      assign handle = vendor | append: ' ' | append: r | handleize
+    endif
+    if collections[handle] != blank
+      assign suites = suites | append: '|' | append: r
+    endif
+  endfor
+  assign ranges = suites | remove_first: '|' | split: '|'
 -%}
 {%- if ranges.size > 0 -%}
 <section class="ets ets-sec ets-suites{% if section.settings.bg == 'sand' %} ets-sec--sand{% elsif section.settings.bg == 'white' %} ets-sec--white{% endif %}" id="suites" aria-labelledby="EtsSuites-{{ section.id }}">
@@ -37,15 +50,12 @@
     <div class="ets-cats">
       {%- for r in ranges -%}
         {%- liquid
-          if r contains collection.products.first.vendor
+          if r contains vendor
             assign handle = r | handleize
           else
-            assign handle = collection.products.first.vendor | append: ' ' | append: r | handleize
+            assign handle = vendor | append: ' ' | append: r | handleize
           endif
           assign suite = collections[handle]
-          if suite == blank
-            continue
-          endif
           assign img = suite.image | default: suite.products.first.featured_image
           assign names = suite.products | map: 'type' | uniq | join: ' · '
         -%}
