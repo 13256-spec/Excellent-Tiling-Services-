@@ -141,7 +141,7 @@
               "type": "variant-picker",
               "settings": {
                 "variant_style": "buttons",
-                "show_swatches": false,
+                "show_swatches": true,
                 "variant_style_class": "default",
                 "selected_variant_style_class": "default",
                 "alignment": "left",
@@ -244,6 +244,26 @@
                 "custom_liquid": "{% render 'ets-pdp-fits', product: product %}"
               },
               "blocks": {}
+            },
+            "options": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-options', product: product %}"
+              }
+            },
+            "compliance": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-compliance', product: product %}"
+              },
+              "blocks": {}
+            },
+            "suite": {
+              "type": "custom-liquid",
+              "settings": {
+                "custom_liquid": "{% render 'ets-pdp-suite', product: product %}"
+              },
+              "blocks": {}
             }
           },
           "block_order": [
@@ -251,12 +271,15 @@
             "title",
             "fits",
             "price",
+            "compliance",
             "trade",
             "variant",
             "calc",
+            "options",
             "buy",
             "trust",
-            "description"
+            "description",
+            "suite"
           ]
         }
       },
@@ -1023,7 +1046,6 @@
         "eyebrow_machine": "Accessories, blades and spare parts",
         "heading_machine": "What fits this one",
         "eyebrow_item": "Compatible machines and tools",
-        "heading_item": "What this fits",
         "link_collection": "raimondi-wet-saw-accessories",
         "system_handles": "raimondi-,grout-clean-up,mixers-,sigma-cutter,tile-drilling,knee-pads,scrapers-,silicone-tools",
         "link_text": "See the whole wet saw range"

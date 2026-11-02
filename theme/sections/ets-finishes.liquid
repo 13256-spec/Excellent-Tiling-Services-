@@ -1,0 +1,85 @@
+{%- comment -%}
+  Finish range: a row of round swatches (one block per finish) that link to the current
+  collection filtered by that finish. Used on the house-brand collection page. Colours
+  default to the brand tokens (--ets-finish-*); a photo swatch can replace the colour.
+  @example
+  "finishes": { "type": "ets-finishes", "blocks": { "chrome": { "type": "finish", "settings": { "name": "Chrome" } } } }
+{%- endcomment -%}
+<section class="ets ets-sec ets-sec--tight ets-fin{% if section.settings.bg == 'sand' %} ets-sec--sand{% elsif section.settings.bg == 'white' %} ets-sec--white{% endif %}" aria-labelledby="EtsFin-{{ section.id }}">
+  <div class="ets-wrap">
+    <div class="ets-head">
+      <div data-reveal>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h2 class="ets-h2" id="EtsFin-{{ section.id }}">{{ section.settings.heading }}</h2>
+        {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>{%- endif -%}
+      </div>
+    </div>
+    <ul class="ets-fin__list" role="list">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign name = block.settings.name
+          assign key = name | handleize
+          assign href = block.settings.link
+          if href == blank and collection != blank
+            assign href = collection.url | append: '?filter.v.option.finish=' | append: name | url_encode
+          endif
+        -%}
+        <li {{ block.shopify_attributes }} data-reveal style="--d:{{ forloop.index0 | times: 0.05 }}s">
+          <a class="ets-fin__item" href="{{ href | default: '#' }}">
+            <span class="ets-fin__swatch" style="--swatch: {{ block.settings.colour | default: 'var(--ets-finish-' | append: key | append: ', #ccc)' }}">
+              {%- if block.settings.image != blank -%}
+                {{ block.settings.image | image_url: width: 320 | image_tag: loading: 'lazy', widths: '160, 320', sizes: '120px', alt: '' }}
+              {%- endif -%}
+            </span>
+            <span class="ets-fin__name">{{ name | escape }}</span>
+            {%- if block.settings.note != blank -%}<span class="ets-fin__note">{{ block.settings.note | escape }}</span>{%- endif -%}
+          </a>
+        </li>
+      {%- endfor -%}
+    </ul>
+  </div>
+</section>
+{% stylesheet %}
+  .ets-fin__list { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 20px 16px; margin: 0; padding: 0; list-style: none; }
+  .ets-fin__item { display: grid; justify-items: center; gap: 10px; text-align: center; color: var(--ets-ink); text-decoration: none; }
+  .ets-fin__swatch { display: block; width: clamp(88px, 10vw, 120px); aspect-ratio: 1; border-radius: 50%; overflow: hidden; background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, .45), rgba(255, 255, 255, 0) 55%), var(--swatch); box-shadow: inset 0 0 0 1px var(--ets-line-strong), 0 1px 0 rgba(255, 255, 255, .6); transition: transform .5s var(--ets-ease), box-shadow .4s var(--ets-ease); }
+  .ets-fin__swatch img { width: 100%; height: 100%; object-fit: cover; }
+  .ets-fin__item:hover .ets-fin__swatch, .ets-fin__item:focus-visible .ets-fin__swatch { transform: scale(1.04); box-shadow: inset 0 0 0 2px var(--ets-ink); }
+  .ets-fin__name { font-weight: 600; font-size: 15px; }
+  .ets-fin__note { font-size: 12.5px; color: var(--ets-muted); }
+  @media (max-width: 749px) { .ets-fin__list { grid-template-columns: repeat(auto-fit, minmax(96px, 1fr)); gap: 16px 8px; } }
+{% endstylesheet %}
+{% schema %}
+{
+  "name": "ETS finish range",
+  "settings": [
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Finishes" },
+    { "type": "inline_richtext", "id": "heading", "label": "Heading", "default": "Five finishes, <em>one</em> family." },
+    { "type": "textarea", "id": "text", "label": "Text", "default": "Every piece in the range comes in the same finishes, so a basin mixer, wall mixer, bath spout and shower always match." },
+    { "type": "select", "id": "bg", "label": "Background", "default": "white", "options": [{ "value": "none", "label": "Stone" }, { "value": "sand", "label": "Sand" }, { "value": "white", "label": "White" }] }
+  ],
+  "blocks": [
+    {
+      "type": "finish",
+      "name": "Finish",
+      "settings": [
+        { "type": "text", "id": "name", "label": "Finish name", "info": "Must match the Finish option value on the products (Chrome, Matt Black, Brushed Nickel, Brushed Brass, Gunmetal).", "default": "Chrome" },
+        { "type": "color", "id": "colour", "label": "Swatch colour", "info": "Leave empty to use the brand token for this finish." },
+        { "type": "image_picker", "id": "image", "label": "Swatch photo (optional)" },
+        { "type": "text", "id": "note", "label": "Note", "info": "e.g. 'PVD' or 'Most popular'" },
+        { "type": "url", "id": "link", "label": "Link", "info": "Leave empty to filter this collection by the finish." }
+      ]
+    }
+  ],
+  "enabled_on": { "templates": ["collection", "page", "index"] },
+  "presets": [
+    { "name": "ETS finish range", "blocks": [
+      { "type": "finish", "settings": { "name": "Chrome" } },
+      { "type": "finish", "settings": { "name": "Matt Black" } },
+      { "type": "finish", "settings": { "name": "Brushed Nickel" } },
+      { "type": "finish", "settings": { "name": "Brushed Brass" } },
+      { "type": "finish", "settings": { "name": "Gunmetal" } }
+    ] }
+  ]
+}
+{% endschema %}

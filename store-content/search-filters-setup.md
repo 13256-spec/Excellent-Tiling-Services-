@@ -1,4 +1,24 @@
-# Storefront filters (14 Oct 2026)
+# Storefront filters
+
+**2 Nov 2026:** Search & Discovery is now installed (seen in the app list). The filters below are set only in the app
+(there is no API for them). For the house-brand tapware add, Apps -> Search & Discovery -> Filters -> Add filter:
+
+| Filter | Source | Label |
+| --- | --- | --- |
+| Finish | variant option `Finish` | Finish |
+| Product type | product type | Type (group values: Basin Mixer, Wall Mixer, Bath Spout, Shower Set, Shower Head, Shower Rail) |
+| WELS rating | product metafield `ets.wels_rating` | WELS rating |
+| Installation type | product metafield `ets.installation_type` | Installation |
+| Range | product metafield `ets.range` | Range / suite |
+| Brand | vendor | Brand |
+
+The metafields must be storefront-readable first: `data/metafields/mutations.graphql` sets `access.storefront: PUBLIC_READ`
+on every definition the theme and the filters use. The theme's finish swatches on the brand collection page link to
+`?filter.v.option.finish=<name>`, which only works once the Finish filter exists.
+
+---
+
+# Storefront filters (14 Oct 2026, original note)
 
 The website's collection and search pages show only **Availability** and **Price** as filters. The theme has
 filtering switched on (`templates/collection.json` and `search.json`, block `filters`), but the list of filters

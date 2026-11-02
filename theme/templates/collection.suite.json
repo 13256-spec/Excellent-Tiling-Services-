@@ -1,0 +1,141 @@
+{
+  "sections": {
+    "suite": {
+      "type": "ets-suite",
+      "settings": {
+        "eyebrow": "Shop the suite",
+        "finish_order": "Chrome, Matt Black, Brushed Nickel, Brushed Brass, Gunmetal",
+        "add_label": "Add the suite to cart",
+        "show_sku": true,
+        "footnote": "Untick anything you already have. Each piece can also be bought on its own."
+      }
+    },
+    "selling_points": {
+      "type": "ss-scrolling-features",
+      "blocks": {
+        "item_1": {
+          "type": "item",
+          "settings": {
+            "icon": "truck",
+            "text": "Post from $9.95",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_2": {
+          "type": "item",
+          "settings": {
+            "icon": "truck_2",
+            "text": "Perth metro delivery on tiles & large items",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_3": {
+          "type": "item",
+          "settings": {
+            "icon": "box",
+            "text": "Free pickup from Maddington",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_4": {
+          "type": "item",
+          "settings": {
+            "icon": "price",
+            "text": "Trade accounts for builders & tilers",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_5": {
+          "type": "item",
+          "settings": {
+            "icon": "shop",
+            "text": "Showroom by appointment · Mon–Sat 4:30–9 pm",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        },
+        "item_6": {
+          "type": "item",
+          "settings": {
+            "icon": "phone",
+            "text": "Advice from our team · 0450 960 543",
+            "icon_color": "#9C7744",
+            "text_color": "#15213A"
+          }
+        }
+      },
+      "block_order": [
+        "item_1",
+        "item_2",
+        "item_3",
+        "item_4",
+        "item_5",
+        "item_6"
+      ],
+      "settings": {
+        "background-color": "#EEEAE2",
+        "border_color": "#DCD9D2",
+        "border_top": false,
+        "border_bottom": false,
+        "scroll_pause": true,
+        "scroll_on_desktop": true
+      },
+      "disabled": true
+    },
+    "faq": {
+      "type": "ets-faq",
+      "settings": {
+        "eyebrow": "",
+        "heading": "Before you order",
+        "text": "",
+        "open_first": false,
+        "bg": "white"
+      },
+      "blocks": {
+        "q1": {
+          "type": "question",
+          "settings": {
+            "question": "Do the finishes match across the suite?",
+            "answer": "<p>Yes. Every piece in a suite is made in the same finish from the same manufacturer batch process, so a basin mixer, wall mixer, bath spout and shower set bought together match.</p>"
+          }
+        },
+        "q2": {
+          "type": "question",
+          "settings": {
+            "question": "Is the tapware WaterMark certified and WELS rated?",
+            "answer": "<p>Every product page shows its WaterMark licence number and WELS registration and star rating. We do not list a tap or shower without them.</p>"
+          }
+        },
+        "q3": {
+          "type": "question",
+          "settings": {
+            "question": "Can I buy one piece now and the rest later?",
+            "answer": "<p>Yes. Each piece is sold on its own as well as in the suite. Keep the finish name from your order so the next piece matches.</p>"
+          }
+        },
+        "q4": {
+          "type": "question",
+          "settings": {
+            "question": "Who should install it?",
+            "answer": "<p>A licensed plumber. Installation guides are on each product page under Downloads.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4"
+      ]
+    }
+  },
+  "order": [
+    "suite",
+    "selling_points",
+    "faq"
+  ]
+}

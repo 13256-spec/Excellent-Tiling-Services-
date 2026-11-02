@@ -112,10 +112,44 @@
     "ets_trade_tile_types": "Tile",
     "ets_trade_large_types": "Wall Hung Vanity, Double Wall Hung Vanity, Bathroom Tallboy, Back to Wall Bath, Corner Bath, Freestanding Bath, Inset Bath, Toilet Suite, In Wall Cistern Toilet, Corner Shower Screen, Frameless Shower Panel, Above Counter Basin, Inset Basin, Half Inset Basin, Semi Basin, Undermount Basin, Kitchen Sink, LED Mirror, Mirror, Mirror Cabinet",
     "ets_trade_page": "trade-account",
+    "ets_email": "contactus@excellenttilingservices.com",
     "ets_facebook": "https://www.facebook.com/share/1943ueL61k/?mibextid=wwXIfr",
     "ets_instagram": "https://www.instagram.com/excellent_tiling_services/",
-    "ets_email": "contactus@excellenttilingservices.com",
     "content_for_index": [],
+    "blocks": {
+      "15683396631634586217": {
+        "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
+        "disabled": false,
+        "settings": {
+          "greeting_message": "",
+          "show_featured_products": true,
+          "featured_products": [],
+          "background_color": "#f6f4ef",
+          "font_color": "#15213a",
+          "agent_invert_activator_colors": true,
+          "button_color": "#000000",
+          "button_icon": "chat_bubble",
+          "button_text": "chat_with_us",
+          "button_horizontal_position": "bottom_right",
+          "button_vertical_position": "lowest",
+          "agent_inherit_fonts": true,
+          "agent_font": "system_ui_n4",
+          "agent_font_size": 14,
+          "agent_activator_font_size": 16,
+          "agent_border_radius": 14
+        }
+      },
+      "2200952712151285029": {
+        "type": "shopify://apps/microsoft-clarity/blocks/brandAgents_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      },
+      "2567389343055140935": {
+        "type": "shopify://apps/microsoft-clarity/blocks/clarity_js/31c3d126-8116-4b4a-8ba1-baeda7c4aeea",
+        "disabled": false,
+        "settings": {}
+      }
+    },
     "color_palette": {
       "background": "#F6F4EF",
       "foreground": "#15213A",

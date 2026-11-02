@@ -1,0 +1,239 @@
+{%- comment -%}
+  Suite page (templates/collection.suite.json). The collection holds one range of the house
+  brand: basin mixer, wall mixer, bath spout, shower set. Finish tabs switch every piece to
+  that finish at once; "Add the suite" puts every ticked piece in the cart in one request.
+  Without JavaScript each piece still links to its own product page and the add button is hidden.
+  Finishes come from the products' Finish option; the order follows the "Finish order" setting.
+  @example
+  "suite": { "type": "ets-suite", "settings": { "eyebrow": "Shop the suite" } }
+{%- endcomment -%}
+{%- liquid
+  assign finishes = ''
+  for p in collection.products
+    if p.options.first == 'Finish'
+      for v in p.variants
+        assign probe = '|' | append: v.option1 | append: '|'
+        assign all = '|' | append: finishes | append: '|'
+        unless all contains probe
+          if finishes == ''
+            assign finishes = v.option1
+          else
+            assign finishes = finishes | append: '|' | append: v.option1
+          endif
+        endunless
+      endfor
+    endif
+  endfor
+  assign found = finishes | split: '|'
+  assign ordered = ''
+  assign wanted = section.settings.finish_order | split: ','
+  for w in wanted
+    assign name = w | strip
+    if found contains name
+      if ordered == ''
+        assign ordered = name
+      else
+        assign ordered = ordered | append: '|' | append: name
+      endif
+    endif
+  endfor
+  for f in found
+    assign probe = '|' | append: f | append: '|'
+    assign all = '|' | append: ordered | append: '|'
+    unless all contains probe
+      if ordered == ''
+        assign ordered = f
+      else
+        assign ordered = ordered | append: '|' | append: f
+      endif
+    endunless
+  endfor
+  assign finishes = ordered | split: '|'
+  assign vendor = collection.products.first.vendor
+-%}
+<section class="ets ets-suite" aria-labelledby="EtsSuite-{{ section.id }}" data-ets-suite>
+  <div class="ets-wrap">
+    {% render 'ets-breadcrumbs', current_title: collection.title, current_url: collection.url %}
+    <div class="ets-suite__head">
+      <div>
+        {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
+        <h1 class="ets-display" id="EtsSuite-{{ section.id }}">{{ collection.title | escape }}</h1>
+        {%- if collection.description != blank -%}<div class="ets-lede ets-rte">{{ collection.description }}</div>{%- endif -%}
+      </div>
+      {%- if collection.image != blank -%}
+        <div class="ets-suite__hero"><div class="ets-shell"><div class="ets-core">{{ collection.image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '500, 800, 1200', sizes: '(min-width: 990px) 40vw, 100vw', alt: '' }}</div></div></div>
+      {%- endif -%}
+    </div>
+
+    {%- if finishes.size > 0 -%}
+      <div class="ets-suite__tabs" role="tablist" aria-label="Finish">
+        {%- for f in finishes -%}
+          {%- assign key = f | handleize -%}
+          <button type="button" role="tab" id="EtsSuiteTab-{{ section.id }}-{{ key }}" class="ets-suite__tab" aria-selected="{% if forloop.first %}true{% else %}false{% endif %}" aria-controls="EtsSuitePanel-{{ section.id }}-{{ key }}" data-finish="{{ f | escape }}">
+            <span class="ets-suite__dot" style="--swatch: var(--ets-finish-{{ key }}, #ccc)"></span>{{ f | escape }}
+          </button>
+        {%- endfor -%}
+      </div>
+
+      {%- for f in finishes -%}
+        {%- liquid
+          assign key = f | handleize
+          assign total = 0
+          assign count = 0
+        -%}
+        <div class="ets-suite__panel" role="tabpanel" id="EtsSuitePanel-{{ section.id }}-{{ key }}" aria-labelledby="EtsSuiteTab-{{ section.id }}-{{ key }}" data-finish="{{ f | escape }}"{% unless forloop.first %} hidden{% endunless %}>
+          <ul class="ets-suite__list" role="list">
+            {%- for p in collection.products -%}
+              {%- liquid
+                assign v = blank
+                for cand in p.variants
+                  if cand.option1 == f
+                    assign v = cand
+                    break
+                  endif
+                endfor
+                assign short = p.title | remove: vendor | strip
+                assign short = short | remove_first: collection.title | strip | default: p.title
+              -%}
+              <li class="ets-suite__item{% if v == blank %} is-na{% endif %}">
+                {%- if v != blank -%}
+                  {%- assign total = total | plus: v.price -%}
+                  {%- assign count = count | plus: 1 -%}
+                  {%- assign img = v.featured_image | default: p.featured_image -%}
+                  <label class="ets-suite__pick">
+                    <input type="checkbox" name="suite-{{ key }}" value="{{ v.id }}" data-price="{{ v.price }}" checked{% unless v.available %} data-unavailable{% endunless %}>
+                    <span class="ets-visually-hidden">Include {{ p.title | escape }}</span>
+                  </label>
+                  <a class="ets-suite__media" href="{{ p.url }}?variant={{ v.id }}">
+                    {%- if img != blank -%}{{ img | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300, 450, 600', sizes: '(min-width: 990px) 22vw, 45vw', alt: p.title }}{%- endif -%}
+                  </a>
+                  <div class="ets-suite__body">
+                    <span class="ets-suite__type">{{ p.type | escape }}</span>
+                    <a class="ets-suite__name" href="{{ p.url }}?variant={{ v.id }}">{{ short | escape }}</a>
+                    <span class="ets-suite__price">{{ v.price | money }}{% if section.settings.show_sku and v.sku != blank %} <small>· {{ v.sku | escape }}</small>{% endif %}</span>
+                    {%- unless v.available -%}<span class="ets-suite__note">Enquire for this finish</span>{%- endunless -%}
+                  </div>
+                {%- else -%}
+                  <span class="ets-suite__media ets-suite__media--na">{% if p.featured_image != blank %}{{ p.featured_image | image_url: width: 600 | image_tag: loading: 'lazy', widths: '300, 450, 600', sizes: '(min-width: 990px) 22vw, 45vw', alt: '' }}{% endif %}</span>
+                  <div class="ets-suite__body">
+                    <span class="ets-suite__type">{{ p.type | escape }}</span>
+                    <a class="ets-suite__name" href="{{ p.url }}">{{ short | escape }}</a>
+                    <span class="ets-suite__note">Not offered in {{ f | escape }}</span>
+                  </div>
+                {%- endif -%}
+              </li>
+            {%- endfor -%}
+          </ul>
+          <div class="ets-suite__bar">
+            <p class="ets-suite__total"><span data-count>{{ count }}</span> {{ count | pluralize: 'piece', 'pieces' }} in {{ f | escape }} · <strong data-total>{{ total | money }}</strong></p>
+            <button type="button" class="ets-btn ets-suite__add" data-add{% if count == 0 %} disabled{% endif %}>{{ section.settings.add_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'bag' %}</span></button>
+            <p class="ets-suite__status" aria-live="polite" data-status></p>
+          </div>
+        </div>
+      {%- endfor -%}
+    {%- else -%}
+      <p class="ets-lede">This suite has no products yet.</p>
+    {%- endif -%}
+    {%- if section.settings.footnote != blank -%}<p class="ets-small ets-suite__foot">{{ section.settings.footnote | escape }}</p>{%- endif -%}
+  </div>
+</section>
+
+<script>
+  (function () {
+    var root = document.querySelector('[data-ets-suite]:not([data-ready])');
+    if (!root) return;
+    root.dataset.ready = '1';
+    var tabs = root.querySelectorAll('[role=tab]');
+    var panels = root.querySelectorAll('[role=tabpanel]');
+    var money = function (cents) { try { return new Intl.NumberFormat('en-AU', { style: 'currency', currency: (window.Shopify && Shopify.currency && Shopify.currency.active) || 'AUD' }).format(cents / 100); } catch (e) { return '$' + (cents / 100).toFixed(2); } };
+
+    function show(finish) {
+      tabs.forEach(function (t) { t.setAttribute('aria-selected', t.dataset.finish === finish ? 'true' : 'false'); });
+      panels.forEach(function (p) { p.hidden = p.dataset.finish !== finish; });
+      var url = new URL(location.href); url.searchParams.set('finish', finish); history.replaceState(history.state, '', url);
+    }
+    function recount(panel) {
+      var picked = panel.querySelectorAll('input[type=checkbox]:checked:not([data-unavailable])');
+      var total = 0; picked.forEach(function (i) { total += Number(i.dataset.price) || 0; });
+      panel.querySelector('[data-count]').textContent = picked.length;
+      panel.querySelector('[data-total]').textContent = money(total);
+      panel.querySelector('[data-add]').disabled = picked.length === 0;
+    }
+    tabs.forEach(function (t) { t.addEventListener('click', function () { show(t.dataset.finish); }); });
+    panels.forEach(function (p) {
+      p.addEventListener('change', function () { recount(p); });
+      recount(p);
+      p.querySelector('[data-add]').addEventListener('click', function () {
+        var btn = this, status = p.querySelector('[data-status]');
+        var items = []; p.querySelectorAll('input[type=checkbox]:checked:not([data-unavailable])').forEach(function (i) { items.push({ id: Number(i.value), quantity: 1 }); });
+        if (!items.length) return;
+        btn.disabled = true; status.textContent = 'Adding to cart…';
+        var url = (window.Theme && Theme.routes && Theme.routes.cart_add_url) || '/cart/add.js';
+        fetch(url, { method: 'POST', headers: { 'Content-Type': 'application/json', Accept: 'application/json' }, body: JSON.stringify({ items: items }) })
+          .then(function (r) { return r.json(); })
+          .then(function (res) {
+            if (res.status) { status.textContent = res.description || res.message || 'Could not add the suite.'; btn.disabled = false; return; }
+            status.textContent = 'Added. Taking you to the cart…';
+            location.href = (window.Theme && Theme.routes && Theme.routes.cart_url) || '/cart';
+          })
+          .catch(function () { status.textContent = 'Something went wrong. Please try again.'; btn.disabled = false; });
+      });
+    });
+    var wanted = new URL(location.href).searchParams.get('finish');
+    if (wanted) tabs.forEach(function (t) { if (t.dataset.finish === wanted) show(wanted); });
+  })();
+</script>
+
+{% stylesheet %}
+  .ets-suite { padding: clamp(28px, 4vw, 56px) 0 var(--ets-sec); }
+  .ets-suite__head { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, .8fr); gap: clamp(24px, 4vw, 64px); align-items: center; margin: 16px 0 clamp(28px, 4vw, 48px); }
+  .ets-suite__head .ets-lede { margin-top: 16px; }
+  .ets-suite__tabs { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 24px; }
+  .ets-suite__tab { display: inline-flex; align-items: center; gap: 8px; min-height: 42px; padding: 0 16px 0 10px; border: 0; border-radius: var(--ets-pill); background: transparent; box-shadow: inset 0 0 0 1px var(--ets-line-strong); color: var(--ets-ink); font: 500 14px var(--ets-sans); cursor: pointer; }
+  .ets-suite__tab[aria-selected=true] { background: var(--ets-ink); color: #fff; box-shadow: none; }
+  .ets-suite__dot { width: 22px; height: 22px; border-radius: 50%; background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, .5), rgba(255, 255, 255, 0) 55%), var(--swatch); box-shadow: inset 0 0 0 1px rgba(0, 0, 0, .15); }
+  .ets-suite__list { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 20px 16px; margin: 0; padding: 0; list-style: none; }
+  .ets-suite__item { position: relative; display: grid; gap: 10px; min-width: 0; }
+  .ets-suite__item.is-na { opacity: .55; }
+  .ets-suite__pick { position: absolute; z-index: 1; top: 10px; left: 10px; display: none; }
+  .ets-suite__pick input { width: 22px; height: 22px; accent-color: var(--ets-ink); cursor: pointer; }
+  .ets-js .ets-suite__pick { display: block; }
+  .ets-suite__media { display: block; aspect-ratio: 1; border-radius: var(--ets-r); background: var(--ets-bg-2); overflow: hidden; }
+  .ets-suite__media img { width: 100%; height: 100%; object-fit: contain; padding: 10%; mix-blend-mode: multiply; transition: transform .8s var(--ets-ease); }
+  .ets-suite__item:hover .ets-suite__media img { transform: scale(1.03); }
+  .ets-suite__body { display: grid; gap: 2px; padding: 0 2px; }
+  .ets-suite__type { font: 600 10.5px/1 var(--ets-sans); letter-spacing: .18em; text-transform: uppercase; color: var(--ets-muted); }
+  .ets-suite__name { font-weight: 500; font-size: 15px; color: var(--ets-ink); text-decoration: none; }
+  .ets-suite__price { font-weight: 600; font-size: 14.5px; }
+  .ets-suite__price small { font-weight: 400; color: var(--ets-muted); letter-spacing: .02em; }
+  .ets-suite__note { font-size: 12.5px; color: var(--ets-muted); }
+  .ets-suite__bar { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 24px; margin-top: 28px; padding: 18px 20px; border-radius: var(--ets-r); background: var(--ets-bg-2); }
+  .ets-suite__total { margin: 0; font-size: 15px; }
+  .ets-suite__add { display: none; }
+  .ets-js .ets-suite__add { display: inline-flex; }
+  .ets-suite__status { flex-basis: 100%; margin: 0; font-size: 13px; color: var(--ets-muted); min-height: 1em; }
+  .ets-suite__foot { margin-top: 20px; }
+  @media (max-width: 989px) {
+    .ets-suite__head { grid-template-columns: 1fr; }
+    .ets-suite__hero { order: -1; }
+    .ets-suite__tabs { flex-wrap: nowrap; overflow-x: auto; padding-bottom: 4px; scrollbar-width: none; }
+    .ets-suite__tab { flex: 0 0 auto; }
+    .ets-suite__list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px 10px; }
+  }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS suite",
+  "settings": [
+    { "type": "paragraph", "content": "Use on the collection.suite template. The collection should hold one range: basin mixer, wall mixer, bath spout, shower set (sort the collection manually in that order)." },
+    { "type": "text", "id": "eyebrow", "label": "Eyebrow", "default": "Shop the suite" },
+    { "type": "text", "id": "finish_order", "label": "Finish order", "default": "Chrome, Matt Black, Brushed Nickel, Brushed Brass, Gunmetal" },
+    { "type": "text", "id": "add_label", "label": "Add button", "default": "Add the suite to cart" },
+    { "type": "checkbox", "id": "show_sku", "label": "Show product codes", "default": true },
+    { "type": "text", "id": "footnote", "label": "Footnote", "default": "Untick anything you already have. Each piece can also be bought on its own." }
+  ],
+  "enabled_on": { "templates": ["collection"] },
+  "presets": [{ "name": "ETS suite" }]
+}
+{% endschema %}

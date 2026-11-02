@@ -1,0 +1,35 @@
+{
+  "_readme": "Product metafield definitions for the house-brand tapware. Namespace `ets` is the store's existing custom namespace (ets.supplier, ets.range, ets.wels_rating ... already live on 1,100+ products). `reuse` lists existing definitions the brand relies on as they are; `create` lists the new ones. Run `python3 scripts/metafield_mutations.py` to regenerate mutations.graphql, then execute it against the Admin API (one mutation document per block).",
+  "namespace": "ets",
+  "owner_type": "PRODUCT",
+  "storefront_access": "PUBLIC_READ",
+  "reuse": [
+    {"key": "wels_registration", "name": "WELS registration", "type": "single_line_text_field", "note": "WELS registration number, e.g. T12345. Mandatory for tapware.", "pin": true},
+    {"key": "wels_rating", "name": "WELS rating", "type": "single_line_text_field", "note": "Text, '5 Star' (the pipeline normalises to '<n> Star'). Used by the theme, product schema and the Search & Discovery filter. Mandatory for tapware.", "pin": true},
+    {"key": "flow_rate", "name": "Flow rate", "type": "single_line_text_field", "note": "Text, '6 L/min' (pipeline normalises)."},
+    {"key": "material", "name": "Material", "type": "single_line_text_field", "note": "Body material, e.g. 'Brass (DZR)'."},
+    {"key": "warranty", "name": "Warranty", "type": "single_line_text_field", "note": "Legacy free text on older products. New products use warranty_years; the theme shows whichever is set."},
+    {"key": "cartridge", "name": "Cartridge", "type": "single_line_text_field", "note": "Legacy '35mm' text on MELA products. New products use cartridge_brand + cartridge_size_mm."},
+    {"key": "range", "name": "Range", "type": "single_line_text_field", "note": "Suite / range name, e.g. 'Aria'. Drives the suite collection handle <vendor>-<range>."},
+    {"key": "supplier", "name": "Supplier", "type": "single_line_text_field", "note": "Internal only (pinned). Never rendered by the theme."},
+    {"key": "lead_time", "name": "Lead Time", "type": "single_line_text_field", "note": "Internal/customer lead time text. Leave blank on house-brand products (never say stock is ordered on demand)."}
+  ],
+  "create": [
+    {"key": "watermark_licence_number", "name": "WaterMark licence number", "type": "single_line_text_field", "description": "WaterMark licence number (WMKA/WMK... or certifier reference). Required before a plumbing product can be published.", "pin": true},
+    {"key": "watermark_certifier", "name": "WaterMark certifier", "type": "single_line_text_field", "description": "Conformity assessment body that issued the WaterMark licence, e.g. SAI Global, IAPMO R&T Oceana, Global-Mark.", "pin": true},
+    {"key": "finish", "name": "Finish", "type": "list.single_line_text_field", "description": "Finishes the product is offered in. Spelling follows the store's existing Finish option values.", "validations": {"choices": ["Chrome", "Matt Black", "Brushed Nickel", "Brushed Brass", "Gunmetal"]}},
+    {"key": "cartridge_brand", "name": "Cartridge brand", "type": "single_line_text_field", "description": "Ceramic disc cartridge maker, e.g. Sedal, Kerox, Flühs."},
+    {"key": "cartridge_size_mm", "name": "Cartridge size (mm)", "type": "number_integer", "description": "Cartridge diameter in mm (25, 35, 40).", "validations": {"min": 10, "max": 60}},
+    {"key": "max_pressure_kpa", "name": "Max working pressure (kPa)", "type": "number_integer", "description": "Maximum working pressure in kPa (AS/NZS 3500 limits new installations to 500 kPa).", "validations": {"min": 50, "max": 2000}},
+    {"key": "installation_type", "name": "Installation type", "type": "single_line_text_field", "description": "Deck mounted, Wall mounted, Hob mounted, Floor mounted, Ceiling mounted, In-wall."},
+    {"key": "spout_projection_mm", "name": "Spout projection (mm)", "type": "number_integer", "description": "Spout reach from the wall or deck, mm.", "validations": {"min": 0, "max": 1000}},
+    {"key": "spout_height_mm", "name": "Spout height (mm)", "type": "number_integer", "description": "Height of the spout outlet above the deck or basin, mm.", "validations": {"min": 0, "max": 1500}},
+    {"key": "warranty_years", "name": "Warranty (years)", "type": "number_integer", "description": "Manufacturer warranty in years. The theme shows this when the legacy warranty text is empty.", "validations": {"min": 0, "max": 30}},
+    {"key": "spec_sheet", "name": "Specification sheet", "type": "file_reference", "description": "PDF spec sheet shown under Downloads on the product page.", "validations": {"file_type_options": ["PDF"]}},
+    {"key": "installation_guide", "name": "Installation guide", "type": "file_reference", "description": "PDF installation guide shown under Downloads on the product page.", "validations": {"file_type_options": ["PDF"]}}
+  ],
+  "publish_gate": {
+    "_note": "A product may only be ACTIVE when every one of these is non-empty. Enforced by scripts/import_supplier.py; the theme only hides badges when they are missing.",
+    "required": ["watermark_licence_number", "wels_registration", "wels_rating"]
+  }
+}

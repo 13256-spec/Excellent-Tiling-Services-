@@ -42,12 +42,29 @@
     assign description = product.title
   endif
 
+  assign wels_stars = mf.wels_rating.value | default: '' | remove: 'WELS' | strip | split: ' ' | first | plus: 0
+  assign wels_name = 'WELS'
+  if mf.wels_rating != blank
+    assign wels_name = 'WELS ' | append: mf.wels_rating.value
+  endif
+  capture cartridge
+    if mf.cartridge_brand != blank or mf.cartridge_size_mm != blank
+      echo mf.cartridge_brand.value
+      if mf.cartridge_size_mm != blank
+        echo ' ' | append: mf.cartridge_size_mm.value | append: ' mm'
+      endif
+    else
+      echo mf.cartridge.value
+    endif
+  endcapture
+  assign cartridge = cartridge | strip
+
   assign varies_by = ''
   for option in product.options
     assign option_name = option | downcase
     if option_name contains 'size'
       assign varies_by = varies_by | append: '|https://schema.org/size'
-    elsif option_name contains 'colour' or option_name contains 'color'
+    elsif option_name contains 'colour' or option_name contains 'color' or option_name contains 'finish'
       assign varies_by = varies_by | append: '|https://schema.org/color'
     elsif option_name contains 'material'
       assign varies_by = varies_by | append: '|https://schema.org/material'
@@ -90,16 +107,34 @@
   {%- if mf.depth_mm != blank %}
   "depth": { "@type": "QuantitativeValue", "value": {{ mf.depth_mm.value | json }}, "unitCode": "MMT" },
   {%- endif %}
+  {%- if mf.watermark_licence_number != blank or mf.wels_registration != blank %}
+  "hasCertification": [
+    {%- if mf.watermark_licence_number != blank %}
+    { "@type": "Certification", "name": "WaterMark", "certificationIdentification": {{ mf.watermark_licence_number.value | json }}
+      {%- if mf.watermark_certifier != blank %}, "issuedBy": { "@type": "Organization", "name": {{ mf.watermark_certifier.value | json }} }{% endif %} }{% if mf.wels_registration != blank %},{% endif %}
+    {%- endif %}
+    {%- if mf.wels_registration != blank %}
+    { "@type": "Certification", "name": {{ wels_name | json }}, "certificationIdentification": {{ mf.wels_registration.value | json }},
+      "issuedBy": { "@type": "GovernmentOrganization", "name": "Water Efficiency Labelling and Standards (WELS) scheme, Australia", "url": "https://www.waterrating.gov.au/" }
+      {%- if wels_stars > 0 %}, "certificationRating": { "@type": "Rating", "ratingValue": {{ wels_stars }}, "bestRating": 6, "worstRating": 0 }{% endif %} }
+    {%- endif %}
+  ],
+  {%- endif %}
   "additionalProperty": [
     {%- assign sep = '' -%}
     {%- if mf.range != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Range", "value": {{ mf.range.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
-    {%- if mf.installation != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Installation", "value": {{ mf.installation.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
-    {%- if mf.cartridge != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Cartridge", "value": {{ mf.cartridge.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.installation_type != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Installation", "value": {{ mf.installation_type.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if cartridge != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Cartridge", "value": {{ cartridge | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.max_pressure_kpa != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Max working pressure", "value": {{ mf.max_pressure_kpa.value | json }}, "unitCode": "KPA" }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.spout_projection_mm != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Spout projection", "value": {{ mf.spout_projection_mm.value | json }}, "unitCode": "MMT" }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.spout_height_mm != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Spout height", "value": {{ mf.spout_height_mm.value | json }}, "unitCode": "MMT" }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.watermark_licence_number != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "WaterMark licence", "value": {{ mf.watermark_licence_number.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
     {%- if mf.wels_rating != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "WELS rating", "value": {{ mf.wels_rating.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
     {%- if mf.flow_rate != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Flow rate", "value": {{ mf.flow_rate.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
     {%- if mf.wels_registration != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "WELS registration", "value": {{ mf.wels_registration.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
     {%- if mf.diameter_mm != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Diameter", "value": {{ mf.diameter_mm.value | json }}, "unitCode": "MMT" }{%- assign sep = ',' -%}{%- endif -%}
-    {%- if mf.warranty != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Manufacturer warranty", "value": {{ mf.warranty.value | json }} }{%- assign sep = ',' -%}{%- endif -%}
+    {%- if mf.warranty != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Manufacturer warranty", "value": {{ mf.warranty.value | json }} }{%- assign sep = ',' -%}
+    {%- elsif mf.warranty_years != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Manufacturer warranty", "value": {{ mf.warranty_years.value | append: ' years' | json }} }{%- assign sep = ',' -%}{%- endif -%}
     {%- if mf.lead_time != blank -%}{{ sep }}{ "@type": "PropertyValue", "name": "Lead time", "value": {{ mf.lead_time.value | json }} }{%- endif -%}
   ]
 {%- endcapture -%}
@@ -156,7 +191,7 @@
           {%- assign option_name = product.options[forloop.index0] | downcase -%}
           {%- if option_name contains 'size' %}
         "size": {{ value | json }},
-          {%- elsif option_name contains 'colour' or option_name contains 'color' %}
+          {%- elsif option_name contains 'colour' or option_name contains 'color' or option_name contains 'finish' %}
         "color": {{ value | json }},
           {%- elsif option_name contains 'pattern' %}
         "pattern": {{ value | json }},

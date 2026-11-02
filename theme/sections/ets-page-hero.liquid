@@ -10,6 +10,8 @@
       endif
     elsif template.name == 'blog'
       assign heading = blog.title | escape
+    elsif template.name == 'collection'
+      assign heading = collection.title | escape
     else
       assign heading = page.title | default: shop.name | escape
     endif
@@ -18,13 +20,22 @@
 <section class="ets ets-phero{% if section.settings.bg == 'sand' %} ets-sec--sand{% endif %}" aria-labelledby="EtsPh-{{ section.id }}">
   <div class="ets-wrap">
     {%- if section.settings.show_crumbs -%}
-      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">{{ heading | strip_html }}</li></ol>
+      {%- assign breadcrumb_title = heading | strip_html -%}
+      {%- assign breadcrumb_url = page.url | default: request.path -%}
+      {% render 'ets-breadcrumbs', current_title: breadcrumb_title, current_url: breadcrumb_url %}
     {%- endif -%}
-    <div class="ets-phero__grid"{% if section.settings.image == blank %} style="grid-template-columns:minmax(0,1fr)"{% endif %}>
+    {%- liquid
+      assign hero_image = section.settings.image
+      if hero_image == blank and template.name == 'collection'
+        assign hero_image = collection.image
+      endif
+    -%}
+    <div class="ets-phero__grid"{% if hero_image == blank %} style="grid-template-columns:minmax(0,1fr)"{% endif %}>
       <div>
         {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
         <h1 class="ets-display" id="EtsPh-{{ section.id }}">{{ heading }}</h1>
-        {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>{%- endif -%}
+        {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>
+        {%- elsif template.name == 'collection' and collection.description != blank -%}<div class="ets-lede ets-rte">{{ collection.description }}</div>{%- endif -%}
         {%- if template.name == 'search' -%}
           <form class="ets-search" action="{{ routes.search_url }}" method="get" role="search" style="margin:28px 0 0;justify-self:start">
             <label class="ets-visually-hidden" for="EtsSearchPage">Search</label>
@@ -45,10 +56,10 @@
           </nav>
         {%- endif -%}
       </div>
-      {%- if section.settings.image != blank -%}
+      {%- if hero_image != blank -%}
         <div class="ets-phero__media">
           <div class="ets-shell"><div class="ets-core">
-            {{ section.settings.image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '500, 800, 1200', sizes: '(min-width: 990px) 40vw, 100vw', alt: '' }}
+            {{ hero_image | image_url: width: 1200 | image_tag: loading: 'eager', widths: '500, 800, 1200', sizes: '(min-width: 990px) 40vw, 100vw', alt: '' }}
           </div></div>
         </div>
       {%- endif -%}

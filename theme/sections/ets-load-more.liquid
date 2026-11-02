@@ -1,0 +1,114 @@
+{%- comment -%}
+  Load more: on collection and search pages with "Automatically load products" turned off, adds a
+  "Load more products" button and "Page X of Y" above the theme's page numbers. The button appends
+  the next page under the current products; the page numbers still jump straight to any page.
+  Lives in the footer group so it needs no edits to the stock collection/search sections, and does
+  nothing on pages without a product grid.
+{%- endcomment -%}
+<script>
+  (function () {
+    var LABEL = {{ section.settings.button_label | json }};
+    var LOADING = {{ section.settings.loading_label | json }};
+    var PAGE_OF = {{ section.settings.page_of | json }};
+
+    function ensure(results) {
+      var nav = results.querySelector('nav.pagination');
+      var grid = results.querySelector('.product-grid');
+      var old = results.querySelector('[data-ets-more]');
+      if (!nav || !grid) { if (old) old.remove(); return; }
+      // The last item in the theme's pagination is the "next" arrow; it is only a link when there is a next page.
+      var next = nav.querySelector('.pagination__list > li:last-child a[href]');
+      var current = parseInt(nav.dataset.current_page, 10) || 1;
+      var last = parseInt(grid.dataset.lastPage, 10) || current;
+
+      var box = old || document.createElement('div');
+      if (!old) {
+        box.className = 'ets-more';
+        box.setAttribute('data-ets-more', '');
+        box.innerHTML = '<p class="ets-more__status" aria-live="polite"></p><button type="button" class="ets-more__btn"></button>';
+        box.querySelector('button').addEventListener('click', function () { load(results, box); });
+      }
+      if (box.nextElementSibling !== nav) nav.parentNode.insertBefore(box, nav);
+      // Only write what changed: this runs from a MutationObserver, and rewriting text would trigger it again.
+      var status = box.querySelector('.ets-more__status');
+      var text = PAGE_OF.replace('[page]', current).replace('[pages]', last);
+      if (status.textContent !== text) status.textContent = text;
+      var btn = box.querySelector('button');
+      var href = next ? next.href : '';
+      if (box.dataset.next !== href || !btn.textContent) {
+        box.dataset.next = href;
+        btn.textContent = LABEL;
+        btn.disabled = false;
+        btn.hidden = !next;
+      }
+    }
+
+    function load(results, box) {
+      var nextUrl = box.dataset.next;
+      if (!nextUrl) return;
+      var btn = box.querySelector('button');
+      btn.disabled = true;
+      btn.textContent = LOADING;
+      var url = new URL(nextUrl, location.href);
+      url.searchParams.set('section_id', results.getAttribute('section-id'));
+      fetch(url.toString())
+        .then(function (r) { if (!r.ok) throw new Error(r.status); return r.text(); })
+        .then(function (html) {
+          var doc = new DOMParser().parseFromString(html, 'text/html');
+          var grid = results.querySelector('.product-grid');
+          var items = doc.querySelectorAll('.product-grid > li');
+          var first = null;
+          items.forEach(function (li) { var node = document.importNode(li, true); if (!first) first = node; grid.appendChild(node); });
+          var newNav = doc.querySelector('nav.pagination');
+          var nav = results.querySelector('nav.pagination');
+          if (newNav && nav) nav.replaceWith(document.importNode(newNav, true));
+          history.replaceState(history.state, '', nextUrl);
+          ensure(results);
+          // Move focus to the first new product so keyboard and screen reader users carry on from there.
+          var link = first && first.querySelector('a[href]');
+          if (link) link.focus({ preventScroll: true });
+        })
+        .catch(function () { location.href = nextUrl; });
+    }
+
+    function init() {
+      document.querySelectorAll('results-list').forEach(function (results) {
+        if (results.dataset.etsMore) return;
+        results.dataset.etsMore = '1';
+        ensure(results);
+        // Filters and sorting re-render the grid in place; put the button back afterwards.
+        new MutationObserver(function () { ensure(results); }).observe(results, { childList: true, subtree: true });
+      });
+    }
+    if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+    else init();
+  })();
+</script>
+
+{% stylesheet %}
+  .ets-more { display: grid; justify-items: center; gap: 12px; margin-top: 40px; }
+  .ets-more__status { margin: 0; font: 600 13px var(--ets-sans); color: var(--ets-muted); }
+  .ets-more__btn {
+    min-width: 240px; height: 48px; padding: 0 28px; border: 1.5px solid var(--ets-ink); border-radius: 999px;
+    background: var(--ets-ink); color: #fff; font: 700 15px var(--ets-sans); cursor: pointer;
+    transition: background-color .2s ease, transform .1s ease;
+  }
+  .ets-more__btn:hover { background: var(--ets-dark); }
+  .ets-more__btn:active { transform: translateY(1px); }
+  .ets-more__btn:disabled { opacity: .6; cursor: progress; }
+  .ets-more__btn[hidden] { display: none; }
+  .ets-more + .pagination { margin-top: 8px; }
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "ETS load more",
+  "settings": [
+    { "type": "paragraph", "content": "Adds a Load more button above the page numbers on collection and search pages. Turn off \"Automatically load products\" on those pages for it to show." },
+    { "type": "text", "id": "button_label", "label": "Button", "default": "Load more products" },
+    { "type": "text", "id": "loading_label", "label": "While loading", "default": "Loading…" },
+    { "type": "text", "id": "page_of", "label": "Page count", "info": "[page] and [pages] are replaced with numbers", "default": "Page [page] of [pages]" }
+  ],
+  "presets": [{ "name": "ETS load more" }]
+}
+{% endschema %}

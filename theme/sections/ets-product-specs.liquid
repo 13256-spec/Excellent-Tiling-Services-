@@ -1,17 +1,32 @@
 {%- liquid
   assign mf = product.metafields.ets
   assign has_dimensions = false
-  if mf.width_mm != blank or mf.height_mm != blank or mf.depth_mm != blank or mf.diameter_mm != blank
+  if mf.width_mm != blank or mf.height_mm != blank or mf.depth_mm != blank or mf.diameter_mm != blank or mf.spout_projection_mm != blank or mf.spout_height_mm != blank
     assign has_dimensions = true
   endif
+  assign has_compliance = false
+  if mf.watermark_licence_number != blank or mf.watermark_certifier != blank or mf.wels_rating != blank or mf.wels_registration != blank or mf.flow_rate != blank
+    assign has_compliance = true
+  endif
   assign has_care = false
-  if mf.warranty != blank or mf.care != blank
+  if mf.warranty != blank or mf.warranty_years != blank or mf.care != blank
     assign has_care = true
   endif
   assign has_downloads = false
-  if mf.spec_sheet != blank or mf.technical_drawing != blank
+  if mf.spec_sheet != blank or mf.installation_guide != blank or mf.technical_drawing != blank
     assign has_downloads = true
   endif
+  capture cartridge
+    if mf.cartridge_brand != blank or mf.cartridge_size_mm != blank
+      echo mf.cartridge_brand.value
+      if mf.cartridge_size_mm != blank
+        echo ' ' | append: mf.cartridge_size_mm.value | append: ' mm'
+      endif
+    else
+      echo mf.cartridge.value
+    endif
+  endcapture
+  assign cartridge = cartridge | strip
   assign sku_count = 0
   assign first_sku = ''
   for variant in product.variants
@@ -50,11 +65,10 @@
             {%- endfor -%}
           {%- endunless -%}
           {%- if mf.material != blank -%}<div><dt>Material</dt><dd>{{ mf.material.value | escape }}</dd></div>{%- endif -%}
-          {%- if mf.installation != blank -%}<div><dt>Installation</dt><dd>{{ mf.installation.value | escape }}</dd></div>{%- endif -%}
-          {%- if mf.cartridge != blank -%}<div><dt>Cartridge</dt><dd>{{ mf.cartridge.value | escape }}</dd></div>{%- endif -%}
-          {%- if mf.wels_rating != blank -%}<div><dt>WELS rating</dt><dd>{{ mf.wels_rating.value | escape }}</dd></div>{%- endif -%}
-          {%- if mf.flow_rate != blank -%}<div><dt>Flow rate</dt><dd>{{ mf.flow_rate.value | escape }}</dd></div>{%- endif -%}
-          {%- if mf.wels_registration != blank -%}<div><dt>WELS registration</dt><dd>{{ mf.wels_registration.value | escape }}</dd></div>{%- endif -%}
+          {%- unless product.options contains 'Finish' -%}{%- if mf.finish != blank -%}<div><dt>Finish</dt><dd>{{ mf.finish.value | join: ', ' | escape }}</dd></div>{%- endif -%}{%- endunless -%}
+          {%- if mf.installation_type != blank -%}<div><dt>Installation</dt><dd>{{ mf.installation_type.value | escape }}</dd></div>{%- endif -%}
+          {%- if cartridge != blank -%}<div><dt>Cartridge</dt><dd>{{ cartridge | escape }}</dd></div>{%- endif -%}
+          {%- if mf.max_pressure_kpa != blank -%}<div><dt>Max working pressure</dt><dd>{{ mf.max_pressure_kpa.value }}&nbsp;kPa</dd></div>{%- endif -%}
         </dl>
 
         {%- if sku_count > 0 -%}
@@ -97,6 +111,20 @@
         {%- endif -%}
       </details>
 
+      {%- if has_compliance -%}
+        <details class="ets-specs__item" open>
+          <summary>Compliance: WaterMark &amp; WELS</summary>
+          <dl class="ets-specs__list">
+            {%- if mf.watermark_licence_number != blank -%}<div><dt>WaterMark licence</dt><dd>{{ mf.watermark_licence_number.value | escape }}</dd></div>{%- endif -%}
+            {%- if mf.watermark_certifier != blank -%}<div><dt>WaterMark certifier</dt><dd>{{ mf.watermark_certifier.value | escape }}</dd></div>{%- endif -%}
+            {%- if mf.wels_rating != blank -%}<div><dt>WELS rating</dt><dd>{{ mf.wels_rating.value | escape }}</dd></div>{%- endif -%}
+            {%- if mf.flow_rate != blank -%}<div><dt>Flow rate</dt><dd>{{ mf.flow_rate.value | escape }}</dd></div>{%- endif -%}
+            {%- if mf.wels_registration != blank -%}<div><dt>WELS registration</dt><dd>{{ mf.wels_registration.value | escape }}</dd></div>{%- endif -%}
+          </dl>
+          <p class="ets-specs__note">WaterMark certification is required for plumbing products installed in Australia. Look up a WELS registration on the <a href="https://www.waterrating.gov.au/" target="_blank" rel="noopener">WELS register<span class="visually-hidden"> (opens in a new tab)</span></a>.</p>
+        </details>
+      {%- endif -%}
+
       {%- if has_dimensions -%}
         <details class="ets-specs__item">
           <summary>Dimensions</summary>
@@ -105,6 +133,8 @@
             {%- if mf.height_mm != blank -%}<div><dt>Height</dt><dd>{{ mf.height_mm.value }}&nbsp;mm</dd></div>{%- endif -%}
             {%- if mf.depth_mm != blank -%}<div><dt>Depth</dt><dd>{{ mf.depth_mm.value }}&nbsp;mm</dd></div>{%- endif -%}
             {%- if mf.diameter_mm != blank -%}<div><dt>Diameter</dt><dd>{{ mf.diameter_mm.value }}&nbsp;mm</dd></div>{%- endif -%}
+            {%- if mf.spout_projection_mm != blank -%}<div><dt>Spout projection</dt><dd>{{ mf.spout_projection_mm.value }}&nbsp;mm</dd></div>{%- endif -%}
+            {%- if mf.spout_height_mm != blank -%}<div><dt>Spout height</dt><dd>{{ mf.spout_height_mm.value }}&nbsp;mm</dd></div>{%- endif -%}
           </dl>
           <p class="ets-specs__note">Always confirm dimensions against the supplier specification sheet before installation.</p>
         </details>
@@ -114,7 +144,8 @@
         <details class="ets-specs__item">
           <summary>Warranty &amp; care</summary>
           <dl class="ets-specs__list">
-            {%- if mf.warranty != blank -%}<div><dt>Manufacturer warranty</dt><dd>{{ mf.warranty.value | escape }}</dd></div>{%- endif -%}
+            {%- if mf.warranty != blank -%}<div><dt>Manufacturer warranty</dt><dd>{{ mf.warranty.value | escape }}</dd></div>
+            {%- elsif mf.warranty_years != blank -%}<div><dt>Manufacturer warranty</dt><dd>{{ mf.warranty_years.value }} {{ mf.warranty_years.value | pluralize: 'year', 'years' }}</dd></div>{%- endif -%}
           </dl>
           {%- if mf.care != blank -%}<div class="ets-specs__rte">{{ mf.care | metafield_tag }}</div>{%- endif -%}
           <p class="ets-specs__note"><a href="{{ pages['product-care'].url | default: '/pages/product-care' }}">Care &amp; warranty information</a></p>
@@ -127,6 +158,9 @@
           <ul class="ets-specs__downloads" role="list">
             {%- if mf.spec_sheet != blank -%}
               <li><a href="{{ mf.spec_sheet.value.url }}" target="_blank" rel="noopener">Specification sheet<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            {%- endif -%}
+            {%- if mf.installation_guide != blank -%}
+              <li><a href="{{ mf.installation_guide.value.url }}" target="_blank" rel="noopener">Installation guide<span class="visually-hidden"> (opens in a new tab)</span></a></li>
             {%- endif -%}
             {%- if mf.technical_drawing != blank -%}
               <li><a href="{{ mf.technical_drawing.value.url }}" target="_blank" rel="noopener">Technical drawing<span class="visually-hidden"> (opens in a new tab)</span></a></li>
