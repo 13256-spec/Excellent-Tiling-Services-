@@ -13,6 +13,22 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Google "Add to preferred sources" button on blog posts (2 Nov 2026, draft theme, waiting to be published)
+
+Google's Preferred Sources lets a reader pick sites to see more of in Top Stories and AI Overviews
+(developers.google.com/search/docs/appearance/preferred-sources). Draft theme **"ETS 2026 – Google preferred source (draft)"**
+(id 144771973183, a copy of the live theme) adds Google's standard button under every blog post, in
+`sections/ets-article-page.liquid`: a one-line caption, `<div google-add-preferred-source-btn data-lang="en">`, Google's
+`publisher.js` loaded async at the end of the section (blog posts only, not the rest of the site), and a plain deeplink
+(`google.com/preferences/source?q=excellenttilingservices.com`) for readers without JavaScript. Same deeplink works in
+social posts and emails.
+
+**Check first:** the button only works for sites already in Google's source tool. Open
+`https://www.google.com/preferences/source?q=excellenttilingservices.com` signed in to Google; if the site is not listed,
+the button shows but does nothing. Google lists domains, not subfolders, so the blog counts as part of the site.
+**To go live: Shopify admin → Online Store → Themes → the "Google preferred source" draft → Publish.** Preview:
+`https://excellenttilingservices.com/blogs/news/how-much-tile-do-i-need?preview_theme_id=144771973183`.
+
 ## Premium look, after Bathroom City (2 Nov 2026, draft theme, waiting to be published)
 
 The owner asked what makes Bathroom City's site (bathroom-city.com.au, Osborne Park; Shopify "Concept" theme) feel premium, and

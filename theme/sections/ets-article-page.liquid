@@ -9,6 +9,14 @@
   {%- if article.image -%}
     <div class="ets-wrap"><div class="ets-shell"><div class="ets-core" style="aspect-ratio:16/8">{{ article.image | image_url: width: 1800 | image_tag: widths: '600, 1000, 1400, 1800', sizes: '94vw', loading: 'eager', alt: article.title, style: 'width:100%;height:100%;object-fit:cover' }}</div></div></div>
   {%- endif -%}
-  <div class="ets-wrap ets-sec--tight" style="max-width:980px"><div class="ets-rte">{{ article.content }}</div></div>
+  <div class="ets-wrap ets-sec--tight" style="max-width:980px"><div class="ets-rte">{{ article.content }}</div>
+    {%- comment -%} Google Preferred Sources badge: developers.google.com/search/docs/appearance/preferred-sources {%- endcomment -%}
+    <aside class="ets-preferred-source" style="margin-top:36px;display:flex;flex-wrap:wrap;align-items:center;gap:12px 20px">
+      <p class="ets-small" style="margin:0">Like our guides? Get them first in Google Top Stories.</p>
+      <div google-add-preferred-source-btn data-lang="en"></div>
+      <noscript><a href="https://www.google.com/preferences/source?q={{ shop.url | remove: 'https://' }}">Add as preferred source on Google</a></noscript>
+    </aside>
+  </div>
 </article>
+<script async src="https://news.google.com/swg/js/v1/publisher.js"></script>
 {% schema %}{"name":"ETS article","settings":[],"presets":[{"name":"ETS article"}]}{% endschema %}
