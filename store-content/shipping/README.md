@@ -340,3 +340,10 @@ Australia market under International, and Australia inherited International's "a
 GST-inclusive item calculated as $4.40 for a Sydney address. Fixed by removing Australia from the International
 market's regions. Australia is a top-level market again (AUD, GST included, $4.00 total). International: every other
 country, prices in the customer's local currency, no GST, duties paid on delivery, "All Products" catalog, no price list.
+
+### Overseas prices +3% (2 Nov 2026)
+Shopify turned on Bancontact, Bizum, MB WAY and Satispay (EU local payment methods, 1.4% to 3.4% + 30c). Checkout cannot
+surcharge by payment method, so the owner chose a blanket 3% on the International market instead: price list
+"International +3% (payment fees)" (gid://shopify/PriceList/17246912575) on the market's "All Products" catalog,
+percentage increase 3, then Shopify's local-currency conversion and rounding on top. Australia unchanged.
+To change the percentage: Settings → Markets → International → Products and pricing.
