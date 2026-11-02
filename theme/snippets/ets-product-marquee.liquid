@@ -1,6 +1,6 @@
 {%- doc -%}
   Slow, looping strip of a collection's live products. Pauses on hover and keyboard focus;
-  with reduced motion it becomes a swipeable row instead.
+  with reduced motion, or on touch screens with no mouse to pause it, it becomes a swipeable row instead.
   @param {collection} collection
   @param {number} [limit] - most products to show (default 24)
   @param {string} [size] - 'md' (page heroes) or 'sm' (menu panels)
@@ -96,7 +96,8 @@
   .ets-pmq--static .ets-pmq__list { flex-wrap: wrap; padding-right: 0; }
   @keyframes ets-pmq-scroll { to { transform: translateX(-50%); } }
   @media (max-width: 749px) { .ets-pmq__item { width: 148px; } }
-  @media (prefers-reduced-motion: reduce) {
+  /* No mouse to pause it on (tablets, phones): a still, swipeable row instead of a moving target. */
+  @media (prefers-reduced-motion: reduce), (hover: none) {
     .ets-pmq { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
     .ets-pmq__track { animation: none; }
     .ets-pmq__list[aria-hidden="true"], .ets-pmq__item.is-repeat { display: none; }

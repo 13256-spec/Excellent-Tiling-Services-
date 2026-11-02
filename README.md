@@ -13,6 +13,20 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Clarity "dead clicks" on Vanities & basins (2 Nov 2026, repo only, not yet in Shopify)
+
+Microsoft Clarity's summary reported dead clicks around "Vanities & basins" and quick back-clicks from product and
+category pages. Every step of that path was clicked in a headless browser on the live site (desktop, iPad-size touch
+and phone): the menu label and chevron, the mega-panel links, the phone drawer, the collection chips, product cards,
+the colour filters (desktop dropdown and phone drawer), "Load more products" with and without filters, sort and the
+page links. All of them navigate or update the page. The one thing a click can miss is the **moving product strip in
+the collection hero**: with a mouse it pauses on hover, but on a touch screen it never stops, so a tap can land on
+a card that has already moved on (the automation could not click it either). Fix in
+`snippets/ets-product-marquee.liquid`: on screens with no mouse (`hover: none`) the strip is the same still,
+swipeable row it already becomes under reduced motion. One CSS media-query line; copy it into the live theme's
+snippet. The quick back-clicks from product pages are the whitespace-photo problem already covered above
+(the crop plan in `store-content/images/` is still waiting for the owner's go-ahead).
+
 ## Google Merchant Center attribute fixes (30 Oct 2026, live)
 
 From the Merchant Center "product attribute improvements" report. 75 products with photos that were missing from the
