@@ -32,7 +32,7 @@
     {%- endif -%}
   </div>
   <div class="ets-card__body">
-    {%- if product.vendor != blank -%}<span class="ets-card__vendor">{{ product.vendor | escape }}</span>{%- endif -%}
+    {%- if product.vendor != blank and product.vendor != shop.name -%}<span class="ets-card__vendor">{{ product.vendor | escape }}</span>{%- endif -%}
     <h3 class="ets-card__title">{{ product.title | escape }}</h3>
     <div class="ets-card__price">{% render 'price', product_resource: product %}</div>
     {%- if opt_count > 1 -%}<span class="ets-card__opts">{{ opt_count }} options available</span>{%- endif -%}
