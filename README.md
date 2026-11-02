@@ -13,6 +13,51 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Premium look, after Bathroom City (2 Nov 2026, draft theme, waiting to be published)
+
+The owner asked what makes Bathroom City's site (bathroom-city.com.au, Osborne Park; Shopify "Concept" theme) feel premium, and
+for the same on ours. Both sites were screenshotted page by page (home, collection, product; desktop and phone). The difference
+is restraint, not features: one light editorial typeface instead of heavy bold headings; photography that leads, with one headline
+and one button over it; a white base with hairlines instead of boxed cards; a quiet header; nothing competing with the products.
+(They also have things we do not: a Google rating badge with 208 reviews, a testimonials block, a brand-logo strip, a project
+gallery and "book a consultation" in the main menu.)
+
+Draft theme **"ETS 2026 – Premium (draft)"** (id 144742973503, a copy of the live theme) applies the same restraint in the ETS
+brand rather than copying theirs:
+
+- `assets/ets-premium.css` (new, loaded last from `layout/theme.liquid`, which now also loads Instrument Serif): serif display
+  headings at weight 400 everywhere, including product titles, with the brass italic accent word back; white page background with
+  the warm paper kept for alternating sections; pill buttons with small tracked capitals; a slimmer white header; a taller hero
+  with a light shade and no "48 tile styles / 1200+ products / 5–25%" row; product cards on one soft tile with no border
+  (`mix-blend-mode: multiply` hides the white photo backgrounds); the collection header without the render box and the moving strip;
+  the product gallery without its frame; Shopify's purple "Buy with Shop" wallet button hidden, so "Add to cart" is the solid
+  navy button again ("More payment options" stays).
+- `snippets/ets-card.liquid`: the brand line above a card title is hidden when it is only the store's own name.
+- The draft also carries the mega-menu change from the previous commit (6 still products per panel instead of 16 looping) and the
+  touch-screen fix for the product strip.
+- Re-synced from the live theme: `layout/theme.liquid`, `sections/ets-hero-full.liquid`, `sections/ets-categories.liquid` (the
+  live theme had moved on since 25 Oct). `templates/product.json` and `config/settings_data.json` also differ live and are not
+  yet re-synced here.
+
+**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Premium (draft)" → Publish.** Preview first:
+`https://excellenttilingservices.com/?preview_theme_id=144742973503`. Not in the theme, but worth the owner's call: the floating
+"Shop Best Sellers / Shop with AI / Explore this product" bubbles come from an app and sit on top of the hero and product columns on
+every page; Bathroom City has nothing like them.
+
+## Clarity "dead clicks" on Vanities & basins (2 Nov 2026, repo only, not yet in Shopify)
+
+Microsoft Clarity's summary reported dead clicks around "Vanities & basins" and quick back-clicks from product and
+category pages. Every step of that path was clicked in a headless browser on the live site (desktop, iPad-size touch
+and phone): the menu label and chevron, the mega-panel links, the phone drawer, the collection chips, product cards,
+the colour filters (desktop dropdown and phone drawer), "Load more products" with and without filters, sort and the
+page links. All of them navigate or update the page. The one thing a click can miss is the **moving product strip in
+the collection hero**: with a mouse it pauses on hover, but on a touch screen it never stops, so a tap can land on
+a card that has already moved on (the automation could not click it either). Fix in
+`snippets/ets-product-marquee.liquid`: on screens with no mouse (`hover: none`) the strip is the same still,
+swipeable row it already becomes under reduced motion. One CSS media-query line; copy it into the live theme's
+snippet. The quick back-clicks from product pages are the whitespace-photo problem already covered above
+(the crop plan in `store-content/images/` is still waiting for the owner's go-ahead).
+
 ## Google Merchant Center attribute fixes (30 Oct 2026, live)
 
 From the Merchant Center "product attribute improvements" report. 75 products with photos that were missing from the

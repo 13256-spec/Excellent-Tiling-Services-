@@ -1,0 +1,210 @@
+/*
+  ETS premium (Nov 2026). Loaded last, after ets-2026.css and ets-refine.css, from layout/theme.liquid.
+
+  The owner asked what makes Bathroom City's site feel premium and for the same on ours. Side by side
+  (home, collection, product; desktop and phone) the difference is not a feature, it is restraint:
+  - one light, editorial display face instead of heavy bold headings
+  - photography leads: a tall hero with a light shade, one headline, one call to action, no number row
+  - white base, hairlines instead of boxed cards, products floating on one soft tile
+  - a slimmer, quieter header and navigation; more air between sections
+  - no clutter around the product: the collection header loses the render box and the moving strip,
+    the product page loses the photo frame and the purple wallet button
+  Translated to the ETS brand (navy ink, brass, warm paper) rather than copied: the display face is the
+  Instrument Serif that ets-2026.css always intended (ets-refine.css had switched it off), not their Jost.
+
+  Section {% stylesheet %} blocks load after this file, so rules that must beat them use a doubled class
+  (.ets-hf .ets-hf__title), the same trick ets-refine.css uses for the header.
+*/
+
+/* ---------- Tokens ---------- */
+:root {
+  --ets-serif: 'Instrument Serif', 'Iowan Old Style', 'Palatino Linotype', Georgia, serif;
+  --font-heading--family: var(--ets-serif);
+  --font-heading--weight: 400;
+  --ets-bg: #FFFFFF;
+  --ets-bg-2: #F5F2EC;
+  --ets-line: rgba(21, 33, 58, .12);
+  --ets-line-strong: rgba(21, 33, 58, .22);
+  --ets-r-sm: 6px;
+  --ets-r: 10px;
+  --ets-r-lg: 14px;
+  --ets-shadow: none;
+  --ets-shadow-lg: 0 24px 60px -24px rgba(15, 26, 44, .25);
+  --ets-sec: clamp(72px, 8vw, 128px);
+}
+@media (min-width: 990px) and (max-width: 1600px) {
+  :root { --ets-sec: clamp(56px, 6vw, 96px); }
+}
+
+/* ---------- Type ---------- */
+body { font-weight: 400; }
+body h1, body h2, body .h1, body .h2,
+.ets-display, .ets-h2, .ets .ets-display, .ets .ets-h2 {
+  font-family: var(--ets-serif);
+  font-weight: 400;
+  letter-spacing: -.015em;
+}
+.ets-display, .ets .ets-display, .ets-phero .ets-display { font-size: clamp(40px, 5vw, 72px); line-height: 1.02; max-width: 16ch; }
+.ets-h2, .ets .ets-h2 { font-size: clamp(32px, 3.4vw, 50px); line-height: 1.06; }
+.ets-display em, .ets-h2 em, .ets-pop h2 em, h1 em, h2 em { font-style: italic; color: var(--ets-brass); }
+.ets-lede { font-weight: 400; color: var(--ets-ink-soft); }
+.ets h3 { font-weight: 600; }
+.ets-head { margin-bottom: clamp(36px, 5vw, 64px); }
+.ets-eyebrow {
+  margin-bottom: 14px;
+  font: 600 11.5px/1.2 var(--ets-sans);
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: #8a6a3a;
+}
+.ets-sec--ink .ets-eyebrow { color: #d6c3a1; }
+.ets-faq summary { font-weight: 500; }
+.ets-ftr h3 { font-weight: 600; }
+
+/* ---------- Buttons: pills with small tracked capitals, the premium-retail convention ---------- */
+.ets-btn {
+  gap: 10px;
+  min-height: 50px;
+  padding: 0 26px;
+  border-radius: var(--ets-pill);
+  font: 600 13.5px/1 var(--ets-sans);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+.ets-btn--ghost { box-shadow: inset 0 0 0 1px var(--ets-line-strong); }
+.ets-link { font-weight: 600; font-size: 14px; }
+body .button, body button.button, body .add-to-cart-button, body .button-secondary {
+  font-weight: 600 !important;
+  font-size: 14px;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+}
+
+/* ---------- Header: white, slimmer, quieter ---------- */
+.ets-topbar { font-size: 12.5px; }
+.ets-topbar a { font-weight: 500; }
+.ets-hdr { background: rgba(255, 255, 255, .92); }
+.ets-hdr .ets-hdr__bar { min-height: 66px; }
+.ets-logo__text strong { font-weight: 700; letter-spacing: .1em; }
+.ets-search { max-width: 520px; }
+.ets-search input { height: 44px; background: #FFFFFF; box-shadow: inset 0 0 0 1px var(--ets-line-strong); font-weight: 400; font-size: 14.5px; }
+.ets-search button { top: 4px; right: 4px; width: 36px; height: 36px; }
+.ets-tool { font-weight: 500; }
+.ets-nav .ets-nav__link, .ets-nav .ets-nav__toggle { height: 46px; }
+.ets-nav__link { font-weight: 500; font-size: 14px; letter-spacing: .01em; }
+.ets-mega__links a { font-weight: 500; }
+@media (max-width: 989px) {
+  .ets-hdr { background: #FFFFFF; }
+}
+
+/* ---------- Home hero: the photo leads ---------- */
+.ets-hf.ets-hf { min-height: min(88svh, 880px); }
+.ets-hf .ets-hf__shade {
+  background:
+    linear-gradient(90deg, rgba(10, 18, 32, .5) 0%, rgba(10, 18, 32, .25) 45%, rgba(10, 18, 32, 0) 75%),
+    linear-gradient(0deg, rgba(10, 18, 32, .72) 0%, rgba(10, 18, 32, .2) 40%, rgba(10, 18, 32, 0) 70%);
+}
+.ets-hf .ets-hf__inner { padding-block: clamp(80px, 14vh, 160px) clamp(40px, 6vw, 72px); }
+.ets-hf .ets-hf__kicker { font-weight: 600; letter-spacing: .18em; }
+.ets-hf .ets-hf__kicker::before { width: 36px; height: 1px; }
+.ets-hf .ets-hf__title {
+  max-width: 12ch;
+  font: 400 clamp(44px, 6.4vw, 96px)/.98 var(--ets-serif);
+  letter-spacing: -.02em;
+  text-shadow: 0 2px 30px rgba(0, 0, 0, .3);
+}
+.ets-hf .ets-hf__title em { font-style: italic; color: #e2cfa9; }
+.ets-hf .ets-hf__text { max-width: 46ch; font-size: clamp(16px, 1.25vw, 19px); color: rgba(255, 255, 255, .92); }
+.ets-hf .ets-hf__btns { gap: 14px 22px; margin-top: 36px; }
+.ets-hf .ets-hf__btn {
+  min-height: 54px;
+  padding: 0 30px;
+  border-radius: var(--ets-pill);
+  font: 600 13.5px/1 var(--ets-sans);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.ets-hf a.ets-hf__btn--line { box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .65); }
+.ets-hf .ets-hf__quick-links { font-weight: 500; }
+.ets-hf .ets-hf__stats { display: none; }
+.ets-hf .ets-hf__slide figcaption a { background: rgba(10, 18, 32, .45); font-weight: 500; }
+@media (max-width: 989px) {
+  .ets-hf .ets-hf__shade {
+    background: linear-gradient(0deg, rgba(10, 18, 32, .9) 0%, rgba(10, 18, 32, .62) 45%, rgba(10, 18, 32, .1) 85%);
+  }
+  .ets-hf .ets-hf__kicker { letter-spacing: .12em; }
+  .ets-hf .ets-hf__title { font-size: clamp(40px, 11vw, 52px); }
+}
+
+/* ---------- Surfaces: hairlines, soft tile behind products ---------- */
+.ets-core { box-shadow: 0 0 0 1px var(--ets-line); }
+.ets-trust { background: var(--ets-surface); }
+.ets-cat .ets-core { background: var(--ets-bg-2); }
+.ets-cat__body { padding: 16px 16px 16px 20px; border-top: 0; }
+.ets-cat__body strong { font: 400 clamp(22px, 1.8vw, 26px)/1.05 var(--ets-serif); letter-spacing: -.01em; }
+.ets-cat__go { width: 36px; height: 36px; background: transparent; color: var(--ets-ink); box-shadow: inset 0 0 0 1px var(--ets-line-strong); }
+.ets-cat:hover .ets-cat__go { background: var(--ets-ink); color: #FFFFFF; }
+
+/* ETS cards (home rails) */
+.ets-card__media { border-radius: var(--ets-r); background: var(--ets-bg-2); box-shadow: none; }
+.ets-card__media img { padding: 10%; mix-blend-mode: multiply; }
+.ets-card__media img.is-cover { padding: 0; mix-blend-mode: normal; }
+.ets-card__body { padding: 14px 2px 0; gap: 4px; }
+.ets-card__vendor { display: block; font: 600 10.5px/1 var(--ets-sans); letter-spacing: .18em; text-transform: uppercase; color: var(--ets-muted); }
+.ets-card__title { font-weight: 500; font-size: 15px; }
+.ets-card__price { font-weight: 600; }
+.ets-card__opts { font-size: 12px; }
+
+/* Horizon cards (collection grid, search, recommendations) */
+product-card .card-gallery, body product-card .card-gallery, body .product-card .card-gallery, body .product-card__image {
+  border: 0;
+  border-radius: var(--ets-r) !important;
+  background: var(--ets-bg-2);
+  box-shadow: none;
+}
+product-card .card-gallery .product-media__image { padding: 10%; mix-blend-mode: multiply; transition: transform .8s var(--ets-ease); }
+product-card:hover .card-gallery { border-color: transparent; box-shadow: none; transform: none; }
+product-card:hover .card-gallery .product-media__image { transform: scale(1.03); }
+product-card [class*='__title'] p { font-weight: 500; font-size: 14.5px; }
+product-card product-price { font-weight: 600; }
+body .facets__summary, body .facets__label { font-weight: 500; }
+
+/* Chips (collection shortcuts): outlined, the current one filled */
+.ets-chip { min-height: 38px; background: transparent; box-shadow: inset 0 0 0 1px var(--ets-line-strong); font-weight: 500; font-size: 13.5px; }
+.ets-chip:hover { box-shadow: inset 0 0 0 1px var(--ets-ink); }
+.ets-chip[aria-current='page'] { background: var(--ets-ink); color: #FFFFFF; box-shadow: none; }
+
+/* ---------- Collection header: title and chips, nothing else competing with the products ---------- */
+.ets-phero { padding-block: clamp(28px, 4vw, 56px) clamp(20px, 3vw, 40px); }
+.ets-phero__grid { grid-template-columns: minmax(0, 1fr); }
+.ets-phero .ets-small { font: 600 11.5px/1.4 var(--ets-sans); letter-spacing: .08em; text-transform: uppercase; }
+.ets-coll-lede { max-width: 64ch; }
+/* The picture was a product render in a box (collection photos are renders too); the grid is the picture. */
+.ets-coll-media, .ets-coll-marquee { display: none; }
+
+/* ---------- Product page ---------- */
+body .product-details h1, body .product-information h1,
+body .product-information .product-details h1 {
+  font-size: clamp(32px, 3vw, 46px) !important;
+  line-height: 1.04 !important;
+}
+@media (max-width: 749px) {
+  body .product-details h1, body .product-information h1,
+  body .product-information .product-details h1 { font-size: clamp(28px, 7.6vw, 36px) !important; }
+}
+body .tax-note { font-family: var(--ets-sans); font-size: 13px; color: var(--ets-muted); }
+.product-information__media .product-media-container--image { border: 0; border-radius: var(--ets-r); background: var(--ets-bg-2); }
+.product-information__media .product-media-container--image .product-media__image { padding: 6%; mix-blend-mode: multiply; }
+/* Shopify's purple wallet button: off-brand next to the ink add-to-cart; "More payment options" stays.
+   Horizon styles "Add to cart" as the secondary button while the wallet button exists, so it becomes
+   the primary one here. */
+body .accelerated-checkout-block, body .shopify-payment-button { display: none !important; }
+body .add-to-cart-button.button-secondary, body .sticky-add-to-cart__button {
+  background: var(--ets-ink) !important;
+  color: #FFFFFF !important;
+  border-color: var(--ets-ink) !important;
+}
+body .add-to-cart-button.button-secondary:hover, body .sticky-add-to-cart__button:hover { background: var(--ets-dark) !important; }
+.ets-trade-note { background: transparent; box-shadow: inset 0 0 0 1px var(--ets-line); }
+.ets-perks, .ets-calc { border-radius: var(--ets-r); box-shadow: inset 0 0 0 1px var(--ets-line); }
+body .variant-option__button-label, body .variant-picker .variant-option__button-label { border-radius: var(--ets-r) !important; font-weight: 500; }

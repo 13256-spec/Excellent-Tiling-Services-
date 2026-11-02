@@ -7,7 +7,19 @@
 {%- liquid
   assign tiles_count = collections['tiles'].products_count
   assign all_count = collections.all.products_count
+  assign first_slide = section.blocks.first
 -%}
+{%- if first_slide != blank and first_slide.settings.image != blank -%}
+  {%- comment -%} Preload the first slide image: it's the LCP element, so fetching it early cuts paint time. {%- endcomment -%}
+  <link
+    rel="preload"
+    as="image"
+    fetchpriority="high"
+    href="{{ first_slide.settings.image | image_url: width: 1100 }}"
+    imagesrcset="{{ first_slide.settings.image | image_url: width: 750 }} 750w, {{ first_slide.settings.image | image_url: width: 1100 }} 1100w, {{ first_slide.settings.image | image_url: width: 1500 }} 1500w, {{ first_slide.settings.image | image_url: width: 1920 }} 1920w, {{ first_slide.settings.image | image_url: width: 2400 }} 2400w"
+    imagesizes="100vw"
+  >
+{%- endif -%}
 <section class="ets ets-hf" aria-labelledby="EtsHf-{{ section.id }}">
   <div class="ets-hf__media" data-ets-hf data-interval="{{ section.settings.interval }}">
     {%- for block in section.blocks -%}
@@ -49,6 +61,10 @@
           <a class="ets-hf__btn ets-hf__btn--line" href="{{ section.settings.btn_2_link | default: '/pages/request-a-quote' }}">{{ section.settings.btn_2_label | escape }}</a>
         {%- endif -%}
       </div>
+      <nav class="ets-hf__quick-links" aria-label="More ways to shop">
+        <a href="{{ collections['bathroom-vanities'].url | default: '/collections/bathroom-vanities' }}">Shop vanities</a>
+        <a href="{{ collections['tapware'].url | default: '/collections/tapware' }}">Shop tapware</a>
+      </nav>
     </div>
     <ul class="ets-hf__stats" role="list">
       {%- if tiles_count > 0 -%}<li><strong>{{ tiles_count }}</strong><span>tile styles</span></li>{%- endif -%}
@@ -136,6 +152,11 @@
   .ets-hf__btn--line:hover { background: rgba(255, 255, 255, .12); }
   .ets-hf__btn:focus-visible, .ets-hf__dots button:focus-visible, .ets-hf__slide a:focus-visible { outline: 2px solid #e2cfa9; outline-offset: 3px; }
 
+  .ets-hf__quick-links { display: flex; flex-wrap: wrap; gap: 12px 24px; margin-top: 16px; }
+  .ets-hf__quick-links a { color: #fff; font: 700 15px/1.3 var(--ets-sans); text-underline-offset: 4px; }
+  .ets-hf__quick-links a:hover { color: #e2cfa9; }
+  .ets-hf__quick-links a:focus-visible { outline: 2px solid #e2cfa9; outline-offset: 4px; }
+
   .ets-hf__stats { display: flex; flex-wrap: wrap; gap: 12px 40px; margin: clamp(28px, 5vh, 56px) 0 0; padding: 20px 0 0;
     list-style: none; border-top: 1px solid rgba(255, 255, 255, .22); }
   .ets-hf__stats li { display: flex; align-items: baseline; gap: 10px; }
@@ -166,12 +187,19 @@
   }
   @media (max-width: 989px) {
     .ets-hf { min-height: 0; }
-    .ets-hf__inner { padding-top: 36vh; }
+    .ets-hf__inner { padding-block: 8vh 24px; }
+    .ets-hf__kicker { margin-bottom: 10px; }
+    .ets-hf__title { font-size: clamp(32px, 8vw, 46px); }
+    .ets-hf__text { margin-top: 12px; }
+    .ets-hf__btns { margin-top: 20px; }
+    .ets-hf__btn { min-height: 48px; }
+    .ets-hf__quick-links { justify-content: center; margin-top: 14px; }
+    .ets-hf__quick-links a { min-height: 44px; display: inline-flex; align-items: center; }
     .ets-hf__shade { background: linear-gradient(0deg, rgba(10, 18, 32, .92) 0%, rgba(10, 18, 32, .78) 45%, rgba(10, 18, 32, .15) 80%); }
     .ets-hf__slide figcaption { top: 16px; bottom: auto; right: 16px; }
     .ets-hf__btns { flex-direction: column; }
     .ets-hf__btn { width: 100%; }
-    .ets-hf__stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin-top: 28px; padding-top: 18px; }
+    .ets-hf__stats { display: none; }
     .ets-hf__stats li { flex-direction: column; align-items: flex-start; gap: 4px; }
     .ets-hf__stats strong { font-size: 22px; white-space: nowrap; }
     .ets-hf__stats span { font-size: 12px; line-height: 1.35; }

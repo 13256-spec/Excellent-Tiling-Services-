@@ -7,6 +7,20 @@
   dir="{{ request.locale.direction | default: 'ltr' }}"
 >
   <head>
+    {%- comment -%}
+      requestIdleCallback shim. Older iOS Safari doesn't have it and the Microsoft Clarity
+      scripts call it unguarded, which threw a JS error on ~14% of sessions. Must stay above
+      content_for_header, where those scripts load.
+    {%- endcomment -%}
+    <script>
+      window.requestIdleCallback = window.requestIdleCallback || function (cb) {
+        return setTimeout(function () {
+          cb({ didTimeout: false, timeRemaining: function () { return 50; } });
+        }, 1);
+      };
+      window.cancelIdleCallback = window.cancelIdleCallback || clearTimeout;
+    </script>
+
     {%- if settings.favicon != blank -%}
       <link
         rel="icon"
@@ -30,9 +44,16 @@
     <script>document.documentElement.classList.add('ets-js');</script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap">
+    {%- comment -%}
+      Font CSS loads without blocking first paint: fetched as print, swapped to all once
+      loaded (display=swap shows system text in the meantime). Was ~0.8s of render delay.
+    {%- endcomment -%}
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap"></noscript>
     {{ 'ets-2026.css' | asset_url | stylesheet_tag }}
     {{ 'ets-refine.css' | asset_url | stylesheet_tag }}
+    {{ 'ets-premium.css' | asset_url | stylesheet_tag }}
     <script src="{{ 'ets-2026.js' | asset_url }}" defer></script>
 
     {% if request.design_mode %}
@@ -40,6 +61,26 @@
     {% endif %}
 
     {{ content_for_header }}
+<script>
+/* Metricool: loaded on first interaction or after 4s, whichever comes first, so it
+   stays off the critical path (it was costing ~300ms of main-thread time on mobile).
+   Stats still reach Metricool; only the very shortest bounce visits may be missed. */
+(function () {
+  var done = false;
+  function load() {
+    if (done) return;
+    done = true;
+    var s = document.createElement('script');
+    s.src = 'https://tracker.metricool.com/resources/be.js';
+    s.onload = function () { if (window.beTracker) beTracker.t({ hash: '1f17d8617ac7d82050a3f5dc0ba8729b' }); };
+    document.head.appendChild(s);
+  }
+  ['pointerdown', 'keydown', 'touchstart', 'scroll'].forEach(function (e) {
+    addEventListener(e, load, { once: true, passive: true });
+  });
+  setTimeout(load, 4000);
+})();
+</script>
   </head>
 
   <body class="page-width-{{ settings.page_width }} card-hover-effect-{{ settings.card_hover_effect }}">
@@ -51,6 +92,7 @@
       <div id="header-group">
         {% sections 'header-group' %}
       </div>
+      {% render 'ets-trade-bar' %}
 
       <script>
         /**
