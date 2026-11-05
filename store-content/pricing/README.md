@@ -235,11 +235,10 @@ The store moved its trade pricing onto it:
   `trade-applicant` tag stay for the website form. The `trade-list-N` collections stay as the band record.
 - First real trade account, 5 Nov 2026: **Tom Derham Tiling** `gid://shopify/Company/6510149695` (ABN 43768608554, licence
   BLD282211, tiler, under $1,000/month, card at checkout; application form 1172088 of 4 Nov). Contact = customer
-  tomderhamtiling@gmail.com (Location admin, main contact; `trade-applicant` tag removed). Owner's rule: pickup from Maddington
-  only for now. Shopify has no per-company pickup-only switch, so the location `gid://shopify/CompanyLocation/7316013119` is named
-  "Pickup at ETS Maddington", its shipping address is the showroom (17A Olga Road) and the address is locked at checkout; his own
-  address (54 Hampden Way, Strathalbyn) is in the company and location notes. When he may have deliveries, change the location's
-  shipping address to his and allow editing.
+  tomderhamtiling@gmail.com (Location admin, main contact; `trade-applicant` tag removed). Location `gid://shopify/CompanyLocation/7316013119`:
+  his own address (54 Hampden Way, Strathalbyn SA 5255), editable at checkout, so he can choose delivery or pickup. (It was
+  briefly set up pickup-only with the showroom address; the owner lifted that the same day.) Note: the address and the BLD
+  licence format look South Australian; Australia Post rates to SA apply for parcel items, bulky items get a freight quote.
 - Payment terms: Shopify rejected the "Due on receipt" template for a company location; leave terms empty for pay-at-checkout,
   or pick Net 7/15/30 per location when the owner agrees credit.
 
