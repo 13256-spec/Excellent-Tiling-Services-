@@ -13,6 +13,28 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Trade (B2B) display: trade price next to crossed-out retail, corner badge, no "apply" links (5 Nov 2026, draft theme, waiting to be published)
+
+Trade pricing now runs on Shopify's native B2B (see `store-content/pricing/PRICING-PLAYBOOK.md`): a trade customer is a
+company contact, and the B2B catalog gives every banded variant a fixed trade price with the retail price as compare-at.
+Draft theme **"ETS 2026 – B2B trade display (draft)"** (id 144867229759, a copy of the live theme) makes the storefront
+match, keyed on `customer.b2b?` instead of the old `trade` customer tag:
+
+- `snippets/price.liquid` (customised Horizon file, now tracked here): for a B2B login the existing "Trade $x / Save $y (N%) /
+  Retail $z" block is driven by the variant's catalog price and compare-at price. The old `ets-trade-rate` snippet (band x tag)
+  is deleted.
+- `sections/ets-header.liquid`: "Trade" chip shows the company name; a small fixed pill bottom-right ("Trade account · company ·
+  trade prices shown"); the "Trade" menu item, top-bar link and drawer "Apply" button are hidden for B2B logins.
+- `sections/ets-footer.liquid`: the trade CTA button and the "Trade account" footer link are hidden for B2B logins.
+- `snippets/ets-pdp-trade.liquid`, `sections/ets-trade-band.liquid`, `sections/ets-trade-apply.liquid`, `snippets/ets-trade-rates.liquid`:
+  B2B check and copy ("that is what you pay at checkout" instead of "the discount comes off in the cart"); the trade page shows
+  "your account is active" to B2B logins instead of the form.
+- Re-synced from the live theme ("ETS 2026 – Premium v2 (draft)", the published theme) on 5 Nov 2026: the files above.
+
+**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – B2B trade display (draft)" → Publish.** Preview as a trade
+login (e.g. the owner's test company): `https://excellenttilingservices.com/?preview_theme_id=144867229759`. Theme settings
+"ETS trade pricing" (tag, three rates) are no longer used by these files and can be ignored.
+
 ## Google "Add to preferred sources" button on blog posts (2 Nov 2026, draft theme, waiting to be published)
 
 Google's Preferred Sources lets a reader pick sites to see more of in Top Stories and AI Overviews

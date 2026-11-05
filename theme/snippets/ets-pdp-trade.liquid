@@ -1,17 +1,24 @@
 {%- doc -%}
-  Trade account prompt / confirmation under the product price.
+  Trade account prompt / confirmation under the product price. Trade (B2B) logins already see the
+  catalog price, with the retail price as compare-at, so this only explains what they see.
+  @param {product} [product]
 {%- enddoc -%}
 {%- liquid
-  assign trade_tag = settings.ets_trade_tag | default: 'trade'
   assign is_trade = false
-  if customer and customer.tags contains trade_tag
+  if customer and customer.b2b?
     assign is_trade = true
   endif
+  assign p = product | default: closest.product
+  assign v = p.selected_or_first_available_variant
 -%}
 {%- if settings.ets_trade_enabled -%}
   {%- if is_trade -%}
     <p class="ets ets-trade-note ets-trade-note--on" style="margin:0">
-      <span>✓ Trade price applied — your discount comes off automatically in the cart.</span>
+      {%- if v.compare_at_price > v.price -%}
+        <span>✓ Trade price shown. The crossed-out price is retail; you pay the trade price at checkout.</span>
+      {%- else -%}
+        <span>Trade account: this item has no trade discount, so the retail price applies.</span>
+      {%- endif -%}
     </p>
   {%- else -%}
     <p class="ets ets-trade-note" style="margin:0">

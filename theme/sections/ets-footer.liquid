@@ -3,8 +3,12 @@
   assign phone_link = settings.ets_phone_link | default: '+61450960543'
   assign menu_1 = linklists[section.settings.menu_1]
   assign menu_2 = linklists[section.settings.menu_2]
+  assign is_trade = false
+  if customer and customer.b2b?
+    assign is_trade = true
+  endif
 -%}
-<footer class="ets ets-ftr ets-sec--ink">
+<div class="ets ets-ftr ets-sec--ink">
   <div class="ets-wrap">
     {%- if section.settings.cta_heading != blank -%}
       <div class="ets-ftr__cta">
@@ -14,7 +18,7 @@
         </div>
         <div class="ets-btns">
           <a class="ets-btn ets-btn--light" href="{{ section.settings.cta_link_1 | default: '/pages/request-a-quote' }}">{{ section.settings.cta_label_1 | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>
-          {%- if section.settings.cta_label_2 != blank -%}
+          {%- if section.settings.cta_label_2 != blank and is_trade == false -%}
             <a class="ets-btn ets-btn--ghost" href="{{ section.settings.cta_link_2 | default: '/pages/trade-account' }}">{{ section.settings.cta_label_2 | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'briefcase' %}</span></a>
           {%- endif -%}
         </div>
@@ -51,13 +55,13 @@
       {%- if menu_1.links.size > 0 -%}
         <nav aria-label="{{ menu_1.title | escape }}">
           <h3>{{ section.settings.menu_1_title | default: menu_1.title | escape }}</h3>
-          <ul role="list">{%- for link in menu_1.links -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
+          <ul role="list">{%- for link in menu_1.links -%}{%- if is_trade and link.url contains 'trade-account' -%}{%- continue -%}{%- endif -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
         </nav>
       {%- endif -%}
       {%- if menu_2.links.size > 0 -%}
         <nav aria-label="{{ menu_2.title | escape }}">
           <h3>{{ section.settings.menu_2_title | default: menu_2.title | escape }}</h3>
-          <ul role="list">{%- for link in menu_2.links -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
+          <ul role="list">{%- for link in menu_2.links -%}{%- if is_trade and link.url contains 'trade-account' -%}{%- continue -%}{%- endif -%}<li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>{%- endfor -%}</ul>
         </nav>
       {%- endif -%}
 
@@ -79,7 +83,7 @@
       </ul>
     </div>
   </div>
-</footer>
+</div>
 
 {% schema %}
 {
