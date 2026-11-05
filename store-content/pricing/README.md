@@ -215,3 +215,26 @@ instruction the "M8 Nut for Locking Bolt" product (`gid://shopify/Product/840324
 `ets.supplier` = B.A.T. Trims Pty Ltd, SKU SIG-108362 (Roberts code kept in the description), cost $6.44 (NET x 1.1), `Roberts
 Designs` tag removed. Price $10.50 and trade band 10% unchanged; at the new cost the deepest band that keeps 20% margin is 20%
 ($8.40), for the owner to decide. Stock reads -2 (oversold).
+
+## Native B2B trade pricing (5 Nov 2026, Shopify Grow)
+
+Shopify made B2B available on every plan on 2 Apr 2026 (Grow: up to 3 active B2B catalogs, assigned to a B2B market).
+The store moved its trade pricing onto it:
+
+- Market **Trade accounts (B2B)** `gid://shopify/Market/26618265663`, condition: all company locations.
+- Catalog **Trade price list** `gid://shopify/MarketCatalog/71173406783` with publication `gid://shopify/Publication/163372662847`
+  (all products, auto-publish) and price list **Trade prices** `gid://shopify/PriceList/17250287679` (base adjustment 0%,
+  compare-at hidden). `b2b_price_list_2026_11.py` loaded 3,320 fixed prices (every variant of the 837 banded products),
+  the same numbers as `custom.trade_price`. Band-0 products: no fixed price, public price applies.
+- Test company **Excellent Tiling Services (test trade account)** `gid://shopify/Company/6510116927`, location Maddington
+  `gid://shopify/CompanyLocation/7315980351`, contact = the owner's customer excellenttiling1@hotmail.com (Location admin,
+  main contact), no payment terms (pay at checkout), shipping address editable. Verified with `contextualPricing` for that
+  location: MELA DICE basin $199.00 -> $189.05, a band-0 toilet stays $450.00.
+- Retired: the five automatic discounts "Trade price – N%" are deactivated (not deleted) and the owner's test customer lost the
+  `trade` tag. No other customer carried it; the 93 `trade-applicant` customers were never approved and are unchanged.
+- Payment terms: Shopify rejected the "Due on receipt" template for a company location; leave terms empty for pay-at-checkout,
+  or pick Net 7/15/30 per location when the owner agrees credit.
+
+Still to do: the theme's trade features (`ets-trade-rate`, `ets-pdp-trade`, header badge, the "Trade account" page text) key
+off the `trade` tag and will not show for B2B logins; the storefront already shows the catalog price natively once the
+contact logs in, so those sections should be re-pointed at `customer.b2b?` / `customer.current_company` or simplified.

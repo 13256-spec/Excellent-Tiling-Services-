@@ -63,11 +63,22 @@ baths). Those are reported as "can't beat profitably", never matched.
 - Prices and unit costs: on each variant.
 - Trade price, for reading in admin: product metafield `ets.trade_price` ("$x (N% off)", pinned on the product
   page) and variant metafield `custom.trade_price` (the number). Written by `trade_price_metafields_2026_11.py`.
-- Trade discounts: manual collections `trade-list-5`, `-10`, `-15`, `-20`, `-25`, each with an automatic
-  discount "Trade price – N%" limited to the customer segment "Trade customers" (customer tag `trade`).
-  Shopify Basic has no B2B price lists, so this is how per-item trade pricing works. To change an item's
-  trade discount, move it between those collections. A product must be in only one of them.
+- **Trade pricing is native B2B (since 5 Nov 2026, Shopify Grow plan).** One B2B market "Trade accounts (B2B)"
+  (all company locations) carries the catalog "Trade price list" with the price list "Trade prices": a fixed price
+  per variant = public price x (1 - `ets.trade_band`/100). A trade customer is a **company** (Customers -> Companies)
+  with a location and a contact; when they log in they see and pay the trade prices on every channel, no tag, no
+  discount code. Products with band 0 have no fixed price and sell at the public price. Grow allows 3 active B2B
+  catalogs, attached to the market, not to single companies.
+- The old scheme is kept only as the band record: manual collections `trade-list-5` ... `-25` and the product
+  metafield `ets.trade_band` still say which band a product is in, and `custom.trade_price` / `ets.trade_price`
+  show the number. The five automatic discounts "Trade price – N%" are **deactivated**; the customer tag `trade`
+  is no longer used for pricing.
 - Old `trade-band-*` collections and `trade-N` product tags are no longer used.
+- **Approving a trade applicant** (tag `trade-applicant`, from the website form): Customers -> Companies -> Add
+  company: business name, the applicant as contact (their existing customer email), one location with their
+  address, payment terms "No payment terms" (pay at checkout) unless the owner agrees credit terms (Net 7/15/30
+  are available per location). The company location joins the Trade market automatically. Then remove the
+  `trade-applicant` tag. Nothing else: no `trade` tag, no discount.
 
 ## Files
 
@@ -93,9 +104,10 @@ baths). Those are reported as "can't beat profitably", never matched.
    **Also set the product metafield `ets.trade_band` to the same number (0 if no list).** The theme shows the
    trade price and the "N% off" note from this field, not from the collection, so a stale value shows trade
    customers the wrong price.
-   **Then refresh the recorded trade prices** (`trade_price_metafields_2026_11.py`): variant `custom.trade_price`
-   and the product summary `ets.trade_price` are plain records for reading in Shopify admin, not what the
-   discount uses, so they go stale whenever a price or band changes.
+   **Then refresh the trade prices themselves**: `b2b_price_list_2026_11.py` rewrites the fixed prices in the B2B
+   price list (what trade accounts pay), and `trade_price_metafields_2026_11.py` the record fields `custom.trade_price`
+   and `ets.trade_price`. Both go stale whenever a public price or a band changes. A product whose band drops to 0
+   also needs its fixed prices deleted from the price list (`priceListFixedPricesDelete`).
 5. Update `store-pricing-2026-10-03.csv`, rerun `price_list_pdf.py`, commit, and tell the owner in plain
    words what changed.
 
