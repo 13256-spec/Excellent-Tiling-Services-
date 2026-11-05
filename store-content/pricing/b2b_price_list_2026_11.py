@@ -5,10 +5,10 @@ Shopify Grow has native B2B (companies, one B2B market, up to 3 catalogs). The t
   catalog     "Trade price list"      gid://shopify/MarketCatalog/71173406783  (publication: all products, auto-publish)
   price list  "Trade prices"          gid://shopify/PriceList/17250287679  (base adjustment 0%, fixed price per variant)
 Fixed price = public price x (1 - ets.trade_band/100), to the cent, half up: the same number as the variant
-metafield custom.trade_price. Products with band 0 have no fixed price, so trade accounts pay the public price.
+metafield custom.trade_price. Compare-at = the public price (shown crossed out to trade logins). Products with band 0 have no fixed price, so trade accounts pay the public price.
 
 Input: pages/p*.json, saved pages of the products query in trade_price_metafields_2026_11.py.
-Output: pl/plNN.graphql, one priceListFixedPricesAdd per file (100 prices, < 16k chars), to run with the
+Output: pl/plNN.graphql, one priceListFixedPricesAdd per file (90 prices, < 16k chars), to run with the
 Shopify MCP graphql_mutation tool. Re-run after any price or band change. To remove a price that no longer
 applies (band dropped to 0) use priceListFixedPricesDelete with the variant ids.
 """
@@ -24,9 +24,10 @@ for f in sorted(glob.glob("pages/p*.json")):
         if not band: continue
         for v in p["variants"]["nodes"]:
             tp = (Decimal(v["price"]) * (100 - band) / 100).quantize(C, ROUND_HALF_UP)
-            prices.append('{variantId: "%s", price: {amount: "%s", currencyCode: AUD}}' % (v["id"], tp))
+            # compareAtPrice = the public price, so trade logins see it crossed out next to their price
+            prices.append('{variantId: "%s", price: {amount: "%s", currencyCode: AUD}, compareAtPrice: {amount: "%s", currencyCode: AUD}}' % (v["id"], tp, Decimal(v["price"]).quantize(C)))
 os.makedirs("pl", exist_ok=True)
-chunks = [prices[i:i+100] for i in range(0, len(prices), 100)]
+chunks = [prices[i:i+90] for i in range(0, len(prices), 90)]
 for i, c in enumerate(chunks, 1):
     q = 'mutation { priceListFixedPricesAdd(priceListId: "%s", prices: [%s]) { prices { variant { id } } userErrors { field message code } } }' % (PRICE_LIST, ", ".join(c))
     assert len(q) < 16000, len(q)

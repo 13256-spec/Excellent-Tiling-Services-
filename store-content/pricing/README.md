@@ -225,7 +225,8 @@ The store moved its trade pricing onto it:
 - Catalog **Trade price list** `gid://shopify/MarketCatalog/71173406783` with publication `gid://shopify/Publication/163372662847`
   (all products, auto-publish) and price list **Trade prices** `gid://shopify/PriceList/17250287679` (base adjustment 0%,
   compare-at hidden). `b2b_price_list_2026_11.py` loaded 3,320 fixed prices (every variant of the 837 banded products),
-  the same numbers as `custom.trade_price`. Band-0 products: no fixed price, public price applies.
+  the same numbers as `custom.trade_price`, each with the public price as compare-at (reloaded 5 Nov with compare-at so trade logins
+  see retail crossed out). Band-0 products: no fixed price, public price applies.
 - Test company **Excellent Tiling Services (test trade account)** `gid://shopify/Company/6510116927`, location Maddington
   `gid://shopify/CompanyLocation/7315980351`, contact = the owner's customer excellenttiling1@hotmail.com (Location admin,
   main contact), no payment terms (pay at checkout), shipping address editable. Verified with `contextualPricing` for that
