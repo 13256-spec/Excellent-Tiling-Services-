@@ -37,7 +37,10 @@
       </div>
     {%- endif -%}
     {% if product.available and settings.quick_add or settings.mobile_quick_add %}
-      {% render 'quick-add', product: product, section_id: section.id %}
+      {%- comment -%} m2-units tiles: no one-click add (it would add 0.01 m²); shoppers pick m² on the product page. {%- endcomment -%}
+      {% unless product.tags contains 'm2-units' %}
+        {% render 'quick-add', product: product, section_id: section.id %}
+      {% endunless %}
     {% endif %}
   {% endunless %}
 {% endcapture %}

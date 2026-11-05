@@ -13,6 +13,27 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Tiles sold by exact m² (5 Nov 2026, draft theme, waiting to be published)
+
+Owner chose "Option 2": tiles (not mosaics, which are sold by the sheet) are sold in 0.01 m² units, so 2.88 m² is
+quantity 288. Shopify carts only take whole numbers, so each variant's price becomes price per 0.01 m² (whole-dollar
+price per m², approved: `store-content/pricing/reports/tile-m2-units-proposal-2026-11-05.csv`). The product tag
+**`m2-units`** switches a product into m² mode in the theme; untagged products render exactly as before.
+Draft theme **"ETS 2026 – Tiles by exact m2 (draft)"** (id 144880795711, a copy of the live theme 144868016191):
+- `snippets/price.liquid`: all prices x100 with " / m²" for m2 products (retail, trade, retail crossed out, save).
+- `snippets/quantity-selector.liquid` + `assets/ets-2026.js`: "Area (m²)" box (step 0.01) on the product page and quick-add
+  modal; the real quantity input is hidden and set to m² x 100. The calculator gives exact m² rounded up to 0.01 and fills the box.
+- `snippets/ets-pdp-calc.liquid`: note text for m2 products.
+- `snippets/cart-products.liquid`: cart lines show "2.88 m²" and the per-m² price; +/- hidden (remove and re-add to change).
+- `blocks/_product-card-gallery.liquid`, `snippets/product-card.liquid`: no quick-add for m2 products.
+- `blocks/_featured-product-price.liquid`, `snippets/ets-product-schema.liquid`: per-m² price, JSON-LD UnitPriceSpecification (MTK).
+Tested in preview with the tag on one tile (then removed): calculator 12.5 m² +10% -> 13.75 m², 2.88 m² added as 288,
+cart shows "2.88 m²". Known limits: the cart count bubble counts units (shows 288), and checkout (not editable on Grow)
+shows "x 288" with the unit price line "$55.00/m²".
+**To go live: Shopify admin → Online Store → Themes → "Tiles by exact m2" draft → Publish**, then the price step
+(`store-content/pricing/tile_m2_units_2026_11.py ... batches`: prices, costs, weights, unit price measure and the tag
+together), then both trade scripts. Preview: `https://excellenttilingservices.com/products/time-stone-moon-porcelain-tile?preview_theme_id=144880795711`
+
 ## Trade (B2B) display: trade price next to crossed-out retail, corner badge, no "apply" links (5 Nov 2026, published the same day)
 
 Trade pricing now runs on Shopify's native B2B (see `store-content/pricing/PRICING-PLAYBOOK.md`): a trade customer is a

@@ -184,7 +184,9 @@
     }
     const a = parseFloat(c.area.value);
     if (a > 0) {
-      const qty = Math.ceil(a * (1 + parseFloat(c.waste.value) / 100));
+      const need = a * (1 + parseFloat(c.waste.value) / 100);
+      // m2-units tiles: exact m², rounded up to 0.01 (the 1e-6 guard stops float noise adding a cent). Others: whole m².
+      const qty = 'm2' in calc.dataset ? (Math.ceil(need * 100 - 1e-6) / 100).toFixed(2) : Math.ceil(need);
       calc.dataset.qty = qty;
       c.out.textContent = `${qty} m²`;
       c.apply.disabled = false;
@@ -207,10 +209,11 @@
     const btn = e.target.closest('[data-ets-calc] [data-apply]');
     if (!btn) return;
     const calc = btn.closest('[data-ets-calc]');
-    const qty = parseInt(calc.dataset.qty, 10);
+    const qty = 'm2' in calc.dataset ? calc.dataset.qty : parseInt(calc.dataset.qty, 10);
     if (!qty) return;
     const scope = calc.closest('.shopify-section') || document;
-    const input = $('input[name="quantity"]', scope) || $('input[name="quantity"]');
+    const m2 = $('[data-ets-m2-qty]', scope);
+    const input = m2 || $('input[name="quantity"]', scope) || $('input[name="quantity"]');
     if (!input) return;
     input.value = qty;
     input.dispatchEvent(new Event('input', { bubbles: true }));
@@ -218,6 +221,18 @@
     btn.textContent = `Quantity set to ${qty} m² ✓`;
     const submit = $('[name="add"], button[type="submit"].add-to-cart-button, form[action*="/cart/add"] [type="submit"]', scope);
     if (submit) submit.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  /* ---------- m² quantity (tiles tagged m2-units): the real quantity is m² x 100 ---------- */
+  document.addEventListener('input', (e) => {
+    const m2 = e.target.closest('[data-ets-m2-qty]');
+    if (!m2) return;
+    const qty = $('input[ref="quantityInput"]', m2.closest('.quantity-selector-wrapper'));
+    if (qty) qty.value = Math.max(1, Math.round((parseFloat(m2.value) || 0) * 100));
+  });
+  document.addEventListener('change', (e) => {
+    const m2 = e.target.closest('[data-ets-m2-qty]');
+    if (m2) m2.value = (Math.max(1, Math.round((parseFloat(m2.value) || 0) * 100)) / 100).toFixed(2);
   });
 
   /* ---------- Hero image slideshow ---------- */

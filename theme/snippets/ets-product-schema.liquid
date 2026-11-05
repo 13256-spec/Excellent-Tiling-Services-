@@ -174,8 +174,14 @@
           "@type": "Offer",
           "@id": {{ variant_url | append: '#offer' | json }},
           "url": {{ variant_url | json }},
+          {%- if product.tags contains 'm2-units' %}
+          "price": {{ variant.price | times: 100 | divided_by: 100.0 | json }},
+          "priceCurrency": {{ currency | json }},
+          "priceSpecification": { "@type": "UnitPriceSpecification", "price": {{ variant.price | times: 100 | divided_by: 100.0 | json }}, "priceCurrency": {{ currency | json }}, "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MTK" } },
+          {%- else %}
           "price": {{ variant.price | divided_by: 100.0 | json }},
           "priceCurrency": {{ currency | json }},
+          {%- endif %}
           "availability": {% if variant.available %}"https://schema.org/InStock"{% else %}"https://schema.org/OutOfStock"{% endif %},
           "itemCondition": "https://schema.org/NewCondition",
           "businessFunction": "http://purl.org/goodrelations/v1#Sell",

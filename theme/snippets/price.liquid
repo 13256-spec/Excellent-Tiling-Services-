@@ -18,6 +18,15 @@
   if product_resource == blank
     assign price = 1999
   endif
+  # Tiles tagged m2-units are sold in 0.01 m² units: show every price per m² (x100).
+  assign ets_x = 1
+  if product_resource.tags contains 'm2-units'
+    assign ets_x = 100
+    assign price = price | times: ets_x
+    if compare_at_price
+      assign compare_at_price = compare_at_price | times: ets_x
+    endif
+  endif
   assign has_volume_pricing = null
   assign price_min = null
   assign price_max = null
@@ -35,6 +44,10 @@
       assign price_min = selected_variant.quantity_price_breaks.last.price
       assign price_max = selected_variant.price
     endif
+  endif
+  if ets_x > 1 and price_min
+    assign price_min = price_min | times: ets_x
+    assign price_max = price_max | times: ets_x
   endif
   assign use_currency = false
   if product.handle == product_resource.handle
@@ -71,6 +84,11 @@
     assign ets_trade = selected_variant.price
     assign ets_retail = selected_variant.compare_at_price
     assign ets_save = ets_retail | minus: ets_trade
+    if ets_x > 1
+      assign ets_trade = ets_trade | times: ets_x
+      assign ets_retail = ets_retail | times: ets_x
+      assign ets_save = ets_save | times: ets_x
+    endif
     assign ets_trade_pct = ets_save | times: 100.0 | divided_by: ets_retail | round
   endif
 -%}
@@ -101,7 +119,7 @@
     {% endif %}
   {% endif %}
   {% if is_ets_tile and ets_trade_pct == 0 %}<span class="ets-price__unit"> / m²</span>{% endif %}
-  {% if selected_variant.unit_price and show_unit_price %}
+  {% if selected_variant.unit_price and show_unit_price and ets_x == 1 %}
     {% if use_currency %}
       {% assign unit_price = selected_variant.unit_price | money_with_currency %}
     {% else %}
