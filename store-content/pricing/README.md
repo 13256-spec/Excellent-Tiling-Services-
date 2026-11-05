@@ -255,3 +255,18 @@ the B2B mechanics, the change procedure, approval rules and a cadence. A root `C
 lists the hard rules; `.claude/agents/ets-pricing.md` was updated to the new floors. The re-banding this implies is **proposed
 only** in `reports/trade-band-proposal-2026-11-05.md` (707 products to a smaller discount, 225 bigger, 151 none); nothing in
 Shopify changed. Still open: convert the ex-GST costs (MELA, Eternity, DSA) to inc GST in Shopify; Raimondi/BAT public prices.
+
+## Playbook v2 applied: retail rises and trade re-banding (5 Nov 2026, owner's approval "update the trade and retail pricing accordingly")
+
+Applied to Shopify with the batches in the session scratchpad (prices, `ets.trade_band`, `trade-list-N` collections, B2B price list,
+record metafields), every batch checked for userErrors:
+- **Retail: 609 variants on 264 products raised** (median +6.7%, `reports/retail-price-changes-2026-11-05.csv`). 545 of them are
+  Raimondi (140 products) and BAT (69 products) items with no competitor on file, lifted to cost / 0.675 so a 10% trade band still
+  leaves 25%; 64 were under their floor (25%, MELA 20%). Biggest: Raimondi gauging rake $131.99 -> $166.25, Zoe 85A wet saw
+  $4,798.75 -> $5,687.45, BAT 100mm chrome floor drain $23.60 -> $28.00. No price was lowered.
+- **Trade: 937 products re-banded** (`reports/trade-band-changes-2026-11-05.csv`): 20% -> 15% on 326, 5% -> 10% on 177, 130 MELA
+  products back on 5%, 59 from 25% to 20% (the 25% band is empty now). Final bands: none 203, 5% 171, 10% 316, 15% 406, 20% 98.
+  Only 10 products lost their discount (no cost on a variant, or no band fits).
+- Price list rebuilt: 3,618 fixed prices (new price x band, retail as compare-at); 38 stale fixed prices deleted; `custom.trade_price` /
+  `ets.trade_price` rewritten (4,609 metafields) and removed from the 10 products with no band.
+- `store-pricing-2026-10-03.csv` updated (3,706 rows), PDFs regenerated.
