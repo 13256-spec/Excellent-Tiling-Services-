@@ -278,3 +278,20 @@ record metafields), every batch checked for userErrors:
 - Run notes: several worker batches stopped on a usage limit and were re-run in full; every batch sets fixed values, so re-runs
   are safe. Final check: price list holds 3,622 fixed prices (3,618 live + 4 drafts), every batch returned no userErrors, and a
   trade company sees e.g. MELA FELLI toilet $679.00 -> $577.15 (15%), Time Stone Moon tile $50.10 -> $45.09 (10%).
+## Mirror clearance added (5 Nov 2026, owner's approval "go ahead add them to the store")
+
+DSA/Eternity sent a mirror clearance flyer (`marketing/mirror-clearance-2026-11/dsa-supplier-flyer.png`): 65% off RRP, prices
+ex GST. Taken as our buy price, x 1.1 for cost inc GST (**owner to confirm** whether the 45% account discount also applies).
+Three new products, 7 variants, live on all channels, tagged `Clearance Item` (so they show in the Clearance collection), in
+Mirrors, Plain Mirrors and `trade-list-10`. Priced at the 35% public target with the RRP as compare-at (46% off RRP).
+Zero stock; sells while out of stock (orders placed with DSA as they come in).
+
+| Product | Size | Cost inc GST | Price | Was (RRP) | Trade (10%) | Trade margin |
+|---|---|---|---|---|---|---|
+| Eclipse Round Stick-On | 600 / 800 | $34.65 / $38.15 | $53.30 / $58.65 | $99 / $109 | $47.97 / $52.79 | 27.8% / 27.7% |
+| Capsule Stick-On 450x900 | - | $38.15 | $58.65 | $109 | $52.79 | 27.7% |
+| Rectangular Framed, 750 high | 600 / 750 / 900 / 1200 | $31.19 / $34.65 / $38.15 / $45.16 | $47.95 / $53.30 / $58.65 / $69.45 | $89.10 / $99 / $109 / $129 | $43.16 / $47.97 / $52.79 / $62.51 | 27.7-27.8% |
+
+Trade prices: `b2b_price_list_2026_11.py` and `trade_price_metafields_2026_11.py` run on these 3 products (7 fixed prices, 10
+metafields), no userErrors. Master list: 7 rows appended. No photos yet (upload from this session was blocked); the crops from the
+flyer are in `marketing/mirror-clearance-2026-11/`.
