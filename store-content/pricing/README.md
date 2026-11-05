@@ -191,3 +191,12 @@ every channel so they go live the moment the status is set to Active. Eternity's
 Caliza, Terrazzo Lumina, porcelain/ceramic standard range, DSA toilet/kitchen/basin collections) need a login, so the
 product sheets and photos still have to be downloaded by the owner and added by hand.
 
+
+## Trade prices recorded as metafields (5 Nov 2026)
+
+The owner asked to see each product's trade price inside Shopify. `trade_price_metafields_2026_11.py` read every
+product's `ets.trade_band` and variant prices and wrote, for the 837 products on a trade list (3,320 variants):
+variant metafield `custom.trade_price` (the definition existed, unfilled) = price x (1 - band/100), and a new pinned
+product metafield `ets.trade_price` showing "$x (N% off)" or the range across variants. Products with band 0 got
+nothing. `reports/trade-price-metafields-2026-11-05.csv` lists every value written. These fields are a record for
+reading, not what the checkout discount uses; rerun the script after any price or band change (playbook step 4).

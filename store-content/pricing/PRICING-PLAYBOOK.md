@@ -61,6 +61,8 @@ baths). Those are reported as "can't beat profitably", never matched.
 ## Where things are in Shopify
 
 - Prices and unit costs: on each variant.
+- Trade price, for reading in admin: product metafield `ets.trade_price` ("$x (N% off)", pinned on the product
+  page) and variant metafield `custom.trade_price` (the number). Written by `trade_price_metafields_2026_11.py`.
 - Trade discounts: manual collections `trade-list-5`, `-10`, `-15`, `-20`, `-25`, each with an automatic
   discount "Trade price – N%" limited to the customer segment "Trade customers" (customer tag `trade`).
   Shopify Basic has no B2B price lists, so this is how per-item trade pricing works. To change an item's
@@ -91,6 +93,9 @@ baths). Those are reported as "can't beat profitably", never matched.
    **Also set the product metafield `ets.trade_band` to the same number (0 if no list).** The theme shows the
    trade price and the "N% off" note from this field, not from the collection, so a stale value shows trade
    customers the wrong price.
+   **Then refresh the recorded trade prices** (`trade_price_metafields_2026_11.py`): variant `custom.trade_price`
+   and the product summary `ets.trade_price` are plain records for reading in Shopify admin, not what the
+   discount uses, so they go stale whenever a price or band changes.
 5. Update `store-pricing-2026-10-03.csv`, rerun `price_list_pdf.py`, commit, and tell the owner in plain
    words what changed.
 
