@@ -21,7 +21,7 @@
 <a class="ets-card" href="{{ product.url }}">
   <div class="ets-card__media">
     <div class="ets-card__badges">
-      {%- if product.compare_at_price > product.price -%}<span class="ets-badge">Sale</span>{%- endif -%}
+      {%- if product.compare_at_price > product.price and customer.b2b? != true -%}<span class="ets-badge">Sale</span>{%- endif -%}
       {%- unless product.available -%}<span class="ets-badge ets-badge--light">Enquire</span>{%- endunless -%}
     </div>
     {%- if img != blank -%}

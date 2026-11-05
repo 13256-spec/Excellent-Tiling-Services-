@@ -29,6 +29,8 @@ match, keyed on `customer.b2b?` instead of the old `trade` customer tag:
 - `snippets/ets-pdp-trade.liquid`, `sections/ets-trade-band.liquid`, `sections/ets-trade-apply.liquid`, `snippets/ets-trade-rates.liquid`:
   B2B check and copy ("that is what you pay at checkout" instead of "the discount comes off in the cart"); the trade page shows
   "your account is active" to B2B logins instead of the form.
+- `blocks/_product-card-gallery.liquid` (customised Horizon file, now tracked here) and `snippets/ets-card.liquid`: no "Sale" badge for
+  B2B logins, since every discounted item carries the retail price as compare-at for them.
 - Re-synced from the live theme ("ETS 2026 – Premium v2 (draft)", the published theme) on 5 Nov 2026: the files above.
 
 **To go live: Shopify admin → Online Store → Themes → "ETS 2026 – B2B trade display (draft)" → Publish.** Preview as a trade
