@@ -13,3 +13,4 @@ change still needs the owner's approval first.
 
 | Date received | File | What it is |
 |---|---|---|
+| 2026-11-05 | `eternity-tapware-catalogue-wholesale-2025.pdf` | Wholesale catalogue for the Eternity bathware and tapware range, 2025, 36 pages. |
