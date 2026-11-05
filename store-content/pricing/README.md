@@ -270,3 +270,11 @@ record metafields), every batch checked for userErrors:
 - Price list rebuilt: 3,618 fixed prices (new price x band, retail as compare-at); 38 stale fixed prices deleted; `custom.trade_price` /
   `ets.trade_price` rewritten (4,609 metafields) and removed from the 10 products with no band.
 - `store-pricing-2026-10-03.csv` updated (3,706 rows), PDFs regenerated.
+- **Costs converted to inc GST** in Shopify (owner's go-ahead): 939 variants (814 MELA, 125 Eternity tiles/DSA/house brand) got
+  cost x 1.1, so every unit cost in Shopify is now inc GST and margin can be read straight from it. With the tile costs on the
+  right basis, 20 Eternity tile products moved from a 15% to a 10% band (a 15% band left them just under 25%).
+- Draft products brought into line: Raimondi Bulldog $642.95 -> $697.50 (10% band), Time Stone Sand 15% -> 10% band, the three
+  Eternity sample drafts' costs converted to inc GST. Sigma square nut (re-created today) $10.45 -> $11.15.
+- Run notes: several worker batches stopped on a usage limit and were re-run in full; every batch sets fixed values, so re-runs
+  are safe. Final check: price list holds 3,622 fixed prices (3,618 live + 4 drafts), every batch returned no userErrors, and a
+  trade company sees e.g. MELA FELLI toilet $679.00 -> $577.15 (15%), Time Stone Moon tile $50.10 -> $45.09 (10%).
