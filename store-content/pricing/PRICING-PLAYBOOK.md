@@ -49,18 +49,18 @@ Margin is always **(price - cost) / price with both inc GST**, which equals the 
 
 ## 3. Suppliers and cost basis
 
-**Rule: every unit cost in Shopify is inc GST.** Older MELA, Eternity and DSA costs were stored ex GST; until they are
-converted (`cost_src` in the master list says which), multiply those by 1.1 before any margin sum. The 21 Oct 2026
-Roberts batch (Baron, Sigma spares) is inc GST (owner, 5 Nov 2026).
+**Rule: every unit cost in Shopify is inc GST.** The MELA, Eternity tile and DSA costs that were stored ex GST were
+converted (x 1.1) on 5 Nov 2026, so no basis juggling is needed any more: margin = (price - cost) / price, straight from
+Shopify. The 21 Oct 2026 Roberts batch (Baron, Sigma spares) was confirmed inc GST by the owner the same day.
 
 | Range | Supplier | Cost source | Stored |
 |---|---|---|---|
-| Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt`, "non pallet" price | ex GST (convert) |
-| MELA bathroomware | Bathroom City | Bathroom City list x (1 - SILVER discount) / 1.1 (estimate until invoices confirm) | ex GST (convert) |
+| Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt`, "non pallet" price x 1.1 | inc GST |
+| MELA bathroomware | Bathroom City | Bathroom City list x (1 - SILVER discount) (estimate until invoices confirm) | inc GST |
 | Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | trade-account price x 1.1 | inc GST |
 | BAT, BAT Trims, Raimondi, Panther, NICLIS, Washboy, Atika, ADA | B.A.T. Trims Pty Ltd | price books (Tools Book 1 May 2026, Raimondi May 2026, Trims Book 1 Aug 2026, Project Trims May 2026), NET x 1.1 | inc GST |
 | Sika, house-brand items | owner's invoice | invoice price inc GST | inc GST |
-| DSA bathroomware, Malaga packages | Eternity/DSA | RRP less 45% account discount (estimate) | ex GST (convert) |
+| DSA bathroomware, Malaga packages | Eternity/DSA | RRP less 45% account discount, x 1.1 (estimate) | inc GST |
 | RLA and Gripset | RLA Polymers | **no cost yet**; no trade band until one exists | - |
 
 SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off Bathroom City's GST-inclusive list: vanity
