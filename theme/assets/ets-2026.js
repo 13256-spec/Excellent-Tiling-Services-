@@ -114,14 +114,10 @@
   }
   function refreshCount() {
     fetch(`${window.Shopify && Shopify.routes ? Shopify.routes.root : '/'}cart.js`, { headers: { Accept: 'application/json' } })
-      .then((r) => r.json()).then((c) => setCount(c.item_count)).catch(() => {});
+      // a tile sold in 0.01 m2 units (unit price per 0.01 m2) counts as 1 line, not 288
+      .then((r) => r.json()).then((c) => setCount(c.items.reduce((n, i) => n + (Number(i.unit_price_measurement && i.unit_price_measurement.quantity_value) === 0.01 ? 1 : i.quantity), 0))).catch(() => {});
   }
-  document.addEventListener('cart:update', (e) => {
-    const d = e.detail || {};
-    const n = d.resource && typeof d.resource.item_count === 'number' ? d.resource.item_count
-      : d.data && typeof d.data.itemCount === 'number' ? d.data.itemCount : null;
-    if (n === null) refreshCount(); else setCount(n);
-  });
+  document.addEventListener('cart:update', () => refreshCount());
   document.addEventListener('click', (e) => {
     const link = e.target.closest('[data-ets-cart]');
     if (!link) return;

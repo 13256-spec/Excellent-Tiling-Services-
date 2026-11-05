@@ -70,9 +70,20 @@
             </span>
           </a>
         {%- endif -%}
+        {%- liquid
+          # a tile sold in 0.01 m2 units (tag m2-units) counts as 1 line, not 288
+          assign ets_count = 0
+          for item in cart.items
+            if item.product.tags contains 'm2-units'
+              assign ets_count = ets_count | plus: 1
+            else
+              assign ets_count = ets_count | plus: item.quantity
+            endif
+          endfor
+        -%}
         <a class="ets-tool" href="{{ routes.cart_url }}" data-ets-cart aria-label="Cart">
           {% render 'ets-icon', name: 'bag' %}
-          <span class="ets-tool__count" data-ets-cart-count{% if cart.item_count == 0 %} hidden{% endif %}>{{ cart.item_count }}</span>
+          <span class="ets-tool__count" data-ets-cart-count{% if ets_count == 0 %} hidden{% endif %}>{{ ets_count }}</span>
         </a>
       </div>
     </div>

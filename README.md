@@ -28,7 +28,9 @@ Draft theme **"ETS 2026 – Tiles by exact m2 (draft)"** (id 144880795711, a cop
 - `blocks/_product-card-gallery.liquid`, `snippets/product-card.liquid`: no quick-add for m2 products.
 - `blocks/_featured-product-price.liquid`, `snippets/ets-product-schema.liquid`: per-m² price, JSON-LD UnitPriceSpecification (MTK).
 Tested in preview with the tag on one tile (then removed): calculator 12.5 m² +10% -> 13.75 m², 2.88 m² added as 288,
-cart shows "2.88 m²". Known limits: the cart count bubble counts units (shows 288), and checkout (not editable on Grow)
+cart shows "2.88 m²". Cart count: a tile line counts as 1 (`sections/ets-header.liquid`, `assets/ets-2026.js`, and Horizon's
+`snippets/cart-bubble.liquid`, `snippets/cart-drawer.liquid`, `assets/cart-icon.js`); tested 2.88 m² tile -> 1, plus 2 mirrors -> 3.
+Known limit: checkout (not editable on Grow)
 shows "x 288" with the unit price line "$55.00/m²".
 **To go live: Shopify admin → Online Store → Themes → "Tiles by exact m2" draft → Publish**, then the price step
 (`store-content/pricing/tile_m2_units_2026_11.py ... batches`: prices, costs, weights, unit price measure and the tag
