@@ -310,3 +310,37 @@ applied). Compare-at RRP unchanged.
 | Rectangular 1200 | $45.16 | $69.45 -> $82.10 | $36.94 | $73.89 |
 
 Both trade scripts rerun on the 3 products (7 fixed prices, 10 metafields), no userErrors. Master list rows updated.
+
+## Tiles sold by exact m² (5 Nov 2026, owner's approval "Option 2" / "Yes, apply to tiles")
+
+Shopify only takes whole-number quantities, so the 43 tile products (84 sizes; mosaics stay per sheet) are now sold in
+**0.01 m² units**: 2.88 m² = quantity 288. Theme "ETS 2026 – Tiles by exact m2" (published by the owner the same day) shows
+everything per m² for products tagged `m2-units`. In Shopify each variant now holds:
+- price = price per m² / 100. The price per m² was rounded **down to a whole dollar** so the unit price is whole cents
+  (e.g. $55.20 -> $55.00/m², $0.55 per unit). No customer price went up; all still clear the 25% floor.
+- unit price measure 0.01 m² per unit, shown per 1 m² (checkout shows "$55.00/m²").
+- cost = cost per m² / 100. **Shopify rounds cost to the cent**, so admin margins are off by up to $0.50/m²; the master list
+  keeps the exact per-m² cost. Weight = kg per m² / 100.
+- trade price per unit **rounded up** (ROUND_CEILING) so whole-cent rounding never gives more than the band cap; both
+  trade scripts now do this for `m2-units` products and write `ets.trade_price` per m².
+
+| Price per m² now -> new | Trade per m² -> new | Sizes |
+|---|---|---|
+| $63.70 -> $63 | $54.15 -> $54 | 3 |
+| $55.20 -> $55 | $49.68 -> $50 (10%) / $46.92 -> $47 (15%) | 8 |
+| $51.00 -> $51 | $43.35 -> $44 | 2 |
+| $50.10 -> $50 | $45.09 -> $45 (10%) / $42.59 -> $43 (15%) | 20 |
+| $46.70 -> $46 | $39.70 -> $40 | 20 |
+| $45.80 -> $45 | $38.93 -> $39 | 2 |
+| $42.50 / $42.00 -> $42 | $38.25 / $37.80 -> $38 | 4 |
+| $37.40 -> $37 | $33.66 -> $34 | 19 |
+| $34.00 -> $34 | $30.60 -> $31 | 4 |
+| $28.90 -> $28, $25.30 -> $25 | $24.57 -> $24, $21.51 -> $22 | 2 |
+
+Applied: `tile_m2_units_2026_11.py ... batches` (2 requests, 43 products, no userErrors), B2B price list 84 fixed prices,
+trade metafields (84 variant + 43 product), all no userErrors. Checked: trade company sees BS600331 $0.50 (= $50/m²) with
+$0.55 crossed out; live site shows "$50.00 / m²", calculator 2.88 m² (no extra) -> cart 2.88 m² = $144.00.
+Master list: 81 rows updated (per-m² figures, flag column explains); the 3 draft tiles (Time Stone Sand, Arena Light/Blonde)
+are not in the master list. Proposal: `reports/tile-m2-units-proposal-2026-11-05.csv`.
+**New tiles from now on**: price per m² in whole dollars, then load as above (price/100, cost/100, weight/100, unit price
+measure 0.01 M2 / 1 M2, tag `m2-units`), then both trade scripts.

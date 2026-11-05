@@ -28,6 +28,8 @@ Margin is always **(price - cost) / price with both inc GST**, which equals the 
 | **Trade band cap** | hardware 20%, tiles 15%, MELA 15% | - |
 | **Rounding** | public: down to the next 5c (tiles: 10c); trade: to the cent, half up | $133.35 -> $133.30 |
 
+- **Tiles (not mosaics) are sold in 0.01 m² units** (tag `m2-units`, since 5 Nov 2026): price per m² in whole dollars,
+  Shopify price = that / 100, trade price per unit rounded **up**. See README "Tiles sold by exact m²".
 - **Trade band** is per product, the deepest of 20 / 15 / 10 / 5% (within the cap) that keeps **every** variant above the
   trade floor. If none does, the product has no trade discount. A product with any variant lacking a cost gets no band.
 - Public margin under 25% (price-matched lines under 20%) is a flag: raise the price to the floor at the next review,

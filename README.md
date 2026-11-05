@@ -13,7 +13,7 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
-## Tiles sold by exact m² (5 Nov 2026, draft theme, waiting to be published)
+## Tiles sold by exact m² (5 Nov 2026, published the same day; tile prices switched the same day)
 
 Owner chose "Option 2": tiles (not mosaics, which are sold by the sheet) are sold in 0.01 m² units, so 2.88 m² is
 quantity 288. Shopify carts only take whole numbers, so each variant's price becomes price per 0.01 m² (whole-dollar
