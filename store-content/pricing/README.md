@@ -295,3 +295,18 @@ Zero stock; sells while out of stock (orders placed with DSA as they come in).
 Trade prices: `b2b_price_list_2026_11.py` and `trade_price_metafields_2026_11.py` run on these 3 products (7 fixed prices, 10
 metafields), no userErrors. Master list: 7 rows appended. No photos yet (upload from this session was blocked); the crops from the
 flyer are in `marketing/mirror-clearance-2026-11/`.
+
+## Mirror clearance raised to 45% (5 Nov 2026, owner chose "raise prices to 45%")
+
+Owner confirmed the cost: flyer price + GST ($31.50 -> $34.65). Public price raised from the 35% target to cost / 0.55 (45%
+margin), rounded down to 5c; trade band kept at 10% (trade margin ~38.9%; a 20% band would also clear the 25% floor, not
+applied). Compare-at RRP unchanged.
+
+| Variant | Cost | Old -> new price | Profit/sale | Trade (10%) |
+|---|---|---|---|---|
+| Rectangular 600 | $31.19 | $47.95 -> $56.70 | $25.51 | $51.03 |
+| Eclipse 600, Rectangular 750 | $34.65 | $53.30 -> $63.00 | $28.35 | $56.70 |
+| Eclipse 800, Capsule, Rectangular 900 | $38.15 | $58.65 -> $69.35 | $31.20 | $62.42 |
+| Rectangular 1200 | $45.16 | $69.45 -> $82.10 | $36.94 | $73.89 |
+
+Both trade scripts rerun on the 3 products (7 fixed prices, 10 metafields), no userErrors. Master list rows updated.
