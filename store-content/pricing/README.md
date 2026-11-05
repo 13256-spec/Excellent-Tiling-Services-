@@ -246,3 +246,12 @@ The store moved its trade pricing onto it:
 Still to do: the theme's trade features (`ets-trade-rate`, `ets-pdp-trade`, header badge, the "Trade account" page text) key
 off the `trade` tag and will not show for B2B logins; the storefront already shows the catalog price natively once the
 contact logs in, so those sections should be re-pointed at `customer.b2b?` / `customer.current_company` or simplified.
+
+## Playbook v2: margin policy and rules book (5 Nov 2026)
+
+The owner asked for a proper margin policy and a rules book for Claude Code. `PRICING-PLAYBOOK.md` was rewritten (v2): one
+cost basis (inc GST), public floor 25% / target 35% (price-matched lines 20%), trade floor 25% (MELA 20%), band caps 20/15/15,
+the B2B mechanics, the change procedure, approval rules and a cadence. A root `CLAUDE.md` now points every session at it and
+lists the hard rules; `.claude/agents/ets-pricing.md` was updated to the new floors. The re-banding this implies is **proposed
+only** in `reports/trade-band-proposal-2026-11-05.md` (707 products to a smaller discount, 225 bigger, 151 none); nothing in
+Shopify changed. Still open: convert the ex-GST costs (MELA, Eternity, DSA) to inc GST in Shopify; Raimondi/BAT public prices.

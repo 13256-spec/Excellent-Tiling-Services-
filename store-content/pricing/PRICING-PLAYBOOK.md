@@ -1,116 +1,148 @@
-# ETS pricing playbook
+# ETS pricing playbook (rules book)
 
-How Excellent Tiling Services prices every product, where the data lives, and how to change prices
-safely. Written for the owner and for the `ets-pricing` agent (`.claude/agents/ets-pricing.md`).
+How Excellent Tiling Services prices every product, where the data lives in Shopify and in this repo, and how to
+change prices safely. Written for the owner and for every Claude Code session (`CLAUDE.md` points here; the
+`ets-pricing` agent follows it). **Version 2, 5 Nov 2026**: margin policy rewritten after the move to native B2B.
+The dated history of what was done and why is in `README.md` next to this file.
 
-## The goal
+## 1. Goals, in order
 
-1. **Public price**: cheaper than the competitor that sells the same item, but always profitable.
-   **Exception, MELA (20 Oct 2026):** Bathroom City is our MELA supplier and we are not allowed to advertise
-   MELA below their price. MELA public prices are set **equal to Bathroom City's current price**, never under.
-2. **Trade price**: cheaper again for approved trade accounts, still profitable.
-3. **Profit first**: if the competitor is below our profit floor, we don't follow them down.
+1. **Profit first.** Every price, public or trade, must clear its floor. If a competitor is below our floor, we do not follow.
+2. **Public price**: at or a little under the competitor that sells the same item. MELA is the exception: equal to
+   Bathroom City's price, never under (supplier condition, owner 20 Oct 2026).
+3. **Trade price**: a real but affordable discount for approved trade accounts, charged through Shopify B2B.
+4. **Simple to run**: one cost basis, one set of formulas, scripts for the bulk work, the owner approves every change.
 
-## Suppliers and costs
+## 2. The numbers (all prices inc GST)
 
-| Range | Supplier | Cost source | Cost basis |
-|---|---|---|---|
-| Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt` (5 Oct 2026 wholesale PDF), "non pallet" price | ex GST |
-| MELA bathroomware | via Bathroom City | Bathroom City list price × (1 − SILVER trade discount) ÷ 1.1 | ex GST |
-| Roberts Designs, Maxisil | Roberts Designs | unit cost in Shopify = trade-account price x 1.1 (owner, 14 Oct 2026: the account prices did not include GST) | as stored; use the floor formula as is |
-| Sigma, Siri, Barwalt, Baron | Roberts Designs | unit cost already in Shopify (trade-account price, 28 Sep 2026) | ex GST |
-| BAT, Click (a few items) | – | **no cost recorded**, prices left alone | – |
-| RLA and Gripset (69 products, live 29 Oct 2026, 0 stock, not purchasable) | RLA Polymers | **no cost yet** (trade account pending); priced a little under AU retail, see `../supplier-sync/rla-market-prices-2026-10-28.csv`. No trade band until a cost exists. | – |
+Margin is always **(price - cost) / price with both inc GST**, which equals the margin ex GST. Markup is cost / (1 - margin).
 
-SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off the GST-inclusive list price:
-vanity package & handles 25%, basins 30%, tapware 40%, accessories 35%, mirrors & PORTER cabinets 25%,
-inset baths (BOSTON, KASTEN) 20%, freestanding baths 40%, shower screens 40%, toilets 40%, bidet seat 20%,
-sinks 40%, pop-up wastes 40%, heated towel rails 30%, floor waste/channel 40%, kitchen/laundry cabinets 20%.
-Back-to-wall and corner baths (KORI, MIZO, NOOK) are **not on the sheet**; 20% is assumed until the owner
-confirms. MELA towel rails are non-heated, so they use accessories 35%.
-
-Delivery: the supplier's delivery charge is not added to costs; bulky-item delivery is charged to the
-customer at checkout (owner, 3 Oct 2026).
-
-## Competitors
-
-| Competitor | What they sell | How we read prices |
+| Rule | Formula | Example (cost $100 inc GST) |
 |---|---|---|
-| Bathroom City (bathroom-city.com.au) | MELA supplier and the only other stockist; **we must not advertise below their price** | public `products.json`; matched per variant in `mela-pricing-2026-10-01.csv` (`bc_title` + `bc_sku`) |
-| B&B Hardware, Maddington (bbhardware.com.au) | tiling hardware, ~50 identical items | public `products.json`; matched by hand in `BB_MATCH` (`reprice_2026_10.py`) |
-| Terweys Total Hardware, Cannington | tiling hardware | **no online prices**; phone (08) 9451 9599 for spot checks |
-| Eternity Tiles' own shop and WA stockists | tiles | sell at Eternity RRP |
+| **Cost** | supplier price inc GST. Ex-GST sheets x 1.1 | $90.91 ex -> $100.00 |
+| **Public floor** (minimum) | cost / 0.75 (25% margin) | $133.35 |
+| **Public target** (new or uncontested items) | cost / 0.65 (35% margin) | $153.85 |
+| **Public floor, price-matched lines** (MELA, items B&B Hardware also sells) | cost / 0.80 (20% margin) | $125.00 |
+| **Trade floor, hardware and tiles** | trade price >= cost / 0.75 (25% margin) | $133.35 |
+| **Trade floor, MELA and price-matched lines** | trade price >= cost / 0.80 (20% margin) | $125.00 |
+| **Trade band cap** | hardware 20%, tiles 15%, MELA 15% | - |
+| **Rounding** | public: down to the next 5c (tiles: 10c); trade: to the cent, half up | $133.35 -> $133.30 |
 
-Competitor sale prices can be below our cost (e.g. Bathroom City clearance on gun-metal finishes, NOOK/KORI
-baths). Those are reported as "can't beat profitably", never matched.
+- **Trade band** is per product, the deepest of 20 / 15 / 10 / 5% (within the cap) that keeps **every** variant above the
+  trade floor. If none does, the product has no trade discount. A product with any variant lacking a cost gets no band.
+- Public margin under 25% (price-matched lines under 20%) is a flag: raise the price to the floor at the next review,
+  unless it is a deliberate match the owner has approved.
+- Why these numbers: 25% at trade covers card fees (about 2%), freight on bulky items we absorb, returns and the time
+  spent on trade quotes, and still leaves a profit. 20% was the floor until 5 Nov 2026; the owner found it too thin
+  (median trade margin was 24%, a fifth of items sat right on 20%).
 
-## The rules (all prices inc GST, costs ex GST)
+### Competitor rules
 
-- **Public floor** = cost × 1.1 × 1.25 (at least 20% of the selling price is profit).
-- **Trade floor** (owner, 14 Oct 2026): the trade price must leave **20% margin ex GST**, i.e. trade price ≥ cost ÷ 0.8 × 1.1. (Until 14 Oct it was cost × 1.1 × 1.15, about 13%, which the owner found too cheap.)
-- **MELA** = **the same as Bathroom City's current price** (owner, 20 Oct 2026: supplier does not allow us to
-  advertise cheaper). Where Bathroom City's clearance price is below our public floor we stay above them.
-  (Until 20 Oct it was 5% under Bathroom City.)
-- **Hardware B&B also sells** = 5% under B&B, rounded down to 5c.
-- **Other hardware** = 10% under the supplier RRP (our old price), rounded down to 5c.
-- **Tiles** = 15% under Eternity RRP, rounded down to 10c (`eternity_2026_10.py`).
-- Never undercut below the public floor. Prices below the floor are raised only with the owner's OK.
-- **Trade bands** (per product, not per variant): the deepest of 25 / 20 / 15 / 10 / 5% that keeps every
-  variant above the trade floor. Tiles max 15%. A product with no band that works gets no trade discount (it is in none of the `trade-list-N` collections).
+| Line | Rule |
+|---|---|
+| MELA (Bathroom City supplies us) | public price = Bathroom City's current price, never lower. If their clearance is under our floor, we stay at the floor. |
+| Hardware that B&B Hardware (Maddington) also sells | 5% under B&B, rounded down to 5c, never under the floor. ~50 items, matched in `BB_MATCH` in `reprice_2026_10.py`. |
+| Roberts Designs lines | 10% under Roberts' own retail unless a closer competitor is on file (`roberts-designs-pricing.csv`). |
+| Eternity tiles | 15% under Eternity RRP, rounded down to 10c (Eternity and WA stockists sell at RRP). |
+| Everything else (BAT, Raimondi, RLA, house brand) | the public target (35%) unless a competitor is on file, then 5% under it. |
+| Competitor clearance below our cost | reported, never matched. |
 
-## Where things are in Shopify
+## 3. Suppliers and cost basis
 
-- Prices and unit costs: on each variant.
-- Trade price, for reading in admin: product metafield `ets.trade_price` ("$x (N% off)", pinned on the product
-  page) and variant metafield `custom.trade_price` (the number). Written by `trade_price_metafields_2026_11.py`.
-- **Trade pricing is native B2B (since 5 Nov 2026, Shopify Grow plan).** One B2B market "Trade accounts (B2B)"
-  (all company locations) carries the catalog "Trade price list" with the price list "Trade prices": a fixed price
-  per variant = public price x (1 - `ets.trade_band`/100). A trade customer is a **company** (Customers -> Companies)
-  with a location and a contact; when they log in they see and pay the trade prices on every channel, no tag, no
-  discount code. Products with band 0 have no fixed price and sell at the public price. Grow allows 3 active B2B
-  catalogs, attached to the market, not to single companies.
-- The old scheme is kept only as the band record: manual collections `trade-list-5` ... `-25` and the product
-  metafield `ets.trade_band` still say which band a product is in, and `custom.trade_price` / `ets.trade_price`
-  show the number. The five automatic discounts "Trade price – N%" and the "Trade customers" segment are deleted;
-  the customer tag `trade` is no longer used for pricing.
-- Old `trade-band-*` collections and `trade-N` product tags are no longer used.
-- **Approving a trade applicant** (tag `trade-applicant`, from the website form): Customers -> Companies -> Add
-  company: business name, the applicant as contact (their existing customer email), one location with their
-  address, payment terms "No payment terms" (pay at checkout) unless the owner agrees credit terms (Net 7/15/30
-  are available per location). The company location joins the Trade market automatically. Then remove the
-  `trade-applicant` tag. Nothing else: no `trade` tag, no discount. Pickup-only accounts: make the location's shipping
-  address the showroom (17A Olga Road, Maddington WA 6109) and untick "editable shipping address" (see Tom Derham Tiling).
-  The customer logs in with their email (one-time code, new customer accounts); no invitation is needed.
+**Rule: every unit cost in Shopify is inc GST.** Older MELA, Eternity and DSA costs were stored ex GST; until they are
+converted (`cost_src` in the master list says which), multiply those by 1.1 before any margin sum. The 21 Oct 2026
+Roberts batch (Baron, Sigma spares) is inc GST (owner, 5 Nov 2026).
 
-## Files
+| Range | Supplier | Cost source | Stored |
+|---|---|---|---|
+| Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt`, "non pallet" price | ex GST (convert) |
+| MELA bathroomware | Bathroom City | Bathroom City list x (1 - SILVER discount) / 1.1 (estimate until invoices confirm) | ex GST (convert) |
+| Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | trade-account price x 1.1 | inc GST |
+| BAT, BAT Trims, Raimondi, Panther, NICLIS, Washboy, Atika, ADA | B.A.T. Trims Pty Ltd | price books (Tools Book 1 May 2026, Raimondi May 2026, Trims Book 1 Aug 2026, Project Trims May 2026), NET x 1.1 | inc GST |
+| Sika, house-brand items | owner's invoice | invoice price inc GST | inc GST |
+| DSA bathroomware, Malaga packages | Eternity/DSA | RRP less 45% account discount (estimate) | ex GST (convert) |
+| RLA and Gripset | RLA Polymers | **no cost yet**; no trade band until one exists | - |
+
+SILVER trade discounts (owner's sheet `2026_NEW_SILVER_TRADE_PRICE.pdf`), off Bathroom City's GST-inclusive list: vanity
+package & handles 25%, basins 30%, tapware 40%, accessories 35%, mirrors & PORTER cabinets 25%, inset baths 20%,
+freestanding baths 40%, shower screens 40%, toilets 40%, bidet seat 20%, sinks 40%, pop-up wastes 40%, heated towel rails
+30%, floor waste/channel 40%, kitchen/laundry cabinets 20%. Back-to-wall and corner baths are not on the sheet: 20% assumed.
+
+Delivery: the supplier's delivery charge is not added to costs; bulky-item delivery is charged to the customer at
+checkout (owner, 3 Oct 2026). When the same part is sold by two suppliers, the cheaper one is the recorded supplier
+(`ets.supplier`) and its code is the SKU; the other code goes in the description.
+
+## 4. Where things live
+
+**Shopify**
+- Price and unit cost: on each variant. Supplier: product metafield `ets.supplier`.
+- Trade pricing: Shopify B2B. Market **Trade accounts (B2B)** (all company locations) -> catalog **Trade price list** ->
+  price list **Trade prices** with a fixed price per variant (= public price x (1 - band/100)) and the public price as
+  compare-at. Band-0 products have no fixed price. A trade customer is a **company** with a location and a contact.
+- Band record: product metafield `ets.trade_band` (0/5/10/15/20) and the manual collection `trade-list-N` the product sits in
+  (one only). The theme and the scripts read the metafield; the collections are the owner's view in admin.
+- Read-only records: variant `custom.trade_price` and product `ets.trade_price` ("$x (N% off)"), for looking up in admin.
+- Grow plan: up to 3 active B2B catalogs, attached to markets, not to single companies. Deposits need Plus.
+- Nothing else sets trade prices: no automatic discounts, no customer tags, no discount codes.
+
+**Repo** (`store-content/pricing/`)
 
 | File | What it is |
 |---|---|
-| `store-pricing-2026-10-03.csv` | **Master price list**: every active variant with old price, new price, cost, margins, trade band, trade price, competitor price, flags. Update it whenever prices change. |
+| `store-pricing-2026-10-03.csv` | **Master price list**: every variant with price, cost, cost source, margins, band, trade price, competitor. Update whenever prices change. |
 | `reprice_2026_10.py` | Builds the master list from a Shopify export + competitor feeds. Holds `BB_MATCH`. |
-| `monitor_competitors.py` | Weekly check (public feeds only, changes nothing) → `reports/price-check-YYYY-MM-DD.md`. |
-| `price_list_pdf.py` | PDFs in `price-lists/`: retail, trade, and **owner-only** cost & price list (never send to customers). |
-| `eternity_2026_10.py`, `eternity_new_products_2026_10.py` | Eternity tile pricing and new tile products. |
-| `mela-pricing-2026-10-01.csv` | MELA ↔ Bathroom City matching + cost estimates. |
-| `../supplier-sync/rla-market-prices-2026-10-28.csv` | RLA / Gripset drafts: proposed price per variant with the competitor prices it came from and a `price_check` flag. Add to the master list once costs exist. |
+| `monitor_competitors.py` | Weekly competitor check (public feeds only, changes nothing) -> `reports/price-check-YYYY-MM-DD.md`. |
+| `trade_price_metafields_2026_11.py` | Rewrites `custom.trade_price` / `ets.trade_price` from the live price x band. |
+| `b2b_price_list_2026_11.py` | Rewrites the B2B price list fixed prices (what trade accounts pay). |
+| `price_list_pdf.py` | PDFs in `price-lists/`: retail, trade, and the **owner-only** cost list (never send to customers). |
+| `reports/` | Dated audits and proposals. Latest trade check: `trade-price-check-2026-11-05.*`; band proposal under these rules: `trade-band-proposal-2026-11-05.*`. |
+| `eternity_*.py`, `bat_*.py`, `audit_roberts_*.py`, `mela-pricing-*.csv` | Supplier-specific loaders and matches. |
 
-## Changing prices safely (for the agent)
+## 5. Changing prices safely (the procedure)
 
-1. Run `monitor_competitors.py`; read the report.
-2. Propose changes in a table (item, old, new, competitor, cost, profit %, trade band). **Get the owner's
-   explicit approval before any price write.**
-3. Apply with `productVariantsBulkUpdate`, many products per request using GraphQL aliases. Keep each
-   request under 16,384 characters. `bulkOperationRunMutation` is blocked in this setup.
-4. If a trade band changes, move the product between `trade-list-N` collections
-   (`collectionRemoveProducts` / `collectionAddProducts`).
-   **Also set the product metafield `ets.trade_band` to the same number (0 if no list).** The theme shows the
-   trade price and the "N% off" note from this field, not from the collection, so a stale value shows trade
-   customers the wrong price.
-   **Then refresh the trade prices themselves**: `b2b_price_list_2026_11.py` rewrites the fixed prices in the B2B
-   price list (what trade accounts pay), and `trade_price_metafields_2026_11.py` the record fields `custom.trade_price`
-   and `ets.trade_price`. Both go stale whenever a public price or a band changes. A product whose band drops to 0
-   also needs its fixed prices deleted from the price list (`priceListFixedPricesDelete`).
-5. Update `store-pricing-2026-10-03.csv`, rerun `price_list_pdf.py`, commit, and tell the owner in plain
-   words what changed.
+1. **Read first**: this file, the master list, the latest report.
+2. **Propose**: a table per item (old price, new price, competitor, cost inc GST, public margin, band, trade price, trade
+   margin). **Get the owner's explicit "yes" before any write.** Proposals are free; writes need approval.
+3. **Apply, in this order**, each step verified before the next:
+   1. Variant prices and costs: `productVariantsBulkUpdate`, several products per request with aliases, under 16,384
+      characters per request (`bulkOperationRunMutation` is blocked).
+   2. Band: set `ets.trade_band` and move the product between `trade-list-N` collections.
+   3. Trade prices: rerun `b2b_price_list_2026_11.py` (fixed prices + compare-at). Products whose band dropped to 0:
+      `priceListFixedPricesDelete` for their variants.
+   4. Records: rerun `trade_price_metafields_2026_11.py`.
+   5. Verify with `contextualPricing` for a company location on a few changed variants.
+4. **Record**: update the master list, rerun `price_list_pdf.py`, add a dated entry to `README.md`, commit and push.
+5. **Tell the owner** in plain words: what changed, how many items, the biggest moves, anything left for their decision.
 
-Shopify quirk: when changing a product's SEO title, always send the meta description too, or it is wiped.
+Shopify quirks: when changing a product's SEO title, always send the meta description too, or it is wiped. Metafield
+and price list writes take 25 / 100 items per call. Queries return at most 100 items per page.
+
+## 6. Trade accounts (B2B)
+
+- **Approve an applicant** (customer tagged `trade-applicant` from the website form): Customers -> Companies -> Add company:
+  business name, ABN as tax ID, the applicant's existing email as the contact (assign as Location admin and main contact),
+  one location with their address. Payment terms: **none** (card at checkout) for every new account. Net 7/15/30 only after a
+  credit application and a few paid orders, and turn on "submit orders as drafts" for any account with credit. Then remove
+  the `trade-applicant` tag. The location joins the Trade market automatically.
+- Pickup-only accounts: set the location's shipping address to the showroom and untick "editable shipping address".
+- The customer logs in with their email and a one-time code; no invitation needed. The storefront then shows the trade price
+  with retail crossed out, a "Trade" chip and a corner pill, and hides every "apply for trade" link.
+
+## 7. Cadence
+
+| When | What |
+|---|---|
+| Weekly | `monitor_competitors.py`; report breaches (MELA under Bathroom City, B&B now cheaper, items under floor). |
+| Monthly | Trade margin check (the `trade-price-check` script logic): every banded variant against the floors and caps. |
+| New supplier price list | Load costs (inc GST), recompute floors, propose price and band changes, apply after approval. |
+| New product | Cost inc GST, public price by section 2, band by section 2, both metafields, collection, price list row, master list row. |
+| Any price or band change | Steps 3.3 and 3.4 above, always. Stale trade prices are the main failure mode. |
+
+## 8. Decisions log (owner)
+
+- 3 Oct 2026: store-wide pricing applied; trade via tag + discounts (superseded).
+- 14 Oct 2026: trade floor 20% (superseded 5 Nov).
+- 20 Oct 2026: MELA equal to Bathroom City, never under.
+- 23 Oct 2026: Roberts repricing "make money but a tiny bit cheaper than the competitor".
+- 5 Nov 2026: B2B on Shopify Grow; this policy (floors 25/20, caps 20/15/15, one cost basis). Band re-set under it is
+  proposed in `reports/trade-band-proposal-2026-11-05.md`, waiting for the owner's approval.
