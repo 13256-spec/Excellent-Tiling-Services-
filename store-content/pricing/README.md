@@ -200,3 +200,14 @@ variant metafield `custom.trade_price` (the definition existed, unfilled) = pric
 product metafield `ets.trade_price` showing "$x (N% off)" or the range across variants. Products with band 0 got
 nothing. `reports/trade-price-metafields-2026-11-05.csv` lists every value written. These fields are a record for
 reading, not what the checkout discount uses; rerun the script after any price or band change (playbook step 4).
+
+## Sigma 108362 nut: duplicate removed (5 Nov 2026)
+
+Roberts Designs lists the same Sigma part (art. 108362, M8 square nut for the swivel-bar locking lever) under two codes,
+RDXA3649 ($11.70 retail, $6.50 trade ex GST) and RDXA3580 ($7.60 retail), both with only a placeholder photo on Roberts' site.
+The import made two products. The RDXA3580 one ("M8 Square Nut", `no-photo`, no trade band) had been deleted on 6 Oct for having
+no photo and came back with the 21 Oct Roberts re-import; it was deleted again on the owner's instruction
+(`../deleted-duplicate-sigma-108362-2026-11-05.json` is the backup). Kept: "Sigma 108362 M8 Nut for Locking Bolt"
+(`gid://shopify/Product/8403243204671`, RDXA3649, $10.50, trade band 10%, photo from BAT's SIG-108362 listing), with all three
+supplier codes now in its description. BAT also sells it: SIG-108362 at $5.85 NET ex GST (Tools Book 1, May 2026), cheaper than
+Roberts, so buy it there; the recorded cost ($7.15, Roberts) was left for the owner to decide. Its stock reads -2 (oversold).
