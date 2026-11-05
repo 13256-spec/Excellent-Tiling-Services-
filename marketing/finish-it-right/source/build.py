@@ -145,6 +145,29 @@ posts.update({
  f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">Shop via the link in our bio</h2></div>'+LOGO('4/5','7/8'),
 })
 
+# Mirror clearance, Nov 2026 (photos live in marketing/mirror-clearance-2026-11)
+MC='img/../../../mirror-clearance-2026-11/'
+def mcrow(rows): return ''.join(f'<tr><td>{a}</td><td style="text-align:right;color:#7a828b;font-weight:420"><s>RRP {b}</s></td><td>{c}</td></tr>' for a,b,c in rows)
+def mctext(c,r,name,rows):
+    return f'<div class="t" {a(c,r)} style="padding:28px 36px"><h2 style="font-size:40px">{name}</h2><table style="font-size:30px;margin-top:10px;table-layout:fixed"><col style="width:42%"><col style="width:33%"><col style="width:25%">{mcrow(rows)}</table></div>'
+def mcbody(o):
+    R=lambda n: f'{n+o}/{n+o+1}'
+    return (
+     f'<div class="t ph" {a("1/2",R(2))}><img src="{MC}eclipse-stick-on-mirror.jpg"></div>'+
+     mctext('2/5',R(2),'Eclipse round stick-on mirror, 5 mm',[('600 mm','$99','$63.00'),('800 mm','$109','$69.35')])+
+     f'<div class="t ph" {a("1/2",R(3))}><img src="{MC}capsule-stick-on-mirror.jpg"></div>'+
+     mctext('2/5',R(3),'Capsule stick-on mirror',[('450 x 900 mm','$109','$69.35')])+
+     f'<div class="t ph" {a("1/2",R(4))}><img style="object-fit:contain;background:#7d7d7d" src="{MC}rectangular-mirror.jpg"></div>'+
+     mctext('2/5',f'{4+o}/{6+o}','Rectangular framed mirror, 750 mm high, 34 mm thick',[('600 mm','$89.10','$56.70'),('750 mm','$99','$63.00'),('900 mm','$109','$69.35'),('1200 mm','$129','$82.10')])+
+     f'<div class="t blue" {a("1/2",R(5))} style="padding:26px"><p class="small">Prices inc GST. Pick up free in Maddington, or we deliver.</p></div>')
+posts.update({
+'MC-mirror-clearance':
+ f'<div class="t navy" {a("1/4","1/2")}><h1 style="font-size:84px">Mirror clearance</h1><p class="bot">Up to 36% off RRP. Limited stock, while stocks last.</p></div>'+LOGO('4/5','1/2')+mcbody(0),
+'S-mirror-clearance':
+ f'<div class="t navy" {a("1/5","1/3")}><h1 style="font-size:150px">Mirror clearance</h1><p class="bot" style="font-size:40px">Up to 36% off RRP. Limited stock, while stocks last.</p></div>'+mcbody(1)+
+ f'<div class="t deep" {a("1/4","7/8")}><h2 style="font-size:44px">Clearance section at excellenttilingservices.com</h2></div>'+LOGO('4/5','7/8'),
+})
+
 os.makedirs(f'{S}/out',exist_ok=True)
 import sys
 only=sys.argv[1:]
