@@ -1,7 +1,7 @@
 """Write the trade price into Shopify metafields (5 Nov 2026).
 
 Input: pages/p*.json, the saved pages of this Admin GraphQL query (100 products a page, follow endCursor):
-  products { id title status band: metafield(namespace:"ets",key:"trade_band"){value}
+  products { id title status tags band: metafield(namespace:"ets",key:"trade_band"){value}
              variants(first:100){ nodes { id title sku price } } }
 Output: reqNN.graphql, one metafieldsSet request each (aliases of 25, under 16k chars) to run with the
 Shopify MCP graphql_mutation tool, and trade-price-metafields.csv (the report).
@@ -12,7 +12,7 @@ Products with band 0 are skipped. Re-run after any price or band change (playboo
 """
 
 import json, glob
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import Decimal, ROUND_HALF_UP, ROUND_CEILING
 C = Decimal("0.01")
 rows, mfs, seen = [], [], set()
 for f in sorted(glob.glob("pages/p*.json")):
@@ -22,13 +22,16 @@ for f in sorted(glob.glob("pages/p*.json")):
         band = int((p["band"] or {}).get("value") or 0)
         if not band: continue
         tps = []
+        m2 = "m2-units" in p.get("tags", [])   # tiles sold per 0.01 m2: same rounding as b2b_price_list (up)
         for v in p["variants"]["nodes"]:
-            price = Decimal(v["price"]); tp = (price * (100 - band) / 100).quantize(C, ROUND_HALF_UP)
+            price = Decimal(v["price"]); tp = (price * (100 - band) / 100).quantize(C, ROUND_CEILING if m2 else ROUND_HALF_UP)
             tps.append(tp)
             mfs.append({"ownerId": v["id"], "namespace": "custom", "key": "trade_price", "type": "number_decimal", "value": str(tp)})
             rows.append((p["title"], v["title"], v.get("sku",""), p["status"], str(price), band, str(tp)))
         lo, hi = min(tps), max(tps)
+        if m2: lo, hi = lo * 100, hi * 100       # show the per-m2 trade price in admin
         txt = f"${lo:,.2f}" if lo == hi else f"${lo:,.2f} – ${hi:,.2f}"
+        if m2: txt += " per m²"
         mfs.append({"ownerId": p["id"], "namespace": "ets", "key": "trade_price", "type": "single_line_text_field", "value": f"{txt} ({band}% off)"})
 assert all(Decimal(m["value"]) > 0 for m in mfs if m["key"] == "trade_price" and m["namespace"] == "custom")
 import csv

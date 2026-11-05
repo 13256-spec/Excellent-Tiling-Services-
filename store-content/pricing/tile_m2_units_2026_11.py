@@ -31,3 +31,33 @@ print("eff disc > 15 (cap):",[(r['sku'],r['eff_disc']) for r in rows if r['eff_d
 print("rounded UP for floor:",[(r['sku'],str(r['old_m2']),str(r['new_m2'])) for r in rows if r['change']>0])
 from collections import Counter
 print(Counter((str(r['old_m2']),str(r['new_m2']),r['band'],str(r['trade_m2'])) for r in rows))
+
+# ---- apply batches (run after the owner approves; theme draft "Tiles by exact m2" must be live first) ----
+# One productVariantsBulkUpdate per product (aliases), + tagsAdd "m2-units" (the theme's switch to m² display).
+# Per 0.01 m2 unit: price = new_m2/100, cost = cost_m2/100 (4 dp), weight = kg_per_m2/100, unit price shown per 1 m2.
+def batches(src, out_dir="m2_batches"):
+    import os
+    os.makedirs(out_dir, exist_ok=True)
+    nodes = [p for p in json.load(open(src))["data"]["products"]["nodes"] if "Mosaic" not in p["title"]]
+    parts = []
+    for i, p in enumerate(nodes):
+        vs = []
+        for v in p["variants"]["nodes"]:
+            price = D(v["price"]); cost = D(v["inventoryItem"]["unitCost"]["amount"])
+            new, unit, _ = plan(price, cost, 0)
+            w = v["inventoryItem"]["measurement"]["weight"]
+            vs.append('{id:"%s",price:"%s",showUnitPrice:true,unitPriceMeasurement:{quantityValue:0.01,quantityUnit:M2,referenceValue:1,referenceUnit:M2},inventoryItem:{cost:"%s",measurement:{weight:{value:%s,unit:%s}}}}'
+                      % (v["id"], unit, (cost / 100).quantize(D("0.0001")), round(w["value"] / 100, 4), w["unit"]))
+        parts.append('p%d: productVariantsBulkUpdate(productId:"%s",variants:[%s]){userErrors{field message}} t%d: tagsAdd(id:"%s",tags:["m2-units"]){userErrors{message}}'
+                     % (i, p["id"], ",".join(vs), i, p["id"]))
+    reqs, cur = [], []
+    for part in parts:
+        if len("mutation{" + " ".join(cur + [part]) + "}") > 15500:
+            reqs.append("mutation{" + " ".join(cur) + "}"); cur = []
+        cur.append(part)
+    reqs.append("mutation{" + " ".join(cur) + "}")
+    for n, r in enumerate(reqs, 1):
+        open(f"{out_dir}/m2_{n:02d}.graphql", "w").write(r)
+    print(len(parts), "products,", len(reqs), "requests")
+if len(sys.argv) > 2 and sys.argv[2] == "batches":
+    batches(sys.argv[1])

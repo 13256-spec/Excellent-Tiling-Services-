@@ -7,13 +7,13 @@ Shopify Grow has native B2B (companies, one B2B market, up to 3 catalogs). The t
 Fixed price = public price x (1 - ets.trade_band/100), to the cent, half up: the same number as the variant
 metafield custom.trade_price. Compare-at = the public price (shown crossed out to trade logins). Products with band 0 have no fixed price, so trade accounts pay the public price.
 
-Input: pages/p*.json, saved pages of the products query in trade_price_metafields_2026_11.py.
+Input: pages/p*.json, saved pages of the products query in trade_price_metafields_2026_11.py (include `tags`).
 Output: pl/plNN.graphql, one priceListFixedPricesAdd per file (90 prices, < 16k chars), to run with the
 Shopify MCP graphql_mutation tool. Re-run after any price or band change. To remove a price that no longer
 applies (band dropped to 0) use priceListFixedPricesDelete with the variant ids.
 """
 import json, glob, os
-from decimal import Decimal, ROUND_HALF_UP
+from decimal import Decimal, ROUND_HALF_UP, ROUND_CEILING
 PRICE_LIST = "gid://shopify/PriceList/17250287679"
 C = Decimal("0.01"); prices = []; seen = set()
 for f in sorted(glob.glob("pages/p*.json")):
@@ -23,7 +23,9 @@ for f in sorted(glob.glob("pages/p*.json")):
         band = int((p["band"] or {}).get("value") or 0)
         if not band: continue
         for v in p["variants"]["nodes"]:
-            tp = (Decimal(v["price"]) * (100 - band) / 100).quantize(C, ROUND_HALF_UP)
+            # m2-units tiles (price per 0.01 m2): round UP so the whole-cent rounding never gives more than the band
+            rnd = ROUND_CEILING if "m2-units" in p.get("tags", []) else ROUND_HALF_UP
+            tp = (Decimal(v["price"]) * (100 - band) / 100).quantize(C, rnd)
             # compareAtPrice = the public price, so trade logins see it crossed out next to their price
             prices.append('{variantId: "%s", price: {amount: "%s", currencyCode: AUD}, compareAtPrice: {amount: "%s", currencyCode: AUD}}' % (v["id"], tp, Decimal(v["price"]).quantize(C)))
 os.makedirs("pl", exist_ok=True)
