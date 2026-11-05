@@ -201,13 +201,17 @@ product metafield `ets.trade_price` showing "$x (N% off)" or the range across va
 nothing. `reports/trade-price-metafields-2026-11-05.csv` lists every value written. These fields are a record for
 reading, not what the checkout discount uses; rerun the script after any price or band change (playbook step 4).
 
-## Sigma 108362 nut: duplicate removed (5 Nov 2026)
+## Sigma 108362 nuts: two products, supplier changed (5 Nov 2026)
 
-Roberts Designs lists the same Sigma part (art. 108362, M8 square nut for the swivel-bar locking lever) under two codes,
-RDXA3649 ($11.70 retail, $6.50 trade ex GST) and RDXA3580 ($7.60 retail), both with only a placeholder photo on Roberts' site.
-The import made two products. The RDXA3580 one ("M8 Square Nut", `no-photo`, no trade band) had been deleted on 6 Oct for having
-no photo and came back with the 21 Oct Roberts re-import; it was deleted again on the owner's instruction
-(`../deleted-duplicate-sigma-108362-2026-11-05.json` is the backup). Kept: "Sigma 108362 M8 Nut for Locking Bolt"
-(`gid://shopify/Product/8403243204671`, RDXA3649, $10.50, trade band 10%, photo from BAT's SIG-108362 listing), with all three
-supplier codes now in its description. BAT also sells it: SIG-108362 at $5.85 NET ex GST (Tools Book 1, May 2026), cheaper than
-Roberts, so buy it there; the recorded cost ($7.15, Roberts) was left for the owner to decide. Its stock reads -2 (oversold).
+Roberts Designs sells two Sigma nuts under art. 108362: RDXA3649 "M8 Nut for Locking Bolt" ($11.70 retail) and RDXA3580
+"M8 Square Nut for Locking Bolt" ($7.60 retail). Both Roberts pages show only a placeholder image, which is why the import left the
+Square Nut without a photo (`no-photo` tag, no trade band). The agent wrongly treated them as one part and deleted the Square Nut
+product; the owner corrected this and it was re-created the same day from the saved copy (new id `gid://shopify/Product/8500198178879`,
+same handle, description, SEO, tags, price $10.45, cost $8.36, published to all channels, in the same four collections). Its
+`price-check` tag stands: the cost on file is Roberts' retail inc GST, not a trade price.
+
+BAT also sells the M8 Nut as SIG-108362 at $5.85 NET ex GST (Tools Book 1, May 2026), cheaper than Roberts' $6.50. On the owner's
+instruction the "M8 Nut for Locking Bolt" product (`gid://shopify/Product/8403243204671`) now records BAT as the supplier:
+`ets.supplier` = B.A.T. Trims Pty Ltd, SKU SIG-108362 (Roberts code kept in the description), cost $6.44 (NET x 1.1), `Roberts
+Designs` tag removed. Price $10.50 and trade band 10% unchanged; at the new cost the deepest band that keeps 20% margin is 20%
+($8.40), for the owner to decide. Stock reads -2 (oversold).
