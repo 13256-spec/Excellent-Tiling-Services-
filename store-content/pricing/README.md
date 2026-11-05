@@ -230,8 +230,16 @@ The store moved its trade pricing onto it:
   `gid://shopify/CompanyLocation/7315980351`, contact = the owner's customer excellenttiling1@hotmail.com (Location admin,
   main contact), no payment terms (pay at checkout), shipping address editable. Verified with `contextualPricing` for that
   location: MELA DICE basin $199.00 -> $189.05, a band-0 toilet stays $450.00.
-- Retired: the five automatic discounts "Trade price – N%" are deactivated (not deleted) and the owner's test customer lost the
-  `trade` tag. No other customer carried it; the 93 `trade-applicant` customers were never approved and are unchanged.
+- Retired (owner's instruction): the five automatic discounts "Trade price – N%" and the customer segment "Trade customers"
+  are **deleted**; the owner's test customer lost the `trade` tag. The segment "Trade applicants (waiting for approval)" and the
+  `trade-applicant` tag stay for the website form. The `trade-list-N` collections stay as the band record.
+- First real trade account, 5 Nov 2026: **Tom Derham Tiling** `gid://shopify/Company/6510149695` (ABN 43768608554, licence
+  BLD282211, tiler, under $1,000/month, card at checkout; application form 1172088 of 4 Nov). Contact = customer
+  tomderhamtiling@gmail.com (Location admin, main contact; `trade-applicant` tag removed). Owner's rule: pickup from Maddington
+  only for now. Shopify has no per-company pickup-only switch, so the location `gid://shopify/CompanyLocation/7316013119` is named
+  "Pickup at ETS Maddington", its shipping address is the showroom (17A Olga Road) and the address is locked at checkout; his own
+  address (54 Hampden Way, Strathalbyn) is in the company and location notes. When he may have deliveries, change the location's
+  shipping address to his and allow editing.
 - Payment terms: Shopify rejected the "Due on receipt" template for a company location; leave terms empty for pay-at-checkout,
   or pick Net 7/15/30 per location when the owner agrees credit.
 

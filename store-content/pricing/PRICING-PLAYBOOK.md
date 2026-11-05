@@ -71,14 +71,16 @@ baths). Those are reported as "can't beat profitably", never matched.
   catalogs, attached to the market, not to single companies.
 - The old scheme is kept only as the band record: manual collections `trade-list-5` ... `-25` and the product
   metafield `ets.trade_band` still say which band a product is in, and `custom.trade_price` / `ets.trade_price`
-  show the number. The five automatic discounts "Trade price – N%" are **deactivated**; the customer tag `trade`
-  is no longer used for pricing.
+  show the number. The five automatic discounts "Trade price – N%" and the "Trade customers" segment are deleted;
+  the customer tag `trade` is no longer used for pricing.
 - Old `trade-band-*` collections and `trade-N` product tags are no longer used.
 - **Approving a trade applicant** (tag `trade-applicant`, from the website form): Customers -> Companies -> Add
   company: business name, the applicant as contact (their existing customer email), one location with their
   address, payment terms "No payment terms" (pay at checkout) unless the owner agrees credit terms (Net 7/15/30
   are available per location). The company location joins the Trade market automatically. Then remove the
-  `trade-applicant` tag. Nothing else: no `trade` tag, no discount.
+  `trade-applicant` tag. Nothing else: no `trade` tag, no discount. Pickup-only accounts: make the location's shipping
+  address the showroom (17A Olga Road, Maddington WA 6109) and untick "editable shipping address" (see Tom Derham Tiling).
+  The customer logs in with their email (one-time code, new customer accounts); no invitation is needed.
 
 ## Files
 
