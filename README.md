@@ -13,7 +13,7 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
-## Trade (B2B) display: trade price next to crossed-out retail, corner badge, no "apply" links (5 Nov 2026, draft theme, waiting to be published)
+## Trade (B2B) display: trade price next to crossed-out retail, corner badge, no "apply" links (5 Nov 2026, published the same day)
 
 Trade pricing now runs on Shopify's native B2B (see `store-content/pricing/PRICING-PLAYBOOK.md`): a trade customer is a
 company contact, and the B2B catalog gives every banded variant a fixed trade price with the retail price as compare-at.
@@ -33,8 +33,10 @@ match, keyed on `customer.b2b?` instead of the old `trade` customer tag:
   B2B logins, since every discounted item carries the retail price as compare-at for them.
 - Re-synced from the live theme ("ETS 2026 – Premium v2 (draft)", the published theme) on 5 Nov 2026: the files above.
 
-**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – B2B trade display (draft)" → Publish.** Preview as a trade
-login (e.g. the owner's test company): `https://excellenttilingservices.com/?preview_theme_id=144867229759`. Theme settings
+The owner published this theme on 5 Nov 2026 (it is now the live theme, id 144867229759; the older drafts were removed). The
+"Sale" badge fix came after publishing, so it sits in a new copy, **"ETS 2026 – no Sale badge for trade (draft)"** (id 144868016191).
+**To go live: Shopify admin → Online Store → Themes → that draft → Publish.** Preview as a trade login:
+`https://excellenttilingservices.com/collections/hardware?preview_theme_id=144868016191`. Theme settings
 "ETS trade pricing" (tag, three rates) are no longer used by these files and can be ignored.
 
 ## Google "Add to preferred sources" button on blog posts (2 Nov 2026, draft theme, waiting to be published)
