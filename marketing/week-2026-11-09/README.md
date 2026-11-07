@@ -76,3 +76,12 @@ Thu smart toilet video clip · Fri `S-mirror-clearance` (if in stock) · Sat "On
 ## Rules kept
 
 No discount code, no "cheaper than" claims, tile supplier not named. Toilets are Perth delivery only (not posted).
+
+## Status (7 Nov 2026)
+
+- Copy review (ets-copy-review) done; its fixes are in `posts.json` and the graphics (20% for herringbone, "rim curling over
+  the top", "Crystal smart toilets", no "Limited stock" on the mirror graphics, Monday photo now Cement Grey).
+- Scheduled in Metricool: all 7 product posts (12:15 pm), ids in `results.json`.
+- Not yet scheduled: the 7 main posts and 7 Stories. Their graphics (`graphics/`) must go on Shopify Files first; the upload
+  from this session was blocked by its permission check, so it needs the owner's OK or a manual upload in Shopify admin
+  (Content > Files). Then schedule from `posts.json`.
