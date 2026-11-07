@@ -168,6 +168,66 @@ posts.update({
  f'<div class="t deep" {a("1/4","7/8")}><h2 style="font-size:44px">Clearance section at excellenttilingservices.com</h2></div>'+LOGO('4/5','7/8'),
 })
 
+# Week of 9 Nov 2026 (photos live in marketing/week-2026-11-09/img)
+W='img/../../../week-2026-11-09/img/'
+def wimg(f,c,r,cls='',cap='',capcls=''):
+    return f'<div class="t ph {cls}" {a(c,r)}><img src="{W}{f}">'+(f'<span class="cap {capcls}">{cap}</span>' if cap else '')+'</div>'
+BIO=lambda r: f'<div class="t blue" {a("1/4",r)}><h2 style="font-size:52px">Shop via the link in our bio</h2></div>'+LOGO('4/5',r)
+def step(n,r,txt): return f'<div class="t" {a("1/5",r)} style="display:flex;align-items:center;gap:44px"><div class="big" style="color:var(--blue);min-width:110px">{n}</div><p style="font-size:40px">{txt}</p></div>'
+posts.update({
+'W1-big-tiles':
+ wimg('hail-big.jpg','1/5','1/4','','Morgan Hail')+
+ f'<div class="t navy" {a("1/4","4/6")}><h1 style="font-size:84px">Small bathroom? Go bigger on the tiles.</h1><p class="bot">Fewer grout lines, so the floor reads as one surface.</p></div>'+
+ f'<div class="t blue" {a("4/5","4/5")}><p class="small">600x1200</p><h2 class="bot" style="font-size:50px">$50/m²</h2></div>'+LOGO('4/5','5/6'),
+'W2-toilets':
+ f'<div class="t navy" {a("1/5","1/2")}><h1 style="font-size:96px">New in: toilets</h1></div>'+
+ wimg('element.jpg','1/2','2/4','fit','Element<br>$500','dark')+wimg('edge.png','2/3','2/4','fit','Edge<br>$550','dark')+
+ wimg('forma.png','3/4','2/4','fit','Forma<br>$550','dark')+wimg('clarice.jpg','4/5','2/4','fit','Clarice<br>$660','dark')+
+ wimg('flow.png','1/2','4/5','fit','Flow $660','dark')+wimg('vero.png','2/3','4/5','fit','Vero $1,299','dark')+
+ f'<div class="t" {a("3/5","4/5")}><p>Rimless bowls. Every price online.</p></div>'+
+ f'<div class="t blue" {a("1/4","5/6")}><p>Perth delivery, or pick up free in Maddington</p></div>'+LOGO('4/5','5/6'),
+'W3-measure':
+ f'<div class="t navy" {a("1/5","1/2")}><h1 style="font-size:84px">How much tile do you need?</h1></div>'+
+ step(1,'2/3','Measure length x width of each part of the room, in metres.')+
+ step(2,'3/4','Add them up.')+
+ step(3,'4/5','Add 10% for cuts. 15% for herringbone or diagonal.')+
+ f'<div class="t blue" {a("1/4","5/6")}><p>Our tile calculator on every tile page does steps 2 and 3 for you.</p></div>'+LOGO('4/5','5/6'),
+'W4-smart':
+ wimg('elite.png','1/3','1/4','fit')+
+ f'<div class="t navy" {a("3/5","1/4")}><h2 style="font-size:70px">What does a smart toilet do?</h2><p class="bot">A built-in bidet wash. Less paper, and a cleaner feel.</p></div>'+
+ f'<div class="t" {a("1/3","4/5")}><p class="small">Crystal Elite</p><h2 class="bot" style="font-size:64px">$2,999</h2></div>'+
+ f'<div class="t" {a("3/5","4/5")}><p class="small">Crystal Prime</p><h2 class="bot" style="font-size:64px">$3,299</h2></div>'+
+ f'<div class="t blue" {a("1/4","5/6")}><p>Install video on the product page. Perth delivery.</p></div>'+LOGO('4/5','5/6'),
+'W6-rimless':
+ wimg('flow.png','1/3','1/4','fit')+
+ f'<div class="t navy" {a("3/5","1/4")}><h1 style="font-size:96px">Why rimless?</h1></div>'+
+ f'<div class="t" {a("1/5","4/5")}><p style="font-size:38px">No hidden rim under the bowl, so there\'s nowhere for grime to hide. One wipe and it\'s clean.</p></div>'+
+ f'<div class="t blue" {a("1/4","5/6")}><h2 style="font-size:46px">Every Eternal toilet we sell is rimless. From $500.</h2></div>'+LOGO('4/5','5/6'),
+'W7-photo':
+ img('brittany2.jpg','1/5','1/3')+
+ f'<div class="t navy" {a("1/5","3/5")}><h1 style="font-size:100px">Send us a photo of your bathroom</h1><p class="bot" style="font-size:36px">We\'ll reply with the one change we\'d make first, and what it costs.</p></div>'+
+ f'<div class="t blue" {a("1/4","5/6")}><h2 style="font-size:50px">DM us, or comment “photo”</h2></div>'+LOGO('4/5','5/6'),
+'S-W1-big-tiles':
+ wimg('hail-big.jpg','1/5','1/4')+
+ f'<div class="t navy" {a("1/5","4/6")}><p style="font-size:40px">600x1200 porcelain tiles</p><h1 style="font-size:150px;margin-top:30px">$50/m²</h1></div>'+
+ f'<div class="t" {a("1/5","6/7")}><p style="font-size:38px">Fewer grout lines, a bigger-looking room. Morgan Hail, Cement White, Cement Grey, Fumosa.</p></div>'+BIO('7/8'),
+'S-W2-toilets':
+ wimg('element.jpg','1/3','1/4','fit')+wimg('vero.png','3/5','1/4','fit')+
+ f'<div class="t navy" {a("1/5","4/7")}><h1 style="font-size:140px">New in: toilets from $500</h1><p class="bot" style="font-size:40px">Rimless bowls. Perth delivery or free pickup.</p></div>'+BIO('7/8'),
+'S-W3-sketch':
+ f'<div class="t navy" {a("1/5","1/5")}><h1 style="font-size:140px">Odd-shaped room?</h1><p class="bot" style="font-size:48px">Send us a sketch with the measurements. We\'ll work out how much tile you need.</p></div>'+
+ img('moon-room.jpg','1/5','5/7')+f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">DM us your sketch</h2></div>'+LOGO('4/5','7/8'),
+'S-W4-smart':
+ wimg('elite.png','1/5','1/4','fit')+
+ f'<div class="t navy" {a("1/5","4/7")}><p style="font-size:40px">Smart toilets</p><h1 style="font-size:150px;margin-top:30px">From $2,999</h1><p class="bot" style="font-size:40px">Built-in bidet wash. Perth delivery.</p></div>'+BIO('7/8'),
+'S-W6-rimless':
+ wimg('flow.png','1/5','1/4','fit')+
+ f'<div class="t navy" {a("1/5","4/7")}><h1 style="font-size:140px">Rimless. One wipe, clean.</h1><p class="bot" style="font-size:40px">Eternal toilets from $500.</p></div>'+BIO('7/8'),
+'S-W7-photo':
+ f'<div class="t navy" {a("1/5","1/5")}><h1 style="font-size:140px">Send us a photo of your bathroom</h1><p class="bot" style="font-size:48px">We\'ll reply with the one change we\'d make first, and what it costs.</p></div>'+
+ img('brittany2.jpg','1/5','5/7')+f'<div class="t blue" {a("1/4","7/8")}><h2 style="font-size:52px">DM us a photo</h2></div>'+LOGO('4/5','7/8'),
+})
+
 os.makedirs(f'{S}/out',exist_ok=True)
 import sys
 only=sys.argv[1:]

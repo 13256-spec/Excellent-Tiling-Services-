@@ -1,14 +1,16 @@
-# Social posts, week of Mon 9 – Sun 15 Nov 2026 (draft, not scheduled)
+# Social posts, week of Mon 9 – Sun 15 Nov 2026 (approved 7 Nov, scheduling in progress)
 
 All new ideas: none of these angles ran in Finish It Right (6 Oct – 8 Nov). Prices checked in Shopify on 7 Nov 2026.
-Same slots as before: 12:15 pm product, 6:30 pm main post, 7:30 pm Story. Run every caption through `ets-copy-review`
-before scheduling. Graphics still to be made with `finish-it-right/source/build.py` (ets-content).
+Same slots as before: 12:15 pm product, 6:30 pm main post, 7:30 pm Story. The final captions are in `posts.json`
+(this README keeps the first draft). Graphics are in `graphics/` (built by `finish-it-right/source/build.py W S-W`, photos in `img/`).
+Owner, 7 Nov: replaced the Monday "tiles by exact m²" post with "big tiles in a small bathroom"; Sunday product changed from
+Lava Vesuv (its photo is too small) to Cement White. Clearance mirrors show 0 stock but keep selling, so Friday stays.
 
 ## Main posts (6:30 pm)
 
 | Day | Idea | Graphic |
 | --- | --- | --- |
-| Mon 9 | Tiles now sold by the exact m² | Big "12.5 m²" number over a tile photo |
+| Mon 9 | Small bathroom? Go bigger on the tiles (600x1200, $50/m²) | Morgan Hail room photo |
 | Tue 10 | New in: toilets from $500 | Carousel, one toilet per slide |
 | Wed 11 | Measure your floor in 3 steps | Carousel: sketch, sum, calculator screenshot |
 | Thu 12 | What a smart toilet actually does | Reel or carousel, Crystal Prime photos |
