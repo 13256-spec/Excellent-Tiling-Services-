@@ -13,6 +13,15 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Eternity supplier photos from the flash drive (10 Nov 2026, live)
+
+The owner's external drive (`D:\Eternity`) has every file Eternity has sent. Applied live in Shopify: the generated "indicative
+swatch" images on Lava Vesuv and Caliza replaced with the supplier's real tile photos; 26 supplier photos added across 14 tiles
+(Lava, Time Stone, Caliza, ceramic wall tiles, Terrazzo Lumina); Time Stone Sand published with its first photos; Cement White /
+Grey / Dark Grey featured images switched to the clean single-tile shot. Five basins that have no RRP in the supplier PDF were
+created as drafts tagged `price-check`. Supplier documents (basin and kitchen catalogues, warranties, tile code sheets, test and
+slip reports) are now in `Eternity/`. Record and the still-unpriced items: `store-content/supplier-sync/drive-eternity-2026-11-10/README.md`.
+
 ## Tiles sold by exact m² (5 Nov 2026, published the same day; tile prices switched the same day)
 
 Owner chose "Option 2": tiles (not mosaics, which are sold by the sheet) are sold in 0.01 m² units, so 2.88 m² is

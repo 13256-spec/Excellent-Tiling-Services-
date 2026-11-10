@@ -235,3 +235,11 @@ Shopify ids per product and variant: `rla-created-2026-10-28.json`. Price resear
   sealants fall into Tile Adhesive, Grout and Silicone & Sealants through the existing type/tag rules; everything
   is in Hardware via the `Hardware` tag.
 - Photos are in Shopify Files, not the repo (98 files, 22 MB).
+
+## Eternity flash drive sync (10 Nov 2026)
+
+The owner's external drive (`D:\Eternity`) holds everything Eternity has sent: the 26 Oct Drive material plus Caliza, Ceramic,
+Lava, Time Stone and Terrazzo Lumina photo folders dated 9-10 Nov. Applied live: 26 supplier photos on 14 tiles, the two generated
+swatches (Lava Vesuv, Caliza) replaced with real photos, Time Stone Sand published with photos, Cement featured images fixed, and
+five unpriced basins created as drafts (`price-check`). Documents copied to `Eternity/`. Details, file map and the list of what
+still needs a price or a photo: `drive-eternity-2026-11-10/README.md`.
