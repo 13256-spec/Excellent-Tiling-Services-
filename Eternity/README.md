@@ -23,5 +23,6 @@ change still needs the owner's approval first.
 | 2026-11-09 | `eternity-porcelain-slip-stop-2026-11-09.xlsx` | Supplier's own slip ratings per code (the lab PDFs in `test-reports/` win where they differ). |
 | 2026-11-10 | `eternity-terrazzo-lumina-yfr602950-2026-11-10.pdf` | Terrazzo Lumina YFR602950 brochure (image-only). |
 | 2026-11-09 | `test-reports/` | Factory test reports (Cement, Morgan, Terrazzo, Lava, white ceramic) and Slipstop wet pendulum reports (Cement MQ, Morgan AK, Particle SS). |
+| 2026-11-10 | `eternity-flyer-bianco-greco-2026-11-10.jpg`, `eternity-flyer-sand-range-2026-11-10.jpg`, `eternity-flyer-astra-range-2026-11-10.jpg` | Email flyers: Bianco Greco, Sand White/Beige/Grey, Astra White/Greige. All already on the store; photos cropped for the product pages, see `store-content/supplier-sync/eternity-email-2026-11-10/`. |
 
 The files dated 2026-11-05 to 2026-11-10 above are in the owner's local clone (Desktop/New folder/Excellent-Tiling-Services, commit a9428b7) and are not yet pushed; they are copies of the supplier files on the owner's external drive.
