@@ -22,7 +22,18 @@ Only gap: each product shows a 213 px generated "indicative swatch". The flyers 
 | Astra White | `astra-white-room` 784x444 (Astra range photo), `-tile` 265x264, `-layout` 265x264 |
 | Astra Greige | `astra-greige-tile` 265x257, `-layout` 265x264 |
 
-Status: **not yet on the store**. Upload path (`stagedUploadsCreate` -> curl POST -> `productUpdate(media:)`) was blocked
+## Applied (10 Nov 2026)
+
+- **Astra White** and **Sand White**: Eternity's own 800 px photos (eternitytiles.com.au, products.json, handles
+  `astra-white-matt-tile-1` and `sand-white-matt`) added by URL with `productUpdate(media:)`: 600x600 tile first, then the
+  room / laid-floor shot, then 300x600. Swatch detached (`fileUpdate referencesToRemove`; the swatch file stays in Files).
+  One Sand White upload failed processing; re-added with the `?v=` URL, broken copy removed with `fileDelete`.
+- Eternity's site has no page for Astra Greige, Sand Beige, Sand Grey or Bianco Greco (checked all 3 catalogue pages), and
+  its product text is only "sold per sqm". Our descriptions already carry every verified spec, so no description change.
+
+## Still to do: the other four
+
+Status of the flyer crops for Astra Greige, Sand Beige, Sand Grey, Bianco Greco: **not yet on the store**. Upload path (`stagedUploadsCreate` -> curl POST -> `productUpdate(media:)`) was blocked
 by the session's permission check at the curl step. Plan once allowed: add the three photos (tile first, then room,
 then layout), then delete the old swatch image from each product.
 
