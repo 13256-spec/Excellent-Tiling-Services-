@@ -14,6 +14,13 @@ panels 895 $399 -> $439 and 995 $409 -> $449, trade 15% = $373.15 / $381.65 writ
 $1,599/$1,699, RONDO tall sink mixer Brushed Nickel was $269; both products added to their "on sale" collection).
 The 58 Bathroom City clearance prices wait for the new cost list; rerun `bc_match_2026_11.py` then.
 
+**MELA exclusive (11 Nov 2026):** on the owner's instruction, the 76 non-MELA bathroomware products (vendor "Excellent
+Tiling Services": DSA ranges Crystal, Eternal, Caleb, Edna, Malaga, Ria, Olivia, Mezzo/Mezo, Cosimo, Cube, Chet, Callan and
+Caden sinks, the three clearance mirrors; Celine and Chloe tapware, showers and accessories) were set to **Draft**: off the
+site, data and photos kept. List with ids in `store-content/mela-exclusive-drafted-2026-11-11.json`; to bring one back set
+its status to Active. Their rows stay in the master list and the B2B price list (harmless while drafted). Hardware brands
+(Roberts Designs wastes and niches, Maxisil, Baron) are not bathroomware and stay live.
+
 # MELA pricing vs Bathroom City (plan, 1 Oct 2026, not yet applied)
 
 `mela-pricing-2026-10-01.csv` has one row per MELA variant: our current price, Bathroom City's

@@ -1,0 +1,691 @@
+{
+ "date": "2026-11-11",
+ "reason": "MELA-exclusive agreement (official MELA seller): non-MELA bathroomware set to DRAFT on the owner's instruction. Reversible: set status back to ACTIVE.",
+ "previous_status": "ACTIVE",
+ "products": [
+  {
+   "id": 8500325613631,
+   "handle": "rectangular-framed-mirror-750mm-high",
+   "title": "Rectangular Framed Mirror 750mm High - Clearance",
+   "type": "Mirror",
+   "vendor": "Excellent Tiling Services",
+   "variants": 4,
+   "price": "56.70"
+  },
+  {
+   "id": 8500325515327,
+   "handle": "capsule-stick-on-mirror-450-x-900mm",
+   "title": "Capsule Stick-On Mirror 450 x 900mm - Clearance",
+   "type": "Mirror",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "69.35"
+  },
+  {
+   "id": 8500325449791,
+   "handle": "eclipse-round-stick-on-mirror",
+   "title": "Eclipse Round Stick-On Mirror - Clearance",
+   "type": "Mirror",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "63.00"
+  },
+  {
+   "id": 8469019557951,
+   "handle": "mezzo-above-counter-basin",
+   "title": "Mezzo Above Counter Basin",
+   "type": "Above Counter Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "179.00"
+  },
+  {
+   "id": 8469019525183,
+   "handle": "chet-wall-hung-basin",
+   "title": "Chet Wall Hung Basin",
+   "type": "Wall Hung Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "198.00"
+  },
+  {
+   "id": 8468856864831,
+   "handle": "crystal-nova-smart-toilet-suite",
+   "title": "Crystal Nova Smart Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "3299.00"
+  },
+  {
+   "id": 8468856799295,
+   "handle": "crystal-prime-smart-toilet-suite",
+   "title": "Crystal Prime Smart Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "3299.00"
+  },
+  {
+   "id": 8468856700991,
+   "handle": "caleb-vero-wall-hung-toilet-with-in-wall-cistern",
+   "title": "Caleb Vero Wall Hung Toilet with In-Wall Cistern",
+   "type": "In Wall Cistern Toilet",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "1299.00"
+  },
+  {
+   "id": 8468856602687,
+   "handle": "eternal-flow-toilet-suite",
+   "title": "Eternal Flow Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "660.00"
+  },
+  {
+   "id": 8468856504383,
+   "handle": "eternal-forma-toilet-suite",
+   "title": "Eternal Forma Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "550.00"
+  },
+  {
+   "id": 8468849688639,
+   "handle": "eternal-edge-toilet-suite",
+   "title": "Eternal Edge Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "550.00"
+  },
+  {
+   "id": 8468849590335,
+   "handle": "caleb-aria-wall-faced-toilet-with-in-wall-cistern",
+   "title": "Caleb Aria Wall Faced Toilet with In-Wall Cistern",
+   "type": "In Wall Cistern Toilet",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "999.00"
+  },
+  {
+   "id": 8468849492031,
+   "handle": "eternal-element-toilet-suite",
+   "title": "Eternal Element Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "500.00"
+  },
+  {
+   "id": 8468849426495,
+   "handle": "edna-care-toilet-back-rest",
+   "title": "Edna Care Toilet Back Rest",
+   "type": "Toilet Back Rest",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "268.99"
+  },
+  {
+   "id": 8468849360959,
+   "handle": "edna-care-toilet-suite",
+   "title": "Edna Care Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "1320.00"
+  },
+  {
+   "id": 8468849229887,
+   "handle": "eternal-clarice-toilet-suite",
+   "title": "Eternal Clarice Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "660.00"
+  },
+  {
+   "id": 8429971767359,
+   "handle": "malaga-all-in-one-vanity-package-with-stone-top",
+   "title": "Malaga All-in-One Vanity Package with Stone Top",
+   "type": "Wall Hung Vanity",
+   "vendor": "Excellent Tiling Services",
+   "variants": 15,
+   "price": "1478.00"
+  },
+  {
+   "id": 8429971734591,
+   "handle": "malaga-all-in-one-vanity-package-with-china-top",
+   "title": "Malaga All-in-One Vanity Package with China Top",
+   "type": "Wall Hung Vanity",
+   "vendor": "Excellent Tiling Services",
+   "variants": 9,
+   "price": "1215.00"
+  },
+  {
+   "id": 8429956464703,
+   "handle": "celine-universal-pop-up-waste-32-40mm",
+   "title": "Celine Universal Pop Up Waste 32/40mm",
+   "type": "Pop Up Waste",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "49.00"
+  },
+  {
+   "id": 8429956300863,
+   "handle": "ria-above-counter-basin",
+   "title": "Ria Above Counter Basin",
+   "type": "Above Counter Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "179.00"
+  },
+  {
+   "id": 8429956268095,
+   "handle": "ria-semi-inset-basin",
+   "title": "Ria Semi Inset Basin",
+   "type": "Semi Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "179.00"
+  },
+  {
+   "id": 8429956235327,
+   "handle": "olivia-semi-inset-basin",
+   "title": "Olivia Semi Inset Basin",
+   "type": "Semi Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "179.00"
+  },
+  {
+   "id": 8429956202559,
+   "handle": "olivia-above-counter-basin",
+   "title": "Olivia Above Counter Basin",
+   "type": "Above Counter Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "299.00"
+  },
+  {
+   "id": 8429956169791,
+   "handle": "mezo-above-counter-basin",
+   "title": "Mezo Above Counter Basin",
+   "type": "Above Counter Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "179.00"
+  },
+  {
+   "id": 8429956104255,
+   "handle": "malaga-matt-white-single-door-cabinet-295mm",
+   "title": "Malaga Matt White Single Door Cabinet 295mm",
+   "type": "Bathroom Tallboy",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "329.00"
+  },
+  {
+   "id": 8429956071487,
+   "handle": "malaga-matt-white-wall-hung-vanity",
+   "title": "Malaga Matt White Wall Hung Vanity",
+   "type": "Wall Hung Vanity",
+   "vendor": "Excellent Tiling Services",
+   "variants": 4,
+   "price": "599.00"
+  },
+  {
+   "id": 8429956038719,
+   "handle": "malaga-matt-white-cubby-cabinet-300mm",
+   "title": "Malaga Matt White Cubby Cabinet 300mm",
+   "type": "Bathroom Tallboy",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "329.00"
+  },
+  {
+   "id": 8429956005951,
+   "handle": "malaga-matt-white-vanity-kickboard",
+   "title": "Malaga Matt White Vanity Kickboard",
+   "type": "Vanity Kickboard",
+   "vendor": "Excellent Tiling Services",
+   "variants": 3,
+   "price": "159.00"
+  },
+  {
+   "id": 8429955973183,
+   "handle": "malaga-dark-oak-vanity-kickboard",
+   "title": "Malaga Dark Oak Vanity Kickboard",
+   "type": "Vanity Kickboard",
+   "vendor": "Excellent Tiling Services",
+   "variants": 3,
+   "price": "159.00"
+  },
+  {
+   "id": 8429955940415,
+   "handle": "malaga-dark-oak-wall-hung-vanity",
+   "title": "Malaga Dark Oak Wall Hung Vanity",
+   "type": "Wall Hung Vanity",
+   "vendor": "Excellent Tiling Services",
+   "variants": 4,
+   "price": "599.00"
+  },
+  {
+   "id": 8429955907647,
+   "handle": "malaga-dark-oak-cubby-cabinet-300mm",
+   "title": "Malaga Dark Oak Cubby Cabinet 300mm",
+   "type": "Bathroom Tallboy",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "329.00"
+  },
+  {
+   "id": 8429955874879,
+   "handle": "malaga-antico-oak-vanity-kickboard",
+   "title": "Malaga Antico Oak Vanity Kickboard",
+   "type": "Vanity Kickboard",
+   "vendor": "Excellent Tiling Services",
+   "variants": 3,
+   "price": "159.00"
+  },
+  {
+   "id": 8429955842111,
+   "handle": "malaga-antico-oak-wall-hung-vanity",
+   "title": "Malaga Antico Oak Wall Hung Vanity",
+   "type": "Wall Hung Vanity",
+   "vendor": "Excellent Tiling Services",
+   "variants": 4,
+   "price": "599.00"
+  },
+  {
+   "id": 8429955809343,
+   "handle": "malaga-antico-oak-cubby-cabinet-300mm",
+   "title": "Malaga Antico Oak Cubby Cabinet 300mm",
+   "type": "Bathroom Tallboy",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "329.00"
+  },
+  {
+   "id": 8429955776575,
+   "handle": "eclipse-led-round-backlit-mirror",
+   "title": "Eclipse LED Round Backlit Mirror",
+   "type": "LED Mirror",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "399.00"
+  },
+  {
+   "id": 8429955743807,
+   "handle": "cube-wall-hung-basin",
+   "title": "Cube Wall Hung Basin",
+   "type": "Wall Hung Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "179.00"
+  },
+  {
+   "id": 8429954170943,
+   "handle": "crystal-smart-toilet-with-bidet-seat",
+   "title": "Crystal Elite Smart Toilet Suite",
+   "type": "Toilet Suite",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "2999.00"
+  },
+  {
+   "id": 8429954138175,
+   "handle": "cosimo-undermount-basin",
+   "title": "Cosimo Undermount Basin",
+   "type": "Undermount Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "165.00"
+  },
+  {
+   "id": 8429954105407,
+   "handle": "cosimo-above-counter-basin",
+   "title": "Cosimo Above Counter Basin",
+   "type": "Above Counter Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "179.00"
+  },
+  {
+   "id": 8429954072639,
+   "handle": "cosimo-semi-inset-basin",
+   "title": "Cosimo Semi Inset Basin",
+   "type": "Semi Basin",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "299.00"
+  },
+  {
+   "id": 8429953843263,
+   "handle": "chloe-twin-rail-shower",
+   "title": "Chloe Twin Rail Shower",
+   "type": "Combination Shower Set",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "589.00"
+  },
+  {
+   "id": 8429953810495,
+   "handle": "chloe-compact-twin-shower",
+   "title": "Chloe Compact Twin Shower",
+   "type": "Combination Shower Set",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "439.00"
+  },
+  {
+   "id": 8429953777727,
+   "handle": "chloe-round-shower-rose-250mm",
+   "title": "Chloe Round Shower Rose 250mm",
+   "type": "Shower Head",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "319.00"
+  },
+  {
+   "id": 8429953744959,
+   "handle": "chloe-hand-shower-on-bracket",
+   "title": "Chloe Hand Shower on Bracket",
+   "type": "Hand Shower Set",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "269.00"
+  },
+  {
+   "id": 8429953450047,
+   "handle": "celine-wall-mounted-shower-arm",
+   "title": "Celine Wall Mounted Shower Arm",
+   "type": "Shower Arm",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "209.00"
+  },
+  {
+   "id": 8429953417279,
+   "handle": "celine-toilet-roll-holder",
+   "title": "Celine Toilet Roll Holder",
+   "type": "Toilet Roll Holder",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "59.00"
+  },
+  {
+   "id": 8429953384511,
+   "handle": "celine-tall-basin-mixer",
+   "title": "Celine Tall Basin Mixer",
+   "type": "Basin Mixer",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "269.00"
+  },
+  {
+   "id": 8429953351743,
+   "handle": "celine-swivel-bath-spout",
+   "title": "Celine Swivel Bath Spout",
+   "type": "Bath Spout",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "159.00"
+  },
+  {
+   "id": 8429950206015,
+   "handle": "celine-square-hand-shower-piece",
+   "title": "Celine Square Hand Shower Piece",
+   "type": "Hand Shower",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "39.00"
+  },
+  {
+   "id": 8429950042175,
+   "handle": "celine-sink-mixer",
+   "title": "Celine Sink Mixer",
+   "type": "Kitchen Sink Mixer",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "319.00"
+  },
+  {
+   "id": 8429949616191,
+   "handle": "celine-800-single-towel-rail",
+   "title": "Celine 800 Single Towel Rail",
+   "type": "Towel Rail",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "109.00"
+  },
+  {
+   "id": 8429949288511,
+   "handle": "celine-600-single-towel-rail",
+   "title": "Celine 600 Single Towel Rail",
+   "type": "Towel Rail",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "89.00"
+  },
+  {
+   "id": 8429930840127,
+   "handle": "celine-square-shower-rose-250mm",
+   "title": "Celine Square Shower Rose 250mm",
+   "type": "Shower Head",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "319.00"
+  },
+  {
+   "id": 8429930381375,
+   "handle": "celine-shower-mixer-with-diverter",
+   "title": "Celine Shower Mixer with Diverter",
+   "type": "Wall Mixer with Diverter",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "229.00"
+  },
+  {
+   "id": 8429929955391,
+   "handle": "celine-shower-mixer",
+   "title": "Celine Shower Mixer",
+   "type": "Wall Mixer",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "119.00"
+  },
+  {
+   "id": 8429929496639,
+   "handle": "celine-round-hand-shower-piece",
+   "title": "Celine Round Hand Shower Piece",
+   "type": "Hand Shower",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "39.00"
+  },
+  {
+   "id": 8429912031295,
+   "handle": "celine-robe-hook",
+   "title": "Celine Robe Hook",
+   "type": "Bathroom Hook",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "39.00"
+  },
+  {
+   "id": 8429911474239,
+   "handle": "celine-rail-shower",
+   "title": "Celine Rail Shower",
+   "type": "Hand Shower Set",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "239.00"
+  },
+  {
+   "id": 8429911048255,
+   "handle": "celine-hand-towel-rail",
+   "title": "Celine Hand Towel Rail",
+   "type": "Hand Towel Rail",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "69.00"
+  },
+  {
+   "id": 8429910491199,
+   "handle": "celine-hand-shower-on-bracket",
+   "title": "Celine Hand Shower on Bracket",
+   "type": "Hand Shower Set",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "239.00"
+  },
+  {
+   "id": 8429906001983,
+   "handle": "celine-gooseneck-sink-mixer",
+   "title": "Celine Gooseneck Sink Mixer",
+   "type": "Kitchen Sink Mixer",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "189.00"
+  },
+  {
+   "id": 8429905969215,
+   "handle": "celine-gooseneck-pull-out-kitchen-mixer",
+   "title": "Celine Gooseneck Pull Out Kitchen Mixer",
+   "type": "Kitchen Sink Mixer",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "429.00"
+  },
+  {
+   "id": 8429905936447,
+   "handle": "celine-800-double-towel-rail",
+   "title": "Celine 800 Double Towel Rail",
+   "type": "Towel Rail",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "139.00"
+  },
+  {
+   "id": 8429905903679,
+   "handle": "celine-600-double-towel-rail",
+   "title": "Celine 600 Double Towel Rail",
+   "type": "Towel Rail",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "109.00"
+  },
+  {
+   "id": 8429905739839,
+   "handle": "celine-wall-basin-bath-mixer-with-spout",
+   "title": "Celine Wall Basin / Bath Mixer with Spout",
+   "type": "Wall Mixer",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "309.00"
+  },
+  {
+   "id": 8429905707071,
+   "handle": "celine-basin-mixer",
+   "title": "Celine Basin Mixer",
+   "type": "Basin Mixer",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "209.00"
+  },
+  {
+   "id": 8429905674303,
+   "handle": "celine-twin-rail-shower",
+   "title": "Celine Twin Rail Shower",
+   "type": "Combination Shower Set",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "589.00"
+  },
+  {
+   "id": 8429905641535,
+   "handle": "capsule-led-oval-backlit-mirror-450-x-900mm",
+   "title": "Capsule LED Oval Backlit Mirror 450 x 900mm",
+   "type": "LED Mirror",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "499.00"
+  },
+  {
+   "id": 8429905477695,
+   "handle": "callan-double-bowl-sink-700mm",
+   "title": "Callan Double Bowl Sink 700mm",
+   "type": "Kitchen Sink",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "660.00"
+  },
+  {
+   "id": 8429905444927,
+   "handle": "callan-single-bowl-sink-580mm",
+   "title": "Callan Single Bowl Sink 580mm",
+   "type": "Kitchen Sink",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "462.00"
+  },
+  {
+   "id": 8429905412159,
+   "handle": "callan-single-bowl-sink-450mm",
+   "title": "Callan Single Bowl Sink 450mm",
+   "type": "Kitchen Sink",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "385.00"
+  },
+  {
+   "id": 8429905379391,
+   "handle": "caden-double-bowl-sink-with-drainer-1200mm",
+   "title": "Caden Double Bowl Sink with Drainer 1200mm",
+   "type": "Kitchen Sink",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "363.00"
+  },
+  {
+   "id": 8429905117247,
+   "handle": "caden-single-bowl-sink-with-drainer-660mm",
+   "title": "Caden Single Bowl Sink with Drainer 660mm",
+   "type": "Kitchen Sink",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "226.60"
+  },
+  {
+   "id": 8429905084479,
+   "handle": "caden-single-bowl-sink-610mm",
+   "title": "Caden Single Bowl Sink 610mm",
+   "type": "Kitchen Sink",
+   "vendor": "Excellent Tiling Services",
+   "variants": 1,
+   "price": "220.00"
+  },
+  {
+   "id": 8429905018943,
+   "handle": "celine-bottle-trap-32mm",
+   "title": "Celine Bottle Trap 32mm",
+   "type": "Bottle Trap",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "209.00"
+  },
+  {
+   "id": 8429904986175,
+   "handle": "celine-bath-pop-up-waste",
+   "title": "Celine Bath Pop Up Waste",
+   "type": "Pop Up Waste",
+   "vendor": "Excellent Tiling Services",
+   "variants": 2,
+   "price": "48.99"
+  }
+ ]
+}

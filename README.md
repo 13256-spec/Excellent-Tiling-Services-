@@ -13,6 +13,13 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## MELA official seller: RRP = Bathroom City, non-MELA bathroomware drafted (11 Nov 2026, live)
+
+ETS is the official MELA seller and MELA-exclusive for bathroomware; RRP must equal Bathroom City (playbook updated). Four
+MELA items raised to Bathroom City's price, three shown as sales; 76 non-MELA bathroomware products (DSA, Celine, Chloe
+ranges) set to Draft, list in `store-content/mela-exclusive-drafted-2026-11-11.json`. Details and the comparison script:
+`store-content/pricing/README.md` and `reports/bathroom-city-match-proposal-2026-11-11.md`. No theme change.
+
 ## Product and collection audit, "On sale" per department (11 Nov 2026, live)
 
 Every active product (1,415) and collection (131) was checked for placement; the findings and fixes are in
