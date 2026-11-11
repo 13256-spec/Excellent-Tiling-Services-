@@ -4,6 +4,8 @@ Usage: python3 catalogue_page.py > ardex-catalogue-page.html
 import html
 import json
 import os
+import sys
+FULL = "--full" in sys.argv  # with the TDS/SDS links per product (too big for the MCP page call; links are on each product page)
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 cat = {p["slug"]: p for p in json.load(open(os.path.join(HERE, "ardex-catalogue-2026-11-11.json")))}
@@ -56,17 +58,19 @@ for key, label, slug in charts:
         for name, hx in gc[key])
     out.append(f"<h3><a href=\"{link}\">{esc(label)}</a></h3><p>{cells}</p>")
 
-out.append("<h2>Data sheets by product</h2>")
-for g, label, url in GROUPS:
-    rows = []
-    for x in sorted((c for c in created if c["group"] == g), key=lambda c: c["title"].lower()):
-        p = cat[x["slug"]]
-        links = []
-        for name, u in p["downloads"]:
-            if u.lower().endswith(".pdf"):
-                links.append(f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(LABEL.get(name, name))}</a>')
-        rows.append(f'<li><a href="/products/{x["handle"]}">{esc(x["title"])}</a>' + (": " + " · ".join(links) if links else "") + "</li>")
-    out.append(f"<h3><a href=\"{url}\">{esc(label)}</a></h3><ul>" + "".join(rows) + "</ul>")
+out.append("<h2>ARDEX ranges in our store</h2><ul>" + "".join(f'<li><a href="{u}">{esc(l)}</a></li>' for _, l, u in GROUPS) + "</ul>")
+if "--products" in sys.argv:
+  out.append("<h2>Products by range</h2><p>Each product page carries its own technical data sheet, safety data sheet and spec sheet links.</p>")
+  for g, label, url in GROUPS:
+      rows = []
+      for x in sorted((c for c in created if c["group"] == g), key=lambda c: c["title"].lower()):
+          p = cat[x["slug"]]
+          links = []
+          for name, u in p["downloads"]:
+              if u.lower().endswith(".pdf"):
+                  links.append(f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(LABEL.get(name, name))}</a>')
+          rows.append(f'<li><a href="/products/{x["handle"]}">{esc(x["title"])}</a>' + (": " + " · ".join(links) if links and FULL else "") + "</li>")
+      out.append(f"<h3><a href=\"{url}\">{esc(label)}</a></h3><ul>" + "".join(rows) + "</ul>")
 
 out.append("<p>Data sheets open on ardexaustralia.com and are the current versions published by ARDEX Australia. Always install to the data sheet; ARDEX technical services: 1800 224 070.</p>")
 print("".join(out))

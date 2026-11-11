@@ -253,10 +253,14 @@ tickets and two empty draft pages): **206 products / 361 variants**, vendor "ARD
 `supplier-import`, `needs-cost`, `price-check`, plus one `ardex-<group>` tag each (adhesives, grouts, waterproofing,
 levelling, primers, sealants, concrete-repair, civil, render, flooring-adhesives, tools, wedi).
 
-- **Status: Active, published to the Online Store only** (not Google & YouTube, Shop, Facebook, POS or Inbox: those
-  channels need a real price). **Price 0.00 on every variant**, inventory tracked, 0 at Maddington, "stop selling when out
-  of stock", so every page shows **Sold out / Enquire** and cannot be bought. The draft theme "ETS 2026 – Price on request"
-  shows "Price on request" instead of $0.00 (root README). Trade band 0.
+- **Status: Active.** Shopify's "publish new products automatically" setting put them on **Online Store, Point of Sale,
+  Shop and Microsoft Copilot** (not Google & YouTube, Facebook or Inbox). The API tool refuses to unpublish, so the owner
+  should take them off POS, Shop and Copilot until they have a price: Products → filter tag `ardex-2026-11` → select all →
+  More actions → Manage sales channels → untick those three. **Price 0.00 on every variant**, inventory tracked, 0 at
+  Maddington, "stop selling when out of stock", so every page shows **Sold out / Enquire** and cannot be bought. The draft
+  theme "ETS 2026 – Price on request" shows "Price on request" instead of $0.00 (root README); the one $0 left on an
+  all-ARDEX collection page is Horizon's price filter ("The highest price is $0.00"), which fixes itself once prices exist.
+  Trade band 0.
 - **Content**: ARDEX's own product text, key features, technical data (location, coverage, pack sizes, drying times),
   links to the ARDEX technical and safety data sheets, ARDEX product photos (fetched straight from ardexaustralia.com)
   and the ARDEX YouTube videos where a product has them. SEO title and description on every product, `ets.*` metafields
@@ -277,12 +281,16 @@ levelling, primers, sealants, concrete-repair, civil, render, flooring-adhesives
   type and tag rules. New product types: "Primers & Additives", "Concrete Repair", "Civil Engineering", "Render",
   "Flooring Adhesives", "Uncoupling & Acoustic Mats", "Tile Backer Boards", "Shower Systems".
 - **Menu**: "ARDEX adhesives, grout & waterproofing" added under Hardware in `main-menu-2026` (the live header menu).
-- **Catalogue page**: `/pages/ardex-catalogues-data-sheets` lists ARDEX's literature library, calculators, grout colour
-  selector and technical bulletins, the four grout colour charts as swatches, and every product's TDS/SDS links.
+- **Catalogue page**: `/pages/ardex-catalogues-data-sheets` (Page 119680499775) lists ARDEX's literature library,
+  calculators, grout colour selector and technical bulletins, the four grout colour charts as colour swatches, and links to
+  the twelve range collections. `ardex-catalogue-page-full.html` is the same page with every product's TDS/SDS links (too
+  big for the API tool; paste it into the page in admin if wanted).
 - **Files** (`ardex-2026-11/`): `parse_ardex_pages.py` (page parser), `ardex-catalogue-2026-11-11.json` (parsed site data),
   `ardex-categories.json`, `grout-colours.json`, `ardex_2026_11.py` (one level up: builds the productSet inputs),
   `ardex-2026-11-11.json` (what was sent), `ardex-created-2026-11-11.json` (Shopify ids per product and variant),
-  `collect_results.py`, `catalogue_page.py` (the page HTML).
+  `collect_results.py`, `followup_batches.py`, `catalogue_page.py` -> `ardex-catalogue-page.html` (the page body).
+- One fix after creation: the ARDEX LQ 92 description had a stray control character from the ARDEX site (`2mm \x96 5mm`),
+  replaced with an en dash.
 - **When the ARDEX price list and account arrive**: enter costs inc GST and prices by the playbook (section 2), set the
   trade band, replace the placeholder SKUs, set stock (or switch the variants to "continue selling"), publish to the other
   five channels, remove `needs-cost` / `price-check`. Prices must be set before Google & YouTube is turned on.
