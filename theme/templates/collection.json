@@ -12,7 +12,7 @@
     "hero": {
       "type": "ets-collection-hero",
       "settings": {
-        "menu": "main-menu-2026",
+        "menu": "main-menu-2026-v3",
         "show_image": true
       }
     },

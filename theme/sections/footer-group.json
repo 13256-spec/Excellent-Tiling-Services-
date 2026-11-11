@@ -11,6 +11,23 @@
   "type": "footer",
   "name": "Footer",
   "sections": {
+    "ets_load_more": {
+      "type": "ets-load-more",
+      "settings": {
+        "button_label": "Load more products",
+        "loading_label": "Loading…",
+        "page_of": "Page [page] of [pages]"
+      }
+    },
+    "ets_recently_viewed": {
+      "type": "ets-recently-viewed",
+      "settings": {
+        "heading": "Recently viewed",
+        "heading_home": "Pick up where you left off",
+        "clear_label": "Clear",
+        "max": 6
+      }
+    },
     "ets_footer": {
       "type": "ets-footer",
       "settings": {
@@ -20,33 +37,35 @@
         "cta_link_1": "shopify://pages/request-a-quote",
         "cta_label_2": "Open a trade account",
         "cta_link_2": "shopify://pages/trade-account",
-        "menu_1": "main-menu-2026",
+        "menu_1": "main-menu-2026-v3",
         "menu_1_title": "Shop",
         "menu_2": "footer",
         "menu_2_title": "Help & services",
         "abn": "63 150 082 054",
-        "news_heading": "Get new ranges &amp; <em>deals</em> by email.",
-        "news_text": "New arrivals, clearance stock and renovation ideas from our Maddington showroom."
+        "news_heading": "Sign up and get <em>10% off</em> your first order.",
+        "news_text": "We'll email you a 10% code for tiling tools, trims, tapware and bathroom accessories, plus new ranges and clearance deals from our Maddington showroom."
       }
     },
     "ets_news_popup": {
       "type": "ets-newsletter-popup",
       "settings": {
         "enabled": true,
-        "delay": 12,
+        "delay": 45,
         "days": 30,
         "image": "shopify://shop_images/DSA66AK666_3_294a9721-8df9-48d6-b49f-e740201061ac.jpg",
         "eyebrow": "The ETS list",
-        "heading": "New ranges &amp; <em>deals</em>, first.",
-        "text": "Join our email list for new tile and bathroomware arrivals, clearance deals and renovation ideas from our Maddington showroom.",
-        "offer_label": "",
-        "offer_code": "",
-        "button": "Subscribe",
-        "success": "You're on the list. Watch your inbox for new ranges and deals."
+        "heading": "<em>10% off</em> your first order.",
+        "text": "Join the list and we'll email you a 10% code for tiling tools, trims, tapware and bathroom accessories, plus new ranges and clearance deals from our Maddington showroom.",
+        "offer_label": "10% off your first order of tools, trims, tapware and accessories",
+        "offer_code": "WELCOME10",
+        "button": "Get my 10% off",
+        "success": "You're on the list. Use the code below at checkout; it's in your inbox too."
       }
     }
   },
   "order": [
+    "ets_load_more",
+    "ets_recently_viewed",
     "ets_footer",
     "ets_news_popup"
   ]
