@@ -42,8 +42,11 @@ rest of the department rules, so a rule-based version would have pulled in the w
 
 ## Left as is (for the owner to decide)
 
-- Two empty collections: "Trade 25% items" (`trade-list-25`) and "BAT Tile Trims & Aluminium Angles" (`bat-trims`,
-  still linked from the live Hardware dropdown). Delete or fill; deleting needs the owner's say-so.
+- Two empty collections deleted on the owner's instruction (11 Nov): "Trade 25% items" (`trade-list-25`, a leftover of
+  the old discount-based trade bands, no discount referenced it) and "BAT Tile Trims & Aluminium Angles" (`bat-trims`,
+  rule vendor = "BAT Trims" matched nothing). Copies in `store-content/collections/deleted-2026-11-11.json`. The BAT trims
+  link was removed from the live Hardware dropdown.
+- Clearance stays as its own collection: the owner keeps clearance separate from sale.
 - Nine collections with one or two products: inset-baths (1), corner-shower-screens (1), inset-basins (4 after the fix),
   undermount-basins (2), back-to-wall-baths (2), corner-baths (2), tiles-300x300 (2), particle-tiles (2), terrazzo-tiles (2).
   They are real ranges, just thin.

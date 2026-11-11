@@ -22,7 +22,9 @@ added to the manual Spouts & outlets, Inset basins and Accessories collections. 
 (tiles-on-sale, vanities-basins-on-sale, tapware-sinks-on-sale, baths-toilets-on-sale, mirrors-accessories-on-sale,
 hardware-on-sale) are the first link in each dropdown of both the live menu `main-menu-2026` and the draft menu
 `main-menu-2026-v3` (Hardware on sale under both Adhesives & waterproofing and Tools & trims). They are empty until the
-owner adds products and sets a compare-at price. No theme change.
+owner adds products and sets a compare-at price. No theme change. Same day, on the owner's instruction: the two empty collections
+"Trade 25% items" and "BAT trims" were deleted (copies in `store-content/collections/deleted-2026-11-11.json`) and the BAT
+trims link dropped from the live Hardware dropdown. Clearance stays separate from sale.
 
 ## Menu rethink: materials, tools, brands (11 Nov 2026, draft theme, waiting to be published)
 
