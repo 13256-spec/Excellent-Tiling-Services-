@@ -13,6 +13,17 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Product and collection audit, "On sale" per department (11 Nov 2026, live)
+
+Every active product (1,415) and collection (131) was checked for placement; the findings and fixes are in
+`store-content/collection-audit-2026-11-11.md`. Fixed in Shopify: 29 products that sat in no department (missing product
+types added to the five department smart collections), 15 Roberts Designs drains retyped "Floor Drains", and 12 products
+added to the manual Spouts & outlets, Inset basins and Accessories collections. Six new manual **"… on sale"** collections
+(tiles-on-sale, vanities-basins-on-sale, tapware-sinks-on-sale, baths-toilets-on-sale, mirrors-accessories-on-sale,
+hardware-on-sale) are the first link in each dropdown of both the live menu `main-menu-2026` and the draft menu
+`main-menu-2026-v3` (Hardware on sale under both Adhesives & waterproofing and Tools & trims). They are empty until the
+owner adds products and sets a compare-at price. No theme change.
+
 ## Menu rethink: materials, tools, brands (11 Nov 2026, draft theme, waiting to be published)
 
 The owner asked whether "Hardware" was the right name for a dropdown that had grown to 22 links mixing adhesives, tools
