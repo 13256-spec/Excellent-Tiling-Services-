@@ -5,7 +5,14 @@ Bathroom City's public feed -> `reports/bathroom-city-match-2026-11-11.csv` and 
 `reports/bathroom-city-match-proposal-2026-11-11.md`. 708 of 814 variants already equal Bathroom City; 4 need raising
 (BRITTANY 1800 double vanities, MORRIS curved panels); 3 already sit at their sale price (compare-at proposed); 58 of their
 61 sale items are under our 20% floor and 45 under our estimated cost, so they cannot be matched until Bathroom City
-confirms the trade price on the clearance lines. Waiting for the owner's decision.
+confirms the trade price on the clearance lines.
+
+Owner, same day: ETS becomes the **official MELA seller**, MELA-exclusive for bathroomware, RRP must equal Bathroom City,
+new MELA cost pricing to follow. Applied: the 4 raises (BRITTANY 1800 double vanities $3,324 -> $3,499 x2; MORRIS curved
+panels 895 $399 -> $439 and 995 $409 -> $449, trade 15% = $373.15 / $381.65 written to the B2B price list and
+`custom.trade_price`; product range string unchanged) and the 3 compare-at sale prices (FELLI bath 1500/1700 was
+$1,599/$1,699, RONDO tall sink mixer Brushed Nickel was $269; both products added to their "on sale" collection).
+The 58 Bathroom City clearance prices wait for the new cost list; rerun `bc_match_2026_11.py` then.
 
 # MELA pricing vs Bathroom City (plan, 1 Oct 2026, not yet applied)
 

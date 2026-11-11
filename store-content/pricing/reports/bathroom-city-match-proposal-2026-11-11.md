@@ -1,4 +1,4 @@
-# MELA vs Bathroom City: match their sale and public prices (proposal, 11 Nov 2026, nothing applied)
+# MELA vs Bathroom City: match their sale and public prices (11 Nov 2026: A and B applied the same day; C waits for the new MELA cost list)
 
 Owner's instruction: match all Bathroom City website sale and public prices. Checked every MELA variant on our site (814) against Bathroom City's live product feed on 11 Nov 2026. Rule book: MELA public price = Bathroom City's price, never under; never under our 20% profit floor (cost inc GST / 0.80); MELA costs are estimates (Bathroom City list x (1 - SILVER discount)).
 
