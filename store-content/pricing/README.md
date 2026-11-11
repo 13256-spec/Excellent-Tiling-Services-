@@ -1,3 +1,12 @@
+# Bathroom City sale and public price match (proposal, 11 Nov 2026, not applied)
+
+Owner asked to match all Bathroom City website sale and public prices. `bc_match_2026_11.py` compares every MELA variant with
+Bathroom City's public feed -> `reports/bathroom-city-match-2026-11-11.csv` and the proposal
+`reports/bathroom-city-match-proposal-2026-11-11.md`. 708 of 814 variants already equal Bathroom City; 4 need raising
+(BRITTANY 1800 double vanities, MORRIS curved panels); 3 already sit at their sale price (compare-at proposed); 58 of their
+61 sale items are under our 20% floor and 45 under our estimated cost, so they cannot be matched until Bathroom City
+confirms the trade price on the clearance lines. Waiting for the owner's decision.
+
 # MELA pricing vs Bathroom City (plan, 1 Oct 2026, not yet applied)
 
 `mela-pricing-2026-10-01.csv` has one row per MELA variant: our current price, Bathroom City's
