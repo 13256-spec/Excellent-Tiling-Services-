@@ -13,6 +13,21 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Floor wastes taken out of Mirrors & Accessories (11 Nov 2026, live)
+
+The owner saw floor drains at the top of the Mirrors & accessories page. Cause: the collection rule included the product type
+"Designer Bathroom Accessories", which is Roberts Designs' type for floor wastes, linear drains and flanges. Changed in Shopify
+(no prices touched, nothing deleted):
+
+- Mirrors & Accessories: "Designer Bathroom Accessories" removed from the rule. 95 → 80 products.
+- Floor Drains & Wastes (Hardware menu): rule also takes the tag `Floor Wastes and Linear Drains`, so the 3 Roberts flanges
+  join. 31 → 34 products. The same 3 flanges got the `Hardware` tag. Hardware 771 → 774.
+- Bathroom Wastes (manual): the 19 floor items removed; 4 pop-up wastes and the bottle trap stay. 24 → 5 products.
+- "Main menu 2026": the link "Bathroom wastes" renamed "Basin & bath wastes". Not yet renamed in "Main menu 2026 + About"
+  or the old "Main menu"; do it there too if either is put back in use.
+
+State before the change (to undo): `store-content/collections/floor-wastes-out-of-mirrors-2026-11-11-before.json`.
+
 ## Eternity supplier photos from the flash drive (10 Nov 2026, live)
 
 The owner's external drive (`D:\Eternity`) has every file Eternity has sent. Applied live in Shopify: the generated "indicative

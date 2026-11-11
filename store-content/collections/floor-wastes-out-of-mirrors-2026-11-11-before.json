@@ -1,0 +1,60 @@
+{
+  "note": "State before floor wastes were taken out of Mirrors & Accessories (11 Nov 2026). Use this to put things back.",
+  "mirrors-accessories": {
+    "id": "gid://shopify/Collection/301830340671",
+    "products": 95,
+    "rule": "product type EQUALS any of",
+    "types": ["Mirror", "LED Mirror", "Mirror Cabinet", "Towel Rail", "Hand Towel Rail", "Bath Towel Shelf", "Bathroom Hook", "Toilet Roll Holder", "Toilet Brush Holder", "Soap Holder", "Shelf Holder", "Ceramic and Modern Bathroom Fixtures", "Bathroom Niche Boxes", "Pop Up Waste", "Bath Waste", "Designer Bathroom Accessories", "Bottle Trap"]
+  },
+  "floor-drains-wastes": {
+    "id": "gid://shopify/Collection/302209794111",
+    "products": 31,
+    "rule": "any of",
+    "title_contains": ["Floor Waste", "Linear Drain", "Floor Drain"],
+    "type_equals": ["Floor Drains"]
+  },
+  "bathroom-wastes": {
+    "id": "gid://shopify/Collection/301479788607",
+    "kind": "manual",
+    "products": 24,
+    "removed": {
+      "gid://shopify/Product/8403246383167": "Roberts Designs Square Grate Shower Floor Waste - 50mm Outlet",
+      "gid://shopify/Product/8403246350399": "Roberts Designs Square Grate Shower Floor Waste - 80mm Outlet",
+      "gid://shopify/Product/8403246317631": "Roberts Designs Square Grate Shower Floor Waste - 80mm Outlet, Long Collar",
+      "gid://shopify/Product/8403246284863": "Roberts Designs Square Grate Shower Floor Waste - 100mm Outlet",
+      "gid://shopify/Product/8403246252095": "Roberts Designs Tile Insert Shower Floor Waste - 50mm Outlet",
+      "gid://shopify/Product/8403246219327": "Roberts Designs Tile Insert Shower Floor Waste - 80mm Outlet",
+      "gid://shopify/Product/8403245924415": "Roberts Designs Tile Insert Shower Floor Waste - 100mm Outlet",
+      "gid://shopify/Product/8403247202367": "Tile Insert Linear Drain - 50mm Outlet",
+      "gid://shopify/Product/8403247136831": "Tile Insert Linear Drain - 76mm Outlet",
+      "gid://shopify/Product/8403246481471": "Strip Punched Linear Drain - 50mm Outlet",
+      "gid://shopify/Product/8403246448703": "Strip Punched Linear Drain - 76mm Outlet",
+      "gid://shopify/Product/8403246415935": "Square Punched Linear Drain - 50mm Outlet",
+      "gid://shopify/Product/8403252052031": "Roberts Designs Recessed Puddle Flange - Shower Waterproofing",
+      "gid://shopify/Product/8451903520831": "Recessed Flange Adapter 100 x 100mm",
+      "gid://shopify/Product/8451903586367": "Flange 50mm Socket Weld",
+      "gid://shopify/Product/8429956333631": "Tile Insert Floor Waste 50mm, 100 x 100mm",
+      "gid://shopify/Product/8429956366399": "Tile Insert Floor Waste 80mm, 100 x 100mm",
+      "gid://shopify/Product/8429956431935": "Twist Top Floor Drain 80mm",
+      "gid://shopify/Product/8429956399167": "Twist Top Floor Drain 100mm"
+    },
+    "kept": {
+      "gid://shopify/Product/8450297036863": "MELA Universal Dome Pop Up Waste",
+      "gid://shopify/Product/8382639865919": "MELA Pop Up Waste Universal",
+      "gid://shopify/Product/8429956464703": "Celine Universal Pop Up Waste 32/40mm",
+      "gid://shopify/Product/8429904986175": "Celine Bath Pop Up Waste",
+      "gid://shopify/Product/8429905018943": "Celine Bottle Trap 32mm"
+    }
+  },
+  "hardware_tag_added_to": [
+    "gid://shopify/Product/8403252052031",
+    "gid://shopify/Product/8451903520831",
+    "gid://shopify/Product/8451903586367"
+  ],
+  "menu_item_renamed": {
+    "menus": ["main-menu-2026", "main-menu-2026-about"],
+    "from": "Bathroom wastes",
+    "to": "Basin & bath wastes",
+    "url": "/collections/bathroom-wastes"
+  }
+}
