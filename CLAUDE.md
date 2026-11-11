@@ -15,19 +15,22 @@ theme edit there.
 
 1. **No price, cost, discount, collection, trade band or company change without the owner's explicit approval of the
    specific change.** Propose in a table first. Reads and reports are always fine.
-2. **Floors** (playbook section 2): public 25% margin (price-matched lines 20%); trade 25% (MELA 20%); caps 20/15/15.
+2. **MELA exclusive (11 Nov 2026)**: ETS is the official MELA seller and sells only MELA bathroomware. MELA RRP = Bathroom
+   City's price. Never list another bathroomware brand; the drafted non-MELA ranges are in
+   `store-content/mela-exclusive-drafted-2026-11-11.json`.
+3. **Floors** (playbook section 2): public 25% margin (price-matched lines 20%); trade 25% (MELA 20%); caps 20/15/15.
    Never price under them. MELA never under Bathroom City's price.
-3. **One cost basis**: inc GST. Say when a cost is missing; never invent one.
-4. **Theme**: never write to the live theme. Duplicate it, edit the draft, give the owner the preview link and the publish
+4. **One cost basis**: inc GST. Say when a cost is missing; never invent one.
+5. **Theme**: never write to the live theme. Duplicate it, edit the draft, give the owner the preview link and the publish
    steps. Sync the edited files into `theme/` and note the draft in the root README.
-5. **After any price or band change**, rerun `b2b_price_list_2026_11.py` and `trade_price_metafields_2026_11.py`, update the
+6. **After any price or band change**, rerun `b2b_price_list_2026_11.py` and `trade_price_metafields_2026_11.py`, update the
    master list, add a README entry, commit and push to the single branch. Stale trade prices are the main failure mode.
-6. **Shopify API**: Admin GraphQL via the Shopify MCP tools. Pages of 100; mutations under 16,384 characters; metafields 25 per
+7. **Shopify API**: Admin GraphQL via the Shopify MCP tools. Pages of 100; mutations under 16,384 characters; metafields 25 per
    call, price-list prices 100 per call; `bulkOperationRunMutation` and live-theme writes are blocked. Use current field names
    (`defaultEmailAddress`, `countryCodeV2`, `collectionsToJoin`, `newTheme`).
-7. **Destructive actions** (deleting products, companies, themes, discounts) need the owner's explicit instruction naming the
+8. **Destructive actions** (deleting products, companies, themes, discounts) need the owner's explicit instruction naming the
    item. Save a copy in the repo first.
-8. Write for the owner: short plain sentences, dollar figures, no jargon, one clear recommendation.
+9. Write for the owner: short plain sentences, dollar figures, no jargon, one clear recommendation.
 
 ## Shopify IDs that matter
 
