@@ -1,0 +1,11 @@
+[
+ {"deleted": "2026-11-11", "reason": "Empty; trade bands are now the B2B price list, the trade-list-N collections and Trade price discounts are gone (playbook caps bands at 20%).",
+  "id": "gid://shopify/Collection/301904429119", "handle": "trade-list-25", "title": "Trade 25% items",
+  "descriptionHtml": "<p>Internal: products that get 25% off for trade accounts.</p>", "type": "manual", "sortOrder": "MOST_RELEVANT", "seo": {"title": null, "description": null}, "image": null, "productsCount": 0},
+ {"deleted": "2026-11-11", "reason": "Empty smart collection (vendor = 'BAT Trims'; BAT products carry vendor 'BAT'). Was linked from the live Hardware dropdown; link removed.",
+  "id": "gid://shopify/Collection/302414135359", "handle": "bat-trims", "title": "BAT Tile Trims & Aluminium Angles",
+  "descriptionHtml": "<p>BAT aluminium tiling angles in 20+ colours, square edge, round edge, cove, expansion, stair, notched and balcony trims, channel and showerstop beads, and 316 marine-grade stainless angles, in 3 m lengths, with 1 m angles in mill finish.</p><p>3 m lengths are delivered around Perth or picked up in Maddington; 1 m lengths and corner pieces post Australia-wide.</p>",
+  "type": "smart", "rules": {"appliedDisjunctively": false, "rules": [{"column": "VENDOR", "relation": "EQUALS", "condition": "BAT Trims"}]},
+  "sortOrder": "MOST_RELEVANT", "seo": {"title": "BAT Tile Trims & Aluminium Tiling Angles, 20+ Colours", "description": "BAT aluminium tiling angles, square and round edge, cove, expansion, stair and balcony trims in 20+ finishes. 3 m lengths delivered around Perth."},
+  "image": "https://cdn.shopify.com/s/files/1/0683/0292/9983/collections/bat-trims-project-mosaic-corner-angle_b205332a-6f22-434b-b582-e61ba9eeddae.jpg?v=1791848388", "productsCount": 0}
+]

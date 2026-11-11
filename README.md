@@ -13,6 +13,65 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Product and collection audit, "On sale" per department (11 Nov 2026, live)
+
+Every active product (1,415) and collection (131) was checked for placement; the findings and fixes are in
+`store-content/collection-audit-2026-11-11.md`. Fixed in Shopify: 29 products that sat in no department (missing product
+types added to the five department smart collections), 15 Roberts Designs drains retyped "Floor Drains", and 12 products
+added to the manual Spouts & outlets, Inset basins and Accessories collections. Six new manual **"… on sale"** collections
+(tiles-on-sale, vanities-basins-on-sale, tapware-sinks-on-sale, baths-toilets-on-sale, mirrors-accessories-on-sale,
+hardware-on-sale) are the first link in each dropdown of both the live menu `main-menu-2026` and the draft menu
+`main-menu-2026-v3` (Hardware on sale under both Adhesives & waterproofing and Tools & trims). They are empty until the
+owner adds products and sets a compare-at price. No theme change. Same day, on the owner's instruction: the two empty collections
+"Trade 25% items" and "BAT trims" were deleted (copies in `store-content/collections/deleted-2026-11-11.json`) and the BAT
+trims link dropped from the live Hardware dropdown. Clearance stays separate from sale.
+
+## Menu rethink: materials, tools, brands (11 Nov 2026, draft theme, waiting to be published)
+
+The owner asked whether "Hardware" was the right name for a dropdown that had grown to 22 links mixing adhesives, tools
+and brand names. New menu **`main-menu-2026-v3`** (Menu 228292722751; the old `main-menu-2026` is untouched) replaces
+"Hardware" with three dropdowns a tiler would look for:
+- **Adhesives & waterproofing** (`/collections/adhesives-waterproofing`, new smart collection): tile adhesives, grout,
+  waterproofing, levelling / screeds / patching (`levelling-screeds`, new), primers & additives (`primers-additives`, new),
+  silicone & sealants, concrete repair & render (`concrete-repair-render`, new), ARDEX range, RLA & Gripset range
+  (`rla-gripset`, new, vendor RLA).
+- **Tools & trims** (`/collections/tools-trims`, new): trowels, cutters, blades, spacers, grout clean-up, mixers, scrapers,
+  silicone guns, large format handling, knee pads, tile drilling, trims, floor drains.
+- **Brands** (links to the all-collections page): ARDEX, RLA & Gripset, Raimondi, BAT, Sigma, Maxisil, Roberts Designs,
+  Baron, Washboy, Panther, MELA, Eternity tiles. (BAT trims is left out: its collection is empty.)
+Tiles, Vanities & basins, Tapware & sinks, Baths & toilets, Mirrors & accessories, Renovations and Trade are unchanged.
+The Hardware collection itself stays for its URL and search traffic.
+
+Draft theme **"ETS 2026 – New menu: materials, tools, brands (draft)"** (id 145087791167, a copy of the live
+"Price on request" theme) points the header, footer "Shop" column, collection chips, All departments page and page hero
+chips at the new menu (`sections/header-group.json`, `sections/footer-group.json`, `templates/collection.json`,
+`templates/list-collections.json`, `sections/ets-page-hero.liquid`). Ten top-level items need the whole row, so
+`assets/ets-premium.css` hides the nav-row quote button (the hero and footer still have it), tightens the bar (13px, 7px
+padding) and switches to the phone drawer under 1200px instead of clipping. Checked in a headless browser with the web fonts
+loaded: the bar fits at 1920, 1440, 1280 and 1200px; 1100px shows the burger; the drawer and the three dropdowns render.
+The five menu files and `ets-premium.css` were re-synced from the live theme first (the repo copies were behind).
+**To go live: Shopify admin → Online Store → Themes → "New menu" draft → Publish.** Preview:
+`https://excellenttilingservices.com/?preview_theme_id=145087791167`. The owner published the "Price on request" theme
+the same day (now the live theme, id 145086480447).
+
+## ARDEX range live, "Price on request" draft theme (11 Nov 2026)
+
+The owner asked for every ARDEX Australia product on the site, live for search engines but not for sale yet. **206 ARDEX
+products / 361 variants** are now Active on the Online Store channel only, at price $0.00, stock 0 and "stop selling when
+out of stock", in 13 new ARDEX collections (`/collections/ardex` plus one per range), under Hardware in the main menu, with a
+catalogue and data-sheet page. Details, ids and the activation steps: `store-content/supplier-sync/README.md`, "ARDEX
+Australia range".
+
+A $0.00 price looks like a free product, so draft theme **"ETS 2026 – Price on request (draft)"** (id 145086480447, a copy
+of the live "Tiles by exact m2" theme) shows **Price on request** wherever a variant's price is $0: `snippets/price.liquid`
+(product page, cards, quick view), `blocks/_featured-product-price.liquid` (no "From $0.00" on multi-variant products) and
+`snippets/ets-product-schema.liquid` (the JSON-LD offer carries no price, only the currency and OutOfStock availability, so
+Google is not told the product costs $0). Priced products render exactly as before. Tested in preview on the ARDEX SG Spray
+page: "Price on request", Sold out button, no $0.00 anywhere, offer without a price.
+**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Price on request (draft)" → Publish.** Preview:
+`https://excellenttilingservices.com/products/ardex-sg-spray-silicone-smoothing-agent?preview_theme_id=145086480447`.
+Until it is published the ARDEX pages show $0.00.
+
 ## Eternity supplier photos from the flash drive (10 Nov 2026, live)
 
 The owner's external drive (`D:\Eternity`) has every file Eternity has sent. Applied live in Shopify: the generated "indicative

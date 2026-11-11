@@ -93,6 +93,10 @@
   endif
 -%}
 <div ref="priceContainer">
+  {%- comment -%} Unpriced products (price $0, e.g. the ARDEX range before costs arrive) show "Price on request" instead of $0.00. {%- endcomment -%}
+  {% if product_resource != blank and selected_variant.price == 0 %}
+    <span class="price ets-price--poa"><bdi>Price on request</bdi></span>
+  {% else %}
   {% if ets_trade_pct > 0 and has_volume_pricing != true %}
     <span class="ets-price-block">
       <span class="ets-trade-price">
@@ -126,6 +130,7 @@
       {% assign unit_price = selected_variant.unit_price | money %}
     {% endif %}
     {% render 'unit-price', price: unit_price, measurement: selected_variant.unit_price_measurement %}
+  {% endif %}
   {% endif %}
 </div>
 {% if has_volume_pricing %}<small ref="volumePricingNote" class="volume-pricing-note">{{ 'content.volume_pricing_available' | t }}</small>{% endif %}

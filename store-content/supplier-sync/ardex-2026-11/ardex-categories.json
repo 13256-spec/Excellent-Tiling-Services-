@@ -1,0 +1,888 @@
+{
+ "civil-engineering": {
+  "title": "Civil Engineering",
+  "intro": "Rapid Setting Micro Concrete",
+  "products": [
+   "ardex-ce-826",
+   "ardex-ce-760",
+   "ardex-ce-707",
+   "ardex-ce-511-2",
+   "ardex-ce-580",
+   "ardex-ce-900",
+   "ardex-ce-828",
+   "ardex-ce-901",
+   "ardex-ce-902",
+   "ardex-ce-903",
+   "ardex-ce-980",
+   "ardex-ce-330",
+   "ardex-ce-300",
+   "ardex-ce-425",
+   "ardex-ce-460"
+  ]
+ },
+ "civil-engineering__geotechnical": {
+  "title": "Geotechnical",
+  "intro": "GRP Multi-Strand Ground Anchor",
+  "products": [
+   "ardex-ce-425",
+   "ardex-ce-460"
+  ]
+ },
+ "civil-engineering__injection-resins": {
+  "title": "Injection Resins",
+  "intro": "PU High Foaming Injection Resin",
+  "products": [
+   "ardex-ce-330",
+   "ardex-ce-300"
+  ]
+ },
+ "civil-engineering__structural-grouts-and-mortars": {
+  "title": "Structural Grouts & Mortars",
+  "intro": "Rapid Setting Micro Concrete",
+  "products": [
+   "ardex-ce-826",
+   "ardex-ce-760",
+   "ardex-ce-707",
+   "ardex-ce-511-2",
+   "ardex-ce-580",
+   "ardex-ce-900",
+   "ardex-ce-828",
+   "ardex-ce-901",
+   "ardex-ce-902",
+   "ardex-ce-903",
+   "ardex-ce-980"
+  ]
+ },
+ "concrete-repair": {
+  "title": "Concrete Repair, Crack Repair & Sealants",
+  "intro": "From corrosion control to cathodic protection, through to engineered structural repair mortars and high strength, rapid setting crack repair solutions \u2013\u00a0 The ARDEX Concrete Repair, Crack Repair & Sealant range offer proven and durable solutions to guarantee structural integrity for many years to come.",
+  "products": [
+   "concrete-crack-lock",
+   "ardex-ra-142",
+   "ardex-ra-144",
+   "ardex-ra-54",
+   "ardex-ra-56",
+   "ardex-ra-88-plus",
+   "ardex-injection-t-port",
+   "ardex-injection-check-window",
+   "ardex-brx-60-lo",
+   "ardex-br-10-zp-2",
+   "ardex-br-340",
+   "ardex-br-345",
+   "ardex-br-460-flow",
+   "ardex-a-30",
+   "ardex-a-45",
+   "ardex-a-46-2",
+   "ardex-bg-90-gp",
+   "ardex-ca-20-p-plus",
+   "ardex-ra-050",
+   "ardex-ra-040"
+  ]
+ },
+ "concrete-repair__concrete-repair-mortars": {
+  "title": "Concrete Repair Mortars",
+  "intro": "The ARDEX Concrete Repair Mortar range provides solutions for new and old concrete repair from high-build hand applied repair mortars to high performance pourable repair mortars. Our high quality concrete repair products offer solutions best suited to your project needs and performance requirements and can significantly prolong the life of the structure. View our range below to find your solution.",
+  "products": [
+   "ardex-brx-60-lo",
+   "ardex-br-10-zp-2",
+   "ardex-br-340",
+   "ardex-br-345",
+   "ardex-br-460-flow",
+   "ardex-a-30",
+   "ardex-a-45",
+   "ardex-a-46-2"
+  ]
+ },
+ "concrete-repair__construction-grout": {
+  "title": "Construction Grout",
+  "intro": "ARDEX offer a versatile Class-A cementitious grout designed for general purpose grouting applications, with the ARDEX anchoring & dowelling solution purposely designed for dowel and tie bars applications with ultra-fast curing performance. View our range below to find your solution.",
+  "products": [
+   "ardex-bg-90-gp"
+  ]
+ },
+ "concrete-repair__construction-sealants": {
+  "title": "Construction Sealants",
+  "intro": "From highly UV resistance and excellent durability sealants to a multi-purpose high strength adhesive, ARDEX range of sealants have been specially developed for your general construction needs. View our range below to find your solution.",
+  "products": [
+   "ardex-ca-20-p-plus",
+   "ardex-ra-050",
+   "ardex-ra-040",
+   "ardex-ra-54"
+  ]
+ },
+ "concrete-repair__crack-repair-injection": {
+  "title": "Crack Repair & Injection",
+  "intro": "A wide variety of solutions are provided in the ARDEX Crack Repair & Injection range from structural epoxy based resins to innovative carbon fibre crack bridging. This ARDEX range of products are suitable for project requirements such as high strength, superior bond strength or non-corrosive capabilities. View our range below to find your solution.",
+  "products": [
+   "concrete-crack-lock",
+   "ardex-ra-142",
+   "ardex-ra-144",
+   "ardex-ra-54",
+   "ardex-ra-56",
+   "ardex-ra-88-plus",
+   "ardex-injection-t-port",
+   "ardex-injection-check-window"
+  ]
+ },
+ "floor-levelling": {
+  "title": "Subfloor Preparation & Levelling",
+  "intro": "A smooth, flat sub-floor is essential for a successful floor covering installation. ARDEX manufacture a range of award winning latex and water-based smoothing, floor levelling and self-levelling compounds for internal and external use.",
+  "products": [
+   "ardex-a-30",
+   "ardex-a-45",
+   "ardex-a-46-2",
+   "ardex-cl-30",
+   "ardex-k-125",
+   "ardex-k-275",
+   "ardex-k-65",
+   "ardex-k-60-arditex",
+   "ardex-lq-92",
+   "ardex-k-900-bf",
+   "ardex-k-12-new",
+   "ardex-k-15-microtec",
+   "ardex-k-301-2",
+   "ardex-k-80",
+   "ardex-aggregate",
+   "ardex-feather-finish-2",
+   "ardex-fine-finish",
+   "ardex-a-36-abascreed",
+   "ardex-a-48",
+   "ardex-a-38",
+   "ardex-abacrete",
+   "ardex-wpm-300",
+   "ardex-p-38",
+   "ardex-e-25-2"
+  ]
+ },
+ "floor-levelling__levelling": {
+  "title": "Levelling",
+  "intro": "ARDEX Australia has a range of floor levelling compounds suitable for internal and external use. Whether you are looking to level and smooth internal sub-floors prior to the installation of finished flooring, looking for a rapid drying levelling compound, or self-levelling concrete, ARDEX has you covered.",
+  "products": [
+   "ardex-cl-30",
+   "ardex-k-125",
+   "ardex-k-275",
+   "ardex-k-65",
+   "ardex-k-60-arditex",
+   "ardex-lq-92",
+   "ardex-k-900-bf",
+   "ardex-k-12-new",
+   "ardex-k-15-microtec",
+   "ardex-k-301-2",
+   "ardex-k-80",
+   "ardex-aggregate"
+  ]
+ },
+ "floor-levelling__moisture-barrier-systems": {
+  "title": "Moisture Barrier Systems",
+  "intro": "Ideal for use as a waterproofing membrane or barrier coating over freshly laid hardened concrete, prior to the application of floor levellers.",
+  "products": [
+   "ardex-wpm-300"
+  ]
+ },
+ "floor-levelling__patching": {
+  "title": "Patching",
+  "intro": "ARDEX Australia offer a range of patching compounds and slump free repair mortars, suitable for creating new ramps, forming covers, patch repairs, filling cracks, and the installation of floor coverings.",
+  "products": [
+   "ardex-a-30",
+   "ardex-a-45",
+   "ardex-a-46-2"
+  ]
+ },
+ "floor-levelling__repair-mortars": {
+  "title": "Repair Mortars",
+  "intro": "ARDEX Australia\u2019s range of repair mortars are rapid drying and ideal for creating new ramps, forming coves, patch repairs, and filling cracks. Suitable to repair concrete internally and externally.",
+  "products": [
+   "ardex-a-45",
+   "ardex-a-46-2",
+   "ardex-feather-finish-2",
+   "ardex-fine-finish"
+  ]
+ },
+ "floor-levelling__screeds": {
+  "title": "Screeds",
+  "intro": "Looking for screed cement for internal and external use, to achieve falls for water run-off and level uneven floors prior to tiling or waterproofing? ARDEX Australia has screeding options designed for all types of floor coverings.",
+  "products": [
+   "ardex-a-36-abascreed",
+   "ardex-a-48",
+   "ardex-a-38",
+   "ardex-abacrete"
+  ]
+ },
+ "floor-levelling__smoothing": {
+  "title": "Smoothing",
+  "intro": "ARDEX Australia have a range of smoothing concrete suitable for internal and external use. For a smooth, permanent finish to a variety of internal substrates prior to the installation of floorcoverings, choose ARDEX.",
+  "products": [
+   "ardex-feather-finish-2",
+   "ardex-fine-finish"
+  ]
+ },
+ "flooring-adhesives": {
+  "title": "Flooring Adhesives",
+  "intro": "Looking for optimum emissions with low VOC emissions? ARDEX resilient adhesives are your best choice. Whether it\u2019s carpet, vinyl or linoleum, ARDEX has the specialist products for these and many other floor coverings. They not only offer perfect adhesion but are also free of solvents and extremely low on emissions. And with ARDEX SpeedTec technology, we\u2019re now entering a whole new dimension in speed. ARDEX SpeedTec brings to ARDEX floor covering adhesives the speed you\u2019re familiar with from ARDU",
+  "products": [
+   "ardex-af-171",
+   "ardex-af-271",
+   "ardex-ca-750",
+   "ardex-af-180-ms",
+   "ardex-catalyst-spray"
+  ]
+ },
+ "prefab-modular-offsite": {
+  "title": "Prefab Modular Offsite",
+  "intro": "Peel & Stick Undertile Waterproofing Membrane",
+  "products": [
+   "ardex-pmo-450",
+   "ardex-pmo-593",
+   "ardex-k-65",
+   "ardex-k-60-arditex",
+   "ardex-wpm-155-rapid-plus",
+   "ardex-wpm-750",
+   "ardex-stb-tape",
+   "ardex-af-180-ms",
+   "ardex-x-18",
+   "ardex-x-17",
+   "ardex-feather-finish-2",
+   "wedi-fundo-primo-z",
+   "wedi-fundo-ligno",
+   "wedi-riolito-z",
+   "wedi-building-board",
+   "wedi-primo-shower-drain-kit",
+   "fundo-click-and-seal-height-adjustment-kit",
+   "wedi-click-and-seal-drain-kit-dn80-and-dn100",
+   "wedi-fundo-click-and-seal-drain-kit-dn50",
+   "wedi-full-foam-hob",
+   "wedi-shower-niche",
+   "wedi-channel-cover",
+   "wedi-subliner-dry"
+  ]
+ },
+ "primers-bonding-agents-additives": {
+  "title": "Primers, Bonding Agents & Additives",
+  "intro": "The key to success when installing ARDEX products is to achieve a good bond between the substrate and ARDEX floor levelling cements, waterproofing membranes and tile adhesives. ARDEX produce a range of primers for internal and external use",
+  "products": [
+   "ardex-p-38",
+   "ardex-multiprime",
+   "ardex-p-9",
+   "ardex-wpm-300",
+   "ardex-grout-booster",
+   "ardex-wr-prime",
+   "ardex-p-51",
+   "ardex-e-25-2",
+   "ardex-p-82",
+   "ardex-abacrete",
+   "ardex-abalastic"
+  ]
+ },
+ "render": {
+  "title": "Render",
+  "intro": "From general purpose acrylic based render to fibre-reinforced modified renders with superior non-slump performance and excellent impact resistance, ARDEX have the render solution for your next project.",
+  "products": [
+   "ardex-wr-80-fr",
+   "ardex-wr-100",
+   "ardex-wr-120-fr",
+   "ardex-wr-prime",
+   "ardex-abacrete"
+  ]
+ },
+ "render__cement-render": {
+  "title": "Cement Render",
+  "intro": "With superior non-slump performance, excellent impact resistance, and suitability for both internal and external applications, the ARDEX render range has your solution. View our range below to find your solution.",
+  "products": [
+   "ardex-wr-80-fr",
+   "ardex-wr-100",
+   "ardex-wr-120-fr"
+  ]
+ },
+ "render__render-primers-additives": {
+  "title": "Render Primers & Additives",
+  "intro": "ARDEX offer primer and additives to enhance bond strength, improve water resistance, and increase both working time and product flexibility for cement based render. View our range below to find your solution.",
+  "products": [
+   "ardex-wr-prime",
+   "ardex-abacrete"
+  ]
+ },
+ "tile-and-stone-installation-systems": {
+  "title": "Tile & Stone Installation Systems",
+  "intro": "ARDEX provides intelligent and trusted system solutions for every aspect of tiling. For tile and natural stone installations \u2013 indoors and outdoors \u2013 domestic and commercial projects. ARDEX tile & stone installation systems include products for levelling, under tile waterproofing, tile adhesives, grouts, silicones, sealers and cleaners.",
+  "products": [
+   "ardex-eg-900-c",
+   "ardex-fg-8",
+   "ardex-fs-dd",
+   "ardex-eg-15",
+   "ardex-eg-800-f",
+   "ardex-wpm-155-rapid-plus",
+   "ardex-wpm-002",
+   "ardex-wpm-1000",
+   "ardex-wpm-750",
+   "ardex-wpm-130",
+   "ardex-stb-tape",
+   "ardex-x-18",
+   "ardex-x-17",
+   "ardex-x-10",
+   "ardex-x-77",
+   "ardex-x-32",
+   "ardex-x-44-tropical-glue",
+   "ardex-ca-20-p-plus",
+   "ardex-x-68",
+   "ardex-x-7-2",
+   "ardex-abaflex",
+   "ardex-mpp",
+   "ardex-x-56",
+   "ardex-x-52-improved-glue",
+   "ardex-quickbond",
+   "ardex-optima",
+   "ardex-isoflex",
+   "ardex-wa-100",
+   "ardex-d-2",
+   "ardex-d-5",
+   "ardex-se",
+   "ardex-st-2",
+   "ardex-sg-spray",
+   "ardex-gt-notch-trowel-6mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-8mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-10mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-12mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-finishing-trowel-280-x-130mm-420-stainless-steel",
+   "ardex-gt-bullnose-hand-trowel-410mm-301-stainless-steel",
+   "ardex-gt-splash-trowel-180mm-420-stainless-steel",
+   "ardex-gt-scraper-50mm-420-stainless-steel",
+   "ardex-gt-scraper-75mm-420-stainless-steel",
+   "ardex-gt-grout-washboy-system-pro",
+   "ardex-gt-silicone-applicator-3-pack",
+   "ardex-gt-smoothing-stand-up-trowel-500mm",
+   "ardex-gt-levelling-gauging-rake-600mm",
+   "ardex-gt-telescopic-bar-90-200cm",
+   "ardex-gt-ardipegs-levelling-pegs-250-pack",
+   "ardex-gt-multi-tool-75mm-420-stainless-steel",
+   "small-hand-roller",
+   "roller-brass",
+   "heavy-duty-caulking-gun",
+   "heavy-duty-dual-cartridge-caulking-gun-21-ratio",
+   "grout-mixing-paddle",
+   "mixing-paddle-2",
+   "micro-sponge",
+   "gauging-bucket",
+   "graduated-mixing-pail",
+   "ardex-p-38",
+   "ardex-p-9",
+   "ardex-grout-booster",
+   "ardex-e-90-2",
+   "ardex-abalastic",
+   "ardex-ds-40",
+   "ardex-ui-740-flexbone",
+   "ardex-ds-60-decoupling-mat",
+   "ardex-wj-50",
+   "ardex-white-grout"
+  ]
+ },
+ "tile-and-stone-installation-systems__epoxy-systems": {
+  "title": "Epoxy Systems",
+  "intro": "ARDEX offer high performance epoxy grouts designed to suit all ceramic and porcelain tiles, terrazzo, slate, quarry tiles, glass, and natural stone, in areas that require strict standards of hygiene.",
+  "products": [
+   "ardex-eg-15"
+  ]
+ },
+ "tile-and-stone-installation-systems__natural-stone-systems": {
+  "title": "Natural Stone Systems",
+  "intro": "ARDEX offer a range of natural stone solutions, specially designed for fixing natural stone such as marble and granite, including those sensitive to moisture. Suitable for a range of substrates including concrete, screeds, existing ceramic tiles, and Autoclaved aerated concrete (AAC). View our range below.",
+  "products": [
+   "ardex-x-32",
+   "ardex-quickbond",
+   "ardex-wa-100",
+   "ardex-st-2"
+  ]
+ },
+ "tile-and-stone-installation-systems__silicones": {
+  "title": "Silicones",
+  "intro": "ARDEX silicones are suitable for use with ceramic tiles, glass, enamel, granite, porcelain, and moisture sensitive natural stone prone to staining, such as marble, granite, sandstone, and limestone. View the range below.",
+  "products": [
+   "ardex-se",
+   "ardex-st-2",
+   "ardex-sg-spray"
+  ]
+ },
+ "tile-and-stone-installation-systems__sound-deadening": {
+  "title": "Sound-Deadening",
+  "intro": "ARDEX offer an acoustic mat solution designed to effectively reduce impact sound, which can be installed onto various substrates prior to the direct application of tiles, slabs, natural stone, and concrete pavers.",
+  "products": [
+   "ardex-ds-40"
+  ]
+ },
+ "tile-and-stone-installation-systems__tile-adhesives": {
+  "title": "Tile Adhesives",
+  "intro": "ARDEX manufacture a comprehensive range of floor and wall tile adhesives, from convenient ready for use products, to powder based adhesives designed specifically for use with large format tile or natural stone installations.",
+  "products": [
+   "ardex-ca-20-p-plus",
+   "ardex-d-2",
+   "ardex-d-5",
+   "ardex-x-18",
+   "ardex-x-17",
+   "ardex-x-10",
+   "ardex-x-77",
+   "ardex-x-32",
+   "ardex-x-44-tropical-glue",
+   "ardex-x-68",
+   "ardex-x-7-2",
+   "ardex-abaflex",
+   "ardex-mpp",
+   "ardex-x-56",
+   "ardex-x-52-improved-glue",
+   "ardex-quickbond",
+   "ardex-optima",
+   "ardex-isoflex",
+   "ardex-wa-100"
+  ]
+ },
+ "tile-and-stone-installation-systems__tile-adhesives__powdered-adhesives": {
+  "title": "Powdered Adhesives",
+  "intro": "Fibre Reinforced Flexible Non Slump Wall and Floor Tile Adhesive",
+  "products": [
+   "ardex-x-18",
+   "ardex-x-17",
+   "ardex-x-10",
+   "ardex-x-77",
+   "ardex-x-32",
+   "ardex-x-44-tropical-glue",
+   "ardex-x-68",
+   "ardex-x-7-2",
+   "ardex-abaflex",
+   "ardex-mpp",
+   "ardex-x-56",
+   "ardex-x-52-improved-glue",
+   "ardex-quickbond"
+  ]
+ },
+ "tile-and-stone-installation-systems__tile-adhesives__ready-mixed-adhesives": {
+  "title": "Ready Mixed Adhesives",
+  "intro": "ARDEX CA 20 P Plus is a one component, silane modified polymer adhesive.",
+  "products": [
+   "ardex-ca-20-p-plus",
+   "ardex-d-2",
+   "ardex-d-5"
+  ]
+ },
+ "tile-and-stone-installation-systems__tile-adhesives__two-part-adhesives": {
+  "title": "Two-Part Adhesives",
+  "intro": "Two-Part Premium Tile Adhesive",
+  "products": [
+   "ardex-optima",
+   "ardex-isoflex",
+   "ardex-wa-100"
+  ]
+ },
+ "tile-and-stone-installation-systems__tile-grouts-tile-and-stone-installation-systems": {
+  "title": "Tile Grouts",
+  "intro": "Choose the best grout for either a contrasting or complementary finish. View ARDEX\u2019s range of epoxy and cement-based grouts, available in a wide range of colours, and suitable for both wall and floor tiling. ARDEX has a complete grout system for indoor and outdoor applications.",
+  "products": [
+   "ardex-eg-900-c",
+   "ardex-fg-8",
+   "ardex-fs-dd",
+   "ardex-eg-15",
+   "ardex-eg-800-f"
+  ]
+ },
+ "tile-and-stone-installation-systems__tiling-primers-bonding-agents-additives": {
+  "title": "Primers, Bonding Agents and Additives",
+  "intro": "The key to success when installing ARDEX products is to achieve a good bond between the substrate and ARDEX floor levelling cements, waterproofing membranes and tile adhesives. ARDEX produce a range of primers for internal and external use.",
+  "products": [
+   "ardex-p-38",
+   "ardex-p-9",
+   "ardex-grout-booster",
+   "ardex-e-90-2",
+   "ardex-abalastic"
+  ]
+ },
+ "tile-and-stone-installation-systems__tools": {
+  "title": "Tools",
+  "intro": "At ARDEX Australia, we asked ourselves: what if we could perfect the tools of the trade? To find the answer, we partnered with the experts\u2014our customers. Together with professionals from the trades, we have developed the Next Level Tools.\nThis collaboration has led to a range of professional tiling tools that truly makes a difference on the job site.\nExperience:",
+  "products": [
+   "ardex-gt-notch-trowel-6mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-8mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-10mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-12mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-finishing-trowel-280-x-130mm-420-stainless-steel",
+   "ardex-gt-bullnose-hand-trowel-410mm-301-stainless-steel",
+   "ardex-gt-splash-trowel-180mm-420-stainless-steel",
+   "ardex-gt-scraper-50mm-420-stainless-steel",
+   "ardex-gt-scraper-75mm-420-stainless-steel",
+   "ardex-gt-grout-washboy-system-pro",
+   "ardex-gt-silicone-applicator-3-pack",
+   "ardex-gt-smoothing-stand-up-trowel-500mm",
+   "ardex-gt-levelling-gauging-rake-600mm",
+   "ardex-gt-telescopic-bar-90-200cm",
+   "ardex-gt-ardipegs-levelling-pegs-250-pack",
+   "ardex-gt-multi-tool-75mm-420-stainless-steel",
+   "small-hand-roller",
+   "roller-brass",
+   "heavy-duty-caulking-gun",
+   "heavy-duty-dual-cartridge-caulking-gun-21-ratio",
+   "grout-mixing-paddle",
+   "mixing-paddle-2",
+   "micro-sponge",
+   "gauging-bucket",
+   "graduated-mixing-pail"
+  ]
+ },
+ "tile-and-stone-installation-systems__uncoupling-crack-isolation-systems": {
+  "title": "Uncoupling & Crack Isolation Systems",
+  "intro": "ARDEX offers a range of uncoupling and decoupling systems, ideal for large format tiles in high traffic areas. Suitable for a range of substrates, including concrete, timber subfloors, vinyl floor coverings and existing and cracked tiles. Designed for internal applications only.",
+  "products": [
+   "ardex-ui-740-flexbone",
+   "ardex-ds-60-decoupling-mat"
+  ]
+ },
+ "tile-and-stone-installation-systems__undertile-waterproofing": {
+  "title": "Undertile Waterproofing",
+  "intro": "Looking for suitable waterproofing membranes designed for use under tiles? ARDEX Australia has a range of high performance undertile waterproofing membranes, with good adhesion with ARDEX tile adhesives and suitable for both floors and walls.",
+  "products": [
+   "ardex-wpm-155-rapid-plus",
+   "ardex-wpm-002",
+   "ardex-wpm-1000",
+   "ardex-wpm-750",
+   "ardex-wpm-130",
+   "ardex-stb-tape"
+  ]
+ },
+ "tile-grouts": {
+  "title": "Tile Grouts",
+  "intro": "Choose the best grout for either a contrasting or complementary finish. View ARDEX\u2019s range of epoxy and cement-based grouts, available in a wide range of colours, and suitable for both wall and floor tiling. ARDEX has a complete grout system for indoor and outdoor applications.",
+  "products": [
+   "ardex-fg-8",
+   "ardex-fs-dd",
+   "ardex-eg-800-f",
+   "ardex-wj-50",
+   "ardex-white-grout",
+   "ardex-eg-900-c",
+   "ardex-eg-15"
+  ]
+ },
+ "tile-grouts__cement-based-grouts": {
+  "title": "Cement Based Grouts",
+  "intro": "Flexible Coloured Grout for Tile Joints 1 to 8 mm Wide (Please note: FG 8 Colour No. 200 White is no longer being produced and will be replaced by No. 201 Kosciuszko White, which will be available from February 2026.)",
+  "products": [
+   "ardex-fg-8",
+   "ardex-fs-dd",
+   "ardex-eg-800-f",
+   "ardex-wj-50",
+   "ardex-white-grout"
+  ]
+ },
+ "tile-grouts__epoxy-grouts": {
+  "title": "Epoxy Grouts",
+  "intro": "Solvent Free Water Washable Industrial Strength Epoxy Grout",
+  "products": [
+   "ardex-eg-900-c",
+   "ardex-eg-15"
+  ]
+ },
+ "tool-safety-equipment": {
+  "title": "Tools",
+  "intro": "At ARDEX Australia, we asked ourselves: what if we could perfect the tools of the trade? To find the answer, we partnered with the experts\u2014our customers. Together with professionals from the trades, we have developed the Next Level Tools.\nThis collaboration has led to a range of professional tiling tools that truly makes a difference on the job site.\nExperience:",
+  "products": [
+   "ardex-gt-notch-trowel-6mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-8mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-10mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-notch-trowel-12mm-280-x-130mm-420-stainless-steel",
+   "ardex-gt-finishing-trowel-280-x-130mm-420-stainless-steel",
+   "ardex-gt-bullnose-hand-trowel-410mm-301-stainless-steel",
+   "ardex-gt-splash-trowel-180mm-420-stainless-steel",
+   "ardex-gt-scraper-50mm-420-stainless-steel",
+   "ardex-gt-scraper-75mm-420-stainless-steel",
+   "ardex-gt-grout-washboy-system-pro",
+   "ardex-gt-silicone-applicator-3-pack",
+   "ardex-gt-smoothing-stand-up-trowel-500mm",
+   "ardex-gt-levelling-gauging-rake-600mm",
+   "ardex-gt-telescopic-bar-90-200cm",
+   "ardex-gt-ardipegs-levelling-pegs-250-pack",
+   "ardex-gt-multi-tool-75mm-420-stainless-steel",
+   "small-hand-roller",
+   "roller-brass",
+   "heavy-duty-caulking-gun",
+   "heavy-duty-dual-cartridge-caulking-gun-21-ratio",
+   "grout-mixing-paddle",
+   "mixing-paddle-2",
+   "micro-sponge",
+   "gauging-bucket",
+   "graduated-mixing-pail"
+  ]
+ },
+ "waterproofing-roofing-membranes": {
+  "title": "Waterproofing & Roofing Membranes",
+  "intro": "Specially designed for total reliability and superior performance for below grade through to exposed roofing applications, supported by market leading innovative technology, ARDEX provides specific waterproofing solutions for your project needs.",
+  "products": [
+   "ardex-ud-150",
+   "ardex-ud-158",
+   "ardex-wpm-715",
+   "ardex-wpm-1000",
+   "ardex-root-repell",
+   "ardex-wpm-114",
+   "ardex-wpm-116",
+   "ardex-wpm-150",
+   "ardex-wpm-185",
+   "ardex-wpm-188",
+   "ardex-wpm-444",
+   "ardex-wpm-909",
+   "ardex-wpm-155-rapid-plus",
+   "ardex-wpm-002",
+   "ardex-wpm-750",
+   "ardex-wpm-130",
+   "ardex-stb-tape",
+   "ardex-ca-750",
+   "ardex-multiprime",
+   "ardex-deckweb",
+   "ardex-wpm-1500",
+   "ardex-wpm-3000x",
+   "ardex-wpm-157",
+   "ardex-wpm-179",
+   "ardex-wpm-300",
+   "ardex-wa-98-adhesive",
+   "ardex-wa-98-solvent",
+   "ardex-wpm-710",
+   "ardex-flashing-tape",
+   "ardex-weldtec-corners",
+   "butynol",
+   "ardex-seam-tape",
+   "ardex-cured-flashing",
+   "ardex-uncured-flashing",
+   "ardex-wpm-299-seam-primer",
+   "ardex-butynol-scupper",
+   "ardex-dropper",
+   "ardex-wpm-240",
+   "ardex-wpm-117",
+   "ardex-bituminous-roof-sealant",
+   "ardex-pressure-seal",
+   "ardex-wpm-310",
+   "ardex-wpm-330-facade",
+   "ardex-p-9",
+   "ardex-wpm-265",
+   "ardex-wpm-270",
+   "ardex-wpm-368",
+   "ardex-wpm-405",
+   "small-hand-roller",
+   "roller-brass",
+   "heavy-duty-caulking-gun",
+   "heavy-duty-dual-cartridge-caulking-gun-21-ratio",
+   "ardex-construction-detail-bandage",
+   "ardex-wpm-657",
+   "ardex-protection-board",
+   "ardex-fixing-washers"
+  ]
+ },
+ "waterproofing-roofing-membranes__below-grade-membranes": {
+  "title": "Below Grade Membranes",
+  "intro": "From below ground carparks and lift pits to retaining walls and planter box applications, ARDEX provides the complete waterproofing system for your next project. View our range below to find your solution.",
+  "products": [
+   "ardex-wpm-1500",
+   "ardex-wpm-3000x",
+   "ardex-wpm-157",
+   "ardex-wpm-179",
+   "ardex-wpm-300"
+  ]
+ },
+ "waterproofing-roofing-membranes__butynol": {
+  "title": "Butynol Membranes",
+  "intro": "ARDEX Butynol membranes have been trusted for over 50 years for a variety of applications. With properties that resist ageing from heat, sunlight, and ozone, and renowned for its strength and versatility the ARDEX Butynol range are designed and proven to meet your project needs. View our range below to find your solution.",
+  "products": [
+   "butynol",
+   "ardex-wa-98-adhesive",
+   "ardex-wa-98-solvent",
+   "ardex-seam-tape",
+   "ardex-cured-flashing",
+   "ardex-uncured-flashing",
+   "ardex-wpm-299-seam-primer",
+   "ardex-butynol-scupper",
+   "ardex-dropper"
+  ]
+ },
+ "waterproofing-roofing-membranes__drainage-systems": {
+  "title": "Drainage Systems",
+  "intro": "Drainage Systems",
+  "products": [
+   "ardex-ud-150",
+   "ardex-ud-158"
+  ]
+ },
+ "waterproofing-roofing-membranes__external-facade-coatings": {
+  "title": "Protective Facade Coatings",
+  "intro": "From concrete repair to protective fa\u00e7ade coatings, ARDEX offer the complete fa\u00e7ade restoration solution. Our protective coatings are specifically engineered to ensure your structure is protected against chloride ions, sulphide ion, and carbonation attack for many years to come. View our range below to find your solution.",
+  "products": [
+   "ardex-wpm-310",
+   "ardex-wpm-330-facade"
+  ]
+ },
+ "waterproofing-roofing-membranes__external-roof-deck-membrane": {
+  "title": "External Roof/Deck Membranes",
+  "intro": "With a wide range of liquid applied, single ply, and multi-layer applied membranes ARDEX offers a variety of waterproofing solutions. From trafficable to UV resistant products with excellent flexibility and durability, you will find your solution in our market leading innovative waterproofing range. View our range below to find your solution.",
+  "products": [
+   "ardex-wpm-715",
+   "ardex-wpm-1000",
+   "ardex-root-repell",
+   "ardex-wpm-114",
+   "ardex-wpm-116",
+   "ardex-wpm-150",
+   "ardex-wpm-185",
+   "ardex-wpm-188",
+   "ardex-wpm-444",
+   "ardex-wpm-909"
+  ]
+ },
+ "waterproofing-roofing-membranes__preparatory-products-primers": {
+  "title": "Preparatory Products & Primers",
+  "intro": "From primers to create a superior bond strength through to additives to ensure increase product workability and flexural strength, ARDEX have the product accessory to meet your project needs. View our range below to find your solution.",
+  "products": [
+   "ardex-wpm-240",
+   "ardex-wa-98-adhesive",
+   "ardex-wa-98-solvent",
+   "ardex-ud-158",
+   "ardex-stb-tape",
+   "ardex-multiprime",
+   "ardex-p-9",
+   "ardex-deckweb",
+   "ardex-cured-flashing",
+   "ardex-uncured-flashing",
+   "ardex-wpm-299-seam-primer",
+   "ardex-wpm-265",
+   "ardex-wpm-270",
+   "ardex-wpm-300",
+   "ardex-wpm-368",
+   "ardex-wpm-405",
+   "ardex-wpm-710",
+   "ardex-flashing-tape",
+   "ardex-weldtec-corners",
+   "ardex-bituminous-roof-sealant",
+   "ardex-butynol-scupper",
+   "ardex-dropper",
+   "ardex-pressure-seal",
+   "small-hand-roller",
+   "roller-brass",
+   "heavy-duty-caulking-gun",
+   "heavy-duty-dual-cartridge-caulking-gun-21-ratio",
+   "ardex-construction-detail-bandage"
+  ]
+ },
+ "waterproofing-roofing-membranes__torch-applied-membranes": {
+  "title": "Torch Applied Membranes",
+  "intro": "The versatile ARDEX torch applied membrane range are suitable for both vertical and horizontal applications across a multitude of environments. Our extensive offering allows for specific waterproofing solutions for your project needs. View our range below to find your solution.",
+  "products": [
+   "ardex-wpm-240",
+   "ardex-wpm-114",
+   "ardex-wpm-116",
+   "ardex-wpm-117",
+   "ardex-wpm-150",
+   "ardex-wpm-185",
+   "ardex-wpm-188",
+   "ardex-wpm-444",
+   "ardex-bituminous-roof-sealant",
+   "ardex-dropper",
+   "ardex-pressure-seal"
+  ]
+ },
+ "waterproofing-roofing-membranes__undertile-membranes": {
+  "title": "Internal Undertile Membranes",
+  "intro": "Our complete systems approach allows ARDEX to offer a comprehensive range of liquid applied and sheet applied membranes for all your internal waterproofing applications. View our range below to find your solution.",
+  "products": [
+   "ardex-wpm-155-rapid-plus",
+   "ardex-wpm-002",
+   "ardex-wpm-750",
+   "ardex-wpm-130",
+   "ardex-stb-tape",
+   "ardex-ca-750",
+   "ardex-multiprime",
+   "ardex-deckweb"
+  ]
+ },
+ "waterproofing-roofing-membranes__weldtec-membranes": {
+  "title": "Weldtec Membranes",
+  "intro": "The ARDEX Weldtec range offers one of the most comprehensive and innovative waterproofing solutions available today. With unparalleled performance and market leading solutions for below grade applications through to rooftop environments, the ARDEX Weldtec range has the system to meet your project needs. View our range below to find your solution.",
+  "products": [
+   "ardex-wpm-715",
+   "ardex-wpm-1000",
+   "ardex-wpm-750",
+   "ardex-root-repell",
+   "ardex-wpm-1500",
+   "ardex-wa-98-adhesive",
+   "ardex-wa-98-solvent",
+   "ardex-wpm-710",
+   "ardex-flashing-tape",
+   "ardex-weldtec-corners"
+  ]
+ },
+ "wedi": {
+  "title": "wedi",
+  "intro": "Now part of the ARDEX Group, the wedi system stands by design diversity, modular simplicity in installation and reliability in application of bathroom, shower and building board systems.",
+  "products": [
+   "wedi-fundo-primo-z",
+   "wedi-fundo-ligno",
+   "wedi-riolito-z",
+   "wedi-primo-shower-drain-kit",
+   "fundo-click-and-seal-height-adjustment-kit",
+   "wedi-click-and-seal-drain-kit-dn80-and-dn100",
+   "wedi-fundo-click-and-seal-drain-kit-dn50",
+   "wedi-full-foam-hob",
+   "wedi-shower-niche",
+   "wedi-channel-cover",
+   "wedi-subliner-dry",
+   "wedi-washers",
+   "wedi-fastener-kit",
+   "wedi-putty-knife",
+   "wedi-321",
+   "wedi-shower-drain-cover-set-tileable",
+   "wedi-riolito-shower-drain-kit-standard",
+   "wedi-sealing-gaiter-dn10-dn25",
+   "wedi-sealing-tape",
+   "wedi-620-sealant",
+   "wedi-610-adhesive-sealant",
+   "wedi-standard-shower-drain-cover-and-frame",
+   "wedi-building-board",
+   "wedi-comoda-bench",
+   "wedi-vapor-85",
+   "wedi-comoda-base",
+   "wedi-construct-board"
+  ]
+ },
+ "wedi__building-systems": {
+  "title": "Building Systems",
+  "intro": "Design & variety \u2013 It all begins with the wedi building board.",
+  "products": [
+   "wedi-building-board",
+   "wedi-comoda-bench",
+   "wedi-vapor-85",
+   "wedi-comoda-base",
+   "wedi-construct-board"
+  ]
+ },
+ "wedi__shower-systems": {
+  "title": "Shower Systems",
+  "intro": "Solid foundations, for well-founded reasons\nFunctionality and safety play a decisive role in the bathroom and especially in floor-level showers. That\u2019s why, for decades, craftsmen have relied upon the unique quality of wedi. Because of our many innovative features and by having the right products for virtually any requirement wedi is the premium supplier for all renovation and new construction shower solutions.",
+  "products": [
+   "wedi-fundo-primo-z",
+   "wedi-fundo-ligno",
+   "wedi-riolito-z",
+   "wedi-primo-shower-drain-kit",
+   "fundo-click-and-seal-height-adjustment-kit",
+   "wedi-click-and-seal-drain-kit-dn80-and-dn100",
+   "wedi-fundo-click-and-seal-drain-kit-dn50",
+   "wedi-full-foam-hob",
+   "wedi-shower-niche",
+   "wedi-channel-cover",
+   "wedi-subliner-dry"
+  ]
+ },
+ "wedi__system-accessories": {
+  "title": "System Accessories",
+  "intro": "wedi provides premium installation materials and accessories to complement the wedi system installation and ensure premium warranty coverage.",
+  "products": [
+   "wedi-washers",
+   "wedi-fastener-kit",
+   "wedi-putty-knife",
+   "wedi-321",
+   "wedi-shower-drain-cover-set-tileable",
+   "wedi-riolito-shower-drain-kit-standard",
+   "wedi-sealing-gaiter-dn10-dn25",
+   "wedi-sealing-tape",
+   "wedi-620-sealant",
+   "wedi-610-adhesive-sealant",
+   "wedi-standard-shower-drain-cover-and-frame"
+  ]
+ }
+}

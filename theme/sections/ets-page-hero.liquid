@@ -18,21 +18,15 @@
 <section class="ets ets-phero{% if section.settings.bg == 'sand' %} ets-sec--sand{% endif %}" aria-labelledby="EtsPh-{{ section.id }}">
   <div class="ets-wrap">
     {%- if section.settings.show_crumbs -%}
-      <ol class="ets-crumbs" role="list"><li><a href="{{ routes.root_url }}">Home</a></li><li aria-current="page">{{ heading | strip_html }}</li></ol>
+      {%- assign breadcrumb_title = heading | strip_html -%}
+      {%- assign breadcrumb_url = page.url | default: request.path -%}
+      {% render 'ets-breadcrumbs', current_title: breadcrumb_title, current_url: breadcrumb_url %}
     {%- endif -%}
     <div class="ets-phero__grid"{% if section.settings.image == blank %} style="grid-template-columns:minmax(0,1fr)"{% endif %}>
       <div>
         {%- if section.settings.eyebrow != blank -%}<p class="ets-eyebrow">{{ section.settings.eyebrow | escape }}</p>{%- endif -%}
         <h1 class="ets-display" id="EtsPh-{{ section.id }}">{{ heading }}</h1>
         {%- if section.settings.text != blank -%}<p class="ets-lede">{{ section.settings.text | escape }}</p>{%- endif -%}
-        {%- if template.name == 'search' -%}
-          <form class="ets-search" action="{{ routes.search_url }}" method="get" role="search" style="margin:28px 0 0;justify-self:start">
-            <label class="ets-visually-hidden" for="EtsSearchPage">Search</label>
-            <input id="EtsSearchPage" type="search" name="q" value="{{ search.terms | escape }}" placeholder="Try “600x600 matt”, “brushed brass mixer”…">
-            <input type="hidden" name="options[prefix]" value="last">
-            <button type="submit" aria-label="Search">{% render 'ets-icon', name: 'search' %}</button>
-          </form>
-        {%- endif -%}
         {%- if section.settings.btn_1_label != blank or section.settings.btn_2_label != blank -%}
           <div class="ets-btns" style="margin-top:32px">
             {%- if section.settings.btn_1_label != blank -%}<a class="ets-btn" href="{{ section.settings.btn_1_link | default: '/pages/request-a-quote' }}">{{ section.settings.btn_1_label | escape }}<span class="ets-btn__dot">{% render 'ets-icon', name: 'arrow' %}</span></a>{%- endif -%}
@@ -41,7 +35,7 @@
         {%- endif -%}
         {%- if section.settings.show_chips -%}
           <nav class="ets-chips" aria-label="Departments">
-            {%- for link in linklists['main-menu-2026'].links -%}<a class="ets-chip" href="{{ link.url }}">{{ link.title | escape }}</a>{%- endfor -%}
+            {%- for link in linklists['main-menu-2026-v3'].links -%}<a class="ets-chip" href="{{ link.url }}">{{ link.title | escape }}</a>{%- endfor -%}
           </nav>
         {%- endif -%}
       </div>

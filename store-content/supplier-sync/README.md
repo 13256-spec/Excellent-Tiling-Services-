@@ -243,3 +243,57 @@ Lava, Time Stone and Terrazzo Lumina photo folders dated 9-10 Nov. Applied live:
 swatches (Lava Vesuv, Caliza) replaced with real photos, Time Stone Sand published with photos, Cement featured images fixed, and
 five unpriced basins created as drafts (`price-check`). Documents copied to `Eternity/`. Details, file map and the list of what
 still needs a price or a photo: `drive-eternity-2026-11-10/README.md`.
+
+## ARDEX Australia range (11 Nov 2026, live, price on request)
+
+Owner's instruction: "add all Ardex materials to our website ... live SEO pages and all categories and catalogues ...
+not available to sell, out of stock for now". There is no ARDEX account, price list or catalogue PDF yet, so the whole
+range was taken from ARDEX Australia's own website (every product in its `product` sitemap except the training-event
+tickets and two empty draft pages): **206 products / 361 variants**, vendor "ARDEX", tags `ARDEX`, `ardex-2026-11`,
+`supplier-import`, `needs-cost`, `price-check`, plus one `ardex-<group>` tag each (adhesives, grouts, waterproofing,
+levelling, primers, sealants, concrete-repair, civil, render, flooring-adhesives, tools, wedi).
+
+- **Status: Active.** Shopify's "publish new products automatically" setting put them on **Online Store, Point of Sale,
+  Shop and Microsoft Copilot** (not Google & YouTube, Facebook or Inbox). The API tool refuses to unpublish, so the owner
+  should take them off POS, Shop and Copilot until they have a price: Products → filter tag `ardex-2026-11` → select all →
+  More actions → Manage sales channels → untick those three. **Price 0.00 on every variant**, inventory tracked, 0 at
+  Maddington, "stop selling when out of stock", so every page shows **Sold out / Enquire** and cannot be bought. The draft
+  theme "ETS 2026 – Price on request" shows "Price on request" instead of $0.00 (root README); the one $0 left on an
+  all-ARDEX collection page is Horizon's price filter ("The highest price is $0.00"), which fixes itself once prices exist.
+  Trade band 0.
+- **Content**: ARDEX's own product text, key features, technical data (location, coverage, pack sizes, drying times),
+  links to the ARDEX technical and safety data sheets, ARDEX product photos (fetched straight from ardexaustralia.com)
+  and the ARDEX YouTube videos where a product has them. SEO title and description on every product, `ets.*` metafields
+  (supplier "ARDEX Australia", material, range, warranty, freight class, lead time, trade band) and `custom.supplier`.
+- **Variants**: pack sizes as a Size option (20kg bag, 5L, 310ml cartridge...). Grouts carry the ARDEX colour chart as a
+  Colour option: FG 8 20 colours x 1.5/5/20kg (52 variants; Macchiato, Pewter Blue, Sandalwood and Mocha in 5kg only),
+  FS-DD 11 colours (1.5kg and 20kg in Ultra White only), WJ 50 6 colours, EG 15 8 colours. wedi items use wedi's own
+  article numbers as SKU; every other SKU is a placeholder `ARDEX-<product>-<size>` until the ARDEX price list gives the
+  real codes.
+- **Delivery**: 20kg bags, pails, rolls, boards and shower bases on "Perth only (local delivery / pickup)"
+  (`ship-local-only`); solvent-based primers and PU resins (WPM 240, WPM 270, WA 98 adhesive and solvent, CE 300, CE 330)
+  on "Dangerous goods (road only)"; the rest General (`ship-parcel` / `ship-bulky`). Weights from the pack size.
+- **Collections** (smart, all published, with SEO title, description and body copy): **ARDEX** (`/collections/ardex`,
+  vendor = ARDEX) and twelve sub-collections by `ardex-<group>` tag: `ardex-tile-adhesives`, `ardex-grouts`,
+  `ardex-waterproofing`, `ardex-floor-levelling`, `ardex-primers-additives`, `ardex-silicones-sealants`,
+  `ardex-concrete-repair`, `ardex-civil-engineering`, `ardex-render`, `ardex-flooring-adhesives`, `ardex-tools`, `wedi`.
+  The existing Hardware, Tile Adhesive, Grout, Waterproofing and Silicone collections pick the products up through their
+  type and tag rules. New product types: "Primers & Additives", "Concrete Repair", "Civil Engineering", "Render",
+  "Flooring Adhesives", "Uncoupling & Acoustic Mats", "Tile Backer Boards", "Shower Systems".
+- **Menu**: "ARDEX adhesives, grout & waterproofing" added under Hardware in `main-menu-2026` (the live header menu).
+- **Catalogue page**: `/pages/ardex-catalogues-data-sheets` (Page 119680499775) lists ARDEX's literature library,
+  calculators, grout colour selector and technical bulletins, the four grout colour charts as colour swatches, and links to
+  the twelve range collections. `ardex-catalogue-page-full.html` is the same page with every product's TDS/SDS links (too
+  big for the API tool; paste it into the page in admin if wanted).
+- **Files** (`ardex-2026-11/`): `parse_ardex_pages.py` (page parser), `ardex-catalogue-2026-11-11.json` (parsed site data),
+  `ardex-categories.json`, `grout-colours.json`, `ardex_2026_11.py` (one level up: builds the productSet inputs),
+  `ardex-2026-11-11.json` (what was sent), `ardex-created-2026-11-11.json` (Shopify ids per product and variant),
+  `collect_results.py`, `followup_batches.py`, `catalogue_page.py` -> `ardex-catalogue-page.html` (the page body).
+- One fix after creation: the ARDEX LQ 92 description had a stray control character from the ARDEX site (`2mm \x96 5mm`),
+  replaced with an en dash.
+- **When the ARDEX price list and account arrive**: enter costs inc GST and prices by the playbook (section 2), set the
+  trade band, replace the placeholder SKUs, set stock (or switch the variants to "continue selling"), publish to the other
+  five channels, remove `needs-cost` / `price-check`. Prices must be set before Google & YouTube is turned on.
+- Not created: ARDEX WA grout (no product page on the ARDEX site), the two AUTO-DRAFT pages. Colour choices for ARDEX SE
+  and ST silicone are not listed on the ARDEX site, so they are single-variant products with the colour taken in the order
+  notes until the price list gives the colour codes.

@@ -174,7 +174,10 @@
           "@type": "Offer",
           "@id": {{ variant_url | append: '#offer' | json }},
           "url": {{ variant_url | json }},
-          {%- if product.tags contains 'm2-units' %}
+          {%- if variant.price == 0 %}
+          {%- comment -%} Unpriced (price on request): no price in the offer, so Google does not read $0. {%- endcomment -%}
+          "priceCurrency": {{ currency | json }},
+          {%- elsif product.tags contains 'm2-units' %}
           "price": {{ variant.price | times: 100 | divided_by: 100.0 | json }},
           "priceCurrency": {{ currency | json }},
           "priceSpecification": { "@type": "UnitPriceSpecification", "price": {{ variant.price | times: 100 | divided_by: 100.0 | json }}, "priceCurrency": {{ currency | json }}, "referenceQuantity": { "@type": "QuantitativeValue", "value": 1, "unitCode": "MTK" } },
