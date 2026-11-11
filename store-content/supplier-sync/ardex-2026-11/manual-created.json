@@ -1,0 +1,281 @@
+{
+ "ardex-sg-spray": {
+  "id": "gid://shopify/Product/8513552908351",
+  "handle": "ardex-sg-spray-silicone-smoothing-agent",
+  "title": "ARDEX SG Spray Silicone Smoothing Agent",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44447777914943",
+    "sku": "ARDEX-SGSPRAY-500MLSPRAYBO",
+    "title": "500ml spray bottle"
+   }
+  ]
+ },
+ "ardex-fg-8": {
+  "id": "gid://shopify/Product/8513692762175",
+  "handle": "ardex-fg-8-flexible-coloured-grout-for-tile-joints-1-to-8-mm-wide",
+  "title": "ARDEX FG 8 Flexible Coloured Grout for Tile Joints 1 to 8 mm Wide",
+  "variants": [
+   {
+    "id": "gid://shopify/ProductVariant/44447925272639",
+    "sku": "ARDEX-FG-FG8-PEWTER-BLUE-5KG",
+    "title": "Pewter Blue / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925305407",
+    "sku": "ARDEX-FG-FG8-MOCHA-5KG",
+    "title": "Mocha / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925338175",
+    "sku": "ARDEX-FG-FG8-SANDALWOOD-5KG",
+    "title": "Sandalwood / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925370943",
+    "sku": "ARDEX-FG-FG8-TODD-RIVER-SAND-1.5KG",
+    "title": "Todd River Sand / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925403711",
+    "sku": "ARDEX-FG-FG8-TODD-RIVER-SAND-5KG",
+    "title": "Todd River Sand / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925436479",
+    "sku": "ARDEX-FG-FG8-TODD-RIVER-SAND-20KG",
+    "title": "Todd River Sand / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925469247",
+    "sku": "ARDEX-FG-FG8-MUDBERRY-1.5KG",
+    "title": "Mudberry / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925502015",
+    "sku": "ARDEX-FG-FG8-MUDBERRY-5KG",
+    "title": "Mudberry / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925534783",
+    "sku": "ARDEX-FG-FG8-MUDBERRY-20KG",
+    "title": "Mudberry / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925567551",
+    "sku": "ARDEX-FG-FG8-TRAVERTINE-1.5KG",
+    "title": "Travertine / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925600319",
+    "sku": "ARDEX-FG-FG8-TRAVERTINE-5KG",
+    "title": "Travertine / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925633087",
+    "sku": "ARDEX-FG-FG8-TRAVERTINE-20KG",
+    "title": "Travertine / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925665855",
+    "sku": "ARDEX-FG-FG8-HAVANA-1.5KG",
+    "title": "Havana / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925698623",
+    "sku": "ARDEX-FG-FG8-HAVANA-5KG",
+    "title": "Havana / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925731391",
+    "sku": "ARDEX-FG-FG8-HAVANA-20KG",
+    "title": "Havana / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925764159",
+    "sku": "ARDEX-FG-FG8-OLIVE-1.5KG",
+    "title": "Olive / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925796927",
+    "sku": "ARDEX-FG-FG8-OLIVE-5KG",
+    "title": "Olive / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447925829695",
+    "sku": "ARDEX-FG-FG8-OLIVE-20KG",
+    "title": "Olive / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931170879",
+    "sku": "ARDEX-FG-FG8-MISTY-GREY-1.5KG",
+    "title": "Misty Grey / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931203647",
+    "sku": "ARDEX-FG-FG8-MISTY-GREY-5KG",
+    "title": "Misty Grey / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931236415",
+    "sku": "ARDEX-FG-FG8-MISTY-GREY-20KG",
+    "title": "Misty Grey / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931269183",
+    "sku": "ARDEX-FG-FG8-MAGELLAN-GREY-1.5KG",
+    "title": "Magellan Grey / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931301951",
+    "sku": "ARDEX-FG-FG8-MAGELLAN-GREY-5KG",
+    "title": "Magellan Grey / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931334719",
+    "sku": "ARDEX-FG-FG8-MAGELLAN-GREY-20KG",
+    "title": "Magellan Grey / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931367487",
+    "sku": "ARDEX-FG-FG8-SLATE-GREY-1.5KG",
+    "title": "Slate Grey / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931400255",
+    "sku": "ARDEX-FG-FG8-SLATE-GREY-5KG",
+    "title": "Slate Grey / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931433023",
+    "sku": "ARDEX-FG-FG8-SLATE-GREY-20KG",
+    "title": "Slate Grey / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931465791",
+    "sku": "ARDEX-FG-FG8-WALNUT-1.5KG",
+    "title": "Walnut / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931498559",
+    "sku": "ARDEX-FG-FG8-WALNUT-5KG",
+    "title": "Walnut / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931531327",
+    "sku": "ARDEX-FG-FG8-WALNUT-20KG",
+    "title": "Walnut / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931564095",
+    "sku": "ARDEX-FG-FG8-LIGHT-BEIGE-1.5KG",
+    "title": "Light Beige / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931596863",
+    "sku": "ARDEX-FG-FG8-LIGHT-BEIGE-5KG",
+    "title": "Light Beige / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931629631",
+    "sku": "ARDEX-FG-FG8-LIGHT-BEIGE-20KG",
+    "title": "Light Beige / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931662399",
+    "sku": "ARDEX-FG-FG8-BUFF-1.5KG",
+    "title": "Buff / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447931695167",
+    "sku": "ARDEX-FG-FG8-BUFF-5KG",
+    "title": "Buff / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934152767",
+    "sku": "ARDEX-FG-FG8-BUFF-20KG",
+    "title": "Buff / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934185535",
+    "sku": "ARDEX-FG-FG8-MACCHIATO-5KG",
+    "title": "Macchiato / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934218303",
+    "sku": "ARDEX-FG-FG8-MIDNIGHT-1.5KG",
+    "title": "Midnight / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934251071",
+    "sku": "ARDEX-FG-FG8-MIDNIGHT-5KG",
+    "title": "Midnight / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934283839",
+    "sku": "ARDEX-FG-FG8-MIDNIGHT-20KG",
+    "title": "Midnight / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934316607",
+    "sku": "ARDEX-FG-FG8-CHARRED-ASH-1.5KG",
+    "title": "Charred Ash / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934349375",
+    "sku": "ARDEX-FG-FG8-CHARRED-ASH-5KG",
+    "title": "Charred Ash / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934382143",
+    "sku": "ARDEX-FG-FG8-CHARRED-ASH-20KG",
+    "title": "Charred Ash / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934414911",
+    "sku": "ARDEX-FG-FG8-FRENCH-VANILLA-1.5KG",
+    "title": "French Vanilla / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934447679",
+    "sku": "ARDEX-FG-FG8-FRENCH-VANILLA-5KG",
+    "title": "French Vanilla / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934480447",
+    "sku": "ARDEX-FG-FG8-FRENCH-VANILLA-20KG",
+    "title": "French Vanilla / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934513215",
+    "sku": "ARDEX-FG-FG8-ALABASTER-1.5KG",
+    "title": "Alabaster / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934545983",
+    "sku": "ARDEX-FG-FG8-ALABASTER-5KG",
+    "title": "Alabaster / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934578751",
+    "sku": "ARDEX-FG-FG8-ALABASTER-20KG",
+    "title": "Alabaster / 20kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934611519",
+    "sku": "ARDEX-FG-FG8-KOSCIUSZKO-WHITE-1.5KG",
+    "title": "Kosciuszko White / 1.5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934644287",
+    "sku": "ARDEX-FG-FG8-KOSCIUSZKO-WHITE-5KG",
+    "title": "Kosciuszko White / 5kg"
+   },
+   {
+    "id": "gid://shopify/ProductVariant/44447934677055",
+    "sku": "ARDEX-FG-FG8-KOSCIUSZKO-WHITE-20KG",
+    "title": "Kosciuszko White / 20kg"
+   }
+  ]
+ }
+}

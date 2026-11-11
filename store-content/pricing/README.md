@@ -344,3 +344,12 @@ Master list: 81 rows updated (per-m² figures, flag column explains); the 3 draf
 are not in the master list. Proposal: `reports/tile-m2-units-proposal-2026-11-05.csv`.
 **New tiles from now on**: price per m² in whole dollars, then load as above (price/100, cost/100, weight/100, unit price
 measure 0.01 M2 / 1 M2, tag `m2-units`), then both trade scripts.
+
+## ARDEX range listed at price on request (11 Nov 2026)
+
+206 ARDEX Australia products (361 variants) were created live on the owner's instruction, visible but not for sale: price
+$0.00, no cost, trade band 0, stock 0 and "stop selling when out of stock", tagged `needs-cost` + `price-check`. The
+"Price on request" draft theme hides the $0 (root README). No price list entries, no master-list rows and nothing for the
+B2B scripts until ARDEX sends a price list; then price by the playbook (cost inc GST, 35% target, floors 25%, competitor
+check against Bunnings, Tilers Online, TradieCart and Beaumont where they list ARDEX), set the band, rerun both trade
+scripts and add the rows to the master list. Record: `../supplier-sync/README.md`, "ARDEX Australia range".

@@ -13,6 +13,24 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## ARDEX range live, "Price on request" draft theme (11 Nov 2026)
+
+The owner asked for every ARDEX Australia product on the site, live for search engines but not for sale yet. **206 ARDEX
+products / 361 variants** are now Active on the Online Store channel only, at price $0.00, stock 0 and "stop selling when
+out of stock", in 13 new ARDEX collections (`/collections/ardex` plus one per range), under Hardware in the main menu, with a
+catalogue and data-sheet page. Details, ids and the activation steps: `store-content/supplier-sync/README.md`, "ARDEX
+Australia range".
+
+A $0.00 price looks like a free product, so draft theme **"ETS 2026 – Price on request (draft)"** (id 145086480447, a copy
+of the live "Tiles by exact m2" theme) shows **Price on request** wherever a variant's price is $0: `snippets/price.liquid`
+(product page, cards, quick view), `blocks/_featured-product-price.liquid` (no "From $0.00" on multi-variant products) and
+`snippets/ets-product-schema.liquid` (the JSON-LD offer carries no price, only the currency and OutOfStock availability, so
+Google is not told the product costs $0). Priced products render exactly as before. Tested in preview on the ARDEX SG Spray
+page: "Price on request", Sold out button, no $0.00 anywhere, offer without a price.
+**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Price on request (draft)" → Publish.** Preview:
+`https://excellenttilingservices.com/products/ardex-sg-spray-silicone-smoothing-agent?preview_theme_id=145086480447`.
+Until it is published the ARDEX pages show $0.00.
+
 ## Eternity supplier photos from the flash drive (10 Nov 2026, live)
 
 The owner's external drive (`D:\Eternity`) has every file Eternity has sent. Applied live in Shopify: the generated "indicative
