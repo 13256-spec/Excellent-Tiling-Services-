@@ -8,8 +8,10 @@ The dated history of what was done and why is in `README.md` next to this file.
 ## 1. Goals, in order
 
 1. **Profit first.** Every price, public or trade, must clear its floor. If a competitor is below our floor, we do not follow.
-2. **Public price**: at or a little under the competitor that sells the same item. MELA is the exception: equal to
-   Bathroom City's price, never under (supplier condition, owner 20 Oct 2026).
+2. **Public price**: at or a little under the competitor that sells the same item. MELA is the exception: our RRP equals
+   Bathroom City's current price, never under (supplier condition, owner 20 Oct 2026; confirmed 11 Nov 2026 in the
+   official-seller agreement). ETS is the official MELA seller and sells MELA exclusively for bathroomware; new MELA cost
+   pricing is coming from the supplier and replaces the SILVER estimates when it lands.
 3. **Trade price**: a real but affordable discount for approved trade accounts, charged through Shopify B2B.
 4. **Simple to run**: one cost basis, one set of formulas, scripts for the bulk work, the owner approves every change.
 
@@ -146,5 +148,8 @@ and price list writes take 25 / 100 items per call. Queries return at most 100 i
 - 14 Oct 2026: trade floor 20% (superseded 5 Nov).
 - 20 Oct 2026: MELA equal to Bathroom City, never under.
 - 23 Oct 2026: Roberts repricing "make money but a tiny bit cheaper than the competitor".
+- 11 Nov 2026: official MELA seller. MELA-exclusive for bathroomware; RRP must equal Bathroom City (sale prices included once
+  the new MELA cost list confirms they clear the floor). Bathroom City's 58 clearance prices under the 20% floor are held
+  until the new costs arrive (`reports/bathroom-city-match-proposal-2026-11-11.md`).
 - 5 Nov 2026: B2B on Shopify Grow; this policy (floors 25/20, caps 20/15/15, one cost basis). Band re-set under it is
   proposed in `reports/trade-band-proposal-2026-11-05.md`, waiting for the owner's approval.

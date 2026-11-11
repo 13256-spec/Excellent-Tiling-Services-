@@ -1,3 +1,26 @@
+# Bathroom City sale and public price match (proposal, 11 Nov 2026, not applied)
+
+Owner asked to match all Bathroom City website sale and public prices. `bc_match_2026_11.py` compares every MELA variant with
+Bathroom City's public feed -> `reports/bathroom-city-match-2026-11-11.csv` and the proposal
+`reports/bathroom-city-match-proposal-2026-11-11.md`. 708 of 814 variants already equal Bathroom City; 4 need raising
+(BRITTANY 1800 double vanities, MORRIS curved panels); 3 already sit at their sale price (compare-at proposed); 58 of their
+61 sale items are under our 20% floor and 45 under our estimated cost, so they cannot be matched until Bathroom City
+confirms the trade price on the clearance lines.
+
+Owner, same day: ETS becomes the **official MELA seller**, MELA-exclusive for bathroomware, RRP must equal Bathroom City,
+new MELA cost pricing to follow. Applied: the 4 raises (BRITTANY 1800 double vanities $3,324 -> $3,499 x2; MORRIS curved
+panels 895 $399 -> $439 and 995 $409 -> $449, trade 15% = $373.15 / $381.65 written to the B2B price list and
+`custom.trade_price`; product range string unchanged) and the 3 compare-at sale prices (FELLI bath 1500/1700 was
+$1,599/$1,699, RONDO tall sink mixer Brushed Nickel was $269; both products added to their "on sale" collection).
+The 58 Bathroom City clearance prices wait for the new cost list; rerun `bc_match_2026_11.py` then.
+
+**MELA exclusive (11 Nov 2026):** on the owner's instruction, the 76 non-MELA bathroomware products (vendor "Excellent
+Tiling Services": DSA ranges Crystal, Eternal, Caleb, Edna, Malaga, Ria, Olivia, Mezzo/Mezo, Cosimo, Cube, Chet, Callan and
+Caden sinks, the three clearance mirrors; Celine and Chloe tapware, showers and accessories) were set to **Draft**: off the
+site, data and photos kept. List with ids in `store-content/mela-exclusive-drafted-2026-11-11.json`; to bring one back set
+its status to Active. Their rows stay in the master list and the B2B price list (harmless while drafted). Hardware brands
+(Roberts Designs wastes and niches, Maxisil, Baron) are not bathroomware and stay live.
+
 # MELA pricing vs Bathroom City (plan, 1 Oct 2026, not yet applied)
 
 `mela-pricing-2026-10-01.csv` has one row per MELA variant: our current price, Bathroom City's
