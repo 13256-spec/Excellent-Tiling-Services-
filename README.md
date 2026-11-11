@@ -17,7 +17,13 @@ the theme in Shopify.
 
 ETS is the official MELA seller and MELA-exclusive for bathroomware; RRP must equal Bathroom City (playbook updated). Four
 MELA items raised to Bathroom City's price, three shown as sales; 76 non-MELA bathroomware products (DSA, Celine, Chloe
-ranges) set to Draft, list in `store-content/mela-exclusive-drafted-2026-11-11.json`. Details and the comparison script:
+ranges) set to Draft, list in `store-content/mela-exclusive-drafted-2026-11-11.json`. Shop by MELA range: 12 new smart
+collections (vendor MELA + range tag) `mela-rondo-tapware`, `mela-palco-tapware`, `mela-flova-tapware`,
+`mela-bruno-tapware-accessories`, `mela-clark-vanities`, `mela-brittany-fluted-vanities`, `mela-milano-vanities`,
+`mela-hampton-vanities`, `mela-shaker-vanities`, `mela-pastel-vanities`, `mela-triton-kitchen-sinks`,
+`mela-morris-shower-screens`, each with SEO copy. In the draft menu `main-menu-2026-v3` the Brands dropdown now reads
+MELA, the 12 ranges, then the tool brands ("MELA bathrooms" renamed). Smaller ranges (LUNA, PADDY, LUCCA tops, SURI/ZOE/MIA
+mirrors) have no range tag yet and are not listed. Details and the comparison script:
 `store-content/pricing/README.md` and `reports/bathroom-city-match-proposal-2026-11-11.md`. No theme change.
 
 ## Product and collection audit, "On sale" per department (11 Nov 2026, live)
