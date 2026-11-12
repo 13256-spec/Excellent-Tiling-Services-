@@ -14,8 +14,9 @@ node build.js --name "Jane Smith" --title "Showroom Manager" --email jane@excell
 ```
 
 - `--phone "0400 000 000"` if they have their own number. Left out, the shop number 0450 960 543 is used.
-- `--photo` left out gives a navy-and-cream stand-in figure.
-- The result goes in `people/jane-smith/`: `signature.html`, `name.png`, `photo.png`, `preview.png`. Check `preview.png`.
+- `--photo` left out builds the card without the photo panel. Run it again with `--photo` once they have one.
+- The result goes in `people/jane-smith/`: `signature.html`, `name.png`, `preview.png` (and `photo.png`). Check `preview.png`.
+- The build ends by listing any images that are not online yet. Until that list is empty the signature is not ready.
 - Needs Node with Playwright and Chromium (already present in Claude Code cloud sessions). Nothing else to install:
   fonts, icons and the tile mark are in `assets/`.
 
@@ -23,11 +24,16 @@ node build.js --name "Jane Smith" --title "Showroom Manager" --email jane@excell
 
 Mail apps only show images that are hosted online, so before anyone can use a signature:
 
-1. Upload `shared/*.png` (once, for everyone) and the person's `name.png` and `photo.png` to Shopify Files.
-   This needs the owner's OK.
-2. In the person's `signature.html`, replace each image `src` with its Shopify Files link.
+1. The logo and icons are already online (Shopify Files, named `ets-signature-...`), listed in `hosted.json`.
+   Only the new person's `name.png` (and `photo.png`) need uploading. This needs the owner's OK.
+   How: commit and push the images, then run the Shopify `fileCreate` mutation with `originalSource` set to each
+   image's `raw.githubusercontent.com` link (use the commit id, not the branch name) and a `filename` like
+   `ets-signature-name-jane-smith.png`. Read the links back with `files(query: "filename:ets-signature*")`.
+2. Add each link to `hosted.json` (`"people/jane-smith/name.png": "https://cdn.shopify.com/..."`) and run the build
+   again. It should now finish without the "not online yet" list.
 3. Open `signature.html` in a browser, select all, copy, and paste into the signature box:
-   Gmail: Settings > See all settings > Signature. Outlook: Settings > Mail > Compose and reply.
+   Gmail: Settings > See all settings > Signature. Outlook.com / Hotmail: gear icon > Account > Signatures
+   (older layout: Mail > Compose and reply).
    Apple Mail: Settings > Signatures.
 
 ## How the look was made
@@ -61,7 +67,9 @@ Icons: Lucide (ISC licence) and Simple Icons (CC0). Fonts: Manrope and Instrumen
 
 ## Change log
 
-- 2026-11-12: first version. Built for the owner (Yamen Alsulaiman, CEO); photo is still the stand-in and the images
-  are not yet uploaded to Shopify Files.
+- 2026-11-12: first version. Built for the owner (Yamen Alsulaiman, CEO), without a photo for now. With the owner's OK,
+  10 images were uploaded to Shopify Files (logo, 8 icons, his name) and linked in `hosted.json`; his
+  `signature.html` is ready to paste. Not yet uploaded (unused so far): `phone-light`, `pin-light`,
+  `instagram-brass`, `facebook-brass`.
 - Note: the colours were read from the live site, not from `theme/assets/ets-brand.css` in this repo, which still has
   an older palette (`#193247`, Fraunces / DM Sans). The repo theme copy needs a re-sync from Shopify.

@@ -2,7 +2,7 @@
 // Builds an ETS email signature for one person. See README.md.
 //   node build.js --name "Jane Smith" --title "Showroom Manager" --email jane@excellenttilingservices.com \
 //                 [--phone "0450 960 543"] [--photo headshot.jpg] [--shared]
-// Writes people/<name>/signature.html, name.png, photo.png, preview.png.
+// Writes people/<name>/signature.html, name.png, preview.png (and photo.png with --photo; without it the photo panel is left off).
 // --shared also rebuilds the images everyone shares (shared/: logo + icons); only needed after a brand change.
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -24,6 +24,12 @@ const ICONS = ['globe', 'instagram', 'facebook', 'mail', 'phone', 'pin'];
 const ICON_SETS = { light: B.brassLight, brass: B.brass }; // light = on the navy strip, brass = beside each contact line
 
 const here = (...p) => path.join(__dirname, ...p);
+// hosted.json maps a local image ("shared/lockup.png", "people/jane-smith/name.png") to its online link (Shopify Files).
+// An image listed there is linked online; one that is not stays a local path and will not show in a mail app.
+const HOSTED = fs.existsSync(here('hosted.json')) ? JSON.parse(fs.readFileSync(here('hosted.json'), 'utf8')) : {};
+const missing = [];
+const hosted = (key, local) => HOSTED[key] || (missing.push(key), local);
+const src = (slug, file) => hosted(`people/${slug}/${file}`, file);
 const b64 = f => fs.readFileSync(here('assets', f)).toString('base64');
 const font = (name, file, weight = 400) => `@font-face{font-family:${name};font-weight:${weight};src:url(data:font/woff2;base64,${b64('fonts/' + file)})}`;
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
@@ -61,13 +67,10 @@ async function buildShared(page) {
 }
 
 // Headshot cut into three leaning slices. Mail apps cannot clip images, so the shape is baked into the PNG.
-// Without a photo, a navy-and-cream stand-in figure is used.
 async function buildPhoto(page, photo, file) {
   const SIZE = 160, LEAN = 59, GAP = 4.5, WIDTHS = [50, 27, 15]; // widths + gaps must add up to SIZE - LEAN
   console.assert(Math.abs(WIDTHS.reduce((a, b) => a + b) + GAP * (WIDTHS.length - 1) - (SIZE - LEAN)) < 0.01, 'slices must fill the square');
-  const inner = photo
-    ? `<img src="data:image/${path.extname(photo).slice(1).replace('jpg', 'jpeg')};base64,${fs.readFileSync(photo).toString('base64')}" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block">`
-    : `<div style="width:100%;height:100%;background:linear-gradient(160deg,#3A4556,${B.dark});position:relative"><div style="position:absolute;left:55px;top:30px;width:50px;height:50px;border-radius:50%;background:${B.cream}"></div><div style="position:absolute;left:25px;top:90px;width:110px;height:120px;border-radius:55px 55px 0 0;background:${B.cream}"></div></div>`;
+  const inner = `<img src="data:image/${path.extname(photo).slice(1).replace('jpg', 'jpeg')};base64,${fs.readFileSync(photo).toString('base64')}" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block">`;
   let x = 0, slices = '';
   for (const w of WIDTHS) {
     slices += `<div style="position:absolute;inset:0;clip-path:polygon(${x}px ${SIZE}px,${x + w}px ${SIZE}px,${x + w + LEAN}px 0,${x + LEAN}px 0)">${inner}</div>`;
@@ -77,7 +80,7 @@ async function buildPhoto(page, photo, file) {
 }
 
 function signatureHtml(p, nameSize) {
-  const img = n => `../../shared/${n}.png`;
+  const img = n => hosted(`shared/${n}.png`, `../../shared/${n}.png`);
   const strip = (icon, alt, href, pad) => `        <tr><td style="padding:${pad};"><a href="${href}"><img src="${img(icon + '-light')}" width="18" height="18" alt="${alt}" style="display:block;border:0;"></a></td></tr>\n`;
   const row = (icon, alt, href, text, color = B.ink) => `        <tr><td style="padding:2px 8px 2px 0;vertical-align:middle;"><a href="${href}"><img src="${img(icon + '-brass')}" width="13" height="13" alt="${alt}" style="display:block;border:0;"></a></td>` +
     `<td style="font-size:12px;line-height:18px;vertical-align:middle;"><a href="${href}" style="color:${color};text-decoration:none;">${text}</a></td></tr>\n`;
@@ -92,7 +95,7 @@ ${strip('globe', 'Website', SHOP.site, '10px 10px 6px')}${strip('instagram', 'In
     </td>
     <td style="padding:16px 20px;vertical-align:middle;">
       <a href="${SHOP.site}"><img src="${img('lockup')}" width="173" height="36" alt="Excellent Tiling Services" style="display:block;border:0;margin-bottom:12px;"></a>
-      <img src="name.png" width="${nameSize.w}" height="${nameSize.h}" alt="${esc(p.name)}" style="display:block;border:0;font-family:Georgia,serif;font-size:26px;color:${B.ink};">
+      <img src="${src(p.slug, 'name.png')}" width="${nameSize.w}" height="${nameSize.h}" alt="${esc(p.name)}" style="display:block;border:0;font-family:Georgia,serif;font-size:26px;color:${B.ink};">
       <table cellpadding="0" cellspacing="0" border="0" style="margin-top:2px;"><tr>
         <td style="vertical-align:middle;padding-right:8px;"><div style="width:22px;height:1px;line-height:1px;font-size:1px;background:${B.brass};">&nbsp;</div></td>
         <td style="font-size:11px;font-weight:bold;line-height:16px;letter-spacing:2px;text-transform:uppercase;color:${B.brass};vertical-align:middle;">${esc(p.title)}</td>
@@ -100,10 +103,10 @@ ${strip('globe', 'Website', SHOP.site, '10px 10px 6px')}${strip('instagram', 'In
       <table cellpadding="0" cellspacing="0" border="0" style="margin-top:9px;">
 ${row('phone', 'Phone', tel(p.phone), esc(p.phone))}${row('mail', 'Email', mail, esc(p.email))}${p.email === SHOP.email ? '' : row('mail', 'Email', 'mailto:' + SHOP.email, SHOP.email)}${row('globe', 'Website', SHOP.site, SHOP.siteText)}${row('pin', 'Address', SHOP.maps, SHOP.address, B.muted)}      </table>
     </td>
-    <td style="padding:16px 18px 16px 0;vertical-align:middle;">
-      <img src="photo.png" width="160" height="160" alt="" style="display:block;border:0;">
+${p.photo ? `    <td style="padding:16px 18px 16px 0;vertical-align:middle;">
+      <img src="${src(p.slug, 'photo.png')}" width="160" height="160" alt="" style="display:block;border:0;">
     </td>
-  </tr>
+` : ''}  </tr>
 </table>
 `;
 }
@@ -111,7 +114,8 @@ ${row('phone', 'Phone', tel(p.phone), esc(p.phone))}${row('mail', 'Email', mail,
 (async () => {
   const a = args();
   const p = { name: a.name, title: a.title, email: a.email, phone: typeof a.phone === 'string' ? a.phone : SHOP.phone };
-  const dir = here('people', p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''));
+  p.slug = p.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, ''); p.photo = !!a.photo;
+  const dir = here('people', p.slug);
   fs.mkdirSync(dir, { recursive: true });
 
   const browser = await chromium.launch();
@@ -121,7 +125,7 @@ ${row('phone', 'Phone', tel(p.phone), esc(p.phone))}${row('mail', 'Email', mail,
   // Name in the website's heading font (Instrument Serif), as an image so every mail app shows it.
   const nameSize = await snap(page, `<style>${font('IS', 'instrument-serif-latin-400-normal.woff2')}</style>
     <div id="x" style="display:inline-block;white-space:nowrap;font:30px/1.1 IS;color:${B.ink};letter-spacing:-.3px;padding:0 2px 2px 0">${esc(p.name)}</div>`, path.join(dir, 'name.png'));
-  await buildPhoto(page, a.photo, path.join(dir, 'photo.png'));
+  if (a.photo) await buildPhoto(page, a.photo, path.join(dir, 'photo.png'));
   fs.writeFileSync(path.join(dir, 'signature.html'), signatureHtml(p, nameSize));
 
   // Preview picture, with Manrope loaded the way font-capable mail apps (Apple Mail) show it.
@@ -132,4 +136,5 @@ ${row('phone', 'Phone', tel(p.phone), esc(p.phone))}${row('mail', 'Email', mail,
   await (await prev.$('body')).screenshot({ path: path.join(dir, 'preview.png') });
   await browser.close();
   console.log('built', path.relative(process.cwd(), dir));
+  if (missing.length) console.log('NOT ready for a mail app - these images are not online yet (add them to hosted.json):\n  ' + [...new Set(missing)].join('\n  '));
 })();
