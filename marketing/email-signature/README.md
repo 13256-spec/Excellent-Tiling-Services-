@@ -14,7 +14,7 @@ node build.js --name "Jane Smith" --title "Showroom Manager" --email jane@excell
 ```
 
 - `--phone "0400 000 000"` if they have their own number. Left out, the shop number 0450 960 543 is used.
-- `--photo` left out builds the card without the photo panel. Run it again with `--photo` once they have one.
+- `--photo` left out shows the navy-and-cream stand-in figure (already online). Run it again with `--photo` once they have one.
 - The result goes in `people/jane-smith/`: `signature.html`, `name.png`, `preview.png` (and `photo.png`). Check `preview.png`.
 - The build ends by listing any images that are not online yet. Until that list is empty the signature is not ready.
 - Needs Node with Playwright and Chromium (already present in Claude Code cloud sessions). Nothing else to install:
@@ -67,8 +67,8 @@ Icons: Lucide (ISC licence) and Simple Icons (CC0). Fonts: Manrope and Instrumen
 
 ## Change log
 
-- 2026-11-12: first version. Built for the owner (Yamen Alsulaiman, CEO), without a photo for now. With the owner's OK,
-  10 images were uploaded to Shopify Files (logo, 8 icons, his name) and linked in `hosted.json`; his
+- 2026-11-12: first version. Built for the owner (Yamen Alsulaiman, CEO), with the stand-in figure until he has a photo. With the owner's OK,
+  11 images were uploaded to Shopify Files (logo, 8 icons, his name, the stand-in photo figure) and linked in `hosted.json`; his
   `signature.html` is ready to paste. Not yet uploaded (unused so far): `phone-light`, `pin-light`,
   `instagram-brass`, `facebook-brass`.
 - Note: the colours were read from the live site, not from `theme/assets/ets-brand.css` in this repo, which still has
