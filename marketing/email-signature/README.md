@@ -35,7 +35,9 @@ Mail apps only show images that are hosted online, so before anyone can use a si
    Gmail: Settings > See all settings > Signature. Outlook.com / Hotmail: gear icon > Account > Signatures
    (older layout: Mail > Compose and reply). Apple Mail: Settings > Signatures.
 
-Any change to a person's details or photo means new pieces: upload again, update `hosted.json`, rebuild, paste again.
+Any change to a person's details or photo means new pieces. Replace the existing files in place with the Shopify
+`fileUpdate` mutation (`id` + new `originalSource`), read back the links (the `?v=` number changes), update
+`hosted.json`, rebuild, and paste again.
 
 ## How the look was made
 
@@ -73,6 +75,8 @@ Icons: Lucide (ISC licence) and Simple Icons (CC0). Fonts: Manrope and Instrumen
 - 2026-11-12: first version, built for the owner (Yamen Alsulaiman, CEO) with the stand-in figure until he has a photo.
   After a Hotmail dark-mode test showed the card recoloured, rebuilt as image pieces. With the owner's OK his 12
   pieces are on Shopify Files (`ets-sig-yamen-alsulaiman-*.png`) and linked in `hosted.json`.
+- 2026-11-12: card shrunk to 80% (415px wide, `SCALE` at the top of `build.js`) after the owner found 518px too big
+  in Outlook. His 12 files were replaced in place.
 - Leftovers on Shopify Files from the first version, no longer used: 11 files named `ets-signature-*.png`
   (logo, icons, name, placeholder). Safe to delete, but only on the owner's instruction.
 - Note: the colours were read from the live site, not from `theme/assets/ets-brand.css` in this repo, which still has
