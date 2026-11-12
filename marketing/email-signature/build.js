@@ -16,6 +16,7 @@ const B = {
   ink: '#15213A', dark: '#0F1A2C', brass: '#9C7744', brassLight: '#E9D6B5', cream: '#EFE6D6', muted: '#6A6862', line: '#DADCE0',
   sans: "Manrope,'Segoe UI',Arial,Helvetica,sans-serif",
 };
+const SCALE = 0.8; // overall size of the card in an email. 1 = 518px wide (too big in Outlook), 0.8 = about 415px.
 const SHOP = {
   site: 'https://excellenttilingservices.com', siteText: 'excellenttilingservices.com',
   email: 'contactus@excellenttilingservices.com', phone: '0450 960 543',
@@ -78,7 +79,7 @@ function designHtml(p, photo) {
   const row = (s, ic, text, color = B.ink) => `<div data-s="${s}" style="display:flex;align-items:center;gap:8px;height:22px;font-size:12px;color:${color};white-space:nowrap"><span style="color:${B.brass};fill:${B.brass}">${icon(ic, 13)}</span>${esc(text)}</div>`;
   return `<style>${font('M5', 'manrope-latin-500-normal.woff2')}${font('M6', 'manrope-latin-600-normal.woff2')}${font('M7', 'manrope-latin-700-normal.woff2')}${font('IS', 'instrument-serif-latin-400-normal.woff2')}
     body{margin:0;background:transparent}</style>
-<div id="card" style="display:inline-flex;align-items:center;box-sizing:border-box;border:1px solid ${B.line};border-radius:10px;background:#fff;font-family:M5;color:${B.ink}">
+<div id="card" style="zoom:${SCALE};display:inline-flex;align-items:center;box-sizing:border-box;border:1px solid ${B.line};border-radius:10px;background:#fff;font-family:M5;color:${B.ink}">
   <div style="padding:16px 0 16px 16px"><div style="border-radius:6px;background:${B.dark}">
     ${strip('website', 'globe', '10px 10px 6px')}${strip('instagram', 'instagram', '6px 10px')}${strip('facebook', 'facebook', '6px 10px')}${strip('email', 'mail', '6px 10px 10px')}
   </div></div>
@@ -109,13 +110,13 @@ function designHtml(p, photo) {
   await page.evaluate(() => document.fonts.ready);
   // Measure where to cut (whole px): columns at the start of the text and photo columns, rows halfway between neighbours.
   const list = pieces(p);
-  const m = await page.evaluate(names => {
+  const m = await page.evaluate(([names, scale]) => {
     const card = document.getElementById('card'), r = card.getBoundingClientRect();
-    card.style.width = Math.ceil(r.width) + 'px'; card.style.height = Math.ceil(r.height) + 'px';
+    card.style.width = Math.ceil(r.width) / scale + 'px'; card.style.height = Math.ceil(r.height) / scale + 'px'; // whole px after scaling
     const box = el => { const b = el.getBoundingClientRect(); return { top: b.top, bottom: b.bottom, left: b.left }; };
     return { w: Math.ceil(r.width), h: Math.ceil(r.height), cols: [1, 2].map(c => Math.round(box(document.querySelector(`[data-col="${c}"]`)).left)),
       boxes: Object.fromEntries(names.map(n => [n, box(document.querySelector(`[data-s="${n}"]`) || document.querySelector('[data-col="2"]'))])) };
-  }, list.map(x => x[1]));
+  }, [list.map(x => x[1]), SCALE]);
   const xs = [0, ...m.cols, m.w];
   const cols = [0, 1, 2].map(c => {
     const items = list.filter(x => x[0] === c);
