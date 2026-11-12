@@ -77,6 +77,9 @@ Icons: Lucide (ISC licence) and Simple Icons (CC0). Fonts: Manrope and Instrumen
   pieces are on Shopify Files (`ets-sig-yamen-alsulaiman-*.png`) and linked in `hosted.json`.
 - 2026-11-12: card shrunk to 80% (415px wide, `SCALE` at the top of `build.js`) after the owner found 518px too big
   in Outlook. His 12 files were replaced in place.
+- 2026-11-12: made narrower again at the owner's request (370px wide): tighter side spacing and a smaller photo
+  panel (`K` in `photoHtml`). Note: the preview loads the online images, so after a size change it looks stretched
+  until the new pieces are uploaded and `hosted.json` is updated.
 - Leftovers on Shopify Files from the first version, no longer used: 11 files named `ets-signature-*.png`
   (logo, icons, name, placeholder). Safe to delete, but only on the owner's instruction.
 - Note: the colours were read from the live site, not from `theme/assets/ets-brand.css` in this repo, which still has
