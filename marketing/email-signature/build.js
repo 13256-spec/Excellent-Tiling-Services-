@@ -2,7 +2,7 @@
 // Builds an ETS email signature for one person. See README.md.
 //   node build.js --name "Jane Smith" --title "Showroom Manager" --email jane@excellenttilingservices.com \
 //                 [--phone "0450 960 543"] [--photo headshot.jpg] [--shared]
-// Writes people/<name>/signature.html, name.png, preview.png (and photo.png with --photo; without it the photo panel is left off).
+// Writes people/<name>/signature.html, name.png, preview.png (and photo.png with --photo; without it the shared stand-in figure is shown).
 // --shared also rebuilds the images everyone shares (shared/: logo + icons); only needed after a brand change.
 const { chromium } = require('playwright');
 const fs = require('fs');
@@ -64,13 +64,16 @@ async function buildShared(page) {
     const svg = fs.readFileSync(here('assets', 'icons', n + '.svg'), 'utf8').replace('<svg', '<svg style="width:24px;height:24px;display:block"');
     await snap(page, `<div id="x" style="width:24px;height:24px;color:${col};fill:${col}">${svg}</div>`, here('shared', `${n}-${set}.png`));
   }
+  await buildPhoto(page, null, here('shared', 'placeholder.png')); // shown until a person has a real photo
 }
 
-// Headshot cut into three leaning slices. Mail apps cannot clip images, so the shape is baked into the PNG.
+// Headshot (or, with no photo, the navy-and-cream stand-in figure) cut into three leaning slices. Mail apps cannot clip images, so the shape is baked into the PNG.
 async function buildPhoto(page, photo, file) {
   const SIZE = 160, LEAN = 59, GAP = 4.5, WIDTHS = [50, 27, 15]; // widths + gaps must add up to SIZE - LEAN
   console.assert(Math.abs(WIDTHS.reduce((a, b) => a + b) + GAP * (WIDTHS.length - 1) - (SIZE - LEAN)) < 0.01, 'slices must fill the square');
-  const inner = `<img src="data:image/${path.extname(photo).slice(1).replace('jpg', 'jpeg')};base64,${fs.readFileSync(photo).toString('base64')}" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block">`;
+  const inner = photo
+    ? `<img src="data:image/${path.extname(photo).slice(1).replace('jpg', 'jpeg')};base64,${fs.readFileSync(photo).toString('base64')}" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block">`
+    : `<div style="width:100%;height:100%;background:linear-gradient(160deg,#3A4556,${B.dark});position:relative"><div style="position:absolute;left:55px;top:30px;width:50px;height:50px;border-radius:50%;background:${B.cream}"></div><div style="position:absolute;left:25px;top:90px;width:110px;height:120px;border-radius:55px 55px 0 0;background:${B.cream}"></div></div>`;
   let x = 0, slices = '';
   for (const w of WIDTHS) {
     slices += `<div style="position:absolute;inset:0;clip-path:polygon(${x}px ${SIZE}px,${x + w}px ${SIZE}px,${x + w + LEAN}px 0,${x + LEAN}px 0)">${inner}</div>`;
@@ -103,10 +106,10 @@ ${strip('globe', 'Website', SHOP.site, '10px 10px 6px')}${strip('instagram', 'In
       <table cellpadding="0" cellspacing="0" border="0" style="margin-top:9px;">
 ${row('phone', 'Phone', tel(p.phone), esc(p.phone))}${row('mail', 'Email', mail, esc(p.email))}${p.email === SHOP.email ? '' : row('mail', 'Email', 'mailto:' + SHOP.email, SHOP.email)}${row('globe', 'Website', SHOP.site, SHOP.siteText)}${row('pin', 'Address', SHOP.maps, SHOP.address, B.muted)}      </table>
     </td>
-${p.photo ? `    <td style="padding:16px 18px 16px 0;vertical-align:middle;">
-      <img src="${src(p.slug, 'photo.png')}" width="160" height="160" alt="" style="display:block;border:0;">
+    <td style="padding:16px 18px 16px 0;vertical-align:middle;">
+      <img src="${p.photo ? src(p.slug, 'photo.png') : img('placeholder')}" width="160" height="160" alt="" style="display:block;border:0;">
     </td>
-` : ''}  </tr>
+  </tr>
 </table>
 `;
 }
