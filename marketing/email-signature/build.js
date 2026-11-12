@@ -46,11 +46,12 @@ function args() {
 
 // Headshot (or, with no photo, the navy-and-cream stand-in figure) cut into three leaning slices.
 function photoHtml(photo) {
-  const SIZE = 160, LEAN = 59, GAP = 4.5, WIDTHS = [50, 27, 15]; // widths + gaps must add up to SIZE - LEAN
+  const K = 0.8; // photo panel size: 1 = 160px square
+  const SIZE = 160 * K, LEAN = 59 * K, GAP = 4.5 * K, WIDTHS = [50, 27, 15].map(w => w * K); // widths + gaps must add up to SIZE - LEAN
   console.assert(Math.abs(WIDTHS.reduce((a, b) => a + b) + GAP * (WIDTHS.length - 1) - (SIZE - LEAN)) < 0.01, 'slices must fill the square');
   const inner = photo
     ? `<img src="data:image/${path.extname(photo).slice(1).toLowerCase().replace('jpg', 'jpeg')};base64,${fs.readFileSync(photo).toString('base64')}" style="width:100%;height:100%;object-fit:cover;object-position:50% 30%;display:block">`
-    : `<div style="width:100%;height:100%;background:linear-gradient(160deg,#3A4556,${B.dark});position:relative"><div style="position:absolute;left:55px;top:30px;width:50px;height:50px;border-radius:50%;background:${B.cream}"></div><div style="position:absolute;left:25px;top:90px;width:110px;height:120px;border-radius:55px 55px 0 0;background:${B.cream}"></div></div>`;
+    : `<div style="width:100%;height:100%;background:linear-gradient(160deg,#3A4556,${B.dark});position:relative"><div style="position:absolute;left:${55 * K}px;top:${30 * K}px;width:${50 * K}px;height:${50 * K}px;border-radius:50%;background:${B.cream}"></div><div style="position:absolute;left:${25 * K}px;top:${90 * K}px;width:${110 * K}px;height:${120 * K}px;border-radius:${55 * K}px ${55 * K}px 0 0;background:${B.cream}"></div></div>`;
   let x = 0, slices = '';
   for (const w of WIDTHS) {
     slices += `<div style="position:absolute;inset:0;clip-path:polygon(${x}px ${SIZE}px,${x + w}px ${SIZE}px,${x + w + LEAN}px 0,${x + LEAN}px 0)">${inner}</div>`;
@@ -80,10 +81,10 @@ function designHtml(p, photo) {
   return `<style>${font('M5', 'manrope-latin-500-normal.woff2')}${font('M6', 'manrope-latin-600-normal.woff2')}${font('M7', 'manrope-latin-700-normal.woff2')}${font('IS', 'instrument-serif-latin-400-normal.woff2')}
     body{margin:0;background:transparent}</style>
 <div id="card" style="zoom:${SCALE};display:inline-flex;align-items:center;box-sizing:border-box;border:1px solid ${B.line};border-radius:10px;background:#fff;font-family:M5;color:${B.ink}">
-  <div style="padding:16px 0 16px 16px"><div style="border-radius:6px;background:${B.dark}">
+  <div style="padding:16px 0 16px 12px"><div style="border-radius:6px;background:${B.dark}">
     ${strip('website', 'globe', '10px 10px 6px')}${strip('instagram', 'instagram', '6px 10px')}${strip('facebook', 'facebook', '6px 10px')}${strip('email', 'mail', '6px 10px 10px')}
   </div></div>
-  <div data-col="1" style="padding:16px 20px">
+  <div data-col="1" style="padding:16px 12px 16px 14px">
     <div data-s="logo" style="display:flex;align-items:center;gap:11px;margin-bottom:12px"><img src="data:image/png;base64,${b64('mark.png')}" height="34">
       <div><div style="font:17px/1 M7;letter-spacing:1.7px">EXCELLENT</div><div style="font:9.5px/1 M6;letter-spacing:3.04px;color:${B.muted};margin-top:5px">TILING SERVICES</div></div></div>
     <div data-s="name"><div style="font:30px/1.1 IS;letter-spacing:-.3px;white-space:nowrap">${esc(p.name)}</div>
@@ -93,7 +94,7 @@ function designHtml(p, photo) {
       ${row('phone', 'phone', p.phone)}${row('email', 'mail', p.email)}${p.email === SHOP.email ? '' : row('shop-email', 'mail', SHOP.email)}${row('website', 'globe', SHOP.siteText)}${row('address', 'pin', SHOP.address, B.muted)}
     </div>
   </div>
-  <div data-col="2" style="padding:16px 18px 16px 0">${photoHtml(photo)}</div>
+  <div data-col="2" style="padding:16px 12px 16px 0">${photoHtml(photo)}</div>
 </div>`;
 }
 
