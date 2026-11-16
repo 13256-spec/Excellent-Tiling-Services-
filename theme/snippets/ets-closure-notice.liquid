@@ -2,8 +2,9 @@
   Christmas closure notice (Nov 2026). Rendered in the header top bar, the cart drawer and cart page (through
   ets-shipping-bar) and the product page perks. Shows from the day the theme is published; the wording changes on the
   closing day and the notice disappears by itself on the reopening day, so there is nothing to remove in January.
+  Shipping pauses over the break; the Maddington showroom stays open by appointment.
   Next year: change the two dates and the day names below.
-  @param {string} style - 'bar' (one short line for the top bar) or 'box' (cart and product page)
+  @param {string} style - 'bar' (one short line for the top bar, which turns gold while active) or 'box' (cart and product page)
 {%- enddoc -%}
 {%- liquid
   assign closed_from = 20261218
@@ -13,28 +14,33 @@
 {%- if today < reopen -%}
   {%- if style == 'bar' -%}
     {%- if today < closed_from -%}
-      <span class="is-on">Christmas closure 18 Dec – 5 Jan · orders ship from 6 Jan</span>
+      <span class="is-on">Christmas closure 18 Dec – 5 Jan · order any time, we ship from 6 Jan · showroom open by appointment</span>
     {%- else -%}
-      <span class="is-on">Closed until Wed 6 Jan · order now, ships from 6 Jan</span>
+      <span class="is-on">Closed until Wed 6 Jan · order now, we ship from 6 Jan · showroom open by appointment</span>
     {%- endif -%}
+    <style>
+      .ets-topbar { background: #E9D6B5; color: #15213A; }
+      .ets-topbar .ets-topbar__msg span { font-weight: 700; font-size: 13.5px; }
+      .ets-topbar a, .ets-topbar .ets-topbar__trade { color: #15213A !important; }
+    </style>
   {%- else -%}
     <div class="ets ets-closure" role="note">
       {% render 'ets-icon', name: 'calendar' %}
       <p>
         {%- if today < closed_from -%}
           <strong>Christmas closure: Friday 18 December to Tuesday 5 January.</strong>
-          We reopen on Wednesday 6 January 2027. You can order any time: orders placed from 18 December are packed and shipped when we reopen on 6 January. The showroom and pickup are closed over the break too.
+          Shipping and deliveries pause over the break and restart when we reopen on Wednesday 6 January 2027. You can order any time: orders placed from 18 December are packed and shipped from 6 January. The Maddington showroom stays open by appointment, so you can still come in and see the range.
         {%- else -%}
-          <strong>We are closed for Christmas until Wednesday 6 January 2027.</strong>
-          You can still order. We pack and ship it as soon as we reopen on 6 January, and showroom visits and pickup restart then too.
+          <strong>Closed for Christmas until Wednesday 6 January 2027.</strong>
+          You can still order: we pack and ship from 6 January. The Maddington showroom stays open by appointment.
         {%- endif -%}
       </p>
     </div>
     <style>
-      .ets-closure { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 16px; padding: 14px 16px; border-radius: 14px; background: #F5F3EE; box-shadow: inset 0 0 0 1px var(--ets-line-strong, #D9D3C6); color: var(--ets-ink, #1F3153); font-size: 14px; line-height: 1.5; }
-      .ets-closure svg { flex-shrink: 0; width: 22px; height: 22px; color: var(--ets-brass, #B08D57); margin-top: 1px; }
+      .ets-closure { display: flex; gap: 12px; align-items: flex-start; margin: 0 0 16px; padding: 16px 18px; border-radius: 14px; border-left: 5px solid #9C7744; background: #FBF3E4; box-shadow: inset 0 0 0 1px rgba(156, 119, 68, .45); color: #15213A; font-size: 14.5px; line-height: 1.5; }
+      .ets-closure svg { flex-shrink: 0; width: 24px; height: 24px; color: #9C7744; margin-top: 1px; }
       .ets-closure p { margin: 0; }
-      .ets-closure strong { display: block; margin-bottom: 2px; }
+      .ets-closure strong { display: block; margin-bottom: 3px; font-size: 16px; }
     </style>
   {%- endif -%}
 {%- endif -%}

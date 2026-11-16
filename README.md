@@ -19,14 +19,18 @@ The store closes **Friday 18 December 2026** and reopens **Wednesday 6 January 2
 shipped after reopening. Draft theme **"ETS 2026 – Christmas closure notice (draft)"** (id 145261363263, a copy of the live
 "New menu" theme, which the owner published on 11 Nov) tells customers in four places, all from one new snippet
 `snippets/ets-closure-notice.liquid`:
-- header top bar (`sections/ets-header.liquid`): one line replaces the three rotating messages while the notice is active;
+- header top bar (`sections/ets-header.liquid`): one bold line replaces the three rotating messages while the notice is
+  active, and the bar turns gold (#E9D6B5, navy text) so it stands out from the usual navy strip;
 - cart drawer and cart page: a boxed note under the cart lines, through the already-rendered (empty since 17 Oct)
   `snippets/ets-shipping-bar.liquid`;
-- product page (`snippets/ets-pdp-perks.liquid`): the same box above the delivery / showroom / returns list.
-The snippet is date-gated on the shop's clock: until 18 Dec it says "Christmas closure: Friday 18 December to Tuesday 5
-January... orders placed from 18 December are packed and shipped when we reopen on 6 January"; from 18 Dec it says "We are
-closed for Christmas until Wednesday 6 January 2027. You can still order..."; from 6 Jan it renders nothing and the three
-top-bar messages come back, so nothing has to be removed in January. Next year: change the two dates in the snippet.
+- product page (`snippets/ets-pdp-perks.liquid`): the same box (cream, brass left edge) above the delivery / showroom /
+  returns list.
+Shipping and deliveries pause; the showroom stays open by appointment (owner, 16 Nov), so every version says so. The snippet
+is date-gated on the shop's clock: until 18 Dec it says "Christmas closure: Friday 18 December to Tuesday 5 January... orders
+placed from 18 December are packed and shipped from 6 January. The Maddington showroom stays open by appointment"; from
+18 Dec it says "Closed for Christmas until Wednesday 6 January 2027. You can still order..."; from 6 Jan it renders nothing,
+the bar goes back to navy and the three top-bar messages come back, so nothing has to be removed in January. Next year:
+change the two dates in the snippet.
 Checked in the preview with an item in the cart (desktop 1440 and phone 390): top bar, product box, cart drawer and cart
 page all render, no Liquid errors. Checkout and the order-confirmation email cannot carry the notice from the theme (Grow
 plan): the owner adds a line to Settings → Notifications → Order confirmation by hand.
