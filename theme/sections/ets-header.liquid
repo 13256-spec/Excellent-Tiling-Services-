@@ -19,11 +19,17 @@
     <div class="ets-topbar">
       <div class="ets-wrap">
         {%- comment -%} On phones the messages take turns (script below); the first one shows until then. {%- endcomment -%}
+        {%- comment -%} Christmas closure (Nov 2026): while the notice is active it replaces the three messages. {%- endcomment -%}
+        {%- capture closure_msg -%}{%- render 'ets-closure-notice', style: 'bar' -%}{%- endcapture -%}
         <p class="ets-topbar__msg" style="margin:0" data-ets-topbar-msg>
+          {%- if closure_msg != blank -%}
+            {{ closure_msg }}
+          {%- else -%}
           {%- assign msg_on = ' class="is-on"' -%}
           {%- if section.settings.msg_1 != blank -%}<span{{ msg_on }}>{{ section.settings.msg_1 | escape }}</span>{%- assign msg_on = '' -%}{%- endif -%}
           {%- if section.settings.msg_2 != blank -%}<span{{ msg_on }}>{{ section.settings.msg_2 | escape }}</span>{%- assign msg_on = '' -%}{%- endif -%}
           {%- if section.settings.msg_3 != blank -%}<span{{ msg_on }}>{{ section.settings.msg_3 | escape }}</span>{%- endif -%}
+          {%- endif -%}
         </p>
         <div class="ets-topbar__right">
           {%- if trade_page != blank and is_trade == false -%}<a class="ets-topbar__trade" href="{{ trade_page.url }}">Trade account →</a>{%- endif -%}

@@ -13,6 +13,30 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## Christmas closure notice (16 Nov 2026, draft theme, waiting to be published)
+
+The store closes **Friday 18 December 2026** and reopens **Wednesday 6 January 2027**; orders can still be placed and are
+shipped after reopening. Draft theme **"ETS 2026 – Christmas closure notice (draft)"** (id 145261363263, a copy of the live
+"New menu" theme, which the owner published on 11 Nov) tells customers in four places, all from one new snippet
+`snippets/ets-closure-notice.liquid`:
+- header top bar (`sections/ets-header.liquid`): one bold line replaces the three rotating messages while the notice is
+  active, and the bar turns gold (#E9D6B5, navy text) so it stands out from the usual navy strip;
+- cart drawer and cart page: a boxed note under the cart lines, through the already-rendered (empty since 17 Oct)
+  `snippets/ets-shipping-bar.liquid`;
+- product page (`snippets/ets-pdp-perks.liquid`): the same box (cream, brass left edge) above the delivery / showroom /
+  returns list.
+Shipping and deliveries pause; the showroom stays open by appointment (owner, 16 Nov), so every version says so. The snippet
+is date-gated on the shop's clock: until 18 Dec it says "Christmas closure: Friday 18 December to Tuesday 5 January... orders
+placed from 18 December are packed and shipped from 6 January. The Maddington showroom stays open by appointment"; from
+18 Dec it says "Closed for Christmas until Wednesday 6 January 2027. You can still order..."; from 6 Jan it renders nothing,
+the bar goes back to navy and the three top-bar messages come back, so nothing has to be removed in January. Next year:
+change the two dates in the snippet.
+Checked in the preview with an item in the cart (desktop 1440 and phone 390): top bar, product box, cart drawer and cart
+page all render, no Liquid errors. Checkout and the order-confirmation email cannot carry the notice from the theme (Grow
+plan): the owner adds a line to Settings → Notifications → Order confirmation by hand.
+**To go live: Shopify admin → Online Store → Themes → "Christmas closure notice" draft → Publish** (suggested around 1 Dec).
+Preview: `https://excellenttilingservices.com/products/maxisil-wet-area-silicone?preview_theme_id=145261363263`.
+
 ## Product and collection audit, "On sale" per department (11 Nov 2026, live)
 
 Every active product (1,415) and collection (131) was checked for placement; the findings and fixes are in

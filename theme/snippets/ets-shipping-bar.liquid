@@ -1,4 +1,6 @@
 {%- doc -%}
-  Disabled 17 Oct 2026: free shipping/post offers have ended, so the free-postage progress bar no longer renders.
-  Kept as an empty snippet because main-cart.liquid and cart-drawer.liquid still render it.
+  Free-post progress bar, disabled 17 Oct 2026 (free shipping offers ended). main-cart.liquid and cart-drawer.liquid
+  still render this snippet under the cart lines, so it now carries the Christmas closure notice (Nov 2026), which
+  hides itself after the reopening date. Remove the render line when the notice is no longer wanted.
 {%- enddoc -%}
+{%- render 'ets-closure-notice', style: 'box' -%}
