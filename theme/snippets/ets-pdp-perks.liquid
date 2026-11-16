@@ -53,6 +53,7 @@
   endif
   assign lead = product.metafields.ets.lead_time.value
 -%}
+{%- render 'ets-closure-notice', style: 'box' -%}
 <ul class="ets ets-perks" role="list">
   <li>
     {% render 'ets-icon', name: 'truck' %}
