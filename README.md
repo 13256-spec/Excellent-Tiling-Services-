@@ -13,7 +13,20 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
-## Christmas closure notice (16 Nov 2026, draft theme, waiting to be published)
+## Mosaics shown per sheet, not per m² (16 Nov 2026, draft theme, waiting to be published)
+
+The 8 Eternity natural stone mosaics (tag `Mosaic`, type Tile, $20.10 each) are priced and sold per sheet in Shopify, but
+the theme keyed "/ m²" and the m² calculator off product type Tile, so their pages and cards read "$20.10 / m²". Draft theme
+**"ETS 2026 – Mosaics per sheet (draft)"** (id 145265950783, a copy of the live Christmas closure theme) fixes the two
+snippets: `snippets/price.liquid` prints " / sheet" instead of " / m²" for products tagged Mosaic (product page, cards,
+trade price), and `snippets/ets-pdp-calc.liquid` hides the m² calculator for them. Prices, tags and types are untouched.
+Checked in preview: mosaic page "$20.10 / sheet", no calculator; mosaic collection cards "/ sheet"; Time Stone Moon still
+"$50.00 / m²" with the calculator.
+**To go live: Shopify admin → Online Store → Themes → "Mosaics per sheet" draft → Publish.** Preview:
+`https://excellenttilingservices.com/products/hex-crystal-white-mosaic-tile?preview_theme_id=145265950783`.
+The owner published the Christmas closure theme on 16 Nov (now live, id 145261363263), so the notice shows from today.
+
+## Christmas closure notice (16 Nov 2026, published by the owner the same day)
 
 The store closes **Friday 18 December 2026** and reopens **Wednesday 6 January 2027**; orders can still be placed and are
 shipped after reopening. Draft theme **"ETS 2026 – Christmas closure notice (draft)"** (id 145261363263, a copy of the live
