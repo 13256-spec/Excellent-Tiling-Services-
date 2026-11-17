@@ -76,6 +76,11 @@
       assign is_ets_tile = true
     endif
   endfor
+  # Mosaics (tag Mosaic) are sold per sheet, not per m² (16 Nov 2026).
+  assign ets_unit = ' / m²'
+  if product_resource.tags contains 'Mosaic'
+    assign ets_unit = ' / sheet'
+  endif
 -%}
 {%- liquid
   # Trade (B2B) logins: the catalog already gives the variant its trade price, with the retail price as compare-at.
@@ -101,7 +106,7 @@
     <span class="ets-price-block">
       <span class="ets-trade-price">
         <span class="ets-trade-price__tag">Trade</span>
-        <span class="price"><bdi>{% if is_product_card and product_resource.price_varies %}From {% endif %}{{ ets_trade | money }}</bdi>{% if is_ets_tile %}<span class="ets-price__unit"> / m²</span>{% endif %}</span>
+        <span class="price"><bdi>{% if is_product_card and product_resource.price_varies %}From {% endif %}{{ ets_trade | money }}</bdi>{% if is_ets_tile %}<span class="ets-price__unit">{{ ets_unit }}</span>{% endif %}</span>
         {% unless is_product_card %}<span class="ets-trade-price__save">Save {{ ets_save | money }} ({{ ets_trade_pct }}%)</span>{% endunless %}
       </span>
       <span class="ets-price__was"><span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>Retail <bdi>{{ ets_retail | money }}</bdi></span>
@@ -122,7 +127,7 @@
       <span class="price"><bdi>{{ price | default: '&nbsp;' }}</bdi></span>
     {% endif %}
   {% endif %}
-  {% if is_ets_tile and ets_trade_pct == 0 %}<span class="ets-price__unit"> / m²</span>{% endif %}
+  {% if is_ets_tile and ets_trade_pct == 0 %}<span class="ets-price__unit">{{ ets_unit }}</span>{% endif %}
   {% if selected_variant.unit_price and show_unit_price and ets_x == 1 %}
     {% if use_currency %}
       {% assign unit_price = selected_variant.unit_price | money_with_currency %}

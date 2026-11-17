@@ -13,7 +13,38 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
-## Christmas closure notice (16 Nov 2026, draft theme, waiting to be published)
+## Product page tidy: mosaics per sheet, "Why shop with us" removed, FAQ + warranty merged (16–17 Nov 2026, draft theme, waiting to be published)
+
+The 8 Eternity natural stone mosaics (tag `Mosaic`, type Tile, $20.10 each) are priced and sold per sheet in Shopify, but
+the theme keyed "/ m²" and the m² calculator off product type Tile, so their pages and cards read "$20.10 / m²". Draft theme
+**"ETS 2026 – Mosaics per sheet (draft)"** (id 145265950783, a copy of the live Christmas closure theme) fixes the two
+snippets: `snippets/price.liquid` prints " / sheet" instead of " / m²" for products tagged Mosaic (product page, cards,
+trade price), and `snippets/ets-pdp-calc.liquid` hides the m² calculator for them. Prices, tags and types are untouched.
+Checked in preview: mosaic page "$20.10 / sheet", no calculator; mosaic collection cards "/ sheet"; Time Stone Moon still
+"$50.00 / m²" with the calculator.
+On 17 Nov the owner asked for the product-page section **"Why shop with us"** (the `why_ets` section of type `ss-feature-54`:
+intro text, "Get a free measure & quote" button, Trade accounts / See it before you buy / Ask a tiler cards) to go
+completely, and for the work to sit in a fresh copy of the live theme. New draft **"ETS 2026 – Mosaics per sheet, no
+Why-shop section (draft)"** (id 145302585407, a copy of the live Christmas closure theme) carries both changes: the two
+mosaic snippets above, and `templates/product.json` and `templates/product.store-wide.json` with the `why_ets` section
+removed (the store-wide one was headed "Why buy from ETS"). `product.json` was re-synced from the live theme first (it had
+been edited in the theme editor since 4 Oct: the scrolling "selling points" strip, the `options` block and the `fits`
+section). Checked in preview on a mosaic, a tile and a silicone page: no "Why shop with us", no Liquid errors, the
+"Before you order" FAQ, "Details & specifications" and the Christmas bar still there, mosaics "/ sheet". The earlier
+"Mosaics per sheet (draft)" theme (145265950783) is superseded and can be deleted by the owner.
+Same day the owner asked for the two sections under the specs, "Before you order" (Section Store `ss-faq-17`) and
+"Warranty and returns" (Section Store `ss-guarantee`, with four rotated photos), to be cleaner and shorter. Both are
+replaced by one **`ets-faq`** section (the theme's own two-column FAQ already used on the home, delivery, services and
+trade pages): eyebrow "Before you order", heading "Good to know.", a call button, and five closed questions, the five
+old ones with "Can I return something?" rewritten as "Returns and warranty" (30-day change of mind with 15% restocking
+fee, faulty covered under ACL with no fee, manufacturer's warranty, returns-policy link). Nothing else from the guarantee
+section was worth keeping (the phone line repeated the FAQ intro). Height on Time Stone Moon: desktop 1,395px -> 599px,
+phone 1,075px -> 814px. Applied to `templates/product.json` and `templates/product.store-wide.json` in the same draft.
+**To go live: Shopify admin → Online Store → Themes → "Mosaics per sheet, no Why-shop section" draft → Publish.** Preview:
+`https://excellenttilingservices.com/products/hex-crystal-white-mosaic-tile?preview_theme_id=145302585407`.
+The owner published the Christmas closure theme on 16 Nov (now live, id 145261363263), so the notice shows from then.
+
+## Christmas closure notice (16 Nov 2026, published by the owner the same day)
 
 The store closes **Friday 18 December 2026** and reopens **Wednesday 6 January 2027**; orders can still be placed and are
 shipped after reopening. Draft theme **"ETS 2026 – Christmas closure notice (draft)"** (id 145261363263, a copy of the live

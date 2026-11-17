@@ -11,6 +11,10 @@
       assign is_tile = true
     endif
   endfor
+  # Mosaics are sold per sheet; the m² calculator does not apply (16 Nov 2026).
+  if product.tags contains 'Mosaic'
+    assign is_tile = false
+  endif
 -%}
 {%- if is_tile -%}
   <div class="ets ets-calc" data-ets-calc{% if product.tags contains 'm2-units' %} data-m2{% endif %}>
