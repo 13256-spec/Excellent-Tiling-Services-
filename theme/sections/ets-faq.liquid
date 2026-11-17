@@ -18,7 +18,8 @@
     </div>
   </div>
 </section>
-{%- if section.blocks.size > 0 -%}
+{%- comment -%} FAQPage schema is skipped on product pages: the same five questions sit on every product, and Google only wants FAQPage markup for questions specific to that page. The visible FAQ stays. {%- endcomment -%}
+{%- if section.blocks.size > 0 and request.page_type != 'product' -%}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

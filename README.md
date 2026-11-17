@@ -13,6 +13,23 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
+## SEO pass: product and collection metadata, lean schema (17 Nov 2026, store content live; draft theme waiting to be published)
+
+Audit of every product, collection and page, the sitemaps and the live JSON-LD: `seo/seo-audit-2026-11-17.md`. Applied
+live in Shopify: 688 product search titles/descriptions (filler descriptions, titles over 60 characters, 64 MELA
+keyword titles restored, 25 missing titles, duplicates), 8 collection titles, 5 long collection descriptions trimmed, 15
+thin collections given a paragraph, the contact page's meta description (wrong email domain). Old and new values in
+`seo/product-seo-fix-2026-11-17.json` and `seo/collection-seo-fix-2026-11-17.json`.
+Draft theme **"ETS 2026 – SEO: lean product schema, no FAQ dupes (draft)"** (id 145308221503, a copy of the live
+"Mosaics per sheet, no Why-shop section" theme 145302585407): `snippets/ets-product-schema.liquid` keeps brand, specs
+and description on the ProductGroup only and references the business by @id in each offer (product JSON-LD 30–45%
+smaller); `sections/ets-faq.liquid` skips the FAQPage schema on product pages (the same five questions were on all
+1,339 products). `sections/ets-collection-hero.liquid` re-synced from live (it now renders `ets-breadcrumbs`). Note:
+the live theme and the two "Mosaics per sheet" drafts (16 Nov) are not otherwise recorded here; the product templates
+there use `ets-faq`, not `ss-faq-17` as the repo copies say.
+**To go live: Shopify admin → Online Store → Themes → the SEO draft → Publish.** Preview:
+`https://excellenttilingservices.com/products/maxisil-wet-area-silicone?preview_theme_id=145308221503`.
+
 ## Christmas closure notice (16 Nov 2026, draft theme, waiting to be published)
 
 The store closes **Friday 18 December 2026** and reopens **Wednesday 6 January 2027**; orders can still be placed and are
