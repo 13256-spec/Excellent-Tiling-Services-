@@ -13,7 +13,7 @@ Third-party Section Store `ss-*` sections and the app-generated `product.store-w
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
 
-## Mosaics per sheet and "Why shop with us" removed (16–17 Nov 2026, draft theme, waiting to be published)
+## Product page tidy: mosaics per sheet, "Why shop with us" removed, FAQ + warranty merged (16–17 Nov 2026, draft theme, waiting to be published)
 
 The 8 Eternity natural stone mosaics (tag `Mosaic`, type Tile, $20.10 each) are priced and sold per sheet in Shopify, but
 the theme keyed "/ m²" and the m² calculator off product type Tile, so their pages and cards read "$20.10 / m²". Draft theme
@@ -32,6 +32,14 @@ been edited in the theme editor since 4 Oct: the scrolling "selling points" stri
 section). Checked in preview on a mosaic, a tile and a silicone page: no "Why shop with us", no Liquid errors, the
 "Before you order" FAQ, "Details & specifications" and the Christmas bar still there, mosaics "/ sheet". The earlier
 "Mosaics per sheet (draft)" theme (145265950783) is superseded and can be deleted by the owner.
+Same day the owner asked for the two sections under the specs, "Before you order" (Section Store `ss-faq-17`) and
+"Warranty and returns" (Section Store `ss-guarantee`, with four rotated photos), to be cleaner and shorter. Both are
+replaced by one **`ets-faq`** section (the theme's own two-column FAQ already used on the home, delivery, services and
+trade pages): eyebrow "Before you order", heading "Good to know.", a call button, and five closed questions, the five
+old ones with "Can I return something?" rewritten as "Returns and warranty" (30-day change of mind with 15% restocking
+fee, faulty covered under ACL with no fee, manufacturer's warranty, returns-policy link). Nothing else from the guarantee
+section was worth keeping (the phone line repeated the FAQ intro). Height on Time Stone Moon: desktop 1,395px -> 599px,
+phone 1,075px -> 814px. Applied to `templates/product.json` and `templates/product.store-wide.json` in the same draft.
 **To go live: Shopify admin → Online Store → Themes → "Mosaics per sheet, no Why-shop section" draft → Publish.** Preview:
 `https://excellenttilingservices.com/products/hex-crystal-white-mosaic-tile?preview_theme_id=145302585407`.
 The owner published the Christmas closure theme on 16 Nov (now live, id 145261363263), so the notice shows from then.
