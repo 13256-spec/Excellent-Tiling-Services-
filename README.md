@@ -20,6 +20,8 @@ live in Shopify: 688 product search titles/descriptions (filler descriptions, ti
 keyword titles restored, 25 missing titles, duplicates), 8 collection titles, 5 long collection descriptions trimmed, 15
 thin collections given a paragraph, the contact page's meta description (wrong email domain). Old and new values in
 `seo/product-seo-fix-2026-11-17.json` and `seo/collection-seo-fix-2026-11-17.json`.
+All writes re-read from Shopify on 18 Nov and checked against the JSON files: everything matches (73 products show a blank
+search title only because the new title equals the product name, which Shopify stores as blank).
 Draft theme **"ETS 2026 – SEO: lean product schema, no FAQ dupes (draft)"** (id 145308221503, a copy of the live
 "Mosaics per sheet, no Why-shop section" theme 145302585407): `snippets/ets-product-schema.liquid` keeps brand, specs
 and description on the ProductGroup only and references the business by @id in each offer (product JSON-LD 30–45%
