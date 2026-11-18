@@ -8,7 +8,10 @@
   a real 8/12/13/14-digit GTIN; supplier codes stay in `sku`/`mpn`.
 
   Products with a single variant are a Product; the rest are a ProductGroup with one
-  Product per variant.
+  Product per variant. Brand, category, specs, dimensions and the description sit on the
+  ProductGroup only (variants inherit them, per Google's product-variant guidance), and each offer
+  points at the sitewide LocalBusiness by @id for the seller and pickup place instead of repeating
+  it. A 40-colour product's JSON-LD drops from about 145 KB to under 100 KB.
 
   Every offer also says HOW we sell (24 Oct 2026, so AI assistants and shopping engines read
   ETS as a retailer): businessFunction Sell, eligible customers Enduser + Business (public and
@@ -24,7 +27,6 @@
 {%- liquid
   assign mf = product.metafields.ets
   assign business_id = shop.url | append: '#business'
-  assign business_logo = 'https://cdn.shopify.com/s/files/1/0683/0292/9983/files/ets-logo-icon.png?v=1790150823'
   assign product_url = shop.url | append: product.url
   assign currency = cart.currency.iso_code | default: shop.currency
   if product.tags contains 'ship-local-only'
@@ -147,11 +149,9 @@
         "@id": {{ variant_url | append: '#variant' | json }},
         "name": {{ product.title | append: ' - ' | append: variant.title | json }},
         "url": {{ variant_url | json }},
-        "description": {{ description | json }},
         {%- if variant_image %}
         "image": {{ variant_image | image_url: width: 1200 | prepend: 'https:' | json }},
         {%- endif %}
-        {{ shared_properties }},
         {%- for value in variant.options %}
           {%- assign option_name = product.options[forloop.index0] | downcase -%}
           {%- if option_name contains 'size' %}
@@ -190,10 +190,10 @@
           "businessFunction": "http://purl.org/goodrelations/v1#Sell",
           "eligibleCustomerType": ["https://schema.org/Enduser", "https://schema.org/Business"],
           "availableDeliveryMethod": {{ delivery_methods }},
-          "availableAtOrFrom": { "@type": "Place", "@id": {{ business_id | json }}, "name": "ETS showroom, 17A Olga Road, Maddington WA 6109" },
+          "availableAtOrFrom": { "@id": {{ business_id | json }} },
           "areaServed": {{ served }},
           "shippingDetails": { "@type": "OfferShippingDetails", "shippingDestination": {{ ship_region }} },
-          "seller": { "@type": "Organization", "@id": {{ business_id | json }}, "name": {{ shop.name | json }}, "url": {{ shop.url | json }}, "logo": {{ business_logo | json }} }
+          "seller": { "@type": "Organization", "@id": {{ business_id | json }}, "name": {{ shop.name | json }} }
           {{- return_policy }}
         }
       {%- unless product.has_only_default_variant %}
