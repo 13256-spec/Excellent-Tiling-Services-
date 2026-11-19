@@ -411,4 +411,4 @@ rendering in m² mode until their tag flips).
   script now writes 0 with the old quantity as the guard). Draft order #D21 (Jonathan Davies quote, $1,362, Subwave Gloss
   White 25.5 m² + Morgan Cloud 5.4 m²) deleted on the owner's instruction; copy in
   `store-content/deleted-draft-order-D21-2026-11-19.json`. The owner also queried the White Ceramic Wall gloss trade price
-  ($22/m² against a $25 public price, cost $15.18 inc GST, Eternity RRP $40): options proposed, nothing changed yet.
+  ($22/m² against a $25 public price, cost $15.18 inc GST, Eternity RRP $40): options proposed; the owner kept it as is (A).
