@@ -12,10 +12,12 @@ Output: pl/plNN.graphql, one priceListFixedPricesAdd per file (90 prices, < 16k 
 Shopify MCP graphql_mutation tool. Re-run after any price or band change. To remove a price that no longer
 applies (band dropped to 0) use priceListFixedPricesDelete with the variant ids.
 """
-import json, glob, os
+import json, glob, os, csv
 from decimal import Decimal, ROUND_HALF_UP, ROUND_CEILING
 PRICE_LIST = "gid://shopify/PriceList/17250287679"
 C = Decimal("0.01"); prices = []; seen = set()
+# box-units tiles (one variant = one box, 19 Nov 2026): trade per box = master-list trade $/m2 x m2 per box (quantityValue)
+MASTER = {r["sku"]: r for r in csv.DictReader(open("store-pricing-2026-10-03.csv"))}
 for f in sorted(glob.glob("pages/p*.json")):
     for p in json.load(open(f))["data"]["products"]["nodes"]:
         if p["id"] in seen: continue
@@ -24,8 +26,10 @@ for f in sorted(glob.glob("pages/p*.json")):
         if not band: continue
         for v in p["variants"]["nodes"]:
             # m2-units tiles (price per 0.01 m2): round UP so the whole-cent rounding never gives more than the band
-            rnd = ROUND_CEILING if "m2-units" in p.get("tags", []) else ROUND_HALF_UP
+            rnd = ROUND_CEILING if {"m2-units", "box-units"} & set(p.get("tags", [])) else ROUND_HALF_UP
             tp = (Decimal(v["price"]) * (100 - band) / 100).quantize(C, rnd)
+            if "box-units" in p.get("tags", []):
+                tp = (Decimal(MASTER[v["sku"]]["trade_price"]) * Decimal(str(v["unitPriceMeasurement"]["quantityValue"]))).quantize(C, ROUND_HALF_UP)
             # compareAtPrice = the public price, so trade logins see it crossed out next to their price
             prices.append('{variantId: "%s", price: {amount: "%s", currencyCode: AUD}, compareAtPrice: {amount: "%s", currencyCode: AUD}}' % (v["id"], tp, Decimal(v["price"]).quantize(C)))
 os.makedirs("pl", exist_ok=True)
