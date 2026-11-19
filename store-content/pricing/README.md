@@ -354,7 +354,7 @@ B2B scripts until ARDEX sends a price list; then price by the playbook (cost inc
 check against Bunnings, Tilers Online, TradieCart and Beaumont where they list ARDEX), set the band, rerun both trade
 scripts and add the rows to the master list. Record: `../supplier-sync/README.md`, "ARDEX Australia range".
 
-## Tiles per box, like Gia's (19 Nov 2026, prepared, nothing applied)
+## Tiles per box, like Gia's (19 Nov 2026, prepared, 69 of 84 box sizes in, nothing applied)
 
 The owner wants every tile sold the way Gia's Bathrooms & Tiles sells them: one variant = one box, the site shows the
 price per m², the product page converts an area in m² (plus an optional 15% wastage) into whole boxes, and the cart shows
@@ -390,3 +390,20 @@ every box size is known and no row is flagged, the batches in `box_batches/`:
 Theme: draft **"ETS 2026 – Tiles per box (draft)"** (id 145381228607, a copy of the live theme 145308221503) carries
 the `box-units` storefront mode; see the root README. The draft can be published before the data switch (products keep
 rendering in m² mode until their tag flips).
+
+**Update, later on 19 Nov 2026 (box sizes, still nothing applied):**
+- The owner: 600x600 and 300x600 tiles come in 1.44 m² boxes. Filled for the 69 variants of those sizes in
+  `box-sizes-2026-11.csv` (8 pcs for 300x600, 4 pcs for 600x600; kg left blank, so the script estimates it). Eternity's own
+  price list agrees: its pallets are 57.6 m² (porcelain) and 86.4 m² (ceramic), 40 and 60 boxes of 1.44 m².
+- Time Stone Sand (BS630332), Arena Light (BV637544) and Arena Blonde (BV637541) now have master-list rows: cost from the
+  Eternity samples invoice SI-00036787 ($32.00 and $28.00 ex GST, so $35.20 and $30.80 inc GST), price and trade price as
+  they stand in Shopify ($55 / $50 trade, $50 / $43 trade). Margins 36% / 29.6% and 38.4% / 28.4%, all above the floors.
+  With that, `tile_box_units_2026_11.py` reports 0 flagged rows; the proposal CSV prices 69 of 84 variants.
+- The other 15 variants (two 300x300, six 600x1200, one 200x1200, two 100x300 subway, four 75x300 subwave) were searched
+  online by 15 research agents with a verifier each: Eternity's site says only "sold per sqm, to the nearest full box size"
+  and no Australian retailer lists the codes. One lead: Design Tiles (Sydney) gives 1.44 m² / 2 pcs / 32 kg for a
+  "Builders Range Cement White" 600x1200 matt, same name and size but another supplier's code, so it is noted in the CSV
+  and not used. Eternity's 600x1200 pallet (40.32 m² = 28 x 1.44) points the same way for all six 600x1200 variants.
+  The old Eternity site printed "Box Quantity" on each product (a search snippet shows 1.15 m² for Subwave White) but
+  the Wayback Machine is blocked from this environment, so it could not be read. The request to Eternity now lists only
+  these 15 codes plus a line asking them to confirm 1.44 for the rest.
