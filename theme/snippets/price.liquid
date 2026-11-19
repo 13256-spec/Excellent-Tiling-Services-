@@ -183,8 +183,7 @@
     {% endif %}
   {% endif %}
   {% if is_ets_tile and ets_trade_pct == 0 %}<span class="ets-price__unit">{{ ets_unit }}</span>{% endif %}
-  {%- comment -%} ETS: box-units product page: second line with what one box costs. Shopify's own unit-price line is skipped (we already print $/m²). {%- endcomment -%}
-  {% if ets_box and is_product_card == false %}<span class="ets-price__box">{{ ets_box_price | money }} per box ({{ ets_box_m2 }} m²)</span>{% endif %}
+  {%- comment -%} ETS: box-units: the price reads per m² only (like Gia's); the box count and m² per box sit in the buy box. Shopify's own unit-price line is skipped. {%- endcomment -%}
   {% if selected_variant.unit_price and show_unit_price and ets_x == 1 and ets_box == false %}
     {% if use_currency %}
       {% assign unit_price = selected_variant.unit_price | money_with_currency %}

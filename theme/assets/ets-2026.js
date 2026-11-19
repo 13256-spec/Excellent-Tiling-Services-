@@ -182,22 +182,9 @@
     }
     const a = parseFloat(c.area.value);
     if (a > 0) {
-      // box-units tiles have an "Add 15% wastage" checkbox; every other tile keeps the % select.
-      const waste = c.waste.type === 'checkbox' ? (c.waste.checked ? 15 : 0) : parseFloat(c.waste.value);
+      const waste = parseFloat(c.waste.value);
       const need = a * (1 + waste / 100);
       c.apply.disabled = false;
-      if ('box' in calc.dataset) {
-        // ETS: box-units tiles (one variant = one box): whole boxes, m² per box from data-box. The 1e-6 guard stops
-        // float noise adding a box: 4.32/1.44 -> 3 (not 4), 8.64 -> 6, 1.44 -> 1, 12.5 + 15% -> 10, 12.5 no wastage -> 9.
-        // Same function as store-content/pricing/ets-box-math.test.js (not synced to Shopify); keep them in step.
-        const box = parseFloat(calc.dataset.box) || 1;
-        const boxes = Math.ceil(need / box - 1e-6);
-        const word = boxes === 1 ? 'box' : 'boxes';
-        calc.dataset.qty = boxes;
-        c.out.textContent = `${boxes} ${word} · ${box.toFixed(2)} m² per box · ${(boxes * box).toFixed(2)} m²`;
-        c.apply.textContent = `Set quantity to ${boxes} ${word}`;
-        return;
-      }
       // m2-units tiles: exact m², rounded up to 0.01 (the 1e-6 guard stops float noise adding a cent). Others: whole m².
       const qty = 'm2' in calc.dataset ? (Math.ceil(need * 100 - 1e-6) / 100).toFixed(2) : Math.ceil(need);
       calc.dataset.qty = qty;
@@ -230,19 +217,56 @@
     input.value = qty;
     input.dispatchEvent(new Event('input', { bubbles: true }));
     input.dispatchEvent(new Event('change', { bubbles: true }));
-    // box-units: qty is a box count; [data-ets-m2-qty] never renders for box products, so the real quantity input gets it.
-    btn.textContent = `Quantity set to ${qty} ${'box' in calc.dataset ? (qty === 1 ? 'box' : 'boxes') : 'm²'} ✓`;
+    btn.textContent = `Quantity set to ${qty} m² ✓`;
     const submit = $('[name="add"], button[type="submit"].add-to-cart-button, form[action*="/cart/add"] [type="submit"]', scope);
     if (submit) submit.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
 
-  // ETS: box-units: a box count set for one size must not carry into another size (3 x 1.44 m² is not 3 x 0.9 m²), so a
-  // variant change on a box product puts the quantity back to 1; the calculator re-renders with the new data-box anyway.
+  /* ---------- Area in m² stepper (tiles tagged box-units, one variant = one box), laid out like Gia's ---------- */
+  // boxes = ceil(m² x (1.15 if wastage) / m² per box). The 1e-6 guard stops float noise adding a box:
+  // 4.32/1.44 -> 3 (not 4), 8.64 -> 6, 1.44 -> 1, 12.5 + 15% -> 10, 12.5 no wastage -> 9.
+  // Same maths as store-content/pricing/ets-box-math.test.js (not synced to Shopify); keep them in step.
+  const areaBoxes = (m2, box, waste) => Math.max(1, Math.ceil((m2 * (waste ? 1.15 : 1)) / box - 1e-6));
+  function areaUpdate(wrap) {
+    const box = parseFloat(wrap.dataset.box) || 1;
+    const area = $('[data-ets-area]', wrap), waste = $('[data-ets-waste]', wrap), note = $('[data-ets-area-note]', wrap);
+    const m2 = Math.max(0.01, parseFloat(area.value) || box);
+    const boxes = areaBoxes(m2, box, waste && waste.checked);
+    const qty = $('input[ref="quantityInput"]', wrap.closest('.quantity-selector-wrapper'));
+    if (qty && String(qty.value) !== String(boxes)) { qty.value = boxes; qty.dispatchEvent(new Event('change', { bubbles: true })); }
+    const prop = $('[data-ets-area-prop]', wrap), wprop = $('[data-ets-waste-prop]', wrap);
+    if (prop) prop.value = m2;
+    if (wprop) wprop.value = waste && waste.checked ? 'true' : 'false';
+    if (note) note.textContent = `We round up to the nearest full box (${box} m² per box) — ${boxes} ${boxes === 1 ? 'box' : 'boxes'} needed${waste && waste.checked ? ', including 15% wastage' : ''}.`;
+  }
+  document.addEventListener('input', (e) => {
+    const wrap = e.target.closest('[data-ets-area-wrap]');
+    if (wrap && e.target.matches('[data-ets-area]')) areaUpdate(wrap);
+  });
+  document.addEventListener('change', (e) => {
+    const wrap = e.target.closest('[data-ets-area-wrap]');
+    if (!wrap) return;
+    if (e.target.matches('[data-ets-area]')) { const a = e.target; a.value = Math.max(0.01, parseFloat(a.value) || parseFloat(wrap.dataset.box) || 1).toFixed(2); }
+    if (e.target.matches('[data-ets-area],[data-ets-waste]')) areaUpdate(wrap);
+  });
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-ets-area-minus],[data-ets-area-plus]');
+    if (!btn) return;
+    const wrap = btn.closest('[data-ets-area-wrap]'), area = $('[data-ets-area]', wrap);
+    const box = parseFloat(wrap.dataset.box) || 1, cur = parseFloat(area.value) || box;
+    // step by one box's worth of m², never below one box
+    area.value = Math.max(box, Math.round((cur + (btn.hasAttribute('data-ets-area-plus') ? box : -box)) * 100) / 100).toFixed(2);
+    areaUpdate(wrap);
+  });
+  // Horizon re-renders the buy box on a size change (fresh data-box, area back to one box); if it ever keeps the old
+  // markup, put the area back to one box of the new size so 3 x 1.44 m² never carries into another size.
   document.addEventListener('variant:update', (e) => {
     const scope = (e.target && e.target.closest && e.target.closest('.shopify-section')) || document;
-    if (!$('[data-ets-calc][data-box]', scope)) return;
-    const q = $('input[name="quantity"]', scope);
-    if (q && q.value !== '1') { q.value = 1; q.dispatchEvent(new Event('change', { bubbles: true })); }
+    const wrap = $('[data-ets-area-wrap]', scope);
+    if (!wrap) return;
+    const area = $('[data-ets-area]', wrap);
+    if (area) area.value = parseFloat(wrap.dataset.box) || 1;
+    areaUpdate(wrap);
   });
 
   /* ---------- m² quantity (tiles tagged m2-units): the real quantity is m² x 100 ---------- */
