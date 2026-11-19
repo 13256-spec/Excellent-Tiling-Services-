@@ -7,7 +7,33 @@
   assign block_settings = block.settings
 
   assign ets_price_min = product.price_min
-  if product.tags contains 'm2-units'
+  assign ets_varies = product.price_varies
+  assign ets_box = false
+  if product.tags contains 'box-units' and product.selected_or_first_available_variant.unit_price_measurement.quantity_value
+    # ETS: box-units (one variant = one box) wins over m2-units: "From" = cheapest price per m² (box price / m² per box),
+    # and it only varies when the per-m² figures differ (box sizes can differ per variant, so price_varies is about boxes).
+    # Starts from the selected variant; a sibling with no box size is skipped. times: 1.0 so whole-number box sizes round, not truncate.
+    assign ets_box = true
+    assign ets_box_m2 = product.selected_or_first_available_variant.unit_price_measurement.quantity_value
+    assign ets_price_min = product.selected_or_first_available_variant.price | times: 1.0 | divided_by: ets_box_m2 | round
+    assign ets_price_max = ets_price_min
+    for v in product.variants
+      if v.unit_price_measurement.quantity_value == blank
+        continue
+      endif
+      assign ets_v = v.price | times: 1.0 | divided_by: v.unit_price_measurement.quantity_value | round
+      if ets_v < ets_price_min
+        assign ets_price_min = ets_v
+      endif
+      if ets_v > ets_price_max
+        assign ets_price_max = ets_v
+      endif
+    endfor
+    assign ets_varies = false
+    if ets_price_min != ets_price_max
+      assign ets_varies = true
+    endif
+  elsif product.tags contains 'm2-units'
     assign ets_price_min = ets_price_min | times: 100
   endif
   if settings.currency_code_enabled_product_cards
@@ -16,7 +42,7 @@
     assign price_min = ets_price_min | money
   endif
 
-  if product.price_varies
+  if ets_varies
     assign price_from_text = 'content.price_from' | t: price: '__PRICE__'
     assign display_price = price_from_text | replace: '__PRICE__', price_min
   endif
@@ -42,10 +68,10 @@
   "
   {{ block.shopify_attributes }}
 >
-  {% if product.price_varies and has_swatches_only == false and price_min != blank and product.price_min > 0 %}
+  {% if ets_varies and has_swatches_only == false and price_min != blank and product.price_min > 0 %}
     <span class="price"
       ><bdi>{{ display_price }}</bdi></span
-    >
+    >{% if ets_box %}<span class="ets-price__unit"> / m²</span>{% endif %}
   {% else %}
     {% render 'price',
       show_unit_price: true,

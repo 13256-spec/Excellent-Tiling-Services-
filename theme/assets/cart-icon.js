@@ -59,12 +59,13 @@ class CartIcon extends Component {
       ?.then(async ({ cart, detail }) => {
         let itemCount = cart?.totalQuantity ?? detail?.itemCount ?? 0;
 
-        // ETS: a tile sold in 0.01 m2 units (unit price per 0.01 m2) counts as 1 line, not 288
+        // ETS: a tile counts as 1 line: m2-units (0.01 m2 units, not 288) and box-units (boxes). Both carry an area unit price; cart.js has no tags.
+        // Preview check before publish: cart.js must spell the box line as measured_type 'area' or quantity_unit 'm2', else the bubble shows boxes.
         try {
           const res = await fetch(`${window.Shopify?.routes?.root || '/'}cart.js`);
           const data = await res.json();
           itemCount = data.items.reduce(
-            (n, item) => n + (Number(item.unit_price_measurement?.quantity_value) === 0.01 ? 1 : item.quantity),
+            (n, item) => n + (Number(item.unit_price_measurement?.quantity_value) === 0.01 || item.unit_price_measurement?.measured_type === 'area' || item.unit_price_measurement?.quantity_unit === 'm2' ? 1 : item.quantity),
             0
           );
         } catch (_) {

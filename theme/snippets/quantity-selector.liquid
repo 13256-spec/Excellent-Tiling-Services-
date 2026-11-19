@@ -31,8 +31,12 @@
   endif
 
   # Tiles tagged m2-units: quantity = m² x 100. Shopper types m²; the real input is hidden and synced in ets-2026.js.
+  # ETS: box-units (one variant = one box) wins over m2-units: ordinary whole-number stepper plus an "m² per box" hint.
   assign ets_m2 = false
-  if line_index == null and product.tags contains 'm2-units'
+  assign ets_box = false
+  if line_index == null and product.tags contains 'box-units' and variant.unit_price_measurement.quantity_value
+    assign ets_box = true
+  elsif line_index == null and product.tags contains 'm2-units'
     assign ets_m2 = true
   endif
 %}
@@ -120,6 +124,9 @@
       </span>
     </button>
   </{{ component_name }}>
+  {%- if ets_box -%}
+    <span class="ets-box-hint">{{ variant.unit_price_measurement.quantity_value }} m² per box</span>
+  {%- endif -%}
 
   {%- if line_index == null -%}
     {%- liquid
@@ -216,6 +223,11 @@
     border-radius: var(--style-border-radius-inputs, 0);
     background: transparent;
     color: inherit;
+  }
+
+  .ets-box-hint {
+    font-size: var(--font-size--sm);
+    opacity: 0.75;
   }
 
   .price-per-item {

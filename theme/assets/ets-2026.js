@@ -112,10 +112,12 @@
   function setCount(n) {
     $$('[data-ets-cart-count]').forEach((el) => { el.textContent = n; el.hidden = !n; });
   }
+  const isTileLine = (m) => !!m && (Number(m.quantity_value) === 0.01 || m.measured_type === 'area' || m.quantity_unit === 'm2');
   function refreshCount() {
     fetch(`${window.Shopify && Shopify.routes ? Shopify.routes.root : '/'}cart.js`, { headers: { Accept: 'application/json' } })
-      // a tile sold in 0.01 m2 units (unit price per 0.01 m2) counts as 1 line, not 288
-      .then((r) => r.json()).then((c) => setCount(c.items.reduce((n, i) => n + (Number(i.unit_price_measurement && i.unit_price_measurement.quantity_value) === 0.01 ? 1 : i.quantity), 0))).catch(() => {});
+      // a tile counts as 1 line: m2-units (0.01 m2 units, not 288) and box-units (boxes). Both carry an area unit price; cart.js has no tags.
+      // Preview check before publish: cart.js must spell the box line as measured_type 'area' or quantity_unit 'm2', else the bubble shows boxes.
+      .then((r) => r.json()).then((c) => setCount(c.items.reduce((n, i) => n + (isTileLine(i.unit_price_measurement) ? 1 : i.quantity), 0))).catch(() => {});
   }
   document.addEventListener('cart:update', () => refreshCount());
   document.addEventListener('click', (e) => {
@@ -180,12 +182,26 @@
     }
     const a = parseFloat(c.area.value);
     if (a > 0) {
-      const need = a * (1 + parseFloat(c.waste.value) / 100);
+      // box-units tiles have an "Add 15% wastage" checkbox; every other tile keeps the % select.
+      const waste = c.waste.type === 'checkbox' ? (c.waste.checked ? 15 : 0) : parseFloat(c.waste.value);
+      const need = a * (1 + waste / 100);
+      c.apply.disabled = false;
+      if ('box' in calc.dataset) {
+        // ETS: box-units tiles (one variant = one box): whole boxes, m² per box from data-box. The 1e-6 guard stops
+        // float noise adding a box: 4.32/1.44 -> 3 (not 4), 8.64 -> 6, 1.44 -> 1, 12.5 + 15% -> 10, 12.5 no wastage -> 9.
+        // Same function as store-content/pricing/ets-box-math.test.js (not synced to Shopify); keep them in step.
+        const box = parseFloat(calc.dataset.box) || 1;
+        const boxes = Math.ceil(need / box - 1e-6);
+        const word = boxes === 1 ? 'box' : 'boxes';
+        calc.dataset.qty = boxes;
+        c.out.textContent = `${boxes} ${word} · ${box.toFixed(2)} m² per box · ${(boxes * box).toFixed(2)} m²`;
+        c.apply.textContent = `Set quantity to ${boxes} ${word}`;
+        return;
+      }
       // m2-units tiles: exact m², rounded up to 0.01 (the 1e-6 guard stops float noise adding a cent). Others: whole m².
       const qty = 'm2' in calc.dataset ? (Math.ceil(need * 100 - 1e-6) / 100).toFixed(2) : Math.ceil(need);
       calc.dataset.qty = qty;
       c.out.textContent = `${qty} m²`;
-      c.apply.disabled = false;
       c.apply.textContent = `Set quantity to ${qty} m²`;
     } else {
       calc.dataset.qty = '';
@@ -214,9 +230,19 @@
     input.value = qty;
     input.dispatchEvent(new Event('input', { bubbles: true }));
     input.dispatchEvent(new Event('change', { bubbles: true }));
-    btn.textContent = `Quantity set to ${qty} m² ✓`;
+    // box-units: qty is a box count; [data-ets-m2-qty] never renders for box products, so the real quantity input gets it.
+    btn.textContent = `Quantity set to ${qty} ${'box' in calc.dataset ? (qty === 1 ? 'box' : 'boxes') : 'm²'} ✓`;
     const submit = $('[name="add"], button[type="submit"].add-to-cart-button, form[action*="/cart/add"] [type="submit"]', scope);
     if (submit) submit.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  });
+
+  // ETS: box-units: a box count set for one size must not carry into another size (3 x 1.44 m² is not 3 x 0.9 m²), so a
+  // variant change on a box product puts the quantity back to 1; the calculator re-renders with the new data-box anyway.
+  document.addEventListener('variant:update', (e) => {
+    const scope = (e.target && e.target.closest && e.target.closest('.shopify-section')) || document;
+    if (!$('[data-ets-calc][data-box]', scope)) return;
+    const q = $('input[name="quantity"]', scope);
+    if (q && q.value !== '1') { q.value = 1; q.dispatchEvent(new Event('change', { bubbles: true })); }
   });
 
   /* ---------- m² quantity (tiles tagged m2-units): the real quantity is m² x 100 ---------- */

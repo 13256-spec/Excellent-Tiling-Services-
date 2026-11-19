@@ -462,6 +462,7 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 .ets-price__now { font-weight: 700; }
 .ets-price__was { color: var(--ets-muted); text-decoration: line-through; font-weight: 500; font-size: .9em; }
 .ets-price__unit { color: var(--ets-muted); font-size: .8em; font-weight: 500; }
+.ets-price__box { display: block; color: var(--ets-muted); font-size: .7em; font-weight: 500; } /* ETS: box-units second line "$79.20 per box (1.44 m²)" */
 .ets-price__from { color: var(--ets-muted); font-size: .8em; font-weight: 500; }
 .ets-trade-price { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; padding: 4px 10px 4px 4px; border-radius: var(--ets-pill); background: var(--ets-trade-soft); color: var(--ets-trade); font-weight: 700; font-size: .92em; }
 .ets-trade-price__tag { padding: 3px 8px; border-radius: var(--ets-pill); background: var(--ets-trade); color: #FFFFFF; font-size: 10.5px; letter-spacing: .08em; text-transform: uppercase; }
@@ -649,6 +650,9 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 .ets-calc__apply { min-height: 40px; padding: 0 16px; border: 0; border-radius: var(--ets-pill); background: var(--ets-ink); color: #FFFFFF; font: 700 13.5px var(--ets-sans); cursor: pointer; }
 .ets-calc__apply:disabled { opacity: .35; cursor: not-allowed; }
 .ets-calc__note { margin: 10px 0 0; font-size: 12.5px; color: var(--ets-muted); line-height: 1.5; }
+/* ETS: box-units wastage tick box (the label grid above would stretch a bare checkbox to 44px) */
+.ets-calc__waste { grid-template-columns: auto 1fr; align-items: center; gap: 10px; min-height: 44px; }
+.ets-calc .ets-calc__waste input { width: 20px; height: 20px; min-height: 0; padding: 0; border-radius: 6px; box-shadow: none; accent-color: var(--ets-ink); }
 @media (max-width: 480px) { .ets-calc__row { grid-template-columns: 1fr 1fr; } .ets-calc__row label:first-child { grid-column: 1 / -1; } }
 
 .ets-perks { list-style: none; margin: 0; padding: 0; display: grid; border-radius: 18px; box-shadow: inset 0 0 0 1px var(--ets-line-strong); overflow: hidden; background: var(--ets-surface); }
