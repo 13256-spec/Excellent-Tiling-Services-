@@ -1,85 +1,85 @@
-sku,size,m2_per_box,pcs_per_box,kg_per_box
-YFR630331,300x600mm / Matt,,,
-YFR600331,600x600mm / Matt,,,
-BS630331,300x600mm / Lappato,,,
-BS600331,600x600mm / Lappato,,,
-YFR630338,300x600mm / Matt,,,
-YFR600338,600x600mm / Matt,,,
-BS630338,300x600mm / Lappato,,,
-BS600338,600x600mm / Lappato,,,
-YFR630337,300x600mm / Matt,,,
-BS600337,600x600mm / Lappato,,,
-HW637317,300x600mm / Matt,,,
-YW607317,600x600mm / Matt,,,
-HW637311,300x600mm / Matt,,,
-YW607311,600x600mm / Matt,,,
-FG637311,300x600mm / Gloss,,,
-FG607311,600x600mm / Gloss,,,
-HW637315,300x600mm / Matt,,,
-FG637315,300x600mm / Gloss,,,
-YW607315,600x600mm / Matt,,,
-FG607315,600x600mm / Gloss,,,
-YW277315,600x1200mm / Gloss,,,
-YFR632950,300x600mm / Matt,,,
-YFR602950,600x600mm / Matt,,,
-DSA36CP01N,300x600mm / Matt,,,
-DSA66CP01N,600x600mm / Matt,,,
-ET36SS03,300x600mm / Matt,,,
-ET36SS01,300x600mm / Matt,,,
-DSA33AK666,300x300mm / Matt,,,
-DSA36AK666,300x600mm / Matt,,,
-DSA66AK666,600x600mm / Matt,,,
-DSA36AK663,300x600mm / Matt,,,
-DSA66AK663,600x600mm / Matt,,,
-DSA33AK662,300x300mm / Matt,,,
-DSA36AK662,300x600mm / Matt,,,
-DSA66AK662,600x600mm / Matt,,,
-DSA36AK661,300x600mm / Matt,,,
-DSA66AK661,600x600mm / Matt,,,
-DSA126AK661,600x1200mm / Matt,,,
-DSA36MQ04,300x600mm / Matt,,,
-DSA66MQ04,600x600mm / Matt,,,
-DSA36MQ01,300x600mm / Matt,,,
-DSA66MQ01,600x600mm / Matt,,,
-DSA126MQ01,600x1200mm / Matt,,,
-DSA36MQ02,300x600mm / Matt,,,
-DSA66MQ02,600x600mm / Matt,,,
-DSA126MQ02,600x1200mm / Matt,,,
-HW637314,300x600mm / Matt,,,
-YW607314,600x600mm / Matt,,,
-FG637314,300x600mm / Gloss,,,
-FG607314,600x600mm / Gloss,,,
-YW277314,600x1200mm / Gloss,,,
-ETSN6631,600x600mm / Matt,,,
-ETSN126631,600x1200mm / Matt,,,
-DSA36AW,300x600mm / Matt,,,
-DSA66AW,600x600mm / Matt,,,
-DSA36AG,300x600mm / Matt,,,
-DSA66AG,600x600mm / Matt,,,
-DSA36SW,300x600mm / Matt,,,
-DSA66SW,600x600mm / Matt,,,
-DSA36SB,300x600mm / Matt,,,
-DSA66SB,600x600mm / Matt,,,
-DSA36SG,300x600mm / Matt,,,
-DSA66SG,600x600mm / Matt,,,
-DSA36BG,300x600mm / Matt,,,
-DSA66BG,600x600mm / Matt,,,
-YF637300,300x600mm / Matt,,,
-YW633164,300x600mm / Structured,,,
-YW633165,300x600mm / Structured,,,
-HSA223111,200x1200mm / Matt,,,
-DSA31001G,100x300mm / Gloss,,,
-DSA31002M,100x300mm / Satin,,,
-DSA730WAW1,75x300mm / Gloss,,,
-DSA730WAW1M,75x300mm / Satin,,,
-DSA730WBC7,75x300mm / Gloss,,,
-DSA730WBC6,75x300mm / Gloss,,,
-DSA36001,300x600mm / Gloss,,,
-DSA36002M,300x600mm / Matt,,,
-DSA60822,300x600mm / Gloss,,,
-DSA60602,300x600mm / Gloss,,,
-DSA6049,300x600mm / Gloss,,,
-DSA60871,300x600mm / Gloss,,,
-BS630332,300x600mm / Lappato (Time Stone Sand),,,
-BV637544,300x600mm / Lappato (Arena Light),,,
-BV637541,300x600mm / Lappato (Arena Blonde),,,
+sku,size,m2_per_box,pcs_per_box,kg_per_box,source
+YFR630331,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YFR600331,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BS630331,300x600mm / Lappato,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BS600331,600x600mm / Lappato,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YFR630338,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YFR600338,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BS630338,300x600mm / Lappato,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BS600338,600x600mm / Lappato,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YFR630337,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BS600337,600x600mm / Lappato,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+HW637317,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW607317,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+HW637311,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW607311,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+FG637311,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+FG607311,600x600mm / Gloss,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+HW637315,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+FG637315,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW607315,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+FG607315,600x600mm / Gloss,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW277315,600x1200mm / Gloss,,,,
+YFR632950,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YFR602950,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36CP01N,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66CP01N,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+ET36SS03,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+ET36SS01,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA33AK666,300x300mm / Matt,,,,
+DSA36AK666,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66AK666,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36AK663,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66AK663,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA33AK662,300x300mm / Matt,,,,
+DSA36AK662,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66AK662,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36AK661,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66AK661,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA126AK661,600x1200mm / Matt,,,,
+DSA36MQ04,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66MQ04,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36MQ01,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66MQ01,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA126MQ01,600x1200mm / Matt,,,,
+DSA36MQ02,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66MQ02,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA126MQ02,600x1200mm / Matt,,,,
+HW637314,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW607314,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+FG637314,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+FG607314,600x600mm / Gloss,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW277314,600x1200mm / Gloss,,,,
+ETSN6631,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+ETSN126631,600x1200mm / Matt,,,,
+DSA36AW,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66AW,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36AG,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66AG,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36SW,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66SW,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36SB,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66SB,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36SG,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66SG,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36BG,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA66BG,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YF637300,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW633164,300x600mm / Structured,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+YW633165,300x600mm / Structured,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+HSA223111,200x1200mm / Matt,,,,
+DSA31001G,100x300mm / Gloss,,,,
+DSA31002M,100x300mm / Satin,,,,
+DSA730WAW1,75x300mm / Gloss,,,,
+DSA730WAW1M,75x300mm / Satin,,,,
+DSA730WBC7,75x300mm / Gloss,,,,
+DSA730WBC6,75x300mm / Gloss,,,,
+DSA36001,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA36002M,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA60822,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA60602,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA6049,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+DSA60871,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BS630332,300x600mm / Lappato (Time Stone Sand),1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BV637544,300x600mm / Lappato (Arena Light),1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
+BV637541,300x600mm / Lappato (Arena Blonde),1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
