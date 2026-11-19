@@ -652,7 +652,7 @@ body h1, body h2, body .h1, body .h2 { font-family: var(--ets-serif); font-weigh
 .ets-calc__note { margin: 10px 0 0; font-size: 12.5px; color: var(--ets-muted); line-height: 1.5; }
 /* ETS: box-units wastage tick box (the label grid above would stretch a bare checkbox to 44px) */
 .ets-calc__waste { grid-template-columns: auto 1fr; align-items: center; gap: 10px; min-height: 44px; }
-.ets-calc .ets-calc__waste input { width: 20px; height: 20px; min-height: 0; padding: 0; border-radius: 6px; box-shadow: none; accent-color: var(--ets-ink); }
+.ets-calc .ets-calc__waste input { -webkit-appearance: auto; appearance: auto; width: 20px; height: 20px; min-height: 0; padding: 0; border: 0; border-radius: 6px; background: none; box-shadow: none; accent-color: var(--ets-ink); }
 @media (max-width: 480px) { .ets-calc__row { grid-template-columns: 1fr 1fr; } .ets-calc__row label:first-child { grid-column: 1 / -1; } }
 
 .ets-perks { list-style: none; margin: 0; padding: 0; display: grid; border-radius: 18px; box-shadow: inset 0 0 0 1px var(--ets-line-strong); overflow: hidden; background: var(--ets-surface); }
