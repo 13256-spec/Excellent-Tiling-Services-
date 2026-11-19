@@ -54,6 +54,8 @@ for f in sorted(glob.glob(f"{REP}/pages/p*.json")):
                 if r["margin_pct"] < 25: r["flag"].append("UNDER PUBLIC FLOOR")
                 if band and r["trade_margin_pct"] < 25: r["flag"].append("UNDER TRADE FLOOR")
                 if band and r["eff_discount_pct"] > CAP["Tile"]: r["flag"].append("OVER BAND CAP")
+                if stock < 0:  # owner, 19 Nov 2026: negative stock (past sales never received) resets to zero boxes
+                    r.update(new_stock_boxes=0, stock_remainder_units=0); r["flag"].append(f"negative stock {stock} units reset to 0 boxes (owner 19 Nov)")
                 if r["stock_remainder_units"]: r["flag"].append(f"part box in stock: {r['stock_remainder_units']} units")
                 # a customer example line for the approval table: 3 m2 job
                 import math; n = math.ceil(3 / float(box) - 1e-6); r["example_3m2"] = f"{n} box{'es' if n > 1 else ''} = ${pb * n:.2f} (today ${m2_price * 3:.2f})"

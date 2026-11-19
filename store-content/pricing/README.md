@@ -407,3 +407,8 @@ rendering in m² mode until their tag flips).
   The old Eternity site printed "Box Quantity" on each product (a search snippet shows 1.15 m² for Subwave White) but
   the Wayback Machine is blocked from this environment, so it could not be read. The request to Eternity now lists only
   these 15 codes plus a line asking them to confirm 1.44 for the rest.
+- Owner decisions (19 Nov): negative stock resets to zero boxes (BS600331 -6,192 units and BS600337 -288 units; the
+  script now writes 0 with the old quantity as the guard). Draft order #D21 (Jonathan Davies quote, $1,362, Subwave Gloss
+  White 25.5 m² + Morgan Cloud 5.4 m²) deleted on the owner's instruction; copy in
+  `store-content/deleted-draft-order-D21-2026-11-19.json`. The owner also queried the White Ceramic Wall gloss trade price
+  ($22/m² against a $25 public price, cost $15.18 inc GST, Eternity RRP $40): options proposed, nothing changed yet.
