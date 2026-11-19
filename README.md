@@ -39,6 +39,19 @@ descriptions), so no tile has been switched and no price changed. The request to
 `store-content/pricing/README.md` (19 Nov entry).
 **Update, 19 Nov 2026: 50 tile variants in 28 products were switched to boxes in Shopify on the owner's approval, so the
 live theme now shows them wrongly ("$72.00 / m²" with the per-m² calculator). Publish the draft as soon as possible.**
+**Update, later on 19 Nov 2026: the box-mode buy box was rebuilt to work like Gia's product page** (owner: "I really like
+the website and it's set up, fix ours"). On a `box-units` tile the price now reads "$50.00 / m²" only (no per-box line); the
+quantity stepper and the old length × width calculator are gone; in their place an **Area** control: a number box in m²
+with − / + buttons that step by one box (1.44 m²), an **"Add 15% wastage"** switch (off by default, like Gia's), and the
+line "We round up to the nearest full box (1.44 m² per box) — 3 boxes needed" (", including 15% wastage" when on). The
+real quantity (boxes) is a hidden field, and the order carries `_area_m2` and `_wastage` line properties. Cart drawer and
+cart page still say "N boxes · 1.44 m² per box · Y m²"; the 0.01 m² mode for the held-back tiles is unchanged. A size switch
+keeps the customer's area (Horizon keeps the control in place; no variant event reaches our script), and a watcher
+recomputes the boxes if the new size has a different m² per box. Files re-uploaded to the draft and md5-verified:
+`snippets/quantity-selector.liquid`, `snippets/ets-pdp-calc.liquid`, `snippets/price.liquid`, `assets/ets-2026.js`,
+`assets/ets-2026.css`. Checked on the preview with Time Stone Moon (now a real box tile): default 1.44 m² = 1 box; 4.32 m² =
+3 boxes; wastage on = 4 boxes; + / − move by 1.44; cart.js got quantity 4 with both properties; phone and desktop
+screenshots fine. The draft is still **unpublished**.
 **To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Tiles per box (draft)" → Publish.** Preview:
 `https://excellenttilingservices.com/products/time-stone-moon-porcelain-tile?preview_theme_id=145381228607` (looks like the
 live theme until a tile is switched). The live theme is 145308221503 ("ETS 2026 – SEO: lean product schema"); `theme/` was

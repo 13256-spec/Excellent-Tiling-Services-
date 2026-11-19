@@ -429,3 +429,5 @@ rendering in m² mode until their tag flips).
   a switched tile shows "$72.00 / m²" with the old per-m² calculator (checked on the live site straight after the switch).
   The draft renders it correctly. Publish steps in the root README.
 - Rollback: `box_batches/rollback_01` + `rollback_02`, then the two trade scripts.
+- Later on 19 Nov the draft theme's box-mode buy box was rebuilt to match Gia's page (area in m², wastage switch, "N boxes
+  needed" line, per-m² price only). Theme only, no price or data change; details and the publish steps in the root README.

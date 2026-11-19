@@ -258,16 +258,9 @@
     area.value = Math.max(box, Math.round((cur + (btn.hasAttribute('data-ets-area-plus') ? box : -box)) * 100) / 100).toFixed(2);
     areaUpdate(wrap);
   });
-  // Horizon re-renders the buy box on a size change (fresh data-box, area back to one box); if it ever keeps the old
-  // markup, put the area back to one box of the new size so 3 x 1.44 m² never carries into another size.
-  document.addEventListener('variant:update', (e) => {
-    const scope = (e.target && e.target.closest && e.target.closest('.shopify-section')) || document;
-    const wrap = $('[data-ets-area-wrap]', scope);
-    if (!wrap) return;
-    const area = $('[data-ets-area]', wrap);
-    if (area) area.value = parseFloat(wrap.dataset.box) || 1;
-    areaUpdate(wrap);
-  });
+  // A size switch keeps the same control (Horizon morphs the buy box in place and no variant event reaches here), so
+  // the customer's area stays. If the new size has a different m² per box, data-box changes: recompute the boxes.
+  new MutationObserver((muts) => muts.forEach((m) => areaUpdate(m.target))).observe(document.documentElement, { subtree: true, attributes: true, attributeFilter: ['data-box'] });
 
   /* ---------- m² quantity (tiles tagged m2-units): the real quantity is m² x 100 ---------- */
   document.addEventListener('input', (e) => {
