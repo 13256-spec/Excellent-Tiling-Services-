@@ -70,8 +70,12 @@ print(len(rows), "variants,", len(seen), "products;", len(unknown), "box size UN
 for b in bad: print("  ", *b)
 
 if len(sys.argv) > 1 and sys.argv[1] == "batches":
-    assert not unknown, f"box size UNKNOWN for {unknown}: get it from Eternity, never guess"
     assert not bad, f"fix these first: {bad}"
+    # a product flips to box mode as a whole (the tag is per product), so hold back any product with a variant still UNKNOWN
+    held = {r["product_id"] for r in rows if r["m2_per_box"] == "UNKNOWN"}
+    for pid in held: print("  held back (box size UNKNOWN on a variant):", next(r["product"] for r in rows if r["product_id"] == pid))
+    rows = [r for r in rows if r["product_id"] not in held]
+    print(len(rows), "variants in the batches")
     out = "box_batches"; os.makedirs(out, exist_ok=True)
     def chunk(parts, head, tail, name, limit=15500):
         reqs, cur = [], []
@@ -79,7 +83,7 @@ if len(sys.argv) > 1 and sys.argv[1] == "batches":
             if len(head + " ".join(cur + [part]) + tail) > limit: reqs.append(head + " ".join(cur) + tail); cur = []
             cur.append(part)
         reqs.append(head + " ".join(cur) + tail)
-        for n, r in enumerate(reqs, 1): open(f"{out}/{name}_{n:02d}.graphql", "w").write(r)
+        for n, r in enumerate(reqs, 1): open(f"{out}/{name}_{n:02d}.graphql", "w").write(r.replace("%02d", f"{n:02d}") if "%02d" in r else r)
         return len(reqs)
     # 1. price list first (never a window where the fixed price is per unit and the variant price is per box)
     pl = ['{variantId: "%s", price: {amount: "%s", currencyCode: AUD}, compareAtPrice: {amount: "%s", currencyCode: AUD}}' % (r["variant_id"], r["trade_per_box"], r["price_per_box"]) for r in rows if r["band"]]
@@ -98,5 +102,5 @@ if len(sys.argv) > 1 and sys.argv[1] == "batches":
     n_box = chunk(parts, "mutation{", "}", "box"); n_back = chunk(back, "mutation{", "}", "rollback")
     # 3. inventory in boxes, guarded by the snapshot quantity so a sale in between fails loudly
     inv = ['{inventoryItemId: "%s", locationId: "%s", quantity: %d, changeFromQuantity: %d}' % (r["inventory_item"], LOC, r["new_stock_boxes"], r["old_stock_units"]) for r in rows if r["tracked"]]
-    n_inv = chunk(inv, 'mutation { inventorySetQuantities(input: {reason: "correction", name: "available", quantities: [', ']}) { userErrors { field message code } } }', "inv", 15000)
+    n_inv = chunk(inv, 'mutation { inventorySetQuantities(input: {reason: "correction", name: "available", quantities: [', ']}) @idempotent(key: "ets-box-units-inv-%02d") { userErrors { field message code } } }', "inv", 15000)
     print(f"batches: {n_pl} price-list, {n_box} variant, {n_inv} inventory, {n_back} rollback files in {out}/ (run in that order; rollback = variants back to 0.01 units, then rerun both trade scripts)")

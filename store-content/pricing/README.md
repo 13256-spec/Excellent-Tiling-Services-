@@ -412,3 +412,20 @@ rendering in m² mode until their tag flips).
   White 25.5 m² + Morgan Cloud 5.4 m²) deleted on the owner's instruction; copy in
   `store-content/deleted-draft-order-D21-2026-11-19.json`. The owner also queried the White Ceramic Wall gloss trade price
   ($22/m² against a $25 public price, cost $15.18 inc GST, Eternity RRP $40): options proposed; the owner kept it as is (A).
+
+**Applied, 19 Nov 2026 (owner: "Go ahead"): 50 variants in 28 products now sell per box.**
+- Order run: `box_batches/pl_01` (50 fixed trade prices per box, compare-at = box price), `box_01` + `box_02`
+  (price per box, cost per box, 1.44 m² unit measurement, weight, tag `box-units` on / `m2-units` off; the first batch
+  returned a Shopify "temporary error" but a read-back showed all 17 products applied, so it was not resent), then the
+  two negative stock lines set to 0 boxes (BS600331 from -6,192 units, BS600337 from -288; `inventorySetQuantities`
+  needs `@idempotent` on the field, the script now writes it). Then both trade scripts, run on the 28 products: price
+  list identical to what was sent, `custom.trade_price` per box on 50 variants and `ets.trade_price` "$x per m² (N% off)"
+  on 28 products (`reports/tile-box-trade-metafields-2026-11-19.csv`). Master list rows carry the new flag.
+- Held back (15 products, 34 variants): a product flips as a whole, so any product with a variant whose box size is
+  unknown stays in 0.01 m² units: Lava Kraka, Lava Vesuv, Morgan Dusk, Morgan Cloud, Morgan Hail, Cement White, Cement
+  Grey, Fumosa, Oak Aube, Subway Gloss/Matt White, Subwave Gloss/Matt White/Nude/Grey. `tile_box_units_2026_11.py batches`
+  now builds batches for the ready products only and lists the held ones.
+- The live theme does not know `box-units`: until the owner publishes "ETS 2026 – Tiles per box (draft)" (145381228607)
+  a switched tile shows "$72.00 / m²" with the old per-m² calculator (checked on the live site straight after the switch).
+  The draft renders it correctly. Publish steps in the root README.
+- Rollback: `box_batches/rollback_01` + `rollback_02`, then the two trade scripts.

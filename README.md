@@ -37,6 +37,8 @@ Still blocked: the m² per box is unknown for all 84 tile variants (only Time St
 descriptions), so no tile has been switched and no price changed. The request to Eternity is in
 `store-content/pricing/eternity-box-size-request-2026-11-19.txt`; the plan and decisions in
 `store-content/pricing/README.md` (19 Nov entry).
+**Update, 19 Nov 2026: 50 tile variants in 28 products were switched to boxes in Shopify on the owner's approval, so the
+live theme now shows them wrongly ("$72.00 / m²" with the per-m² calculator). Publish the draft as soon as possible.**
 **To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Tiles per box (draft)" → Publish.** Preview:
 `https://excellenttilingservices.com/products/time-stone-moon-porcelain-tile?preview_theme_id=145381228607` (looks like the
 live theme until a tile is switched). The live theme is 145308221503 ("ETS 2026 – SEO: lean product schema"); `theme/` was
