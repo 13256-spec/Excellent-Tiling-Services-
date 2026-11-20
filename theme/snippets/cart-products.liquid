@@ -147,9 +147,24 @@
             {% for item in cart.items %}
               {%- liquid
                 # Tiles tagged m2-units: quantity is in 0.01 m² units, so show m² and the price per m².
+                # ETS: box-units (one unit = one box) wins over m2-units: price per m² = line price / m² per box, rounded to
+                # the cent, from final/original price (not Shopify's unit_price, whose basis is unverified for discounts).
                 assign ets_x = 1
-                if item.product.tags contains 'm2-units'
+                assign ets_box = false
+                if item.product.tags contains 'box-units' and item.unit_price_measurement.quantity_value
+                  assign ets_box = true
+                  assign ets_box_m2 = item.unit_price_measurement.quantity_value
+                elsif item.product.tags contains 'm2-units'
                   assign ets_x = 100
+                endif
+                assign ets_final = item.final_price | times: ets_x
+                assign ets_original = item.original_price | times: ets_x
+                assign ets_compare = item.variant.compare_at_price | times: ets_x
+                if ets_box
+                  # times: 1.0 so a whole-number box size (2 m²) rounds to the cent instead of truncating.
+                  assign ets_final = item.final_price | times: 1.0 | divided_by: ets_box_m2 | round
+                  assign ets_original = item.original_price | times: 1.0 | divided_by: ets_box_m2 | round
+                  assign ets_compare = item.variant.compare_at_price | times: 1.0 | divided_by: ets_box_m2 | round
                 endif
               -%}
               <tr
@@ -312,14 +327,14 @@
                       {% if item.original_price != item.final_price %}
                         <span class="visually-hidden">{{ 'content.price_sale' | t }}</span>
                         <span
-                          ><bdi>{{ item.final_price | times: ets_x | money }}</bdi></span
+                          ><bdi>{{ ets_final | money }}</bdi></span
                         >
                         <span class="visually-hidden">{{ 'content.price_regular' | t }}</span>
                         <s class="compare-at-price">
                           {% if item.variant.compare_at_price > item.original_price %}
-                            <bdi>{{ item.variant.compare_at_price | times: ets_x | money }}</bdi>
+                            <bdi>{{ ets_compare | money }}</bdi>
                           {% else %}
-                            <bdi>{{ item.original_price | times: ets_x | money }}</bdi>
+                            <bdi>{{ ets_original | money }}</bdi>
                           {% endif %}
                         </s>
                       {% else %}
@@ -330,18 +345,19 @@
                         {% endif %}
 
                         <span
-                          ><bdi>{{ item.original_price | times: ets_x | money }}</bdi></span
+                          ><bdi>{{ ets_original | money }}</bdi></span
                         >
 
                         {% if item.variant.compare_at_price > item.original_price %}
                           <span class="visually-hidden">{{ 'content.price_regular' | t }}</span>
                           <s class="compare-at-price"
-                            ><bdi>{{ item.variant.compare_at_price | times: ets_x | money }}</bdi></s
+                            ><bdi>{{ ets_compare | money }}</bdi></s
                           >
                         {% endif %}
                       {% endif %}
-                      {%- if ets_x > 1 %}<span> / m²</span>{% endif -%}
+                      {%- if ets_x > 1 or ets_box %}<span> / m²</span>{% endif -%}
                     </div>
+                    {%- if ets_box %}<div class="ets-box-cartprice">{{ item.final_price | money }} per box</div>{% endif -%}
                   </div>
                 </td>
                 <td
@@ -360,7 +376,10 @@
                       quantity: item.quantity
                     %}
 
-                    {%- if ets_x > 1 -%}
+                    {%- if ets_box -%}
+                      {%- comment -%} ETS: box-units: the +/- stepper below stays visible and changes boxes; Horizon re-renders this line on every change. {%- endcomment -%}
+                      <span class="ets-m2-cartqty cart-primary-typography">{{ item.quantity }} box{% if item.quantity != 1 %}es{% endif %} · {{ ets_box_m2 }} m² per box · {{ item.quantity | times: ets_box_m2 | round: 2 }} m²</span>
+                    {%- elsif ets_x > 1 -%}
                       {%- assign ets_cents = item.quantity | modulo: 100 | plus: 100 | append: '' | slice: 1, 2 -%}
                       <span class="ets-m2-cartqty cart-primary-typography">{{ item.quantity | divided_by: 100 }}.{{ ets_cents }} m²</span>
                     {%- endif -%}
@@ -427,7 +446,8 @@
                   <text-component value="{{ price | strip_html }}"
                     ><bdi>{{ price }}</bdi></text-component
                   >
-                  {%- if item.unit_price_measurement and ets_x == 1 -%}
+                  {%- comment -%} ETS: m2-units and box-units lines already print $/m² above, so Shopify's own unit-price line is skipped. {%- endcomment -%}
+                  {%- if item.unit_price_measurement and ets_x == 1 and ets_box == false -%}
                     <div class="cart-items__price-unit cart-secondary-typography">
                       {% render 'unit-price', price: unit_price, measurement: item.unit_price_measurement %}
                     </div>
@@ -562,6 +582,12 @@
       min-width: auto;
       width: max-content;
     }
+  }
+
+  /* ETS: box-units cart lines: second price line "$79.20 per box" under the $/m² figure */
+  .ets-box-cartprice {
+    font-size: var(--font-size--sm);
+    opacity: 0.75;
   }
 
   .cart-items__table-row.cart-items__nested-line td:first-child {

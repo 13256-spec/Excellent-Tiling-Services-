@@ -112,10 +112,12 @@
   function setCount(n) {
     $$('[data-ets-cart-count]').forEach((el) => { el.textContent = n; el.hidden = !n; });
   }
+  const isTileLine = (m) => !!m && (Number(m.quantity_value) === 0.01 || m.measured_type === 'area' || m.quantity_unit === 'm2');
   function refreshCount() {
     fetch(`${window.Shopify && Shopify.routes ? Shopify.routes.root : '/'}cart.js`, { headers: { Accept: 'application/json' } })
-      // a tile sold in 0.01 m2 units (unit price per 0.01 m2) counts as 1 line, not 288
-      .then((r) => r.json()).then((c) => setCount(c.items.reduce((n, i) => n + (Number(i.unit_price_measurement && i.unit_price_measurement.quantity_value) === 0.01 ? 1 : i.quantity), 0))).catch(() => {});
+      // a tile counts as 1 line: m2-units (0.01 m2 units, not 288) and box-units (boxes). Both carry an area unit price; cart.js has no tags.
+      // Preview check before publish: cart.js must spell the box line as measured_type 'area' or quantity_unit 'm2', else the bubble shows boxes.
+      .then((r) => r.json()).then((c) => setCount(c.items.reduce((n, i) => n + (isTileLine(i.unit_price_measurement) ? 1 : i.quantity), 0))).catch(() => {});
   }
   document.addEventListener('cart:update', () => refreshCount());
   document.addEventListener('click', (e) => {
@@ -180,12 +182,13 @@
     }
     const a = parseFloat(c.area.value);
     if (a > 0) {
-      const need = a * (1 + parseFloat(c.waste.value) / 100);
+      const waste = parseFloat(c.waste.value);
+      const need = a * (1 + waste / 100);
+      c.apply.disabled = false;
       // m2-units tiles: exact m², rounded up to 0.01 (the 1e-6 guard stops float noise adding a cent). Others: whole m².
       const qty = 'm2' in calc.dataset ? (Math.ceil(need * 100 - 1e-6) / 100).toFixed(2) : Math.ceil(need);
       calc.dataset.qty = qty;
       c.out.textContent = `${qty} m²`;
-      c.apply.disabled = false;
       c.apply.textContent = `Set quantity to ${qty} m²`;
     } else {
       calc.dataset.qty = '';
@@ -218,6 +221,46 @@
     const submit = $('[name="add"], button[type="submit"].add-to-cart-button, form[action*="/cart/add"] [type="submit"]', scope);
     if (submit) submit.scrollIntoView({ behavior: 'smooth', block: 'center' });
   });
+
+  /* ---------- Area in m² stepper (tiles tagged box-units, one variant = one box), laid out like Gia's ---------- */
+  // boxes = ceil(m² x (1.15 if wastage) / m² per box). The 1e-6 guard stops float noise adding a box:
+  // 4.32/1.44 -> 3 (not 4), 8.64 -> 6, 1.44 -> 1, 12.5 + 15% -> 10, 12.5 no wastage -> 9.
+  // Same maths as store-content/pricing/ets-box-math.test.js (not synced to Shopify); keep them in step.
+  const areaBoxes = (m2, box, waste) => Math.max(1, Math.ceil((m2 * (waste ? 1.15 : 1)) / box - 1e-6));
+  function areaUpdate(wrap) {
+    const box = parseFloat(wrap.dataset.box) || 1;
+    const area = $('[data-ets-area]', wrap), waste = $('[data-ets-waste]', wrap), note = $('[data-ets-area-note]', wrap);
+    const m2 = Math.max(0.01, parseFloat(area.value) || box);
+    const boxes = areaBoxes(m2, box, waste && waste.checked);
+    const qty = $('input[ref="quantityInput"]', wrap.closest('.quantity-selector-wrapper'));
+    if (qty && String(qty.value) !== String(boxes)) { qty.value = boxes; qty.dispatchEvent(new Event('change', { bubbles: true })); }
+    const prop = $('[data-ets-area-prop]', wrap), wprop = $('[data-ets-waste-prop]', wrap);
+    if (prop) prop.value = m2;
+    if (wprop) wprop.value = waste && waste.checked ? 'true' : 'false';
+    if (note) note.textContent = `We round up to the nearest full box (${box} m² per box) — ${boxes} ${boxes === 1 ? 'box' : 'boxes'} needed${waste && waste.checked ? ', including 15% wastage' : ''}.`;
+  }
+  document.addEventListener('input', (e) => {
+    const wrap = e.target.closest('[data-ets-area-wrap]');
+    if (wrap && e.target.matches('[data-ets-area]')) areaUpdate(wrap);
+  });
+  document.addEventListener('change', (e) => {
+    const wrap = e.target.closest('[data-ets-area-wrap]');
+    if (!wrap) return;
+    if (e.target.matches('[data-ets-area]')) { const a = e.target; a.value = Math.max(0.01, parseFloat(a.value) || parseFloat(wrap.dataset.box) || 1).toFixed(2); }
+    if (e.target.matches('[data-ets-area],[data-ets-waste]')) areaUpdate(wrap);
+  });
+  document.addEventListener('click', (e) => {
+    const btn = e.target.closest('[data-ets-area-minus],[data-ets-area-plus]');
+    if (!btn) return;
+    const wrap = btn.closest('[data-ets-area-wrap]'), area = $('[data-ets-area]', wrap);
+    const box = parseFloat(wrap.dataset.box) || 1, cur = parseFloat(area.value) || box;
+    // step by one box's worth of m², never below one box
+    area.value = Math.max(box, Math.round((cur + (btn.hasAttribute('data-ets-area-plus') ? box : -box)) * 100) / 100).toFixed(2);
+    areaUpdate(wrap);
+  });
+  // A size switch keeps the same control (Horizon morphs the buy box in place and no variant event reaches here), so
+  // the customer's area stays. If the new size has a different m² per box, data-box changes: recompute the boxes.
+  new MutationObserver((muts) => muts.forEach((m) => areaUpdate(m.target))).observe(document.documentElement, { subtree: true, attributes: true, attributeFilter: ['data-box'] });
 
   /* ---------- m² quantity (tiles tagged m2-units): the real quantity is m² x 100 ---------- */
   document.addEventListener('input', (e) => {

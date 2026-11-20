@@ -353,3 +353,100 @@ $0.00, no cost, trade band 0, stock 0 and "stop selling when out of stock", tagg
 B2B scripts until ARDEX sends a price list; then price by the playbook (cost inc GST, 35% target, floors 25%, competitor
 check against Bunnings, Tilers Online, TradieCart and Beaumont where they list ARDEX), set the band, rerun both trade
 scripts and add the rows to the master list. Record: `../supplier-sync/README.md`, "ARDEX Australia range".
+
+## Tiles per box, like Gia's (19 Nov 2026, prepared, 69 of 84 box sizes in, nothing applied)
+
+The owner wants every tile sold the way Gia's Bathrooms & Tiles sells them: one variant = one box, the site shows the
+price per m², the product page converts an area in m² (plus an optional 15% wastage) into whole boxes, and the cart shows
+"N boxes · 1.44 m² per box · 4.32 m²". Our tiles are sold in 0.01 m² units today (5 Nov entry above).
+
+**Blocker: m² per box is not known for any of the 84 variants.** No repo file, Shopify field, Eternity page or supplier
+sheet states it (`reports/tile-box-plan-2026-11-19/report-box-data.md`). Two old descriptions said 1.44 m² for Time Stone
+but the source is unrecorded. Playbook rule: never invent it. `eternity-box-size-request-2026-11-19.txt` is the request
+to send Eternity; the answers go into `box-sizes-2026-11.csv` (sku, m2_per_box, pcs_per_box, kg_per_box).
+
+Prepared, in `reports/tile-box-plan-2026-11-19/`: the investigation reports (theme, pricing scripts, box data, Gia's
+reference implementation), the draft plan and three reviewers' verdicts (money, theme, operations), and the Shopify
+snapshot `pages/p1.json` (43 products, 84 variants, all tracked at Maddington; BS600331 is at -6,192 units and
+BS600337 at -288 from past sales; draft order #D21 holds 2,550 + 650 units and must be redone in boxes after the switch).
+
+`tile_box_units_2026_11.py` (new) builds the owner's approval table `reports/tile-box-proposal-2026-11-19.csv` and, once
+every box size is known and no row is flagged, the batches in `box_batches/`:
+- price per box = master-list $/m² x m²/box, cost per box = master cost x m²/box (exact, fixes Shopify's cent rounding of
+  the 0.01-unit cost), weight = supplier kg/box or 22 kg/m² (porcelain) / 15 kg/m² (ceramic) x m²/box, flagged as an estimate.
+- **trade per box = today's whole-dollar trade $/m² x m²/box** (nothing moves for trade customers). The band formula
+  is shown in a column as an option; choosing it would cut trade prices on 72 of 81 live sizes by up to $0.90/m².
+- every row is checked against the floors (25% public, 25% trade, 15% tile band cap); the script refuses to build
+  batches if any row fails, any box size is UNKNOWN, or a tile is missing from the master list (Time Stone Sand
+  BS630332, Arena Light BV637544 and Arena Blonde BV637541 need a master-list row with their Eternity cost first).
+- order of the batches: `pl_NN` (B2B fixed prices per box, first, so trade never sees a per-unit price against a box
+  price), `box_NN` (variants, tag `box-units` on / `m2-units` off), `inv_NN` (stock in boxes, guarded by the snapshot
+  quantity), then rerun `b2b_price_list_2026_11.py` and `trade_price_metafields_2026_11.py`. `rollback_NN` puts the
+  variants back to 0.01 units.
+- both trade scripts now understand `box-units` (trade per box from the master list x m²/box; admin text per m²).
+- what the customer pays changes: a 3 m² job on a $55/m² tile in a 1.44 m² box is 3 boxes = $237.60, today it is
+  $165.00 for exactly 3 m². The approval table shows this per line (`example_3m2`).
+
+Theme: draft **"ETS 2026 – Tiles per box (draft)"** (id 145381228607, a copy of the live theme 145308221503) carries
+the `box-units` storefront mode; see the root README. The draft can be published before the data switch (products keep
+rendering in m² mode until their tag flips).
+
+**Update, later on 19 Nov 2026 (box sizes, still nothing applied):**
+- The owner: 600x600 and 300x600 tiles come in 1.44 m² boxes. Filled for the 69 variants of those sizes in
+  `box-sizes-2026-11.csv` (8 pcs for 300x600, 4 pcs for 600x600; kg left blank, so the script estimates it). Eternity's own
+  price list agrees: its pallets are 57.6 m² (porcelain) and 86.4 m² (ceramic), 40 and 60 boxes of 1.44 m².
+- Time Stone Sand (BS630332), Arena Light (BV637544) and Arena Blonde (BV637541) now have master-list rows: cost from the
+  Eternity samples invoice SI-00036787 ($32.00 and $28.00 ex GST, so $35.20 and $30.80 inc GST), price and trade price as
+  they stand in Shopify ($55 / $50 trade, $50 / $43 trade). Margins 36% / 29.6% and 38.4% / 28.4%, all above the floors.
+  With that, `tile_box_units_2026_11.py` reports 0 flagged rows; the proposal CSV prices 69 of 84 variants.
+- The other 15 variants (two 300x300, six 600x1200, one 200x1200, two 100x300 subway, four 75x300 subwave) were searched
+  online by 15 research agents with a verifier each: Eternity's site says only "sold per sqm, to the nearest full box size"
+  and no Australian retailer lists the codes. One lead: Design Tiles (Sydney) gives 1.44 m² / 2 pcs / 32 kg for a
+  "Builders Range Cement White" 600x1200 matt, same name and size but another supplier's code, so it is noted in the CSV
+  and not used. Eternity's 600x1200 pallet (40.32 m² = 28 x 1.44) points the same way for all six 600x1200 variants.
+  The old Eternity site printed "Box Quantity" on each product (a search snippet shows 1.15 m² for Subwave White) but
+  the Wayback Machine is blocked from this environment, so it could not be read. The request to Eternity now lists only
+  these 15 codes plus a line asking them to confirm 1.44 for the rest.
+- Owner decisions (19 Nov): negative stock resets to zero boxes (BS600331 -6,192 units and BS600337 -288 units; the
+  script now writes 0 with the old quantity as the guard). Draft order #D21 (Jonathan Davies quote, $1,362, Subwave Gloss
+  White 25.5 m² + Morgan Cloud 5.4 m²) deleted on the owner's instruction; copy in
+  `store-content/deleted-draft-order-D21-2026-11-19.json`. The owner also queried the White Ceramic Wall gloss trade price
+  ($22/m² against a $25 public price, cost $15.18 inc GST, Eternity RRP $40): options proposed; the owner kept it as is (A).
+
+**Applied, 19 Nov 2026 (owner: "Go ahead"): 50 variants in 28 products now sell per box.**
+- Order run: `box_batches/pl_01` (50 fixed trade prices per box, compare-at = box price), `box_01` + `box_02`
+  (price per box, cost per box, 1.44 m² unit measurement, weight, tag `box-units` on / `m2-units` off; the first batch
+  returned a Shopify "temporary error" but a read-back showed all 17 products applied, so it was not resent), then the
+  two negative stock lines set to 0 boxes (BS600331 from -6,192 units, BS600337 from -288; `inventorySetQuantities`
+  needs `@idempotent` on the field, the script now writes it). Then both trade scripts, run on the 28 products: price
+  list identical to what was sent, `custom.trade_price` per box on 50 variants and `ets.trade_price` "$x per m² (N% off)"
+  on 28 products (`reports/tile-box-trade-metafields-2026-11-19.csv`). Master list rows carry the new flag.
+- Held back (15 products, 34 variants): a product flips as a whole, so any product with a variant whose box size is
+  unknown stays in 0.01 m² units: Lava Kraka, Lava Vesuv, Morgan Dusk, Morgan Cloud, Morgan Hail, Cement White, Cement
+  Grey, Fumosa, Oak Aube, Subway Gloss/Matt White, Subwave Gloss/Matt White/Nude/Grey. `tile_box_units_2026_11.py batches`
+  now builds batches for the ready products only and lists the held ones.
+- The live theme does not know `box-units`: until the owner publishes "ETS 2026 – Tiles per box (draft)" (145381228607)
+  a switched tile shows "$72.00 / m²" with the old per-m² calculator (checked on the live site straight after the switch).
+  The draft renders it correctly. Publish steps in the root README.
+- Rollback: `box_batches/rollback_01` + `rollback_02`, then the two trade scripts.
+- Later on 19 Nov the draft theme's box-mode buy box was rebuilt to match Gia's page (area in m², wastage switch, "N boxes
+  needed" line, per-m² price only). Theme only, no price or data change; details and the publish steps in the root README.
+
+**20 Nov 2026: 600 × 1200 box size confirmed by the owner (2 pieces, 1.44 m²), second approval table ready, nothing applied.**
+- `box-sizes-2026-11.csv`: the six 600 × 1200 skus filled in (YW277315, YW277314, DSA126AK661, DSA126MQ01, DSA126MQ02,
+  ETSN126631), weight left blank so the script estimates it (22 kg/m² × 1.44 = 31.68 kg; Design Tiles quotes 32 kg for the
+  same Cement White tile). 9 skus still unknown: 300 × 300 (Morgan Dusk, Morgan Cloud), 200 × 1200 (Oak Aube), 100 × 300
+  (Subway ×2), 75 × 300 (Subwave ×4).
+- `tile_box_units_2026_11.py` now takes a run date (`python3 tile_box_units_2026_11.py batches 2026-11-20`) so the 19 Nov
+  snapshot, proposal CSV and executed batches stay untouched. Fresh snapshot of the 15 products still tagged `m2-units` in
+  `reports/tile-box-plan-2026-11-20/pages/p1.json`; proposal `reports/tile-box-proposal-2026-11-20.csv`; batches
+  `box_batches_2026-11-20/` (pl_01, box_01, inv_01, rollback_01), not run.
+- Ready for the owner's approval: 6 products, 21 variants, same per-box maths as 19 Nov (master $/m² × 1.44): Lava Kraka,
+  Lava Vesuv, Morgan Hail, Cement White, Cement Grey, Fumosa. Public margin 34.6–37.3%, trade margin 25.6–28.8%, effective
+  trade discount 8.1–14.3% (band caps 10/15 kept). 600 × 1200 boxes: $90.72 (Lava gloss, $63/m²) and $72.00 ($50/m²).
+  All stock is 0, so the inventory batch only re-states zero.
+- Held back: Morgan Dusk, Morgan Cloud, Oak Aube, Subway Gloss/Matt White, Subwave Gloss/Matt White/Nude/Grey (9 products,
+  13 variants) until their box sizes come from Eternity.
+- Gia's trade prices: the owner offered their Gia's trade login. Not used: the password must not be shared, and this session
+  has no browser on the owner's computer. Asked instead for the trade price list saved from the logged-in site (PDF or
+  screenshots) in Google Drive or by email, or one RRP-vs-trade example if the discount is a flat rate.

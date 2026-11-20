@@ -26,7 +26,8 @@
   if settings.quick_add and product.available
     assign has_quick_add = true
   endif
-  if product.tags contains 'm2-units'
+  # ETS: m2-units and box-units tiles: no one-click add; shoppers size the order with the calculator on the product page.
+  if product.tags contains 'm2-units' or product.tags contains 'box-units'
     assign has_quick_add = false
   endif
 

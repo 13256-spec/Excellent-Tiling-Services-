@@ -1,5 +1,5 @@
 {%- doc -%}
-  Tile quantity calculator for tile products. Sets the product form quantity (sold per m²).
+  Tile quantity calculator for tiles sold per m² (not box-units tiles, see quantity-selector). Sets the product form quantity in m².
   @param {product} product
 {%- enddoc -%}
 {%- liquid
@@ -11,6 +11,15 @@
       assign is_tile = true
     endif
   endfor
+  # Mosaics are sold per sheet; the m² calculator does not apply (16 Nov 2026).
+  if product.tags contains 'Mosaic'
+    assign is_tile = false
+  endif
+  # ETS: box-units tiles (one variant = one box) get no calculator here: the "Area in m²" stepper in the buy box
+  # (snippets/quantity-selector.liquid, laid out like Gia's) sets the box count directly.
+  if product.tags contains 'box-units'
+    assign is_tile = false
+  endif
 -%}
 {%- if is_tile -%}
   <div class="ets ets-calc" data-ets-calc{% if product.tags contains 'm2-units' %} data-m2{% endif %}>

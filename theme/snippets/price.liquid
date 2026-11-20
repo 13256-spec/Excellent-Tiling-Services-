@@ -19,8 +19,21 @@
     assign price = 1999
   endif
   # Tiles tagged m2-units are sold in 0.01 m² units: show every price per m² (x100).
+  # ETS: box-units (one variant = one box) wins over m2-units: headline = box price / m² per box, rounded to the cent.
+  # Raw cents only here; the money filter runs once, below. Shopify's unit_price is not read (basis unverified for B2B/discounts).
   assign ets_x = 1
-  if product_resource.tags contains 'm2-units'
+  assign ets_box = false
+  assign ets_varies = product_resource.price_varies
+  # times: 1.0 before every divide: a whole-number box size (2 m²) would otherwise truncate instead of rounding.
+  if product_resource.tags contains 'box-units' and selected_variant.unit_price_measurement.quantity_value
+    assign ets_box = true
+    assign ets_box_m2 = selected_variant.unit_price_measurement.quantity_value
+    assign ets_box_price = selected_variant.price
+    assign price = price | times: 1.0 | divided_by: ets_box_m2 | round
+    if compare_at_price
+      assign compare_at_price = compare_at_price | times: 1.0 | divided_by: ets_box_m2 | round
+    endif
+  elsif product_resource.tags contains 'm2-units'
     assign ets_x = 100
     assign price = price | times: ets_x
     if compare_at_price
@@ -45,7 +58,34 @@
       assign price_max = selected_variant.price
     endif
   endif
-  if ets_x > 1 and price_min
+  if ets_box and is_product_card
+    # ETS: "From" compares price per m² across sizes (box sizes can differ per variant, so price_varies is about boxes).
+    # Starts from the selected variant; a sibling with no box size is skipped rather than guessed.
+    assign ets_m2_min = price
+    assign ets_m2_max = price
+    for v in product_resource.variants
+      if v.unit_price_measurement.quantity_value == blank
+        continue
+      endif
+      assign ets_v = v.price | times: 1.0 | divided_by: v.unit_price_measurement.quantity_value | round
+      if ets_v < ets_m2_min
+        assign ets_m2_min = ets_v
+      endif
+      if ets_v > ets_m2_max
+        assign ets_m2_max = ets_v
+      endif
+    endfor
+    assign ets_varies = false
+    if ets_m2_min != ets_m2_max
+      assign ets_varies = true
+    endif
+    assign price_min = ets_m2_min
+    assign price_max = ets_m2_max
+  elsif ets_box and price_min
+    # ETS: product page volume-pricing range in box mode: the breaks are box prices, shown per m² like the headline.
+    assign price_min = price_min | times: 1.0 | divided_by: ets_box_m2 | round
+    assign price_max = price_max | times: 1.0 | divided_by: ets_box_m2 | round
+  elsif ets_x > 1 and price_min
     assign price_min = price_min | times: ets_x
     assign price_max = price_max | times: ets_x
   endif
@@ -76,6 +116,17 @@
       assign is_ets_tile = true
     endif
   endfor
+  if ets_box
+    assign is_ets_tile = true
+  elsif product_resource.tags contains 'box-units'
+    # ETS: box-units product whose variant has no box size: the price is per box, so no " / m²" label.
+    assign is_ets_tile = false
+  endif
+  # Mosaics (tag Mosaic) are sold per sheet, not per m² (16 Nov 2026).
+  assign ets_unit = ' / m²'
+  if product_resource.tags contains 'Mosaic'
+    assign ets_unit = ' / sheet'
+  endif
 -%}
 {%- liquid
   # Trade (B2B) logins: the catalog already gives the variant its trade price, with the retail price as compare-at.
@@ -84,7 +135,16 @@
     assign ets_trade = selected_variant.price
     assign ets_retail = selected_variant.compare_at_price
     assign ets_save = ets_retail | minus: ets_trade
-    if ets_x > 1
+    if ets_box
+      # ETS: box-units: trade and retail per m² from the catalog box price and compare-at (not unit_price).
+      assign ets_trade = ets_trade | times: 1.0 | divided_by: ets_box_m2 | round
+      assign ets_retail = ets_retail | times: 1.0 | divided_by: ets_box_m2 | round
+      assign ets_save = ets_retail | minus: ets_trade
+      if is_product_card and ets_varies
+        # ETS: card "From" is the cheapest per-m² trade price across sizes (contextual prices, so trade for a B2B login).
+        assign ets_trade = ets_m2_min
+      endif
+    elsif ets_x > 1
       assign ets_trade = ets_trade | times: ets_x
       assign ets_retail = ets_retail | times: ets_x
       assign ets_save = ets_save | times: ets_x
@@ -101,7 +161,7 @@
     <span class="ets-price-block">
       <span class="ets-trade-price">
         <span class="ets-trade-price__tag">Trade</span>
-        <span class="price"><bdi>{% if is_product_card and product_resource.price_varies %}From {% endif %}{{ ets_trade | money }}</bdi>{% if is_ets_tile %}<span class="ets-price__unit"> / m²</span>{% endif %}</span>
+        <span class="price"><bdi>{% if is_product_card and ets_varies %}From {% endif %}{{ ets_trade | money }}</bdi>{% if is_ets_tile %}<span class="ets-price__unit">{{ ets_unit }}</span>{% endif %}</span>
         {% unless is_product_card %}<span class="ets-trade-price__save">Save {{ ets_save | money }} ({{ ets_trade_pct }}%)</span>{% endunless %}
       </span>
       <span class="ets-price__was"><span class="visually-hidden">{{ 'content.price_regular' | t }}&nbsp;</span>Retail <bdi>{{ ets_retail | money }}</bdi></span>
@@ -122,8 +182,9 @@
       <span class="price"><bdi>{{ price | default: '&nbsp;' }}</bdi></span>
     {% endif %}
   {% endif %}
-  {% if is_ets_tile and ets_trade_pct == 0 %}<span class="ets-price__unit"> / m²</span>{% endif %}
-  {% if selected_variant.unit_price and show_unit_price and ets_x == 1 %}
+  {% if is_ets_tile and ets_trade_pct == 0 %}<span class="ets-price__unit">{{ ets_unit }}</span>{% endif %}
+  {%- comment -%} ETS: box-units: the price reads per m² only (like Gia's); the box count and m² per box sit in the buy box. Shopify's own unit-price line is skipped. {%- endcomment -%}
+  {% if selected_variant.unit_price and show_unit_price and ets_x == 1 and ets_box == false %}
     {% if use_currency %}
       {% assign unit_price = selected_variant.unit_price | money_with_currency %}
     {% else %}

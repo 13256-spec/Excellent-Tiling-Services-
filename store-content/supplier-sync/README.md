@@ -297,3 +297,29 @@ levelling, primers, sealants, concrete-repair, civil, render, flooring-adhesives
 - Not created: ARDEX WA grout (no product page on the ARDEX site), the two AUTO-DRAFT pages. Colour choices for ARDEX SE
   and ST silicone are not listed on the ARDEX site, so they are single-variant products with the colour taken in the order
   notes until the price list gives the colour codes.
+
+## Gia's Bathrooms & Tiles - tile catalogue snapshot and import proposal (19 Nov 2026)
+
+New tile supplier (Wangara, WA; Shopify store). Read from the public product feed, **nothing created in Shopify yet**.
+
+**How Gia's sells tiles:** one variant = one box. Each variant carries Shopify's unit price measure (box = 1.44 m², 1.0 m²,
+1.2 m², 1.12 m², 1.62 m² or 1.35 m²), so the site shows "$/m²" while the cart price is per box. Their product page has an
+"Area in m²" calculator with a 15% wastage tick box that rounds up to whole boxes. Mosaics, bricks and fan sheets (15
+products) have no m² measure and sell per sheet/piece. Box weights are on the variants (17.8-33.4 kg). Every tile shows a
+compare-at price (their RRP) with 10%, 20% or 30% off. Product tags `trade-program-10` / `trade-program-20` mark the
+"up to 20% off" Gia's Trade discount; the trade price only shows when logged in, so it is **not** in the feed. Gia's also
+runs a separate **wholesale** program for retailers (contact David Gullotto, 0467 914 911).
+
+**Our store is different:** since 5 Nov 2026 our tiles are sold in 0.01 m² units (tag `m2-units`, see
+`../pricing/README.md`), not per box. Either model works in Shopify; the choice must be made before the import.
+
+Files in `gias-2026-11/`:
+- `gias-feed-2026-11-19.json`: the 167 products tagged Tiles from the feed (160 tiles, plus 7 vanities/tapware that carry
+  the tag).
+- `gias-tiles-2026-11-19.csv`: 387 variants with box size, m² per box, price per box and per m², RRP, discount, weight,
+  trade tag and an *estimated* trade price (tag % off the sale price; an estimate, not a cost).
+- `gias-import-proposal-2026-11-19.csv`: 304 tile variants / 160 products priced as the owner asked (our price = Gia's RRP
+  per m², whole dollars; trade = 10% under) with margin checks under two cost guesses. **Result: with cost = Gia's trade
+  price (10-20% off their sale price) 263 of 304 variants miss the 25% public floor and 269 miss the 25% trade floor;
+  median public margin 19%, trade 10%.** Gia's own sale price is below "our RRP" on all 304. Real costs are needed before
+  anything is priced (playbook: never invent a cost).

@@ -6,12 +6,56 @@ Theme source for [excellenttilingservices.com](https://excellenttilingservices.c
 `theme/` holds the custom ETS files (sections, snippets, templates, CSS/JS) from the
 Horizon-based "ETS Premium" theme. Stock Horizon files are not duplicated here.
 
-Last synced from the live theme ("ETS 2026 – Seller schema for AI (draft)", the published theme) on
-25 Oct 2026 (the 8 domain files; the rest on 4 Oct 2026): every `ets-*` asset, section and snippet, plus `layout/theme.liquid`, `meta-tags`,
+Last synced from the live theme (id 145308221503, "ETS 2026 – SEO: lean product schema") on 19 Nov 2026 (the 14 per-box
+files, `config/settings_data.json` and the product templates; the rest 25 Oct / 4 Oct 2026): every `ets-*` asset, section and snippet, plus `layout/theme.liquid`, `meta-tags`,
 `config/settings_data.json`, the header/footer groups and the templates already tracked here.
 Third-party Section Store `ss-*` sections and the app-generated `product.store-wide.json` are
 left out. Shopify is the source of truth: this repo does not deploy, so re-sync it after editing
 the theme in Shopify.
+
+## Tiles sold per box, like Gia's (19 Nov 2026, draft theme, waiting on box sizes and the owner's approval)
+
+The owner wants tiles sold the way Gia's Bathrooms & Tiles sells them: one unit = one box, price shown per m², the calculator
+rounds the area (plus 15% wastage) up to whole boxes, and the cart shows boxes and m². Draft theme
+**"ETS 2026 – Tiles per box (draft)"** (id 145381228607, a copy of the live theme 145308221503, the "SEO: lean product schema"
+theme) adds a `box-units` mode next to the existing `m2-units` mode. A tile switches to it when its product carries the tag
+`box-units` and its variants have `unitPriceMeasurement.quantityValue` = m² per box (the migration script
+`store-content/pricing/tile_box_units_2026_11.py` does both, after approval). Until then every tile keeps the 0.01 m² units and
+the draft renders exactly like the live theme, so it is safe to publish early. Files (14, md5-verified on the draft):
+`assets/ets-2026.css`, `assets/ets-2026.js`, `assets/cart-icon.js`, `blocks/_featured-product-price.liquid`,
+`blocks/_product-card-gallery.liquid`, `sections/ets-header.liquid`, `snippets/cart-bubble.liquid`, `cart-drawer.liquid`,
+`cart-products.liquid`, `ets-pdp-calc.liquid`, `ets-product-schema.liquid`, `price.liquid`, `product-card.liquid`,
+`quantity-selector.liquid`. In box mode: the price reads "$50.00 / m²" with "$72.00 per box (1.44 m²)" under it (per-m² is
+price ÷ quantity_value, never Shopify's unit price); the calculator has an "Add 15% wastage" tick box (on by default) and
+says "Order 3 boxes · 1.44 m² per box · 4.32 m²" with the note "Tiles are sold by the box. We round up to the nearest full
+box"; the quantity stepper counts whole boxes; cart drawer and cart page show "N boxes · X m² per box · Y m²"; trade logins
+still see their trade price per m². Checked on the preview (desktop 1440 and phone 390) with Time Stone Moon temporarily
+tagged `box-units`: 4.32 m² + 15% rounded up correctly, add to cart, drawer and cart page all rendered; the tag was removed
+afterwards. The one fix after the first upload: the base theme strips native tick boxes, so the wastage box was invisible until
+`appearance: auto` was restored in the CSS.
+Still blocked: the m² per box is unknown for all 84 tile variants (only Time Stone Moon and Charcoal say 1.44 m² in their
+descriptions), so no tile has been switched and no price changed. The request to Eternity is in
+`store-content/pricing/eternity-box-size-request-2026-11-19.txt`; the plan and decisions in
+`store-content/pricing/README.md` (19 Nov entry).
+**Update, 19 Nov 2026: 50 tile variants in 28 products were switched to boxes in Shopify on the owner's approval, so the
+live theme now shows them wrongly ("$72.00 / m²" with the per-m² calculator). Publish the draft as soon as possible.**
+**Update, later on 19 Nov 2026: the box-mode buy box was rebuilt to work like Gia's product page** (owner: "I really like
+the website and it's set up, fix ours"). On a `box-units` tile the price now reads "$50.00 / m²" only (no per-box line); the
+quantity stepper and the old length × width calculator are gone; in their place an **Area** control: a number box in m²
+with − / + buttons that step by one box (1.44 m²), an **"Add 15% wastage"** switch (off by default, like Gia's), and the
+line "We round up to the nearest full box (1.44 m² per box) — 3 boxes needed" (", including 15% wastage" when on). The
+real quantity (boxes) is a hidden field, and the order carries `_area_m2` and `_wastage` line properties. Cart drawer and
+cart page still say "N boxes · 1.44 m² per box · Y m²"; the 0.01 m² mode for the held-back tiles is unchanged. A size switch
+keeps the customer's area (Horizon keeps the control in place; no variant event reaches our script), and a watcher
+recomputes the boxes if the new size has a different m² per box. Files re-uploaded to the draft and md5-verified:
+`snippets/quantity-selector.liquid`, `snippets/ets-pdp-calc.liquid`, `snippets/price.liquid`, `assets/ets-2026.js`,
+`assets/ets-2026.css`. Checked on the preview with Time Stone Moon (now a real box tile): default 1.44 m² = 1 box; 4.32 m² =
+3 boxes; wastage on = 4 boxes; + / − move by 1.44; cart.js got quantity 4 with both properties; phone and desktop
+screenshots fine. The draft is still **unpublished**.
+**To go live: Shopify admin → Online Store → Themes → "ETS 2026 – Tiles per box (draft)" → Publish.** Preview:
+`https://excellenttilingservices.com/products/time-stone-moon-porcelain-tile?preview_theme_id=145381228607` (looks like the
+live theme until a tile is switched). The live theme is 145308221503 ("ETS 2026 – SEO: lean product schema"); `theme/` was
+re-synced from it on 19 Nov 2026 before the box-mode edits.
 
 ## Christmas closure notice (16 Nov 2026, draft theme, waiting to be published)
 

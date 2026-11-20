@@ -31,8 +31,12 @@
   endif
 
   # Tiles tagged m2-units: quantity = m² x 100. Shopper types m²; the real input is hidden and synced in ets-2026.js.
+  # ETS: box-units (one variant = one box) wins over m2-units: area-in-m² stepper (like Gia's), hidden box count.
   assign ets_m2 = false
-  if line_index == null and product.tags contains 'm2-units'
+  assign ets_box = false
+  if line_index == null and product.tags contains 'box-units' and variant.unit_price_measurement.quantity_value
+    assign ets_box = true
+  elsif line_index == null and product.tags contains 'm2-units'
     assign ets_m2 = true
   endif
 %}
@@ -41,6 +45,32 @@
   class="quantity-selector-wrapper{% if wrapper_class %} {{ wrapper_class }}{% endif %}"
   ref="quantitySelectorWrapper"
 >
+  {%- if ets_box -%}
+    {%- comment -%}
+      ETS: box-units tiles, laid out like Gia's: the shopper types an area in m² (− / + step one box), an optional
+      15% wastage switch, and a line "We round up to the nearest full box (1.44 m² per box) — 3 boxes needed."
+      The real quantity input below is hidden and holds the box count (ets-2026.js). Horizon re-renders this on a
+      size change, so data-box always carries the selected size's m² per box. Two hidden properties record what the
+      shopper asked for on the order line (underscore = not shown to the customer).
+    {%- endcomment -%}
+    <div class="ets-area" data-ets-area-wrap data-box="{{ variant.unit_price_measurement.quantity_value }}">
+      <span class="ets-area__label">Area</span>
+      <div class="ets-area__stepper">
+        <button type="button" class="ets-area__btn" data-ets-area-minus aria-label="One box less"{% if variant.available == false %} disabled{% endif %}>&minus;</button>
+        <input type="number" inputmode="decimal" min="0.01" step="0.01" value="{{ variant.unit_price_measurement.quantity_value }}" data-ets-area aria-label="Area in m²"{% if variant.available == false %} disabled{% endif %}>
+        <span class="ets-area__unit">m²</span>
+        <button type="button" class="ets-area__btn" data-ets-area-plus aria-label="One box more"{% if variant.available == false %} disabled{% endif %}>+</button>
+      </div>
+      <label class="ets-area__waste">
+        <input type="checkbox" data-ets-waste value="15">
+        <span class="ets-area__switch" aria-hidden="true"></span>
+        <span>Add 15% wastage</span>
+      </label>
+      <p class="ets-area__note" data-ets-area-note aria-live="polite">We round up to the nearest full box ({{ variant.unit_price_measurement.quantity_value }} m² per box) — 1 box needed.</p>
+      <input type="hidden" name="properties[_area_m2]" value="{{ variant.unit_price_measurement.quantity_value }}" data-ets-area-prop>
+      <input type="hidden" name="properties[_wastage]" value="false" data-ets-waste-prop>
+    </div>
+  {%- endif -%}
   {%- if ets_m2 -%}
     <label class="ets-m2-qty">
       <span>Area (m²)</span>
@@ -56,7 +86,7 @@
     </label>
   {%- endif -%}
   <{{ component_name }}
-    {% if ets_m2 %}hidden style="display:none"{% endif %}
+    {% if ets_m2 or ets_box %}hidden style="display:none"{% endif %}
     class="quantity-selector{% if class %} {{ class }}{% endif %}"
     data-variant-id="{{ variant.id }}"
     {% if line_index == null %}

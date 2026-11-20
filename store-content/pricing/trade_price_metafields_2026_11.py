@@ -2,7 +2,7 @@
 
 Input: pages/p*.json, the saved pages of this Admin GraphQL query (100 products a page, follow endCursor):
   products { id title status tags band: metafield(namespace:"ets",key:"trade_band"){value}
-             variants(first:100){ nodes { id title sku price } } }
+             variants(first:100){ nodes { id title sku price unitPriceMeasurement{quantityValue} } } }
 Output: reqNN.graphql, one metafieldsSet request each (aliases of 25, under 16k chars) to run with the
 Shopify MCP graphql_mutation tool, and trade-price-metafields.csv (the report).
 
@@ -11,10 +11,11 @@ Product  ets.trade_price   (single_line_text)      = "$x (N% off)" or "$lo - $hi
 Products with band 0 are skipped. Re-run after any price or band change (playbook step 4).
 """
 
-import json, glob
+import json, glob, csv
 from decimal import Decimal, ROUND_HALF_UP, ROUND_CEILING
 C = Decimal("0.01")
 rows, mfs, seen = [], [], set()
+MASTER = {r["sku"]: r for r in csv.DictReader(open("store-pricing-2026-10-03.csv"))}  # box-units: trade $/m2 comes from here
 for f in sorted(glob.glob("pages/p*.json")):
     for p in json.load(open(f))["data"]["products"]["nodes"]:
         if p["id"] in seen: continue
@@ -23,15 +24,21 @@ for f in sorted(glob.glob("pages/p*.json")):
         if not band: continue
         tps = []
         m2 = "m2-units" in p.get("tags", [])   # tiles sold per 0.01 m2: same rounding as b2b_price_list (up)
+        box = "box-units" in p.get("tags", [])  # tiles sold per box (19 Nov 2026): trade per box = master trade $/m2 x m2 per box
+        m2_tps = []
         for v in p["variants"]["nodes"]:
-            price = Decimal(v["price"]); tp = (price * (100 - band) / 100).quantize(C, ROUND_CEILING if m2 else ROUND_HALF_UP)
+            price = Decimal(v["price"]); tp = (price * (100 - band) / 100).quantize(C, ROUND_CEILING if (m2 or box) else ROUND_HALF_UP)
+            if box:
+                tm2 = Decimal(MASTER[v["sku"]]["trade_price"]); m2_tps.append(tm2)
+                tp = (tm2 * Decimal(str(v["unitPriceMeasurement"]["quantityValue"]))).quantize(C, ROUND_HALF_UP)
             tps.append(tp)
             mfs.append({"ownerId": v["id"], "namespace": "custom", "key": "trade_price", "type": "number_decimal", "value": str(tp)})
             rows.append((p["title"], v["title"], v.get("sku",""), p["status"], str(price), band, str(tp)))
         lo, hi = min(tps), max(tps)
         if m2: lo, hi = lo * 100, hi * 100       # show the per-m2 trade price in admin
+        if box: lo, hi = min(m2_tps), max(m2_tps)  # per m2 from the master list; custom.trade_price stays per box (what Shopify charges)
         txt = f"${lo:,.2f}" if lo == hi else f"${lo:,.2f} – ${hi:,.2f}"
-        if m2: txt += " per m²"
+        if m2 or box: txt += " per m²"
         mfs.append({"ownerId": p["id"], "namespace": "ets", "key": "trade_price", "type": "single_line_text_field", "value": f"{txt} ({band}% off)"})
 assert all(Decimal(m["value"]) > 0 for m in mfs if m["key"] == "trade_price" and m["namespace"] == "custom")
 import csv
