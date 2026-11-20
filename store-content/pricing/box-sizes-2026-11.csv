@@ -19,7 +19,7 @@ HW637315,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600
 FG637315,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 YW607315,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 FG607315,600x600mm / Gloss,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
-YW277315,600x1200mm / Gloss,,,,"not stated online (19 Nov 2026 search); Eternity pallet 40.32 m2 = 28 x 1.44, so 2 pcs / 1.44 m2 is likely - confirm with Eternity"
+YW277315,600x1200mm / Gloss,1.44,2,,"owner, 20 Nov 2026: 600x1200 = 2 pcs / 1.44 m2 per box (kg not given, script estimates)"
 YFR632950,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 YFR602950,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA36CP01N,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
@@ -36,22 +36,22 @@ DSA36AK662,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 6
 DSA66AK662,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA36AK661,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA66AK661,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
-DSA126AK661,600x1200mm / Matt,,,,"not stated online (19 Nov 2026 search); Eternity pallet 40.32 m2 = 28 x 1.44, so 2 pcs / 1.44 m2 is likely - confirm with Eternity"
+DSA126AK661,600x1200mm / Matt,1.44,2,,"owner, 20 Nov 2026: 600x1200 = 2 pcs / 1.44 m2 per box (kg not given, script estimates)"
 DSA36MQ04,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA66MQ04,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA36MQ01,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA66MQ01,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
-DSA126MQ01,600x1200mm / Matt,,,,"not stated by Eternity; Design Tiles (Sydney) ""Builders Range Cement White"" 600x1200 matt spec sheet says 1.44 m2 / 2 pcs / 32 kg (same name and size, different supplier code) - confirm with Eternity before use"
+DSA126MQ01,600x1200mm / Matt,1.44,2,,"owner, 20 Nov 2026: 600x1200 = 2 pcs / 1.44 m2 per box (kg not given, script estimates)"
 DSA36MQ02,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA66MQ02,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
-DSA126MQ02,600x1200mm / Matt,,,,"not stated online (19 Nov 2026 search); Eternity pallet 40.32 m2 = 28 x 1.44, so 2 pcs / 1.44 m2 is likely - confirm with Eternity"
+DSA126MQ02,600x1200mm / Matt,1.44,2,,"owner, 20 Nov 2026: 600x1200 = 2 pcs / 1.44 m2 per box (kg not given, script estimates)"
 HW637314,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 YW607314,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 FG637314,300x600mm / Gloss,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 FG607314,600x600mm / Gloss,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
-YW277314,600x1200mm / Gloss,,,,"not stated online (19 Nov 2026 search); Eternity pallet 40.32 m2 = 28 x 1.44, so 2 pcs / 1.44 m2 is likely - confirm with Eternity"
+YW277314,600x1200mm / Gloss,1.44,2,,"owner, 20 Nov 2026: 600x1200 = 2 pcs / 1.44 m2 per box (kg not given, script estimates)"
 ETSN6631,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
-ETSN126631,600x1200mm / Matt,,,,"not stated online (19 Nov 2026 search); Eternity pallet 40.32 m2 = 28 x 1.44, so 2 pcs / 1.44 m2 is likely - confirm with Eternity"
+ETSN126631,600x1200mm / Matt,1.44,2,,"owner, 20 Nov 2026: 600x1200 = 2 pcs / 1.44 m2 per box (kg not given, script estimates)"
 DSA36AW,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA66AW,600x600mm / Matt,1.44,4,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44
 DSA36AG,300x600mm / Matt,1.44,8,,owner 19 Nov 2026 (1.44 m2 for 300x600 and 600x600); Eternity pallet 57.6 m2 = 40 x 1.44

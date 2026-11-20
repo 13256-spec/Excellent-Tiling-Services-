@@ -1,0 +1,1019 @@
+{
+ "data": {
+  "products": {
+   "nodes": [
+    {
+     "id": "gid://shopify/Product/8395796545599",
+     "title": "Lava Kraka Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "300x600",
+      "600x1200",
+      "600x600",
+      "ebay-pickup-only",
+      "Gloss",
+      "Lava",
+      "m2-units",
+      "Matt",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "15"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/43966817730623",
+        "title": "300x600mm / Matt",
+        "sku": "HW637315",
+        "price": "0.46",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133173583935",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966817763391",
+        "title": "300x600mm / Gloss",
+        "sku": "FG637315",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133173616703",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966817796159",
+        "title": "600x600mm / Matt",
+        "sku": "YW607315",
+        "price": "0.46",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133173649471",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966817828927",
+        "title": "600x600mm / Gloss",
+        "sku": "FG607315",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133173682239",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966817894463",
+        "title": "600x1200mm / Gloss",
+        "sku": "YW277315",
+        "price": "0.63",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133173747775",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8395797364799",
+     "title": "Morgan Dusk Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "300x300",
+      "300x600",
+      "600x600",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "Morgan",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/43966818746431",
+        "title": "300x300mm / Matt",
+        "sku": "DSA33AK666",
+        "price": "0.42",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133174599743",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966818779199",
+        "title": "300x600mm / Matt",
+        "sku": "DSA36AK666",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133174632511",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966818811967",
+        "title": "600x600mm / Matt",
+        "sku": "DSA66AK666",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133174665279",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8395797659711",
+     "title": "Morgan Cloud Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "300x300",
+      "300x600",
+      "600x600",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "Morgan",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045181550655",
+        "title": "300x300mm / Matt",
+        "sku": "DSA33AK662",
+        "price": "0.42",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211830480959",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/44045181583423",
+        "title": "300x600mm / Matt",
+        "sku": "DSA36AK662",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211830513727",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966820286527",
+        "title": "600x600mm / Matt",
+        "sku": "DSA66AK662",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133176139839",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8395797790783",
+     "title": "Morgan Hail Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "300x600",
+      "600x1200",
+      "600x600",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "Morgan",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/43966819926079",
+        "title": "300x600mm / Matt",
+        "sku": "DSA36AK661",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133175779391",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966819958847",
+        "title": "600x600mm / Matt",
+        "sku": "DSA66AK661",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133175812159",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/44045181517887",
+        "title": "600x1200mm / Matt",
+        "sku": "DSA126AK661",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211830448191",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8395798118463",
+     "title": "Cement White Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "300x600",
+      "600x1200",
+      "600x600",
+      "Cement",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045181648959",
+        "title": "300x600mm / Matt",
+        "sku": "DSA36MQ01",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211830579263",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966820548671",
+        "title": "600x600mm / Matt",
+        "sku": "DSA66MQ01",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133176401983",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966820581439",
+        "title": "600x1200mm / Matt",
+        "sku": "DSA126MQ01",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133176434751",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8395798249535",
+     "title": "Cement Grey Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "300x600",
+      "600x1200",
+      "600x600",
+      "Cement",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/43966819303487",
+        "title": "300x600mm / Matt",
+        "sku": "DSA36MQ02",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133175156799",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966819336255",
+        "title": "600x600mm / Matt",
+        "sku": "DSA66MQ02",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133175189567",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/43966819369023",
+        "title": "600x1200mm / Matt",
+        "sku": "DSA126MQ02",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46133175222335",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414127816767",
+     "title": "Lava Vesuv Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "300x600",
+      "600x1200",
+      "600x600",
+      "ebay-pickup-only",
+      "Gloss",
+      "Lava",
+      "m2-units",
+      "Matt",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "15"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045197934655",
+        "title": "300x600mm / Matt",
+        "sku": "HW637314",
+        "price": "0.46",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211846864959",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/44045197967423",
+        "title": "600x600mm / Matt",
+        "sku": "YW607314",
+        "price": "0.46",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211846897727",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/44045198000191",
+        "title": "300x600mm / Gloss",
+        "sku": "FG637314",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211846930495",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/44045198032959",
+        "title": "600x600mm / Gloss",
+        "sku": "FG607314",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211846963263",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/44045198065727",
+        "title": "600x1200mm / Gloss",
+        "sku": "YW277314",
+        "price": "0.63",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211846996031",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414127849535",
+     "title": "Fumosa Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "600x1200",
+      "600x600",
+      "ebay-pickup-only",
+      "Fumosa",
+      "m2-units",
+      "Matt",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045198098495",
+        "title": "600x600mm / Matt",
+        "sku": "ETSN6631",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211847028799",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       },
+       {
+        "id": "gid://shopify/ProductVariant/44045198131263",
+        "title": "600x1200mm / Matt",
+        "sku": "ETSN126631",
+        "price": "0.50",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211847061567",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414129061951",
+     "title": "Oak Aube Timber Look Porcelain Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "200x1200",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "P3",
+      "Porcelain",
+      "ship-local-only",
+      "Tile",
+      "Timber Look"
+     ],
+     "band": {
+      "value": "15"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045202161727",
+        "title": "200x1200mm / Matt",
+        "sku": "HSA223111",
+        "price": "0.63",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211851092031",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414129127487",
+     "title": "Subway Gloss White Ceramic Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "100x300",
+      "Ceramic",
+      "ebay-pickup-only",
+      "Gloss",
+      "m2-units",
+      "ship-local-only",
+      "Subway",
+      "Tile",
+      "Wall Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045202227263",
+        "title": "100x300mm / Gloss",
+        "sku": "DSA31001G",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211851157567",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414129160255",
+     "title": "Subway Matt White Ceramic Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "100x300",
+      "Ceramic",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "ship-local-only",
+      "Subway",
+      "Tile",
+      "Wall Tile"
+     ],
+     "band": {
+      "value": "10"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045202260031",
+        "title": "100x300mm / Satin",
+        "sku": "DSA31002M",
+        "price": "0.37",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211851190335",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414129193023",
+     "title": "Subwave Gloss White Ceramic Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "75x300",
+      "Ceramic",
+      "ebay-pickup-only",
+      "Gloss",
+      "m2-units",
+      "ship-local-only",
+      "Subwave",
+      "Tile",
+      "Wall Tile"
+     ],
+     "band": {
+      "value": "15"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045202292799",
+        "title": "75x300mm / Gloss",
+        "sku": "DSA730WAW1",
+        "price": "0.45",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211851223103",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414129225791",
+     "title": "Subwave Matt White Ceramic Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "75x300",
+      "Ceramic",
+      "ebay-pickup-only",
+      "m2-units",
+      "Matt",
+      "ship-local-only",
+      "Subwave",
+      "Tile",
+      "Wall Tile"
+     ],
+     "band": {
+      "value": "15"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045202325567",
+        "title": "75x300mm / Satin",
+        "sku": "DSA730WAW1M",
+        "price": "0.45",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211851255871",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414129815615",
+     "title": "Subwave Nude Ceramic Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "75x300",
+      "Ceramic",
+      "ebay-pickup-only",
+      "Gloss",
+      "m2-units",
+      "ship-local-only",
+      "Subwave",
+      "Tile",
+      "Wall Tile"
+     ],
+     "band": {
+      "value": "15"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045204619327",
+        "title": "75x300mm / Gloss",
+        "sku": "DSA730WBC7",
+        "price": "0.51",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211853549631",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    },
+    {
+     "id": "gid://shopify/Product/8414129848383",
+     "title": "Subwave Grey Ceramic Tile",
+     "status": "ACTIVE",
+     "tags": [
+      "75x300",
+      "Ceramic",
+      "ebay-pickup-only",
+      "Gloss",
+      "m2-units",
+      "ship-local-only",
+      "Subwave",
+      "Tile",
+      "Wall Tile"
+     ],
+     "band": {
+      "value": "15"
+     },
+     "variants": {
+      "nodes": [
+       {
+        "id": "gid://shopify/ProductVariant/44045204652095",
+        "title": "75x300mm / Gloss",
+        "sku": "DSA730WBC6",
+        "price": "0.51",
+        "compareAtPrice": null,
+        "inventoryQuantity": 0,
+        "inventoryPolicy": "CONTINUE",
+        "inventoryItem": {
+         "id": "gid://shopify/InventoryItem/46211853582399",
+         "tracked": true
+        },
+        "unitPriceMeasurement": {
+         "quantityValue": 0.01,
+         "quantityUnit": "M2",
+         "referenceValue": 1,
+         "referenceUnit": "M2"
+        }
+       }
+      ]
+     }
+    }
+   ],
+   "pageInfo": {
+    "hasNextPage": false
+   }
+  }
+ },
+ "_note": "Admin GraphQL snapshot of products tagged m2-units, 20 Nov 2026 (the 15 products held back on 19 Nov), re-keyed from the live query"
+}

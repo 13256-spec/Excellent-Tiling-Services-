@@ -4,7 +4,8 @@ Inputs (all by SKU):
   reports/tile-box-plan-2026-11-19/pages/p*.json   Shopify snapshot (products tagged m2-units, with band metafield)
   store-pricing-2026-10-03.csv                     master list: new_price ($/m2), cost ($/m2 inc GST), trade_price ($/m2)
   box-sizes-2026-11.csv                            supplier box data: sku,m2_per_box,pcs_per_box,kg_per_box  (UNKNOWN = blank)
-Output: reports/tile-box-proposal-2026-11-19.csv (the owner's approval table). With "batches": box_batches/
+Output: reports/tile-box-proposal-<date>.csv (the owner's approval table). With "batches": box_batches/ (2026-11-19) or
+  box_batches_<date>/. Usage: python3 tile_box_units_2026_11.py [batches] [date], date defaults to 2026-11-19.
   pl_NN.graphql (price list fixed prices per box, RUN FIRST), box_NN.graphql (variants + tag flip), inv_NN.graphql
   (inventory in boxes), rollback_NN.graphql. Batches refuse to build while any box size is UNKNOWN or a floor fails.
 Rules: price per box = master $/m2 x m2/box; cost per box = master cost x m2/box; trade per box = master trade $/m2
@@ -12,7 +13,8 @@ x m2/box (today's whole-dollar trade price kept; band formula shown as an option
 """
 import json, glob, csv, sys, os
 from decimal import Decimal as D, ROUND_HALF_UP
-C = D("0.01"); REP = "reports/tile-box-plan-2026-11-19"; LOC = "gid://shopify/Location/77786087487"
+C = D("0.01"); TAG = sys.argv[2] if len(sys.argv) > 2 else "2026-11-19"  # run date: snapshot dir, proposal CSV and batch dir carry it
+REP = f"reports/tile-box-plan-{TAG}"; LOC = "gid://shopify/Location/77786087487"
 PRICE_LIST = "gid://shopify/PriceList/17250287679"; CAP = {"Tile": 15}; KG_M2 = {"Porcelain": D(22), "Ceramic": D(15)}
 
 def box_row(m2_price, cost_m2, trade_m2, box):
@@ -63,7 +65,7 @@ for f in sorted(glob.glob(f"{REP}/pages/p*.json")):
 cols = ["product", "status", "variant", "sku", "band", "m2_per_box", "pcs_per_box", "kg_per_box", "m2_price", "cost_m2", "trade_m2_today",
         "trade_m2_band_formula", "price_per_box", "cost_per_box", "trade_per_box", "margin_pct", "trade_margin_pct", "eff_discount_pct",
         "example_3m2", "old_unit_price", "old_stock_units", "new_stock_boxes", "stock_remainder_units", "tracked", "flag", "variant_id", "product_id", "inventory_item"]
-with open(f"reports/tile-box-proposal-2026-11-19.csv", "w", newline="") as fh:
+with open(f"reports/tile-box-proposal-{TAG}.csv", "w", newline="") as fh:
     w = csv.DictWriter(fh, fieldnames=cols, extrasaction="ignore"); w.writeheader(); w.writerows(rows)
 unknown = [r["sku"] for r in rows if r["m2_per_box"] == "UNKNOWN"]; bad = [(r["sku"], r["flag"]) for r in rows if "FLOOR" in r["flag"] or "CAP" in r["flag"] or "MISMATCH" in r["flag"] or "MASTER" in r["flag"]]
 print(len(rows), "variants,", len(seen), "products;", len(unknown), "box size UNKNOWN;", len(bad), "flagged")
@@ -76,7 +78,7 @@ if len(sys.argv) > 1 and sys.argv[1] == "batches":
     for pid in held: print("  held back (box size UNKNOWN on a variant):", next(r["product"] for r in rows if r["product_id"] == pid))
     rows = [r for r in rows if r["product_id"] not in held]
     print(len(rows), "variants in the batches")
-    out = "box_batches"; os.makedirs(out, exist_ok=True)
+    out = "box_batches" if TAG == "2026-11-19" else f"box_batches_{TAG}"; os.makedirs(out, exist_ok=True)
     def chunk(parts, head, tail, name, limit=15500):
         reqs, cur = [], []
         for part in parts:

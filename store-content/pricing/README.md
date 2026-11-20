@@ -431,3 +431,22 @@ rendering in m² mode until their tag flips).
 - Rollback: `box_batches/rollback_01` + `rollback_02`, then the two trade scripts.
 - Later on 19 Nov the draft theme's box-mode buy box was rebuilt to match Gia's page (area in m², wastage switch, "N boxes
   needed" line, per-m² price only). Theme only, no price or data change; details and the publish steps in the root README.
+
+**20 Nov 2026: 600 × 1200 box size confirmed by the owner (2 pieces, 1.44 m²), second approval table ready, nothing applied.**
+- `box-sizes-2026-11.csv`: the six 600 × 1200 skus filled in (YW277315, YW277314, DSA126AK661, DSA126MQ01, DSA126MQ02,
+  ETSN126631), weight left blank so the script estimates it (22 kg/m² × 1.44 = 31.68 kg; Design Tiles quotes 32 kg for the
+  same Cement White tile). 9 skus still unknown: 300 × 300 (Morgan Dusk, Morgan Cloud), 200 × 1200 (Oak Aube), 100 × 300
+  (Subway ×2), 75 × 300 (Subwave ×4).
+- `tile_box_units_2026_11.py` now takes a run date (`python3 tile_box_units_2026_11.py batches 2026-11-20`) so the 19 Nov
+  snapshot, proposal CSV and executed batches stay untouched. Fresh snapshot of the 15 products still tagged `m2-units` in
+  `reports/tile-box-plan-2026-11-20/pages/p1.json`; proposal `reports/tile-box-proposal-2026-11-20.csv`; batches
+  `box_batches_2026-11-20/` (pl_01, box_01, inv_01, rollback_01), not run.
+- Ready for the owner's approval: 6 products, 21 variants, same per-box maths as 19 Nov (master $/m² × 1.44): Lava Kraka,
+  Lava Vesuv, Morgan Hail, Cement White, Cement Grey, Fumosa. Public margin 34.6–37.3%, trade margin 25.6–28.8%, effective
+  trade discount 8.1–14.3% (band caps 10/15 kept). 600 × 1200 boxes: $90.72 (Lava gloss, $63/m²) and $72.00 ($50/m²).
+  All stock is 0, so the inventory batch only re-states zero.
+- Held back: Morgan Dusk, Morgan Cloud, Oak Aube, Subway Gloss/Matt White, Subwave Gloss/Matt White/Nude/Grey (9 products,
+  13 variants) until their box sizes come from Eternity.
+- Gia's trade prices: the owner offered their Gia's trade login. Not used: the password must not be shared, and this session
+  has no browser on the owner's computer. Asked instead for the trade price list saved from the logged-in site (PDF or
+  screenshots) in Google Drive or by email, or one RRP-vs-trade example if the discount is a flat rate.
