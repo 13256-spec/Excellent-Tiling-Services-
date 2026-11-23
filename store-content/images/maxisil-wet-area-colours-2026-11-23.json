@@ -1,0 +1,412 @@
+[
+ {
+  "variant": "gid://shopify/ProductVariant/43993470140479",
+  "sku": "RDX1000mw",
+  "colour": "Matte White",
+  "code": "A80",
+  "new_name": "Matte White A80",
+  "media": "gid://shopify/MediaImage/30136658362431",
+  "optval": "gid://shopify/ProductOptionValue/5048470437951",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A80.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470173247",
+  "sku": "RDX1000mlg",
+  "colour": "Matte Light Grey",
+  "code": "A81",
+  "new_name": "Matte Light Grey A81",
+  "media": "gid://shopify/MediaImage/31258086211647",
+  "optval": "gid://shopify/ProductOptionValue/5048470470719",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A81.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470206015",
+  "sku": "RDX1000mmg",
+  "colour": "Matte Mid Grey",
+  "code": "A82",
+  "new_name": "Matte Mid Grey A82",
+  "media": "gid://shopify/MediaImage/31258086244415",
+  "optval": "gid://shopify/ProductOptionValue/5048470503487",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A82.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470238783",
+  "sku": "RDX1000mgr",
+  "colour": "Matte Grey",
+  "code": "A83",
+  "new_name": "Matte Grey A83",
+  "media": "gid://shopify/MediaImage/31258086277183",
+  "optval": "gid://shopify/ProductOptionValue/5048470536255",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A83.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470271551",
+  "sku": "RDX1000ma",
+  "colour": "Matte Anthracite",
+  "code": "A84",
+  "new_name": "Matte Anthracite A84",
+  "media": "gid://shopify/MediaImage/31258086309951",
+  "optval": "gid://shopify/ProductOptionValue/5048470569023",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A84.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470304319",
+  "sku": "RDX1000mbl",
+  "colour": "Matte Black",
+  "code": "A85",
+  "new_name": "Matte Black A85",
+  "media": "gid://shopify/MediaImage/31258086342719",
+  "optval": "gid://shopify/ProductOptionValue/5048470601791",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A85.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470337087",
+  "sku": "RDX1000cl",
+  "colour": "Clear",
+  "code": "A1",
+  "new_name": "Clear A1",
+  "media": "gid://shopify/MediaImage/30136658395199",
+  "optval": "gid://shopify/ProductOptionValue/5048470634559",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A1.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470369855",
+  "sku": "RDX1000bas",
+  "colour": "Basalt",
+  "code": "A7",
+  "new_name": "Basalt A7",
+  "media": "gid://shopify/MediaImage/30136658427967",
+  "optval": "gid://shopify/ProductOptionValue/5048470667327",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A7.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470402623",
+  "sku": "RDX1000blg",
+  "colour": "Blue Grey",
+  "code": "A8",
+  "new_name": "Blue Grey A8",
+  "media": "gid://shopify/MediaImage/31258086375487",
+  "optval": "gid://shopify/ProductOptionValue/5048470700095",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A8.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470435391",
+  "sku": "RDX1000plat",
+  "colour": "Platinum",
+  "code": "A9",
+  "new_name": "Platinum A9",
+  "media": "gid://shopify/MediaImage/31258086408255",
+  "optval": "gid://shopify/ProductOptionValue/5048470732863",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A9.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470468159",
+  "sku": "RDX1000g",
+  "colour": "Grey",
+  "code": "A10",
+  "new_name": "Grey A10",
+  "media": "gid://shopify/MediaImage/31258086441023",
+  "optval": "gid://shopify/ProductOptionValue/5048470765631",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A10.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470500927",
+  "sku": "RDX1000Bahb",
+  "colour": "Bahama Beige",
+  "code": "A11",
+  "new_name": "Bahama Beige A11",
+  "media": "gid://shopify/MediaImage/31258086473791",
+  "optval": "gid://shopify/ProductOptionValue/5048470798399",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A11.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470533695",
+  "sku": "RDX1000an",
+  "colour": "Anthracite",
+  "code": "A13",
+  "new_name": "Anthracite A13",
+  "media": "gid://shopify/MediaImage/31258086506559",
+  "optval": "gid://shopify/ProductOptionValue/5048470831167",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A13.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470566463",
+  "sku": "RDX1000alu",
+  "colour": "Aluminium",
+  "code": "A15",
+  "new_name": "Aluminium A15",
+  "media": "gid://shopify/MediaImage/31258086539327",
+  "optval": "gid://shopify/ProductOptionValue/5048470863935",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A15.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470599231",
+  "sku": "RDX1000bl",
+  "colour": "Black",
+  "code": "A16",
+  "new_name": "Black A16",
+  "media": "gid://shopify/MediaImage/31258086572095",
+  "optval": "gid://shopify/ProductOptionValue/5048470896703",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A16.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470631999",
+  "sku": "RDX1000ala",
+  "colour": "Alabaster",
+  "code": "A17",
+  "new_name": "Alabaster A17",
+  "media": "gid://shopify/MediaImage/31258086604863",
+  "optval": "gid://shopify/ProductOptionValue/5048470929471",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A17.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470664767",
+  "sku": "RDX1000sto",
+  "colour": "Stone",
+  "code": "A18",
+  "new_name": "Stone A18",
+  "media": "gid://shopify/MediaImage/31258086637631",
+  "optval": "gid://shopify/ProductOptionValue/5048470962239",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A18.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470697535",
+  "sku": "RDX1000mbr",
+  "colour": "Mid Brown",
+  "code": "A27",
+  "new_name": "Mid Brown A27",
+  "media": "gid://shopify/MediaImage/31258086670399",
+  "optval": "gid://shopify/ProductOptionValue/5048470995007",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A27.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470730303",
+  "sku": "RDX1000tau",
+  "colour": "Taupe",
+  "code": "A72",
+  "new_name": "Taupe A72",
+  "media": "gid://shopify/MediaImage/31258086703167",
+  "optval": "gid://shopify/ProductOptionValue/5048471027775",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A72.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470763071",
+  "sku": "RDX1000coc",
+  "colour": "Cocoa",
+  "code": "A74",
+  "new_name": "Cocoa A74",
+  "media": "gid://shopify/MediaImage/31258086735935",
+  "optval": "gid://shopify/ProductOptionValue/5048471060543",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A74.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470795839",
+  "sku": "RDX1000ow",
+  "colour": "Off White",
+  "code": "A3",
+  "new_name": "Off White A3",
+  "media": "gid://shopify/MediaImage/30136658460735",
+  "optval": "gid://shopify/ProductOptionValue/5048471093311",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A3.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470828607",
+  "sku": "RDX1000lg",
+  "colour": "Light Grey",
+  "code": "A4",
+  "new_name": "Light Grey A4",
+  "media": "gid://shopify/MediaImage/31258086768703",
+  "optval": "gid://shopify/ProductOptionValue/5048471126079",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A4.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470861375",
+  "sku": "RDX1000mg",
+  "colour": "Mid Grey",
+  "code": "A5",
+  "new_name": "Mid Grey A5",
+  "media": "gid://shopify/MediaImage/31258089521215",
+  "optval": "gid://shopify/ProductOptionValue/5048471158847",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A5.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470894143",
+  "sku": "RDX1000fg",
+  "colour": "Flash Grey",
+  "code": "A6",
+  "new_name": "Flash Grey A6",
+  "media": "gid://shopify/MediaImage/31258089553983",
+  "optval": "gid://shopify/ProductOptionValue/5048471191615",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A6.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470926911",
+  "sku": "RDX1000cot",
+  "colour": "Cotto",
+  "code": "A32",
+  "new_name": "Cotto A32",
+  "media": "gid://shopify/MediaImage/31258089586751",
+  "optval": "gid://shopify/ProductOptionValue/5048471224383",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A32.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470959679",
+  "sku": "RDX1000r",
+  "colour": "Red",
+  "code": "A33",
+  "new_name": "Red A33",
+  "media": "gid://shopify/MediaImage/31258089619519",
+  "optval": "gid://shopify/ProductOptionValue/5048471257151",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A33.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993470992447",
+  "sku": "RDX1000sw",
+  "colour": "Snow White",
+  "code": "A46",
+  "new_name": "Snow White A46",
+  "media": "gid://shopify/MediaImage/31258089652287",
+  "optval": "gid://shopify/ProductOptionValue/5048471289919",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A46.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471025215",
+  "sku": "RDX1000cash",
+  "colour": "Cashmere",
+  "code": "A49",
+  "new_name": "Cashmere A49",
+  "media": "gid://shopify/MediaImage/31258089685055",
+  "optval": "gid://shopify/ProductOptionValue/5048471322687",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A49.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471057983",
+  "sku": "RDX1000v",
+  "colour": "Vanilla",
+  "code": "A55",
+  "new_name": "Vanilla A55",
+  "media": "gid://shopify/MediaImage/31258089717823",
+  "optval": "gid://shopify/ProductOptionValue/5048471355455",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A55.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471090751",
+  "sku": "RDX1000pewg",
+  "colour": "Pewter",
+  "code": "A56",
+  "new_name": "Pewter A56",
+  "media": "gid://shopify/MediaImage/31258089750591",
+  "optval": "gid://shopify/ProductOptionValue/5048471388223",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A56.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471123519",
+  "sku": "RDX1000moc",
+  "colour": "Mocha",
+  "code": "A60",
+  "new_name": "Mocha A60",
+  "media": "gid://shopify/MediaImage/31258089783359",
+  "optval": "gid://shopify/ProductOptionValue/5048471420991",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A60.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471156287",
+  "sku": "RDX1000dter",
+  "colour": "Deep Terracotta",
+  "code": "A61",
+  "new_name": "Deep Terracotta A61",
+  "media": "gid://shopify/MediaImage/31258089816127",
+  "optval": "gid://shopify/ProductOptionValue/5048471453759",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A61.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471189055",
+  "sku": "RDX1000hav",
+  "colour": "Havana",
+  "code": "A29",
+  "new_name": "Havana A29",
+  "media": "gid://shopify/MediaImage/31258089848895",
+  "optval": "gid://shopify/ProductOptionValue/5048471486527",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A29.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471221823",
+  "sku": "RDX1000br",
+  "colour": "Brown",
+  "code": "A28",
+  "new_name": "Brown A28",
+  "media": "gid://shopify/MediaImage/31258089881663",
+  "optval": "gid://shopify/ProductOptionValue/5048471519295",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A28.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471254591",
+  "sku": "RDX1000bg",
+  "colour": "Beige",
+  "code": "A24",
+  "new_name": "Beige A24",
+  "media": "gid://shopify/MediaImage/31258089914431",
+  "optval": "gid://shopify/ProductOptionValue/5048471552063",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A24.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471287359",
+  "sku": "RDX1000mb",
+  "colour": "Mid Beige",
+  "code": "A23",
+  "new_name": "Mid Beige A23",
+  "media": "gid://shopify/MediaImage/31258089947199",
+  "optval": "gid://shopify/ProductOptionValue/5048471584831",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A23.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471320127",
+  "sku": "RDX1000can",
+  "colour": "Canvas",
+  "code": "A22",
+  "new_name": "Canvas A22",
+  "media": "gid://shopify/MediaImage/31258089979967",
+  "optval": "gid://shopify/ProductOptionValue/5048471617599",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A22.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471352895",
+  "sku": "RDX1000s",
+  "colour": "Sand",
+  "code": "A21",
+  "new_name": "Sand A21",
+  "media": "gid://shopify/MediaImage/31258090012735",
+  "optval": "gid://shopify/ProductOptionValue/5048471650367",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A21.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471385663",
+  "sku": "RDX1000w",
+  "colour": "White",
+  "code": "A2",
+  "new_name": "White A2",
+  "media": "gid://shopify/MediaImage/30136658493503",
+  "optval": "gid://shopify/ProductOptionValue/5048471683135",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A2.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471418431",
+  "sku": "RDX1000tr",
+  "colour": "Travertine",
+  "code": "A20",
+  "new_name": "Travertine A20",
+  "media": "gid://shopify/MediaImage/31258090045503",
+  "optval": "gid://shopify/ProductOptionValue/5048471715903",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A20.jpg"
+ },
+ {
+  "variant": "gid://shopify/ProductVariant/43993471451199",
+  "sku": "RDX1000iv",
+  "colour": "Ivory",
+  "code": "A19",
+  "new_name": "Ivory A19",
+  "media": "gid://shopify/MediaImage/31258090078271",
+  "optval": "gid://shopify/ProductOptionValue/5048471748671",
+  "src": "https://www.robertsdesigns.com.au/wp-content/uploads/2026/06/MaxisilWetArea-A19.jpg"
+ }
+]
