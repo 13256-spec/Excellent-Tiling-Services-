@@ -353,3 +353,17 @@ $0.00, no cost, trade band 0, stock 0 and "stop selling when out of stock", tagg
 B2B scripts until ARDEX sends a price list; then price by the playbook (cost inc GST, 35% target, floors 25%, competitor
 check against Bunnings, Tilers Online, TradieCart and Beaumont where they list ARDEX), set the band, rerun both trade
 scripts and add the rows to the master list. Record: `../supplier-sync/README.md`, "ARDEX Australia range".
+
+## Two Raimondi Raizor items: trade discount 10% -> 5% (23 Nov 2026)
+
+Owner's instruction. Retail prices unchanged.
+
+| Item | Retail | Old trade (10%) | New trade (5%) | Cost inc GST | Trade margin |
+|---|---|---|---|---|---|
+| Raimondi Raizor MK2 PLUS Rail Cutting System 330cm - up to 15mm (RAI-RAIZOR-MK2PLUS) | $1,792.60 | $1,613.34 | $1,702.97 | $1,210.00 | 25.0% -> 28.9% |
+| Raimondi Power Raizor MK2 Cutting Unit (RAI-PWRRAIZOR-MK2) | $1,002.25 | $902.03 | $952.14 | $676.50 | 25.0% -> 28.9% |
+
+Done by hand for these two only (the same numbers the two trade scripts would give): `ets.trade_band` 5, moved from
+`trade-list-10` to `trade-list-5`, B2B price list fixed prices, `custom.trade_price` and `ets.trade_price`. Checked with
+`contextualPricing` for the test company: $1,702.97 and $952.14. Master list rows and the three PDFs updated; the master
+list and PDFs also pick up the Maxisil Wet Area colour names with codes (see `../images/README.md`).
