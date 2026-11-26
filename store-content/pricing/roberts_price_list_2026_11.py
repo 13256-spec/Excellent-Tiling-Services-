@@ -12,7 +12,7 @@ Rules (PRICING-PLAYBOOK.md v2): cost = list price x 1.1. Public price = a little
 down to 5c, never under the floor (30% margin; 25% on lines B&B also sells). Owner's choice 26 Nov 2026 for Roberts lines:
 "5% under RRP + 30% floor", "Raise trade floor to 30%" (the playbook's general floors are 25/20). Band = deepest of 20/15/10/5 that keeps
 every variant of the product at the trade floor (products with no cost or price change keep their band). Variants not on
-the list keep their price and cost. Where the list's RRP leaves no 30% margin the cost is updated and the price is not cut.
+the list keep their price and cost. Where the list's RRP leaves no 30% margin the item sells at RRP (owner, 26 Nov), unless RRP is under cost.
 """
 import csv, glob, json, math, os, re, sys, collections
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -56,7 +56,9 @@ for v in V.values():
     floor = up(new_cost / fm) if new_cost else None
     comp = who = target = None; note = ""
     if L and rrp <= floor:                                  # list looks wrong (RRP leaves no 30% margin): cost updated, price not cut
-        comp, who = rrp, "Roberts RRP"; proposed = max(price, floor); note = "list RRP at or under our floor: ask Roberts; price kept above RRP"
+        comp, who = rrp, "Roberts RRP"                      # owner 26 Nov: "sell at their RRP" (under the 30% floor, so no trade band)
+        if dn(rrp) > new_cost: proposed = dn(rrp); note = "sold at Roberts RRP on the owner's instruction (under the 30% floor)"
+        else: proposed = price; note = "Roberts RRP is under our cost: price kept, ask Roberts"
     elif L:
         comp, who, k = min(cands); target = dn(comp * k); proposed = max(floor, target)
         if target < floor: note = "competitor under our floor: held at floor"
@@ -77,7 +79,7 @@ for rs in byp.values():
     for r in rs:
         r["new_band"] = band; r["trade_price"] = round(r["new_price"] * (1 - band / 100) + 1e-9, 2)
         r["trade_margin"] = round(margin(r["trade_price"], r["new_cost"]), 1) if r["new_cost"] else ""; del r["fm"]
-assert all(r["new_price"] >= r["floor"] - 0.005 for r in rows if r["list_desc"])
+assert all(r["new_price"] >= r["floor"] - 0.005 for r in rows if r["list_desc"] and "RRP" not in r["note"])
 fn = list(rows[0]); w = csv.DictWriter(open(os.path.join(HERE, "reports", "roberts-price-list-2026-11-18.csv"), "w", newline=""), fieldnames=fn); w.writeheader(); w.writerows(rows)
 
 on = [r for r in rows if r["list_desc"]]; m = lambda x: f"${x:,.2f}"

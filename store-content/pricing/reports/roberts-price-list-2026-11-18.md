@@ -8,10 +8,10 @@
 | Cost down | 105 |
 | Cost the same | 193 |
 | Price up | 811 |
-| Price down | 79 |
-| Price the same | 19 |
+| Price down | 82 |
+| Price the same | 16 |
 | Held at our floor because the competitor is cheaper | 95 |
-| Products changing trade band | 104 |
+| Products changing trade band | 107 |
 
 ## Biggest price rises
 
@@ -105,7 +105,6 @@
 | External Balcony Corner / 8mm / Matte Silver (RDTT885) | $19.80 -> $29.10 | tilemart (Sep) $38.75 | $37.55 -> $41.60 | 30.0% | 20% -> 0% | $41.60 (30.0%) | competitor under our floor: held at floor |
 | External Balcony Corner / 10mm / Matte Silver (RDTT887) | $19.80 -> $29.10 | tilemart (Sep) $38.75 | $37.55 -> $41.60 | 30.0% | 20% -> 0% | $41.60 (30.0%) | competitor under our floor: held at floor |
 | Sigma Titanium Wheel with axle ART14T 12mm - suits 2G, 2B3, 7F & Series 3 (RDXA3552) | $21.62 -> $28.05 | tilemart (Sep) $38.40 | $34.55 -> $40.10 | 30.0% | 15% -> 0% | $40.10 (30.0%) | competitor under our floor: held at floor |
-| Heavy Duty Floor Scraper / 150mm (RDXT720) | $23.10 -> $21.84 | Roberts RRP $29.70 | $37.80 -> $37.80 | 42.2% | 5% -> 5% | $35.91 (39.2%) | list RRP at or under our floor: ask Roberts; price kept above RRP |
 | Diamond Hand Pads / 50 (RDXT870) | $25.25 -> $26.02 | westerndist (Sep) $38.00 | $36.85 -> $37.20 | 30.1% | 5% -> 0% | $37.20 (30.1%) | competitor under our floor: held at floor |
 | Diamond Hand Pads / 100 (RDXT871) | $25.25 -> $26.02 | westerndist (Sep) $38.00 | $36.85 -> $37.20 | 30.1% | 5% -> 0% | $37.20 (30.1%) | competitor under our floor: held at floor |
 | Diamond Hand Pads / 200 (RDXT872) | $25.25 -> $26.02 | westerndist (Sep) $38.00 | $36.85 -> $37.20 | 30.1% | 5% -> 0% | $37.20 (30.1%) | competitor under our floor: held at floor |
@@ -113,13 +112,13 @@
 | External Balcony Corner / 15mm / Mill Finish (RDTT815) | $14.91 -> $21.84 | tilemart (Sep) $29.19 | $28.30 -> $31.20 | 30.0% | 20% -> 0% | $31.20 (30.0%) | competitor under our floor: held at floor |
 | External Balcony Corner / 8mm / Mill Finish (RDTT812) | $14.91 -> $21.73 | tilemart (Sep) $29.19 | $28.30 -> $31.05 | 30.0% | 20% -> 0% | $31.05 (30.0%) | competitor under our floor: held at floor |
 | External Balcony Corner / 10mm / Mill Finish (RDTT813) | $14.91 -> $21.73 | tilemart (Sep) $29.19 | $28.30 -> $31.05 | 30.0% | 20% -> 0% | $31.05 (30.0%) | competitor under our floor: held at floor |
+| Heavy Duty Floor Scraper / 150mm (RDXT720) | $23.10 -> $21.84 | Roberts RRP $29.70 | $37.80 -> $29.70 | 26.5% | 5% -> 0% | $29.70 (26.5%) | sold at Roberts RRP on the owner's instruction (under the 30% floor) |
 | Stainless Steel Square Notched Maxi Grip Trowel – Large / 12mm (RDXT241) | $19.25 -> $19.86 | portkembla (Sep) $19.80 | $25.70 -> $28.40 | 30.1% | 0% -> 0% | $28.40 (30.1%) | competitor under our floor: held at floor |
-| Roberts Designs Levelling Compound Mixing Paddle - 10mm Shaft (RDXT112) | $15.40 -> $19.53 | Roberts RRP $14.85 | $28.35 -> $28.35 | 31.1% | 20% -> 0% | $28.35 (31.1%) | list RRP at or under our floor: ask Roberts; price kept above RRP |
-| Sigma Spare Wheel with axle ART14U 12mm - suits Series 4 Up (4BU, 4CU, 4DU) (RDXA3619) | $14.36 -> $19.58 | Roberts RRP $25.84 | $23.05 -> $28.00 | 30.1% | 15% -> 0% | $28.00 (30.1%) | list RRP at or under our floor: ask Roberts; price kept above RRP |
+| Roberts Designs Levelling Compound Mixing Paddle - 10mm Shaft (RDXT112) | $15.40 -> $19.53 | Roberts RRP $14.85 | $28.35 -> $28.35 | 31.1% | 20% -> 0% | $28.35 (31.1%) | Roberts RRP is under our cost: price kept, ask Roberts |
 | Sigma Spare Wheel with axle ART14A 12mm - suits 2G, 2B3, 7F & Series 3 (RDXA3512) | $14.30 -> $18.59 | tilemart (Sep) $23.40 | $21.05 -> $26.60 | 30.1% | 5% -> 0% | $26.60 (30.1%) | competitor under our floor: held at floor |
+| Sigma Spare Wheel with axle ART14U 12mm - suits Series 4 Up (4BU, 4CU, 4DU) (RDXA3619) | $14.36 -> $19.58 | Roberts RRP $25.84 | $23.05 -> $25.80 | 24.1% | 15% -> 0% | $25.80 (24.1%) | sold at Roberts RRP on the owner's instruction (under the 30% floor) |
 | Waterproofing Kit (RDXT245) | $16.78 -> $17.27 | tilemart (Sep) $19.90 | $22.40 -> $24.70 | 30.1% | 0% -> 0% | $24.70 (30.1%) | competitor under our floor: held at floor |
 | Maxisil Smoothtex A Silicone Smoothing Solution / 1 litre (RDX1999) | $16.06 -> $17.60 | B&B Hardware $24.50 | $23.25 -> $23.50 | 25.1% | 5% -> 0% | $23.50 (25.1%) | competitor under our floor: held at floor |
-| Chalk Line Reel (RDXT712) | $10.07 -> $10.34 | Roberts RRP $11.88 | $20.35 -> $20.35 | 49.2% | 20% -> 20% | $16.28 (36.5%) | list RRP at or under our floor: ask Roberts; price kept above RRP |
 | White Rubber Mallet (RDXT700) | $16.72 -> $13.15 | westerndist (Sep) $15.00 | $22.30 -> $18.80 | 30.1% | 0% -> 0% | $18.80 (30.1%) | competitor under our floor: held at floor |
 | Maxisil Wet Area Silicone / Matte White A80 (RDX1000mw) | $12.98 -> $13.75 | B&B Hardware $18.95 | $18.00 -> $18.35 | 25.1% | 0% -> 0% | $18.35 (25.1%) | competitor under our floor: held at floor |
 | Maxisil Wet Area Silicone / Matte Light Grey A81 (RDX1000mlg) | $12.98 -> $13.75 | B&B Hardware $18.95 | $18.00 -> $18.35 | 25.1% | 0% -> 0% | $18.35 (25.1%) | competitor under our floor: held at floor |
@@ -169,8 +168,9 @@
 | Round Edge Trim – 3m Lengths / 8mm / Matte Silver (RDTT621mslv) | $10.29 -> $11.50 | tilemart (Sep) $14.70 | $14.25 -> $16.45 | 30.1% | 0% -> 0% | $16.45 (30.1%) | competitor under our floor: held at floor |
 | Round Edge Trim – 3m Lengths / 8mm / Bright Silver (RDTT602slv) | $10.29 -> $11.50 | tilemart (Sep) $14.70 | $14.25 -> $16.45 | 30.1% | 0% -> 0% | $16.45 (30.1%) | competitor under our floor: held at floor |
 | Splash Trowel (RDXT219A) | $9.08 -> $9.19 | westerndist (Sep) $11.00 | $12.15 -> $13.15 | 30.1% | 0% -> 0% | $13.15 (30.1%) | competitor under our floor: held at floor |
-| Blue Chalk Refill Bottle (RDXT713b) | $5.78 -> $5.39 | Roberts RRP $5.94 | $9.45 -> $9.45 | 43.0% | 15% -> 15% | $8.03 (32.9%) | list RRP at or under our floor: ask Roberts; price kept above RRP |
+| Chalk Line Reel (RDXT712) | $10.07 -> $10.34 | Roberts RRP $11.88 | $20.35 -> $11.85 | 12.7% | 20% -> 0% | $11.85 (12.7%) | sold at Roberts RRP on the owner's instruction (under the 30% floor) |
 | Hydra Tilers Round Edge Sponge (RDXT613) | $5.34 -> $5.50 | Roberts RRP $7.92 | $9.95 -> $7.90 | 30.4% | 20% -> 0% | $7.90 (30.4%) | competitor under our floor: held at floor |
+| Blue Chalk Refill Bottle (RDXT713b) | $5.78 -> $5.39 | Roberts RRP $5.94 | $9.45 -> $5.90 | 8.6% | 15% -> 0% | $5.90 (8.6%) | sold at Roberts RRP on the owner's instruction (under the 30% floor) |
 | Balcony Trim Joiner – fits all sizes – 8mm (RDTT816) | $1.60 -> $2.26 | tilemart (Sep) $3.15 | $3.05 -> $3.25 | 30.5% | 20% -> 0% | $3.25 (30.5%) | competitor under our floor: held at floor |
 
 ## Trade band changes
@@ -187,8 +187,10 @@
 | Balcony Trim Joiner – fits all sizes – 8mm | 20% | 0% |
 | Balcony Trim – 3m Lengths | 5% | 15% |
 | Barwalt KN-1 Replacement Liners (pair) | 20% | 10% |
+| Blue Chalk Refill Bottle | 15% | 0% |
 | Bright Steel Square Notched Adhesive Trowel | 20% | 0% |
 | Caulking Gun 310ml | 20% | 15% |
+| Chalk Line Reel | 20% | 0% |
 | Clear Packaging Tape | 10% | 15% |
 | Combination Shelf and Soapholder | 15% | 20% |
 | Continuous Rim Diamond Blades – Green | 10% | 15% |
@@ -203,6 +205,7 @@
 | Electric Glue Mixer 1400W | 20% | 15% |
 | Expansion Aluminium Trim – 3m Lengths | 5% | 15% |
 | External Balcony Corner | 20% | 0% |
+| Heavy Duty Floor Scraper | 5% | 0% |
 | Hydra Tilers Round Edge Sponge | 20% | 0% |
 | Hydra Tilers Slater Sponge | 10% | 0% |
 | Internal Balcony Corner | 20% | 15% |
