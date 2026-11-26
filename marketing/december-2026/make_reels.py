@@ -7,8 +7,8 @@ MUSIC = os.path.join(D, "..", "finish-it-right", "v2", "source", "music")
 S, F, FPS = 3.2, 0.6, 30  # seconds per slide, dissolve, frame rate
 REELS = {  # name: (music, story pages)
     "2026-11-29-reel-bathroom-picks": ("mellow-chill.mp3", [2, 1, 5, 7]),
-    "2026-12-06-reel-vanities": ("lofi-epiano.mp3", [8, 14, 2, 20]),
-    "2026-12-13-reel-mirrors-and-taps": ("acoustic-keys.mp3", [16, 5, 13, 17]),
+    "2026-12-06-reel-baths-and-vanities": ("lofi-epiano.mp3", [8, 20, 14, 13]),
+    "2026-12-13-reel-glass-mirrors-taps": ("acoustic-keys.mp3", [16, 5, 17, 28]),
     "2026-12-20-reel-tiles-and-basins": ("uplifting-ambient.mp3", [3, 9, 24, 27]),
 }
 def build(name, music, pages):

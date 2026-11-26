@@ -18,7 +18,9 @@
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-felli-free-standing-bath-1500mm-2396515.jpg",
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-felli-1700-free-standing-bath-3439893.png"
   ],
-  "google_text": "MELA Felli freestanding bath, now $1,279 (was $1,599).\nThe 1500 mm size is 750 mm wide and 580 mm high, so you still get a deep bath in a smaller room. Acrylic on a steel frame with adjustable legs. The 1700 mm is $1,379 (was $1,699).\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-felli-free-standing-bath"
+  "google_text": "MELA Felli freestanding bath, now $1,279 (was $1,599).\nThe 1500 mm size is 750 mm wide and 580 mm high, so you still get a deep bath in a smaller room. Acrylic on a steel frame with adjustable legs. The 1700 mm is $1,379 (was $1,699).\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-felli-free-standing-bath",
+  "feed_file": "out/01.png",
+  "story_file": "stories/01.png"
  },
  {
   "page": 2,
@@ -27,16 +29,20 @@
   "image": "img/1128-milano-1500.jpg",
   "headline": "Black oak, 1500 wide, room for two",
   "sub": "MELA Milano 1500 wall hung vanity",
-  "tile_label": "With stone top",
+  "tile_label": "Stone top + 2 basins",
   "tile_price": "$2,699",
   "sale": false,
-  "caption": "MELA Milano 1500 wall hung vanity, $2,699 with a Pearl White stone top.\nTwo black oak cabinets with two drawers each, 1490 mm wide. Stone cutting, tapware and waste are not included. Made to order: allow about 2 weeks.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-milano-1500-wall-hung-vanity-with-drawers\n\n#perthbathrooms #bathroomrenovation #perthrenovation",
+  "caption": "MELA Milano 1500 wall hung vanity, $2,699 with a Pearl White stone top and two gloss white basins.\nTwo black oak cabinets with two drawers each, 1490 mm wide. Stone cutting, tapware and waste are not included. Made to order: allow about 2 weeks.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-milano-1500-wall-hung-vanity-with-drawers\n\n#perthbathrooms #bathroomrenovation #perthrenovation",
   "link": "https://excellenttilingservices.com/products/mela-milano-1500-wall-hung-vanity-with-drawers",
   "canva_media_id": "MAHb-SZST8o",
   "tone": "paper",
   "geom": "bleed",
-  "carousel": [],
-  "google_text": "MELA Milano 1500 wall hung vanity, $2,699 with a Pearl White stone top.\nTwo black oak cabinets with two drawers each, 1490 mm wide. Stone cutting, tapware and waste are not included. Made to order: allow about 2 weeks.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-milano-1500-wall-hung-vanity-with-drawers"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-milano-1500-black-oak-wall-hung-vanity-with-drawersvanitiesmela-bathroom-city-perth-4294065.png"
+  ],
+  "google_text": "MELA Milano 1500 wall hung vanity, $2,699 with a Pearl White stone top and two gloss white basins.\nTwo black oak cabinets with two drawers each, 1490 mm wide. Stone cutting, tapware and waste are not included. Made to order: allow about 2 weeks.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-milano-1500-wall-hung-vanity-with-drawers",
+  "feed_file": "out/02.png",
+  "story_file": "stories/02.png"
  },
  {
   "page": 3,
@@ -53,8 +59,13 @@
   "canva_media_id": "MAHb-ZTFLLE",
   "tone": "stone",
   "geom": "inset",
-  "carousel": [],
-  "google_text": "Terrazzo Lumina porcelain tile, $72 a box. A box covers 1.44 m², so that is $50 per m².\nA white terrazzo look with a fine dark fleck. Matt, P4 slip rating, in 300 x 600 and 600 x 600 mm. It hides dust and footprints better than a plain white tile.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/terrazzo-lumina-porcelain-tile"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/DSAYFR602950_3.png",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/terrazzo-lumina-porcelain-tile-2.jpg"
+  ],
+  "google_text": "Terrazzo Lumina porcelain tile, $72 a box. A box covers 1.44 m², so that is $50 per m².\nA white terrazzo look with a fine dark fleck. Matt, P4 slip rating, in 300 x 600 and 600 x 600 mm. It hides dust and footprints better than a plain white tile.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/terrazzo-lumina-porcelain-tile",
+  "feed_file": "out/03.png",
+  "story_file": "stories/03.png"
  },
  {
   "page": 4,
@@ -75,7 +86,9 @@
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-rondo-sink-mixer-chrome-8888185.png",
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-rondo-sink-mixer-brushed-brass-2562135.png"
   ],
-  "google_text": "MELA Rondo tall sink mixer, $151.20 in chrome.\nThe taller gooseneck gives more clearance for deep pots and tall bottles. Solid brass, WELS 6 star. Brushed nickel is $215.20 (was $269) and brushed brass $263.30.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-rondo-sink-mixer-tall"
+  "google_text": "MELA Rondo tall sink mixer, $151.20 in chrome.\nThe taller gooseneck gives more clearance for deep pots and tall bottles. Solid brass, WELS 6 star. Brushed nickel is $215.20 (was $269) and brushed brass $263.30.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-rondo-sink-mixer-tall",
+  "feed_file": "out/04.png",
+  "story_file": "stories/04.png"
  },
  {
   "page": 5,
@@ -93,7 +106,9 @@
   "tone": "ink",
   "geom": "inset",
   "carousel": [],
-  "google_text": "MELA Vina plain mirror, from $149.\nFrameless, with a polished edge and softly rounded corners. Six widths from 600 mm ($149) to 1800 mm ($499), all 750 mm high. The wall bracket is supplied.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-vina-plain-mirror"
+  "google_text": "MELA Vina plain mirror, from $149.\nFrameless, with a polished edge and softly rounded corners. Six widths from 600 mm ($149) to 1800 mm ($499), all 750 mm high. The wall bracket is supplied.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-vina-plain-mirror",
+  "feed_file": "out/05.png",
+  "story_file": "stories/05.png"
  },
  {
   "page": 6,
@@ -111,7 +126,9 @@
   "tone": "paper",
   "geom": "bleed",
   "carousel": [],
-  "google_text": "Easier to choose a vanity when you can open the drawers.\nThe Maddington showroom is open by appointment, Monday to Saturday, 4:30 to 9 pm. 17A Olga Road, Maddington.\nBook a time on the website or call 0450 960 543.\nhttps://excellenttilingservices.com/pages/book-appointment"
+  "google_text": "Easier to choose a vanity when you can open the drawers.\nThe Maddington showroom is open by appointment, Monday to Saturday, 4:30 to 9 pm. 17A Olga Road, Maddington.\nBook a time on the website or call 0450 960 543.\nhttps://excellenttilingservices.com/pages/book-appointment",
+  "feed_file": "out/06.png",
+  "story_file": "stories/06.png"
  },
  {
   "page": 7,
@@ -129,7 +146,9 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "MELA Triton 770D stainless steel sink, $619.\nA double bowl in black, 770 x 440 mm and 230 mm deep. Top mount or under mount.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-triton-770d-stainless-steel-sink"
+  "google_text": "MELA Triton 770D stainless steel sink, $619.\nA double bowl in black, 770 x 440 mm and 230 mm deep. Top mount or under mount.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-triton-770d-stainless-steel-sink",
+  "feed_file": "out/07.png",
+  "story_file": "stories/07.png"
  },
  {
   "page": 8,
@@ -150,7 +169,9 @@
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-milano-900-black-oak-wall-hung-vanity-with-drawersvanitiesmela-bathroom-city-perth-5001345.png",
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-milano-900-black-oak-wall-hung-vanity-with-drawersvanitiesmela-bathroom-city-perth-8710644.png"
   ],
-  "google_text": "MELA Milano 900 wall hung vanity, $1,399 with a stone top and gloss white basin.\nA black oak finish with framed drawer fronts. 895 mm wide, two drawers. Basin and tap cut-outs from $35. Tapware, waste and mirror sold separately. Made to order: allow about 2 weeks.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-milano-900-wall-hung-vanity-with-drawers"
+  "google_text": "MELA Milano 900 wall hung vanity, $1,399 with a stone top and gloss white basin.\nA black oak finish with framed drawer fronts. 895 mm wide, two drawers. Basin and tap cut-outs from $35. Tapware, waste and mirror sold separately. Made to order: allow about 2 weeks.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/mela-milano-900-wall-hung-vanity-with-drawers",
+  "feed_file": "out/08.png",
+  "story_file": "stories/08.png"
  },
  {
   "page": 9,
@@ -168,7 +189,9 @@
   "tone": "ink",
   "geom": "bleed",
   "carousel": [],
-  "google_text": "Oak Aube timber-look porcelain tile, $63 per m².\nA pale oak plank, 200 x 1200 mm, matt with a P3 slip rating. The look of a blonde timber floor in a bathroom, laundry or alfresco.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/oak-aube-timber-look-porcelain-tile"
+  "google_text": "Oak Aube timber-look porcelain tile, $63 per m².\nA pale oak plank, 200 x 1200 mm, matt with a P3 slip rating. The look of a blonde timber floor in a bathroom, laundry or alfresco.\nPerth metro delivery, or pick up free in Maddington.\nhttps://excellenttilingservices.com/products/oak-aube-timber-look-porcelain-tile",
+  "feed_file": "out/09.png",
+  "story_file": "stories/09.png"
  },
  {
   "page": 10,
@@ -186,7 +209,9 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "How much tile do you need?\nMeasure the length and width of each floor or wall in metres and multiply them. Add the areas together. Then allow about 10% extra for cuts and breakages.\nBrick bond or lots of cuts, allow 15%. Herringbone or diagonal, 20%. Tiles are supplied to the nearest full box.\nhttps://excellenttilingservices.com/collections/tiles"
+  "google_text": "How much tile do you need?\nMeasure the length and width of each floor or wall in metres and multiply them. Add the areas together. Then allow about 10% extra for cuts and breakages.\nBrick bond or lots of cuts, allow 15%. Herringbone or diagonal, 20%. Tiles are supplied to the nearest full box.\nhttps://excellenttilingservices.com/collections/tiles",
+  "feed_file": "out/10.png",
+  "story_file": "stories/10.png"
  },
  {
   "page": 11,
@@ -198,13 +223,19 @@
   "tile_label": "5 kg bag",
   "tile_price": "$33.40",
   "sale": false,
-  "caption": "Maxisil Grout, $33.40 for a 5 kg bag.\nA flexible, sand-free cement grout made to colour match the Maxisil silicone range, so the joint and the corner bead come out the same shade. For 1 to 15 mm joints, walls and floors, inside and out. Seven colours.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/maxisil-grout-5kg\n\n#perthtiler #tilingtools #perthtradies",
+  "caption": "Maxisil Grout, $33.40 for a 5 kg bag.\nA flexible, sand-free cement grout made to colour match the Maxisil silicone range, so the joint and the corner bead come out the same shade. For 1 to 15 mm joints, walls and floors, inside and out. Ten colours.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/maxisil-grout-5kg\n\n#perthtiler #tilingtools #perthtradies",
   "link": "https://excellenttilingservices.com/products/maxisil-grout-5kg",
   "canva_media_id": "MAHb-SaGW0s",
   "tone": "paper",
   "geom": "inset",
-  "carousel": [],
-  "google_text": "Maxisil Grout, $33.40 for a 5 kg bag.\nA flexible, sand-free cement grout made to colour match the Maxisil silicone range, so the joint and the corner bead come out the same shade. For 1 to 15 mm joints, walls and floors, inside and out. Seven colours.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/maxisil-grout-5kg"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/5kg-anthracite.jpg",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/5kg-grey.jpg",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/5kg-light-grey.jpg"
+  ],
+  "google_text": "Maxisil Grout, $33.40 for a 5 kg bag.\nA flexible, sand-free cement grout made to colour match the Maxisil silicone range, so the joint and the corner bead come out the same shade. For 1 to 15 mm joints, walls and floors, inside and out. Ten colours.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/maxisil-grout-5kg",
+  "feed_file": "out/11.png",
+  "story_file": "stories/11.png"
  },
  {
   "page": 12,
@@ -222,7 +253,9 @@
   "tone": "ink",
   "geom": "inset",
   "carousel": [],
-  "google_text": "Christmas dates.\nWe close on Friday 18 December and reopen on Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nVanities are made to order, about 2 weeks for the stone top, so allow for the break.\nYou can still order online while we are closed, and the Maddington showroom stays open by appointment."
+  "google_text": "Christmas dates.\nWe close on Friday 18 December and reopen on Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nVanities are made to order, about 2 weeks for the stone top, so allow for the break.\nYou can still order online while we are closed, and the Maddington showroom stays open by appointment.",
+  "feed_file": "out/12.png",
+  "story_file": "stories/12.png"
  },
  {
   "page": 13,
@@ -244,7 +277,9 @@
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-kosi-heated-towel-ladder-black-600x800mm-7768713.jpg",
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-kosi-heated-towel-ladder-brushed-brass-600x800mm-9345247.jpg"
   ],
-  "google_text": "MELA Kosi heated towel ladder, 600 x 800 mm, from $465.\nChrome $465, brushed nickel $495, black $565, brushed brass or gun metal $695.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-kosi-heated-towel-ladder-600x800mm"
+  "google_text": "MELA Kosi heated towel ladder, 600 x 800 mm, from $465.\nChrome $465, brushed nickel $495, black $565, brushed brass or gun metal $695.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nhttps://excellenttilingservices.com/products/mela-kosi-heated-towel-ladder-600x800mm",
+  "feed_file": "out/13.png",
+  "story_file": "stories/13.png"
  },
  {
   "page": 14,
@@ -261,8 +296,13 @@
   "canva_media_id": "MAHb-R5gQ80",
   "tone": "paper",
   "geom": "inset",
-  "carousel": [],
-  "google_text": "MELA Palco / Rondo freestanding bath mixer, from $554.25.\nA floor-mounted column with the mixer built in. Solid brass. Gun metal $554.25, chrome $599, matt black $649, brushed nickel $679, brushed brass $769.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-palco-rondo-free-standing-bath-mixer"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-palcorondo-free-standing-bath-spout-and-mixer-chrome-3158070.png",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-palcorondo-free-standing-bath-spout-and-mixer-brushed-nickel-5266853.png"
+  ],
+  "google_text": "MELA Palco / Rondo freestanding bath mixer, from $554.25.\nA floor-mounted column with the mixer built in. Solid brass. Gun metal $554.25, chrome $599, matt black $649, brushed nickel $679, brushed brass $769.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-palco-rondo-free-standing-bath-mixer",
+  "feed_file": "out/14.png",
+  "story_file": "stories/14.png"
  },
  {
   "page": 15,
@@ -280,7 +320,9 @@
   "tone": "stone",
   "geom": "inset",
   "carousel": [],
-  "google_text": "Tilers, builders and plumbers: trade accounts are open.\nUp to 15% off tiles, and trade prices on tools and bathroomware. The discount applies automatically when you log in. You need an ABN.\nApply online, it takes about two minutes. Pickup from Maddington is by appointment, Monday to Saturday, 4:30 to 9 pm.\nhttps://excellenttilingservices.com/pages/trade-account"
+  "google_text": "Tilers, builders and plumbers: trade accounts are open.\nUp to 15% off tiles, and trade prices on tools and bathroomware. The discount applies automatically when you log in. You need an ABN.\nApply online, it takes about two minutes. Pickup from Maddington is by appointment, Monday to Saturday, 4:30 to 9 pm.\nhttps://excellenttilingservices.com/pages/trade-account",
+  "feed_file": "out/15.png",
+  "story_file": "stories/15.png"
  },
  {
   "page": 16,
@@ -298,7 +340,9 @@
   "tone": "ink",
   "geom": "bleed",
   "carousel": [],
-  "google_text": "MELA Morris frameless shower panel, from $359.\n10 mm toughened safety glass, 2000 mm high, in widths from 600 mm. Three chrome brackets included. Reversible, and it suits tiled floors.\nPerth metro delivery, or pick up free in Maddington.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-morris-frameless-shower-panel"
+  "google_text": "MELA Morris frameless shower panel, from $359.\n10 mm toughened safety glass, 2000 mm high, in widths from 600 mm. Three chrome brackets included. Reversible, and it suits tiled floors.\nPerth metro delivery, or pick up free in Maddington.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-morris-frameless-shower-panel",
+  "feed_file": "out/16.png",
+  "story_file": "stories/16.png"
  },
  {
   "page": 17,
@@ -319,7 +363,9 @@
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-palco-wall-spout-and-wall-mixer-set-black-1774400.jpg",
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-palco-wall-spout-and-wall-mixer-set-brushed-brass-2488482.png"
   ],
-  "google_text": "MELA Palco wall spout and mixer set, from $248.\nChrome $248, black $348, brushed nickel $408, gun metal $468, brushed brass $498.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-palco-wall-spout-mixer-set"
+  "google_text": "MELA Palco wall spout and mixer set, from $248.\nChrome $248, black $348, brushed nickel $408, gun metal $468, brushed brass $498.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-palco-wall-spout-mixer-set",
+  "feed_file": "out/17.png",
+  "story_file": "stories/17.png"
  },
  {
   "page": 18,
@@ -336,8 +382,14 @@
   "canva_media_id": "MAHb-dEIn4k",
   "tone": "paper",
   "geom": "inset",
-  "carousel": [],
-  "google_text": "Maxisil Natural Stone Silicone, $32.90 a tube.\nA neutral-cure silicone made for joints in marble, granite and other natural stone, to help avoid staining and discolouration.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/maxisil-natural-stone-silicone"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/MaxisilNaturalStone-N4.jpg",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/MaxisilNaturalStone-N6.jpg",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/MaxisilNaturalStone-N9.jpg"
+  ],
+  "google_text": "Maxisil Natural Stone Silicone, $32.90 a tube.\nA neutral-cure silicone made for joints in marble, granite and other natural stone, to help avoid staining and discolouration.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/maxisil-natural-stone-silicone",
+  "feed_file": "out/18.png",
+  "story_file": "stories/18.png"
  },
  {
   "page": 19,
@@ -355,7 +407,9 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "We close for Christmas this Friday, 18 December, and reopen on Wednesday 6 January.\nOrders placed from Friday are packed and shipped from 6 January. You can still order online any time.\nThe Maddington showroom stays open by appointment."
+  "google_text": "We close for Christmas this Friday, 18 December, and reopen on Wednesday 6 January.\nOrders placed from Friday are packed and shipped from 6 January. You can still order online any time.\nThe Maddington showroom stays open by appointment.",
+  "feed_file": "out/19.png",
+  "story_file": "stories/19.png"
  },
  {
   "page": 20,
@@ -372,8 +426,13 @@
   "canva_media_id": "MAHb-QdIFj8",
   "tone": "paper",
   "geom": "inset",
-  "carousel": [],
-  "google_text": "MELA Kori back to wall bath, from $1,599.05.\nOne flat side sits hard against the wall, so you get the look of a freestanding bath without losing floor space behind it. Acrylic on a steel frame with adjustable legs. 1500 mm $1,599.05, 1700 mm $1,699.05. Waste not included.\nPerth metro delivery, or pick up free in Maddington.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-kori-back-to-wall-bath"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-kori-back-to-wall-bath.jpg",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-kori-1700-back-to-wall-free-standing-bath-9811241.jpg"
+  ],
+  "google_text": "MELA Kori back to wall bath, from $1,599.05.\nOne flat side sits hard against the wall, so you get the look of a freestanding bath without losing floor space behind it. Acrylic on a steel frame with adjustable legs. 1500 mm $1,599.05, 1700 mm $1,699.05. Waste not included.\nPerth metro delivery, or pick up free in Maddington.\nChristmas: we close Friday 18 December and reopen Wednesday 6 January. Orders placed from 18 December are packed and shipped from 6 January.\nhttps://excellenttilingservices.com/products/mela-kori-back-to-wall-bath",
+  "feed_file": "out/20.png",
+  "story_file": "stories/20.png"
  },
  {
   "page": 21,
@@ -391,7 +450,9 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "MELA Smart Bidet Seat, $799.\nA heated, soft-close seat with front and rear wash and adjustable water temperature and pressure. The remote mounts on the wall.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe close for Christmas tomorrow, Friday 18 December. Orders placed from then are packed and shipped from Wednesday 6 January.\nhttps://excellenttilingservices.com/products/mela-smart-bidet-seat-separate"
+  "google_text": "MELA Smart Bidet Seat, $799.\nA heated, soft-close seat with front and rear wash and adjustable water temperature and pressure. The remote mounts on the wall.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe close for Christmas tomorrow, Friday 18 December. Orders placed from then are packed and shipped from Wednesday 6 January.\nhttps://excellenttilingservices.com/products/mela-smart-bidet-seat-separate",
+  "feed_file": "out/21.png",
+  "story_file": "stories/21.png"
  },
  {
   "page": 22,
@@ -409,7 +470,9 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "We are closed for Christmas from today.\nYou can still order online. Orders placed now are packed and shipped from Wednesday 6 January.\nThe Maddington showroom stays open by appointment: 0450 960 543."
+  "google_text": "We are closed for Christmas from today.\nYou can still order online. Orders placed now are packed and shipped from Wednesday 6 January.\nThe Maddington showroom stays open by appointment: 0450 960 543.",
+  "feed_file": "out/22.png",
+  "story_file": "stories/22.png"
  },
  {
   "page": 23,
@@ -427,7 +490,9 @@
   "tone": "stone",
   "geom": "inset",
   "carousel": [],
-  "google_text": "Planning a bathroom for 2027?\nBook an evening at the Maddington showroom and see the vanities, tapware and tiles up close. Monday to Saturday, 4:30 to 9 pm, by appointment.\nBook on the website or call 0450 960 543.\nhttps://excellenttilingservices.com/pages/book-appointment"
+  "google_text": "Planning a bathroom for 2027?\nBook an evening at the Maddington showroom and see the vanities, tapware and tiles up close. Monday to Saturday, 4:30 to 9 pm, by appointment.\nBook on the website or call 0450 960 543.\nhttps://excellenttilingservices.com/pages/book-appointment",
+  "feed_file": "out/23.png",
+  "story_file": "stories/23.png"
  },
  {
   "page": 24,
@@ -449,7 +514,9 @@
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-aria-sage-above-counter-concrete-basinbasinsmela-bathroom-city-perth-9503406.webp",
    "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-aria-sand-above-counter-concrete-basinbasinsmela-bathroom-city-perth-5832948.webp"
   ],
-  "google_text": "MELA Aria above counter concrete basin, $525.\nA round concrete basin in pink, sage or sand.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/mela-aria-above-counter-concrete-basin"
+  "google_text": "MELA Aria above counter concrete basin, $525.\nA round concrete basin in pink, sage or sand.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/mela-aria-above-counter-concrete-basin",
+  "feed_file": "out/24.png",
+  "story_file": "stories/24.png"
  },
  {
   "page": 25,
@@ -467,7 +534,9 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "Raimondi Relax gel kneepads, $81.95 a pair.\nA hard plastic shell over a gel cushion, with a single strap. Made in Italy for long days laying floor tiles and grouting.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/raimondi-relax-gel-kneepads"
+  "google_text": "Raimondi Relax gel kneepads, $81.95 a pair.\nA hard plastic shell over a gel cushion, with a single strap. Made in Italy for long days laying floor tiles and grouting.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/raimondi-relax-gel-kneepads",
+  "feed_file": "out/25.png",
+  "story_file": "stories/25.png"
  },
  {
   "page": 26,
@@ -479,13 +548,18 @@
   "tile_label": "From",
   "tile_price": "$51.95",
   "sale": false,
-  "caption": "BAT solid brass tiling angle, from $51.95 for a 3 m length.\nA solid brass L angle for tile edges, in natural brass or chrome plated. Harder wearing than aluminium, so it suits busy floors, pool surrounds and wet areas.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/bat-brass-tiling-angle-3m\n\n#perthtiler #tilingtools #perthtradies",
+  "caption": "BAT solid brass tiling angle, from $51.95 for a 3 m length in natural brass.\nA solid brass L angle for tile edges, 4 to 25 mm. Chrome plated from $97.50. Harder wearing than aluminium, so it suits busy floors, pool surrounds and wet areas.\nPerth metro delivery, or pick up free in Maddington.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/bat-brass-tiling-angle-3m\n\n#perthtiler #tilingtools #perthtradies",
   "link": "https://excellenttilingservices.com/products/bat-brass-tiling-angle-3m",
   "canva_media_id": "MAHb-Qzi7O4",
   "tone": "paper",
   "geom": "inset",
-  "carousel": [],
-  "google_text": "BAT solid brass tiling angle, from $51.95 for a 3 m length.\nA solid brass L angle for tile edges, in natural brass or chrome plated. Harder wearing than aluminium, so it suits busy floors, pool surrounds and wet areas.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/bat-brass-tiling-angle-3m"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/bat-trims-brass-angle.jpg",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/bat-brass-tiling-angle-3m-chrome-plated.jpg"
+  ],
+  "google_text": "BAT solid brass tiling angle, from $51.95 for a 3 m length in natural brass.\nA solid brass L angle for tile edges, 4 to 25 mm. Chrome plated from $97.50. Harder wearing than aluminium, so it suits busy floors, pool surrounds and wet areas.\nPerth metro delivery, or pick up free in Maddington.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/bat-brass-tiling-angle-3m",
+  "feed_file": "out/26.png",
+  "story_file": "stories/26.png"
  },
  {
   "page": 27,
@@ -502,8 +576,13 @@
   "canva_media_id": "MAHb-Yt39UI",
   "tone": "stone",
   "geom": "bleed",
-  "carousel": [],
-  "google_text": "Particle Warm porcelain tile, $60.48 a box. A box covers 1.44 m², so that is $42 per m².\nA cream tile with a fine speckle, like a light sandstone. 300 x 600 mm, matt, with a P5 slip rating for bathroom and alfresco floors.\nPerth metro delivery, or pick up free in Maddington.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/particle-warm-porcelain-tile"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/DSA66SS06.jpg",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/particle-warm-room.png"
+  ],
+  "google_text": "Particle Warm porcelain tile, $60.48 a box. A box covers 1.44 m², so that is $42 per m².\nA cream tile with a fine speckle, like a light sandstone. 300 x 600 mm, matt, with a P5 slip rating for bathroom and alfresco floors.\nPerth metro delivery, or pick up free in Maddington.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/particle-warm-porcelain-tile",
+  "feed_file": "out/27.png",
+  "story_file": "stories/27.png"
  },
  {
   "page": 28,
@@ -520,8 +599,14 @@
   "canva_media_id": "MAHb-dz5imE",
   "tone": "paper",
   "geom": "inset",
-  "carousel": [],
-  "google_text": "MELA Bruno shelf holder, from $219.\nA 478 mm wall shelf in solid brass for the shower or above the basin. Brushed nickel $219, gun metal or brushed brass $249, brushed copper $259.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/mela-bruno-shelf-holder"
+  "carousel": [
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-bruno-shelf-1.png",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-bruno-shelf-3.png",
+   "https://cdn.shopify.com/s/files/1/0683/0292/9983/files/mela-bruno-shelf-holder-brushed-brass-3801118.png"
+  ],
+  "google_text": "MELA Bruno shelf holder, from $219.\nA 478 mm wall shelf in solid brass for the shower or above the basin. Brushed nickel $219, gun metal or brushed brass $249, brushed copper $259.\nWe deliver, or pick up free in Maddington. Shipping options show at checkout.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/mela-bruno-shelf-holder",
+  "feed_file": "out/28.png",
+  "story_file": "stories/28.png"
  },
  {
   "page": 29,
@@ -539,7 +624,9 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "Merry Christmas from all of us at Excellent Tiling Services.\nThank you for building with us this year. We are back packing orders on Wednesday 6 January."
+  "google_text": "Merry Christmas from all of us at Excellent Tiling Services.\nThank you for building with us this year. We are back packing orders on Wednesday 6 January.",
+  "feed_file": "out/29.png",
+  "story_file": "stories/29.png"
  },
  {
   "page": 30,
@@ -557,6 +644,8 @@
   "tone": "paper",
   "geom": "inset",
   "carousel": [],
-  "google_text": "MELA Ellis wall faced rimless toilet suite, $675.\nThe cistern is concealed in the wall and the bowl is rimless. Soft-close seat, WELS 4 star.\nPerth metro delivery, or pick up free in Maddington.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/mela-ellis-rimless-wall-face-cistern-toilet"
+  "google_text": "MELA Ellis wall faced rimless toilet suite, $675.\nThe cistern is concealed in the wall and the bowl is rimless. Soft-close seat, WELS 4 star.\nPerth metro delivery, or pick up free in Maddington.\nWe are closed for Christmas. Orders placed now are packed and shipped from Wednesday 6 January. The showroom stays open by appointment.\nhttps://excellenttilingservices.com/products/mela-ellis-rimless-wall-face-cistern-toilet",
+  "feed_file": "out/30.png",
+  "story_file": "stories/30.png"
  }
 ]
