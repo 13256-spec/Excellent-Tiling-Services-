@@ -34,11 +34,9 @@ pack("prices", parts)
 moved = [rs[0] for rs in byp.values() if rs[0]["new_band"] != rs[0]["old_band"]]
 pack("bands", ['metafieldsSet(metafields: [%s]) { userErrors { field message } }' % ", ".join(
     '{ownerId: "%s", namespace: "ets", key: "trade_band", type: "number_integer", value: "%s"}' % (r["pid"], r["new_band"]) for r in c) for c in chunks(moved, 25)])
-parts = []
-for b, cid in COL.items():
-    rem = [r["pid"] for r in moved if int(r["old_band"]) == b]; add = [r["pid"] for r in moved if int(r["new_band"]) == b]
-    if rem: parts.append('collectionRemoveProducts(id: "%s", productIds: %s) { userErrors { field message } }' % (cid, json.dumps(rem)))
-    if add: parts.append('collectionAddProducts(id: "%s", productIds: %s) { userErrors { field message } }' % (cid, json.dumps(add)))
+# productUpdate collectionsToJoin / collectionsToLeave (collectionAddProducts / collectionRemoveProducts are deprecated in 2026-10)
+parts = ['productUpdate(product: {id: "%s"%s%s}) { userErrors { field message } }' % (r["pid"],
+    ', collectionsToJoin: ["%s"]' % COL[int(r["new_band"])] if int(r["new_band"]) else "", ', collectionsToLeave: ["%s"]' % COL[int(r["old_band"])] if int(r["old_band"]) else "") for r in moved]
 pack("collections", parts)
 # 3 B2B price list: fixed price + compare-at for every banded variant whose public or trade price changed; delete where band is now 0
 ch = lambda r: abs(f(r["new_price"]) - f(r["old_price"])) > 0.004 or r["new_band"] != r["old_band"]
