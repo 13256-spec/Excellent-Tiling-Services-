@@ -44,7 +44,7 @@ Margin is always **(price - cost) / price with both inc GST**, which equals the 
 |---|---|
 | MELA (Bathroom City supplies us) | public price = Bathroom City's current price, never lower. If their clearance is under our floor, we stay at the floor. |
 | Hardware that B&B Hardware (Maddington) also sells | 5% under B&B, rounded down to 5c, never under the floor. ~50 items, matched in `BB_MATCH` in `reprice_2026_10.py`. |
-| Roberts Designs lines | 10% under Roberts' own retail unless a closer competitor is on file (`roberts-designs-pricing.csv`). |
+| Roberts Designs lines (since 26 Nov 2026) | 5% under Roberts' recommended retail inc GST unless a cheaper competitor is on file (5% under B&B, 3% under the web match in `roberts-designs-pricing.csv`). **Floors for these lines: public and trade 30% margin; 25% on items B&B also sells.** Where Roberts' RRP leaves no 30%, sell at RRP (no trade band), never under cost. Script: `roberts_price_list_2026_11.py`. |
 | Eternity tiles | 15% under Eternity RRP, rounded down to 10c (Eternity and WA stockists sell at RRP). |
 | Everything else (BAT, Raimondi, RLA, house brand) | the public target (35%) unless a competitor is on file, then 5% under it. |
 | Competitor clearance below our cost | reported, never matched. |
@@ -59,7 +59,7 @@ Shopify. The 21 Oct 2026 Roberts batch (Baron, Sigma spares) was confirmed inc G
 |---|---|---|---|
 | Tiles (Eternity) | Eternity Tiles | `eternity-price-list-2026-10-05.txt`, "non pallet" price x 1.1 | inc GST |
 | MELA bathroomware | Bathroom City | Bathroom City list x (1 - SILVER discount) (estimate until invoices confirm) | inc GST |
-| Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | trade-account price x 1.1 | inc GST |
+| Roberts Designs, Maxisil, Sigma, Siri, Barwalt, Baron | Roberts Designs | price list effective 18 Nov 2026 (`../supplier-sync/roberts-price-list-2026-11-18.csv`, header "All Prices Exclude GST"), x 1.1 | inc GST |
 | BAT, BAT Trims, Raimondi, Panther, NICLIS, Washboy, Atika, ADA | B.A.T. Trims Pty Ltd | price books (Tools Book 1 May 2026, Raimondi May 2026, Trims Book 1 Aug 2026, Project Trims May 2026), NET x 1.1 | inc GST |
 | Sika, house-brand items | owner's invoice | invoice price inc GST | inc GST |
 | DSA bathroomware, Malaga packages | Eternity/DSA | RRP less 45% account discount, x 1.1 (estimate) | inc GST |
@@ -148,3 +148,5 @@ and price list writes take 25 / 100 items per call. Queries return at most 100 i
 - 23 Oct 2026: Roberts repricing "make money but a tiny bit cheaper than the competitor".
 - 5 Nov 2026: B2B on Shopify Grow; this policy (floors 25/20, caps 20/15/15, one cost basis). Band re-set under it is
   proposed in `reports/trade-band-proposal-2026-11-05.md`, waiting for the owner's approval.
+- 26 Nov 2026: Roberts price list effective 18 Nov applied. Roberts lines only: 5% under Roberts' RRP, public and trade floor
+  30% (25% where B&B also sells it); items whose RRP leaves no 30% sell at RRP. Other suppliers keep the 25/20 floors.
