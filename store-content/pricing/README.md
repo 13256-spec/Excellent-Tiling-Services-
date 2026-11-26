@@ -353,3 +353,26 @@ $0.00, no cost, trade band 0, stock 0 and "stop selling when out of stock", tagg
 B2B scripts until ARDEX sends a price list; then price by the playbook (cost inc GST, 35% target, floors 25%, competitor
 check against Bunnings, Tilers Online, TradieCart and Beaumont where they list ARDEX), set the band, rerun both trade
 scripts and add the rows to the master list. Record: `../supplier-sync/README.md`, "ARDEX Australia range".
+
+## Roberts Designs price list effective 18 Nov 2026: applied (26 Nov 2026, owner's approval "Otherwise, I approve")
+
+Owner supplied Roberts' new list (PDF, header "All Prices Exclude GST"), flattened into
+`../supplier-sync/roberts-price-list-2026-11-18.csv` (1,004 rows: cost, recommended trade, recommended retail, all ex GST).
+`roberts_price_list_2026_11.py` matches it by SKU to the 935 live Roberts-supplied variants and writes
+`reports/roberts-price-list-2026-11-18.{md,csv}` (the exact list applied); `roberts_apply_2026_11.py` turns that into the requests.
+- **Rules chosen by the owner for Roberts lines** ("5% under RRP + 30% floor", "Raise trade floor to 30%"): 5% under Roberts'
+  recommended retail inc GST (5% under B&B Hardware's live price and 3% under the September web match still win where cheaper);
+  public and trade floor 30% margin, 25% on lines B&B also sells. Playbook updated.
+- 909 variants on the list: cost = list x 1.1 (611 up, 105 down). 811 prices up, 82 down; typical margin 41.5%, lowest 25%.
+  26 variants are not on the list (Baron F200/F300 and parts, some Sigma bars and handles, 1500mm gold drain): unchanged.
+- Expansion Aluminium Trim was $38.85 on all 28 sizes, under the new cost ($41.80 to $79.20); now $71.45 and up.
+- "Sell at their RRP" (owner): RDXT712 $11.85, RDXT713b $5.90, RDXA3619 $25.80, RDXT720 $29.70, all under the 30% floor, no trade
+  band. **RDXT112 was not cut**: Roberts' RRP ($14.85) is under the new cost ($19.53), so it stays $28.35 until the owner decides.
+- 43 variants stay dearer than a competitor price on file because that price is under our floor (38 are September web prices, 4 B&B, RDXT112).
+- 107 products changed trade band (`ets.trade_band` + `trade-list-N` via `productUpdate collectionsToJoin/Leave`;
+  `collectionAddProducts`/`collectionRemoveProducts` are deprecated in 2026-10). Bands now: 20% 26, 15% 137, 10% 25, 5% 9, none 68.
+- B2B price list: 772 fixed prices rewritten with compare-at, 47 deleted (band now 0); 959 trade record metafields. No userErrors.
+- Verified by re-reading all 935 variants: price, cost, band, collection, trade login price and compare-at
+  (`contextualPricing` for the test company location) and `custom.trade_price` all match the list.
+- Master list (866 rows updated, 63 added), `../supplier-sync/roberts-designs-pricing.csv` and the three PDFs refreshed.
+- Not done: the September web competitor prices (Tile Mart, Tilers Online and others, 136 variants) were not re-checked.
