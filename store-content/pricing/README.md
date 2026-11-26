@@ -361,9 +361,11 @@ cost, recommended trade, recommended retail). `roberts_price_list_2026_11.py` ma
 variants and writes `reports/roberts-price-list-2026-11-18.{md,csv}`. **Nothing was changed in Shopify.**
 - 909 variants are on the list: cost up on 611, down on 105. 26 are not on it (Baron F200/F300 and parts, some Sigma bars and
   handles, 1500mm gold drain) and stay as they are.
-- Proposed price: 5% under B&B Hardware (live feed, 26 Nov), 3% under the September web match (not re-checked), else 10% under
-  Roberts' recommended retail inc GST; never under the floor (25%, or 20% on lines B&B also sells). 742 up, 95 down.
-- Expansion Aluminium Trim: all 28 sizes sell at $38.85 today, under the new cost ($41.80 to $79.20). Proposed $67.70 to $128.30.
-- 4 items where the list's RRP leaves no margin (RDXT112, RDXT712, RDXT713b, RDXA3619): cost updated, price not cut; ask Roberts.
-- 114 products change trade band (deepest of 20/15/10/5 that keeps every variant at the trade floor).
+- **Rules chosen by the owner, 26 Nov 2026, for Roberts lines** ("5% under RRP + 30% floor", "Raise trade floor to 30%"):
+  5% under Roberts' recommended retail inc GST (5% under B&B Hardware live feed and 3% under the September web match still
+  win where cheaper); public and trade floor 30% margin, 25% on lines B&B also sells. 811 prices up, 79 down; typical margin 41.5%.
+- Expansion Aluminium Trim: all 28 sizes sell at $38.85 today, under the new cost ($41.80 to $79.20). Proposed $71.45 and up.
+- 5 items where the list's RRP leaves no 30% margin (RDXT112, RDXT712, RDXT713b, RDXA3619, RDXT720): cost updated, price not
+  cut, sits above RRP; ask Roberts.
+- 104 products change trade band (deepest of 20/15/10/5 that keeps every variant at the trade floor); 65 end with no trade discount.
 - To apply after approval: playbook section 5 (prices and costs, bands and collections, both trade scripts, master list, PDFs).

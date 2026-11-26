@@ -8,10 +8,11 @@ Reads ../supplier-sync/roberts-price-list-2026-11-18.csv (the supplier PDF, ex G
 reports/roberts-price-list-2026-11-18.{csv,md}.
 
 Rules (PRICING-PLAYBOOK.md v2): cost = list price x 1.1. Public price = a little under the cheapest competitor on file
-(5% under B&B Hardware, 3% under the September web match, else 10% under Roberts' recommended retail inc GST), rounded
-down to 5c, never under the floor (25% margin; 20% on lines B&B also sells). Band = deepest of 20/15/10/5 that keeps
+(5% under B&B Hardware, 3% under the September web match, else 5% under Roberts' recommended retail inc GST), rounded
+down to 5c, never under the floor (30% margin; 25% on lines B&B also sells). Owner's choice 26 Nov 2026 for Roberts lines:
+"5% under RRP + 30% floor", "Raise trade floor to 30%" (the playbook's general floors are 25/20). Band = deepest of 20/15/10/5 that keeps
 every variant of the product at the trade floor (products with no cost or price change keep their band). Variants not on
-the list keep their price and cost. Where the list's RRP leaves no 25% margin the cost is updated and the price is not cut.
+the list keep their price and cost. Where the list's RRP leaves no 30% margin the cost is updated and the price is not cut.
 """
 import csv, glob, json, math, os, re, sys, collections
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
@@ -50,11 +51,11 @@ for v in V.values():
     if s.get("market_source", "roberts-list") != "roberts-list" and s.get("market_price_used"):
         cands.append((float(s["market_price_used"]), s["market_source"].replace("web:", "").replace("match:", "") + " (Sep)", 0.97))
     rrp = round(float(L["rec_retail_ex"]) * 1.1, 2) if L else None
-    if rrp: cands.append((rrp, "Roberts RRP", 0.90))
-    fm = 0.80 if bbline else 0.75                           # floor margin: price-matched lines 20%, else 25%
+    if rrp: cands.append((rrp, "Roberts RRP", 0.95))
+    fm = 0.75 if bbline else 0.70                           # floor margin, public and trade: lines B&B also sells 25%, else 30%
     floor = up(new_cost / fm) if new_cost else None
     comp = who = target = None; note = ""
-    if L and rrp <= floor:                                  # list looks wrong (RRP leaves no 25% margin): cost updated, price not cut
+    if L and rrp <= floor:                                  # list looks wrong (RRP leaves no 30% margin): cost updated, price not cut
         comp, who = rrp, "Roberts RRP"; proposed = max(price, floor); note = "list RRP at or under our floor: ask Roberts; price kept above RRP"
     elif L:
         comp, who, k = min(cands); target = dn(comp * k); proposed = max(floor, target)
