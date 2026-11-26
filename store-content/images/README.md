@@ -20,3 +20,17 @@ The remaining 271 products (653 images) are in the plan but not applied; the own
 The product page gallery itself was tidied in the theme (`assets/ets-refine.css`, draft "ETS 2026 - Product gallery"):
 framed white photo box with rounded corners, gallery column capped at 620 px on desktop so the details column gets its
 share, and the frame height capped so the photo is never cut off at the bottom of the screen.
+
+# Maxisil Wet Area Silicone: a photo and colour code for every colour (23 Nov 2026)
+
+Product 8403247857727 had 41 colours but only 5 colour photos, none linked to a colour. Now every colour has its own
+tube-and-colour photo (36 added from the Roberts Designs site, same series as the 5 already there) and picking a colour
+shows its photo. The colour names now carry the Maxisil code, for example "White A2", "Mocha A60", "Matte Black A85",
+so customers can search or ask by code. Codes were checked against maxisil.com.au. Photo alt text reads
+"Maxisil Wet Area Silicone A2 White". No price, SKU or stock change.
+
+`maxisil-wet-area-colours-2026-11-23.json` lists each variant, SKU, old name, code, new name, photo and source URL. To
+undo the names, set each option value back to the `colour` field.
+
+The trade price list PDF still prints the old colour names until `b2b_price_list_2026_11.py` is next rerun. Not done:
+Natural Stone (N codes) and Pool (P codes) have the photos already but they are not linked to colours or coded.
